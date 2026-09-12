@@ -1,0 +1,28 @@
+name: EnglishApp
+options:
+  bundleIdPrefix: com.niinova22.englishapp
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  LearningEngine:
+    path: ../LearningEngine
+targets:
+  EnglishApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Sources/EnglishApp
+    dependencies:
+      - package: LearningEngine
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.niinova22.englishapp
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "English App"
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.10"
