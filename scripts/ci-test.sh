@@ -9,9 +9,24 @@
 # Usage: scripts/ci-test.sh
 set -euo pipefail
 
-GH="/c/Program Files/GitHub CLI/gh.exe"
+# Portable gh lookup: prefer PATH, fall back to a couple of known Windows
+# install locations rather than assuming any single developer's machine.
+GH="${GH:-$(command -v gh || true)}"
+if [ -z "$GH" ] && [ -x "/c/Program Files/GitHub CLI/gh.exe" ]; then
+  GH="/c/Program Files/GitHub CLI/gh.exe"
+fi
+if [ -z "$GH" ]; then
+  echo "FAIL: gh CLI not found. Install it or set GH=/path/to/gh" >&2
+  exit 1
+fi
+
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 SHA=$(git rev-parse HEAD)
+
+if ! git diff --quiet || ! git diff --cached --quiet; then
+  echo "FAIL: uncommitted changes present — commit before running (this script tests HEAD, not your working tree)" >&2
+  exit 1
+fi
 
 echo "Pushing $BRANCH ($SHA) ..."
 git push -u origin "$BRANCH"

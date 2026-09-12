@@ -13,10 +13,9 @@ final class FSRSWeightsTests: XCTestCase {
         XCTAssertEqual(w[20], 0.1542, accuracy: 1e-9)
     }
 
-    func test_init_rejectsWrongLength() {
-        // FSRSWeights.init is not failable; document the invariant via
-        // precondition instead — this test only exercises the happy path
-        // for a custom (non-default) 21-length array.
+    func test_init_acceptsCustom21LengthArray() {
+        // FSRSWeights.init is not failable; this test only exercises the
+        // happy path of constructing a custom (non-default) 21-length array.
         let custom = FSRSWeights(values: Array(repeating: 1.0, count: 21))
         XCTAssertEqual(custom.values.count, 21)
     }

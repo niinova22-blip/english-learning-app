@@ -12,7 +12,8 @@ public struct FSRSStateStore: Sendable {
         rating: FSRSRating,
         now: Date,
         in context: ModelContext,
-        scheduler: FSRSScheduler
+        scheduler: FSRSScheduler,
+        reactionTimeMs: Int = 0
     ) throws -> UserItemState {
         let stateID = "\(userID)_\(itemID)"
         let descriptor = FetchDescriptor<UserItemState>(predicate: #Predicate { $0.id == stateID })
@@ -41,7 +42,7 @@ public struct FSRSStateStore: Sendable {
             context.insert(state)
         }
 
-        let log = ReviewLog(userID: userID, itemID: itemID, rating: rating, reviewedAt: now)
+        let log = ReviewLog(userID: userID, itemID: itemID, rating: rating, reviewedAt: now, reactionTimeMs: reactionTimeMs)
         context.insert(log)
         try context.save()
         return state
