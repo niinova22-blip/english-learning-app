@@ -45,8 +45,14 @@ struct TodayView: View {
             SessionSummaryView(reviewedCount: reviewedCount, onDone: resetSession)
         } else if items.isEmpty {
             ContentUnavailableView("Nothing due right now", systemImage: "checkmark.circle")
-        } else if currentIndex < items.count {
+        } else if currentIndex < items.count, !items[currentIndex].isDeleted {
             itemCard(items[currentIndex])
+        } else if currentIndex < items.count {
+            // The current item's underlying model was deleted out from under us
+            // (e.g. a data reset happened while this session was in progress).
+            // Don't touch it — treat it like the end of the queue and let the
+            // pending reload (triggered by AppState.dataGeneration) take over.
+            ProgressView()
         } else {
             ProgressView()
         }
