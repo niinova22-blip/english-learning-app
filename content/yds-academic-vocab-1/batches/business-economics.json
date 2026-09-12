@@ -1,0 +1,478 @@
+{
+  "id": "yds-vocab1-unit-business-economics",
+  "theme": "Business & Economics",
+  "order": 0,
+  "lessons": [
+    {
+      "id": "yds-vocab1-lesson-business-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-economy",
+          "type": "vocabulary",
+          "headword": "economy",
+          "frequencyRank": 19,
+          "baseDifficulty": 0.2,
+          "definition": "The overall system through which a country or region produces, exchanges, and manages goods, services, and wealth.",
+          "exampleSentences": [
+            "Turkey's economy expanded at its fastest pace in three years, fueled by strong exports.",
+            "A sudden spike in oil prices can ripple through the entire economy.",
+            "Economists disagree on how quickly the economy will recover from the recession."
+          ],
+          "translationTR": "ekonomi",
+          "collocations": ["a growing economy", "boost the economy", "the global economy"]
+        },
+        {
+          "id": "yds-vocab1-item-finance",
+          "type": "vocabulary",
+          "headword": "finance",
+          "frequencyRank": 26,
+          "baseDifficulty": 0.25,
+          "definition": "The management of money, investments, and credit, especially by governments, companies, or individuals.",
+          "exampleSentences": [
+            "She left law to pursue a career in corporate finance.",
+            "The startup struggled to secure finance for its expansion plans.",
+            "Public finance decisions made today will shape the national budget for decades."
+          ],
+          "translationTR": "finans, mali işler",
+          "collocations": ["raise finance", "corporate finance", "personal finance"]
+        },
+        {
+          "id": "yds-vocab1-item-income",
+          "type": "vocabulary",
+          "headword": "income",
+          "frequencyRank": 30,
+          "baseDifficulty": 0.3,
+          "definition": "Money that a person, household, or organization regularly receives from work, investments, or other sources.",
+          "exampleSentences": [
+            "Households with a low income spend a larger share of their earnings on food.",
+            "Rental properties can provide a steady stream of income.",
+            "The tax reform mainly benefits people in the middle-income bracket."
+          ],
+          "translationTR": "gelir",
+          "collocations": ["disposable income", "a source of income", "low/high income"]
+        },
+        {
+          "id": "yds-vocab1-item-percent",
+          "type": "vocabulary",
+          "headword": "percent",
+          "frequencyRank": 42,
+          "baseDifficulty": 0.15,
+          "definition": "A proportion or rate expressed as a fraction of one hundred, commonly used to describe change, share, or comparison.",
+          "exampleSentences": [
+            "Unemployment fell by two percent over the past year.",
+            "Only thirty percent of respondents supported the new tax policy.",
+            "The company's profits rose ten percent compared with the previous quarter."
+          ],
+          "translationTR": "yüzde",
+          "collocations": ["rise/fall by X percent", "a percent of", "percent increase"]
+        },
+        {
+          "id": "yds-vocab1-item-sector",
+          "type": "vocabulary",
+          "headword": "sector",
+          "frequencyRank": 53,
+          "baseDifficulty": 0.3,
+          "definition": "A distinct area or branch of economic activity, such as manufacturing, agriculture, or services.",
+          "exampleSentences": [
+            "Job growth in the technology sector has outpaced the rest of the economy.",
+            "The government introduced subsidies to support the struggling agricultural sector.",
+            "Investors are shifting funds from the energy sector into healthcare."
+          ],
+          "translationTR": "sektör",
+          "collocations": ["private sector", "public sector", "the manufacturing sector"]
+        },
+        {
+          "id": "yds-vocab1-item-contract",
+          "type": "vocabulary",
+          "headword": "contract",
+          "frequencyRank": 13,
+          "baseDifficulty": 0.4,
+          "definition": "A legally binding agreement between two or more parties that sets out specific obligations and terms.",
+          "exampleSentences": [
+            "The two companies signed a five-year supply contract worth millions of dollars.",
+            "Her contract includes a clause preventing her from joining a rival firm.",
+            "The firm was awarded the government contract after a competitive tender."
+          ],
+          "translationTR": "sözleşme",
+          "collocations": ["sign a contract", "breach a contract", "award a contract"]
+        },
+        {
+          "id": "yds-vocab1-item-export",
+          "type": "vocabulary",
+          "headword": "export",
+          "frequencyRank": 24,
+          "baseDifficulty": 0.3,
+          "definition": "A good or service produced in one country and sold to buyers in another.",
+          "exampleSentences": [
+            "Machinery and textiles remain the country's largest exports.",
+            "The weaker currency made exports more competitive on world markets.",
+            "The government offered tax incentives to firms that increased their exports."
+          ],
+          "translationTR": "ihracat, ihraç malı",
+          "collocations": ["export earnings", "boost exports", "export market"]
+        },
+        {
+          "id": "yds-vocab1-item-distribute",
+          "type": "vocabulary",
+          "headword": "distribute",
+          "frequencyRank": 18,
+          "baseDifficulty": 0.35,
+          "definition": "To supply goods, products, or resources to different people, places, or outlets.",
+          "exampleSentences": [
+            "The company distributes its products to retailers across Europe through a single warehouse.",
+            "Profits were distributed among shareholders at the end of the fiscal year.",
+            "Aid agencies struggled to distribute supplies to remote areas after the flood."
+          ],
+          "translationTR": "dağıtmak",
+          "collocations": ["distribute goods", "distribute profits", "widely distributed"]
+        },
+        {
+          "id": "yds-vocab1-item-labour",
+          "type": "vocabulary",
+          "headword": "labour",
+          "frequencyRank": 36,
+          "baseDifficulty": 0.3,
+          "definition": "Physical or mental work, especially the workforce considered as a whole in relation to production and employment.",
+          "exampleSentences": [
+            "Rising wages have pushed many manufacturers to look for cheaper labour abroad.",
+            "The construction industry depends heavily on skilled labour.",
+            "Automation has reduced the demand for manual labour in factories."
+          ],
+          "translationTR": "işgücü, emek",
+          "collocations": ["cheap labour", "labour costs", "skilled labour"]
+        },
+        {
+          "id": "yds-vocab1-item-policy",
+          "type": "vocabulary",
+          "headword": "policy",
+          "frequencyRank": 44,
+          "baseDifficulty": 0.4,
+          "definition": "A course of action or set of principles adopted by a government, institution, or company to guide decisions.",
+          "exampleSentences": [
+            "The central bank tightened monetary policy to curb inflation.",
+            "Under the new return policy, customers have thirty days to request a refund.",
+            "Critics argue the policy favours large corporations over small businesses."
+          ],
+          "translationTR": "politika, ilke",
+          "collocations": ["monetary/fiscal policy", "company policy", "adopt a policy"]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-lesson-business-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-major",
+          "type": "vocabulary",
+          "headword": "major",
+          "frequencyRank": 39,
+          "baseDifficulty": 0.25,
+          "definition": "Of great importance, size, or seriousness, especially when contrasted with something smaller or less significant.",
+          "exampleSentences": [
+            "The merger created one of the major players in the airline industry.",
+            "There was a major shift in consumer spending after the price hikes.",
+            "Losing its biggest client was a major setback for the firm."
+          ],
+          "translationTR": "başlıca, büyük ölçekli",
+          "collocations": ["a major player", "major setback", "major shift"]
+        },
+        {
+          "id": "yds-vocab1-item-source",
+          "type": "vocabulary",
+          "headword": "source",
+          "frequencyRank": 56,
+          "baseDifficulty": 0.3,
+          "definition": "The place, person, or thing from which something originates or is obtained.",
+          "exampleSentences": [
+            "Tourism is the country's main source of foreign currency.",
+            "The report failed to disclose the source of its funding.",
+            "Renewable energy is becoming an increasingly important source of power."
+          ],
+          "translationTR": "kaynak",
+          "collocations": ["a source of income", "reliable source", "energy source"]
+        },
+        {
+          "id": "yds-vocab1-item-benefit",
+          "type": "vocabulary",
+          "headword": "benefit",
+          "frequencyRank": 8,
+          "baseDifficulty": 0.25,
+          "definition": "An advantage, profit, or positive outcome gained from something, or a payment provided to support someone.",
+          "exampleSentences": [
+            "Employees at the firm receive health insurance as part of their benefits package.",
+            "The tax cut is expected to benefit small businesses the most.",
+            "Analysts questioned whether the merger would truly benefit shareholders."
+          ],
+          "translationTR": "fayda, yardım",
+          "collocations": ["employee benefits", "benefit from", "mutual benefit"]
+        },
+        {
+          "id": "yds-vocab1-item-factor",
+          "type": "vocabulary",
+          "headword": "factor",
+          "frequencyRank": 25,
+          "baseDifficulty": 0.35,
+          "definition": "One of several elements or circumstances that contributes to a particular result or decision.",
+          "exampleSentences": [
+            "Rising fuel costs were a major factor behind the airline's losses.",
+            "When choosing a supplier, price is rarely the only factor considered.",
+            "Weather conditions can be a decisive factor in agricultural output."
+          ],
+          "translationTR": "etken, faktör",
+          "collocations": ["a key factor", "contributing factor", "risk factor"]
+        },
+        {
+          "id": "yds-vocab1-item-function",
+          "type": "vocabulary",
+          "headword": "function",
+          "frequencyRank": 28,
+          "baseDifficulty": 0.4,
+          "definition": "The particular purpose, role, or activity that something is designed or expected to perform.",
+          "exampleSentences": [
+            "The finance department's main function is to manage the company's cash flow.",
+            "This software's core function is to automate payroll processing.",
+            "As inflation rises, the function of the central bank becomes more critical."
+          ],
+          "translationTR": "işlev, görev",
+          "collocations": ["serve a function", "key function", "function properly"]
+        },
+        {
+          "id": "yds-vocab1-item-achieve",
+          "type": "vocabulary",
+          "headword": "achieve",
+          "frequencyRank": 61,
+          "baseDifficulty": 0.35,
+          "definition": "To successfully reach a goal or produce a desired result, usually through effort or skill.",
+          "exampleSentences": [
+            "The company achieved record profits despite the economic downturn.",
+            "It took the team five years to achieve full compliance with the new regulations.",
+            "Few startups achieve profitability within their first year."
+          ],
+          "translationTR": "başarmak, elde etmek",
+          "collocations": ["achieve a goal", "achieve success", "achieve growth"]
+        },
+        {
+          "id": "yds-vocab1-item-acquire",
+          "type": "vocabulary",
+          "headword": "acquire",
+          "frequencyRank": 62,
+          "baseDifficulty": 0.45,
+          "definition": "To obtain or gain possession of something, often through purchase, effort, or a formal process.",
+          "exampleSentences": [
+            "The tech giant acquired its smaller rival for two billion dollars.",
+            "New employees are expected to acquire the necessary skills within their first month.",
+            "The firm acquired a majority stake in the local distributor."
+          ],
+          "translationTR": "edinmek, satın almak (şirket vb.)",
+          "collocations": ["acquire a company", "acquire skills", "acquire a stake"]
+        },
+        {
+          "id": "yds-vocab1-item-commission",
+          "type": "vocabulary",
+          "headword": "commission",
+          "frequencyRank": 70,
+          "baseDifficulty": 0.55,
+          "definition": "A payment made to someone based on the value of sales or business they generate, or an official body assigned a specific task.",
+          "exampleSentences": [
+            "Real estate agents typically earn a commission of a few percent on each sale.",
+            "The government set up a commission to investigate the banking scandal.",
+            "Sales staff are motivated by commission rather than a fixed salary."
+          ],
+          "translationTR": "komisyon (ücreti), kurul",
+          "collocations": ["earn commission", "commission rate", "set up a commission"]
+        },
+        {
+          "id": "yds-vocab1-item-consume",
+          "type": "vocabulary",
+          "headword": "consume",
+          "frequencyRank": 78,
+          "baseDifficulty": 0.45,
+          "definition": "To use up a resource, or to buy and make use of goods and services.",
+          "exampleSentences": [
+            "Heavy industry consumes a significant share of the country's electricity.",
+            "Households are consuming less as prices continue to rise.",
+            "The factory's new machines consume far less fuel than the old ones."
+          ],
+          "translationTR": "tüketmek",
+          "collocations": ["consume energy", "consume resources", "consume goods"]
+        },
+        {
+          "id": "yds-vocab1-item-credit",
+          "type": "vocabulary",
+          "headword": "credit",
+          "frequencyRank": 79,
+          "baseDifficulty": 0.5,
+          "definition": "The ability to borrow money or obtain goods on the understanding that payment will follow later, or an amount added to an account.",
+          "exampleSentences": [
+            "Small businesses often rely on bank credit to manage cash flow.",
+            "Her credit rating improved after she paid off her outstanding loans.",
+            "The supplier agreed to extend credit for another thirty days."
+          ],
+          "translationTR": "kredi, itibar",
+          "collocations": ["extend credit", "credit rating", "on credit"]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-lesson-business-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-invest",
+          "type": "vocabulary",
+          "headword": "invest",
+          "frequencyRank": 92,
+          "baseDifficulty": 0.35,
+          "definition": "To commit money, time, or resources into something with the expectation of future profit or benefit.",
+          "exampleSentences": [
+            "The firm plans to invest heavily in renewable energy over the next decade.",
+            "Many young professionals are choosing to invest in the stock market rather than save cash.",
+            "Investing in staff training often pays off in higher productivity."
+          ],
+          "translationTR": "yatırım yapmak",
+          "collocations": ["invest in", "invest heavily", "invest capital"]
+        },
+        {
+          "id": "yds-vocab1-item-purchase",
+          "type": "vocabulary",
+          "headword": "purchase",
+          "frequencyRank": 104,
+          "baseDifficulty": 0.35,
+          "definition": "To buy something, or the act of buying, typically used in more formal or written contexts than 'buy.'",
+          "exampleSentences": [
+            "The company purchased new equipment to modernize its production line.",
+            "Customers who purchase in bulk receive a discount.",
+            "The museum's latest purchase was a rare eighteenth-century painting."
+          ],
+          "translationTR": "satın almak, satın alma",
+          "collocations": ["purchasing power", "make a purchase", "purchase agreement"]
+        },
+        {
+          "id": "yds-vocab1-item-resource",
+          "type": "vocabulary",
+          "headword": "resource",
+          "frequencyRank": 110,
+          "baseDifficulty": 0.4,
+          "definition": "An asset, material, or supply that can be used to achieve a goal or support an activity.",
+          "exampleSentences": [
+            "The country's natural resources include oil, gas, and minerals.",
+            "Managers must allocate limited resources across competing projects.",
+            "Human resources are often a company's most valuable asset."
+          ],
+          "translationTR": "kaynak",
+          "collocations": ["natural resources", "allocate resources", "human resources"]
+        },
+        {
+          "id": "yds-vocab1-item-strategy",
+          "type": "vocabulary",
+          "headword": "strategy",
+          "frequencyRank": 116,
+          "baseDifficulty": 0.4,
+          "definition": "A carefully devised plan of action designed to achieve a long-term goal.",
+          "exampleSentences": [
+            "The board approved a new marketing strategy aimed at younger consumers.",
+            "Without a clear pricing strategy, the company struggled to compete.",
+            "Analysts questioned whether the firm's expansion strategy was too risky."
+          ],
+          "translationTR": "strateji",
+          "collocations": ["develop a strategy", "marketing strategy", "exit strategy"]
+        },
+        {
+          "id": "yds-vocab1-item-survey",
+          "type": "vocabulary",
+          "headword": "survey",
+          "frequencyRank": 117,
+          "baseDifficulty": 0.45,
+          "definition": "A method of gathering information or opinions from a sample of people, or a general examination of a situation.",
+          "exampleSentences": [
+            "A recent survey found that most employees prefer flexible working hours.",
+            "The firm conducted a customer satisfaction survey after the product launch.",
+            "Economists rely on business surveys to gauge confidence in the sector."
+          ],
+          "translationTR": "anket, araştırma",
+          "collocations": ["conduct a survey", "survey results", "carry out a survey"]
+        },
+        {
+          "id": "yds-vocab1-item-transfer",
+          "type": "vocabulary",
+          "headword": "transfer",
+          "frequencyRank": 120,
+          "baseDifficulty": 0.4,
+          "definition": "To move something, such as money, staff, or ownership, from one place, account, or person to another.",
+          "exampleSentences": [
+            "The bank transferred the funds to the wrong account by mistake.",
+            "She was transferred to the company's Istanbul office after her promotion.",
+            "Ownership of the property will transfer once the final payment is made."
+          ],
+          "translationTR": "transfer etmek, aktarmak",
+          "collocations": ["transfer funds", "bank transfer", "transfer ownership"]
+        },
+        {
+          "id": "yds-vocab1-item-administrate",
+          "type": "vocabulary",
+          "headword": "administrate",
+          "frequencyRank": 63,
+          "baseDifficulty": 0.6,
+          "definition": "To manage and oversee the operations, organization, or affairs of a company, institution, or system.",
+          "exampleSentences": [
+            "A separate department administrates employee pension funds.",
+            "The new software helps administrate payroll for over a thousand staff.",
+            "It takes a dedicated team to administrate such a complex supply chain."
+          ],
+          "translationTR": "yönetmek, idare etmek",
+          "collocations": ["administrate a program", "administrate funds", "administrate a system"]
+        },
+        {
+          "id": "yds-vocab1-item-impact",
+          "type": "vocabulary",
+          "headword": "impact",
+          "frequencyRank": 89,
+          "baseDifficulty": 0.45,
+          "definition": "A significant effect or influence that one thing has on another, often used in evaluating outcomes or consequences.",
+          "exampleSentences": [
+            "The new tariffs had a severe impact on small exporters.",
+            "Researchers are studying the long-term impact of automation on employment.",
+            "The marketing campaign made little impact on overall sales."
+          ],
+          "translationTR": "etki",
+          "collocations": ["have an impact on", "negative/positive impact", "impact assessment"]
+        },
+        {
+          "id": "yds-vocab1-item-secure",
+          "type": "vocabulary",
+          "headword": "secure",
+          "frequencyRank": 112,
+          "baseDifficulty": 0.5,
+          "definition": "To obtain or guarantee something, often after effort or negotiation, or to make something safe and protected.",
+          "exampleSentences": [
+            "The company secured a major contract with a European retailer.",
+            "Investors want assurances that their deposits are secure.",
+            "She secured funding for her startup after months of pitching to investors."
+          ],
+          "translationTR": "güvence altına almak, elde etmek",
+          "collocations": ["secure funding", "secure a contract", "secure a loan"]
+        },
+        {
+          "id": "yds-vocab1-item-item",
+          "type": "vocabulary",
+          "headword": "item",
+          "frequencyRank": 93,
+          "baseDifficulty": 0.2,
+          "definition": "A single article, product, or point listed or considered separately within a larger set.",
+          "exampleSentences": [
+            "The store had to discount several items that failed to sell before the holidays.",
+            "Salary was the first item on the agenda at the negotiation meeting.",
+            "Each item on the invoice must match the delivery receipt."
+          ],
+          "translationTR": "madde, kalem, ürün",
+          "collocations": ["line item", "item on the agenda", "a single item"]
+        }
+      ]
+    }
+  ]
+}
