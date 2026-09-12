@@ -66,7 +66,7 @@
             "The company's profits rose ten percent compared with the previous quarter."
           ],
           "translationTR": "yüzde",
-          "collocations": ["rise/fall by X percent", "a percent of", "percent increase"]
+          "collocations": ["rise/fall by X percent", "percent of", "percent increase"]
         },
         {
           "id": "yds-vocab1-item-sector",
@@ -312,7 +312,7 @@
             "Her credit rating improved after she paid off her outstanding loans.",
             "The supplier agreed to extend credit for another thirty days."
           ],
-          "translationTR": "kredi, itibar",
+          "translationTR": "kredi, alacak",
           "collocations": ["extend credit", "credit rating", "on credit"]
         }
       ]
@@ -425,7 +425,7 @@
             "It takes a dedicated team to administrate such a complex supply chain."
           ],
           "translationTR": "yönetmek, idare etmek",
-          "collocations": ["administrate a program", "administrate funds", "administrate a system"]
+          "collocations": ["administrate a pension fund"]
         },
         {
           "id": "yds-vocab1-item-impact",
@@ -454,7 +454,7 @@
             "Investors want assurances that their deposits are secure.",
             "She secured funding for her startup after months of pitching to investors."
           ],
-          "translationTR": "güvence altına almak, elde etmek",
+          "translationTR": "güvence altına almak, elde etmek, güvenli",
           "collocations": ["secure funding", "secure a contract", "secure a loan"]
         },
         {
