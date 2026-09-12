@@ -89,9 +89,7 @@ struct TodayView: View {
     }
 
     private func headword(for item: LearningItem) -> String {
-        item.id
-            .replacingOccurrences(of: "sample-item-", with: "")
-            .replacingOccurrences(of: "-", with: " ")
+        item.content?.headword ?? item.id
     }
 
     private func ratingButton(_ title: String, _ rating: FSRSRating, color: Color) -> some View {

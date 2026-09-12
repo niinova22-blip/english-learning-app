@@ -19,6 +19,7 @@ final class ContentModelTests: XCTestCase {
         let item = LearningItem(id: "item-serendipity", type: .vocabulary, frequencyRank: 4821, baseDifficulty: 0.6)
         let content = ItemContent(
             id: "content-serendipity",
+            headword: "serendipity",
             definition: "a pleasant surprise found by chance",
             exampleSentences: ["Meeting her was pure serendipity."],
             translationTR: "tesadüfi mutluluk",

@@ -36,6 +36,7 @@ public enum ContentImporter {
                     let item = LearningItem(id: itemDoc.id, type: type, frequencyRank: itemDoc.frequencyRank, baseDifficulty: itemDoc.baseDifficulty)
                     let content = ItemContent(
                         id: "\(itemDoc.id)-content",
+                        headword: itemDoc.headword,
                         definition: itemDoc.definition,
                         exampleSentences: itemDoc.exampleSentences,
                         translationTR: itemDoc.translationTR,

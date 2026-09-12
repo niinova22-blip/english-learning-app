@@ -52,7 +52,7 @@ public enum SampleContent {
     private static func item(_ headword: String, _ type: LearningItemType, frequencyRank: Int, definition: String, examples: [String], tr: String, collocations: [String]) -> LearningItem {
         let id = "sample-item-\(headword.lowercased().replacingOccurrences(of: " ", with: "-"))"
         let learningItem = LearningItem(id: id, type: type, frequencyRank: frequencyRank, baseDifficulty: Double(frequencyRank) / 5000.0)
-        let content = ItemContent(id: "\(id)-content", definition: definition, exampleSentences: examples, translationTR: tr, collocations: collocations)
+        let content = ItemContent(id: "\(id)-content", headword: headword, definition: definition, exampleSentences: examples, translationTR: tr, collocations: collocations)
         learningItem.content = content
         content.item = learningItem
         return learningItem

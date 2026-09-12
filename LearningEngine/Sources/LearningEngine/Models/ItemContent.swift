@@ -4,6 +4,7 @@ import SwiftData
 @Model
 public final class ItemContent {
     @Attribute(.unique) public var id: String
+    public var headword: String
     public var definition: String
     public var exampleSentences: [String]
     public var translationTR: String
@@ -15,6 +16,7 @@ public final class ItemContent {
 
     public init(
         id: String,
+        headword: String,
         definition: String,
         exampleSentences: [String],
         translationTR: String,
@@ -24,6 +26,7 @@ public final class ItemContent {
         imageURL: URL? = nil
     ) {
         self.id = id
+        self.headword = headword
         self.definition = definition
         self.exampleSentences = exampleSentences
         self.translationTR = translationTR
