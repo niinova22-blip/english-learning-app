@@ -38,3 +38,21 @@ jobs:
             -scheme EnglishApp \
             -destination 'platform=iOS Simulator,name=iPhone 17' \
             CODE_SIGNING_ALLOWED=NO
+      - name: Build unsigned .ipa for sideloading
+        if: github.event_name == 'workflow_dispatch' && inputs.export_ipa
+        run: |
+          xcodebuild archive \
+            -project EnglishApp.xcodeproj \
+            -scheme EnglishApp \
+            -archivePath build/EnglishApp.xcarchive \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGNING_ALLOWED=NO
+          mkdir -p build/Payload
+          cp -R build/EnglishApp.xcarchive/Products/Applications/EnglishApp.app build/Payload/
+          cd build && zip -r EnglishApp.ipa Payload
+      - name: Upload .ipa artifact
+        if: github.event_name == 'workflow_dispatch' && inputs.export_ipa
+        uses: actions/upload-artifact@v4
+        with:
+          name: EnglishApp-unsigned
+          path: App/build/EnglishApp.ipa
