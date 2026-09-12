@@ -12,7 +12,8 @@
 
 ## Global Constraints
 
-- Package must build and all tests must pass via `swift test` with no simulator (`swift-tools-version: 5.10`, platform `.iOS(.v17)`).
+- **This machine cannot run `swift test` locally** (Windows, no Swift toolchain, and SwiftData is Apple-only regardless). Verification runs on GitHub Actions `macos-latest` instead. Wherever a task step says `Run: cd LearningEngine && swift test ...`, run `bash scripts/ci-test.sh` from the repo root instead — it commits are expected to already be made, then it pushes the current branch and streams the real `swift test` result from CI (~2-4 min). Treat its PASS/FAIL exactly as you would a local `swift test` result. `--filter` scoping isn't available through this path; the full suite runs every time, which is fine at this project's size.
+- Package must build and all tests must pass via `swift test` (run through `scripts/ci-test.sh`, see above), with no simulator (`swift-tools-version: 5.10`, platform `.iOS(.v17)`).
 - No UIKit/SwiftUI/Combine imports anywhere in `Sources/LearningEngine`.
 - No network calls, no LLM calls, no media playback in this slice.
 - FSRS implementation is FSRS-6 (21 parameters), matching `open-spaced-repetition/py-fsrs` `fsrs/scheduler.py` exactly — see reference formulas embedded in Task 3/4 steps below, verified against that source on 2026-09-12.
@@ -711,6 +712,7 @@ git commit -m "Add SwiftData content model (package/unit/lesson/item/content)"
 - Create: `LearningEngine/Sources/LearningEngine/Models/ReviewLog.swift`
 - Create: `LearningEngine/Sources/LearningEngine/Models/UserItemState.swift`
 - Create: `LearningEngine/Sources/LearningEngine/FSRS/FSRSStateStore.swift`
+- Modify: `LearningEngine/Sources/LearningEngine/FSRS/FSRSRating.swift` (add `Codable` conformance, see Step 4)
 - Test: `LearningEngine/Tests/LearningEngineTests/FSRSStateStoreTests.swift`
 
 **Interfaces:**
