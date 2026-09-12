@@ -107,13 +107,22 @@ standard now used by Anki and referenced by open-source implementations
 notes. That sketch is closer to SM-2 and was explicitly rejected in
 favor of real FSRS during design.
 
-Because FSRS's weight parameters are numerous and versioned (FSRS-4.5
-vs FSRS-6 differ), the implementation step should pull the authoritative
-formulas and a default weight set directly from the official FSRS
-reference (e.g. the `open-spaced-repetition` GitHub org) at
-implementation time, and verify the Swift port against that reference
-implementation's published test vectors rather than hand-transcribing
-constants into this spec.
+Resolved during planning: the implementation targets **FSRS-6** (21
+parameters), matching the current reference implementation at
+`open-spaced-repetition/py-fsrs` (`fsrs/scheduler.py`), fetched and
+verified directly from source rather than transcribed from memory. The
+default parameter array, the initial-stability/initial-difficulty
+formulas, the difficulty mean-reversion update, the post-review and
+post-lapse stability formulas, and the retrievability/interval formulas
+(driven by a decay/factor pair derived from parameter 20) all follow
+that reference exactly. The implementation plan
+(`docs/superpowers/plans/2026-09-12-learning-engine.md`) embeds the
+verified default weights and hand-computed reference vectors used as
+TDD test fixtures. FSRS-6's short-term/same-day stability formula
+(parameters 17–19) is intentionally not implemented in this slice,
+since the product's daily-loop model reviews each item at most once
+per day — noted here so it isn't lost if same-day re-review is added
+later.
 
 `FSRSScheduler` also exposes retrievability `R(t)` for a given state,
 which the interleaving scheduler uses to prioritize "at risk of being
