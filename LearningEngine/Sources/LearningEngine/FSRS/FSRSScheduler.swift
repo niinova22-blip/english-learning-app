@@ -31,16 +31,27 @@ public struct FSRSScheduler: Sendable {
         let w = weights.values
         let newCard: FSRSCard
         if let card, card.reps > 0 {
+            // IMPORTANT: both stability formulas below must use card.difficulty
+            // (the OLD, pre-review difficulty), never the new one computed after
+            // this block. The real py-fsrs reference computes stability first
+            // from the old difficulty, then updates difficulty afterward —
+            // verified directly against open-spaced-repetition/py-fsrs
+            // scheduler.py's `review_card` (State.Review branch).
             let r = retrievability(of: card, at: now)
-            let newDifficulty = nextDifficulty(previous: card.difficulty, rating: rating, w: w)
             let newStability: Double
             if rating == .again {
-                newStability = w[11] * pow(newDifficulty, -w[12]) * (pow(card.stability + 1, w[13]) - 1) * exp((1 - r) * w[14])
+                // _next_forget_stability: the real reference also caps this
+                // long-term formula with a short-term cap (w[17], w[18]) via
+                // min().
+                let longTerm = w[11] * pow(card.difficulty, -w[12]) * (pow(card.stability + 1, w[13]) - 1) * exp((1 - r) * w[14])
+                let shortTerm = card.stability / exp(w[17] * w[18])
+                newStability = min(longTerm, shortTerm)
             } else {
                 let hardPenalty = rating == .hard ? w[15] : 1
                 let easyBonus = rating == .easy ? w[16] : 1
-                newStability = card.stability * (1 + exp(w[8]) * (11 - newDifficulty) * pow(card.stability, -w[9]) * (exp((1 - r) * w[10]) - 1) * hardPenalty * easyBonus)
+                newStability = card.stability * (1 + exp(w[8]) * (11 - card.difficulty) * pow(card.stability, -w[9]) * (exp((1 - r) * w[10]) - 1) * hardPenalty * easyBonus)
             }
+            let newDifficulty = nextDifficulty(previous: card.difficulty, rating: rating, w: w)
             newCard = FSRSCard(
                 stability: clampStability(newStability),
                 difficulty: newDifficulty,
