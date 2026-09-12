@@ -27,7 +27,7 @@ jobs:
       - name: Build (unsigned)
         run: |
           xcodebuild build \
-            -project App.xcodeproj \
+            -project EnglishApp.xcodeproj \
             -scheme EnglishApp \
             -destination 'generic/platform=iOS' \
             CODE_SIGNING_ALLOWED=NO
