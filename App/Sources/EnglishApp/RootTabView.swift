@@ -2,6 +2,11 @@ import SwiftUI
 
 struct RootTabView: View {
     var body: some View {
-        Text("English App")
+        TabView {
+            TodayView()
+                .tabItem { Label("Today", systemImage: "sun.max") }
+            SettingsView()
+                .tabItem { Label("Settings", systemImage: "gearshape") }
+        }
     }
 }
