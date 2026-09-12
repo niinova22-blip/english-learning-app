@@ -4,6 +4,7 @@ import LearningEngine
 
 struct TodayView: View {
     @Environment(\.modelContext) private var context
+    @Environment(AppState.self) private var appState
     @State private var items: [LearningItem] = []
     @State private var currentIndex = 0
     @State private var isAnswerRevealed = false
@@ -11,15 +12,14 @@ struct TodayView: View {
     @State private var showSummary = false
     @State private var loadError: String?
     @State private var reviewSaveError: String?
+    @State private var itemShownAt = Date()
 
     var body: some View {
         NavigationStack {
             content
                 .navigationTitle("Today")
                 .onAppear(perform: loadSessionIfNeeded)
-                .navigationDestination(isPresented: $showSummary) {
-                    SessionSummaryView(reviewedCount: reviewedCount, onDone: resetSession)
-                }
+                .onChange(of: appState.dataGeneration) { _, _ in resetSession() }
                 .alert(
                     "Couldn't save review",
                     isPresented: Binding(
@@ -41,6 +41,8 @@ struct TodayView: View {
             Text("Couldn't load today's session: \(loadError)")
                 .foregroundStyle(.red)
                 .padding()
+        } else if showSummary {
+            SessionSummaryView(reviewedCount: reviewedCount, onDone: resetSession)
         } else if items.isEmpty {
             ContentUnavailableView("Nothing due right now", systemImage: "checkmark.circle")
         } else if currentIndex < items.count {
@@ -102,6 +104,7 @@ struct TodayView: View {
             // no way to proceed. Not reachable with the current seed data, but
             // content is a genuinely optional relationship in the schema.
             items = try coordinator.buildTodaySession().filter { $0.content != nil }
+            itemShownAt = Date()
         } catch {
             loadError = error.localizedDescription
         }
@@ -118,7 +121,8 @@ struct TodayView: View {
                 rating: rating,
                 now: Date(),
                 in: context,
-                scheduler: FSRSScheduler()
+                scheduler: FSRSScheduler(),
+                reactionTimeMs: Int(Date().timeIntervalSince(itemShownAt) * 1000)
             )
         } catch {
             // Surface the failure instead of silently pretending the review was
@@ -131,6 +135,7 @@ struct TodayView: View {
         reviewedCount += 1
         isAnswerRevealed = false
         currentIndex += 1
+        itemShownAt = Date()
         if currentIndex >= items.count {
             showSummary = true
         }

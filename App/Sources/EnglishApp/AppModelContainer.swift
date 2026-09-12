@@ -8,17 +8,28 @@ enum AppModelContainer {
         ReviewLog.self, UserItemState.self
     ])
 
+    static private(set) var containerCreationError: String?
+
     static func make() -> ModelContainer {
         let configuration = ModelConfiguration(schema: schema)
         do {
             return try ModelContainer(for: schema, configurations: [configuration])
         } catch {
-            fatalError("Failed to create ModelContainer: \(error)")
+            // If the on-disk store can't be opened (e.g. a schema mismatch from
+            // an old install with no console access to diagnose), fall back to
+            // an in-memory store so the app is at least launchable, rather than
+            // permanently fatal-erroring on every future launch. Record the
+            // error so Settings can surface the degraded state to the user.
+            containerCreationError = error.localizedDescription
+            let fallbackConfig = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)
+            if let fallback = try? ModelContainer(for: schema, configurations: [fallbackConfig]) {
+                return fallback
+            }
+            fatalError("Failed to create ModelContainer, including in-memory fallback: \(error)")
         }
     }
 
-    static func seedSampleContentIfNeeded(in container: ModelContainer) {
-        let context = ModelContext(container)
+    static func seedSampleContentIfNeeded(in context: ModelContext) {
         let existingCount = (try? context.fetchCount(FetchDescriptor<ContentPackage>())) ?? 0
         guard existingCount == 0 else { return }
         let package = SampleContent.ydsStarterPackage()

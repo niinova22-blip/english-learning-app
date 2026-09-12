@@ -4,9 +4,11 @@ import SwiftData
 @main
 struct EnglishAppApp: App {
     let modelContainer = AppModelContainer.make()
+    @State private var appState = AppState()
 
     init() {
-        AppModelContainer.seedSampleContentIfNeeded(in: modelContainer)
+        let context = ModelContext(modelContainer)
+        AppModelContainer.seedSampleContentIfNeeded(in: context)
     }
 
     var body: some Scene {
@@ -14,5 +16,6 @@ struct EnglishAppApp: App {
             RootTabView()
         }
         .modelContainer(modelContainer)
+        .environment(appState)
     }
 }

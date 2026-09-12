@@ -24,3 +24,20 @@ long as AltServer is running on a machine on the same network as the
 phone (or reachable via AltServer's background refresh). If the app
 stops launching, reopen AltStore on the phone to trigger a refresh, or
 re-run steps 3-5.
+
+## If AltServer rejects the .ipa
+
+This sideloading path (an unsigned .ipa that AltServer signs itself at
+install time) hasn't been validated with a real install yet — the first
+attempt IS the validation step. If AltServer fails or errors during
+install:
+
+1. Note the exact error AltServer shows.
+2. As a fallback, the .ipa may need to be built via `xcodebuild
+   -exportArchive` with a minimal ad-hoc `ExportOptions.plist` instead of
+   the current hand-zipped `.app` — this wasn't needed on the CI-side
+   verification (the artifact's internal structure was confirmed
+   correct: `Payload/EnglishApp.app/` with a valid arm64 executable and
+   Info.plist), but AltServer's actual signing step is the one thing
+   nobody has tested yet.
+3. Report back what happened so the CI workflow can be adjusted if needed.
