@@ -10,6 +10,7 @@ struct TodayView: View {
     @State private var reviewedCount = 0
     @State private var showSummary = false
     @State private var loadError: String?
+    @State private var reviewSaveError: String?
 
     var body: some View {
         NavigationStack {
@@ -18,6 +19,18 @@ struct TodayView: View {
                 .onAppear(perform: loadSessionIfNeeded)
                 .navigationDestination(isPresented: $showSummary) {
                     SessionSummaryView(reviewedCount: reviewedCount, onDone: resetSession)
+                }
+                .alert(
+                    "Couldn't save review",
+                    isPresented: Binding(
+                        get: { reviewSaveError != nil },
+                        set: { isPresented in if !isPresented { reviewSaveError = nil } }
+                    ),
+                    presenting: reviewSaveError
+                ) { _ in
+                    Button("OK", role: .cancel) { reviewSaveError = nil }
+                } message: { message in
+                    Text(message)
                 }
         }
     }
@@ -83,7 +96,12 @@ struct TodayView: View {
         guard items.isEmpty, !showSummary else { return }
         do {
             let coordinator = TodaySessionCoordinator(context: context, userID: UserIdentity.current)
-            items = try coordinator.buildTodaySession()
+            // Items without content can't be shown or rated by this UI (no
+            // definition/examples/translation to reveal). Skip them here so the
+            // user never lands on a "Show Answer" that has nothing to reveal and
+            // no way to proceed. Not reachable with the current seed data, but
+            // content is a genuinely optional relationship in the schema.
+            items = try coordinator.buildTodaySession().filter { $0.content != nil }
         } catch {
             loadError = error.localizedDescription
         }
@@ -93,14 +111,23 @@ struct TodayView: View {
         guard currentIndex < items.count else { return }
         let item = items[currentIndex]
         let store = FSRSStateStore()
-        try? store.recordReview(
-            userID: UserIdentity.current,
-            itemID: item.id,
-            rating: rating,
-            now: Date(),
-            in: context,
-            scheduler: FSRSScheduler()
-        )
+        do {
+            try store.recordReview(
+                userID: UserIdentity.current,
+                itemID: item.id,
+                rating: rating,
+                now: Date(),
+                in: context,
+                scheduler: FSRSScheduler()
+            )
+        } catch {
+            // Surface the failure instead of silently pretending the review was
+            // saved: don't advance currentIndex/reviewedCount for a review that
+            // wasn't actually persisted. The user stays on the same item and can
+            // retry the rating.
+            reviewSaveError = error.localizedDescription
+            return
+        }
         reviewedCount += 1
         isAnswerRevealed = false
         currentIndex += 1
