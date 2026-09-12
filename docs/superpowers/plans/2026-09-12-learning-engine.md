@@ -317,16 +317,31 @@ public struct FSRSScheduler: Sendable {
         let w = weights.values
         let newCard: FSRSCard
         if let card, card.reps > 0 {
+            // IMPORTANT: both stability formulas below must use card.difficulty
+            // (the OLD, pre-review difficulty), never the new one computed after
+            // this block. The real py-fsrs reference computes stability first
+            // from the old difficulty, then updates difficulty afterward —
+            // verified directly against open-spaced-repetition/py-fsrs
+            // scheduler.py's `review_card` (State.Review branch) during Task 3's
+            // review. Swapping this order silently corrupts every scheduling
+            // interval for existing cards.
             let r = retrievability(of: card, at: now)
-            let newDifficulty = nextDifficulty(previous: card.difficulty, rating: rating, w: w)
             let newStability: Double
             if rating == .again {
-                newStability = w[11] * pow(newDifficulty, -w[12]) * (pow(card.stability + 1, w[13]) - 1) * exp((1 - r) * w[14])
+                // _next_forget_stability: the real reference also caps this
+                // long-term formula with a short-term cap (w[17], w[18]) via
+                // min() — omitting the min() here (as an earlier draft of this
+                // formula did) is a confirmed correctness gap, not a stylistic
+                // choice.
+                let longTerm = w[11] * pow(card.difficulty, -w[12]) * (pow(card.stability + 1, w[13]) - 1) * exp((1 - r) * w[14])
+                let shortTerm = card.stability / exp(w[17] * w[18])
+                newStability = min(longTerm, shortTerm)
             } else {
                 let hardPenalty = rating == .hard ? w[15] : 1
                 let easyBonus = rating == .easy ? w[16] : 1
-                newStability = card.stability * (1 + exp(w[8]) * (11 - newDifficulty) * pow(card.stability, -w[9]) * (exp((1 - r) * w[10]) - 1) * hardPenalty * easyBonus)
+                newStability = card.stability * (1 + exp(w[8]) * (11 - card.difficulty) * pow(card.stability, -w[9]) * (exp((1 - r) * w[10]) - 1) * hardPenalty * easyBonus)
             }
+            let newDifficulty = nextDifficulty(previous: card.difficulty, rating: rating, w: w)
             newCard = FSRSCard(
                 stability: clampStability(newStability),
                 difficulty: newDifficulty,
@@ -416,10 +431,17 @@ def retrievability(t, s): return (1 + FACTOR*t/s) ** DECAY
 s1, d1 = clamp_s(w[2]), clamp_d(w[4] - math.exp(w[5]*2) + 1)  # first review: Good
 r = retrievability(2, s1)  # second review 2 days later
 easy_ref = w[4] - math.exp(w[5]*3) + 1
+# Both stability formulas use the OLD difficulty d1, never a newly-computed
+# one — matches open-spaced-repetition/py-fsrs's review_card (State.Review):
+# stability is derived first from card.difficulty, difficulty is updated after.
+s2_good = clamp_s(s1 * (1 + math.exp(w[8])*(11-d1)*(s1**-w[9])*(math.exp((1-r)*w[10])-1)))
 d2_good = clamp_d(w[7]*easy_ref + (1-w[7])*(d1 + (10-d1)*(-(w[6]*0))/9))
-s2_good = clamp_s(s1 * (1 + math.exp(w[8])*(11-d2_good)*(s1**-w[9])*(math.exp((1-r)*w[10])-1)))
+# _next_forget_stability also mins the long-term formula against a
+# short-term cap (w[17], w[18]) — both terms shown for clarity.
+s2_again_long = w[11] * (d1**-w[12]) * (((s1+1)**w[13])-1) * math.exp((1-r)*w[14])
+s2_again_short = s1 / math.exp(w[17]*w[18])
+s2_again = clamp_s(min(s2_again_long, s2_again_short))
 d2_again = clamp_d(w[7]*easy_ref + (1-w[7])*(d1 + (10-d1)*(-(w[6]*-2))/9))
-s2_again = clamp_s(w[11] * (d2_again**-w[12]) * (((s1+1)**w[13])-1) * math.exp((1-r)*w[14]))
 ```
 
 - [ ] **Step 1: Add the failing tests for a second review**
@@ -432,7 +454,7 @@ Append to `FSRSSchedulerTests.swift`:
         let twoDaysLater = Calendar.current.date(byAdding: .day, value: 2, to: referenceDate)!
         let second = scheduler.review(card: first.card, rating: .good, now: twoDaysLater)
         XCTAssertEqual(second.card.difficulty, 2.111214, accuracy: 1e-4)
-        XCTAssertEqual(second.card.stability, 10.971048, accuracy: 1e-3)
+        XCTAssertEqual(second.card.stability, 10.964332, accuracy: 1e-3)
         XCTAssertEqual(second.card.reps, 2)
         XCTAssertEqual(second.card.lapses, 0)
     }
@@ -442,7 +464,7 @@ Append to `FSRSSchedulerTests.swift`:
         let twoDaysLater = Calendar.current.date(byAdding: .day, value: 2, to: referenceDate)!
         let second = scheduler.review(card: first.card, rating: .again, now: twoDaysLater)
         XCTAssertEqual(second.card.difficulty, 7.394503, accuracy: 1e-4)
-        XCTAssertEqual(second.card.stability, 0.562685, accuracy: 1e-3)
+        XCTAssertEqual(second.card.stability, 0.607580, accuracy: 1e-3)
         XCTAssertEqual(second.card.reps, 2)
         XCTAssertEqual(second.card.lapses, 1)
     }
@@ -765,7 +787,7 @@ final class FSRSStateStoreTests: XCTestCase {
         let updated = try store.recordReview(userID: "u1", itemID: "item-1", rating: .good, now: second, in: context, scheduler: scheduler)
 
         XCTAssertEqual(updated.reps, 2)
-        XCTAssertEqual(updated.stability, 10.971048, accuracy: 1e-3)
+        XCTAssertEqual(updated.stability, 10.964332, accuracy: 1e-3)
 
         let states = try context.fetch(FetchDescriptor<UserItemState>())
         XCTAssertEqual(states.count, 1, "second review must update the existing state, not create a duplicate")
