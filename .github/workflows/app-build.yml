@@ -13,6 +13,14 @@ jobs:
         working-directory: App
     steps:
       - uses: actions/checkout@v4
+      - name: Cache tutor model
+        uses: actions/cache@v4
+        with:
+          path: App/Sources/EnglishApp/Resources/TutorModel
+          key: tutor-model-${{ hashFiles('scripts/fetch-tutor-model.sh') }}
+      - name: Fetch tutor model
+        working-directory: ${{ github.workspace }}
+        run: bash scripts/fetch-tutor-model.sh
       - name: Select Xcode
         run: sudo xcode-select -s /Applications/Xcode.app
       - name: Install XcodeGen
