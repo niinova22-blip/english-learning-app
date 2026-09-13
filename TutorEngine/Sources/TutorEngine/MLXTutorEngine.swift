@@ -31,7 +31,7 @@ public actor MLXTutorEngine: TutorEngine {
             let lmInput = try await context.processor.prepare(input: userInput)
             let result = try MLXLMCommon.generate(
                 input: lmInput, parameters: generateParameters, context: context
-            ) { _ in .more }
+            ) { (_: [Int]) in .more }
             return result.output
         }
     }
