@@ -124,4 +124,22 @@ final class ContentImporterTests: XCTestCase {
             }
         }
     }
+
+    func test_importPackage_realYDSVocabularyBatch_importsAll120ItemsAcrossFourUnits() throws {
+        guard let url = Bundle.module.url(forResource: "YDSAcademicVocabulary1", withExtension: "json", subdirectory: "Fixtures") else {
+            XCTFail("Fixture file not found in test bundle")
+            return
+        }
+        let data = try Data(contentsOf: url)
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(from: data, into: context)
+        try context.save()
+
+        XCTAssertEqual(package.units.count, 4)
+        let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
+        XCTAssertEqual(allItems.count, 120)
+        let uniqueIDs = Set(allItems.map(\.id))
+        XCTAssertEqual(uniqueIDs.count, 120, "duplicate item ids found")
+        XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
+    }
 }

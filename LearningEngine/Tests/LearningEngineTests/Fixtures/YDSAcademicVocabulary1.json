@@ -1,0 +1,2399 @@
+{
+  "id": "yds-academic-vocab-1",
+  "name": "YDS: Academic Vocabulary I",
+  "goal": "yds",
+  "levelLower": "B2",
+  "levelUpper": "C1",
+  "units": [
+    {
+      "id": "yds-vocab1-unit-business-economics",
+      "theme": "Business & Economics",
+      "order": 0,
+      "lessons": [
+        {
+          "id": "yds-vocab1-lesson-business-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-economy",
+              "type": "vocabulary",
+              "headword": "economy",
+              "frequencyRank": 19,
+              "baseDifficulty": 0.2,
+              "definition": "The overall system through which a country or region produces, exchanges, and manages goods, services, and wealth.",
+              "exampleSentences": [
+                "Turkey's economy expanded at its fastest pace in three years, fueled by strong exports.",
+                "A sudden spike in oil prices can ripple through the entire economy.",
+                "Economists disagree on how quickly the economy will recover from the recession."
+              ],
+              "translationTR": "ekonomi",
+              "collocations": [
+                "a growing economy",
+                "boost the economy",
+                "the global economy"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-finance",
+              "type": "vocabulary",
+              "headword": "finance",
+              "frequencyRank": 26,
+              "baseDifficulty": 0.25,
+              "definition": "The management of money, investments, and credit, especially by governments, companies, or individuals.",
+              "exampleSentences": [
+                "She left law to pursue a career in corporate finance.",
+                "The startup struggled to secure finance for its expansion plans.",
+                "Public finance decisions made today will shape the national budget for decades."
+              ],
+              "translationTR": "finans, mali iÅŸler",
+              "collocations": [
+                "raise finance",
+                "corporate finance",
+                "personal finance"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-income",
+              "type": "vocabulary",
+              "headword": "income",
+              "frequencyRank": 30,
+              "baseDifficulty": 0.3,
+              "definition": "Money that a person, household, or organization regularly receives from work, investments, or other sources.",
+              "exampleSentences": [
+                "Households with a low income spend a larger share of their earnings on food.",
+                "Rental properties can provide a steady stream of income.",
+                "The tax reform mainly benefits people in the middle-income bracket."
+              ],
+              "translationTR": "gelir",
+              "collocations": [
+                "disposable income",
+                "a source of income",
+                "low/high income"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-percent",
+              "type": "vocabulary",
+              "headword": "percent",
+              "frequencyRank": 42,
+              "baseDifficulty": 0.15,
+              "definition": "A proportion or rate expressed as a fraction of one hundred, commonly used to describe change, share, or comparison.",
+              "exampleSentences": [
+                "Unemployment fell by two percent over the past year.",
+                "Only thirty percent of respondents supported the new tax policy.",
+                "The company's profits rose ten percent compared with the previous quarter."
+              ],
+              "translationTR": "yÃ¼zde",
+              "collocations": [
+                "rise/fall by X percent",
+                "percent of",
+                "percent increase"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-sector",
+              "type": "vocabulary",
+              "headword": "sector",
+              "frequencyRank": 53,
+              "baseDifficulty": 0.3,
+              "definition": "A distinct area or branch of economic activity, such as manufacturing, agriculture, or services.",
+              "exampleSentences": [
+                "Job growth in the technology sector has outpaced the rest of the economy.",
+                "The government introduced subsidies to support the struggling agricultural sector.",
+                "Investors are shifting funds from the energy sector into healthcare."
+              ],
+              "translationTR": "sektÃ¶r",
+              "collocations": [
+                "private sector",
+                "public sector",
+                "the manufacturing sector"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-contract",
+              "type": "vocabulary",
+              "headword": "contract",
+              "frequencyRank": 13,
+              "baseDifficulty": 0.4,
+              "definition": "A legally binding agreement between two or more parties that sets out specific obligations and terms.",
+              "exampleSentences": [
+                "The two companies signed a five-year supply contract worth millions of dollars.",
+                "Her contract includes a clause preventing her from joining a rival firm.",
+                "The firm was awarded the government contract after a competitive tender."
+              ],
+              "translationTR": "sÃ¶zleÅŸme",
+              "collocations": [
+                "sign a contract",
+                "breach a contract",
+                "award a contract"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-export",
+              "type": "vocabulary",
+              "headword": "export",
+              "frequencyRank": 24,
+              "baseDifficulty": 0.3,
+              "definition": "A good or service produced in one country and sold to buyers in another.",
+              "exampleSentences": [
+                "Machinery and textiles remain the country's largest exports.",
+                "The weaker currency made exports more competitive on world markets.",
+                "The government offered tax incentives to firms that increased their exports."
+              ],
+              "translationTR": "ihracat, ihraÃ§ malÄ±",
+              "collocations": [
+                "export earnings",
+                "boost exports",
+                "export market"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-distribute",
+              "type": "vocabulary",
+              "headword": "distribute",
+              "frequencyRank": 18,
+              "baseDifficulty": 0.35,
+              "definition": "To supply goods, products, or resources to different people, places, or outlets.",
+              "exampleSentences": [
+                "The company distributes its products to retailers across Europe through a single warehouse.",
+                "Profits were distributed among shareholders at the end of the fiscal year.",
+                "Aid agencies struggled to distribute supplies to remote areas after the flood."
+              ],
+              "translationTR": "daÄŸÄ±tmak",
+              "collocations": [
+                "distribute goods",
+                "distribute profits",
+                "widely distributed"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-labour",
+              "type": "vocabulary",
+              "headword": "labour",
+              "frequencyRank": 36,
+              "baseDifficulty": 0.3,
+              "definition": "Physical or mental work, especially the workforce considered as a whole in relation to production and employment.",
+              "exampleSentences": [
+                "Rising wages have pushed many manufacturers to look for cheaper labour abroad.",
+                "The construction industry depends heavily on skilled labour.",
+                "Automation has reduced the demand for manual labour in factories."
+              ],
+              "translationTR": "iÅŸgÃ¼cÃ¼, emek",
+              "collocations": [
+                "cheap labour",
+                "labour costs",
+                "skilled labour"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-policy",
+              "type": "vocabulary",
+              "headword": "policy",
+              "frequencyRank": 44,
+              "baseDifficulty": 0.4,
+              "definition": "A course of action or set of principles adopted by a government, institution, or company to guide decisions.",
+              "exampleSentences": [
+                "The central bank tightened monetary policy to curb inflation.",
+                "Under the new return policy, customers have thirty days to request a refund.",
+                "Critics argue the policy favours large corporations over small businesses."
+              ],
+              "translationTR": "politika, ilke",
+              "collocations": [
+                "monetary/fiscal policy",
+                "company policy",
+                "adopt a policy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-business-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-major",
+              "type": "vocabulary",
+              "headword": "major",
+              "frequencyRank": 39,
+              "baseDifficulty": 0.25,
+              "definition": "Of great importance, size, or seriousness, especially when contrasted with something smaller or less significant.",
+              "exampleSentences": [
+                "The merger created one of the major players in the airline industry.",
+                "There was a major shift in consumer spending after the price hikes.",
+                "Losing its biggest client was a major setback for the firm."
+              ],
+              "translationTR": "baÅŸlÄ±ca, bÃ¼yÃ¼k Ã¶lÃ§ekli",
+              "collocations": [
+                "a major player",
+                "major setback",
+                "major shift"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-source",
+              "type": "vocabulary",
+              "headword": "source",
+              "frequencyRank": 56,
+              "baseDifficulty": 0.3,
+              "definition": "The place, person, or thing from which something originates or is obtained.",
+              "exampleSentences": [
+                "Tourism is the country's main source of foreign currency.",
+                "The report failed to disclose the source of its funding.",
+                "Renewable energy is becoming an increasingly important source of power."
+              ],
+              "translationTR": "kaynak",
+              "collocations": [
+                "a source of income",
+                "reliable source",
+                "energy source"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-benefit",
+              "type": "vocabulary",
+              "headword": "benefit",
+              "frequencyRank": 8,
+              "baseDifficulty": 0.25,
+              "definition": "An advantage, profit, or positive outcome gained from something, or a payment provided to support someone.",
+              "exampleSentences": [
+                "Employees at the firm receive health insurance as part of their benefits package.",
+                "The tax cut is expected to benefit small businesses the most.",
+                "Analysts questioned whether the merger would truly benefit shareholders."
+              ],
+              "translationTR": "fayda, yardÄ±m",
+              "collocations": [
+                "employee benefits",
+                "benefit from",
+                "mutual benefit"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-factor",
+              "type": "vocabulary",
+              "headword": "factor",
+              "frequencyRank": 25,
+              "baseDifficulty": 0.35,
+              "definition": "One of several elements or circumstances that contributes to a particular result or decision.",
+              "exampleSentences": [
+                "Rising fuel costs were a major factor behind the airline's losses.",
+                "When choosing a supplier, price is rarely the only factor considered.",
+                "Weather conditions can be a decisive factor in agricultural output."
+              ],
+              "translationTR": "etken, faktÃ¶r",
+              "collocations": [
+                "a key factor",
+                "contributing factor",
+                "risk factor"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-function",
+              "type": "vocabulary",
+              "headword": "function",
+              "frequencyRank": 28,
+              "baseDifficulty": 0.4,
+              "definition": "The particular purpose, role, or activity that something is designed or expected to perform.",
+              "exampleSentences": [
+                "The finance department's main function is to manage the company's cash flow.",
+                "This software's core function is to automate payroll processing.",
+                "As inflation rises, the function of the central bank becomes more critical."
+              ],
+              "translationTR": "iÅŸlev, gÃ¶rev",
+              "collocations": [
+                "serve a function",
+                "key function",
+                "function properly"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-achieve",
+              "type": "vocabulary",
+              "headword": "achieve",
+              "frequencyRank": 61,
+              "baseDifficulty": 0.35,
+              "definition": "To successfully reach a goal or produce a desired result, usually through effort or skill.",
+              "exampleSentences": [
+                "The company achieved record profits despite the economic downturn.",
+                "It took the team five years to achieve full compliance with the new regulations.",
+                "Few startups achieve profitability within their first year."
+              ],
+              "translationTR": "baÅŸarmak, elde etmek",
+              "collocations": [
+                "achieve a goal",
+                "achieve success",
+                "achieve growth"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-acquire",
+              "type": "vocabulary",
+              "headword": "acquire",
+              "frequencyRank": 62,
+              "baseDifficulty": 0.45,
+              "definition": "To obtain or gain possession of something, often through purchase, effort, or a formal process.",
+              "exampleSentences": [
+                "The tech giant acquired its smaller rival for two billion dollars.",
+                "New employees are expected to acquire the necessary skills within their first month.",
+                "The firm acquired a majority stake in the local distributor."
+              ],
+              "translationTR": "edinmek, satÄ±n almak (ÅŸirket vb.)",
+              "collocations": [
+                "acquire a company",
+                "acquire skills",
+                "acquire a stake"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-commission",
+              "type": "vocabulary",
+              "headword": "commission",
+              "frequencyRank": 70,
+              "baseDifficulty": 0.55,
+              "definition": "A payment made to someone based on the value of sales or business they generate, or an official body assigned a specific task.",
+              "exampleSentences": [
+                "Real estate agents typically earn a commission of a few percent on each sale.",
+                "The government set up a commission to investigate the banking scandal.",
+                "Sales staff are motivated by commission rather than a fixed salary."
+              ],
+              "translationTR": "komisyon (Ã¼creti), kurul",
+              "collocations": [
+                "earn commission",
+                "commission rate",
+                "set up a commission"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-consume",
+              "type": "vocabulary",
+              "headword": "consume",
+              "frequencyRank": 78,
+              "baseDifficulty": 0.45,
+              "definition": "To use up a resource, or to buy and make use of goods and services.",
+              "exampleSentences": [
+                "Heavy industry consumes a significant share of the country's electricity.",
+                "Households are consuming less as prices continue to rise.",
+                "The factory's new machines consume far less fuel than the old ones."
+              ],
+              "translationTR": "tÃ¼ketmek",
+              "collocations": [
+                "consume energy",
+                "consume resources",
+                "consume goods"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-credit",
+              "type": "vocabulary",
+              "headword": "credit",
+              "frequencyRank": 79,
+              "baseDifficulty": 0.5,
+              "definition": "The ability to borrow money or obtain goods on the understanding that payment will follow later, or an amount added to an account.",
+              "exampleSentences": [
+                "Small businesses often rely on bank credit to manage cash flow.",
+                "Her credit rating improved after she paid off her outstanding loans.",
+                "The supplier agreed to extend credit for another thirty days."
+              ],
+              "translationTR": "kredi, alacak",
+              "collocations": [
+                "extend credit",
+                "credit rating",
+                "on credit"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-business-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-invest",
+              "type": "vocabulary",
+              "headword": "invest",
+              "frequencyRank": 92,
+              "baseDifficulty": 0.35,
+              "definition": "To commit money, time, or resources into something with the expectation of future profit or benefit.",
+              "exampleSentences": [
+                "The firm plans to invest heavily in renewable energy over the next decade.",
+                "Many young professionals are choosing to invest in the stock market rather than save cash.",
+                "Investing in staff training often pays off in higher productivity."
+              ],
+              "translationTR": "yatÄ±rÄ±m yapmak",
+              "collocations": [
+                "invest in",
+                "invest heavily",
+                "invest capital"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-purchase",
+              "type": "vocabulary",
+              "headword": "purchase",
+              "frequencyRank": 104,
+              "baseDifficulty": 0.35,
+              "definition": "To buy something, or the act of buying, typically used in more formal or written contexts than 'buy.'",
+              "exampleSentences": [
+                "The company purchased new equipment to modernize its production line.",
+                "Customers who purchase in bulk receive a discount.",
+                "The museum's latest purchase was a rare eighteenth-century painting."
+              ],
+              "translationTR": "satÄ±n almak, satÄ±n alma",
+              "collocations": [
+                "purchasing power",
+                "make a purchase",
+                "purchase agreement"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-resource",
+              "type": "vocabulary",
+              "headword": "resource",
+              "frequencyRank": 110,
+              "baseDifficulty": 0.4,
+              "definition": "An asset, material, or supply that can be used to achieve a goal or support an activity.",
+              "exampleSentences": [
+                "The country's natural resources include oil, gas, and minerals.",
+                "Managers must allocate limited resources across competing projects.",
+                "Human resources are often a company's most valuable asset."
+              ],
+              "translationTR": "kaynak",
+              "collocations": [
+                "natural resources",
+                "allocate resources",
+                "human resources"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-strategy",
+              "type": "vocabulary",
+              "headword": "strategy",
+              "frequencyRank": 116,
+              "baseDifficulty": 0.4,
+              "definition": "A carefully devised plan of action designed to achieve a long-term goal.",
+              "exampleSentences": [
+                "The board approved a new marketing strategy aimed at younger consumers.",
+                "Without a clear pricing strategy, the company struggled to compete.",
+                "Analysts questioned whether the firm's expansion strategy was too risky."
+              ],
+              "translationTR": "strateji",
+              "collocations": [
+                "develop a strategy",
+                "marketing strategy",
+                "exit strategy"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-survey",
+              "type": "vocabulary",
+              "headword": "survey",
+              "frequencyRank": 117,
+              "baseDifficulty": 0.45,
+              "definition": "A method of gathering information or opinions from a sample of people, or a general examination of a situation.",
+              "exampleSentences": [
+                "A recent survey found that most employees prefer flexible working hours.",
+                "The firm conducted a customer satisfaction survey after the product launch.",
+                "Economists rely on business surveys to gauge confidence in the sector."
+              ],
+              "translationTR": "anket, araÅŸtÄ±rma",
+              "collocations": [
+                "conduct a survey",
+                "survey results",
+                "carry out a survey"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-transfer",
+              "type": "vocabulary",
+              "headword": "transfer",
+              "frequencyRank": 120,
+              "baseDifficulty": 0.4,
+              "definition": "To move something, such as money, staff, or ownership, from one place, account, or person to another.",
+              "exampleSentences": [
+                "The bank transferred the funds to the wrong account by mistake.",
+                "She was transferred to the company's Istanbul office after her promotion.",
+                "Ownership of the property will transfer once the final payment is made."
+              ],
+              "translationTR": "transfer etmek, aktarmak",
+              "collocations": [
+                "transfer funds",
+                "bank transfer",
+                "transfer ownership"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-administrate",
+              "type": "vocabulary",
+              "headword": "administrate",
+              "frequencyRank": 63,
+              "baseDifficulty": 0.6,
+              "definition": "To manage and oversee the operations, organization, or affairs of a company, institution, or system.",
+              "exampleSentences": [
+                "A separate department administrates employee pension funds.",
+                "The new software helps administrate payroll for over a thousand staff.",
+                "It takes a dedicated team to administrate such a complex supply chain."
+              ],
+              "translationTR": "yÃ¶netmek, idare etmek",
+              "collocations": [
+                "administrate a pension fund"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-impact",
+              "type": "vocabulary",
+              "headword": "impact",
+              "frequencyRank": 89,
+              "baseDifficulty": 0.45,
+              "definition": "A significant effect or influence that one thing has on another, often used in evaluating outcomes or consequences.",
+              "exampleSentences": [
+                "The new tariffs had a severe impact on small exporters.",
+                "Researchers are studying the long-term impact of automation on employment.",
+                "The marketing campaign made little impact on overall sales."
+              ],
+              "translationTR": "etki",
+              "collocations": [
+                "have an impact on",
+                "negative/positive impact",
+                "impact assessment"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-secure",
+              "type": "vocabulary",
+              "headword": "secure",
+              "frequencyRank": 112,
+              "baseDifficulty": 0.5,
+              "definition": "To obtain or guarantee something, often after effort or negotiation, or to make something safe and protected.",
+              "exampleSentences": [
+                "The company secured a major contract with a European retailer.",
+                "Investors want assurances that their deposits are secure.",
+                "She secured funding for her startup after months of pitching to investors."
+              ],
+              "translationTR": "gÃ¼vence altÄ±na almak, elde etmek, gÃ¼venli",
+              "collocations": [
+                "secure funding",
+                "secure a contract",
+                "secure a loan"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-item",
+              "type": "vocabulary",
+              "headword": "item",
+              "frequencyRank": 93,
+              "baseDifficulty": 0.2,
+              "definition": "A single article, product, or point listed or considered separately within a larger set.",
+              "exampleSentences": [
+                "The store had to discount several items that failed to sell before the holidays.",
+                "Salary was the first item on the agenda at the negotiation meeting.",
+                "Each item on the invoice must match the delivery receipt."
+              ],
+              "translationTR": "madde, kalem, Ã¼rÃ¼n",
+              "collocations": [
+                "line item",
+                "item on the agenda",
+                "a single item"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-unit-science-research",
+      "theme": "Science & Research Methods",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "yds-vocab1-lesson-science-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-analyse",
+              "type": "vocabulary",
+              "headword": "analyse",
+              "frequencyRank": 1,
+              "baseDifficulty": 0.2,
+              "definition": "To examine data, evidence, or a phenomenon in detail in order to understand its components or draw conclusions.",
+              "exampleSentences": [
+                "The team analysed the survey data to identify significant patterns in consumer behaviour.",
+                "Researchers analysed blood samples from over a thousand participants to test the hypothesis.",
+                "Before drawing any conclusions, the results must be analysed for statistical significance."
+              ],
+              "translationTR": "analiz etmek, Ã§Ã¶zÃ¼mlemek",
+              "collocations": [
+                "analyse data",
+                "analyse results",
+                "critically analyse"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-assess",
+              "type": "vocabulary",
+              "headword": "assess",
+              "frequencyRank": 4,
+              "baseDifficulty": 0.3,
+              "definition": "To evaluate the extent, quality, or significance of something, typically based on available evidence.",
+              "exampleSentences": [
+                "The study assessed the long-term effects of sleep deprivation on memory retention.",
+                "Reviewers were asked to assess the validity of the experimental design before publication.",
+                "Researchers use standardized tests to assess cognitive development in young children."
+              ],
+              "translationTR": "deÄŸerlendirmek",
+              "collocations": [
+                "assess the impact",
+                "assess reliability",
+                "critically assess"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-assume",
+              "type": "vocabulary",
+              "headword": "assume",
+              "frequencyRank": 5,
+              "baseDifficulty": 0.3,
+              "definition": "To accept something as true or to take it as a starting point for an argument or calculation, without first proving it.",
+              "exampleSentences": [
+                "The model assumes that all variables are independent of one another.",
+                "For simplicity, the researchers assumed a constant rate of decay throughout the experiment.",
+                "It would be wrong to assume that correlation implies causation."
+              ],
+              "translationTR": "varsaymak, farz etmek",
+              "collocations": [
+                "assume that",
+                "assume independence",
+                "reasonable to assume"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-data",
+              "type": "vocabulary",
+              "headword": "data",
+              "frequencyRank": 15,
+              "baseDifficulty": 0.15,
+              "definition": "Facts, figures, or observations collected through measurement, experimentation, or observation, used as a basis for analysis.",
+              "exampleSentences": [
+                "The data were collected over a six-month period using standardized questionnaires.",
+                "Researchers cross-checked the data against previous studies to confirm the trend.",
+                "Missing data can significantly skew the results of a statistical analysis."
+              ],
+              "translationTR": "veri",
+              "collocations": [
+                "collect data",
+                "raw data",
+                "analyse data"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-define",
+              "type": "vocabulary",
+              "headword": "define",
+              "frequencyRank": 16,
+              "baseDifficulty": 0.2,
+              "definition": "To state the precise meaning of a term or concept, or to establish the boundaries and characteristics of something.",
+              "exampleSentences": [
+                "The researchers carefully defined each variable before beginning the experiment.",
+                "It is difficult to define intelligence in a way that all psychologists accept.",
+                "The study's scope was defined by strict inclusion and exclusion criteria."
+              ],
+              "translationTR": "tanÄ±mlamak, belirlemek",
+              "collocations": [
+                "clearly defined",
+                "define a term",
+                "define criteria"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-derive",
+              "type": "vocabulary",
+              "headword": "derive",
+              "frequencyRank": 17,
+              "baseDifficulty": 0.4,
+              "definition": "To obtain or trace something from a particular source, or to reach a result through logical or mathematical reasoning.",
+              "exampleSentences": [
+                "The formula can be derived from Newton's second law of motion.",
+                "Much of what we know about the disease was derived from early animal studies.",
+                "Students were asked to derive the equation step by step rather than memorize it."
+              ],
+              "translationTR": "tÃ¼retmek, elde etmek (denklem/sonuÃ§)",
+              "collocations": [
+                "derive a formula",
+                "derive from",
+                "derive a conclusion"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-estimate",
+              "type": "vocabulary",
+              "headword": "estimate",
+              "frequencyRank": 22,
+              "baseDifficulty": 0.3,
+              "definition": "To calculate or judge the approximate value, size, or extent of something, especially where an exact measurement is not possible.",
+              "exampleSentences": [
+                "Scientists estimate that the species has existed for over two million years.",
+                "The initial estimate of the sample size proved too small for reliable results.",
+                "Researchers estimated the margin of error at roughly three percent."
+              ],
+              "translationTR": "tahmin etmek, tahmin",
+              "collocations": [
+                "rough estimate",
+                "estimate the value",
+                "conservative estimate"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-evident",
+              "type": "vocabulary",
+              "headword": "evident",
+              "frequencyRank": 23,
+              "baseDifficulty": 0.35,
+              "definition": "Clearly visible or understood from the available facts or evidence; obvious.",
+              "exampleSentences": [
+                "It became evident from the data that the treatment had no significant effect.",
+                "The correlation between the two variables was immediately evident on the graph.",
+                "Despite repeated trials, no clear pattern was evident in the results."
+              ],
+              "translationTR": "aÃ§Ä±k, belli, aÅŸikÃ¢r",
+              "collocations": [
+                "become evident",
+                "evident from",
+                "clearly evident"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-formula",
+              "type": "vocabulary",
+              "headword": "formula",
+              "frequencyRank": 27,
+              "baseDifficulty": 0.25,
+              "definition": "A mathematical rule or relationship expressed in symbols, or a fixed method for achieving a particular result.",
+              "exampleSentences": [
+                "The formula relates pressure, volume, and temperature in an ideal gas.",
+                "Researchers applied a standard formula to calculate statistical significance.",
+                "There is no simple formula for predicting how a chemical reaction will proceed."
+              ],
+              "translationTR": "formÃ¼l",
+              "collocations": [
+                "apply a formula",
+                "mathematical formula",
+                "derive a formula"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-identify",
+              "type": "vocabulary",
+              "headword": "identify",
+              "frequencyRank": 29,
+              "baseDifficulty": 0.2,
+              "definition": "To recognize, establish, or single out a particular fact, cause, pattern, or entity through observation or analysis.",
+              "exampleSentences": [
+                "The study aimed to identify the genetic factors linked to the disease.",
+                "Researchers identified a previously unknown species during the expedition.",
+                "The analysis helped identify which variables had the greatest effect on the outcome."
+              ],
+              "translationTR": "tespit etmek, belirlemek",
+              "collocations": [
+                "identify a pattern",
+                "identify the cause",
+                "clearly identified"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-science-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-indicate",
+              "type": "vocabulary",
+              "headword": "indicate",
+              "frequencyRank": 31,
+              "baseDifficulty": 0.25,
+              "definition": "To point to a fact or conclusion as being probable, or to show something clearly through signs or evidence.",
+              "exampleSentences": [
+                "The results indicate a strong link between diet and cardiovascular health.",
+                "Preliminary data indicate that the new treatment may reduce recovery time.",
+                "A rising baseline reading can indicate a fault in the measuring equipment."
+              ],
+              "translationTR": "gÃ¶stermek, iÅŸaret etmek",
+              "collocations": [
+                "results indicate",
+                "clearly indicate",
+                "indicate a trend"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-interpret",
+              "type": "vocabulary",
+              "headword": "interpret",
+              "frequencyRank": 33,
+              "baseDifficulty": 0.35,
+              "definition": "To explain or determine the meaning or significance of information, data, or behaviour.",
+              "exampleSentences": [
+                "Different researchers interpreted the same data set in strikingly different ways.",
+                "The findings must be interpreted with caution given the small sample size.",
+                "She was trained to interpret X-ray images for signs of fracture."
+              ],
+              "translationTR": "yorumlamak",
+              "collocations": [
+                "interpret the results",
+                "misinterpret data",
+                "open to interpretation"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-method",
+              "type": "vocabulary",
+              "headword": "method",
+              "frequencyRank": 40,
+              "baseDifficulty": 0.2,
+              "definition": "A particular systematic procedure or set of steps used to carry out a task, especially in research or experimentation.",
+              "exampleSentences": [
+                "The paper describes the method used to isolate the compound.",
+                "Researchers adopted a mixed-methods approach, combining surveys with interviews.",
+                "A flawed method can undermine even the most promising hypothesis."
+              ],
+              "translationTR": "yÃ¶ntem, metot",
+              "collocations": [
+                "research method",
+                "scientific method",
+                "adopt a method"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-process",
+              "type": "vocabulary",
+              "headword": "process",
+              "frequencyRank": 47,
+              "baseDifficulty": 0.25,
+              "definition": "A series of actions or steps taken to achieve a particular result, or to handle and analyse information systematically.",
+              "exampleSentences": [
+                "The data were processed using specialized statistical software before analysis.",
+                "Photosynthesis is the process by which plants convert light into chemical energy.",
+                "The peer-review process can take several months before a paper is accepted."
+              ],
+              "translationTR": "sÃ¼reÃ§; (fiil) iÅŸlemek (veri)",
+              "collocations": [
+                "process data",
+                "a lengthy process",
+                "undergo a process"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-research",
+              "type": "vocabulary",
+              "headword": "research",
+              "frequencyRank": 49,
+              "baseDifficulty": 0.2,
+              "definition": "The systematic investigation of a subject in order to discover or establish facts and reach new conclusions.",
+              "exampleSentences": [
+                "Her research focuses on the effects of climate change on marine ecosystems.",
+                "The team spent three years researching the causes of the disorder.",
+                "Further research is needed before any firm conclusions can be drawn."
+              ],
+              "translationTR": "araÅŸtÄ±rma, araÅŸtÄ±rmak",
+              "collocations": [
+                "conduct research",
+                "research findings",
+                "further research"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-structure",
+              "type": "vocabulary",
+              "headword": "structure",
+              "frequencyRank": 58,
+              "baseDifficulty": 0.3,
+              "definition": "The arrangement of parts within a system, or to organize something according to a particular framework.",
+              "exampleSentences": [
+                "The molecule's structure determines how it interacts with other compounds.",
+                "Researchers structured the questionnaire to avoid leading questions.",
+                "Understanding the structure of the atom was a turning point in physics."
+              ],
+              "translationTR": "yapÄ±; (fiil) yapÄ±landÄ±rmak",
+              "collocations": [
+                "molecular structure",
+                "structure a study",
+                "underlying structure"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-theory",
+              "type": "vocabulary",
+              "headword": "theory",
+              "frequencyRank": 59,
+              "baseDifficulty": 0.25,
+              "definition": "A set of principles or ideas developed to explain observed phenomena, often supported by evidence and used to make predictions.",
+              "exampleSentences": [
+                "The theory of evolution remains the foundation of modern biology.",
+                "Her experiment was designed to test a long-standing theory about memory formation.",
+                "In theory, the reaction should occur spontaneously at room temperature."
+              ],
+              "translationTR": "teori, kuram",
+              "collocations": [
+                "scientific theory",
+                "test a theory",
+                "in theory"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-vary",
+              "type": "vocabulary",
+              "headword": "vary",
+              "frequencyRank": 60,
+              "baseDifficulty": 0.25,
+              "definition": "To differ or change, especially in size, amount, or degree, from one instance or condition to another.",
+              "exampleSentences": [
+                "Results varied considerably depending on the temperature at which the experiment was conducted.",
+                "The concentration of the solution was varied to test its effect on reaction speed.",
+                "Response times varied widely among participants of different ages."
+              ],
+              "translationTR": "deÄŸiÅŸmek; (fiil) deÄŸiÅŸtirmek",
+              "collocations": [
+                "vary considerably",
+                "vary depending on",
+                "varying degrees"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-compute",
+              "type": "vocabulary",
+              "headword": "compute",
+              "frequencyRank": 73,
+              "baseDifficulty": 0.35,
+              "definition": "To calculate a value or result, typically using mathematics or a computer.",
+              "exampleSentences": [
+                "The software computes the standard deviation automatically from the raw scores.",
+                "Researchers computed the correlation coefficient between the two variables.",
+                "It would take hours to compute the result by hand without a computer."
+              ],
+              "translationTR": "hesaplamak",
+              "collocations": [
+                "compute a value",
+                "compute the average",
+                "computed automatically"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-conduct",
+              "type": "vocabulary",
+              "headword": "conduct",
+              "frequencyRank": 75,
+              "baseDifficulty": 0.3,
+              "definition": "To carry out or organize a particular activity, especially a piece of research, experiment, or investigation, or, in physics, to transmit heat, electricity, or sound.",
+              "exampleSentences": [
+                "The team conducted a series of controlled experiments over two years.",
+                "Copper conducts electricity far more efficiently than most other metals.",
+                "The study was conducted in accordance with strict ethical guidelines."
+              ],
+              "translationTR": "yÃ¼rÃ¼tmek, gerÃ§ekleÅŸtirmek (araÅŸtÄ±rma/deney); iletmek (Ä±sÄ±/elektrik)",
+              "collocations": [
+                "conduct research",
+                "conduct an experiment",
+                "conduct electricity"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-science-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-construct",
+              "type": "vocabulary",
+              "headword": "construct",
+              "frequencyRank": 77,
+              "baseDifficulty": 0.4,
+              "definition": "To build or create something systematically, such as an argument, model, or experiment, or a concept devised for analysis.",
+              "exampleSentences": [
+                "The researchers constructed a mathematical model to simulate population growth.",
+                "Intelligence is often treated as a psychological construct rather than a single measurable trait.",
+                "A well-constructed experiment controls for as many confounding variables as possible."
+              ],
+              "translationTR": "inÅŸa etmek, oluÅŸturmak; (isim) kurgu, yapÄ±",
+              "collocations": [
+                "construct a model",
+                "well-constructed",
+                "theoretical construct"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-evaluate",
+              "type": "vocabulary",
+              "headword": "evaluate",
+              "frequencyRank": 85,
+              "baseDifficulty": 0.35,
+              "definition": "To assess the value, significance, or quality of something, typically after careful consideration of evidence.",
+              "exampleSentences": [
+                "An independent panel evaluated the study's methodology before it was published.",
+                "The trial was designed to evaluate the drug's effectiveness against a placebo.",
+                "Researchers must evaluate the reliability of their instruments before collecting data."
+              ],
+              "translationTR": "deÄŸerlendirmek",
+              "collocations": [
+                "evaluate the evidence",
+                "critically evaluate",
+                "evaluate effectiveness"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-feature",
+              "type": "vocabulary",
+              "headword": "feature",
+              "frequencyRank": 86,
+              "baseDifficulty": 0.3,
+              "definition": "A distinctive characteristic or attribute of something, or to include something as a prominent element.",
+              "exampleSentences": [
+                "One key feature of the sample was its unusually high genetic diversity.",
+                "The study features a much larger control group than earlier research in the field.",
+                "Researchers identified several shared features among the surviving specimens."
+              ],
+              "translationTR": "Ã¶zellik; (fiil) yer vermek, iÃ§ermek",
+              "collocations": [
+                "a key feature",
+                "distinctive feature",
+                "feature prominently"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-obtain",
+              "type": "vocabulary",
+              "headword": "obtain",
+              "frequencyRank": 97,
+              "baseDifficulty": 0.3,
+              "definition": "To gain possession of or achieve something, especially through effort, calculation, or a formal process.",
+              "exampleSentences": [
+                "Consent was obtained from all participants before the trial began.",
+                "The team obtained consistent results across three separate trials.",
+                "Pure samples of the compound are difficult to obtain in the laboratory."
+              ],
+              "translationTR": "elde etmek",
+              "collocations": [
+                "obtain results",
+                "obtain consent",
+                "obtain data"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-category",
+              "type": "vocabulary",
+              "headword": "category",
+              "frequencyRank": 68,
+              "baseDifficulty": 0.25,
+              "definition": "A class or division of things regarded as having particular shared characteristics, used to organize or classify data.",
+              "exampleSentences": [
+                "Participants were divided into three categories based on age and activity level.",
+                "The species was reclassified into a new taxonomic category after genetic testing.",
+                "Researchers coded each response into one of five predefined categories."
+              ],
+              "translationTR": "kategori, sÄ±nÄ±f",
+              "collocations": [
+                "fall into a category",
+                "broad category",
+                "classify into categories"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-complex",
+              "type": "vocabulary",
+              "headword": "complex",
+              "frequencyRank": 72,
+              "baseDifficulty": 0.35,
+              "definition": "Consisting of many interconnected parts and therefore difficult to analyse or understand, or a system of closely related parts.",
+              "exampleSentences": [
+                "Climate systems are extremely complex, with countless interacting variables.",
+                "The enzyme forms a complex with the substrate during the reaction.",
+                "Even a relatively complex model failed to predict the outbreak accurately."
+              ],
+              "translationTR": "karmaÅŸÄ±k; (isim, kimya/biyoloji) kompleks",
+              "collocations": [
+                "highly complex",
+                "complex system",
+                "form a complex"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-element",
+              "type": "vocabulary",
+              "headword": "element",
+              "frequencyRank": 83,
+              "baseDifficulty": 0.3,
+              "definition": "A fundamental part or component of something, or, in chemistry, a substance that cannot be broken down into simpler substances.",
+              "exampleSentences": [
+                "Motivation is a key element in any successful learning strategy.",
+                "Carbon is the element that forms the basis of all known life.",
+                "The researchers isolated each element of the process to study it separately."
+              ],
+              "translationTR": "unsur, Ã¶ÄŸe; (kimya) element",
+              "collocations": [
+                "a key element",
+                "chemical element",
+                "essential element"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-equate",
+              "type": "vocabulary",
+              "headword": "equate",
+              "frequencyRank": 84,
+              "baseDifficulty": 0.4,
+              "definition": "To regard or represent one thing as being equal, equivalent, or corresponding to another.",
+              "exampleSentences": [
+                "It is misleading to equate correlation with causation in observational studies.",
+                "The researchers equated the two groups on age, gender, and education level.",
+                "A higher test score should not automatically be equated with greater understanding."
+              ],
+              "translationTR": "eÅŸdeÄŸer saymak, denk tutmak",
+              "collocations": [
+                "equate with",
+                "equate X with Y",
+                "should not be equated"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-distinct",
+              "type": "vocabulary",
+              "headword": "distinct",
+              "frequencyRank": 82,
+              "baseDifficulty": 0.3,
+              "definition": "Recognizably different or separate from something else in nature, quality, or kind.",
+              "exampleSentences": [
+                "The two subspecies are genetically distinct despite their similar appearance.",
+                "Researchers identified three distinct phases in the disease's progression.",
+                "The results from the two experiments were distinct enough to rule out coincidence."
+              ],
+              "translationTR": "farklÄ±, ayrÄ±, belirgin",
+              "collocations": [
+                "distinct from",
+                "distinct phases",
+                "genetically distinct"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-normal",
+              "type": "vocabulary",
+              "headword": "normal",
+              "frequencyRank": 96,
+              "baseDifficulty": 0.2,
+              "definition": "Conforming to a usual, average, or expected standard, or, in statistics, relating to a symmetrical bell-shaped distribution of data.",
+              "exampleSentences": [
+                "Body temperature outside the normal range can indicate infection.",
+                "The data followed a roughly normal distribution, allowing standard statistical tests to be used.",
+                "It is normal for measurements to show some degree of variation between trials."
+              ],
+              "translationTR": "normal; (istatistik) normal daÄŸÄ±lÄ±m",
+              "collocations": [
+                "normal distribution",
+                "within normal range",
+                "return to normal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-unit-law-policy-society",
+      "theme": "Law, Policy & Society",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "yds-vocab1-lesson-law-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-authority",
+              "type": "vocabulary",
+              "headword": "authority",
+              "frequencyRank": 6,
+              "baseDifficulty": 0.35,
+              "definition": "The power or right to give orders, make decisions, and enforce obedience, or an official organization with such power.",
+              "exampleSentences": [
+                "The mayor lacked the authority to overturn the council's decision.",
+                "Local authorities issued an evacuation order ahead of the storm.",
+                "Her long experience in constitutional law gave her considerable authority on the subject."
+              ],
+              "translationTR": "yetki; (Ã§oÄŸul) yetkili makamlar",
+              "collocations": [
+                "have the authority to",
+                "local authorities",
+                "exercise authority"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-area",
+              "type": "vocabulary",
+              "headword": "area",
+              "frequencyRank": 3,
+              "baseDifficulty": 0.15,
+              "definition": "A particular part of a place, subject, or activity, or a region defined by administrative or geographic boundaries.",
+              "exampleSentences": [
+                "The new zoning law restricts construction in residential areas.",
+                "Human rights has become a central area of international policy.",
+                "Local officials designated the flood-prone area a disaster zone."
+              ],
+              "translationTR": "alan, bÃ¶lge; (mecazi) saha, konu",
+              "collocations": [
+                "a residential area",
+                "policy area",
+                "designate an area"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-constitute",
+              "type": "vocabulary",
+              "headword": "constitute",
+              "frequencyRank": 11,
+              "baseDifficulty": 0.5,
+              "definition": "To form or make up a whole, or to establish something formally, especially a legal or official body.",
+              "exampleSentences": [
+                "Ethnic minorities constitute nearly twenty percent of the country's population.",
+                "The treaty constitutes a legally binding agreement between the two states.",
+                "Parliament voted to constitute a special commission to investigate the allegations."
+              ],
+              "translationTR": "oluÅŸturmak, meydana getirmek; (resmi olarak) kurmak, teÅŸkil etmek",
+              "collocations": [
+                "constitute a majority",
+                "constitute a threat",
+                "constitute a committee"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-environment",
+              "type": "vocabulary",
+              "headword": "environment",
+              "frequencyRank": 20,
+              "baseDifficulty": 0.25,
+              "definition": "The natural world of land, air, and water, or the surrounding conditions, circumstances, and influences affecting a person, group, or activity.",
+              "exampleSentences": [
+                "The new regulations aim to protect the environment from industrial pollution.",
+                "Reformers argued that the country's political environment discouraged open debate.",
+                "Growing up in a stable environment can significantly affect a child's development."
+              ],
+              "translationTR": "Ã§evre; (mecazi) ortam, koÅŸullar",
+              "collocations": [
+                "protect the environment",
+                "political environment",
+                "a supportive environment"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-establish",
+              "type": "vocabulary",
+              "headword": "establish",
+              "frequencyRank": 21,
+              "baseDifficulty": 0.35,
+              "definition": "To set up or create an organization, system, or relationship on a firm basis, or to show something to be true through evidence.",
+              "exampleSentences": [
+                "The United Nations was established in 1945 to promote international cooperation.",
+                "The inquiry sought to establish who was responsible for the policy failure.",
+                "Diplomatic relations between the two countries were established after decades of hostility."
+              ],
+              "translationTR": "kurmak; (kanÄ±tlarla) tespit etmek, ortaya koymak",
+              "collocations": [
+                "establish a policy",
+                "establish diplomatic relations",
+                "establish the facts"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-issue",
+              "type": "vocabulary",
+              "headword": "issue",
+              "frequencyRank": 35,
+              "baseDifficulty": 0.35,
+              "definition": "A topic or problem that people discuss or that requires a decision, or to formally publish, provide, or make something available, especially by an official body.",
+              "exampleSentences": [
+                "Immigration remains one of the most divisive issues in the upcoming election.",
+                "The government issued a decree banning public gatherings during the crisis.",
+                "Local authorities issue permits for any construction within the historic district."
+              ],
+              "translationTR": "konu, sorun; (fiil) yayÄ±mlamak, resmi olarak vermek (belge/karar)",
+              "collocations": [
+                "raise an issue",
+                "issue a decree",
+                "a pressing issue"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-legal",
+              "type": "vocabulary",
+              "headword": "legal",
+              "frequencyRank": 37,
+              "baseDifficulty": 0.25,
+              "definition": "Relating to, based on, or permitted by the law.",
+              "exampleSentences": [
+                "The company took legal action against the supplier for breach of contract.",
+                "Same-sex marriage became legal in the country after a landmark court ruling.",
+                "Citizens have the legal right to appeal decisions made by local government."
+              ],
+              "translationTR": "yasal, hukuki",
+              "collocations": [
+                "legal action",
+                "legal right",
+                "take legal advice"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-legislate",
+              "type": "vocabulary",
+              "headword": "legislate",
+              "frequencyRank": 38,
+              "baseDifficulty": 0.5,
+              "definition": "To make or pass laws, especially by a governing body, or to make provision for a particular situation through law.",
+              "exampleSentences": [
+                "Parliament voted to legislate against discrimination in the workplace.",
+                "It is difficult to legislate for every possible circumstance that may arise.",
+                "Several states have legislated to raise the minimum wage this year."
+              ],
+              "translationTR": "yasa Ã§Ä±karmak, yasal dÃ¼zenleme yapmak",
+              "collocations": [
+                "legislate against",
+                "legislate for",
+                "fail to legislate"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-principle",
+              "type": "vocabulary",
+              "headword": "principle",
+              "frequencyRank": 45,
+              "baseDifficulty": 0.4,
+              "definition": "A fundamental rule, belief, or truth that guides behaviour, reasoning, or the design of a system.",
+              "exampleSentences": [
+                "The constitution is founded on the principle of equality before the law.",
+                "In principle, the new policy should reduce bureaucracy, though implementation may prove difficult.",
+                "She resigned rather than compromise her principles."
+              ],
+              "translationTR": "ilke, prensip",
+              "collocations": [
+                "a basic principle",
+                "in principle",
+                "compromise one's principles"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-proceed",
+              "type": "vocabulary",
+              "headword": "proceed",
+              "frequencyRank": 46,
+              "baseDifficulty": 0.35,
+              "definition": "To continue or go ahead with a course of action, especially after a pause or approval, or, in law, to bring a case against someone.",
+              "exampleSentences": [
+                "The council decided to proceed with the redevelopment plan despite local opposition.",
+                "Once the warrant was issued, police were authorized to proceed with the arrest.",
+                "The prosecution proceeded against the former official on charges of corruption."
+              ],
+              "translationTR": "devam etmek, ilerlemek; (hukuk) dava aÃ§mak, kovuÅŸturmaya geÃ§mek",
+              "collocations": [
+                "proceed with",
+                "proceed against",
+                "proceed to trial"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-law-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-require",
+              "type": "vocabulary",
+              "headword": "require",
+              "frequencyRank": 48,
+              "baseDifficulty": 0.25,
+              "definition": "To need something for a particular purpose, or to officially demand that someone do something, especially under a rule or law.",
+              "exampleSentences": [
+                "The new legislation requires companies to disclose their carbon emissions annually.",
+                "Obtaining a visa requires submitting several supporting documents.",
+                "The court required the defendant to pay damages to the victim."
+              ],
+              "translationTR": "gerektirmek; (resmi olarak) zorunlu kÄ±lmak, talep etmek",
+              "collocations": [
+                "require that",
+                "legally required",
+                "require compliance"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-role",
+              "type": "vocabulary",
+              "headword": "role",
+              "frequencyRank": 51,
+              "baseDifficulty": 0.2,
+              "definition": "The particular function, position, or part that a person or institution has within a society, organization, or situation.",
+              "exampleSentences": [
+                "Civil society organizations play a crucial role in holding governments accountable.",
+                "The committee's role is to advise ministers on proposed legislation.",
+                "She took on a leading role in the campaign for judicial reform."
+              ],
+              "translationTR": "rol, iÅŸlev, gÃ¶rev",
+              "collocations": [
+                "play a role",
+                "a key role",
+                "fulfil a role"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-significant",
+              "type": "vocabulary",
+              "headword": "significant",
+              "frequencyRank": 54,
+              "baseDifficulty": 0.3,
+              "definition": "Important, noteworthy, or large enough to have a meaningful effect.",
+              "exampleSentences": [
+                "The new regulations represent a significant shift in environmental policy.",
+                "There has been a significant increase in voter turnout since the reform.",
+                "Community leaders played a significant part in resolving the dispute."
+              ],
+              "translationTR": "Ã¶nemli, belirgin, ciddi (Ã¶lÃ§Ã¼de)",
+              "collocations": [
+                "a significant increase",
+                "significant impact",
+                "play a significant role"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-individual",
+              "type": "vocabulary",
+              "headword": "individual",
+              "frequencyRank": 32,
+              "baseDifficulty": 0.3,
+              "definition": "A single person considered separately from a group, or, as an adjective, relating to, characteristic of, or intended for one particular person rather than a group.",
+              "exampleSentences": [
+                "The law protects the rights of the individual against arbitrary state action.",
+                "Each individual case is reviewed on its own merits by the tribunal.",
+                "The policy allows for individual exemptions in cases of genuine hardship."
+              ],
+              "translationTR": "birey; (sÄ±fat) bireysel, ayrÄ±, kiÅŸiye Ã¶zel",
+              "collocations": [
+                "the rights of the individual",
+                "an individual case",
+                "individual liberty"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-involve",
+              "type": "vocabulary",
+              "headword": "involve",
+              "frequencyRank": 34,
+              "baseDifficulty": 0.35,
+              "definition": "To include or affect something as a necessary part or consequence, or to cause someone to take part in an activity.",
+              "exampleSentences": [
+                "Reforming the pension system will inevitably involve difficult political trade-offs.",
+                "The scandal involved several senior members of the government.",
+                "Community leaders were involved in drafting the new housing policy."
+              ],
+              "translationTR": "iÃ§ermek, gerektirmek; (birini) dahil etmek, karÄ±ÅŸtÄ±rmak",
+              "collocations": [
+                "involve a risk",
+                "be involved in",
+                "directly involved"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-community",
+              "type": "vocabulary",
+              "headword": "community",
+              "frequencyRank": 71,
+              "baseDifficulty": 0.2,
+              "definition": "A group of people living in the same area, or sharing common characteristics, interests, or nationality within a wider society.",
+              "exampleSentences": [
+                "The new policy was developed in close consultation with the local community.",
+                "Ethnic and religious communities have long coexisted in the region.",
+                "International community leaders condemned the coup within hours."
+              ],
+              "translationTR": "topluluk, cemaat",
+              "collocations": [
+                "local community",
+                "the international community",
+                "community leaders"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-culture",
+              "type": "vocabulary",
+              "headword": "culture",
+              "frequencyRank": 80,
+              "baseDifficulty": 0.2,
+              "definition": "The customs, beliefs, values, and social behaviour of a particular society or group, or the shared attitudes characteristic of an organization.",
+              "exampleSentences": [
+                "The reforms aim to change the culture of impunity within the police force.",
+                "Immigration has enriched the country's culture over successive generations.",
+                "Building a culture of transparency in government requires more than new laws."
+              ],
+              "translationTR": "kÃ¼ltÃ¼r; (kurumsal) kÃ¼ltÃ¼r, anlayÄ±ÅŸ",
+              "collocations": [
+                "a culture of",
+                "cultural heritage",
+                "political culture"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-institute",
+              "type": "vocabulary",
+              "headword": "institute",
+              "frequencyRank": 91,
+              "baseDifficulty": 0.45,
+              "definition": "An organization founded for a particular purpose, especially research, education, or policy, or, as a verb, to introduce or establish a policy, practice, or legal proceeding.",
+              "exampleSentences": [
+                "The research institute published a report on rising inequality.",
+                "The government instituted a curfew following the outbreak of unrest.",
+                "New safety regulations were instituted after the factory disaster."
+              ],
+              "translationTR": "enstitÃ¼, kurum; (fiil) baÅŸlatmak, yÃ¼rÃ¼rlÃ¼ÄŸe koymak",
+              "collocations": [
+                "a research institute",
+                "institute a policy",
+                "institute proceedings"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-participate",
+              "type": "vocabulary",
+              "headword": "participate",
+              "frequencyRank": 98,
+              "baseDifficulty": 0.3,
+              "definition": "To take part in or become actively involved in an activity or event.",
+              "exampleSentences": [
+                "Citizens were encouraged to participate in the public consultation on the new bylaw.",
+                "Only a fraction of eligible voters participated in the referendum.",
+                "NGOs were invited to participate in drafting the human rights legislation."
+              ],
+              "translationTR": "katÄ±lmak",
+              "collocations": [
+                "participate in",
+                "actively participate",
+                "encourage participation"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-potential",
+              "type": "vocabulary",
+              "headword": "potential",
+              "frequencyRank": 101,
+              "baseDifficulty": 0.35,
+              "definition": "Capable of happening, developing, or being used in the future, or, as a noun, the capacity for such future development.",
+              "exampleSentences": [
+                "The reform has the potential to reduce corruption significantly if properly enforced.",
+                "Officials flagged the bill as a potential threat to civil liberties.",
+                "Investment in education is essential to unlocking the region's economic potential."
+              ],
+              "translationTR": "olasÄ±, potansiyel; (isim) potansiyel, geliÅŸme kapasitesi",
+              "collocations": [
+                "potential risk",
+                "have the potential to",
+                "economic potential"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-law-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-previous",
+              "type": "vocabulary",
+              "headword": "previous",
+              "frequencyRank": 102,
+              "baseDifficulty": 0.2,
+              "definition": "Coming or existing before something else in time or order.",
+              "exampleSentences": [
+                "The new administration reversed several previous decisions on immigration policy.",
+                "Under the previous government, welfare spending was cut sharply.",
+                "There is no record of any previous conviction for the defendant."
+              ],
+              "translationTR": "Ã¶nceki, bir Ã¶nceki",
+              "collocations": [
+                "the previous administration",
+                "previous conviction",
+                "in the previous decade"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-region",
+              "type": "vocabulary",
+              "headword": "region",
+              "frequencyRank": 106,
+              "baseDifficulty": 0.2,
+              "definition": "A particular area, especially one defined by geographic, administrative, or cultural boundaries, or, informally, an approximate amount.",
+              "exampleSentences": [
+                "The conflict has displaced hundreds of thousands of people across the region.",
+                "Each region elects its own representatives to the national assembly.",
+                "The proposed budget is in the region of two billion lira."
+              ],
+              "translationTR": "bÃ¶lge; (deyim) 'in the region of' - yaklaÅŸÄ±k olarak",
+              "collocations": [
+                "across the region",
+                "a border region",
+                "in the region of"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-regulate",
+              "type": "vocabulary",
+              "headword": "regulate",
+              "frequencyRank": 107,
+              "baseDifficulty": 0.4,
+              "definition": "To control an activity, industry, or process by means of rules, especially those set by an official body.",
+              "exampleSentences": [
+                "An independent commission was set up to regulate the banking sector.",
+                "The new law regulates the use of personal data by private companies.",
+                "Utilities are heavily regulated to protect consumers from unfair pricing."
+              ],
+              "translationTR": "dÃ¼zenlemek, denetim altÄ±na almak",
+              "collocations": [
+                "strictly regulated",
+                "regulate an industry",
+                "a regulatory body"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-relevant",
+              "type": "vocabulary",
+              "headword": "relevant",
+              "frequencyRank": 108,
+              "baseDifficulty": 0.3,
+              "definition": "Closely connected or applicable to the matter at hand.",
+              "exampleSentences": [
+                "The committee requested all documents relevant to the corruption investigation.",
+                "Community input is highly relevant when designing local housing policy.",
+                "The judge ruled that the earlier testimony was no longer relevant to the case."
+              ],
+              "translationTR": "ilgili, alakalÄ±",
+              "collocations": [
+                "relevant to",
+                "relevant information",
+                "highly relevant"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-restrict",
+              "type": "vocabulary",
+              "headword": "restrict",
+              "frequencyRank": 111,
+              "baseDifficulty": 0.35,
+              "definition": "To limit or place controls on the extent, movement, or freedom of something or someone.",
+              "exampleSentences": [
+                "The new curfew restricts residents' movement between midnight and dawn.",
+                "Several countries have restricted imports of the product on safety grounds.",
+                "Freedom of assembly was severely restricted under the previous regime."
+              ],
+              "translationTR": "kÄ±sÄ±tlamak, sÄ±nÄ±rlamak",
+              "collocations": [
+                "restrict access",
+                "severely restricted",
+                "restrict the movement of"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-tradition",
+              "type": "vocabulary",
+              "headword": "tradition",
+              "frequencyRank": 119,
+              "baseDifficulty": 0.25,
+              "definition": "A long-established custom, belief, or practice passed down within a society or group.",
+              "exampleSentences": [
+                "The village has a long tradition of resolving disputes through community elders.",
+                "Reformers argue that some legal traditions no longer serve modern society.",
+                "The ceremony draws on a centuries-old political tradition."
+              ],
+              "translationTR": "gelenek",
+              "collocations": [
+                "a long-standing tradition",
+                "break with tradition",
+                "legal tradition"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-affect",
+              "type": "vocabulary",
+              "headword": "affect",
+              "frequencyRank": 64,
+              "baseDifficulty": 0.4,
+              "definition": "To have an influence on someone or something, often producing a change; not to be confused with the noun 'effect,' meaning a result.",
+              "exampleSentences": [
+                "The new tax bracket will affect middle-income households the most.",
+                "Prolonged drought has severely affected agricultural communities in the region.",
+                "Public opinion can affect how quickly lawmakers respond to a crisis."
+              ],
+              "translationTR": "etkilemek (fiil) â€” isim olan 'effect' (sonuÃ§, etki) ile karÄ±ÅŸtÄ±rÄ±lmamalÄ±",
+              "collocations": [
+                "directly affect",
+                "affect the outcome",
+                "adversely affect"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-injure",
+              "type": "vocabulary",
+              "headword": "injure",
+              "frequencyRank": 90,
+              "baseDifficulty": 0.3,
+              "definition": "To cause physical harm to someone, or, in law, to cause harm or loss to a person's rights or interests, as in 'the injured party.'",
+              "exampleSentences": [
+                "Several protesters were injured when police used tear gas to disperse the crowd.",
+                "The court awarded compensation to the injured party in the negligence case.",
+                "The new safety regulations aim to reduce the number of workers injured on construction sites."
+              ],
+              "translationTR": "yaralamak; (hukuk) zarar vermek ('injured party' - zarar gÃ¶ren taraf)",
+              "collocations": [
+                "seriously injured",
+                "the injured party",
+                "injured in an accident"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-reside",
+              "type": "vocabulary",
+              "headword": "reside",
+              "frequencyRank": 109,
+              "baseDifficulty": 0.45,
+              "definition": "To live in a particular place on a permanent or long-term basis, or, formally, (of power, authority, or a quality) to be located in or belong to something.",
+              "exampleSentences": [
+                "Thousands of refugees now reside in camps along the border.",
+                "Under the constitution, ultimate authority resides in the elected parliament.",
+                "Foreign nationals who reside in the country for over five years may apply for citizenship."
+              ],
+              "translationTR": "ikamet etmek, oturmak; (yetki/gÃ¼Ã§ iÃ§in) -de bulunmak, ait olmak",
+              "collocations": [
+                "reside in",
+                "legally reside",
+                "authority resides in"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-consequent",
+              "type": "vocabulary",
+              "headword": "consequent",
+              "frequencyRank": 76,
+              "baseDifficulty": 0.45,
+              "definition": "Following as a result or effect of something, especially a previous event or action.",
+              "exampleSentences": [
+                "The consequent rise in unemployment put pressure on the welfare system.",
+                "Delays in the vote led to a consequent postponement of the reform's implementation.",
+                "Public distrust in institutions, and the consequent decline in voter turnout, worried policymakers."
+              ],
+              "translationTR": "sonucunda ortaya Ã§Ä±kan, -den kaynaklanan",
+              "collocations": [
+                "consequent on",
+                "a consequent rise",
+                "consequent delay"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-unit-academic-writing",
+      "theme": "Academic Writing & Communication",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "yds-vocab1-lesson-writing-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-approach",
+              "type": "vocabulary",
+              "headword": "approach",
+              "frequencyRank": 2,
+              "baseDifficulty": 0.3,
+              "definition": "A particular way of dealing with or thinking about a task, problem, or subject, or, as a verb, to begin dealing with something or to come closer to it.",
+              "exampleSentences": [
+                "The author adopts a comparative approach to analyse the two novels.",
+                "Before approaching the topic of censorship, the writer carefully defines her key terms.",
+                "As the essay approaches its conclusion, the argument becomes noticeably more speculative."
+              ],
+              "translationTR": "yaklaÅŸÄ±m; (fiil) ele almak, yaklaÅŸmak",
+              "collocations": [
+                "a fresh approach",
+                "approach a topic",
+                "take an approach"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-available",
+              "type": "vocabulary",
+              "headword": "available",
+              "frequencyRank": 7,
+              "baseDifficulty": 0.15,
+              "definition": "Able to be obtained, used, or accessed when needed.",
+              "exampleSentences": [
+                "A wide range of critical studies on the novel are readily available online.",
+                "The author draws on all the evidence available at the time of writing.",
+                "Few reliable sources were available on the subject before the 1990s."
+              ],
+              "translationTR": "mevcut, elde edilebilir",
+              "collocations": [
+                "readily available",
+                "make available",
+                "available evidence"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-concept",
+              "type": "vocabulary",
+              "headword": "concept",
+              "frequencyRank": 9,
+              "baseDifficulty": 0.25,
+              "definition": "An abstract idea or general notion, especially one underlying a theory, argument, or field of study.",
+              "exampleSentences": [
+                "The essay opens by defining the concept of identity as it is used throughout the argument.",
+                "Postmodernism introduced several concepts that reshaped literary criticism.",
+                "Readers unfamiliar with the field may struggle to grasp such an abstract concept."
+              ],
+              "translationTR": "kavram",
+              "collocations": [
+                "a key concept",
+                "grasp a concept",
+                "introduce a concept"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-consist",
+              "type": "vocabulary",
+              "headword": "consist",
+              "frequencyRank": 10,
+              "baseDifficulty": 0.25,
+              "definition": "To be composed or made up of particular parts or elements.",
+              "exampleSentences": [
+                "The dissertation consists of five chapters, each addressing a separate research question.",
+                "Her argument consists of three interlocking claims about narrative voice.",
+                "The anthology consists mainly of essays written after the war."
+              ],
+              "translationTR": "-den oluÅŸmak, ibaret olmak",
+              "collocations": [
+                "consist of",
+                "consist mainly of",
+                "consist largely of"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-context",
+              "type": "vocabulary",
+              "headword": "context",
+              "frequencyRank": 12,
+              "baseDifficulty": 0.25,
+              "definition": "The circumstances, background, or setting within which something is written, said, or understood, essential for interpreting its meaning.",
+              "exampleSentences": [
+                "Without historical context, the poem's imagery loses much of its force.",
+                "The essay situates the novel within the broader context of postcolonial literature.",
+                "Quoting a sentence out of context can distort the author's original meaning."
+              ],
+              "translationTR": "baÄŸlam, Ã§erÃ§eve",
+              "collocations": [
+                "historical context",
+                "in this context",
+                "out of context"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-create",
+              "type": "vocabulary",
+              "headword": "create",
+              "frequencyRank": 14,
+              "baseDifficulty": 0.2,
+              "definition": "To bring something into existence through effort, imagination, or skill, such as an argument, structure, or piece of writing.",
+              "exampleSentences": [
+                "The author creates a sense of unease through short, fragmented sentences.",
+                "The introduction should create a clear expectation of what the essay will argue.",
+                "By juxtaposing two contrasting voices, the writer creates tension throughout the chapter."
+              ],
+              "translationTR": "yaratmak, oluÅŸturmak",
+              "collocations": [
+                "create tension",
+                "create an impression",
+                "create a structure"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-occur",
+              "type": "vocabulary",
+              "headword": "occur",
+              "frequencyRank": 41,
+              "baseDifficulty": 0.3,
+              "definition": "To happen or take place, or, when followed by 'to,' to come into someone's mind as an idea.",
+              "exampleSentences": [
+                "A significant shift in the author's tone occurs midway through the chapter.",
+                "It did not occur to the reviewer that the ambiguity might be entirely intentional.",
+                "Such abrupt changes of perspective occur frequently in modernist fiction."
+              ],
+              "translationTR": "meydana gelmek, olmak; 'occur to' - aklÄ±na gelmek",
+              "collocations": [
+                "occur to someone",
+                "frequently occur",
+                "a shift occurs"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-period",
+              "type": "vocabulary",
+              "headword": "period",
+              "frequencyRank": 43,
+              "baseDifficulty": 0.3,
+              "definition": "A particular length of time, especially one marked by certain events or characteristics, or, in American usage, the punctuation mark that ends a declarative sentence (a full stop).",
+              "exampleSentences": [
+                "The novel is set during a turbulent period of political upheaval.",
+                "According to the style guide, every declarative sentence must end with a period, not a comma.",
+                "Her prose style changed noticeably over this period."
+              ],
+              "translationTR": "dÃ¶nem; (Amerikan Ä°ngilizcesi, noktalama iÅŸareti) nokta",
+              "collocations": [
+                "a period of time",
+                "over a period",
+                "end with a period"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-respond",
+              "type": "vocabulary",
+              "headword": "respond",
+              "frequencyRank": 50,
+              "baseDifficulty": 0.25,
+              "definition": "To reply, react, or answer, especially to an argument, text, or piece of criticism.",
+              "exampleSentences": [
+                "The author responds directly to earlier critics who dismissed the novel as sentimental.",
+                "Readers are invited to respond to the essay's central claim in their own words.",
+                "The writer responds to the poem's ambiguity by offering two competing interpretations."
+              ],
+              "translationTR": "yanÄ±t vermek, tepki gÃ¶stermek",
+              "collocations": [
+                "respond to criticism",
+                "respond directly",
+                "fail to respond"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-section",
+              "type": "vocabulary",
+              "headword": "section",
+              "frequencyRank": 52,
+              "baseDifficulty": 0.25,
+              "definition": "A distinct part of a text, document, or argument, or, as a verb, to divide something into such separate parts.",
+              "exampleSentences": [
+                "The final section of the essay addresses possible counterarguments.",
+                "The editors sectioned the anthology into three thematic parts for easier navigation.",
+                "Readers can skip directly to the section on methodology."
+              ],
+              "translationTR": "bÃ¶lÃ¼m; (fiil) bÃ¶lÃ¼mlere ayÄ±rmak",
+              "collocations": [
+                "the final section",
+                "section off",
+                "divide into sections"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-writing-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-similar",
+              "type": "vocabulary",
+              "headword": "similar",
+              "frequencyRank": 55,
+              "baseDifficulty": 0.15,
+              "definition": "Having a resemblance in nature, appearance, or quality to something else, without being identical.",
+              "exampleSentences": [
+                "The two essays reach similar conclusions despite starting from different premises.",
+                "Critics have noted a similar pattern of imagery in the author's earlier work.",
+                "Though similar in structure, the two arguments differ sharply in tone."
+              ],
+              "translationTR": "benzer",
+              "collocations": [
+                "a similar pattern",
+                "similar to",
+                "bear a similarity"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-specific",
+              "type": "vocabulary",
+              "headword": "specific",
+              "frequencyRank": 57,
+              "baseDifficulty": 0.2,
+              "definition": "Precise, particular, or clearly defined, rather than general or vague.",
+              "exampleSentences": [
+                "The essay would benefit from more specific examples to support its claims.",
+                "The thesis statement should be specific enough to guide the entire argument.",
+                "The author refers to a specific passage in chapter three to illustrate her point."
+              ],
+              "translationTR": "belirli, Ã¶zgÃ¼, spesifik",
+              "collocations": [
+                "a specific example",
+                "specific to",
+                "be more specific"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-chapter",
+              "type": "vocabulary",
+              "headword": "chapter",
+              "frequencyRank": 69,
+              "baseDifficulty": 0.15,
+              "definition": "A distinct division of a book or written work, usually numbered or titled and dealing with a particular part of the subject.",
+              "exampleSentences": [
+                "The final chapter draws together the threads introduced earlier in the book.",
+                "Each chapter opens with a brief summary of its central argument.",
+                "She devotes an entire chapter to the author's use of symbolism."
+              ],
+              "translationTR": "bÃ¶lÃ¼m (kitap)",
+              "collocations": [
+                "the opening chapter",
+                "devote a chapter to",
+                "the final chapter"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-conclude",
+              "type": "vocabulary",
+              "headword": "conclude",
+              "frequencyRank": 74,
+              "baseDifficulty": 0.3,
+              "definition": "To bring something to an end, or to reach a judgement or decision after considering evidence or argument.",
+              "exampleSentences": [
+                "The essay concludes with a brief reflection on the limitations of the study.",
+                "Based on the textual evidence, the critic concludes that the narrator is unreliable.",
+                "Having reviewed both interpretations, the author concludes that neither fully accounts for the ending."
+              ],
+              "translationTR": "sona erdirmek; (kanÄ±tlardan) sonuca varmak",
+              "collocations": [
+                "conclude that",
+                "conclude with",
+                "conclude an essay"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-design",
+              "type": "vocabulary",
+              "headword": "design",
+              "frequencyRank": 81,
+              "baseDifficulty": 0.3,
+              "definition": "The overall plan, structure, or arrangement of a piece of writing or research, or, as a verb, to plan or shape something deliberately for a particular purpose.",
+              "exampleSentences": [
+                "The essay's design moves from a narrow case study to a broader theoretical claim.",
+                "The study was designed to test competing explanations for the character's motivation.",
+                "A clear structural design helps readers follow a complex argument."
+              ],
+              "translationTR": "tasarÄ±m, yapÄ±; (fiil) tasarlamak, planlamak",
+              "collocations": [
+                "research design",
+                "designed to",
+                "structural design"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-final",
+              "type": "vocabulary",
+              "headword": "final",
+              "frequencyRank": 87,
+              "baseDifficulty": 0.15,
+              "definition": "Coming at the end of a sequence or process; last.",
+              "exampleSentences": [
+                "The final paragraph restates the thesis in light of the evidence presented.",
+                "Her final revision removed several digressive passages.",
+                "The paper's final section anticipates objections to its central claim."
+              ],
+              "translationTR": "son, nihai",
+              "collocations": [
+                "the final paragraph",
+                "final draft",
+                "final revision"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-focus",
+              "type": "vocabulary",
+              "headword": "focus",
+              "frequencyRank": 88,
+              "baseDifficulty": 0.25,
+              "definition": "The main subject of attention or concern in a piece of writing, or, as a verb, to concentrate attention on a particular subject.",
+              "exampleSentences": [
+                "The focus of the chapter shifts from plot to characterization halfway through.",
+                "The essay focuses on how the narrator's unreliability shapes the reader's judgement.",
+                "Rather than surveying the whole novel, the critic keeps her focus narrow and precise."
+              ],
+              "translationTR": "odak, odak noktasÄ±; (fiil) odaklanmak",
+              "collocations": [
+                "the focus of",
+                "focus on",
+                "a narrow focus"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-journal",
+              "type": "vocabulary",
+              "headword": "journal",
+              "frequencyRank": 94,
+              "baseDifficulty": 0.2,
+              "definition": "A scholarly periodical in which academic articles are published, typically after peer review.",
+              "exampleSentences": [
+                "The article was published in a leading literary studies journal.",
+                "Reviewers for the journal recommended several revisions before acceptance.",
+                "She searched academic journals for recent scholarship on the topic."
+              ],
+              "translationTR": "akademik dergi",
+              "collocations": [
+                "a peer-reviewed journal",
+                "publish in a journal",
+                "an academic journal"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-maintain",
+              "type": "vocabulary",
+              "headword": "maintain",
+              "frequencyRank": 95,
+              "baseDifficulty": 0.35,
+              "definition": "To keep something in existence or in a particular state without change, or to assert something firmly as true, especially in an argument.",
+              "exampleSentences": [
+                "The novel maintains a consistent first-person perspective throughout.",
+                "The author maintains that the ending should be read as ironic rather than sincere.",
+                "Despite criticism, she maintained her original interpretation of the poem."
+              ],
+              "translationTR": "sÃ¼rdÃ¼rmek, korumak; (fikir/iddia iÃ§in) Ä±srarla savunmak, iddia etmek",
+              "collocations": [
+                "maintain that",
+                "maintain consistency",
+                "maintain a position"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-perceive",
+              "type": "vocabulary",
+              "headword": "perceive",
+              "frequencyRank": 99,
+              "baseDifficulty": 0.3,
+              "definition": "To become aware of or interpret something in a particular way, especially through observation or understanding.",
+              "exampleSentences": [
+                "The narrator is perceived by other characters as untrustworthy from the outset.",
+                "Readers may perceive irony in a passage the author intended quite sincerely.",
+                "How a text is perceived often changes considerably across historical periods."
+              ],
+              "translationTR": "algÄ±lamak, Ã¶yle gÃ¶rmek",
+              "collocations": [
+                "perceive as",
+                "widely perceived",
+                "perceive irony"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-writing-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "items": [
+            {
+              "id": "yds-vocab1-item-positive",
+              "type": "vocabulary",
+              "headword": "positive",
+              "frequencyRank": 100,
+              "baseDifficulty": 0.25,
+              "definition": "Favourable or constructive in nature, or, when followed by 'that,' completely certain or confident about something.",
+              "exampleSentences": [
+                "Critics offered a largely positive assessment of the author's debut novel.",
+                "She was positive that the manuscript contained an allusion to an earlier poet.",
+                "The essay ends on a positive note, emphasizing the text's enduring relevance."
+              ],
+              "translationTR": "olumlu; ('positive that' ile) emin, kesin",
+              "collocations": [
+                "a positive assessment",
+                "positive that",
+                "end on a positive note"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-primary",
+              "type": "vocabulary",
+              "headword": "primary",
+              "frequencyRank": 103,
+              "baseDifficulty": 0.25,
+              "definition": "First in importance, order, or rank; main, especially in describing sources or purposes.",
+              "exampleSentences": [
+                "The primary source for this chapter is the author's own correspondence.",
+                "Her primary aim is to reassess the novel's reception among contemporary readers.",
+                "Secondary criticism should never replace close reading of the primary text."
+              ],
+              "translationTR": "birincil, ana, esas",
+              "collocations": [
+                "a primary source",
+                "primary aim",
+                "primary text"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-range",
+              "type": "vocabulary",
+              "headword": "range",
+              "frequencyRank": 105,
+              "baseDifficulty": 0.3,
+              "definition": "A set of different things of the same general type, or the extent between limits, or, as a verb, to extend or vary between two points.",
+              "exampleSentences": [
+                "The anthology includes a wide range of poetic styles from the period.",
+                "Interpretations of the final chapter range from cautiously optimistic to deeply pessimistic.",
+                "The essay covers a broad range of critical approaches to the text."
+              ],
+              "translationTR": "Ã§eÅŸitlilik, aralÄ±k; (fiil, 'range from...to') arasÄ±nda deÄŸiÅŸmek",
+              "collocations": [
+                "a range of",
+                "range from...to",
+                "a wide range"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-seek",
+              "type": "vocabulary",
+              "headword": "seek",
+              "frequencyRank": 113,
+              "baseDifficulty": 0.3,
+              "definition": "To try to obtain, achieve, or find something, especially through sustained effort or argument.",
+              "exampleSentences": [
+                "The essay seeks to demonstrate that the two novels share a common source.",
+                "Scholars have long sought an explanation for the poem's abrupt final stanza.",
+                "She seeks out lesser-known reviews to complicate the standard critical narrative."
+              ],
+              "translationTR": "aramak, elde etmeye Ã§alÄ±ÅŸmak",
+              "collocations": [
+                "seek to argue",
+                "seek an explanation",
+                "seek out"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-select",
+              "type": "vocabulary",
+              "headword": "select",
+              "frequencyRank": 114,
+              "baseDifficulty": 0.25,
+              "definition": "To choose someone or something carefully from a range of possibilities, typically after consideration.",
+              "exampleSentences": [
+                "The editor selected only the essays that engaged directly with the central theme.",
+                "Passages were carefully selected to illustrate the author's evolving style.",
+                "Students should select quotations that genuinely support their argument, not merely decorate it."
+              ],
+              "translationTR": "seÃ§mek",
+              "collocations": [
+                "carefully selected",
+                "select a quotation",
+                "select from"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-site",
+              "type": "vocabulary",
+              "headword": "site",
+              "frequencyRank": 115,
+              "baseDifficulty": 0.35,
+              "definition": "A particular place where something is located or takes place, or, more figuratively, a text or context treated as the location of a particular struggle, meaning, or debate.",
+              "exampleSentences": [
+                "The archive functioned as the primary research site for her study of wartime letters.",
+                "Feminist critics have long treated the novel as a site of ideological contestation.",
+                "The final chapter becomes a site where competing interpretations of the ending collide."
+              ],
+              "translationTR": "yer, mekÃ¢n; (mecazi) bir tartÄ±ÅŸmanÄ±n/anlamÄ±n 'sahnesi' olan metin veya baÄŸlam",
+              "collocations": [
+                "a research site",
+                "a site of contestation",
+                "a site of debate"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-text",
+              "type": "vocabulary",
+              "headword": "text",
+              "frequencyRank": 118,
+              "baseDifficulty": 0.15,
+              "definition": "A written work considered in terms of its content, structure, or meaning, especially as an object of study or interpretation.",
+              "exampleSentences": [
+                "Close reading requires attending carefully to the language of the text itself.",
+                "The essay treats the film as a text open to the same critical methods as a novel.",
+                "Several passages in the text resist a single, stable interpretation."
+              ],
+              "translationTR": "metin",
+              "collocations": [
+                "close reading of a text",
+                "the text itself",
+                "a literary text"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-appropriate",
+              "type": "vocabulary",
+              "headword": "appropriate",
+              "frequencyRank": 65,
+              "baseDifficulty": 0.4,
+              "definition": "Suitable or fitting for a particular purpose or occasion, or, as a verb, to take something, such as a term, idea, or style, and adopt it for one's own use, often without full acknowledgement.",
+              "exampleSentences": [
+                "A formal register is generally more appropriate for academic writing than casual speech.",
+                "The novelist appropriates the conventions of the gothic genre for satirical ends.",
+                "It is not always appropriate to quote at length when a brief paraphrase would suffice."
+              ],
+              "translationTR": "uygun; (fiil) sahiplenmek, kendine mal etmek (bir Ã¼slup/kavramÄ±)",
+              "collocations": [
+                "appropriate for",
+                "appropriate a genre",
+                "an appropriate tone"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-aspect",
+              "type": "vocabulary",
+              "headword": "aspect",
+              "frequencyRank": 66,
+              "baseDifficulty": 0.25,
+              "definition": "A particular part, feature, or way of considering something, especially one aspect among several possible ones.",
+              "exampleSentences": [
+                "This section examines one aspect of the novel's treatment of memory.",
+                "Every aspect of the argument must be supported by textual evidence.",
+                "Critics disagree chiefly on the aesthetic aspect of the author's late style."
+              ],
+              "translationTR": "yÃ¶n, boyut, unsur",
+              "collocations": [
+                "an important aspect",
+                "one aspect of",
+                "every aspect"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-assist",
+              "type": "vocabulary",
+              "headword": "assist",
+              "frequencyRank": 67,
+              "baseDifficulty": 0.25,
+              "definition": "To help someone accomplish a task or achieve a result, typically in a supporting rather than leading role.",
+              "exampleSentences": [
+                "Footnotes assist the reader in tracing the author's sources.",
+                "A supervisor assisted her in narrowing the thesis to a single, manageable claim.",
+                "Marginal summaries can assist students unfamiliar with the text's dense argument."
+              ],
+              "translationTR": "yardÄ±mcÄ± olmak",
+              "collocations": [
+                "assist in",
+                "assist the reader",
+                "assist with"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

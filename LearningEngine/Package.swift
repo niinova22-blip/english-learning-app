@@ -9,6 +9,10 @@ let package = Package(
     ],
     targets: [
         .target(name: "LearningEngine"),
-        .testTarget(name: "LearningEngineTests", dependencies: ["LearningEngine"])
+        .testTarget(
+            name: "LearningEngineTests",
+            dependencies: ["LearningEngine"],
+            resources: [.copy("Fixtures/YDSAcademicVocabulary1.json")]
+        )
     ]
 )
