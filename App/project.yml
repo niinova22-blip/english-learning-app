@@ -6,6 +6,8 @@ options:
 packages:
   LearningEngine:
     path: ../LearningEngine
+  TutorEngine:
+    path: ../TutorEngine
 targets:
   EnglishApp:
     type: application
@@ -17,6 +19,7 @@ targets:
       - path: Sources/EnglishApp/Resources
     dependencies:
       - package: LearningEngine
+      - package: TutorEngine
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.niinova22.englishapp
@@ -37,6 +40,7 @@ targets:
     dependencies:
       - target: EnglishApp
       - package: LearningEngine
+      - package: TutorEngine
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES
