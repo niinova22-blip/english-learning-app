@@ -23,8 +23,8 @@ commit — via SwiftPM's dependency-mirror mechanism.
 - **CI** (`.github/workflows/swift-tests.yml`, `.github/workflows/app-build.yml`):
   both jobs set `SWIFTPM_MIRROR_CONFIG` to point at `ci/swiftpm-mirrors.json`
   at the repo root. This is honored by both plain `swift test` and Xcode's
-  `xcodebuild`, confirmed by real CI runs (see
-  `.superpowers/sdd/2026-09-13-local-tutor-llm/task-4-report.md`).
+  `xcodebuild`, confirmed by real CI runs (see the "Swift Tests" and
+  "App Build" GitHub Actions workflow histories for this repo).
 - **Local `TutorEngine` package builds**: `TutorEngine/.swiftpm/configuration/mirrors.json`
   carries the same mirror entry. This is SwiftPM's own local-config fallback
   path — it's consulted automatically whenever `SWIFTPM_MIRROR_CONFIG` is
