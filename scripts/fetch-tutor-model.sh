@@ -21,7 +21,7 @@ if [ -f "$DEST_DIR/.fetched-revision" ] && [ "$(cat "$DEST_DIR/.fetched-revision
   exit 0
 fi
 
-python3 -m pip install --quiet --upgrade huggingface_hub
+python3 -m pip install --quiet --upgrade --break-system-packages huggingface_hub
 
 rm -rf "$DEST_DIR"
 mkdir -p "$DEST_DIR"
