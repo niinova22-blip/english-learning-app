@@ -13,6 +13,13 @@ jobs:
         working-directory: LearningEngine
     steps:
       - uses: actions/checkout@v4
+      - name: Verify content assembly is up to date
+        working-directory: ${{ github.workspace }}
+        run: |
+          python3 scripts/assemble-content.py
+          git diff --exit-code -- \
+            App/Sources/EnglishApp/Resources/YDSAcademicVocabulary1.json \
+            LearningEngine/Tests/LearningEngineTests/Fixtures/YDSAcademicVocabulary1.json
       - name: Select Xcode
         run: sudo xcode-select -s /Applications/Xcode.app
       - name: swift test

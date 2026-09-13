@@ -29,6 +29,9 @@ enum AppModelContainer {
         }
     }
 
+    // Retained for reference / LearningEngine test use only — the app itself seeds real content via
+    // seedRealContentIfNeeded; SampleContent remains LearningEngine's internal test fixture (also used
+    // directly by App/Tests/EnglishAppTests/TodaySessionCoordinatorTests.swift).
     static func seedSampleContentIfNeeded(in context: ModelContext) {
         let existingCount = (try? context.fetchCount(FetchDescriptor<ContentPackage>())) ?? 0
         guard existingCount == 0 else { return }
@@ -42,6 +45,7 @@ enum AppModelContainer {
         guard existingCount == 0 else { return }
         guard let url = Bundle.main.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
             assertionFailure("YDSAcademicVocabulary1.json missing from app bundle")
+            containerCreationError = "YDSAcademicVocabulary1.json missing from app bundle"
             return
         }
         do {

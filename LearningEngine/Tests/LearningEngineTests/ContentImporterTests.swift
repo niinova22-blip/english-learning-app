@@ -141,5 +141,26 @@ final class ContentImporterTests: XCTestCase {
         let uniqueIDs = Set(allItems.map(\.id))
         XCTAssertEqual(uniqueIDs.count, 120, "duplicate item ids found")
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
+
+        // Regression guard for the mangled-Turkish-characters bug (UTF-8-as-Windows-1252
+        // double-encoding, e.g. "ş" -> "ÅŸ") that a prior manual content-assembly step
+        // introduced in 91/120 items. A bare `content != nil` check does not catch this,
+        // since garbled-but-non-empty strings still pass it.
+        let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
+        XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
+
+        let mojibakeMarkers = ["Ã", "Å", "â€"]
+        for item in allItems {
+            guard let content = item.content else { continue }
+            let fields = [content.translationTR, content.definition] + content.exampleSentences + content.collocations
+            for field in fields {
+                for marker in mojibakeMarkers {
+                    XCTAssertFalse(
+                        field.contains(marker),
+                        "possible mojibake ('\(marker)') in item \(item.id): \(field)"
+                    )
+                }
+            }
+        }
     }
 }

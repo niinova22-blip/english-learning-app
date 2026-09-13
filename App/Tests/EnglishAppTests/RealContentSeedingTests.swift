@@ -37,6 +37,11 @@ final class RealContentSeedingTests: XCTestCase {
         let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
         XCTAssertEqual(allItems.count, 120)
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
+
+        // Regression guard for the mangled-Turkish-characters bug (Task 6): a bare
+        // `content != nil` check would not catch garbled-but-non-empty strings.
+        let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
+        XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
     }
 
     func test_seedRealContentIfNeeded_populatesEmptyStore_andIsIdempotent() throws {
