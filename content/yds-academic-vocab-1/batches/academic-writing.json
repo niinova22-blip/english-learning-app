@@ -1,0 +1,478 @@
+{
+  "id": "yds-vocab1-unit-academic-writing",
+  "theme": "Academic Writing & Communication",
+  "order": 3,
+  "lessons": [
+    {
+      "id": "yds-vocab1-lesson-writing-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-approach",
+          "type": "vocabulary",
+          "headword": "approach",
+          "frequencyRank": 2,
+          "baseDifficulty": 0.3,
+          "definition": "A particular way of dealing with or thinking about a task, problem, or subject, or, as a verb, to begin dealing with something or to come closer to it.",
+          "exampleSentences": [
+            "The author adopts a comparative approach to analyse the two novels.",
+            "Before approaching the topic of censorship, the writer carefully defines her key terms.",
+            "As the essay approaches its conclusion, the argument becomes noticeably more speculative."
+          ],
+          "translationTR": "yaklaşım; (fiil) ele almak, yaklaşmak",
+          "collocations": ["a fresh approach", "approach a topic", "take an approach"]
+        },
+        {
+          "id": "yds-vocab1-item-available",
+          "type": "vocabulary",
+          "headword": "available",
+          "frequencyRank": 7,
+          "baseDifficulty": 0.15,
+          "definition": "Able to be obtained, used, or accessed when needed.",
+          "exampleSentences": [
+            "A wide range of critical studies on the novel are readily available online.",
+            "The author draws on all the evidence available at the time of writing.",
+            "Few reliable sources were available on the subject before the 1990s."
+          ],
+          "translationTR": "mevcut, elde edilebilir",
+          "collocations": ["readily available", "make available", "available evidence"]
+        },
+        {
+          "id": "yds-vocab1-item-concept",
+          "type": "vocabulary",
+          "headword": "concept",
+          "frequencyRank": 9,
+          "baseDifficulty": 0.25,
+          "definition": "An abstract idea or general notion, especially one underlying a theory, argument, or field of study.",
+          "exampleSentences": [
+            "The essay opens by defining the concept of identity as it is used throughout the argument.",
+            "Postmodernism introduced several concepts that reshaped literary criticism.",
+            "Readers unfamiliar with the field may struggle to grasp such an abstract concept."
+          ],
+          "translationTR": "kavram",
+          "collocations": ["a key concept", "grasp a concept", "introduce a concept"]
+        },
+        {
+          "id": "yds-vocab1-item-consist",
+          "type": "vocabulary",
+          "headword": "consist",
+          "frequencyRank": 10,
+          "baseDifficulty": 0.25,
+          "definition": "To be composed or made up of particular parts or elements.",
+          "exampleSentences": [
+            "The dissertation consists of five chapters, each addressing a separate research question.",
+            "Her argument consists of three interlocking claims about narrative voice.",
+            "The anthology consists mainly of essays written after the war."
+          ],
+          "translationTR": "-den oluşmak, ibaret olmak",
+          "collocations": ["consist of", "consist mainly of", "consist largely of"]
+        },
+        {
+          "id": "yds-vocab1-item-context",
+          "type": "vocabulary",
+          "headword": "context",
+          "frequencyRank": 12,
+          "baseDifficulty": 0.25,
+          "definition": "The circumstances, background, or setting within which something is written, said, or understood, essential for interpreting its meaning.",
+          "exampleSentences": [
+            "Without historical context, the poem's imagery loses much of its force.",
+            "The essay situates the novel within the broader context of postcolonial literature.",
+            "Quoting a sentence out of context can distort the author's original meaning."
+          ],
+          "translationTR": "bağlam, çerçeve",
+          "collocations": ["historical context", "in this context", "out of context"]
+        },
+        {
+          "id": "yds-vocab1-item-create",
+          "type": "vocabulary",
+          "headword": "create",
+          "frequencyRank": 14,
+          "baseDifficulty": 0.2,
+          "definition": "To bring something into existence through effort, imagination, or skill, such as an argument, structure, or piece of writing.",
+          "exampleSentences": [
+            "The author creates a sense of unease through short, fragmented sentences.",
+            "The introduction should create a clear expectation of what the essay will argue.",
+            "By juxtaposing two contrasting voices, the writer creates tension throughout the chapter."
+          ],
+          "translationTR": "yaratmak, oluşturmak",
+          "collocations": ["create tension", "create an impression", "create a structure"]
+        },
+        {
+          "id": "yds-vocab1-item-occur",
+          "type": "vocabulary",
+          "headword": "occur",
+          "frequencyRank": 41,
+          "baseDifficulty": 0.3,
+          "definition": "To happen or take place, or, when followed by 'to,' to come into someone's mind as an idea.",
+          "exampleSentences": [
+            "A significant shift in the author's tone occurs midway through the chapter.",
+            "It did not occur to the reviewer that the ambiguity might be entirely intentional.",
+            "Such abrupt changes of perspective occur frequently in modernist fiction."
+          ],
+          "translationTR": "meydana gelmek, olmak; 'occur to' - aklına gelmek",
+          "collocations": ["occur to someone", "frequently occur", "a shift occurs"]
+        },
+        {
+          "id": "yds-vocab1-item-period",
+          "type": "vocabulary",
+          "headword": "period",
+          "frequencyRank": 43,
+          "baseDifficulty": 0.3,
+          "definition": "A particular length of time, especially one marked by certain events or characteristics, or, in American usage, the punctuation mark that ends a declarative sentence (a full stop).",
+          "exampleSentences": [
+            "The novel is set during a turbulent period of political upheaval.",
+            "According to the style guide, every declarative sentence must end with a period, not a comma.",
+            "Her prose style changed noticeably over this period."
+          ],
+          "translationTR": "dönem; (Amerikan İngilizcesi, noktalama işareti) nokta",
+          "collocations": ["a period of time", "over a period", "end with a period"]
+        },
+        {
+          "id": "yds-vocab1-item-respond",
+          "type": "vocabulary",
+          "headword": "respond",
+          "frequencyRank": 50,
+          "baseDifficulty": 0.25,
+          "definition": "To reply, react, or answer, especially to an argument, text, or piece of criticism.",
+          "exampleSentences": [
+            "The author responds directly to earlier critics who dismissed the novel as sentimental.",
+            "Readers are invited to respond to the essay's central claim in their own words.",
+            "The writer responds to the poem's ambiguity by offering two competing interpretations."
+          ],
+          "translationTR": "yanıt vermek, tepki göstermek",
+          "collocations": ["respond to criticism", "respond directly", "fail to respond"]
+        },
+        {
+          "id": "yds-vocab1-item-section",
+          "type": "vocabulary",
+          "headword": "section",
+          "frequencyRank": 52,
+          "baseDifficulty": 0.25,
+          "definition": "A distinct part of a text, document, or argument, or, as a verb, to divide something into such separate parts.",
+          "exampleSentences": [
+            "The final section of the essay addresses possible counterarguments.",
+            "The editors sectioned the anthology into three thematic parts for easier navigation.",
+            "Readers can skip directly to the section on methodology."
+          ],
+          "translationTR": "bölüm; (fiil) bölümlere ayırmak",
+          "collocations": ["the final section", "section off", "divide into sections"]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-lesson-writing-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-similar",
+          "type": "vocabulary",
+          "headword": "similar",
+          "frequencyRank": 55,
+          "baseDifficulty": 0.15,
+          "definition": "Having a resemblance in nature, appearance, or quality to something else, without being identical.",
+          "exampleSentences": [
+            "The two essays reach similar conclusions despite starting from different premises.",
+            "Critics have noted a similar pattern of imagery in the author's earlier work.",
+            "Though similar in structure, the two arguments differ sharply in tone."
+          ],
+          "translationTR": "benzer",
+          "collocations": ["a similar pattern", "similar to", "bear a similarity"]
+        },
+        {
+          "id": "yds-vocab1-item-specific",
+          "type": "vocabulary",
+          "headword": "specific",
+          "frequencyRank": 57,
+          "baseDifficulty": 0.2,
+          "definition": "Precise, particular, or clearly defined, rather than general or vague.",
+          "exampleSentences": [
+            "The essay would benefit from more specific examples to support its claims.",
+            "The thesis statement should be specific enough to guide the entire argument.",
+            "The author refers to a specific passage in chapter three to illustrate her point."
+          ],
+          "translationTR": "belirli, özgü, spesifik",
+          "collocations": ["a specific example", "specific to", "be more specific"]
+        },
+        {
+          "id": "yds-vocab1-item-chapter",
+          "type": "vocabulary",
+          "headword": "chapter",
+          "frequencyRank": 69,
+          "baseDifficulty": 0.15,
+          "definition": "A distinct division of a book or written work, usually numbered or titled and dealing with a particular part of the subject.",
+          "exampleSentences": [
+            "The final chapter draws together the threads introduced earlier in the book.",
+            "Each chapter opens with a brief summary of its central argument.",
+            "She devotes an entire chapter to the author's use of symbolism."
+          ],
+          "translationTR": "bölüm (kitap)",
+          "collocations": ["the opening chapter", "devote a chapter to", "the final chapter"]
+        },
+        {
+          "id": "yds-vocab1-item-conclude",
+          "type": "vocabulary",
+          "headword": "conclude",
+          "frequencyRank": 74,
+          "baseDifficulty": 0.3,
+          "definition": "To bring something to an end, or to reach a judgement or decision after considering evidence or argument.",
+          "exampleSentences": [
+            "The essay concludes with a brief reflection on the limitations of the study.",
+            "Based on the textual evidence, the critic concludes that the narrator is unreliable.",
+            "Having reviewed both interpretations, the author concludes that neither fully accounts for the ending."
+          ],
+          "translationTR": "sona erdirmek; (kanıtlardan) sonuca varmak",
+          "collocations": ["conclude that", "conclude with", "conclude an essay"]
+        },
+        {
+          "id": "yds-vocab1-item-design",
+          "type": "vocabulary",
+          "headword": "design",
+          "frequencyRank": 81,
+          "baseDifficulty": 0.3,
+          "definition": "The overall plan, structure, or arrangement of a piece of writing or research, or, as a verb, to plan or shape something deliberately for a particular purpose.",
+          "exampleSentences": [
+            "The essay's design moves from a narrow case study to a broader theoretical claim.",
+            "The study was designed to test competing explanations for the character's motivation.",
+            "A clear structural design helps readers follow a complex argument."
+          ],
+          "translationTR": "tasarım, yapı; (fiil) tasarlamak, planlamak",
+          "collocations": ["research design", "designed to", "structural design"]
+        },
+        {
+          "id": "yds-vocab1-item-final",
+          "type": "vocabulary",
+          "headword": "final",
+          "frequencyRank": 87,
+          "baseDifficulty": 0.15,
+          "definition": "Coming at the end of a sequence or process; last.",
+          "exampleSentences": [
+            "The final paragraph restates the thesis in light of the evidence presented.",
+            "Her final revision removed several digressive passages.",
+            "The paper's final section anticipates objections to its central claim."
+          ],
+          "translationTR": "son, nihai",
+          "collocations": ["the final paragraph", "final draft", "final revision"]
+        },
+        {
+          "id": "yds-vocab1-item-focus",
+          "type": "vocabulary",
+          "headword": "focus",
+          "frequencyRank": 88,
+          "baseDifficulty": 0.25,
+          "definition": "The main subject of attention or concern in a piece of writing, or, as a verb, to concentrate attention on a particular subject.",
+          "exampleSentences": [
+            "The focus of the chapter shifts from plot to characterization halfway through.",
+            "The essay focuses on how the narrator's unreliability shapes the reader's judgement.",
+            "Rather than surveying the whole novel, the critic keeps her focus narrow and precise."
+          ],
+          "translationTR": "odak, odak noktası; (fiil) odaklanmak",
+          "collocations": ["the focus of", "focus on", "a narrow focus"]
+        },
+        {
+          "id": "yds-vocab1-item-journal",
+          "type": "vocabulary",
+          "headword": "journal",
+          "frequencyRank": 94,
+          "baseDifficulty": 0.2,
+          "definition": "A scholarly periodical in which academic articles are published, typically after peer review.",
+          "exampleSentences": [
+            "The article was published in a leading literary studies journal.",
+            "Reviewers for the journal recommended several revisions before acceptance.",
+            "She searched academic journals for recent scholarship on the topic."
+          ],
+          "translationTR": "akademik dergi",
+          "collocations": ["a peer-reviewed journal", "publish in a journal", "an academic journal"]
+        },
+        {
+          "id": "yds-vocab1-item-maintain",
+          "type": "vocabulary",
+          "headword": "maintain",
+          "frequencyRank": 95,
+          "baseDifficulty": 0.35,
+          "definition": "To keep something in existence or in a particular state without change, or to assert something firmly as true, especially in an argument.",
+          "exampleSentences": [
+            "The novel maintains a consistent first-person perspective throughout.",
+            "The author maintains that the ending should be read as ironic rather than sincere.",
+            "Despite criticism, she maintained her original interpretation of the poem."
+          ],
+          "translationTR": "sürdürmek, korumak; (fikir/iddia için) ısrarla savunmak, iddia etmek",
+          "collocations": ["maintain that", "maintain consistency", "maintain a position"]
+        },
+        {
+          "id": "yds-vocab1-item-perceive",
+          "type": "vocabulary",
+          "headword": "perceive",
+          "frequencyRank": 99,
+          "baseDifficulty": 0.3,
+          "definition": "To become aware of or interpret something in a particular way, especially through observation or understanding.",
+          "exampleSentences": [
+            "The narrator is perceived by other characters as untrustworthy from the outset.",
+            "Readers may perceive irony in a passage the author intended quite sincerely.",
+            "How a text is perceived often changes considerably across historical periods."
+          ],
+          "translationTR": "algılamak, öyle görmek",
+          "collocations": ["perceive as", "widely perceived", "perceive irony"]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-lesson-writing-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-positive",
+          "type": "vocabulary",
+          "headword": "positive",
+          "frequencyRank": 100,
+          "baseDifficulty": 0.25,
+          "definition": "Favourable or constructive in nature, or, when followed by 'that,' completely certain or confident about something.",
+          "exampleSentences": [
+            "Critics offered a largely positive assessment of the author's debut novel.",
+            "She was positive that the manuscript contained an allusion to an earlier poet.",
+            "The essay ends on a positive note, emphasizing the text's enduring relevance."
+          ],
+          "translationTR": "olumlu; ('positive that' ile) emin, kesin",
+          "collocations": ["a positive assessment", "positive that", "end on a positive note"]
+        },
+        {
+          "id": "yds-vocab1-item-primary",
+          "type": "vocabulary",
+          "headword": "primary",
+          "frequencyRank": 103,
+          "baseDifficulty": 0.25,
+          "definition": "First in importance, order, or rank; main, especially in describing sources or purposes.",
+          "exampleSentences": [
+            "The primary source for this chapter is the author's own correspondence.",
+            "Her primary aim is to reassess the novel's reception among contemporary readers.",
+            "Secondary criticism should never replace close reading of the primary text."
+          ],
+          "translationTR": "birincil, ana, esas",
+          "collocations": ["a primary source", "primary aim", "primary text"]
+        },
+        {
+          "id": "yds-vocab1-item-range",
+          "type": "vocabulary",
+          "headword": "range",
+          "frequencyRank": 105,
+          "baseDifficulty": 0.3,
+          "definition": "A set of different things of the same general type, or the extent between limits, or, as a verb, to extend or vary between two points.",
+          "exampleSentences": [
+            "The anthology includes a wide range of poetic styles from the period.",
+            "Interpretations of the final chapter range from cautiously optimistic to deeply pessimistic.",
+            "The essay covers a broad range of critical approaches to the text."
+          ],
+          "translationTR": "çeşitlilik, aralık; (fiil, 'range from...to') arasında değişmek",
+          "collocations": ["a range of", "range from...to", "a wide range"]
+        },
+        {
+          "id": "yds-vocab1-item-seek",
+          "type": "vocabulary",
+          "headword": "seek",
+          "frequencyRank": 113,
+          "baseDifficulty": 0.3,
+          "definition": "To try to obtain, achieve, or find something, especially through sustained effort or argument.",
+          "exampleSentences": [
+            "The essay seeks to demonstrate that the two novels share a common source.",
+            "Scholars have long sought an explanation for the poem's abrupt final stanza.",
+            "She seeks out lesser-known reviews to complicate the standard critical narrative."
+          ],
+          "translationTR": "aramak, elde etmeye çalışmak",
+          "collocations": ["seek to argue", "seek an explanation", "seek out"]
+        },
+        {
+          "id": "yds-vocab1-item-select",
+          "type": "vocabulary",
+          "headword": "select",
+          "frequencyRank": 114,
+          "baseDifficulty": 0.25,
+          "definition": "To choose someone or something carefully from a range of possibilities, typically after consideration.",
+          "exampleSentences": [
+            "The editor selected only the essays that engaged directly with the central theme.",
+            "Passages were carefully selected to illustrate the author's evolving style.",
+            "Students should select quotations that genuinely support their argument, not merely decorate it."
+          ],
+          "translationTR": "seçmek",
+          "collocations": ["carefully selected", "select a quotation", "select from"]
+        },
+        {
+          "id": "yds-vocab1-item-site",
+          "type": "vocabulary",
+          "headword": "site",
+          "frequencyRank": 115,
+          "baseDifficulty": 0.35,
+          "definition": "A particular place where something is located or takes place, or, more figuratively, a text or context treated as the location of a particular struggle, meaning, or debate.",
+          "exampleSentences": [
+            "The archive functioned as the primary research site for her study of wartime letters.",
+            "Feminist critics have long treated the novel as a site of ideological contestation.",
+            "The final chapter becomes a site where competing interpretations of the ending collide."
+          ],
+          "translationTR": "yer, mekân; (mecazi) bir tartışmanın/anlamın 'sahnesi' olan metin veya bağlam",
+          "collocations": ["a research site", "a site of contestation", "a site of debate"]
+        },
+        {
+          "id": "yds-vocab1-item-text",
+          "type": "vocabulary",
+          "headword": "text",
+          "frequencyRank": 118,
+          "baseDifficulty": 0.15,
+          "definition": "A written work considered in terms of its content, structure, or meaning, especially as an object of study or interpretation.",
+          "exampleSentences": [
+            "Close reading requires attending carefully to the language of the text itself.",
+            "The essay treats the film as a text open to the same critical methods as a novel.",
+            "Several passages in the text resist a single, stable interpretation."
+          ],
+          "translationTR": "metin",
+          "collocations": ["close reading of a text", "the text itself", "a literary text"]
+        },
+        {
+          "id": "yds-vocab1-item-appropriate",
+          "type": "vocabulary",
+          "headword": "appropriate",
+          "frequencyRank": 65,
+          "baseDifficulty": 0.4,
+          "definition": "Suitable or fitting for a particular purpose or occasion, or, as a verb, to take something, such as a term, idea, or style, and adopt it for one's own use, often without full acknowledgement.",
+          "exampleSentences": [
+            "A formal register is generally more appropriate for academic writing than casual speech.",
+            "The novelist appropriates the conventions of the gothic genre for satirical ends.",
+            "It is not always appropriate to quote at length when a brief paraphrase would suffice."
+          ],
+          "translationTR": "uygun; (fiil) sahiplenmek, kendine mal etmek (bir üslup/kavramı)",
+          "collocations": ["appropriate for", "appropriate a genre", "an appropriate tone"]
+        },
+        {
+          "id": "yds-vocab1-item-aspect",
+          "type": "vocabulary",
+          "headword": "aspect",
+          "frequencyRank": 66,
+          "baseDifficulty": 0.25,
+          "definition": "A particular part, feature, or way of considering something, especially one aspect among several possible ones.",
+          "exampleSentences": [
+            "This section examines one aspect of the novel's treatment of memory.",
+            "Every aspect of the argument must be supported by textual evidence.",
+            "Critics disagree chiefly on the aesthetic aspect of the author's late style."
+          ],
+          "translationTR": "yön, boyut, unsur",
+          "collocations": ["an important aspect", "one aspect of", "every aspect"]
+        },
+        {
+          "id": "yds-vocab1-item-assist",
+          "type": "vocabulary",
+          "headword": "assist",
+          "frequencyRank": 67,
+          "baseDifficulty": 0.25,
+          "definition": "To help someone accomplish a task or achieve a result, typically in a supporting rather than leading role.",
+          "exampleSentences": [
+            "Footnotes assist the reader in tracing the author's sources.",
+            "A research assistant helped compile the bibliography for the study.",
+            "Marginal summaries can assist students unfamiliar with the text's dense argument."
+          ],
+          "translationTR": "yardımcı olmak",
+          "collocations": ["assist in", "assist the reader", "a research assistant"]
+        }
+      ]
+    }
+  ]
+}
