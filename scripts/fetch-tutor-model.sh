@@ -46,5 +46,17 @@ else
     --local-dir "$DEST_DIR"
 fi
 
+# `hf download`/`huggingface-cli download` leave behind bookkeeping
+# alongside the actual model files: a `.cache/huggingface/` tree
+# (download locks, resolved-ETag metadata, ref trees) and repo metadata
+# (`README.md`, `.gitattributes`) that MLX never reads. This directory
+# is bundled into the app as a resource, so anything left here ships in
+# the binary — strip it down to just the files MLX needs to load the
+# model (config.json, the safetensors weights + shard index, and the
+# tokenizer files) before writing the revision marker.
+rm -rf "$DEST_DIR/.cache"
+rm -f "$DEST_DIR/README.md" "$DEST_DIR/.gitattributes"
+find "$DEST_DIR" -maxdepth 1 -type f \( -name "*.lock" -o -name "*.metadata" \) -delete
+
 echo "$MODEL_REVISION" > "$DEST_DIR/.fetched-revision"
 echo "Fetched tutor model: $(du -sh "$DEST_DIR" | cut -f1)"

@@ -17,9 +17,24 @@ final class AppState {
     /// entirely, never show it and then fail per-request.
     func loadTutorEngineIfNeeded() async {
         guard tutorEngine == nil else { return }
-        guard let modelURL = Bundle.main.url(forResource: "TutorModel", withExtension: nil) else {
+        // `App/Sources/EnglishApp/Resources/TutorModel/` has no `type:`
+        // override in project.yml's `resources:` entry, so XcodeGen
+        // bundles it as a plain group: every file inside, at any nesting
+        // depth, is flattened to the bundle root rather than preserved
+        // under a `TutorModel/` subdirectory (confirmed via the actual
+        // Xcode `CpResource` build log — e.g. `config.json` lands at
+        // `EnglishApp.app/config.json`, not `EnglishApp.app/TutorModel/
+        // config.json`). So there is no "TutorModel" resource to look up
+        // directly. Instead, locate one of the model's own files
+        // (`config.json`, present for every model MLX can load) and
+        // derive the model directory from its parent — the same
+        // "resolve via a known bundled file" approach already used for
+        // the single-file `YDSAcademicVocabulary1.json` resource
+        // elsewhere in this app.
+        guard let configURL = Bundle.main.url(forResource: "config", withExtension: "json") else {
             return
         }
+        let modelURL = configURL.deletingLastPathComponent()
         do {
             tutorEngine = try await MLXTutorEngine(modelDirectory: modelURL)
         } catch {
