@@ -118,6 +118,19 @@ struct TodayView: View {
     }
 
     private func presentTutorSheetIfReady(for content: ItemContent) async {
+        // Reentrancy guard against a fast double-tap spawning two concurrent
+        // `Task`s: this method is MainActor-isolated (inferred from
+        // `TodayView` conforming to `View`, whose `body` requirement is
+        // MainActor-isolated), so the check-and-set below is one atomic,
+        // uninterruptible unit — there is no `await` between them, so no
+        // other MainActor job (including a second call to this same method
+        // from another queued Task) can run in between and observe a stale
+        // `false`. A second tap that arrives while the first call is still
+        // in its synchronous prefix, or later while it's suspended awaiting
+        // `loadTutorEngineIfNeeded()`, always sees `isLoadingTutor == true`
+        // here and returns immediately — so at most one on-device model load
+        // is ever in flight.
+        guard !isLoadingTutor else { return }
         if appState.tutorEngine == nil {
             isLoadingTutor = true
             await appState.loadTutorEngineIfNeeded()
