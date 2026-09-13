@@ -37,4 +37,18 @@ public actor MLXTutorEngine: TutorEngine {
             return result.output
         }
     }
+
+    public func respond(to chat: ChatRequest) async throws -> String {
+        let prompt = ChatPromptBuilder.build(for: chat)
+        let userInput = UserInput(prompt: prompt)
+        let generateParameters = generateParameters
+
+        return try await modelContainer.perform { context in
+            let lmInput = try await context.processor.prepare(input: userInput)
+            let result = try MLXLMCommon.generate(
+                input: lmInput, parameters: generateParameters, context: context
+            ) { (_: [Int]) in .more }
+            return result.output
+        }
+    }
 }

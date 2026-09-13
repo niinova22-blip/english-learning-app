@@ -44,4 +44,5 @@ public struct TutorRequest: Sendable, Equatable {
 /// fake conforming type rather than sharing one from this package.
 public protocol TutorEngine {
     func respond(to request: TutorRequest) async throws -> String
+    func respond(to chat: ChatRequest) async throws -> String
 }
