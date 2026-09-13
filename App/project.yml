@@ -13,6 +13,8 @@ targets:
     deploymentTarget: "17.0"
     sources:
       - path: Sources/EnglishApp
+    resources:
+      - path: Sources/EnglishApp/Resources
     dependencies:
       - package: LearningEngine
     settings:

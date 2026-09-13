@@ -36,4 +36,20 @@ enum AppModelContainer {
         context.insert(package)
         try? context.save()
     }
+
+    static func seedRealContentIfNeeded(in context: ModelContext) {
+        let existingCount = (try? context.fetchCount(FetchDescriptor<ContentPackage>())) ?? 0
+        guard existingCount == 0 else { return }
+        guard let url = Bundle.main.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
+            assertionFailure("YDSAcademicVocabulary1.json missing from app bundle")
+            return
+        }
+        do {
+            let data = try Data(contentsOf: url)
+            _ = try ContentImporter.importPackage(from: data, into: context)
+            try context.save()
+        } catch {
+            containerCreationError = "Failed to seed content: \(error.localizedDescription)"
+        }
+    }
 }

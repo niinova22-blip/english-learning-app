@@ -63,7 +63,7 @@ struct SettingsView: View {
             try context.delete(model: ReviewLog.self)
             try context.delete(model: UserItemState.self)
             try context.save()
-            AppModelContainer.seedSampleContentIfNeeded(in: context)
+            AppModelContainer.seedRealContentIfNeeded(in: context)
             appState.bumpDataGeneration()
         } catch {
             resetError = error.localizedDescription

@@ -8,7 +8,7 @@ struct EnglishAppApp: App {
 
     init() {
         let context = ModelContext(modelContainer)
-        AppModelContainer.seedSampleContentIfNeeded(in: context)
+        AppModelContainer.seedRealContentIfNeeded(in: context)
     }
 
     var body: some Scene {
