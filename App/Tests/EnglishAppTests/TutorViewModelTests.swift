@@ -12,6 +12,10 @@ private final class FakeTutorEngine: TutorEngine {
         if let stubbedError { throw stubbedError }
         return stubbedResponse
     }
+
+    func respond(to chat: ChatRequest) async throws -> String {
+        fatalError("not used by TutorViewModelTests")
+    }
 }
 
 private struct StubError: Error {}
