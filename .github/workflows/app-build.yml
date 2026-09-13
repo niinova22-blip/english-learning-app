@@ -8,6 +8,14 @@ on:
 jobs:
   build:
     runs-on: macos-latest
+    env:
+      # Redirect swift-transformers to a fork carrying a backported fix for
+      # a missing OrderedCollections dependency declaration on its Hub
+      # target (upstream PR huggingface/swift-transformers#299, merged in
+      # 1.1.5 -- out of reach of mlx-swift-examples 2.29.1's own
+      # `.upToNextMinor(from: "1.0.0")` constraint on swift-transformers).
+      # See ci/swiftpm-mirrors.json and task-4-report.md.
+      SWIFTPM_MIRROR_CONFIG: ${{ github.workspace }}/ci/swiftpm-mirrors.json
     defaults:
       run:
         working-directory: App
