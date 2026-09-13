@@ -10,8 +10,5 @@ struct RootTabView: View {
             SettingsView()
                 .tabItem { Label("Settings", systemImage: "gearshape") }
         }
-        .task {
-            await appState.loadTutorEngineIfNeeded()
-        }
     }
 }

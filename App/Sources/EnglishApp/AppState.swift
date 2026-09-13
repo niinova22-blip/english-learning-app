@@ -11,6 +11,31 @@ final class AppState {
         dataGeneration += 1
     }
 
+    /// Cheap, synchronous check for whether the tutor feature could work on
+    /// this device/build — checks bundle resource presence and platform,
+    /// without loading the (large) model into memory. Safe to call at
+    /// launch/every render; the actual model load only happens in
+    /// `loadTutorEngineIfNeeded()`, on first use.
+    var isTutorAvailable: Bool {
+        #if targetEnvironment(simulator)
+        return false
+        #else
+        return Self.modelDirectoryURL != nil
+        #endif
+    }
+
+    /// `App/Sources/EnglishApp/Resources/TutorModel/` has its own `type:
+    /// folder` entry in project.yml's `resources:` (excluded from the
+    /// generic `Resources` group entry so it isn't double-bundled), so
+    /// XcodeGen preserves it as a real folder reference: it's bundled as a
+    /// `TutorModel/` subdirectory rather than flattened to the bundle root
+    /// (confirmed via the actual Xcode `CpResource` build log — e.g.
+    /// `config.json` lands at `EnglishApp.app/TutorModel/config.json`).
+    /// So the model directory can be looked up directly by name.
+    private static var modelDirectoryURL: URL? {
+        Bundle.main.url(forResource: "TutorModel", withExtension: nil)
+    }
+
     /// Attempts to load the on-device tutor model, if not already
     /// loaded. Leaves `tutorEngine` nil on any failure (missing
     /// resource, unsupported device, load error) — callers must treat
@@ -35,24 +60,9 @@ final class AppState {
         // Global Constraints) for actual on-device testing.
         return
         #else
-        // `App/Sources/EnglishApp/Resources/TutorModel/` has no `type:`
-        // override in project.yml's `resources:` entry, so XcodeGen
-        // bundles it as a plain group: every file inside, at any nesting
-        // depth, is flattened to the bundle root rather than preserved
-        // under a `TutorModel/` subdirectory (confirmed via the actual
-        // Xcode `CpResource` build log — e.g. `config.json` lands at
-        // `EnglishApp.app/config.json`, not `EnglishApp.app/TutorModel/
-        // config.json`). So there is no "TutorModel" resource to look up
-        // directly. Instead, locate one of the model's own files
-        // (`config.json`, present for every model MLX can load) and
-        // derive the model directory from its parent — the same
-        // "resolve via a known bundled file" approach already used for
-        // the single-file `YDSAcademicVocabulary1.json` resource
-        // elsewhere in this app.
-        guard let configURL = Bundle.main.url(forResource: "config", withExtension: "json") else {
+        guard let modelURL = Self.modelDirectoryURL else {
             return
         }
-        let modelURL = configURL.deletingLastPathComponent()
         do {
             tutorEngine = try await MLXTutorEngine(modelDirectory: modelURL)
         } catch {

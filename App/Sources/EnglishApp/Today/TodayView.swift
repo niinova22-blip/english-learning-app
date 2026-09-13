@@ -14,6 +14,7 @@ struct TodayView: View {
     @State private var reviewSaveError: String?
     @State private var itemShownAt = Date()
     @State private var showTutorSheet = false
+    @State private var isLoadingTutor = false
 
     var body: some View {
         NavigationStack {
@@ -82,10 +83,20 @@ struct TodayView: View {
                     ratingButton("Easy", .easy, color: .blue)
                 }
 
-                if let engine = appState.tutorEngine {
-                    Button("Ask Tutor") { showTutorSheet = true }
-                        .buttonStyle(.bordered)
-                        .sheet(isPresented: $showTutorSheet) {
+                if appState.isTutorAvailable {
+                    Button {
+                        Task { await presentTutorSheetIfReady(for: content) }
+                    } label: {
+                        if isLoadingTutor {
+                            ProgressView()
+                        } else {
+                            Text("Ask Tutor")
+                        }
+                    }
+                    .buttonStyle(.bordered)
+                    .disabled(isLoadingTutor)
+                    .sheet(isPresented: $showTutorSheet) {
+                        if let engine = appState.tutorEngine {
                             TutorSheetView(
                                 engine: engine,
                                 context: TutorViewModel.TutorContext(
@@ -96,6 +107,7 @@ struct TodayView: View {
                                 )
                             )
                         }
+                    }
                 }
             } else {
                 Button("Show Answer") { isAnswerRevealed = true }
@@ -103,6 +115,16 @@ struct TodayView: View {
             }
         }
         .padding()
+    }
+
+    private func presentTutorSheetIfReady(for content: ItemContent) async {
+        if appState.tutorEngine == nil {
+            isLoadingTutor = true
+            await appState.loadTutorEngineIfNeeded()
+            isLoadingTutor = false
+        }
+        guard appState.tutorEngine != nil else { return }
+        showTutorSheet = true
     }
 
     private func headword(for item: LearningItem) -> String {

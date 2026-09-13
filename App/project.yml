@@ -17,6 +17,10 @@ targets:
       - path: Sources/EnglishApp
     resources:
       - path: Sources/EnglishApp/Resources
+        excludes:
+          - "TutorModel/**"
+      - path: Sources/EnglishApp/Resources/TutorModel
+        type: folder
     dependencies:
       - package: LearningEngine
       - package: TutorEngine
