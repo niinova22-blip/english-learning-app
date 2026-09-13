@@ -2,14 +2,14 @@ import Foundation
 
 /// A fixed, no-typing-required thing the learner can ask about the
 /// current card.
-public enum QuickAction: Equatable {
+public enum QuickAction: Sendable, Equatable {
     case simplerExplanation
     case anotherExample
     case compareToSimilarWords
 }
 
 /// Either a quick action or a free-text question the learner typed.
-public enum TutorAsk: Equatable {
+public enum TutorAsk: Sendable, Equatable {
     case quickAction(QuickAction)
     case freeText(String)
 }
@@ -17,7 +17,7 @@ public enum TutorAsk: Equatable {
 /// Everything needed to answer one tutor ask: the current card's
 /// content plus what the learner is asking for. No conversation
 /// history — each request is independent.
-public struct TutorRequest: Equatable {
+public struct TutorRequest: Sendable, Equatable {
     public let headword: String
     public let definition: String
     public let exampleSentences: [String]

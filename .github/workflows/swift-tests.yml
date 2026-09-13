@@ -14,7 +14,7 @@ jobs:
       # target (upstream PR huggingface/swift-transformers#299, merged in
       # 1.1.5 -- out of reach of mlx-swift-examples 2.29.1's own
       # `.upToNextMinor(from: "1.0.0")` constraint on swift-transformers).
-      # See ci/swiftpm-mirrors.json and task-4-report.md.
+      # See ci/swiftpm-mirrors.json and docs/tutor-dependency-mirror.md.
       SWIFTPM_MIRROR_CONFIG: ${{ github.workspace }}/ci/swiftpm-mirrors.json
     defaults:
       run:

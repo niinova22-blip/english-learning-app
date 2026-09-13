@@ -1,6 +1,7 @@
 import Foundation
 import TutorEngine
 
+@MainActor
 @Observable
 final class AppState {
     private(set) var dataGeneration = 0

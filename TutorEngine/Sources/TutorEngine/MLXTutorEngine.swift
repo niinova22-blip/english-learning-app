@@ -8,6 +8,8 @@ import MLXLMCommon
 /// naturally serialized, one at a time.
 public actor MLXTutorEngine: TutorEngine {
     private let modelContainer: ModelContainer
+    // Untuned placeholder — revisit with real on-device latency measurements
+    // (see the timeout caveat in TutorViewModel).
     private let generateParameters = GenerateParameters(maxTokens: 512)
 
     /// - Parameter modelDirectory: a local directory containing the

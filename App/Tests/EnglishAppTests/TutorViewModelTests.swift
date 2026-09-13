@@ -16,6 +16,7 @@ private final class FakeTutorEngine: TutorEngine {
 
 private struct StubError: Error {}
 
+@MainActor
 final class TutorViewModelTests: XCTestCase {
     private let context = TutorViewModel.TutorContext(
         headword: "economy",
