@@ -306,14 +306,14 @@
           "headword": "conduct",
           "frequencyRank": 75,
           "baseDifficulty": 0.3,
-          "definition": "To carry out or organize a particular activity, especially a piece of research, experiment, or investigation.",
+          "definition": "To carry out or organize a particular activity, especially a piece of research, experiment, or investigation, or, in physics, to transmit heat, electricity, or sound.",
           "exampleSentences": [
             "The team conducted a series of controlled experiments over two years.",
-            "Researchers conducted interviews with survivors to gather qualitative data.",
+            "Copper conducts electricity far more efficiently than most other metals.",
             "The study was conducted in accordance with strict ethical guidelines."
           ],
-          "translationTR": "yürütmek, gerçekleştirmek (araştırma/deney)",
-          "collocations": ["conduct research", "conduct an experiment", "conduct a study"]
+          "translationTR": "yürütmek, gerçekleştirmek (araştırma/deney); iletmek (ısı/elektrik)",
+          "collocations": ["conduct research", "conduct an experiment", "conduct electricity"]
         }
       ]
     },
