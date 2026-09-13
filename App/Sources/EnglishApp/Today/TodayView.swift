@@ -13,6 +13,7 @@ struct TodayView: View {
     @State private var loadError: String?
     @State private var reviewSaveError: String?
     @State private var itemShownAt = Date()
+    @State private var showTutorSheet = false
 
     var body: some View {
         NavigationStack {
@@ -79,6 +80,22 @@ struct TodayView: View {
                     ratingButton("Hard", .hard, color: .orange)
                     ratingButton("Good", .good, color: .green)
                     ratingButton("Easy", .easy, color: .blue)
+                }
+
+                if let engine = appState.tutorEngine {
+                    Button("Ask Tutor") { showTutorSheet = true }
+                        .buttonStyle(.bordered)
+                        .sheet(isPresented: $showTutorSheet) {
+                            TutorSheetView(
+                                engine: engine,
+                                context: TutorViewModel.TutorContext(
+                                    headword: content.headword,
+                                    definition: content.definition,
+                                    exampleSentences: content.exampleSentences,
+                                    translationTR: content.translationTR
+                                )
+                            )
+                        }
                 }
             } else {
                 Button("Show Answer") { isAnswerRevealed = true }
