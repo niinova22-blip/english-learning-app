@@ -165,10 +165,15 @@ final class PromptBuilderTests: XCTestCase {
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they fail**
+- [ ] **Step 4: Confirm the tests would fail**
 
-Run: `cd TutorEngine && swift test`
-Expected: FAIL — `PromptBuilder` doesn't exist yet (compile error).
+This dev machine has no Swift toolchain installed at all (not just an
+Apple/SwiftData limitation — plain `swift test` cannot run here
+either), so there is no local RED run to execute. Confirm by reading:
+`PromptBuilder` doesn't exist yet at this point, so the test file
+above cannot compile — that's the expected RED state. The real,
+binding verification of both RED-would-happen and GREEN-does-happen is
+the single CI run in Step 6, after Step 5's implementation exists too.
 
 - [ ] **Step 5: Implement PromptBuilder**
 
@@ -210,17 +215,34 @@ public enum PromptBuilder {
 }
 ```
 
-- [ ] **Step 6: Run tests to verify they pass**
+- [ ] **Step 6: Wire this package into CI**
 
-Run: `cd TutorEngine && swift test`
-Expected: PASS — all 5 `PromptBuilderTests` green.
+`.github/workflows/swift-tests.yml` currently only runs `swift test`
+inside `LearningEngine/`. Add a step that also runs it inside
+`TutorEngine/` (its own `working-directory` override, since the job's
+`defaults.run.working-directory` is `LearningEngine`):
 
-- [ ] **Step 7: Commit**
+```yaml
+      - name: swift test (TutorEngine)
+        working-directory: TutorEngine
+        run: swift test --parallel
+```
+
+Add this step after the existing `swift test` step, so the file's
+`steps:` list ends with both packages' tests running.
+
+- [ ] **Step 7: Commit and verify via CI**
 
 ```bash
-git add TutorEngine/
+git add TutorEngine/ .github/workflows/swift-tests.yml
 git commit -m "Add TutorEngine package: request types, protocol, prompt builder"
 ```
+
+Run: `bash scripts/ci-test.sh`
+Expected: PASS — the `Swift Tests` GitHub Actions run must show both
+the existing `LearningEngine` tests and all 5 new `PromptBuilderTests`
+passing. This is the actual, binding confirmation that Step 3's tests
+compile and pass — there is no earlier local run to trust instead.
 
 ---
 
@@ -313,7 +335,7 @@ public actor MLXTutorEngine: TutorEngine {
 - [ ] **Step 3: Verify it compiles and nothing regressed**
 
 Run: `bash scripts/ci-test.sh`
-Expected: PASS. This pushes the branch and watches the `Swift Tests` GitHub Actions run — the run must add and resolve the new `mlx-swift-examples` dependency, compile `MLXTutorEngine`, and keep all of Task 1's `PromptBuilderTests` green. If the workflow doesn't yet run `swift test` inside `TutorEngine/` (it currently only runs inside `LearningEngine/`), that must be fixed as part of this step — add a step to `.github/workflows/swift-tests.yml` that also runs `swift test --parallel` with `working-directory: TutorEngine`, mirroring the existing `LearningEngine` step.
+Expected: PASS. This pushes the branch and watches the `Swift Tests` GitHub Actions run — the run must add and resolve the new `mlx-swift-examples` dependency, compile `MLXTutorEngine`, and keep all of Task 1's `PromptBuilderTests` green (Task 1 already wired `TutorEngine/`'s `swift test` into `.github/workflows/swift-tests.yml`, so this run covers both packages).
 
 If the CI run fails specifically on the `mlx-swift-examples` API surface (unknown type/member), that's the expected uncertainty called out above — read the real error, check the resolved package's actual source/docs, and adjust `MLXTutorEngine` accordingly, then re-run this step. Do not guess repeatedly without reading the actual compiler error each time.
 
