@@ -126,7 +126,7 @@ final class ContentImporterTests: XCTestCase {
     }
 
     func test_importPackage_realYDSVocabularyBatch_importsAll120ItemsAcrossFourUnits() throws {
-        guard let url = Bundle.module.url(forResource: "YDSAcademicVocabulary1", withExtension: "json", subdirectory: "Fixtures") else {
+        guard let url = Bundle.module.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
             XCTFail("Fixture file not found in test bundle")
             return
         }
