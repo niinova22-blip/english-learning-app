@@ -15,10 +15,8 @@ targets:
     deploymentTarget: "17.0"
     sources:
       - path: Sources/EnglishApp
-    resources:
-      - path: Sources/EnglishApp/Resources
         excludes:
-          - "TutorModel/**"
+          - "Resources/TutorModel/**"
       - path: Sources/EnglishApp/Resources/TutorModel
         type: folder
     dependencies:

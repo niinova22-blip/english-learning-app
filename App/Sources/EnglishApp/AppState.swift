@@ -25,13 +25,16 @@ final class AppState {
     }
 
     /// `App/Sources/EnglishApp/Resources/TutorModel/` has its own `type:
-    /// folder` entry in project.yml's `resources:` (excluded from the
-    /// generic `Resources` group entry so it isn't double-bundled), so
-    /// XcodeGen preserves it as a real folder reference: it's bundled as a
-    /// `TutorModel/` subdirectory rather than flattened to the bundle root
-    /// (confirmed via the actual Xcode `CpResource` build log — e.g.
-    /// `config.json` lands at `EnglishApp.app/TutorModel/config.json`).
-    /// So the model directory can be looked up directly by name.
+    /// folder` entry under project.yml's `sources:` (excluded from the
+    /// generic `Sources/EnglishApp` entry so it isn't double-bundled — note
+    /// XcodeGen has no `resources:` target property at all; it recursively
+    /// classifies non-source files found under `sources:` by extension, so
+    /// this needs to live under `sources:` too), so XcodeGen preserves it as
+    /// a real folder reference: it's bundled as a `TutorModel/` subdirectory
+    /// rather than flattened to the bundle root (confirmed via the actual
+    /// Xcode `CpResource` build log — e.g. `config.json` lands at
+    /// `EnglishApp.app/TutorModel/config.json`). So the model directory can
+    /// be looked up directly by name.
     private static var modelDirectoryURL: URL? {
         Bundle.main.url(forResource: "TutorModel", withExtension: nil)
     }
