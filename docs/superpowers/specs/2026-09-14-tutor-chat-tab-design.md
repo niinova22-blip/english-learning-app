@@ -35,8 +35,12 @@ separate, later slice. This is that slice.
   first tap.
 - Same graceful-degradation philosophy as the rest of this feature
   family: if the tutor isn't available on this device/build (Simulator,
-  missing resource, load failure), the tab is hidden entirely — no
-  error UI, no partially-working state.
+  missing resource — i.e. `isTutorAvailable` is false), the tab is
+  hidden entirely — no error UI, no partially-working state.
+  *Amended during implementation:* a model **load failure** on an
+  available device keeps the tab and shows "Couldn't load the tutor."
+  with a Load Tutor retry button (matching the card button, which also
+  stays visible after a failed load).
 
 ## Non-goals
 
@@ -125,8 +129,10 @@ being "remembered" by the model.
 
 ## Error handling
 
-- **Tutor unavailable** (model can't load): the whole tab is hidden,
-  exactly like the card feature's button — never shown-and-broken.
+- **Tutor unavailable** (`isTutorAvailable` is false): the whole tab is
+  hidden, exactly like the card feature's button — never shown-and-broken.
+- **Model load fails** (amended during implementation): the tab stays,
+  showing "Couldn't load the tutor." with a Load Tutor retry button.
 - **A single message's generation fails or times out**: shown inline in
   the chat as a failed message (e.g. an error indicator next to that
   specific learner message) with a retry action for that message only —
