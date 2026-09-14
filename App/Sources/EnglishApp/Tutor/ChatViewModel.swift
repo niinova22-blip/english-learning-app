@@ -59,10 +59,30 @@ final class ChatViewModel {
         return conversationEpoch
     }
 
+    /// The context actually sent to the model:
+    /// - failed learner messages are left out (they were never answered
+    ///   and can no longer be retried), except the last message, which is
+    ///   the one being sent or retried;
+    /// - capped to the most recent `historyCap` turns;
+    /// - a leading assistant turn left over from the cap is dropped, so the
+    ///   context always starts with a learner turn.
+    /// Only what's sent is filtered — `messages` (what's displayed) is never
+    /// touched.
+    private func historyToSend() -> [ChatTurn] {
+        let lastIndex = messages.indices.last
+        let eligible = messages.indices
+            .filter { !messages[$0].failed || $0 == lastIndex }
+            .map { messages[$0].turn }
+        var capped = Array(eligible.suffix(historyCap))
+        if capped.first?.role == .assistant {
+            capped.removeFirst()
+        }
+        return capped
+    }
+
     private func requestResponse(epoch: Int) async {
-        let cappedHistory = messages.suffix(historyCap).map(\.turn)
         do {
-            let reply = try await engine.respond(to: ChatRequest(history: Array(cappedHistory)))
+            let reply = try await engine.respond(to: ChatRequest(history: historyToSend()))
             guard epoch == conversationEpoch else { return }
             messages.append(DisplayMessage(id: UUID(), turn: ChatTurn(role: .assistant, text: reply)))
             isLoading = false

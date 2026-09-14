@@ -138,18 +138,84 @@ final class ChatViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.messages[1].turn.text, "Hi! How can I help?")
     }
 
-    func test_historyCap_limitsSentHistoryButNotDisplayedMessages() async {
+    func test_historyCap_limitsSentHistoryToMostRecentTurnsButNotDisplayedMessages() async {
         let engine = FakeChatEngine()
-        let viewModel = ChatViewModel(engine: engine, historyCap: 2)
+        let viewModel = ChatViewModel(engine: engine, historyCap: 3)
 
+        engine.stubbedReply = "reply 1"
         await viewModel.send("first")
+        engine.stubbedReply = "reply 2"
         await viewModel.send("second")
+        engine.stubbedReply = "reply 3"
         await viewModel.send("third")
 
         // 3 sends × 2 messages each (user + assistant) = 6 displayed messages.
         XCTAssertEqual(viewModel.messages.count, 6)
-        // But the last request's history must be capped to 2 entries.
-        XCTAssertEqual(engine.lastChatRequest?.history.count, 2)
+        // The last request (sent when messages were first…third) must keep
+        // the MOST RECENT 3 turns, in order — not the oldest.
+        XCTAssertEqual(engine.lastChatRequest?.history, [
+            ChatTurn(role: .user, text: "second"),
+            ChatTurn(role: .assistant, text: "reply 2"),
+            ChatTurn(role: .user, text: "third")
+        ])
+    }
+
+    func test_historyCap_whenCappedHistoryStartsWithAssistant_dropsThatTurn() async {
+        let engine = FakeChatEngine()
+        let viewModel = ChatViewModel(engine: engine, historyCap: 2)
+
+        engine.stubbedReply = "reply 1"
+        await viewModel.send("first")
+        engine.stubbedReply = "reply 2"
+        await viewModel.send("second")
+        await viewModel.send("third")
+
+        // suffix(2) of [first, reply 1, second, reply 2, third] is
+        // [reply 2, third]; the leading assistant turn must be dropped so
+        // the context starts with a learner turn.
+        XCTAssertEqual(engine.lastChatRequest?.history, [
+            ChatTurn(role: .user, text: "third")
+        ])
+        XCTAssertEqual(viewModel.messages.count, 6)
+    }
+
+    func test_send_afterFailedMessage_excludesFailedMessageFromSentHistory() async {
+        let engine = FakeChatEngine()
+        let viewModel = ChatViewModel(engine: engine)
+
+        engine.stubbedReply = "reply 1"
+        await viewModel.send("first")
+        engine.stubbedError = StubChatError()
+        await viewModel.send("never answered")
+        XCTAssertTrue(viewModel.messages[2].failed)
+
+        // Instead of retrying, the learner sends a new message.
+        engine.stubbedError = nil
+        engine.stubbedReply = "reply 2"
+        await viewModel.send("new question")
+
+        XCTAssertEqual(engine.lastChatRequest?.history, [
+            ChatTurn(role: .user, text: "first"),
+            ChatTurn(role: .assistant, text: "reply 1"),
+            ChatTurn(role: .user, text: "new question")
+        ])
+        // The failed message is still displayed, with its failure indicator.
+        XCTAssertEqual(viewModel.messages.map(\.turn.text), ["first", "reply 1", "never answered", "new question", "reply 2"])
+        XCTAssertTrue(viewModel.messages[2].failed)
+    }
+
+    func test_retryLastMessage_includesTheRetriedMessageInSentHistory() async {
+        let engine = FakeChatEngine()
+        let viewModel = ChatViewModel(engine: engine)
+        engine.stubbedError = StubChatError()
+        await viewModel.send("Hello")
+
+        engine.stubbedError = nil
+        await viewModel.retryLastMessage()
+
+        XCTAssertEqual(engine.lastChatRequest?.history, [
+            ChatTurn(role: .user, text: "Hello")
+        ])
     }
 
     func test_startNewChat_clearsMessages() async {
@@ -184,16 +250,19 @@ final class ChatViewModelTests: XCTestCase {
         XCTAssertFalse(viewModel.isLoading)
     }
 
-    func test_retryLastMessage_whileInFlight_isIgnored() async {
+    /// Smoke test only — NOT coverage of `retryLastMessage`'s `!isLoading`
+    /// guard. While a request is in flight the last message is never
+    /// failed, so the `last.failed` check alone already makes this call a
+    /// no-op; through the public API there is no way to reach "failed last
+    /// message while loading", so the guard is purely defensive and this
+    /// test would still pass without it.
+    func test_retryLastMessage_whileInFlight_smoke_startsNoSecondRequest() async {
         let engine = ControllableChatEngine()
         let viewModel = ChatViewModel(engine: engine)
 
         let firstTask = Task { await viewModel.send("first") }
         await engine.waitUntilCalled(1)
 
-        // retryLastMessage should also refuse while a request is in flight
-        // (there's no failed message yet either, but the isLoading guard
-        // must short-circuit before that check even matters).
         await viewModel.retryLastMessage()
         XCTAssertEqual(engine.callCount, 1)
 
