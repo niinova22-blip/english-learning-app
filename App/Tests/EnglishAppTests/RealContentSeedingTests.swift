@@ -42,6 +42,14 @@ final class RealContentSeedingTests: XCTestCase {
         // `content != nil` check would not catch garbled-but-non-empty strings.
         let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
         XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
+
+        XCTAssertEqual(package.version, 2)
+        XCTAssertEqual(package.skillWeights.activeSkills, [.vocabulary, .grammar, .reading])
+        XCTAssertEqual(package.skillWeights.share(of: .pronunciation), 0)
+        let scienceUnit = package.units.first { $0.id == "yds-vocab1-unit-science-research" }
+        let secondLesson = scienceUnit?.lessons.first { $0.order == 1 }
+        XCTAssertEqual(secondLesson?.title, "Science & Research Methods · 2")
+        XCTAssertTrue(package.units.flatMap(\.lessons).allSatisfy { $0.skill == .vocabulary })
     }
 
     func test_seedRealContentIfNeeded_populatesEmptyStore_andIsIdempotent() throws {

@@ -17,6 +17,12 @@ items, fixed in a prior commit). This script is the repeatable replacement
 for that manual step, and CI runs it and diffs the result against what's
 committed to catch any future drift between source and derived files.
 
+The script also stamps the package `version` and `skillWeights`, and
+derives each lesson's `title` and defaults its `skill` (a batch lesson may
+still set `title`/`skill` explicitly to override the derived value).
+Bumping `PACKAGE_VERSION` makes installed apps re-import the package on
+next launch.
+
 Usage:
     python3 scripts/assemble-content.py
 
@@ -43,6 +49,56 @@ OUTPUT_PATHS = [
     os.path.join(REPO_ROOT, "LearningEngine", "Tests", "LearningEngineTests", "Fixtures", "YDSAcademicVocabulary1.json"),
 ]
 
+PACKAGE_VERSION = 2
+
+# Skill weights for the YDS goal. YDS has no listening, speaking, writing or
+# pronunciation section, so those are 0 and the planner never schedules them.
+SKILL_WEIGHTS = {
+    "vocabulary": 35,
+    "grammar": 30,
+    "reading": 35,
+    "listening": 0,
+    "writing": 0,
+    "speaking": 0,
+    "pronunciation": 0,
+}
+
+SKILLS = ["vocabulary", "grammar", "reading", "listening", "writing", "speaking", "pronunciation"]
+
+
+def validate_weights(weights):
+    keys = set(weights)
+    missing = [s for s in SKILLS if s not in keys]
+    unknown = sorted(keys - set(SKILLS))
+    if missing or unknown:
+        raise ValueError(f"skillWeights missing={missing} unknown={unknown}")
+    if any(v < 0 for v in weights.values()):
+        raise ValueError("skillWeights has a negative weight")
+    if sum(weights.values()) <= 0:
+        raise ValueError("skillWeights total must be > 0")
+
+
+def enrich_lessons(unit):
+    """Adds a derived title and a default skill to every lesson, with a
+    stable key order so the committed JSON diff stays readable."""
+    enriched = []
+    for lesson in unit["lessons"]:
+        skill = lesson.get("skill", "vocabulary")
+        if skill not in SKILLS:
+            raise ValueError(f"lesson {lesson['id']} has invalid skill {skill!r}")
+        title = lesson.get("title", f"{unit['theme']} · {lesson['order'] + 1}")
+        enriched.append({
+            "id": lesson["id"],
+            "order": lesson["order"],
+            "estimatedDurationMinutes": lesson["estimatedDurationMinutes"],
+            "title": title,
+            "skill": skill,
+            "items": lesson["items"],
+        })
+    unit = dict(unit)
+    unit["lessons"] = enriched
+    return unit
+
 
 def load_units():
     units = []
@@ -54,13 +110,16 @@ def load_units():
 
 
 def assemble():
+    validate_weights(SKILL_WEIGHTS)
     return {
         "id": "yds-academic-vocab-1",
         "name": "YDS: Academic Vocabulary I",
         "goal": "yds",
         "levelLower": "B2",
         "levelUpper": "C1",
-        "units": load_units(),
+        "version": PACKAGE_VERSION,
+        "skillWeights": SKILL_WEIGHTS,
+        "units": [enrich_lessons(u) for u in load_units()],
     }
 
 
