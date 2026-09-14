@@ -516,7 +516,7 @@ struct TutorChatView: View {
                 draftText = ""
                 Task { await viewModel.send(text) }
             }
-            .disabled(draftText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+            .disabled(draftText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || viewModel.isLoading)
         }
         .padding()
     }
