@@ -1,7 +1,7 @@
 # Slice 6a — Design System + Goal Engine (Design Spec)
 
 Date: 2026-09-14
-Status: Approved in brainstorming (all 4 design sections), pending written-spec review
+Status: Approved by the user (design sections and written spec); amended during planning (day-based intervals, flat weight attributes, validate-first seeding)
 Visual references: `.superpowers/brainstorm/233-1789413122/content/` (`visual-style.html` option C, `home-structure.html` option A, `screens-6a.html`) — git-ignored mockups, kept on disk.
 
 ## Context and product direction
@@ -52,10 +52,11 @@ public enum Skill: String, Codable, CaseIterable, Sendable {
     case vocabulary, grammar, reading, listening, writing, speaking, pronunciation
 }
 
-public struct SkillWeights: Codable, Sendable, Equatable {
-    public let values: [Skill: Double]   // all 7 present, each >= 0, sum > 0
+public struct SkillWeights: Sendable, Equatable {
+    public init(_ values: [Skill: Double]) throws  // all 7 present, each >= 0, sum > 0
+    public func weight(of skill: Skill) -> Double
     public func share(of skill: Skill) -> Double  // normalized
-    public var activeSkills: [Skill]     // weight > 0, in Skill.allCases order
+    public var activeSkills: [Skill]              // weight > 0, in Skill.allCases order
 }
 ```
 
@@ -73,11 +74,11 @@ Mapping from item type to skill (used for review minutes): `vocabulary`, `phrase
 
 `LessonDocument` gains `"title": String` and `"skill": String` (a `Skill` raw value).
 
-`skillWeights` is decoded from the JSON object as `[String: Double]` and converted to `SkillWeights` by the importer (a `[Skill: Double]` dictionary would otherwise encode/decode as a flat array). `SkillWeights` gets an explicit `Codable` implementation that uses the same keyed-object form, so its SwiftData storage and the content file share one representation. An unknown key in `skillWeights` is rejected like a missing one.
+`skillWeights` is decoded from the JSON object as `[String: Double]` and converted to `SkillWeights` by the importer (a `[Skill: Double]` dictionary would otherwise encode/decode as a flat array). In SwiftData the weights are stored as seven plain `Double` attributes with defaults, exposed through a computed `skillWeights` property; this keeps lightweight migration of existing stores trivial and avoids composite-attribute encoding issues. An unknown key in `skillWeights` is rejected like a missing one.
 
 The importer rejects a package (throws `ContentImportError`, nothing inserted) when: any of the 7 skills is missing from `skillWeights`, any weight is negative, the weights sum to 0, `version < 1`, or a lesson's `skill` is not a valid `Skill`.
 
-SwiftData: `ContentPackage` gains `version: Int` and `skillWeights: SkillWeights`; `Lesson` gains `title: String` and `skill: Skill`.
+SwiftData: `ContentPackage` gains `version: Int` and the weight attributes (computed `skillWeights: SkillWeights`); `Lesson` gains `title: String` and `skill: Skill`.
 
 The existing YDS package (`App/Sources/EnglishApp/Resources/YDSAcademicVocabulary1.json`, 4 units × 3 lessons) is updated to `version: 2`, the weights above, `"skill": "vocabulary"` on all 12 lessons, and titles of the form `"<Unit theme> · <lesson order>"` (e.g. `"Science & Research Methods · 2"`). `scripts/assemble-content.py`, its batch sources, the CI drift check, and `LearningEngine/Tests/LearningEngineTests/Fixtures/YDSAcademicVocabulary1.json` are updated to match; the script validates the new fields with the same rules as the importer.
 
@@ -92,11 +93,12 @@ Both models are added to `AppModelContainer.schema`.
 
 ### 1.4 Content versioning
 
-On launch, `AppModelContainer` seeding becomes:
+On launch, `AppModelContainer` seeding (via `ContentSeeder`) becomes:
 - no package with the bundled package's `id` → import it;
-- stored `version` < bundled `version` → replace: delete the stored package (cascade removes its units/lessons/items/contents), import the bundled one, and save once. On any error, `context.rollback()` so the old content remains, and record the error in the existing `containerCreationError` channel (surfaced in Profile).
+- stored `version` >= bundled `version` → nothing to do;
+- stored `version` < bundled `version` → first import the bundled document into a throwaway in-memory container to validate it completely; only if that succeeds, delete the stored package (cascade removes its units/lessons/items/contents) and save, then import the bundled package and save. On an error in the final import, `context.rollback()`; the error is recorded in the existing `containerCreationError` channel (surfaced in Profile). Because validation happens before deletion, invalid content can never remove installed content, and deletion and re-insertion of the same unique IDs never share a save.
 
-User state (`UserItemState`, `ReviewLog`, `LessonProgress`) is keyed by stable string IDs and is untouched by replacement. Progress rows for lessons/items that no longer exist are ignored by all readers. Implementation must verify in a CI test that delete-then-insert of the same unique IDs within one save works in SwiftData; if it does not, save the delete first and re-import in a second save, keeping the rollback-on-import-failure guarantee by importing into a validated in-memory document before deleting.
+User state (`UserItemState`, `ReviewLog`, `LessonProgress`) is keyed by stable string IDs and is untouched by replacement. Progress rows for lessons/items that no longer exist are ignored by all readers.
 
 ### 1.5 Access
 
@@ -107,11 +109,11 @@ public enum PackageAccessLevel: Sendable { case owned, preview }
 
 public struct LessonAccessPolicy: Sendable {
     /// owned → every lesson; preview → only lessons of the unit with the lowest `order`.
-    public func isAccessible(lesson: LessonRef, in package: PackageOutline, level: PackageAccessLevel) -> Bool
+    public func accessibleLessonIDs(in package: PackageOutline, level: PackageAccessLevel) -> Set<String>
 }
 ```
 
-(`LessonRef` / `PackageOutline` are plain value snapshots of the SwiftData graph so the policy and the plan builder never touch SwiftData.)
+(`PackageOutline` / `UnitOutline` are plain value snapshots of the SwiftData graph so the policy and the plan builder never touch SwiftData.)
 
 App:
 
@@ -203,7 +205,7 @@ Tabs: **Bugün · Tutor · Profil**. The Tutor tab keeps its existing show-only-
 
 1. **Bugün** (`TodayPlanView`, replaces `TodayView`): package label + streak, serif title "Bugünün planı", "N görev · yaklaşık M dk", `PlanTaskRow` list (done rows struck through; the first undone task highlighted with "Başla"; locked row with "Paketi aç"), and a weekly skill-balance section for active skills. States: loading, "İçerik yüklenemedi", "Bugünlük hepsi bu". The plan recomputes on appear and when the scene becomes active (covers midnight).
 2. **StudySessionView** (card front): ✕ close, `ProgressBar` + "3/10", context line ("YENİ DERS · <title>" or "TEKRAR"), headword card, "Cevabı göster" (tapping the card also flips).
-3. **Card back**: headword, Turkish translation, definition, first example sentence, collocations (the field already exists in content but was never shown), a Tutor button (only when `isTutorAvailable`; opens the existing `TutorSheetView`, restyled), and the four `RatingButton`s. Intervals come from running `FSRSScheduler` for each rating on the item's current card state without persisting, formatted as "1 dk", "6 dk", "3 sa", "1 gün", "4 gün", "2 ay". One-time hint (UserDefaults `hint.ratingExplained`): "Kelimeyi ne kadar iyi bildiğini seç. Uygulama bir sonraki tekrar zamanını buna göre ayarlar."
+3. **Card back**: headword, Turkish translation, definition, first example sentence, collocations (the field already exists in content but was never shown), a Tutor button (only when `isTutorAvailable`; opens the existing `TutorSheetView`, restyled), and the four `RatingButton`s. Intervals come from running `FSRSScheduler` for each rating on the item's current card state without persisting. The engine never schedules below one day (`nextIntervalDays` clamps to ≥ 1), so labels are day-based: "1 gün", "25 gün", "2 ay", "1 yıl" (amended during planning — the mockup's minute values are not produced by this engine, and there is no in-session relearning in 6a). One-time hint (UserDefaults `hint.ratingExplained`): "Kelimeyi ne kadar iyi bildiğini seç. Uygulama bir sonraki tekrar zamanını buna göre ayarlar."
 4. **SessionSummaryView** (redesigned): "Ders tamamlandı" or "Tekrar tamamlandı", title, stat tiles (cards, % rated Bildim or Çok kolay, streak), "Tekrar etmen gerekenler" (items rated Bilemedim), "Plana dön".
 5. **ProfileView** (replaces `SettingsView`): Hedefim (active package, access level, daily minutes — read-only in 6a), İstatistik (streak, words with state, completed/total lessons), Geliştirici (the "Tüm paketleri aç" toggle, the existing reset flow), storage warning section (existing), version.
 
