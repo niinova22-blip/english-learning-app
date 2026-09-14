@@ -39,11 +39,19 @@ final class AppState {
         Bundle.main.url(forResource: "TutorModel", withExtension: nil)
     }
 
+    /// The model load currently in flight, if any. Shared by every caller
+    /// of `loadTutorEngineIfNeeded()` (the Today card button and the Tutor
+    /// tab) so at most one `MLXTutorEngine` is ever being constructed —
+    /// two concurrent loads would hold two copies of the model weights in
+    /// memory and leave the two features on different engines.
+    private var tutorLoadTask: Task<Void, Never>?
+
     /// Attempts to load the on-device tutor model, if not already
     /// loaded. Leaves `tutorEngine` nil on any failure (missing
     /// resource, unsupported device, load error) — callers must treat
-    /// nil as "the feature isn't available right now" and hide its UI
-    /// entirely, never show it and then fail per-request.
+    /// nil as "the feature isn't available right now" and never show a
+    /// per-request failure for it. If a load is already in flight, this
+    /// awaits that same load instead of starting a second one.
     func loadTutorEngineIfNeeded() async {
         guard tutorEngine == nil else { return }
         #if targetEnvironment(simulator)
@@ -63,14 +71,29 @@ final class AppState {
         // Global Constraints) for actual on-device testing.
         return
         #else
+        if let tutorLoadTask {
+            await tutorLoadTask.value
+            return
+        }
         guard let modelURL = Self.modelDirectoryURL else {
             return
         }
-        do {
-            tutorEngine = try await MLXTutorEngine(modelDirectory: modelURL)
-        } catch {
-            tutorEngine = nil
+        // The task body inherits this class's MainActor isolation, so it
+        // cannot start running before `tutorLoadTask` is assigned below
+        // (no `await` in between). It clears `tutorLoadTask` itself when
+        // finished — success or failure — so a later retry after a failed
+        // load starts a fresh attempt, and a caller that resumes late can
+        // never clear a newer attempt's task.
+        let task = Task {
+            do {
+                tutorEngine = try await MLXTutorEngine(modelDirectory: modelURL)
+            } catch {
+                tutorEngine = nil
+            }
+            tutorLoadTask = nil
         }
+        tutorLoadTask = task
+        await task.value
         #endif
     }
 }
