@@ -7,6 +7,9 @@ final class AppState {
     private(set) var dataGeneration = 0
     private(set) var tutorEngine: (any TutorEngine)?
 
+    /// Swapped for a StoreKit-backed provider in Slice 8.
+    let accessProvider: any PackageAccessProvider = DevelopmentPackageAccessProvider()
+
     func bumpDataGeneration() {
         dataGeneration += 1
     }

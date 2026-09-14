@@ -15,48 +15,25 @@ struct TodaySessionCoordinator {
         self.now = now
     }
 
+    /// The review queue: due items the learner has already seen. Never-seen
+    /// items are introduced only through lessons (StudySessionViewModel).
     func buildTodaySession() throws -> [LearningItem] {
-        let allItems = try context.fetch(FetchDescriptor<LearningItem>())
-
         let userIDValue = userID
-        let statesDescriptor = FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue })
-        let allStates = try context.fetch(statesDescriptor)
+        let allStates = try context.fetch(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue }))
+        let seenIDs = Set(allStates.map(\.itemID))
+        let seenItems = try context.fetch(FetchDescriptor<LearningItem>()).filter { seenIDs.contains($0.id) && $0.content != nil }
         let dueStates = allStates.filter { $0.dueDate <= now }
 
-        let snapshot = try computeSnapshot()
-        let builder = DailySessionBuilder()
-        var session = builder.buildSession(
-            candidateItems: allItems,
+        return DailySessionBuilder().buildSession(
+            candidateItems: seenItems,
             dueStates: dueStates,
             phase: .fullInterleaving,
             topicAccuracy: [:],
-            snapshot: snapshot,
+            snapshot: try computeSnapshot(),
             sessionSize: sessionSize,
             now: now
         )
-
-        // The engine's own comprehensible-input filtering can judge every
-        // candidate "too easy" once rolling accuracy climbs (e.g. after one
-        // all-Good/Easy session), even for items the user has literally never
-        // seen. That's a legitimate difficulty judgment for items with review
-        // history, but it should never be able to permanently lock away
-        // never-reviewed content (no matching UserItemState row at all) — so
-        // if the engine comes up short of sessionSize, backfill from
-        // never-seen items, bypassing the i+1 filter for those specifically.
-        // This is intentionally NOT redundant with the engine's filtering:
-        // it only rescues items the filter can never legitimately reconsider
-        // on a later day, since "too easy" doesn't decay for content that's
-        // never been attempted.
-        if session.count < sessionSize {
-            let sessionIDs = Set(session.map(\.id))
-            let seenItemIDs = Set(allStates.map(\.itemID))
-            let backfill = allItems
-                .filter { !seenItemIDs.contains($0.id) && !sessionIDs.contains($0.id) }
-                .prefix(sessionSize - session.count)
-            session.append(contentsOf: backfill)
-        }
-
-        return session
+        .filter { item in dueStates.contains { $0.itemID == item.id } }
     }
 
     /// Rolling accuracy over the last 20 reviews; cold-start (per

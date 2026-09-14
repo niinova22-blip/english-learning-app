@@ -9,17 +9,27 @@ final class TodaySessionCoordinatorTests: XCTestCase {
         return ModelContext(container)
     }
 
-    func test_buildTodaySession_coldStart_returnsNonEmptySessionCappedAtSize() throws {
+    func test_buildTodaySession_coldStart_isEmpty_becauseNewWordsComeFromLessons() throws {
+        let context = try makeInMemoryContext()
+        context.insert(SampleContent.ydsStarterPackage())
+        try context.save()
+
+        let session = try TodaySessionCoordinator(context: context, userID: "test-user", sessionSize: 5).buildTodaySession()
+
+        XCTAssertTrue(session.isEmpty)
+    }
+
+    func test_buildTodaySession_returnsOnlyDueSeenItems() throws {
         let context = try makeInMemoryContext()
         let package = SampleContent.ydsStarterPackage()
         context.insert(package)
         try context.save()
+        let reviewedAt = Date().addingTimeInterval(-3 * 86_400)
+        try FSRSStateStore().recordReview(userID: "test-user", itemID: "sample-item-hypothesis", rating: .again, now: reviewedAt, in: context, scheduler: FSRSScheduler())
 
-        let coordinator = TodaySessionCoordinator(context: context, userID: "test-user", sessionSize: 5)
-        let session = try coordinator.buildTodaySession()
+        let session = try TodaySessionCoordinator(context: context, userID: "test-user", sessionSize: 5).buildTodaySession()
 
-        XCTAssertFalse(session.isEmpty)
-        XCTAssertLessThanOrEqual(session.count, 5)
+        XCTAssertEqual(session.map(\.id), ["sample-item-hypothesis"])
     }
 
     func test_computeSnapshot_noHistory_isColdStart() throws {
