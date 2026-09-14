@@ -24,17 +24,40 @@ struct TutorChatView: View {
         }
     }
 
+    private static let bottomAnchorID = "TutorChatView.bottom"
+
     private var messageList: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 12) {
-                ForEach(viewModel.messages) { message in
-                    messageRow(message)
+        ScrollViewReader { proxy in
+            ScrollView {
+                VStack(alignment: .leading, spacing: 12) {
+                    ForEach(viewModel.messages) { message in
+                        messageRow(message)
+                    }
+                    if viewModel.isLoading {
+                        ProgressView()
+                    }
+                    Color.clear
+                        .frame(height: 1)
+                        .id(Self.bottomAnchorID)
                 }
-                if viewModel.isLoading {
-                    ProgressView()
+                .padding()
+            }
+            // Keep the newest message and the loading indicator on screen
+            // once the conversation is longer than one screen.
+            .onChange(of: viewModel.messages.count) {
+                scrollToBottom(proxy)
+            }
+            .onChange(of: viewModel.isLoading) { _, isLoading in
+                if isLoading {
+                    scrollToBottom(proxy)
                 }
             }
-            .padding()
+        }
+    }
+
+    private func scrollToBottom(_ proxy: ScrollViewProxy) {
+        withAnimation(.easeOut(duration: 0.2)) {
+            proxy.scrollTo(Self.bottomAnchorID, anchor: .bottom)
         }
     }
 
