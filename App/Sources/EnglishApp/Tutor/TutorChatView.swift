@@ -61,8 +61,13 @@ struct TutorChatView: View {
                 )
                 .clipShape(RoundedRectangle(cornerRadius: 10))
             if message.failed {
-                Button("Retry") { Task { await viewModel.retryLastMessage() } }
+                Label("No reply", systemImage: "exclamationmark.circle")
                     .font(.caption)
+                    .foregroundStyle(.red)
+                if message.id == viewModel.messages.last?.id, !viewModel.isLoading {
+                    Button("Retry") { Task { await viewModel.retryLastMessage() } }
+                        .font(.caption)
+                }
             }
         }
     }
