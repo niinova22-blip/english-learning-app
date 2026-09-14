@@ -9,6 +9,39 @@ final class ContentImporterTests: XCTestCase {
         return ModelContext(container)
     }
 
+    /// Builds a minimal valid package JSON. `lessonExtra`/`packageExtra` let
+    /// individual tests break exactly one field.
+    func packageJSON(
+        version: String = "1",
+        skillWeights: String = #"{"vocabulary": 1, "grammar": 0, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0}"#,
+        lessonSkill: String = "vocabulary",
+        goal: String = "yds",
+        itemType: String = "vocabulary"
+    ) -> Data {
+        """
+        {
+          "id": "test-package", "name": "Test Package", "goal": "\(goal)",
+          "levelLower": "B2", "levelUpper": "C1",
+          "version": \(version),
+          "skillWeights": \(skillWeights),
+          "units": [
+            { "id": "test-unit-1", "theme": "Test Theme", "order": 0,
+              "lessons": [
+                { "id": "test-lesson-1", "order": 0, "estimatedDurationMinutes": 5,
+                  "title": "Test Theme · 1", "skill": "\(lessonSkill)",
+                  "items": [
+                    { "id": "test-item-economy", "type": "\(itemType)", "headword": "economy",
+                      "frequencyRank": 100, "baseDifficulty": 0.3,
+                      "definition": "the system of production and trade",
+                      "exampleSentences": ["The economy grew."],
+                      "translationTR": "ekonomi", "collocations": ["global economy"] }
+                  ] }
+              ] }
+          ]
+        }
+        """.data(using: .utf8)!
+    }
+
     func test_importPackage_validJSON_buildsFullHierarchyWithWiredRelationships() throws {
         let json = """
         {
@@ -17,6 +50,8 @@ final class ContentImporterTests: XCTestCase {
           "goal": "yds",
           "levelLower": "B2",
           "levelUpper": "C1",
+          "version": 1,
+          "skillWeights": {"vocabulary": 1, "grammar": 0, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0},
           "units": [
             {
               "id": "test-unit-1",
@@ -27,6 +62,8 @@ final class ContentImporterTests: XCTestCase {
                   "id": "test-lesson-1",
                   "order": 0,
                   "estimatedDurationMinutes": 5,
+                  "title": "Test Theme · 1",
+                  "skill": "vocabulary",
                   "items": [
                     {
                       "id": "test-item-economy",
@@ -78,7 +115,7 @@ final class ContentImporterTests: XCTestCase {
 
     func test_importPackage_unrecognizedGoal_throwsInvalidGoal() throws {
         let json = """
-        {"id":"p","name":"P","goal":"not-a-real-goal","levelLower":"B2","levelUpper":"C1","units":[]}
+        {"id":"p","name":"P","goal":"not-a-real-goal","levelLower":"B2","levelUpper":"C1","version":1,"skillWeights":{"vocabulary": 1, "grammar": 0, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0},"units":[]}
         """.data(using: .utf8)!
         let context = try makeInMemoryContext()
         XCTAssertThrowsError(try ContentImporter.importPackage(from: json, into: context)) { error in
@@ -93,10 +130,13 @@ final class ContentImporterTests: XCTestCase {
         let json = """
         {
           "id": "p", "name": "P", "goal": "yds", "levelLower": "B2", "levelUpper": "C1",
+          "version": 1,
+          "skillWeights": {"vocabulary": 1, "grammar": 0, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0},
           "units": [{
             "id": "u", "theme": "T", "order": 0,
             "lessons": [{
               "id": "l", "order": 0, "estimatedDurationMinutes": 5,
+              "title": "T · 1", "skill": "vocabulary",
               "items": [{
                 "id": "i", "type": "not-a-real-type", "headword": "x", "frequencyRank": 1,
                 "baseDifficulty": 0.1, "definition": "d", "exampleSentences": ["e"],
@@ -161,6 +201,72 @@ final class ContentImporterTests: XCTestCase {
                     )
                 }
             }
+        }
+    }
+
+    func test_importPackage_storesVersionWeightsTitleAndSkill() throws {
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(
+            from: packageJSON(version: "2", skillWeights: #"{"vocabulary": 35, "grammar": 30, "reading": 35, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0}"#),
+            into: context)
+        try context.save()
+
+        XCTAssertEqual(package.version, 2)
+        XCTAssertEqual(package.skillWeights.share(of: .reading), 0.35, accuracy: 1e-9)
+        let lesson = package.units[0].lessons[0]
+        XCTAssertEqual(lesson.title, "Test Theme · 1")
+        XCTAssertEqual(lesson.skill, .vocabulary)
+    }
+
+    func test_importPackage_missingSkillInWeights_throwsAndInsertsNothing() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: packageJSON(skillWeights: #"{"vocabulary": 1, "grammar": 0, "reading": 0, "listening": 0, "writing": 0, "speaking": 0}"#),
+            into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidSkillWeights("missing pronunciation"))
+        }
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ContentPackage>()), 0)
+    }
+
+    func test_importPackage_unknownSkillKeyInWeights_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: packageJSON(skillWeights: #"{"vocabulary": 1, "grammar": 0, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0, "dancing": 1}"#),
+            into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidSkillWeights("unknown dancing"))
+        }
+    }
+
+    func test_importPackage_negativeWeight_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: packageJSON(skillWeights: #"{"vocabulary": 1, "grammar": -2, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0}"#),
+            into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidSkillWeights("negative grammar"))
+        }
+    }
+
+    func test_importPackage_zeroTotalWeights_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: packageJSON(skillWeights: #"{"vocabulary": 0, "grammar": 0, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0}"#),
+            into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidSkillWeights("zero total"))
+        }
+    }
+
+    func test_importPackage_invalidLessonSkill_throwsAndInsertsNothing() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(from: packageJSON(lessonSkill: "juggling"), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidSkill("juggling"))
+        }
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ContentPackage>()), 0)
+    }
+
+    func test_importPackage_versionBelowOne_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(from: packageJSON(version: "0"), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidVersion(0))
         }
     }
 }

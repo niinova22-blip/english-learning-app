@@ -16,6 +16,8 @@ public struct LessonDocument: Decodable {
     public let id: String
     public let order: Int
     public let estimatedDurationMinutes: Int
+    public let title: String
+    public let skill: String
     public let items: [LearningItemDocument]
 }
 
@@ -32,5 +34,8 @@ public struct ContentPackageDocument: Decodable {
     public let goal: String
     public let levelLower: String
     public let levelUpper: String
+    public let version: Int
+    /// Keyed by `Skill` raw value; validated and converted by `ContentImporter`.
+    public let skillWeights: [String: Double]
     public let units: [UnitDocument]
 }
