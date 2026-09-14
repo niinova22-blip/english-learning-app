@@ -39,9 +39,10 @@ public struct TutorRequest: Sendable, Equatable {
     }
 }
 
-/// Something that can answer a `TutorRequest`. `MLXTutorEngine` (Task 2)
-/// is the real, on-device implementation; test code defines its own
-/// fake conforming type rather than sharing one from this package.
+/// Something that can answer tutor asks: a card-scoped `TutorRequest` or a
+/// multi-turn `ChatRequest`, served by one loaded model. `MLXTutorEngine`
+/// is the real, on-device implementation; test code defines its own fake
+/// conforming types rather than sharing one from this package.
 public protocol TutorEngine {
     func respond(to request: TutorRequest) async throws -> String
     func respond(to chat: ChatRequest) async throws -> String

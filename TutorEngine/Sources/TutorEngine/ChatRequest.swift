@@ -29,24 +29,45 @@ public struct ChatRequest: Sendable, Equatable {
     }
 }
 
-/// Turns a `ChatRequest` into a single text prompt. Pure and
-/// deterministic, like `PromptBuilder`. `MLXTutorEngine` uses this to
-/// build its generation prompt via the same proven single-string-prompt
-/// path already used for card-scoped asks.
-public enum ChatPromptBuilder {
-    public static func build(for request: ChatRequest) -> String {
-        var prompt = "You are a concise, encouraging English tutor helping a Turkish-speaking learner. Continue the conversation naturally, staying focused on English language learning.\n\n"
+/// One role-tagged message of a native multi-turn chat prompt. A
+/// package-local mirror of `MLXLMCommon`'s `Chat.Message`, so the prompt
+/// structure can be built and tested without depending on MLX types;
+/// `MLXTutorEngine` maps these to `Chat.Message` right before generation.
+public struct ChatPromptMessage: Sendable, Equatable {
+    public enum Role: Sendable, Equatable {
+        case system
+        case user
+        case assistant
+    }
 
+    public let role: Role
+    public let text: String
+
+    public init(role: Role, text: String) {
+        self.role = role
+        self.text = text
+    }
+}
+
+/// Turns a `ChatRequest` into a native multi-turn chat prompt: the tutor
+/// instructions as a system message, followed by every history turn in
+/// order with its own role (learner → user, tutor → assistant). Pure and
+/// deterministic, like `PromptBuilder`. The model's chat template (Llama
+/// 3.2 Instruct) then renders the real role headers.
+public enum ChatPromptBuilder {
+    public static let systemInstructions =
+        "You are a concise, encouraging English tutor helping a Turkish-speaking learner. Continue the conversation naturally, staying focused on English language learning."
+
+    public static func build(for request: ChatRequest) -> [ChatPromptMessage] {
+        var messages = [ChatPromptMessage(role: .system, text: systemInstructions)]
         for turn in request.history {
             switch turn.role {
             case .user:
-                prompt += "Learner: \(turn.text)\n"
+                messages.append(ChatPromptMessage(role: .user, text: turn.text))
             case .assistant:
-                prompt += "Tutor: \(turn.text)\n"
+                messages.append(ChatPromptMessage(role: .assistant, text: turn.text))
             }
         }
-
-        prompt += "Tutor:"
-        return prompt
+        return messages
     }
 }

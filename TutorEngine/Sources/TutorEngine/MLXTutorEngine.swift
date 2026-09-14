@@ -26,21 +26,29 @@ public actor MLXTutorEngine: TutorEngine {
 
     public func respond(to request: TutorRequest) async throws -> String {
         let prompt = PromptBuilder.build(for: request)
-        let userInput = UserInput(prompt: prompt)
-        let generateParameters = generateParameters
-
-        return try await modelContainer.perform { context in
-            let lmInput = try await context.processor.prepare(input: userInput)
-            let result = try MLXLMCommon.generate(
-                input: lmInput, parameters: generateParameters, context: context
-            ) { (_: [Int]) in .more }
-            return result.output
-        }
+        return try await runGeneration(UserInput(prompt: prompt))
     }
 
+    /// Uses `MLXLMCommon`'s native multi-turn input (`UserInput(chat:)`),
+    /// so the tutor instructions go in the system role and earlier replies
+    /// are real assistant turns rendered by the model's chat template.
     public func respond(to chat: ChatRequest) async throws -> String {
-        let prompt = ChatPromptBuilder.build(for: chat)
-        let userInput = UserInput(prompt: prompt)
+        let messages: [Chat.Message] = ChatPromptBuilder.build(for: chat).map { message in
+            switch message.role {
+            case .system:
+                return .system(message.text)
+            case .user:
+                return .user(message.text)
+            case .assistant:
+                return .assistant(message.text)
+            }
+        }
+        let output = try await runGeneration(UserInput(chat: messages))
+        return output.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    /// The one prepare-and-generate path shared by both kinds of request.
+    private func runGeneration(_ userInput: UserInput) async throws -> String {
         let generateParameters = generateParameters
 
         return try await modelContainer.perform { context in
