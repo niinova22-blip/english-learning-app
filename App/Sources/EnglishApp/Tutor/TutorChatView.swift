@@ -16,7 +16,7 @@ struct TutorChatView: View {
                 inputBar
             }
             .background(Theme.paper.ignoresSafeArea())
-            .navigationTitle("Tutor")
+            .navigationTitle("Öğretmen")
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                     Button("Yeni sohbet") { viewModel.startNewChat() }
