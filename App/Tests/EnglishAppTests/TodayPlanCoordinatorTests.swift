@@ -126,4 +126,23 @@ final class TodayPlanCoordinatorTests: XCTestCase {
         XCTAssertEqual(stats.accessLevel, .preview)
         XCTAssertEqual(stats.dailyMinutes, 20)
     }
+
+    func test_stats_wordsSeen_excludesOrphanedItemsAfterContentUpgrade() throws {
+        let context = try makeContext()
+        let store = FSRSStateStore()
+        // Seen under the v1 item IDs.
+        try store.recordReview(userID: userID, itemID: "item-u0-l0-i0", rating: .good, now: now, in: context, scheduler: FSRSScheduler())
+        try store.recordReview(userID: userID, itemID: "item-u0-l0-i1", rating: .good, now: now, in: context, scheduler: FSRSScheduler())
+
+        // Upgrade to a v2 with entirely different item IDs; the v1 UserItemState
+        // rows above are kept (per spec) but now refer to nonexistent items.
+        let outcome = try ContentSeeder.seed(bundledData: TestPackageJSON.make(version: 2, prefix: "newitem"), into: context)
+        XCTAssertEqual(outcome, .upgraded(from: 1, to: 2))
+
+        // Seen under a v2 item ID after the upgrade.
+        try store.recordReview(userID: userID, itemID: "newitem-u0-l0-i0", rating: .good, now: now, in: context, scheduler: FSRSScheduler())
+
+        let stats = try coordinator(context).stats()
+        XCTAssertEqual(stats.wordsSeen, 1)
+    }
 }

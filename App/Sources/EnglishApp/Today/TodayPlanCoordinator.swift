@@ -107,7 +107,9 @@ struct TodayPlanCoordinator {
         let profile = try ensureProfile()
         let package = try activePackage()
         let userIDValue = userID
-        let wordsSeen = try context.fetchCount(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue }))
+        let existingItemIDs = Set(try context.fetch(FetchDescriptor<LearningItem>()).map(\.id))
+        let itemStates = try context.fetch(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue }))
+        let wordsSeen = itemStates.filter { existingItemIDs.contains($0.itemID) }.count
         let lessonIDs = Set(package?.units.flatMap { $0.lessons.map(\.id) } ?? [])
         let completed = try completionDates().keys.filter { lessonIDs.contains($0) }.count
         return LearnerStats(
