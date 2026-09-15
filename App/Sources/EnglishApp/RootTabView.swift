@@ -5,14 +5,15 @@ struct RootTabView: View {
 
     var body: some View {
         TabView {
-            TodayView()
-                .tabItem { Label("Today", systemImage: "sun.max") }
+            TodayPlanView()
+                .tabItem { Label("Bugün", systemImage: "sun.max") }
             if appState.isTutorAvailable {
                 TutorTabView()
                     .tabItem { Label("Tutor", systemImage: "bubble.left.and.bubble.right") }
             }
-            SettingsView()
-                .tabItem { Label("Settings", systemImage: "gearshape") }
+            ProfileView()
+                .tabItem { Label("Profil", systemImage: "person.crop.circle") }
         }
+        .tint(Theme.primary)
     }
 }

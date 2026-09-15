@@ -1,6 +1,7 @@
 name: EnglishApp
 options:
   bundleIdPrefix: com.niinova22.englishapp
+  developmentLanguage: tr
   deploymentTarget:
     iOS: "17.0"
 packages:
