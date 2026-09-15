@@ -145,4 +145,20 @@ final class TodayPlanCoordinatorTests: XCTestCase {
         let stats = try coordinator(context).stats()
         XCTAssertEqual(stats.wordsSeen, 1)
     }
+
+    func test_planInput_dueNowCount_excludesOrphanedItemsAfterContentUpgrade() throws {
+        let context = try makeContext()
+        let store = FSRSStateStore()
+        // Due now under a v1 item ID.
+        let yesterday = calendar.date(byAdding: .day, value: -1, to: now)!
+        try store.recordReview(userID: userID, itemID: "item-u0-l0-i0", rating: .again, now: yesterday, in: context, scheduler: FSRSScheduler())
+
+        // Upgrade to a v2 with entirely different item IDs; the v1 UserItemState
+        // row above is kept (per spec) but now refers to a nonexistent item.
+        let outcome = try ContentSeeder.seed(bundledData: TestPackageJSON.make(version: 2, prefix: "newitem"), into: context)
+        XCTAssertEqual(outcome, .upgraded(from: 1, to: 2))
+
+        let input = try XCTUnwrap(coordinator(context).buildPlanInput())
+        XCTAssertEqual(input.dueNowCount, 0)
+    }
 }

@@ -78,15 +78,18 @@ struct TodayPlanCoordinator {
         let startOfToday = calendar.startOfDay(for: now)
         let userIDValue = userID
         let nowValue = now
-        let dueNowCount = try context.fetchCount(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue && $0.dueDate <= nowValue }))
+        let existingItemIDs = try existingItemIDs()
+        let dueNowRows = try context.fetch(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue && $0.dueDate <= nowValue }))
+        let dueNowCount = dueNowRows.filter { existingItemIDs.contains($0.itemID) }.count
         let todaysLogs = try context.fetch(FetchDescriptor<ReviewLog>(predicate: #Predicate { $0.userID == userIDValue && $0.reviewedAt >= startOfToday }))
+        let reviewedTodayCount = Set(todaysLogs.filter { existingItemIDs.contains($0.itemID) }.map(\.itemID)).count
 
         return DailyPlanInput(
             weights: package.skillWeights,
             dailyMinutes: profile.dailyMinutes,
             lessonsInPathOrder: planLessons,
             dueNowCount: dueNowCount,
-            reviewedTodayCount: Set(todaysLogs.map(\.itemID)).count,
+            reviewedTodayCount: reviewedTodayCount,
             pastWeekSkillMinutes: try pastWeekSkillMinutes(startOfToday: startOfToday, lessons: lessons),
             startOfToday: startOfToday
         )
@@ -107,7 +110,7 @@ struct TodayPlanCoordinator {
         let profile = try ensureProfile()
         let package = try activePackage()
         let userIDValue = userID
-        let existingItemIDs = Set(try context.fetch(FetchDescriptor<LearningItem>()).map(\.id))
+        let existingItemIDs = try existingItemIDs()
         let itemStates = try context.fetch(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue }))
         let wordsSeen = itemStates.filter { existingItemIDs.contains($0.itemID) }.count
         let lessonIDs = Set(package?.units.flatMap { $0.lessons.map(\.id) } ?? [])
@@ -121,6 +124,15 @@ struct TodayPlanCoordinator {
             accessLevel: package.map { accessProvider.accessLevel(forPackageID: $0.id) },
             dailyMinutes: profile?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes
         )
+    }
+
+    /// The set of item IDs that currently exist in the installed content.
+    /// Per the design spec's global rule, progress rows (UserItemState,
+    /// ReviewLog) referencing an itemID outside this set are orphans left
+    /// behind by a content version upgrade that renamed/removed items, and
+    /// every reader (stats, buildPlanInput) must ignore them.
+    private func existingItemIDs() throws -> Set<String> {
+        Set(try context.fetch(FetchDescriptor<LearningItem>()).map(\.id))
     }
 
     /// lessonID → completion date, for this user's completed lessons.
