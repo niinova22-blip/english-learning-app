@@ -12,17 +12,20 @@ struct TutorSheetView: View {
 
     var body: some View {
         NavigationStack {
-            VStack(alignment: .leading, spacing: 16) {
-                quickActionButtons
-                freeTextField
-                responseArea
-                Spacer()
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    quickActionButtons
+                    freeTextField
+                    responseArea
+                }
+                .padding()
             }
-            .padding()
-            .navigationTitle("Ask Tutor")
+            .background(Theme.paper.ignoresSafeArea())
+            .navigationTitle("Öğretmene sor")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Close") { dismiss() }
+                    Button("Kapat") { dismiss() }.tint(Theme.primary)
                 }
             }
         }
@@ -30,22 +33,40 @@ struct TutorSheetView: View {
 
     private var quickActionButtons: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Button("Explain more simply") { Task { await viewModel.ask(.simplerExplanation) } }
-            Button("Give another example") { Task { await viewModel.ask(.anotherExample) } }
-            Button("How is this different from similar words?") { Task { await viewModel.ask(.compareToSimilarWords) } }
+            quickAction("Daha basit anlat") { await viewModel.ask(.simplerExplanation) }
+            quickAction("Başka bir örnek ver") { await viewModel.ask(.anotherExample) }
+            quickAction("Benzer kelimelerden farkı ne?") { await viewModel.ask(.compareToSimilarWords) }
         }
-        .buttonStyle(.bordered)
+    }
+
+    private func quickAction(_ title: String, _ action: @escaping () async -> Void) -> some View {
+        Button {
+            Task { await action() }
+        } label: {
+            Text(title)
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(Theme.primary)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 8)
+                .background(Theme.primary.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+        }
+        .buttonStyle(.plain)
     }
 
     private var freeTextField: some View {
-        HStack {
-            TextField("Ask anything about this word...", text: $freeTextQuestion)
-                .textFieldStyle(.roundedBorder)
-            Button("Ask") {
+        HStack(spacing: 8) {
+            TextField("Bu kelime hakkında bir şey sor...", text: $freeTextQuestion)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 10)
+                .background(Theme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(Theme.border, lineWidth: 1))
+            Button("Sor") {
                 let question = freeTextQuestion
                 freeTextQuestion = ""
                 Task { await viewModel.ask(freeText: question) }
             }
+            .font(.subheadline.weight(.semibold))
+            .tint(Theme.primary)
             .disabled(freeTextQuestion.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
         }
     }
@@ -56,15 +77,15 @@ struct TutorSheetView: View {
         case .idle:
             EmptyView()
         case .loading:
-            ProgressView()
+            ProgressView().tint(Theme.primary)
         case .response(let text):
-            ScrollView {
-                Text(text)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+            PaperCard {
+                Text(text).font(.body).foregroundStyle(Theme.ink)
             }
         case .failure(let message):
-            Text("Couldn't get a response: \(message)")
-                .foregroundStyle(.red)
+            Text("Yanıt alınamadı: \(message)")
+                .font(.subheadline)
+                .foregroundStyle(Theme.danger)
         }
     }
 }

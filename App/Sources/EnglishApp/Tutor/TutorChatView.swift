@@ -15,10 +15,12 @@ struct TutorChatView: View {
                 messageList
                 inputBar
             }
+            .background(Theme.paper.ignoresSafeArea())
             .navigationTitle("Tutor")
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
-                    Button("New Chat") { viewModel.startNewChat() }
+                    Button("Yeni sohbet") { viewModel.startNewChat() }
+                        .tint(Theme.primary)
                 }
             }
         }
@@ -30,11 +32,18 @@ struct TutorChatView: View {
         ScrollViewReader { proxy in
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
+                    if viewModel.messages.isEmpty {
+                        Text("İngilizce ile ilgili her şeyi sorabilirsin.")
+                            .font(.subheadline)
+                            .foregroundStyle(Theme.secondaryInk)
+                            .frame(maxWidth: .infinity)
+                            .padding(.top, 40)
+                    }
                     ForEach(viewModel.messages) { message in
                         messageRow(message)
                     }
                     if viewModel.isLoading {
-                        ProgressView()
+                        ProgressView().tint(Theme.primary)
                     }
                     Color.clear
                         .frame(height: 1)
@@ -74,38 +83,53 @@ struct TutorChatView: View {
     }
 
     private func bubble(for message: ChatViewModel.DisplayMessage) -> some View {
-        VStack(alignment: .trailing, spacing: 4) {
+        let isUser = message.turn.role == .user
+        return VStack(alignment: .trailing, spacing: 4) {
             Text(message.turn.text)
-                .padding(10)
-                .background(
-                    message.turn.role == .user
-                        ? Color.blue.opacity(0.15)
-                        : Color.gray.opacity(0.15)
+                .font(.body)
+                .foregroundStyle(Theme.ink)
+                .padding(12)
+                .background(isUser ? Theme.primary.opacity(0.14) : Theme.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 14, style: .continuous)
+                        .stroke(isUser ? Color.clear : Theme.border, lineWidth: 1)
                 )
-                .clipShape(RoundedRectangle(cornerRadius: 10))
             if message.failed {
-                Label("No reply", systemImage: "exclamationmark.circle")
+                Label("Yanıt yok", systemImage: "exclamationmark.circle")
                     .font(.caption)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(Theme.danger)
                 if message.id == viewModel.messages.last?.id, !viewModel.isLoading {
-                    Button("Retry") { Task { await viewModel.retryLastMessage() } }
-                        .font(.caption)
+                    Button("Tekrar dene") { Task { await viewModel.retryLastMessage() } }
+                        .font(.caption.weight(.semibold))
+                        .tint(Theme.primary)
                 }
             }
         }
     }
 
     private var inputBar: some View {
-        HStack {
-            TextField("Ask your tutor...", text: $draftText)
-                .textFieldStyle(.roundedBorder)
-            Button("Send") {
+        HStack(spacing: 8) {
+            TextField("Öğretmenine sor...", text: $draftText)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 10)
+                .background(Theme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(Theme.border, lineWidth: 1))
+            Button {
                 let text = draftText
                 draftText = ""
                 Task { await viewModel.send(text) }
+            } label: {
+                Image(systemName: "arrow.up")
+                    .font(.headline)
+                    .foregroundStyle(.white)
+                    .frame(width: 40, height: 40)
+                    .background(Theme.primary, in: Circle())
             }
             .disabled(draftText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || viewModel.isLoading)
+            .opacity(draftText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || viewModel.isLoading ? 0.4 : 1)
+            .accessibilityLabel("Gönder")
         }
         .padding()
+        .background(Theme.paper)
     }
 }

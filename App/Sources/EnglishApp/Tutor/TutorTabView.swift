@@ -18,18 +18,23 @@ struct TutorTabView: View {
             if let engine = appState.tutorEngine {
                 TutorChatView(engine: engine)
             } else if isLoading {
-                ProgressView("Loading tutor...")
+                ProgressView("Öğretmen yükleniyor...")
+                    .tint(Theme.primary)
+                    .foregroundStyle(Theme.secondaryInk)
             } else {
                 VStack(spacing: 12) {
                     if loadFailed {
-                        Text("Couldn't load the tutor.")
-                            .foregroundStyle(.secondary)
+                        Text("Öğretmen yüklenemedi.")
+                            .foregroundStyle(Theme.secondaryInk)
                     }
-                    Button("Load Tutor") { Task { await load() } }
-                        .buttonStyle(.borderedProminent)
+                    Button("Öğretmeni yükle") { Task { await load() } }
+                        .buttonStyle(PrimaryButtonStyle())
+                        .frame(maxWidth: 240)
                 }
             }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Theme.paper.ignoresSafeArea())
         .task { await load() }
     }
 
