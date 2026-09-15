@@ -31,7 +31,7 @@ final class StudySessionViewModelTests: XCTestCase {
 
         XCTAssertEqual(vm.cards.map(\.id), ["item-u0-l0-i0", "item-u0-l0-i1"])
         XCTAssertEqual(vm.progressText, "1/2")
-        XCTAssertEqual(vm.contextLine, "YENİ DERS · UNIT 0 · 1")
+        XCTAssertEqual(vm.contextLine, "YENİ DERS · UNİT 0 · 1")
         XCTAssertNotNil(try progressRow(context, "lesson-u0-l0"))
         XCTAssertNil(try progressRow(context, "lesson-u0-l0")?.completedAt)
     }
