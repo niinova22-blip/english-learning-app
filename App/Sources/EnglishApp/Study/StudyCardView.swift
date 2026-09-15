@@ -63,7 +63,7 @@ struct StudyCardView: View {
                 Text(card.definition).font(.body).foregroundStyle(Theme.ink)
                 if let example = card.exampleSentence {
                     sectionLabel("ÖRNEK")
-                    Text("""\(example)""")
+                    Text("\u{201C}\(example)\u{201D}")
                         .font(.callout.italic())
                         .foregroundStyle(Theme.ink)
                         .padding(.leading, 10)
