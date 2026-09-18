@@ -18,7 +18,7 @@ public final class LearnerProfile {
     /// Tracked separately from `onboardingCompletedAt` so Profil can offer a
     /// "take it now" entry point without conflating a skip with an
     /// incomplete onboarding.
-    public var hasSkippedLevelTest: Bool
+    public var hasSkippedLevelTest: Bool = false
 
     public init(
         userID: String, activePackageID: String,
