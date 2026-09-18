@@ -48,10 +48,23 @@ final class LevelTestViewModelTests: XCTestCase {
 
     func test_candidateFetcher_returnsOnlyVocabularyItemsFromThePackage() throws {
         let context = try makeContext()
-        _ = try ContentSeeder.seed(bundledData: TestPackageJSON.make(id: "pkg-a"), into: context)
-        _ = try ContentSeeder.seed(bundledData: TestPackageJSON.make(id: "pkg-b"), into: context)
+        _ = try ContentSeeder.seed(bundledData: TestPackageJSON.make(), into: context)
 
-        let candidates = LevelTestCandidateFetcher.fetch(packageID: "pkg-a", in: context)
+        // A second package built by hand with guaranteed-distinct ids — a second
+        // TestPackageJSON.make(id:) call would collide, since its Unit/Lesson ids
+        // ("unit-0", "lesson-u0-l0", ...) are hardcoded, not parameterized by id.
+        let otherPackage = ContentPackage(id: "other-pkg", name: "Other", goal: .yds, levelLower: "B1", levelUpper: "B2")
+        let otherUnit = Unit(id: "other-unit", theme: "Other", order: 0)
+        let otherLesson = Lesson(id: "other-lesson", order: 0, estimatedDurationMinutes: 5, title: "Other", skill: .vocabulary)
+        let otherItem = LearningItem(id: "other-item", type: .vocabulary, frequencyRank: 1, baseDifficulty: 0.3)
+        otherItem.content = ItemContent(id: "other-content", headword: "other", definition: "d", exampleSentences: ["e"], translationTR: "t", collocations: [])
+        otherLesson.items = [otherItem]
+        otherUnit.lessons = [otherLesson]
+        otherPackage.units = [otherUnit]
+        context.insert(otherPackage)
+        try context.save()
+
+        let candidates = LevelTestCandidateFetcher.fetch(packageID: "pkg", in: context)
         XCTAssertEqual(candidates.count, 8) // TestPackageJSON: 2 units × 2 lessons × 2 items
         XCTAssertTrue(candidates.allSatisfy { $0.itemID.hasPrefix("item-") })
     }
