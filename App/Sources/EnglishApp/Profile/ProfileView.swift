@@ -7,6 +7,9 @@ struct ProfileView: View {
     @Environment(AppState.self) private var appState
     @AppStorage(DevelopmentPackageAccessProvider.unlockAllKey) private var unlockAll = false
     @State private var stats: LearnerStats?
+    @State private var levelTestResult: LevelTestResult?
+    @State private var hasSkippedLevelTest = false
+    @State private var showLevelTestSheet = false
     @State private var showResetConfirmation = false
     @State private var resetError: String?
 
@@ -21,6 +24,23 @@ struct ProfileView: View {
                     row("Erişim", stats?.accessLevel == .owned ? "Tam sürüm" : "Önizleme", tint: Theme.accent)
                     Divider()
                     row("Günlük süre", "\(stats?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes) dk")
+                }
+
+                section("SEVİYEM") {
+                    if let levelTestResult {
+                        row("Tahmini seviye", levelTestResult.cefrLevel.rawValue, tint: Theme.primary)
+                        Divider()
+                        row("Kelime bilgisi", "%\(Int((levelTestResult.vocabularyScore * 100).rounded()))")
+                        Text("Bu, sadece bu paketin kelime listesine göre kaba bir tahmindir.")
+                            .font(.caption).foregroundStyle(Theme.secondaryInk)
+                    } else {
+                        Text(hasSkippedLevelTest ? "Seviye testini atladın." : "Henüz bir seviye tahmini yok.")
+                            .font(.subheadline).foregroundStyle(Theme.secondaryInk)
+                    }
+                    Button(levelTestResult == nil ? "Seviye testini şimdi yap" : "Yeniden test et") {
+                        showLevelTestSheet = true
+                    }
+                    .buttonStyle(.plain).foregroundStyle(Theme.primary)
                 }
 
                 section("İSTATİSTİK") {
@@ -57,6 +77,13 @@ struct ProfileView: View {
         .background(Theme.paper.ignoresSafeArea())
         .onAppear(perform: refresh)
         .onChange(of: appState.dataGeneration) { _, _ in refresh() }
+        .sheet(isPresented: $showLevelTestSheet) {
+            if let packageID = try? TodayPlanCoordinator(context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider).activePackage()?.id {
+                LevelTestRetakeSheet(packageID: packageID) { _ in
+                    appState.bumpDataGeneration()
+                }
+            }
+        }
         .alert("Tüm yerel veriler silinsin mi?", isPresented: $showResetConfirmation) {
             Button("Vazgeç", role: .cancel) {}
             Button("Sıfırla", role: .destructive, action: resetAllData)
@@ -93,7 +120,10 @@ struct ProfileView: View {
     }
 
     private func refresh() {
-        stats = try? TodayPlanCoordinator(context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider).stats()
+        let userID = UserIdentity.current
+        stats = try? TodayPlanCoordinator(context: context, userID: userID, accessProvider: appState.accessProvider).stats()
+        levelTestResult = try? context.fetch(FetchDescriptor<LevelTestResult>(predicate: #Predicate { $0.userID == userID })).first
+        hasSkippedLevelTest = (try? context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userID })).first?.hasSkippedLevelTest) ?? false
     }
 
     private func resetAllData() {
