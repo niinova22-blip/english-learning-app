@@ -37,7 +37,7 @@ final class LevelTestViewModelTests: XCTestCase {
         }
         XCTAssertEqual(iterations, LevelTestEngine.questionCount)
         XCTAssertNotNil(vm.outcome)
-        XCTAssertEqual(vm.outcome?.vocabularyScore, 1.0, accuracy: 1e-9)
+        XCTAssertEqual(vm.outcome!.vocabularyScore, 1.0, accuracy: 1e-9)
         XCTAssertNil(vm.currentQuestion)
     }
 
