@@ -85,6 +85,15 @@ workflows:
           set -e
           xcode-project use-profiles --project "$XCODE_PROJECT"
 
+      - name: Metal Toolchain indir
+        # Xcode 26'dan itibaren Metal derleyicisi ayrı, indirilebilir bir
+        # bileşen (mlx-swift'in Metal shader'ları bunsuz derlenemiyor —
+        # build 6aa9b91e899abcb60ffa415f bu yüzden "cannot execute tool
+        # 'metal' due to missing Metal Toolchain" hatasıyla başarısız oldu).
+        script: |
+          set -e
+          xcodebuild -downloadComponent MetalToolchain
+
       - name: Derleme numarasını TestFlight'tan al
         script: |
           set -e
