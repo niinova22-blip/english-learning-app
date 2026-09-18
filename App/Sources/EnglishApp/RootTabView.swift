@@ -20,6 +20,8 @@ struct RootTabView: View {
             TabView {
                 TodayPlanView()
                     .tabItem { Label("Bugün", systemImage: "sun.max") }
+                CoursePathView()
+                    .tabItem { Label("Ders Yolu", systemImage: "map") }
                 if appState.isTutorAvailable {
                     TutorTabView()
                         .tabItem { Label("Tutor", systemImage: "bubble.left.and.bubble.right") }
