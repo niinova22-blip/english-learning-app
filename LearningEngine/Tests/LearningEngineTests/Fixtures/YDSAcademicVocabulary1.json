@@ -1,0 +1,2433 @@
+{
+  "id": "yds-academic-vocab-1",
+  "name": "YDS: Academic Vocabulary I",
+  "goal": "yds",
+  "levelLower": "B2",
+  "levelUpper": "C1",
+  "version": 3,
+  "skillWeights": {
+    "vocabulary": 35,
+    "grammar": 30,
+    "reading": 35,
+    "listening": 0,
+    "writing": 0,
+    "speaking": 0,
+    "pronunciation": 0
+  },
+  "units": [
+    {
+      "id": "yds-vocab1-unit-business-economics",
+      "theme": "Business & Economics",
+      "order": 0,
+      "lessons": [
+        {
+          "id": "yds-vocab1-lesson-business-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "title": "Business & Economics · 1",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-economy",
+              "type": "vocabulary",
+              "headword": "economy",
+              "frequencyRank": 19,
+              "baseDifficulty": 0.2,
+              "definition": "Bir ülkenin veya bölgenin mal, hizmet ve serveti ürettiği, değiştirdiği ve yönettiği genel sistem.",
+              "exampleSentences": [
+                "Turkey's economy expanded at its fastest pace in three years, fueled by strong exports.",
+                "A sudden spike in oil prices can ripple through the entire economy.",
+                "Economists disagree on how quickly the economy will recover from the recession."
+              ],
+              "translationTR": "ekonomi",
+              "collocations": [
+                "a growing economy",
+                "boost the economy",
+                "the global economy"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-finance",
+              "type": "vocabulary",
+              "headword": "finance",
+              "frequencyRank": 26,
+              "baseDifficulty": 0.25,
+              "definition": "Özellikle devletler, şirketler veya bireyler tarafından yürütülen para, yatırım ve kredi yönetimi.",
+              "exampleSentences": [
+                "She left law to pursue a career in corporate finance.",
+                "The startup struggled to secure finance for its expansion plans.",
+                "Public finance decisions made today will shape the national budget for decades."
+              ],
+              "translationTR": "finans, mali işler",
+              "collocations": [
+                "raise finance",
+                "corporate finance",
+                "personal finance"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-income",
+              "type": "vocabulary",
+              "headword": "income",
+              "frequencyRank": 30,
+              "baseDifficulty": 0.3,
+              "definition": "Bir kişinin, hanenin veya kuruluşun çalışma, yatırım ya da diğer kaynaklardan düzenli olarak elde ettiği para.",
+              "exampleSentences": [
+                "Households with a low income spend a larger share of their earnings on food.",
+                "Rental properties can provide a steady stream of income.",
+                "The tax reform mainly benefits people in the middle-income bracket."
+              ],
+              "translationTR": "gelir",
+              "collocations": [
+                "disposable income",
+                "a source of income",
+                "low/high income"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-percent",
+              "type": "vocabulary",
+              "headword": "percent",
+              "frequencyRank": 42,
+              "baseDifficulty": 0.15,
+              "definition": "Değişim, pay veya karşılaştırmayı ifade etmek için yaygın olarak kullanılan, yüzün bir kesri olarak ifade edilen oran.",
+              "exampleSentences": [
+                "Unemployment fell by two percent over the past year.",
+                "Only thirty percent of respondents supported the new tax policy.",
+                "The company's profits rose ten percent compared with the previous quarter."
+              ],
+              "translationTR": "yüzde",
+              "collocations": [
+                "rise/fall by X percent",
+                "percent of",
+                "percent increase"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-sector",
+              "type": "vocabulary",
+              "headword": "sector",
+              "frequencyRank": 53,
+              "baseDifficulty": 0.3,
+              "definition": "İmalat, tarım veya hizmetler gibi belirgin bir ekonomik faaliyet alanı veya kolu.",
+              "exampleSentences": [
+                "Job growth in the technology sector has outpaced the rest of the economy.",
+                "The government introduced subsidies to support the struggling agricultural sector.",
+                "Investors are shifting funds from the energy sector into healthcare."
+              ],
+              "translationTR": "sektör",
+              "collocations": [
+                "private sector",
+                "public sector",
+                "the manufacturing sector"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-contract",
+              "type": "vocabulary",
+              "headword": "contract",
+              "frequencyRank": 13,
+              "baseDifficulty": 0.4,
+              "definition": "İki veya daha fazla taraf arasında belirli yükümlülükleri ve şartları ortaya koyan, yasal olarak bağlayıcı anlaşma.",
+              "exampleSentences": [
+                "The two companies signed a five-year supply contract worth millions of dollars.",
+                "Her contract includes a clause preventing her from joining a rival firm.",
+                "The firm was awarded the government contract after a competitive tender."
+              ],
+              "translationTR": "sözleşme",
+              "collocations": [
+                "sign a contract",
+                "breach a contract",
+                "award a contract"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-export",
+              "type": "vocabulary",
+              "headword": "export",
+              "frequencyRank": 24,
+              "baseDifficulty": 0.3,
+              "definition": "Bir ülkede üretilip başka bir ülkedeki alıcılara satılan mal veya hizmet.",
+              "exampleSentences": [
+                "Machinery and textiles remain the country's largest exports.",
+                "The weaker currency made exports more competitive on world markets.",
+                "The government offered tax incentives to firms that increased their exports."
+              ],
+              "translationTR": "ihracat, ihraç malı",
+              "collocations": [
+                "export earnings",
+                "boost exports",
+                "export market"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-distribute",
+              "type": "vocabulary",
+              "headword": "distribute",
+              "frequencyRank": 18,
+              "baseDifficulty": 0.35,
+              "definition": "Mal, ürün veya kaynakları farklı kişilere, yerlere veya satış noktalarına ulaştırmak.",
+              "exampleSentences": [
+                "The company distributes its products to retailers across Europe through a single warehouse.",
+                "Profits were distributed among shareholders at the end of the fiscal year.",
+                "Aid agencies struggled to distribute supplies to remote areas after the flood."
+              ],
+              "translationTR": "dağıtmak",
+              "collocations": [
+                "distribute goods",
+                "distribute profits",
+                "widely distributed"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-labour",
+              "type": "vocabulary",
+              "headword": "labour",
+              "frequencyRank": 36,
+              "baseDifficulty": 0.3,
+              "definition": "Fiziksel veya zihinsel emek; özellikle üretim ve istihdamla ilişkili olarak bir bütün halinde ele alınan işgücü.",
+              "exampleSentences": [
+                "Rising wages have pushed many manufacturers to look for cheaper labour abroad.",
+                "The construction industry depends heavily on skilled labour.",
+                "Automation has reduced the demand for manual labour in factories."
+              ],
+              "translationTR": "işgücü, emek",
+              "collocations": [
+                "cheap labour",
+                "labour costs",
+                "skilled labour"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-policy",
+              "type": "vocabulary",
+              "headword": "policy",
+              "frequencyRank": 44,
+              "baseDifficulty": 0.4,
+              "definition": "Bir hükümet, kurum veya şirketin kararlarına yön vermek için benimsediği eylem planı veya ilkeler bütünü.",
+              "exampleSentences": [
+                "The central bank tightened monetary policy to curb inflation.",
+                "Under the new return policy, customers have thirty days to request a refund.",
+                "Critics argue the policy favours large corporations over small businesses."
+              ],
+              "translationTR": "politika, ilke",
+              "collocations": [
+                "monetary/fiscal policy",
+                "company policy",
+                "adopt a policy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-business-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "title": "Business & Economics · 2",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-major",
+              "type": "vocabulary",
+              "headword": "major",
+              "frequencyRank": 39,
+              "baseDifficulty": 0.25,
+              "definition": "Daha küçük veya daha az önemli bir şeyle karşılaştırıldığında, büyük önem, boyut veya ciddiyet taşıyan.",
+              "exampleSentences": [
+                "The merger created one of the major players in the airline industry.",
+                "There was a major shift in consumer spending after the price hikes.",
+                "Losing its biggest client was a major setback for the firm."
+              ],
+              "translationTR": "başlıca, büyük ölçekli",
+              "collocations": [
+                "a major player",
+                "major setback",
+                "major shift"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-source",
+              "type": "vocabulary",
+              "headword": "source",
+              "frequencyRank": 56,
+              "baseDifficulty": 0.3,
+              "definition": "Bir şeyin kendisinden kaynaklandığı veya elde edildiği yer, kişi ya da nesne.",
+              "exampleSentences": [
+                "Tourism is the country's main source of foreign currency.",
+                "The report failed to disclose the source of its funding.",
+                "Renewable energy is becoming an increasingly important source of power."
+              ],
+              "translationTR": "kaynak",
+              "collocations": [
+                "a source of income",
+                "reliable source",
+                "energy source"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-benefit",
+              "type": "vocabulary",
+              "headword": "benefit",
+              "frequencyRank": 8,
+              "baseDifficulty": 0.25,
+              "definition": "Bir şeyden elde edilen avantaj, kazanç veya olumlu sonuç; ya da birine destek olmak için sağlanan ödeme.",
+              "exampleSentences": [
+                "Employees at the firm receive health insurance as part of their benefits package.",
+                "The tax cut is expected to benefit small businesses the most.",
+                "Analysts questioned whether the merger would truly benefit shareholders."
+              ],
+              "translationTR": "fayda, yardım",
+              "collocations": [
+                "employee benefits",
+                "benefit from",
+                "mutual benefit"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-factor",
+              "type": "vocabulary",
+              "headword": "factor",
+              "frequencyRank": 25,
+              "baseDifficulty": 0.35,
+              "definition": "Belirli bir sonuca veya karara katkıda bulunan birkaç unsur ya da koşuldan biri.",
+              "exampleSentences": [
+                "Rising fuel costs were a major factor behind the airline's losses.",
+                "When choosing a supplier, price is rarely the only factor considered.",
+                "Weather conditions can be a decisive factor in agricultural output."
+              ],
+              "translationTR": "etken, faktör",
+              "collocations": [
+                "a key factor",
+                "contributing factor",
+                "risk factor"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-function",
+              "type": "vocabulary",
+              "headword": "function",
+              "frequencyRank": 28,
+              "baseDifficulty": 0.4,
+              "definition": "Bir şeyin gerçekleştirmek üzere tasarlandığı veya kendisinden beklenen belirli amaç, rol veya faaliyet.",
+              "exampleSentences": [
+                "The finance department's main function is to manage the company's cash flow.",
+                "This software's core function is to automate payroll processing.",
+                "As inflation rises, the function of the central bank becomes more critical."
+              ],
+              "translationTR": "işlev, görev",
+              "collocations": [
+                "serve a function",
+                "key function",
+                "function properly"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-achieve",
+              "type": "vocabulary",
+              "headword": "achieve",
+              "frequencyRank": 61,
+              "baseDifficulty": 0.35,
+              "definition": "Genellikle çaba veya beceri yoluyla bir hedefe başarıyla ulaşmak veya istenen sonucu elde etmek.",
+              "exampleSentences": [
+                "The company achieved record profits despite the economic downturn.",
+                "It took the team five years to achieve full compliance with the new regulations.",
+                "Few startups achieve profitability within their first year."
+              ],
+              "translationTR": "başarmak, elde etmek",
+              "collocations": [
+                "achieve a goal",
+                "achieve success",
+                "achieve growth"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-acquire",
+              "type": "vocabulary",
+              "headword": "acquire",
+              "frequencyRank": 62,
+              "baseDifficulty": 0.45,
+              "definition": "Bir şeyi elde etmek veya ona sahip olmak; çoğunlukla satın alma, çaba veya resmî bir süreç yoluyla.",
+              "exampleSentences": [
+                "The tech giant acquired its smaller rival for two billion dollars.",
+                "New employees are expected to acquire the necessary skills within their first month.",
+                "The firm acquired a majority stake in the local distributor."
+              ],
+              "translationTR": "edinmek, satın almak (şirket vb.)",
+              "collocations": [
+                "acquire a company",
+                "acquire skills",
+                "acquire a stake"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-commission",
+              "type": "vocabulary",
+              "headword": "commission",
+              "frequencyRank": 70,
+              "baseDifficulty": 0.55,
+              "definition": "Birinin gerçekleştirdiği satış veya iş hacmine göre ödenen bir ücret; ya da belirli bir görevle görevlendirilmiş resmî bir kurul.",
+              "exampleSentences": [
+                "Real estate agents typically earn a commission of a few percent on each sale.",
+                "The government set up a commission to investigate the banking scandal.",
+                "Sales staff are motivated by commission rather than a fixed salary."
+              ],
+              "translationTR": "komisyon (ücreti), kurul",
+              "collocations": [
+                "earn commission",
+                "commission rate",
+                "set up a commission"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-consume",
+              "type": "vocabulary",
+              "headword": "consume",
+              "frequencyRank": 78,
+              "baseDifficulty": 0.45,
+              "definition": "Bir kaynağı tüketmek, ya da mal ve hizmetleri satın alıp kullanmak.",
+              "exampleSentences": [
+                "Heavy industry consumes a significant share of the country's electricity.",
+                "Households are consuming less as prices continue to rise.",
+                "The factory's new machines consume far less fuel than the old ones."
+              ],
+              "translationTR": "tüketmek",
+              "collocations": [
+                "consume energy",
+                "consume resources",
+                "consume goods"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-credit",
+              "type": "vocabulary",
+              "headword": "credit",
+              "frequencyRank": 79,
+              "baseDifficulty": 0.5,
+              "definition": "Ödemenin daha sonra yapılacağı anlayışıyla para borç alma veya mal edinme imkânı; ya da bir hesaba eklenen tutar.",
+              "exampleSentences": [
+                "Small businesses often rely on bank credit to manage cash flow.",
+                "Her credit rating improved after she paid off her outstanding loans.",
+                "The supplier agreed to extend credit for another thirty days."
+              ],
+              "translationTR": "kredi, alacak",
+              "collocations": [
+                "extend credit",
+                "credit rating",
+                "on credit"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-business-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "title": "Business & Economics · 3",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-invest",
+              "type": "vocabulary",
+              "headword": "invest",
+              "frequencyRank": 92,
+              "baseDifficulty": 0.35,
+              "definition": "Gelecekte kâr veya fayda beklentisiyle para, zaman veya kaynak ayırmak.",
+              "exampleSentences": [
+                "The firm plans to invest heavily in renewable energy over the next decade.",
+                "Many young professionals are choosing to invest in the stock market rather than save cash.",
+                "Investing in staff training often pays off in higher productivity."
+              ],
+              "translationTR": "yatırım yapmak",
+              "collocations": [
+                "invest in",
+                "invest heavily",
+                "invest capital"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-purchase",
+              "type": "vocabulary",
+              "headword": "purchase",
+              "frequencyRank": 104,
+              "baseDifficulty": 0.35,
+              "definition": "Bir şeyi satın almak, ya da satın alma eylemi; genellikle “buy” fiiline göre daha resmî veya yazılı bağlamlarda kullanılır.",
+              "exampleSentences": [
+                "The company purchased new equipment to modernize its production line.",
+                "Customers who purchase in bulk receive a discount.",
+                "The museum's latest purchase was a rare eighteenth-century painting."
+              ],
+              "translationTR": "satın almak, satın alma",
+              "collocations": [
+                "purchasing power",
+                "make a purchase",
+                "purchase agreement"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-resource",
+              "type": "vocabulary",
+              "headword": "resource",
+              "frequencyRank": 110,
+              "baseDifficulty": 0.4,
+              "definition": "Bir hedefe ulaşmak veya bir faaliyeti desteklemek için kullanılabilecek varlık, malzeme veya kaynak.",
+              "exampleSentences": [
+                "The country's natural resources include oil, gas, and minerals.",
+                "Managers must allocate limited resources across competing projects.",
+                "Human resources are often a company's most valuable asset."
+              ],
+              "translationTR": "kaynak (malzeme/varlık)",
+              "collocations": [
+                "natural resources",
+                "allocate resources",
+                "human resources"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-strategy",
+              "type": "vocabulary",
+              "headword": "strategy",
+              "frequencyRank": 116,
+              "baseDifficulty": 0.4,
+              "definition": "Uzun vadeli bir hedefe ulaşmak için özenle tasarlanmış eylem planı.",
+              "exampleSentences": [
+                "The board approved a new marketing strategy aimed at younger consumers.",
+                "Without a clear pricing strategy, the company struggled to compete.",
+                "Analysts questioned whether the firm's expansion strategy was too risky."
+              ],
+              "translationTR": "strateji",
+              "collocations": [
+                "develop a strategy",
+                "marketing strategy",
+                "exit strategy"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-survey",
+              "type": "vocabulary",
+              "headword": "survey",
+              "frequencyRank": 117,
+              "baseDifficulty": 0.45,
+              "definition": "Bir örneklem grubundan bilgi veya görüş toplama yöntemi; ya da bir durumun genel bir incelemesi.",
+              "exampleSentences": [
+                "A recent survey found that most employees prefer flexible working hours.",
+                "The firm conducted a customer satisfaction survey after the product launch.",
+                "Economists rely on business surveys to gauge confidence in the sector."
+              ],
+              "translationTR": "anket, araştırma",
+              "collocations": [
+                "conduct a survey",
+                "survey results",
+                "carry out a survey"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-transfer",
+              "type": "vocabulary",
+              "headword": "transfer",
+              "frequencyRank": 120,
+              "baseDifficulty": 0.4,
+              "definition": "Para, personel veya mülkiyet gibi bir şeyi bir yerden, hesaptan veya kişiden diğerine taşımak.",
+              "exampleSentences": [
+                "The bank transferred the funds to the wrong account by mistake.",
+                "She was transferred to the company's Istanbul office after her promotion.",
+                "Ownership of the property will transfer once the final payment is made."
+              ],
+              "translationTR": "transfer etmek, aktarmak",
+              "collocations": [
+                "transfer funds",
+                "bank transfer",
+                "transfer ownership"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-administrate",
+              "type": "vocabulary",
+              "headword": "administrate",
+              "frequencyRank": 63,
+              "baseDifficulty": 0.6,
+              "definition": "Bir şirketin, kurumun veya sistemin işleyişini, organizasyonunu ya da işlerini yönetmek ve denetlemek.",
+              "exampleSentences": [
+                "A separate department administrates employee pension funds.",
+                "The new software helps administrate payroll for over a thousand staff.",
+                "It takes a dedicated team to administrate such a complex supply chain."
+              ],
+              "translationTR": "yönetmek, idare etmek",
+              "collocations": [
+                "administrate a pension fund"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-impact",
+              "type": "vocabulary",
+              "headword": "impact",
+              "frequencyRank": 89,
+              "baseDifficulty": 0.45,
+              "definition": "Bir şeyin başka bir şey üzerindeki önemli etkisi veya sonucu; genellikle sonuçları değerlendirirken kullanılır.",
+              "exampleSentences": [
+                "The new tariffs had a severe impact on small exporters.",
+                "Researchers are studying the long-term impact of automation on employment.",
+                "The marketing campaign made little impact on overall sales."
+              ],
+              "translationTR": "etki",
+              "collocations": [
+                "have an impact on",
+                "negative/positive impact",
+                "impact assessment"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-secure",
+              "type": "vocabulary",
+              "headword": "secure",
+              "frequencyRank": 112,
+              "baseDifficulty": 0.5,
+              "definition": "Genellikle bir çaba veya müzakere sonrasında bir şeyi elde etmek ya da garanti altına almak; ya da bir şeyi güvenli ve korunaklı hâle getirmek.",
+              "exampleSentences": [
+                "The company secured a major contract with a European retailer.",
+                "Investors want assurances that their deposits are secure.",
+                "She secured funding for her startup after months of pitching to investors."
+              ],
+              "translationTR": "güvence altına almak, elde etmek, güvenli",
+              "collocations": [
+                "secure funding",
+                "secure a contract",
+                "secure a loan"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-item",
+              "type": "vocabulary",
+              "headword": "item",
+              "frequencyRank": 93,
+              "baseDifficulty": 0.2,
+              "definition": "Daha büyük bir bütün içinde ayrı ayrı ele alınan tek bir madde, ürün veya nokta.",
+              "exampleSentences": [
+                "The store had to discount several items that failed to sell before the holidays.",
+                "Salary was the first item on the agenda at the negotiation meeting.",
+                "Each item on the invoice must match the delivery receipt."
+              ],
+              "translationTR": "madde, kalem, ürün",
+              "collocations": [
+                "line item",
+                "item on the agenda",
+                "a single item"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-unit-science-research",
+      "theme": "Science & Research Methods",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "yds-vocab1-lesson-science-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "title": "Science & Research Methods · 1",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-analyse",
+              "type": "vocabulary",
+              "headword": "analyse",
+              "frequencyRank": 1,
+              "baseDifficulty": 0.2,
+              "definition": "Bileşenlerini anlamak veya sonuç çıkarmak amacıyla veriyi, kanıtı veya bir olguyu ayrıntılı biçimde incelemek.",
+              "exampleSentences": [
+                "The team analysed the survey data to identify significant patterns in consumer behaviour.",
+                "Researchers analysed blood samples from over a thousand participants to test the hypothesis.",
+                "Before drawing any conclusions, the results must be analysed for statistical significance."
+              ],
+              "translationTR": "analiz etmek, çözümlemek",
+              "collocations": [
+                "analyse data",
+                "analyse results",
+                "critically analyse"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-assess",
+              "type": "vocabulary",
+              "headword": "assess",
+              "frequencyRank": 4,
+              "baseDifficulty": 0.3,
+              "definition": "Genellikle mevcut kanıtlara dayanarak bir şeyin kapsamını, kalitesini veya önemini değerlendirmek.",
+              "exampleSentences": [
+                "The study assessed the long-term effects of sleep deprivation on memory retention.",
+                "Reviewers were asked to assess the validity of the experimental design before publication.",
+                "Researchers use standardized tests to assess cognitive development in young children."
+              ],
+              "translationTR": "değerlendirmek",
+              "collocations": [
+                "assess the impact",
+                "assess reliability",
+                "critically assess"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-assume",
+              "type": "vocabulary",
+              "headword": "assume",
+              "frequencyRank": 5,
+              "baseDifficulty": 0.3,
+              "definition": "Bir şeyi önce kanıtlamadan doğru kabul etmek veya bir argüman ya da hesaplama için başlangıç noktası olarak almak.",
+              "exampleSentences": [
+                "The model assumes that all variables are independent of one another.",
+                "For simplicity, the researchers assumed a constant rate of decay throughout the experiment.",
+                "It would be wrong to assume that correlation implies causation."
+              ],
+              "translationTR": "varsaymak, farz etmek",
+              "collocations": [
+                "assume that",
+                "assume independence",
+                "reasonable to assume"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-data",
+              "type": "vocabulary",
+              "headword": "data",
+              "frequencyRank": 15,
+              "baseDifficulty": 0.15,
+              "definition": "Ölçüm, deney veya gözlem yoluyla toplanan ve analiz için temel oluşturan olgular, sayılar veya gözlemler.",
+              "exampleSentences": [
+                "The data were collected over a six-month period using standardized questionnaires.",
+                "Researchers cross-checked the data against previous studies to confirm the trend.",
+                "Missing data can significantly skew the results of a statistical analysis."
+              ],
+              "translationTR": "veri",
+              "collocations": [
+                "collect data",
+                "raw data",
+                "analyse data"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-define",
+              "type": "vocabulary",
+              "headword": "define",
+              "frequencyRank": 16,
+              "baseDifficulty": 0.2,
+              "definition": "Bir terimin veya kavramın kesin anlamını belirtmek; ya da bir şeyin sınırlarını ve özelliklerini ortaya koymak.",
+              "exampleSentences": [
+                "The researchers carefully defined each variable before beginning the experiment.",
+                "It is difficult to define intelligence in a way that all psychologists accept.",
+                "The study's scope was defined by strict inclusion and exclusion criteria."
+              ],
+              "translationTR": "tanımlamak, belirlemek",
+              "collocations": [
+                "clearly defined",
+                "define a term",
+                "define criteria"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-derive",
+              "type": "vocabulary",
+              "headword": "derive",
+              "frequencyRank": 17,
+              "baseDifficulty": 0.4,
+              "definition": "Bir şeyi belirli bir kaynaktan elde etmek veya ona dayandırmak; ya da mantıksal veya matematiksel akıl yürütme yoluyla bir sonuca ulaşmak.",
+              "exampleSentences": [
+                "The formula can be derived from Newton's second law of motion.",
+                "Much of what we know about the disease was derived from early animal studies.",
+                "Students were asked to derive the equation step by step rather than memorize it."
+              ],
+              "translationTR": "türetmek, elde etmek (denklem/sonuç)",
+              "collocations": [
+                "derive a formula",
+                "derive from",
+                "derive a conclusion"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-estimate",
+              "type": "vocabulary",
+              "headword": "estimate",
+              "frequencyRank": 22,
+              "baseDifficulty": 0.3,
+              "definition": "Özellikle kesin bir ölçüm mümkün olmadığında, bir şeyin yaklaşık değerini, boyutunu veya kapsamını hesaplamak ya da tahmin etmek.",
+              "exampleSentences": [
+                "Scientists estimate that the species has existed for over two million years.",
+                "The initial estimate of the sample size proved too small for reliable results.",
+                "Researchers estimated the margin of error at roughly three percent."
+              ],
+              "translationTR": "tahmin etmek, tahmin",
+              "collocations": [
+                "rough estimate",
+                "estimate the value",
+                "conservative estimate"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-evident",
+              "type": "vocabulary",
+              "headword": "evident",
+              "frequencyRank": 23,
+              "baseDifficulty": 0.35,
+              "definition": "Mevcut olgulardan veya kanıtlardan açıkça görülebilen veya anlaşılan; belirgin.",
+              "exampleSentences": [
+                "It became evident from the data that the treatment had no significant effect.",
+                "The correlation between the two variables was immediately evident on the graph.",
+                "Despite repeated trials, no clear pattern was evident in the results."
+              ],
+              "translationTR": "açık, belli, aşikâr",
+              "collocations": [
+                "become evident",
+                "evident from",
+                "clearly evident"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-formula",
+              "type": "vocabulary",
+              "headword": "formula",
+              "frequencyRank": 27,
+              "baseDifficulty": 0.25,
+              "definition": "Sembollerle ifade edilen matematiksel bir kural veya ilişki; ya da belirli bir sonuca ulaşmak için sabit bir yöntem.",
+              "exampleSentences": [
+                "The formula relates pressure, volume, and temperature in an ideal gas.",
+                "Researchers applied a standard formula to calculate statistical significance.",
+                "There is no simple formula for predicting how a chemical reaction will proceed."
+              ],
+              "translationTR": "formül",
+              "collocations": [
+                "apply a formula",
+                "mathematical formula",
+                "derive a formula"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-identify",
+              "type": "vocabulary",
+              "headword": "identify",
+              "frequencyRank": 29,
+              "baseDifficulty": 0.2,
+              "definition": "Gözlem veya analiz yoluyla belirli bir olguyu, nedeni, örüntüyü veya varlığı tanımak, tespit etmek ya da ayırt etmek.",
+              "exampleSentences": [
+                "The study aimed to identify the genetic factors linked to the disease.",
+                "Researchers identified a previously unknown species during the expedition.",
+                "The analysis helped identify which variables had the greatest effect on the outcome."
+              ],
+              "translationTR": "tespit etmek, belirlemek",
+              "collocations": [
+                "identify a pattern",
+                "identify the cause",
+                "clearly identified"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-science-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "title": "Science & Research Methods · 2",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-indicate",
+              "type": "vocabulary",
+              "headword": "indicate",
+              "frequencyRank": 31,
+              "baseDifficulty": 0.25,
+              "definition": "Bir gerçeğe veya sonuca olası olarak işaret etmek; ya da bir şeyi işaretler veya kanıtlar yoluyla açıkça göstermek.",
+              "exampleSentences": [
+                "The results indicate a strong link between diet and cardiovascular health.",
+                "Preliminary data indicate that the new treatment may reduce recovery time.",
+                "A rising baseline reading can indicate a fault in the measuring equipment."
+              ],
+              "translationTR": "göstermek, işaret etmek",
+              "collocations": [
+                "results indicate",
+                "clearly indicate",
+                "indicate a trend"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-interpret",
+              "type": "vocabulary",
+              "headword": "interpret",
+              "frequencyRank": 33,
+              "baseDifficulty": 0.35,
+              "definition": "Bilgi, veri veya davranışın anlamını ya da önemini açıklamak veya belirlemek.",
+              "exampleSentences": [
+                "Different researchers interpreted the same data set in strikingly different ways.",
+                "The findings must be interpreted with caution given the small sample size.",
+                "She was trained to interpret X-ray images for signs of fracture."
+              ],
+              "translationTR": "yorumlamak",
+              "collocations": [
+                "interpret the results",
+                "misinterpret data",
+                "open to interpretation"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-method",
+              "type": "vocabulary",
+              "headword": "method",
+              "frequencyRank": 40,
+              "baseDifficulty": 0.2,
+              "definition": "Özellikle araştırma veya deneyde bir görevi yürütmek için kullanılan sistematik bir yöntem veya adımlar dizisi.",
+              "exampleSentences": [
+                "The paper describes the method used to isolate the compound.",
+                "Researchers adopted a mixed-methods approach, combining surveys with interviews.",
+                "A flawed method can undermine even the most promising hypothesis."
+              ],
+              "translationTR": "yöntem, metot",
+              "collocations": [
+                "research method",
+                "scientific method",
+                "adopt a method"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-process",
+              "type": "vocabulary",
+              "headword": "process",
+              "frequencyRank": 47,
+              "baseDifficulty": 0.25,
+              "definition": "Belirli bir sonuca ulaşmak için atılan bir dizi eylem veya adım; ya da bilgiyi sistematik olarak işlemek ve analiz etmek.",
+              "exampleSentences": [
+                "The data were processed using specialized statistical software before analysis.",
+                "Photosynthesis is the process by which plants convert light into chemical energy.",
+                "The peer-review process can take several months before a paper is accepted."
+              ],
+              "translationTR": "süreç; (fiil) işlemek (veri)",
+              "collocations": [
+                "process data",
+                "a lengthy process",
+                "undergo a process"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-research",
+              "type": "vocabulary",
+              "headword": "research",
+              "frequencyRank": 49,
+              "baseDifficulty": 0.2,
+              "definition": "Olguları keşfetmek veya ortaya koymak ve yeni sonuçlara ulaşmak amacıyla bir konunun sistematik olarak incelenmesi.",
+              "exampleSentences": [
+                "Her research focuses on the effects of climate change on marine ecosystems.",
+                "The team spent three years researching the causes of the disorder.",
+                "Further research is needed before any firm conclusions can be drawn."
+              ],
+              "translationTR": "araştırma, araştırmak",
+              "collocations": [
+                "conduct research",
+                "research findings",
+                "further research"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-structure",
+              "type": "vocabulary",
+              "headword": "structure",
+              "frequencyRank": 58,
+              "baseDifficulty": 0.3,
+              "definition": "Bir sistem içindeki parçaların düzenlenişi; ya da bir şeyi belirli bir çerçeveye göre organize etmek.",
+              "exampleSentences": [
+                "The molecule's structure determines how it interacts with other compounds.",
+                "Researchers structured the questionnaire to avoid leading questions.",
+                "Understanding the structure of the atom was a turning point in physics."
+              ],
+              "translationTR": "yapı; (fiil) yapılandırmak",
+              "collocations": [
+                "molecular structure",
+                "structure a study",
+                "underlying structure"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-theory",
+              "type": "vocabulary",
+              "headword": "theory",
+              "frequencyRank": 59,
+              "baseDifficulty": 0.25,
+              "definition": "Gözlemlenen olguları açıklamak için geliştirilen, genellikle kanıtlarla desteklenen ve tahminlerde bulunmak için kullanılan ilkeler veya fikirler bütünü.",
+              "exampleSentences": [
+                "The theory of evolution remains the foundation of modern biology.",
+                "Her experiment was designed to test a long-standing theory about memory formation.",
+                "In theory, the reaction should occur spontaneously at room temperature."
+              ],
+              "translationTR": "teori, kuram",
+              "collocations": [
+                "scientific theory",
+                "test a theory",
+                "in theory"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-vary",
+              "type": "vocabulary",
+              "headword": "vary",
+              "frequencyRank": 60,
+              "baseDifficulty": 0.25,
+              "definition": "Bir durumdan veya koşuldan diğerine, özellikle boyut, miktar veya derece bakımından farklılaşmak ya da değişmek.",
+              "exampleSentences": [
+                "Results varied considerably depending on the temperature at which the experiment was conducted.",
+                "The concentration of the solution was varied to test its effect on reaction speed.",
+                "Response times varied widely among participants of different ages."
+              ],
+              "translationTR": "değişmek; (fiil) değiştirmek",
+              "collocations": [
+                "vary considerably",
+                "vary depending on",
+                "varying degrees"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-compute",
+              "type": "vocabulary",
+              "headword": "compute",
+              "frequencyRank": 73,
+              "baseDifficulty": 0.35,
+              "definition": "Genellikle matematik veya bilgisayar kullanarak bir değeri veya sonucu hesaplamak.",
+              "exampleSentences": [
+                "The software computes the standard deviation automatically from the raw scores.",
+                "Researchers computed the correlation coefficient between the two variables.",
+                "It would take hours to compute the result by hand without a computer."
+              ],
+              "translationTR": "hesaplamak",
+              "collocations": [
+                "compute a value",
+                "compute the average",
+                "computed automatically"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-conduct",
+              "type": "vocabulary",
+              "headword": "conduct",
+              "frequencyRank": 75,
+              "baseDifficulty": 0.3,
+              "definition": "Özellikle bir araştırma, deney veya soruşturma gibi belirli bir faaliyeti yürütmek veya organize etmek; fizikte ise ısı, elektrik veya sesi iletmek.",
+              "exampleSentences": [
+                "The team conducted a series of controlled experiments over two years.",
+                "Copper conducts electricity far more efficiently than most other metals.",
+                "The study was conducted in accordance with strict ethical guidelines."
+              ],
+              "translationTR": "yürütmek, gerçekleştirmek (araştırma/deney); iletmek (ısı/elektrik)",
+              "collocations": [
+                "conduct research",
+                "conduct an experiment",
+                "conduct electricity"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-science-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "title": "Science & Research Methods · 3",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-construct",
+              "type": "vocabulary",
+              "headword": "construct",
+              "frequencyRank": 77,
+              "baseDifficulty": 0.4,
+              "definition": "Bir argüman, model veya deney gibi bir şeyi sistematik olarak inşa etmek veya oluşturmak; ya da analiz için tasarlanmış bir kavram.",
+              "exampleSentences": [
+                "The researchers constructed a mathematical model to simulate population growth.",
+                "Intelligence is often treated as a psychological construct rather than a single measurable trait.",
+                "A well-constructed experiment controls for as many confounding variables as possible."
+              ],
+              "translationTR": "inşa etmek, oluşturmak; (isim) kurgu, yapı",
+              "collocations": [
+                "construct a model",
+                "well-constructed",
+                "theoretical construct"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-evaluate",
+              "type": "vocabulary",
+              "headword": "evaluate",
+              "frequencyRank": 85,
+              "baseDifficulty": 0.35,
+              "definition": "Genellikle kanıtları dikkatlice değerlendirdikten sonra bir şeyin değerini, önemini veya kalitesini değerlendirmek.",
+              "exampleSentences": [
+                "An independent panel evaluated the study's methodology before it was published.",
+                "The trial was designed to evaluate the drug's effectiveness against a placebo.",
+                "Researchers must evaluate the reliability of their instruments before collecting data."
+              ],
+              "translationTR": "değerlendirmek (dikkatlice incelemek)",
+              "collocations": [
+                "evaluate the evidence",
+                "critically evaluate",
+                "evaluate effectiveness"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-feature",
+              "type": "vocabulary",
+              "headword": "feature",
+              "frequencyRank": 86,
+              "baseDifficulty": 0.3,
+              "definition": "Bir şeyin ayırt edici bir özelliği veya niteliği; ya da bir şeyi belirgin bir unsur olarak içermek.",
+              "exampleSentences": [
+                "One key feature of the sample was its unusually high genetic diversity.",
+                "The study features a much larger control group than earlier research in the field.",
+                "Researchers identified several shared features among the surviving specimens."
+              ],
+              "translationTR": "özellik; (fiil) yer vermek, içermek",
+              "collocations": [
+                "a key feature",
+                "distinctive feature",
+                "feature prominently"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-obtain",
+              "type": "vocabulary",
+              "headword": "obtain",
+              "frequencyRank": 97,
+              "baseDifficulty": 0.3,
+              "definition": "Özellikle çaba, hesaplama veya resmî bir süreç yoluyla bir şeye sahip olmak veya onu başarmak.",
+              "exampleSentences": [
+                "Consent was obtained from all participants before the trial began.",
+                "The team obtained consistent results across three separate trials.",
+                "Pure samples of the compound are difficult to obtain in the laboratory."
+              ],
+              "translationTR": "elde etmek",
+              "collocations": [
+                "obtain results",
+                "obtain consent",
+                "obtain data"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-category",
+              "type": "vocabulary",
+              "headword": "category",
+              "frequencyRank": 68,
+              "baseDifficulty": 0.25,
+              "definition": "Veriyi organize etmek veya sınıflandırmak için kullanılan, ortak özelliklere sahip kabul edilen bir sınıf veya bölüm.",
+              "exampleSentences": [
+                "Participants were divided into three categories based on age and activity level.",
+                "The species was reclassified into a new taxonomic category after genetic testing.",
+                "Researchers coded each response into one of five predefined categories."
+              ],
+              "translationTR": "kategori, sınıf",
+              "collocations": [
+                "fall into a category",
+                "broad category",
+                "classify into categories"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-complex",
+              "type": "vocabulary",
+              "headword": "complex",
+              "frequencyRank": 72,
+              "baseDifficulty": 0.35,
+              "definition": "Birbirine bağlı birçok parçadan oluştuğu için analiz edilmesi veya anlaşılması zor olan; ya da birbiriyle yakından ilişkili parçalardan oluşan bir sistem.",
+              "exampleSentences": [
+                "Climate systems are extremely complex, with countless interacting variables.",
+                "The enzyme forms a complex with the substrate during the reaction.",
+                "Even a relatively complex model failed to predict the outbreak accurately."
+              ],
+              "translationTR": "karmaşık; (isim, kimya/biyoloji) kompleks",
+              "collocations": [
+                "highly complex",
+                "complex system",
+                "form a complex"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-element",
+              "type": "vocabulary",
+              "headword": "element",
+              "frequencyRank": 83,
+              "baseDifficulty": 0.3,
+              "definition": "Bir şeyin temel bir parçası veya bileşeni; kimyada ise daha basit maddelere ayrıştırılamayan bir madde.",
+              "exampleSentences": [
+                "Motivation is a key element in any successful learning strategy.",
+                "Carbon is the element that forms the basis of all known life.",
+                "The researchers isolated each element of the process to study it separately."
+              ],
+              "translationTR": "unsur, öğe; (kimya) element",
+              "collocations": [
+                "a key element",
+                "chemical element",
+                "essential element"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-equate",
+              "type": "vocabulary",
+              "headword": "equate",
+              "frequencyRank": 84,
+              "baseDifficulty": 0.4,
+              "definition": "Bir şeyi başka bir şeye eşit, eşdeğer veya karşılık gelen olarak görmek ya da göstermek.",
+              "exampleSentences": [
+                "It is misleading to equate correlation with causation in observational studies.",
+                "The researchers equated the two groups on age, gender, and education level.",
+                "A higher test score should not automatically be equated with greater understanding."
+              ],
+              "translationTR": "eşdeğer saymak, denk tutmak",
+              "collocations": [
+                "equate with",
+                "equate X with Y",
+                "should not be equated"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-distinct",
+              "type": "vocabulary",
+              "headword": "distinct",
+              "frequencyRank": 82,
+              "baseDifficulty": 0.3,
+              "definition": "Doğa, nitelik veya tür bakımından başka bir şeyden fark edilebilir biçimde ayrı olan.",
+              "exampleSentences": [
+                "The two subspecies are genetically distinct despite their similar appearance.",
+                "Researchers identified three distinct phases in the disease's progression.",
+                "The results from the two experiments were distinct enough to rule out coincidence."
+              ],
+              "translationTR": "farklı, ayrı, belirgin",
+              "collocations": [
+                "distinct from",
+                "distinct phases",
+                "genetically distinct"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-normal",
+              "type": "vocabulary",
+              "headword": "normal",
+              "frequencyRank": 96,
+              "baseDifficulty": 0.2,
+              "definition": "Olağan, ortalama veya beklenen bir standarda uygun olan; istatistikte ise simetrik, çan eğrisi biçimindeki veri dağılımıyla ilgili.",
+              "exampleSentences": [
+                "Body temperature outside the normal range can indicate infection.",
+                "The data followed a roughly normal distribution, allowing standard statistical tests to be used.",
+                "It is normal for measurements to show some degree of variation between trials."
+              ],
+              "translationTR": "normal; (istatistik) normal dağılım",
+              "collocations": [
+                "normal distribution",
+                "within normal range",
+                "return to normal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-unit-law-policy-society",
+      "theme": "Law, Policy & Society",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "yds-vocab1-lesson-law-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "title": "Law, Policy & Society · 1",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-authority",
+              "type": "vocabulary",
+              "headword": "authority",
+              "frequencyRank": 6,
+              "baseDifficulty": 0.35,
+              "definition": "Emir verme, karar alma ve itaati sağlama gücü veya hakkı; ya da bu güce sahip resmî bir kurum.",
+              "exampleSentences": [
+                "The mayor lacked the authority to overturn the council's decision.",
+                "Local authorities issued an evacuation order ahead of the storm.",
+                "Her long experience in constitutional law gave her considerable authority on the subject."
+              ],
+              "translationTR": "yetki; (çoğul) yetkili makamlar",
+              "collocations": [
+                "have the authority to",
+                "local authorities",
+                "exercise authority"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-area",
+              "type": "vocabulary",
+              "headword": "area",
+              "frequencyRank": 3,
+              "baseDifficulty": 0.15,
+              "definition": "Bir yerin, konunun veya faaliyetin belirli bir bölümü; ya da idari veya coğrafi sınırlarla tanımlanmış bir bölge.",
+              "exampleSentences": [
+                "The new zoning law restricts construction in residential areas.",
+                "Human rights has become a central area of international policy.",
+                "Local officials designated the flood-prone area a disaster zone."
+              ],
+              "translationTR": "alan, bölge; (mecazi) saha, konu",
+              "collocations": [
+                "a residential area",
+                "policy area",
+                "designate an area"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-constitute",
+              "type": "vocabulary",
+              "headword": "constitute",
+              "frequencyRank": 11,
+              "baseDifficulty": 0.5,
+              "definition": "Bir bütünü oluşturmak, ya da özellikle yasal veya resmî bir kurumu resmî olarak kurmak.",
+              "exampleSentences": [
+                "Ethnic minorities constitute nearly twenty percent of the country's population.",
+                "The treaty constitutes a legally binding agreement between the two states.",
+                "Parliament voted to constitute a special commission to investigate the allegations."
+              ],
+              "translationTR": "oluşturmak, meydana getirmek; (resmi olarak) kurmak, teşkil etmek",
+              "collocations": [
+                "constitute a majority",
+                "constitute a threat",
+                "constitute a committee"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-environment",
+              "type": "vocabulary",
+              "headword": "environment",
+              "frequencyRank": 20,
+              "baseDifficulty": 0.25,
+              "definition": "Kara, hava ve suyun oluşturduğu doğal dünya; ya da bir kişiyi, grubu veya faaliyeti etkileyen çevresel koşullar, şartlar ve etkiler.",
+              "exampleSentences": [
+                "The new regulations aim to protect the environment from industrial pollution.",
+                "Reformers argued that the country's political environment discouraged open debate.",
+                "Growing up in a stable environment can significantly affect a child's development."
+              ],
+              "translationTR": "çevre; (mecazi) ortam, koşullar",
+              "collocations": [
+                "protect the environment",
+                "political environment",
+                "a supportive environment"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-establish",
+              "type": "vocabulary",
+              "headword": "establish",
+              "frequencyRank": 21,
+              "baseDifficulty": 0.35,
+              "definition": "Bir kurumu, sistemi veya ilişkiyi sağlam bir temel üzerine kurmak; ya da bir şeyi kanıtlarla doğru olduğunu göstermek.",
+              "exampleSentences": [
+                "The United Nations was established in 1945 to promote international cooperation.",
+                "The inquiry sought to establish who was responsible for the policy failure.",
+                "Diplomatic relations between the two countries were established after decades of hostility."
+              ],
+              "translationTR": "kurmak; (kanıtlarla) tespit etmek, ortaya koymak",
+              "collocations": [
+                "establish a policy",
+                "establish diplomatic relations",
+                "establish the facts"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-issue",
+              "type": "vocabulary",
+              "headword": "issue",
+              "frequencyRank": 35,
+              "baseDifficulty": 0.35,
+              "definition": "İnsanların tartıştığı veya karar gerektiren bir konu ya da sorun; ya da özellikle resmî bir kurum tarafından bir şeyi resmen yayımlamak, sağlamak veya kullanıma sunmak.",
+              "exampleSentences": [
+                "Immigration remains one of the most divisive issues in the upcoming election.",
+                "The government issued a decree banning public gatherings during the crisis.",
+                "Local authorities issue permits for any construction within the historic district."
+              ],
+              "translationTR": "konu, sorun; (fiil) yayımlamak, resmi olarak vermek (belge/karar)",
+              "collocations": [
+                "raise an issue",
+                "issue a decree",
+                "a pressing issue"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-legal",
+              "type": "vocabulary",
+              "headword": "legal",
+              "frequencyRank": 37,
+              "baseDifficulty": 0.25,
+              "definition": "Yasayla ilgili, yasaya dayanan veya yasa tarafından izin verilen.",
+              "exampleSentences": [
+                "The company took legal action against the supplier for breach of contract.",
+                "Same-sex marriage became legal in the country after a landmark court ruling.",
+                "Citizens have the legal right to appeal decisions made by local government."
+              ],
+              "translationTR": "yasal, hukuki",
+              "collocations": [
+                "legal action",
+                "legal right",
+                "take legal advice"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-legislate",
+              "type": "vocabulary",
+              "headword": "legislate",
+              "frequencyRank": 38,
+              "baseDifficulty": 0.5,
+              "definition": "Özellikle yönetici bir organ tarafından yasa yapmak veya çıkarmak; ya da belirli bir durum için yasa yoluyla düzenleme yapmak.",
+              "exampleSentences": [
+                "Parliament voted to legislate against discrimination in the workplace.",
+                "It is difficult to legislate for every possible circumstance that may arise.",
+                "Several states have legislated to raise the minimum wage this year."
+              ],
+              "translationTR": "yasa çıkarmak, yasal düzenleme yapmak",
+              "collocations": [
+                "legislate against",
+                "legislate for",
+                "fail to legislate"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-principle",
+              "type": "vocabulary",
+              "headword": "principle",
+              "frequencyRank": 45,
+              "baseDifficulty": 0.4,
+              "definition": "Davranışa, akıl yürütmeye veya bir sistemin tasarımına yön veren temel bir kural, inanç veya gerçek.",
+              "exampleSentences": [
+                "The constitution is founded on the principle of equality before the law.",
+                "In principle, the new policy should reduce bureaucracy, though implementation may prove difficult.",
+                "She resigned rather than compromise her principles."
+              ],
+              "translationTR": "ilke, prensip",
+              "collocations": [
+                "a basic principle",
+                "in principle",
+                "compromise one's principles"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-proceed",
+              "type": "vocabulary",
+              "headword": "proceed",
+              "frequencyRank": 46,
+              "baseDifficulty": 0.35,
+              "definition": "Özellikle bir duraklama veya onayın ardından bir eylem sürecine devam etmek; hukukta ise birine karşı dava açmak.",
+              "exampleSentences": [
+                "The council decided to proceed with the redevelopment plan despite local opposition.",
+                "Once the warrant was issued, police were authorized to proceed with the arrest.",
+                "The prosecution proceeded against the former official on charges of corruption."
+              ],
+              "translationTR": "devam etmek, ilerlemek; (hukuk) dava açmak, kovuşturmaya geçmek",
+              "collocations": [
+                "proceed with",
+                "proceed against",
+                "proceed to trial"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-law-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "title": "Law, Policy & Society · 2",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-require",
+              "type": "vocabulary",
+              "headword": "require",
+              "frequencyRank": 48,
+              "baseDifficulty": 0.25,
+              "definition": "Belirli bir amaç için bir şeye ihtiyaç duymak; ya da özellikle bir kural veya yasa gereği birinden resmî olarak bir şey talep etmek.",
+              "exampleSentences": [
+                "The new legislation requires companies to disclose their carbon emissions annually.",
+                "Obtaining a visa requires submitting several supporting documents.",
+                "The court required the defendant to pay damages to the victim."
+              ],
+              "translationTR": "gerektirmek; (resmi olarak) zorunlu kılmak, talep etmek",
+              "collocations": [
+                "require that",
+                "legally required",
+                "require compliance"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-role",
+              "type": "vocabulary",
+              "headword": "role",
+              "frequencyRank": 51,
+              "baseDifficulty": 0.2,
+              "definition": "Bir kişinin veya kurumun bir toplum, organizasyon ya da durum içindeki belirli işlevi, konumu veya payı.",
+              "exampleSentences": [
+                "Civil society organizations play a crucial role in holding governments accountable.",
+                "The committee's role is to advise ministers on proposed legislation.",
+                "She took on a leading role in the campaign for judicial reform."
+              ],
+              "translationTR": "rol, işlev, görev",
+              "collocations": [
+                "play a role",
+                "a key role",
+                "fulfil a role"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-significant",
+              "type": "vocabulary",
+              "headword": "significant",
+              "frequencyRank": 54,
+              "baseDifficulty": 0.3,
+              "definition": "Önemli, dikkate değer veya anlamlı bir etki yaratacak kadar büyük.",
+              "exampleSentences": [
+                "The new regulations represent a significant shift in environmental policy.",
+                "There has been a significant increase in voter turnout since the reform.",
+                "Community leaders played a significant part in resolving the dispute."
+              ],
+              "translationTR": "önemli, belirgin, ciddi (ölçüde)",
+              "collocations": [
+                "a significant increase",
+                "significant impact",
+                "play a significant role"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-individual",
+              "type": "vocabulary",
+              "headword": "individual",
+              "frequencyRank": 32,
+              "baseDifficulty": 0.3,
+              "definition": "Bir gruptan ayrı olarak ele alınan tek bir kişi; sıfat olarak ise bir gruba değil, tek bir kişiye ait, onun özelliği olan veya onun için tasarlanmış.",
+              "exampleSentences": [
+                "The law protects the rights of the individual against arbitrary state action.",
+                "Each individual case is reviewed on its own merits by the tribunal.",
+                "The policy allows for individual exemptions in cases of genuine hardship."
+              ],
+              "translationTR": "birey; (sıfat) bireysel, ayrı, kişiye özel",
+              "collocations": [
+                "the rights of the individual",
+                "an individual case",
+                "individual liberty"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-involve",
+              "type": "vocabulary",
+              "headword": "involve",
+              "frequencyRank": 34,
+              "baseDifficulty": 0.35,
+              "definition": "Bir şeyi gerekli bir parça veya sonuç olarak içermek ya da etkilemek; ya da birinin bir faaliyete katılmasına neden olmak.",
+              "exampleSentences": [
+                "Reforming the pension system will inevitably involve difficult political trade-offs.",
+                "The scandal involved several senior members of the government.",
+                "Community leaders were involved in drafting the new housing policy."
+              ],
+              "translationTR": "içermek, gerektirmek; (birini) dahil etmek, karıştırmak",
+              "collocations": [
+                "involve a risk",
+                "be involved in",
+                "directly involved"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-community",
+              "type": "vocabulary",
+              "headword": "community",
+              "frequencyRank": 71,
+              "baseDifficulty": 0.2,
+              "definition": "Aynı bölgede yaşayan bir grup insan; ya da daha geniş bir toplum içinde ortak özellikleri, ilgileri veya milliyeti paylaşan kişiler.",
+              "exampleSentences": [
+                "The new policy was developed in close consultation with the local community.",
+                "Ethnic and religious communities have long coexisted in the region.",
+                "International community leaders condemned the coup within hours."
+              ],
+              "translationTR": "topluluk, cemaat",
+              "collocations": [
+                "local community",
+                "the international community",
+                "community leaders"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-culture",
+              "type": "vocabulary",
+              "headword": "culture",
+              "frequencyRank": 80,
+              "baseDifficulty": 0.2,
+              "definition": "Belirli bir toplumun veya grubun gelenekleri, inançları, değerleri ve sosyal davranışları; ya da bir kurumun karakteristik ortak tutumları.",
+              "exampleSentences": [
+                "The reforms aim to change the culture of impunity within the police force.",
+                "Immigration has enriched the country's culture over successive generations.",
+                "Building a culture of transparency in government requires more than new laws."
+              ],
+              "translationTR": "kültür; (kurumsal) kültür, anlayış",
+              "collocations": [
+                "a culture of",
+                "cultural heritage",
+                "political culture"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-institute",
+              "type": "vocabulary",
+              "headword": "institute",
+              "frequencyRank": 91,
+              "baseDifficulty": 0.45,
+              "definition": "Özellikle araştırma, eğitim veya politika amacıyla kurulmuş bir organizasyon; fiil olarak bir politikayı, uygulamayı veya yasal süreci başlatmak ya da yürürlüğe koymak.",
+              "exampleSentences": [
+                "The research institute published a report on rising inequality.",
+                "The government instituted a curfew following the outbreak of unrest.",
+                "New safety regulations were instituted after the factory disaster."
+              ],
+              "translationTR": "enstitü, kurum; (fiil) başlatmak, yürürlüğe koymak",
+              "collocations": [
+                "a research institute",
+                "institute a policy",
+                "institute proceedings"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-participate",
+              "type": "vocabulary",
+              "headword": "participate",
+              "frequencyRank": 98,
+              "baseDifficulty": 0.3,
+              "definition": "Bir faaliyete veya etkinliğe katılmak ya da aktif olarak dahil olmak.",
+              "exampleSentences": [
+                "Citizens were encouraged to participate in the public consultation on the new bylaw.",
+                "Only a fraction of eligible voters participated in the referendum.",
+                "NGOs were invited to participate in drafting the human rights legislation."
+              ],
+              "translationTR": "katılmak",
+              "collocations": [
+                "participate in",
+                "actively participate",
+                "encourage participation"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-potential",
+              "type": "vocabulary",
+              "headword": "potential",
+              "frequencyRank": 101,
+              "baseDifficulty": 0.35,
+              "definition": "Gelecekte gerçekleşme, gelişme veya kullanılma kapasitesine sahip olan; isim olarak ise böyle bir gelecek gelişim kapasitesi.",
+              "exampleSentences": [
+                "The reform has the potential to reduce corruption significantly if properly enforced.",
+                "Officials flagged the bill as a potential threat to civil liberties.",
+                "Investment in education is essential to unlocking the region's economic potential."
+              ],
+              "translationTR": "olası, potansiyel; (isim) potansiyel, gelişme kapasitesi",
+              "collocations": [
+                "potential risk",
+                "have the potential to",
+                "economic potential"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-law-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "title": "Law, Policy & Society · 3",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-previous",
+              "type": "vocabulary",
+              "headword": "previous",
+              "frequencyRank": 102,
+              "baseDifficulty": 0.2,
+              "definition": "Zaman veya sıra bakımından bir başka şeyden önce gelen veya var olan.",
+              "exampleSentences": [
+                "The new administration reversed several previous decisions on immigration policy.",
+                "Under the previous government, welfare spending was cut sharply.",
+                "There is no record of any previous conviction for the defendant."
+              ],
+              "translationTR": "önceki, bir önceki",
+              "collocations": [
+                "the previous administration",
+                "previous conviction",
+                "in the previous decade"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-region",
+              "type": "vocabulary",
+              "headword": "region",
+              "frequencyRank": 106,
+              "baseDifficulty": 0.2,
+              "definition": "Özellikle coğrafi, idari veya kültürel sınırlarla tanımlanmış belirli bir alan; ya da gündelik dilde yaklaşık bir miktar.",
+              "exampleSentences": [
+                "The conflict has displaced hundreds of thousands of people across the region.",
+                "Each region elects its own representatives to the national assembly.",
+                "The proposed budget is in the region of two billion lira."
+              ],
+              "translationTR": "bölge; (deyim) 'in the region of' - yaklaşık olarak",
+              "collocations": [
+                "across the region",
+                "a border region",
+                "in the region of"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-regulate",
+              "type": "vocabulary",
+              "headword": "regulate",
+              "frequencyRank": 107,
+              "baseDifficulty": 0.4,
+              "definition": "Bir faaliyeti, sektörü veya süreci, özellikle resmî bir kurum tarafından belirlenen kurallar aracılığıyla kontrol etmek.",
+              "exampleSentences": [
+                "An independent commission was set up to regulate the banking sector.",
+                "The new law regulates the use of personal data by private companies.",
+                "Utilities are heavily regulated to protect consumers from unfair pricing."
+              ],
+              "translationTR": "düzenlemek, denetim altına almak",
+              "collocations": [
+                "strictly regulated",
+                "regulate an industry",
+                "a regulatory body"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-relevant",
+              "type": "vocabulary",
+              "headword": "relevant",
+              "frequencyRank": 108,
+              "baseDifficulty": 0.3,
+              "definition": "Ele alınan konuyla yakından bağlantılı veya ona uygulanabilir olan.",
+              "exampleSentences": [
+                "The committee requested all documents relevant to the corruption investigation.",
+                "Community input is highly relevant when designing local housing policy.",
+                "The judge ruled that the earlier testimony was no longer relevant to the case."
+              ],
+              "translationTR": "ilgili, alakalı",
+              "collocations": [
+                "relevant to",
+                "relevant information",
+                "highly relevant"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-restrict",
+              "type": "vocabulary",
+              "headword": "restrict",
+              "frequencyRank": 111,
+              "baseDifficulty": 0.35,
+              "definition": "Bir şeyin veya birinin kapsamını, hareketini ya da özgürlüğünü sınırlamak veya kontrol altına almak.",
+              "exampleSentences": [
+                "The new curfew restricts residents' movement between midnight and dawn.",
+                "Several countries have restricted imports of the product on safety grounds.",
+                "Freedom of assembly was severely restricted under the previous regime."
+              ],
+              "translationTR": "kısıtlamak, sınırlamak",
+              "collocations": [
+                "restrict access",
+                "severely restricted",
+                "restrict the movement of"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-tradition",
+              "type": "vocabulary",
+              "headword": "tradition",
+              "frequencyRank": 119,
+              "baseDifficulty": 0.25,
+              "definition": "Bir toplum veya grup içinde nesilden nesile aktarılan, kökleşmiş bir gelenek, inanç veya uygulama.",
+              "exampleSentences": [
+                "The village has a long tradition of resolving disputes through community elders.",
+                "Reformers argue that some legal traditions no longer serve modern society.",
+                "The ceremony draws on a centuries-old political tradition."
+              ],
+              "translationTR": "gelenek",
+              "collocations": [
+                "a long-standing tradition",
+                "break with tradition",
+                "legal tradition"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-affect",
+              "type": "vocabulary",
+              "headword": "affect",
+              "frequencyRank": 64,
+              "baseDifficulty": 0.4,
+              "definition": "Genellikle bir değişikliğe yol açarak birini veya bir şeyi etkilemek; bir sonuç anlamına gelen “effect” ismiyle karıştırılmamalıdır.",
+              "exampleSentences": [
+                "The new tax bracket will affect middle-income households the most.",
+                "Prolonged drought has severely affected agricultural communities in the region.",
+                "Public opinion can affect how quickly lawmakers respond to a crisis."
+              ],
+              "translationTR": "etkilemek (fiil) — isim olan 'effect' (sonuç, etki) ile karıştırılmamalı",
+              "collocations": [
+                "directly affect",
+                "affect the outcome",
+                "adversely affect"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-injure",
+              "type": "vocabulary",
+              "headword": "injure",
+              "frequencyRank": 90,
+              "baseDifficulty": 0.3,
+              "definition": "Birine fiziksel zarar vermek; hukukta ise bir kişinin haklarına veya çıkarlarına zarar vermek ya da kayba yol açmak, “the injured party” (zarar gören taraf) örneğinde olduğu gibi.",
+              "exampleSentences": [
+                "Several protesters were injured when police used tear gas to disperse the crowd.",
+                "The court awarded compensation to the injured party in the negligence case.",
+                "The new safety regulations aim to reduce the number of workers injured on construction sites."
+              ],
+              "translationTR": "yaralamak; (hukuk) zarar vermek ('injured party' - zarar gören taraf)",
+              "collocations": [
+                "seriously injured",
+                "the injured party",
+                "injured in an accident"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-reside",
+              "type": "vocabulary",
+              "headword": "reside",
+              "frequencyRank": 109,
+              "baseDifficulty": 0.45,
+              "definition": "Kalıcı veya uzun süreli olarak belirli bir yerde yaşamak; resmî kullanımda ise (güç, otorite veya bir niteliğin) bir şeyde bulunması veya ona ait olması.",
+              "exampleSentences": [
+                "Thousands of refugees now reside in camps along the border.",
+                "Under the constitution, ultimate authority resides in the elected parliament.",
+                "Foreign nationals who reside in the country for over five years may apply for citizenship."
+              ],
+              "translationTR": "ikamet etmek, oturmak; (yetki/güç için) -de bulunmak, ait olmak",
+              "collocations": [
+                "reside in",
+                "legally reside",
+                "authority resides in"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-consequent",
+              "type": "vocabulary",
+              "headword": "consequent",
+              "frequencyRank": 76,
+              "baseDifficulty": 0.45,
+              "definition": "Özellikle önceki bir olay veya eylemin sonucu veya etkisi olarak ortaya çıkan.",
+              "exampleSentences": [
+                "The consequent rise in unemployment put pressure on the welfare system.",
+                "Delays in the vote led to a consequent postponement of the reform's implementation.",
+                "Public distrust in institutions, and the consequent decline in voter turnout, worried policymakers."
+              ],
+              "translationTR": "sonucunda ortaya çıkan, -den kaynaklanan",
+              "collocations": [
+                "consequent on",
+                "a consequent rise",
+                "consequent delay"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-unit-academic-writing",
+      "theme": "Academic Writing & Communication",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "yds-vocab1-lesson-writing-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "title": "Academic Writing & Communication · 1",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-approach",
+              "type": "vocabulary",
+              "headword": "approach",
+              "frequencyRank": 2,
+              "baseDifficulty": 0.3,
+              "definition": "Bir görevi, sorunu veya konuyu ele alma ya da bir konuya yaklaşma biçimi; fiil olarak bir şeyle ilgilenmeye başlamak veya ona yaklaşmak.",
+              "exampleSentences": [
+                "The author adopts a comparative approach to analyse the two novels.",
+                "Before approaching the topic of censorship, the writer carefully defines her key terms.",
+                "As the essay approaches its conclusion, the argument becomes noticeably more speculative."
+              ],
+              "translationTR": "yaklaşım; (fiil) ele almak, yaklaşmak",
+              "collocations": [
+                "a fresh approach",
+                "approach a topic",
+                "take an approach"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-available",
+              "type": "vocabulary",
+              "headword": "available",
+              "frequencyRank": 7,
+              "baseDifficulty": 0.15,
+              "definition": "İhtiyaç duyulduğunda elde edilebilen, kullanılabilen veya ulaşılabilen.",
+              "exampleSentences": [
+                "A wide range of critical studies on the novel are readily available online.",
+                "The author draws on all the evidence available at the time of writing.",
+                "Few reliable sources were available on the subject before the 1990s."
+              ],
+              "translationTR": "mevcut, elde edilebilir",
+              "collocations": [
+                "readily available",
+                "make available",
+                "available evidence"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-concept",
+              "type": "vocabulary",
+              "headword": "concept",
+              "frequencyRank": 9,
+              "baseDifficulty": 0.25,
+              "definition": "Özellikle bir teori, tartışma veya çalışma alanının temelini oluşturan soyut bir fikir ya da genel kavram.",
+              "exampleSentences": [
+                "The essay opens by defining the concept of identity as it is used throughout the argument.",
+                "Postmodernism introduced several concepts that reshaped literary criticism.",
+                "Readers unfamiliar with the field may struggle to grasp such an abstract concept."
+              ],
+              "translationTR": "kavram",
+              "collocations": [
+                "a key concept",
+                "grasp a concept",
+                "introduce a concept"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-consist",
+              "type": "vocabulary",
+              "headword": "consist",
+              "frequencyRank": 10,
+              "baseDifficulty": 0.25,
+              "definition": "Belirli parçalardan veya unsurlardan oluşmak.",
+              "exampleSentences": [
+                "The dissertation consists of five chapters, each addressing a separate research question.",
+                "Her argument consists of three interlocking claims about narrative voice.",
+                "The anthology consists mainly of essays written after the war."
+              ],
+              "translationTR": "-den oluşmak, ibaret olmak",
+              "collocations": [
+                "consist of",
+                "consist mainly of",
+                "consist largely of"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-context",
+              "type": "vocabulary",
+              "headword": "context",
+              "frequencyRank": 12,
+              "baseDifficulty": 0.25,
+              "definition": "Bir şeyin yazıldığı, söylendiği veya anlaşıldığı koşullar, arka plan ya da ortam; anlamını yorumlamak için gereklidir.",
+              "exampleSentences": [
+                "Without historical context, the poem's imagery loses much of its force.",
+                "The essay situates the novel within the broader context of postcolonial literature.",
+                "Quoting a sentence out of context can distort the author's original meaning."
+              ],
+              "translationTR": "bağlam, çerçeve",
+              "collocations": [
+                "historical context",
+                "in this context",
+                "out of context"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-create",
+              "type": "vocabulary",
+              "headword": "create",
+              "frequencyRank": 14,
+              "baseDifficulty": 0.2,
+              "definition": "Çaba, hayal gücü veya beceri yoluyla bir şeyi var etmek; örneğin bir argüman, yapı veya yazılı eser oluşturmak.",
+              "exampleSentences": [
+                "The author creates a sense of unease through short, fragmented sentences.",
+                "The introduction should create a clear expectation of what the essay will argue.",
+                "By juxtaposing two contrasting voices, the writer creates tension throughout the chapter."
+              ],
+              "translationTR": "yaratmak, oluşturmak",
+              "collocations": [
+                "create tension",
+                "create an impression",
+                "create a structure"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-occur",
+              "type": "vocabulary",
+              "headword": "occur",
+              "frequencyRank": 41,
+              "baseDifficulty": 0.3,
+              "definition": "Meydana gelmek, gerçekleşmek; “to” ile kullanıldığında ise birinin aklına bir fikir olarak gelmek.",
+              "exampleSentences": [
+                "A significant shift in the author's tone occurs midway through the chapter.",
+                "It did not occur to the reviewer that the ambiguity might be entirely intentional.",
+                "Such abrupt changes of perspective occur frequently in modernist fiction."
+              ],
+              "translationTR": "meydana gelmek, olmak; 'occur to' - aklına gelmek",
+              "collocations": [
+                "occur to someone",
+                "frequently occur",
+                "a shift occurs"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-period",
+              "type": "vocabulary",
+              "headword": "period",
+              "frequencyRank": 43,
+              "baseDifficulty": 0.3,
+              "definition": "Belirli olaylar veya özelliklerle işaretlenmiş bir zaman dilimi; Amerikan kullanımında ise bir cümleyi bitiren noktalama işareti (nokta).",
+              "exampleSentences": [
+                "The novel is set during a turbulent period of political upheaval.",
+                "According to the style guide, every declarative sentence must end with a period, not a comma.",
+                "Her prose style changed noticeably over this period."
+              ],
+              "translationTR": "dönem; (Amerikan İngilizcesi, noktalama işareti) nokta",
+              "collocations": [
+                "a period of time",
+                "over a period",
+                "end with a period"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-respond",
+              "type": "vocabulary",
+              "headword": "respond",
+              "frequencyRank": 50,
+              "baseDifficulty": 0.25,
+              "definition": "Yanıt vermek, tepki göstermek; özellikle bir argümana, metne veya eleştiriye cevap vermek.",
+              "exampleSentences": [
+                "The author responds directly to earlier critics who dismissed the novel as sentimental.",
+                "Readers are invited to respond to the essay's central claim in their own words.",
+                "The writer responds to the poem's ambiguity by offering two competing interpretations."
+              ],
+              "translationTR": "yanıt vermek, tepki göstermek",
+              "collocations": [
+                "respond to criticism",
+                "respond directly",
+                "fail to respond"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-section",
+              "type": "vocabulary",
+              "headword": "section",
+              "frequencyRank": 52,
+              "baseDifficulty": 0.25,
+              "definition": "Bir metnin, belgenin veya argümanın belirgin bir bölümü; fiil olarak bir şeyi böyle ayrı parçalara bölmek.",
+              "exampleSentences": [
+                "The final section of the essay addresses possible counterarguments.",
+                "The editors sectioned the anthology into three thematic parts for easier navigation.",
+                "Readers can skip directly to the section on methodology."
+              ],
+              "translationTR": "bölüm; (fiil) bölümlere ayırmak",
+              "collocations": [
+                "the final section",
+                "section off",
+                "divide into sections"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-writing-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "title": "Academic Writing & Communication · 2",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-similar",
+              "type": "vocabulary",
+              "headword": "similar",
+              "frequencyRank": 55,
+              "baseDifficulty": 0.15,
+              "definition": "Aynı olmasa da doğa, görünüş veya nitelik bakımından bir şeye benzeyen.",
+              "exampleSentences": [
+                "The two essays reach similar conclusions despite starting from different premises.",
+                "Critics have noted a similar pattern of imagery in the author's earlier work.",
+                "Though similar in structure, the two arguments differ sharply in tone."
+              ],
+              "translationTR": "benzer",
+              "collocations": [
+                "a similar pattern",
+                "similar to",
+                "bear a similarity"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-specific",
+              "type": "vocabulary",
+              "headword": "specific",
+              "frequencyRank": 57,
+              "baseDifficulty": 0.2,
+              "definition": "Genel veya belirsiz olmaktan çok, kesin, özel veya net biçimde tanımlanmış.",
+              "exampleSentences": [
+                "The essay would benefit from more specific examples to support its claims.",
+                "The thesis statement should be specific enough to guide the entire argument.",
+                "The author refers to a specific passage in chapter three to illustrate her point."
+              ],
+              "translationTR": "belirli, özgü, spesifik",
+              "collocations": [
+                "a specific example",
+                "specific to",
+                "be more specific"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-chapter",
+              "type": "vocabulary",
+              "headword": "chapter",
+              "frequencyRank": 69,
+              "baseDifficulty": 0.15,
+              "definition": "Bir kitabın veya yazılı eserin, genellikle numaralandırılmış ya da başlıklandırılmış, konunun belirli bir bölümünü ele alan ayrı kısmı.",
+              "exampleSentences": [
+                "The final chapter draws together the threads introduced earlier in the book.",
+                "Each chapter opens with a brief summary of its central argument.",
+                "She devotes an entire chapter to the author's use of symbolism."
+              ],
+              "translationTR": "bölüm (kitap)",
+              "collocations": [
+                "the opening chapter",
+                "devote a chapter to",
+                "the final chapter"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-conclude",
+              "type": "vocabulary",
+              "headword": "conclude",
+              "frequencyRank": 74,
+              "baseDifficulty": 0.3,
+              "definition": "Bir şeyi sona erdirmek, ya da kanıt veya argümanı değerlendirdikten sonra bir yargıya veya karara varmak.",
+              "exampleSentences": [
+                "The essay concludes with a brief reflection on the limitations of the study.",
+                "Based on the textual evidence, the critic concludes that the narrator is unreliable.",
+                "Having reviewed both interpretations, the author concludes that neither fully accounts for the ending."
+              ],
+              "translationTR": "sona erdirmek; (kanıtlardan) sonuca varmak",
+              "collocations": [
+                "conclude that",
+                "conclude with",
+                "conclude an essay"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-design",
+              "type": "vocabulary",
+              "headword": "design",
+              "frequencyRank": 81,
+              "baseDifficulty": 0.3,
+              "definition": "Bir yazının veya araştırmanın genel planı, yapısı ya da düzenlenişi; fiil olarak bir şeyi belirli bir amaç için bilinçli olarak planlamak veya şekillendirmek.",
+              "exampleSentences": [
+                "The essay's design moves from a narrow case study to a broader theoretical claim.",
+                "The study was designed to test competing explanations for the character's motivation.",
+                "A clear structural design helps readers follow a complex argument."
+              ],
+              "translationTR": "tasarım, yapı; (fiil) tasarlamak, planlamak",
+              "collocations": [
+                "research design",
+                "designed to",
+                "structural design"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-final",
+              "type": "vocabulary",
+              "headword": "final",
+              "frequencyRank": 87,
+              "baseDifficulty": 0.15,
+              "definition": "Bir dizinin veya sürecin sonunda gelen; son.",
+              "exampleSentences": [
+                "The final paragraph restates the thesis in light of the evidence presented.",
+                "Her final revision removed several digressive passages.",
+                "The paper's final section anticipates objections to its central claim."
+              ],
+              "translationTR": "son, nihai",
+              "collocations": [
+                "the final paragraph",
+                "final draft",
+                "final revision"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-focus",
+              "type": "vocabulary",
+              "headword": "focus",
+              "frequencyRank": 88,
+              "baseDifficulty": 0.25,
+              "definition": "Bir yazıda dikkatin veya ilginin ana konusu; fiil olarak dikkati belirli bir konuya yoğunlaştırmak.",
+              "exampleSentences": [
+                "The focus of the chapter shifts from plot to characterization halfway through.",
+                "The essay focuses on how the narrator's unreliability shapes the reader's judgement.",
+                "Rather than surveying the whole novel, the critic keeps her focus narrow and precise."
+              ],
+              "translationTR": "odak, odak noktası; (fiil) odaklanmak",
+              "collocations": [
+                "the focus of",
+                "focus on",
+                "a narrow focus"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-journal",
+              "type": "vocabulary",
+              "headword": "journal",
+              "frequencyRank": 94,
+              "baseDifficulty": 0.2,
+              "definition": "Genellikle hakem denetiminden sonra akademik makalelerin yayımlandığı bilimsel süreli yayın.",
+              "exampleSentences": [
+                "The article was published in a leading literary studies journal.",
+                "Reviewers for the journal recommended several revisions before acceptance.",
+                "She searched academic journals for recent scholarship on the topic."
+              ],
+              "translationTR": "akademik dergi",
+              "collocations": [
+                "a peer-reviewed journal",
+                "publish in a journal",
+                "an academic journal"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-maintain",
+              "type": "vocabulary",
+              "headword": "maintain",
+              "frequencyRank": 95,
+              "baseDifficulty": 0.35,
+              "definition": "Bir şeyi değişmeden var tutmak veya belirli bir durumda korumak; ya da özellikle bir tartışmada bir şeyi kesin doğru olarak ileri sürmek.",
+              "exampleSentences": [
+                "The novel maintains a consistent first-person perspective throughout.",
+                "The author maintains that the ending should be read as ironic rather than sincere.",
+                "Despite criticism, she maintained her original interpretation of the poem."
+              ],
+              "translationTR": "sürdürmek, korumak; (fikir/iddia için) ısrarla savunmak, iddia etmek",
+              "collocations": [
+                "maintain that",
+                "maintain consistency",
+                "maintain a position"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-perceive",
+              "type": "vocabulary",
+              "headword": "perceive",
+              "frequencyRank": 99,
+              "baseDifficulty": 0.3,
+              "definition": "Bir şeyin farkına varmak veya onu belirli bir şekilde yorumlamak; özellikle gözlem ya da anlayış yoluyla.",
+              "exampleSentences": [
+                "The narrator is perceived by other characters as untrustworthy from the outset.",
+                "Readers may perceive irony in a passage the author intended quite sincerely.",
+                "How a text is perceived often changes considerably across historical periods."
+              ],
+              "translationTR": "algılamak, öyle görmek",
+              "collocations": [
+                "perceive as",
+                "widely perceived",
+                "perceive irony"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab1-lesson-writing-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "title": "Academic Writing & Communication · 3",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab1-item-positive",
+              "type": "vocabulary",
+              "headword": "positive",
+              "frequencyRank": 100,
+              "baseDifficulty": 0.25,
+              "definition": "Olumlu veya yapıcı nitelikte olan; “that” ile kullanıldığında ise bir şeyden tamamen emin veya kendinden emin olmak.",
+              "exampleSentences": [
+                "Critics offered a largely positive assessment of the author's debut novel.",
+                "She was positive that the manuscript contained an allusion to an earlier poet.",
+                "The essay ends on a positive note, emphasizing the text's enduring relevance."
+              ],
+              "translationTR": "olumlu; ('positive that' ile) emin, kesin",
+              "collocations": [
+                "a positive assessment",
+                "positive that",
+                "end on a positive note"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-primary",
+              "type": "vocabulary",
+              "headword": "primary",
+              "frequencyRank": 103,
+              "baseDifficulty": 0.25,
+              "definition": "Önem, sıra veya derece bakımından ilk; özellikle kaynakları veya amaçları tanımlarken ana, başlıca.",
+              "exampleSentences": [
+                "The primary source for this chapter is the author's own correspondence.",
+                "Her primary aim is to reassess the novel's reception among contemporary readers.",
+                "Secondary criticism should never replace close reading of the primary text."
+              ],
+              "translationTR": "birincil, ana, esas",
+              "collocations": [
+                "a primary source",
+                "primary aim",
+                "primary text"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-range",
+              "type": "vocabulary",
+              "headword": "range",
+              "frequencyRank": 105,
+              "baseDifficulty": 0.3,
+              "definition": "Aynı genel türden farklı şeylerin oluşturduğu bir küme, ya da iki sınır arasındaki genişlik; fiil olarak iki nokta arasında uzanmak veya değişmek.",
+              "exampleSentences": [
+                "The anthology includes a wide range of poetic styles from the period.",
+                "Interpretations of the final chapter range from cautiously optimistic to deeply pessimistic.",
+                "The essay covers a broad range of critical approaches to the text."
+              ],
+              "translationTR": "çeşitlilik, aralık; (fiil, 'range from...to') arasında değişmek",
+              "collocations": [
+                "a range of",
+                "range from...to",
+                "a wide range"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-seek",
+              "type": "vocabulary",
+              "headword": "seek",
+              "frequencyRank": 113,
+              "baseDifficulty": 0.3,
+              "definition": "Bir şeyi elde etmeye, başarmaya veya bulmaya çalışmak; özellikle sürekli bir çaba veya argüman yoluyla.",
+              "exampleSentences": [
+                "The essay seeks to demonstrate that the two novels share a common source.",
+                "Scholars have long sought an explanation for the poem's abrupt final stanza.",
+                "She seeks out lesser-known reviews to complicate the standard critical narrative."
+              ],
+              "translationTR": "aramak, elde etmeye çalışmak",
+              "collocations": [
+                "seek to argue",
+                "seek an explanation",
+                "seek out"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-select",
+              "type": "vocabulary",
+              "headword": "select",
+              "frequencyRank": 114,
+              "baseDifficulty": 0.25,
+              "definition": "Genellikle dikkatlice değerlendirdikten sonra, bir dizi olasılık arasından birini veya bir şeyi özenle seçmek.",
+              "exampleSentences": [
+                "The editor selected only the essays that engaged directly with the central theme.",
+                "Passages were carefully selected to illustrate the author's evolving style.",
+                "Students should select quotations that genuinely support their argument, not merely decorate it."
+              ],
+              "translationTR": "seçmek",
+              "collocations": [
+                "carefully selected",
+                "select a quotation",
+                "select from"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-site",
+              "type": "vocabulary",
+              "headword": "site",
+              "frequencyRank": 115,
+              "baseDifficulty": 0.35,
+              "definition": "Bir şeyin bulunduğu veya gerçekleştiği belirli bir yer; daha mecazi anlamda ise belirli bir mücadelenin, anlamın veya tartışmanın “mekânı” olarak ele alınan metin veya bağlam.",
+              "exampleSentences": [
+                "The archive functioned as the primary research site for her study of wartime letters.",
+                "Feminist critics have long treated the novel as a site of ideological contestation.",
+                "The final chapter becomes a site where competing interpretations of the ending collide."
+              ],
+              "translationTR": "yer, mekân; (mecazi) bir tartışmanın/anlamın 'sahnesi' olan metin veya bağlam",
+              "collocations": [
+                "a research site",
+                "a site of contestation",
+                "a site of debate"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-text",
+              "type": "vocabulary",
+              "headword": "text",
+              "frequencyRank": 118,
+              "baseDifficulty": 0.15,
+              "definition": "İçeriği, yapısı veya anlamı bakımından ele alınan yazılı bir eser; özellikle inceleme veya yorumlama nesnesi olarak.",
+              "exampleSentences": [
+                "Close reading requires attending carefully to the language of the text itself.",
+                "The essay treats the film as a text open to the same critical methods as a novel.",
+                "Several passages in the text resist a single, stable interpretation."
+              ],
+              "translationTR": "metin",
+              "collocations": [
+                "close reading of a text",
+                "the text itself",
+                "a literary text"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-appropriate",
+              "type": "vocabulary",
+              "headword": "appropriate",
+              "frequencyRank": 65,
+              "baseDifficulty": 0.4,
+              "definition": "Belirli bir amaç veya durum için uygun olan; fiil olarak bir terimi, fikri veya üslubu alıp, çoğu zaman tam bir atıf yapmadan kendi kullanımına uyarlamak.",
+              "exampleSentences": [
+                "A formal register is generally more appropriate for academic writing than casual speech.",
+                "The novelist appropriates the conventions of the gothic genre for satirical ends.",
+                "It is not always appropriate to quote at length when a brief paraphrase would suffice."
+              ],
+              "translationTR": "uygun; (fiil) sahiplenmek, kendine mal etmek (bir üslup/kavramı)",
+              "collocations": [
+                "appropriate for",
+                "appropriate a genre",
+                "an appropriate tone"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-aspect",
+              "type": "vocabulary",
+              "headword": "aspect",
+              "frequencyRank": 66,
+              "baseDifficulty": 0.25,
+              "definition": "Bir şeyin belirli bir parçası, özelliği veya ele alınış biçimi; özellikle birkaç olası bakış açısından biri.",
+              "exampleSentences": [
+                "This section examines one aspect of the novel's treatment of memory.",
+                "Every aspect of the argument must be supported by textual evidence.",
+                "Critics disagree chiefly on the aesthetic aspect of the author's late style."
+              ],
+              "translationTR": "yön, boyut, unsur",
+              "collocations": [
+                "an important aspect",
+                "one aspect of",
+                "every aspect"
+              ]
+            },
+            {
+              "id": "yds-vocab1-item-assist",
+              "type": "vocabulary",
+              "headword": "assist",
+              "frequencyRank": 67,
+              "baseDifficulty": 0.25,
+              "definition": "Birinin bir görevi tamamlamasına veya bir sonuca ulaşmasına yardımcı olmak; genellikle yönlendirici değil destekleyici bir rolde.",
+              "exampleSentences": [
+                "Footnotes assist the reader in tracing the author's sources.",
+                "A supervisor assisted her in narrowing the thesis to a single, manageable claim.",
+                "Marginal summaries can assist students unfamiliar with the text's dense argument."
+              ],
+              "translationTR": "yardımcı olmak",
+              "collocations": [
+                "assist in",
+                "assist the reader",
+                "assist with"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

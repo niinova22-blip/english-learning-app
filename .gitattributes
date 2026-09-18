@@ -1,0 +1,14 @@
+# Force LF line endings for text formats that matter byte-for-byte,
+# regardless of a developer machine's core.autocrlf setting. This project's
+# content pipeline (scripts/assemble-content.py) and Swift toolchain both
+# assume LF; CRLF drift on Windows checkouts was the root cause of a prior
+# mojibake bug in the shipped/test content JSON.
+* text=auto eol=lf
+
+*.json text eol=lf
+*.swift text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf

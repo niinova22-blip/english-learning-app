@@ -1,0 +1,478 @@
+{
+  "id": "yds-vocab1-unit-science-research",
+  "theme": "Science & Research Methods",
+  "order": 1,
+  "lessons": [
+    {
+      "id": "yds-vocab1-lesson-science-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-analyse",
+          "type": "vocabulary",
+          "headword": "analyse",
+          "frequencyRank": 1,
+          "baseDifficulty": 0.2,
+          "definition": "Bileşenlerini anlamak veya sonuç çıkarmak amacıyla veriyi, kanıtı veya bir olguyu ayrıntılı biçimde incelemek.",
+          "exampleSentences": [
+            "The team analysed the survey data to identify significant patterns in consumer behaviour.",
+            "Researchers analysed blood samples from over a thousand participants to test the hypothesis.",
+            "Before drawing any conclusions, the results must be analysed for statistical significance."
+          ],
+          "translationTR": "analiz etmek, çözümlemek",
+          "collocations": ["analyse data", "analyse results", "critically analyse"]
+        },
+        {
+          "id": "yds-vocab1-item-assess",
+          "type": "vocabulary",
+          "headword": "assess",
+          "frequencyRank": 4,
+          "baseDifficulty": 0.3,
+          "definition": "Genellikle mevcut kanıtlara dayanarak bir şeyin kapsamını, kalitesini veya önemini değerlendirmek.",
+          "exampleSentences": [
+            "The study assessed the long-term effects of sleep deprivation on memory retention.",
+            "Reviewers were asked to assess the validity of the experimental design before publication.",
+            "Researchers use standardized tests to assess cognitive development in young children."
+          ],
+          "translationTR": "değerlendirmek",
+          "collocations": ["assess the impact", "assess reliability", "critically assess"]
+        },
+        {
+          "id": "yds-vocab1-item-assume",
+          "type": "vocabulary",
+          "headword": "assume",
+          "frequencyRank": 5,
+          "baseDifficulty": 0.3,
+          "definition": "Bir şeyi önce kanıtlamadan doğru kabul etmek veya bir argüman ya da hesaplama için başlangıç noktası olarak almak.",
+          "exampleSentences": [
+            "The model assumes that all variables are independent of one another.",
+            "For simplicity, the researchers assumed a constant rate of decay throughout the experiment.",
+            "It would be wrong to assume that correlation implies causation."
+          ],
+          "translationTR": "varsaymak, farz etmek",
+          "collocations": ["assume that", "assume independence", "reasonable to assume"]
+        },
+        {
+          "id": "yds-vocab1-item-data",
+          "type": "vocabulary",
+          "headword": "data",
+          "frequencyRank": 15,
+          "baseDifficulty": 0.15,
+          "definition": "Ölçüm, deney veya gözlem yoluyla toplanan ve analiz için temel oluşturan olgular, sayılar veya gözlemler.",
+          "exampleSentences": [
+            "The data were collected over a six-month period using standardized questionnaires.",
+            "Researchers cross-checked the data against previous studies to confirm the trend.",
+            "Missing data can significantly skew the results of a statistical analysis."
+          ],
+          "translationTR": "veri",
+          "collocations": ["collect data", "raw data", "analyse data"]
+        },
+        {
+          "id": "yds-vocab1-item-define",
+          "type": "vocabulary",
+          "headword": "define",
+          "frequencyRank": 16,
+          "baseDifficulty": 0.2,
+          "definition": "Bir terimin veya kavramın kesin anlamını belirtmek; ya da bir şeyin sınırlarını ve özelliklerini ortaya koymak.",
+          "exampleSentences": [
+            "The researchers carefully defined each variable before beginning the experiment.",
+            "It is difficult to define intelligence in a way that all psychologists accept.",
+            "The study's scope was defined by strict inclusion and exclusion criteria."
+          ],
+          "translationTR": "tanımlamak, belirlemek",
+          "collocations": ["clearly defined", "define a term", "define criteria"]
+        },
+        {
+          "id": "yds-vocab1-item-derive",
+          "type": "vocabulary",
+          "headword": "derive",
+          "frequencyRank": 17,
+          "baseDifficulty": 0.4,
+          "definition": "Bir şeyi belirli bir kaynaktan elde etmek veya ona dayandırmak; ya da mantıksal veya matematiksel akıl yürütme yoluyla bir sonuca ulaşmak.",
+          "exampleSentences": [
+            "The formula can be derived from Newton's second law of motion.",
+            "Much of what we know about the disease was derived from early animal studies.",
+            "Students were asked to derive the equation step by step rather than memorize it."
+          ],
+          "translationTR": "türetmek, elde etmek (denklem/sonuç)",
+          "collocations": ["derive a formula", "derive from", "derive a conclusion"]
+        },
+        {
+          "id": "yds-vocab1-item-estimate",
+          "type": "vocabulary",
+          "headword": "estimate",
+          "frequencyRank": 22,
+          "baseDifficulty": 0.3,
+          "definition": "Özellikle kesin bir ölçüm mümkün olmadığında, bir şeyin yaklaşık değerini, boyutunu veya kapsamını hesaplamak ya da tahmin etmek.",
+          "exampleSentences": [
+            "Scientists estimate that the species has existed for over two million years.",
+            "The initial estimate of the sample size proved too small for reliable results.",
+            "Researchers estimated the margin of error at roughly three percent."
+          ],
+          "translationTR": "tahmin etmek, tahmin",
+          "collocations": ["rough estimate", "estimate the value", "conservative estimate"]
+        },
+        {
+          "id": "yds-vocab1-item-evident",
+          "type": "vocabulary",
+          "headword": "evident",
+          "frequencyRank": 23,
+          "baseDifficulty": 0.35,
+          "definition": "Mevcut olgulardan veya kanıtlardan açıkça görülebilen veya anlaşılan; belirgin.",
+          "exampleSentences": [
+            "It became evident from the data that the treatment had no significant effect.",
+            "The correlation between the two variables was immediately evident on the graph.",
+            "Despite repeated trials, no clear pattern was evident in the results."
+          ],
+          "translationTR": "açık, belli, aşikâr",
+          "collocations": ["become evident", "evident from", "clearly evident"]
+        },
+        {
+          "id": "yds-vocab1-item-formula",
+          "type": "vocabulary",
+          "headword": "formula",
+          "frequencyRank": 27,
+          "baseDifficulty": 0.25,
+          "definition": "Sembollerle ifade edilen matematiksel bir kural veya ilişki; ya da belirli bir sonuca ulaşmak için sabit bir yöntem.",
+          "exampleSentences": [
+            "The formula relates pressure, volume, and temperature in an ideal gas.",
+            "Researchers applied a standard formula to calculate statistical significance.",
+            "There is no simple formula for predicting how a chemical reaction will proceed."
+          ],
+          "translationTR": "formül",
+          "collocations": ["apply a formula", "mathematical formula", "derive a formula"]
+        },
+        {
+          "id": "yds-vocab1-item-identify",
+          "type": "vocabulary",
+          "headword": "identify",
+          "frequencyRank": 29,
+          "baseDifficulty": 0.2,
+          "definition": "Gözlem veya analiz yoluyla belirli bir olguyu, nedeni, örüntüyü veya varlığı tanımak, tespit etmek ya da ayırt etmek.",
+          "exampleSentences": [
+            "The study aimed to identify the genetic factors linked to the disease.",
+            "Researchers identified a previously unknown species during the expedition.",
+            "The analysis helped identify which variables had the greatest effect on the outcome."
+          ],
+          "translationTR": "tespit etmek, belirlemek",
+          "collocations": ["identify a pattern", "identify the cause", "clearly identified"]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-lesson-science-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-indicate",
+          "type": "vocabulary",
+          "headword": "indicate",
+          "frequencyRank": 31,
+          "baseDifficulty": 0.25,
+          "definition": "Bir gerçeğe veya sonuca olası olarak işaret etmek; ya da bir şeyi işaretler veya kanıtlar yoluyla açıkça göstermek.",
+          "exampleSentences": [
+            "The results indicate a strong link between diet and cardiovascular health.",
+            "Preliminary data indicate that the new treatment may reduce recovery time.",
+            "A rising baseline reading can indicate a fault in the measuring equipment."
+          ],
+          "translationTR": "göstermek, işaret etmek",
+          "collocations": ["results indicate", "clearly indicate", "indicate a trend"]
+        },
+        {
+          "id": "yds-vocab1-item-interpret",
+          "type": "vocabulary",
+          "headword": "interpret",
+          "frequencyRank": 33,
+          "baseDifficulty": 0.35,
+          "definition": "Bilgi, veri veya davranışın anlamını ya da önemini açıklamak veya belirlemek.",
+          "exampleSentences": [
+            "Different researchers interpreted the same data set in strikingly different ways.",
+            "The findings must be interpreted with caution given the small sample size.",
+            "She was trained to interpret X-ray images for signs of fracture."
+          ],
+          "translationTR": "yorumlamak",
+          "collocations": ["interpret the results", "misinterpret data", "open to interpretation"]
+        },
+        {
+          "id": "yds-vocab1-item-method",
+          "type": "vocabulary",
+          "headword": "method",
+          "frequencyRank": 40,
+          "baseDifficulty": 0.2,
+          "definition": "Özellikle araştırma veya deneyde bir görevi yürütmek için kullanılan sistematik bir yöntem veya adımlar dizisi.",
+          "exampleSentences": [
+            "The paper describes the method used to isolate the compound.",
+            "Researchers adopted a mixed-methods approach, combining surveys with interviews.",
+            "A flawed method can undermine even the most promising hypothesis."
+          ],
+          "translationTR": "yöntem, metot",
+          "collocations": ["research method", "scientific method", "adopt a method"]
+        },
+        {
+          "id": "yds-vocab1-item-process",
+          "type": "vocabulary",
+          "headword": "process",
+          "frequencyRank": 47,
+          "baseDifficulty": 0.25,
+          "definition": "Belirli bir sonuca ulaşmak için atılan bir dizi eylem veya adım; ya da bilgiyi sistematik olarak işlemek ve analiz etmek.",
+          "exampleSentences": [
+            "The data were processed using specialized statistical software before analysis.",
+            "Photosynthesis is the process by which plants convert light into chemical energy.",
+            "The peer-review process can take several months before a paper is accepted."
+          ],
+          "translationTR": "süreç; (fiil) işlemek (veri)",
+          "collocations": ["process data", "a lengthy process", "undergo a process"]
+        },
+        {
+          "id": "yds-vocab1-item-research",
+          "type": "vocabulary",
+          "headword": "research",
+          "frequencyRank": 49,
+          "baseDifficulty": 0.2,
+          "definition": "Olguları keşfetmek veya ortaya koymak ve yeni sonuçlara ulaşmak amacıyla bir konunun sistematik olarak incelenmesi.",
+          "exampleSentences": [
+            "Her research focuses on the effects of climate change on marine ecosystems.",
+            "The team spent three years researching the causes of the disorder.",
+            "Further research is needed before any firm conclusions can be drawn."
+          ],
+          "translationTR": "araştırma, araştırmak",
+          "collocations": ["conduct research", "research findings", "further research"]
+        },
+        {
+          "id": "yds-vocab1-item-structure",
+          "type": "vocabulary",
+          "headword": "structure",
+          "frequencyRank": 58,
+          "baseDifficulty": 0.3,
+          "definition": "Bir sistem içindeki parçaların düzenlenişi; ya da bir şeyi belirli bir çerçeveye göre organize etmek.",
+          "exampleSentences": [
+            "The molecule's structure determines how it interacts with other compounds.",
+            "Researchers structured the questionnaire to avoid leading questions.",
+            "Understanding the structure of the atom was a turning point in physics."
+          ],
+          "translationTR": "yapı; (fiil) yapılandırmak",
+          "collocations": ["molecular structure", "structure a study", "underlying structure"]
+        },
+        {
+          "id": "yds-vocab1-item-theory",
+          "type": "vocabulary",
+          "headword": "theory",
+          "frequencyRank": 59,
+          "baseDifficulty": 0.25,
+          "definition": "Gözlemlenen olguları açıklamak için geliştirilen, genellikle kanıtlarla desteklenen ve tahminlerde bulunmak için kullanılan ilkeler veya fikirler bütünü.",
+          "exampleSentences": [
+            "The theory of evolution remains the foundation of modern biology.",
+            "Her experiment was designed to test a long-standing theory about memory formation.",
+            "In theory, the reaction should occur spontaneously at room temperature."
+          ],
+          "translationTR": "teori, kuram",
+          "collocations": ["scientific theory", "test a theory", "in theory"]
+        },
+        {
+          "id": "yds-vocab1-item-vary",
+          "type": "vocabulary",
+          "headword": "vary",
+          "frequencyRank": 60,
+          "baseDifficulty": 0.25,
+          "definition": "Bir durumdan veya koşuldan diğerine, özellikle boyut, miktar veya derece bakımından farklılaşmak ya da değişmek.",
+          "exampleSentences": [
+            "Results varied considerably depending on the temperature at which the experiment was conducted.",
+            "The concentration of the solution was varied to test its effect on reaction speed.",
+            "Response times varied widely among participants of different ages."
+          ],
+          "translationTR": "değişmek; (fiil) değiştirmek",
+          "collocations": ["vary considerably", "vary depending on", "varying degrees"]
+        },
+        {
+          "id": "yds-vocab1-item-compute",
+          "type": "vocabulary",
+          "headword": "compute",
+          "frequencyRank": 73,
+          "baseDifficulty": 0.35,
+          "definition": "Genellikle matematik veya bilgisayar kullanarak bir değeri veya sonucu hesaplamak.",
+          "exampleSentences": [
+            "The software computes the standard deviation automatically from the raw scores.",
+            "Researchers computed the correlation coefficient between the two variables.",
+            "It would take hours to compute the result by hand without a computer."
+          ],
+          "translationTR": "hesaplamak",
+          "collocations": ["compute a value", "compute the average", "computed automatically"]
+        },
+        {
+          "id": "yds-vocab1-item-conduct",
+          "type": "vocabulary",
+          "headword": "conduct",
+          "frequencyRank": 75,
+          "baseDifficulty": 0.3,
+          "definition": "Özellikle bir araştırma, deney veya soruşturma gibi belirli bir faaliyeti yürütmek veya organize etmek; fizikte ise ısı, elektrik veya sesi iletmek.",
+          "exampleSentences": [
+            "The team conducted a series of controlled experiments over two years.",
+            "Copper conducts electricity far more efficiently than most other metals.",
+            "The study was conducted in accordance with strict ethical guidelines."
+          ],
+          "translationTR": "yürütmek, gerçekleştirmek (araştırma/deney); iletmek (ısı/elektrik)",
+          "collocations": ["conduct research", "conduct an experiment", "conduct electricity"]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-lesson-science-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-construct",
+          "type": "vocabulary",
+          "headword": "construct",
+          "frequencyRank": 77,
+          "baseDifficulty": 0.4,
+          "definition": "Bir argüman, model veya deney gibi bir şeyi sistematik olarak inşa etmek veya oluşturmak; ya da analiz için tasarlanmış bir kavram.",
+          "exampleSentences": [
+            "The researchers constructed a mathematical model to simulate population growth.",
+            "Intelligence is often treated as a psychological construct rather than a single measurable trait.",
+            "A well-constructed experiment controls for as many confounding variables as possible."
+          ],
+          "translationTR": "inşa etmek, oluşturmak; (isim) kurgu, yapı",
+          "collocations": ["construct a model", "well-constructed", "theoretical construct"]
+        },
+        {
+          "id": "yds-vocab1-item-evaluate",
+          "type": "vocabulary",
+          "headword": "evaluate",
+          "frequencyRank": 85,
+          "baseDifficulty": 0.35,
+          "definition": "Genellikle kanıtları dikkatlice değerlendirdikten sonra bir şeyin değerini, önemini veya kalitesini değerlendirmek.",
+          "exampleSentences": [
+            "An independent panel evaluated the study's methodology before it was published.",
+            "The trial was designed to evaluate the drug's effectiveness against a placebo.",
+            "Researchers must evaluate the reliability of their instruments before collecting data."
+          ],
+          "translationTR": "değerlendirmek (dikkatlice incelemek)",
+          "collocations": ["evaluate the evidence", "critically evaluate", "evaluate effectiveness"]
+        },
+        {
+          "id": "yds-vocab1-item-feature",
+          "type": "vocabulary",
+          "headword": "feature",
+          "frequencyRank": 86,
+          "baseDifficulty": 0.3,
+          "definition": "Bir şeyin ayırt edici bir özelliği veya niteliği; ya da bir şeyi belirgin bir unsur olarak içermek.",
+          "exampleSentences": [
+            "One key feature of the sample was its unusually high genetic diversity.",
+            "The study features a much larger control group than earlier research in the field.",
+            "Researchers identified several shared features among the surviving specimens."
+          ],
+          "translationTR": "özellik; (fiil) yer vermek, içermek",
+          "collocations": ["a key feature", "distinctive feature", "feature prominently"]
+        },
+        {
+          "id": "yds-vocab1-item-obtain",
+          "type": "vocabulary",
+          "headword": "obtain",
+          "frequencyRank": 97,
+          "baseDifficulty": 0.3,
+          "definition": "Özellikle çaba, hesaplama veya resmî bir süreç yoluyla bir şeye sahip olmak veya onu başarmak.",
+          "exampleSentences": [
+            "Consent was obtained from all participants before the trial began.",
+            "The team obtained consistent results across three separate trials.",
+            "Pure samples of the compound are difficult to obtain in the laboratory."
+          ],
+          "translationTR": "elde etmek",
+          "collocations": ["obtain results", "obtain consent", "obtain data"]
+        },
+        {
+          "id": "yds-vocab1-item-category",
+          "type": "vocabulary",
+          "headword": "category",
+          "frequencyRank": 68,
+          "baseDifficulty": 0.25,
+          "definition": "Veriyi organize etmek veya sınıflandırmak için kullanılan, ortak özelliklere sahip kabul edilen bir sınıf veya bölüm.",
+          "exampleSentences": [
+            "Participants were divided into three categories based on age and activity level.",
+            "The species was reclassified into a new taxonomic category after genetic testing.",
+            "Researchers coded each response into one of five predefined categories."
+          ],
+          "translationTR": "kategori, sınıf",
+          "collocations": ["fall into a category", "broad category", "classify into categories"]
+        },
+        {
+          "id": "yds-vocab1-item-complex",
+          "type": "vocabulary",
+          "headword": "complex",
+          "frequencyRank": 72,
+          "baseDifficulty": 0.35,
+          "definition": "Birbirine bağlı birçok parçadan oluştuğu için analiz edilmesi veya anlaşılması zor olan; ya da birbiriyle yakından ilişkili parçalardan oluşan bir sistem.",
+          "exampleSentences": [
+            "Climate systems are extremely complex, with countless interacting variables.",
+            "The enzyme forms a complex with the substrate during the reaction.",
+            "Even a relatively complex model failed to predict the outbreak accurately."
+          ],
+          "translationTR": "karmaşık; (isim, kimya/biyoloji) kompleks",
+          "collocations": ["highly complex", "complex system", "form a complex"]
+        },
+        {
+          "id": "yds-vocab1-item-element",
+          "type": "vocabulary",
+          "headword": "element",
+          "frequencyRank": 83,
+          "baseDifficulty": 0.3,
+          "definition": "Bir şeyin temel bir parçası veya bileşeni; kimyada ise daha basit maddelere ayrıştırılamayan bir madde.",
+          "exampleSentences": [
+            "Motivation is a key element in any successful learning strategy.",
+            "Carbon is the element that forms the basis of all known life.",
+            "The researchers isolated each element of the process to study it separately."
+          ],
+          "translationTR": "unsur, öğe; (kimya) element",
+          "collocations": ["a key element", "chemical element", "essential element"]
+        },
+        {
+          "id": "yds-vocab1-item-equate",
+          "type": "vocabulary",
+          "headword": "equate",
+          "frequencyRank": 84,
+          "baseDifficulty": 0.4,
+          "definition": "Bir şeyi başka bir şeye eşit, eşdeğer veya karşılık gelen olarak görmek ya da göstermek.",
+          "exampleSentences": [
+            "It is misleading to equate correlation with causation in observational studies.",
+            "The researchers equated the two groups on age, gender, and education level.",
+            "A higher test score should not automatically be equated with greater understanding."
+          ],
+          "translationTR": "eşdeğer saymak, denk tutmak",
+          "collocations": ["equate with", "equate X with Y", "should not be equated"]
+        },
+        {
+          "id": "yds-vocab1-item-distinct",
+          "type": "vocabulary",
+          "headword": "distinct",
+          "frequencyRank": 82,
+          "baseDifficulty": 0.3,
+          "definition": "Doğa, nitelik veya tür bakımından başka bir şeyden fark edilebilir biçimde ayrı olan.",
+          "exampleSentences": [
+            "The two subspecies are genetically distinct despite their similar appearance.",
+            "Researchers identified three distinct phases in the disease's progression.",
+            "The results from the two experiments were distinct enough to rule out coincidence."
+          ],
+          "translationTR": "farklı, ayrı, belirgin",
+          "collocations": ["distinct from", "distinct phases", "genetically distinct"]
+        },
+        {
+          "id": "yds-vocab1-item-normal",
+          "type": "vocabulary",
+          "headword": "normal",
+          "frequencyRank": 96,
+          "baseDifficulty": 0.2,
+          "definition": "Olağan, ortalama veya beklenen bir standarda uygun olan; istatistikte ise simetrik, çan eğrisi biçimindeki veri dağılımıyla ilgili.",
+          "exampleSentences": [
+            "Body temperature outside the normal range can indicate infection.",
+            "The data followed a roughly normal distribution, allowing standard statistical tests to be used.",
+            "It is normal for measurements to show some degree of variation between trials."
+          ],
+          "translationTR": "normal; (istatistik) normal dağılım",
+          "collocations": ["normal distribution", "within normal range", "return to normal"]
+        }
+      ]
+    }
+  ]
+}

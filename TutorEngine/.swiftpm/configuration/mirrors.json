@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "object": [
+    {
+      "original": "https://github.com/huggingface/swift-transformers",
+      "mirror": "https://github.com/niinova22-blip/swift-transformers"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+name: App Build
+
+on:
+  push:
+    branches: ["**"]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: macos-latest
+    env:
+      # Redirect swift-transformers to a fork carrying a backported fix for
+      # a missing OrderedCollections dependency declaration on its Hub
+      # target (upstream PR huggingface/swift-transformers#299, merged in
+      # 1.1.5 -- out of reach of mlx-swift-examples 2.29.1's own
+      # `.upToNextMinor(from: "1.0.0")` constraint on swift-transformers).
+      # See ci/swiftpm-mirrors.json and docs/tutor-dependency-mirror.md.
+      SWIFTPM_MIRROR_CONFIG: ${{ github.workspace }}/ci/swiftpm-mirrors.json
+    defaults:
+      run:
+        working-directory: App
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache tutor model
+        uses: actions/cache@v4
+        with:
+          path: App/Sources/EnglishApp/Resources/TutorModel
+          key: tutor-model-${{ hashFiles('scripts/fetch-tutor-model.sh') }}
+      - name: Fetch tutor model
+        working-directory: ${{ github.workspace }}
+        run: bash scripts/fetch-tutor-model.sh
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate Xcode project
+        run: xcodegen generate
+      - name: Build (unsigned)
+        run: |
+          xcodebuild build \
+            -project EnglishApp.xcodeproj \
+            -scheme EnglishApp \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Run unit tests
+        run: |
+          xcodebuild test \
+            -project EnglishApp.xcodeproj \
+            -scheme EnglishApp \
+            -destination 'platform=iOS Simulator,name=iPhone 17' \
+            CODE_SIGNING_ALLOWED=NO

@@ -1,0 +1,478 @@
+{
+  "id": "yds-vocab1-unit-law-policy-society",
+  "theme": "Law, Policy & Society",
+  "order": 2,
+  "lessons": [
+    {
+      "id": "yds-vocab1-lesson-law-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-authority",
+          "type": "vocabulary",
+          "headword": "authority",
+          "frequencyRank": 6,
+          "baseDifficulty": 0.35,
+          "definition": "Emir verme, karar alma ve itaati sağlama gücü veya hakkı; ya da bu güce sahip resmî bir kurum.",
+          "exampleSentences": [
+            "The mayor lacked the authority to overturn the council's decision.",
+            "Local authorities issued an evacuation order ahead of the storm.",
+            "Her long experience in constitutional law gave her considerable authority on the subject."
+          ],
+          "translationTR": "yetki; (çoğul) yetkili makamlar",
+          "collocations": ["have the authority to", "local authorities", "exercise authority"]
+        },
+        {
+          "id": "yds-vocab1-item-area",
+          "type": "vocabulary",
+          "headword": "area",
+          "frequencyRank": 3,
+          "baseDifficulty": 0.15,
+          "definition": "Bir yerin, konunun veya faaliyetin belirli bir bölümü; ya da idari veya coğrafi sınırlarla tanımlanmış bir bölge.",
+          "exampleSentences": [
+            "The new zoning law restricts construction in residential areas.",
+            "Human rights has become a central area of international policy.",
+            "Local officials designated the flood-prone area a disaster zone."
+          ],
+          "translationTR": "alan, bölge; (mecazi) saha, konu",
+          "collocations": ["a residential area", "policy area", "designate an area"]
+        },
+        {
+          "id": "yds-vocab1-item-constitute",
+          "type": "vocabulary",
+          "headword": "constitute",
+          "frequencyRank": 11,
+          "baseDifficulty": 0.5,
+          "definition": "Bir bütünü oluşturmak, ya da özellikle yasal veya resmî bir kurumu resmî olarak kurmak.",
+          "exampleSentences": [
+            "Ethnic minorities constitute nearly twenty percent of the country's population.",
+            "The treaty constitutes a legally binding agreement between the two states.",
+            "Parliament voted to constitute a special commission to investigate the allegations."
+          ],
+          "translationTR": "oluşturmak, meydana getirmek; (resmi olarak) kurmak, teşkil etmek",
+          "collocations": ["constitute a majority", "constitute a threat", "constitute a committee"]
+        },
+        {
+          "id": "yds-vocab1-item-environment",
+          "type": "vocabulary",
+          "headword": "environment",
+          "frequencyRank": 20,
+          "baseDifficulty": 0.25,
+          "definition": "Kara, hava ve suyun oluşturduğu doğal dünya; ya da bir kişiyi, grubu veya faaliyeti etkileyen çevresel koşullar, şartlar ve etkiler.",
+          "exampleSentences": [
+            "The new regulations aim to protect the environment from industrial pollution.",
+            "Reformers argued that the country's political environment discouraged open debate.",
+            "Growing up in a stable environment can significantly affect a child's development."
+          ],
+          "translationTR": "çevre; (mecazi) ortam, koşullar",
+          "collocations": ["protect the environment", "political environment", "a supportive environment"]
+        },
+        {
+          "id": "yds-vocab1-item-establish",
+          "type": "vocabulary",
+          "headword": "establish",
+          "frequencyRank": 21,
+          "baseDifficulty": 0.35,
+          "definition": "Bir kurumu, sistemi veya ilişkiyi sağlam bir temel üzerine kurmak; ya da bir şeyi kanıtlarla doğru olduğunu göstermek.",
+          "exampleSentences": [
+            "The United Nations was established in 1945 to promote international cooperation.",
+            "The inquiry sought to establish who was responsible for the policy failure.",
+            "Diplomatic relations between the two countries were established after decades of hostility."
+          ],
+          "translationTR": "kurmak; (kanıtlarla) tespit etmek, ortaya koymak",
+          "collocations": ["establish a policy", "establish diplomatic relations", "establish the facts"]
+        },
+        {
+          "id": "yds-vocab1-item-issue",
+          "type": "vocabulary",
+          "headword": "issue",
+          "frequencyRank": 35,
+          "baseDifficulty": 0.35,
+          "definition": "İnsanların tartıştığı veya karar gerektiren bir konu ya da sorun; ya da özellikle resmî bir kurum tarafından bir şeyi resmen yayımlamak, sağlamak veya kullanıma sunmak.",
+          "exampleSentences": [
+            "Immigration remains one of the most divisive issues in the upcoming election.",
+            "The government issued a decree banning public gatherings during the crisis.",
+            "Local authorities issue permits for any construction within the historic district."
+          ],
+          "translationTR": "konu, sorun; (fiil) yayımlamak, resmi olarak vermek (belge/karar)",
+          "collocations": ["raise an issue", "issue a decree", "a pressing issue"]
+        },
+        {
+          "id": "yds-vocab1-item-legal",
+          "type": "vocabulary",
+          "headword": "legal",
+          "frequencyRank": 37,
+          "baseDifficulty": 0.25,
+          "definition": "Yasayla ilgili, yasaya dayanan veya yasa tarafından izin verilen.",
+          "exampleSentences": [
+            "The company took legal action against the supplier for breach of contract.",
+            "Same-sex marriage became legal in the country after a landmark court ruling.",
+            "Citizens have the legal right to appeal decisions made by local government."
+          ],
+          "translationTR": "yasal, hukuki",
+          "collocations": ["legal action", "legal right", "take legal advice"]
+        },
+        {
+          "id": "yds-vocab1-item-legislate",
+          "type": "vocabulary",
+          "headword": "legislate",
+          "frequencyRank": 38,
+          "baseDifficulty": 0.5,
+          "definition": "Özellikle yönetici bir organ tarafından yasa yapmak veya çıkarmak; ya da belirli bir durum için yasa yoluyla düzenleme yapmak.",
+          "exampleSentences": [
+            "Parliament voted to legislate against discrimination in the workplace.",
+            "It is difficult to legislate for every possible circumstance that may arise.",
+            "Several states have legislated to raise the minimum wage this year."
+          ],
+          "translationTR": "yasa çıkarmak, yasal düzenleme yapmak",
+          "collocations": ["legislate against", "legislate for", "fail to legislate"]
+        },
+        {
+          "id": "yds-vocab1-item-principle",
+          "type": "vocabulary",
+          "headword": "principle",
+          "frequencyRank": 45,
+          "baseDifficulty": 0.4,
+          "definition": "Davranışa, akıl yürütmeye veya bir sistemin tasarımına yön veren temel bir kural, inanç veya gerçek.",
+          "exampleSentences": [
+            "The constitution is founded on the principle of equality before the law.",
+            "In principle, the new policy should reduce bureaucracy, though implementation may prove difficult.",
+            "She resigned rather than compromise her principles."
+          ],
+          "translationTR": "ilke, prensip",
+          "collocations": ["a basic principle", "in principle", "compromise one's principles"]
+        },
+        {
+          "id": "yds-vocab1-item-proceed",
+          "type": "vocabulary",
+          "headword": "proceed",
+          "frequencyRank": 46,
+          "baseDifficulty": 0.35,
+          "definition": "Özellikle bir duraklama veya onayın ardından bir eylem sürecine devam etmek; hukukta ise birine karşı dava açmak.",
+          "exampleSentences": [
+            "The council decided to proceed with the redevelopment plan despite local opposition.",
+            "Once the warrant was issued, police were authorized to proceed with the arrest.",
+            "The prosecution proceeded against the former official on charges of corruption."
+          ],
+          "translationTR": "devam etmek, ilerlemek; (hukuk) dava açmak, kovuşturmaya geçmek",
+          "collocations": ["proceed with", "proceed against", "proceed to trial"]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-lesson-law-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-require",
+          "type": "vocabulary",
+          "headword": "require",
+          "frequencyRank": 48,
+          "baseDifficulty": 0.25,
+          "definition": "Belirli bir amaç için bir şeye ihtiyaç duymak; ya da özellikle bir kural veya yasa gereği birinden resmî olarak bir şey talep etmek.",
+          "exampleSentences": [
+            "The new legislation requires companies to disclose their carbon emissions annually.",
+            "Obtaining a visa requires submitting several supporting documents.",
+            "The court required the defendant to pay damages to the victim."
+          ],
+          "translationTR": "gerektirmek; (resmi olarak) zorunlu kılmak, talep etmek",
+          "collocations": ["require that", "legally required", "require compliance"]
+        },
+        {
+          "id": "yds-vocab1-item-role",
+          "type": "vocabulary",
+          "headword": "role",
+          "frequencyRank": 51,
+          "baseDifficulty": 0.2,
+          "definition": "Bir kişinin veya kurumun bir toplum, organizasyon ya da durum içindeki belirli işlevi, konumu veya payı.",
+          "exampleSentences": [
+            "Civil society organizations play a crucial role in holding governments accountable.",
+            "The committee's role is to advise ministers on proposed legislation.",
+            "She took on a leading role in the campaign for judicial reform."
+          ],
+          "translationTR": "rol, işlev, görev",
+          "collocations": ["play a role", "a key role", "fulfil a role"]
+        },
+        {
+          "id": "yds-vocab1-item-significant",
+          "type": "vocabulary",
+          "headword": "significant",
+          "frequencyRank": 54,
+          "baseDifficulty": 0.3,
+          "definition": "Önemli, dikkate değer veya anlamlı bir etki yaratacak kadar büyük.",
+          "exampleSentences": [
+            "The new regulations represent a significant shift in environmental policy.",
+            "There has been a significant increase in voter turnout since the reform.",
+            "Community leaders played a significant part in resolving the dispute."
+          ],
+          "translationTR": "önemli, belirgin, ciddi (ölçüde)",
+          "collocations": ["a significant increase", "significant impact", "play a significant role"]
+        },
+        {
+          "id": "yds-vocab1-item-individual",
+          "type": "vocabulary",
+          "headword": "individual",
+          "frequencyRank": 32,
+          "baseDifficulty": 0.3,
+          "definition": "Bir gruptan ayrı olarak ele alınan tek bir kişi; sıfat olarak ise bir gruba değil, tek bir kişiye ait, onun özelliği olan veya onun için tasarlanmış.",
+          "exampleSentences": [
+            "The law protects the rights of the individual against arbitrary state action.",
+            "Each individual case is reviewed on its own merits by the tribunal.",
+            "The policy allows for individual exemptions in cases of genuine hardship."
+          ],
+          "translationTR": "birey; (sıfat) bireysel, ayrı, kişiye özel",
+          "collocations": ["the rights of the individual", "an individual case", "individual liberty"]
+        },
+        {
+          "id": "yds-vocab1-item-involve",
+          "type": "vocabulary",
+          "headword": "involve",
+          "frequencyRank": 34,
+          "baseDifficulty": 0.35,
+          "definition": "Bir şeyi gerekli bir parça veya sonuç olarak içermek ya da etkilemek; ya da birinin bir faaliyete katılmasına neden olmak.",
+          "exampleSentences": [
+            "Reforming the pension system will inevitably involve difficult political trade-offs.",
+            "The scandal involved several senior members of the government.",
+            "Community leaders were involved in drafting the new housing policy."
+          ],
+          "translationTR": "içermek, gerektirmek; (birini) dahil etmek, karıştırmak",
+          "collocations": ["involve a risk", "be involved in", "directly involved"]
+        },
+        {
+          "id": "yds-vocab1-item-community",
+          "type": "vocabulary",
+          "headword": "community",
+          "frequencyRank": 71,
+          "baseDifficulty": 0.2,
+          "definition": "Aynı bölgede yaşayan bir grup insan; ya da daha geniş bir toplum içinde ortak özellikleri, ilgileri veya milliyeti paylaşan kişiler.",
+          "exampleSentences": [
+            "The new policy was developed in close consultation with the local community.",
+            "Ethnic and religious communities have long coexisted in the region.",
+            "International community leaders condemned the coup within hours."
+          ],
+          "translationTR": "topluluk, cemaat",
+          "collocations": ["local community", "the international community", "community leaders"]
+        },
+        {
+          "id": "yds-vocab1-item-culture",
+          "type": "vocabulary",
+          "headword": "culture",
+          "frequencyRank": 80,
+          "baseDifficulty": 0.2,
+          "definition": "Belirli bir toplumun veya grubun gelenekleri, inançları, değerleri ve sosyal davranışları; ya da bir kurumun karakteristik ortak tutumları.",
+          "exampleSentences": [
+            "The reforms aim to change the culture of impunity within the police force.",
+            "Immigration has enriched the country's culture over successive generations.",
+            "Building a culture of transparency in government requires more than new laws."
+          ],
+          "translationTR": "kültür; (kurumsal) kültür, anlayış",
+          "collocations": ["a culture of", "cultural heritage", "political culture"]
+        },
+        {
+          "id": "yds-vocab1-item-institute",
+          "type": "vocabulary",
+          "headword": "institute",
+          "frequencyRank": 91,
+          "baseDifficulty": 0.45,
+          "definition": "Özellikle araştırma, eğitim veya politika amacıyla kurulmuş bir organizasyon; fiil olarak bir politikayı, uygulamayı veya yasal süreci başlatmak ya da yürürlüğe koymak.",
+          "exampleSentences": [
+            "The research institute published a report on rising inequality.",
+            "The government instituted a curfew following the outbreak of unrest.",
+            "New safety regulations were instituted after the factory disaster."
+          ],
+          "translationTR": "enstitü, kurum; (fiil) başlatmak, yürürlüğe koymak",
+          "collocations": ["a research institute", "institute a policy", "institute proceedings"]
+        },
+        {
+          "id": "yds-vocab1-item-participate",
+          "type": "vocabulary",
+          "headword": "participate",
+          "frequencyRank": 98,
+          "baseDifficulty": 0.3,
+          "definition": "Bir faaliyete veya etkinliğe katılmak ya da aktif olarak dahil olmak.",
+          "exampleSentences": [
+            "Citizens were encouraged to participate in the public consultation on the new bylaw.",
+            "Only a fraction of eligible voters participated in the referendum.",
+            "NGOs were invited to participate in drafting the human rights legislation."
+          ],
+          "translationTR": "katılmak",
+          "collocations": ["participate in", "actively participate", "encourage participation"]
+        },
+        {
+          "id": "yds-vocab1-item-potential",
+          "type": "vocabulary",
+          "headword": "potential",
+          "frequencyRank": 101,
+          "baseDifficulty": 0.35,
+          "definition": "Gelecekte gerçekleşme, gelişme veya kullanılma kapasitesine sahip olan; isim olarak ise böyle bir gelecek gelişim kapasitesi.",
+          "exampleSentences": [
+            "The reform has the potential to reduce corruption significantly if properly enforced.",
+            "Officials flagged the bill as a potential threat to civil liberties.",
+            "Investment in education is essential to unlocking the region's economic potential."
+          ],
+          "translationTR": "olası, potansiyel; (isim) potansiyel, gelişme kapasitesi",
+          "collocations": ["potential risk", "have the potential to", "economic potential"]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab1-lesson-law-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab1-item-previous",
+          "type": "vocabulary",
+          "headword": "previous",
+          "frequencyRank": 102,
+          "baseDifficulty": 0.2,
+          "definition": "Zaman veya sıra bakımından bir başka şeyden önce gelen veya var olan.",
+          "exampleSentences": [
+            "The new administration reversed several previous decisions on immigration policy.",
+            "Under the previous government, welfare spending was cut sharply.",
+            "There is no record of any previous conviction for the defendant."
+          ],
+          "translationTR": "önceki, bir önceki",
+          "collocations": ["the previous administration", "previous conviction", "in the previous decade"]
+        },
+        {
+          "id": "yds-vocab1-item-region",
+          "type": "vocabulary",
+          "headword": "region",
+          "frequencyRank": 106,
+          "baseDifficulty": 0.2,
+          "definition": "Özellikle coğrafi, idari veya kültürel sınırlarla tanımlanmış belirli bir alan; ya da gündelik dilde yaklaşık bir miktar.",
+          "exampleSentences": [
+            "The conflict has displaced hundreds of thousands of people across the region.",
+            "Each region elects its own representatives to the national assembly.",
+            "The proposed budget is in the region of two billion lira."
+          ],
+          "translationTR": "bölge; (deyim) 'in the region of' - yaklaşık olarak",
+          "collocations": ["across the region", "a border region", "in the region of"]
+        },
+        {
+          "id": "yds-vocab1-item-regulate",
+          "type": "vocabulary",
+          "headword": "regulate",
+          "frequencyRank": 107,
+          "baseDifficulty": 0.4,
+          "definition": "Bir faaliyeti, sektörü veya süreci, özellikle resmî bir kurum tarafından belirlenen kurallar aracılığıyla kontrol etmek.",
+          "exampleSentences": [
+            "An independent commission was set up to regulate the banking sector.",
+            "The new law regulates the use of personal data by private companies.",
+            "Utilities are heavily regulated to protect consumers from unfair pricing."
+          ],
+          "translationTR": "düzenlemek, denetim altına almak",
+          "collocations": ["strictly regulated", "regulate an industry", "a regulatory body"]
+        },
+        {
+          "id": "yds-vocab1-item-relevant",
+          "type": "vocabulary",
+          "headword": "relevant",
+          "frequencyRank": 108,
+          "baseDifficulty": 0.3,
+          "definition": "Ele alınan konuyla yakından bağlantılı veya ona uygulanabilir olan.",
+          "exampleSentences": [
+            "The committee requested all documents relevant to the corruption investigation.",
+            "Community input is highly relevant when designing local housing policy.",
+            "The judge ruled that the earlier testimony was no longer relevant to the case."
+          ],
+          "translationTR": "ilgili, alakalı",
+          "collocations": ["relevant to", "relevant information", "highly relevant"]
+        },
+        {
+          "id": "yds-vocab1-item-restrict",
+          "type": "vocabulary",
+          "headword": "restrict",
+          "frequencyRank": 111,
+          "baseDifficulty": 0.35,
+          "definition": "Bir şeyin veya birinin kapsamını, hareketini ya da özgürlüğünü sınırlamak veya kontrol altına almak.",
+          "exampleSentences": [
+            "The new curfew restricts residents' movement between midnight and dawn.",
+            "Several countries have restricted imports of the product on safety grounds.",
+            "Freedom of assembly was severely restricted under the previous regime."
+          ],
+          "translationTR": "kısıtlamak, sınırlamak",
+          "collocations": ["restrict access", "severely restricted", "restrict the movement of"]
+        },
+        {
+          "id": "yds-vocab1-item-tradition",
+          "type": "vocabulary",
+          "headword": "tradition",
+          "frequencyRank": 119,
+          "baseDifficulty": 0.25,
+          "definition": "Bir toplum veya grup içinde nesilden nesile aktarılan, kökleşmiş bir gelenek, inanç veya uygulama.",
+          "exampleSentences": [
+            "The village has a long tradition of resolving disputes through community elders.",
+            "Reformers argue that some legal traditions no longer serve modern society.",
+            "The ceremony draws on a centuries-old political tradition."
+          ],
+          "translationTR": "gelenek",
+          "collocations": ["a long-standing tradition", "break with tradition", "legal tradition"]
+        },
+        {
+          "id": "yds-vocab1-item-affect",
+          "type": "vocabulary",
+          "headword": "affect",
+          "frequencyRank": 64,
+          "baseDifficulty": 0.4,
+          "definition": "Genellikle bir değişikliğe yol açarak birini veya bir şeyi etkilemek; bir sonuç anlamına gelen “effect” ismiyle karıştırılmamalıdır.",
+          "exampleSentences": [
+            "The new tax bracket will affect middle-income households the most.",
+            "Prolonged drought has severely affected agricultural communities in the region.",
+            "Public opinion can affect how quickly lawmakers respond to a crisis."
+          ],
+          "translationTR": "etkilemek (fiil) — isim olan 'effect' (sonuç, etki) ile karıştırılmamalı",
+          "collocations": ["directly affect", "affect the outcome", "adversely affect"]
+        },
+        {
+          "id": "yds-vocab1-item-injure",
+          "type": "vocabulary",
+          "headword": "injure",
+          "frequencyRank": 90,
+          "baseDifficulty": 0.3,
+          "definition": "Birine fiziksel zarar vermek; hukukta ise bir kişinin haklarına veya çıkarlarına zarar vermek ya da kayba yol açmak, “the injured party” (zarar gören taraf) örneğinde olduğu gibi.",
+          "exampleSentences": [
+            "Several protesters were injured when police used tear gas to disperse the crowd.",
+            "The court awarded compensation to the injured party in the negligence case.",
+            "The new safety regulations aim to reduce the number of workers injured on construction sites."
+          ],
+          "translationTR": "yaralamak; (hukuk) zarar vermek ('injured party' - zarar gören taraf)",
+          "collocations": ["seriously injured", "the injured party", "injured in an accident"]
+        },
+        {
+          "id": "yds-vocab1-item-reside",
+          "type": "vocabulary",
+          "headword": "reside",
+          "frequencyRank": 109,
+          "baseDifficulty": 0.45,
+          "definition": "Kalıcı veya uzun süreli olarak belirli bir yerde yaşamak; resmî kullanımda ise (güç, otorite veya bir niteliğin) bir şeyde bulunması veya ona ait olması.",
+          "exampleSentences": [
+            "Thousands of refugees now reside in camps along the border.",
+            "Under the constitution, ultimate authority resides in the elected parliament.",
+            "Foreign nationals who reside in the country for over five years may apply for citizenship."
+          ],
+          "translationTR": "ikamet etmek, oturmak; (yetki/güç için) -de bulunmak, ait olmak",
+          "collocations": ["reside in", "legally reside", "authority resides in"]
+        },
+        {
+          "id": "yds-vocab1-item-consequent",
+          "type": "vocabulary",
+          "headword": "consequent",
+          "frequencyRank": 76,
+          "baseDifficulty": 0.45,
+          "definition": "Özellikle önceki bir olay veya eylemin sonucu veya etkisi olarak ortaya çıkan.",
+          "exampleSentences": [
+            "The consequent rise in unemployment put pressure on the welfare system.",
+            "Delays in the vote led to a consequent postponement of the reform's implementation.",
+            "Public distrust in institutions, and the consequent decline in voter turnout, worried policymakers."
+          ],
+          "translationTR": "sonucunda ortaya çıkan, -den kaynaklanan",
+          "collocations": ["consequent on", "a consequent rise", "consequent delay"]
+        }
+      ]
+    }
+  ]
+}

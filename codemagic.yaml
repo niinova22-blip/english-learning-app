@@ -1,0 +1,128 @@
+# English App — iOS derlemesi ve TestFlight yüklemesi (Codemagic)
+#
+# NEDEN CODEMAGIC
+#
+# Geliştirme Windows'ta yapılıyor, iOS derlemesi (kod imzalama + TestFlight
+# yüklemesi) bir Mac istiyor. Aynı yaklaşım Selfwake/Plasebo'da kullanıldı
+# (bkz. github.com/niinova22-blip/selfwake/codemagic.yaml) — proje her
+# derlemede XcodeGen ile `App/project.yml`den üretiliyor, `.xcodeproj`
+# depoya eklenmiyor (bilerek .gitignore'lu).
+#
+# TUTOR MODELİ VE SWIFTPM MIRROR
+#
+# App hedefi cihaz-üzeri bir LLM (TutorEngine/MLX) kullanıyor: model dosyası
+# (~1.7GB) build zamanında Hugging Face'ten indiriliyor (scripts/fetch-tutor-model.sh,
+# repo kökünden çalıştırılmalı — bu yüzden ilk script working_directory'yi
+# geçici olarak $CM_BUILD_DIR'a değiştiriyor). Ayrıca mlx-swift-examples'ın
+# bağımlı olduğu swift-transformers'daki bilinen bir linkleme hatası için
+# bu repo SwiftPM'in dependency-mirror mekanizmasıyla bir forka yönleniyor
+# (bkz. docs/tutor-dependency-mirror.md, ci/swiftpm-mirrors.json) — bu,
+# SWIFTPM_MIRROR_CONFIG ortam değişkeni üzerinden GitHub Actions CI'da da
+# aynı şekilde uygulanıyor; burada $CM_ENV üzerinden sonraki adımlara taşınıyor.
+#
+# KURULUM (Codemagic panelinde, zaten tamamlandı — ileride referans için)
+#
+# 1. App Store Connect API anahtarı — Selfwake/Plasebo ile aynı "Codemagic"
+#    entegrasyonu (aynı takım, ML3UZXMU3D) kullanılıyor.
+# 2. Code signing identities → iOS certificates: "selfwake-distribution"
+#    zaten mevcut (bir dağıtım sertifikası takımdaki her bundle ID için
+#    geçerlidir, App'e özel değildir) — yeniden oluşturmaya gerek yok.
+# 3. Apple Developer Portal'da com.niinova22.englishapp App ID'si kayıtlı
+#    (özel bir capability gerekmiyor) ve App Store Connect'te "English App
+#    Niinova" (Apple ID 6812511636) kaydı oluşturuldu.
+# 4. iOS provisioning profiles → Fetch profiles ile "englishapp-appstore"
+#    adıyla (Codemagic referans adı) çekildi; selfwake-distribution
+#    sertifikasıyla eşleştiği doğrulandı.
+
+workflows:
+  ios-testflight:
+    name: English App iOS · TestFlight
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    working_directory: App
+
+    integrations:
+      app_store_connect: Codemagic
+
+    environment:
+      ios_signing:
+        provisioning_profiles:
+          - englishapp-appstore
+        certificates:
+          - selfwake-distribution
+      vars:
+        XCODE_PROJECT: "EnglishApp.xcodeproj"
+        XCODE_SCHEME: "EnglishApp"
+        APP_STORE_APP_ID: 6812511636
+        APPLE_TEAM_ID: ML3UZXMU3D
+      xcode: latest
+
+    scripts:
+      - name: Tutor modelini indir + SwiftPM mirror'ı ayarla
+        # scripts/fetch-tutor-model.sh repo kökünden çalışmalı (hem kendisi
+        # hem de hedef dizin App/ dışında bir yoldan referans veriyor).
+        # SWIFTPM_MIRROR_CONFIG sonraki adımlara $CM_ENV ile taşınıyor —
+        # aynı bash script çağrısı içinde export etmek yeterli değil,
+        # her script bloğu kendi kabuğunda çalışıyor.
+        script: |
+          set -e
+          cd "$CM_BUILD_DIR"
+          bash scripts/fetch-tutor-model.sh
+          echo "SWIFTPM_MIRROR_CONFIG=$CM_BUILD_DIR/ci/swiftpm-mirrors.json" >> $CM_ENV
+
+      - name: XcodeGen kur
+        script: |
+          set -e
+          brew install xcodegen
+
+      - name: Projeyi üret
+        script: |
+          set -e
+          xcodegen generate
+
+      - name: Profilleri Xcode projesine bağla
+        script: |
+          set -e
+          xcode-project use-profiles --project "$XCODE_PROJECT"
+
+      - name: Metal Toolchain indir
+        # Xcode 26'dan itibaren Metal derleyicisi ayrı, indirilebilir bir
+        # bileşen (mlx-swift'in Metal shader'ları bunsuz derlenemiyor —
+        # build 6aa9b91e899abcb60ffa415f bu yüzden "cannot execute tool
+        # 'metal' due to missing Metal Toolchain" hatasıyla başarısız oldu).
+        script: |
+          set -e
+          xcodebuild -downloadComponent MetalToolchain
+
+      - name: Derleme numarasını TestFlight'tan al
+        script: |
+          set -e
+          latest=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID" 2>/dev/null || echo "0")
+          case "$latest" in
+            ''|*[!0-9]*) latest=0 ;;
+          esac
+          next=$((latest + 1))
+          echo "TestFlight'taki son derleme: $latest -> bu derleme: $next"
+          find . -name Info.plist -path "*/build/*" -prune -o -name Info.plist -print | while read -r f; do
+            /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $next" "$f" 2>/dev/null || true
+          done
+          agvtool new-version -all "$next" || true
+
+      - name: IPA üret
+        script: |
+          set -e
+          echo "--- Şemalar ---"
+          xcodebuild -list -project "$XCODE_PROJECT" || true
+          echo "---------------"
+          xcode-project build-ipa --project "$XCODE_PROJECT" --scheme "$XCODE_SCHEME"
+
+    artifacts:
+      - App/build/ios/ipa/*.ipa
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        submit_to_app_store: false
