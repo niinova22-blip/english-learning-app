@@ -49,7 +49,7 @@ OUTPUT_PATHS = [
     os.path.join(REPO_ROOT, "LearningEngine", "Tests", "LearningEngineTests", "Fixtures", "YDSAcademicVocabulary1.json"),
 ]
 
-PACKAGE_VERSION = 2
+PACKAGE_VERSION = 3
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.

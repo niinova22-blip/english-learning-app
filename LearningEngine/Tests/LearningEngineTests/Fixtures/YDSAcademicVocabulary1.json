@@ -4,7 +4,7 @@
   "goal": "yds",
   "levelLower": "B2",
   "levelUpper": "C1",
-  "version": 2,
+  "version": 3,
   "skillWeights": {
     "vocabulary": 35,
     "grammar": 30,
@@ -33,7 +33,7 @@
               "headword": "economy",
               "frequencyRank": 19,
               "baseDifficulty": 0.2,
-              "definition": "The overall system through which a country or region produces, exchanges, and manages goods, services, and wealth.",
+              "definition": "Bir ülkenin veya bölgenin mal, hizmet ve serveti ürettiği, değiştirdiği ve yönettiği genel sistem.",
               "exampleSentences": [
                 "Turkey's economy expanded at its fastest pace in three years, fueled by strong exports.",
                 "A sudden spike in oil prices can ripple through the entire economy.",
@@ -52,7 +52,7 @@
               "headword": "finance",
               "frequencyRank": 26,
               "baseDifficulty": 0.25,
-              "definition": "The management of money, investments, and credit, especially by governments, companies, or individuals.",
+              "definition": "Özellikle devletler, şirketler veya bireyler tarafından yürütülen para, yatırım ve kredi yönetimi.",
               "exampleSentences": [
                 "She left law to pursue a career in corporate finance.",
                 "The startup struggled to secure finance for its expansion plans.",
@@ -71,7 +71,7 @@
               "headword": "income",
               "frequencyRank": 30,
               "baseDifficulty": 0.3,
-              "definition": "Money that a person, household, or organization regularly receives from work, investments, or other sources.",
+              "definition": "Bir kişinin, hanenin veya kuruluşun çalışma, yatırım ya da diğer kaynaklardan düzenli olarak elde ettiği para.",
               "exampleSentences": [
                 "Households with a low income spend a larger share of their earnings on food.",
                 "Rental properties can provide a steady stream of income.",
@@ -90,7 +90,7 @@
               "headword": "percent",
               "frequencyRank": 42,
               "baseDifficulty": 0.15,
-              "definition": "A proportion or rate expressed as a fraction of one hundred, commonly used to describe change, share, or comparison.",
+              "definition": "Değişim, pay veya karşılaştırmayı ifade etmek için yaygın olarak kullanılan, yüzün bir kesri olarak ifade edilen oran.",
               "exampleSentences": [
                 "Unemployment fell by two percent over the past year.",
                 "Only thirty percent of respondents supported the new tax policy.",
@@ -109,7 +109,7 @@
               "headword": "sector",
               "frequencyRank": 53,
               "baseDifficulty": 0.3,
-              "definition": "A distinct area or branch of economic activity, such as manufacturing, agriculture, or services.",
+              "definition": "İmalat, tarım veya hizmetler gibi belirgin bir ekonomik faaliyet alanı veya kolu.",
               "exampleSentences": [
                 "Job growth in the technology sector has outpaced the rest of the economy.",
                 "The government introduced subsidies to support the struggling agricultural sector.",
@@ -128,7 +128,7 @@
               "headword": "contract",
               "frequencyRank": 13,
               "baseDifficulty": 0.4,
-              "definition": "A legally binding agreement between two or more parties that sets out specific obligations and terms.",
+              "definition": "İki veya daha fazla taraf arasında belirli yükümlülükleri ve şartları ortaya koyan, yasal olarak bağlayıcı anlaşma.",
               "exampleSentences": [
                 "The two companies signed a five-year supply contract worth millions of dollars.",
                 "Her contract includes a clause preventing her from joining a rival firm.",
@@ -147,7 +147,7 @@
               "headword": "export",
               "frequencyRank": 24,
               "baseDifficulty": 0.3,
-              "definition": "A good or service produced in one country and sold to buyers in another.",
+              "definition": "Bir ülkede üretilip başka bir ülkedeki alıcılara satılan mal veya hizmet.",
               "exampleSentences": [
                 "Machinery and textiles remain the country's largest exports.",
                 "The weaker currency made exports more competitive on world markets.",
@@ -166,7 +166,7 @@
               "headword": "distribute",
               "frequencyRank": 18,
               "baseDifficulty": 0.35,
-              "definition": "To supply goods, products, or resources to different people, places, or outlets.",
+              "definition": "Mal, ürün veya kaynakları farklı kişilere, yerlere veya satış noktalarına ulaştırmak.",
               "exampleSentences": [
                 "The company distributes its products to retailers across Europe through a single warehouse.",
                 "Profits were distributed among shareholders at the end of the fiscal year.",
@@ -185,7 +185,7 @@
               "headword": "labour",
               "frequencyRank": 36,
               "baseDifficulty": 0.3,
-              "definition": "Physical or mental work, especially the workforce considered as a whole in relation to production and employment.",
+              "definition": "Fiziksel veya zihinsel emek; özellikle üretim ve istihdamla ilişkili olarak bir bütün halinde ele alınan işgücü.",
               "exampleSentences": [
                 "Rising wages have pushed many manufacturers to look for cheaper labour abroad.",
                 "The construction industry depends heavily on skilled labour.",
@@ -204,7 +204,7 @@
               "headword": "policy",
               "frequencyRank": 44,
               "baseDifficulty": 0.4,
-              "definition": "A course of action or set of principles adopted by a government, institution, or company to guide decisions.",
+              "definition": "Bir hükümet, kurum veya şirketin kararlarına yön vermek için benimsediği eylem planı veya ilkeler bütünü.",
               "exampleSentences": [
                 "The central bank tightened monetary policy to curb inflation.",
                 "Under the new return policy, customers have thirty days to request a refund.",
@@ -232,7 +232,7 @@
               "headword": "major",
               "frequencyRank": 39,
               "baseDifficulty": 0.25,
-              "definition": "Of great importance, size, or seriousness, especially when contrasted with something smaller or less significant.",
+              "definition": "Daha küçük veya daha az önemli bir şeyle karşılaştırıldığında, büyük önem, boyut veya ciddiyet taşıyan.",
               "exampleSentences": [
                 "The merger created one of the major players in the airline industry.",
                 "There was a major shift in consumer spending after the price hikes.",
@@ -251,7 +251,7 @@
               "headword": "source",
               "frequencyRank": 56,
               "baseDifficulty": 0.3,
-              "definition": "The place, person, or thing from which something originates or is obtained.",
+              "definition": "Bir şeyin kendisinden kaynaklandığı veya elde edildiği yer, kişi ya da nesne.",
               "exampleSentences": [
                 "Tourism is the country's main source of foreign currency.",
                 "The report failed to disclose the source of its funding.",
@@ -270,7 +270,7 @@
               "headword": "benefit",
               "frequencyRank": 8,
               "baseDifficulty": 0.25,
-              "definition": "An advantage, profit, or positive outcome gained from something, or a payment provided to support someone.",
+              "definition": "Bir şeyden elde edilen avantaj, kazanç veya olumlu sonuç; ya da birine destek olmak için sağlanan ödeme.",
               "exampleSentences": [
                 "Employees at the firm receive health insurance as part of their benefits package.",
                 "The tax cut is expected to benefit small businesses the most.",
@@ -289,7 +289,7 @@
               "headword": "factor",
               "frequencyRank": 25,
               "baseDifficulty": 0.35,
-              "definition": "One of several elements or circumstances that contributes to a particular result or decision.",
+              "definition": "Belirli bir sonuca veya karara katkıda bulunan birkaç unsur ya da koşuldan biri.",
               "exampleSentences": [
                 "Rising fuel costs were a major factor behind the airline's losses.",
                 "When choosing a supplier, price is rarely the only factor considered.",
@@ -308,7 +308,7 @@
               "headword": "function",
               "frequencyRank": 28,
               "baseDifficulty": 0.4,
-              "definition": "The particular purpose, role, or activity that something is designed or expected to perform.",
+              "definition": "Bir şeyin gerçekleştirmek üzere tasarlandığı veya kendisinden beklenen belirli amaç, rol veya faaliyet.",
               "exampleSentences": [
                 "The finance department's main function is to manage the company's cash flow.",
                 "This software's core function is to automate payroll processing.",
@@ -327,7 +327,7 @@
               "headword": "achieve",
               "frequencyRank": 61,
               "baseDifficulty": 0.35,
-              "definition": "To successfully reach a goal or produce a desired result, usually through effort or skill.",
+              "definition": "Genellikle çaba veya beceri yoluyla bir hedefe başarıyla ulaşmak veya istenen sonucu elde etmek.",
               "exampleSentences": [
                 "The company achieved record profits despite the economic downturn.",
                 "It took the team five years to achieve full compliance with the new regulations.",
@@ -346,7 +346,7 @@
               "headword": "acquire",
               "frequencyRank": 62,
               "baseDifficulty": 0.45,
-              "definition": "To obtain or gain possession of something, often through purchase, effort, or a formal process.",
+              "definition": "Bir şeyi elde etmek veya ona sahip olmak; çoğunlukla satın alma, çaba veya resmî bir süreç yoluyla.",
               "exampleSentences": [
                 "The tech giant acquired its smaller rival for two billion dollars.",
                 "New employees are expected to acquire the necessary skills within their first month.",
@@ -365,7 +365,7 @@
               "headword": "commission",
               "frequencyRank": 70,
               "baseDifficulty": 0.55,
-              "definition": "A payment made to someone based on the value of sales or business they generate, or an official body assigned a specific task.",
+              "definition": "Birinin gerçekleştirdiği satış veya iş hacmine göre ödenen bir ücret; ya da belirli bir görevle görevlendirilmiş resmî bir kurul.",
               "exampleSentences": [
                 "Real estate agents typically earn a commission of a few percent on each sale.",
                 "The government set up a commission to investigate the banking scandal.",
@@ -384,7 +384,7 @@
               "headword": "consume",
               "frequencyRank": 78,
               "baseDifficulty": 0.45,
-              "definition": "To use up a resource, or to buy and make use of goods and services.",
+              "definition": "Bir kaynağı tüketmek, ya da mal ve hizmetleri satın alıp kullanmak.",
               "exampleSentences": [
                 "Heavy industry consumes a significant share of the country's electricity.",
                 "Households are consuming less as prices continue to rise.",
@@ -403,7 +403,7 @@
               "headword": "credit",
               "frequencyRank": 79,
               "baseDifficulty": 0.5,
-              "definition": "The ability to borrow money or obtain goods on the understanding that payment will follow later, or an amount added to an account.",
+              "definition": "Ödemenin daha sonra yapılacağı anlayışıyla para borç alma veya mal edinme imkânı; ya da bir hesaba eklenen tutar.",
               "exampleSentences": [
                 "Small businesses often rely on bank credit to manage cash flow.",
                 "Her credit rating improved after she paid off her outstanding loans.",
@@ -431,7 +431,7 @@
               "headword": "invest",
               "frequencyRank": 92,
               "baseDifficulty": 0.35,
-              "definition": "To commit money, time, or resources into something with the expectation of future profit or benefit.",
+              "definition": "Gelecekte kâr veya fayda beklentisiyle para, zaman veya kaynak ayırmak.",
               "exampleSentences": [
                 "The firm plans to invest heavily in renewable energy over the next decade.",
                 "Many young professionals are choosing to invest in the stock market rather than save cash.",
@@ -450,7 +450,7 @@
               "headword": "purchase",
               "frequencyRank": 104,
               "baseDifficulty": 0.35,
-              "definition": "To buy something, or the act of buying, typically used in more formal or written contexts than 'buy.'",
+              "definition": "Bir şeyi satın almak, ya da satın alma eylemi; genellikle “buy” fiiline göre daha resmî veya yazılı bağlamlarda kullanılır.",
               "exampleSentences": [
                 "The company purchased new equipment to modernize its production line.",
                 "Customers who purchase in bulk receive a discount.",
@@ -469,7 +469,7 @@
               "headword": "resource",
               "frequencyRank": 110,
               "baseDifficulty": 0.4,
-              "definition": "An asset, material, or supply that can be used to achieve a goal or support an activity.",
+              "definition": "Bir hedefe ulaşmak veya bir faaliyeti desteklemek için kullanılabilecek varlık, malzeme veya kaynak.",
               "exampleSentences": [
                 "The country's natural resources include oil, gas, and minerals.",
                 "Managers must allocate limited resources across competing projects.",
@@ -488,7 +488,7 @@
               "headword": "strategy",
               "frequencyRank": 116,
               "baseDifficulty": 0.4,
-              "definition": "A carefully devised plan of action designed to achieve a long-term goal.",
+              "definition": "Uzun vadeli bir hedefe ulaşmak için özenle tasarlanmış eylem planı.",
               "exampleSentences": [
                 "The board approved a new marketing strategy aimed at younger consumers.",
                 "Without a clear pricing strategy, the company struggled to compete.",
@@ -507,7 +507,7 @@
               "headword": "survey",
               "frequencyRank": 117,
               "baseDifficulty": 0.45,
-              "definition": "A method of gathering information or opinions from a sample of people, or a general examination of a situation.",
+              "definition": "Bir örneklem grubundan bilgi veya görüş toplama yöntemi; ya da bir durumun genel bir incelemesi.",
               "exampleSentences": [
                 "A recent survey found that most employees prefer flexible working hours.",
                 "The firm conducted a customer satisfaction survey after the product launch.",
@@ -526,7 +526,7 @@
               "headword": "transfer",
               "frequencyRank": 120,
               "baseDifficulty": 0.4,
-              "definition": "To move something, such as money, staff, or ownership, from one place, account, or person to another.",
+              "definition": "Para, personel veya mülkiyet gibi bir şeyi bir yerden, hesaptan veya kişiden diğerine taşımak.",
               "exampleSentences": [
                 "The bank transferred the funds to the wrong account by mistake.",
                 "She was transferred to the company's Istanbul office after her promotion.",
@@ -545,7 +545,7 @@
               "headword": "administrate",
               "frequencyRank": 63,
               "baseDifficulty": 0.6,
-              "definition": "To manage and oversee the operations, organization, or affairs of a company, institution, or system.",
+              "definition": "Bir şirketin, kurumun veya sistemin işleyişini, organizasyonunu ya da işlerini yönetmek ve denetlemek.",
               "exampleSentences": [
                 "A separate department administrates employee pension funds.",
                 "The new software helps administrate payroll for over a thousand staff.",
@@ -562,7 +562,7 @@
               "headword": "impact",
               "frequencyRank": 89,
               "baseDifficulty": 0.45,
-              "definition": "A significant effect or influence that one thing has on another, often used in evaluating outcomes or consequences.",
+              "definition": "Bir şeyin başka bir şey üzerindeki önemli etkisi veya sonucu; genellikle sonuçları değerlendirirken kullanılır.",
               "exampleSentences": [
                 "The new tariffs had a severe impact on small exporters.",
                 "Researchers are studying the long-term impact of automation on employment.",
@@ -581,7 +581,7 @@
               "headword": "secure",
               "frequencyRank": 112,
               "baseDifficulty": 0.5,
-              "definition": "To obtain or guarantee something, often after effort or negotiation, or to make something safe and protected.",
+              "definition": "Genellikle bir çaba veya müzakere sonrasında bir şeyi elde etmek ya da garanti altına almak; ya da bir şeyi güvenli ve korunaklı hâle getirmek.",
               "exampleSentences": [
                 "The company secured a major contract with a European retailer.",
                 "Investors want assurances that their deposits are secure.",
@@ -600,7 +600,7 @@
               "headword": "item",
               "frequencyRank": 93,
               "baseDifficulty": 0.2,
-              "definition": "A single article, product, or point listed or considered separately within a larger set.",
+              "definition": "Daha büyük bir bütün içinde ayrı ayrı ele alınan tek bir madde, ürün veya nokta.",
               "exampleSentences": [
                 "The store had to discount several items that failed to sell before the holidays.",
                 "Salary was the first item on the agenda at the negotiation meeting.",
@@ -635,7 +635,7 @@
               "headword": "analyse",
               "frequencyRank": 1,
               "baseDifficulty": 0.2,
-              "definition": "To examine data, evidence, or a phenomenon in detail in order to understand its components or draw conclusions.",
+              "definition": "Bileşenlerini anlamak veya sonuç çıkarmak amacıyla veriyi, kanıtı veya bir olguyu ayrıntılı biçimde incelemek.",
               "exampleSentences": [
                 "The team analysed the survey data to identify significant patterns in consumer behaviour.",
                 "Researchers analysed blood samples from over a thousand participants to test the hypothesis.",
@@ -654,7 +654,7 @@
               "headword": "assess",
               "frequencyRank": 4,
               "baseDifficulty": 0.3,
-              "definition": "To evaluate the extent, quality, or significance of something, typically based on available evidence.",
+              "definition": "Genellikle mevcut kanıtlara dayanarak bir şeyin kapsamını, kalitesini veya önemini değerlendirmek.",
               "exampleSentences": [
                 "The study assessed the long-term effects of sleep deprivation on memory retention.",
                 "Reviewers were asked to assess the validity of the experimental design before publication.",
@@ -673,7 +673,7 @@
               "headword": "assume",
               "frequencyRank": 5,
               "baseDifficulty": 0.3,
-              "definition": "To accept something as true or to take it as a starting point for an argument or calculation, without first proving it.",
+              "definition": "Bir şeyi önce kanıtlamadan doğru kabul etmek veya bir argüman ya da hesaplama için başlangıç noktası olarak almak.",
               "exampleSentences": [
                 "The model assumes that all variables are independent of one another.",
                 "For simplicity, the researchers assumed a constant rate of decay throughout the experiment.",
@@ -692,7 +692,7 @@
               "headword": "data",
               "frequencyRank": 15,
               "baseDifficulty": 0.15,
-              "definition": "Facts, figures, or observations collected through measurement, experimentation, or observation, used as a basis for analysis.",
+              "definition": "Ölçüm, deney veya gözlem yoluyla toplanan ve analiz için temel oluşturan olgular, sayılar veya gözlemler.",
               "exampleSentences": [
                 "The data were collected over a six-month period using standardized questionnaires.",
                 "Researchers cross-checked the data against previous studies to confirm the trend.",
@@ -711,7 +711,7 @@
               "headword": "define",
               "frequencyRank": 16,
               "baseDifficulty": 0.2,
-              "definition": "To state the precise meaning of a term or concept, or to establish the boundaries and characteristics of something.",
+              "definition": "Bir terimin veya kavramın kesin anlamını belirtmek; ya da bir şeyin sınırlarını ve özelliklerini ortaya koymak.",
               "exampleSentences": [
                 "The researchers carefully defined each variable before beginning the experiment.",
                 "It is difficult to define intelligence in a way that all psychologists accept.",
@@ -730,7 +730,7 @@
               "headword": "derive",
               "frequencyRank": 17,
               "baseDifficulty": 0.4,
-              "definition": "To obtain or trace something from a particular source, or to reach a result through logical or mathematical reasoning.",
+              "definition": "Bir şeyi belirli bir kaynaktan elde etmek veya ona dayandırmak; ya da mantıksal veya matematiksel akıl yürütme yoluyla bir sonuca ulaşmak.",
               "exampleSentences": [
                 "The formula can be derived from Newton's second law of motion.",
                 "Much of what we know about the disease was derived from early animal studies.",
@@ -749,7 +749,7 @@
               "headword": "estimate",
               "frequencyRank": 22,
               "baseDifficulty": 0.3,
-              "definition": "To calculate or judge the approximate value, size, or extent of something, especially where an exact measurement is not possible.",
+              "definition": "Özellikle kesin bir ölçüm mümkün olmadığında, bir şeyin yaklaşık değerini, boyutunu veya kapsamını hesaplamak ya da tahmin etmek.",
               "exampleSentences": [
                 "Scientists estimate that the species has existed for over two million years.",
                 "The initial estimate of the sample size proved too small for reliable results.",
@@ -768,7 +768,7 @@
               "headword": "evident",
               "frequencyRank": 23,
               "baseDifficulty": 0.35,
-              "definition": "Clearly visible or understood from the available facts or evidence; obvious.",
+              "definition": "Mevcut olgulardan veya kanıtlardan açıkça görülebilen veya anlaşılan; belirgin.",
               "exampleSentences": [
                 "It became evident from the data that the treatment had no significant effect.",
                 "The correlation between the two variables was immediately evident on the graph.",
@@ -787,7 +787,7 @@
               "headword": "formula",
               "frequencyRank": 27,
               "baseDifficulty": 0.25,
-              "definition": "A mathematical rule or relationship expressed in symbols, or a fixed method for achieving a particular result.",
+              "definition": "Sembollerle ifade edilen matematiksel bir kural veya ilişki; ya da belirli bir sonuca ulaşmak için sabit bir yöntem.",
               "exampleSentences": [
                 "The formula relates pressure, volume, and temperature in an ideal gas.",
                 "Researchers applied a standard formula to calculate statistical significance.",
@@ -806,7 +806,7 @@
               "headword": "identify",
               "frequencyRank": 29,
               "baseDifficulty": 0.2,
-              "definition": "To recognize, establish, or single out a particular fact, cause, pattern, or entity through observation or analysis.",
+              "definition": "Gözlem veya analiz yoluyla belirli bir olguyu, nedeni, örüntüyü veya varlığı tanımak, tespit etmek ya da ayırt etmek.",
               "exampleSentences": [
                 "The study aimed to identify the genetic factors linked to the disease.",
                 "Researchers identified a previously unknown species during the expedition.",
@@ -834,7 +834,7 @@
               "headword": "indicate",
               "frequencyRank": 31,
               "baseDifficulty": 0.25,
-              "definition": "To point to a fact or conclusion as being probable, or to show something clearly through signs or evidence.",
+              "definition": "Bir gerçeğe veya sonuca olası olarak işaret etmek; ya da bir şeyi işaretler veya kanıtlar yoluyla açıkça göstermek.",
               "exampleSentences": [
                 "The results indicate a strong link between diet and cardiovascular health.",
                 "Preliminary data indicate that the new treatment may reduce recovery time.",
@@ -853,7 +853,7 @@
               "headword": "interpret",
               "frequencyRank": 33,
               "baseDifficulty": 0.35,
-              "definition": "To explain or determine the meaning or significance of information, data, or behaviour.",
+              "definition": "Bilgi, veri veya davranışın anlamını ya da önemini açıklamak veya belirlemek.",
               "exampleSentences": [
                 "Different researchers interpreted the same data set in strikingly different ways.",
                 "The findings must be interpreted with caution given the small sample size.",
@@ -872,7 +872,7 @@
               "headword": "method",
               "frequencyRank": 40,
               "baseDifficulty": 0.2,
-              "definition": "A particular systematic procedure or set of steps used to carry out a task, especially in research or experimentation.",
+              "definition": "Özellikle araştırma veya deneyde bir görevi yürütmek için kullanılan sistematik bir yöntem veya adımlar dizisi.",
               "exampleSentences": [
                 "The paper describes the method used to isolate the compound.",
                 "Researchers adopted a mixed-methods approach, combining surveys with interviews.",
@@ -891,7 +891,7 @@
               "headword": "process",
               "frequencyRank": 47,
               "baseDifficulty": 0.25,
-              "definition": "A series of actions or steps taken to achieve a particular result, or to handle and analyse information systematically.",
+              "definition": "Belirli bir sonuca ulaşmak için atılan bir dizi eylem veya adım; ya da bilgiyi sistematik olarak işlemek ve analiz etmek.",
               "exampleSentences": [
                 "The data were processed using specialized statistical software before analysis.",
                 "Photosynthesis is the process by which plants convert light into chemical energy.",
@@ -910,7 +910,7 @@
               "headword": "research",
               "frequencyRank": 49,
               "baseDifficulty": 0.2,
-              "definition": "The systematic investigation of a subject in order to discover or establish facts and reach new conclusions.",
+              "definition": "Olguları keşfetmek veya ortaya koymak ve yeni sonuçlara ulaşmak amacıyla bir konunun sistematik olarak incelenmesi.",
               "exampleSentences": [
                 "Her research focuses on the effects of climate change on marine ecosystems.",
                 "The team spent three years researching the causes of the disorder.",
@@ -929,7 +929,7 @@
               "headword": "structure",
               "frequencyRank": 58,
               "baseDifficulty": 0.3,
-              "definition": "The arrangement of parts within a system, or to organize something according to a particular framework.",
+              "definition": "Bir sistem içindeki parçaların düzenlenişi; ya da bir şeyi belirli bir çerçeveye göre organize etmek.",
               "exampleSentences": [
                 "The molecule's structure determines how it interacts with other compounds.",
                 "Researchers structured the questionnaire to avoid leading questions.",
@@ -948,7 +948,7 @@
               "headword": "theory",
               "frequencyRank": 59,
               "baseDifficulty": 0.25,
-              "definition": "A set of principles or ideas developed to explain observed phenomena, often supported by evidence and used to make predictions.",
+              "definition": "Gözlemlenen olguları açıklamak için geliştirilen, genellikle kanıtlarla desteklenen ve tahminlerde bulunmak için kullanılan ilkeler veya fikirler bütünü.",
               "exampleSentences": [
                 "The theory of evolution remains the foundation of modern biology.",
                 "Her experiment was designed to test a long-standing theory about memory formation.",
@@ -967,7 +967,7 @@
               "headword": "vary",
               "frequencyRank": 60,
               "baseDifficulty": 0.25,
-              "definition": "To differ or change, especially in size, amount, or degree, from one instance or condition to another.",
+              "definition": "Bir durumdan veya koşuldan diğerine, özellikle boyut, miktar veya derece bakımından farklılaşmak ya da değişmek.",
               "exampleSentences": [
                 "Results varied considerably depending on the temperature at which the experiment was conducted.",
                 "The concentration of the solution was varied to test its effect on reaction speed.",
@@ -986,7 +986,7 @@
               "headword": "compute",
               "frequencyRank": 73,
               "baseDifficulty": 0.35,
-              "definition": "To calculate a value or result, typically using mathematics or a computer.",
+              "definition": "Genellikle matematik veya bilgisayar kullanarak bir değeri veya sonucu hesaplamak.",
               "exampleSentences": [
                 "The software computes the standard deviation automatically from the raw scores.",
                 "Researchers computed the correlation coefficient between the two variables.",
@@ -1005,7 +1005,7 @@
               "headword": "conduct",
               "frequencyRank": 75,
               "baseDifficulty": 0.3,
-              "definition": "To carry out or organize a particular activity, especially a piece of research, experiment, or investigation, or, in physics, to transmit heat, electricity, or sound.",
+              "definition": "Özellikle bir araştırma, deney veya soruşturma gibi belirli bir faaliyeti yürütmek veya organize etmek; fizikte ise ısı, elektrik veya sesi iletmek.",
               "exampleSentences": [
                 "The team conducted a series of controlled experiments over two years.",
                 "Copper conducts electricity far more efficiently than most other metals.",
@@ -1033,7 +1033,7 @@
               "headword": "construct",
               "frequencyRank": 77,
               "baseDifficulty": 0.4,
-              "definition": "To build or create something systematically, such as an argument, model, or experiment, or a concept devised for analysis.",
+              "definition": "Bir argüman, model veya deney gibi bir şeyi sistematik olarak inşa etmek veya oluşturmak; ya da analiz için tasarlanmış bir kavram.",
               "exampleSentences": [
                 "The researchers constructed a mathematical model to simulate population growth.",
                 "Intelligence is often treated as a psychological construct rather than a single measurable trait.",
@@ -1052,7 +1052,7 @@
               "headword": "evaluate",
               "frequencyRank": 85,
               "baseDifficulty": 0.35,
-              "definition": "To assess the value, significance, or quality of something, typically after careful consideration of evidence.",
+              "definition": "Genellikle kanıtları dikkatlice değerlendirdikten sonra bir şeyin değerini, önemini veya kalitesini değerlendirmek.",
               "exampleSentences": [
                 "An independent panel evaluated the study's methodology before it was published.",
                 "The trial was designed to evaluate the drug's effectiveness against a placebo.",
@@ -1071,7 +1071,7 @@
               "headword": "feature",
               "frequencyRank": 86,
               "baseDifficulty": 0.3,
-              "definition": "A distinctive characteristic or attribute of something, or to include something as a prominent element.",
+              "definition": "Bir şeyin ayırt edici bir özelliği veya niteliği; ya da bir şeyi belirgin bir unsur olarak içermek.",
               "exampleSentences": [
                 "One key feature of the sample was its unusually high genetic diversity.",
                 "The study features a much larger control group than earlier research in the field.",
@@ -1090,7 +1090,7 @@
               "headword": "obtain",
               "frequencyRank": 97,
               "baseDifficulty": 0.3,
-              "definition": "To gain possession of or achieve something, especially through effort, calculation, or a formal process.",
+              "definition": "Özellikle çaba, hesaplama veya resmî bir süreç yoluyla bir şeye sahip olmak veya onu başarmak.",
               "exampleSentences": [
                 "Consent was obtained from all participants before the trial began.",
                 "The team obtained consistent results across three separate trials.",
@@ -1109,7 +1109,7 @@
               "headword": "category",
               "frequencyRank": 68,
               "baseDifficulty": 0.25,
-              "definition": "A class or division of things regarded as having particular shared characteristics, used to organize or classify data.",
+              "definition": "Veriyi organize etmek veya sınıflandırmak için kullanılan, ortak özelliklere sahip kabul edilen bir sınıf veya bölüm.",
               "exampleSentences": [
                 "Participants were divided into three categories based on age and activity level.",
                 "The species was reclassified into a new taxonomic category after genetic testing.",
@@ -1128,7 +1128,7 @@
               "headword": "complex",
               "frequencyRank": 72,
               "baseDifficulty": 0.35,
-              "definition": "Consisting of many interconnected parts and therefore difficult to analyse or understand, or a system of closely related parts.",
+              "definition": "Birbirine bağlı birçok parçadan oluştuğu için analiz edilmesi veya anlaşılması zor olan; ya da birbiriyle yakından ilişkili parçalardan oluşan bir sistem.",
               "exampleSentences": [
                 "Climate systems are extremely complex, with countless interacting variables.",
                 "The enzyme forms a complex with the substrate during the reaction.",
@@ -1147,7 +1147,7 @@
               "headword": "element",
               "frequencyRank": 83,
               "baseDifficulty": 0.3,
-              "definition": "A fundamental part or component of something, or, in chemistry, a substance that cannot be broken down into simpler substances.",
+              "definition": "Bir şeyin temel bir parçası veya bileşeni; kimyada ise daha basit maddelere ayrıştırılamayan bir madde.",
               "exampleSentences": [
                 "Motivation is a key element in any successful learning strategy.",
                 "Carbon is the element that forms the basis of all known life.",
@@ -1166,7 +1166,7 @@
               "headword": "equate",
               "frequencyRank": 84,
               "baseDifficulty": 0.4,
-              "definition": "To regard or represent one thing as being equal, equivalent, or corresponding to another.",
+              "definition": "Bir şeyi başka bir şeye eşit, eşdeğer veya karşılık gelen olarak görmek ya da göstermek.",
               "exampleSentences": [
                 "It is misleading to equate correlation with causation in observational studies.",
                 "The researchers equated the two groups on age, gender, and education level.",
@@ -1185,7 +1185,7 @@
               "headword": "distinct",
               "frequencyRank": 82,
               "baseDifficulty": 0.3,
-              "definition": "Recognizably different or separate from something else in nature, quality, or kind.",
+              "definition": "Doğa, nitelik veya tür bakımından başka bir şeyden fark edilebilir biçimde ayrı olan.",
               "exampleSentences": [
                 "The two subspecies are genetically distinct despite their similar appearance.",
                 "Researchers identified three distinct phases in the disease's progression.",
@@ -1204,7 +1204,7 @@
               "headword": "normal",
               "frequencyRank": 96,
               "baseDifficulty": 0.2,
-              "definition": "Conforming to a usual, average, or expected standard, or, in statistics, relating to a symmetrical bell-shaped distribution of data.",
+              "definition": "Olağan, ortalama veya beklenen bir standarda uygun olan; istatistikte ise simetrik, çan eğrisi biçimindeki veri dağılımıyla ilgili.",
               "exampleSentences": [
                 "Body temperature outside the normal range can indicate infection.",
                 "The data followed a roughly normal distribution, allowing standard statistical tests to be used.",
@@ -1239,7 +1239,7 @@
               "headword": "authority",
               "frequencyRank": 6,
               "baseDifficulty": 0.35,
-              "definition": "The power or right to give orders, make decisions, and enforce obedience, or an official organization with such power.",
+              "definition": "Emir verme, karar alma ve itaati sağlama gücü veya hakkı; ya da bu güce sahip resmî bir kurum.",
               "exampleSentences": [
                 "The mayor lacked the authority to overturn the council's decision.",
                 "Local authorities issued an evacuation order ahead of the storm.",
@@ -1258,7 +1258,7 @@
               "headword": "area",
               "frequencyRank": 3,
               "baseDifficulty": 0.15,
-              "definition": "A particular part of a place, subject, or activity, or a region defined by administrative or geographic boundaries.",
+              "definition": "Bir yerin, konunun veya faaliyetin belirli bir bölümü; ya da idari veya coğrafi sınırlarla tanımlanmış bir bölge.",
               "exampleSentences": [
                 "The new zoning law restricts construction in residential areas.",
                 "Human rights has become a central area of international policy.",
@@ -1277,7 +1277,7 @@
               "headword": "constitute",
               "frequencyRank": 11,
               "baseDifficulty": 0.5,
-              "definition": "To form or make up a whole, or to establish something formally, especially a legal or official body.",
+              "definition": "Bir bütünü oluşturmak, ya da özellikle yasal veya resmî bir kurumu resmî olarak kurmak.",
               "exampleSentences": [
                 "Ethnic minorities constitute nearly twenty percent of the country's population.",
                 "The treaty constitutes a legally binding agreement between the two states.",
@@ -1296,7 +1296,7 @@
               "headword": "environment",
               "frequencyRank": 20,
               "baseDifficulty": 0.25,
-              "definition": "The natural world of land, air, and water, or the surrounding conditions, circumstances, and influences affecting a person, group, or activity.",
+              "definition": "Kara, hava ve suyun oluşturduğu doğal dünya; ya da bir kişiyi, grubu veya faaliyeti etkileyen çevresel koşullar, şartlar ve etkiler.",
               "exampleSentences": [
                 "The new regulations aim to protect the environment from industrial pollution.",
                 "Reformers argued that the country's political environment discouraged open debate.",
@@ -1315,7 +1315,7 @@
               "headword": "establish",
               "frequencyRank": 21,
               "baseDifficulty": 0.35,
-              "definition": "To set up or create an organization, system, or relationship on a firm basis, or to show something to be true through evidence.",
+              "definition": "Bir kurumu, sistemi veya ilişkiyi sağlam bir temel üzerine kurmak; ya da bir şeyi kanıtlarla doğru olduğunu göstermek.",
               "exampleSentences": [
                 "The United Nations was established in 1945 to promote international cooperation.",
                 "The inquiry sought to establish who was responsible for the policy failure.",
@@ -1334,7 +1334,7 @@
               "headword": "issue",
               "frequencyRank": 35,
               "baseDifficulty": 0.35,
-              "definition": "A topic or problem that people discuss or that requires a decision, or to formally publish, provide, or make something available, especially by an official body.",
+              "definition": "İnsanların tartıştığı veya karar gerektiren bir konu ya da sorun; ya da özellikle resmî bir kurum tarafından bir şeyi resmen yayımlamak, sağlamak veya kullanıma sunmak.",
               "exampleSentences": [
                 "Immigration remains one of the most divisive issues in the upcoming election.",
                 "The government issued a decree banning public gatherings during the crisis.",
@@ -1353,7 +1353,7 @@
               "headword": "legal",
               "frequencyRank": 37,
               "baseDifficulty": 0.25,
-              "definition": "Relating to, based on, or permitted by the law.",
+              "definition": "Yasayla ilgili, yasaya dayanan veya yasa tarafından izin verilen.",
               "exampleSentences": [
                 "The company took legal action against the supplier for breach of contract.",
                 "Same-sex marriage became legal in the country after a landmark court ruling.",
@@ -1372,7 +1372,7 @@
               "headword": "legislate",
               "frequencyRank": 38,
               "baseDifficulty": 0.5,
-              "definition": "To make or pass laws, especially by a governing body, or to make provision for a particular situation through law.",
+              "definition": "Özellikle yönetici bir organ tarafından yasa yapmak veya çıkarmak; ya da belirli bir durum için yasa yoluyla düzenleme yapmak.",
               "exampleSentences": [
                 "Parliament voted to legislate against discrimination in the workplace.",
                 "It is difficult to legislate for every possible circumstance that may arise.",
@@ -1391,7 +1391,7 @@
               "headword": "principle",
               "frequencyRank": 45,
               "baseDifficulty": 0.4,
-              "definition": "A fundamental rule, belief, or truth that guides behaviour, reasoning, or the design of a system.",
+              "definition": "Davranışa, akıl yürütmeye veya bir sistemin tasarımına yön veren temel bir kural, inanç veya gerçek.",
               "exampleSentences": [
                 "The constitution is founded on the principle of equality before the law.",
                 "In principle, the new policy should reduce bureaucracy, though implementation may prove difficult.",
@@ -1410,7 +1410,7 @@
               "headword": "proceed",
               "frequencyRank": 46,
               "baseDifficulty": 0.35,
-              "definition": "To continue or go ahead with a course of action, especially after a pause or approval, or, in law, to bring a case against someone.",
+              "definition": "Özellikle bir duraklama veya onayın ardından bir eylem sürecine devam etmek; hukukta ise birine karşı dava açmak.",
               "exampleSentences": [
                 "The council decided to proceed with the redevelopment plan despite local opposition.",
                 "Once the warrant was issued, police were authorized to proceed with the arrest.",
@@ -1438,7 +1438,7 @@
               "headword": "require",
               "frequencyRank": 48,
               "baseDifficulty": 0.25,
-              "definition": "To need something for a particular purpose, or to officially demand that someone do something, especially under a rule or law.",
+              "definition": "Belirli bir amaç için bir şeye ihtiyaç duymak; ya da özellikle bir kural veya yasa gereği birinden resmî olarak bir şey talep etmek.",
               "exampleSentences": [
                 "The new legislation requires companies to disclose their carbon emissions annually.",
                 "Obtaining a visa requires submitting several supporting documents.",
@@ -1457,7 +1457,7 @@
               "headword": "role",
               "frequencyRank": 51,
               "baseDifficulty": 0.2,
-              "definition": "The particular function, position, or part that a person or institution has within a society, organization, or situation.",
+              "definition": "Bir kişinin veya kurumun bir toplum, organizasyon ya da durum içindeki belirli işlevi, konumu veya payı.",
               "exampleSentences": [
                 "Civil society organizations play a crucial role in holding governments accountable.",
                 "The committee's role is to advise ministers on proposed legislation.",
@@ -1476,7 +1476,7 @@
               "headword": "significant",
               "frequencyRank": 54,
               "baseDifficulty": 0.3,
-              "definition": "Important, noteworthy, or large enough to have a meaningful effect.",
+              "definition": "Önemli, dikkate değer veya anlamlı bir etki yaratacak kadar büyük.",
               "exampleSentences": [
                 "The new regulations represent a significant shift in environmental policy.",
                 "There has been a significant increase in voter turnout since the reform.",
@@ -1495,7 +1495,7 @@
               "headword": "individual",
               "frequencyRank": 32,
               "baseDifficulty": 0.3,
-              "definition": "A single person considered separately from a group, or, as an adjective, relating to, characteristic of, or intended for one particular person rather than a group.",
+              "definition": "Bir gruptan ayrı olarak ele alınan tek bir kişi; sıfat olarak ise bir gruba değil, tek bir kişiye ait, onun özelliği olan veya onun için tasarlanmış.",
               "exampleSentences": [
                 "The law protects the rights of the individual against arbitrary state action.",
                 "Each individual case is reviewed on its own merits by the tribunal.",
@@ -1514,7 +1514,7 @@
               "headword": "involve",
               "frequencyRank": 34,
               "baseDifficulty": 0.35,
-              "definition": "To include or affect something as a necessary part or consequence, or to cause someone to take part in an activity.",
+              "definition": "Bir şeyi gerekli bir parça veya sonuç olarak içermek ya da etkilemek; ya da birinin bir faaliyete katılmasına neden olmak.",
               "exampleSentences": [
                 "Reforming the pension system will inevitably involve difficult political trade-offs.",
                 "The scandal involved several senior members of the government.",
@@ -1533,7 +1533,7 @@
               "headword": "community",
               "frequencyRank": 71,
               "baseDifficulty": 0.2,
-              "definition": "A group of people living in the same area, or sharing common characteristics, interests, or nationality within a wider society.",
+              "definition": "Aynı bölgede yaşayan bir grup insan; ya da daha geniş bir toplum içinde ortak özellikleri, ilgileri veya milliyeti paylaşan kişiler.",
               "exampleSentences": [
                 "The new policy was developed in close consultation with the local community.",
                 "Ethnic and religious communities have long coexisted in the region.",
@@ -1552,7 +1552,7 @@
               "headword": "culture",
               "frequencyRank": 80,
               "baseDifficulty": 0.2,
-              "definition": "The customs, beliefs, values, and social behaviour of a particular society or group, or the shared attitudes characteristic of an organization.",
+              "definition": "Belirli bir toplumun veya grubun gelenekleri, inançları, değerleri ve sosyal davranışları; ya da bir kurumun karakteristik ortak tutumları.",
               "exampleSentences": [
                 "The reforms aim to change the culture of impunity within the police force.",
                 "Immigration has enriched the country's culture over successive generations.",
@@ -1571,7 +1571,7 @@
               "headword": "institute",
               "frequencyRank": 91,
               "baseDifficulty": 0.45,
-              "definition": "An organization founded for a particular purpose, especially research, education, or policy, or, as a verb, to introduce or establish a policy, practice, or legal proceeding.",
+              "definition": "Özellikle araştırma, eğitim veya politika amacıyla kurulmuş bir organizasyon; fiil olarak bir politikayı, uygulamayı veya yasal süreci başlatmak ya da yürürlüğe koymak.",
               "exampleSentences": [
                 "The research institute published a report on rising inequality.",
                 "The government instituted a curfew following the outbreak of unrest.",
@@ -1590,7 +1590,7 @@
               "headword": "participate",
               "frequencyRank": 98,
               "baseDifficulty": 0.3,
-              "definition": "To take part in or become actively involved in an activity or event.",
+              "definition": "Bir faaliyete veya etkinliğe katılmak ya da aktif olarak dahil olmak.",
               "exampleSentences": [
                 "Citizens were encouraged to participate in the public consultation on the new bylaw.",
                 "Only a fraction of eligible voters participated in the referendum.",
@@ -1609,7 +1609,7 @@
               "headword": "potential",
               "frequencyRank": 101,
               "baseDifficulty": 0.35,
-              "definition": "Capable of happening, developing, or being used in the future, or, as a noun, the capacity for such future development.",
+              "definition": "Gelecekte gerçekleşme, gelişme veya kullanılma kapasitesine sahip olan; isim olarak ise böyle bir gelecek gelişim kapasitesi.",
               "exampleSentences": [
                 "The reform has the potential to reduce corruption significantly if properly enforced.",
                 "Officials flagged the bill as a potential threat to civil liberties.",
@@ -1637,7 +1637,7 @@
               "headword": "previous",
               "frequencyRank": 102,
               "baseDifficulty": 0.2,
-              "definition": "Coming or existing before something else in time or order.",
+              "definition": "Zaman veya sıra bakımından bir başka şeyden önce gelen veya var olan.",
               "exampleSentences": [
                 "The new administration reversed several previous decisions on immigration policy.",
                 "Under the previous government, welfare spending was cut sharply.",
@@ -1656,7 +1656,7 @@
               "headword": "region",
               "frequencyRank": 106,
               "baseDifficulty": 0.2,
-              "definition": "A particular area, especially one defined by geographic, administrative, or cultural boundaries, or, informally, an approximate amount.",
+              "definition": "Özellikle coğrafi, idari veya kültürel sınırlarla tanımlanmış belirli bir alan; ya da gündelik dilde yaklaşık bir miktar.",
               "exampleSentences": [
                 "The conflict has displaced hundreds of thousands of people across the region.",
                 "Each region elects its own representatives to the national assembly.",
@@ -1675,7 +1675,7 @@
               "headword": "regulate",
               "frequencyRank": 107,
               "baseDifficulty": 0.4,
-              "definition": "To control an activity, industry, or process by means of rules, especially those set by an official body.",
+              "definition": "Bir faaliyeti, sektörü veya süreci, özellikle resmî bir kurum tarafından belirlenen kurallar aracılığıyla kontrol etmek.",
               "exampleSentences": [
                 "An independent commission was set up to regulate the banking sector.",
                 "The new law regulates the use of personal data by private companies.",
@@ -1694,7 +1694,7 @@
               "headword": "relevant",
               "frequencyRank": 108,
               "baseDifficulty": 0.3,
-              "definition": "Closely connected or applicable to the matter at hand.",
+              "definition": "Ele alınan konuyla yakından bağlantılı veya ona uygulanabilir olan.",
               "exampleSentences": [
                 "The committee requested all documents relevant to the corruption investigation.",
                 "Community input is highly relevant when designing local housing policy.",
@@ -1713,7 +1713,7 @@
               "headword": "restrict",
               "frequencyRank": 111,
               "baseDifficulty": 0.35,
-              "definition": "To limit or place controls on the extent, movement, or freedom of something or someone.",
+              "definition": "Bir şeyin veya birinin kapsamını, hareketini ya da özgürlüğünü sınırlamak veya kontrol altına almak.",
               "exampleSentences": [
                 "The new curfew restricts residents' movement between midnight and dawn.",
                 "Several countries have restricted imports of the product on safety grounds.",
@@ -1732,7 +1732,7 @@
               "headword": "tradition",
               "frequencyRank": 119,
               "baseDifficulty": 0.25,
-              "definition": "A long-established custom, belief, or practice passed down within a society or group.",
+              "definition": "Bir toplum veya grup içinde nesilden nesile aktarılan, kökleşmiş bir gelenek, inanç veya uygulama.",
               "exampleSentences": [
                 "The village has a long tradition of resolving disputes through community elders.",
                 "Reformers argue that some legal traditions no longer serve modern society.",
@@ -1751,7 +1751,7 @@
               "headword": "affect",
               "frequencyRank": 64,
               "baseDifficulty": 0.4,
-              "definition": "To have an influence on someone or something, often producing a change; not to be confused with the noun 'effect,' meaning a result.",
+              "definition": "Genellikle bir değişikliğe yol açarak birini veya bir şeyi etkilemek; bir sonuç anlamına gelen “effect” ismiyle karıştırılmamalıdır.",
               "exampleSentences": [
                 "The new tax bracket will affect middle-income households the most.",
                 "Prolonged drought has severely affected agricultural communities in the region.",
@@ -1770,7 +1770,7 @@
               "headword": "injure",
               "frequencyRank": 90,
               "baseDifficulty": 0.3,
-              "definition": "To cause physical harm to someone, or, in law, to cause harm or loss to a person's rights or interests, as in 'the injured party.'",
+              "definition": "Birine fiziksel zarar vermek; hukukta ise bir kişinin haklarına veya çıkarlarına zarar vermek ya da kayba yol açmak, “the injured party” (zarar gören taraf) örneğinde olduğu gibi.",
               "exampleSentences": [
                 "Several protesters were injured when police used tear gas to disperse the crowd.",
                 "The court awarded compensation to the injured party in the negligence case.",
@@ -1789,7 +1789,7 @@
               "headword": "reside",
               "frequencyRank": 109,
               "baseDifficulty": 0.45,
-              "definition": "To live in a particular place on a permanent or long-term basis, or, formally, (of power, authority, or a quality) to be located in or belong to something.",
+              "definition": "Kalıcı veya uzun süreli olarak belirli bir yerde yaşamak; resmî kullanımda ise (güç, otorite veya bir niteliğin) bir şeyde bulunması veya ona ait olması.",
               "exampleSentences": [
                 "Thousands of refugees now reside in camps along the border.",
                 "Under the constitution, ultimate authority resides in the elected parliament.",
@@ -1808,7 +1808,7 @@
               "headword": "consequent",
               "frequencyRank": 76,
               "baseDifficulty": 0.45,
-              "definition": "Following as a result or effect of something, especially a previous event or action.",
+              "definition": "Özellikle önceki bir olay veya eylemin sonucu veya etkisi olarak ortaya çıkan.",
               "exampleSentences": [
                 "The consequent rise in unemployment put pressure on the welfare system.",
                 "Delays in the vote led to a consequent postponement of the reform's implementation.",
@@ -1843,7 +1843,7 @@
               "headword": "approach",
               "frequencyRank": 2,
               "baseDifficulty": 0.3,
-              "definition": "A particular way of dealing with or thinking about a task, problem, or subject, or, as a verb, to begin dealing with something or to come closer to it.",
+              "definition": "Bir görevi, sorunu veya konuyu ele alma ya da bir konuya yaklaşma biçimi; fiil olarak bir şeyle ilgilenmeye başlamak veya ona yaklaşmak.",
               "exampleSentences": [
                 "The author adopts a comparative approach to analyse the two novels.",
                 "Before approaching the topic of censorship, the writer carefully defines her key terms.",
@@ -1862,7 +1862,7 @@
               "headword": "available",
               "frequencyRank": 7,
               "baseDifficulty": 0.15,
-              "definition": "Able to be obtained, used, or accessed when needed.",
+              "definition": "İhtiyaç duyulduğunda elde edilebilen, kullanılabilen veya ulaşılabilen.",
               "exampleSentences": [
                 "A wide range of critical studies on the novel are readily available online.",
                 "The author draws on all the evidence available at the time of writing.",
@@ -1881,7 +1881,7 @@
               "headword": "concept",
               "frequencyRank": 9,
               "baseDifficulty": 0.25,
-              "definition": "An abstract idea or general notion, especially one underlying a theory, argument, or field of study.",
+              "definition": "Özellikle bir teori, tartışma veya çalışma alanının temelini oluşturan soyut bir fikir ya da genel kavram.",
               "exampleSentences": [
                 "The essay opens by defining the concept of identity as it is used throughout the argument.",
                 "Postmodernism introduced several concepts that reshaped literary criticism.",
@@ -1900,7 +1900,7 @@
               "headword": "consist",
               "frequencyRank": 10,
               "baseDifficulty": 0.25,
-              "definition": "To be composed or made up of particular parts or elements.",
+              "definition": "Belirli parçalardan veya unsurlardan oluşmak.",
               "exampleSentences": [
                 "The dissertation consists of five chapters, each addressing a separate research question.",
                 "Her argument consists of three interlocking claims about narrative voice.",
@@ -1919,7 +1919,7 @@
               "headword": "context",
               "frequencyRank": 12,
               "baseDifficulty": 0.25,
-              "definition": "The circumstances, background, or setting within which something is written, said, or understood, essential for interpreting its meaning.",
+              "definition": "Bir şeyin yazıldığı, söylendiği veya anlaşıldığı koşullar, arka plan ya da ortam; anlamını yorumlamak için gereklidir.",
               "exampleSentences": [
                 "Without historical context, the poem's imagery loses much of its force.",
                 "The essay situates the novel within the broader context of postcolonial literature.",
@@ -1938,7 +1938,7 @@
               "headword": "create",
               "frequencyRank": 14,
               "baseDifficulty": 0.2,
-              "definition": "To bring something into existence through effort, imagination, or skill, such as an argument, structure, or piece of writing.",
+              "definition": "Çaba, hayal gücü veya beceri yoluyla bir şeyi var etmek; örneğin bir argüman, yapı veya yazılı eser oluşturmak.",
               "exampleSentences": [
                 "The author creates a sense of unease through short, fragmented sentences.",
                 "The introduction should create a clear expectation of what the essay will argue.",
@@ -1957,7 +1957,7 @@
               "headword": "occur",
               "frequencyRank": 41,
               "baseDifficulty": 0.3,
-              "definition": "To happen or take place, or, when followed by 'to,' to come into someone's mind as an idea.",
+              "definition": "Meydana gelmek, gerçekleşmek; “to” ile kullanıldığında ise birinin aklına bir fikir olarak gelmek.",
               "exampleSentences": [
                 "A significant shift in the author's tone occurs midway through the chapter.",
                 "It did not occur to the reviewer that the ambiguity might be entirely intentional.",
@@ -1976,7 +1976,7 @@
               "headword": "period",
               "frequencyRank": 43,
               "baseDifficulty": 0.3,
-              "definition": "A particular length of time, especially one marked by certain events or characteristics, or, in American usage, the punctuation mark that ends a declarative sentence (a full stop).",
+              "definition": "Belirli olaylar veya özelliklerle işaretlenmiş bir zaman dilimi; Amerikan kullanımında ise bir cümleyi bitiren noktalama işareti (nokta).",
               "exampleSentences": [
                 "The novel is set during a turbulent period of political upheaval.",
                 "According to the style guide, every declarative sentence must end with a period, not a comma.",
@@ -1995,7 +1995,7 @@
               "headword": "respond",
               "frequencyRank": 50,
               "baseDifficulty": 0.25,
-              "definition": "To reply, react, or answer, especially to an argument, text, or piece of criticism.",
+              "definition": "Yanıt vermek, tepki göstermek; özellikle bir argümana, metne veya eleştiriye cevap vermek.",
               "exampleSentences": [
                 "The author responds directly to earlier critics who dismissed the novel as sentimental.",
                 "Readers are invited to respond to the essay's central claim in their own words.",
@@ -2014,7 +2014,7 @@
               "headword": "section",
               "frequencyRank": 52,
               "baseDifficulty": 0.25,
-              "definition": "A distinct part of a text, document, or argument, or, as a verb, to divide something into such separate parts.",
+              "definition": "Bir metnin, belgenin veya argümanın belirgin bir bölümü; fiil olarak bir şeyi böyle ayrı parçalara bölmek.",
               "exampleSentences": [
                 "The final section of the essay addresses possible counterarguments.",
                 "The editors sectioned the anthology into three thematic parts for easier navigation.",
@@ -2042,7 +2042,7 @@
               "headword": "similar",
               "frequencyRank": 55,
               "baseDifficulty": 0.15,
-              "definition": "Having a resemblance in nature, appearance, or quality to something else, without being identical.",
+              "definition": "Aynı olmasa da doğa, görünüş veya nitelik bakımından bir şeye benzeyen.",
               "exampleSentences": [
                 "The two essays reach similar conclusions despite starting from different premises.",
                 "Critics have noted a similar pattern of imagery in the author's earlier work.",
@@ -2061,7 +2061,7 @@
               "headword": "specific",
               "frequencyRank": 57,
               "baseDifficulty": 0.2,
-              "definition": "Precise, particular, or clearly defined, rather than general or vague.",
+              "definition": "Genel veya belirsiz olmaktan çok, kesin, özel veya net biçimde tanımlanmış.",
               "exampleSentences": [
                 "The essay would benefit from more specific examples to support its claims.",
                 "The thesis statement should be specific enough to guide the entire argument.",
@@ -2080,7 +2080,7 @@
               "headword": "chapter",
               "frequencyRank": 69,
               "baseDifficulty": 0.15,
-              "definition": "A distinct division of a book or written work, usually numbered or titled and dealing with a particular part of the subject.",
+              "definition": "Bir kitabın veya yazılı eserin, genellikle numaralandırılmış ya da başlıklandırılmış, konunun belirli bir bölümünü ele alan ayrı kısmı.",
               "exampleSentences": [
                 "The final chapter draws together the threads introduced earlier in the book.",
                 "Each chapter opens with a brief summary of its central argument.",
@@ -2099,7 +2099,7 @@
               "headword": "conclude",
               "frequencyRank": 74,
               "baseDifficulty": 0.3,
-              "definition": "To bring something to an end, or to reach a judgement or decision after considering evidence or argument.",
+              "definition": "Bir şeyi sona erdirmek, ya da kanıt veya argümanı değerlendirdikten sonra bir yargıya veya karara varmak.",
               "exampleSentences": [
                 "The essay concludes with a brief reflection on the limitations of the study.",
                 "Based on the textual evidence, the critic concludes that the narrator is unreliable.",
@@ -2118,7 +2118,7 @@
               "headword": "design",
               "frequencyRank": 81,
               "baseDifficulty": 0.3,
-              "definition": "The overall plan, structure, or arrangement of a piece of writing or research, or, as a verb, to plan or shape something deliberately for a particular purpose.",
+              "definition": "Bir yazının veya araştırmanın genel planı, yapısı ya da düzenlenişi; fiil olarak bir şeyi belirli bir amaç için bilinçli olarak planlamak veya şekillendirmek.",
               "exampleSentences": [
                 "The essay's design moves from a narrow case study to a broader theoretical claim.",
                 "The study was designed to test competing explanations for the character's motivation.",
@@ -2137,7 +2137,7 @@
               "headword": "final",
               "frequencyRank": 87,
               "baseDifficulty": 0.15,
-              "definition": "Coming at the end of a sequence or process; last.",
+              "definition": "Bir dizinin veya sürecin sonunda gelen; son.",
               "exampleSentences": [
                 "The final paragraph restates the thesis in light of the evidence presented.",
                 "Her final revision removed several digressive passages.",
@@ -2156,7 +2156,7 @@
               "headword": "focus",
               "frequencyRank": 88,
               "baseDifficulty": 0.25,
-              "definition": "The main subject of attention or concern in a piece of writing, or, as a verb, to concentrate attention on a particular subject.",
+              "definition": "Bir yazıda dikkatin veya ilginin ana konusu; fiil olarak dikkati belirli bir konuya yoğunlaştırmak.",
               "exampleSentences": [
                 "The focus of the chapter shifts from plot to characterization halfway through.",
                 "The essay focuses on how the narrator's unreliability shapes the reader's judgement.",
@@ -2175,7 +2175,7 @@
               "headword": "journal",
               "frequencyRank": 94,
               "baseDifficulty": 0.2,
-              "definition": "A scholarly periodical in which academic articles are published, typically after peer review.",
+              "definition": "Genellikle hakem denetiminden sonra akademik makalelerin yayımlandığı bilimsel süreli yayın.",
               "exampleSentences": [
                 "The article was published in a leading literary studies journal.",
                 "Reviewers for the journal recommended several revisions before acceptance.",
@@ -2194,7 +2194,7 @@
               "headword": "maintain",
               "frequencyRank": 95,
               "baseDifficulty": 0.35,
-              "definition": "To keep something in existence or in a particular state without change, or to assert something firmly as true, especially in an argument.",
+              "definition": "Bir şeyi değişmeden var tutmak veya belirli bir durumda korumak; ya da özellikle bir tartışmada bir şeyi kesin doğru olarak ileri sürmek.",
               "exampleSentences": [
                 "The novel maintains a consistent first-person perspective throughout.",
                 "The author maintains that the ending should be read as ironic rather than sincere.",
@@ -2213,7 +2213,7 @@
               "headword": "perceive",
               "frequencyRank": 99,
               "baseDifficulty": 0.3,
-              "definition": "To become aware of or interpret something in a particular way, especially through observation or understanding.",
+              "definition": "Bir şeyin farkına varmak veya onu belirli bir şekilde yorumlamak; özellikle gözlem ya da anlayış yoluyla.",
               "exampleSentences": [
                 "The narrator is perceived by other characters as untrustworthy from the outset.",
                 "Readers may perceive irony in a passage the author intended quite sincerely.",
@@ -2241,7 +2241,7 @@
               "headword": "positive",
               "frequencyRank": 100,
               "baseDifficulty": 0.25,
-              "definition": "Favourable or constructive in nature, or, when followed by 'that,' completely certain or confident about something.",
+              "definition": "Olumlu veya yapıcı nitelikte olan; “that” ile kullanıldığında ise bir şeyden tamamen emin veya kendinden emin olmak.",
               "exampleSentences": [
                 "Critics offered a largely positive assessment of the author's debut novel.",
                 "She was positive that the manuscript contained an allusion to an earlier poet.",
@@ -2260,7 +2260,7 @@
               "headword": "primary",
               "frequencyRank": 103,
               "baseDifficulty": 0.25,
-              "definition": "First in importance, order, or rank; main, especially in describing sources or purposes.",
+              "definition": "Önem, sıra veya derece bakımından ilk; özellikle kaynakları veya amaçları tanımlarken ana, başlıca.",
               "exampleSentences": [
                 "The primary source for this chapter is the author's own correspondence.",
                 "Her primary aim is to reassess the novel's reception among contemporary readers.",
@@ -2279,7 +2279,7 @@
               "headword": "range",
               "frequencyRank": 105,
               "baseDifficulty": 0.3,
-              "definition": "A set of different things of the same general type, or the extent between limits, or, as a verb, to extend or vary between two points.",
+              "definition": "Aynı genel türden farklı şeylerin oluşturduğu bir küme, ya da iki sınır arasındaki genişlik; fiil olarak iki nokta arasında uzanmak veya değişmek.",
               "exampleSentences": [
                 "The anthology includes a wide range of poetic styles from the period.",
                 "Interpretations of the final chapter range from cautiously optimistic to deeply pessimistic.",
@@ -2298,7 +2298,7 @@
               "headword": "seek",
               "frequencyRank": 113,
               "baseDifficulty": 0.3,
-              "definition": "To try to obtain, achieve, or find something, especially through sustained effort or argument.",
+              "definition": "Bir şeyi elde etmeye, başarmaya veya bulmaya çalışmak; özellikle sürekli bir çaba veya argüman yoluyla.",
               "exampleSentences": [
                 "The essay seeks to demonstrate that the two novels share a common source.",
                 "Scholars have long sought an explanation for the poem's abrupt final stanza.",
@@ -2317,7 +2317,7 @@
               "headword": "select",
               "frequencyRank": 114,
               "baseDifficulty": 0.25,
-              "definition": "To choose someone or something carefully from a range of possibilities, typically after consideration.",
+              "definition": "Genellikle dikkatlice değerlendirdikten sonra, bir dizi olasılık arasından birini veya bir şeyi özenle seçmek.",
               "exampleSentences": [
                 "The editor selected only the essays that engaged directly with the central theme.",
                 "Passages were carefully selected to illustrate the author's evolving style.",
@@ -2336,7 +2336,7 @@
               "headword": "site",
               "frequencyRank": 115,
               "baseDifficulty": 0.35,
-              "definition": "A particular place where something is located or takes place, or, more figuratively, a text or context treated as the location of a particular struggle, meaning, or debate.",
+              "definition": "Bir şeyin bulunduğu veya gerçekleştiği belirli bir yer; daha mecazi anlamda ise belirli bir mücadelenin, anlamın veya tartışmanın “mekânı” olarak ele alınan metin veya bağlam.",
               "exampleSentences": [
                 "The archive functioned as the primary research site for her study of wartime letters.",
                 "Feminist critics have long treated the novel as a site of ideological contestation.",
@@ -2355,7 +2355,7 @@
               "headword": "text",
               "frequencyRank": 118,
               "baseDifficulty": 0.15,
-              "definition": "A written work considered in terms of its content, structure, or meaning, especially as an object of study or interpretation.",
+              "definition": "İçeriği, yapısı veya anlamı bakımından ele alınan yazılı bir eser; özellikle inceleme veya yorumlama nesnesi olarak.",
               "exampleSentences": [
                 "Close reading requires attending carefully to the language of the text itself.",
                 "The essay treats the film as a text open to the same critical methods as a novel.",
@@ -2374,7 +2374,7 @@
               "headword": "appropriate",
               "frequencyRank": 65,
               "baseDifficulty": 0.4,
-              "definition": "Suitable or fitting for a particular purpose or occasion, or, as a verb, to take something, such as a term, idea, or style, and adopt it for one's own use, often without full acknowledgement.",
+              "definition": "Belirli bir amaç veya durum için uygun olan; fiil olarak bir terimi, fikri veya üslubu alıp, çoğu zaman tam bir atıf yapmadan kendi kullanımına uyarlamak.",
               "exampleSentences": [
                 "A formal register is generally more appropriate for academic writing than casual speech.",
                 "The novelist appropriates the conventions of the gothic genre for satirical ends.",
@@ -2393,7 +2393,7 @@
               "headword": "aspect",
               "frequencyRank": 66,
               "baseDifficulty": 0.25,
-              "definition": "A particular part, feature, or way of considering something, especially one aspect among several possible ones.",
+              "definition": "Bir şeyin belirli bir parçası, özelliği veya ele alınış biçimi; özellikle birkaç olası bakış açısından biri.",
               "exampleSentences": [
                 "This section examines one aspect of the novel's treatment of memory.",
                 "Every aspect of the argument must be supported by textual evidence.",
@@ -2412,7 +2412,7 @@
               "headword": "assist",
               "frequencyRank": 67,
               "baseDifficulty": 0.25,
-              "definition": "To help someone accomplish a task or achieve a result, typically in a supporting rather than leading role.",
+              "definition": "Birinin bir görevi tamamlamasına veya bir sonuca ulaşmasına yardımcı olmak; genellikle yönlendirici değil destekleyici bir rolde.",
               "exampleSentences": [
                 "Footnotes assist the reader in tracing the author's sources.",
                 "A supervisor assisted her in narrowing the thesis to a single, manageable claim.",

@@ -14,7 +14,7 @@
           "headword": "approach",
           "frequencyRank": 2,
           "baseDifficulty": 0.3,
-          "definition": "A particular way of dealing with or thinking about a task, problem, or subject, or, as a verb, to begin dealing with something or to come closer to it.",
+          "definition": "Bir görevi, sorunu veya konuyu ele alma ya da bir konuya yaklaşma biçimi; fiil olarak bir şeyle ilgilenmeye başlamak veya ona yaklaşmak.",
           "exampleSentences": [
             "The author adopts a comparative approach to analyse the two novels.",
             "Before approaching the topic of censorship, the writer carefully defines her key terms.",
@@ -29,7 +29,7 @@
           "headword": "available",
           "frequencyRank": 7,
           "baseDifficulty": 0.15,
-          "definition": "Able to be obtained, used, or accessed when needed.",
+          "definition": "İhtiyaç duyulduğunda elde edilebilen, kullanılabilen veya ulaşılabilen.",
           "exampleSentences": [
             "A wide range of critical studies on the novel are readily available online.",
             "The author draws on all the evidence available at the time of writing.",
@@ -44,7 +44,7 @@
           "headword": "concept",
           "frequencyRank": 9,
           "baseDifficulty": 0.25,
-          "definition": "An abstract idea or general notion, especially one underlying a theory, argument, or field of study.",
+          "definition": "Özellikle bir teori, tartışma veya çalışma alanının temelini oluşturan soyut bir fikir ya da genel kavram.",
           "exampleSentences": [
             "The essay opens by defining the concept of identity as it is used throughout the argument.",
             "Postmodernism introduced several concepts that reshaped literary criticism.",
@@ -59,7 +59,7 @@
           "headword": "consist",
           "frequencyRank": 10,
           "baseDifficulty": 0.25,
-          "definition": "To be composed or made up of particular parts or elements.",
+          "definition": "Belirli parçalardan veya unsurlardan oluşmak.",
           "exampleSentences": [
             "The dissertation consists of five chapters, each addressing a separate research question.",
             "Her argument consists of three interlocking claims about narrative voice.",
@@ -74,7 +74,7 @@
           "headword": "context",
           "frequencyRank": 12,
           "baseDifficulty": 0.25,
-          "definition": "The circumstances, background, or setting within which something is written, said, or understood, essential for interpreting its meaning.",
+          "definition": "Bir şeyin yazıldığı, söylendiği veya anlaşıldığı koşullar, arka plan ya da ortam; anlamını yorumlamak için gereklidir.",
           "exampleSentences": [
             "Without historical context, the poem's imagery loses much of its force.",
             "The essay situates the novel within the broader context of postcolonial literature.",
@@ -89,7 +89,7 @@
           "headword": "create",
           "frequencyRank": 14,
           "baseDifficulty": 0.2,
-          "definition": "To bring something into existence through effort, imagination, or skill, such as an argument, structure, or piece of writing.",
+          "definition": "Çaba, hayal gücü veya beceri yoluyla bir şeyi var etmek; örneğin bir argüman, yapı veya yazılı eser oluşturmak.",
           "exampleSentences": [
             "The author creates a sense of unease through short, fragmented sentences.",
             "The introduction should create a clear expectation of what the essay will argue.",
@@ -104,7 +104,7 @@
           "headword": "occur",
           "frequencyRank": 41,
           "baseDifficulty": 0.3,
-          "definition": "To happen or take place, or, when followed by 'to,' to come into someone's mind as an idea.",
+          "definition": "Meydana gelmek, gerçekleşmek; “to” ile kullanıldığında ise birinin aklına bir fikir olarak gelmek.",
           "exampleSentences": [
             "A significant shift in the author's tone occurs midway through the chapter.",
             "It did not occur to the reviewer that the ambiguity might be entirely intentional.",
@@ -119,7 +119,7 @@
           "headword": "period",
           "frequencyRank": 43,
           "baseDifficulty": 0.3,
-          "definition": "A particular length of time, especially one marked by certain events or characteristics, or, in American usage, the punctuation mark that ends a declarative sentence (a full stop).",
+          "definition": "Belirli olaylar veya özelliklerle işaretlenmiş bir zaman dilimi; Amerikan kullanımında ise bir cümleyi bitiren noktalama işareti (nokta).",
           "exampleSentences": [
             "The novel is set during a turbulent period of political upheaval.",
             "According to the style guide, every declarative sentence must end with a period, not a comma.",
@@ -134,7 +134,7 @@
           "headword": "respond",
           "frequencyRank": 50,
           "baseDifficulty": 0.25,
-          "definition": "To reply, react, or answer, especially to an argument, text, or piece of criticism.",
+          "definition": "Yanıt vermek, tepki göstermek; özellikle bir argümana, metne veya eleştiriye cevap vermek.",
           "exampleSentences": [
             "The author responds directly to earlier critics who dismissed the novel as sentimental.",
             "Readers are invited to respond to the essay's central claim in their own words.",
@@ -149,7 +149,7 @@
           "headword": "section",
           "frequencyRank": 52,
           "baseDifficulty": 0.25,
-          "definition": "A distinct part of a text, document, or argument, or, as a verb, to divide something into such separate parts.",
+          "definition": "Bir metnin, belgenin veya argümanın belirgin bir bölümü; fiil olarak bir şeyi böyle ayrı parçalara bölmek.",
           "exampleSentences": [
             "The final section of the essay addresses possible counterarguments.",
             "The editors sectioned the anthology into three thematic parts for easier navigation.",
@@ -171,7 +171,7 @@
           "headword": "similar",
           "frequencyRank": 55,
           "baseDifficulty": 0.15,
-          "definition": "Having a resemblance in nature, appearance, or quality to something else, without being identical.",
+          "definition": "Aynı olmasa da doğa, görünüş veya nitelik bakımından bir şeye benzeyen.",
           "exampleSentences": [
             "The two essays reach similar conclusions despite starting from different premises.",
             "Critics have noted a similar pattern of imagery in the author's earlier work.",
@@ -186,7 +186,7 @@
           "headword": "specific",
           "frequencyRank": 57,
           "baseDifficulty": 0.2,
-          "definition": "Precise, particular, or clearly defined, rather than general or vague.",
+          "definition": "Genel veya belirsiz olmaktan çok, kesin, özel veya net biçimde tanımlanmış.",
           "exampleSentences": [
             "The essay would benefit from more specific examples to support its claims.",
             "The thesis statement should be specific enough to guide the entire argument.",
@@ -201,7 +201,7 @@
           "headword": "chapter",
           "frequencyRank": 69,
           "baseDifficulty": 0.15,
-          "definition": "A distinct division of a book or written work, usually numbered or titled and dealing with a particular part of the subject.",
+          "definition": "Bir kitabın veya yazılı eserin, genellikle numaralandırılmış ya da başlıklandırılmış, konunun belirli bir bölümünü ele alan ayrı kısmı.",
           "exampleSentences": [
             "The final chapter draws together the threads introduced earlier in the book.",
             "Each chapter opens with a brief summary of its central argument.",
@@ -216,7 +216,7 @@
           "headword": "conclude",
           "frequencyRank": 74,
           "baseDifficulty": 0.3,
-          "definition": "To bring something to an end, or to reach a judgement or decision after considering evidence or argument.",
+          "definition": "Bir şeyi sona erdirmek, ya da kanıt veya argümanı değerlendirdikten sonra bir yargıya veya karara varmak.",
           "exampleSentences": [
             "The essay concludes with a brief reflection on the limitations of the study.",
             "Based on the textual evidence, the critic concludes that the narrator is unreliable.",
@@ -231,7 +231,7 @@
           "headword": "design",
           "frequencyRank": 81,
           "baseDifficulty": 0.3,
-          "definition": "The overall plan, structure, or arrangement of a piece of writing or research, or, as a verb, to plan or shape something deliberately for a particular purpose.",
+          "definition": "Bir yazının veya araştırmanın genel planı, yapısı ya da düzenlenişi; fiil olarak bir şeyi belirli bir amaç için bilinçli olarak planlamak veya şekillendirmek.",
           "exampleSentences": [
             "The essay's design moves from a narrow case study to a broader theoretical claim.",
             "The study was designed to test competing explanations for the character's motivation.",
@@ -246,7 +246,7 @@
           "headword": "final",
           "frequencyRank": 87,
           "baseDifficulty": 0.15,
-          "definition": "Coming at the end of a sequence or process; last.",
+          "definition": "Bir dizinin veya sürecin sonunda gelen; son.",
           "exampleSentences": [
             "The final paragraph restates the thesis in light of the evidence presented.",
             "Her final revision removed several digressive passages.",
@@ -261,7 +261,7 @@
           "headword": "focus",
           "frequencyRank": 88,
           "baseDifficulty": 0.25,
-          "definition": "The main subject of attention or concern in a piece of writing, or, as a verb, to concentrate attention on a particular subject.",
+          "definition": "Bir yazıda dikkatin veya ilginin ana konusu; fiil olarak dikkati belirli bir konuya yoğunlaştırmak.",
           "exampleSentences": [
             "The focus of the chapter shifts from plot to characterization halfway through.",
             "The essay focuses on how the narrator's unreliability shapes the reader's judgement.",
@@ -276,7 +276,7 @@
           "headword": "journal",
           "frequencyRank": 94,
           "baseDifficulty": 0.2,
-          "definition": "A scholarly periodical in which academic articles are published, typically after peer review.",
+          "definition": "Genellikle hakem denetiminden sonra akademik makalelerin yayımlandığı bilimsel süreli yayın.",
           "exampleSentences": [
             "The article was published in a leading literary studies journal.",
             "Reviewers for the journal recommended several revisions before acceptance.",
@@ -291,7 +291,7 @@
           "headword": "maintain",
           "frequencyRank": 95,
           "baseDifficulty": 0.35,
-          "definition": "To keep something in existence or in a particular state without change, or to assert something firmly as true, especially in an argument.",
+          "definition": "Bir şeyi değişmeden var tutmak veya belirli bir durumda korumak; ya da özellikle bir tartışmada bir şeyi kesin doğru olarak ileri sürmek.",
           "exampleSentences": [
             "The novel maintains a consistent first-person perspective throughout.",
             "The author maintains that the ending should be read as ironic rather than sincere.",
@@ -306,7 +306,7 @@
           "headword": "perceive",
           "frequencyRank": 99,
           "baseDifficulty": 0.3,
-          "definition": "To become aware of or interpret something in a particular way, especially through observation or understanding.",
+          "definition": "Bir şeyin farkına varmak veya onu belirli bir şekilde yorumlamak; özellikle gözlem ya da anlayış yoluyla.",
           "exampleSentences": [
             "The narrator is perceived by other characters as untrustworthy from the outset.",
             "Readers may perceive irony in a passage the author intended quite sincerely.",
@@ -328,7 +328,7 @@
           "headword": "positive",
           "frequencyRank": 100,
           "baseDifficulty": 0.25,
-          "definition": "Favourable or constructive in nature, or, when followed by 'that,' completely certain or confident about something.",
+          "definition": "Olumlu veya yapıcı nitelikte olan; “that” ile kullanıldığında ise bir şeyden tamamen emin veya kendinden emin olmak.",
           "exampleSentences": [
             "Critics offered a largely positive assessment of the author's debut novel.",
             "She was positive that the manuscript contained an allusion to an earlier poet.",
@@ -343,7 +343,7 @@
           "headword": "primary",
           "frequencyRank": 103,
           "baseDifficulty": 0.25,
-          "definition": "First in importance, order, or rank; main, especially in describing sources or purposes.",
+          "definition": "Önem, sıra veya derece bakımından ilk; özellikle kaynakları veya amaçları tanımlarken ana, başlıca.",
           "exampleSentences": [
             "The primary source for this chapter is the author's own correspondence.",
             "Her primary aim is to reassess the novel's reception among contemporary readers.",
@@ -358,7 +358,7 @@
           "headword": "range",
           "frequencyRank": 105,
           "baseDifficulty": 0.3,
-          "definition": "A set of different things of the same general type, or the extent between limits, or, as a verb, to extend or vary between two points.",
+          "definition": "Aynı genel türden farklı şeylerin oluşturduğu bir küme, ya da iki sınır arasındaki genişlik; fiil olarak iki nokta arasında uzanmak veya değişmek.",
           "exampleSentences": [
             "The anthology includes a wide range of poetic styles from the period.",
             "Interpretations of the final chapter range from cautiously optimistic to deeply pessimistic.",
@@ -373,7 +373,7 @@
           "headword": "seek",
           "frequencyRank": 113,
           "baseDifficulty": 0.3,
-          "definition": "To try to obtain, achieve, or find something, especially through sustained effort or argument.",
+          "definition": "Bir şeyi elde etmeye, başarmaya veya bulmaya çalışmak; özellikle sürekli bir çaba veya argüman yoluyla.",
           "exampleSentences": [
             "The essay seeks to demonstrate that the two novels share a common source.",
             "Scholars have long sought an explanation for the poem's abrupt final stanza.",
@@ -388,7 +388,7 @@
           "headword": "select",
           "frequencyRank": 114,
           "baseDifficulty": 0.25,
-          "definition": "To choose someone or something carefully from a range of possibilities, typically after consideration.",
+          "definition": "Genellikle dikkatlice değerlendirdikten sonra, bir dizi olasılık arasından birini veya bir şeyi özenle seçmek.",
           "exampleSentences": [
             "The editor selected only the essays that engaged directly with the central theme.",
             "Passages were carefully selected to illustrate the author's evolving style.",
@@ -403,7 +403,7 @@
           "headword": "site",
           "frequencyRank": 115,
           "baseDifficulty": 0.35,
-          "definition": "A particular place where something is located or takes place, or, more figuratively, a text or context treated as the location of a particular struggle, meaning, or debate.",
+          "definition": "Bir şeyin bulunduğu veya gerçekleştiği belirli bir yer; daha mecazi anlamda ise belirli bir mücadelenin, anlamın veya tartışmanın “mekânı” olarak ele alınan metin veya bağlam.",
           "exampleSentences": [
             "The archive functioned as the primary research site for her study of wartime letters.",
             "Feminist critics have long treated the novel as a site of ideological contestation.",
@@ -418,7 +418,7 @@
           "headword": "text",
           "frequencyRank": 118,
           "baseDifficulty": 0.15,
-          "definition": "A written work considered in terms of its content, structure, or meaning, especially as an object of study or interpretation.",
+          "definition": "İçeriği, yapısı veya anlamı bakımından ele alınan yazılı bir eser; özellikle inceleme veya yorumlama nesnesi olarak.",
           "exampleSentences": [
             "Close reading requires attending carefully to the language of the text itself.",
             "The essay treats the film as a text open to the same critical methods as a novel.",
@@ -433,7 +433,7 @@
           "headword": "appropriate",
           "frequencyRank": 65,
           "baseDifficulty": 0.4,
-          "definition": "Suitable or fitting for a particular purpose or occasion, or, as a verb, to take something, such as a term, idea, or style, and adopt it for one's own use, often without full acknowledgement.",
+          "definition": "Belirli bir amaç veya durum için uygun olan; fiil olarak bir terimi, fikri veya üslubu alıp, çoğu zaman tam bir atıf yapmadan kendi kullanımına uyarlamak.",
           "exampleSentences": [
             "A formal register is generally more appropriate for academic writing than casual speech.",
             "The novelist appropriates the conventions of the gothic genre for satirical ends.",
@@ -448,7 +448,7 @@
           "headword": "aspect",
           "frequencyRank": 66,
           "baseDifficulty": 0.25,
-          "definition": "A particular part, feature, or way of considering something, especially one aspect among several possible ones.",
+          "definition": "Bir şeyin belirli bir parçası, özelliği veya ele alınış biçimi; özellikle birkaç olası bakış açısından biri.",
           "exampleSentences": [
             "This section examines one aspect of the novel's treatment of memory.",
             "Every aspect of the argument must be supported by textual evidence.",
@@ -463,7 +463,7 @@
           "headword": "assist",
           "frequencyRank": 67,
           "baseDifficulty": 0.25,
-          "definition": "To help someone accomplish a task or achieve a result, typically in a supporting rather than leading role.",
+          "definition": "Birinin bir görevi tamamlamasına veya bir sonuca ulaşmasına yardımcı olmak; genellikle yönlendirici değil destekleyici bir rolde.",
           "exampleSentences": [
             "Footnotes assist the reader in tracing the author's sources.",
             "A supervisor assisted her in narrowing the thesis to a single, manageable claim.",

@@ -14,7 +14,7 @@
           "headword": "authority",
           "frequencyRank": 6,
           "baseDifficulty": 0.35,
-          "definition": "The power or right to give orders, make decisions, and enforce obedience, or an official organization with such power.",
+          "definition": "Emir verme, karar alma ve itaati sağlama gücü veya hakkı; ya da bu güce sahip resmî bir kurum.",
           "exampleSentences": [
             "The mayor lacked the authority to overturn the council's decision.",
             "Local authorities issued an evacuation order ahead of the storm.",
@@ -29,7 +29,7 @@
           "headword": "area",
           "frequencyRank": 3,
           "baseDifficulty": 0.15,
-          "definition": "A particular part of a place, subject, or activity, or a region defined by administrative or geographic boundaries.",
+          "definition": "Bir yerin, konunun veya faaliyetin belirli bir bölümü; ya da idari veya coğrafi sınırlarla tanımlanmış bir bölge.",
           "exampleSentences": [
             "The new zoning law restricts construction in residential areas.",
             "Human rights has become a central area of international policy.",
@@ -44,7 +44,7 @@
           "headword": "constitute",
           "frequencyRank": 11,
           "baseDifficulty": 0.5,
-          "definition": "To form or make up a whole, or to establish something formally, especially a legal or official body.",
+          "definition": "Bir bütünü oluşturmak, ya da özellikle yasal veya resmî bir kurumu resmî olarak kurmak.",
           "exampleSentences": [
             "Ethnic minorities constitute nearly twenty percent of the country's population.",
             "The treaty constitutes a legally binding agreement between the two states.",
@@ -59,7 +59,7 @@
           "headword": "environment",
           "frequencyRank": 20,
           "baseDifficulty": 0.25,
-          "definition": "The natural world of land, air, and water, or the surrounding conditions, circumstances, and influences affecting a person, group, or activity.",
+          "definition": "Kara, hava ve suyun oluşturduğu doğal dünya; ya da bir kişiyi, grubu veya faaliyeti etkileyen çevresel koşullar, şartlar ve etkiler.",
           "exampleSentences": [
             "The new regulations aim to protect the environment from industrial pollution.",
             "Reformers argued that the country's political environment discouraged open debate.",
@@ -74,7 +74,7 @@
           "headword": "establish",
           "frequencyRank": 21,
           "baseDifficulty": 0.35,
-          "definition": "To set up or create an organization, system, or relationship on a firm basis, or to show something to be true through evidence.",
+          "definition": "Bir kurumu, sistemi veya ilişkiyi sağlam bir temel üzerine kurmak; ya da bir şeyi kanıtlarla doğru olduğunu göstermek.",
           "exampleSentences": [
             "The United Nations was established in 1945 to promote international cooperation.",
             "The inquiry sought to establish who was responsible for the policy failure.",
@@ -89,7 +89,7 @@
           "headword": "issue",
           "frequencyRank": 35,
           "baseDifficulty": 0.35,
-          "definition": "A topic or problem that people discuss or that requires a decision, or to formally publish, provide, or make something available, especially by an official body.",
+          "definition": "İnsanların tartıştığı veya karar gerektiren bir konu ya da sorun; ya da özellikle resmî bir kurum tarafından bir şeyi resmen yayımlamak, sağlamak veya kullanıma sunmak.",
           "exampleSentences": [
             "Immigration remains one of the most divisive issues in the upcoming election.",
             "The government issued a decree banning public gatherings during the crisis.",
@@ -104,7 +104,7 @@
           "headword": "legal",
           "frequencyRank": 37,
           "baseDifficulty": 0.25,
-          "definition": "Relating to, based on, or permitted by the law.",
+          "definition": "Yasayla ilgili, yasaya dayanan veya yasa tarafından izin verilen.",
           "exampleSentences": [
             "The company took legal action against the supplier for breach of contract.",
             "Same-sex marriage became legal in the country after a landmark court ruling.",
@@ -119,7 +119,7 @@
           "headword": "legislate",
           "frequencyRank": 38,
           "baseDifficulty": 0.5,
-          "definition": "To make or pass laws, especially by a governing body, or to make provision for a particular situation through law.",
+          "definition": "Özellikle yönetici bir organ tarafından yasa yapmak veya çıkarmak; ya da belirli bir durum için yasa yoluyla düzenleme yapmak.",
           "exampleSentences": [
             "Parliament voted to legislate against discrimination in the workplace.",
             "It is difficult to legislate for every possible circumstance that may arise.",
@@ -134,7 +134,7 @@
           "headword": "principle",
           "frequencyRank": 45,
           "baseDifficulty": 0.4,
-          "definition": "A fundamental rule, belief, or truth that guides behaviour, reasoning, or the design of a system.",
+          "definition": "Davranışa, akıl yürütmeye veya bir sistemin tasarımına yön veren temel bir kural, inanç veya gerçek.",
           "exampleSentences": [
             "The constitution is founded on the principle of equality before the law.",
             "In principle, the new policy should reduce bureaucracy, though implementation may prove difficult.",
@@ -149,7 +149,7 @@
           "headword": "proceed",
           "frequencyRank": 46,
           "baseDifficulty": 0.35,
-          "definition": "To continue or go ahead with a course of action, especially after a pause or approval, or, in law, to bring a case against someone.",
+          "definition": "Özellikle bir duraklama veya onayın ardından bir eylem sürecine devam etmek; hukukta ise birine karşı dava açmak.",
           "exampleSentences": [
             "The council decided to proceed with the redevelopment plan despite local opposition.",
             "Once the warrant was issued, police were authorized to proceed with the arrest.",
@@ -171,7 +171,7 @@
           "headword": "require",
           "frequencyRank": 48,
           "baseDifficulty": 0.25,
-          "definition": "To need something for a particular purpose, or to officially demand that someone do something, especially under a rule or law.",
+          "definition": "Belirli bir amaç için bir şeye ihtiyaç duymak; ya da özellikle bir kural veya yasa gereği birinden resmî olarak bir şey talep etmek.",
           "exampleSentences": [
             "The new legislation requires companies to disclose their carbon emissions annually.",
             "Obtaining a visa requires submitting several supporting documents.",
@@ -186,7 +186,7 @@
           "headword": "role",
           "frequencyRank": 51,
           "baseDifficulty": 0.2,
-          "definition": "The particular function, position, or part that a person or institution has within a society, organization, or situation.",
+          "definition": "Bir kişinin veya kurumun bir toplum, organizasyon ya da durum içindeki belirli işlevi, konumu veya payı.",
           "exampleSentences": [
             "Civil society organizations play a crucial role in holding governments accountable.",
             "The committee's role is to advise ministers on proposed legislation.",
@@ -201,7 +201,7 @@
           "headword": "significant",
           "frequencyRank": 54,
           "baseDifficulty": 0.3,
-          "definition": "Important, noteworthy, or large enough to have a meaningful effect.",
+          "definition": "Önemli, dikkate değer veya anlamlı bir etki yaratacak kadar büyük.",
           "exampleSentences": [
             "The new regulations represent a significant shift in environmental policy.",
             "There has been a significant increase in voter turnout since the reform.",
@@ -216,7 +216,7 @@
           "headword": "individual",
           "frequencyRank": 32,
           "baseDifficulty": 0.3,
-          "definition": "A single person considered separately from a group, or, as an adjective, relating to, characteristic of, or intended for one particular person rather than a group.",
+          "definition": "Bir gruptan ayrı olarak ele alınan tek bir kişi; sıfat olarak ise bir gruba değil, tek bir kişiye ait, onun özelliği olan veya onun için tasarlanmış.",
           "exampleSentences": [
             "The law protects the rights of the individual against arbitrary state action.",
             "Each individual case is reviewed on its own merits by the tribunal.",
@@ -231,7 +231,7 @@
           "headword": "involve",
           "frequencyRank": 34,
           "baseDifficulty": 0.35,
-          "definition": "To include or affect something as a necessary part or consequence, or to cause someone to take part in an activity.",
+          "definition": "Bir şeyi gerekli bir parça veya sonuç olarak içermek ya da etkilemek; ya da birinin bir faaliyete katılmasına neden olmak.",
           "exampleSentences": [
             "Reforming the pension system will inevitably involve difficult political trade-offs.",
             "The scandal involved several senior members of the government.",
@@ -246,7 +246,7 @@
           "headword": "community",
           "frequencyRank": 71,
           "baseDifficulty": 0.2,
-          "definition": "A group of people living in the same area, or sharing common characteristics, interests, or nationality within a wider society.",
+          "definition": "Aynı bölgede yaşayan bir grup insan; ya da daha geniş bir toplum içinde ortak özellikleri, ilgileri veya milliyeti paylaşan kişiler.",
           "exampleSentences": [
             "The new policy was developed in close consultation with the local community.",
             "Ethnic and religious communities have long coexisted in the region.",
@@ -261,7 +261,7 @@
           "headword": "culture",
           "frequencyRank": 80,
           "baseDifficulty": 0.2,
-          "definition": "The customs, beliefs, values, and social behaviour of a particular society or group, or the shared attitudes characteristic of an organization.",
+          "definition": "Belirli bir toplumun veya grubun gelenekleri, inançları, değerleri ve sosyal davranışları; ya da bir kurumun karakteristik ortak tutumları.",
           "exampleSentences": [
             "The reforms aim to change the culture of impunity within the police force.",
             "Immigration has enriched the country's culture over successive generations.",
@@ -276,7 +276,7 @@
           "headword": "institute",
           "frequencyRank": 91,
           "baseDifficulty": 0.45,
-          "definition": "An organization founded for a particular purpose, especially research, education, or policy, or, as a verb, to introduce or establish a policy, practice, or legal proceeding.",
+          "definition": "Özellikle araştırma, eğitim veya politika amacıyla kurulmuş bir organizasyon; fiil olarak bir politikayı, uygulamayı veya yasal süreci başlatmak ya da yürürlüğe koymak.",
           "exampleSentences": [
             "The research institute published a report on rising inequality.",
             "The government instituted a curfew following the outbreak of unrest.",
@@ -291,7 +291,7 @@
           "headword": "participate",
           "frequencyRank": 98,
           "baseDifficulty": 0.3,
-          "definition": "To take part in or become actively involved in an activity or event.",
+          "definition": "Bir faaliyete veya etkinliğe katılmak ya da aktif olarak dahil olmak.",
           "exampleSentences": [
             "Citizens were encouraged to participate in the public consultation on the new bylaw.",
             "Only a fraction of eligible voters participated in the referendum.",
@@ -306,7 +306,7 @@
           "headword": "potential",
           "frequencyRank": 101,
           "baseDifficulty": 0.35,
-          "definition": "Capable of happening, developing, or being used in the future, or, as a noun, the capacity for such future development.",
+          "definition": "Gelecekte gerçekleşme, gelişme veya kullanılma kapasitesine sahip olan; isim olarak ise böyle bir gelecek gelişim kapasitesi.",
           "exampleSentences": [
             "The reform has the potential to reduce corruption significantly if properly enforced.",
             "Officials flagged the bill as a potential threat to civil liberties.",
@@ -328,7 +328,7 @@
           "headword": "previous",
           "frequencyRank": 102,
           "baseDifficulty": 0.2,
-          "definition": "Coming or existing before something else in time or order.",
+          "definition": "Zaman veya sıra bakımından bir başka şeyden önce gelen veya var olan.",
           "exampleSentences": [
             "The new administration reversed several previous decisions on immigration policy.",
             "Under the previous government, welfare spending was cut sharply.",
@@ -343,7 +343,7 @@
           "headword": "region",
           "frequencyRank": 106,
           "baseDifficulty": 0.2,
-          "definition": "A particular area, especially one defined by geographic, administrative, or cultural boundaries, or, informally, an approximate amount.",
+          "definition": "Özellikle coğrafi, idari veya kültürel sınırlarla tanımlanmış belirli bir alan; ya da gündelik dilde yaklaşık bir miktar.",
           "exampleSentences": [
             "The conflict has displaced hundreds of thousands of people across the region.",
             "Each region elects its own representatives to the national assembly.",
@@ -358,7 +358,7 @@
           "headword": "regulate",
           "frequencyRank": 107,
           "baseDifficulty": 0.4,
-          "definition": "To control an activity, industry, or process by means of rules, especially those set by an official body.",
+          "definition": "Bir faaliyeti, sektörü veya süreci, özellikle resmî bir kurum tarafından belirlenen kurallar aracılığıyla kontrol etmek.",
           "exampleSentences": [
             "An independent commission was set up to regulate the banking sector.",
             "The new law regulates the use of personal data by private companies.",
@@ -373,7 +373,7 @@
           "headword": "relevant",
           "frequencyRank": 108,
           "baseDifficulty": 0.3,
-          "definition": "Closely connected or applicable to the matter at hand.",
+          "definition": "Ele alınan konuyla yakından bağlantılı veya ona uygulanabilir olan.",
           "exampleSentences": [
             "The committee requested all documents relevant to the corruption investigation.",
             "Community input is highly relevant when designing local housing policy.",
@@ -388,7 +388,7 @@
           "headword": "restrict",
           "frequencyRank": 111,
           "baseDifficulty": 0.35,
-          "definition": "To limit or place controls on the extent, movement, or freedom of something or someone.",
+          "definition": "Bir şeyin veya birinin kapsamını, hareketini ya da özgürlüğünü sınırlamak veya kontrol altına almak.",
           "exampleSentences": [
             "The new curfew restricts residents' movement between midnight and dawn.",
             "Several countries have restricted imports of the product on safety grounds.",
@@ -403,7 +403,7 @@
           "headword": "tradition",
           "frequencyRank": 119,
           "baseDifficulty": 0.25,
-          "definition": "A long-established custom, belief, or practice passed down within a society or group.",
+          "definition": "Bir toplum veya grup içinde nesilden nesile aktarılan, kökleşmiş bir gelenek, inanç veya uygulama.",
           "exampleSentences": [
             "The village has a long tradition of resolving disputes through community elders.",
             "Reformers argue that some legal traditions no longer serve modern society.",
@@ -418,7 +418,7 @@
           "headword": "affect",
           "frequencyRank": 64,
           "baseDifficulty": 0.4,
-          "definition": "To have an influence on someone or something, often producing a change; not to be confused with the noun 'effect,' meaning a result.",
+          "definition": "Genellikle bir değişikliğe yol açarak birini veya bir şeyi etkilemek; bir sonuç anlamına gelen “effect” ismiyle karıştırılmamalıdır.",
           "exampleSentences": [
             "The new tax bracket will affect middle-income households the most.",
             "Prolonged drought has severely affected agricultural communities in the region.",
@@ -433,7 +433,7 @@
           "headword": "injure",
           "frequencyRank": 90,
           "baseDifficulty": 0.3,
-          "definition": "To cause physical harm to someone, or, in law, to cause harm or loss to a person's rights or interests, as in 'the injured party.'",
+          "definition": "Birine fiziksel zarar vermek; hukukta ise bir kişinin haklarına veya çıkarlarına zarar vermek ya da kayba yol açmak, “the injured party” (zarar gören taraf) örneğinde olduğu gibi.",
           "exampleSentences": [
             "Several protesters were injured when police used tear gas to disperse the crowd.",
             "The court awarded compensation to the injured party in the negligence case.",
@@ -448,7 +448,7 @@
           "headword": "reside",
           "frequencyRank": 109,
           "baseDifficulty": 0.45,
-          "definition": "To live in a particular place on a permanent or long-term basis, or, formally, (of power, authority, or a quality) to be located in or belong to something.",
+          "definition": "Kalıcı veya uzun süreli olarak belirli bir yerde yaşamak; resmî kullanımda ise (güç, otorite veya bir niteliğin) bir şeyde bulunması veya ona ait olması.",
           "exampleSentences": [
             "Thousands of refugees now reside in camps along the border.",
             "Under the constitution, ultimate authority resides in the elected parliament.",
@@ -463,7 +463,7 @@
           "headword": "consequent",
           "frequencyRank": 76,
           "baseDifficulty": 0.45,
-          "definition": "Following as a result or effect of something, especially a previous event or action.",
+          "definition": "Özellikle önceki bir olay veya eylemin sonucu veya etkisi olarak ortaya çıkan.",
           "exampleSentences": [
             "The consequent rise in unemployment put pressure on the welfare system.",
             "Delays in the vote led to a consequent postponement of the reform's implementation.",

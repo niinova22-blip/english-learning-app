@@ -14,7 +14,7 @@
           "headword": "analyse",
           "frequencyRank": 1,
           "baseDifficulty": 0.2,
-          "definition": "To examine data, evidence, or a phenomenon in detail in order to understand its components or draw conclusions.",
+          "definition": "Bileşenlerini anlamak veya sonuç çıkarmak amacıyla veriyi, kanıtı veya bir olguyu ayrıntılı biçimde incelemek.",
           "exampleSentences": [
             "The team analysed the survey data to identify significant patterns in consumer behaviour.",
             "Researchers analysed blood samples from over a thousand participants to test the hypothesis.",
@@ -29,7 +29,7 @@
           "headword": "assess",
           "frequencyRank": 4,
           "baseDifficulty": 0.3,
-          "definition": "To evaluate the extent, quality, or significance of something, typically based on available evidence.",
+          "definition": "Genellikle mevcut kanıtlara dayanarak bir şeyin kapsamını, kalitesini veya önemini değerlendirmek.",
           "exampleSentences": [
             "The study assessed the long-term effects of sleep deprivation on memory retention.",
             "Reviewers were asked to assess the validity of the experimental design before publication.",
@@ -44,7 +44,7 @@
           "headword": "assume",
           "frequencyRank": 5,
           "baseDifficulty": 0.3,
-          "definition": "To accept something as true or to take it as a starting point for an argument or calculation, without first proving it.",
+          "definition": "Bir şeyi önce kanıtlamadan doğru kabul etmek veya bir argüman ya da hesaplama için başlangıç noktası olarak almak.",
           "exampleSentences": [
             "The model assumes that all variables are independent of one another.",
             "For simplicity, the researchers assumed a constant rate of decay throughout the experiment.",
@@ -59,7 +59,7 @@
           "headword": "data",
           "frequencyRank": 15,
           "baseDifficulty": 0.15,
-          "definition": "Facts, figures, or observations collected through measurement, experimentation, or observation, used as a basis for analysis.",
+          "definition": "Ölçüm, deney veya gözlem yoluyla toplanan ve analiz için temel oluşturan olgular, sayılar veya gözlemler.",
           "exampleSentences": [
             "The data were collected over a six-month period using standardized questionnaires.",
             "Researchers cross-checked the data against previous studies to confirm the trend.",
@@ -74,7 +74,7 @@
           "headword": "define",
           "frequencyRank": 16,
           "baseDifficulty": 0.2,
-          "definition": "To state the precise meaning of a term or concept, or to establish the boundaries and characteristics of something.",
+          "definition": "Bir terimin veya kavramın kesin anlamını belirtmek; ya da bir şeyin sınırlarını ve özelliklerini ortaya koymak.",
           "exampleSentences": [
             "The researchers carefully defined each variable before beginning the experiment.",
             "It is difficult to define intelligence in a way that all psychologists accept.",
@@ -89,7 +89,7 @@
           "headword": "derive",
           "frequencyRank": 17,
           "baseDifficulty": 0.4,
-          "definition": "To obtain or trace something from a particular source, or to reach a result through logical or mathematical reasoning.",
+          "definition": "Bir şeyi belirli bir kaynaktan elde etmek veya ona dayandırmak; ya da mantıksal veya matematiksel akıl yürütme yoluyla bir sonuca ulaşmak.",
           "exampleSentences": [
             "The formula can be derived from Newton's second law of motion.",
             "Much of what we know about the disease was derived from early animal studies.",
@@ -104,7 +104,7 @@
           "headword": "estimate",
           "frequencyRank": 22,
           "baseDifficulty": 0.3,
-          "definition": "To calculate or judge the approximate value, size, or extent of something, especially where an exact measurement is not possible.",
+          "definition": "Özellikle kesin bir ölçüm mümkün olmadığında, bir şeyin yaklaşık değerini, boyutunu veya kapsamını hesaplamak ya da tahmin etmek.",
           "exampleSentences": [
             "Scientists estimate that the species has existed for over two million years.",
             "The initial estimate of the sample size proved too small for reliable results.",
@@ -119,7 +119,7 @@
           "headword": "evident",
           "frequencyRank": 23,
           "baseDifficulty": 0.35,
-          "definition": "Clearly visible or understood from the available facts or evidence; obvious.",
+          "definition": "Mevcut olgulardan veya kanıtlardan açıkça görülebilen veya anlaşılan; belirgin.",
           "exampleSentences": [
             "It became evident from the data that the treatment had no significant effect.",
             "The correlation between the two variables was immediately evident on the graph.",
@@ -134,7 +134,7 @@
           "headword": "formula",
           "frequencyRank": 27,
           "baseDifficulty": 0.25,
-          "definition": "A mathematical rule or relationship expressed in symbols, or a fixed method for achieving a particular result.",
+          "definition": "Sembollerle ifade edilen matematiksel bir kural veya ilişki; ya da belirli bir sonuca ulaşmak için sabit bir yöntem.",
           "exampleSentences": [
             "The formula relates pressure, volume, and temperature in an ideal gas.",
             "Researchers applied a standard formula to calculate statistical significance.",
@@ -149,7 +149,7 @@
           "headword": "identify",
           "frequencyRank": 29,
           "baseDifficulty": 0.2,
-          "definition": "To recognize, establish, or single out a particular fact, cause, pattern, or entity through observation or analysis.",
+          "definition": "Gözlem veya analiz yoluyla belirli bir olguyu, nedeni, örüntüyü veya varlığı tanımak, tespit etmek ya da ayırt etmek.",
           "exampleSentences": [
             "The study aimed to identify the genetic factors linked to the disease.",
             "Researchers identified a previously unknown species during the expedition.",
@@ -171,7 +171,7 @@
           "headword": "indicate",
           "frequencyRank": 31,
           "baseDifficulty": 0.25,
-          "definition": "To point to a fact or conclusion as being probable, or to show something clearly through signs or evidence.",
+          "definition": "Bir gerçeğe veya sonuca olası olarak işaret etmek; ya da bir şeyi işaretler veya kanıtlar yoluyla açıkça göstermek.",
           "exampleSentences": [
             "The results indicate a strong link between diet and cardiovascular health.",
             "Preliminary data indicate that the new treatment may reduce recovery time.",
@@ -186,7 +186,7 @@
           "headword": "interpret",
           "frequencyRank": 33,
           "baseDifficulty": 0.35,
-          "definition": "To explain or determine the meaning or significance of information, data, or behaviour.",
+          "definition": "Bilgi, veri veya davranışın anlamını ya da önemini açıklamak veya belirlemek.",
           "exampleSentences": [
             "Different researchers interpreted the same data set in strikingly different ways.",
             "The findings must be interpreted with caution given the small sample size.",
@@ -201,7 +201,7 @@
           "headword": "method",
           "frequencyRank": 40,
           "baseDifficulty": 0.2,
-          "definition": "A particular systematic procedure or set of steps used to carry out a task, especially in research or experimentation.",
+          "definition": "Özellikle araştırma veya deneyde bir görevi yürütmek için kullanılan sistematik bir yöntem veya adımlar dizisi.",
           "exampleSentences": [
             "The paper describes the method used to isolate the compound.",
             "Researchers adopted a mixed-methods approach, combining surveys with interviews.",
@@ -216,7 +216,7 @@
           "headword": "process",
           "frequencyRank": 47,
           "baseDifficulty": 0.25,
-          "definition": "A series of actions or steps taken to achieve a particular result, or to handle and analyse information systematically.",
+          "definition": "Belirli bir sonuca ulaşmak için atılan bir dizi eylem veya adım; ya da bilgiyi sistematik olarak işlemek ve analiz etmek.",
           "exampleSentences": [
             "The data were processed using specialized statistical software before analysis.",
             "Photosynthesis is the process by which plants convert light into chemical energy.",
@@ -231,7 +231,7 @@
           "headword": "research",
           "frequencyRank": 49,
           "baseDifficulty": 0.2,
-          "definition": "The systematic investigation of a subject in order to discover or establish facts and reach new conclusions.",
+          "definition": "Olguları keşfetmek veya ortaya koymak ve yeni sonuçlara ulaşmak amacıyla bir konunun sistematik olarak incelenmesi.",
           "exampleSentences": [
             "Her research focuses on the effects of climate change on marine ecosystems.",
             "The team spent three years researching the causes of the disorder.",
@@ -246,7 +246,7 @@
           "headword": "structure",
           "frequencyRank": 58,
           "baseDifficulty": 0.3,
-          "definition": "The arrangement of parts within a system, or to organize something according to a particular framework.",
+          "definition": "Bir sistem içindeki parçaların düzenlenişi; ya da bir şeyi belirli bir çerçeveye göre organize etmek.",
           "exampleSentences": [
             "The molecule's structure determines how it interacts with other compounds.",
             "Researchers structured the questionnaire to avoid leading questions.",
@@ -261,7 +261,7 @@
           "headword": "theory",
           "frequencyRank": 59,
           "baseDifficulty": 0.25,
-          "definition": "A set of principles or ideas developed to explain observed phenomena, often supported by evidence and used to make predictions.",
+          "definition": "Gözlemlenen olguları açıklamak için geliştirilen, genellikle kanıtlarla desteklenen ve tahminlerde bulunmak için kullanılan ilkeler veya fikirler bütünü.",
           "exampleSentences": [
             "The theory of evolution remains the foundation of modern biology.",
             "Her experiment was designed to test a long-standing theory about memory formation.",
@@ -276,7 +276,7 @@
           "headword": "vary",
           "frequencyRank": 60,
           "baseDifficulty": 0.25,
-          "definition": "To differ or change, especially in size, amount, or degree, from one instance or condition to another.",
+          "definition": "Bir durumdan veya koşuldan diğerine, özellikle boyut, miktar veya derece bakımından farklılaşmak ya da değişmek.",
           "exampleSentences": [
             "Results varied considerably depending on the temperature at which the experiment was conducted.",
             "The concentration of the solution was varied to test its effect on reaction speed.",
@@ -291,7 +291,7 @@
           "headword": "compute",
           "frequencyRank": 73,
           "baseDifficulty": 0.35,
-          "definition": "To calculate a value or result, typically using mathematics or a computer.",
+          "definition": "Genellikle matematik veya bilgisayar kullanarak bir değeri veya sonucu hesaplamak.",
           "exampleSentences": [
             "The software computes the standard deviation automatically from the raw scores.",
             "Researchers computed the correlation coefficient between the two variables.",
@@ -306,7 +306,7 @@
           "headword": "conduct",
           "frequencyRank": 75,
           "baseDifficulty": 0.3,
-          "definition": "To carry out or organize a particular activity, especially a piece of research, experiment, or investigation, or, in physics, to transmit heat, electricity, or sound.",
+          "definition": "Özellikle bir araştırma, deney veya soruşturma gibi belirli bir faaliyeti yürütmek veya organize etmek; fizikte ise ısı, elektrik veya sesi iletmek.",
           "exampleSentences": [
             "The team conducted a series of controlled experiments over two years.",
             "Copper conducts electricity far more efficiently than most other metals.",
@@ -328,7 +328,7 @@
           "headword": "construct",
           "frequencyRank": 77,
           "baseDifficulty": 0.4,
-          "definition": "To build or create something systematically, such as an argument, model, or experiment, or a concept devised for analysis.",
+          "definition": "Bir argüman, model veya deney gibi bir şeyi sistematik olarak inşa etmek veya oluşturmak; ya da analiz için tasarlanmış bir kavram.",
           "exampleSentences": [
             "The researchers constructed a mathematical model to simulate population growth.",
             "Intelligence is often treated as a psychological construct rather than a single measurable trait.",
@@ -343,7 +343,7 @@
           "headword": "evaluate",
           "frequencyRank": 85,
           "baseDifficulty": 0.35,
-          "definition": "To assess the value, significance, or quality of something, typically after careful consideration of evidence.",
+          "definition": "Genellikle kanıtları dikkatlice değerlendirdikten sonra bir şeyin değerini, önemini veya kalitesini değerlendirmek.",
           "exampleSentences": [
             "An independent panel evaluated the study's methodology before it was published.",
             "The trial was designed to evaluate the drug's effectiveness against a placebo.",
@@ -358,7 +358,7 @@
           "headword": "feature",
           "frequencyRank": 86,
           "baseDifficulty": 0.3,
-          "definition": "A distinctive characteristic or attribute of something, or to include something as a prominent element.",
+          "definition": "Bir şeyin ayırt edici bir özelliği veya niteliği; ya da bir şeyi belirgin bir unsur olarak içermek.",
           "exampleSentences": [
             "One key feature of the sample was its unusually high genetic diversity.",
             "The study features a much larger control group than earlier research in the field.",
@@ -373,7 +373,7 @@
           "headword": "obtain",
           "frequencyRank": 97,
           "baseDifficulty": 0.3,
-          "definition": "To gain possession of or achieve something, especially through effort, calculation, or a formal process.",
+          "definition": "Özellikle çaba, hesaplama veya resmî bir süreç yoluyla bir şeye sahip olmak veya onu başarmak.",
           "exampleSentences": [
             "Consent was obtained from all participants before the trial began.",
             "The team obtained consistent results across three separate trials.",
@@ -388,7 +388,7 @@
           "headword": "category",
           "frequencyRank": 68,
           "baseDifficulty": 0.25,
-          "definition": "A class or division of things regarded as having particular shared characteristics, used to organize or classify data.",
+          "definition": "Veriyi organize etmek veya sınıflandırmak için kullanılan, ortak özelliklere sahip kabul edilen bir sınıf veya bölüm.",
           "exampleSentences": [
             "Participants were divided into three categories based on age and activity level.",
             "The species was reclassified into a new taxonomic category after genetic testing.",
@@ -403,7 +403,7 @@
           "headword": "complex",
           "frequencyRank": 72,
           "baseDifficulty": 0.35,
-          "definition": "Consisting of many interconnected parts and therefore difficult to analyse or understand, or a system of closely related parts.",
+          "definition": "Birbirine bağlı birçok parçadan oluştuğu için analiz edilmesi veya anlaşılması zor olan; ya da birbiriyle yakından ilişkili parçalardan oluşan bir sistem.",
           "exampleSentences": [
             "Climate systems are extremely complex, with countless interacting variables.",
             "The enzyme forms a complex with the substrate during the reaction.",
@@ -418,7 +418,7 @@
           "headword": "element",
           "frequencyRank": 83,
           "baseDifficulty": 0.3,
-          "definition": "A fundamental part or component of something, or, in chemistry, a substance that cannot be broken down into simpler substances.",
+          "definition": "Bir şeyin temel bir parçası veya bileşeni; kimyada ise daha basit maddelere ayrıştırılamayan bir madde.",
           "exampleSentences": [
             "Motivation is a key element in any successful learning strategy.",
             "Carbon is the element that forms the basis of all known life.",
@@ -433,7 +433,7 @@
           "headword": "equate",
           "frequencyRank": 84,
           "baseDifficulty": 0.4,
-          "definition": "To regard or represent one thing as being equal, equivalent, or corresponding to another.",
+          "definition": "Bir şeyi başka bir şeye eşit, eşdeğer veya karşılık gelen olarak görmek ya da göstermek.",
           "exampleSentences": [
             "It is misleading to equate correlation with causation in observational studies.",
             "The researchers equated the two groups on age, gender, and education level.",
@@ -448,7 +448,7 @@
           "headword": "distinct",
           "frequencyRank": 82,
           "baseDifficulty": 0.3,
-          "definition": "Recognizably different or separate from something else in nature, quality, or kind.",
+          "definition": "Doğa, nitelik veya tür bakımından başka bir şeyden fark edilebilir biçimde ayrı olan.",
           "exampleSentences": [
             "The two subspecies are genetically distinct despite their similar appearance.",
             "Researchers identified three distinct phases in the disease's progression.",
@@ -463,7 +463,7 @@
           "headword": "normal",
           "frequencyRank": 96,
           "baseDifficulty": 0.2,
-          "definition": "Conforming to a usual, average, or expected standard, or, in statistics, relating to a symmetrical bell-shaped distribution of data.",
+          "definition": "Olağan, ortalama veya beklenen bir standarda uygun olan; istatistikte ise simetrik, çan eğrisi biçimindeki veri dağılımıyla ilgili.",
           "exampleSentences": [
             "Body temperature outside the normal range can indicate infection.",
             "The data followed a roughly normal distribution, allowing standard statistical tests to be used.",
