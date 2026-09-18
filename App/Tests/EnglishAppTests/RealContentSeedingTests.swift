@@ -43,7 +43,7 @@ final class RealContentSeedingTests: XCTestCase {
         let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
         XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
 
-        XCTAssertEqual(package.version, 2)
+        XCTAssertEqual(package.version, 3)
         XCTAssertEqual(package.skillWeights.activeSkills, [.vocabulary, .grammar, .reading])
         XCTAssertEqual(package.skillWeights.share(of: .pronunciation), 0)
         let scienceUnit = package.units.first { $0.id == "yds-vocab1-unit-science-research" }
