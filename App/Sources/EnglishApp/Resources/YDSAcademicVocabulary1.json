@@ -632,7 +632,7 @@
               "exampleSentences": [],
               "translationTR": "Zamanlar",
               "collocations": [],
-              "explanationTR": "YDS'de zaman soruları neredeyse her zaman cümledeki bir ZAMAN İŞARETİNE dayanır.\n\n• Present perfect (have/has + V3): «since», «for», «so far», «recently» ile; geçmişte başlayıp etkisi süren durumlar için.\n• Past simple: «in 2019», «last year», «... ago» gibi bitmiş bir zamanı gösteren ifadelerle; present perfect ile asla karışmaz.\n• Past perfect (had + V3): geçmişteki iki olaydan ÖNCE olanı için. «by the time», «before», «after», «no sooner ... than» kalıplarında beklenen zamandır.\n• Future perfect (will have + V3): «by 2030», «by the end of the year» gibi gelecekteki bir sınırdan önce bitecek eylemler için.\n\nEn sık düşülen tuzak: «by the time» görünce present perfect işaretlemek. Ana cümle geçmişteyse yan cümle past perfect olur.\n\nÖrnek: By the time the results were published, the team had already left the laboratory."
+              "explanationTR": "YDS'de zaman soruları neredeyse her zaman cümledeki bir ZAMAN İŞARETİNE dayanır.\n\n• Present perfect (have/has + V3): «since», «for», «so far», «recently» ile; geçmişte başlayıp etkisi süren durumlar için.\n• Past simple: «in 2019», «last year», «... ago» gibi bitmiş bir zamanı gösteren ifadelerle; present perfect ile asla karışmaz.\n• Past perfect (had + V3): geçmişteki iki olaydan ÖNCE olanı için. «by the time», «before», «after», «no sooner ... than» kalıplarında beklenen zamandır.\n• Future perfect (will have + V3): «by 2030», «by the end of the year» gibi gelecekteki bir sınırdan önce bitecek eylemler için.\n\nEn sık düşülen tuzak: «by the time» görünce present perfect işaretlemek. Oysa «by the time» ile kurulan yan cümle past simple kalır, past perfect'e geçen ANA CÜMLEDİR.\n\nÖrnek: By the time the results were published, the team had already left the laboratory."
             }
           ],
           "questions": [
@@ -903,7 +903,7 @@
               "id": "yds-practice-lesson-conditionals-q08",
               "kind": "grammar",
               "order": 7,
-              "prompt": "If governments ---- the same urgency to biodiversity loss that they show to inflation, far fewer species would be under threat today.",
+              "prompt": "If governments ---- the same importance to biodiversity loss as they do to inflation, far fewer species would be under threat today.",
               "options": [
                 "will attach",
                 "attached",
@@ -1488,8 +1488,8 @@
               "order": 7,
               "prompt": "The survey found that rural households spend twice as much on transport as urban ones, ----.",
               "options": [
-                "because urban households therefore spend more",
-                "which explains why fuel taxes are politically so sensitive in the countryside",
+                "because urban households therefore spend more on fuel",
+                "which explains why fuel taxes are so sensitive in rural areas",
                 "in order that rural incomes have remained low",
                 "whose figures were collected before the pandemic began",
                 "unless the survey is repeated every five years"
@@ -1572,7 +1572,7 @@
                 "whether had the treatment worked in the second population",
                 "about why the treatment works differently in different populations",
                 "how does the same treatment produce such different results",
-                "why the same treatment works so well in one population and so poorly in another"
+                "why the same treatment works so differently in different populations"
               ],
               "correctIndex": 4,
               "explanationTR": "«explain» fiili nesne olarak bir SORU CÜMLECİĞİ alır ve bu cümlecikte düz cümle sırası korunur: «why + özne + fiil». Bunu yapan tek seçenek (E). (B) ve (D) gömülü cümlenin içinde soru sırasını, yani devrik yapıyı koruyor; bu yapılmaz. (A) «explain» arkasına «to + fiil» almaz. (C) ise «explain about» der; oysa bu fiil doğrudan nesne alır, araya edat girmez.",
