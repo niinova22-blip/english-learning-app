@@ -19,15 +19,18 @@ struct PracticeQuestionView: View {
     @State private var isPassageExpanded = true
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
+    /// Cap for the expanded passage; scales with Dynamic Type.
+    @ScaledMetric(relativeTo: .body) private var passageMaxHeight: CGFloat = 220
+
     private var isAnswered: Bool { selectedIndex != nil }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
+            if let passage {
+                passagePanel(passage)
+            }
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
-                    if let passage {
-                        passagePanel(passage)
-                    }
                     Text(question.prompt)
                         .font(.body.weight(.medium))
                         .foregroundStyle(Theme.ink)
@@ -46,6 +49,11 @@ struct PracticeQuestionView: View {
             }
         }
         .animation(reduceMotion ? nil : .easeInOut(duration: 0.2), value: selectedIndex)
+        .onChange(of: selectedIndex) { _, newValue in
+            guard let newValue else { return }
+            let verdict = newValue == question.correctIndex ? "Doğru" : "Yanlış"
+            AccessibilityNotification.Announcement("\(verdict). \(question.explanationTR)").post()
+        }
     }
 
     @ViewBuilder
@@ -64,14 +72,22 @@ struct PracticeQuestionView: View {
                             .font(.caption.weight(.semibold))
                             .foregroundStyle(Theme.secondaryInk)
                     }
+                    .frame(minHeight: 44)
+                    .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel(isPassageExpanded ? "Metni gizle: \(passage.title)" : "Metni göster: \(passage.title)")
                 if isPassageExpanded {
-                    Text(passage.body)
-                        .font(.callout)
-                        .foregroundStyle(Theme.ink)
-                        .textSelection(.enabled)
+                    // Own scroll view with a capped height, so the options stay
+                    // reachable even with a long passage or large Dynamic Type.
+                    ScrollView {
+                        Text(passage.body)
+                            .font(.callout)
+                            .foregroundStyle(Theme.ink)
+                            .textSelection(.enabled)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                    }
+                    .frame(maxHeight: passageMaxHeight)
                 }
             }
         }
@@ -105,7 +121,7 @@ struct PracticeQuestionView: View {
             )
         }
         .buttonStyle(.plain)
-        .disabled(isAnswered)
+        .allowsHitTesting(!isAnswered)
         .accessibilityLabel(PracticeOptionText.accessibilityLabel(index: index, text: option, state: state))
     }
 

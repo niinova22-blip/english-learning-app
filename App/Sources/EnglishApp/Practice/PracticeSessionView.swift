@@ -16,6 +16,9 @@ struct PracticeSessionView: View {
         Group {
             if let loadError {
                 ContentUnavailableView("Oturum açılamadı", systemImage: "exclamationmark.triangle", description: Text(loadError))
+                    .overlay(alignment: .bottom) {
+                        Button("Plana dön", action: onClose).buttonStyle(PrimaryButtonStyle()).padding()
+                    }
             } else if let viewModel {
                 content(viewModel)
             } else {
@@ -80,6 +83,8 @@ struct PracticeSessionView: View {
             HStack(spacing: 12) {
                 Button(action: onClose) {
                     Image(systemName: "xmark").font(.headline).foregroundStyle(Theme.secondaryInk)
+                        .frame(minWidth: 44, minHeight: 44)
+                        .contentShape(Rectangle())
                 }
                 .accessibilityLabel("Kapat")
                 ProgressBar(progress: vm.progress)
@@ -89,19 +94,36 @@ struct PracticeSessionView: View {
                 .font(.caption2.weight(.semibold)).tracking(1.2)
                 .foregroundStyle(Theme.secondaryInk)
                 .frame(maxWidth: .infinity, alignment: .leading)
+            if let message = vm.saveError {
+                saveErrorRow(vm, message: message)
+            }
             body()
         }
         .padding()
         .sensoryFeedback(.selection, trigger: vm.currentIndex)
-        .alert(
-            "Kaydedilemedi",
-            isPresented: Binding(get: { vm.saveError != nil }, set: { if !$0 { vm.clearSaveError() } }),
-            presenting: vm.saveError
-        ) { _ in
-            Button("Tekrar dene") { vm.retrySave() }
-            Button("Kapat", role: .cancel) { vm.clearSaveError() }
-        } message: { message in
+    }
+
+    private func saveErrorRow(_ vm: PracticeSessionViewModel, message: String) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Label("Kaydedilemedi", systemImage: "exclamationmark.triangle.fill")
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(Theme.danger)
             Text(message)
+                .font(.footnote)
+                .foregroundStyle(Theme.ink)
+            HStack(spacing: 16) {
+                Button("Tekrar dene") { vm.retrySave() }
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.primary)
+                Button("Kapat") { vm.clearSaveError() }
+                    .font(.subheadline)
+                    .foregroundStyle(Theme.secondaryInk)
+            }
         }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Theme.danger.opacity(0.10), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(Theme.danger, lineWidth: 1))
+        .accessibilityElement(children: .contain)
     }
 }
