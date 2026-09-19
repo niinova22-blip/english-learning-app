@@ -43,9 +43,14 @@ final class OnboardingViewModel {
         selectedPackageID = goalOptions.first?.id
     }
 
+    /// True when no content package is installed, so there is nothing to pick.
+    var hasNoPackages: Bool { goalOptions.isEmpty }
+
     func advance() {
         switch step {
-        case .goalSelection: step = .examDate
+        case .goalSelection:
+            guard !hasNoPackages else { return }
+            step = .examDate
         case .examDate: step = .dailyDuration
         case .dailyDuration:
             prepareLevelTest()
@@ -123,15 +128,10 @@ final class OnboardingViewModel {
             profile.hasSkippedLevelTest = skippedLevelTest
 
             if let outcome {
-                if let existingResult = try context.fetch(FetchDescriptor<LevelTestResult>(predicate: #Predicate { $0.userID == userIDValue })).first {
-                    existingResult.cefrLevel = outcome.cefrLevel
-                    existingResult.vocabularyScore = outcome.vocabularyScore
-                    existingResult.completedAt = clock()
-                } else {
-                    context.insert(LevelTestResult(userID: userID, cefrLevel: outcome.cefrLevel, vocabularyScore: outcome.vocabularyScore, completedAt: clock()))
-                }
+                try LevelTestResultStore.save(outcome, in: context, userID: userID, now: clock())
+            } else {
+                try context.save()
             }
-            try context.save()
             step = .done
             isOnboardingComplete = true
         } catch {

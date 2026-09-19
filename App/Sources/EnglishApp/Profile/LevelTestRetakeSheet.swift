@@ -41,7 +41,7 @@ struct LevelTestRetakeSheet: View {
                 VStack(spacing: 12) {
                     LevelTestResultView(outcome: outcome, buttonTitle: "Tamam") {
                         do {
-                            try persist(outcome)
+                            try LevelTestResultStore.save(outcome, in: context, userID: UserIdentity.current)
                             onFinished(outcome)
                             dismiss()
                         } catch {
@@ -70,20 +70,5 @@ struct LevelTestRetakeSheet: View {
         } else {
             ProgressView().frame(maxWidth: .infinity, minHeight: 300)
         }
-    }
-
-    private func persist(_ outcome: LevelTestOutcome) throws {
-        let userIDValue = UserIdentity.current
-        if let existing = try context.fetch(FetchDescriptor<LevelTestResult>(predicate: #Predicate { $0.userID == userIDValue })).first {
-            existing.cefrLevel = outcome.cefrLevel
-            existing.vocabularyScore = outcome.vocabularyScore
-            existing.completedAt = Date()
-        } else {
-            context.insert(LevelTestResult(userID: userIDValue, cefrLevel: outcome.cefrLevel, vocabularyScore: outcome.vocabularyScore, completedAt: Date()))
-        }
-        if let profile = try context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userIDValue })).first {
-            profile.hasSkippedLevelTest = false
-        }
-        try context.save()
     }
 }

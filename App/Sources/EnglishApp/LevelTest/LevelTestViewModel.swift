@@ -36,7 +36,7 @@ final class LevelTestViewModel {
 
     init(candidates: [LevelTestCandidate]) {
         self.candidates = candidates
-        self.isReady = candidates.count >= LevelTestEngine.questionCount
+        self.isReady = candidates.count >= LevelTestEngine.minimumCandidates
     }
 
     func start() {

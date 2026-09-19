@@ -17,6 +17,15 @@ final class LevelTestViewModelTests: XCTestCase {
     }
 
     @MainActor
+    func test_isReady_requiresQuestionCountPlusThreeCandidates() {
+        XCTAssertEqual(LevelTestEngine.minimumCandidates, LevelTestEngine.questionCount + 3)
+        for count in 12...14 {
+            XCTAssertFalse(LevelTestViewModel(candidates: makeCandidates(count: count)).isReady, "\(count) candidates")
+        }
+        XCTAssertTrue(LevelTestViewModel(candidates: makeCandidates(count: 15)).isReady)
+    }
+
+    @MainActor
     func test_start_loadsFirstQuestion() {
         let vm = LevelTestViewModel(candidates: makeCandidates())
         XCTAssertTrue(vm.isReady)

@@ -27,6 +27,11 @@ public struct LevelTestQuestion: Sendable, Equatable {
 public struct LevelTestOutcome: Sendable, Equatable {
     public let cefrLevel: CEFRLevel
     public let vocabularyScore: Double
+
+    public init(cefrLevel: CEFRLevel, vocabularyScore: Double) {
+        self.cefrLevel = cefrLevel
+        self.vocabularyScore = vocabularyScore
+    }
 }
 
 /// A single adaptive-staircase level test administration over a fixed
@@ -40,6 +45,10 @@ public struct LevelTestOutcome: Sendable, Equatable {
 /// within one administration.
 public struct LevelTestEngine: Sendable {
     public static let questionCount = 12
+
+    /// Questions need 3 other headwords as distractors, so a session needs
+    /// this many candidates (not just `questionCount`) to always complete.
+    public static let minimumCandidates = questionCount + 3
 
     /// One step per question, applied to move the *next* question's target
     /// difficulty after this question's result. Shrinks every 3 questions
@@ -66,11 +75,11 @@ public struct LevelTestEngine: Sendable {
 
     public private(set) var currentQuestion: LevelTestQuestion?
 
-    /// - Precondition: `candidates.count >= LevelTestEngine.questionCount`.
+    /// - Precondition: `candidates.count >= LevelTestEngine.minimumCandidates`.
     ///   Callers must check this themselves (e.g. `LevelTestViewModel.isReady`)
     ///   before constructing a session.
     public init<RNG: RandomNumberGenerator>(candidates: [LevelTestCandidate], using rng: inout RNG) {
-        precondition(candidates.count >= Self.questionCount, "LevelTestEngine needs at least \(Self.questionCount) candidates, got \(candidates.count)")
+        precondition(candidates.count >= Self.minimumCandidates, "LevelTestEngine needs at least \(Self.minimumCandidates) candidates, got \(candidates.count)")
         self.remaining = candidates
         let sortedDifficulties = candidates.map(\.baseDifficulty).sorted()
         self.targetDifficulty = sortedDifficulties[sortedDifficulties.count / 2]

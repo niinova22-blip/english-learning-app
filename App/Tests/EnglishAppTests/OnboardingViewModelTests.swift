@@ -112,4 +112,20 @@ final class OnboardingViewModelTests: XCTestCase {
         XCTAssertEqual(result.userID, userID)
         XCTAssertEqual(result.vocabularyScore, 1.0, accuracy: 1e-9)
     }
+
+    @MainActor
+    func test_noInstalledPackages_hasNoPackagesAndCannotAdvance() throws {
+        let container = try ModelContainer(for: AppModelContainer.schema, configurations: [ModelConfiguration(schema: AppModelContainer.schema, isStoredInMemoryOnly: true)])
+        let vm = OnboardingViewModel(context: ModelContext(container), userID: userID, clock: { self.now })
+        XCTAssertTrue(vm.hasNoPackages)
+        XCTAssertNil(vm.selectedPackageID)
+        vm.advance()
+        XCTAssertEqual(vm.step, .goalSelection)
+    }
+
+    func test_rootGate_fallsThroughToTabsWhenNoPackageInstalled() {
+        XCTAssertTrue(RootTabView.shouldShowOnboarding(hasCompletedOnboarding: false, hasInstalledPackage: true))
+        XCTAssertFalse(RootTabView.shouldShowOnboarding(hasCompletedOnboarding: false, hasInstalledPackage: false))
+        XCTAssertFalse(RootTabView.shouldShowOnboarding(hasCompletedOnboarding: true, hasInstalledPackage: true))
+    }
 }

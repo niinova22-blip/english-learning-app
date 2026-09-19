@@ -2,12 +2,20 @@ import SwiftUI
 import SwiftData
 import LearningEngine
 
+/// Plain-value copy of the stored level-test result, so the view never holds a
+/// live model object that a data reset could delete out from under it.
+struct LevelTestSnapshot: Equatable {
+    let level: CEFRLevel
+    let score: Double
+}
+
 struct ProfileView: View {
     @Environment(\.modelContext) private var context
     @Environment(AppState.self) private var appState
     @AppStorage(DevelopmentPackageAccessProvider.unlockAllKey) private var unlockAll = false
     @State private var stats: LearnerStats?
-    @State private var levelTestResult: LevelTestResult?
+    @State private var levelTestSnapshot: LevelTestSnapshot?
+    @State private var examDate: Date?
     @State private var hasSkippedLevelTest = false
     @State private var showLevelTestSheet = false
     @State private var showResetConfirmation = false
@@ -24,20 +32,24 @@ struct ProfileView: View {
                     row("Erişim", stats?.accessLevel == .owned ? "Tam sürüm" : "Önizleme", tint: Theme.accent)
                     Divider()
                     row("Günlük süre", "\(stats?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes) dk")
+                    if let examDate {
+                        Divider()
+                        row("Sınav tarihi", examDate.formatted(.dateTime.day().month(.wide).year().locale(Locale(identifier: "tr_TR"))))
+                    }
                 }
 
                 section("SEVİYEM") {
-                    if let levelTestResult {
-                        row("Tahmini seviye", levelTestResult.cefrLevel.rawValue, tint: Theme.primary)
+                    if let levelTestSnapshot {
+                        row("Tahmini seviye", levelTestSnapshot.level.rawValue, tint: Theme.primary)
                         Divider()
-                        row("Kelime bilgisi", "%\(Int((levelTestResult.vocabularyScore * 100).rounded()))")
+                        row("Kelime bilgisi", "%\(Int((levelTestSnapshot.score * 100).rounded()))")
                         Text("Bu, sadece bu paketin kelime listesine göre kaba bir tahmindir.")
                             .font(.caption).foregroundStyle(Theme.secondaryInk)
                     } else {
                         Text(hasSkippedLevelTest ? "Seviye testini atladın." : "Henüz bir seviye tahmini yok.")
                             .font(.subheadline).foregroundStyle(Theme.secondaryInk)
                     }
-                    Button(levelTestResult == nil ? "Seviye testini şimdi yap" : "Yeniden test et") {
+                    Button(levelTestSnapshot == nil ? "Seviye testini şimdi yap" : "Yeniden test et") {
                         showLevelTestSheet = true
                     }
                     .buttonStyle(.plain).foregroundStyle(Theme.primary)
@@ -122,8 +134,11 @@ struct ProfileView: View {
     private func refresh() {
         let userID = UserIdentity.current
         stats = try? TodayPlanCoordinator(context: context, userID: userID, accessProvider: appState.accessProvider).stats()
-        levelTestResult = try? context.fetch(FetchDescriptor<LevelTestResult>(predicate: #Predicate { $0.userID == userID })).first
-        hasSkippedLevelTest = (try? context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userID })).first?.hasSkippedLevelTest) ?? false
+        let result = try? context.fetch(FetchDescriptor<LevelTestResult>(predicate: #Predicate { $0.userID == userID })).first
+        levelTestSnapshot = result.map { LevelTestSnapshot(level: $0.cefrLevel, score: $0.vocabularyScore) }
+        let profile = try? context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userID })).first
+        hasSkippedLevelTest = profile?.hasSkippedLevelTest ?? false
+        examDate = profile?.examDate
     }
 
     private func resetAllData() {

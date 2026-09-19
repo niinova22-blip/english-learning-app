@@ -5,6 +5,7 @@ import LearningEngine
 struct RootTabView: View {
     @Environment(AppState.self) private var appState
     @Query private var profiles: [LearnerProfile]
+    @Query private var packages: [ContentPackage]
 
     init() {
         let userID = UserIdentity.current
@@ -15,8 +16,14 @@ struct RootTabView: View {
         profiles.first?.onboardingCompletedAt != nil
     }
 
+    /// Onboarding needs a package to pick; with none installed, fall through to
+    /// the tabs so Profil (storage warning, reset) stays reachable.
+    static func shouldShowOnboarding(hasCompletedOnboarding: Bool, hasInstalledPackage: Bool) -> Bool {
+        !hasCompletedOnboarding && hasInstalledPackage
+    }
+
     var body: some View {
-        if hasCompletedOnboarding {
+        if !Self.shouldShowOnboarding(hasCompletedOnboarding: hasCompletedOnboarding, hasInstalledPackage: !packages.isEmpty) {
             TabView {
                 TodayPlanView()
                     .tabItem { Label("Bugün", systemImage: "sun.max") }

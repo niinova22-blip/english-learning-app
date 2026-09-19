@@ -15,6 +15,11 @@ struct OnboardingFlowView: View {
                         ProgressBar(progress: viewModel.progressFraction)
                             .padding(.horizontal).padding(.top, 12)
                         ScrollView { stepContent(viewModel).padding() }
+                        if let loadError = viewModel.loadError {
+                            Text("Kaydedilemedi: \(loadError)")
+                                .font(.footnote).foregroundStyle(Theme.danger)
+                                .padding(.horizontal).padding(.bottom, 8)
+                        }
                     }
                     .background(Theme.paper.ignoresSafeArea())
                     .toolbar(.hidden, for: .navigationBar)
@@ -69,6 +74,10 @@ private struct GoalSelectionStep: View {
         VStack(alignment: .leading, spacing: 16) {
             Text("Hedefini seç").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Text("Çalışma planın seçtiğin hedefe göre kurulur.").font(.subheadline).foregroundStyle(Theme.secondaryInk)
+            if viewModel.hasNoPackages {
+                Text("Henüz yüklü bir ders paketi yok. Uygulamayı yeniden başlatmayı dene; olmazsa Profil sekmesinden yerel verileri sıfırlayabilirsin.")
+                    .font(.subheadline).foregroundStyle(Theme.danger)
+            }
             ForEach(viewModel.goalOptions) { option in
                 Button {
                     viewModel.selectedPackageID = option.id
