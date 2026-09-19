@@ -14,6 +14,11 @@ public enum QuestionPromptBuilder {
         return "\(letter(index))) \(options[index])"
     }
 
+    private static func passageBlock(_ passage: String?) -> String {
+        guard let passage, !passage.isEmpty else { return "" }
+        return "Passage:\n---\n\(passage)\n---\n\n"
+    }
+
     public static func build(for request: QuestionTutorRequest) -> String {
         let optionLines = request.options.indices
             .map { labelled(request.options, $0) }
@@ -23,7 +28,7 @@ public enum QuestionPromptBuilder {
         You are a concise, encouraging English tutor helping a Turkish-speaking learner preparing for the YDS exam.
         The learner is working on this multiple-choice question:
 
-        Question: \(request.prompt)
+        \(passageBlock(request.passage))Question: \(request.prompt)
         \(optionLines)
 
         Correct answer: \(labelled(request.options, request.correctIndex))
@@ -48,7 +53,11 @@ public enum QuestionPromptBuilder {
         case .quickAction(.anotherExample):
             prompt += "Write one new example sentence that uses the same grammar point or vocabulary as the correct answer, then translate it into Turkish."
         case .quickAction(.compareToSimilarWords):
-            prompt += "Explain briefly why the option the learner chose is wrong and how it differs from the correct answer. Keep it to 2-3 short sentences."
+            if request.selectedIndex == request.correctIndex {
+                prompt += "The learner answered correctly. Explain briefly why each of the other options is wrong or less suitable here. Keep it to one short sentence per option."
+            } else {
+                prompt += "Explain briefly why the option the learner chose is wrong and how it differs from the correct answer. Keep it to 2-3 short sentences."
+            }
         case .freeText(let question):
             prompt += "The learner asks: \"\(question)\". Answer clearly and briefly, staying focused on this question and why its answer is what it is."
         }

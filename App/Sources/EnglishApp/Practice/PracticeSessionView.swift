@@ -30,6 +30,15 @@ struct PracticeSessionView: View {
             }
         }
         .background(Theme.paper.ignoresSafeArea())
+        .sheet(isPresented: $showTutorSheet) {
+            if let engine = appState.tutorEngine, let vm = viewModel, let question = vm.current {
+                TutorSheetView(engine: engine, questionContext: .question(
+                    prompt: question.prompt, options: question.options,
+                    correctIndex: question.correctIndex, selectedIndex: vm.selectedIndex,
+                    explanationTR: question.explanationTR, passage: vm.passage?.body
+                ))
+            }
+        }
         .task { start() }
     }
 
@@ -78,15 +87,6 @@ struct PracticeSessionView: View {
                         onSelect: { vm.select($0) }, onNext: { vm.next() },
                         onTutor: { Task { await openTutor() } }
                     )
-                    .sheet(isPresented: $showTutorSheet) {
-                        if let engine = appState.tutorEngine {
-                            TutorSheetView(engine: engine, questionContext: .question(
-                                prompt: question.prompt, options: question.options,
-                                correctIndex: question.correctIndex, selectedIndex: vm.selectedIndex,
-                                explanationTR: question.explanationTR
-                            ))
-                        }
-                    }
                 }
             }
         }

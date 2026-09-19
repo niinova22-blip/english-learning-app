@@ -26,7 +26,7 @@ final class TutorViewModel {
 
     enum Context {
         case card(TutorContext)
-        case question(prompt: String, options: [String], correctIndex: Int, selectedIndex: Int?, explanationTR: String)
+        case question(prompt: String, options: [String], correctIndex: Int, selectedIndex: Int?, explanationTR: String, passage: String? = nil)
     }
 
     struct TutorContext {
@@ -72,10 +72,11 @@ final class TutorViewModel {
                     exampleSentences: card.exampleSentences, translationTR: card.translationTR, ask: ask
                 )
                 response = try await withTimeout { try await self.engine.respond(to: request) }
-            case .question(let prompt, let options, let correctIndex, let selectedIndex, let explanationTR):
+            case .question(let prompt, let options, let correctIndex, let selectedIndex, let explanationTR, let passage):
                 let request = QuestionTutorRequest(
                     prompt: prompt, options: options, correctIndex: correctIndex,
-                    selectedIndex: selectedIndex, explanationTR: explanationTR, ask: ask
+                    selectedIndex: selectedIndex, explanationTR: explanationTR, ask: ask,
+                    passage: passage
                 )
                 response = try await withTimeout { try await self.engine.respond(to: request) }
             }

@@ -5,6 +5,7 @@ struct TutorSheetView: View {
     @State private var viewModel: TutorViewModel
     @State private var freeTextQuestion = ""
     @State private var isQuestionContext: Bool
+    @State private var learnerWasCorrect = false
     @Environment(\.dismiss) private var dismiss
 
     init(engine: any TutorEngine, context: TutorViewModel.TutorContext) {
@@ -15,6 +16,9 @@ struct TutorSheetView: View {
     init(engine: any TutorEngine, questionContext: TutorViewModel.Context) {
         _viewModel = State(initialValue: TutorViewModel(engine: engine, context: questionContext))
         _isQuestionContext = State(initialValue: true)
+        if case .question(_, _, let correctIndex, let selectedIndex, _, _) = questionContext {
+            _learnerWasCorrect = State(initialValue: selectedIndex == correctIndex)
+        }
     }
 
     var body: some View {
@@ -42,7 +46,7 @@ struct TutorSheetView: View {
         VStack(alignment: .leading, spacing: 8) {
             quickAction(isQuestionContext ? "Neden bu cevap?" : "Daha basit anlat") { await viewModel.ask(.simplerExplanation) }
             quickAction(isQuestionContext ? "Benzer bir örnek ver" : "Başka bir örnek ver") { await viewModel.ask(.anotherExample) }
-            quickAction(isQuestionContext ? "Benim cevabım neden yanlış?" : "Benzer kelimelerden farkı ne?") { await viewModel.ask(.compareToSimilarWords) }
+            quickAction(isQuestionContext ? (learnerWasCorrect ? "Diğer şıklar neden yanlış?" : "Benim cevabım neden yanlış?") : "Benzer kelimelerden farkı ne?") { await viewModel.ask(.compareToSimilarWords) }
         }
     }
 

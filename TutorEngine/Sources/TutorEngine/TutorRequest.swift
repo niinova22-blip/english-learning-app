@@ -61,11 +61,15 @@ public struct QuestionTutorRequest: Sendable, Equatable {
     /// The authored Turkish explanation, so the model does not contradict it.
     public let explanationTR: String
     public let ask: TutorAsk
+    /// Body of the reading passage the question belongs to, if any.
+    public let passage: String?
 
     public init(
         prompt: String, options: [String], correctIndex: Int,
-        selectedIndex: Int?, explanationTR: String, ask: TutorAsk
+        selectedIndex: Int?, explanationTR: String, ask: TutorAsk,
+        passage: String? = nil
     ) {
+        self.passage = passage
         self.prompt = prompt
         self.options = options
         self.correctIndex = correctIndex

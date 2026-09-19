@@ -59,6 +59,39 @@ final class QuestionPromptBuilderTests: XCTestCase {
         XCTAssertTrue(QuestionPromptBuilder.build(for: asked).contains("The learner asks: \"Why not present perfect?\""))
     }
 
+    func test_compareAction_whenLearnerWasCorrect_asksAboutTheOtherOptions() {
+        let correct = QuestionTutorRequest(
+            prompt: request.prompt, options: request.options, correctIndex: 1,
+            selectedIndex: 1, explanationTR: request.explanationTR,
+            ask: .quickAction(.compareToSimilarWords)
+        )
+        let prompt = QuestionPromptBuilder.build(for: correct)
+        XCTAssertTrue(prompt.contains("The learner answered correctly."))
+        XCTAssertTrue(prompt.contains("why each of the other options is wrong or less suitable"))
+        XCTAssertFalse(prompt.contains("why the option the learner chose is wrong"))
+    }
+
+    func test_passage_isIncludedBeforeTheQuestionOnlyWhenPresent() {
+        let withPassage = QuestionTutorRequest(
+            prompt: request.prompt, options: request.options, correctIndex: 1,
+            selectedIndex: 0, explanationTR: request.explanationTR,
+            ask: request.ask, passage: "Central banks shape markets."
+        )
+        let prompt = QuestionPromptBuilder.build(for: withPassage)
+        XCTAssertTrue(prompt.contains("Passage:\n---\nCentral banks shape markets.\n---\n\nQuestion:"))
+        XCTAssertFalse(QuestionPromptBuilder.build(for: request).contains("Passage:"))
+    }
+
+    func test_outOfRangeIndices_fallBackToDash() {
+        let odd = QuestionTutorRequest(
+            prompt: request.prompt, options: request.options, correctIndex: 9,
+            selectedIndex: 7, explanationTR: request.explanationTR, ask: request.ask
+        )
+        let prompt = QuestionPromptBuilder.build(for: odd)
+        XCTAssertTrue(prompt.contains("Correct answer: -\n"))
+        XCTAssertTrue(prompt.contains("The learner chose: -\n"))
+    }
+
     func test_promptIsDeterministic() {
         XCTAssertEqual(QuestionPromptBuilder.build(for: request), QuestionPromptBuilder.build(for: request))
     }
