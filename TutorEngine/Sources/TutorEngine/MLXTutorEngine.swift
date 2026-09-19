@@ -29,6 +29,11 @@ public actor MLXTutorEngine: TutorEngine {
         return try await runGeneration(UserInput(prompt: prompt))
     }
 
+    public func respond(to question: QuestionTutorRequest) async throws -> String {
+        let prompt = QuestionPromptBuilder.build(for: question)
+        return try await runGeneration(UserInput(prompt: prompt))
+    }
+
     /// Uses `MLXLMCommon`'s native multi-turn input (`UserInput(chat:)`),
     /// so the tutor instructions go in the system role and earlier replies
     /// are real assistant turns rendered by the model's chat template.

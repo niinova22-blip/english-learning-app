@@ -16,6 +16,14 @@ private final class FakeTutorEngine: TutorEngine {
     func respond(to chat: ChatRequest) async throws -> String {
         fatalError("not used by TutorViewModelTests")
     }
+
+    private(set) var lastQuestionRequest: QuestionTutorRequest?
+
+    func respond(to question: QuestionTutorRequest) async throws -> String {
+        lastQuestionRequest = question
+        if let stubbedError { throw stubbedError }
+        return stubbedResponse
+    }
 }
 
 private struct StubError: Error {}
@@ -28,6 +36,24 @@ final class TutorViewModelTests: XCTestCase {
         exampleSentences: ["The country's economy grew by three percent last year."],
         translationTR: "ekonomi"
     )
+
+    func test_questionContext_sendsAQuestionRequestCarryingTheLearnersAnswer() async {
+        let engine = FakeTutorEngine()
+        engine.stubbedResponse = "Past perfect is needed here."
+        let viewModel = TutorViewModel(engine: engine, context: .question(
+            prompt: "By the time the bank announced the rate, investors ---- their portfolios.",
+            options: ["a", "b", "c", "d", "e"], correctIndex: 1, selectedIndex: 3,
+            explanationTR: "«By the time» past perfect ister."
+        ))
+
+        await viewModel.ask(.compareToSimilarWords)
+
+        XCTAssertEqual(viewModel.state, .response("Past perfect is needed here."))
+        XCTAssertEqual(engine.lastQuestionRequest?.correctIndex, 1)
+        XCTAssertEqual(engine.lastQuestionRequest?.selectedIndex, 3)
+        XCTAssertEqual(engine.lastQuestionRequest?.ask, .quickAction(.compareToSimilarWords))
+        XCTAssertNil(engine.lastRequest, "a question context must not send a card TutorRequest")
+    }
 
     func test_initialState_isIdle() {
         let viewModel = TutorViewModel(engine: FakeTutorEngine(), context: context)

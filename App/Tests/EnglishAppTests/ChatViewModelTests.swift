@@ -12,6 +12,10 @@ private final class FakeChatEngine: TutorEngine {
         fatalError("not used by ChatViewModelTests")
     }
 
+    func respond(to question: QuestionTutorRequest) async throws -> String {
+        fatalError("not used by ChatViewModelTests")
+    }
+
     func respond(to chat: ChatRequest) async throws -> String {
         lastChatRequest = chat
         chatRequestCount += 1
@@ -41,6 +45,10 @@ private final class ControllableChatEngine: TutorEngine {
     private var pendingContinuations: [CheckedContinuation<String, Error>] = []
 
     func respond(to request: TutorRequest) async throws -> String {
+        fatalError("not used by ChatViewModelTests")
+    }
+
+    func respond(to question: QuestionTutorRequest) async throws -> String {
         fatalError("not used by ChatViewModelTests")
     }
 

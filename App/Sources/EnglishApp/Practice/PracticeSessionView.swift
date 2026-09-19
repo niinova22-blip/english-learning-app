@@ -2,15 +2,19 @@
 import SwiftUI
 import SwiftData
 import LearningEngine
+import TutorEngine
 
 struct PracticeSessionView: View {
     let mode: PracticeSessionViewModel.Mode
     let onClose: () -> Void
 
     @Environment(\.modelContext) private var context
+    @Environment(AppState.self) private var appState
 
     @State private var viewModel: PracticeSessionViewModel?
     @State private var loadError: String?
+    @State private var isLoadingTutor = false
+    @State private var showTutorSheet = false
 
     var body: some View {
         Group {
@@ -68,12 +72,37 @@ struct PracticeSessionView: View {
                 if let question = vm.current {
                     PracticeQuestionView(
                         question: question, passage: vm.passage, selectedIndex: vm.selectedIndex,
-                        skill: vm.skill, showsTutorButton: false, isLoadingTutor: false,
-                        onSelect: { vm.select($0) }, onNext: { vm.next() }, onTutor: {}
+                        skill: vm.skill,
+                        showsTutorButton: appState.isTutorAvailable,
+                        isLoadingTutor: isLoadingTutor,
+                        onSelect: { vm.select($0) }, onNext: { vm.next() },
+                        onTutor: { Task { await openTutor() } }
                     )
+                    .sheet(isPresented: $showTutorSheet) {
+                        if let engine = appState.tutorEngine {
+                            TutorSheetView(engine: engine, questionContext: .question(
+                                prompt: question.prompt, options: question.options,
+                                correctIndex: question.correctIndex, selectedIndex: vm.selectedIndex,
+                                explanationTR: question.explanationTR
+                            ))
+                        }
+                    }
                 }
             }
         }
+    }
+
+    /// Same single-flight rule as StudySessionView: AppState dedupes
+    /// concurrent loads, and a nil engine means "not available", never an
+    /// error shown to the learner.
+    private func openTutor() async {
+        guard !isLoadingTutor else { return }
+        if appState.tutorEngine == nil {
+            isLoadingTutor = true
+            await appState.loadTutorEngineIfNeeded()
+            isLoadingTutor = false
+        }
+        if appState.tutorEngine != nil { showTutorSheet = true }
     }
 
     /// Shared chrome: close button, progress bar, context line, error alert.

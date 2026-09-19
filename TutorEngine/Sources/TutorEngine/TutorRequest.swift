@@ -46,4 +46,31 @@ public struct TutorRequest: Sendable, Equatable {
 public protocol TutorEngine {
     func respond(to request: TutorRequest) async throws -> String
     func respond(to chat: ChatRequest) async throws -> String
+    func respond(to question: QuestionTutorRequest) async throws -> String
+}
+
+/// Everything needed to answer a tutor ask about one practice question: the
+/// question as the learner saw it, the key, and which option they picked.
+/// Like `TutorRequest`, it carries no conversation history.
+public struct QuestionTutorRequest: Sendable, Equatable {
+    public let prompt: String
+    public let options: [String]
+    public let correctIndex: Int
+    /// Nil if the learner opened the tutor before answering.
+    public let selectedIndex: Int?
+    /// The authored Turkish explanation, so the model does not contradict it.
+    public let explanationTR: String
+    public let ask: TutorAsk
+
+    public init(
+        prompt: String, options: [String], correctIndex: Int,
+        selectedIndex: Int?, explanationTR: String, ask: TutorAsk
+    ) {
+        self.prompt = prompt
+        self.options = options
+        self.correctIndex = correctIndex
+        self.selectedIndex = selectedIndex
+        self.explanationTR = explanationTR
+        self.ask = ask
+    }
 }
