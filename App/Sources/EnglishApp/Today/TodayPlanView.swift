@@ -113,6 +113,7 @@ struct TodayPlanView: View {
         case .startLesson(let id): activeSession = ActiveSession(mode: .lesson(id: id))
         case .comingSoon(let title): infoMessage = ("Bu ders türü yakında", title)
         case .locked(let title): infoMessage = ("Bu ders paketin tam sürümünde", title)
+        case .startPractice, .startPracticeReview: break  // wired in Task 9
         case .none: break
         }
     }

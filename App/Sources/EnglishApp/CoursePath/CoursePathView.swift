@@ -63,7 +63,7 @@ struct CoursePathView: View {
         case .startLesson(let id): activeSession = ActiveLessonSession(lessonID: id)
         case .comingSoon(let title): infoMessage = ("Bu ders türü yakında", title)
         case .locked(let title): infoMessage = ("Bu ders paketin tam sürümünde", title)
-        case .startReview, .none: break
+        case .startReview, .startPractice, .startPracticeReview, .none: break
         }
     }
 

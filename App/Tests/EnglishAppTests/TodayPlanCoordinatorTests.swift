@@ -161,4 +161,59 @@ final class TodayPlanCoordinatorTests: XCTestCase {
         let input = try XCTUnwrap(coordinator(context).buildPlanInput())
         XCTAssertEqual(input.dueNowCount, 0)
     }
+
+    func makeRealContentContext() throws -> ModelContext {
+        let container = try ModelContainer(for: AppModelContainer.schema, configurations: [ModelConfiguration(schema: AppModelContainer.schema, isStoredInMemoryOnly: true)])
+        let context = ModelContext(container)
+        AppModelContainer.seedRealContentIfNeeded(in: context)
+        return context
+    }
+
+    /// A due practice card must produce a practiceReview task and must NOT be
+    /// counted as a due vocabulary word.
+    func test_duePracticeCard_becomesAPracticeReviewTask_andIsNotCountedAsAVocabularyReview() throws {
+        let context = try makeRealContentContext()
+        _ = try coordinator(context).ensureProfile()
+        let past = now.addingTimeInterval(-3600)
+        context.insert(UserItemState(
+            userID: userID, itemID: "yds-practice-card-tenses", stability: 1, difficulty: 5,
+            dueDate: past, reps: 1, lapses: 0, lastReviewedAt: past
+        ))
+        try context.save()
+
+        let input = try XCTUnwrap(coordinator(context).buildPlanInput())
+        XCTAssertEqual(input.dueNowCount, 0, "a due grammar topic must not inflate the vocabulary review task")
+        XCTAssertEqual(input.duePracticeCards.map(\.itemID), ["yds-practice-card-tenses"])
+        XCTAssertEqual(input.duePracticeCards.first?.skill, .grammar)
+        XCTAssertEqual(input.duePracticeCards.first?.lessonID, "yds-practice-lesson-tenses")
+        XCTAssertEqual(input.duePracticeCards.first?.title, "Zamanlar (Tenses)")
+        XCTAssertFalse(input.duePracticeCards.first?.isDone ?? true)
+
+        let plan = try XCTUnwrap(coordinator(context).buildPlan())
+        XCTAssertTrue(plan.tasks.contains { if case .practiceReview(let id, _, _, _, _, _) = $0 { return id == "yds-practice-card-tenses" } else { return false } })
+    }
+
+    func test_practiceCards_areNotCountedAsWordsSeen() throws {
+        let context = try makeRealContentContext()
+        _ = try coordinator(context).ensureProfile()
+        let past = now.addingTimeInterval(-3600)
+        context.insert(UserItemState(userID: userID, itemID: "yds-practice-card-tenses", stability: 1, difficulty: 5, dueDate: past, reps: 1, lapses: 0, lastReviewedAt: past))
+        context.insert(UserItemState(userID: userID, itemID: "yds-vocab1-item-economy", stability: 1, difficulty: 5, dueDate: past, reps: 1, lapses: 0, lastReviewedAt: past))
+        try context.save()
+
+        XCTAssertEqual(try coordinator(context).stats().wordsSeen, 1)
+    }
+
+    func test_aPracticeCardReviewedToday_marksTheTaskDone() throws {
+        let context = try makeRealContentContext()
+        _ = try coordinator(context).ensureProfile()
+        let past = now.addingTimeInterval(-3600)
+        context.insert(UserItemState(userID: userID, itemID: "yds-practice-card-tenses", stability: 1, difficulty: 5, dueDate: past, reps: 1, lapses: 0, lastReviewedAt: past))
+        context.insert(ReviewLog(userID: userID, itemID: "yds-practice-card-tenses", rating: .good, reviewedAt: past, reactionTimeMs: 0))
+        try context.save()
+
+        let input = try XCTUnwrap(coordinator(context).buildPlanInput())
+        XCTAssertEqual(input.reviewedTodayCount, 0, "a practice review must not count as a vocabulary review")
+        XCTAssertTrue(input.duePracticeCards.first?.isDone ?? false)
+    }
 }

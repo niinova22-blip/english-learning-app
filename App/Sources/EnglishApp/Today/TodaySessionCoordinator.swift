@@ -21,7 +21,7 @@ struct TodaySessionCoordinator {
         let userIDValue = userID
         let allStates = try context.fetch(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue }))
         let seenIDs = Set(allStates.map(\.itemID))
-        let seenItems = try context.fetch(FetchDescriptor<LearningItem>()).filter { seenIDs.contains($0.id) && $0.content != nil }
+        let seenItems = try context.fetch(FetchDescriptor<LearningItem>()).filter { seenIDs.contains($0.id) && $0.content != nil && $0.type.isVocabularyCard }
         let dueStates = allStates.filter { $0.dueDate <= now }
 
         return DailySessionBuilder().buildSession(

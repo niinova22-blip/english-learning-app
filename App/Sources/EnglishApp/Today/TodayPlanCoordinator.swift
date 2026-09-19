@@ -79,10 +79,26 @@ struct TodayPlanCoordinator {
         let userIDValue = userID
         let nowValue = now
         let existingItemIDs = try existingItemIDs()
+        let practiceIndex = try practiceItemIndex()
         let dueNowRows = try context.fetch(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue && $0.dueDate <= nowValue }))
-        let dueNowCount = dueNowRows.filter { existingItemIDs.contains($0.itemID) }.count
         let todaysLogs = try context.fetch(FetchDescriptor<ReviewLog>(predicate: #Predicate { $0.userID == userIDValue && $0.reviewedAt >= startOfToday }))
-        let reviewedTodayCount = Set(todaysLogs.filter { existingItemIDs.contains($0.itemID) }.map(\.itemID)).count
+        let reviewedTodayIDs = Set(todaysLogs.filter { existingItemIDs.contains($0.itemID) }.map(\.itemID))
+
+        // Practice cards live in UserItemState exactly like vocabulary items,
+        // so the vocabulary review task must exclude them explicitly or it
+        // would count grammar topics as due words.
+        let dueVocabularyRows = dueNowRows.filter { existingItemIDs.contains($0.itemID) && practiceIndex[$0.itemID] == nil }
+        let dueNowCount = dueVocabularyRows.count
+        let reviewedTodayCount = reviewedTodayIDs.subtracting(practiceIndex.keys).count
+
+        let duePracticeCards: [DuePracticeCard] = dueNowRows.compactMap { state in
+            guard let entry = practiceIndex[state.itemID] else { return nil }
+            return DuePracticeCard(
+                itemID: state.itemID, lessonID: entry.lessonID, title: entry.title,
+                skill: entry.skill, dueDate: state.dueDate,
+                isDone: reviewedTodayIDs.contains(state.itemID)
+            )
+        }
 
         return DailyPlanInput(
             weights: package.skillWeights,
@@ -91,7 +107,8 @@ struct TodayPlanCoordinator {
             dueNowCount: dueNowCount,
             reviewedTodayCount: reviewedTodayCount,
             pastWeekSkillMinutes: try pastWeekSkillMinutes(startOfToday: startOfToday, lessons: lessons),
-            startOfToday: startOfToday
+            startOfToday: startOfToday,
+            duePracticeCards: duePracticeCards
         )
     }
 
@@ -111,8 +128,9 @@ struct TodayPlanCoordinator {
         let package = try activePackage()
         let userIDValue = userID
         let existingItemIDs = try existingItemIDs()
+        let practiceIndex = try practiceItemIndex()
         let itemStates = try context.fetch(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.userID == userIDValue }))
-        let wordsSeen = itemStates.filter { existingItemIDs.contains($0.itemID) }.count
+        let wordsSeen = itemStates.filter { existingItemIDs.contains($0.itemID) && practiceIndex[$0.itemID] == nil }.count
         let lessonIDs = Set(package?.units.flatMap { $0.lessons.map(\.id) } ?? [])
         let completed = try completionDates().keys.filter { lessonIDs.contains($0) }.count
         return LearnerStats(
@@ -133,6 +151,17 @@ struct TodayPlanCoordinator {
     /// every reader (stats, buildPlanInput) must ignore them.
     private func existingItemIDs() throws -> Set<String> {
         Set(try context.fetch(FetchDescriptor<LearningItem>()).map(\.id))
+    }
+
+    /// itemID → (lesson id, lesson title, lesson skill) for every grammar
+    /// topic / practice set in the installed content.
+    private func practiceItemIndex() throws -> [String: (lessonID: String, title: String, skill: Skill)] {
+        var index: [String: (lessonID: String, title: String, skill: Skill)] = [:]
+        for item in try context.fetch(FetchDescriptor<LearningItem>()) where !item.type.isVocabularyCard {
+            guard let lesson = item.lesson else { continue }
+            index[item.id] = (lesson.id, lesson.title, Skill.forItem(type: item.type, lessonSkill: lesson.skill))
+        }
+        return index
     }
 
     /// lessonID → completion date, for this user's completed lessons.
@@ -162,10 +191,13 @@ struct TodayPlanCoordinator {
         }))
         if !logs.isEmpty {
             let items = try context.fetch(FetchDescriptor<LearningItem>())
-            let typeByID = Dictionary(items.map { ($0.id, $0.type) }, uniquingKeysWith: { first, _ in first })
+            let skillByID = Dictionary(
+                items.map { ($0.id, Skill.forItem(type: $0.type, lessonSkill: $0.lesson?.skill)) },
+                uniquingKeysWith: { first, _ in first }
+            )
             for log in logs {
-                guard let type = typeByID[log.itemID] else { continue }
-                minutes[Skill.forItemType(type), default: 0] += DailyPlanBuilder.minutesPerReviewCard
+                guard let skill = skillByID[log.itemID] else { continue }
+                minutes[skill, default: 0] += DailyPlanBuilder.minutesPerReviewCard
             }
         }
         return minutes
