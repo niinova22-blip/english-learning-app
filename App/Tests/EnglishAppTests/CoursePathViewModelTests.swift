@@ -110,6 +110,7 @@ final class CoursePathViewModelTests: XCTestCase {
         XCTAssertTrue(secondSection.tasks.allSatisfy { if case .locked = $0 { return true } else { return false } })
     }
 
+    @MainActor
     func test_load_noPackages_emptySections() throws {
         let context = try makeContext(seed: false)
         let vm = CoursePathViewModel(context: context, userID: userID, accessProvider: FixedAccessProvider(level: .owned))
