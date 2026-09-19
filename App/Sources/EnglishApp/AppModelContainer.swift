@@ -5,6 +5,7 @@ import LearningEngine
 enum AppModelContainer {
     static let schema = Schema([
         ContentPackage.self, Unit.self, Lesson.self, LearningItem.self, ItemContent.self,
+        Question.self, Passage.self, QuestionAttempt.self,
         ReviewLog.self, UserItemState.self, LearnerProfile.self, LessonProgress.self, LevelTestResult.self
     ])
 

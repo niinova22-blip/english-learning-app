@@ -12,6 +12,9 @@ public final class ItemContent {
     public var videoURL: URL?
     public var audioURL: URL?
     public var imageURL: URL?
+    /// Turkish topic explanation for a grammar topic card (rule, examples,
+    /// common traps). Nil for vocabulary items.
+    public var explanationTR: String? = nil
     public var item: LearningItem?
 
     public init(
@@ -23,7 +26,8 @@ public final class ItemContent {
         collocations: [String],
         videoURL: URL? = nil,
         audioURL: URL? = nil,
-        imageURL: URL? = nil
+        imageURL: URL? = nil,
+        explanationTR: String? = nil
     ) {
         self.id = id
         self.headword = headword
@@ -34,5 +38,6 @@ public final class ItemContent {
         self.videoURL = videoURL
         self.audioURL = audioURL
         self.imageURL = imageURL
+        self.explanationTR = explanationTR
     }
 }

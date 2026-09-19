@@ -4,7 +4,7 @@ import SwiftData
 
 final class ContentImporterTests: XCTestCase {
     func makeInMemoryContext() throws -> ModelContext {
-        let schema = Schema([ContentPackage.self, Unit.self, Lesson.self, LearningItem.self, ItemContent.self])
+        let schema = Schema([ContentPackage.self, Unit.self, Lesson.self, LearningItem.self, ItemContent.self, Question.self, Passage.self])
         let container = try ModelContainer(for: schema, configurations: [ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)])
         return ModelContext(container)
     }
@@ -267,6 +267,175 @@ final class ContentImporterTests: XCTestCase {
         let context = try makeInMemoryContext()
         XCTAssertThrowsError(try ContentImporter.importPackage(from: packageJSON(version: "0"), into: context)) { error in
             XCTAssertEqual(error as? ContentImportError, .invalidVersion(0))
+        }
+    }
+
+    /// A one-lesson package with a practice lesson. Every parameter exists so
+    /// a single test can break exactly one rule.
+    func practiceJSON(
+        lessonSkill: String = "grammar",
+        itemType: String = "grammarPoint",
+        itemExplanation: String = #""explanationTR": "Past perfect, daha önce biten eylemi anlatır.","#,
+        questionKind: String = "grammar",
+        options: String = #"["a", "b", "c", "d", "e"]"#,
+        correctIndex: String = "1",
+        questionExplanation: String = "Doğru yanıt ikinci seçenektir.",
+        secondQuestionID: String = "test-question-2",
+        passage: String = "",
+        passageID: String = "null"
+    ) -> Data {
+        """
+        {
+          "id": "test-package", "name": "Test Package", "goal": "yds",
+          "levelLower": "B2", "levelUpper": "C1", "version": 4,
+          "skillWeights": {"vocabulary": 1, "grammar": 1, "reading": 1, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0},
+          "units": [
+            { "id": "test-unit-1", "theme": "Test Theme", "order": 0,
+              "lessons": [
+                { "id": "test-lesson-1", "order": 0, "estimatedDurationMinutes": 8,
+                  "title": "Test Topic", "skill": "\(lessonSkill)",
+                  \(passage)
+                  "items": [
+                    { "id": "test-card-1", "type": "\(itemType)", "headword": "Tenses",
+                      "frequencyRank": 1000, "baseDifficulty": 0.5,
+                      "definition": "d", "exampleSentences": [], "translationTR": "Zamanlar",
+                      "collocations": [], \(itemExplanation) "unused": 0 }
+                  ],
+                  "questions": [
+                    { "id": "test-question-1", "kind": "\(questionKind)", "order": 0,
+                      "prompt": "Q1 ----.", "options": \(options), "correctIndex": \(correctIndex),
+                      "explanationTR": "\(questionExplanation)", "passageID": \(passageID) },
+                    { "id": "\(secondQuestionID)", "kind": "\(questionKind)", "order": 1,
+                      "prompt": "Q2 ----.", "options": ["a", "b", "c", "d", "e"], "correctIndex": 0,
+                      "explanationTR": "Doğru yanıt birinci seçenektir.", "passageID": null }
+                  ] }
+              ] }
+          ]
+        }
+        """.data(using: .utf8)!
+    }
+
+    func test_importPackage_practiceLesson_buildsQuestionsPassageAndTopicExplanation() throws {
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(
+            from: practiceJSON(
+                lessonSkill: "reading", itemType: "practiceSet", itemExplanation: "",
+                questionKind: "reading",
+                passage: #""passage": { "id": "test-passage-1", "title": "Carbon Pricing", "body": "Body." },"#,
+                passageID: #""test-passage-1""#
+            ),
+            into: context)
+        try context.save()
+
+        let lesson = package.units[0].lessons[0]
+        XCTAssertEqual(lesson.questions.sorted { $0.order < $1.order }.map(\.id), ["test-question-1", "test-question-2"])
+        XCTAssertEqual(lesson.passage?.title, "Carbon Pricing")
+        let first = try XCTUnwrap(lesson.questions.first { $0.id == "test-question-1" })
+        XCTAssertEqual(first.kind, .reading)
+        XCTAssertEqual(first.correctIndex, 1)
+        XCTAssertEqual(first.options.count, 5)
+        XCTAssertEqual(first.passage?.id, "test-passage-1")
+        XCTAssertEqual(lesson.items.first?.type, .practiceSet)
+    }
+
+    func test_importPackage_grammarLesson_storesTheTurkishTopicExplanation() throws {
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(from: practiceJSON(), into: context)
+        try context.save()
+        XCTAssertEqual(
+            package.units[0].lessons[0].items.first?.content?.explanationTR,
+            "Past perfect, daha önce biten eylemi anlatır."
+        )
+    }
+
+    func test_importPackage_vocabularyItem_hasNilExplanation() throws {
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(from: packageJSON(), into: context)
+        try context.save()
+        XCTAssertNil(package.units[0].lessons[0].items.first?.content?.explanationTR)
+    }
+
+    func test_importPackage_wrongOptionCount_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: practiceJSON(options: #"["a", "b", "c", "d"]"#), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidOptionCount("test-question-1", 4))
+        }
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ContentPackage>()), 0)
+    }
+
+    func test_importPackage_correctIndexOutOfRange_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: practiceJSON(correctIndex: "5"), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .correctIndexOutOfRange("test-question-1", 5))
+        }
+    }
+
+    func test_importPackage_emptyQuestionExplanation_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: practiceJSON(questionExplanation: "   "), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .emptyExplanation("test-question-1"))
+        }
+    }
+
+    func test_importPackage_emptyGrammarTopicExplanation_throwsForTheLesson() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: practiceJSON(itemExplanation: #""explanationTR": "","#), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .emptyExplanation("test-lesson-1"))
+        }
+    }
+
+    func test_importPackage_duplicateQuestionID_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: practiceJSON(secondQuestionID: "test-question-1"), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .duplicateQuestionID("test-question-1"))
+        }
+    }
+
+    func test_importPackage_practiceLessonWithoutQuestions_throws() throws {
+        let json = """
+        {
+          "id": "p", "name": "P", "goal": "yds", "levelLower": "B2", "levelUpper": "C1", "version": 4,
+          "skillWeights": {"vocabulary": 1, "grammar": 1, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0},
+          "units": [{ "id": "u", "theme": "T", "order": 0, "lessons": [
+            { "id": "grammar-lesson", "order": 0, "estimatedDurationMinutes": 8, "title": "T", "skill": "grammar",
+              "items": [{ "id": "c", "type": "grammarPoint", "headword": "h", "frequencyRank": 1,
+                          "baseDifficulty": 0.5, "definition": "d", "exampleSentences": [],
+                          "translationTR": "t", "collocations": [], "explanationTR": "Açıklama." }] }
+          ]}]
+        }
+        """.data(using: .utf8)!
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(from: json, into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .missingQuestions("grammar-lesson"))
+        }
+    }
+
+    func test_importPackage_practiceLessonWithoutACard_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: practiceJSON(itemType: "vocabulary", itemExplanation: ""), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .missingPracticeCard("test-lesson-1"))
+        }
+    }
+
+    func test_importPackage_questionReferencingAMissingPassage_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: practiceJSON(passageID: #""no-such-passage""#), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .missingPassage("test-question-1", "no-such-passage"))
+        }
+    }
+
+    func test_importPackage_unknownQuestionKind_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(try ContentImporter.importPackage(
+            from: practiceJSON(questionKind: "essay"), into: context)) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidQuestionKind("essay"))
         }
     }
 }

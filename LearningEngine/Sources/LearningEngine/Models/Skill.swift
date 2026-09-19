@@ -10,7 +10,18 @@ public enum Skill: String, Codable, CaseIterable, Sendable {
         switch type {
         case .vocabulary, .phrase, .collocation: return .vocabulary
         case .grammarPoint: return .grammar
+        // A practice set has no intrinsic skill — the owning lesson decides.
+        // This branch is only the last-resort fallback for an orphan item.
+        case .practiceSet: return .reading
         }
+    }
+
+    /// Skill attribution for a reviewed item: the owning lesson's skill wins,
+    /// so a reading practice set counts toward `reading` and a sentence-
+    /// completion set toward `grammar`. `forItemType` remains the fallback
+    /// for items with no lesson.
+    public static func forItem(type: LearningItemType, lessonSkill: Skill?) -> Skill {
+        lessonSkill ?? forItemType(type)
     }
 }
 

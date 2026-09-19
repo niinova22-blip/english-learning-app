@@ -147,6 +147,7 @@ struct ProfileView: View {
             try context.delete(model: ReviewLog.self)
             try context.delete(model: UserItemState.self)
             try context.delete(model: LessonProgress.self)
+            try context.delete(model: QuestionAttempt.self)
             try context.delete(model: LearnerProfile.self)
             try context.delete(model: LevelTestResult.self)
             try context.save()
