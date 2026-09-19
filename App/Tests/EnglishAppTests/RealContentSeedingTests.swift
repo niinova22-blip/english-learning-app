@@ -22,7 +22,7 @@ final class RealContentSeedingTests: XCTestCase {
         return ModelContext(container)
     }
 
-    func test_bundledYDSAcademicVocabularyJSON_resolvesFromAppBundle_andImportsAll120ItemsAcrossFourUnits() throws {
+    func test_bundledYDSAcademicVocabularyJSON_resolvesFromAppBundle_andImportsAll127ItemsAcrossFourUnits() throws {
         guard let url = Bundle.main.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
             XCTFail("YDSAcademicVocabulary1.json not found in the app bundle — check App/project.yml's resources: entry")
             return
@@ -35,7 +35,7 @@ final class RealContentSeedingTests: XCTestCase {
 
         XCTAssertEqual(package.units.count, 4)
         let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
-        XCTAssertEqual(allItems.count, 120)
+        XCTAssertEqual(allItems.count, 127)
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
 
         // Regression guard for the mangled-Turkish-characters bug (Task 6): a bare
@@ -43,13 +43,16 @@ final class RealContentSeedingTests: XCTestCase {
         let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
         XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
 
-        XCTAssertEqual(package.version, 3)
+        XCTAssertEqual(package.version, 4)
         XCTAssertEqual(package.skillWeights.activeSkills, [.vocabulary, .grammar, .reading])
         XCTAssertEqual(package.skillWeights.share(of: .pronunciation), 0)
         let scienceUnit = package.units.first { $0.id == "yds-vocab1-unit-science-research" }
         let secondLesson = scienceUnit?.lessons.first { $0.order == 1 }
         XCTAssertEqual(secondLesson?.title, "Science & Research Methods · 2")
-        XCTAssertTrue(package.units.flatMap(\.lessons).allSatisfy { $0.skill == .vocabulary })
+
+        XCTAssertEqual(package.units.flatMap(\.lessons).flatMap(\.questions).count, 63)
+        XCTAssertEqual(package.units.flatMap(\.lessons).compactMap(\.passage).count, 3)
+        XCTAssertEqual(Set(package.units.flatMap(\.lessons).map(\.skill)), [.vocabulary, .grammar, .reading])
     }
 
     func test_seedRealContentIfNeeded_populatesEmptyStore_andIsIdempotent() throws {
@@ -60,7 +63,7 @@ final class RealContentSeedingTests: XCTestCase {
         let packages = try context.fetch(FetchDescriptor<ContentPackage>())
         XCTAssertEqual(packages.count, 1)
         let allItems = packages.flatMap { $0.units.flatMap { $0.lessons.flatMap { $0.items } } }
-        XCTAssertEqual(allItems.count, 120)
+        XCTAssertEqual(allItems.count, 127)
 
         // Calling again must not duplicate content.
         AppModelContainer.seedRealContentIfNeeded(in: context)

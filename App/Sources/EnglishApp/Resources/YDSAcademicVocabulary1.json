@@ -4,7 +4,7 @@
   "goal": "yds",
   "levelLower": "B2",
   "levelUpper": "C1",
-  "version": 3,
+  "version": 4,
   "skillWeights": {
     "vocabulary": 35,
     "grammar": 30,
@@ -612,6 +612,1185 @@
                 "item on the agenda",
                 "a single item"
               ]
+            }
+          ]
+        },
+        {
+          "id": "yds-practice-lesson-tenses",
+          "order": 3,
+          "estimatedDurationMinutes": 8,
+          "title": "Zamanlar (Tenses)",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-practice-card-tenses",
+              "type": "grammarPoint",
+              "headword": "Tenses",
+              "frequencyRank": 1003,
+              "baseDifficulty": 0.5,
+              "definition": "İngilizcede zamanların YDS'de en sık sınanan kullanımları.",
+              "exampleSentences": [],
+              "translationTR": "Zamanlar",
+              "collocations": [],
+              "explanationTR": "YDS'de zaman soruları neredeyse her zaman cümledeki bir ZAMAN İŞARETİNE dayanır.\n\n• Present perfect (have/has + V3): «since», «for», «so far», «recently» ile; geçmişte başlayıp etkisi süren durumlar için.\n• Past simple: «in 2019», «last year», «... ago» gibi bitmiş bir zamanı gösteren ifadelerle; present perfect ile asla karışmaz.\n• Past perfect (had + V3): geçmişteki iki olaydan ÖNCE olanı için. «by the time», «before», «after», «no sooner ... than» kalıplarında beklenen zamandır.\n• Future perfect (will have + V3): «by 2030», «by the end of the year» gibi gelecekteki bir sınırdan önce bitecek eylemler için.\n\nEn sık düşülen tuzak: «by the time» görünce present perfect işaretlemek. Ana cümle geçmişteyse yan cümle past perfect olur.\n\nÖrnek: By the time the results were published, the team had already left the laboratory."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-practice-lesson-tenses-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "By the time the central bank announced the new interest rate, most investors ---- their portfolios.",
+              "options": [
+                "have already restructured",
+                "had already restructured",
+                "already restructure",
+                "are already restructuring",
+                "will already restructure"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«By the time» + geçmiş zaman kalıbı, ana cümledeki eylemin o andan DAHA ÖNCE bittiğini anlatır; bu yüzden past perfect gerekir: had already restructured. (A) present perfect, geçmişte belirli bir ana bağlanamaz. (C) ve (D) şimdiki zamanı, (E) ise geleceği anlatıyor; hiçbiri cümledeki geçmiş referansıyla uyuşmuyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-tenses-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "The research team ---- data on migratory birds since 2015, and the project is expected to continue for another decade.",
+              "options": [
+                "has been collecting",
+                "collects",
+                "collected",
+                "had collected",
+                "will collect"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«since 2015» geçmişte başlayıp hâlâ süren bir eylemi işaret eder; cümlede süreklilik vurgusu da olduğu için present perfect continuous gerekir: has been collecting. (B) geniş zaman, «since» ile kullanılmaz. (C) past simple bitmiş bir dönem ister, oysa proje sürüyor. (D) past perfect geçmişte bir başka olaydan öncesini anlatır, burada öyle bir olay yok.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-tenses-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "By the end of this decade, the agency ---- the largest infrastructure survey ever undertaken in the region.",
+              "options": [
+                "is completing",
+                "completes",
+                "had completed",
+                "will have completed",
+                "has completed"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«By the end of this decade» gelecekteki bir SINIR verir; o sınırdan önce tamamlanacak eylem için future perfect kullanılır: will have completed. (C) past perfect ve (E) present perfect geçmişe bakar, oysa cümlede gelecek bir tarih var. (A) ve (B) şimdiki zamanı anlatır; gelecekteki bir bitişi karşılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-tenses-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "No sooner ---- the new tariffs than several exporters announced large-scale job cuts.",
+              "options": [
+                "the government had introduced",
+                "had the government introduced",
+                "has the government introduced",
+                "the government introduced",
+                "would the government introduce"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«No sooner ... than» kalıbı iki şey ister: past perfect ve DEVRİK yapı, yani yardımcı fiilin özneden önce gelmesi. Bu yüzden «had the government introduced» doğrudur. (A) doğru zamanı kullanıyor ama devrik değil; (D) hem devrik değil hem de yanlış zamanda. (C) present perfect, ana cümledeki «announced» ile uyuşmaz; (E) ise bu kalıpta hiç kullanılmayan bir modal yapıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-tenses-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "When the inspectors finally arrived at the plant, the workers ---- for more than six hours and production had come to a complete halt.",
+              "options": [
+                "were striking",
+                "have been striking",
+                "had been striking",
+                "are striking",
+                "will have been striking"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Geçmişteki bir ana (müfettişlerin gelişi) kadar SÜREGELMİŞ bir eylemi «for more than six hours» ile anlatmak için past perfect continuous gerekir: had been striking. Aynı cümledeki «had come» de bu geçmiş-öncesi düzlemi doğruluyor. (A) past continuous yalnızca o anda sürmekte olanı anlatır, o ana kadar biriken süreyi veremez. (B) ve (D) bugüne, (E) ise geleceğe bağlanır; hiçbiri «arrived» ile uyuşmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-tenses-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "The central bank ---- interest rates three times before the inflation figures finally began to fall.",
+              "options": [
+                "had raised",
+                "has raised",
+                "raises",
+                "was raising",
+                "will raise"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Geçmişteki iki olaydan ÖNCE olan için past perfect kullanılır; faiz artışları, enflasyonun düşmeye başlamasından öncedir: had raised. (B) present perfect bugüne bağlanır, oysa cümle «began» ile geçmişte kalıyor. (D) past continuous süregelen tek bir eylemi anlatır, «three times» gibi tamamlanmış bir tekrar sayısıyla kullanılmaz. (C) ve (E) ise cümledeki geçmiş referansıyla tamamen çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-tenses-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "This time next year, the research station ---- data from the Antarctic ice sheet for a full decade.",
+              "options": [
+                "collects",
+                "collected",
+                "has collected",
+                "had been collecting",
+                "will have been collecting"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«This time next year» gelecekte bir an verir, «for a full decade» ise o ana kadar SÜREN bir zaman dilimini; ikisi birlikte future perfect continuous ister: will have been collecting. (C) present perfect bugüne kadarki süreyi verir, gelecekteki bir ana değil. (D) past perfect continuous geçmişteki bir ana bakar. (A) ve (B) ise bu süre vurgusunu hiç karşılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-tenses-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "Although the company ---- record profits last year, its share price has fallen steadily ever since.",
+              "options": [
+                "has announced",
+                "announces",
+                "had been announcing",
+                "announced",
+                "will announce"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«last year» bitmiş ve belirli bir zamanı gösterir; böyle bir ifadeyle past simple kullanılır: announced. (A) present perfect en sık düşülen tuzaktır ama «last year» gibi belirli bir geçmiş zaman ifadesiyle asla birlikte kullanılmaz. (C) past perfect continuous tekrarlanan bir süreci anlatır, oysa kâr açıklaması tek seferlik bir olaydır. (B) ve (E) cümlenin geçmiş referansıyla çelişir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-practice-lesson-conditionals",
+          "order": 4,
+          "estimatedDurationMinutes": 8,
+          "title": "Koşul Cümleleri (Conditionals)",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-practice-card-conditionals",
+              "type": "grammarPoint",
+              "headword": "Conditionals",
+              "frequencyRank": 1004,
+              "baseDifficulty": 0.5,
+              "definition": "Koşul cümlelerinin YDS'de en sık sınanan tipleri, bağlaçları ve devrik kullanımları.",
+              "exampleSentences": [],
+              "translationTR": "Koşul Cümleleri",
+              "collocations": [],
+              "explanationTR": "YDS'de koşul soruları neredeyse her zaman İKİ YARININ ZAMAN EŞLEŞMESİNE dayanır: bir yarıyı görürsen diğeri kendiliğinden belli olur.\n\n• Tip 1 (gerçek, olası): If + geniş zaman, will/can/may + V1. «If the price rises, demand will fall.»\n• Tip 2 (şimdiki zamanda hayali): If + past simple, would/could/might + V1. «If the price rose, demand would fall.» «to be» için kalıp biçim «were» olur: «If I were you...»\n• Tip 3 (geçmişte gerçekleşmemiş): If + past perfect, would/could/might + have + V3. «If the price had risen, demand would have fallen.»\n• Karma tip: geçmişteki bir koşulun bugüne uzanan bir sonucu varsa If + past perfect, would + V1 olur. «If they had invested earlier, the company would be profitable today.» Cümlede «today», «now», «still» görürsen karma tipi düşün.\n\n• unless = if ... not. «Unless» zaten olumsuzdur, üstüne bir daha olumsuzluk ekleme: «Unless the price falls» = «If the price does not fall».\n• otherwise = «aksi takdirde»; koşulu ayrı bir cümleye taşır: «Pay now; otherwise you will lose the discount.»\n• Devrik yapı: «if» atılır, yardımcı fiil başa geçer. «If they had known» → «Had they known»; «If it were not for» → «Were it not for»; «If you should need» → «Should you need».\n\nEn sık düşülen tuzak: if cümlesinin içine «would» koymak. «If the price would rise» YANLIŞTIR; «would» yalnızca ana cümlede bulunur.\n\nÖrnek: Had the central bank not intervened, the currency would have collapsed within days."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-practice-lesson-conditionals-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "If the government ---- the subsidy last year, thousands of small firms would not have gone bankrupt.",
+              "options": [
+                "withdrew",
+                "has not withdrawn",
+                "had not withdrawn",
+                "would not withdraw",
+                "does not withdraw"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Ana cümlede «would not have gone» var; bu, geçmişte gerçekleşmemiş bir durumu anlatan üçüncü tip koşul cümlesidir ve if kısmı past perfect olur: had not withdrawn. (A) ikinci tipin yapısı, (B) present perfect, (E) geniş zaman; üçü de «would have» ile eşleşmez. (D) ise if cümlesinde «would» kullanıyor, bu yapıda olmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-conditionals-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "If the previous government had not cancelled the railway project, the region ---- far better connected than it is now.",
+              "options": [
+                "would be",
+                "would have been",
+                "will be",
+                "is",
+                "had been"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Koşul geçmişte (had not cancelled), sonuç ise BUGÜNDE: «than it is now» bunu açıkça söylüyor. Bu karma koşul yapısında ana cümle «would + V1» olur: would be. (B) saf üçüncü tiptir ve sonucu geçmişe hapseder; «now» ile çelişir. (C) ve (D) koşul cümlesindeki past perfect ile eşleşmez. (E) ise ana cümlede «would» olmadan bir koşul sonucu veremez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-conditionals-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "The council has made it clear that it will not approve the development ---- the developer agrees to fund a new primary school.",
+              "options": [
+                "if",
+                "unless",
+                "in case",
+                "provided that",
+                "as long as"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Cümlenin anlamı «okul finanse edilmedikçe onay yok»; yani olumsuz bir koşul gerekiyor ve bunu tek başına veren bağlaç «unless» (= if ... not). (A), (D) ve (E) hepsi «eğer ... ise» anlamı taşır ve cümleyi tersine çevirir: okul finanse edilirse onay VERİLMEYECEĞİNİ söylemiş olurlar. (C) «in case» ise bir önlem bildirir, koşul değil; buradaki onay şartını anlatamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-conditionals-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "The firm must restructure its debt immediately; ----, it will be forced into administration within weeks.",
+              "options": [
+                "therefore",
+                "however",
+                "in addition",
+                "otherwise",
+                "nevertheless"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "İkinci cümle, birincideki eylem YAPILMAZSA ne olacağını anlatıyor; bu gizli koşulu veren bağlayıcı «otherwise» (aksi takdirde). (A) «therefore» sonuç bildirir, oysa iflas borcun yapılandırılmasının sonucu değil, yapılmamasının sonucudur. (B) ve (E) zıtlık ya da ödün bildirir, burada zıtlık yok. (C) «in addition» ise yalnızca ek bilgi ekler, koşulu taşıyamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-conditionals-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "If the exchange rate ---- stable over the next quarter, exporters will be able to plan their shipments with far more confidence.",
+              "options": [
+                "would remain",
+                "will remain",
+                "remains",
+                "remained",
+                "had remained"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Ana cümlede «will be able» var; bu, gerçekleşmesi olası bir durumu anlatan birinci tip koşuldur ve if kısmı GENİŞ ZAMAN olur: remains. (A) ve (B) YDS'nin en klasik tuzağıdır: if cümlesinin içine «would» ya da «will» konmaz. (D) ikinci tipin, (E) ise üçüncü tipin zamanıdır; ikisi de ana cümledeki «will» ile eşleşmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-conditionals-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "----, the company would have been able to refinance its debt at a much lower rate.",
+              "options": [
+                "Had the credit rating agencies not downgraded it last spring",
+                "If the credit rating agencies do not downgrade it",
+                "Unless the credit rating agencies downgrade it",
+                "Were the credit rating agencies not downgrading it",
+                "Should the credit rating agencies downgrade it"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Ana cümledeki «would have been able» üçüncü tip koşul ister: geçmişte gerçekleşmemiş bir durum. «If ... had not downgraded» yapısının devrik biçimi «Had ... not downgraded»dır, yani (A). (B) ve (C) geniş zamandadır ve «would have» ile eşleşmez. (D) şimdiki zamanda hayali bir durumu, (E) ise gelecekte olası bir durumu anlatır; ikisi de geçmişteki bir sonuca bağlanamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-conditionals-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "The experiment would have yielded far clearer results ---- larger.",
+              "options": [
+                "if the sample size is",
+                "unless the sample size had been",
+                "provided that the sample size were",
+                "if the sample size would be",
+                "had the sample size been"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Ana cümle üçüncü tiptir («would have yielded»), dolayısıyla koşul past perfect olmalı; «if» atıldığında devrik yapı kurulur: had the sample size been. (A) geniş zaman, (C) ikinci tipin zamanıdır; ikisi de «would have» ile eşleşmez. (B) «unless» anlamı tersine çevirir, örneklem büyük OLMASAYDI sonuçların netleşeceğini söyler. (D) ise if cümlesine «would» koyar; bu yapı İngilizcede kurulmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-conditionals-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "If governments ---- the same urgency to biodiversity loss that they show to inflation, far fewer species would be under threat today.",
+              "options": [
+                "will attach",
+                "attached",
+                "have attached",
+                "would attach",
+                "are attaching"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Ana cümledeki «would be» bugün gerçek olmayan bir durumu anlatır; bu ikinci tip koşuldur ve if kısmı past simple olur: attached. (A) ve (E) birinci tipin ya da şimdiki zamanın yapısıdır, «would be» ile eşleşmez. (D) if cümlesine «would» koyar; en sık yapılan hata budur. (C) present perfect ise bugüne uzanan GERÇEK bir durumu anlatır, oysa cümle varsayımsaldır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-practice-lesson-reading-1",
+          "order": 5,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Karbon Fiyatlandırması",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-practice-passage-reading-1",
+            "title": "Carbon Pricing in Practice",
+            "body": "Carbon pricing has become the policy instrument of choice for governments that want to cut greenhouse gas emissions without dictating how firms should do it. The logic is straightforward: once emitting carbon carries a price, companies compare the cost of paying that price with the cost of cleaning up their production, and choose whichever is cheaper. In theory, emissions therefore fall wherever reduction is least expensive. In practice, the outcome depends almost entirely on the level at which the price is set. Where allowances have been distributed generously, as in the first phase of the European Union's trading scheme, prices collapsed and the incentive largely disappeared. Critics also point out that a uniform price weighs more heavily on low-income households, which spend a larger share of their income on energy. For that reason, several governments now return part of the revenue directly to citizens."
+          },
+          "items": [
+            {
+              "id": "yds-practice-card-reading-1",
+              "type": "practiceSet",
+              "headword": "Carbon Pricing",
+              "frequencyRank": 1005,
+              "baseDifficulty": 0.5,
+              "definition": "Karbon fiyatlandırması üzerine akademik bir metin ve altı okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Karbon Fiyatlandırması",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-practice-lesson-reading-1-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "According to the passage, carbon pricing failed to change firms' behaviour in the first phase of the European scheme because ----.",
+              "options": [
+                "governments returned part of the revenue to citizens",
+                "allowances were issued so freely that the price collapsed",
+                "firms found cleaning up production cheaper than paying the price",
+                "low-income households were exempted from the scheme",
+                "the scheme covered too few industries to matter"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Metin açıkça «izinler cömertçe dağıtıldığında fiyatlar çöktü ve teşvik büyük ölçüde ortadan kalktı» diyor; nedeni veren tek seçenek (B). (A) metinde geçiyor ama bu başarısızlığın nedeni değil, eleştirilere verilen bir yanıt. (C) metnin mantığının tam tersi. (D) ve (E) metinde hiç söylenmiyor.",
+              "passageID": "yds-practice-passage-reading-1"
+            },
+            {
+              "id": "yds-practice-lesson-reading-1-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "It is pointed out in the passage that the main appeal of carbon pricing for governments is that it ----.",
+              "options": [
+                "guarantees that emissions will fall in every sector equally",
+                "raises revenue that can be spent on renewable energy",
+                "protects low-income households from rising energy costs",
+                "leaves firms free to decide how to cut their emissions",
+                "replaces the need for any other environmental regulation"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Metnin ilk cümlesi karbon fiyatlandırmasını, «firmalara nasıl yapacaklarını dayatmadan» emisyon azaltmak isteyen hükûmetlerin tercih ettiği araç olarak tanımlıyor; bunu veren tek seçenek (D). (A) metnin mantığına aykırı: azaltım en ucuz olduğu yerde gerçekleşir, her sektörde eşit olarak değil. (C) tam tersi söyleniyor; tek tip fiyat düşük gelirli haneleri daha ağır etkiliyor. (B) ve (E) metinde hiç geçmiyor.",
+              "passageID": "yds-practice-passage-reading-1"
+            },
+            {
+              "id": "yds-practice-lesson-reading-1-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "According to the passage, whether carbon pricing works in practice depends mainly on ----.",
+              "options": [
+                "how high the price is set",
+                "how many countries adopt the scheme at the same time",
+                "whether firms are able to clean up their production",
+                "how much of the revenue is returned to citizens",
+                "how quickly the scheme is extended to households"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metin «uygulamada sonuç neredeyse tamamen fiyatın belirlendiği DÜZEYE bağlıdır» diyor; bunu karşılayan tek seçenek (A). (D) metinde geçiyor ama gelir iadesi, fiyatın etkinliğiyle değil, düşük gelirli hanelere binen yükle ilgili ayrı bir konudur. (C) firmaların karşılaştırdığı iki seçenekten biridir, başarının ölçütü değil. (B) ve (E) metinde hiç yer almıyor.",
+              "passageID": "yds-practice-passage-reading-1"
+            },
+            {
+              "id": "yds-practice-lesson-reading-1-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "The criticism mentioned in the passage concerns the fact that a single carbon price ----.",
+              "options": [
+                "is impossible to enforce across different industries",
+                "makes energy more expensive for producers than for consumers",
+                "hits poorer households hardest because energy takes up more of their income",
+                "discourages governments from returning revenue to citizens",
+                "prevents firms from comparing the cost of cleaning up production"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Eleştiri metinde açıkça veriliyor: tek tip bir fiyat, gelirinin daha büyük bir kısmını enerjiye harcayan düşük gelirli haneler üzerinde daha ağır bir yük oluşturur; yani (C). (D) metnin tam tersi, çünkü hükûmetler tam da bu eleştiri yüzünden gelirin bir kısmını vatandaşa geri veriyor. (E) sistemin temelini bozar: maliyet karşılaştırması mekanizmanın kendisidir. (A) ve (B) metinde hiç söylenmiyor.",
+              "passageID": "yds-practice-passage-reading-1"
+            },
+            {
+              "id": "yds-practice-lesson-reading-1-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "It can be inferred from the passage that returning part of the carbon revenue to citizens is intended to ----.",
+              "options": [
+                "raise the carbon price to a more effective level",
+                "persuade firms to invest in cleaner production methods",
+                "replace the allowances that were distributed too generously",
+                "reduce the amount of revenue governments have to collect",
+                "compensate for the heavier burden the price places on poorer households"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Gelir iadesi, metinde «For that reason» bağlacıyla düşük gelirli hanelere binen ağır yük eleştirisinin hemen ardından geliyor; yani amacı bu yükü telafi etmektir: (E). (A) ve (C) metinde böyle bir bağ kurulmuyor; izinlerin cömertçe dağıtılması ayrı bir sorundur. (B) firmaları yönlendiren şey fiyatın kendisidir, geri ödeme değil. (D) ise mantıksız: iade, toplanan gelirin miktarını değil, sonunda kimde kaldığını değiştirir.",
+              "passageID": "yds-practice-passage-reading-1"
+            },
+            {
+              "id": "yds-practice-lesson-reading-1-q06",
+              "kind": "reading",
+              "order": 5,
+              "prompt": "The passage makes it clear that, in theory, emissions under a carbon price fall ----.",
+              "options": [
+                "where cutting them costs the least",
+                "only in the industries that receive free allowances",
+                "as soon as revenue is returned to citizens",
+                "in every sector at the same rate",
+                "wherever governments dictate the method of reduction"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metin «teoride emisyonlar, azaltmanın en ucuz olduğu her yerde düşer» diyor; bu cümlenin birebir karşılığı (A). (E) metnin ilk cümlesindeki «nasıl yapacaklarını dayatmadan» ifadesiyle doğrudan çelişiyor. (B) yanlış, çünkü cömert izin dağıtımı teşviki ortadan KALDIRIYOR. (D) eşit oranlı bir düşüş metinde hiç iddia edilmiyor, (C) ise gelir iadesini emisyon düşüşünün koşuluymuş gibi gösteriyor.",
+              "passageID": "yds-practice-passage-reading-1"
+            }
+          ]
+        },
+        {
+          "id": "yds-practice-lesson-reading-2",
+          "order": 6,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Dijital Ekonomi",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-practice-passage-reading-2",
+            "title": "The Economics of Digital Platforms",
+            "body": "Digital platforms differ from traditional firms in one decisive respect: their value to any single user grows as the number of other users increases. A marketplace with more sellers attracts more buyers, and more buyers in turn attract still more sellers. Economists call this a network effect, and it explains why digital markets so often end up dominated by one or two companies rather than by a crowd of similar competitors. Once a platform has become the default meeting place, a rival offering a marginally better service can still fail, simply because users have little reason to move somewhere emptier. Regulators have found this pattern difficult to address. Breaking a platform into smaller pieces would destroy precisely the scale that users value, while doing nothing risks entrenching the incumbent for good. The remedy now attracting the most support is interoperability: obliging dominant platforms to let users communicate with, and carry their data to, competing services."
+          },
+          "items": [
+            {
+              "id": "yds-practice-card-reading-2",
+              "type": "practiceSet",
+              "headword": "Digital Platforms",
+              "frequencyRank": 1006,
+              "baseDifficulty": 0.5,
+              "definition": "Dijital platform ekonomisi üzerine akademik bir metin ve altı okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Dijital Ekonomi",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-practice-lesson-reading-2-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "According to the passage, what distinguishes a digital platform from a conventional firm is that ----.",
+              "options": [
+                "its value to each user rises as more people join it",
+                "it can operate profitably without any competitors",
+                "it sells directly to buyers rather than through sellers",
+                "it is regulated more strictly than other businesses",
+                "it grows only when it offers a better service than its rivals"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metnin ilk cümlesi farkı tek bir noktada topluyor: platformun tek bir kullanıcı için değeri, diğer kullanıcı sayısı arttıkça büyür; yani (A). (E) metinle doğrudan çelişiyor, çünkü biraz daha iyi hizmet veren bir rakibin bile başarısız olabileceği söyleniyor. (D) metinde iddia edilmiyor; yalnızca düzenleyicilerin zorlandığı anlatılıyor. (B) ve (C) de metinde yer almıyor.",
+              "passageID": "yds-practice-passage-reading-2"
+            },
+            {
+              "id": "yds-practice-lesson-reading-2-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "The passage explains that a rival offering a slightly better service may still fail because ----.",
+              "options": [
+                "regulators prevent new platforms from entering the market",
+                "it cannot afford to be broken into smaller pieces",
+                "users see no point in moving to a less populated platform",
+                "it is obliged to share its data with the dominant platform",
+                "buyers and sellers prefer traditional marketplaces"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Metin nedeni açıkça veriyor: kullanıcıların «daha boş bir yere» taşınmak için pek bir nedeni yoktur; bunu söyleyen tek seçenek (C). (D) birlikte çalışabilirlik önerisini tersine çeviriyor; yükümlülük hâkim platforma getirilir, rakibe değil. (A) metinde söylenmiyor: düzenleyiciler girişi engellemiyor, kalıbı ele almakta zorlanıyor. (B) ve (E) metinde hiç geçmiyor.",
+              "passageID": "yds-practice-passage-reading-2"
+            },
+            {
+              "id": "yds-practice-lesson-reading-2-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "According to the passage, network effects make digital markets likely to end up ----.",
+              "options": [
+                "divided among many similar competitors",
+                "regulated by interoperability rules from the start",
+                "controlled by a very small number of firms",
+                "smaller than traditional markets",
+                "dependent on government funding"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Metin ağ etkisinin dijital pazarları «birbirine benzer bir rakip kalabalığı yerine bir ya da iki şirketin egemenliğine» götürdüğünü söylüyor; yani (C). (A) tam olarak metnin reddettiği seçenektir. (B) birlikte çalışabilirlik sonradan önerilen bir çare olarak geçiyor, pazarın doğal sonucu olarak değil. (D) ve (E) metinde hiç yer almıyor.",
+              "passageID": "yds-practice-passage-reading-2"
+            },
+            {
+              "id": "yds-practice-lesson-reading-2-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "It is stated in the passage that breaking up a dominant platform is problematic because it would ----.",
+              "options": [
+                "leave the incumbent entrenched for good",
+                "force regulators to introduce interoperability instead",
+                "reduce the number of sellers in the marketplace",
+                "eliminate the very scale that makes the platform useful",
+                "prevent users from carrying their data to rival services"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Metne göre platformu parçalamak «kullanıcıların değer verdiği ölçeğin ta kendisini yok eder»; yani (D). (A) metinde geçiyor ama bu, HİÇBİR ŞEY YAPMAMANIN riskidir; neden-sonuç ters çevrilmiş. (E) tam tersine, veri taşınabilirliği önerilen çözümün parçasıdır, parçalamanın sonucu değil. (B) ve (C) metinde söylenmiyor.",
+              "passageID": "yds-practice-passage-reading-2"
+            },
+            {
+              "id": "yds-practice-lesson-reading-2-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "The remedy described at the end of the passage would require dominant platforms to ----.",
+              "options": [
+                "reduce the number of users they serve",
+                "allow users to reach and move to rival services",
+                "share their profits with smaller competitors",
+                "split themselves into several independent companies",
+                "obtain regulatory approval before adding new users"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Son cümle birlikte çalışabilirliği tanımlıyor: hâkim platformlar, kullanıcıların rakip hizmetlerle iletişim kurmasına ve verilerini oraya taşımasına izin vermek zorunda kalır; yani (B). (D) metnin sakıncalı bulduğu «parçalama» seçeneğidir, önerilen çare değil. (A) ve (C) metinde hiç geçmiyor. (E) ise böyle bir izin şartından söz edilmiyor.",
+              "passageID": "yds-practice-passage-reading-2"
+            },
+            {
+              "id": "yds-practice-lesson-reading-2-q06",
+              "kind": "reading",
+              "order": 5,
+              "prompt": "It can be understood from the passage that the author regards the regulators' position as ----.",
+              "options": [
+                "straightforward, since the remedy has long been obvious",
+                "unimportant, because network effects will fade on their own",
+                "hopeless, as no measure can limit a dominant platform",
+                "unjustified, given that users benefit from having competitors",
+                "difficult, because the obvious remedies each carry a serious drawback"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Metin düzenleyicilerin bu kalıbı ele almakta zorlandığını söylüyor ve iki bariz seçeneğin de sakıncasını sıralıyor: parçalamak ölçeği yok eder, hiçbir şey yapmamak hâkim oyuncuyu kalıcılaştırır. Bu yüzden (E). (C) fazla uçtur; yazar birlikte çalışabilirliği işe yarayabilecek bir çözüm olarak sunuyor. (A) çarenin uzun süredir apaçık olduğunu iddia ediyor, oysa metinde «şimdi en çok destek gören» deniyor. (B) ve (D) metinde hiç savunulmuyor.",
+              "passageID": "yds-practice-passage-reading-2"
+            }
+          ]
+        },
+        {
+          "id": "yds-practice-lesson-cloze-1",
+          "order": 7,
+          "estimatedDurationMinutes": 10,
+          "title": "Cloze Test: Kentleşme",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-practice-passage-cloze-1",
+            "title": "Urbanisation in Developing Economies",
+            "body": "Cities in the developing world are growing faster than at any point in recorded history. (1)---- this growth creates jobs and lifts millions of people out of poverty, it also puts enormous pressure on housing, transport and sanitation. Municipal budgets rarely expand as (2)---- as the populations they are meant to serve, and the gap is filled by informal settlements built (3)---- any official plan. Residents there usually lack legal title to their homes, which discourages them (4)---- investing in repairs that would last decades. Governments have responded in two ways. Some have tried to slow migration by restricting movement, an approach (5)---- effectiveness has never been demonstrated. (6)---- have accepted urbanisation as inevitable and concentrated on upgrading what exists. The second approach is (7)---- more expensive at first, but evidence from Latin America suggests that it (8)---- far better returns over a generation. Successful programmes involve residents early, (9)---- know which streets flood in the rainy season. Where such consultation (10)----, even well-funded projects have quietly been abandoned."
+          },
+          "items": [
+            {
+              "id": "yds-practice-card-cloze-1",
+              "type": "practiceSet",
+              "headword": "Urbanisation Cloze",
+              "frequencyRank": 1007,
+              "baseDifficulty": 0.5,
+              "definition": "Kentleşme üzerine on boşluklu bir cloze testi; bağlaç, edat, ilgi zamiri ve fiil biçimi soruları.",
+              "exampleSentences": [],
+              "translationTR": "Cloze Test: Kentleşme",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-practice-lesson-cloze-1-q01",
+              "kind": "cloze",
+              "order": 0,
+              "prompt": "(1) ---- this growth creates jobs and lifts millions of people out of poverty, it also puts enormous pressure on housing, transport and sanitation.",
+              "options": [
+                "Although",
+                "Because",
+                "Unless",
+                "Therefore",
+                "Moreover"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Cümlenin ilk yarısı olumlu (iş yaratıyor, yoksulluğu azaltıyor), ikinci yarısı olumsuz (konut, ulaşım ve altyapı üzerinde baskı); aradaki ilişki zıtlıktır ve iki yan cümleyi bağlayan bir bağlaç gerekir: «Although». (B) neden, (C) koşul bildirir. (D) sonuç bildirir, oysa burada zıtlık var. (E) ise bağlaç değil, cümle bağlayıcı bir zarftır; tek bir cümlede iki yan cümleyi birleştiremez.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q02",
+              "kind": "cloze",
+              "order": 1,
+              "prompt": "Municipal budgets rarely expand as (2) ---- as the populations they are meant to serve.",
+              "options": [
+                "rapid",
+                "rapidly",
+                "more rapidly",
+                "rapidity",
+                "most rapidly"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«as ... as» eşitlik kalıbının ortasına, burada olduğu gibi bir FİİLİ (expand) niteleyen bir zarf girer: rapidly. (A) sıfattır, fiili niteleyemez. (C) ve (E) karşılaştırma ve üstünlük biçimleridir; «as ... as» kalıbının içinde kullanılmazlar. (D) ise isimdir.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q03",
+              "kind": "cloze",
+              "order": 2,
+              "prompt": "... and the gap is filled by informal settlements built (3) ---- any official plan.",
+              "options": [
+                "despite",
+                "within",
+                "besides",
+                "without",
+                "unlike"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Kaçak yerleşimler resmî bir plan OLMADAN kurulur; bu yokluğu veren edat «without». (A) «despite» ödün bildirir: plan varmış ama yine de yapılmış anlamına gelir, oysa metin planın hiç olmadığını söylüyor. (B) tam tersini, planın içinde kalındığını anlatır. (C) ekleme, (E) ise karşılaştırma bildirir; ikisi de bu cümleye oturmaz.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q04",
+              "kind": "cloze",
+              "order": 3,
+              "prompt": "Residents there usually lack legal title to their homes, which discourages them (4) ---- investing in repairs that would last decades.",
+              "options": [
+                "to",
+                "for",
+                "of",
+                "in",
+                "from"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«discourage» fiili, engellediği eylemi her zaman «from + V-ing» ile alır: discourages them from investing. (A) «discourage to do» diye bir yapı yoktur; bu hata «encourage somebody to do» ile karıştırmaktan doğar. (C) ve (D) bu fiille kullanılmaz. (B) «for investing» dendiğinde neden bildirir ve cümlenin anlamını bozar.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q05",
+              "kind": "cloze",
+              "order": 4,
+              "prompt": "Some have tried to slow migration by restricting movement, an approach (5) ---- effectiveness has never been demonstrated.",
+              "options": [
+                "which",
+                "that",
+                "whose",
+                "what",
+                "of which"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Boşluktan sonra artikelsiz bir isim (effectiveness) geliyor ve bu isim «an approach»a AİT; iyelik bildiren ilgi zamiri gerekir: whose. (A) ve (B) hemen arkasına fiil ister, araya bir isim giremez. (E) «of which» ancak «the effectiveness of which» sırasıyla kullanılır, bu dizilişte olmaz. (D) «what» ise kendinden önce bir isim almaz.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q06",
+              "kind": "cloze",
+              "order": 5,
+              "prompt": "(6) ---- have accepted urbanisation as inevitable and concentrated on upgrading what exists.",
+              "options": [
+                "Others",
+                "Other",
+                "Another",
+                "The other",
+                "Each other"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Bir önceki cümle «Some have tried ...» diye başlıyor; bu ikiliyi tamamlayan ve çoğul «have» ile uyuşan zamir «Others»tır. (B) «Other» sıfattır, arkasına isim ister. (C) «Another» tekildir ve «have» ile uyuşmaz. (D) «The other» da tekildir. (E) «Each other» ise karşılıklılık zamiridir, özne olamaz.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q07",
+              "kind": "cloze",
+              "order": 6,
+              "prompt": "The second approach is (7) ---- more expensive at first.",
+              "options": [
+                "very",
+                "too",
+                "so",
+                "much",
+                "quite"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Karşılaştırmalı bir sıfatı (more expensive) güçlendiren pekiştiriciler «much, far, a lot, even»dır; buradaki tek doğru seçenek «much». (A) ve (E) yalın sıfatla kullanılır: very expensive, quite expensive. (B) ve (C) de karşılaştırmalı biçimin önüne gelmez; «too expensive», «so expensive» denir.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q08",
+              "kind": "cloze",
+              "order": 7,
+              "prompt": "... but evidence from Latin America suggests that it (8) ---- far better returns over a generation.",
+              "options": [
+                "yield",
+                "yields",
+                "is yielded",
+                "yielding",
+                "to yield"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«suggests that» sonrası tam bir yan cümle ister: bir özne (it) ve ona uyan ÇEKİMLİ bir fiil. Tekil özneyle geniş zamanda «yields» olur. (A) özneyle uyuşmuyor. (C) edilgendir, oysa getiriyi sağlayan yaklaşımın kendisidir; etken biçim gerekir. (D) ve (E) çekimli fiil değildir ve yan cümleyi yüklemsiz bırakır.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q09",
+              "kind": "cloze",
+              "order": 8,
+              "prompt": "Successful programmes involve residents early, (9) ---- know which streets flood in the rainy season.",
+              "options": [
+                "which",
+                "whom",
+                "whose",
+                "they",
+                "who"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Boşluk, «residents»ı niteleyen yan cümlenin ÖZNESİDİR ve insanları gösterir; bu yüzden «who». (A) «which» insanlar için kullanılmaz. (B) «whom» nesne durumundadır, hemen arkasına «know» gibi bir fiil alamaz. (C) «whose» iyelik bildirir ve arkasına isim ister. (D) «they» ise zamirdir; iki cümleyi yalnızca virgülle birleştiremez.",
+              "passageID": "yds-practice-passage-cloze-1"
+            },
+            {
+              "id": "yds-practice-lesson-cloze-1-q10",
+              "kind": "cloze",
+              "order": 9,
+              "prompt": "Where such consultation (10) ----, even well-funded projects have quietly been abandoned.",
+              "options": [
+                "neglects",
+                "is neglecting",
+                "has been neglected",
+                "neglecting",
+                "has neglected"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«consultation» eylemi yapan değil, kendisine YAPILAN şeydir; ayrıca ana cümledeki «have been abandoned» ile aynı düzlemde, bitmiş bir edilgen yapı gerekir: has been neglected. (A), (B) ve (E) etken biçimlerdir ve danışmanın birilerini ihmal ettiğini söyler; bu anlamsızdır. (D) ise çekimli fiil olmadığı için «Where» ile açılan yan cümleyi yüklemsiz bırakır.",
+              "passageID": "yds-practice-passage-cloze-1"
+            }
+          ]
+        },
+        {
+          "id": "yds-practice-lesson-sentence-1",
+          "order": 8,
+          "estimatedDurationMinutes": 8,
+          "title": "Cümle Tamamlama",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-practice-card-sentence-1",
+              "type": "practiceSet",
+              "headword": "Sentence Completion",
+              "frequencyRank": 1008,
+              "baseDifficulty": 0.5,
+              "definition": "Bağlaç, zaman uyumu ve cümle yapısına dayanan on beş cümle tamamlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Cümle Tamamlama",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-practice-lesson-sentence-1-q01",
+              "kind": "sentenceCompletion",
+              "order": 0,
+              "prompt": "Although the report was commissioned to settle the dispute, its conclusions were so ambiguous that ----.",
+              "options": [
+                "both sides claimed that it supported their own position",
+                "the committee had refused to publish it in the first place",
+                "it was written by an independent panel of economists",
+                "the dispute would have been settled several years earlier",
+                "the ministry commissions a similar report every year"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«so ... that» kalıbı bir SONUÇ ister: sonuçlar o kadar belirsizdi ki ----. Belirsiz bir raporun doğal sonucu, iki tarafın da raporu kendi lehine yorumlamasıdır; bu yüzden (A). (B) zaman olarak tutarsız, raporun yazılmasından önceki bir olayı anlatıyor. (C) bir sonuç değil, ek bilgi. (D) üçüncü tip koşul yapısı gerektirir, burada koşul yok. (E) ise cümlenin konusuyla ilgisiz genel bir yargı.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q02",
+              "kind": "sentenceCompletion",
+              "order": 1,
+              "prompt": "----, the ministry postponed the auction of the new frequency bands until the following spring.",
+              "options": [
+                "Although the bidding rules will be published next week",
+                "Because the bidding rules had attracted so much criticism",
+                "Unless the bidding rules are revised by the operators",
+                "So that the bidding rules had attracted criticism",
+                "Whether the bidding rules were clear enough"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Ana cümle geçmişte alınmış bir erteleme kararını anlatıyor; boşluk bu kararın NEDENİNİ vermeli ve geçmişle uyumlu olmalı. (B) hem nedeni veriyor hem de erteleme öncesine düşen past perfect'i kullanıyor. (A) «will be published» ile gelecekten söz ediyor, «postponed» ile aynı cümlede duramaz. (C) geniş zamanlı bir koşul kurar ve geçmişteki bir kararı açıklayamaz. (D) «so that» amaç bildirir ama arkasına past perfect almaz; (E) ise «whether» ile tek başına bir zarf cümleciği kurulmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q03",
+              "kind": "sentenceCompletion",
+              "order": 2,
+              "prompt": "The new high-speed line has cut the journey time between the two cities by half, ----.",
+              "options": [
+                "but the number of passengers had fallen before it opened",
+                "in order to reduce the amount of freight carried by road",
+                "which has made commuting a realistic option for thousands of workers",
+                "whose passengers complain about the price of tickets",
+                "so that the fares will have to be doubled next year"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Virgülden sonra, önceki cümlenin TAMAMINA gönderme yapan bir ilgi cümlesi gelmeli; «which» tam da bunu yapar ve sürenin yarıya inmesinin doğal sonucunu verir: (C). (A) zaman olarak tutarsızdır, hattın açılışından önceki bir düşüşü sonuç gibi sunar. (B) ve (E) amaç bildirir, oysa yolculuk süresini kısaltmanın amacı yük taşımacılığı ya da bilet zammı değildir. (D) «whose» kendinden hemen önceki isme bağlanır ve burada «half» sözcüğüne takılıp anlamsız kalır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q04",
+              "kind": "sentenceCompletion",
+              "order": 3,
+              "prompt": "Not until the archives were opened to the public ----.",
+              "options": [
+                "did historians realise how unreliable the official figures had been",
+                "historians realised how unreliable the official figures had been",
+                "that historians realised how unreliable the official figures were",
+                "historians have realised how unreliable the official figures are",
+                "and historians realised how unreliable the official figures had been"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Cümlenin başındaki «Not until ...» olumsuz bir zaman ifadesidir ve ana cümlede DEVRİK yapıyı zorunlu kılar: yardımcı fiil özneden önce gelir, «did historians realise». (B) ve (E) devrik değildir; (E) ayrıca «and» ile cümleyi iki bağımsız parçaya böler. (C) «that» ile kurulan yapı yalnızca «It was not until ...» kalıbında olur. (D) hem devrik değildir hem de present perfect kullanarak geçmişteki bir olayla çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q05",
+              "kind": "sentenceCompletion",
+              "order": 4,
+              "prompt": "Given that the region's aquifers are being depleted faster than they can be replenished, ----.",
+              "options": [
+                "farmers had already switched to drip irrigation twenty years ago",
+                "the government would have subsidised desalination plants instead",
+                "rainfall in the region has always been unusually heavy",
+                "it is surprising how little the issue features in national water policy",
+                "the aquifers were replenished during the last rainy season"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Given that ...» bir gerekçe sunar; ana cümle bu gerekçeden çıkan bir DEĞERLENDİRME olmalıdır ve bunu yapan tek seçenek (D). (C) ve (E) gerekçenin kendisiyle çelişir: yeraltı suları tükeniyorsa yağış bol olamaz, akiferler de yenilenmiş sayılamaz. (A) yirmi yıl önce tamamlanmış bir eylemi bugünkü bir duruma sonuç diye bağlar. (B) ise koşulsuz bir «would have» yapısıdır; ortada üçüncü tip bir koşul yok.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q06",
+              "kind": "sentenceCompletion",
+              "order": 5,
+              "prompt": "The drug was withdrawn from the market ----.",
+              "options": [
+                "unless the regulator confirms a link with liver damage",
+                "in case the regulator will confirm a link with liver damage",
+                "so that patients had reported severe side effects",
+                "despite the regulator has confirmed a link with liver damage",
+                "as soon as the regulator confirmed a link with liver damage"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Ana cümle geçmişte tamamlanmış bir eylemi anlatıyor; boşluk bu eylemin ZAMANINI geçmiş zamanla vermelidir. (E) hem «as soon as» ile zaman kurar hem de past simple kullanır. (A) geniş zamanlı bir koşuldur, geçmişteki bir kararla eşleşmez. (B) «in case» yan cümlesinde «will» kullanılmaz. (C) «so that» amaç bildirir ama yan etki bildirimleri ilacın geri çekilmesinin amacı değildir. (D) ise «despite» bir edattır, arkasına çekimli bir cümle alamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q07",
+              "kind": "sentenceCompletion",
+              "order": 6,
+              "prompt": "----, the factory would have continued operating for another decade.",
+              "options": [
+                "If the parent company does not file for bankruptcy",
+                "Unless the parent company files for bankruptcy",
+                "Had the parent company not filed for bankruptcy",
+                "Were the parent company to file for bankruptcy",
+                "Provided that the parent company will not file for bankruptcy"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Ana cümledeki «would have continued» üçüncü tip koşul ister: geçmişte gerçekleşmemiş bir durum. Bunu veren tek seçenek, «If ... had not filed»ın devrik biçimi olan (C). (A) ve (B) geniş zamandadır ve «would have» ile eşleşmez. (D) gelecekte olası bir durumu anlatan devrik yapıdır ve ayrıca anlamı tersine çevirir: iflas ETSEYDİ fabrikanın çalışmaya devam edeceğini söylemiş olur. (E) ise koşul cümlesinde «will» kullanır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q08",
+              "kind": "sentenceCompletion",
+              "order": 7,
+              "prompt": "The survey found that rural households spend twice as much on transport as urban ones, ----.",
+              "options": [
+                "because urban households therefore spend more",
+                "which explains why fuel taxes are politically so sensitive in the countryside",
+                "in order that rural incomes have remained low",
+                "whose figures were collected before the pandemic began",
+                "unless the survey is repeated every five years"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Virgülden sonra, bulgunun tamamına gönderme yapan ve ondan çıkan bir sonucu veren «which» cümlesi gerekir: (B). (A) hem «because» hem «therefore» kullanarak neden-sonucu iki kez kurar, üstelik bulgunun tersini söyler. (C) «in order that» amaç bildirir, oysa kırsal gelirin düşük kalması bir amaç değildir. (D) «whose» kendinden önceki isme bağlanır ve burada «urban ones»a takılır. (E) ise tamamlanmış bir bulguya koşul bağlamaya çalışır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q09",
+              "kind": "sentenceCompletion",
+              "order": 8,
+              "prompt": "Hardly had the ceasefire been announced ----.",
+              "options": [
+                "when fighting broke out again along the northern border",
+                "than fighting broke out again along the northern border",
+                "that fighting broke out again along the northern border",
+                "and fighting broke out again along the northern border",
+                "before fighting would break out along the northern border"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Hardly + past perfect» kalıbının ikinci yarısı her zaman «when + past simple» ile gelir: (A). (B) «than» yalnızca «No sooner ... than» kalıbına aittir; iki kalıp birbirine karıştırılmamalıdır. (C) ve (D) bu yapıda kullanılmaz ve cümleyi doğru bağlaçtan yoksun bırakır. (E) ise «would break out» ile geçmişte gerçekleşmiş ani bir olayı anlatamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q10",
+              "kind": "sentenceCompletion",
+              "order": 9,
+              "prompt": "Although the two economies are similar in size, ----.",
+              "options": [
+                "both of them depend heavily on manufacturing exports",
+                "they were both members of the same trade bloc until recently",
+                "their export structures could hardly be more different",
+                "the second one has a much larger population as a result",
+                "neither of them has published reliable figures since 2019"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Although» bir ZITLIK ister: benzerlikle çelişen bir fark. Bunu veren tek seçenek (C); büyüklükleri benzer ama ihracat yapıları taban tabana zıttır. (A) ve (B) benzerliği pekiştirir, zıtlık kurmaz. (D) «as a result» diyerek nüfus farkını benzerliğin sonucu gibi gösterir; bu mantıksızdır. (E) ise ekonomilerin büyüklüğüyle hiçbir karşıtlık kurmayan, ilgisiz bir bilgidir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q11",
+              "kind": "sentenceCompletion",
+              "order": 10,
+              "prompt": "At its final session the committee recommended that the deadline ----.",
+              "options": [
+                "will be extended by a further six months",
+                "be extended by a further six months",
+                "extending by a further six months",
+                "would have been extended by a further six months",
+                "has been extended by a further six months"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«recommend, suggest, insist, demand» gibi fiillerden sonra gelen «that» cümlesinde fiil YALIN hâlde kalır; edilgende bu «be + V3» olur: be extended. (A) ve (E) çekimli zamanlardır, bu kalıpta kullanılmaz. (D) «would have been» geçmişte gerçekleşmemiş bir durumu anlatır, oysa öneri geleceğe dönüktür. (C) ise çekimli fiil değildir ve «that» cümlesini yüklemsiz bırakır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q12",
+              "kind": "sentenceCompletion",
+              "order": 11,
+              "prompt": "It was not the shortage of raw materials ----.",
+              "options": [
+                "and the collapse of the transport network halted production",
+                "that the collapse of the transport network halted production",
+                "so the collapse of the transport network halted production",
+                "but the collapse of the transport network that halted production",
+                "while the collapse of the transport network halted production"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«It was not X but Y that ...» bir vurgu (cleft) kalıbıdır: olumsuzlanan öge X, gerçek özne Y, ardından «that» ile yüklem gelir. Bu diziyi tamamlayan tek seçenek (D). (A), (C) ve (E) «It was not ...» parçasını yüklemsiz bırakır; cümlenin başı havada kalır. (B) ise «that»i koyuyor ama «but» olmadığı için olumsuzlanan ögeyle gerçek özneyi karşı karşıya getiremez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q13",
+              "kind": "sentenceCompletion",
+              "order": 12,
+              "prompt": "Researchers have yet to explain ----.",
+              "options": [
+                "the treatment to work in one population but not in another",
+                "whether had the treatment worked in the second population",
+                "about why the treatment works differently in different populations",
+                "how does the same treatment produce such different results",
+                "why the same treatment works so well in one population and so poorly in another"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«explain» fiili nesne olarak bir SORU CÜMLECİĞİ alır ve bu cümlecikte düz cümle sırası korunur: «why + özne + fiil». Bunu yapan tek seçenek (E). (B) ve (D) gömülü cümlenin içinde soru sırasını, yani devrik yapıyı koruyor; bu yapılmaz. (A) «explain» arkasına «to + fiil» almaz. (C) ise «explain about» der; oysa bu fiil doğrudan nesne alır, araya edat girmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q14",
+              "kind": "sentenceCompletion",
+              "order": 13,
+              "prompt": "So rapidly did the epidemic spread through the region ----.",
+              "options": [
+                "and hospitals were unable to cope with the number of patients",
+                "because hospitals were unable to cope with the number of patients",
+                "which hospitals were unable to cope with",
+                "that hospitals were unable to cope with the number of patients",
+                "so hospitals were unable to cope with the number of patients"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Cümle «So + zarf + devrik yapı» ile başlıyor; bu kalıbın ikinci yarısı zorunlu olarak «that» ile gelen SONUÇ cümlesidir: (D). (A) ve (E) bağımsız bir cümle ekler ve «So rapidly» ile açılan yapıyı tamamlamaz. (B) neden bildirir, oysa hastanelerin yetersizliği salgının yayılma hızının sonucudur, nedeni değil. (C) ise ilgi cümlesi kurar ve kalıbın istediği «that»i karşılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-sentence-1-q15",
+              "kind": "sentenceCompletion",
+              "order": 14,
+              "prompt": "Pressed by journalists at the hearing, the minister denied ----.",
+              "options": [
+                "that the figures to be revised after the election",
+                "to have any knowledge of the revised figures",
+                "that had he been informed of the revisions",
+                "being informed the revisions before the election",
+                "having been informed of the revisions before the election"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«deny» fiili mastar değil, ULAÇ (V-ing) alır; reddedilen şey daha önce olmuşsa «having + V3» kullanılır. Doğru seçenek bu yüzden (E). (B) «deny to do» yapısını kurar; İngilizcede böyle bir kullanım yoktur. (D) ulacı doğru seçmiş ama «inform» fiilinin istediği «of» edatını atlamıştır. (A) yüklemsiz bir «that» cümlesidir, (C) ise gömülü cümlede devrik yapı kullandığı için yanlıştır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-practice-lesson-translation-1",
+          "order": 9,
+          "estimatedDurationMinutes": 9,
+          "title": "Çeviri: İngilizce-Türkçe",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-practice-card-translation-1",
+              "type": "practiceSet",
+              "headword": "English-Turkish Translation",
+              "frequencyRank": 1009,
+              "baseDifficulty": 0.5,
+              "definition": "Akademik İngilizce cümlelerin Türkçe karşılığını seçmeye dayanan on çeviri sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Çeviri: İngilizce-Türkçe",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-practice-lesson-translation-1-q01",
+              "kind": "translation",
+              "order": 0,
+              "prompt": "The committee argued that the new regulation would do little to curb inflation unless it was accompanied by tighter fiscal policy.",
+              "options": [
+                "Komisyon, yeni düzenlemenin daha sıkı bir maliye politikasıyla desteklenmedikçe enflasyonu dizginlemede pek işe yaramayacağını savundu.",
+                "Komisyon, yeni düzenlemenin enflasyonu dizginlediğini ve daha sıkı bir maliye politikası gerektirdiğini savundu.",
+                "Komisyon, daha sıkı bir maliye politikasının enflasyonu dizginleyeceğini, ancak yeni düzenlemenin gereksiz olduğunu savundu.",
+                "Komisyona göre yeni düzenleme, daha sıkı bir maliye politikası uygulansa bile enflasyonu dizginleyemeyecekti.",
+                "Komisyon, enflasyon dizginlenmedikçe yeni düzenlemenin daha sıkı bir maliye politikasına dönüşeceğini savundu."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«unless it was accompanied by» = «...ile desteklenmedikçe», «would do little to curb» = «dizginlemede pek işe yaramayacak». Her iki ögeyi de doğru veren tek seçenek (A). (B) olumsuzluğu tümden atlıyor. (C) neden-sonucu ters çeviriyor ve metinde olmayan «gereksiz» yargısını ekliyor. (D) «unless» yerine «even if» anlamı veriyor. (E) ise cümlenin ögelerini birbirine karıştırıyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q02",
+              "kind": "translation",
+              "order": 1,
+              "prompt": "Had the regulator acted sooner, the losses suffered by small investors could have been avoided.",
+              "options": [
+                "Düzenleyici kurum daha erken harekete geçtiği için küçük yatırımcılar kayıplardan korundu.",
+                "Küçük yatırımcıların uğradığı kayıplar, düzenleyici kurumun daha erken harekete geçmesini engelledi.",
+                "Düzenleyici kurum daha erken harekete geçseydi, küçük yatırımcıların uğradığı kayıplar önlenebilirdi.",
+                "Düzenleyici kurum harekete geçmeseydi bile küçük yatırımcıların kayıpları önlenebilirdi.",
+                "Düzenleyici kurum daha erken harekete geçerse küçük yatırımcıların kayıpları önlenebilir."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Cümle devrik kurulmuş üçüncü tip bir koşuldur: «Had the regulator acted sooner» = «daha erken harekete geçseydi», «could have been avoided» = «önlenebilirdi». İkisini de doğru veren tek seçenek (C). (A) koşulu gerçekleşmiş gibi anlatıyor. (B) özne ile nesneyi yer değiştirip nedeni tersine çeviriyor. (D) «bile» diyerek ödün anlamı katıyor, (E) ise gerçekleşmemiş bir geçmişi geleceğe taşıyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q03",
+              "kind": "translation",
+              "order": 2,
+              "prompt": "Although renewable capacity has expanded rapidly, it still accounts for less than a fifth of the country's electricity generation.",
+              "options": [
+                "Yenilenebilir enerji kapasitesi hızla arttığı için ülkenin elektrik üretiminin beşte birini aştı.",
+                "Yenilenebilir enerji kapasitesi hızla artarsa ülkenin elektrik üretiminin beşte birine ulaşacak.",
+                "Ülkenin elektrik üretiminin beşte birinden azı, yenilenebilir enerji kapasitesinin hızla artmasını engelliyor.",
+                "Yenilenebilir enerji kapasitesi hızla artmasaydı ülkenin elektrik üretiminin beşte birini karşılayamazdı.",
+                "Yenilenebilir enerji kapasitesi hızla artmış olsa da, ülkenin elektrik üretiminin hâlâ beşte birinden azını karşılıyor."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Although» zıtlık kurar, «still accounts for less than a fifth» ise «hâlâ beşte birinden azını karşılıyor» demektir; her iki ögeyi de koruyan tek seçenek (E). (A) zıtlığı nedene çeviriyor ve oranı «aştı» diyerek tersine döndürüyor. (B) cümleyi koşula, (D) ise gerçekleşmemiş bir koşula sokuyor. (C) ise özne ile nesne ilişkisini tamamen değiştiriyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q04",
+              "kind": "translation",
+              "order": 3,
+              "prompt": "The study suggests that early exposure to a second language improves cognitive flexibility later in life.",
+              "options": [
+                "Çalışma, ikinci bir dile erken yaşta maruz kalmanın ileriki yaşlarda bilişsel esnekliği zayıflattığını öne sürüyor.",
+                "Çalışma, ikinci bir dile erken yaşta maruz kalmanın ileriki yaşlarda bilişsel esnekliği geliştirdiğini öne sürüyor.",
+                "Çalışmaya göre bilişsel esnekliği yüksek olan çocuklar ikinci bir dili daha erken öğreniyor.",
+                "Çalışma, ileriki yaşlarda ikinci bir dil öğrenmenin bilişsel esnekliği artırdığını gösteriyor.",
+                "Çalışma, ikinci bir dile erken yaşta maruz kalan çocukların bilişsel esnekliğinin ölçülemediğini belirtiyor."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«early exposure ... improves ... later in life» = «erken yaşta maruz kalmak ileriki yaşlarda geliştirir»; bunu birebir veren (B). (A) «improves» yerine «zayıflatıyor» diyerek anlamı tersine çeviriyor. (C) neden ile sonucu yer değiştiriyor: cümlede erken dil teması bilişsel esnekliği doğuruyor, tersi değil. (D) «early»yi «ileriki yaşlarda»ya kaydırıyor, (E) ise cümlede hiç olmayan bir «ölçülemezlik» iddiası ekliyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q05",
+              "kind": "translation",
+              "order": 4,
+              "prompt": "Not only did the reform fail to reduce inequality, but it also increased the tax burden on middle-income families.",
+              "options": [
+                "Reform eşitsizliği azaltmakla kalmadı, orta gelirli ailelerin vergi yükünü de hafifletti.",
+                "Reform, orta gelirli ailelerin vergi yükünü artırarak eşitsizliği azalttı.",
+                "Reform eşitsizliği azaltsaydı orta gelirli ailelerin vergi yükü artmayacaktı.",
+                "Reform yalnızca eşitsizliği azaltmayı başaramamakla kalmadı, orta gelirli ailelerin vergi yükünü de artırdı.",
+                "Reformun eşitsizliği azaltıp azaltmadığı, orta gelirli ailelerin vergi yüküne bağlıydı."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Not only ... but also» kalıbı iki OLUMSUZ bulguyu üst üste koyuyor: reform eşitsizliği azaltamadı, üstelik vergi yükünü artırdı. Bunu veren tek seçenek (D). (A) «fail to reduce» ögesini atlıyor ve yükün hafiflediğini söylüyor; iki hata birden. (B) reformun eşitsizliği azalttığını iddia ediyor. (C) cümleyi koşula, (E) ise bir belirsizlik ifadesine çeviriyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q06",
+              "kind": "translation",
+              "order": 5,
+              "prompt": "Researchers warn that the coral reefs may not recover unless sea temperatures fall within the next decade.",
+              "options": [
+                "Araştırmacılar, deniz sıcaklıkları önümüzdeki on yıl içinde düşmedikçe mercan resiflerinin toparlanamayabileceği konusunda uyarıyor.",
+                "Araştırmacılar, deniz sıcaklıkları önümüzdeki on yıl içinde düşse bile mercan resiflerinin toparlanamayacağını söylüyor.",
+                "Araştırmacılara göre mercan resifleri toparlandıkça deniz sıcaklıkları önümüzdeki on yıl içinde düşecek.",
+                "Araştırmacılar, mercan resiflerinin toparlanmasının deniz sıcaklıklarını on yıl içinde düşüreceği konusunda uyarıyor.",
+                "Araştırmacılar, deniz sıcaklıkları düşmediği için mercan resiflerinin on yıl önce toparlandığını belirtiyor."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«unless ... fall» = «düşmedikçe», «may not recover» = «toparlanamayabilir»; olumsuz koşulu ve ihtimal payını birlikte koruyan tek seçenek (A). (B) «unless»i «even if»e çevirip toparlanmayı tümden imkânsız gösteriyor. (C) koşul ile sonucu yer değiştiriyor. (D) neden-sonucu tersine çeviriyor, (E) ise geleceğe dönük bir uyarıyı geçmişte olmuş bir olaya dönüştürüyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q07",
+              "kind": "translation",
+              "order": 6,
+              "prompt": "The court ruled that the company had been aware of the defect long before it issued the recall.",
+              "options": [
+                "Mahkeme, şirketin geri çağırma kararını açıklamasından çok sonra kusurdan haberdar olduğuna hükmetti.",
+                "Mahkeme, şirketin kusurdan haberdar olmadığı için geri çağırma kararını geciktirdiğine hükmetti.",
+                "Mahkeme, şirketin geri çağırma kararını açıklamasından çok önce kusurdan haberdar olduğuna hükmetti.",
+                "Mahkemeye göre şirket, kusuru fark eder etmez geri çağırma kararını açıklamıştı.",
+                "Mahkeme, şirketin kusuru gizlemek için geri çağırma kararını açıkladığına hükmetti."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«had been aware ... long before it issued the recall» = «geri çağırma kararını açıklamasından çok önce kusurdan haberdardı»; zaman sırasını doğru kuran tek seçenek (C). (A) sırayı tersine çevirip «çok sonra» diyor. (B) şirketin haberdar olmadığını söyleyerek mahkemenin tespitini ortadan kaldırıyor. (D) «çok önce»yi «fark eder etmez»e dönüştürüyor, (E) ise cümlede hiç bulunmayan bir gizleme kastı ekliyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q08",
+              "kind": "translation",
+              "order": 7,
+              "prompt": "Far from solving the housing shortage, the new planning rules have made it harder for small builders to obtain permission.",
+              "options": [
+                "Yeni imar kuralları konut açığını çözdüğü gibi küçük müteahhitlerin izin almasını da kolaylaştırdı.",
+                "Yeni imar kuralları konut açığını çözmek bir yana, küçük müteahhitlerin izin almasını daha da zorlaştırdı.",
+                "Konut açığı çözülmedikçe yeni imar kuralları küçük müteahhitlerin izin almasını zorlaştıracak.",
+                "Yeni imar kuralları, küçük müteahhitler izin alamadığı için konut açığını çözemedi.",
+                "Yeni imar kuralları konut açığını çözerken küçük müteahhitlerin izin almasını da zorlaştırdı."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Far from solving» = «çözmek bir yana / çözmek şöyle dursun»; yani kurallar açığı çözmemiştir. Bunu ve «harder to obtain permission» ögesini birlikte veren tek seçenek (B). (A) hem açığın çözüldüğünü hem de işlerin kolaylaştığını söyleyerek iki kez ters düşüyor. (E) de açığın çözüldüğünü kabul ediyor. (C) cümleyi koşullu bir geleceğe taşıyor, (D) ise neden-sonucu tersine çeviriyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q09",
+              "kind": "translation",
+              "order": 8,
+              "prompt": "It is widely believed that the treaty would never have been signed had the two leaders not met in private.",
+              "options": [
+                "İki liderin özel olarak görüşmesi, anlaşmanın imzalanmasını engellediği için yaygın olarak eleştiriliyor.",
+                "Anlaşmanın imzalanabilmesi için iki liderin özel olarak görüşmesi gerektiği yaygın biçimde savunuluyor.",
+                "İki lider özel olarak görüşmezse anlaşmanın hiçbir zaman imzalanmayacağına yaygın olarak inanılıyor.",
+                "İki lider özel olarak görüşmemiş olsaydı anlaşmanın hiçbir zaman imzalanmayacağına yaygın olarak inanılıyor.",
+                "Anlaşma imzalandıktan sonra iki liderin özel olarak görüştüğüne yaygın olarak inanılıyor."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Cümlenin sonundaki «had the two leaders not met» devrik üçüncü tip koşuldur: «görüşmemiş olsalardı». Ana kısım da «would never have been signed» = «hiçbir zaman imzalanmayacaktı». İkisini de veren tek seçenek (D). (C) koşulu geniş zamana çekerek geçmişte gerçekleşmiş bir olayı olasılığa dönüştürüyor. (B) karşı olgusal yapıyı bir «gereklilik» ifadesine indiriyor. (A) ve (E) ise olayların sırasını ve anlamını tamamen değiştiriyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-practice-lesson-translation-1-q10",
+              "kind": "translation",
+              "order": 9,
+              "prompt": "While automation has displaced many routine jobs, it has simultaneously created demand for skills that did not exist a generation ago.",
+              "options": [
+                "Otomasyon rutin işlerin çoğunu ortadan kaldırdığı için bir kuşak önce var olmayan becerilere olan talep azaldı.",
+                "Otomasyon, bir kuşak önce var olmayan becerileri ortadan kaldırırken rutin işlere olan talebi artırdı.",
+                "Otomasyon rutin işleri ortadan kaldırmasaydı bir kuşak önce var olmayan beceriler ortaya çıkmazdı.",
+                "Bir kuşak önce var olmayan beceriler, otomasyonun rutin işleri ortadan kaldırmasını yavaşlattı.",
+                "Otomasyon birçok rutin işi ortadan kaldırırken, aynı anda bir kuşak önce var olmayan becerilere talep yarattı."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«While» burada zıtlık kuruyor, «has simultaneously created demand» ise aynı anda yeni bir talebin doğduğunu söylüyor; her iki ögeyi de koruyan tek seçenek (E). (A) talebin azaldığını söyleyerek cümleyi tersine çeviriyor. (B) ortadan kalkan ile yaratılanı yer değiştiriyor. (C) cümleyi gerçekleşmemiş bir koşula sokuyor, (D) ise özne ile nesnenin rolünü değiştiriyor.",
+              "passageID": null
             }
           ]
         }

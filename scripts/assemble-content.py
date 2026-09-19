@@ -44,12 +44,34 @@ BATCH_FILES = [
     "academic-writing.json",
 ]
 
+# The seven Slice 7a practice lessons. They are appended to the FIRST unit
+# (order 0) on purpose: LessonAccessPolicy exposes only the lowest-ordered
+# unit to a preview user, so a separate practice unit would be permanently
+# locked, and making practice the first unit would push every vocabulary
+# lesson out of the free preview and kill the review loop.
+PRACTICE_UNIT_ID = "yds-vocab1-unit-business-economics"
+PRACTICE_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "practice")
+PRACTICE_FILES = [
+    "grammar-tenses.json",
+    "grammar-conditionals.json",
+    "reading-climate-policy.json",
+    "reading-digital-economy.json",
+    "cloze-urbanisation.json",
+    "sentence-completion-1.json",
+    "translation-1.json",
+]
+
+QUESTION_KINDS = {"grammar", "reading", "cloze", "sentenceCompletion", "translation"}
+PRACTICE_CARD_TYPES = {"grammarPoint", "practiceSet"}
+
 OUTPUT_PATHS = [
     os.path.join(REPO_ROOT, "App", "Sources", "EnglishApp", "Resources", "YDSAcademicVocabulary1.json"),
     os.path.join(REPO_ROOT, "LearningEngine", "Tests", "LearningEngineTests", "Fixtures", "YDSAcademicVocabulary1.json"),
 ]
 
-PACKAGE_VERSION = 3
+# 4: Slice 7a adds practice lessons (questions, passages, grammar topic
+# explanations). Bumping this makes installed apps re-import the package.
+PACKAGE_VERSION = 4
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.
@@ -80,21 +102,28 @@ def validate_weights(weights):
 
 def enrich_lessons(unit):
     """Adds a derived title and a default skill to every lesson, with a
-    stable key order so the committed JSON diff stays readable."""
+    stable key order so the committed JSON diff stays readable. `passage`
+    and `questions` are emitted only when present, so the twelve existing
+    vocabulary lessons serialize byte-identically to before."""
     enriched = []
     for lesson in unit["lessons"]:
         skill = lesson.get("skill", "vocabulary")
         if skill not in SKILLS:
             raise ValueError(f"lesson {lesson['id']} has invalid skill {skill!r}")
         title = lesson.get("title", f"{unit['theme']} · {lesson['order'] + 1}")
-        enriched.append({
+        out = {
             "id": lesson["id"],
             "order": lesson["order"],
             "estimatedDurationMinutes": lesson["estimatedDurationMinutes"],
             "title": title,
             "skill": skill,
-            "items": lesson["items"],
-        })
+        }
+        if "passage" in lesson:
+            out["passage"] = lesson["passage"]
+        out["items"] = lesson["items"]
+        if lesson.get("questions"):
+            out["questions"] = lesson["questions"]
+        enriched.append(out)
     unit = dict(unit)
     unit["lessons"] = enriched
     return unit
@@ -109,9 +138,98 @@ def load_units():
     return units
 
 
+def load_practice_lessons():
+    lessons = []
+    for filename in PRACTICE_FILES:
+        path = os.path.join(PRACTICE_DIR, filename)
+        with open(path, "r", encoding="utf-8") as f:
+            lessons.append(json.load(f))
+    return lessons
+
+
+def attach_practice_lessons(units):
+    """Appends the practice lessons to PRACTICE_UNIT_ID, numbering them
+    straight after that unit's existing lessons."""
+    target = next((u for u in units if u["id"] == PRACTICE_UNIT_ID), None)
+    if target is None:
+        raise ValueError(f"practice unit {PRACTICE_UNIT_ID} not found")
+    next_order = max((l["order"] for l in target["lessons"]), default=-1) + 1
+    for offset, lesson in enumerate(load_practice_lessons()):
+        lesson = dict(lesson)
+        lesson["order"] = next_order + offset
+        target["lessons"].append(lesson)
+    return units
+
+
+def validate_content(package):
+    """Mirrors ContentImporter's validation so authors get the failure here,
+    on Windows, seconds after saving -- not half an hour later in macOS CI.
+    Also enforces three things the importer cannot: package-wide unique item
+    ids, package-wide unique passage ids, and unique question `order` within
+    a lesson."""
+    question_ids = set()
+    item_ids = set()
+    passage_ids = set()
+    for unit in package["units"]:
+        for lesson in unit["lessons"]:
+            lesson_id = lesson["id"]
+            questions = lesson.get("questions", [])
+            for item in lesson["items"]:
+                if item["id"] in item_ids:
+                    raise ValueError(f"duplicate item id {item['id']}")
+                item_ids.add(item["id"])
+
+            if lesson["skill"] != "vocabulary":
+                if not questions:
+                    raise ValueError(f"lesson {lesson_id} has a practice skill but no questions")
+                cards = [i for i in lesson["items"] if i["type"] in PRACTICE_CARD_TYPES]
+                if len(cards) != 1:
+                    raise ValueError(
+                        f"lesson {lesson_id} must own exactly one grammarPoint/practiceSet item, found {len(cards)}"
+                    )
+                if cards[0]["type"] == "grammarPoint" and not cards[0].get("explanationTR", "").strip():
+                    raise ValueError(f"lesson {lesson_id} grammar card has an empty explanationTR")
+                if cards[0]["type"] == "practiceSet" and "explanationTR" in cards[0]:
+                    raise ValueError(f"lesson {lesson_id} practiceSet card must not carry explanationTR")
+            elif questions:
+                raise ValueError(f"vocabulary lesson {lesson_id} must not carry questions")
+
+            passage_id = lesson.get("passage", {}).get("id")
+            # The Swift importer only checks that a question's passageID matches
+            # its OWN lesson's passage, so two lessons could ship the same
+            # passage id and the app would silently key both to one Passage row.
+            # Nothing downstream would catch that, so reject it here.
+            if passage_id is not None:
+                if passage_id in passage_ids:
+                    raise ValueError(f"duplicate passage id {passage_id} (lesson {lesson_id})")
+                passage_ids.add(passage_id)
+            orders = set()
+            for question in questions:
+                qid = question["id"]
+                if qid in question_ids:
+                    raise ValueError(f"duplicate question id {qid}")
+                question_ids.add(qid)
+                if question["kind"] not in QUESTION_KINDS:
+                    raise ValueError(f"question {qid} has unknown kind {question['kind']!r}")
+                if len(question["options"]) != 5:
+                    raise ValueError(f"question {qid} has {len(question['options'])} options, expected 5")
+                if not 0 <= question["correctIndex"] <= 4:
+                    raise ValueError(f"question {qid} correctIndex {question['correctIndex']} out of range")
+                if not question["explanationTR"].strip():
+                    raise ValueError(f"question {qid} has an empty explanationTR")
+                if any(not option.strip() for option in question["options"]):
+                    raise ValueError(f"question {qid} has an empty option")
+                if question.get("passageID") is not None and question["passageID"] != passage_id:
+                    raise ValueError(f"question {qid} references unknown passage {question['passageID']!r}")
+                if question["order"] in orders:
+                    raise ValueError(f"lesson {lesson_id} has two questions with order {question['order']}")
+                orders.add(question["order"])
+
+
 def assemble():
     validate_weights(SKILL_WEIGHTS)
-    return {
+    units = attach_practice_lessons(load_units())
+    package = {
         "id": "yds-academic-vocab-1",
         "name": "YDS: Academic Vocabulary I",
         "goal": "yds",
@@ -119,8 +237,10 @@ def assemble():
         "levelUpper": "C1",
         "version": PACKAGE_VERSION,
         "skillWeights": SKILL_WEIGHTS,
-        "units": [enrich_lessons(u) for u in load_units()],
+        "units": [enrich_lessons(u) for u in units],
     }
+    validate_content(package)
+    return package
 
 
 def write_output(package, path):

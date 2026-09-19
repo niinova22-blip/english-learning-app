@@ -1,0 +1,122 @@
+{
+  "id": "yds-practice-lesson-reading-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Dijital Ekonomi",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-practice-passage-reading-2",
+    "title": "The Economics of Digital Platforms",
+    "body": "Digital platforms differ from traditional firms in one decisive respect: their value to any single user grows as the number of other users increases. A marketplace with more sellers attracts more buyers, and more buyers in turn attract still more sellers. Economists call this a network effect, and it explains why digital markets so often end up dominated by one or two companies rather than by a crowd of similar competitors. Once a platform has become the default meeting place, a rival offering a marginally better service can still fail, simply because users have little reason to move somewhere emptier. Regulators have found this pattern difficult to address. Breaking a platform into smaller pieces would destroy precisely the scale that users value, while doing nothing risks entrenching the incumbent for good. The remedy now attracting the most support is interoperability: obliging dominant platforms to let users communicate with, and carry their data to, competing services."
+  },
+  "items": [
+    {
+      "id": "yds-practice-card-reading-2",
+      "type": "practiceSet",
+      "headword": "Digital Platforms",
+      "frequencyRank": 1006,
+      "baseDifficulty": 0.5,
+      "definition": "Dijital platform ekonomisi üzerine akademik bir metin ve altı okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Dijital Ekonomi",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-practice-lesson-reading-2-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "According to the passage, what distinguishes a digital platform from a conventional firm is that ----.",
+      "options": [
+        "its value to each user rises as more people join it",
+        "it can operate profitably without any competitors",
+        "it sells directly to buyers rather than through sellers",
+        "it is regulated more strictly than other businesses",
+        "it grows only when it offers a better service than its rivals"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Metnin ilk cümlesi farkı tek bir noktada topluyor: platformun tek bir kullanıcı için değeri, diğer kullanıcı sayısı arttıkça büyür; yani (A). (E) metinle doğrudan çelişiyor, çünkü biraz daha iyi hizmet veren bir rakibin bile başarısız olabileceği söyleniyor. (D) metinde iddia edilmiyor; yalnızca düzenleyicilerin zorlandığı anlatılıyor. (B) ve (C) de metinde yer almıyor.",
+      "passageID": "yds-practice-passage-reading-2"
+    },
+    {
+      "id": "yds-practice-lesson-reading-2-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "The passage explains that a rival offering a slightly better service may still fail because ----.",
+      "options": [
+        "regulators prevent new platforms from entering the market",
+        "it cannot afford to be broken into smaller pieces",
+        "users see no point in moving to a less populated platform",
+        "it is obliged to share its data with the dominant platform",
+        "buyers and sellers prefer traditional marketplaces"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Metin nedeni açıkça veriyor: kullanıcıların «daha boş bir yere» taşınmak için pek bir nedeni yoktur; bunu söyleyen tek seçenek (C). (D) birlikte çalışabilirlik önerisini tersine çeviriyor; yükümlülük hâkim platforma getirilir, rakibe değil. (A) metinde söylenmiyor: düzenleyiciler girişi engellemiyor, kalıbı ele almakta zorlanıyor. (B) ve (E) metinde hiç geçmiyor.",
+      "passageID": "yds-practice-passage-reading-2"
+    },
+    {
+      "id": "yds-practice-lesson-reading-2-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "According to the passage, network effects make digital markets likely to end up ----.",
+      "options": [
+        "divided among many similar competitors",
+        "regulated by interoperability rules from the start",
+        "controlled by a very small number of firms",
+        "smaller than traditional markets",
+        "dependent on government funding"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Metin ağ etkisinin dijital pazarları «birbirine benzer bir rakip kalabalığı yerine bir ya da iki şirketin egemenliğine» götürdüğünü söylüyor; yani (C). (A) tam olarak metnin reddettiği seçenektir. (B) birlikte çalışabilirlik sonradan önerilen bir çare olarak geçiyor, pazarın doğal sonucu olarak değil. (D) ve (E) metinde hiç yer almıyor.",
+      "passageID": "yds-practice-passage-reading-2"
+    },
+    {
+      "id": "yds-practice-lesson-reading-2-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "It is stated in the passage that breaking up a dominant platform is problematic because it would ----.",
+      "options": [
+        "leave the incumbent entrenched for good",
+        "force regulators to introduce interoperability instead",
+        "reduce the number of sellers in the marketplace",
+        "eliminate the very scale that makes the platform useful",
+        "prevent users from carrying their data to rival services"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Metne göre platformu parçalamak «kullanıcıların değer verdiği ölçeğin ta kendisini yok eder»; yani (D). (A) metinde geçiyor ama bu, HİÇBİR ŞEY YAPMAMANIN riskidir; neden-sonuç ters çevrilmiş. (E) tam tersine, veri taşınabilirliği önerilen çözümün parçasıdır, parçalamanın sonucu değil. (B) ve (C) metinde söylenmiyor.",
+      "passageID": "yds-practice-passage-reading-2"
+    },
+    {
+      "id": "yds-practice-lesson-reading-2-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "The remedy described at the end of the passage would require dominant platforms to ----.",
+      "options": [
+        "reduce the number of users they serve",
+        "allow users to reach and move to rival services",
+        "share their profits with smaller competitors",
+        "split themselves into several independent companies",
+        "obtain regulatory approval before adding new users"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Son cümle birlikte çalışabilirliği tanımlıyor: hâkim platformlar, kullanıcıların rakip hizmetlerle iletişim kurmasına ve verilerini oraya taşımasına izin vermek zorunda kalır; yani (B). (D) metnin sakıncalı bulduğu «parçalama» seçeneğidir, önerilen çare değil. (A) ve (C) metinde hiç geçmiyor. (E) ise böyle bir izin şartından söz edilmiyor.",
+      "passageID": "yds-practice-passage-reading-2"
+    },
+    {
+      "id": "yds-practice-lesson-reading-2-q06",
+      "kind": "reading",
+      "order": 5,
+      "prompt": "It can be understood from the passage that the author regards the regulators' position as ----.",
+      "options": [
+        "straightforward, since the remedy has long been obvious",
+        "unimportant, because network effects will fade on their own",
+        "hopeless, as no measure can limit a dominant platform",
+        "unjustified, given that users benefit from having competitors",
+        "difficult, because the obvious remedies each carry a serious drawback"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Metin düzenleyicilerin bu kalıbı ele almakta zorlandığını söylüyor ve iki bariz seçeneğin de sakıncasını sıralıyor: parçalamak ölçeği yok eder, hiçbir şey yapmamak hâkim oyuncuyu kalıcılaştırır. Bu yüzden (E). (C) fazla uçtur; yazar birlikte çalışabilirliği işe yarayabilecek bir çözüm olarak sunuyor. (A) çarenin uzun süredir apaçık olduğunu iddia ediyor, oysa metinde «şimdi en çok destek gören» deniyor. (B) ve (D) metinde hiç savunulmuyor.",
+      "passageID": "yds-practice-passage-reading-2"
+    }
+  ]
+}

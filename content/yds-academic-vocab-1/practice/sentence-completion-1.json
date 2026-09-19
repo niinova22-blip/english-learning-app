@@ -1,0 +1,261 @@
+{
+  "id": "yds-practice-lesson-sentence-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Cümle Tamamlama",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-practice-card-sentence-1",
+      "type": "practiceSet",
+      "headword": "Sentence Completion",
+      "frequencyRank": 1008,
+      "baseDifficulty": 0.5,
+      "definition": "Bağlaç, zaman uyumu ve cümle yapısına dayanan on beş cümle tamamlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Cümle Tamamlama",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-practice-lesson-sentence-1-q01",
+      "kind": "sentenceCompletion",
+      "order": 0,
+      "prompt": "Although the report was commissioned to settle the dispute, its conclusions were so ambiguous that ----.",
+      "options": [
+        "both sides claimed that it supported their own position",
+        "the committee had refused to publish it in the first place",
+        "it was written by an independent panel of economists",
+        "the dispute would have been settled several years earlier",
+        "the ministry commissions a similar report every year"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«so ... that» kalıbı bir SONUÇ ister: sonuçlar o kadar belirsizdi ki ----. Belirsiz bir raporun doğal sonucu, iki tarafın da raporu kendi lehine yorumlamasıdır; bu yüzden (A). (B) zaman olarak tutarsız, raporun yazılmasından önceki bir olayı anlatıyor. (C) bir sonuç değil, ek bilgi. (D) üçüncü tip koşul yapısı gerektirir, burada koşul yok. (E) ise cümlenin konusuyla ilgisiz genel bir yargı.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q02",
+      "kind": "sentenceCompletion",
+      "order": 1,
+      "prompt": "----, the ministry postponed the auction of the new frequency bands until the following spring.",
+      "options": [
+        "Although the bidding rules will be published next week",
+        "Because the bidding rules had attracted so much criticism",
+        "Unless the bidding rules are revised by the operators",
+        "So that the bidding rules had attracted criticism",
+        "Whether the bidding rules were clear enough"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Ana cümle geçmişte alınmış bir erteleme kararını anlatıyor; boşluk bu kararın NEDENİNİ vermeli ve geçmişle uyumlu olmalı. (B) hem nedeni veriyor hem de erteleme öncesine düşen past perfect'i kullanıyor. (A) «will be published» ile gelecekten söz ediyor, «postponed» ile aynı cümlede duramaz. (C) geniş zamanlı bir koşul kurar ve geçmişteki bir kararı açıklayamaz. (D) «so that» amaç bildirir ama arkasına past perfect almaz; (E) ise «whether» ile tek başına bir zarf cümleciği kurulmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q03",
+      "kind": "sentenceCompletion",
+      "order": 2,
+      "prompt": "The new high-speed line has cut the journey time between the two cities by half, ----.",
+      "options": [
+        "but the number of passengers had fallen before it opened",
+        "in order to reduce the amount of freight carried by road",
+        "which has made commuting a realistic option for thousands of workers",
+        "whose passengers complain about the price of tickets",
+        "so that the fares will have to be doubled next year"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Virgülden sonra, önceki cümlenin TAMAMINA gönderme yapan bir ilgi cümlesi gelmeli; «which» tam da bunu yapar ve sürenin yarıya inmesinin doğal sonucunu verir: (C). (A) zaman olarak tutarsızdır, hattın açılışından önceki bir düşüşü sonuç gibi sunar. (B) ve (E) amaç bildirir, oysa yolculuk süresini kısaltmanın amacı yük taşımacılığı ya da bilet zammı değildir. (D) «whose» kendinden hemen önceki isme bağlanır ve burada «half» sözcüğüne takılıp anlamsız kalır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q04",
+      "kind": "sentenceCompletion",
+      "order": 3,
+      "prompt": "Not until the archives were opened to the public ----.",
+      "options": [
+        "did historians realise how unreliable the official figures had been",
+        "historians realised how unreliable the official figures had been",
+        "that historians realised how unreliable the official figures were",
+        "historians have realised how unreliable the official figures are",
+        "and historians realised how unreliable the official figures had been"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Cümlenin başındaki «Not until ...» olumsuz bir zaman ifadesidir ve ana cümlede DEVRİK yapıyı zorunlu kılar: yardımcı fiil özneden önce gelir, «did historians realise». (B) ve (E) devrik değildir; (E) ayrıca «and» ile cümleyi iki bağımsız parçaya böler. (C) «that» ile kurulan yapı yalnızca «It was not until ...» kalıbında olur. (D) hem devrik değildir hem de present perfect kullanarak geçmişteki bir olayla çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q05",
+      "kind": "sentenceCompletion",
+      "order": 4,
+      "prompt": "Given that the region's aquifers are being depleted faster than they can be replenished, ----.",
+      "options": [
+        "farmers had already switched to drip irrigation twenty years ago",
+        "the government would have subsidised desalination plants instead",
+        "rainfall in the region has always been unusually heavy",
+        "it is surprising how little the issue features in national water policy",
+        "the aquifers were replenished during the last rainy season"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Given that ...» bir gerekçe sunar; ana cümle bu gerekçeden çıkan bir DEĞERLENDİRME olmalıdır ve bunu yapan tek seçenek (D). (C) ve (E) gerekçenin kendisiyle çelişir: yeraltı suları tükeniyorsa yağış bol olamaz, akiferler de yenilenmiş sayılamaz. (A) yirmi yıl önce tamamlanmış bir eylemi bugünkü bir duruma sonuç diye bağlar. (B) ise koşulsuz bir «would have» yapısıdır; ortada üçüncü tip bir koşul yok.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q06",
+      "kind": "sentenceCompletion",
+      "order": 5,
+      "prompt": "The drug was withdrawn from the market ----.",
+      "options": [
+        "unless the regulator confirms a link with liver damage",
+        "in case the regulator will confirm a link with liver damage",
+        "so that patients had reported severe side effects",
+        "despite the regulator has confirmed a link with liver damage",
+        "as soon as the regulator confirmed a link with liver damage"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Ana cümle geçmişte tamamlanmış bir eylemi anlatıyor; boşluk bu eylemin ZAMANINI geçmiş zamanla vermelidir. (E) hem «as soon as» ile zaman kurar hem de past simple kullanır. (A) geniş zamanlı bir koşuldur, geçmişteki bir kararla eşleşmez. (B) «in case» yan cümlesinde «will» kullanılmaz. (C) «so that» amaç bildirir ama yan etki bildirimleri ilacın geri çekilmesinin amacı değildir. (D) ise «despite» bir edattır, arkasına çekimli bir cümle alamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q07",
+      "kind": "sentenceCompletion",
+      "order": 6,
+      "prompt": "----, the factory would have continued operating for another decade.",
+      "options": [
+        "If the parent company does not file for bankruptcy",
+        "Unless the parent company files for bankruptcy",
+        "Had the parent company not filed for bankruptcy",
+        "Were the parent company to file for bankruptcy",
+        "Provided that the parent company will not file for bankruptcy"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Ana cümledeki «would have continued» üçüncü tip koşul ister: geçmişte gerçekleşmemiş bir durum. Bunu veren tek seçenek, «If ... had not filed»ın devrik biçimi olan (C). (A) ve (B) geniş zamandadır ve «would have» ile eşleşmez. (D) gelecekte olası bir durumu anlatan devrik yapıdır ve ayrıca anlamı tersine çevirir: iflas ETSEYDİ fabrikanın çalışmaya devam edeceğini söylemiş olur. (E) ise koşul cümlesinde «will» kullanır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q08",
+      "kind": "sentenceCompletion",
+      "order": 7,
+      "prompt": "The survey found that rural households spend twice as much on transport as urban ones, ----.",
+      "options": [
+        "because urban households therefore spend more",
+        "which explains why fuel taxes are politically so sensitive in the countryside",
+        "in order that rural incomes have remained low",
+        "whose figures were collected before the pandemic began",
+        "unless the survey is repeated every five years"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Virgülden sonra, bulgunun tamamına gönderme yapan ve ondan çıkan bir sonucu veren «which» cümlesi gerekir: (B). (A) hem «because» hem «therefore» kullanarak neden-sonucu iki kez kurar, üstelik bulgunun tersini söyler. (C) «in order that» amaç bildirir, oysa kırsal gelirin düşük kalması bir amaç değildir. (D) «whose» kendinden önceki isme bağlanır ve burada «urban ones»a takılır. (E) ise tamamlanmış bir bulguya koşul bağlamaya çalışır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q09",
+      "kind": "sentenceCompletion",
+      "order": 8,
+      "prompt": "Hardly had the ceasefire been announced ----.",
+      "options": [
+        "when fighting broke out again along the northern border",
+        "than fighting broke out again along the northern border",
+        "that fighting broke out again along the northern border",
+        "and fighting broke out again along the northern border",
+        "before fighting would break out along the northern border"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Hardly + past perfect» kalıbının ikinci yarısı her zaman «when + past simple» ile gelir: (A). (B) «than» yalnızca «No sooner ... than» kalıbına aittir; iki kalıp birbirine karıştırılmamalıdır. (C) ve (D) bu yapıda kullanılmaz ve cümleyi doğru bağlaçtan yoksun bırakır. (E) ise «would break out» ile geçmişte gerçekleşmiş ani bir olayı anlatamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q10",
+      "kind": "sentenceCompletion",
+      "order": 9,
+      "prompt": "Although the two economies are similar in size, ----.",
+      "options": [
+        "both of them depend heavily on manufacturing exports",
+        "they were both members of the same trade bloc until recently",
+        "their export structures could hardly be more different",
+        "the second one has a much larger population as a result",
+        "neither of them has published reliable figures since 2019"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Although» bir ZITLIK ister: benzerlikle çelişen bir fark. Bunu veren tek seçenek (C); büyüklükleri benzer ama ihracat yapıları taban tabana zıttır. (A) ve (B) benzerliği pekiştirir, zıtlık kurmaz. (D) «as a result» diyerek nüfus farkını benzerliğin sonucu gibi gösterir; bu mantıksızdır. (E) ise ekonomilerin büyüklüğüyle hiçbir karşıtlık kurmayan, ilgisiz bir bilgidir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q11",
+      "kind": "sentenceCompletion",
+      "order": 10,
+      "prompt": "At its final session the committee recommended that the deadline ----.",
+      "options": [
+        "will be extended by a further six months",
+        "be extended by a further six months",
+        "extending by a further six months",
+        "would have been extended by a further six months",
+        "has been extended by a further six months"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«recommend, suggest, insist, demand» gibi fiillerden sonra gelen «that» cümlesinde fiil YALIN hâlde kalır; edilgende bu «be + V3» olur: be extended. (A) ve (E) çekimli zamanlardır, bu kalıpta kullanılmaz. (D) «would have been» geçmişte gerçekleşmemiş bir durumu anlatır, oysa öneri geleceğe dönüktür. (C) ise çekimli fiil değildir ve «that» cümlesini yüklemsiz bırakır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q12",
+      "kind": "sentenceCompletion",
+      "order": 11,
+      "prompt": "It was not the shortage of raw materials ----.",
+      "options": [
+        "and the collapse of the transport network halted production",
+        "that the collapse of the transport network halted production",
+        "so the collapse of the transport network halted production",
+        "but the collapse of the transport network that halted production",
+        "while the collapse of the transport network halted production"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«It was not X but Y that ...» bir vurgu (cleft) kalıbıdır: olumsuzlanan öge X, gerçek özne Y, ardından «that» ile yüklem gelir. Bu diziyi tamamlayan tek seçenek (D). (A), (C) ve (E) «It was not ...» parçasını yüklemsiz bırakır; cümlenin başı havada kalır. (B) ise «that»i koyuyor ama «but» olmadığı için olumsuzlanan ögeyle gerçek özneyi karşı karşıya getiremez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q13",
+      "kind": "sentenceCompletion",
+      "order": 12,
+      "prompt": "Researchers have yet to explain ----.",
+      "options": [
+        "the treatment to work in one population but not in another",
+        "whether had the treatment worked in the second population",
+        "about why the treatment works differently in different populations",
+        "how does the same treatment produce such different results",
+        "why the same treatment works so well in one population and so poorly in another"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«explain» fiili nesne olarak bir SORU CÜMLECİĞİ alır ve bu cümlecikte düz cümle sırası korunur: «why + özne + fiil». Bunu yapan tek seçenek (E). (B) ve (D) gömülü cümlenin içinde soru sırasını, yani devrik yapıyı koruyor; bu yapılmaz. (A) «explain» arkasına «to + fiil» almaz. (C) ise «explain about» der; oysa bu fiil doğrudan nesne alır, araya edat girmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q14",
+      "kind": "sentenceCompletion",
+      "order": 13,
+      "prompt": "So rapidly did the epidemic spread through the region ----.",
+      "options": [
+        "and hospitals were unable to cope with the number of patients",
+        "because hospitals were unable to cope with the number of patients",
+        "which hospitals were unable to cope with",
+        "that hospitals were unable to cope with the number of patients",
+        "so hospitals were unable to cope with the number of patients"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Cümle «So + zarf + devrik yapı» ile başlıyor; bu kalıbın ikinci yarısı zorunlu olarak «that» ile gelen SONUÇ cümlesidir: (D). (A) ve (E) bağımsız bir cümle ekler ve «So rapidly» ile açılan yapıyı tamamlamaz. (B) neden bildirir, oysa hastanelerin yetersizliği salgının yayılma hızının sonucudur, nedeni değil. (C) ise ilgi cümlesi kurar ve kalıbın istediği «that»i karşılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-sentence-1-q15",
+      "kind": "sentenceCompletion",
+      "order": 14,
+      "prompt": "Pressed by journalists at the hearing, the minister denied ----.",
+      "options": [
+        "that the figures to be revised after the election",
+        "to have any knowledge of the revised figures",
+        "that had he been informed of the revisions",
+        "being informed the revisions before the election",
+        "having been informed of the revisions before the election"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«deny» fiili mastar değil, ULAÇ (V-ing) alır; reddedilen şey daha önce olmuşsa «having + V3» kullanılır. Doğru seçenek bu yüzden (E). (B) «deny to do» yapısını kurar; İngilizcede böyle bir kullanım yoktur. (D) ulacı doğru seçmiş ama «inform» fiilinin istediği «of» edatını atlamıştır. (A) yüklemsiz bir «that» cümlesidir, (C) ise gömülü cümlede devrik yapı kullandığı için yanlıştır.",
+      "passageID": null
+    }
+  ]
+}

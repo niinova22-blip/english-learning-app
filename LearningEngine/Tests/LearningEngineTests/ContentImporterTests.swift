@@ -165,7 +165,7 @@ final class ContentImporterTests: XCTestCase {
         }
     }
 
-    func test_importPackage_realYDSVocabularyBatch_importsAll120ItemsAcrossFourUnits() throws {
+    func test_importPackage_realYDSPackage_imports127ItemsAnd63QuestionsAcrossFourUnits() throws {
         guard let url = Bundle.module.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
             XCTFail("Fixture file not found in test bundle")
             return
@@ -175,12 +175,42 @@ final class ContentImporterTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
+        XCTAssertEqual(package.version, 4)
         XCTAssertEqual(package.units.count, 4)
-        let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
-        XCTAssertEqual(allItems.count, 120)
-        let uniqueIDs = Set(allItems.map(\.id))
-        XCTAssertEqual(uniqueIDs.count, 120, "duplicate item ids found")
+        let allLessons = package.units.flatMap(\.lessons)
+        let allItems = allLessons.flatMap(\.items)
+        XCTAssertEqual(allItems.count, 127)
+        XCTAssertEqual(Set(allItems.map(\.id)).count, 127, "duplicate item ids found")
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
+        XCTAssertEqual(allItems.filter { $0.type == .vocabulary }.count, 120)
+        XCTAssertEqual(allItems.filter { $0.type == .grammarPoint }.count, 2)
+        XCTAssertEqual(allItems.filter { $0.type == .practiceSet }.count, 5)
+
+        let allQuestions = allLessons.flatMap(\.questions)
+        XCTAssertEqual(allQuestions.count, 63)
+        XCTAssertEqual(Set(allQuestions.map(\.id)).count, 63, "duplicate question ids found")
+        XCTAssertTrue(allQuestions.allSatisfy { $0.options.count == 5 })
+        XCTAssertTrue(allQuestions.allSatisfy { (0...4).contains($0.correctIndex) })
+        XCTAssertTrue(allQuestions.allSatisfy { !$0.explanationTR.isEmpty })
+
+        // Every practice lesson sits in the free-preview unit, so a preview
+        // user can actually reach this slice.
+        let firstUnit = try XCTUnwrap(package.units.first { $0.order == 0 })
+        XCTAssertEqual(firstUnit.lessons.count, 10)
+        XCTAssertEqual(
+            firstUnit.lessons.sorted { $0.order < $1.order }.map(\.skill),
+            [.vocabulary, .vocabulary, .vocabulary, .grammar, .grammar, .reading, .reading, .reading, .grammar, .reading]
+        )
+
+        let tenses = try XCTUnwrap(allLessons.first { $0.id == "yds-practice-lesson-tenses" })
+        XCTAssertEqual(tenses.questions.count, 8)
+        XCTAssertEqual(tenses.items.first?.type, .grammarPoint)
+        XCTAssertTrue((tenses.items.first?.content?.explanationTR ?? "").contains("Past perfect"))
+
+        let reading1 = try XCTUnwrap(allLessons.first { $0.id == "yds-practice-lesson-reading-1" })
+        XCTAssertEqual(reading1.passage?.id, "yds-practice-passage-reading-1")
+        XCTAssertTrue(reading1.questions.allSatisfy { $0.passage?.id == "yds-practice-passage-reading-1" })
+        XCTAssertTrue(reading1.questions.allSatisfy { $0.kind == .reading })
 
         // Regression guard for the mangled-Turkish-characters bug (UTF-8-as-Windows-1252
         // double-encoding, e.g. "ş" -> "ÅŸ") that a prior manual content-assembly step
@@ -192,13 +222,18 @@ final class ContentImporterTests: XCTestCase {
         let mojibakeMarkers = ["Ã", "Å", "â€"]
         for item in allItems {
             guard let content = item.content else { continue }
-            let fields = [content.translationTR, content.definition] + content.exampleSentences + content.collocations
+            let fields = [content.translationTR, content.definition, content.explanationTR ?? ""]
+                + content.exampleSentences + content.collocations
             for field in fields {
                 for marker in mojibakeMarkers {
-                    XCTAssertFalse(
-                        field.contains(marker),
-                        "possible mojibake ('\(marker)') in item \(item.id): \(field)"
-                    )
+                    XCTAssertFalse(field.contains(marker), "possible mojibake ('\(marker)') in item \(item.id): \(field)")
+                }
+            }
+        }
+        for question in allQuestions {
+            for field in [question.prompt, question.explanationTR] + question.options {
+                for marker in mojibakeMarkers {
+                    XCTAssertFalse(field.contains(marker), "possible mojibake ('\(marker)') in question \(question.id): \(field)")
                 }
             }
         }
