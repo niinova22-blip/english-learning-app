@@ -173,7 +173,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
         XCTAssertEqual(try context.fetch(FetchDescriptor<ReviewLog>()).first?.itemID, "yds-practice-card-sentence-1")
     }
 
-    func test_poolSmallerThanTheSelectionSize_asksEveryQuestion() throws {
+    func test_poolEqualToTheSelectionSize_asksEveryQuestion() throws {
         let context = try makeContext()
         // Reading lesson 1 has exactly 5 questions and the target is 5.
         let vm = viewModel(context, mode: .lesson(id: "yds-practice-lesson-reading-1"))
@@ -216,6 +216,64 @@ final class PracticeSessionViewModelTests: XCTestCase {
         XCTAssertEqual(vm.step, .summary)
         XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 1)
         XCTAssertEqual(before.completedAt, now)
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 1)
+        let states = try context.fetch(FetchDescriptor<UserItemState>())
+        XCTAssertEqual(states.count, 1)
+        XCTAssertEqual(states.first?.reps, 1, "the review is recorded exactly once")
+    }
+
+    func test_failedFinish_leavesNoRatingAndNoCompletion_inMemoryOrStore() throws {
+        let context = try makeContext()
+        let vm = viewModel(context, mode: .lesson(id: "yds-practice-lesson-reading-1"))
+        try vm.start()
+        for index in vm.questions.indices {
+            let question = try XCTUnwrap(vm.current)
+            vm.select(question.correctIndex)
+            if index == vm.questions.count - 1 { vm.failNextSaveForTesting = true }
+            vm.next()
+        }
+        XCTAssertNotNil(vm.saveError)
+        XCTAssertEqual(vm.step, .question)
+        XCTAssertEqual(vm.currentIndex, 4)
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 0)
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<UserItemState>()), 0)
+        let progressID = LessonProgress.makeID(userID: userID, lessonID: "yds-practice-lesson-reading-1")
+        let progress = try XCTUnwrap(context.fetch(FetchDescriptor<LessonProgress>(predicate: #Predicate { $0.id == progressID })).first)
+        XCTAssertNil(progress.completedAt, "completedAt must be rolled back, not left set in memory")
+
+        // A second failure must also leave a clean slate.
+        vm.failNextSaveForTesting = true
+        vm.retrySave()
+        XCTAssertNotNil(vm.saveError)
+        XCTAssertEqual(vm.step, .question)
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 0)
+        XCTAssertNil(progress.completedAt)
+    }
+
+    func test_attemptSaveFailure_thenRetrySave_registersTheAnswerOnce() throws {
+        let context = try makeContext()
+        let vm = viewModel(context, mode: .lesson(id: "yds-practice-lesson-reading-1"))
+        try vm.start()
+        let question = try XCTUnwrap(vm.current)
+        vm.failNextSaveForTesting = true
+        vm.select(question.correctIndex)
+        XCTAssertNotNil(vm.saveError)
+        XCTAssertNil(vm.selectedIndex)
+
+        vm.retrySave()
+
+        XCTAssertNil(vm.saveError)
+        XCTAssertEqual(vm.selectedIndex, question.correctIndex)
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<QuestionAttempt>()), 1)
+    }
+
+    func test_next_isIgnoredWhileStillOnTheExplanation() throws {
+        let context = try makeContext()
+        let vm = viewModel(context, mode: .lesson(id: "yds-practice-lesson-tenses"))
+        try vm.start()
+        vm.next()
+        guard case .explanation = vm.step else { return XCTFail("expected .explanation, got \(vm.step)") }
+        XCTAssertEqual(vm.currentIndex, 0)
     }
 
     func test_attemptSaveFailure_doesNotRegisterTheAnswer_andRetryRewritesIt() throws {

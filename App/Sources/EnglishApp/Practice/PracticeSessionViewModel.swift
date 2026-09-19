@@ -79,9 +79,8 @@ final class PracticeSessionViewModel {
     private var nextDueDate: Date?
     /// Set when `finish()` fails, so `retrySave()` knows what to redo.
     private var finishPending = false
-    /// True once the FSRS review is stored, so a retry after a failed
-    /// progress save never records the same session twice.
-    private var ratingApplied = false
+    /// The answer whose attempt save failed; `retrySave()` re-commits it.
+    private var pendingAnswer: Int?
 
     init(
         mode: Mode, context: ModelContext, userID: String,
@@ -180,6 +179,7 @@ final class PracticeSessionViewModel {
     /// mid-way still informs the next selection (spec "Recording rules").
     func select(_ index: Int) {
         guard selectedIndex == nil, let question = current else { return }
+        saveError = nil
         let attempt = QuestionAttempt(
             userID: userID, questionID: question.id,
             wasCorrect: index == question.correctIndex,
@@ -189,17 +189,19 @@ final class PracticeSessionViewModel {
         do {
             try save()
         } catch {
-            context.delete(attempt)
+            context.rollback()
+            pendingAnswer = index
             saveError = error.localizedDescription
             return
         }
+        pendingAnswer = nil
         answers.append((question.id, index == question.correctIndex))
         selectedIndex = index
     }
 
     /// "Sonraki" on the feedback card.
     func next() {
-        guard isAnswered else { return }
+        guard step == .question, isAnswered else { return }
         if currentIndex + 1 < questions.count {
             currentIndex += 1
             selectedIndex = nil
@@ -210,7 +212,11 @@ final class PracticeSessionViewModel {
 
     func retrySave() {
         saveError = nil
-        if finishPending { finish() }
+        if finishPending {
+            finish()
+        } else if let index = pendingAnswer {
+            select(index)
+        }
     }
 
     func clearSaveError() { saveError = nil }
@@ -238,27 +244,23 @@ final class PracticeSessionViewModel {
         let now = clock()
         let rating = PracticeScoring.rating(correct: answers.filter(\.wasCorrect).count, total: answers.count)
         do {
-            if failNextSaveForTesting {
-                failNextSaveForTesting = false
-                throw PracticeSaveError()
-            }
-            if !ratingApplied {
-                let state = try FSRSStateStore().recordReview(
-                    userID: userID, itemID: itemID, rating: rating, now: now,
-                    in: context, scheduler: scheduler
-                )
-                nextDueDate = state.dueDate
-                ratingApplied = true
-            }
-
+            // Stage the review and the completion, then commit them with ONE
+            // save. On failure roll back, so neither is left half-applied in
+            // memory or in the store, and a retry starts from a clean slate.
+            let state = try FSRSStateStore().stageReview(
+                userID: userID, itemID: itemID, rating: rating, now: now,
+                in: context, scheduler: scheduler
+            )
             let lessonID = mode.lessonID
             let progressID = LessonProgress.makeID(userID: userID, lessonID: lessonID)
             if let progress = try context.fetch(FetchDescriptor<LessonProgress>(predicate: #Predicate { $0.id == progressID })).first,
                progress.completedAt == nil {
                 progress.completedAt = now
-                try context.save()
             }
+            try save()
+            nextDueDate = state.dueDate
         } catch {
+            context.rollback()
             saveError = error.localizedDescription
             return
         }
