@@ -76,6 +76,7 @@ final class CoursePathViewModelTests: XCTestCase {
         return context
     }
 
+    @MainActor
     func test_dersYolu_showsThePracticeLessonsInTheFreePreviewUnit_andRoutesThemToPractice() throws {
         let context = try makeRealContentContext()
         let viewModel = CoursePathViewModel(
@@ -97,6 +98,7 @@ final class CoursePathViewModelTests: XCTestCase {
         )
     }
 
+    @MainActor
     func test_lockedUnits_stillShowPaketiAc() throws {
         let context = try makeRealContentContext()
         let viewModel = CoursePathViewModel(
