@@ -41,7 +41,7 @@ final class TutorViewModel {
     private let context: Context
     private let timeoutNanoseconds: UInt64
 
-    init(engine: any TutorEngine, context: TutorContext, timeoutSeconds: UInt64 = 30) {
+    convenience init(engine: any TutorEngine, context: TutorContext, timeoutSeconds: UInt64 = 30) {
         self.init(engine: engine, context: .card(context), timeoutSeconds: timeoutSeconds)
     }
 
