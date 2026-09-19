@@ -143,15 +143,15 @@ final class PracticeSessionViewModelTests: XCTestCase {
 
     func test_reopeningAfterAQuit_startsFromTheBeginning_butPrefersUnattemptedQuestions() throws {
         let context = try makeContext()
-        // Tenses has 8 questions and serves 8, so instead use sentence
-        // completion: 15 authored, 5 served — selection actually has a choice.
-        let first = viewModel(context, mode: .lesson(id: "yds-practice-lesson-sentence-1"))
+        // Translation is a non-grammar lesson: 10 authored, 5 served, so
+        // selection actually has a choice.
+        let first = viewModel(context, mode: .lesson(id: "yds-practice-lesson-translation-1"))
         try first.start()
         let firstIDs = first.questions.map(\.id)
         XCTAssertEqual(firstIDs.count, 5)
         answerAll(first, correctCount: 5)
 
-        let second = viewModel(context, mode: .lesson(id: "yds-practice-lesson-sentence-1"))
+        let second = viewModel(context, mode: .lesson(id: "yds-practice-lesson-translation-1"))
         try second.start()
         XCTAssertEqual(second.currentIndex, 0)
         XCTAssertEqual(second.progressText, "1/5")
@@ -166,7 +166,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
         let vm = viewModel(context, mode: .review(lessonID: "yds-practice-lesson-sentence-1", itemID: "yds-practice-card-sentence-1"))
         try vm.start()
 
-        XCTAssertEqual(vm.questions.count, 5)
+        XCTAssertEqual(vm.questions.count, 8, "sentence completion is a grammar lesson: 8 of its 15")
         XCTAssertEqual(vm.lessonTitle, "Cümle Tamamlama")
         XCTAssertEqual(vm.contextLine, "KONU TEKRARI · CÜMLE TAMAMLAMA")
         answerAll(vm, correctCount: 5)
@@ -263,7 +263,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
         try vm.start()
         let served = vm.questions.map(\.id)
 
-        XCTAssertEqual(served.count, 5)
+        XCTAssertEqual(served.count, 8)
         XCTAssertTrue(served.contains(ids[1]), "last attempt wrong -> wrong tier -> served")
         XCTAssertFalse(served.contains(ids[0]), "last attempt correct and most recent -> served last, cut by the size limit")
     }
@@ -272,8 +272,8 @@ final class PracticeSessionViewModelTests: XCTestCase {
         let context = try makeContext()
         let lessonID = "yds-practice-lesson-sentence-1"
         let ids = try orderedQuestionIDs(context, lessonID: lessonID)
-        // Another user answered the first five correctly, recently.
-        for id in ids.prefix(5) {
+        // Another user answered the first eight correctly, recently.
+        for id in ids.prefix(8) {
             context.insert(QuestionAttempt(userID: "someone-else", questionID: id, wasCorrect: true,
                                            answeredAt: Date(timeIntervalSince1970: 1_700_000_000), selectedIndex: 0))
         }
@@ -282,7 +282,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
         let vm = viewModel(context, mode: .lesson(id: lessonID))
         try vm.start()
 
-        XCTAssertEqual(vm.questions.map(\.id), Array(ids.prefix(5)), "this user has no history: authored order")
+        XCTAssertEqual(vm.questions.map(\.id), Array(ids.prefix(8)), "this user has no history: authored order")
     }
 
     func test_contextLine_usesTurkishUppercasing_withADottedCapitalI() throws {
