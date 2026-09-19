@@ -243,24 +243,46 @@ final class PracticeSessionViewModel {
         finishPending = true
         let now = clock()
         let rating = PracticeScoring.rating(correct: answers.filter(\.wasCorrect).count, total: answers.count)
+        let stateID = "\(userID)_\(itemID)"
+        let lessonID = mode.lessonID
+        let progressID = LessonProgress.makeID(userID: userID, lessonID: lessonID)
+        var priorState: UserItemState?
+        var priorSnapshot: (Double, Double, Date, Int, Int, Date?)?
+        var stagedProgress: LessonProgress?
         do {
             // Stage the review and the completion, then commit them with ONE
-            // save. On failure roll back, so neither is left half-applied in
-            // memory or in the store, and a retry starts from a clean slate.
+            // save. On failure undo everything, so neither is left
+            // half-applied in memory or in the store, and a retry starts
+            // from a clean slate.
+            if let existing = try context.fetch(FetchDescriptor<UserItemState>(predicate: #Predicate { $0.id == stateID })).first {
+                priorState = existing
+                priorSnapshot = (existing.stability, existing.difficulty, existing.dueDate, existing.reps, existing.lapses, existing.lastReviewedAt)
+            }
             let state = try FSRSStateStore().stageReview(
                 userID: userID, itemID: itemID, rating: rating, now: now,
                 in: context, scheduler: scheduler
             )
-            let lessonID = mode.lessonID
-            let progressID = LessonProgress.makeID(userID: userID, lessonID: lessonID)
             if let progress = try context.fetch(FetchDescriptor<LessonProgress>(predicate: #Predicate { $0.id == progressID })).first,
                progress.completedAt == nil {
                 progress.completedAt = now
+                stagedProgress = progress
             }
             try save()
             nextDueDate = state.dueDate
         } catch {
+            // rollback() discards staged inserts; it does not reliably revert
+            // property edits on objects already held in memory, so undo those
+            // explicitly too.
             context.rollback()
+            stagedProgress?.completedAt = nil
+            if let priorState, let snap = priorSnapshot {
+                priorState.stability = snap.0
+                priorState.difficulty = snap.1
+                priorState.dueDate = snap.2
+                priorState.reps = snap.3
+                priorState.lapses = snap.4
+                priorState.lastReviewedAt = snap.5
+            }
             saveError = error.localizedDescription
             return
         }
