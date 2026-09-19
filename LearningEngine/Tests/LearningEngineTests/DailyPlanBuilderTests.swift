@@ -62,11 +62,11 @@ final class DailyPlanBuilderTests: XCTestCase {
     }
 
     func test_practiceReviewMinutes_countTowardTheDailyTotalAndSqueezeLessons() {
-        // Budget 20; review 5 due cards = 2 min; two practice reviews = 6 min;
-        // that leaves room for exactly one 8-minute lesson before the budget
-        // is exceeded.
+        // Budget 16; review 5 due cards = 2 min; two practice reviews = 6 min;
+        // 8 < 16 admits v1 (total 16), and 16 < 16 is false so v2 is squeezed
+        // out (without practice, 2 + 8 = 10 < 16 would have admitted v2).
         let plan = DailyPlanBuilder().build(input(
-            dailyMinutes: 20, lessons: [lesson("v1", .vocabulary), lesson("v2", .vocabulary)], due: 5,
+            dailyMinutes: 16, lessons: [lesson("v1", .vocabulary), lesson("v2", .vocabulary)], due: 5,
             practice: [card("p1", .grammar), card("p2", .reading)]
         ))
         XCTAssertEqual(practiceIDs(plan), ["p1", "p2"])
