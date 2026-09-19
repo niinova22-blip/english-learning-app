@@ -13,6 +13,7 @@ struct LevelTestRetakeSheet: View {
     @Environment(\.modelContext) private var context
     @Environment(\.dismiss) private var dismiss
     @State private var viewModel: LevelTestViewModel?
+    @State private var saveError: String?
 
     var body: some View {
         NavigationStack {
@@ -37,9 +38,19 @@ struct LevelTestRetakeSheet: View {
     private var content: some View {
         if let viewModel {
             if let outcome = viewModel.outcome {
-                LevelTestResultView(outcome: outcome, buttonTitle: "Tamam") {
-                    onFinished(outcome)
-                    dismiss()
+                VStack(spacing: 12) {
+                    LevelTestResultView(outcome: outcome, buttonTitle: "Tamam") {
+                        do {
+                            try persist(outcome)
+                            onFinished(outcome)
+                            dismiss()
+                        } catch {
+                            saveError = "Sonuç kaydedilemedi."
+                        }
+                    }
+                    if let saveError {
+                        Text(saveError).font(.footnote).foregroundStyle(.red)
+                    }
                 }
             } else if let question = viewModel.currentQuestion {
                 LevelTestQuestionView(question: question, questionNumber: viewModel.questionNumber) { index in
@@ -59,5 +70,20 @@ struct LevelTestRetakeSheet: View {
         } else {
             ProgressView().frame(maxWidth: .infinity, minHeight: 300)
         }
+    }
+
+    private func persist(_ outcome: LevelTestOutcome) throws {
+        let userIDValue = UserIdentity.current
+        if let existing = try context.fetch(FetchDescriptor<LevelTestResult>(predicate: #Predicate { $0.userID == userIDValue })).first {
+            existing.cefrLevel = outcome.cefrLevel
+            existing.vocabularyScore = outcome.vocabularyScore
+            existing.completedAt = Date()
+        } else {
+            context.insert(LevelTestResult(userID: userIDValue, cefrLevel: outcome.cefrLevel, vocabularyScore: outcome.vocabularyScore, completedAt: Date()))
+        }
+        if let profile = try context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userIDValue })).first {
+            profile.hasSkippedLevelTest = false
+        }
+        try context.save()
     }
 }
