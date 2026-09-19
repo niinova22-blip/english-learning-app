@@ -8,8 +8,12 @@ struct TodayPlanView: View {
     @Environment(\.scenePhase) private var scenePhase
 
     private struct ActiveSession: Identifiable {
+        enum Kind {
+            case study(StudySessionViewModel.Mode)
+            case practice(PracticeSessionViewModel.Mode)
+        }
         let id = UUID()
-        let mode: StudySessionViewModel.Mode
+        let kind: Kind
     }
 
     private enum LoadState { case loading, noContent, failed(String), ready(DailyPlan) }
@@ -31,9 +35,17 @@ struct TodayPlanView: View {
         .onChange(of: scenePhase) { _, phase in if phase == .active { refresh() } }
         .onChange(of: appState.dataGeneration) { _, _ in refresh() }
         .fullScreenCover(item: $activeSession) { session in
-            StudySessionView(mode: session.mode) {
-                activeSession = nil
-                refresh()
+            switch session.kind {
+            case .study(let mode):
+                StudySessionView(mode: mode) {
+                    activeSession = nil
+                    refresh()
+                }
+            case .practice(let mode):
+                PracticeSessionView(mode: mode) {
+                    activeSession = nil
+                    refresh()
+                }
             }
         }
         .alert(infoMessage?.title ?? "", isPresented: Binding(get: { infoMessage != nil }, set: { if !$0 { infoMessage = nil } })) {
@@ -109,11 +121,16 @@ struct TodayPlanView: View {
 
     private func handle(_ task: PlanTask) {
         switch PlanTaskAction.action(for: task) {
-        case .startReview(let count): activeSession = ActiveSession(mode: .review(cardCount: count))
-        case .startLesson(let id): activeSession = ActiveSession(mode: .lesson(id: id))
+        case .startReview(let count):
+            activeSession = ActiveSession(kind: .study(.review(cardCount: count)))
+        case .startLesson(let id):
+            activeSession = ActiveSession(kind: .study(.lesson(id: id)))
+        case .startPractice(let lessonID):
+            activeSession = ActiveSession(kind: .practice(.lesson(id: lessonID)))
+        case .startPracticeReview(let itemID, let lessonID):
+            activeSession = ActiveSession(kind: .practice(.review(lessonID: lessonID, itemID: itemID)))
         case .comingSoon(let title): infoMessage = ("Bu ders türü yakında", title)
         case .locked(let title): infoMessage = ("Bu ders paketin tam sürümünde", title)
-        case .startPractice, .startPracticeReview: break  // wired in Task 9
         case .none: break
         }
     }

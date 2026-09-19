@@ -69,6 +69,45 @@ final class CoursePathViewModelTests: XCTestCase {
     }
 
     @MainActor
+    func makeRealContentContext() throws -> ModelContext {
+        let container = try ModelContainer(for: AppModelContainer.schema, configurations: [ModelConfiguration(schema: AppModelContainer.schema, isStoredInMemoryOnly: true)])
+        let context = ModelContext(container)
+        AppModelContainer.seedRealContentIfNeeded(in: context)
+        return context
+    }
+
+    func test_dersYolu_showsThePracticeLessonsInTheFreePreviewUnit_andRoutesThemToPractice() throws {
+        let context = try makeRealContentContext()
+        let viewModel = CoursePathViewModel(
+            context: context, userID: "u", accessProvider: FixedAccessProvider(level: .preview)
+        )
+        viewModel.load()
+
+        let firstSection = try XCTUnwrap(viewModel.sections.first)
+        XCTAssertEqual(firstSection.tasks.count, 10)
+        let actions = firstSection.tasks.map(PlanTaskAction.action(for:))
+        XCTAssertEqual(actions.prefix(3).filter { if case .startLesson = $0 { return true } else { return false } }.count, 3)
+        XCTAssertEqual(
+            actions.dropFirst(3).filter { if case .startPractice = $0 { return true } else { return false } }.count, 7,
+            "all seven practice lessons must be openable, not locked or 'coming soon'"
+        )
+        XCTAssertEqual(
+            PlanTaskAction.action(for: firstSection.tasks[3]),
+            .startPractice(lessonID: "yds-practice-lesson-tenses")
+        )
+    }
+
+    func test_lockedUnits_stillShowPaketiAc() throws {
+        let context = try makeRealContentContext()
+        let viewModel = CoursePathViewModel(
+            context: context, userID: "u", accessProvider: FixedAccessProvider(level: .preview)
+        )
+        viewModel.load()
+
+        let secondSection = try XCTUnwrap(viewModel.sections.dropFirst().first)
+        XCTAssertTrue(secondSection.tasks.allSatisfy { if case .locked = $0 { return true } else { return false } })
+    }
+
     func test_load_noPackages_emptySections() throws {
         let context = try makeContext(seed: false)
         let vm = CoursePathViewModel(context: context, userID: userID, accessProvider: FixedAccessProvider(level: .owned))

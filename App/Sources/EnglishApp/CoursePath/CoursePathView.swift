@@ -6,13 +6,17 @@ struct CoursePathView: View {
     @Environment(\.modelContext) private var context
     @Environment(AppState.self) private var appState
 
-    private struct ActiveLessonSession: Identifiable {
+    private struct ActiveSession: Identifiable {
+        enum Kind {
+            case study(lessonID: String)
+            case practice(lessonID: String)
+        }
         let id = UUID()
-        let lessonID: String
+        let kind: Kind
     }
 
     @State private var viewModel: CoursePathViewModel?
-    @State private var activeSession: ActiveLessonSession?
+    @State private var activeSession: ActiveSession?
     @State private var infoMessage: (title: String, body: String)?
 
     var body: some View {
@@ -24,9 +28,17 @@ struct CoursePathView: View {
         .onAppear(perform: refresh)
         .onChange(of: appState.dataGeneration) { _, _ in refresh() }
         .fullScreenCover(item: $activeSession) { session in
-            StudySessionView(mode: .lesson(id: session.lessonID)) {
-                activeSession = nil
-                refresh()
+            switch session.kind {
+            case .study(let lessonID):
+                StudySessionView(mode: .lesson(id: lessonID)) {
+                    activeSession = nil
+                    refresh()
+                }
+            case .practice(let lessonID):
+                PracticeSessionView(mode: .lesson(id: lessonID)) {
+                    activeSession = nil
+                    refresh()
+                }
             }
         }
         .alert(infoMessage?.title ?? "", isPresented: Binding(get: { infoMessage != nil }, set: { if !$0 { infoMessage = nil } })) {
@@ -60,10 +72,14 @@ struct CoursePathView: View {
 
     private func handle(_ task: PlanTask) {
         switch PlanTaskAction.action(for: task) {
-        case .startLesson(let id): activeSession = ActiveLessonSession(lessonID: id)
+        case .startLesson(let id):
+            activeSession = ActiveSession(kind: .study(lessonID: id))
+        case .startPractice(let lessonID):
+            activeSession = ActiveSession(kind: .practice(lessonID: lessonID))
         case .comingSoon(let title): infoMessage = ("Bu ders türü yakında", title)
         case .locked(let title): infoMessage = ("Bu ders paketin tam sürümünde", title)
-        case .startReview, .startPractice, .startPracticeReview, .none: break
+        // Ders Yolu never shows review tasks, so these cannot occur here.
+        case .startReview, .startPracticeReview, .none: break
         }
     }
 

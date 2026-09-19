@@ -5,8 +5,8 @@ import LearningEngine
 
 /// Reads the active package's vocabulary items as level-test candidates.
 /// Non-vocabulary items (grammarPoint/phrase/collocation) never appear —
-/// the level test is vocabulary-only until Slice 7 adds gradeable grammar
-/// content, at which point this can grow to include it.
+/// the level test is vocabulary-only; practice questions are graded in the
+/// practice session, not here.
 enum LevelTestCandidateFetcher {
     static func fetch(packageID: String, in context: ModelContext) -> [LevelTestCandidate] {
         let items = (try? context.fetch(FetchDescriptor<LearningItem>())) ?? []

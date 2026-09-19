@@ -193,6 +193,22 @@ final class TodayPlanCoordinatorTests: XCTestCase {
         XCTAssertTrue(plan.tasks.contains { if case .practiceReview(let id, _, _, _, _, _) = $0 { return id == "yds-practice-card-tenses" } else { return false } })
     }
 
+    func test_bugun_schedulesAPracticeLessonOnceGrammarIsBehindItsWeeklyTarget() throws {
+        let context = try makeRealContentContext()
+        _ = try coordinator(context).ensureProfile()
+
+        let plan = try XCTUnwrap(coordinator(context).buildPlan())
+        let actions = plan.tasks.map(PlanTaskAction.action(for:))
+        XCTAssertTrue(
+            actions.contains { if case .startPractice = $0 { return true } else { return false } },
+            "with grammar and reading weighted at 30/35, the first plan must include a practice lesson"
+        )
+        XCTAssertFalse(
+            actions.contains { if case .comingSoon = $0 { return true } else { return false } },
+            "no shipped lesson may still route to 'coming soon'"
+        )
+    }
+
     func test_practiceCards_areNotCountedAsWordsSeen() throws {
         let context = try makeRealContentContext()
         _ = try coordinator(context).ensureProfile()
