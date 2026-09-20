@@ -1,0 +1,106 @@
+{
+  "id": "yds-exam-reading-8",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Yetişkinlerde Dil Öğrenimi",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-reading-8",
+    "title": "Adult Language Learning",
+    "body": "A widespread belief holds that children learn languages effortlessly while adults struggle, and that the window for achieving native-like fluency closes around puberty. Research supports part of this claim. Adults who begin a second language late rarely acquire a native accent, and they often continue to make small grammatical errors that children raised in the same environment avoid. But the explanation may lie less in biology than in circumstances. A child immersed in a new country spends most of the day hearing and using the language, is corrected by patient peers, and has little else to do but learn. An adult, by contrast, may work in the native language, socialise with compatriots, and study for only a few hours a week. When researchers compare adults and children who receive the same amount of high-quality instruction, the gap narrows considerably. Adults even have some advantages: they can grasp grammatical rules through explicit explanation, and their wider vocabulary in their first language helps them guess the meaning of unfamiliar words. None of this means that anyone can master a language without effort. It suggests, rather, that the popular emphasis on age may discourage older learners who would in fact make steady progress if they arranged their lives to give the language more room."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-reading-8",
+      "type": "practiceSet",
+      "headword": "Reading: Adult Language Learning",
+      "frequencyRank": 3007,
+      "baseDifficulty": 0.65,
+      "definition": "Yetişkinlerde dil öğrenimi üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Yetişkinlerde Dil Öğrenimi",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-reading-8-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "The passage suggests that adults' difficulty with second languages ----.",
+      "options": [
+        "is caused entirely by biology",
+        "disappears if they study for one hour a week",
+        "may be explained more by their circumstances than by their age alone",
+        "is not real, since adults learn faster than children",
+        "can be solved only by moving abroad"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Yazar açıklamanın «biyolojiden çok koşullarda» yatabileceğini söylüyor: (C). (A) «tamamen biyolojiden» iddiası metinle çelişir. (B) haftada bir saat çalışmayı çözüm olarak göstermez, tersine yetersiz sayar. (D) yetişkinlerin daha hızlı öğrendiği söylenmez. (E) yurt dışına taşınmayı tek çare yapmak mutlak bir ifadedir.",
+      "passageID": "yds-exam-passage-reading-8"
+    },
+    {
+      "id": "yds-exam-reading-8-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "According to the passage, children who are immersed in a new country learn quickly because ----.",
+      "options": [
+        "they hear and use the language for most of the day",
+        "they have a wider vocabulary in their first language",
+        "they receive explicit explanations of grammar",
+        "they study for only a few hours a week",
+        "they avoid mixing with native speakers"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Metin, yeni bir ülkeye gömülen çocuğun günün çoğunu dili duyarak ve kullanarak geçirdiğini söylüyor: (A). (B) ve (C) yetişkinlerin avantajı olarak anılır. (D) haftada birkaç saat çalışan yetişkindir. (E) hem çocuk hem de metin bağlamı için yanlıştır.",
+      "passageID": "yds-exam-passage-reading-8"
+    },
+    {
+      "id": "yds-exam-reading-8-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "The phrase \"narrows considerably\" is closest in meaning to ----.",
+      "options": [
+        "disappears completely",
+        "stays the same",
+        "grows slightly",
+        "becomes harder to measure",
+        "becomes much smaller"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Narrows considerably» farkın belirgin biçimde azaldığını anlatır: (E). (A) tamamen kaybolmayı ima eder, metin bunu söylemez. (B) değişmeme demektir. (C) artış anlamı taşır. (D) ise ölçme zorluğundan söz eder.",
+      "passageID": "yds-exam-passage-reading-8"
+    },
+    {
+      "id": "yds-exam-reading-8-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "One advantage that adults have, according to the passage, is that they ----.",
+      "options": [
+        "make fewer grammatical errors than children",
+        "can understand grammar rules through explicit explanation",
+        "spend more hours with native speakers",
+        "acquire a native accent more easily",
+        "are corrected by patient peers"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Metin, yetişkinlerin dil bilgisi kurallarını açık açıklamalarla kavrayabildiğini söylüyor: (B). (A) yetişkinlerin çocuklardan daha fazla küçük hata yaptığı söylenir. (C) yerli konuşurlarla saatler geçiren çocuktur. (D) aksan tersine yetişkinler için zordur. (E) düzeltilme çocukların avantajıdır.",
+      "passageID": "yds-exam-passage-reading-8"
+    },
+    {
+      "id": "yds-exam-reading-8-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "The final sentence implies that the popular emphasis on age ----.",
+      "options": [
+        "is fully justified by the evidence",
+        "encourages adults to study for longer hours",
+        "has been proved completely wrong by researchers",
+        "may discourage learners who could actually make steady progress",
+        "matters only for young children"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Son cümle yaşa yapılan vurgunun, düzenli ilerleme kaydedebilecek yaşlı öğrenicileri «cesaretini kırabileceğini» söylüyor: (D). (A) ve (C) uç iddialardır; metin görüşü kısmen destekler ve kısmen sorgular. (B) teşvik değil, cesaret kırmadan söz eder. (E) yalnızca çocuklarla sınırlamaz.",
+      "passageID": "yds-exam-passage-reading-8"
+    }
+  ]
+}

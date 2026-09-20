@@ -1,0 +1,106 @@
+{
+  "id": "yds-exam-reading-7",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Enerji Depolama",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-reading-7",
+    "title": "Energy Storage",
+    "body": "Wind and solar power have become cheap enough to compete with fossil fuels, yet they share an inconvenient weakness: they produce electricity when the weather allows, not when consumers need it. A grid that relies heavily on renewables therefore requires some way of storing surplus energy for later use. Lithium-ion batteries, familiar from phones and cars, are the most common solution for short periods, and their costs have fallen sharply over the past decade. They are far less suited to storing energy for weeks or months, for instance to cover a windless winter. For that purpose engineers are exploring alternatives, such as using surplus electricity to split water into hydrogen, which can be stored in tanks and burned later. The process is wasteful, since perhaps half of the original energy is lost along the way, but the fuel keeps for as long as required. Pumped hydropower, in which water is lifted to a reservoir and released through turbines when demand rises, is older and more efficient, yet it needs suitable geography and takes years to build. No single technology is likely to solve the problem alone. Most analysts expect future grids to combine several forms of storage, each used for the task it performs best."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-reading-7",
+      "type": "practiceSet",
+      "headword": "Reading: Energy Storage",
+      "frequencyRank": 3006,
+      "baseDifficulty": 0.65,
+      "definition": "Enerji depolama üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Enerji Depolama",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-reading-7-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "The passage is mainly about ----.",
+      "options": [
+        "why fossil fuels remain cheaper than solar power",
+        "the history of lithium-ion batteries",
+        "the difficulty of building pumped hydropower plants",
+        "the cost of producing hydrogen from water",
+        "the different ways of storing energy produced by variable renewable sources"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Metin rüzgâr ve güneşin kesintili üretimini ve bunun için çeşitli depolama yöntemlerini karşılaştırıyor: (E). (A) fosil yakıtlarla kıyas yalnızca girişte geçer. (B) ve (C) ile (D) yöntemlerden yalnızca birer tanesidir ve ana konuyu daraltır.",
+      "passageID": "yds-exam-passage-reading-7"
+    },
+    {
+      "id": "yds-exam-reading-7-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "Lithium-ion batteries are described in the passage as ----.",
+      "options": [
+        "ideal for covering a windless winter",
+        "more efficient than pumped hydropower",
+        "well suited to storing energy for short periods",
+        "a technology whose costs have risen",
+        "unsuitable for use in vehicles"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Metin lityum-iyon pillerin kısa süreler için en yaygın çözüm olduğunu söylüyor: (C). (A) haftalarca ya da aylarca depolama için «çok daha az uygun» oldukları belirtilir. (B) verimlilik karşılaştırması pompaj hidroelektrik için yapılır. (D) maliyetlerin arttığı değil, sert biçimde düştüğü söylenir.",
+      "passageID": "yds-exam-passage-reading-7"
+    },
+    {
+      "id": "yds-exam-reading-7-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "According to the passage, storing energy as hydrogen is wasteful because ----.",
+      "options": [
+        "perhaps half of the original energy is lost in the process",
+        "hydrogen cannot be kept for long periods",
+        "the process needs suitable geography",
+        "tanks are more expensive than batteries",
+        "the fuel burns more slowly than natural gas"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Metin, sürecin «belki de enerjinin yarısının» yolda kaybedildiği için israfa yol açtığını söylüyor: (A). (B) tersine, yakıtın istenen süre boyunca saklanabildiği belirtilir. (C) uygun coğrafya pompaj hidroelektriğin gereğidir. (D) ve (E) hakkında metinde bilgi yoktur.",
+      "passageID": "yds-exam-passage-reading-7"
+    },
+    {
+      "id": "yds-exam-reading-7-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "Pumped hydropower differs from hydrogen storage in that it ----.",
+      "options": [
+        "is newer and cheaper to build",
+        "is more efficient but depends on suitable geography",
+        "stores energy for months rather than hours",
+        "requires water to be split into gases",
+        "wastes about half of the energy"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Metin pompaj hidroelektriğin eski ve daha verimli olduğunu, ama uygun coğrafya gerektirdiğini ve yapımının yıllar aldığını söylüyor: (B). (A) ile «daha yeni ve ucuz» çelişir. (C) depolama süresi metinde böyle karşılaştırılmaz. (D) suyun gazlara ayrılması hidrojen yöntemidir. (E) israf hidrojen için söylenir.",
+      "passageID": "yds-exam-passage-reading-7"
+    },
+    {
+      "id": "yds-exam-reading-7-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "The writer would probably agree that future grids ----.",
+      "options": [
+        "will depend entirely on lithium-ion batteries",
+        "will abandon renewable energy",
+        "will not need any storage",
+        "will use a mixture of storage technologies",
+        "will rely on hydrogen alone"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Yazar, çoğu analistin geleceğin şebekelerinin «birkaç depolama biçimini birleştireceğini» beklediğini söylüyor: (D). (A) ve (E) tek bir teknolojiye bağımlılık iddia eder; metin tam tersini söyler. (B) yenilenebilir enerjiden vazgeçmek metnin konusu değildir. (C) depolamaya ihtiyaç olmadığını söylemek metinle çelişir.",
+      "passageID": "yds-exam-passage-reading-7"
+    }
+  ]
+}

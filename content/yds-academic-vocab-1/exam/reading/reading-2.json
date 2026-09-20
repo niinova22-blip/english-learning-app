@@ -1,0 +1,106 @@
+{
+  "id": "yds-exam-reading-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Uzaktan Çalışmanın Ekonomisi",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-reading-2",
+    "title": "The Economics of Remote Work",
+    "body": "When firms sent their employees home during the pandemic, many managers expected productivity to collapse. The evidence has been more complicated. Studies of call-centre and software teams generally found that output held steady or rose slightly, largely because workers saved commuting time and were interrupted less often. Yet the gains were uneven. Employees whose tasks required constant coordination, such as designers refining a product together, reported that decisions took longer and that informal exchanges, which often produce new ideas, had all but disappeared. Firms have therefore begun to experiment with hybrid arrangements, asking staff to come into the office on set days. Economists point out that the choice also has a geographical dimension. Because workers no longer need to live within reach of a single office, some firms recruit from a much wider pool, while others fear that their best employees will be tempted away by competitors elsewhere. Property markets are affected as well: demand for city-centre offices has softened, whereas smaller towns with fast internet connections have seen rents rise. What is still unclear is whether these changes are permanent. Much will depend on whether managers learn to assess staff by results rather than by the hours they are visibly present."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-reading-2",
+      "type": "practiceSet",
+      "headword": "Reading: The Economics of Remote Work",
+      "frequencyRank": 3001,
+      "baseDifficulty": 0.55,
+      "definition": "Uzaktan çalışmanın ekonomisi üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Uzaktan Çalışmanın Ekonomisi",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-reading-2-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "According to the passage, output in many remote teams held steady or rose because ----.",
+      "options": [
+        "managers monitored staff more closely than before",
+        "employees saved commuting time and were interrupted less often",
+        "informal exchanges produced a stream of new ideas",
+        "firms hired cheaper workers in smaller towns",
+        "hybrid arrangements had already been introduced"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Metin çıktının sabit kalmasını ya da artmasını, çalışanların yolda zaman kazanması ve daha az bölünmesine bağlıyor: (B). (A) yöneticilerin gözetimini metin hiç anmaz. (C) tersine, gayriresmî sohbetlerin neredeyse kaybolduğu söylenir. (D) daha ucuz işçi alımı bir neden olarak gösterilmez.",
+      "passageID": "yds-exam-passage-reading-2"
+    },
+    {
+      "id": "yds-exam-reading-2-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "Which of the following best summarises the passage?",
+      "options": [
+        "Remote work has proved clearly superior to office work in every kind of task.",
+        "Managers were right to expect productivity to collapse.",
+        "Small towns have gained far more from remote work than city centres have.",
+        "Hybrid arrangements have completely solved the problem of coordination.",
+        "Remote work has produced mixed results, and its long-term shape is still uncertain."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Metin hem kazançlardan hem de eşitsizliklerden söz ediyor ve kalıcılığın belirsiz olduğunu söylüyor: (E). (A) «her tür görevde» mutlaklığı metinle çelişir. (B) yöneticilerin beklentisinin doğrulanmadığı söylenir. (C) küçük kasabaların kazancı yalnızca kira artışıyla anılır, kıyas yapılmaz. (D) hibrit düzenin sorunu «tamamen» çözdüğü iddia edilmez.",
+      "passageID": "yds-exam-passage-reading-2"
+    },
+    {
+      "id": "yds-exam-reading-2-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "The word \"softened\" as used in the passage is closest in meaning to ----.",
+      "options": [
+        "risen",
+        "calmed",
+        "weakened",
+        "disappeared",
+        "stabilised"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Demand for city-centre offices has softened» ifadesi talebin azaldığını, yani zayıfladığını anlatır: (C). (A) artmış demektir ve küçük kasabalardaki kira artışıyla karıştırılmamalıdır. (B) sakinleşmiş anlamı taşır ve talep için uygun değildir. (D) tamamen ortadan kalkmayı ima eder, metin bunu söylemez.",
+      "passageID": "yds-exam-passage-reading-2"
+    },
+    {
+      "id": "yds-exam-reading-2-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "Employees whose work required constant coordination reported that ----.",
+      "options": [
+        "decisions took longer and casual conversations had nearly disappeared",
+        "their output had risen more than that of other employees",
+        "they preferred to work from smaller towns",
+        "they had been recruited from a wider geographical pool",
+        "managers assessed them by results rather than by hours"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Metin bu çalışanların kararların uzadığını ve gayriresmî sohbetlerin neredeyse yok olduğunu bildirdiğini söylüyor: (A). (B) çıktının onlarda daha çok arttığı söylenmez. (C) tercihlerinden söz edilmez. (D) daha geniş havuzdan işe alım firmaların stratejisidir, bu çalışanların bildirimi değildir.",
+      "passageID": "yds-exam-passage-reading-2"
+    },
+    {
+      "id": "yds-exam-reading-2-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "The last sentence of the passage implies that the future of remote work depends on ----.",
+      "options": [
+        "how many workers can afford to move to smaller towns",
+        "whether property prices in city centres recover",
+        "whether commuting becomes faster and cheaper",
+        "the way managers choose to judge their employees' performance",
+        "how quickly internet connections improve"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Son cümle her şeyin yöneticilerin personeli çıktısına göre mi, yoksa ofiste görünürlüğüne göre mi değerlendireceğine bağlı olduğunu söylüyor: (D). (A) taşınma maliyeti, (B) ofis fiyatları, (C) ulaşım ve (E) internet hızı metinde bu sonuç cümlesinin dayanağı olarak gösterilmez.",
+      "passageID": "yds-exam-passage-reading-2"
+    }
+  ]
+}

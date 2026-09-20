@@ -1,0 +1,106 @@
+{
+  "id": "yds-exam-reading-4",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Kentsel Isı Adaları",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-reading-4",
+    "title": "Urban Heat Islands",
+    "body": "Cities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island. The main cause is the materials from which cities are built. Dark asphalt and concrete absorb sunlight during the day and release it slowly after sunset, so temperatures in dense districts may barely fall at night. Buildings also block the wind that would otherwise carry heat away, while air conditioners expel warm air into the streets they are meant to cool. Vegetation has the opposite effect: plants shade the ground and release water vapour, which lowers the temperature of the surrounding air. The consequences go beyond discomfort. During heatwaves, deaths rise sharply among elderly residents in the hottest neighbourhoods, and electricity demand peaks just when power grids are under most strain. Planners have several remedies at their disposal. Painting roofs white reflects sunlight; planting trees provides shade; and leaving corridors open to channel breezes into crowded districts costs little. Yet these measures are seldom applied evenly. Wealthier districts tend to have more parks and trees, so the residents most at risk are often those with the least protection. Researchers therefore argue that cooling policies should be judged not only by how many degrees they remove but by whom they help."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-reading-4",
+      "type": "practiceSet",
+      "headword": "Reading: Urban Heat Islands",
+      "frequencyRank": 3003,
+      "baseDifficulty": 0.65,
+      "definition": "Kentsel ısı adaları üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Kentsel Isı Adaları",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-reading-4-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "According to the passage, city nights stay warm mainly because ----.",
+      "options": [
+        "dark surfaces release absorbed heat slowly after sunset",
+        "air conditioners are switched off after dark",
+        "vegetation reflects sunlight back into the streets",
+        "buildings increase the speed of the wind",
+        "the countryside gives off more heat than the city"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Metin asfalt ve betonun gündüz emdiği ısıyı gün batımından sonra yavaş yavaş bıraktığını söylüyor: (A). (B) klimalar, tersine, sıcak havayı sokağa verir. (C) bitki örtüsü ısıyı düşürür, yansıtmaz. (D) binalar rüzgârı engeller, hızlandırmaz.",
+      "passageID": "yds-exam-passage-reading-4"
+    },
+    {
+      "id": "yds-exam-reading-4-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "The word \"remedies\" in the passage is closest in meaning to ----.",
+      "options": [
+        "symptoms",
+        "medicines",
+        "warnings",
+        "solutions",
+        "causes"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Cümlede planlamacıların sorunu gidermek için elindeki yöntemler sayılıyor: (D) çözümler. (A) belirtiler demektir. (B) sözlük anlamına yakın görünse de burada ilaç değil, yöntem kastedilir. (C) uyarı demektir. (E) ise sorunun nedenleridir, çareleri değil.",
+      "passageID": "yds-exam-passage-reading-4"
+    },
+    {
+      "id": "yds-exam-reading-4-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "According to the passage, leaving corridors open in crowded districts is useful because it ----.",
+      "options": [
+        "absorbs sunlight during the day",
+        "channels breezes into areas that would otherwise stay hot at little cost",
+        "provides shade for elderly residents",
+        "removes the need to plant trees",
+        "reduces electricity demand directly"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Metin koridorların kalabalık semtlere esinti yönlendirdiğini ve pek maliyeti olmadığını söylüyor: (B). (A) güneş ışığını emmek asfaltın işidir, sorun yaratır. (C) gölge sağlamak ağaçların işlevidir. (D) ağaçlara olan ihtiyacı ortadan kaldırdığı söylenmez.",
+      "passageID": "yds-exam-passage-reading-4"
+    },
+    {
+      "id": "yds-exam-reading-4-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "It can be inferred from the passage that heatwaves are most dangerous for ----.",
+      "options": [
+        "young people who work outdoors in the countryside",
+        "residents of wealthy districts with many parks",
+        "workers in power stations",
+        "people who live in cities with white roofs",
+        "elderly people living in neighbourhoods with few trees"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Metin, ölümlerin sıcak mahallelerdeki yaşlılarda arttığını ve zengin semtlerde daha fazla ağaç olduğunu söylüyor; bu da en çok risk altındakilerin ağaçsız mahallelerdeki yaşlılar olduğunu düşündürür: (E). (A) genç dış mekân çalışanlarından söz edilmez. (B) park zengin semtleri korur. (C) santral çalışanlarına değinilmez.",
+      "passageID": "yds-exam-passage-reading-4"
+    },
+    {
+      "id": "yds-exam-reading-4-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "The final sentence of the passage emphasises that ----.",
+      "options": [
+        "policies should be abandoned if they remove only a few degrees",
+        "wealthier districts should receive fewer trees",
+        "the fairness of cooling policies matters as much as their effectiveness",
+        "researchers disagree about whether heat islands exist",
+        "the temperature reduction is the only test of a policy"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Son cümle politikaların yalnızca kaç derece düşürdüğüne değil, kime yardım ettiğine göre de değerlendirilmesini savunuyor: (C). (A) ve (E) düşüşü tek ölçüt sayar, bu cümlenin tam tersidir. (B) zengin semtlerden ağaç alınmasını önermez. (D) ısı adasının varlığı tartışılmaz.",
+      "passageID": "yds-exam-passage-reading-4"
+    }
+  ]
+}

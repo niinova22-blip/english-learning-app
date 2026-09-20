@@ -1,0 +1,106 @@
+{
+  "id": "yds-exam-reading-1",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Uyku ve Bellek",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-reading-1",
+    "title": "Sleep and Memory",
+    "body": "For decades, sleep was treated as a passive state in which the brain simply switched off. Research over the past thirty years has overturned that view. During deep sleep, the hippocampus replays the day's experiences, and the brain gradually transfers them to the cortex, where they are stored as long-term memories. Volunteers who slept after learning a list of word pairs recalled roughly twenty per cent more of them the next morning than those who stayed awake for the same period, even though both groups had studied for equal lengths of time. Crucially, the benefit was largest for material that participants had found difficult, which suggests that sleep does not strengthen all memories equally but favours those the brain judges worth keeping. This finding has practical consequences. Students who sacrifice sleep to revise late into the night may feel that they are gaining study time, yet they risk losing the very consolidation that would make the extra hours worthwhile. Sleep researchers are careful, however, not to overstate the case: napping cannot substitute for a full night's rest, and no amount of sleep will make up for material that was never properly understood in the first place."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-reading-1",
+      "type": "practiceSet",
+      "headword": "Reading: Sleep and Memory",
+      "frequencyRank": 3000,
+      "baseDifficulty": 0.5,
+      "definition": "Uyku ve bellek üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Uyku ve Bellek",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-reading-1-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "The passage is mainly concerned with ----.",
+      "options": [
+        "why students ought never to revise late at night",
+        "the amount of sleep that adults need each night",
+        "the differences between light and deep sleep",
+        "how sleep helps the brain to store what it has learned",
+        "the methods scientists use to measure memory"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Metin baştan sona uykunun öğrenilenlerin depolanmasındaki rolünü anlatıyor: (D). (A) yalnızca bir sonuç çıkarımıdır ve «asla» mutlaklığını metin onaylamaz. (B) gereken uyku miktarından hiç söz edilmez. (C) uyku evreleri arasındaki fark konu edilmez; yalnızca derin uykuya değinilir.",
+      "passageID": "yds-exam-passage-reading-1"
+    },
+    {
+      "id": "yds-exam-reading-1-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "According to the passage, the memory advantage of sleeping after learning was greatest for ----.",
+      "options": [
+        "word pairs that had been studied for the longest time",
+        "information that learners had found hard to master",
+        "material that had already been understood thoroughly",
+        "facts learned shortly before a brief afternoon nap",
+        "lists that were shorter than those given to the awake group"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Metin, faydanın «katılımcıların zor bulduğu malzemede» en büyük olduğunu söylüyor: (B). (A) çalışma süreleri iki grupta eşitti, dolayısıyla fark yaratmaz. (C) iyi anlaşılmış malzemeden değil, zor bulunandan söz edilir. (D) şekerleme metinde tam gece uykusunun yerini tutmayan bir öğe olarak geçer, en büyük fayda olarak değil.",
+      "passageID": "yds-exam-passage-reading-1"
+    },
+    {
+      "id": "yds-exam-reading-1-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "The word \"consolidation\" in the passage is closest in meaning to ----.",
+      "options": [
+        "combination",
+        "interruption",
+        "measurement",
+        "replacement",
+        "strengthening"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Cümlede uyku sırasında anıların kalıcı hâle gelmesi, yani pekiştirilmesi anlatılıyor: (E). (A) birleştirme anlamına gelir, anıların birleşmesi söz konusu değildir. (B) kesinti demektir ve yararlı bir süreçle çelişir. (C) ölçme, (D) ise yer değiştirme demektir; ikisi de cümlenin anlamına uymaz.",
+      "passageID": "yds-exam-passage-reading-1"
+    },
+    {
+      "id": "yds-exam-reading-1-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "According to the passage, volunteers who slept after learning ----.",
+      "options": [
+        "recalled about a fifth more word pairs than those who stayed awake",
+        "studied for a shorter time than the awake group",
+        "remembered only the pairs they had found easy",
+        "forgot most of the material by the next morning",
+        "learned the word pairs faster on the second day"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Metin uyuyan gönüllülerin «yaklaşık yüzde yirmi daha fazlasını» hatırladığını söylüyor: (A). (B) çalışma süreleri eşitti. (C) tersine, en çok zor bulunan malzemede fayda görüldü. (D) unutmadan değil, daha çok hatırlamadan söz edilir.",
+      "passageID": "yds-exam-passage-reading-1"
+    },
+    {
+      "id": "yds-exam-reading-1-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "It can be inferred from the passage that a student who revises all night ----.",
+      "options": [
+        "will certainly forget everything that was studied",
+        "always performs worse than a student who naps",
+        "may lose some of the benefit that the extra study hours were meant to bring",
+        "gains more from difficult material than from easy material",
+        "is unable to understand what is being studied"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Metin, uykusuz çalışanların pekiştirmeyi kaybetme «riski» taşıdığını söylüyor; bu, faydanın bir kısmını yitirebilecekleri anlamına gelir: (C). (A) ve (B) «kesinlikle» ve «her zaman» gibi mutlak ifadeler kullanır, metin bunları desteklemez. (E) anlama yeteneğinden söz etmez.",
+      "passageID": "yds-exam-passage-reading-1"
+    }
+  ]
+}

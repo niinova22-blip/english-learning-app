@@ -33,9 +33,9 @@ final class RealContentSeedingTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
-        XCTAssertEqual(package.units.count, 9)
+        XCTAssertEqual(package.units.count, 10)
         let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
-        XCTAssertEqual(allItems.count, 157)
+        XCTAssertEqual(allItems.count, 165)
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
 
         // Regression guard for the mangled-Turkish-characters bug (Task 6): a bare
@@ -43,7 +43,7 @@ final class RealContentSeedingTests: XCTestCase {
         let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
         XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
 
-        XCTAssertEqual(package.version, 6)
+        XCTAssertEqual(package.version, 7)
         XCTAssertEqual(package.storeProductID, "com.niinova22.englishapp.package.yds")
         XCTAssertEqual(package.skillWeights.activeSkills, [.vocabulary, .grammar, .reading])
         XCTAssertEqual(package.skillWeights.share(of: .pronunciation), 0)
@@ -51,8 +51,8 @@ final class RealContentSeedingTests: XCTestCase {
         let secondLesson = scienceUnit?.lessons.first { $0.order == 1 }
         XCTAssertEqual(secondLesson?.title, "Science & Research Methods · 2")
 
-        XCTAssertEqual(package.units.flatMap(\.lessons).flatMap(\.questions).count, 335)
-        XCTAssertEqual(package.units.flatMap(\.lessons).compactMap(\.passage).count, 3)
+        XCTAssertEqual(package.units.flatMap(\.lessons).flatMap(\.questions).count, 375)
+        XCTAssertEqual(package.units.flatMap(\.lessons).compactMap(\.passage).count, 11)
         XCTAssertEqual(Set(package.units.flatMap(\.lessons).map(\.skill)), [.vocabulary, .grammar, .reading])
     }
 
@@ -81,7 +81,7 @@ final class RealContentSeedingTests: XCTestCase {
             ],
             "the four vocabulary units keep orders 0-3"
         )
-        XCTAssertEqual(Array(units.dropFirst(4).map(\.id)), [
+        XCTAssertEqual(Array(units[4..<9].map(\.id)), [
                 "yds-grammar-unit-verbs-and-tenses",
                 "yds-grammar-unit-sentence-structures",
                 "yds-grammar-unit-verbals-and-linkers",
@@ -89,11 +89,11 @@ final class RealContentSeedingTests: XCTestCase {
                 "yds-grammar-unit-word-level-grammar",
             ]
         )
-        XCTAssertEqual(Array(units.dropFirst(4).map(\.theme)), 
+        XCTAssertEqual(Array(units[4..<9].map(\.theme)), 
             ["Fiil ve zaman", "Cümle yapıları", "Fiilimsiler ve bağlantılar", "Sınav düzeyi yapılar", "Kelime düzeyinde gramer"]
         )
 
-        let grammarLessons = units.dropFirst(4).flatMap(\.lessons)
+        let grammarLessons = units[4..<9].flatMap(\.lessons)
         XCTAssertEqual(grammarLessons.count, 30)
         XCTAssertEqual(
             units[4].lessons.sorted { $0.order < $1.order }.map(\.id),
@@ -179,6 +179,79 @@ final class RealContentSeedingTests: XCTestCase {
         }
     }
 
+    private struct ExamShape {
+        let kind: QuestionKind
+        let skill: Skill
+        let hasPassage: Bool
+        let questions: Int
+        let minutes: Int
+    }
+
+    private static let examShapes: [String: ExamShape] = [
+        "reading": ExamShape(kind: .reading, skill: .reading, hasPassage: true, questions: 5, minutes: 10),
+        "cloze": ExamShape(kind: .cloze, skill: .reading, hasPassage: true, questions: 8, minutes: 10),
+        "sentence": ExamShape(kind: .sentenceCompletion, skill: .grammar, hasPassage: false, questions: 10, minutes: 9),
+        "paragraph": ExamShape(kind: .paragraphCompletion, skill: .reading, hasPassage: false, questions: 8, minutes: 10),
+        "irrelevant": ExamShape(kind: .irrelevantSentence, skill: .reading, hasPassage: false, questions: 8, minutes: 9),
+        "dialogue": ExamShape(kind: .dialogueCompletion, skill: .grammar, hasPassage: false, questions: 8, minutes: 8),
+        "translation-en-tr": ExamShape(kind: .translation, skill: .reading, hasPassage: false, questions: 8, minutes: 9),
+        "translation-tr-en": ExamShape(kind: .translation, skill: .reading, hasPassage: false, questions: 8, minutes: 9),
+        "restatement": ExamShape(kind: .restatement, skill: .reading, hasPassage: false, questions: 8, minutes: 9),
+    ]
+
+    /// Structure gate for the Slice 7c exam units, read from the shipped app
+    /// resource. Content correctness is the per-unit review gate's job.
+    func test_bundledPackage_examUnits_areStructurallySound() throws {
+        guard let url = Bundle.main.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
+            XCTFail("YDSAcademicVocabulary1.json not found in the app bundle")
+            return
+        }
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(from: try Data(contentsOf: url), into: context)
+        try context.save()
+
+        let units = package.units.sorted { $0.order < $1.order }
+        XCTAssertEqual(units.map(\.order), Array(0..<units.count), "unit orders must be contiguous from 0")
+        let examUnits = Array(units.dropFirst(9))
+        XCTAssertEqual(examUnits.map(\.id), ["yds-exam-unit-reading"])
+        XCTAssertEqual(examUnits.map(\.theme), ["Okuma anlama"])
+        XCTAssertEqual(examUnits.map(\.order), [9])
+        XCTAssertEqual(
+            units[9].lessons.sorted { $0.order < $1.order }.map(\.id),
+            [
+                "yds-exam-reading-1", "yds-exam-reading-2", "yds-exam-reading-3", "yds-exam-reading-4",
+                "yds-exam-reading-5", "yds-exam-reading-6", "yds-exam-reading-7", "yds-exam-reading-8",
+            ]
+        )
+
+        for lesson in examUnits.flatMap(\.lessons) {
+            let rest = String(lesson.id.dropFirst("yds-exam-".count))
+            let type = String(rest[..<rest.lastIndex(of: "-")!])
+            let shape = try XCTUnwrap(Self.examShapes[type], lesson.id)
+            XCTAssertEqual(lesson.skill, shape.skill, lesson.id)
+            XCTAssertEqual(lesson.estimatedDurationMinutes, shape.minutes, lesson.id)
+            XCTAssertEqual(lesson.items.count, 1, "\(lesson.id) must own exactly one card")
+            let card = try XCTUnwrap(lesson.items.first)
+            XCTAssertEqual(card.type, .practiceSet, lesson.id)
+            XCTAssertEqual(card.id, "yds-exam-card-" + rest, lesson.id)
+            XCTAssertTrue((card.content?.explanationTR ?? "").isEmpty, "\(lesson.id) practiceSet card must not carry an explanation")
+            XCTAssertEqual(lesson.questions.count, shape.questions, lesson.id)
+            XCTAssertEqual(lesson.passage != nil, shape.hasPassage, lesson.id)
+            for question in lesson.questions {
+                XCTAssertEqual(question.kind, shape.kind, question.id)
+                XCTAssertEqual(question.options.count, 5, question.id)
+                XCTAssertTrue((0...4).contains(question.correctIndex), question.id)
+                XCTAssertFalse(question.explanationTR.isEmpty, question.id)
+                XCTAssertEqual(question.passage?.id, lesson.passage?.id, question.id)
+            }
+            if type == "cloze", let body = lesson.passage?.body {
+                for k in 1...shape.questions {
+                    XCTAssertTrue(body.contains("(\(k))----"), "\(lesson.id) passage is missing blank (\(k))")
+                }
+            }
+        }
+    }
+
     func test_seedRealContentIfNeeded_populatesEmptyStore_andIsIdempotent() throws {
         let context = try makeInMemoryContext()
 
@@ -187,7 +260,7 @@ final class RealContentSeedingTests: XCTestCase {
         let packages = try context.fetch(FetchDescriptor<ContentPackage>())
         XCTAssertEqual(packages.count, 1)
         let allItems = packages.flatMap { $0.units.flatMap { $0.lessons.flatMap { $0.items } } }
-        XCTAssertEqual(allItems.count, 157)
+        XCTAssertEqual(allItems.count, 165)
 
         // Calling again must not duplicate content.
         AppModelContainer.seedRealContentIfNeeded(in: context)

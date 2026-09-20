@@ -1,0 +1,106 @@
+{
+  "id": "yds-exam-reading-5",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Matbaa ve Okuryazarlık",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-reading-5",
+    "title": "The Printing Press and Literacy",
+    "body": "It is tempting to assume that the printing press, introduced in Europe in the middle of the fifteenth century, made ordinary people literate almost overnight. The reality was slower and more uneven. Printing certainly lowered the price of books, since a single press could produce in a week what a scribe might copy in a year. But a cheap book is of no use to someone who cannot read, and in 1500 the great majority of Europeans could not. Literacy spread instead through a combination of institutions. Protestant reformers urged believers to read scripture for themselves, and towns that adopted the new faith often founded schools to make this possible. Merchants, who needed to keep accounts and correspond with distant partners, also had strong reasons to educate their children. Historians therefore caution against treating the press as the sole cause of rising literacy. In regions where neither religious reform nor commerce created a demand for reading, printed books circulated widely among a small educated elite while most of the population remained unable to read them. The technology, in other words, made mass literacy possible, but it did not make it inevitable; it took social change to turn cheap books into books that people actually read."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-reading-5",
+      "type": "practiceSet",
+      "headword": "Reading: The Printing Press and Literacy",
+      "frequencyRank": 3004,
+      "baseDifficulty": 0.65,
+      "definition": "Matbaa ve okuryazarlık üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Matbaa ve Okuryazarlık",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-reading-5-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "The passage argues that ----.",
+      "options": [
+        "the press alone was responsible for the rise in literacy",
+        "religious reformers discouraged ordinary people from reading",
+        "books remained too expensive for anyone but professional scribes",
+        "the printing press made mass literacy possible but did not make it automatic",
+        "the early presses had little effect on the price of books"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Son cümle matbaanın kitlesel okuryazarlığı mümkün kıldığını ama kaçınılmaz kılmadığını söylüyor: (D). (A) metnin karşı çıktığı görüştür. (B) reformcular tersine okumayı teşvik etti. (C) kitaplar ucuzlamıştı. (E) fiyatın düştüğü metinde açıkça belirtilir.",
+      "passageID": "yds-exam-passage-reading-5"
+    },
+    {
+      "id": "yds-exam-reading-5-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "According to the passage, a single printing press could produce in a week ----.",
+      "options": [
+        "as many books as a scribe might copy in a year",
+        "as many books as a town could afford to buy",
+        "more books than merchants needed for their accounts",
+        "all the scripture that reformers wanted to distribute",
+        "half of what a scribe could copy in a year"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Metin bir matbaanın bir haftada bir kâtibin bir yılda kopyaladığını üretebildiğini söylüyor: (A). (B) ve (C) ile (D) metinde geçmeyen kıyaslardır. (E) ise oranı yanlış verir ve matbaanın avantajını küçültür.",
+      "passageID": "yds-exam-passage-reading-5"
+    },
+    {
+      "id": "yds-exam-reading-5-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "Merchants are mentioned in the passage as ----.",
+      "options": [
+        "opponents of the new religious movement",
+        "the main buyers of printed scripture",
+        "a group with practical reasons to educate their children",
+        "a group that resisted the founding of schools",
+        "the printers of the earliest books"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Metin tüccarların hesap tutma ve yazışma ihtiyacı nedeniyle çocuklarını eğitmek için güçlü sebepleri olduğunu söylüyor: (C). (A) yeni dinî harekete karşı çıkanlardan söz edilmez. (B) kutsal kitap alıcıları olarak anılmazlar. (D) okulları engelledikleri değil, eğitmeye istekli oldukları söylenir.",
+      "passageID": "yds-exam-passage-reading-5"
+    },
+    {
+      "id": "yds-exam-reading-5-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "The passage implies that in regions without religious reform or commerce ----.",
+      "options": [
+        "printing presses were banned by the authorities",
+        "most people learned to read from scribes",
+        "literacy rose faster than in other regions",
+        "books were cheaper than anywhere else in Europe",
+        "printed books mainly reached a small educated minority"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Metin, reform ya da ticaretin okuma talebi yaratmadığı bölgelerde basılı kitapların küçük bir eğitimli elit arasında dolaştığını söylüyor: (E). (A) yasaktan söz edilmez. (B) kâtiplerle öğrenme metinde geçmez. (C) okuryazarlığın hızlı arttığı yer bunlar değildir.",
+      "passageID": "yds-exam-passage-reading-5"
+    },
+    {
+      "id": "yds-exam-reading-5-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "The author's attitude towards the claim that the press alone spread literacy is ----.",
+      "options": [
+        "enthusiastic and approving",
+        "cautious and sceptical",
+        "hostile and dismissive",
+        "completely indifferent",
+        "admiring but uncertain"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Yazar tarihçilerin bu görüşe karşı «temkinli» olduğunu aktarıyor ve nedenlerini sıralıyor: (B) temkinli ve kuşkucu. (A) onay verir. (C) aşırı sertlik içerir; metin görüşü reddetmez, sınırlar. (D) ilgisizlik anlamı taşır, oysa yazar ayrıntılı tartışıyor.",
+      "passageID": "yds-exam-passage-reading-5"
+    }
+  ]
+}

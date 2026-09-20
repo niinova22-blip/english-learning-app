@@ -5,7 +5,7 @@
   "storeProductID": "com.niinova22.englishapp.package.yds",
   "levelLower": "B2",
   "levelUpper": "C1",
-  "version": 6,
+  "version": 7,
   "skillWeights": {
     "vocabulary": 35,
     "grammar": 30,
@@ -8681,6 +8681,869 @@
               "correctIndex": 3,
               "explanationTR": "Oyun adları tanımlıksız kullanılır: play football. (A) the football ve (B) a football ve (E) an football oyun adına tanımlık ekler. (C) footballs çoğuldur.",
               "passageID": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-exam-unit-reading",
+      "theme": "Okuma anlama",
+      "order": 9,
+      "lessons": [
+        {
+          "id": "yds-exam-reading-1",
+          "order": 0,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Uyku ve Bellek",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-reading-1",
+            "title": "Sleep and Memory",
+            "body": "For decades, sleep was treated as a passive state in which the brain simply switched off. Research over the past thirty years has overturned that view. During deep sleep, the hippocampus replays the day's experiences, and the brain gradually transfers them to the cortex, where they are stored as long-term memories. Volunteers who slept after learning a list of word pairs recalled roughly twenty per cent more of them the next morning than those who stayed awake for the same period, even though both groups had studied for equal lengths of time. Crucially, the benefit was largest for material that participants had found difficult, which suggests that sleep does not strengthen all memories equally but favours those the brain judges worth keeping. This finding has practical consequences. Students who sacrifice sleep to revise late into the night may feel that they are gaining study time, yet they risk losing the very consolidation that would make the extra hours worthwhile. Sleep researchers are careful, however, not to overstate the case: napping cannot substitute for a full night's rest, and no amount of sleep will make up for material that was never properly understood in the first place."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-reading-1",
+              "type": "practiceSet",
+              "headword": "Reading: Sleep and Memory",
+              "frequencyRank": 3000,
+              "baseDifficulty": 0.5,
+              "definition": "Uyku ve bellek üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Uyku ve Bellek",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-reading-1-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "The passage is mainly concerned with ----.",
+              "options": [
+                "why students ought never to revise late at night",
+                "the amount of sleep that adults need each night",
+                "the differences between light and deep sleep",
+                "how sleep helps the brain to store what it has learned",
+                "the methods scientists use to measure memory"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Metin baştan sona uykunun öğrenilenlerin depolanmasındaki rolünü anlatıyor: (D). (A) yalnızca bir sonuç çıkarımıdır ve «asla» mutlaklığını metin onaylamaz. (B) gereken uyku miktarından hiç söz edilmez. (C) uyku evreleri arasındaki fark konu edilmez; yalnızca derin uykuya değinilir.",
+              "passageID": "yds-exam-passage-reading-1"
+            },
+            {
+              "id": "yds-exam-reading-1-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "According to the passage, the memory advantage of sleeping after learning was greatest for ----.",
+              "options": [
+                "word pairs that had been studied for the longest time",
+                "information that learners had found hard to master",
+                "material that had already been understood thoroughly",
+                "facts learned shortly before a brief afternoon nap",
+                "lists that were shorter than those given to the awake group"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Metin, faydanın «katılımcıların zor bulduğu malzemede» en büyük olduğunu söylüyor: (B). (A) çalışma süreleri iki grupta eşitti, dolayısıyla fark yaratmaz. (C) iyi anlaşılmış malzemeden değil, zor bulunandan söz edilir. (D) şekerleme metinde tam gece uykusunun yerini tutmayan bir öğe olarak geçer, en büyük fayda olarak değil.",
+              "passageID": "yds-exam-passage-reading-1"
+            },
+            {
+              "id": "yds-exam-reading-1-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "The word \"consolidation\" in the passage is closest in meaning to ----.",
+              "options": [
+                "combination",
+                "interruption",
+                "measurement",
+                "replacement",
+                "strengthening"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Cümlede uyku sırasında anıların kalıcı hâle gelmesi, yani pekiştirilmesi anlatılıyor: (E). (A) birleştirme anlamına gelir, anıların birleşmesi söz konusu değildir. (B) kesinti demektir ve yararlı bir süreçle çelişir. (C) ölçme, (D) ise yer değiştirme demektir; ikisi de cümlenin anlamına uymaz.",
+              "passageID": "yds-exam-passage-reading-1"
+            },
+            {
+              "id": "yds-exam-reading-1-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "According to the passage, volunteers who slept after learning ----.",
+              "options": [
+                "recalled about a fifth more word pairs than those who stayed awake",
+                "studied for a shorter time than the awake group",
+                "remembered only the pairs they had found easy",
+                "forgot most of the material by the next morning",
+                "learned the word pairs faster on the second day"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metin uyuyan gönüllülerin «yaklaşık yüzde yirmi daha fazlasını» hatırladığını söylüyor: (A). (B) çalışma süreleri eşitti. (C) tersine, en çok zor bulunan malzemede fayda görüldü. (D) unutmadan değil, daha çok hatırlamadan söz edilir.",
+              "passageID": "yds-exam-passage-reading-1"
+            },
+            {
+              "id": "yds-exam-reading-1-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "It can be inferred from the passage that a student who revises all night ----.",
+              "options": [
+                "will certainly forget everything that was studied",
+                "always performs worse than a student who naps",
+                "may lose some of the benefit that the extra study hours were meant to bring",
+                "gains more from difficult material than from easy material",
+                "is unable to understand what is being studied"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Metin, uykusuz çalışanların pekiştirmeyi kaybetme «riski» taşıdığını söylüyor; bu, faydanın bir kısmını yitirebilecekleri anlamına gelir: (C). (A) ve (B) «kesinlikle» ve «her zaman» gibi mutlak ifadeler kullanır, metin bunları desteklemez. (E) anlama yeteneğinden söz etmez.",
+              "passageID": "yds-exam-passage-reading-1"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-reading-2",
+          "order": 1,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Uzaktan Çalışmanın Ekonomisi",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-reading-2",
+            "title": "The Economics of Remote Work",
+            "body": "When firms sent their employees home during the pandemic, many managers expected productivity to collapse. The evidence has been more complicated. Studies of call-centre and software teams generally found that output held steady or rose slightly, largely because workers saved commuting time and were interrupted less often. Yet the gains were uneven. Employees whose tasks required constant coordination, such as designers refining a product together, reported that decisions took longer and that informal exchanges, which often produce new ideas, had all but disappeared. Firms have therefore begun to experiment with hybrid arrangements, asking staff to come into the office on set days. Economists point out that the choice also has a geographical dimension. Because workers no longer need to live within reach of a single office, some firms recruit from a much wider pool, while others fear that their best employees will be tempted away by competitors elsewhere. Property markets are affected as well: demand for city-centre offices has softened, whereas smaller towns with fast internet connections have seen rents rise. What is still unclear is whether these changes are permanent. Much will depend on whether managers learn to assess staff by results rather than by the hours they are visibly present."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-reading-2",
+              "type": "practiceSet",
+              "headword": "Reading: The Economics of Remote Work",
+              "frequencyRank": 3001,
+              "baseDifficulty": 0.55,
+              "definition": "Uzaktan çalışmanın ekonomisi üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Uzaktan Çalışmanın Ekonomisi",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-reading-2-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "According to the passage, output in many remote teams held steady or rose because ----.",
+              "options": [
+                "managers monitored staff more closely than before",
+                "employees saved commuting time and were interrupted less often",
+                "informal exchanges produced a stream of new ideas",
+                "firms hired cheaper workers in smaller towns",
+                "hybrid arrangements had already been introduced"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Metin çıktının sabit kalmasını ya da artmasını, çalışanların yolda zaman kazanması ve daha az bölünmesine bağlıyor: (B). (A) yöneticilerin gözetimini metin hiç anmaz. (C) tersine, gayriresmî sohbetlerin neredeyse kaybolduğu söylenir. (D) daha ucuz işçi alımı bir neden olarak gösterilmez.",
+              "passageID": "yds-exam-passage-reading-2"
+            },
+            {
+              "id": "yds-exam-reading-2-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "Which of the following best summarises the passage?",
+              "options": [
+                "Remote work has proved clearly superior to office work in every kind of task.",
+                "Managers were right to expect productivity to collapse.",
+                "Small towns have gained far more from remote work than city centres have.",
+                "Hybrid arrangements have completely solved the problem of coordination.",
+                "Remote work has produced mixed results, and its long-term shape is still uncertain."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Metin hem kazançlardan hem de eşitsizliklerden söz ediyor ve kalıcılığın belirsiz olduğunu söylüyor: (E). (A) «her tür görevde» mutlaklığı metinle çelişir. (B) yöneticilerin beklentisinin doğrulanmadığı söylenir. (C) küçük kasabaların kazancı yalnızca kira artışıyla anılır, kıyas yapılmaz. (D) hibrit düzenin sorunu «tamamen» çözdüğü iddia edilmez.",
+              "passageID": "yds-exam-passage-reading-2"
+            },
+            {
+              "id": "yds-exam-reading-2-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "The word \"softened\" as used in the passage is closest in meaning to ----.",
+              "options": [
+                "risen",
+                "calmed",
+                "weakened",
+                "disappeared",
+                "stabilised"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Demand for city-centre offices has softened» ifadesi talebin azaldığını, yani zayıfladığını anlatır: (C). (A) artmış demektir ve küçük kasabalardaki kira artışıyla karıştırılmamalıdır. (B) sakinleşmiş anlamı taşır ve talep için uygun değildir. (D) tamamen ortadan kalkmayı ima eder, metin bunu söylemez.",
+              "passageID": "yds-exam-passage-reading-2"
+            },
+            {
+              "id": "yds-exam-reading-2-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "Employees whose work required constant coordination reported that ----.",
+              "options": [
+                "decisions took longer and casual conversations had nearly disappeared",
+                "their output had risen more than that of other employees",
+                "they preferred to work from smaller towns",
+                "they had been recruited from a wider geographical pool",
+                "managers assessed them by results rather than by hours"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metin bu çalışanların kararların uzadığını ve gayriresmî sohbetlerin neredeyse yok olduğunu bildirdiğini söylüyor: (A). (B) çıktının onlarda daha çok arttığı söylenmez. (C) tercihlerinden söz edilmez. (D) daha geniş havuzdan işe alım firmaların stratejisidir, bu çalışanların bildirimi değildir.",
+              "passageID": "yds-exam-passage-reading-2"
+            },
+            {
+              "id": "yds-exam-reading-2-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "The last sentence of the passage implies that the future of remote work depends on ----.",
+              "options": [
+                "how many workers can afford to move to smaller towns",
+                "whether property prices in city centres recover",
+                "whether commuting becomes faster and cheaper",
+                "the way managers choose to judge their employees' performance",
+                "how quickly internet connections improve"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Son cümle her şeyin yöneticilerin personeli çıktısına göre mi, yoksa ofiste görünürlüğüne göre mi değerlendireceğine bağlı olduğunu söylüyor: (D). (A) taşınma maliyeti, (B) ofis fiyatları, (C) ulaşım ve (E) internet hızı metinde bu sonuç cümlesinin dayanağı olarak gösterilmez.",
+              "passageID": "yds-exam-passage-reading-2"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-reading-3",
+          "order": 2,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Antibiyotik Direnci",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-reading-3",
+            "title": "Antibiotic Resistance",
+            "body": "Antibiotics transformed medicine in the twentieth century, turning once-fatal infections into routine problems that a short course of tablets could cure. Today, that achievement is under threat. Bacteria reproduce so quickly that any mutation which helps a microbe survive a drug spreads through a population within days, and each time an antibiotic is used, susceptible bacteria are killed while resistant ones are left to multiply. The more often a drug is prescribed, therefore, the faster resistance to it develops. Overuse is not confined to hospitals. In several countries antibiotics are available without a prescription, and in agriculture they are routinely added to animal feed to promote growth. Patients also contribute when they stop taking a course as soon as they feel better, since the weakest bacteria die first and the hardier survivors remain. Researchers warn that the pipeline of new drugs is thin, largely because developing an antibiotic is expensive and offers pharmaceutical companies little profit compared with medicines taken every day for chronic conditions. Some health economists have therefore proposed that governments pay companies a fixed fee for new antibiotics, regardless of how many are sold, so that firms are rewarded for innovation rather than for volume. Such a scheme would only work, of course, if doctors used the new drugs sparingly."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-reading-3",
+              "type": "practiceSet",
+              "headword": "Reading: Antibiotic Resistance",
+              "frequencyRank": 3002,
+              "baseDifficulty": 0.6,
+              "definition": "Antibiyotik direnci üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Antibiyotik Direnci",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-reading-3-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "The passage is mainly about ----.",
+              "options": [
+                "the history of antibiotics in twentieth-century medicine",
+                "the best way for patients to complete a course of tablets",
+                "the causes of antibiotic resistance and one proposed remedy",
+                "the profits that pharmaceutical companies earn from antibiotics",
+                "the use of antibiotics in agriculture"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Metin direncin nedenlerini sıralıyor ve sabit ücret önerisini tartışıyor: (C). (A) tarih yalnızca giriş cümlesidir. (B) hasta davranışı nedenlerden yalnızca biridir. (D) kâr, yeni ilaçların azlığının açıklamasıdır, ana konu değildir. (E) tarım, yalnızca bir örnektir ve konuyu fazla daraltır.",
+              "passageID": "yds-exam-passage-reading-3"
+            },
+            {
+              "id": "yds-exam-reading-3-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "According to the passage, resistance to a drug develops faster when ----.",
+              "options": [
+                "the drug is prescribed more frequently",
+                "bacteria reproduce more slowly",
+                "patients complete every course of treatment",
+                "antibiotics are reserved for use in hospitals",
+                "new drugs enter the market more quickly"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«The more often a drug is prescribed, the faster resistance to it develops» cümlesi bunu doğrudan söyler: (A). (B) bakterilerin hızlı üremesi direncin nedenidir, yavaş üremesi değil. (C) kürü tamamlamak dirençle ilişkilendirilmez. (D) kullanımın hastanelerle sınırlı olmadığı belirtilir.",
+              "passageID": "yds-exam-passage-reading-3"
+            },
+            {
+              "id": "yds-exam-reading-3-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "All of the following are given as contributors to antibiotic overuse EXCEPT ----.",
+              "options": [
+                "the sale of antibiotics without a prescription",
+                "the addition of antibiotics to animal feed",
+                "patients stopping a course as soon as they feel better",
+                "the use of expired stocks by pharmacies",
+                "the frequent prescription of the drugs"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Soru metinde verilmeyen seçeneği arıyor: eczanelerin son kullanma tarihi geçmiş stokları metinde hiç geçmez: (D). (A) reçetesiz satış, (B) hayvan yemine katma, (C) kürü erken bırakma ve (E) sık reçete yazımı metinde açıkça anılan katkılardır.",
+              "passageID": "yds-exam-passage-reading-3"
+            },
+            {
+              "id": "yds-exam-reading-3-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "The proposal of a fixed fee for new antibiotics is intended to ----.",
+              "options": [
+                "make antibiotics cheaper for patients",
+                "reward companies for developing drugs rather than for selling large quantities",
+                "encourage doctors to prescribe the new drugs more often",
+                "remove the need for further research",
+                "raise the price of medicines for chronic conditions"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Metin, firmaların «hacim yerine yenilik için» ödüllendirilmesini amaçladığını söylüyor: (B). (A) hasta fiyatından söz edilmez. (C) tersine, yeni ilaçların idareli kullanılması gerekir. (D) araştırma ihtiyacını ortadan kaldırmaz, teşvik eder.",
+              "passageID": "yds-exam-passage-reading-3"
+            },
+            {
+              "id": "yds-exam-reading-3-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "The final sentence suggests that a fixed-fee scheme ----.",
+              "options": [
+                "will certainly put an end to antibiotic resistance",
+                "would be cheaper than any other possible scheme",
+                "is unnecessary because antibiotics already sell well",
+                "has already been adopted by several governments",
+                "could fail if the new antibiotics were prescribed too freely"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Son cümle planın ancak doktorlar yeni ilaçları idareli kullanırsa işe yarayacağını söylüyor; yani serbest reçete planı boşa çıkarabilir: (E). (A) «kesinlikle» mutlaklığı metinde yoktur. (B) «herhangi bir başka plandan» kıyası yapılmaz. (C) ilaçların az kâr getirdiği söylenir. (D) plan hâlâ bir öneridir.",
+              "passageID": "yds-exam-passage-reading-3"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-reading-4",
+          "order": 3,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Kentsel Isı Adaları",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-reading-4",
+            "title": "Urban Heat Islands",
+            "body": "Cities are often several degrees warmer than the countryside around them, a phenomenon known as the urban heat island. The main cause is the materials from which cities are built. Dark asphalt and concrete absorb sunlight during the day and release it slowly after sunset, so temperatures in dense districts may barely fall at night. Buildings also block the wind that would otherwise carry heat away, while air conditioners expel warm air into the streets they are meant to cool. Vegetation has the opposite effect: plants shade the ground and release water vapour, which lowers the temperature of the surrounding air. The consequences go beyond discomfort. During heatwaves, deaths rise sharply among elderly residents in the hottest neighbourhoods, and electricity demand peaks just when power grids are under most strain. Planners have several remedies at their disposal. Painting roofs white reflects sunlight; planting trees provides shade; and leaving corridors open to channel breezes into crowded districts costs little. Yet these measures are seldom applied evenly. Wealthier districts tend to have more parks and trees, so the residents most at risk are often those with the least protection. Researchers therefore argue that cooling policies should be judged not only by how many degrees they remove but by whom they help."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-reading-4",
+              "type": "practiceSet",
+              "headword": "Reading: Urban Heat Islands",
+              "frequencyRank": 3003,
+              "baseDifficulty": 0.65,
+              "definition": "Kentsel ısı adaları üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Kentsel Isı Adaları",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-reading-4-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "According to the passage, city nights stay warm mainly because ----.",
+              "options": [
+                "dark surfaces release absorbed heat slowly after sunset",
+                "air conditioners are switched off after dark",
+                "vegetation reflects sunlight back into the streets",
+                "buildings increase the speed of the wind",
+                "the countryside gives off more heat than the city"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metin asfalt ve betonun gündüz emdiği ısıyı gün batımından sonra yavaş yavaş bıraktığını söylüyor: (A). (B) klimalar, tersine, sıcak havayı sokağa verir. (C) bitki örtüsü ısıyı düşürür, yansıtmaz. (D) binalar rüzgârı engeller, hızlandırmaz.",
+              "passageID": "yds-exam-passage-reading-4"
+            },
+            {
+              "id": "yds-exam-reading-4-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "The word \"remedies\" in the passage is closest in meaning to ----.",
+              "options": [
+                "symptoms",
+                "medicines",
+                "warnings",
+                "solutions",
+                "causes"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Cümlede planlamacıların sorunu gidermek için elindeki yöntemler sayılıyor: (D) çözümler. (A) belirtiler demektir. (B) sözlük anlamına yakın görünse de burada ilaç değil, yöntem kastedilir. (C) uyarı demektir. (E) ise sorunun nedenleridir, çareleri değil.",
+              "passageID": "yds-exam-passage-reading-4"
+            },
+            {
+              "id": "yds-exam-reading-4-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "According to the passage, leaving corridors open in crowded districts is useful because it ----.",
+              "options": [
+                "absorbs sunlight during the day",
+                "channels breezes into areas that would otherwise stay hot at little cost",
+                "provides shade for elderly residents",
+                "removes the need to plant trees",
+                "reduces electricity demand directly"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Metin koridorların kalabalık semtlere esinti yönlendirdiğini ve pek maliyeti olmadığını söylüyor: (B). (A) güneş ışığını emmek asfaltın işidir, sorun yaratır. (C) gölge sağlamak ağaçların işlevidir. (D) ağaçlara olan ihtiyacı ortadan kaldırdığı söylenmez.",
+              "passageID": "yds-exam-passage-reading-4"
+            },
+            {
+              "id": "yds-exam-reading-4-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "It can be inferred from the passage that heatwaves are most dangerous for ----.",
+              "options": [
+                "young people who work outdoors in the countryside",
+                "residents of wealthy districts with many parks",
+                "workers in power stations",
+                "people who live in cities with white roofs",
+                "elderly people living in neighbourhoods with few trees"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Metin, ölümlerin sıcak mahallelerdeki yaşlılarda arttığını ve zengin semtlerde daha fazla ağaç olduğunu söylüyor; bu da en çok risk altındakilerin ağaçsız mahallelerdeki yaşlılar olduğunu düşündürür: (E). (A) genç dış mekân çalışanlarından söz edilmez. (B) park zengin semtleri korur. (C) santral çalışanlarına değinilmez.",
+              "passageID": "yds-exam-passage-reading-4"
+            },
+            {
+              "id": "yds-exam-reading-4-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "The final sentence of the passage emphasises that ----.",
+              "options": [
+                "policies should be abandoned if they remove only a few degrees",
+                "wealthier districts should receive fewer trees",
+                "the fairness of cooling policies matters as much as their effectiveness",
+                "researchers disagree about whether heat islands exist",
+                "the temperature reduction is the only test of a policy"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Son cümle politikaların yalnızca kaç derece düşürdüğüne değil, kime yardım ettiğine göre de değerlendirilmesini savunuyor: (C). (A) ve (E) düşüşü tek ölçüt sayar, bu cümlenin tam tersidir. (B) zengin semtlerden ağaç alınmasını önermez. (D) ısı adasının varlığı tartışılmaz.",
+              "passageID": "yds-exam-passage-reading-4"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-reading-5",
+          "order": 4,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Matbaa ve Okuryazarlık",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-reading-5",
+            "title": "The Printing Press and Literacy",
+            "body": "It is tempting to assume that the printing press, introduced in Europe in the middle of the fifteenth century, made ordinary people literate almost overnight. The reality was slower and more uneven. Printing certainly lowered the price of books, since a single press could produce in a week what a scribe might copy in a year. But a cheap book is of no use to someone who cannot read, and in 1500 the great majority of Europeans could not. Literacy spread instead through a combination of institutions. Protestant reformers urged believers to read scripture for themselves, and towns that adopted the new faith often founded schools to make this possible. Merchants, who needed to keep accounts and correspond with distant partners, also had strong reasons to educate their children. Historians therefore caution against treating the press as the sole cause of rising literacy. In regions where neither religious reform nor commerce created a demand for reading, printed books circulated widely among a small educated elite while most of the population remained unable to read them. The technology, in other words, made mass literacy possible, but it did not make it inevitable; it took social change to turn cheap books into books that people actually read."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-reading-5",
+              "type": "practiceSet",
+              "headword": "Reading: The Printing Press and Literacy",
+              "frequencyRank": 3004,
+              "baseDifficulty": 0.65,
+              "definition": "Matbaa ve okuryazarlık üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Matbaa ve Okuryazarlık",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-reading-5-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "The passage argues that ----.",
+              "options": [
+                "the press alone was responsible for the rise in literacy",
+                "religious reformers discouraged ordinary people from reading",
+                "books remained too expensive for anyone but professional scribes",
+                "the printing press made mass literacy possible but did not make it automatic",
+                "the early presses had little effect on the price of books"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Son cümle matbaanın kitlesel okuryazarlığı mümkün kıldığını ama kaçınılmaz kılmadığını söylüyor: (D). (A) metnin karşı çıktığı görüştür. (B) reformcular tersine okumayı teşvik etti. (C) kitaplar ucuzlamıştı. (E) fiyatın düştüğü metinde açıkça belirtilir.",
+              "passageID": "yds-exam-passage-reading-5"
+            },
+            {
+              "id": "yds-exam-reading-5-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "According to the passage, a single printing press could produce in a week ----.",
+              "options": [
+                "as many books as a scribe might copy in a year",
+                "as many books as a town could afford to buy",
+                "more books than merchants needed for their accounts",
+                "all the scripture that reformers wanted to distribute",
+                "half of what a scribe could copy in a year"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metin bir matbaanın bir haftada bir kâtibin bir yılda kopyaladığını üretebildiğini söylüyor: (A). (B) ve (C) ile (D) metinde geçmeyen kıyaslardır. (E) ise oranı yanlış verir ve matbaanın avantajını küçültür.",
+              "passageID": "yds-exam-passage-reading-5"
+            },
+            {
+              "id": "yds-exam-reading-5-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "Merchants are mentioned in the passage as ----.",
+              "options": [
+                "opponents of the new religious movement",
+                "the main buyers of printed scripture",
+                "a group with practical reasons to educate their children",
+                "a group that resisted the founding of schools",
+                "the printers of the earliest books"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Metin tüccarların hesap tutma ve yazışma ihtiyacı nedeniyle çocuklarını eğitmek için güçlü sebepleri olduğunu söylüyor: (C). (A) yeni dinî harekete karşı çıkanlardan söz edilmez. (B) kutsal kitap alıcıları olarak anılmazlar. (D) okulları engelledikleri değil, eğitmeye istekli oldukları söylenir.",
+              "passageID": "yds-exam-passage-reading-5"
+            },
+            {
+              "id": "yds-exam-reading-5-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "The passage implies that in regions without religious reform or commerce ----.",
+              "options": [
+                "printing presses were banned by the authorities",
+                "most people learned to read from scribes",
+                "literacy rose faster than in other regions",
+                "books were cheaper than anywhere else in Europe",
+                "printed books mainly reached a small educated minority"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Metin, reform ya da ticaretin okuma talebi yaratmadığı bölgelerde basılı kitapların küçük bir eğitimli elit arasında dolaştığını söylüyor: (E). (A) yasaktan söz edilmez. (B) kâtiplerle öğrenme metinde geçmez. (C) okuryazarlığın hızlı arttığı yer bunlar değildir.",
+              "passageID": "yds-exam-passage-reading-5"
+            },
+            {
+              "id": "yds-exam-reading-5-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "The author's attitude towards the claim that the press alone spread literacy is ----.",
+              "options": [
+                "enthusiastic and approving",
+                "cautious and sceptical",
+                "hostile and dismissive",
+                "completely indifferent",
+                "admiring but uncertain"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Yazar tarihçilerin bu görüşe karşı «temkinli» olduğunu aktarıyor ve nedenlerini sıralıyor: (B) temkinli ve kuşkucu. (A) onay verir. (C) aşırı sertlik içerir; metin görüşü reddetmez, sınırlar. (D) ilgisizlik anlamı taşır, oysa yazar ayrıntılı tartışıyor.",
+              "passageID": "yds-exam-passage-reading-5"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-reading-6",
+          "order": 5,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Algoritmik İşe Alım",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-reading-6",
+            "title": "Algorithmic Hiring",
+            "body": "Many large employers now use software to sort job applications, on the assumption that an algorithm will be more objective than a tired human reader. The promise is appealing: a program does not favour candidates who share its author's background, and it can process thousands of applications in the time it takes a recruiter to read a dozen. In practice, however, such systems learn from past decisions, and past decisions are rarely free of bias. A well-known case involved a system trained on ten years of successful applications at a technology firm; because most of those hired had been men, the software learned to rate applications containing certain words associated with women less favourably. The engineers corrected the specific pattern, but they could not be sure that the program had not found other, subtler ways of reproducing the same preference. Defenders of automated screening point out that human recruiters are no less prone to prejudice, and that a biased algorithm can at least be audited, whereas a biased interviewer cannot be opened up and inspected. Critics reply that auditing is meaningful only if firms are required to disclose how their systems work, something that commercial confidentiality often prevents. The debate, therefore, is less about whether machines can be fair than about who is allowed to check."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-reading-6",
+              "type": "practiceSet",
+              "headword": "Reading: Algorithmic Hiring",
+              "frequencyRank": 3005,
+              "baseDifficulty": 0.65,
+              "definition": "Algoritmik işe alım üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Algoritmik İşe Alım",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-reading-6-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "The system trained on ten years of applications rated some applications lower because ----.",
+              "options": [
+                "its engineers had deliberately programmed it to prefer men",
+                "most of the people previously hired had been men",
+                "the applications contained more spelling mistakes",
+                "women applied for different jobs from men",
+                "the software could not read certain words"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Metin, işe alınanların çoğunun erkek olması nedeniyle yazılımın kadınlarla ilişkilendirilen sözcükleri içeren başvurulara düşük puan verdiğini söylüyor: (B). (A) mühendislerin bilerek yaptığı söylenmez. (C) yazım hatalarından söz edilmez. (D) farklı işlere başvurma metinde geçmez. (E) yazılımın sözcükleri okuyamadığı değil, onları değerlendirdiği anlatılır.",
+              "passageID": "yds-exam-passage-reading-6"
+            },
+            {
+              "id": "yds-exam-reading-6-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "The word \"prone\" in the passage is closest in meaning to ----.",
+              "options": [
+                "unlikely",
+                "reluctant",
+                "immune",
+                "exposed",
+                "inclined"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«No less prone to prejudice» insan işe alımcıların da önyargıya en az onlar kadar eğilimli olduğunu söyler: (E). (A) ve (B) ile (C) anlamı tersine çevirir. (D) «maruz kalmış» demektir; eğilim değil, dışarıdan gelen etkiyi anlatır ve cümleye uymaz.",
+              "passageID": "yds-exam-passage-reading-6"
+            },
+            {
+              "id": "yds-exam-reading-6-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "The passage suggests that the engineers' correction of the specific pattern ----.",
+              "options": [
+                "did not guarantee that other forms of bias had been removed",
+                "proved that the program was now completely fair",
+                "showed that human recruiters were less biased",
+                "made the software unable to process applications",
+                "was welcomed by all defenders of automation"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Mühendisler programın aynı tercihi «başka, daha ince yollarla» üretmediğinden emin olamadı: (A). (B) «tamamen adil» iddiası metinde yoktur. (C) insan işe alımcılarla kıyas başka bir bağlamda yapılır. (D) ve (E) hakkında metin bilgi vermez.",
+              "passageID": "yds-exam-passage-reading-6"
+            },
+            {
+              "id": "yds-exam-reading-6-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "According to defenders of automated screening, a biased algorithm ----.",
+              "options": [
+                "is easier to hide from regulators",
+                "is more harmful than a biased interviewer",
+                "cannot be corrected by engineers",
+                "can be audited in a way that a biased interviewer cannot",
+                "is never affected by past decisions"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Savunucular, taraflı bir algoritmanın en azından denetlenebileceğini, taraflı bir görüşmecinin ise «açılıp incelenemeyeceğini» söylüyor: (D). (A) ve (B) savunucuların değil, eleştirmenlerin kaygısına yakındır. (C) mühendislerin düzeltme yaptığı zaten anlatıldı. (E) mutlak bir ifadedir ve metinle çelişir.",
+              "passageID": "yds-exam-passage-reading-6"
+            },
+            {
+              "id": "yds-exam-reading-6-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "The final sentence suggests that the real dispute concerns ----.",
+              "options": [
+                "whether algorithms are cheaper than recruiters",
+                "whether machines can ever be fair",
+                "who is allowed to inspect how the systems work",
+                "how many applications a program can process",
+                "whether engineers can correct every bias"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Son cümle tartışmanın makinelerin adil olup olamayacağından çok «kimin denetleyebileceği» üzerine olduğunu söylüyor: (C). (B) makinelerin adaleti son cümlede özellikle ikinci plana atılır. (A) maliyet, (D) işleme kapasitesi, (E) düzeltme yeteneği bu cümlenin konusu değildir.",
+              "passageID": "yds-exam-passage-reading-6"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-reading-7",
+          "order": 6,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Enerji Depolama",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-reading-7",
+            "title": "Energy Storage",
+            "body": "Wind and solar power have become cheap enough to compete with fossil fuels, yet they share an inconvenient weakness: they produce electricity when the weather allows, not when consumers need it. A grid that relies heavily on renewables therefore requires some way of storing surplus energy for later use. Lithium-ion batteries, familiar from phones and cars, are the most common solution for short periods, and their costs have fallen sharply over the past decade. They are far less suited to storing energy for weeks or months, for instance to cover a windless winter. For that purpose engineers are exploring alternatives, such as using surplus electricity to split water into hydrogen, which can be stored in tanks and burned later. The process is wasteful, since perhaps half of the original energy is lost along the way, but the fuel keeps for as long as required. Pumped hydropower, in which water is lifted to a reservoir and released through turbines when demand rises, is older and more efficient, yet it needs suitable geography and takes years to build. No single technology is likely to solve the problem alone. Most analysts expect future grids to combine several forms of storage, each used for the task it performs best."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-reading-7",
+              "type": "practiceSet",
+              "headword": "Reading: Energy Storage",
+              "frequencyRank": 3006,
+              "baseDifficulty": 0.65,
+              "definition": "Enerji depolama üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Enerji Depolama",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-reading-7-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "The passage is mainly about ----.",
+              "options": [
+                "why fossil fuels remain cheaper than solar power",
+                "the history of lithium-ion batteries",
+                "the difficulty of building pumped hydropower plants",
+                "the cost of producing hydrogen from water",
+                "the different ways of storing energy produced by variable renewable sources"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Metin rüzgâr ve güneşin kesintili üretimini ve bunun için çeşitli depolama yöntemlerini karşılaştırıyor: (E). (A) fosil yakıtlarla kıyas yalnızca girişte geçer. (B) ve (C) ile (D) yöntemlerden yalnızca birer tanesidir ve ana konuyu daraltır.",
+              "passageID": "yds-exam-passage-reading-7"
+            },
+            {
+              "id": "yds-exam-reading-7-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "Lithium-ion batteries are described in the passage as ----.",
+              "options": [
+                "ideal for covering a windless winter",
+                "more efficient than pumped hydropower",
+                "well suited to storing energy for short periods",
+                "a technology whose costs have risen",
+                "unsuitable for use in vehicles"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Metin lityum-iyon pillerin kısa süreler için en yaygın çözüm olduğunu söylüyor: (C). (A) haftalarca ya da aylarca depolama için «çok daha az uygun» oldukları belirtilir. (B) verimlilik karşılaştırması pompaj hidroelektrik için yapılır. (D) maliyetlerin arttığı değil, sert biçimde düştüğü söylenir.",
+              "passageID": "yds-exam-passage-reading-7"
+            },
+            {
+              "id": "yds-exam-reading-7-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "According to the passage, storing energy as hydrogen is wasteful because ----.",
+              "options": [
+                "perhaps half of the original energy is lost in the process",
+                "hydrogen cannot be kept for long periods",
+                "the process needs suitable geography",
+                "tanks are more expensive than batteries",
+                "the fuel burns more slowly than natural gas"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metin, sürecin «belki de enerjinin yarısının» yolda kaybedildiği için israfa yol açtığını söylüyor: (A). (B) tersine, yakıtın istenen süre boyunca saklanabildiği belirtilir. (C) uygun coğrafya pompaj hidroelektriğin gereğidir. (D) ve (E) hakkında metinde bilgi yoktur.",
+              "passageID": "yds-exam-passage-reading-7"
+            },
+            {
+              "id": "yds-exam-reading-7-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "Pumped hydropower differs from hydrogen storage in that it ----.",
+              "options": [
+                "is newer and cheaper to build",
+                "is more efficient but depends on suitable geography",
+                "stores energy for months rather than hours",
+                "requires water to be split into gases",
+                "wastes about half of the energy"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Metin pompaj hidroelektriğin eski ve daha verimli olduğunu, ama uygun coğrafya gerektirdiğini ve yapımının yıllar aldığını söylüyor: (B). (A) ile «daha yeni ve ucuz» çelişir. (C) depolama süresi metinde böyle karşılaştırılmaz. (D) suyun gazlara ayrılması hidrojen yöntemidir. (E) israf hidrojen için söylenir.",
+              "passageID": "yds-exam-passage-reading-7"
+            },
+            {
+              "id": "yds-exam-reading-7-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "The writer would probably agree that future grids ----.",
+              "options": [
+                "will depend entirely on lithium-ion batteries",
+                "will abandon renewable energy",
+                "will not need any storage",
+                "will use a mixture of storage technologies",
+                "will rely on hydrogen alone"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Yazar, çoğu analistin geleceğin şebekelerinin «birkaç depolama biçimini birleştireceğini» beklediğini söylüyor: (D). (A) ve (E) tek bir teknolojiye bağımlılık iddia eder; metin tam tersini söyler. (B) yenilenebilir enerjiden vazgeçmek metnin konusu değildir. (C) depolamaya ihtiyaç olmadığını söylemek metinle çelişir.",
+              "passageID": "yds-exam-passage-reading-7"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-reading-8",
+          "order": 7,
+          "estimatedDurationMinutes": 10,
+          "title": "Okuma: Yetişkinlerde Dil Öğrenimi",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-reading-8",
+            "title": "Adult Language Learning",
+            "body": "A widespread belief holds that children learn languages effortlessly while adults struggle, and that the window for achieving native-like fluency closes around puberty. Research supports part of this claim. Adults who begin a second language late rarely acquire a native accent, and they often continue to make small grammatical errors that children raised in the same environment avoid. But the explanation may lie less in biology than in circumstances. A child immersed in a new country spends most of the day hearing and using the language, is corrected by patient peers, and has little else to do but learn. An adult, by contrast, may work in the native language, socialise with compatriots, and study for only a few hours a week. When researchers compare adults and children who receive the same amount of high-quality instruction, the gap narrows considerably. Adults even have some advantages: they can grasp grammatical rules through explicit explanation, and their wider vocabulary in their first language helps them guess the meaning of unfamiliar words. None of this means that anyone can master a language without effort. It suggests, rather, that the popular emphasis on age may discourage older learners who would in fact make steady progress if they arranged their lives to give the language more room."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-reading-8",
+              "type": "practiceSet",
+              "headword": "Reading: Adult Language Learning",
+              "frequencyRank": 3007,
+              "baseDifficulty": 0.65,
+              "definition": "Yetişkinlerde dil öğrenimi üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Okuma: Yetişkinlerde Dil Öğrenimi",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-reading-8-q01",
+              "kind": "reading",
+              "order": 0,
+              "prompt": "The passage suggests that adults' difficulty with second languages ----.",
+              "options": [
+                "is caused entirely by biology",
+                "disappears if they study for one hour a week",
+                "may be explained more by their circumstances than by their age alone",
+                "is not real, since adults learn faster than children",
+                "can be solved only by moving abroad"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Yazar açıklamanın «biyolojiden çok koşullarda» yatabileceğini söylüyor: (C). (A) «tamamen biyolojiden» iddiası metinle çelişir. (B) haftada bir saat çalışmayı çözüm olarak göstermez, tersine yetersiz sayar. (D) yetişkinlerin daha hızlı öğrendiği söylenmez. (E) yurt dışına taşınmayı tek çare yapmak mutlak bir ifadedir.",
+              "passageID": "yds-exam-passage-reading-8"
+            },
+            {
+              "id": "yds-exam-reading-8-q02",
+              "kind": "reading",
+              "order": 1,
+              "prompt": "According to the passage, children who are immersed in a new country learn quickly because ----.",
+              "options": [
+                "they hear and use the language for most of the day",
+                "they have a wider vocabulary in their first language",
+                "they receive explicit explanations of grammar",
+                "they study for only a few hours a week",
+                "they avoid mixing with native speakers"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Metin, yeni bir ülkeye gömülen çocuğun günün çoğunu dili duyarak ve kullanarak geçirdiğini söylüyor: (A). (B) ve (C) yetişkinlerin avantajı olarak anılır. (D) haftada birkaç saat çalışan yetişkindir. (E) hem çocuk hem de metin bağlamı için yanlıştır.",
+              "passageID": "yds-exam-passage-reading-8"
+            },
+            {
+              "id": "yds-exam-reading-8-q03",
+              "kind": "reading",
+              "order": 2,
+              "prompt": "The phrase \"narrows considerably\" is closest in meaning to ----.",
+              "options": [
+                "disappears completely",
+                "stays the same",
+                "grows slightly",
+                "becomes harder to measure",
+                "becomes much smaller"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Narrows considerably» farkın belirgin biçimde azaldığını anlatır: (E). (A) tamamen kaybolmayı ima eder, metin bunu söylemez. (B) değişmeme demektir. (C) artış anlamı taşır. (D) ise ölçme zorluğundan söz eder.",
+              "passageID": "yds-exam-passage-reading-8"
+            },
+            {
+              "id": "yds-exam-reading-8-q04",
+              "kind": "reading",
+              "order": 3,
+              "prompt": "One advantage that adults have, according to the passage, is that they ----.",
+              "options": [
+                "make fewer grammatical errors than children",
+                "can understand grammar rules through explicit explanation",
+                "spend more hours with native speakers",
+                "acquire a native accent more easily",
+                "are corrected by patient peers"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Metin, yetişkinlerin dil bilgisi kurallarını açık açıklamalarla kavrayabildiğini söylüyor: (B). (A) yetişkinlerin çocuklardan daha fazla küçük hata yaptığı söylenir. (C) yerli konuşurlarla saatler geçiren çocuktur. (D) aksan tersine yetişkinler için zordur. (E) düzeltilme çocukların avantajıdır.",
+              "passageID": "yds-exam-passage-reading-8"
+            },
+            {
+              "id": "yds-exam-reading-8-q05",
+              "kind": "reading",
+              "order": 4,
+              "prompt": "The final sentence implies that the popular emphasis on age ----.",
+              "options": [
+                "is fully justified by the evidence",
+                "encourages adults to study for longer hours",
+                "has been proved completely wrong by researchers",
+                "may discourage learners who could actually make steady progress",
+                "matters only for young children"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Son cümle yaşa yapılan vurgunun, düzenli ilerleme kaydedebilecek yaşlı öğrenicileri «cesaretini kırabileceğini» söylüyor: (D). (A) ve (C) uç iddialardır; metin görüşü kısmen destekler ve kısmen sorgular. (B) teşvik değil, cesaret kırmadan söz eder. (E) yalnızca çocuklarla sınırlamaz.",
+              "passageID": "yds-exam-passage-reading-8"
             }
           ]
         }

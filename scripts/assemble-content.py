@@ -157,7 +157,23 @@ EXAM_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "exam")
 # Same contract as GRAMMAR_UNITS: `files` are relative to EXAM_DIR, one lesson
 # document per file without an `order` key; list position is the lesson order.
 # An empty table leaves the derived JSON byte-identical.
-EXAM_UNITS = []
+EXAM_UNITS = [
+    {
+        "id": "yds-exam-unit-reading",
+        "theme": "Okuma anlama",
+        "order": 9,
+        "files": [
+            "reading/reading-1.json",
+            "reading/reading-2.json",
+            "reading/reading-3.json",
+            "reading/reading-4.json",
+            "reading/reading-5.json",
+            "reading/reading-6.json",
+            "reading/reading-7.json",
+            "reading/reading-8.json",
+        ],
+    },
+]
 
 EXAM_LESSON_ID_PREFIX = "yds-exam-"
 # type -> (question kind, lesson skill, has passage, exact question count, exact minutes)
@@ -192,7 +208,10 @@ OUTPUT_PATHS = [
 # 6: Slice 8 stamps the package's App Store product id. Bumping this makes
 # installed apps re-import the package so the new attribute is populated;
 # every existing id is unchanged, so FSRS history survives the reseed.
-PACKAGE_VERSION = 6
+# 7: Slice 7c adds the exam-type units (orders 9-12). Bumping this makes
+# installed apps re-import the package; every existing id is unchanged, so
+# FSRS history survives the reseed.
+PACKAGE_VERSION = 7
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.
