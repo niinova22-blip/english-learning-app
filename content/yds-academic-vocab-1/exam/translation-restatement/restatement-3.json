@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-restatement-3",
+  "estimatedDurationMinutes": 9,
+  "title": "Yeniden İfade 3",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-restatement-3",
+      "type": "practiceSet",
+      "headword": "Restatement 3",
+      "frequencyRank": 3082,
+      "baseDifficulty": 0.6,
+      "definition": "Bir cümlenin anlamını koruyan yeniden ifadesini seçmeye dayanan sekiz soru.",
+      "exampleSentences": [],
+      "translationTR": "Yeniden İfade 3",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-restatement-3-q01",
+      "kind": "restatement",
+      "order": 0,
+      "prompt": "Only by cutting costs drastically can the company return to profitability.",
+      "options": [
+        "The company will return to profitability whether or not it cuts costs.",
+        "Cutting costs drastically prevents the company from returning to profitability.",
+        "The company must return to profitability before it cuts costs.",
+        "The company can return to profitability only if it cuts costs drastically.",
+        "The company can return to profitability without cutting any costs."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Only by ...» tek yolu belirtir: maliyetleri ciddi biçimde kısarsa kârlılığa dönebilir: (D). (A) kısıntıyı gereksiz yapar. (B) kısıntıyı engel yapar. (C) sırayı tersine çevirir. (E) kısıntısız da dönebileceğini söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-3-q02",
+      "kind": "restatement",
+      "order": 1,
+      "prompt": "Much as the residents disliked the plan, they accepted it.",
+      "options": [
+        "The residents accepted the plan because they liked it very much.",
+        "The residents disliked the plan because they accepted it.",
+        "The residents disliked the plan and therefore refused to accept it.",
+        "The residents accepted the plan since they disliked it greatly.",
+        "The residents accepted the plan even though they disliked it."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Much as» karşıtlık kurar: sevmeseler de kabul ettiler: (E). (A) kabulü sevmeye bağlar. (B) neden ve sonucu tersine çevirir. (C) reddettiklerini söyler. (D) sevmemeyi kabul nedeni yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-3-q03",
+      "kind": "restatement",
+      "order": 2,
+      "prompt": "It is high time the government took action against tax evasion.",
+      "options": [
+        "The government ought to act against tax evasion without further delay.",
+        "The government has taken action against tax evasion just in time.",
+        "The government took action against tax evasion too early.",
+        "The government will take action against tax evasion in the distant future.",
+        "The government must not take action against tax evasion yet."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«It is high time ... took» hükümetin artık harekete geçmesi gerektiğini bildirir: (A). (B) zamanında harekete geçtiğini söyler. (C) çok erken davrandığını söyler. (D) uzak geleceğe erteler. (E) harekete geçmemesi gerektiğini söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-3-q04",
+      "kind": "restatement",
+      "order": 3,
+      "prompt": "The harder she tried, the more frustrated she became.",
+      "options": [
+        "As she tried harder, she became less frustrated.",
+        "As she tried harder, she became increasingly frustrated.",
+        "She became frustrated because she had not tried hard.",
+        "Although she tried hard, she was never frustrated.",
+        "The more frustrated she became, the less she tried."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«The harder ..., the more ...» orantılı artıştır: çaba arttıkça hayal kırıklığı arttı: (B). (A) hayal kırıklığını azaltır. (C) nedeni çabasızlığa çevirir. (D) hayal kırıklığını inkâr eder. (E) ilişkiyi tersine çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-3-q05",
+      "kind": "restatement",
+      "order": 4,
+      "prompt": "The minister denied having been informed about the plan.",
+      "options": [
+        "The minister admitted having been informed about the plan.",
+        "The minister denied informing anyone about the plan.",
+        "The minister said that he had not been informed about the plan.",
+        "The minister said that he would not be informed about the plan.",
+        "The minister refused to inform anyone about the plan."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Denied having been informed» = haberdar edilmediğini söyledi: (C). (A) haberdar edildiğini kabul eder. (B) ve (E) haber verme eylemine kayar. (D) zamanı geleceğe çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-3-q06",
+      "kind": "restatement",
+      "order": 5,
+      "prompt": "Rather than raise taxes, the government decided to cut spending.",
+      "options": [
+        "The government cut spending instead of raising taxes.",
+        "The government raised taxes instead of cutting spending.",
+        "The government raised taxes and cut spending.",
+        "The government cut spending in order to raise taxes.",
+        "The government neither raised taxes nor cut spending."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Rather than» bir seçeneğin yerine diğerini seçmeyi anlatır: vergi artırmak yerine harcama kısıldı: (A). (B) tercihi tersine çevirir. (C) ikisini birden yaptığını söyler. (D) harcama kısmayı vergi artırma amacı yapar. (E) ikisini de yapmadığını söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-3-q07",
+      "kind": "restatement",
+      "order": 6,
+      "prompt": "Had it not been for the volunteers, the festival would have been cancelled.",
+      "options": [
+        "The festival was cancelled because of the volunteers.",
+        "The festival was cancelled although the volunteers helped.",
+        "The volunteers cancelled the festival.",
+        "The festival went ahead because the volunteers helped.",
+        "The volunteers were not needed for the festival to go ahead."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Had it not been for» gönüllüler olmasaydı iptal olacağını söyler: gönüllüler sayesinde festival yapıldı: (D). (A) iptali gönüllülere bağlar. (B) iptal edildiğini söyler. (C) iptali gönüllülerin yaptığını söyler. (E) gönüllülere gerek olmadığını söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-3-q08",
+      "kind": "restatement",
+      "order": 7,
+      "prompt": "Scarcely had the meeting begun when the fire alarm rang.",
+      "options": [
+        "The meeting began after the fire alarm had rung.",
+        "The fire alarm rang long before the meeting began.",
+        "The meeting had almost ended when the fire alarm rang.",
+        "The fire alarm rang because the meeting had begun.",
+        "The fire alarm rang almost as soon as the meeting began."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Scarcely ... when» iki olayın art arda gerçekleştiğini anlatır: toplantı başlar başlamaz alarm çaldı: (E). (A) ve (B) sırayı tersine çevirir. (C) toplantının bitmek üzere olduğunu söyler. (D) alarmı toplantıya bağlar.",
+      "passageID": null
+    }
+  ]
+}

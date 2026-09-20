@@ -12110,6 +12110,1363 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yds-exam-unit-translation-restatement",
+      "theme": "Çeviri ve yeniden ifade",
+      "order": 12,
+      "lessons": [
+        {
+          "id": "yds-exam-translation-en-tr-1",
+          "order": 0,
+          "estimatedDurationMinutes": 9,
+          "title": "Çeviri: İngilizce-Türkçe 1",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-translation-en-tr-1",
+              "type": "practiceSet",
+              "headword": "Translation EN-TR 1",
+              "frequencyRank": 3060,
+              "baseDifficulty": 0.5,
+              "definition": "İngilizce cümlelerin Türkçe karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Çeviri: İngilizce-Türkçe 1",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-translation-en-tr-1-q01",
+              "kind": "translation",
+              "order": 0,
+              "prompt": "The university has announced that tuition fees will not increase next year.",
+              "options": [
+                "Üniversite, öğrenim ücretlerinin geçen yıl artmadığını duyurdu.",
+                "Üniversite, öğrenim ücretlerinin gelecek yıl artmayacağını duyurdu.",
+                "Üniversite, öğrenim ücretlerinin gelecek yıl artacağını duyurdu.",
+                "Öğrenciler, öğrenim ücretlerinin gelecek yıl artmayacağını duyurdu.",
+                "Üniversite, öğrenim ücretlerinin gelecek yıl biraz artabileceğini duyurdu."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Will not increase next year» gelecek zamanlı olumsuzdur: gelecek yıl artmayacak: (B). (A) zamanı geçmişe çeker. (C) olumsuzu olumluya çevirir. (D) özneyi değiştirir; duyuran üniversitedir. (E) «biraz artabilir» diyerek olumsuzluğu bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-1-q02",
+              "kind": "translation",
+              "order": 1,
+              "prompt": "Most economists believe that inflation is likely to fall gradually over the coming months.",
+              "options": [
+                "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda kademeli olarak düşmesinin olası olduğuna inanıyor.",
+                "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda hızla yükseleceğine inanıyor.",
+                "Bazı iktisatçılar, enflasyonun önümüzdeki aylarda kademeli olarak düşeceğini kesin biliyor.",
+                "Çoğu iktisatçı, enflasyonun geçtiğimiz aylarda kademeli olarak düştüğüne inanıyor.",
+                "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda kademeli düşmesinin olası olmadığını düşünüyor."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Most economists ... likely to fall gradually» ifadesi çoğunluğun, düşüşün olası olduğunu düşündüğünü anlatır: (A). (B) yönü tersine çevirir. (C) nicelik ve kesinlik ekler (bazı, kesin biliyor). (D) zamanı geçmişe çeker. (E) olasılığı olumsuzlar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-1-q03",
+              "kind": "translation",
+              "order": 2,
+              "prompt": "The researchers were surprised to find that the drug had no effect on patients over sixty.",
+              "options": [
+                "Araştırmacılar, ilacın altmış yaşın üzerindeki hastalar üzerinde büyük etkisi olduğunu görünce şaşırdı.",
+                "Araştırmacılar, ilacın altmış yaşın altındaki hastalar üzerinde hiçbir etkisi olmadığını görünce şaşırdı.",
+                "Hastalar, ilacın altmış yaşın üzerindeki araştırmacılar üzerinde hiçbir etkisi olmadığını görünce şaşırdı.",
+                "Araştırmacılar, ilacın altmış yaşın üzerindeki hastalar üzerinde hiçbir etkisi olmadığını görünce şaşırdı.",
+                "Araştırmacılar, ilacın altmış yaşın üzerindeki hastalar üzerinde hiçbir etkisi olmayacağını görünce şaşıracak."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Cümlede «etki yok» ve «altmış yaş üstü» birlikte korunmalıdır: (D). (A) etkinin olduğunu söyler. (B) yaş grubunu değiştirir (altı). (C) özneleri karıştırır. (E) zamanı gelecek zamana çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-1-q04",
+              "kind": "translation",
+              "order": 3,
+              "prompt": "Because the bridge was built without adequate supports, it collapsed during the first storm.",
+              "options": [
+                "Köprü yeterli destek olmadan inşa edilmesine rağmen ilk fırtınada çökmedi.",
+                "Köprü yeterli destekle inşa edildiği için ilk fırtınada çöktü.",
+                "Köprü ilk fırtınada çöktüğü için yeterli destek olmadan inşa edildi.",
+                "Köprü yeterli destek olmadan inşa edildiği için ilk fırtınada çökecek.",
+                "Köprü yeterli destek olmadan inşa edildiği için ilk fırtınada çöktü."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Because» neden bildirir: yetersiz destek nedeniyle çöküş: (E). (A) karşıtlık kurar ve çökmediğini söyler. (B) destekle inşa edildiğini söyler. (C) neden ile sonucu tersine çevirir. (D) geçmiş zamanı gelecek zamana çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-1-q05",
+              "kind": "translation",
+              "order": 4,
+              "prompt": "Neither the manager nor her assistant was aware of the error until the audit began.",
+              "options": [
+                "Hem müdür hem de yardımcısı, denetim başlayıncaya kadar hatanın farkındaydı.",
+                "Müdür hatayı fark etti, ancak yardımcısı denetim başlayıncaya kadar fark etmedi.",
+                "Ne müdür ne de yardımcısı, denetim başlayıncaya kadar hatanın farkında değildi.",
+                "Ne müdür ne de yardımcısı, denetim başladıktan sonra hatanın farkında değildi.",
+                "Müdür ile yardımcısı, denetimi başlatarak hatayı fark etmiş oldular."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Neither ... nor» iki kişiyi de olumsuzlar ve «until the audit began» zamanı sınırlar: (C). (A) ikisini de olumlu yapar. (B) yalnızca yardımcıyı olumsuzlar. (D) zamanı «başladıktan sonra»ya çevirir. (E) anlamı bozar; denetimi başlatanlar bunlar değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-1-q06",
+              "kind": "translation",
+              "order": 5,
+              "prompt": "The government has promised to reduce taxes for small businesses within two years.",
+              "options": [
+                "Hükümet, küçük işletmelere yönelik vergileri iki yıl içinde düşürmeyi vaat etti.",
+                "Hükümet, küçük işletmelere yönelik vergileri iki yıl önce düşürdüğünü açıkladı.",
+                "Hükümet, küçük işletmelere yönelik vergileri iki yıl içinde artırmayı vaat etti.",
+                "Küçük işletmeler, kendilerine yönelik vergileri iki yıl içinde düşürmeyi vaat etti.",
+                "Hükümet, büyük işletmelere yönelik vergileri iki yıl içinde düşürmeyi vaat etti."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Promised to reduce ... within two years» gelecekteki bir vaattir: (A). (B) geçmişte yapılmış bir eylem anlatır. (C) düşürmeyi artırmaya çevirir. (D) vaat edenin özneyi değiştirir. (E) hedef grubu büyük işletmelere çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-1-q07",
+              "kind": "translation",
+              "order": 6,
+              "prompt": "Although the experiment was repeated several times, the results were never consistent.",
+              "options": [
+                "Deney birkaç kez tekrarlandığı için sonuçlar hiçbir zaman tutarlı olmadı.",
+                "Deney birkaç kez tekrarlanınca sonuçlar her zaman tutarlı oldu.",
+                "Deney tekrarlanmadığı halde sonuçlar hiçbir zaman tutarlı olmadı.",
+                "Deney birkaç kez tekrarlanmasına rağmen sonuçlar hiçbir zaman tutarlı olmadı.",
+                "Deney birkaç kez tekrarlanmasına rağmen sonuçlar hiçbir zaman incelenmedi."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Although» karşıtlık kurar ve «never consistent» olumsuz sonucu verir: (D). (A) karşıtlığı neden-sonuca çevirir. (B) sonucu olumluya çevirir. (C) tekrarın olduğunu inkâr eder. (E) «tutarlı olmadı» yerine «incelenmedi» der.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-1-q08",
+              "kind": "translation",
+              "order": 7,
+              "prompt": "Only a small proportion of the students who applied were offered a place on the course.",
+              "options": [
+                "Başvuran öğrencilerin büyük bir kısmına kursta yer teklif edildi.",
+                "Başvuran öğrencilerin yalnızca küçük bir kısmı kursta yer teklif etti.",
+                "Başvurmayan öğrencilerin yalnızca küçük bir kısmına kursta yer teklif edildi.",
+                "Başvuran öğrencilerin yalnızca küçük bir kısmına kursta yer teklif edilecek.",
+                "Başvuran öğrencilerin yalnızca küçük bir kısmına kursta yer teklif edildi."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Only a small proportion» küçük bir oran demektir ve edilgen yapıdır (were offered): (E). (A) oranı büyük yapar. (B) edilgeni etkene çevirir. (C) başvurmayanları konu eder. (D) geçmiş zamanı gelecek zamana çevirir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-translation-en-tr-2",
+          "order": 1,
+          "estimatedDurationMinutes": 9,
+          "title": "Çeviri: İngilizce-Türkçe 2",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-translation-en-tr-2",
+              "type": "practiceSet",
+              "headword": "Translation EN-TR 2",
+              "frequencyRank": 3061,
+              "baseDifficulty": 0.55,
+              "definition": "İngilizce cümlelerin Türkçe karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Çeviri: İngilizce-Türkçe 2",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-translation-en-tr-2-q01",
+              "kind": "translation",
+              "order": 0,
+              "prompt": "If the funding had been approved earlier, the project would have been completed by now.",
+              "options": [
+                "Fon daha erken onaylandığı için proje şimdiye kadar tamamlandı.",
+                "Fon daha erken onaylanmış olsaydı, proje şimdiye kadar iptal edilmiş olurdu.",
+                "Fon daha erken onaylanmış olsaydı, proje şimdiye kadar tamamlanmış olurdu.",
+                "Fon daha erken onaylanırsa, proje gelecek yıl tamamlanmış olacak.",
+                "Proje daha erken tamamlanmış olsaydı, fon şimdiye kadar onaylanmış olurdu."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Üçüncü tip koşul, gerçekleşmemiş bir geçmişi anlatır: onaylanmadığı için tamamlanmadı: (C). (A) gerçekleşmiş bir durum gibi anlatır. (B) sonucu iptal yapar. (D) gerçek koşula ve geleceğe çevirir. (E) neden ve sonucu yer değiştirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-2-q02",
+              "kind": "translation",
+              "order": 1,
+              "prompt": "The findings, which were published last spring, have been widely criticised by other researchers.",
+              "options": [
+                "Geçen ilkbaharda yayımlanan bulgular, diğer araştırmacılar tarafından geniş ölçüde eleştirildi.",
+                "Geçen ilkbaharda yayımlanan bulgular, diğer araştırmacıları geniş ölçüde eleştirdi.",
+                "Gelecek ilkbaharda yayımlanacak bulgular, diğer araştırmacılar tarafından geniş ölçüde eleştirildi.",
+                "Geçen ilkbaharda yayımlanan bulgular, diğer araştırmacılar tarafından yalnızca kısmen eleştirildi.",
+                "Diğer araştırmacıların yayımladığı bulgular, geçen ilkbaharda geniş ölçüde eleştirildi."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Cümle edilgendir (have been criticised by): bulgular eleştirilen taraftır: (A). (B) edilgeni etkene çevirir. (C) yayım zamanını geleceğe çeker. (D) «widely» yerine «yalnızca kısmen» der. (E) yayımlayanları ve eleştiri zamanını karıştırır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-2-q03",
+              "kind": "translation",
+              "order": 2,
+              "prompt": "It is widely assumed that the policy will reduce unemployment, although there is little evidence for this.",
+              "options": [
+                "Politikanın işsizliği azaltacağı yaygın biçimde varsayılıyor, ancak bunu destekleyen çok sayıda kanıt var.",
+                "Politikanın işsizliği artıracağı yaygın biçimde varsayılıyor, ancak bunu destekleyen çok az kanıt var.",
+                "Politikanın işsizliği azaltacağı yaygın biçimde varsayılıyordu, çünkü bunu destekleyen çok az kanıt vardı.",
+                "Politikanın işsizliği azaltacağını yalnızca birkaç kişi varsayıyor, ancak bunu destekleyen çok az kanıt var.",
+                "Politikanın işsizliği azaltacağı yaygın biçimde varsayılıyor, ancak bunu destekleyen çok az kanıt var."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Although» karşıtlık kurar: yaygın varsayım var ama kanıt az: (E). (A) kanıtı çok yapar. (B) işsizliği artırmaya çevirir. (C) karşıtlığı neden bağıntısına çevirir. (D) varsayımın yaygınlığını «yalnızca birkaç kişi» yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-2-q04",
+              "kind": "translation",
+              "order": 3,
+              "prompt": "The company, whose profits had fallen sharply, was forced to cancel its expansion plans.",
+              "options": [
+                "Kârı keskin biçimde artan şirket, genişleme planlarını iptal etmek zorunda kaldı.",
+                "Kârı keskin biçimde düşen şirket, genişleme planlarını iptal etmek zorunda kaldı.",
+                "Kârı keskin biçimde düşen şirket, genişleme planlarını hızlandırmak zorunda kaldı.",
+                "Kârı keskin biçimde düşen şirket, genişleme planlarını iptal etmek zorunda kalacak.",
+                "Kârı keskin biçimde düşen şirket, genişleme planlarını iptal etmeyi tercih etti."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Was forced to cancel» bir zorunluluktur ve geçmiş zamandadır; kâr düşmüştür: (B). (A) kârı artıran bir şirket anlatır. (C) planları hızlandırmak der. (D) zamanı geleceğe çevirir. (E) zorunluluğu tercihe çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-2-q05",
+              "kind": "translation",
+              "order": 4,
+              "prompt": "Had the warning been taken seriously, the disaster might have been avoided.",
+              "options": [
+                "Uyarı ciddiye alındığı için felaket önlendi.",
+                "Uyarı ciddiye alınırsa, felaket önlenebilir.",
+                "Uyarı ciddiye alınmış olsaydı, felaket kaçınılmaz olurdu.",
+                "Uyarı ciddiye alınmış olsaydı, felaket önlenebilirdi.",
+                "Felaket önlenmiş olsaydı, uyarı ciddiye alınabilirdi."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Devrik yapı (Had the warning been ...) üçüncü tip koşuldur: uyarı ciddiye alınmadı, felaket önlenemedi: (D). (A) gerçekleşmiş bir olay gibi anlatır. (B) gerçek koşula ve şimdiye çevirir. (C) sonucu tersine çevirir. (E) neden ve sonucu yer değiştirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-2-q06",
+              "kind": "translation",
+              "order": 5,
+              "prompt": "The students who had prepared thoroughly were allowed to take the exam a week early.",
+              "options": [
+                "İyice hazırlanmış olan öğrencilerin sınava bir hafta erken girmesine izin verildi.",
+                "İyice hazırlanmış olan öğrenciler sınava bir hafta erken girmesine izin verdi.",
+                "İyice hazırlanmamış olan öğrencilerin sınava bir hafta erken girmesine izin verildi.",
+                "İyice hazırlanmış olan öğrencilerin sınava bir hafta geç girmesine izin verildi.",
+                "Sınava bir hafta erken giren öğrencilerin iyice hazırlanmış olması gerekiyordu."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Were allowed» edilgendir: öğrencilere izin verildi: (A). (B) edilgeni etkene çevirir. (C) hazırlanmayanları konu eder. (D) «erken» yerine «geç» der. (E) izni bir koşula çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-2-q07",
+              "kind": "translation",
+              "order": 6,
+              "prompt": "Several of the participants were unable to complete the questionnaire in the time available.",
+              "options": [
+                "Katılımcıların tümü anketi mevcut sürede tamamladı.",
+                "Katılımcılardan birkaçı anketi mevcut sürede tamamlayabildi.",
+                "Katılımcılardan birkaçı anketi mevcut sürede tamamlayamadı.",
+                "Anketi hazırlayanlar mevcut sürede katılımcıları tamamlayamadı.",
+                "Katılımcılardan birkaçı anketi mevcut sürede tamamlayamayacak."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Several ... were unable to complete» bir kısmın tamamlayamadığını söyler: (C). (A) herkesin tamamladığını söyler. (B) olumsuzu olumluya çevirir. (D) özneleri karıştırır. (E) zamanı geleceğe çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-2-q08",
+              "kind": "translation",
+              "order": 7,
+              "prompt": "The proposal was rejected on the grounds that it would place an unfair burden on small firms.",
+              "options": [
+                "Öneri, küçük firmalara haksız bir yük bindirdiği için kabul edildi.",
+                "Öneri, küçük firmalara haksız bir yük bindirmeyeceği gerekçesiyle reddedildi.",
+                "Öneriyi küçük firmalar, haksız bir yük bindireceği gerekçesiyle reddetti.",
+                "Öneri, küçük firmaların haksız bir yük bindireceği gerekçesiyle reddedildi.",
+                "Öneri, küçük firmalara haksız bir yük bindireceği gerekçesiyle reddedildi."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«On the grounds that» gerekçe bildirir: öneri haksız yük getireceği için reddedildi: (E). (A) kabul edildiğini söyler. (B) gerekçeyi olumsuzlar. (C) özneleri değiştirir (reddeden firmalar olur). (D) haksız yükü küçük firmaların bindirdiğini söyler.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-translation-en-tr-3",
+          "order": 2,
+          "estimatedDurationMinutes": 9,
+          "title": "Çeviri: İngilizce-Türkçe 3",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-translation-en-tr-3",
+              "type": "practiceSet",
+              "headword": "Translation EN-TR 3",
+              "frequencyRank": 3062,
+              "baseDifficulty": 0.6,
+              "definition": "İngilizce cümlelerin Türkçe karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Çeviri: İngilizce-Türkçe 3",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-translation-en-tr-3-q01",
+              "kind": "translation",
+              "order": 0,
+              "prompt": "Rarely do policymakers acknowledge that a measure they introduced has had consequences that no one intended.",
+              "options": [
+                "Politika yapıcılar, uyguladıkları bir önlemin kimsenin istemediği sonuçlar doğurduğunu nadiren kabul eder.",
+                "Politika yapıcılar, uyguladıkları önlemlerin kimsenin istemediği sonuçlar doğurmasını sık sık kabul eder.",
+                "Politika yapıcıların uyguladığı önlemler, nadiren de olsa istenen sonuçları doğurmuştur.",
+                "Kimsenin istemediği sonuçlar doğuran önlemleri politika yapıcılar hemen geri çeker.",
+                "Politika yapıcılar, önlemlerin sonuçlarını daha önce kimsenin bilmediğini nadiren kabul eder."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Rarely do ...» devrik yapısı «nadiren» demektir ve kabul etme sıklığını olumsuzlar; «had consequences that no one intended» ise «kimsenin istemediği sonuçlar doğurduğunu» verir: (A). (B) sıklığı tersine çevirip «sık sık» der. (C) sonuçların istenen sonuçlar olduğunu söyler. (D) önlemlerin hemen geri çekildiğini ekler. (E) bilgi eksikliğini anlatır, istenmeyen sonucu değil.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-3-q02",
+              "kind": "translation",
+              "order": 1,
+              "prompt": "It is essential that every applicant submit the form in person before the deadline.",
+              "options": [
+                "Her başvuru sahibi formu son tarihten sonra şahsen teslim etti.",
+                "Her başvuru sahibinin formu son tarihten önce posta yoluyla teslim etmesi şarttır.",
+                "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi şarttır.",
+                "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi isteğe bağlıdır.",
+                "Formu son tarihten önce şahsen teslim eden başvuru sahibi şarttır."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«It is essential that ... submit» bir zorunluluktur ve «in person» şahsen teslimi belirtir: (C). (A) zamanı geçmişe ve son tarihten sonraya çevirir. (B) teslim biçimini postaya çevirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) cümlenin anlamını bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-3-q03",
+              "kind": "translation",
+              "order": 2,
+              "prompt": "What surprised the analysts was not the size of the loss but how quickly it had been concealed.",
+              "options": [
+                "Analistleri şaşırtan şey kaybın büyüklüğüydü, ne kadar çabuk gizlendiği değil.",
+                "Analistler kaybın büyüklüğüne şaşırmadı, ancak onu gizleyenlere şaşırdı.",
+                "Analistleri şaşırtan şey kaybın ne kadar çabuk ortaya çıkarıldığıydı.",
+                "Analistleri şaşırtan şey kaybın büyüklüğü değil, ne kadar çabuk gizlendiğiydi.",
+                "Kaybın büyüklüğünü gizleyen analistler, buna çok şaşırdı."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Not A but B» kalıbı: şaşırtan şey büyüklük değil, gizlenme hızıydı: (D). (A) A ile B'nin yerini değiştirir. (B) gizleyenlere şaşırmayı ekler. (C) gizlenmeyi ortaya çıkarılmaya çevirir. (E) analistleri gizleyen yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-3-q04",
+              "kind": "translation",
+              "order": 3,
+              "prompt": "No sooner had the results been announced than the share price began to fall.",
+              "options": [
+                "Sonuçlar açıklandıktan uzun süre sonra hisse fiyatı düşmeye başladı.",
+                "Hisse fiyatı düşmeye başlar başlamaz sonuçlar açıklandı.",
+                "Sonuçlar açıklanmadan önce hisse fiyatı düşmeye başlamıştı.",
+                "Sonuçlar açıklanır açıklanmaz hisse fiyatı yükselmeye başladı.",
+                "Sonuçlar açıklanır açıklanmaz hisse fiyatı düşmeye başladı."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«No sooner ... than» art arda gerçekleşen iki olayı anlatır: açıklanır açıklanmaz düşüş: (E). (A) «uzun süre sonra» der. (B) sırayı tersine çevirir. (C) düşüşü açıklamadan önceye taşır. (D) fiyat yönünü tersine çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-3-q05",
+              "kind": "translation",
+              "order": 4,
+              "prompt": "Were the plan to fail, the government would have no alternative source of funding.",
+              "options": [
+                "Plan başarısız oldu ve hükümetin alternatif bir finansman kaynağı yoktu.",
+                "Plan başarısız olacak olsa, hükümetin alternatif bir finansman kaynağı olmazdı.",
+                "Plan başarısız olacak olsa, hükümetin birçok alternatif finansman kaynağı olurdu.",
+                "Hükümet başarısız olacak olsa, planın alternatif bir finansman kaynağı olmazdı.",
+                "Plan başarısız olursa, hükümetin alternatif bir finansman kaynağı olmuyor."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Devrik «Were the plan to fail» varsayımsal bir koşuldur: başarısız olacak olsa, alternatif kaynak olmazdı: (B). (A) gerçekleşmiş bir olay gibi anlatır. (C) kaynak sayısını «birçok» yapar. (D) özneleri değiştirir. (E) koşul kipini bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-3-q06",
+              "kind": "translation",
+              "order": 5,
+              "prompt": "The report is thought to have been written by someone with direct access to the archives.",
+              "options": [
+                "Raporun, arşivlere doğrudan erişimi olan birini yazdığı düşünülüyor.",
+                "Raporun, arşivlere doğrudan erişimi olan biri tarafından yazılacağı düşünülüyor.",
+                "Raporun, arşivlere doğrudan erişimi olan biri tarafından yazıldığı düşünülüyor.",
+                "Raporun, arşivlere doğrudan erişimi olmayan biri tarafından yazıldığı düşünülüyor.",
+                "Arşivlere doğrudan erişimi olan birinin raporu okuduğu düşünülüyor."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Is thought to have been written by» geçmişe dönük edilgen bir düşüncedir: rapor yazılmıştır ve yazan erişimi olan biridir: (C). (A) edilgeni etkene çevirir. (B) geçmişi geleceğe çevirir. (D) erişimi olanı olmayan yapar. (E) yazma eylemini okumaya çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-3-q07",
+              "kind": "translation",
+              "order": 6,
+              "prompt": "The more information the public receives, the less likely it is to trust any single source.",
+              "options": [
+                "Halk ne kadar çok bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar azalır.",
+                "Halk ne kadar çok bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar artar.",
+                "Halk ne kadar az bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar azalır.",
+                "Halk tek bir kaynağa ne kadar çok güvenirse, o kadar çok bilgi alır.",
+                "Halk çok bilgi aldığı için hiçbir kaynağa güvenmez."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«The more ..., the less ...» orantılı bir ilişkidir: bilgi arttıkça güven olasılığı azalır: (A). (B) yönü tersine çevirir. (C) bilginin azalmasını koşul yapar. (D) neden-sonucu tersine çevirir. (E) ilişkiyi mutlak bir yargıya çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-en-tr-3-q08",
+              "kind": "translation",
+              "order": 7,
+              "prompt": "Much as the minister regretted the decision, she insisted that it had been unavoidable.",
+              "options": [
+                "Bakan kararı çok istediği için bunun kaçınılmaz olduğunda ısrar etti.",
+                "Bakan kararın kaçınılmaz olduğunu kabul edince ondan pişmanlık duydu.",
+                "Bakan kararı pişmanlık duymadan aldı ve kaçınılmaz olduğunu reddetti.",
+                "Bakan karardan pişmanlık duysa da, bunun kaçınılabilir olduğunda ısrar etti.",
+                "Bakan karardan pişmanlık duysa da, bunun kaçınılmaz olduğunda ısrar etti."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Much as» karşıtlık kurar: pişmanlık duysa da kaçınılmaz olduğunu savundu: (E). (A) pişmanlığı isteğe çevirir. (B) nedeni tersine çevirir. (C) pişmanlığı inkâr eder. (D) «kaçınılmaz» yerine «kaçınılabilir» der.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-translation-tr-en-1",
+          "order": 3,
+          "estimatedDurationMinutes": 9,
+          "title": "Çeviri: Türkçe-İngilizce 1",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-translation-tr-en-1",
+              "type": "practiceSet",
+              "headword": "Translation TR-EN 1",
+              "frequencyRank": 3070,
+              "baseDifficulty": 0.5,
+              "definition": "Türkçe cümlelerin İngilizce karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Çeviri: Türkçe-İngilizce 1",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-translation-tr-en-1-q01",
+              "kind": "translation",
+              "order": 0,
+              "prompt": "Hükümetin açıkladığı yeni teşvikler, küçük işletmelerin ihracat yapmasını kolaylaştırmayı amaçlıyor.",
+              "options": [
+                "The new incentives announced by the government are intended to make it easier for small businesses to export.",
+                "The new incentives announced by the government have made it impossible for small businesses to export.",
+                "The government announced that small businesses would export the new incentives.",
+                "The new incentives aim to help the government export more to small businesses.",
+                "Small businesses announced new incentives that would make exporting easier for the government."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Açıkladığı yeni teşvikler» = the new incentives announced by the government; «amaçlıyor» = are intended to; «kolaylaştırmayı» = make it easier: (A). (B) ihracatı imkânsız kılar, anlam tersine döner. (C) teşviklerin ihraç edildiğini söyler. (D) ve (E) özneleri karıştırır: ihracat yapan küçük işletmelerdir, hükümet değil.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-1-q02",
+              "kind": "translation",
+              "order": 1,
+              "prompt": "Öğrencilerin çoğu, ödevin beklenenden daha zor olduğunu düşündü.",
+              "options": [
+                "Few of the students thought the assignment was harder than expected.",
+                "Most of the students thought the assignment was harder than expected.",
+                "Most of the students thought the assignment was easier than expected.",
+                "Most of the students had thought the assignment would be harder than expected.",
+                "Most of the assignments were thought harder than the students expected."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Çoğu» = most of; «daha zor» = harder; «düşündü» geçmiş zamandır: (B). (A) «çoğu» yerine «az» der. (C) zorluğu kolaya çevirir. (D) zamanı öncelenmiş bir beklentiye çevirir. (E) özneyi ödevlere çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-1-q03",
+              "kind": "translation",
+              "order": 2,
+              "prompt": "Hükümet, fiyatların yükselmesini önlemek için önlemler aldı.",
+              "options": [
+                "The government took measures after prices had risen.",
+                "The government took measures to make prices rise.",
+                "The government took measures to prevent prices from rising.",
+                "Prices took measures to prevent the government from rising.",
+                "The government has taken no measures to prevent prices from rising."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Önlemek için» amaç bildirir: fiyat artışını önlemek amacıyla önlem aldı: (C). (A) zamanı ve amacı değiştirir. (B) amacı tersine çevirir. (D) özneleri karıştırır. (E) olumsuz yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-1-q04",
+              "kind": "translation",
+              "order": 3,
+              "prompt": "Toplantıya katılmayan üyelere karar daha sonra bildirilecek.",
+              "options": [
+                "The decision was communicated later to the members who attended the meeting.",
+                "The members who did not attend the meeting will communicate the decision later.",
+                "The decision will not be communicated to the members who did not attend the meeting.",
+                "The decision will be communicated later to the members who did not attend the meeting.",
+                "The decision will be communicated earlier to the members who did not attend the meeting."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Cümle gelecek zamanlı edilgendir ve hedef katılmayan üyelerdir: (D). (A) geçmiş zamana ve katılanlara çevirir. (B) edilgeni etkene çevirir. (C) bildirmeyeceğini söyler. (E) «daha sonra» yerine «daha önce» der.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-1-q05",
+              "kind": "translation",
+              "order": 4,
+              "prompt": "Deney başarısız olduğu için araştırmacılar yöntemi değiştirmek zorunda kaldı.",
+              "options": [
+                "Although the experiment failed, the researchers had to change the method.",
+                "Because the experiment succeeded, the researchers had to change the method.",
+                "Because the researchers changed the method, the experiment failed.",
+                "Because the experiment failed, the researchers were able to change the method.",
+                "Because the experiment failed, the researchers had to change the method."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Olduğu için» neden bildirir; «zorunda kaldı» = had to: (E). (A) nedeni karşıtlığa çevirir. (B) başarısızlığı başarıya çevirir. (C) neden ve sonucu tersine çevirir. (D) zorunluluğu imkâna çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-1-q06",
+              "kind": "translation",
+              "order": 5,
+              "prompt": "Bu bölgede yaşayanların büyük bir kısmı tarımla geçiniyor.",
+              "options": [
+                "A large proportion of those who live in this region earn their living from farming.",
+                "A small proportion of those who live in this region earn their living from farming.",
+                "A large proportion of those who lived in this region earned their living from farming.",
+                "All of those who live in this region earn their living from farming.",
+                "A large proportion of those who live in this region earn their living from fishing."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Büyük bir kısmı» = a large proportion; «geçiniyor» geniş zamandır: (A). (B) oranı küçük yapar. (C) zamanı geçmişe çevirir. (D) «tümü» diyerek oranı mutlaklaştırır. (E) geçim kaynağını balıkçılığa çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-1-q07",
+              "kind": "translation",
+              "order": 6,
+              "prompt": "Raporda belirtildiğine göre, işsizlik oranı son üç ayda düşmüştür.",
+              "options": [
+                "According to the report, the unemployment rate rose over the last three months.",
+                "According to the report, the unemployment rate has fallen over the last three months.",
+                "According to the report, the unemployment rate will fall over the next three months.",
+                "According to the report, the unemployment rate has fallen only over the last month.",
+                "The report claims that the unemployment rate had not fallen over the last three months."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Düşmüştür» ve «son üç ayda» present perfect ile verilir: has fallen over the last three months: (B). (A) düşüşü yükselişe çevirir. (C) zamanı geleceğe çevirir. (D) süreyi bir aya indirir. (E) düşüşü inkâr eder.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-1-q08",
+              "kind": "translation",
+              "order": 7,
+              "prompt": "Yeni kütüphane, hem öğrencilere hem de yerel halka hizmet edecek.",
+              "options": [
+                "The new library will serve either students or the local community.",
+                "The new library served both students and the local community.",
+                "Both students and the local community will serve the new library.",
+                "The new library will serve both students and the local community.",
+                "The new library will serve only the local community, not students."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Hem ... hem de» = both ... and; «edecek» gelecek zamandır: (D). (A) «both ... and» yerine «either ... or» der. (B) zamanı geçmişe çevirir. (C) özneyle nesneyi tersine çevirir. (E) öğrencileri dışlar.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-translation-tr-en-2",
+          "order": 4,
+          "estimatedDurationMinutes": 9,
+          "title": "Çeviri: Türkçe-İngilizce 2",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-translation-tr-en-2",
+              "type": "practiceSet",
+              "headword": "Translation TR-EN 2",
+              "frequencyRank": 3071,
+              "baseDifficulty": 0.55,
+              "definition": "Türkçe cümlelerin İngilizce karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Çeviri: Türkçe-İngilizce 2",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-translation-tr-en-2-q01",
+              "kind": "translation",
+              "order": 0,
+              "prompt": "Eğer fon zamanında onaylansaydı, proje şimdiye kadar tamamlanmış olurdu.",
+              "options": [
+                "If the funding is approved on time, the project will be completed by now.",
+                "If the funding had been approved on time, the project would not have been completed by now.",
+                "If the funding had been approved on time, the project would have been completed by now.",
+                "If the project had been completed on time, the funding would have been approved by now.",
+                "Unless the funding had been approved on time, the project would have been completed by now."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul kullanılır: had been approved ... would have been completed: (C). (A) gerçek koşula ve geleceğe çevirir. (B) sonucu olumsuz yapar. (D) neden ile sonucu yer değiştirir. (E) «unless» ile koşulu tersine çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-2-q02",
+              "kind": "translation",
+              "order": 1,
+              "prompt": "Bu ilaç, doktor tavsiyesi olmadan kullanılmamalıdır.",
+              "options": [
+                "This drug should not be used without a doctor's advice.",
+                "This drug should not have been used without a doctor's advice.",
+                "This drug must be used without a doctor's advice.",
+                "This drug does not use a doctor's advice.",
+                "This drug should not be used with a doctor's advice."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Kullanılmamalıdır» edilgen ve tavsiye/zorunluluk bildirir: should not be used; «olmadan» = without: (A). (B) geçmişe dönük eleştiri kurar. (C) zorunluluğu «tavsiyesiz kullanmak»a çevirir. (D) edilgeni etkene çevirir. (E) «without» yerine «with» der.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-2-q03",
+              "kind": "translation",
+              "order": 2,
+              "prompt": "Sonuçların yanlış yorumlandığı ancak yıllar sonra anlaşıldı.",
+              "options": [
+                "It was understood years earlier that the results had been misinterpreted.",
+                "It was understood only years later that the results had been misinterpreted.",
+                "It was understood only years later that the results had been interpreted correctly.",
+                "Only years later did the results misinterpret the researchers.",
+                "It has been understood only years later that the results are being misinterpreted."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Ancak yıllar sonra» = only years later ve yorumlama önceden gerçekleşmiştir (past perfect): (B). (A) zamanı «yıllar önce»ye çevirir. (C) ve (D) ile (E) anlamı ya da zamanı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-2-q04",
+              "kind": "translation",
+              "order": 3,
+              "prompt": "Ne kadar çabalasa da amacına ulaşamadı.",
+              "options": [
+                "Because he tried hard, he could not achieve his goal.",
+                "However hard he tried, he achieved his goal.",
+                "However hard he tries, he cannot achieve his goal.",
+                "However hard he tried, he could not achieve his goal.",
+                "Although he did not try, he could not achieve his goal."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Ne kadar ... da» = however hard; sonuç olumsuz ve geçmiştir: (D). (A) karşıtlığı neden bağıntısına çevirir. (B) sonucu olumlu yapar. (C) zamanı şimdiye çevirir. (E) «çabalamadı» der.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-2-q05",
+              "kind": "translation",
+              "order": 4,
+              "prompt": "Konuşmacının söylediklerini kimse tam olarak anlamadı.",
+              "options": [
+                "Everyone fully understood what the speaker had said.",
+                "No one fully understood what the speaker would say.",
+                "The speaker fully understood what no one had said.",
+                "No one understood the speaker fully, who had said nothing.",
+                "No one fully understood what the speaker had said."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Kimse ... anlamadı» = no one understood; söylenen önceden olmuştur (had said): (E). (A) herkesin anladığını söyler. (B) söylenecekleri konu eder. (C) özneleri karıştırır. (D) konuşmacının hiçbir şey söylemediğini ekler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-2-q06",
+              "kind": "translation",
+              "order": 5,
+              "prompt": "Barajın yapımı, yerel halkın tepkisi nedeniyle ertelendi.",
+              "options": [
+                "The construction of the dam was postponed because of the reaction of the local people.",
+                "The construction of the dam was postponed in spite of the reaction of the local people.",
+                "The local people postponed the construction of the dam because of its reaction.",
+                "The construction of the dam is being postponed because of the local people.",
+                "The reaction of the local people was postponed because of the construction of the dam."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Nedeniyle» = because of ve yapım ertelenendir (edilgen): (A). (B) nedeni karşıtlığa çevirir. (C) edilgeni etkene çevirir. (D) zamanı sürerliğe çevirir. (E) neden ile sonucu yer değiştirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-2-q07",
+              "kind": "translation",
+              "order": 6,
+              "prompt": "Toplantıda, bütçenin azaltılması gerektiği üzerinde uzlaşıldı.",
+              "options": [
+                "It was agreed at the meeting that the budget should be increased.",
+                "It was agreed at the meeting that the budget had been reduced.",
+                "It was agreed at the meeting that the budget should be reduced.",
+                "The budget agreed at the meeting that it should be reduced.",
+                "It was agreed after the meeting that the budget should be reduced."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Uzlaşıldı» edilgen; «azaltılması gerektiği» = should be reduced: (C). (A) azaltmayı artırmaya çevirir. (B) gerekliliği tamamlanmış işe çevirir. (D) özneyi bütçeye çevirir. (E) «toplantıda» yerine «toplantıdan sonra» der.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-2-q08",
+              "kind": "translation",
+              "order": 7,
+              "prompt": "Kararı veren kurul, eleştirilere yanıt vermeyi reddetti.",
+              "options": [
+                "The board that made the decision was refused a response to the criticism.",
+                "The board that made the decision agreed to respond to the criticism.",
+                "The decision that made the board refused to respond to the criticism.",
+                "The board that made the decision refused to respond to the criticism.",
+                "The board that makes the decision refuses to respond to the criticism."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Kararı veren kurul» = the board that made the decision; «reddetti» = refused (geçmiş): (D). (A) edilgen yapar. (B) reddi kabule çevirir. (C) özneleri karıştırır. (E) zamanı şimdiye çevirir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-translation-tr-en-3",
+          "order": 5,
+          "estimatedDurationMinutes": 9,
+          "title": "Çeviri: Türkçe-İngilizce 3",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-translation-tr-en-3",
+              "type": "practiceSet",
+              "headword": "Translation TR-EN 3",
+              "frequencyRank": 3072,
+              "baseDifficulty": 0.6,
+              "definition": "Türkçe cümlelerin İngilizce karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Çeviri: Türkçe-İngilizce 3",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-translation-tr-en-3-q01",
+              "kind": "translation",
+              "order": 0,
+              "prompt": "Ancak fonlar aktarıldıktan sonra proje başlayabilecek.",
+              "options": [
+                "Only after the funds have been transferred the project will be able to start.",
+                "Only after the project starts will the funds be transferred.",
+                "Only after the funds had been transferred would the project be able to start.",
+                "Only after the funds have been transferred will the project be able to start.",
+                "Not until the funds are transferred can the project not start."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Only after ...» ile başlayan cümlede ana cümle devrik olur: will the project be able to start: (D). (A) devrik sırayı kullanmaz. (B) sırayı tersine çevirir. (C) zamanı geçmişe çevirir. (E) olumsuzluk ekleyerek anlamı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-3-q02",
+              "kind": "translation",
+              "order": 1,
+              "prompt": "Yöneticinin önerisinin kabul edilmesini herkes istiyordu.",
+              "options": [
+                "Everyone wanted the manager to accept the proposal.",
+                "Everyone wanted the manager's proposal to have accepted.",
+                "The manager wanted everyone's proposal to be accepted.",
+                "Everyone did not want the manager's proposal to be accepted.",
+                "Everyone wanted the manager's proposal to be accepted."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Kabul edilmesini» edilgen mastar gerektirir: to be accepted; kabul edilen öneridir: (E). (A) özneyi yöneticiye çevirir. (B) geçersiz bir yapı kurar. (C) isteyeni değiştirir. (D) olumsuz yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-3-q03",
+              "kind": "translation",
+              "order": 2,
+              "prompt": "Bu kadar kısa sürede bu kadar çok şey başarılacağını hiç kimse beklemiyordu.",
+              "options": [
+                "Everybody had expected that so much would be achieved in such a short time.",
+                "Nobody had expected that so much would be achieved in such a short time.",
+                "Nobody expected that so much had been achieved in such a short time.",
+                "Nobody had expected that so little would be achieved in such a short time.",
+                "Nobody has expected so much to achieve such a short time."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Hiç kimse beklemiyordu» olumsuz ve öncedendir: nobody had expected; başarı beklenen gelecektir (would be achieved): (B). (A) herkesi olumlu yapar. (C) zamanı karıştırır. (D) «çok» yerine «az» der. (E) yapıyı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-3-q04",
+              "kind": "translation",
+              "order": 3,
+              "prompt": "Şirketin yönetimi krizi önlemek için elinden geleni yaptı, ne var ki çok geçti.",
+              "options": [
+                "The company's management did everything it could to prevent the crisis, but it was too late.",
+                "The company's management did everything it could to cause the crisis, but it was too late.",
+                "The company's management did nothing to prevent the crisis, and it was too late.",
+                "The company's management had done everything it could to prevent the crisis, but it is too late.",
+                "The company's management did everything it could to prevent the crisis, and therefore it was too late."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Ne var ki» karşıtlık kurar: her şeyi yaptılar ama geç kaldılar: (A). (B) krizi yaratmayı amaçlar. (C) hiçbir şey yapılmadığını söyler. (D) zaman uyumunu bozar. (E) karşıtlığı sonuç bağıntısına çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-3-q05",
+              "kind": "translation",
+              "order": 4,
+              "prompt": "Öğrencilerin başarısı, kısmen öğretmenlerin yaklaşımına bağlıdır.",
+              "options": [
+                "The students' success depends entirely on the teachers' approach.",
+                "The teachers' success depends partly on the students' approach.",
+                "The students' success depends partly on the teachers' approach.",
+                "The students' success depended partly on the teachers' approach.",
+                "The students' success does not depend on the teachers' approach."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Kısmen» = partly; «bağıdır» geniş zaman: (C). (A) «tamamen» der. (B) özneleri yer değiştirir. (D) zamanı geçmişe çevirir. (E) bağımlılığı inkâr eder.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-3-q06",
+              "kind": "translation",
+              "order": 5,
+              "prompt": "Yağmur yağmasaydı, maç iptal edilmeyecekti.",
+              "options": [
+                "If it does not rain, the match will not be cancelled.",
+                "If it had rained, the match would not have been cancelled.",
+                "If the match had not been cancelled, it would not have rained.",
+                "If it had not rained, the match would not have been cancelled.",
+                "Unless it had rained, the match would not have been cancelled."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul: had not rained ... would not have been cancelled: (D). (A) gerçek koşula ve geleceğe çevirir. (B) yağmurun yağdığını varsayar. (C) neden ile sonucu yer değiştirir. (E) «unless» ile koşulu tersine çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-3-q07",
+              "kind": "translation",
+              "order": 6,
+              "prompt": "Toplumun her kesiminden insanlar, reformun gerekli olduğu konusunda hemfikir.",
+              "options": [
+                "People from every part of society agree that the reform is necessary.",
+                "People from some parts of society agree that the reform is necessary.",
+                "People from every part of society agreed that the reform was unnecessary.",
+                "People from every part of society agree that the reform will be necessary.",
+                "Every reform of society agrees that people are necessary."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Her kesiminden» = from every part; «hemfikir» geniş zaman; «gerekli» = necessary: (A). (B) «her kesim» yerine «bazı kesimler» der. (C) «gereksiz» diyerek anlamı tersine çevirir. (D) zamanı geleceğe çevirir. (E) özneleri karıştırır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-translation-tr-en-3-q08",
+              "kind": "translation",
+              "order": 7,
+              "prompt": "Hükümetin açıkladığı verilere göre, ihracat geçen yıla kıyasla belirgin biçimde arttı.",
+              "options": [
+                "According to the data released by the government, exports fell markedly compared with last year.",
+                "According to the data released by the government, exports rose slightly compared with last year.",
+                "According to the data released by the government, exports will rise markedly compared with last year.",
+                "According to the data released by the exporters, the government rose markedly compared with last year.",
+                "According to the data released by the government, exports rose markedly compared with last year."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Belirgin biçimde arttı» = rose markedly; «geçen yıla kıyasla» = compared with last year: (E). (A) artışı düşüşe çevirir. (B) «belirgin» yerine «hafif» der. (C) zamanı geleceğe çevirir. (D) özneleri karıştırır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-restatement-1",
+          "order": 6,
+          "estimatedDurationMinutes": 9,
+          "title": "Yeniden İfade 1",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-restatement-1",
+              "type": "practiceSet",
+              "headword": "Restatement 1",
+              "frequencyRank": 3080,
+              "baseDifficulty": 0.5,
+              "definition": "Bir cümlenin anlamını koruyan yeniden ifadesini seçmeye dayanan sekiz soru.",
+              "exampleSentences": [],
+              "translationTR": "Yeniden İfade 1",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-restatement-1-q01",
+              "kind": "restatement",
+              "order": 0,
+              "prompt": "Unless the board reverses its decision, the university will lose its accreditation.",
+              "options": [
+                "The university will lose its accreditation if the board does not reverse its decision.",
+                "The board will reverse its decision only if the university loses its accreditation.",
+                "Although the board reverses its decision, the university will still lose its accreditation.",
+                "The university lost its accreditation because the board reversed its decision.",
+                "Whether or not the board reverses its decision, accreditation will be kept."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Unless» = «if ... not»: kurul kararı geri almazsa üniversite akreditasyonu kaybeder: (A). (B) koşul ve sonucu yer değiştirir. (C) karşıtlık kurar ve geri alma durumunda bile kayıp der. (D) geçmiş zaman ve yanlış neden-sonuç kurar. (E) akreditasyonun korunacağını söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-1-q02",
+              "kind": "restatement",
+              "order": 1,
+              "prompt": "The company reduced its prices in order to attract more customers.",
+              "options": [
+                "The company attracted more customers, so it reduced its prices.",
+                "The company lowered its prices so that it could attract more customers.",
+                "The company reduced its prices even though it had attracted more customers.",
+                "The company attracted more customers because it had reduced its expenses.",
+                "More customers reduced the prices of the company."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«In order to» amaç bildirir: fiyatlar müşteri çekmek amacıyla düşürüldü: (B). (A) neden ve sonucu tersine çevirir. (C) amacı karşıtlığa çevirir. (D) nedeni giderlere çevirir. (E) özneyi müşterilere çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-1-q03",
+              "kind": "restatement",
+              "order": 2,
+              "prompt": "Few of the applicants had the experience required for the position.",
+              "options": [
+                "Most of the applicants had the experience required for the position.",
+                "Some of the applicants had more experience than the position required.",
+                "Most of the applicants lacked the experience required for the position.",
+                "None of the applicants lacked the experience required for the position.",
+                "All of the applicants had gained experience for the position."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Few of the applicants had» = başvuranların çoğunda deneyim yoktu: (C). (A) «çoğu deneyimliydi» der. (B) ve (E) deneyim fazlalığına kayar. (D) hiçbirinde eksik olmadığını söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-1-q04",
+              "kind": "restatement",
+              "order": 3,
+              "prompt": "It was not until the evening that the rescue team reached the village.",
+              "options": [
+                "The rescue team reached the village before the evening.",
+                "The rescue team reached the village as soon as the evening began.",
+                "The rescue team had already left the village by the evening.",
+                "The rescue team did not reach the village until the evening.",
+                "The rescue team reached the village only after the evening."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«It was not until the evening that ...» = akşama kadar ulaşamadı: (D). (A) ulaşmayı akşamdan öncesine çeker. (B) akşamın başında ulaştığını söyler. (C) köyden ayrıldığını söyler. (E) «akşamdan sonra» diyerek zamanı kaydırır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-1-q05",
+              "kind": "restatement",
+              "order": 4,
+              "prompt": "The professor was so tired that she could hardly keep her eyes open.",
+              "options": [
+                "The professor was so exhausted that she barely managed to stay awake.",
+                "The professor was tired enough to keep her eyes wide open.",
+                "The professor was so tired that she fell asleep at once.",
+                "The professor was too rested to close her eyes for long.",
+                "The professor could hardly keep her eyes open because she was bored."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«So tired that ... hardly keep her eyes open» = neredeyse gözlerini açık tutamayacak kadar yorgun: (A). (B) gözlerini rahatça açık tuttuğunu söyler. (C) hemen uyuduğunu söyler. (D) dinlenmiş olduğunu söyler. (E) nedeni yorgunluk yerine sıkıntıya çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-1-q06",
+              "kind": "restatement",
+              "order": 5,
+              "prompt": "Although the flight was delayed, the passengers reached the meeting in time.",
+              "options": [
+                "The passengers reached the meeting in time because the flight was delayed.",
+                "The flight was delayed, but the passengers still reached the meeting in time.",
+                "The flight was delayed because the passengers reached the meeting in time.",
+                "The passengers missed the meeting although the flight was on time.",
+                "The flight was on time, so the passengers reached the meeting in time."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Although» karşıtlık bildirir: rötara rağmen zamanında yetiştiler: (B). (A) rötarı yetişme nedeni yapar. (C) neden ve sonucu tersine çevirir. (D) toplantıyı kaçırdıklarını söyler. (E) uçuşun zamanında olduğunu söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-1-q07",
+              "kind": "restatement",
+              "order": 6,
+              "prompt": "She has been working on the project since January.",
+              "options": [
+                "She finished working on the project at the start of January.",
+                "She will start working on the project at the start of January.",
+                "She worked on the project only during the month of January.",
+                "She stopped working on the project at some point in January.",
+                "She began the project in January and is still working on it."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Has been working ... since January» ocakta başlayan ve süren bir eylemdir: (E). (A) ocakta bittiğini söyler. (B) geleceğe çevirir. (C) yalnızca ocakta çalıştığını söyler. (D) ocakta bıraktığını söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-1-q08",
+              "kind": "restatement",
+              "order": 7,
+              "prompt": "The manager would rather the meeting were held on Monday.",
+              "options": [
+                "The manager would prefer the meeting to be held on Monday.",
+                "The manager held the meeting on Monday because she preferred it.",
+                "The manager would prefer to hold a meeting every Monday.",
+                "The manager insists that the meeting was held on Monday.",
+                "The manager would prefer the meeting not to be held on Monday."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Would rather + özne + past» bir tercihi bildirir: toplantının Pazartesi yapılmasını tercih eder: (A). (B) tercihi geçmişteki bir olaya çevirir. (C) her Pazartesi toplantı tercih eder. (D) ısrar ve geçmiş bir olay bildirir. (E) tercihi olumsuz yapar.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-restatement-2",
+          "order": 7,
+          "estimatedDurationMinutes": 9,
+          "title": "Yeniden İfade 2",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-restatement-2",
+              "type": "practiceSet",
+              "headword": "Restatement 2",
+              "frequencyRank": 3081,
+              "baseDifficulty": 0.55,
+              "definition": "Bir cümlenin anlamını koruyan yeniden ifadesini seçmeye dayanan sekiz soru.",
+              "exampleSentences": [],
+              "translationTR": "Yeniden İfade 2",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-restatement-2-q01",
+              "kind": "restatement",
+              "order": 0,
+              "prompt": "Had the company invested more in research, it would not have lost its market share.",
+              "options": [
+                "The company did not lose its market share because it invested more in research.",
+                "If the company invests more in research, it will not lose its market share.",
+                "The company lost its market share because it did not invest enough in research.",
+                "The company invested more in research and therefore lost its market share.",
+                "The company lost its market share although it invested heavily in research."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Üçüncü tip koşul: şirket yeterince yatırım yapmadı, bu yüzden pazar payını kaybetti: (C). (A) pazar payı kaybının olmadığını söyler. (B) gerçek koşula ve geleceğe çevirir. (D) yatırımı kayıp nedeni yapar. (E) yoğun yatırım yaptığını söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-2-q02",
+              "kind": "restatement",
+              "order": 1,
+              "prompt": "No sooner had the law been passed than protests began.",
+              "options": [
+                "Protests began as soon as the law was passed.",
+                "Protests began before the law was passed.",
+                "The law was passed as soon as protests began.",
+                "Protests began long after the law was passed.",
+                "Protests were passed as soon as the law began."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«No sooner ... than» art arda gerçekleşen iki olayı anlatır: yasa kabul edilir edilmez protestolar başladı: (A). (B) sırayı tersine çevirir. (C) protestoları yasadan önceye alır. (D) zamanı «çok sonra»ya çevirir. (E) anlamsız bir özne kullanır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-2-q03",
+              "kind": "restatement",
+              "order": 2,
+              "prompt": "Not all the tickets have been sold.",
+              "options": [
+                "None of the tickets have been sold.",
+                "All of the tickets have been sold.",
+                "Not one ticket remains unsold.",
+                "Some of the tickets have not been sold.",
+                "All of the tickets remain unsold."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Not all» kısmi olumsuzdur: bazı biletler satılmadı: (D). (A) hiçbirinin satılmadığını söyler. (B) hepsinin satıldığını söyler. (C) hiçbirinin satılmadan kalmadığını söyler. (E) hepsinin satılmadan kaldığını söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-2-q04",
+              "kind": "restatement",
+              "order": 3,
+              "prompt": "The report was neither accurate nor complete.",
+              "options": [
+                "The report was inaccurate and incomplete.",
+                "The report was either accurate or complete.",
+                "The report was accurate but incomplete.",
+                "The report was complete but inaccurate.",
+                "The report was both accurate and complete."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Neither ... nor» iki niteliği de olumsuzlar: rapor hem yanlıştı hem eksikti: (A). (B) ve (C) ile (D) niteliklerden birini olumlu yapar. (E) ikisini de olumlu yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-2-q05",
+              "kind": "restatement",
+              "order": 4,
+              "prompt": "Little did they realise how serious the situation was.",
+              "options": [
+                "They realised at once how serious the situation was.",
+                "They realised how little the situation mattered.",
+                "The situation was not serious, so they did not realise it.",
+                "They realised that the situation was somewhat serious.",
+                "They did not realise how serious the situation was."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Little did they realise» olumsuz anlamlıdır: durumun ciddiyetini fark etmediler: (E). (A) hemen fark ettiklerini söyler. (B) önemsiz olduğunu fark ettiklerini söyler. (C) durumun ciddi olmadığını söyler. (D) ciddiyetin kısmen fark edildiğini söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-2-q06",
+              "kind": "restatement",
+              "order": 5,
+              "prompt": "Unlike her predecessor, the new director welcomes criticism.",
+              "options": [
+                "The new director welcomes criticism, just as her predecessor did.",
+                "The new director welcomes criticism, whereas her predecessor did not.",
+                "The new director does not welcome criticism, unlike her predecessor.",
+                "Her predecessor welcomed criticism, whereas the new director does not.",
+                "The new director welcomes criticism because her predecessor did."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Unlike» zıtlık kurar: yeni müdür eleştiriyi karşılar, selefi karşılamazdı: (B). (A) benzerlik kurar. (C) ve (D) yeni müdürün tutumunu tersine çevirir. (E) nedeni selefin tutumu yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-2-q07",
+              "kind": "restatement",
+              "order": 6,
+              "prompt": "The trial was postponed owing to the illness of the judge.",
+              "options": [
+                "The trial was postponed because the judge was ill.",
+                "The judge was ill because the trial was postponed.",
+                "The trial was postponed although the judge was ill.",
+                "The trial was postponed after the judge recovered.",
+                "The trial took place despite the judge's illness."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Owing to» neden bildirir: yargıç hasta olduğu için duruşma ertelendi: (A). (B) neden ile sonucu tersine çevirir. (C) nedeni karşıtlığa çevirir. (D) ertelemeyi iyileşmeden sonraya taşır. (E) duruşmanın yapıldığını söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-2-q08",
+              "kind": "restatement",
+              "order": 7,
+              "prompt": "By the time the ambulance arrived, the patient had already recovered.",
+              "options": [
+                "The patient recovered after the ambulance arrived.",
+                "The ambulance arrived before the patient recovered.",
+                "The patient had recovered before the ambulance arrived.",
+                "The patient recovered because the ambulance arrived.",
+                "The patient had not recovered when the ambulance arrived."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«By the time ... had already recovered» iyileşmenin varıştan önce olduğunu söyler: (C). (A) sırayı tersine çevirir. (B) varışı iyileşmeden önceye alır. (D) iyileşmeyi ambulansın varışına bağlar. (E) iyileşmediğini söyler.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-restatement-3",
+          "order": 8,
+          "estimatedDurationMinutes": 9,
+          "title": "Yeniden İfade 3",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-restatement-3",
+              "type": "practiceSet",
+              "headword": "Restatement 3",
+              "frequencyRank": 3082,
+              "baseDifficulty": 0.6,
+              "definition": "Bir cümlenin anlamını koruyan yeniden ifadesini seçmeye dayanan sekiz soru.",
+              "exampleSentences": [],
+              "translationTR": "Yeniden İfade 3",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-restatement-3-q01",
+              "kind": "restatement",
+              "order": 0,
+              "prompt": "Only by cutting costs drastically can the company return to profitability.",
+              "options": [
+                "The company will return to profitability whether or not it cuts costs.",
+                "Cutting costs drastically prevents the company from returning to profitability.",
+                "The company must return to profitability before it cuts costs.",
+                "The company can return to profitability only if it cuts costs drastically.",
+                "The company can return to profitability without cutting any costs."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Only by ...» tek yolu belirtir: maliyetleri ciddi biçimde kısarsa kârlılığa dönebilir: (D). (A) kısıntıyı gereksiz yapar. (B) kısıntıyı engel yapar. (C) sırayı tersine çevirir. (E) kısıntısız da dönebileceğini söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-3-q02",
+              "kind": "restatement",
+              "order": 1,
+              "prompt": "Much as the residents disliked the plan, they accepted it.",
+              "options": [
+                "The residents accepted the plan because they liked it very much.",
+                "The residents disliked the plan because they accepted it.",
+                "The residents disliked the plan and therefore refused to accept it.",
+                "The residents accepted the plan since they disliked it greatly.",
+                "The residents accepted the plan even though they disliked it."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Much as» karşıtlık kurar: sevmeseler de kabul ettiler: (E). (A) kabulü sevmeye bağlar. (B) neden ve sonucu tersine çevirir. (C) reddettiklerini söyler. (D) sevmemeyi kabul nedeni yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-3-q03",
+              "kind": "restatement",
+              "order": 2,
+              "prompt": "It is high time the government took action against tax evasion.",
+              "options": [
+                "The government ought to act against tax evasion without further delay.",
+                "The government has taken action against tax evasion just in time.",
+                "The government took action against tax evasion too early.",
+                "The government will take action against tax evasion in the distant future.",
+                "The government must not take action against tax evasion yet."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«It is high time ... took» hükümetin artık harekete geçmesi gerektiğini bildirir: (A). (B) zamanında harekete geçtiğini söyler. (C) çok erken davrandığını söyler. (D) uzak geleceğe erteler. (E) harekete geçmemesi gerektiğini söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-3-q04",
+              "kind": "restatement",
+              "order": 3,
+              "prompt": "The harder she tried, the more frustrated she became.",
+              "options": [
+                "As she tried harder, she became less frustrated.",
+                "As she tried harder, she became increasingly frustrated.",
+                "She became frustrated because she had not tried hard.",
+                "Although she tried hard, she was never frustrated.",
+                "The more frustrated she became, the less she tried."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«The harder ..., the more ...» orantılı artıştır: çaba arttıkça hayal kırıklığı arttı: (B). (A) hayal kırıklığını azaltır. (C) nedeni çabasızlığa çevirir. (D) hayal kırıklığını inkâr eder. (E) ilişkiyi tersine çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-3-q05",
+              "kind": "restatement",
+              "order": 4,
+              "prompt": "The minister denied having been informed about the plan.",
+              "options": [
+                "The minister admitted having been informed about the plan.",
+                "The minister denied informing anyone about the plan.",
+                "The minister said that he had not been informed about the plan.",
+                "The minister said that he would not be informed about the plan.",
+                "The minister refused to inform anyone about the plan."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Denied having been informed» = haberdar edilmediğini söyledi: (C). (A) haberdar edildiğini kabul eder. (B) ve (E) haber verme eylemine kayar. (D) zamanı geleceğe çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-3-q06",
+              "kind": "restatement",
+              "order": 5,
+              "prompt": "Rather than raise taxes, the government decided to cut spending.",
+              "options": [
+                "The government cut spending instead of raising taxes.",
+                "The government raised taxes instead of cutting spending.",
+                "The government raised taxes and cut spending.",
+                "The government cut spending in order to raise taxes.",
+                "The government neither raised taxes nor cut spending."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Rather than» bir seçeneğin yerine diğerini seçmeyi anlatır: vergi artırmak yerine harcama kısıldı: (A). (B) tercihi tersine çevirir. (C) ikisini birden yaptığını söyler. (D) harcama kısmayı vergi artırma amacı yapar. (E) ikisini de yapmadığını söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-3-q07",
+              "kind": "restatement",
+              "order": 6,
+              "prompt": "Had it not been for the volunteers, the festival would have been cancelled.",
+              "options": [
+                "The festival was cancelled because of the volunteers.",
+                "The festival was cancelled although the volunteers helped.",
+                "The volunteers cancelled the festival.",
+                "The festival went ahead because the volunteers helped.",
+                "The volunteers were not needed for the festival to go ahead."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Had it not been for» gönüllüler olmasaydı iptal olacağını söyler: gönüllüler sayesinde festival yapıldı: (D). (A) iptali gönüllülere bağlar. (B) iptal edildiğini söyler. (C) iptali gönüllülerin yaptığını söyler. (E) gönüllülere gerek olmadığını söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-restatement-3-q08",
+              "kind": "restatement",
+              "order": 7,
+              "prompt": "Scarcely had the meeting begun when the fire alarm rang.",
+              "options": [
+                "The meeting began after the fire alarm had rung.",
+                "The fire alarm rang long before the meeting began.",
+                "The meeting had almost ended when the fire alarm rang.",
+                "The fire alarm rang because the meeting had begun.",
+                "The fire alarm rang almost as soon as the meeting began."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Scarcely ... when» iki olayın art arda gerçekleştiğini anlatır: toplantı başlar başlamaz alarm çaldı: (E). (A) ve (B) sırayı tersine çevirir. (C) toplantının bitmek üzere olduğunu söyler. (D) alarmı toplantıya bağlar.",
+              "passageID": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }

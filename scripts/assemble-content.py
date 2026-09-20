@@ -203,6 +203,22 @@ EXAM_UNITS = [
             "paragraph/dialogue-2.json",
         ],
     },
+    {
+        "id": "yds-exam-unit-translation-restatement",
+        "theme": "Çeviri ve yeniden ifade",
+        "order": 12,
+        "files": [
+            "translation-restatement/translation-en-tr-1.json",
+            "translation-restatement/translation-en-tr-2.json",
+            "translation-restatement/translation-en-tr-3.json",
+            "translation-restatement/translation-tr-en-1.json",
+            "translation-restatement/translation-tr-en-2.json",
+            "translation-restatement/translation-tr-en-3.json",
+            "translation-restatement/restatement-1.json",
+            "translation-restatement/restatement-2.json",
+            "translation-restatement/restatement-3.json",
+        ],
+    },
 ]
 
 EXAM_LESSON_ID_PREFIX = "yds-exam-"

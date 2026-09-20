@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-translation-en-tr-1",
+  "estimatedDurationMinutes": 9,
+  "title": "Çeviri: İngilizce-Türkçe 1",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-translation-en-tr-1",
+      "type": "practiceSet",
+      "headword": "Translation EN-TR 1",
+      "frequencyRank": 3060,
+      "baseDifficulty": 0.5,
+      "definition": "İngilizce cümlelerin Türkçe karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Çeviri: İngilizce-Türkçe 1",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-translation-en-tr-1-q01",
+      "kind": "translation",
+      "order": 0,
+      "prompt": "The university has announced that tuition fees will not increase next year.",
+      "options": [
+        "Üniversite, öğrenim ücretlerinin geçen yıl artmadığını duyurdu.",
+        "Üniversite, öğrenim ücretlerinin gelecek yıl artmayacağını duyurdu.",
+        "Üniversite, öğrenim ücretlerinin gelecek yıl artacağını duyurdu.",
+        "Öğrenciler, öğrenim ücretlerinin gelecek yıl artmayacağını duyurdu.",
+        "Üniversite, öğrenim ücretlerinin gelecek yıl biraz artabileceğini duyurdu."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Will not increase next year» gelecek zamanlı olumsuzdur: gelecek yıl artmayacak: (B). (A) zamanı geçmişe çeker. (C) olumsuzu olumluya çevirir. (D) özneyi değiştirir; duyuran üniversitedir. (E) «biraz artabilir» diyerek olumsuzluğu bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-1-q02",
+      "kind": "translation",
+      "order": 1,
+      "prompt": "Most economists believe that inflation is likely to fall gradually over the coming months.",
+      "options": [
+        "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda kademeli olarak düşmesinin olası olduğuna inanıyor.",
+        "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda hızla yükseleceğine inanıyor.",
+        "Bazı iktisatçılar, enflasyonun önümüzdeki aylarda kademeli olarak düşeceğini kesin biliyor.",
+        "Çoğu iktisatçı, enflasyonun geçtiğimiz aylarda kademeli olarak düştüğüne inanıyor.",
+        "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda kademeli düşmesinin olası olmadığını düşünüyor."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Most economists ... likely to fall gradually» ifadesi çoğunluğun, düşüşün olası olduğunu düşündüğünü anlatır: (A). (B) yönü tersine çevirir. (C) nicelik ve kesinlik ekler (bazı, kesin biliyor). (D) zamanı geçmişe çeker. (E) olasılığı olumsuzlar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-1-q03",
+      "kind": "translation",
+      "order": 2,
+      "prompt": "The researchers were surprised to find that the drug had no effect on patients over sixty.",
+      "options": [
+        "Araştırmacılar, ilacın altmış yaşın üzerindeki hastalar üzerinde büyük etkisi olduğunu görünce şaşırdı.",
+        "Araştırmacılar, ilacın altmış yaşın altındaki hastalar üzerinde hiçbir etkisi olmadığını görünce şaşırdı.",
+        "Hastalar, ilacın altmış yaşın üzerindeki araştırmacılar üzerinde hiçbir etkisi olmadığını görünce şaşırdı.",
+        "Araştırmacılar, ilacın altmış yaşın üzerindeki hastalar üzerinde hiçbir etkisi olmadığını görünce şaşırdı.",
+        "Araştırmacılar, ilacın altmış yaşın üzerindeki hastalar üzerinde hiçbir etkisi olmayacağını görünce şaşıracak."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Cümlede «etki yok» ve «altmış yaş üstü» birlikte korunmalıdır: (D). (A) etkinin olduğunu söyler. (B) yaş grubunu değiştirir (altı). (C) özneleri karıştırır. (E) zamanı gelecek zamana çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-1-q04",
+      "kind": "translation",
+      "order": 3,
+      "prompt": "Because the bridge was built without adequate supports, it collapsed during the first storm.",
+      "options": [
+        "Köprü yeterli destek olmadan inşa edilmesine rağmen ilk fırtınada çökmedi.",
+        "Köprü yeterli destekle inşa edildiği için ilk fırtınada çöktü.",
+        "Köprü ilk fırtınada çöktüğü için yeterli destek olmadan inşa edildi.",
+        "Köprü yeterli destek olmadan inşa edildiği için ilk fırtınada çökecek.",
+        "Köprü yeterli destek olmadan inşa edildiği için ilk fırtınada çöktü."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Because» neden bildirir: yetersiz destek nedeniyle çöküş: (E). (A) karşıtlık kurar ve çökmediğini söyler. (B) destekle inşa edildiğini söyler. (C) neden ile sonucu tersine çevirir. (D) geçmiş zamanı gelecek zamana çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-1-q05",
+      "kind": "translation",
+      "order": 4,
+      "prompt": "Neither the manager nor her assistant was aware of the error until the audit began.",
+      "options": [
+        "Hem müdür hem de yardımcısı, denetim başlayıncaya kadar hatanın farkındaydı.",
+        "Müdür hatayı fark etti, ancak yardımcısı denetim başlayıncaya kadar fark etmedi.",
+        "Ne müdür ne de yardımcısı, denetim başlayıncaya kadar hatanın farkında değildi.",
+        "Ne müdür ne de yardımcısı, denetim başladıktan sonra hatanın farkında değildi.",
+        "Müdür ile yardımcısı, denetimi başlatarak hatayı fark etmiş oldular."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Neither ... nor» iki kişiyi de olumsuzlar ve «until the audit began» zamanı sınırlar: (C). (A) ikisini de olumlu yapar. (B) yalnızca yardımcıyı olumsuzlar. (D) zamanı «başladıktan sonra»ya çevirir. (E) anlamı bozar; denetimi başlatanlar bunlar değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-1-q06",
+      "kind": "translation",
+      "order": 5,
+      "prompt": "The government has promised to reduce taxes for small businesses within two years.",
+      "options": [
+        "Hükümet, küçük işletmelere yönelik vergileri iki yıl içinde düşürmeyi vaat etti.",
+        "Hükümet, küçük işletmelere yönelik vergileri iki yıl önce düşürdüğünü açıkladı.",
+        "Hükümet, küçük işletmelere yönelik vergileri iki yıl içinde artırmayı vaat etti.",
+        "Küçük işletmeler, kendilerine yönelik vergileri iki yıl içinde düşürmeyi vaat etti.",
+        "Hükümet, büyük işletmelere yönelik vergileri iki yıl içinde düşürmeyi vaat etti."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Promised to reduce ... within two years» gelecekteki bir vaattir: (A). (B) geçmişte yapılmış bir eylem anlatır. (C) düşürmeyi artırmaya çevirir. (D) vaat edenin özneyi değiştirir. (E) hedef grubu büyük işletmelere çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-1-q07",
+      "kind": "translation",
+      "order": 6,
+      "prompt": "Although the experiment was repeated several times, the results were never consistent.",
+      "options": [
+        "Deney birkaç kez tekrarlandığı için sonuçlar hiçbir zaman tutarlı olmadı.",
+        "Deney birkaç kez tekrarlanınca sonuçlar her zaman tutarlı oldu.",
+        "Deney tekrarlanmadığı halde sonuçlar hiçbir zaman tutarlı olmadı.",
+        "Deney birkaç kez tekrarlanmasına rağmen sonuçlar hiçbir zaman tutarlı olmadı.",
+        "Deney birkaç kez tekrarlanmasına rağmen sonuçlar hiçbir zaman incelenmedi."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Although» karşıtlık kurar ve «never consistent» olumsuz sonucu verir: (D). (A) karşıtlığı neden-sonuca çevirir. (B) sonucu olumluya çevirir. (C) tekrarın olduğunu inkâr eder. (E) «tutarlı olmadı» yerine «incelenmedi» der.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-1-q08",
+      "kind": "translation",
+      "order": 7,
+      "prompt": "Only a small proportion of the students who applied were offered a place on the course.",
+      "options": [
+        "Başvuran öğrencilerin büyük bir kısmına kursta yer teklif edildi.",
+        "Başvuran öğrencilerin yalnızca küçük bir kısmı kursta yer teklif etti.",
+        "Başvurmayan öğrencilerin yalnızca küçük bir kısmına kursta yer teklif edildi.",
+        "Başvuran öğrencilerin yalnızca küçük bir kısmına kursta yer teklif edilecek.",
+        "Başvuran öğrencilerin yalnızca küçük bir kısmına kursta yer teklif edildi."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Only a small proportion» küçük bir oran demektir ve edilgen yapıdır (were offered): (E). (A) oranı büyük yapar. (B) edilgeni etkene çevirir. (C) başvurmayanları konu eder. (D) geçmiş zamanı gelecek zamana çevirir.",
+      "passageID": null
+    }
+  ]
+}

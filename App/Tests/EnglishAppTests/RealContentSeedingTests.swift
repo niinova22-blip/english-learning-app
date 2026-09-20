@@ -33,9 +33,9 @@ final class RealContentSeedingTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
-        XCTAssertEqual(package.units.count, 12)
+        XCTAssertEqual(package.units.count, 13)
         let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
-        XCTAssertEqual(allItems.count, 181)
+        XCTAssertEqual(allItems.count, 190)
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
 
         // Regression guard for the mangled-Turkish-characters bug (Task 6): a bare
@@ -51,7 +51,7 @@ final class RealContentSeedingTests: XCTestCase {
         let secondLesson = scienceUnit?.lessons.first { $0.order == 1 }
         XCTAssertEqual(secondLesson?.title, "Science & Research Methods · 2")
 
-        XCTAssertEqual(package.units.flatMap(\.lessons).flatMap(\.questions).count, 511)
+        XCTAssertEqual(package.units.flatMap(\.lessons).flatMap(\.questions).count, 583)
         XCTAssertEqual(package.units.flatMap(\.lessons).compactMap(\.passage).count, 15)
         XCTAssertEqual(Set(package.units.flatMap(\.lessons).map(\.skill)), [.vocabulary, .grammar, .reading])
     }
@@ -215,10 +215,16 @@ final class RealContentSeedingTests: XCTestCase {
         let examUnits = Array(units.dropFirst(9))
         XCTAssertEqual(
             examUnits.map(\.id),
-            ["yds-exam-unit-reading", "yds-exam-unit-cloze-sentence", "yds-exam-unit-paragraph"]
+            [
+                "yds-exam-unit-reading", "yds-exam-unit-cloze-sentence",
+                "yds-exam-unit-paragraph", "yds-exam-unit-translation-restatement",
+            ]
         )
-        XCTAssertEqual(examUnits.map(\.theme), ["Okuma anlama", "Cloze ve cümle tamamlama", "Paragraf soruları"])
-        XCTAssertEqual(examUnits.map(\.order), [9, 10, 11])
+        XCTAssertEqual(
+            examUnits.map(\.theme),
+            ["Okuma anlama", "Cloze ve cümle tamamlama", "Paragraf soruları", "Çeviri ve yeniden ifade"]
+        )
+        XCTAssertEqual(examUnits.map(\.order), [9, 10, 11, 12])
         XCTAssertEqual(
             units[9].lessons.sorted { $0.order < $1.order }.map(\.id),
             [
@@ -239,6 +245,14 @@ final class RealContentSeedingTests: XCTestCase {
                 "yds-exam-paragraph-1", "yds-exam-paragraph-2", "yds-exam-paragraph-3",
                 "yds-exam-irrelevant-1", "yds-exam-irrelevant-2", "yds-exam-irrelevant-3",
                 "yds-exam-dialogue-1", "yds-exam-dialogue-2",
+            ]
+        )
+        XCTAssertEqual(
+            units[12].lessons.sorted { $0.order < $1.order }.map(\.id),
+            [
+                "yds-exam-translation-en-tr-1", "yds-exam-translation-en-tr-2", "yds-exam-translation-en-tr-3",
+                "yds-exam-translation-tr-en-1", "yds-exam-translation-tr-en-2", "yds-exam-translation-tr-en-3",
+                "yds-exam-restatement-1", "yds-exam-restatement-2", "yds-exam-restatement-3",
             ]
         )
 
@@ -278,7 +292,7 @@ final class RealContentSeedingTests: XCTestCase {
         let packages = try context.fetch(FetchDescriptor<ContentPackage>())
         XCTAssertEqual(packages.count, 1)
         let allItems = packages.flatMap { $0.units.flatMap { $0.lessons.flatMap { $0.items } } }
-        XCTAssertEqual(allItems.count, 181)
+        XCTAssertEqual(allItems.count, 190)
 
         // Calling again must not duplicate content.
         AppModelContainer.seedRealContentIfNeeded(in: context)

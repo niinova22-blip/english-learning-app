@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-restatement-1",
+  "estimatedDurationMinutes": 9,
+  "title": "Yeniden İfade 1",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-restatement-1",
+      "type": "practiceSet",
+      "headword": "Restatement 1",
+      "frequencyRank": 3080,
+      "baseDifficulty": 0.5,
+      "definition": "Bir cümlenin anlamını koruyan yeniden ifadesini seçmeye dayanan sekiz soru.",
+      "exampleSentences": [],
+      "translationTR": "Yeniden İfade 1",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-restatement-1-q01",
+      "kind": "restatement",
+      "order": 0,
+      "prompt": "Unless the board reverses its decision, the university will lose its accreditation.",
+      "options": [
+        "The university will lose its accreditation if the board does not reverse its decision.",
+        "The board will reverse its decision only if the university loses its accreditation.",
+        "Although the board reverses its decision, the university will still lose its accreditation.",
+        "The university lost its accreditation because the board reversed its decision.",
+        "Whether or not the board reverses its decision, accreditation will be kept."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Unless» = «if ... not»: kurul kararı geri almazsa üniversite akreditasyonu kaybeder: (A). (B) koşul ve sonucu yer değiştirir. (C) karşıtlık kurar ve geri alma durumunda bile kayıp der. (D) geçmiş zaman ve yanlış neden-sonuç kurar. (E) akreditasyonun korunacağını söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-1-q02",
+      "kind": "restatement",
+      "order": 1,
+      "prompt": "The company reduced its prices in order to attract more customers.",
+      "options": [
+        "The company attracted more customers, so it reduced its prices.",
+        "The company lowered its prices so that it could attract more customers.",
+        "The company reduced its prices even though it had attracted more customers.",
+        "The company attracted more customers because it had reduced its expenses.",
+        "More customers reduced the prices of the company."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«In order to» amaç bildirir: fiyatlar müşteri çekmek amacıyla düşürüldü: (B). (A) neden ve sonucu tersine çevirir. (C) amacı karşıtlığa çevirir. (D) nedeni giderlere çevirir. (E) özneyi müşterilere çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-1-q03",
+      "kind": "restatement",
+      "order": 2,
+      "prompt": "Few of the applicants had the experience required for the position.",
+      "options": [
+        "Most of the applicants had the experience required for the position.",
+        "Some of the applicants had more experience than the position required.",
+        "Most of the applicants lacked the experience required for the position.",
+        "None of the applicants lacked the experience required for the position.",
+        "All of the applicants had gained experience for the position."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Few of the applicants had» = başvuranların çoğunda deneyim yoktu: (C). (A) «çoğu deneyimliydi» der. (B) ve (E) deneyim fazlalığına kayar. (D) hiçbirinde eksik olmadığını söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-1-q04",
+      "kind": "restatement",
+      "order": 3,
+      "prompt": "It was not until the evening that the rescue team reached the village.",
+      "options": [
+        "The rescue team reached the village before the evening.",
+        "The rescue team reached the village as soon as the evening began.",
+        "The rescue team had already left the village by the evening.",
+        "The rescue team did not reach the village until the evening.",
+        "The rescue team reached the village only after the evening."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«It was not until the evening that ...» = akşama kadar ulaşamadı: (D). (A) ulaşmayı akşamdan öncesine çeker. (B) akşamın başında ulaştığını söyler. (C) köyden ayrıldığını söyler. (E) «akşamdan sonra» diyerek zamanı kaydırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-1-q05",
+      "kind": "restatement",
+      "order": 4,
+      "prompt": "The professor was so tired that she could hardly keep her eyes open.",
+      "options": [
+        "The professor was so exhausted that she barely managed to stay awake.",
+        "The professor was tired enough to keep her eyes wide open.",
+        "The professor was so tired that she fell asleep at once.",
+        "The professor was too rested to close her eyes for long.",
+        "The professor could hardly keep her eyes open because she was bored."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«So tired that ... hardly keep her eyes open» = neredeyse gözlerini açık tutamayacak kadar yorgun: (A). (B) gözlerini rahatça açık tuttuğunu söyler. (C) hemen uyuduğunu söyler. (D) dinlenmiş olduğunu söyler. (E) nedeni yorgunluk yerine sıkıntıya çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-1-q06",
+      "kind": "restatement",
+      "order": 5,
+      "prompt": "Although the flight was delayed, the passengers reached the meeting in time.",
+      "options": [
+        "The passengers reached the meeting in time because the flight was delayed.",
+        "The flight was delayed, but the passengers still reached the meeting in time.",
+        "The flight was delayed because the passengers reached the meeting in time.",
+        "The passengers missed the meeting although the flight was on time.",
+        "The flight was on time, so the passengers reached the meeting in time."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Although» karşıtlık bildirir: rötara rağmen zamanında yetiştiler: (B). (A) rötarı yetişme nedeni yapar. (C) neden ve sonucu tersine çevirir. (D) toplantıyı kaçırdıklarını söyler. (E) uçuşun zamanında olduğunu söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-1-q07",
+      "kind": "restatement",
+      "order": 6,
+      "prompt": "She has been working on the project since January.",
+      "options": [
+        "She finished working on the project at the start of January.",
+        "She will start working on the project at the start of January.",
+        "She worked on the project only during the month of January.",
+        "She stopped working on the project at some point in January.",
+        "She began the project in January and is still working on it."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Has been working ... since January» ocakta başlayan ve süren bir eylemdir: (E). (A) ocakta bittiğini söyler. (B) geleceğe çevirir. (C) yalnızca ocakta çalıştığını söyler. (D) ocakta bıraktığını söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-1-q08",
+      "kind": "restatement",
+      "order": 7,
+      "prompt": "The manager would rather the meeting were held on Monday.",
+      "options": [
+        "The manager would prefer the meeting to be held on Monday.",
+        "The manager held the meeting on Monday because she preferred it.",
+        "The manager would prefer to hold a meeting every Monday.",
+        "The manager insists that the meeting was held on Monday.",
+        "The manager would prefer the meeting not to be held on Monday."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Would rather + özne + past» bir tercihi bildirir: toplantının Pazartesi yapılmasını tercih eder: (A). (B) tercihi geçmişteki bir olaya çevirir. (C) her Pazartesi toplantı tercih eder. (D) ısrar ve geçmiş bir olay bildirir. (E) tercihi olumsuz yapar.",
+      "passageID": null
+    }
+  ]
+}

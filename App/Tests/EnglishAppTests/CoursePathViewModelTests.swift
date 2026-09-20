@@ -111,9 +111,9 @@ final class CoursePathViewModelTests: XCTestCase {
         )
         viewModel.load()
 
-        XCTAssertEqual(viewModel.sections.count, 12)
-        XCTAssertEqual(viewModel.sections.last?.unitID, "yds-exam-unit-paragraph")
-        XCTAssertEqual(viewModel.sections.last?.tasks.count, 8)
+        XCTAssertEqual(viewModel.sections.count, 13)
+        XCTAssertEqual(viewModel.sections.last?.unitID, "yds-exam-unit-translation-restatement")
+        XCTAssertEqual(viewModel.sections.last?.tasks.count, 9)
 
         let firstSection = try XCTUnwrap(viewModel.sections.first)
         XCTAssertEqual(firstSection.tasks.count, 10)

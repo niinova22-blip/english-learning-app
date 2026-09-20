@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-restatement-2",
+  "estimatedDurationMinutes": 9,
+  "title": "Yeniden İfade 2",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-restatement-2",
+      "type": "practiceSet",
+      "headword": "Restatement 2",
+      "frequencyRank": 3081,
+      "baseDifficulty": 0.55,
+      "definition": "Bir cümlenin anlamını koruyan yeniden ifadesini seçmeye dayanan sekiz soru.",
+      "exampleSentences": [],
+      "translationTR": "Yeniden İfade 2",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-restatement-2-q01",
+      "kind": "restatement",
+      "order": 0,
+      "prompt": "Had the company invested more in research, it would not have lost its market share.",
+      "options": [
+        "The company did not lose its market share because it invested more in research.",
+        "If the company invests more in research, it will not lose its market share.",
+        "The company lost its market share because it did not invest enough in research.",
+        "The company invested more in research and therefore lost its market share.",
+        "The company lost its market share although it invested heavily in research."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Üçüncü tip koşul: şirket yeterince yatırım yapmadı, bu yüzden pazar payını kaybetti: (C). (A) pazar payı kaybının olmadığını söyler. (B) gerçek koşula ve geleceğe çevirir. (D) yatırımı kayıp nedeni yapar. (E) yoğun yatırım yaptığını söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-2-q02",
+      "kind": "restatement",
+      "order": 1,
+      "prompt": "No sooner had the law been passed than protests began.",
+      "options": [
+        "Protests began as soon as the law was passed.",
+        "Protests began before the law was passed.",
+        "The law was passed as soon as protests began.",
+        "Protests began long after the law was passed.",
+        "Protests were passed as soon as the law began."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«No sooner ... than» art arda gerçekleşen iki olayı anlatır: yasa kabul edilir edilmez protestolar başladı: (A). (B) sırayı tersine çevirir. (C) protestoları yasadan önceye alır. (D) zamanı «çok sonra»ya çevirir. (E) anlamsız bir özne kullanır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-2-q03",
+      "kind": "restatement",
+      "order": 2,
+      "prompt": "Not all the tickets have been sold.",
+      "options": [
+        "None of the tickets have been sold.",
+        "All of the tickets have been sold.",
+        "Not one ticket remains unsold.",
+        "Some of the tickets have not been sold.",
+        "All of the tickets remain unsold."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Not all» kısmi olumsuzdur: bazı biletler satılmadı: (D). (A) hiçbirinin satılmadığını söyler. (B) hepsinin satıldığını söyler. (C) hiçbirinin satılmadan kalmadığını söyler. (E) hepsinin satılmadan kaldığını söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-2-q04",
+      "kind": "restatement",
+      "order": 3,
+      "prompt": "The report was neither accurate nor complete.",
+      "options": [
+        "The report was inaccurate and incomplete.",
+        "The report was either accurate or complete.",
+        "The report was accurate but incomplete.",
+        "The report was complete but inaccurate.",
+        "The report was both accurate and complete."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Neither ... nor» iki niteliği de olumsuzlar: rapor hem yanlıştı hem eksikti: (A). (B) ve (C) ile (D) niteliklerden birini olumlu yapar. (E) ikisini de olumlu yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-2-q05",
+      "kind": "restatement",
+      "order": 4,
+      "prompt": "Little did they realise how serious the situation was.",
+      "options": [
+        "They realised at once how serious the situation was.",
+        "They realised how little the situation mattered.",
+        "The situation was not serious, so they did not realise it.",
+        "They realised that the situation was somewhat serious.",
+        "They did not realise how serious the situation was."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Little did they realise» olumsuz anlamlıdır: durumun ciddiyetini fark etmediler: (E). (A) hemen fark ettiklerini söyler. (B) önemsiz olduğunu fark ettiklerini söyler. (C) durumun ciddi olmadığını söyler. (D) ciddiyetin kısmen fark edildiğini söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-2-q06",
+      "kind": "restatement",
+      "order": 5,
+      "prompt": "Unlike her predecessor, the new director welcomes criticism.",
+      "options": [
+        "The new director welcomes criticism, just as her predecessor did.",
+        "The new director welcomes criticism, whereas her predecessor did not.",
+        "The new director does not welcome criticism, unlike her predecessor.",
+        "Her predecessor welcomed criticism, whereas the new director does not.",
+        "The new director welcomes criticism because her predecessor did."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Unlike» zıtlık kurar: yeni müdür eleştiriyi karşılar, selefi karşılamazdı: (B). (A) benzerlik kurar. (C) ve (D) yeni müdürün tutumunu tersine çevirir. (E) nedeni selefin tutumu yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-2-q07",
+      "kind": "restatement",
+      "order": 6,
+      "prompt": "The trial was postponed owing to the illness of the judge.",
+      "options": [
+        "The trial was postponed because the judge was ill.",
+        "The judge was ill because the trial was postponed.",
+        "The trial was postponed although the judge was ill.",
+        "The trial was postponed after the judge recovered.",
+        "The trial took place despite the judge's illness."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Owing to» neden bildirir: yargıç hasta olduğu için duruşma ertelendi: (A). (B) neden ile sonucu tersine çevirir. (C) nedeni karşıtlığa çevirir. (D) ertelemeyi iyileşmeden sonraya taşır. (E) duruşmanın yapıldığını söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-restatement-2-q08",
+      "kind": "restatement",
+      "order": 7,
+      "prompt": "By the time the ambulance arrived, the patient had already recovered.",
+      "options": [
+        "The patient recovered after the ambulance arrived.",
+        "The ambulance arrived before the patient recovered.",
+        "The patient had recovered before the ambulance arrived.",
+        "The patient recovered because the ambulance arrived.",
+        "The patient had not recovered when the ambulance arrived."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«By the time ... had already recovered» iyileşmenin varıştan önce olduğunu söyler: (C). (A) sırayı tersine çevirir. (B) varışı iyileşmeden önceye alır. (D) iyileşmeyi ambulansın varışına bağlar. (E) iyileşmediğini söyler.",
+      "passageID": null
+    }
+  ]
+}
