@@ -21,16 +21,16 @@
       "id": "yds-exam-translation-tr-en-2-q01",
       "kind": "translation",
       "order": 0,
-      "prompt": "Eğer fon zamanında onaylansaydı, proje şimdiye kadar tamamlanmış olurdu.",
+      "prompt": "Eğer bina yönetmeliğe uygun yapılsaydı, depremde bu kadar hasar görmezdi.",
       "options": [
-        "If the funding is approved on time, the project will be completed by now.",
-        "If the funding had been approved on time, the project would not have been completed by now.",
-        "If the funding had been approved on time, the project would have been completed by now.",
-        "If the project had been completed on time, the funding would have been approved by now.",
-        "Unless the funding had been approved on time, the project would have been completed by now."
+        "If the building is built according to the regulations, it will not be damaged so badly in the earthquake.",
+        "If the building had been built according to the regulations, it would have been damaged so badly in the earthquake.",
+        "If the building had been built according to the regulations, it would not have been damaged so badly in the earthquake.",
+        "If the building had not been damaged so badly in the earthquake, it would have been built according to the regulations.",
+        "Unless the building had been built according to the regulations, it would not have been damaged so badly in the earthquake."
       ],
       "correctIndex": 2,
-      "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul kullanılır: had been approved ... would have been completed: (C). (A) gerçek koşula ve geleceğe çevirir. (B) sonucu olumsuz yapar. (D) neden ile sonucu yer değiştirir. (E) «unless» ile koşulu tersine çevirir.",
+      "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul: bina yönetmeliğe uygun yapılmadı, bu yüzden ağır hasar gördü: had been built ... would not have been damaged: (C). (A) gerçek koşula ve geleceğe çevirir. (B) sonucu olumlu yapar. (D) neden ile sonucu yer değiştirir. (E) «unless» ile koşulu tersine çevirir.",
       "passageID": null
     },
     {
@@ -42,11 +42,11 @@
         "This drug should not be used without a doctor's advice.",
         "This drug should not have been used without a doctor's advice.",
         "This drug must be used without a doctor's advice.",
-        "This drug does not use a doctor's advice.",
+        "This drug should not be used instead of a doctor's advice.",
         "This drug should not be used with a doctor's advice."
       ],
       "correctIndex": 0,
-      "explanationTR": "«Kullanılmamalıdır» edilgen ve tavsiye/zorunluluk bildirir: should not be used; «olmadan» = without: (A). (B) geçmişe dönük eleştiri kurar. (C) zorunluluğu «tavsiyesiz kullanmak»a çevirir. (D) edilgeni etkene çevirir. (E) «without» yerine «with» der.",
+      "explanationTR": "«Kullanılmamalıdır» edilgen ve tavsiye/zorunluluk bildirir: should not be used; «olmadan» = without: (A). (B) geçmişe dönük eleştiri kurar. (C) zorunluluğu «tavsiyesiz kullanmak»a çevirir. (D) «olmadan» yerine «-in yerine» anlamı katar. (E) «without» yerine «with» der.",
       "passageID": null
     },
     {
@@ -58,11 +58,11 @@
         "It was understood years earlier that the results had been misinterpreted.",
         "It was understood only years later that the results had been misinterpreted.",
         "It was understood only years later that the results had been interpreted correctly.",
-        "Only years later did the results misinterpret the researchers.",
+        "Only years later were the results misinterpreted by the researchers.",
         "It has been understood only years later that the results are being misinterpreted."
       ],
       "correctIndex": 1,
-      "explanationTR": "«Ancak yıllar sonra» = only years later ve yorumlama önceden gerçekleşmiştir (past perfect): (B). (A) zamanı «yıllar önce»ye çevirir. (C) ve (D) ile (E) anlamı ya da zamanı bozar.",
+      "explanationTR": "«Ancak yıllar sonra» = only years later ve yorumlama önceden gerçekleşmiştir (past perfect): (B). (A) zamanı «yıllar önce»ye çevirir. (C) sonuçların doğru yorumlandığını söyler. (D) yanlış yorumlamayı yıllar sonraya taşır. (E) zamanı present perfect ve sürerliğe çevirir.",
       "passageID": null
     },
     {
@@ -89,12 +89,12 @@
       "options": [
         "Everyone fully understood what the speaker had said.",
         "No one fully understood what the speaker would say.",
-        "The speaker fully understood what no one had said.",
-        "No one understood the speaker fully, who had said nothing.",
+        "Someone fully understood what the speaker had said.",
+        "Not everyone fully understood what the speaker had said.",
         "No one fully understood what the speaker had said."
       ],
       "correctIndex": 4,
-      "explanationTR": "«Kimse ... anlamadı» = no one understood; söylenen önceden olmuştur (had said): (E). (A) herkesin anladığını söyler. (B) söylenecekleri konu eder. (C) özneleri karıştırır. (D) konuşmacının hiçbir şey söylemediğini ekler.",
+      "explanationTR": "«Kimse ... anlamadı» = no one understood; söylenen önceden olmuştur (had said): (E). (A) herkesin anladığını söyler. (B) söylenecekleri konu eder. (C) birinin anladığını söyler. (D) «kimse» yerine «herkes değil» diyerek kısmi olumsuzluğa çevirir.",
       "passageID": null
     },
     {
@@ -105,12 +105,12 @@
       "options": [
         "The construction of the dam was postponed because of the reaction of the local people.",
         "The construction of the dam was postponed in spite of the reaction of the local people.",
-        "The local people postponed the construction of the dam because of its reaction.",
+        "The local people postponed the construction of the dam because of the government.",
         "The construction of the dam is being postponed because of the local people.",
         "The reaction of the local people was postponed because of the construction of the dam."
       ],
       "correctIndex": 0,
-      "explanationTR": "«Nedeniyle» = because of ve yapım ertelenendir (edilgen): (A). (B) nedeni karşıtlığa çevirir. (C) edilgeni etkene çevirir. (D) zamanı sürerliğe çevirir. (E) neden ile sonucu yer değiştirir.",
+      "explanationTR": "«Nedeniyle» = because of ve yapım ertelenendir (edilgen): (A). (B) nedeni karşıtlığa çevirir. (C) ertelemeyi yerel halka yükler ve nedeni hükümete çevirir. (D) zamanı sürerliğe çevirir. (E) neden ile sonucu yer değiştirir.",
       "passageID": null
     },
     {
@@ -122,11 +122,11 @@
         "It was agreed at the meeting that the budget should be increased.",
         "It was agreed at the meeting that the budget had been reduced.",
         "It was agreed at the meeting that the budget should be reduced.",
-        "The budget agreed at the meeting that it should be reduced.",
+        "It was agreed at the meeting that the budget could be reduced.",
         "It was agreed after the meeting that the budget should be reduced."
       ],
       "correctIndex": 2,
-      "explanationTR": "«Uzlaşıldı» edilgen; «azaltılması gerektiği» = should be reduced: (C). (A) azaltmayı artırmaya çevirir. (B) gerekliliği tamamlanmış işe çevirir. (D) özneyi bütçeye çevirir. (E) «toplantıda» yerine «toplantıdan sonra» der.",
+      "explanationTR": "«Uzlaşıldı» edilgen; «azaltılması gerektiği» = should be reduced: (C). (A) azaltmayı artırmaya çevirir. (B) gerekliliği tamamlanmış işe çevirir. (D) «gerektiği» yerine olasılık bildiren «could» der. (E) «toplantıda» yerine «toplantıdan sonra» der.",
       "passageID": null
     },
     {
@@ -137,12 +137,12 @@
       "options": [
         "The board that made the decision was refused a response to the criticism.",
         "The board that made the decision agreed to respond to the criticism.",
-        "The decision that made the board refused to respond to the criticism.",
+        "The board that made the decision was unable to respond to the criticism.",
         "The board that made the decision refused to respond to the criticism.",
         "The board that makes the decision refuses to respond to the criticism."
       ],
       "correctIndex": 3,
-      "explanationTR": "«Kararı veren kurul» = the board that made the decision; «reddetti» = refused (geçmiş): (D). (A) edilgen yapar. (B) reddi kabule çevirir. (C) özneleri karıştırır. (E) zamanı şimdiye çevirir.",
+      "explanationTR": "«Kararı veren kurul» = the board that made the decision; «reddetti» = refused (geçmiş): (D). (A) edilgen yapar. (B) reddi kabule çevirir. (C) reddetmeyi yapamamaya çevirir. (E) zamanı şimdiye çevirir.",
       "passageID": null
     }
   ]

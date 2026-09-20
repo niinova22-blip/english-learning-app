@@ -25,12 +25,12 @@
       "options": [
         "The new incentives announced by the government are intended to make it easier for small businesses to export.",
         "The new incentives announced by the government have made it impossible for small businesses to export.",
-        "The government announced that small businesses would export the new incentives.",
-        "The new incentives aim to help the government export more to small businesses.",
-        "Small businesses announced new incentives that would make exporting easier for the government."
+        "The new incentives announced by the government are intended to make it easier for large companies to export.",
+        "The new incentives announced by the government are intended to make it easier for small businesses to import.",
+        "The new incentives announced by the government will be introduced only after small businesses have started to export."
       ],
       "correctIndex": 0,
-      "explanationTR": "«Açıkladığı yeni teşvikler» = the new incentives announced by the government; «amaçlıyor» = are intended to; «kolaylaştırmayı» = make it easier: (A). (B) ihracatı imkânsız kılar, anlam tersine döner. (C) teşviklerin ihraç edildiğini söyler. (D) ve (E) özneleri karıştırır: ihracat yapan küçük işletmelerdir, hükümet değil.",
+      "explanationTR": "«Açıkladığı yeni teşvikler» = the new incentives announced by the government; «amaçlıyor» = are intended to; «kolaylaştırmayı» = make it easier: (A). (B) ihracatı imkânsız kılar, anlam tersine döner. (C) hedef kitleyi büyük şirketlere çevirir. (D) ihracat yerine ithalatı konu eder. (E) amacı bir ön koşula çevirir.",
       "passageID": null
     },
     {
@@ -58,11 +58,11 @@
         "The government took measures after prices had risen.",
         "The government took measures to make prices rise.",
         "The government took measures to prevent prices from rising.",
-        "Prices took measures to prevent the government from rising.",
+        "The government took measures to prevent wages from rising.",
         "The government has taken no measures to prevent prices from rising."
       ],
       "correctIndex": 2,
-      "explanationTR": "«Önlemek için» amaç bildirir: fiyat artışını önlemek amacıyla önlem aldı: (C). (A) zamanı ve amacı değiştirir. (B) amacı tersine çevirir. (D) özneleri karıştırır. (E) olumsuz yapar.",
+      "explanationTR": "«Önlemek için» amaç bildirir: fiyat artışını önlemek amacıyla önlem aldı: (C). (A) zamanı ve amacı değiştirir. (B) amacı tersine çevirir. (D) fiyatlar yerine ücretlerin artışını önlemeyi söyler. (E) olumsuz yapar.",
       "passageID": null
     },
     {
@@ -137,12 +137,12 @@
       "options": [
         "The new library will serve either students or the local community.",
         "The new library served both students and the local community.",
-        "Both students and the local community will serve the new library.",
+        "The new library will serve neither students nor the local community.",
         "The new library will serve both students and the local community.",
         "The new library will serve only the local community, not students."
       ],
       "correctIndex": 3,
-      "explanationTR": "«Hem ... hem de» = both ... and; «edecek» gelecek zamandır: (D). (A) «both ... and» yerine «either ... or» der. (B) zamanı geçmişe çevirir. (C) özneyle nesneyi tersine çevirir. (E) öğrencileri dışlar.",
+      "explanationTR": "«Hem ... hem de» = both ... and; «edecek» gelecek zamandır: (D). (A) «both ... and» yerine «either ... or» der. (B) zamanı geçmişe çevirir. (C) her iki kitleyi de dışlar. (E) öğrencileri dışlar.",
       "passageID": null
     }
   ]

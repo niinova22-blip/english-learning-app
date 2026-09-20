@@ -12159,7 +12159,7 @@
               "prompt": "Most economists believe that inflation is likely to fall gradually over the coming months.",
               "options": [
                 "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda kademeli olarak düşmesinin olası olduğuna inanıyor.",
-                "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda hızla yükseleceğine inanıyor.",
+                "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda kademeli olarak yükselmesinin olası olduğuna inanıyor.",
                 "Bazı iktisatçılar, enflasyonun önümüzdeki aylarda kademeli olarak düşeceğini kesin biliyor.",
                 "Çoğu iktisatçı, enflasyonun geçtiğimiz aylarda kademeli olarak düştüğüne inanıyor.",
                 "Çoğu iktisatçı, enflasyonun önümüzdeki aylarda kademeli düşmesinin olası olmadığını düşünüyor."
@@ -12373,13 +12373,13 @@
               "prompt": "The students who had prepared thoroughly were allowed to take the exam a week early.",
               "options": [
                 "İyice hazırlanmış olan öğrencilerin sınava bir hafta erken girmesine izin verildi.",
-                "İyice hazırlanmış olan öğrenciler sınava bir hafta erken girmesine izin verdi.",
+                "İyice hazırlanmış olan öğrenciler, sınava bir hafta erken girmeyi kabul etti.",
                 "İyice hazırlanmamış olan öğrencilerin sınava bir hafta erken girmesine izin verildi.",
                 "İyice hazırlanmış olan öğrencilerin sınava bir hafta geç girmesine izin verildi.",
                 "Sınava bir hafta erken giren öğrencilerin iyice hazırlanmış olması gerekiyordu."
               ],
               "correctIndex": 0,
-              "explanationTR": "«Were allowed» edilgendir: öğrencilere izin verildi: (A). (B) edilgeni etkene çevirir. (C) hazırlanmayanları konu eder. (D) «erken» yerine «geç» der. (E) izni bir koşula çevirir.",
+              "explanationTR": "«Were allowed» edilgendir: öğrencilere izin verildi: (A). (B) izin verilmesini öğrencilerin girmeyi kabul etmesine çevirir. (C) hazırlanmayanları konu eder. (D) «erken» yerine «geç» der. (E) izni bir koşula çevirir.",
               "passageID": null
             },
             {
@@ -12388,14 +12388,14 @@
               "order": 6,
               "prompt": "Several of the participants were unable to complete the questionnaire in the time available.",
               "options": [
-                "Katılımcıların tümü anketi mevcut sürede tamamladı.",
-                "Katılımcılardan birkaçı anketi mevcut sürede tamamlayabildi.",
-                "Katılımcılardan birkaçı anketi mevcut sürede tamamlayamadı.",
-                "Anketi hazırlayanlar mevcut sürede katılımcıları tamamlayamadı.",
-                "Katılımcılardan birkaçı anketi mevcut sürede tamamlayamayacak."
+                "Katılımcıların tümü anketi eldeki sürede tamamladı.",
+                "Katılımcılardan birkaçı anketi eldeki sürede tamamlayabildi.",
+                "Katılımcılardan birkaçı anketi eldeki sürede tamamlayamadı.",
+                "Katılımcılardan birkaçı anketi eldeki sürede tamamlamak istemedi.",
+                "Katılımcılardan birkaçı anketi eldeki sürede tamamlayamayacak."
               ],
               "correctIndex": 2,
-              "explanationTR": "«Several ... were unable to complete» bir kısmın tamamlayamadığını söyler: (C). (A) herkesin tamamladığını söyler. (B) olumsuzu olumluya çevirir. (D) özneleri karıştırır. (E) zamanı geleceğe çevirir.",
+              "explanationTR": "«Several ... were unable to complete» bir kısmın tamamlayamadığını söyler: (C). (A) herkesin tamamladığını söyler. (B) olumsuzu olumluya çevirir. (D) yapamamayı istememeye çevirir. (E) zamanı geleceğe çevirir.",
               "passageID": null
             },
             {
@@ -12444,12 +12444,12 @@
               "options": [
                 "Politika yapıcılar, uyguladıkları bir önlemin kimsenin istemediği sonuçlar doğurduğunu nadiren kabul eder.",
                 "Politika yapıcılar, uyguladıkları önlemlerin kimsenin istemediği sonuçlar doğurmasını sık sık kabul eder.",
-                "Politika yapıcıların uyguladığı önlemler, nadiren de olsa istenen sonuçları doğurmuştur.",
-                "Kimsenin istemediği sonuçlar doğuran önlemleri politika yapıcılar hemen geri çeker.",
+                "Politika yapıcılar, uyguladıkları bir önlemin nadiren de olsa istenen sonuçlar doğurduğunu kabul eder.",
+                "Politika yapıcılar, kimsenin istemediği sonuçlar doğuran bir önlemi fark edince hemen geri çeker.",
                 "Politika yapıcılar, önlemlerin sonuçlarını daha önce kimsenin bilmediğini nadiren kabul eder."
               ],
               "correctIndex": 0,
-              "explanationTR": "«Rarely do ...» devrik yapısı «nadiren» demektir ve kabul etme sıklığını olumsuzlar; «had consequences that no one intended» ise «kimsenin istemediği sonuçlar doğurduğunu» verir: (A). (B) sıklığı tersine çevirip «sık sık» der. (C) sonuçların istenen sonuçlar olduğunu söyler. (D) önlemlerin hemen geri çekildiğini ekler. (E) bilgi eksikliğini anlatır, istenmeyen sonucu değil.",
+              "explanationTR": "«Rarely do ...» devrik yapısı «nadiren» demektir ve kabul etme sıklığını olumsuzlar; «had consequences that no one intended» ise «kimsenin istemediği sonuçlar doğurduğunu» verir: (A). (B) sıklığı tersine çevirip «sık sık» der. (C) önlemin nadiren de olsa istenen sonuçlar doğurduğunu söyler. (D) önlemlerin hemen geri çekildiğini ekler. (E) bilgi eksikliğini anlatır, istenmeyen sonucu değil.",
               "passageID": null
             },
             {
@@ -12462,10 +12462,10 @@
                 "Her başvuru sahibinin formu son tarihten önce posta yoluyla teslim etmesi şarttır.",
                 "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi şarttır.",
                 "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi isteğe bağlıdır.",
-                "Formu son tarihten önce şahsen teslim eden başvuru sahibi şarttır."
+                "Her başvuru sahibinin formu son tarihten önce şahsen ya da vekiliyle teslim etmesi şarttır."
               ],
               "correctIndex": 2,
-              "explanationTR": "«It is essential that ... submit» bir zorunluluktur ve «in person» şahsen teslimi belirtir: (C). (A) zamanı geçmişe ve son tarihten sonraya çevirir. (B) teslim biçimini postaya çevirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) cümlenin anlamını bozar.",
+              "explanationTR": "«It is essential that ... submit» bir zorunluluktur ve «in person» şahsen teslimi belirtir: (C). (A) zamanı geçmişe ve son tarihten sonraya çevirir. (B) teslim biçimini postaya çevirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) şahsen teslimi vekille teslime de açar.",
               "passageID": null
             },
             {
@@ -12541,8 +12541,8 @@
                 "Halk ne kadar çok bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar azalır.",
                 "Halk ne kadar çok bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar artar.",
                 "Halk ne kadar az bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar azalır.",
-                "Halk tek bir kaynağa ne kadar çok güvenirse, o kadar çok bilgi alır.",
-                "Halk çok bilgi aldığı için hiçbir kaynağa güvenmez."
+                "Halk tek bir kaynağa ne kadar çok güvenirse, o kadar çok bilgi alma olasılığı artar.",
+                "Halk çok fazla bilgi aldığı için artık hiçbir kaynağa güvenmiyor, hepsini reddediyor."
               ],
               "correctIndex": 0,
               "explanationTR": "«The more ..., the less ...» orantılı bir ilişkidir: bilgi arttıkça güven olasılığı azalır: (A). (B) yönü tersine çevirir. (C) bilginin azalmasını koşul yapar. (D) neden-sonucu tersine çevirir. (E) ilişkiyi mutlak bir yargıya çevirir.",
@@ -12594,12 +12594,12 @@
               "options": [
                 "The new incentives announced by the government are intended to make it easier for small businesses to export.",
                 "The new incentives announced by the government have made it impossible for small businesses to export.",
-                "The government announced that small businesses would export the new incentives.",
-                "The new incentives aim to help the government export more to small businesses.",
-                "Small businesses announced new incentives that would make exporting easier for the government."
+                "The new incentives announced by the government are intended to make it easier for large companies to export.",
+                "The new incentives announced by the government are intended to make it easier for small businesses to import.",
+                "The new incentives announced by the government will be introduced only after small businesses have started to export."
               ],
               "correctIndex": 0,
-              "explanationTR": "«Açıkladığı yeni teşvikler» = the new incentives announced by the government; «amaçlıyor» = are intended to; «kolaylaştırmayı» = make it easier: (A). (B) ihracatı imkânsız kılar, anlam tersine döner. (C) teşviklerin ihraç edildiğini söyler. (D) ve (E) özneleri karıştırır: ihracat yapan küçük işletmelerdir, hükümet değil.",
+              "explanationTR": "«Açıkladığı yeni teşvikler» = the new incentives announced by the government; «amaçlıyor» = are intended to; «kolaylaştırmayı» = make it easier: (A). (B) ihracatı imkânsız kılar, anlam tersine döner. (C) hedef kitleyi büyük şirketlere çevirir. (D) ihracat yerine ithalatı konu eder. (E) amacı bir ön koşula çevirir.",
               "passageID": null
             },
             {
@@ -12627,11 +12627,11 @@
                 "The government took measures after prices had risen.",
                 "The government took measures to make prices rise.",
                 "The government took measures to prevent prices from rising.",
-                "Prices took measures to prevent the government from rising.",
+                "The government took measures to prevent wages from rising.",
                 "The government has taken no measures to prevent prices from rising."
               ],
               "correctIndex": 2,
-              "explanationTR": "«Önlemek için» amaç bildirir: fiyat artışını önlemek amacıyla önlem aldı: (C). (A) zamanı ve amacı değiştirir. (B) amacı tersine çevirir. (D) özneleri karıştırır. (E) olumsuz yapar.",
+              "explanationTR": "«Önlemek için» amaç bildirir: fiyat artışını önlemek amacıyla önlem aldı: (C). (A) zamanı ve amacı değiştirir. (B) amacı tersine çevirir. (D) fiyatlar yerine ücretlerin artışını önlemeyi söyler. (E) olumsuz yapar.",
               "passageID": null
             },
             {
@@ -12706,12 +12706,12 @@
               "options": [
                 "The new library will serve either students or the local community.",
                 "The new library served both students and the local community.",
-                "Both students and the local community will serve the new library.",
+                "The new library will serve neither students nor the local community.",
                 "The new library will serve both students and the local community.",
                 "The new library will serve only the local community, not students."
               ],
               "correctIndex": 3,
-              "explanationTR": "«Hem ... hem de» = both ... and; «edecek» gelecek zamandır: (D). (A) «both ... and» yerine «either ... or» der. (B) zamanı geçmişe çevirir. (C) özneyle nesneyi tersine çevirir. (E) öğrencileri dışlar.",
+              "explanationTR": "«Hem ... hem de» = both ... and; «edecek» gelecek zamandır: (D). (A) «both ... and» yerine «either ... or» der. (B) zamanı geçmişe çevirir. (C) her iki kitleyi de dışlar. (E) öğrencileri dışlar.",
               "passageID": null
             }
           ]
@@ -12740,16 +12740,16 @@
               "id": "yds-exam-translation-tr-en-2-q01",
               "kind": "translation",
               "order": 0,
-              "prompt": "Eğer fon zamanında onaylansaydı, proje şimdiye kadar tamamlanmış olurdu.",
+              "prompt": "Eğer bina yönetmeliğe uygun yapılsaydı, depremde bu kadar hasar görmezdi.",
               "options": [
-                "If the funding is approved on time, the project will be completed by now.",
-                "If the funding had been approved on time, the project would not have been completed by now.",
-                "If the funding had been approved on time, the project would have been completed by now.",
-                "If the project had been completed on time, the funding would have been approved by now.",
-                "Unless the funding had been approved on time, the project would have been completed by now."
+                "If the building is built according to the regulations, it will not be damaged so badly in the earthquake.",
+                "If the building had been built according to the regulations, it would have been damaged so badly in the earthquake.",
+                "If the building had been built according to the regulations, it would not have been damaged so badly in the earthquake.",
+                "If the building had not been damaged so badly in the earthquake, it would have been built according to the regulations.",
+                "Unless the building had been built according to the regulations, it would not have been damaged so badly in the earthquake."
               ],
               "correctIndex": 2,
-              "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul kullanılır: had been approved ... would have been completed: (C). (A) gerçek koşula ve geleceğe çevirir. (B) sonucu olumsuz yapar. (D) neden ile sonucu yer değiştirir. (E) «unless» ile koşulu tersine çevirir.",
+              "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul: bina yönetmeliğe uygun yapılmadı, bu yüzden ağır hasar gördü: had been built ... would not have been damaged: (C). (A) gerçek koşula ve geleceğe çevirir. (B) sonucu olumlu yapar. (D) neden ile sonucu yer değiştirir. (E) «unless» ile koşulu tersine çevirir.",
               "passageID": null
             },
             {
@@ -12761,11 +12761,11 @@
                 "This drug should not be used without a doctor's advice.",
                 "This drug should not have been used without a doctor's advice.",
                 "This drug must be used without a doctor's advice.",
-                "This drug does not use a doctor's advice.",
+                "This drug should not be used instead of a doctor's advice.",
                 "This drug should not be used with a doctor's advice."
               ],
               "correctIndex": 0,
-              "explanationTR": "«Kullanılmamalıdır» edilgen ve tavsiye/zorunluluk bildirir: should not be used; «olmadan» = without: (A). (B) geçmişe dönük eleştiri kurar. (C) zorunluluğu «tavsiyesiz kullanmak»a çevirir. (D) edilgeni etkene çevirir. (E) «without» yerine «with» der.",
+              "explanationTR": "«Kullanılmamalıdır» edilgen ve tavsiye/zorunluluk bildirir: should not be used; «olmadan» = without: (A). (B) geçmişe dönük eleştiri kurar. (C) zorunluluğu «tavsiyesiz kullanmak»a çevirir. (D) «olmadan» yerine «-in yerine» anlamı katar. (E) «without» yerine «with» der.",
               "passageID": null
             },
             {
@@ -12777,11 +12777,11 @@
                 "It was understood years earlier that the results had been misinterpreted.",
                 "It was understood only years later that the results had been misinterpreted.",
                 "It was understood only years later that the results had been interpreted correctly.",
-                "Only years later did the results misinterpret the researchers.",
+                "Only years later were the results misinterpreted by the researchers.",
                 "It has been understood only years later that the results are being misinterpreted."
               ],
               "correctIndex": 1,
-              "explanationTR": "«Ancak yıllar sonra» = only years later ve yorumlama önceden gerçekleşmiştir (past perfect): (B). (A) zamanı «yıllar önce»ye çevirir. (C) ve (D) ile (E) anlamı ya da zamanı bozar.",
+              "explanationTR": "«Ancak yıllar sonra» = only years later ve yorumlama önceden gerçekleşmiştir (past perfect): (B). (A) zamanı «yıllar önce»ye çevirir. (C) sonuçların doğru yorumlandığını söyler. (D) yanlış yorumlamayı yıllar sonraya taşır. (E) zamanı present perfect ve sürerliğe çevirir.",
               "passageID": null
             },
             {
@@ -12808,12 +12808,12 @@
               "options": [
                 "Everyone fully understood what the speaker had said.",
                 "No one fully understood what the speaker would say.",
-                "The speaker fully understood what no one had said.",
-                "No one understood the speaker fully, who had said nothing.",
+                "Someone fully understood what the speaker had said.",
+                "Not everyone fully understood what the speaker had said.",
                 "No one fully understood what the speaker had said."
               ],
               "correctIndex": 4,
-              "explanationTR": "«Kimse ... anlamadı» = no one understood; söylenen önceden olmuştur (had said): (E). (A) herkesin anladığını söyler. (B) söylenecekleri konu eder. (C) özneleri karıştırır. (D) konuşmacının hiçbir şey söylemediğini ekler.",
+              "explanationTR": "«Kimse ... anlamadı» = no one understood; söylenen önceden olmuştur (had said): (E). (A) herkesin anladığını söyler. (B) söylenecekleri konu eder. (C) birinin anladığını söyler. (D) «kimse» yerine «herkes değil» diyerek kısmi olumsuzluğa çevirir.",
               "passageID": null
             },
             {
@@ -12824,12 +12824,12 @@
               "options": [
                 "The construction of the dam was postponed because of the reaction of the local people.",
                 "The construction of the dam was postponed in spite of the reaction of the local people.",
-                "The local people postponed the construction of the dam because of its reaction.",
+                "The local people postponed the construction of the dam because of the government.",
                 "The construction of the dam is being postponed because of the local people.",
                 "The reaction of the local people was postponed because of the construction of the dam."
               ],
               "correctIndex": 0,
-              "explanationTR": "«Nedeniyle» = because of ve yapım ertelenendir (edilgen): (A). (B) nedeni karşıtlığa çevirir. (C) edilgeni etkene çevirir. (D) zamanı sürerliğe çevirir. (E) neden ile sonucu yer değiştirir.",
+              "explanationTR": "«Nedeniyle» = because of ve yapım ertelenendir (edilgen): (A). (B) nedeni karşıtlığa çevirir. (C) ertelemeyi yerel halka yükler ve nedeni hükümete çevirir. (D) zamanı sürerliğe çevirir. (E) neden ile sonucu yer değiştirir.",
               "passageID": null
             },
             {
@@ -12841,11 +12841,11 @@
                 "It was agreed at the meeting that the budget should be increased.",
                 "It was agreed at the meeting that the budget had been reduced.",
                 "It was agreed at the meeting that the budget should be reduced.",
-                "The budget agreed at the meeting that it should be reduced.",
+                "It was agreed at the meeting that the budget could be reduced.",
                 "It was agreed after the meeting that the budget should be reduced."
               ],
               "correctIndex": 2,
-              "explanationTR": "«Uzlaşıldı» edilgen; «azaltılması gerektiği» = should be reduced: (C). (A) azaltmayı artırmaya çevirir. (B) gerekliliği tamamlanmış işe çevirir. (D) özneyi bütçeye çevirir. (E) «toplantıda» yerine «toplantıdan sonra» der.",
+              "explanationTR": "«Uzlaşıldı» edilgen; «azaltılması gerektiği» = should be reduced: (C). (A) azaltmayı artırmaya çevirir. (B) gerekliliği tamamlanmış işe çevirir. (D) «gerektiği» yerine olasılık bildiren «could» der. (E) «toplantıda» yerine «toplantıdan sonra» der.",
               "passageID": null
             },
             {
@@ -12856,12 +12856,12 @@
               "options": [
                 "The board that made the decision was refused a response to the criticism.",
                 "The board that made the decision agreed to respond to the criticism.",
-                "The decision that made the board refused to respond to the criticism.",
+                "The board that made the decision was unable to respond to the criticism.",
                 "The board that made the decision refused to respond to the criticism.",
                 "The board that makes the decision refuses to respond to the criticism."
               ],
               "correctIndex": 3,
-              "explanationTR": "«Kararı veren kurul» = the board that made the decision; «reddetti» = refused (geçmiş): (D). (A) edilgen yapar. (B) reddi kabule çevirir. (C) özneleri karıştırır. (E) zamanı şimdiye çevirir.",
+              "explanationTR": "«Kararı veren kurul» = the board that made the decision; «reddetti» = refused (geçmiş): (D). (A) edilgen yapar. (B) reddi kabule çevirir. (C) reddetmeyi yapamamaya çevirir. (E) zamanı şimdiye çevirir.",
               "passageID": null
             }
           ]
@@ -12892,14 +12892,14 @@
               "order": 0,
               "prompt": "Ancak fonlar aktarıldıktan sonra proje başlayabilecek.",
               "options": [
-                "Only after the funds have been transferred the project will be able to start.",
+                "Only after the funds have been transferred will the project be required to start.",
                 "Only after the project starts will the funds be transferred.",
                 "Only after the funds had been transferred would the project be able to start.",
                 "Only after the funds have been transferred will the project be able to start.",
                 "Not until the funds are transferred can the project not start."
               ],
               "correctIndex": 3,
-              "explanationTR": "«Only after ...» ile başlayan cümlede ana cümle devrik olur: will the project be able to start: (D). (A) devrik sırayı kullanmaz. (B) sırayı tersine çevirir. (C) zamanı geçmişe çevirir. (E) olumsuzluk ekleyerek anlamı bozar.",
+              "explanationTR": "«Only after ...» ile başlayan cümlede ana cümle devrik olur: will the project be able to start: (D). (A) «başlayabilecek» yerine zorunluluk bildirir. (B) sırayı tersine çevirir. (C) zamanı geçmişe çevirir. (E) olumsuzluk ekleyerek anlamı bozar.",
               "passageID": null
             },
             {
@@ -12909,13 +12909,13 @@
               "prompt": "Yöneticinin önerisinin kabul edilmesini herkes istiyordu.",
               "options": [
                 "Everyone wanted the manager to accept the proposal.",
-                "Everyone wanted the manager's proposal to have accepted.",
+                "Everyone wanted the manager's proposal to be considered.",
                 "The manager wanted everyone's proposal to be accepted.",
                 "Everyone did not want the manager's proposal to be accepted.",
                 "Everyone wanted the manager's proposal to be accepted."
               ],
               "correctIndex": 4,
-              "explanationTR": "«Kabul edilmesini» edilgen mastar gerektirir: to be accepted; kabul edilen öneridir: (E). (A) özneyi yöneticiye çevirir. (B) geçersiz bir yapı kurar. (C) isteyeni değiştirir. (D) olumsuz yapar.",
+              "explanationTR": "«Kabul edilmesini» edilgen mastar gerektirir: to be accepted; kabul edilen öneridir: (E). (A) özneyi yöneticiye çevirir. (B) «kabul» yerine «değerlendirme» der. (C) isteyeni değiştirir. (D) olumsuz yapar.",
               "passageID": null
             },
             {
@@ -12928,10 +12928,10 @@
                 "Nobody had expected that so much would be achieved in such a short time.",
                 "Nobody expected that so much had been achieved in such a short time.",
                 "Nobody had expected that so little would be achieved in such a short time.",
-                "Nobody has expected so much to achieve such a short time."
+                "Nobody had expected that so much would be achieved in such a long time."
               ],
               "correctIndex": 1,
-              "explanationTR": "«Hiç kimse beklemiyordu» olumsuz ve öncedendir: nobody had expected; başarı beklenen gelecektir (would be achieved): (B). (A) herkesi olumlu yapar. (C) zamanı karıştırır. (D) «çok» yerine «az» der. (E) yapıyı bozar.",
+              "explanationTR": "«Hiç kimse beklemiyordu» olumsuz ve öncedendir: nobody had expected; başarı beklenen gelecektir (would be achieved): (B). (A) herkesi olumlu yapar. (C) zamanı karıştırır. (D) «çok» yerine «az» der. (E) «kısa» yerine «uzun» der.",
               "passageID": null
             },
             {
@@ -12963,23 +12963,23 @@
                 "The students' success does not depend on the teachers' approach."
               ],
               "correctIndex": 2,
-              "explanationTR": "«Kısmen» = partly; «bağıdır» geniş zaman: (C). (A) «tamamen» der. (B) özneleri yer değiştirir. (D) zamanı geçmişe çevirir. (E) bağımlılığı inkâr eder.",
+              "explanationTR": "«Kısmen» = partly; «bağlıdır» geniş zaman: (C). (A) «tamamen» der. (B) özneleri yer değiştirir. (D) zamanı geçmişe çevirir. (E) bağımlılığı inkâr eder.",
               "passageID": null
             },
             {
               "id": "yds-exam-translation-tr-en-3-q06",
               "kind": "translation",
               "order": 5,
-              "prompt": "Yağmur yağmasaydı, maç iptal edilmeyecekti.",
+              "prompt": "Yağmur yağmasaydı, maç iptal edilmezdi.",
               "options": [
                 "If it does not rain, the match will not be cancelled.",
                 "If it had rained, the match would not have been cancelled.",
                 "If the match had not been cancelled, it would not have rained.",
                 "If it had not rained, the match would not have been cancelled.",
-                "Unless it had rained, the match would not have been cancelled."
+                "If it had not rained, the match would have been cancelled."
               ],
               "correctIndex": 3,
-              "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul: had not rained ... would not have been cancelled: (D). (A) gerçek koşula ve geleceğe çevirir. (B) yağmurun yağdığını varsayar. (C) neden ile sonucu yer değiştirir. (E) «unless» ile koşulu tersine çevirir.",
+              "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul: had not rained ... would not have been cancelled: (D). (A) gerçek koşula ve geleceğe çevirir. (B) yağmurun yağdığını varsayar. (C) neden ile sonucu yer değiştirir. (E) sonucu olumlu yapar (iptal edilirdi).",
               "passageID": null
             },
             {
@@ -12992,10 +12992,10 @@
                 "People from some parts of society agree that the reform is necessary.",
                 "People from every part of society agreed that the reform was unnecessary.",
                 "People from every part of society agree that the reform will be necessary.",
-                "Every reform of society agrees that people are necessary."
+                "People from every part of society agree that the reform is sufficient."
               ],
               "correctIndex": 0,
-              "explanationTR": "«Her kesiminden» = from every part; «hemfikir» geniş zaman; «gerekli» = necessary: (A). (B) «her kesim» yerine «bazı kesimler» der. (C) «gereksiz» diyerek anlamı tersine çevirir. (D) zamanı geleceğe çevirir. (E) özneleri karıştırır.",
+              "explanationTR": "«Her kesiminden» = from every part; «hemfikir» geniş zaman; «gerekli» = necessary: (A). (B) «her kesim» yerine «bazı kesimler» der. (C) «gereksiz» diyerek anlamı tersine çevirir. (D) zamanı geleceğe çevirir. (E) «gerekli» yerine «yeterli» der.",
               "passageID": null
             },
             {
@@ -13007,11 +13007,11 @@
                 "According to the data released by the government, exports fell markedly compared with last year.",
                 "According to the data released by the government, exports rose slightly compared with last year.",
                 "According to the data released by the government, exports will rise markedly compared with last year.",
-                "According to the data released by the exporters, the government rose markedly compared with last year.",
+                "According to the data released by the government, imports rose markedly compared with last year.",
                 "According to the data released by the government, exports rose markedly compared with last year."
               ],
               "correctIndex": 4,
-              "explanationTR": "«Belirgin biçimde arttı» = rose markedly; «geçen yıla kıyasla» = compared with last year: (E). (A) artışı düşüşe çevirir. (B) «belirgin» yerine «hafif» der. (C) zamanı geleceğe çevirir. (D) özneleri karıştırır.",
+              "explanationTR": "«Belirgin biçimde arttı» = rose markedly; «geçen yıla kıyasla» = compared with last year: (E). (A) artışı düşüşe çevirir. (B) «belirgin» yerine «hafif» der. (C) zamanı geleceğe çevirir. (D) ihracat yerine ithalatı konu eder.",
               "passageID": null
             }
           ]
@@ -13081,7 +13081,7 @@
                 "All of the applicants had gained experience for the position."
               ],
               "correctIndex": 2,
-              "explanationTR": "«Few of the applicants had» = başvuranların çoğunda deneyim yoktu: (C). (A) «çoğu deneyimliydi» der. (B) ve (E) deneyim fazlalığına kayar. (D) hiçbirinde eksik olmadığını söyler.",
+              "explanationTR": "«Few of the applicants had» = başvuranların çoğunda deneyim yoktu: (C). (A) «çoğu deneyimliydi» der. (B) deneyim fazlalığına kayar. (D) hiçbirinde eksik olmadığını, yani hepsinde olduğunu söyler. (E) hepsinin deneyim kazandığını söyler.",
               "passageID": null
             },
             {
@@ -13106,7 +13106,7 @@
               "order": 4,
               "prompt": "The professor was so tired that she could hardly keep her eyes open.",
               "options": [
-                "The professor was so exhausted that she barely managed to stay awake.",
+                "The professor was so tired that she could barely stay awake.",
                 "The professor was tired enough to keep her eyes wide open.",
                 "The professor was so tired that she fell asleep at once.",
                 "The professor was too rested to close her eyes for long.",
@@ -13212,10 +13212,10 @@
                 "Protests began before the law was passed.",
                 "The law was passed as soon as protests began.",
                 "Protests began long after the law was passed.",
-                "Protests were passed as soon as the law began."
+                "The law was passed shortly after protests had ended."
               ],
               "correctIndex": 0,
-              "explanationTR": "«No sooner ... than» art arda gerçekleşen iki olayı anlatır: yasa kabul edilir edilmez protestolar başladı: (A). (B) sırayı tersine çevirir. (C) protestoları yasadan önceye alır. (D) zamanı «çok sonra»ya çevirir. (E) anlamsız bir özne kullanır.",
+              "explanationTR": "«No sooner ... than» art arda gerçekleşen iki olayı anlatır: yasa kabul edilir edilmez protestolar başladı: (A). (B) sırayı tersine çevirir. (C) protestoları yasadan önceye alır. (D) zamanı «çok sonra»ya çevirir. (E) yasanın protestoların bitmesinden sonra kabul edildiğini söyler.",
               "passageID": null
             },
             {
@@ -13440,12 +13440,12 @@
               "options": [
                 "The festival was cancelled because of the volunteers.",
                 "The festival was cancelled although the volunteers helped.",
-                "The volunteers cancelled the festival.",
+                "The volunteers were blamed when the festival was cancelled.",
                 "The festival went ahead because the volunteers helped.",
                 "The volunteers were not needed for the festival to go ahead."
               ],
               "correctIndex": 3,
-              "explanationTR": "«Had it not been for» gönüllüler olmasaydı iptal olacağını söyler: gönüllüler sayesinde festival yapıldı: (D). (A) iptali gönüllülere bağlar. (B) iptal edildiğini söyler. (C) iptali gönüllülerin yaptığını söyler. (E) gönüllülere gerek olmadığını söyler.",
+              "explanationTR": "«Had it not been for» gönüllüler olmasaydı iptal olacağını söyler: gönüllüler sayesinde festival yapıldı: (D). (A) iptali gönüllülere bağlar. (B) iptal edildiğini söyler. (C) gönüllüleri iptalin sorumlusu yapar. (E) gönüllülere gerek olmadığını söyler.",
               "passageID": null
             },
             {

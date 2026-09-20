@@ -62,7 +62,7 @@
         "All of the applicants had gained experience for the position."
       ],
       "correctIndex": 2,
-      "explanationTR": "«Few of the applicants had» = başvuranların çoğunda deneyim yoktu: (C). (A) «çoğu deneyimliydi» der. (B) ve (E) deneyim fazlalığına kayar. (D) hiçbirinde eksik olmadığını söyler.",
+      "explanationTR": "«Few of the applicants had» = başvuranların çoğunda deneyim yoktu: (C). (A) «çoğu deneyimliydi» der. (B) deneyim fazlalığına kayar. (D) hiçbirinde eksik olmadığını, yani hepsinde olduğunu söyler. (E) hepsinin deneyim kazandığını söyler.",
       "passageID": null
     },
     {
@@ -87,7 +87,7 @@
       "order": 4,
       "prompt": "The professor was so tired that she could hardly keep her eyes open.",
       "options": [
-        "The professor was so exhausted that she barely managed to stay awake.",
+        "The professor was so tired that she could barely stay awake.",
         "The professor was tired enough to keep her eyes wide open.",
         "The professor was so tired that she fell asleep at once.",
         "The professor was too rested to close her eyes for long.",

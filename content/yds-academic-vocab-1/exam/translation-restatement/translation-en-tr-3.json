@@ -25,12 +25,12 @@
       "options": [
         "Politika yapıcılar, uyguladıkları bir önlemin kimsenin istemediği sonuçlar doğurduğunu nadiren kabul eder.",
         "Politika yapıcılar, uyguladıkları önlemlerin kimsenin istemediği sonuçlar doğurmasını sık sık kabul eder.",
-        "Politika yapıcıların uyguladığı önlemler, nadiren de olsa istenen sonuçları doğurmuştur.",
-        "Kimsenin istemediği sonuçlar doğuran önlemleri politika yapıcılar hemen geri çeker.",
+        "Politika yapıcılar, uyguladıkları bir önlemin nadiren de olsa istenen sonuçlar doğurduğunu kabul eder.",
+        "Politika yapıcılar, kimsenin istemediği sonuçlar doğuran bir önlemi fark edince hemen geri çeker.",
         "Politika yapıcılar, önlemlerin sonuçlarını daha önce kimsenin bilmediğini nadiren kabul eder."
       ],
       "correctIndex": 0,
-      "explanationTR": "«Rarely do ...» devrik yapısı «nadiren» demektir ve kabul etme sıklığını olumsuzlar; «had consequences that no one intended» ise «kimsenin istemediği sonuçlar doğurduğunu» verir: (A). (B) sıklığı tersine çevirip «sık sık» der. (C) sonuçların istenen sonuçlar olduğunu söyler. (D) önlemlerin hemen geri çekildiğini ekler. (E) bilgi eksikliğini anlatır, istenmeyen sonucu değil.",
+      "explanationTR": "«Rarely do ...» devrik yapısı «nadiren» demektir ve kabul etme sıklığını olumsuzlar; «had consequences that no one intended» ise «kimsenin istemediği sonuçlar doğurduğunu» verir: (A). (B) sıklığı tersine çevirip «sık sık» der. (C) önlemin nadiren de olsa istenen sonuçlar doğurduğunu söyler. (D) önlemlerin hemen geri çekildiğini ekler. (E) bilgi eksikliğini anlatır, istenmeyen sonucu değil.",
       "passageID": null
     },
     {
@@ -43,10 +43,10 @@
         "Her başvuru sahibinin formu son tarihten önce posta yoluyla teslim etmesi şarttır.",
         "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi şarttır.",
         "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi isteğe bağlıdır.",
-        "Formu son tarihten önce şahsen teslim eden başvuru sahibi şarttır."
+        "Her başvuru sahibinin formu son tarihten önce şahsen ya da vekiliyle teslim etmesi şarttır."
       ],
       "correctIndex": 2,
-      "explanationTR": "«It is essential that ... submit» bir zorunluluktur ve «in person» şahsen teslimi belirtir: (C). (A) zamanı geçmişe ve son tarihten sonraya çevirir. (B) teslim biçimini postaya çevirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) cümlenin anlamını bozar.",
+      "explanationTR": "«It is essential that ... submit» bir zorunluluktur ve «in person» şahsen teslimi belirtir: (C). (A) zamanı geçmişe ve son tarihten sonraya çevirir. (B) teslim biçimini postaya çevirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) şahsen teslimi vekille teslime de açar.",
       "passageID": null
     },
     {
@@ -122,8 +122,8 @@
         "Halk ne kadar çok bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar azalır.",
         "Halk ne kadar çok bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar artar.",
         "Halk ne kadar az bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar azalır.",
-        "Halk tek bir kaynağa ne kadar çok güvenirse, o kadar çok bilgi alır.",
-        "Halk çok bilgi aldığı için hiçbir kaynağa güvenmez."
+        "Halk tek bir kaynağa ne kadar çok güvenirse, o kadar çok bilgi alma olasılığı artar.",
+        "Halk çok fazla bilgi aldığı için artık hiçbir kaynağa güvenmiyor, hepsini reddediyor."
       ],
       "correctIndex": 0,
       "explanationTR": "«The more ..., the less ...» orantılı bir ilişkidir: bilgi arttıkça güven olasılığı azalır: (A). (B) yönü tersine çevirir. (C) bilginin azalmasını koşul yapar. (D) neden-sonucu tersine çevirir. (E) ilişkiyi mutlak bir yargıya çevirir.",

@@ -121,12 +121,12 @@
       "options": [
         "The festival was cancelled because of the volunteers.",
         "The festival was cancelled although the volunteers helped.",
-        "The volunteers cancelled the festival.",
+        "The volunteers were blamed when the festival was cancelled.",
         "The festival went ahead because the volunteers helped.",
         "The volunteers were not needed for the festival to go ahead."
       ],
       "correctIndex": 3,
-      "explanationTR": "«Had it not been for» gönüllüler olmasaydı iptal olacağını söyler: gönüllüler sayesinde festival yapıldı: (D). (A) iptali gönüllülere bağlar. (B) iptal edildiğini söyler. (C) iptali gönüllülerin yaptığını söyler. (E) gönüllülere gerek olmadığını söyler.",
+      "explanationTR": "«Had it not been for» gönüllüler olmasaydı iptal olacağını söyler: gönüllüler sayesinde festival yapıldı: (D). (A) iptali gönüllülere bağlar. (B) iptal edildiğini söyler. (C) gönüllüleri iptalin sorumlusu yapar. (E) gönüllülere gerek olmadığını söyler.",
       "passageID": null
     },
     {

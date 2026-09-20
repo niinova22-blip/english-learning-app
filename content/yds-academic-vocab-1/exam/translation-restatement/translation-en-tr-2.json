@@ -104,13 +104,13 @@
       "prompt": "The students who had prepared thoroughly were allowed to take the exam a week early.",
       "options": [
         "İyice hazırlanmış olan öğrencilerin sınava bir hafta erken girmesine izin verildi.",
-        "İyice hazırlanmış olan öğrenciler sınava bir hafta erken girmesine izin verdi.",
+        "İyice hazırlanmış olan öğrenciler, sınava bir hafta erken girmeyi kabul etti.",
         "İyice hazırlanmamış olan öğrencilerin sınava bir hafta erken girmesine izin verildi.",
         "İyice hazırlanmış olan öğrencilerin sınava bir hafta geç girmesine izin verildi.",
         "Sınava bir hafta erken giren öğrencilerin iyice hazırlanmış olması gerekiyordu."
       ],
       "correctIndex": 0,
-      "explanationTR": "«Were allowed» edilgendir: öğrencilere izin verildi: (A). (B) edilgeni etkene çevirir. (C) hazırlanmayanları konu eder. (D) «erken» yerine «geç» der. (E) izni bir koşula çevirir.",
+      "explanationTR": "«Were allowed» edilgendir: öğrencilere izin verildi: (A). (B) izin verilmesini öğrencilerin girmeyi kabul etmesine çevirir. (C) hazırlanmayanları konu eder. (D) «erken» yerine «geç» der. (E) izni bir koşula çevirir.",
       "passageID": null
     },
     {
@@ -119,14 +119,14 @@
       "order": 6,
       "prompt": "Several of the participants were unable to complete the questionnaire in the time available.",
       "options": [
-        "Katılımcıların tümü anketi mevcut sürede tamamladı.",
-        "Katılımcılardan birkaçı anketi mevcut sürede tamamlayabildi.",
-        "Katılımcılardan birkaçı anketi mevcut sürede tamamlayamadı.",
-        "Anketi hazırlayanlar mevcut sürede katılımcıları tamamlayamadı.",
-        "Katılımcılardan birkaçı anketi mevcut sürede tamamlayamayacak."
+        "Katılımcıların tümü anketi eldeki sürede tamamladı.",
+        "Katılımcılardan birkaçı anketi eldeki sürede tamamlayabildi.",
+        "Katılımcılardan birkaçı anketi eldeki sürede tamamlayamadı.",
+        "Katılımcılardan birkaçı anketi eldeki sürede tamamlamak istemedi.",
+        "Katılımcılardan birkaçı anketi eldeki sürede tamamlayamayacak."
       ],
       "correctIndex": 2,
-      "explanationTR": "«Several ... were unable to complete» bir kısmın tamamlayamadığını söyler: (C). (A) herkesin tamamladığını söyler. (B) olumsuzu olumluya çevirir. (D) özneleri karıştırır. (E) zamanı geleceğe çevirir.",
+      "explanationTR": "«Several ... were unable to complete» bir kısmın tamamlayamadığını söyler: (C). (A) herkesin tamamladığını söyler. (B) olumsuzu olumluya çevirir. (D) yapamamayı istememeye çevirir. (E) zamanı geleceğe çevirir.",
       "passageID": null
     },
     {
