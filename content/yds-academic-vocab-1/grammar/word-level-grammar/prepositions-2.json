@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-prepositions-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Edatlar: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-prepositions-2",
+      "type": "grammarPoint",
+      "headword": "Prepositions (Traps)",
+      "frequencyRank": 2023,
+      "baseDifficulty": 0.6,
+      "definition": "Benzer kalıplar, edat almayan fiiller ve birleşik edatların tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "Edatlar: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Bu derste birbirine benzeyen kalıplar ve edat almayan fiiller sınanır.\n\n• result in (sonuç doğurmak) ↔ result from (sonucu olmak): The collapse resulted from poor risk management. effect on (isim) ↔ affect (fiil, edatsız). attribute X to Y ↔ blame Y for X.\n\n• Edat ALMAYAN fiiller: discuss, comprise, approach, enter, lack, emphasise. The committee will discuss the regulations (discuss about YANLIŞ).\n\n• Uyum fiilleri: comply with, conform to, adhere to, abide by.\n\n• Birleşik edatlar: regardless of, in terms of, in the wake of, at the expense of, in the absence of, on the grounds of, in accordance with, in response to, apart from, in line with. Bunlardan sonra ad ya da V-ing gelir; with a view to + V-ing.\n\nEn sık düşülen tuzak: gerçek bir kalıp olan ama bu cümlede başka bir isim ya da fiille kullanılan edatı seçmek.\n\nÖrnek: The government introduced the reform with a view to reducing the tax burden."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-prepositions-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The collapse of the bank resulted ---- years of poor risk management.",
+      "options": [
+        "in",
+        "of",
+        "to",
+        "from",
+        "on"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Çöküş, kötü risk yönetiminin SONUCUDUR; sonucun nedeni result from ile bağlanır. (A) result in kalıbı sonucun kendisini bağlar (resulted in a collapse). (B) of, (C) to ve (E) on bu fiille kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The committee will discuss ---- at its next meeting.",
+      "options": [
+        "the new safety regulations",
+        "about the new safety regulations",
+        "on the new safety regulations",
+        "over the new safety regulations",
+        "of the new safety regulations"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Discuss edat almaz; nesnesi doğrudan gelir: discuss the new safety regulations. (B) discuss about, (C) discuss on, (D) discuss over ve (E) discuss of öğrenenlerin sık yaptığı hatalardır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "All contractors must comply ---- the health and safety standards set by the ministry.",
+      "options": [
+        "to",
+        "by",
+        "with",
+        "for",
+        "of"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Comply with sabit bir kalıptır. (A) to conform ve adhere ile kullanılır. (B) by abide ile kullanılır. (D) for ve (E) of bu fiille kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "Members are expected to abide ---- the decisions of the committee.",
+      "options": [
+        "with",
+        "to",
+        "for",
+        "on",
+        "by"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Abide by sabit bir kalıptır (= uymak). (A) with comply ile kullanılır. (B) to conform ve adhere ile kullanılır. (C) for ve (D) on bu fiille kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The new tax is likely to have a considerable effect ---- household spending.",
+      "options": [
+        "to",
+        "on",
+        "for",
+        "of",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "An effect on + isim sabit bir kalıptır. (A) to, (C) for, (D) of ve (E) at bu isimle kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "---- the financial scandal, the minister was forced to resign.",
+      "options": [
+        "At the expense of",
+        "In terms of",
+        "With a view to",
+        "In the wake of",
+        "In the absence of"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "In the wake of = «-in ardından» ve bir olayı izleyen sonucu bildirir. (A) At the expense of «-in zararına» anlamındadır. (B) In terms of «açısından» anlamındadır. (C) With a view to amaç bildirir. (E) In the absence of «yokluğunda» anlamındadır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The company increased short-term profits ---- long-term investment in research.",
+      "options": [
+        "at the expense of",
+        "in the wake of",
+        "in terms of",
+        "on the grounds of",
+        "in accordance with"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Kısa vadeli kâr, uzun vadeli yatırımın ZARARINA artmıştır: at the expense of. (B) in the wake of ardından anlamı verir. (C) in terms of açısından anlamı verir. (D) on the grounds of gerekçe bildirir. (E) in accordance with uyum bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "---- clear evidence of wrongdoing, the court dismissed the case.",
+      "options": [
+        "In terms of",
+        "In response to",
+        "In the absence of",
+        "With a view to",
+        "Apart from"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Kanıtın YOKLUĞU davanın düşmesinin nedenidir: In the absence of. (A) In terms of açısından anlamı verir. (B) In response to karşılık anlamı verir. (D) With a view to amaç bildirir. (E) Apart from «dışında» anlamı verir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "The government introduced the reform with a view to ---- the tax burden on low earners.",
+      "options": [
+        "reduce",
+        "to reduce",
+        "reduced",
+        "be reduced",
+        "reducing"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«With a view to» kalıbındaki to bir edattır ve ardından V-ing gelir: with a view to reducing. (A) reduce ve (B) to reduce mastar biçimleridir. (C) reduced ve (D) be reduced kalıba uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "Analysts attribute the recent rise in unemployment ---- a decline in manufacturing.",
+      "options": [
+        "for",
+        "to",
+        "on",
+        "with",
+        "by"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Attribute X to Y sabit bir kalıptır. (A) for blame ile kullanılır (blame Y for X). (C) on blame X on Y kalıbındadır. (D) with ve (E) by bu fiille kullanılmaz.",
+      "passageID": null
+    }
+  ]
+}

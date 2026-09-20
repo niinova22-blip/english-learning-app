@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-articles-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Tanımlıklar (Articles)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-articles-1",
+      "type": "grammarPoint",
+      "headword": "Articles",
+      "frequencyRank": 2028,
+      "baseDifficulty": 0.5,
+      "definition": "A/an, the ve tanımlıksız kullanımın temel kuralları.",
+      "exampleSentences": [],
+      "translationTR": "Tanımlıklar",
+      "collocations": [],
+      "explanationTR": "Tanımlık seçimi, adın İLK KEZ mi, BELİRLİ mi, GENEL mi olduğuna bağlıdır.\n\n• a / an: ilk kez anılan sayılabilir tekil ad, meslek, sınıflandırma: a rare mutation, an engineer.\n\n• the: ikinci kez anılan, tek olan, en üstünlük, sıra sayı ve of ile belirlenen ad: the study, the second largest, the third time.\n\n• Tanımlıksız (zero article): genel çoğul ve sayılamayan adlar, diller, dersler, öğünler ve by + ulaşım aracı: speak fluent Turkish, a degree in economics, travel by train.\n\n• Dikkat: Turkish (dil) tanımlıksızdır; sayılamayan ad sayılabilir gibi kullanılırsa a alabilir (a good knowledge of ...).\n\nÖrnek: The ministry commissioned a study last year; the study concluded that the programme was ineffective."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-articles-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The researchers identified ---- in the sample that had not been previously documented.",
+      "options": [
+        "the rare mutation",
+        "a rare mutation",
+        "rare mutation",
+        "an rare mutation",
+        "rare a mutation"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Mutasyon ilk kez anılıyor ve sayılabilir tekil bir addır: a rare mutation. (A) the rare mutation belirli, daha önce anılmış bir mutasyonu gösterir. (C) rare mutation sayılabilir tekil adı tanımlıksız bırakır. (D) an rare mutation ünsüz sesle başlayan bir sözcükte an kullanır. (E) rare a mutation sırayı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The ministry commissioned a study last year; ---- concluded that the programme was ineffective.",
+      "options": [
+        "a study",
+        "study",
+        "some study",
+        "an study",
+        "the study"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "İkinci kez anılan ad the ile verilir: the study. (A) a study yeni bir çalışmaya işaret eder. (B) study tanımlıksızdır. (C) some study belirsiz bir çalışma bildirir. (D) an study ünsüzle başlayan sözcükte an kullanır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "Her father worked for many years as ---- in the aerospace industry.",
+      "options": [
+        "an engineer",
+        "engineer",
+        "the engineer",
+        "a engineer",
+        "engineers"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Meslek bildiren tekil ad a/an alır; engineer ünlüyle başlar: an engineer. (B) engineer tanımlıksızdır. (C) the engineer belirli bir kişiyi gösterir. (D) a engineer ünlü sesin önünde a kullanır. (E) engineers çoğuldur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "Nuclear power is ---- source of energy in the country's electricity mix.",
+      "options": [
+        "a second largest",
+        "second largest",
+        "the second largest",
+        "second the largest",
+        "an second largest"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Sıra sayı ve en üstünlük birlikte the alır: the second largest source. (A) a second largest ve (E) an second largest belirsiz tanımlık kullanır. (B) second largest tanımlıksızdır. (D) second the largest sırayı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "Many of the researchers speak fluent ----, which helps them collaborate with colleagues abroad.",
+      "options": [
+        "the Turkish",
+        "a Turkish",
+        "Turkishes",
+        "Turkish",
+        "an Turkish"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Dil adları tanımlıksız kullanılır: speak fluent Turkish. (A) the Turkish ve (B) a Turkish ve (E) an Turkish dil adına tanımlık ekler. (C) Turkishes çoğul bir biçimdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "Most commuters in the region travel to work ----.",
+      "options": [
+        "by the train",
+        "by train",
+        "by a train",
+        "with train",
+        "on the train by"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«By + ulaşım aracı» tanımlıksız kullanılır: by train. (A) by the train ve (C) by a train tanımlık ekler. (D) with train ve (E) on the train by kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "She graduated with a degree in ----.",
+      "options": [
+        "the economics",
+        "an economics",
+        "a economics",
+        "the economic",
+        "economics"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Akademik dal adları tanımlıksız kullanılır: a degree in economics. (A) the economics ve (B) an economics ve (C) a economics dal adına tanımlık ekler. (D) the economic sıfat biçimidir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "This is ---- time the committee has rejected the proposal.",
+      "options": [
+        "the third",
+        "a third",
+        "third",
+        "the three",
+        "an third"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Sıra sayı the alır: the third time. (B) a third kesir anlamı taşır. (C) third tanımlıksızdır. (D) the three sıra sayı değil sayıdır. (E) an third ünsüz sesin önünde an kullanır.",
+      "passageID": null
+    }
+  ]
+}

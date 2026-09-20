@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-articles-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Tanımlıklar: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-articles-2",
+      "type": "grammarPoint",
+      "headword": "Articles (Traps)",
+      "frequencyRank": 2029,
+      "baseDifficulty": 0.6,
+      "definition": "Kurumlar, coğrafi adlar, the + sıfat ve sabit ifadelerdeki tanımlık tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "Tanımlıklar: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Bu derste tanımlığın ezber kalıplarla belirlendiği durumlar sınanır.\n\n• Kurumlar (işlevi için): in prison, at university, go to school. Binayı kastediyorsan the kullanılır.\n\n• Coğrafya: çoğul ülke, dağ silsilesi, deniz, nehir ve bölge adları the alır: the Netherlands, the Alps, the Pacific, the Nile, the Middle East. Tek dağ, göl, kıta ve ülke adları almaz: Mount Ararat, Lake Van, Turkey.\n\n• the + sıfat = grup: the elderly, the unemployed.\n\n• The + karşılaştırma ..., the + karşılaştırma ...: The sooner the reforms are implemented, the faster the economy will recover.\n\n• Sabit ifadeler: in the long run, on the whole, in general, at present, on average, in practice.\n\n• Soyut ad genel kullanımda tanımlıksızdır (Education is important), of ile belirlenirse the alır. play the piano, play football (oyun adı tanımlıksız).\n\nEn sık düşülen tuzak: genel çoğul ya da sayılamayan soyut adın önüne the koymak.\n\nÖrnek: In the long run, cutting investment will cost more than it saves."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-articles-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "He was sentenced to five years in ----, but was released early for good behaviour.",
+      "options": [
+        "the prison",
+        "a prison",
+        "prison",
+        "prisons",
+        "an prison"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Kurumun işlevi kastediliyor (hapis cezası): in prison. (A) the prison binayı gösterir. (B) a prison belirsiz bir binayı gösterir. (D) prisons çoğuldur. (E) an prison ünsüz sesin önünde an kullanır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The delegates travelled to ---- for talks on regional security.",
+      "options": [
+        "the Netherlands",
+        "Netherlands",
+        "a Netherlands",
+        "Netherlands the",
+        "the Netherland"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Çoğul biçimli ülke adları the alır: the Netherlands. (B) Netherlands tanımlığı eksik bırakır. (C) a Netherlands ve (D) Netherlands the ve (E) the Netherland kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The expedition set out to climb ---- in the eastern part of the country.",
+      "options": [
+        "the Mount Ararat",
+        "the Ararat Mount",
+        "a Mount Ararat",
+        "Mount the Ararat",
+        "Mount Ararat"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Tek dağ adları tanımlık almaz: Mount Ararat. (A) the Mount Ararat ve (B) the Ararat Mount ve (C) a Mount Ararat ve (D) Mount the Ararat tanımlık ekler ya da sırayı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "Glaciers in ---- have retreated significantly over the last fifty years.",
+      "options": [
+        "Alps",
+        "the Alps",
+        "a Alps",
+        "Alps the",
+        "the Alp"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Dağ silsilesi adları the alır: the Alps. (A) Alps tanımlığı eksik bırakır. (C) a Alps ve (D) Alps the ve (E) the Alp kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The government has introduced new measures to support ---- during the winter months.",
+      "options": [
+        "elderly",
+        "an elderly",
+        "the elderlies",
+        "the elderly",
+        "elderlies"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«The + sıfat» bir grubu ifade eder: the elderly. (A) elderly ve (B) an elderly tanımlığı eksik ya da yanlış kullanır. (C) the elderlies ve (E) elderlies sıfata çoğul eki ekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The sooner the reforms are implemented, ---- the economy will recover.",
+      "options": [
+        "faster",
+        "a faster",
+        "the faster",
+        "fastest",
+        "the fastest"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«The sooner ..., the faster ...» kalıbının ikinci parçasında da the bulunur: the faster. (A) faster the'yi eksik bırakır. (B) a faster kalıbı bozar. (D) fastest ve (E) the fastest en üstünlüktür.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "---- , the reform has been more successful than critics predicted.",
+      "options": [
+        "On the whole",
+        "On whole",
+        "On a whole",
+        "In the whole",
+        "At the whole"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "On the whole sabit bir ifadedir (= genel olarak). (B) On whole ve (C) On a whole ve (D) In the whole ve (E) At the whole ifadeyi bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "Cutting investment may save money now but will cost more ----.",
+      "options": [
+        "in long run",
+        "in a long run",
+        "at the long run",
+        "on the long run",
+        "in the long run"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "In the long run sabit bir ifadedir (= uzun vadede). (A) in long run ve (B) in a long run ve (C) at the long run ve (D) on the long run ifadeyi bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "---- is the most effective way of reducing inequality in the long term.",
+      "options": [
+        "The education",
+        "Education",
+        "An education",
+        "Educations",
+        "A education"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Genel bir soyut ad tanımlıksız kullanılır: Education is the most effective way. (A) The education belirli bir eğitimi gösterir. (C) An education ve (E) A education soyut adı sayılabilir yapar. (D) Educations çoğuldur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-articles-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "Most of the boys in the village play ---- after school.",
+      "options": [
+        "the football",
+        "a football",
+        "footballs",
+        "football",
+        "an football"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Oyun adları tanımlıksız kullanılır: play football. (A) the football ve (B) a football ve (E) an football oyun adına tanımlık ekler. (C) footballs çoğuldur.",
+      "passageID": null
+    }
+  ]
+}

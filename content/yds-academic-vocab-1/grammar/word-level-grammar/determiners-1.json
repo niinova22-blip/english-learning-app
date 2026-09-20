@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-determiners-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Belirteçler ve Niceleyiciler (Determiners & Quantifiers)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-determiners-1",
+      "type": "grammarPoint",
+      "headword": "Determiners & Quantifiers",
+      "frequencyRank": 2026,
+      "baseDifficulty": 0.5,
+      "definition": "Sayılabilirlik, few/little farkı ve temel niceleyiciler.",
+      "exampleSentences": [],
+      "translationTR": "Belirteçler ve Niceleyiciler",
+      "collocations": [],
+      "explanationTR": "Niceleyici seçimi adın SAYILABİLİR olup olmamasına ve anlam tonuna bağlıdır.\n\n• much + sayılamayan, many + sayılabilir çoğul; a lot of / plenty of ikisiyle de. Olumsuz ve soruda much/many, olumluda a lot of tercih edilir.\n\n• few / little = neredeyse hiç (olumsuz ton); a few / a little = biraz var (olumlu ton). Few researchers have questioned the data (çok az). A few researchers have questioned it (bazı).\n\n• some / any: some olumlu cümlede, any olumsuz ve soruda: The auditors did not find any evidence.\n\n• each / every + tekil ad; both = iki, either / neither = ikiden biri / hiçbiri; all, most, no, none.\n\n• this / these (yakın, şimdi), that / those (uzak, geçmiş): These days ... Those days ...\n\nÖrnek: There was not much evidence to support the hypothesis."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-determiners-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "There was not ---- evidence to support the hypothesis.",
+      "options": [
+        "many",
+        "few",
+        "a few",
+        "much",
+        "several"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Evidence sayılamayan bir addır ve olumsuz cümlede much kullanılır. (A) many, (B) few, (C) a few ve (E) several sayılabilir çoğul adlarla kullanılır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-determiners-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "---- researchers have questioned the accuracy of the data, so the results are widely accepted.",
+      "options": [
+        "Few",
+        "A few",
+        "Little",
+        "A little",
+        "Much"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Sonuçlar kabul ediliyor; bu nedenle «neredeyse hiç kimse sorgulamadı» anlamı gerekir: Few. (B) A few «bazı araştırmacılar sorguladı» demektir ve mantığı bozar. (C) Little ve (D) A little ve (E) Much sayılamayan adlarla kullanılır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-determiners-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "There is ---- hope that the two sides will reach an agreement, so the talks are expected to collapse.",
+      "options": [
+        "a little",
+        "few",
+        "little",
+        "a few",
+        "many"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Talks are expected to collapse» olumsuz bir beklentidir; «neredeyse hiç umut yok» anlamı little ile verilir. (A) a little «biraz umut var» demektir ve çöküş beklentisiyle çelişir. (B) few ve (D) a few ve (E) many sayılabilir çoğul adlarla kullanılır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-determiners-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The auditors did not find ---- evidence of fraud in the company's accounts.",
+      "options": [
+        "some",
+        "no",
+        "a few",
+        "one",
+        "any"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Olumsuz cümlede any kullanılır: did not find any evidence. (A) some olumlu cümlelerde kullanılır. (B) no olumsuz fiille çift olumsuzluk yapar. (C) a few ve (D) one sayılamayan adla kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-determiners-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "---- of the two proposals has its own advantages.",
+      "options": [
+        "Every",
+        "Each",
+        "All",
+        "Both",
+        "Most"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Of the two proposals» ve tekil has, iki şeyden her biri anlamı ister: Each. (A) Every of ile kullanılmaz. (C) All, (D) Both ve (E) Most çoğul fiil ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-determiners-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "I read both reports, but ---- of them provided reliable figures.",
+      "options": [
+        "either",
+        "no",
+        "all",
+        "neither",
+        "both"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«But» bir karşıtlık kurar ve iki rapordan hiçbirinin güvenilir veri vermediği anlatılır: neither. (A) either olumlu bir anlam verir. (B) no of ile kullanılmaz. (C) all ve (E) both okuduğun iki raporun da güvenilir olduğunu söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-determiners-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "---- days, most people prefer to pay by card rather than cash.",
+      "options": [
+        "These",
+        "This",
+        "That",
+        "Those",
+        "Which"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Fiil şimdiki zamandadır (prefer); «şu günlerde» anlamı These days ile verilir. (B) This ve (C) That tekil ad ister. (D) Those days geçmiş bir dönemi gösterir. (E) Which soru ya da bağlaçtır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-determiners-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "---- participants withdrew from the study, so the sample remained almost intact.",
+      "options": [
+        "Very little",
+        "A great deal of",
+        "Very few",
+        "Much",
+        "Every"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Örneklem neredeyse bozulmadı; yani çok az katılımcı çekildi: Very few (sayılabilir çoğul). (A) Very little ve (B) A great deal of ve (D) Much sayılamayan adlarla kullanılır. (E) Every tekil ad ister.",
+      "passageID": null
+    }
+  ]
+}

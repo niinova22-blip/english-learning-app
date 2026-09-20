@@ -123,6 +123,21 @@ GRAMMAR_UNITS = [
             "exam-level-structures/subjunctive-2.json",
         ],
     },
+    {
+        "id": "yds-grammar-unit-word-level-grammar",
+        "theme": "Kelime düzeyinde gramer",
+        "order": 8,
+        "files": [
+            "word-level-grammar/prepositions-1.json",
+            "word-level-grammar/prepositions-2.json",
+            "word-level-grammar/comparatives-1.json",
+            "word-level-grammar/comparatives-2.json",
+            "word-level-grammar/determiners-1.json",
+            "word-level-grammar/determiners-2.json",
+            "word-level-grammar/articles-1.json",
+            "word-level-grammar/articles-2.json",
+        ],
+    },
 ]
 
 GRAMMAR_LESSON_ID_PREFIX = "yds-grammar-"
