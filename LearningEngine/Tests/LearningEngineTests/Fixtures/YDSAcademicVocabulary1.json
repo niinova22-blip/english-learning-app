@@ -6747,14 +6747,14 @@
               "order": 3,
               "prompt": "Hardly ---- the new law come into force when several firms began to exploit its loopholes.",
               "options": [
-                "have",
+                "has",
                 "would",
                 "was",
-                "were",
+                "is",
                 "had"
               ],
               "correctIndex": 4,
-              "explanationTR": "«Hardly ... when» kalıbında ilk kısım past perfect'tir ve had başa geçer: Hardly had the new law come into force when ... (A) have, (B) would, (C) was ve (D) were bu kalıbın gerektirdiği yardımcı fiil değildir; come ise had ile V3 olarak birleşir.",
+              "explanationTR": "«Hardly ... when» kalıbında ilk kısım past perfect'tir ve had başa geçer: Hardly had the new law come into force when ... (A) has present perfect'tir ve «began» ile uyuşmaz. (B) would, (C) was ve (D) is come ile V3 kalıbı kurmaz; come ise had ile V3 olarak birleşir.",
               "passageID": null
             },
             {
@@ -6932,12 +6932,12 @@
               "options": [
                 "it stood",
                 "stood",
-                "did stand",
+                "stand",
                 "was stood",
                 "standing"
               ],
               "correctIndex": 1,
-              "explanationTR": "Yer zarfı + geçişsiz fiil devriği: In the corner stood a dusty box (fiil özneden önce). (A) it stood fazladan özne ekler. (C) did stand devrik yapıda kullanılmaz. (D) was stood geçişsiz fiili edilgen yapar. (E) standing çekimli fiil değildir.",
+              "explanationTR": "Yer zarfı + geçişsiz fiil devriği: In the corner stood a dusty box (fiil özneden önce). (A) it stood fazladan özne ekler. (C) stand tekil özneyle (a dusty box) uyumsuzdur. (D) was stood geçişsiz fiili edilgen yapar. (E) standing çekimli fiil değildir.",
               "passageID": null
             },
             {
@@ -7249,13 +7249,13 @@
               "prompt": "The chairman would rather the meeting ---- postponed until next week.",
               "options": [
                 "is",
-                "be",
+                "would be",
                 "were",
                 "will be",
                 "has been"
               ],
               "correctIndex": 2,
-              "explanationTR": "Would rather + FARKLI özne + past simple: the meeting were postponed. (A) is, (D) will be ve (E) has been zaman kaydırmaz. (B) be istek kipi yalın fiil biçimidir ve would rather ile kullanılmaz.",
+              "explanationTR": "Would rather + FARKLI özne + past simple: the meeting were postponed. (A) is, (D) will be ve (E) has been zaman kaydırmaz. (B) would be, would rather'dan sonra ikinci bir would getirir ve kalıbı bozar.",
               "passageID": null
             },
             {
@@ -7284,17 +7284,17 @@
                 "takes",
                 "will take",
                 "has taken",
-                "take"
+                "would take"
               ],
               "correctIndex": 0,
-              "explanationTR": "«It is (high) time + özne + past simple» kalıbıdır: took. (B) takes ve (C) will take ve (D) has taken bu kalıpta zaman kaydırmaz. (E) take istek kipi biçimidir; bu kalıpta kullanılmaz.",
+              "explanationTR": "«It is (high) time + özne + past simple» kalıbıdır: took. (B) takes, (C) will take ve (D) has taken bu kalıpta zaman kaydırmaz. (E) would take ise it is time'dan sonra kullanılmaz.",
               "passageID": null
             },
             {
               "id": "yds-grammar-subjunctive-2-q08",
               "kind": "grammar",
               "order": 7,
-              "prompt": "The minister talks about the crisis as if it ---- a minor problem, although everyone knows it is not.",
+              "prompt": "Decades later, the economist still describes the 1929 crash as if it ---- yesterday.",
               "options": [
                 "is",
                 "will be",
@@ -7303,7 +7303,7 @@
                 "were"
               ],
               "correctIndex": 4,
-              "explanationTR": "«Although everyone knows it is not» karşılaştırmanın gerçek dışı olduğunu gösterir; as if + past simple (were) gerekir. (A) is bu gerçek dışılığı kurmaz. (B) will be, (C) has been ve (D) would be as if ile kalıp kurmaz.",
+              "explanationTR": "«As if» gerçek dışı karşılaştırmada past simple (were) ister: as if it were yesterday. «Yesterday» geçmişi gösterdiği için (A) is, (B) will be ve (C) has been kullanılamaz. (D) would be as if ile kalıp kurmaz.",
               "passageID": null
             },
             {
@@ -7326,7 +7326,7 @@
               "id": "yds-grammar-subjunctive-2-q10",
               "kind": "grammar",
               "order": 9,
-              "prompt": "---- the new institute flourish for many years, and may its research benefit the whole region.",
+              "prompt": "---- the new institute flourish for many years to come, and its research benefit the whole region!",
               "options": [
                 "Would",
                 "Will",
@@ -7335,7 +7335,7 @@
                 "Should"
               ],
               "correctIndex": 2,
-              "explanationTR": "Resmî dilek May + özne + V1 ile kurulur: May the new institute flourish. (A) Would ve (B) Will bu dilek kalıbını kurmaz. (D) Does soru yapısıdır. (E) Should koşul devriği kurar ve cümlenin devamıyla uyuşmaz.",
+              "explanationTR": "Resmî dilek May + özne + V1 ile kurulur: May the new institute flourish. (A) Would ve (B) Will bu dilek kalıbını kurmaz. (D) Does soru yapısıdır. (E) Should koşul cümlesi başlatır ve ana cümle beklenir; burada dilek vardır.",
               "passageID": null
             }
           ]

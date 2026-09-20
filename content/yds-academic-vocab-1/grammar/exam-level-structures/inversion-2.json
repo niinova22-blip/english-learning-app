@@ -106,12 +106,12 @@
       "options": [
         "it stood",
         "stood",
-        "did stand",
+        "stand",
         "was stood",
         "standing"
       ],
       "correctIndex": 1,
-      "explanationTR": "Yer zarfı + geçişsiz fiil devriği: In the corner stood a dusty box (fiil özneden önce). (A) it stood fazladan özne ekler. (C) did stand devrik yapıda kullanılmaz. (D) was stood geçişsiz fiili edilgen yapar. (E) standing çekimli fiil değildir.",
+      "explanationTR": "Yer zarfı + geçişsiz fiil devriği: In the corner stood a dusty box (fiil özneden önce). (A) it stood fazladan özne ekler. (C) stand tekil özneyle (a dusty box) uyumsuzdur. (D) was stood geçişsiz fiili edilgen yapar. (E) standing çekimli fiil değildir.",
       "passageID": null
     },
     {

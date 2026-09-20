@@ -72,14 +72,14 @@
       "order": 3,
       "prompt": "Hardly ---- the new law come into force when several firms began to exploit its loopholes.",
       "options": [
-        "have",
+        "has",
         "would",
         "was",
-        "were",
+        "is",
         "had"
       ],
       "correctIndex": 4,
-      "explanationTR": "«Hardly ... when» kalıbında ilk kısım past perfect'tir ve had başa geçer: Hardly had the new law come into force when ... (A) have, (B) would, (C) was ve (D) were bu kalıbın gerektirdiği yardımcı fiil değildir; come ise had ile V3 olarak birleşir.",
+      "explanationTR": "«Hardly ... when» kalıbında ilk kısım past perfect'tir ve had başa geçer: Hardly had the new law come into force when ... (A) has present perfect'tir ve «began» ile uyuşmaz. (B) would, (C) was ve (D) is come ile V3 kalıbı kurmaz; come ise had ile V3 olarak birleşir.",
       "passageID": null
     },
     {
