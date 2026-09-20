@@ -493,6 +493,15 @@ final class ContentImporterTests: XCTestCase {
         }
     }
 
+    func test_importPackage_acceptsEveryExamQuestionKind() throws {
+        for kind in ["paragraphCompletion", "irrelevantSentence", "dialogueCompletion", "restatement"] {
+            let context = try makeInMemoryContext()
+            let package = try ContentImporter.importPackage(from: practiceJSON(questionKind: kind), into: context)
+            let questions = package.units.flatMap(\.lessons).flatMap(\.questions)
+            XCTAssertEqual(questions.map { $0.kind.rawValue }, [kind, kind], kind)
+        }
+    }
+
     func test_importPackage_unknownQuestionKind_throws() throws {
         let context = try makeInMemoryContext()
         XCTAssertThrowsError(try ContentImporter.importPackage(

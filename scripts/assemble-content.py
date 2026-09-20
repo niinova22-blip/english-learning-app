@@ -62,7 +62,10 @@ PRACTICE_FILES = [
     "translation-1.json",
 ]
 
-QUESTION_KINDS = {"grammar", "reading", "cloze", "sentenceCompletion", "translation"}
+QUESTION_KINDS = {
+    "grammar", "reading", "cloze", "sentenceCompletion", "translation",
+    "paragraphCompletion", "irrelevantSentence", "dialogueCompletion", "restatement",
+}
 PRACTICE_CARD_TYPES = {"grammarPoint", "practiceSet"}
 
 GRAMMAR_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "grammar")
@@ -147,6 +150,34 @@ GRAMMAR_LESSON_ID_RE = re.compile(r"^yds-grammar-[a-z0-9-]+-(1|2)$")
 GRAMMAR_LESSON_SHAPE = {"1": (8, 8), "2": (10, 10)}
 # No key may be used for more than this share of one file's questions.
 MAX_KEY_SHARE = 0.4
+
+EXAM_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "exam")
+
+# Slice 7c exam-type units, emitted after the grammar units (orders 9-12).
+# Same contract as GRAMMAR_UNITS: `files` are relative to EXAM_DIR, one lesson
+# document per file without an `order` key; list position is the lesson order.
+# An empty table leaves the derived JSON byte-identical.
+EXAM_UNITS = []
+
+EXAM_LESSON_ID_PREFIX = "yds-exam-"
+# type -> (question kind, lesson skill, has passage, exact question count, exact minutes)
+EXAM_LESSON_SHAPE = {
+    "reading": ("reading", "reading", True, 5, 10),
+    "cloze": ("cloze", "reading", True, 8, 10),
+    "sentence": ("sentenceCompletion", "grammar", False, 10, 9),
+    "paragraph": ("paragraphCompletion", "reading", False, 8, 10),
+    "irrelevant": ("irrelevantSentence", "reading", False, 8, 9),
+    "dialogue": ("dialogueCompletion", "grammar", False, 8, 8),
+    "translation-en-tr": ("translation", "reading", False, 8, 9),
+    "translation-tr-en": ("translation", "reading", False, 8, 9),
+    "restatement": ("restatement", "reading", False, 8, 9),
+}
+EXAM_LESSON_ID_RE = re.compile(
+    r"^yds-exam-(" + "|".join(sorted(EXAM_LESSON_SHAPE, key=len, reverse=True)) + r")-([1-9][0-9]*)$"
+)
+EXAM_PASSAGE_MIN_WORDS = 170
+EXAM_PASSAGE_MAX_WORDS = 280
+ROMAN = ["I", "II", "III", "IV", "V"]
 
 OUTPUT_PATHS = [
     os.path.join(REPO_ROOT, "App", "Sources", "EnglishApp", "Resources", "YDSAcademicVocabulary1.json"),
@@ -265,6 +296,33 @@ def load_grammar_units():
     return units
 
 
+def load_exam_units():
+    """Builds the Slice 7c exam units from EXAM_UNITS; lesson `order` comes
+    from list position, exactly like load_grammar_units."""
+    units = []
+    for unit_spec in EXAM_UNITS:
+        lessons = []
+        for order, filename in enumerate(unit_spec["files"]):
+            path = os.path.join(EXAM_DIR, filename)
+            with open(path, "r", encoding="utf-8") as f:
+                lesson = json.load(f)
+            if not lesson["id"].startswith(EXAM_LESSON_ID_PREFIX):
+                raise ValueError(
+                    f"exam lesson {lesson['id']} (from {filename}) must start with "
+                    f"{EXAM_LESSON_ID_PREFIX!r}, otherwise the exam lint skips it"
+                )
+            lesson = dict(lesson)
+            lesson["order"] = order
+            lessons.append(lesson)
+        units.append({
+            "id": unit_spec["id"],
+            "theme": unit_spec["theme"],
+            "order": unit_spec["order"],
+            "lessons": lessons,
+        })
+    return units
+
+
 def attach_practice_lessons(units):
     """Appends the practice lessons to PRACTICE_UNIT_ID, numbering them
     straight after that unit's existing lessons."""
@@ -361,6 +419,84 @@ def validate_grammar_lesson(lesson):
             raise ValueError(f"question {question['id']} in {lesson_id} must have passageID null")
 
 
+def validate_exam_lesson(lesson):
+    """Shape rules for Slice 7c exam lessons, keyed off the lesson id prefix."""
+    lesson_id = lesson["id"]
+    match = EXAM_LESSON_ID_RE.match(lesson_id)
+    if match is None:
+        raise ValueError(f"exam lesson id {lesson_id!r} does not match yds-exam-<type>-<n>")
+    type_, n = match.group(1), match.group(2)
+    kind, skill, has_passage, expected_questions, expected_minutes = EXAM_LESSON_SHAPE[type_]
+
+    if lesson["skill"] != skill:
+        raise ValueError(f"exam lesson {lesson_id} must have skill {skill!r}, found {lesson['skill']!r}")
+    if lesson["estimatedDurationMinutes"] != expected_minutes:
+        raise ValueError(
+            f"exam lesson {lesson_id} must have estimatedDurationMinutes {expected_minutes}, "
+            f"found {lesson['estimatedDurationMinutes']}"
+        )
+
+    passage = lesson.get("passage")
+    passage_id = f"yds-exam-passage-{type_}-{n}"
+    if has_passage:
+        if passage is None:
+            raise ValueError(f"exam lesson {lesson_id} must carry a passage")
+        if passage["id"] != passage_id:
+            raise ValueError(f"exam lesson {lesson_id}: passage id {passage['id']!r} must be {passage_id!r}")
+        if not passage["title"].strip():
+            raise ValueError(f"exam lesson {lesson_id}: empty passage title")
+        words = len(passage["body"].split())
+        if not EXAM_PASSAGE_MIN_WORDS <= words <= EXAM_PASSAGE_MAX_WORDS:
+            raise ValueError(
+                f"exam lesson {lesson_id}: passage has {words} words, expected "
+                f"{EXAM_PASSAGE_MIN_WORDS}-{EXAM_PASSAGE_MAX_WORDS}"
+            )
+    elif passage is not None:
+        raise ValueError(f"exam lesson {lesson_id} must not carry a passage")
+
+    if len(lesson["items"]) != 1 or lesson["items"][0]["type"] != "practiceSet":
+        raise ValueError(f"exam lesson {lesson_id} must own exactly one practiceSet item")
+    card = lesson["items"][0]
+    expected_card_id = f"yds-exam-card-{type_}-{n}"
+    if card["id"] != expected_card_id:
+        raise ValueError(f"exam lesson {lesson_id}: card id {card['id']!r} must be {expected_card_id!r}")
+
+    questions = lesson.get("questions", [])
+    if len(questions) != expected_questions:
+        raise ValueError(
+            f"exam lesson {lesson_id} must have exactly {expected_questions} questions, found {len(questions)}"
+        )
+    for index, question in enumerate(sorted(questions, key=lambda q: q["order"])):
+        qid = question["id"]
+        if question["kind"] != kind:
+            raise ValueError(f"question {qid} in {lesson_id} must have kind {kind!r}, found {question['kind']!r}")
+        if question["order"] != index:
+            raise ValueError(f"lesson {lesson_id} question orders must be 0..{expected_questions - 1} with no gaps")
+        if qid != f"{lesson_id}-q{index + 1:02d}":
+            raise ValueError(f"question at order {index} in {lesson_id} must be named {lesson_id}-q{index + 1:02d}")
+        if len(set(question["options"])) != 5:
+            raise ValueError(f"question {qid} has duplicate options")
+        expected_passage = passage_id if has_passage else None
+        if question.get("passageID") != expected_passage:
+            raise ValueError(f"question {qid} must have passageID {expected_passage!r}")
+
+        prompt = question["prompt"]
+        if type_ in ("sentence", "paragraph", "dialogue") and prompt.count("----") != 1:
+            raise ValueError(f"question {qid} must contain exactly one '----'")
+        if type_ == "cloze":
+            k = index + 1
+            if prompt.count("----") != 1 or f"({k}) ----" not in prompt:
+                raise ValueError(f"question {qid} must contain exactly one '({k}) ----'")
+            if f"({k})----" not in passage["body"]:
+                raise ValueError(f"lesson {lesson_id}: passage is missing the blank '({k})----'")
+        if type_ == "irrelevant":
+            if question["options"] != ROMAN:
+                raise ValueError(f"question {qid} options must be exactly {ROMAN}")
+            for numeral in ROMAN:
+                if f"({numeral})" not in prompt:
+                    raise ValueError(f"question {qid} stem is missing the numbered sentence ({numeral})")
+
+
 def validate_content(package):
     """Mirrors ContentImporter's validation so authors get the failure here,
     on Windows, seconds after saving -- not half an hour later in macOS CI.
@@ -440,11 +576,13 @@ def validate_content(package):
             validate_key_distribution(lesson_id, questions)
             if lesson_id.startswith(GRAMMAR_LESSON_ID_PREFIX):
                 validate_grammar_lesson(lesson)
+            if lesson_id.startswith(EXAM_LESSON_ID_PREFIX):
+                validate_exam_lesson(lesson)
 
 
 def assemble():
     validate_weights(SKILL_WEIGHTS)
-    units = attach_practice_lessons(load_units()) + load_grammar_units()
+    units = attach_practice_lessons(load_units()) + load_grammar_units() + load_exam_units()
     package = {
         "id": "yds-academic-vocab-1",
         "name": "YDS: Academic Vocabulary I",
