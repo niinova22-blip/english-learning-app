@@ -5806,10 +5806,10 @@
                 "hiring",
                 "hired",
                 "to hire",
-                "hire to"
+                "to have hired"
               ],
               "correctIndex": 3,
-              "explanationTR": "Enable + nesne + to V1 kalıbıdır: enable the laboratory to hire. (A) hire ve (B) hiring bu kalıpta kullanılmaz. (C) hired edilgen bir anlam katar. (E) hire to kalıbı ters kurar.",
+              "explanationTR": "Enable + nesne + to V1 kalıbıdır: enable the laboratory to hire. (A) hire ve (B) hiring bu kalıpta kullanılmaz. (C) hired edilgen bir anlam katar. (E) to have hired geleceğe dönük bir amaç için geçmişe dönük perfect mastar kurar.",
               "passageID": null
             }
           ]
@@ -5831,7 +5831,7 @@
               "exampleSentences": [],
               "translationTR": "İsim-Fiiller ve Mastarlar: Tuzaklar",
               "collocations": [],
-              "explanationTR": "Bu derste anlamı DEĞİŞTİREN kalıplar ve yarım hatırlanan fiil kalıpları sınanır.\n\n• Anlam değiştiren fiiller: remember / forget / regret / stop + V-ing = GEÇMİŞTE yapılan eylem (I remember signing it; regret ignoring; stopped talking). Aynı fiiller + to V1 = amaç ya da yapılacak eylem (remember to sign; stopped to talk = konuşmak için durdu). regret to inform = üzülerek bildirmek.\n\n• need + V-ing edilgen anlam taşır: The data need checking (= need to be checked). Etken mastar (need to check) özne eylemi yapıyorsa kullanılır.\n\n• Perfect ve edilgen fiilimsiler: having done / to have done (daha önce olmuş), being done / to be done (edilgen), having been done / to have been done (edilgen + önce). The bridge is reported to have been damaged.\n\n• too + sıfat + to V1 (= çok ... ki yapamaz), sıfat + enough + to V1: The tax cut is too small to make a difference.\n\n• do nothing but / had no choice but / rather than + YALIN fiil: The auditor did nothing but offer criticism.\n\n• used to + V1 (geçmiş alışkanlık) ↔ be used to + V-ing (alışık olmak): She used to work in a corporation. Bu yalnızca biçim ayrımıdır.\n\nEn sık düşülen tuzak: yarım hatırlanan kalıp. suggest + V-ing (suggest to do YANLIŞ), look forward to + V-ing, adjective + to V1 (easy to use).\n\nÖrnek: The consultant suggested trialling the scheme in two regions."
+              "explanationTR": "Bu derste anlamı DEĞİŞTİREN kalıplar ve yarım hatırlanan fiil kalıpları sınanır.\n\n• Anlam değiştiren fiiller: remember / forget / regret + V-ing = GEÇMİŞTE yapılan eylem (I remember signing it; regret ignoring). stop + V-ing = eylemi bırakmak (stopped talking). Aynı fiiller + to V1 = amaç ya da yapılacak eylem (remember to sign; stopped to talk = konuşmak için durdu). regret to inform = üzülerek bildirmek.\n\n• need + V-ing edilgen anlam taşır: The data need checking (= need to be checked). Etken mastar (need to check) özne eylemi yapıyorsa kullanılır.\n\n• Perfect ve edilgen fiilimsiler: having done / to have done (daha önce olmuş), being done / to be done (edilgen), having been done / to have been done (edilgen + önce). The bridge is reported to have been damaged.\n\n• too + sıfat + to V1 (= çok ... ki yapamaz), sıfat + enough + to V1: The tax cut is too small to make a difference.\n\n• do nothing but / had no choice but / rather than + YALIN fiil: The auditor did nothing but offer criticism.\n\n• used to + V1 (geçmiş alışkanlık) ↔ be used to + V-ing (alışık olmak): She used to work in a corporation. Bu yalnızca biçim ayrımıdır.\n\nEn sık düşülen tuzak: yarım hatırlanan kalıp. suggest + V-ing (suggest to do YANLIŞ), look forward to + V-ing, adjective + to V1 (easy to use).\n\nÖrnek: The consultant suggested trialling the scheme in two regions."
             }
           ],
           "questions": [
@@ -6054,7 +6054,7 @@
               "id": "yds-grammar-participle-clauses-1-q03",
               "kind": "grammar",
               "order": 2,
-              "prompt": "---- data from all forty schools over two years, the team finally began its analysis.",
+              "prompt": "---- data from all forty schools in 2019, the team did not begin its analysis until 2021.",
               "options": [
                 "Collecting",
                 "Collected",
@@ -6063,7 +6063,7 @@
                 "Having collected"
               ],
               "correctIndex": 4,
-              "explanationTR": "Toplama eylemi analizden ÖNCE tamamlanmıştır; bu ilişki having + V3 ile kurulur: Having collected data ... began. (A) Collecting eşzamanlılık bildirir, oysa sıra önce-sonradır. (B) Collected edilgendir. (C) To collect amaç bildirir. (D) Being collected edilgendir.",
+              "explanationTR": "Toplama eylemi (2019) analizden (2021) ÖNCE tamamlanmıştır; bu ilişki having + V3 ile kurulur: Having collected data ..., the team did not begin ... (A) Collecting eşzamanlılık bildirir, oysa sıra önce-sonradır. (B) Collected edilgendir. (C) To collect amaç bildirir. (D) Being collected edilgendir.",
               "passageID": null
             },
             {
@@ -6111,7 +6111,7 @@
                 "Being realised"
               ],
               "correctIndex": 0,
-              "explanationTR": "Gizli özne yöneticidir (the manager) ve o farkeden taraftır: Realising how little time remained, the manager ... (B) Realised ve (E) Being realised edilgen anlam katar. (C) To realise amaç bildirir. (D) Having been realised de edilgendir.",
+              "explanationTR": "Gizli özne yöneticidir (the manager) ve o fark eden taraftır: Realising how little time remained, the manager ... (B) Realised ve (E) Being realised edilgen anlam katar. (C) To realise amaç bildirir. (D) Having been realised de edilgendir.",
               "passageID": null
             },
             {
@@ -6124,10 +6124,10 @@
                 "To know",
                 "Knowing",
                 "Having been known",
-                "Being knowing"
+                "Know"
               ],
               "correctIndex": 2,
-              "explanationTR": "Editör bilen taraftır ve bilme eylemi nedendir: Knowing that ..., the editor delayed. (A) Known ve (D) Having been known edilgen anlam katar ve that-cümleciğiyle uyuşmaz. (B) To know amaç bildirir. (E) Being knowing geçerli bir yapı değildir.",
+              "explanationTR": "Editör bilen taraftır ve bilme eylemi nedendir: Knowing that ..., the editor delayed. (A) Known ve (D) Having been known edilgen anlam katar ve that-cümleciğiyle uyuşmaz. (B) To know amaç bildirir. (E) Know yalın fiildir, cümleciği başlatamaz.",
               "passageID": null
             },
             {
@@ -6470,14 +6470,14 @@
               "order": 7,
               "prompt": "The auditors will contact the board ---- they have finished reviewing the accounts.",
               "options": [
-                "as long as",
+                "whereas",
                 "in order that",
                 "even though",
                 "so as to",
                 "as soon as"
               ],
               "correctIndex": 4,
-              "explanationTR": "Zaman bağlacı as soon as, eylemin biter bitmez gerçekleşeceğini bildirir. (A) as long as koşul, (B) in order that amaç, (C) even though karşıtlık bildirir. (D) so as to yalnızca V1 alır.",
+              "explanationTR": "Zaman bağlacı as soon as, eylemin biter bitmez gerçekleşeceğini bildirir. (A) whereas karşılaştırma, (B) in order that amaç, (C) even though karşıtlık bildirir. (D) so as to yalnızca V1 alır.",
               "passageID": null
             }
           ]
@@ -6603,7 +6603,7 @@
               "id": "yds-grammar-conjunctions-linkers-2-q07",
               "kind": "grammar",
               "order": 6,
-              "prompt": "Either the shareholders or the board ---- to approve the amendment before it takes effect.",
+              "prompt": "Either the shareholders or the regulator ---- to approve the amendment before it takes effect.",
               "options": [
                 "have",
                 "are",
@@ -6612,7 +6612,7 @@
                 "being"
               ],
               "correctIndex": 3,
-              "explanationTR": "Either ... or'da fiil en YAKIN özneye uyar: the board (tekil) → has. (A) have ve (B) are çoğuldur. (C) were çoğul ve geçmiştir. (E) being çekimli bir fiil değildir.",
+              "explanationTR": "Either ... or'da fiil en YAKIN özneye uyar: the regulator (tekil) → has. (A) have ve (B) are çoğuldur. (C) were çoğul ve geçmiştir. (E) being çekimli bir fiil değildir.",
               "passageID": null
             },
             {

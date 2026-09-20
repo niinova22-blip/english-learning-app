@@ -140,10 +140,10 @@
         "hiring",
         "hired",
         "to hire",
-        "hire to"
+        "to have hired"
       ],
       "correctIndex": 3,
-      "explanationTR": "Enable + nesne + to V1 kalıbıdır: enable the laboratory to hire. (A) hire ve (B) hiring bu kalıpta kullanılmaz. (C) hired edilgen bir anlam katar. (E) hire to kalıbı ters kurar.",
+      "explanationTR": "Enable + nesne + to V1 kalıbıdır: enable the laboratory to hire. (A) hire ve (B) hiring bu kalıpta kullanılmaz. (C) hired edilgen bir anlam katar. (E) to have hired geleceğe dönük bir amaç için geçmişe dönük perfect mastar kurar.",
       "passageID": null
     }
   ]

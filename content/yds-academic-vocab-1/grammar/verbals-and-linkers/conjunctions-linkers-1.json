@@ -136,14 +136,14 @@
       "order": 7,
       "prompt": "The auditors will contact the board ---- they have finished reviewing the accounts.",
       "options": [
-        "as long as",
+        "whereas",
         "in order that",
         "even though",
         "so as to",
         "as soon as"
       ],
       "correctIndex": 4,
-      "explanationTR": "Zaman bağlacı as soon as, eylemin biter bitmez gerçekleşeceğini bildirir. (A) as long as koşul, (B) in order that amaç, (C) even though karşıtlık bildirir. (D) so as to yalnızca V1 alır.",
+      "explanationTR": "Zaman bağlacı as soon as, eylemin biter bitmez gerçekleşeceğini bildirir. (A) whereas karşılaştırma, (B) in order that amaç, (C) even though karşıtlık bildirir. (D) so as to yalnızca V1 alır.",
       "passageID": null
     }
   ]

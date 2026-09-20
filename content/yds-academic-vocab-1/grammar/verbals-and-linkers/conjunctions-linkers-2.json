@@ -118,7 +118,7 @@
       "id": "yds-grammar-conjunctions-linkers-2-q07",
       "kind": "grammar",
       "order": 6,
-      "prompt": "Either the shareholders or the board ---- to approve the amendment before it takes effect.",
+      "prompt": "Either the shareholders or the regulator ---- to approve the amendment before it takes effect.",
       "options": [
         "have",
         "are",
@@ -127,7 +127,7 @@
         "being"
       ],
       "correctIndex": 3,
-      "explanationTR": "Either ... or'da fiil en YAKIN özneye uyar: the board (tekil) → has. (A) have ve (B) are çoğuldur. (C) were çoğul ve geçmiştir. (E) being çekimli bir fiil değildir.",
+      "explanationTR": "Either ... or'da fiil en YAKIN özneye uyar: the regulator (tekil) → has. (A) have ve (B) are çoğuldur. (C) were çoğul ve geçmiştir. (E) being çekimli bir fiil değildir.",
       "passageID": null
     },
     {
