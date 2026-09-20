@@ -31,6 +31,7 @@ of platform (important since this is routinely run on Windows).
 """
 import json
 import os
+import re
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -63,6 +64,23 @@ PRACTICE_FILES = [
 
 QUESTION_KINDS = {"grammar", "reading", "cloze", "sentenceCompletion", "translation"}
 PRACTICE_CARD_TYPES = {"grammarPoint", "practiceSet"}
+
+GRAMMAR_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "grammar")
+
+# Slice 7b grammar units, emitted after the four vocabulary units (orders
+# 0-3). Each entry's `files` are relative to GRAMMAR_DIR and hold ONE lesson
+# document each, without an `order` key: position in the list is the lesson
+# order, restarting at 0 in every unit. The table is filled in unit by unit;
+# an empty table leaves the derived JSON byte-identical.
+GRAMMAR_UNITS = []
+
+GRAMMAR_LESSON_ID_PREFIX = "yds-grammar-"
+GRAMMAR_LESSON_ID_RE = re.compile(r"^yds-grammar-[a-z0-9-]+-(1|2)$")
+# lesson suffix -> (exact question count, exact estimatedDurationMinutes).
+# Exact, not minimum: a short batch must never ship silently.
+GRAMMAR_LESSON_SHAPE = {"1": (8, 8), "2": (10, 10)}
+# No key may be used for more than this share of one file's questions.
+MAX_KEY_SHARE = 0.4
 
 OUTPUT_PATHS = [
     os.path.join(REPO_ROOT, "App", "Sources", "EnglishApp", "Resources", "YDSAcademicVocabulary1.json"),
@@ -147,6 +165,34 @@ def load_practice_lessons():
     return lessons
 
 
+def load_grammar_units():
+    """Builds the Slice 7b grammar units from GRAMMAR_UNITS. Lesson `order`
+    comes from the position in `files`, so reordering a unit is a one-line
+    change and ids never have to move."""
+    units = []
+    for unit_spec in GRAMMAR_UNITS:
+        lessons = []
+        for order, filename in enumerate(unit_spec["files"]):
+            path = os.path.join(GRAMMAR_DIR, filename)
+            with open(path, "r", encoding="utf-8") as f:
+                lesson = json.load(f)
+            if not lesson["id"].startswith(GRAMMAR_LESSON_ID_PREFIX):
+                raise ValueError(
+                    f"grammar lesson {lesson['id']} (from {filename}) must start with "
+                    f"{GRAMMAR_LESSON_ID_PREFIX!r}, otherwise the grammar lint skips it"
+                )
+            lesson = dict(lesson)
+            lesson["order"] = order
+            lessons.append(lesson)
+        units.append({
+            "id": unit_spec["id"],
+            "theme": unit_spec["theme"],
+            "order": unit_spec["order"],
+            "lessons": lessons,
+        })
+    return units
+
+
 def attach_practice_lessons(units):
     """Appends the practice lessons to PRACTICE_UNIT_ID, numbering them
     straight after that unit's existing lessons."""
@@ -161,6 +207,88 @@ def attach_practice_lessons(units):
     return units
 
 
+def validate_key_distribution(lesson_id, questions):
+    """Spec quality rule 4: a learner must not be able to pattern-match the
+    answer key. Applies to EVERY lesson with questions, including the 7a
+    practice files (all of which already satisfy it)."""
+    if not questions:
+        return
+    ordered = sorted(questions, key=lambda q: q["order"])
+    counts = {}
+    for q in ordered:
+        counts[q["correctIndex"]] = counts.get(q["correctIndex"], 0) + 1
+    for key, count in sorted(counts.items()):
+        if count > MAX_KEY_SHARE * len(ordered):
+            raise ValueError(
+                f"lesson {lesson_id}: key {key} is used {count} of {len(ordered)} times "
+                f"(max 40% of a file's questions)"
+            )
+    run = 1
+    for previous, current in zip(ordered, ordered[1:]):
+        run = run + 1 if current["correctIndex"] == previous["correctIndex"] else 1
+        if run >= 3:
+            raise ValueError(
+                f"lesson {lesson_id}: three consecutive questions share key {current['correctIndex']}"
+            )
+
+
+def validate_grammar_lesson(lesson):
+    """Shape rules for Slice 7b grammar lessons, keyed off the lesson id
+    prefix. The two Slice 7a grammar lessons (yds-practice-lesson-tenses,
+    yds-practice-lesson-conditionals) keep their original ids and are
+    deliberately outside this check -- they are lesson 1 of their topics and
+    already have exactly 8 grammar questions each, but their ids are
+    contractual and must not be renamed."""
+    lesson_id = lesson["id"]
+    match = GRAMMAR_LESSON_ID_RE.match(lesson_id)
+    if match is None:
+        raise ValueError(
+            f"grammar lesson id {lesson_id!r} must look like yds-grammar-<topic>-1 or yds-grammar-<topic>-2"
+        )
+    expected_questions, expected_minutes = GRAMMAR_LESSON_SHAPE[match.group(1)]
+    if lesson["skill"] != "grammar":
+        raise ValueError(f"grammar lesson {lesson_id} must have skill 'grammar', found {lesson['skill']!r}")
+    if lesson["estimatedDurationMinutes"] != expected_minutes:
+        raise ValueError(
+            f"grammar lesson {lesson_id} must have estimatedDurationMinutes {expected_minutes}, "
+            f"found {lesson['estimatedDurationMinutes']}"
+        )
+    if "passage" in lesson:
+        raise ValueError(f"grammar lesson {lesson_id} must not carry a passage")
+
+    cards = [item for item in lesson["items"] if item["type"] == "grammarPoint"]
+    if len(lesson["items"]) != 1 or len(cards) != 1:
+        raise ValueError(
+            f"grammar lesson {lesson_id} must own exactly one grammarPoint item, "
+            f"found {len(lesson['items'])} items ({len(cards)} grammarPoint)"
+        )
+    expected_card_id = "yds-grammar-card-" + lesson_id[len(GRAMMAR_LESSON_ID_PREFIX):]
+    if cards[0]["id"] != expected_card_id:
+        raise ValueError(
+            f"grammar lesson {lesson_id}: card id {cards[0]['id']!r} must be {expected_card_id!r}"
+        )
+
+    questions = lesson.get("questions", [])
+    if len(questions) != expected_questions:
+        raise ValueError(
+            f"grammar lesson {lesson_id} must have exactly {expected_questions} questions, found {len(questions)}"
+        )
+    for index, question in enumerate(sorted(questions, key=lambda q: q["order"])):
+        if question["kind"] != "grammar":
+            raise ValueError(
+                f"question {question['id']} in {lesson_id} must have kind 'grammar', found {question['kind']!r}"
+            )
+        if question["order"] != index:
+            raise ValueError(
+                f"lesson {lesson_id} question orders must be 0..{expected_questions - 1} with no gaps"
+            )
+        expected_qid = f"{lesson_id}-q{index + 1:02d}"
+        if question["id"] != expected_qid:
+            raise ValueError(f"question at order {index} in {lesson_id} must be named {expected_qid!r}")
+        if question.get("passageID") is not None:
+            raise ValueError(f"question {question['id']} in {lesson_id} must have passageID null")
+
+
 def validate_content(package):
     """Mirrors ContentImporter's validation so authors get the failure here,
     on Windows, seconds after saving -- not half an hour later in macOS CI.
@@ -170,9 +298,22 @@ def validate_content(package):
     question_ids = set()
     item_ids = set()
     passage_ids = set()
+    unit_ids = set()
+    lesson_ids = set()
+
+    orders = sorted(unit["order"] for unit in package["units"])
+    if orders != list(range(len(package["units"]))):
+        raise ValueError(f"unit orders must be 0..{len(package['units']) - 1} with no gaps, found {orders}")
+
     for unit in package["units"]:
+        if unit["id"] in unit_ids:
+            raise ValueError(f"duplicate unit id {unit['id']}")
+        unit_ids.add(unit["id"])
         for lesson in unit["lessons"]:
             lesson_id = lesson["id"]
+            if lesson_id in lesson_ids:
+                raise ValueError(f"duplicate lesson id {lesson_id}")
+            lesson_ids.add(lesson_id)
             questions = lesson.get("questions", [])
             for item in lesson["items"]:
                 if item["id"] in item_ids:
@@ -203,7 +344,7 @@ def validate_content(package):
                 if passage_id in passage_ids:
                     raise ValueError(f"duplicate passage id {passage_id} (lesson {lesson_id})")
                 passage_ids.add(passage_id)
-            orders = set()
+            question_orders = set()
             for question in questions:
                 qid = question["id"]
                 if qid in question_ids:
@@ -221,14 +362,17 @@ def validate_content(package):
                     raise ValueError(f"question {qid} has an empty option")
                 if question.get("passageID") is not None and question["passageID"] != passage_id:
                     raise ValueError(f"question {qid} references unknown passage {question['passageID']!r}")
-                if question["order"] in orders:
+                if question["order"] in question_orders:
                     raise ValueError(f"lesson {lesson_id} has two questions with order {question['order']}")
-                orders.add(question["order"])
+                question_orders.add(question["order"])
+            validate_key_distribution(lesson_id, questions)
+            if lesson_id.startswith(GRAMMAR_LESSON_ID_PREFIX):
+                validate_grammar_lesson(lesson)
 
 
 def assemble():
     validate_weights(SKILL_WEIGHTS)
-    units = attach_practice_lessons(load_units())
+    units = attach_practice_lessons(load_units()) + load_grammar_units()
     package = {
         "id": "yds-academic-vocab-1",
         "name": "YDS: Academic Vocabulary I",
