@@ -54,32 +54,32 @@
       "id": "yds-tech-prefixes-q03",
       "kind": "grammar",
       "order": 2,
-      "prompt": "The evidence was ---- to the case, so the judge did not take it into account. Hangi biçim doğrudur?",
+      "prompt": "«in-» olumsuzluk ön eki, kendinden sonraki harfe göre biçim değiştirir. Aşağıdakilerden hangisinde ek «l» harfinden önce «il-» biçimini almıştır?",
       "options": [
-        "irrelevant",
-        "relevant",
-        "unrelevant",
-        "imrelevant",
-        "dirrelevant"
+        "impatient",
+        "irrational",
+        "illegal",
+        "inactive",
+        "impossible"
       ],
-      "correctIndex": 0,
-      "explanationTR": "«Relevant» r ile başladığı için olumsuz ön ek ir- olur: (A). (B) olumlu biçimdir, cümleye ters düşer. (C), (D) ve (E) İngilizce'de var olmayan biçimlerdir; un-, im- ve dir- bu sözcükle kullanılmaz.",
+      "correctIndex": 2,
+      "explanationTR": "«Legal» l ile başladığı için ek il- biçimine girer ve illegal olur: (C). (A) ve (E) p'den önce im- biçimini gösterir. (B) r'den önce ir- biçimidir. (D) ünlüden önce ekin değişmediği, yalın in- biçimidir.",
       "passageID": null
     },
     {
       "id": "yds-tech-prefixes-q04",
       "kind": "grammar",
       "order": 3,
-      "prompt": "His answer was ---- ; it contained several factual errors. Hangi biçim doğrudur?",
+      "prompt": "His answer was ----; it contained several factual errors.",
       "options": [
-        "unaccurate",
-        "imaccurate",
-        "disaccurate",
-        "reaccurate",
+        "invisible",
+        "informal",
+        "independent",
+        "inexpensive",
         "inaccurate"
       ],
       "correctIndex": 4,
-      "explanationTR": "Olumsuz biçim in- ile kurulur: (E). (A) ve (C) «accurate» ile kullanılmayan ön eklerle kurulmuştur, (B) ise im- yalnızca p ve m'den önce gelir. (D) «tekrar doğru» gibi bir anlam kurar ve cümleye uymaz.",
+      "explanationTR": "Beş şıkta da in- olumsuzluk eki vardır; cümledeki «factual errors» ifadesi cevabın «doğru değil» anlamına gelmesini gerektirir: (E). (A) görünmezlik, (B) resmî olmama, (C) bağımsızlık, (D) ucuzluk anlatır; hiçbiri olgusal hatalarla açıklanmaz.",
       "passageID": null
     },
     {
@@ -102,16 +102,16 @@
       "id": "yds-tech-prefixes-q06",
       "kind": "grammar",
       "order": 5,
-      "prompt": "Lisans diplomasından SONRA yapılan eğitim için hangi sözcük kullanılır?",
+      "prompt": "After finishing her bachelor's degree, she enrolled in a ---- programme in economics.",
       "options": [
         "undergraduate",
-        "pregraduate",
-        "intergraduate",
-        "antigraduate",
+        "prehistoric",
+        "interactive",
+        "postwar",
         "postgraduate"
       ],
       "correctIndex": 4,
-      "explanationTR": "post- «sonra» demektir; postgraduate lisans sonrası eğitimdir: (E). (A) lisans öğrencisini, yani mezun olmayı henüz tamamlamamış kişiyi anlatır. (B), (C) ve (D) İngilizce'de bu anlamda kullanılan sözcükler değildir.",
+      "explanationTR": "post- «sonra» demektir; lisans diplomasından sonra yapılan eğitim postgraduate'tir: (E). (A) lisans öğrencisini anlatır, oysa cümledeki kişi lisansı bitirmiştir. (B) tarih öncesi, (D) savaş sonrası demektir; ikisi de bir eğitim düzeyi bildirmez. (C) «etkileşimli» anlamındadır ve cümledeki zaman ilişkisini karşılamaz.",
       "passageID": null
     },
     {

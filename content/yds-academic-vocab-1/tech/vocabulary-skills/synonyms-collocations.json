@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Kelime Tekniği: Eş Anlam ve Eşdizimlilik",
       "collocations": [],
-      "explanationTR": "İngilizce'de anlamları yakın sözcükler çoğu zaman birbirinin yerine kullanılamaz; çünkü her sözcüğün birlikte kullanıldığı alışılmış eşleşmeleri (collocations) vardır.\n\n• Kalıplarla öğren: «decision» sözcüğünü tek başına değil, «make a decision» diye öğren. Sözcükleri en sık eşlendikleri sözcüklerle birlikte ezberle.\n\n• Eş anlamlılar aynı değildir: «strong tea» ama «powerful engine»; «heavy rain» ama «strong wind». Anlam yakın olsa da eşleşme farklıdır.\n\n• Fiil eşdizimlerine dikkat et: «make a mistake» (do a mistake değil), «carry out a survey», «take a risk», «pay attention», «raise a question».\n\n• Sözcük türünü ve kalıbı birlikte düşün: rise (kendiliğinden yükselmek, nesne almaz) ile raise (bir şeyi yükseltmek, nesne alır) farklıdır.\n\n• Sınavda seçeneklerden birinin kalıba uymamasını fark etmek, doğru cevabı bulmanın en hızlı yoludur.\n\nEn sık düşülen tuzak: Türkçe karşılığına bakarak kalıp seçmek. «Karar vermek» Türkçe'de «vermek» ile kurulur ama İngilizce'de «give a decision» değil, «make a decision» denir.\n\nÖrnek: She drinks strong tea. «Powerful tea» eşleşmesi doğal değildir."
+      "explanationTR": "İngilizcede anlamları yakın sözcükler çoğu zaman birbirinin yerine kullanılamaz; çünkü her sözcüğün birlikte kullanıldığı alışılmış eşleşmeleri (collocations) vardır.\n\n• Kalıplarla öğren: «decision» sözcüğünü tek başına değil, «make a decision» diye öğren. Sözcükleri en sık eşlendikleri sözcüklerle birlikte ezberle.\n\n• Eş anlamlılar aynı değildir: «strong tea» ama «powerful engine»; «heavy rain» ama «strong wind». Anlam yakın olsa da eşleşme farklıdır.\n\n• Fiil eşdizimlerine dikkat et: «make a mistake» (do a mistake değil), «carry out a survey», «take a risk», «pay attention», «raise a question».\n\n• Sözcük türünü ve kalıbı birlikte düşün: rise (kendiliğinden yükselmek, nesne almaz) ile raise (bir şeyi yükseltmek, nesne alır) farklıdır.\n\n• Sınavda seçeneklerden birinin kalıba uymamasını fark etmek, doğru cevabı bulmanın en hızlı yoludur.\n\nEn sık düşülen tuzak: Türkçe karşılığına bakarak kalıp seçmek. «Karar vermek» Türkçede «vermek» ile kurulur ama İngilizcede «give a decision» değil, «make a decision» denir.\n\nÖrnek: She drinks strong tea. «Powerful tea» eşleşmesi doğal değildir."
     }
   ],
   "questions": [
@@ -47,7 +47,7 @@
         "hard"
       ],
       "correctIndex": 1,
-      "explanationTR": "Çay için «strong tea» kullanılır: (B). (A) «powerful» daha çok motor, silah, lider için kullanılır. (C), (D) ve (E) «tea» ile eşleşmez.",
+      "explanationTR": "Çayın demli olduğunu anlatmak için «strong tea» kullanılır: (B). (A) «powerful» daha çok motor, silah ve lider için kullanılır. (C) «large» bardağın boyunu anlatır, çayın demini değil. (D) ve (E) «tea» ile kalıplaşmış bir eşleşme kurmaz.",
       "passageID": null
     },
     {
@@ -63,7 +63,7 @@
         "deep"
       ],
       "correctIndex": 3,
-      "explanationTR": "Yağmur için «heavy rain» eşleşmesi kullanılır: (D). (A) «strong wind» eşleşmesi vardır. (B), (C) ve (E) yağmur için kalıplaşmamıştır.",
+      "explanationTR": "Yağmurun şiddeti için «heavy rain» eşleşmesi kullanılır: (D). (A) «strong» rüzgâr ile gider: «strong wind». (B), (C) ve (E) yağmur için kalıplaşmamıştır; «big rain», «high rain» ve «deep rain» doğal değildir.",
       "passageID": null
     },
     {
@@ -111,7 +111,7 @@
         "put"
       ],
       "correctIndex": 0,
-      "explanationTR": "İngilizce'de «make a mistake» denir: (A). (B) Türkçe «hata yapmak» karşılığına bakınca akla gelir ama «do a mistake» kalıbı yoktur. (C), (D) ve (E) «mistake» ile eşleşmez.",
+      "explanationTR": "İngilizcede «make a mistake» denir: (A). (B) Türkçe «hata yapmak» karşılığına bakınca akla gelir ama «do a mistake» kalıbı yoktur. (C), (D) ve (E) «mistake» ile eşleşmez.",
       "passageID": null
     },
     {
@@ -138,12 +138,12 @@
       "options": [
         "Biri yalnızca resmî yazıda, diğeri yalnızca günlük konuşmada kullanılır",
         "Biri yalnızca isim, diğeri yalnızca fiil olarak kullanılır",
-        "Sözcüklerden biri artık İngilizce'de hiç kullanılmamaktadır",
-        "Her sözcüğün alışılmış eşdizimleri vardır (strong tea, powerful engine)",
-        "Anlamları birbirinin tamamen zıttıdır"
+        "Sözcüklerden biri artık İngilizcede hiç kullanılmamaktadır",
+        "Her sözcüğün kendine özgü alışılmış eşdizimleri vardır",
+        "İki sözcüğün anlamları birbirinin tam zıttıdır"
       ],
       "correctIndex": 3,
-      "explanationTR": "Eş anlamlı sözcükler farklı eşdizimlerle kullanılır: (D). (A) ikisi de hem yazıda hem konuşmada geçer. (B) ikisi de sıfattır. (C) ikisi de yaygın kullanılır. (E) anlamları zıt değil, yakındır.",
+      "explanationTR": "Eş anlamlı sözcükler farklı eşdizimlerle kullanılır: «strong tea» ama «powerful engine» denir: (D). (A) ikisi de hem yazıda hem konuşmada geçer. (B) ikisi de sıfattır. (C) ikisi de bugün yaygın olarak kullanılır. (E) anlamları zıt değil, yakındır.",
       "passageID": null
     }
   ]

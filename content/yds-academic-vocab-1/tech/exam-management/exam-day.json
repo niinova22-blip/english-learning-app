@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Sınav Yönetimi: Sınav Günü",
       "collocations": [],
-      "explanationTR": "Sınav günü, bilgin kadar hazırlığın ve sakinliğin de belirleyicidir. Küçük hazırlıklar büyük stresi önler.\n\n• Bir gün önce: konu yüklemeyi bırak, hafif bir tekrar yap ve erken uyu. Yorgun beyin, bildiğin bilgiyi de geç hatırlar.\n\n• Belgeleri hazırla: sınav giriş belgeni, kimliğini ve gerekli kalem gibi malzemeleri bir gün önce çantana koy. Sabah arayarak stres yaşama.\n\n• Erken git: sınav yerini önceden bil, yolu hesapla ve erken vardığın bir plan yap. Geç kalma korkusu odaklanmayı bozar.\n\n• Talimatı oku: sınav başında yönergeleri ve cevap kâğıdının doldurulma biçimini dikkatle oku. Yanlış kodlanmış bir kâğıt, doğru bilginin önüne geçer.\n\n• Zor bölümden sonra sakinleş: bir okuma parçası çok zorsa iki derin nefes al ve sonraki bölüme geç. Bir kötü bölüm, bütün sınavı bozmamalı. Sınav sırasında cevapları başkalarıyla karşılaştırma.\n\nEn sık düşülen tuzak: sınavdan hemen önce yeni konu çalışmaya çalışmak; bu, kaygıyı artırır ve hatırlamayı zayıflatır.\n\nÖrnek: Sınav sabahı kimliğini arıyorsan, gün daha başlamadan zaman ve odak kaybedersin; bu yüzden belgeleri bir gün önce hazırla."
+      "explanationTR": "Sınav günü, bilgin kadar hazırlığın ve sakinliğin de belirleyicidir. Küçük hazırlıklar büyük stresi önler.\n\n• Bir gün önce: konu yüklemeyi bırak, hafif bir tekrar yap ve erken uyu. Yorgun beyin, bildiğin bilgiyi de geç hatırlar.\n\n• Belgeleri hazırla: sınav giriş belgeni, kimliğini ve gerekli kalem gibi malzemeleri bir gün önce çantana koy. Sabah arayarak stres yaşama.\n\n• Erken git: sınav yerini önceden bil, yolu hesapla ve erken vardığın bir plan yap. Geç kalma korkusu odaklanmayı bozar.\n\n• Talimatı oku: sınav başında yönergeleri ve cevap kâğıdının doldurulma biçimini dikkatle oku. Yanlış kodlanmış bir kâğıt, doğru bilginin önüne geçer.\n\n• Zor bölümden sonra sakinleş: bir okuma parçası çok zorsa iki derin nefes al ve sonraki bölüme geç. Bir kötü bölüm, bütün sınavı bozmamalı. Sınav sırasında da sınav çıkışında da cevapları başkalarıyla karşılaştırma; bu, işaretlediğin cevabı değiştirmez, yalnızca kaygını büyütür.\n\nEn sık düşülen tuzak: sınavdan hemen önce yeni konu çalışmaya çalışmak; bu, kaygıyı artırır ve hatırlamayı zayıflatır.\n\nÖrnek: Sınav sabahı kimliğini arıyorsan, gün daha başlamadan zaman ve odak kaybedersin; bu yüzden belgeleri bir gün önce hazırla."
     }
   ],
   "questions": [
@@ -56,30 +56,30 @@
       "order": 2,
       "prompt": "Okuma parçalarından birinde neredeyse hiçbir şey anlamadın ve panik başlıyor. Ne yapmalısın?",
       "options": [
-        "Sınavı yarıda bırakıp salondan çıkmak",
-        "Parçada kalıp bütün süreyi ona ayırmak",
-        "Nefes alıp parçayı işaretleyerek sonraki bölüme geçmek",
-        "Diğer bölümlerde de yanlış yapacağına karar vermek",
-        "Yandaki öğrencinin kâğıdına göz atmak"
+        "Sınavı yarıda bırakıp salondan tamamen çıkmak",
+        "Parçada inatla kalıp bütün süreyi ona ayırmak",
+        "Nefes alıp parçayı işaretleyerek sonrakine geçmek",
+        "Diğer bölümlerde de yanlış yapacağına şimdiden karar vermek",
+        "Yandaki öğrencinin kâğıdına göz atmaya çalışmak"
       ],
       "correctIndex": 2,
-      "explanationTR": "Bir kötü bölüm bütün sınavı bozmamalı; sakinleşip ilerlemek gerekir: (C). (A) hazırlıklı olduğun sınavı bırakmaktır. (B) süreyi tek parçaya harcar. (D) kanıtsız bir yargıdır. (E) kopyadır ve kurallara aykırıdır.",
+      "explanationTR": "Bir kötü bölüm bütün sınavı bozmamalı; sakinleşip ilerlemek gerekir: (C). (A) aylarca hazırlandığın sınavı tek bir parça yüzünden bırakmaktır. (B) süreyi tek bir parçaya harcar, kalan bölümleri yakar. (D) elinde kanıt yokken kendi sınavını bitiren bir yargıdır. (E) kopyadır ve sınav kurallarına aykırıdır.",
       "passageID": null
     },
     {
       "id": "yds-tech-exam-day-q04",
       "kind": "strategy",
       "order": 3,
-      "prompt": "Sınav biter bitmez arkadaşların cevapları karşılaştırmaya başladı. Doğru davranış hangisidir?",
+      "prompt": "Sınav bitip salondan çıktığında arkadaşların cevapları karşılaştırmaya başladı. Doğru davranış hangisidir?",
       "options": [
-        "Cevapları karşılaştırıp yanlış bulduklarını hemen değiştirmek",
-        "Karşılaştırmayı sınavın ortasında da yapmak",
-        "Cevapları değiştirmek için sınav görevlisinden yardım istemek",
-        "Cevapları karşılaştırıp yanlış çıkarsa sınavdan çekilmek",
-        "Cevap karşılaştırmasından kaçınıp sonraki bölüme odaklanmak"
+        "Cevapları karşılaştırıp yanlış bulduğun soruları tek tek saymak",
+        "Aynı karşılaştırmayı bir dahaki sınavın ortasında da yapmak",
+        "İşaretlediğin cevapları değiştirmek için görevliden yardım istemek",
+        "Arkadaşının cevabı farklıysa bir sonraki sınava hiç girmemek",
+        "Karşılaştırmaya girmeyip dinlenmek ve sonucu sakin beklemek"
       ],
       "correctIndex": 4,
-      "explanationTR": "Karşılaştırma yararsız stres yaratır ve değişiklik zaten mümkün değildir: (E). (A) sınav sonrasında cevap değiştirmek mümkün değildir. (B) sınav sırasında karşılaştırma yapmak kurallara aykırıdır. (C) görevli cevabı değiştirmez. (D) sınavdan çekilmek durumu çözmez.",
+      "explanationTR": "Sınav bitince işaretlediğin cevaplar artık değişmez; karşılaştırma yalnızca gereksiz kaygı yaratır: (E). (A) yarım yamalak hatırlanan cevaplarla yapılan sayım çoğu zaman yanlış çıkar ve seni boşuna yıpratır. (B) sınav sırasında cevapları konuşmak sınav kurallarına aykırıdır. (C) görevli senin adına cevap değiştiremez. (D) birkaç şıkka bakıp gelecek sınavdan vazgeçmek aceleci bir karardır.",
       "passageID": null
     },
     {
@@ -88,14 +88,14 @@
       "order": 4,
       "prompt": "Sınav sabahı evden çıkmadan önce hangi hazırlık en önemlidir?",
       "options": [
-        "Yeni bir konu özetini ezberlemek",
+        "Yeni bir konu özetini baştan sona ezberlemek",
         "Giriş belgesini, kimliği ve kalemi kontrol etmek",
-        "Arkadaşlarla uzun bir tartışma yapmak",
+        "Arkadaşlarla sınav üzerine uzun bir tartışma yapmak",
         "Sınav yerine gidiş yolunu yürüyerek denemek",
-        "Sınavla ilgisiz bir konuda film izlemek"
+        "Sınavla ilgisiz uzun bir film izlemeye başlamak"
       ],
       "correctIndex": 1,
-      "explanationTR": "Belgeler olmadan sınava alınmama riski vardır; kontrol etmek bu riski kapatır: (B). (A) yeni konu ezberlemek stresi artırır. (C) tartışma enerji tüketir. (D) yolu bir gün önce planlamak gerekir. (E) sınav sabahı film izlemek hazırlık sayılmaz.",
+      "explanationTR": "Belgeler olmadan sınava alınmama riski vardır; sabah çıkmadan kontrol etmek bu riski kapatır: (B). (A) sınav sabahı yeni konu ezberlemek stresi artırır, kalıcı da olmaz. (C) tartışma enerjini tüketir. (D) yol denemesi bir gün önce yapılır, sınav sabahı seni geciktirir. (E) film izlemek hazırlık sayılmaz ve zamanı yer.",
       "passageID": null
     },
     {
@@ -107,11 +107,11 @@
         "Acele etmeden yerleşip sakinleşme fırsatı",
         "Sınav süresinin kendiliğinden uzaması",
         "Soru kitapçığını önceden inceleme hakkı",
-        "Doğru cevapları önceden öğrenme olanağı",
+        "Salondaki oturma yerini kendin seçme hakkı",
         "Sınav görevlisinden ek süre alma hakkı"
       ],
       "correctIndex": 0,
-      "explanationTR": "Erken varmak telaşı azaltır ve odak sağlar: (A). (B) sınav süresi erken varmakla uzamaz. (C) kitapçık sınav başlamadan görülemez. (D) cevapları önceden öğrenmek mümkün değildir. (E) ek süre erken gelmekle verilmez.",
+      "explanationTR": "Erken varmak telaşı azaltır, yerini bulmanı ve sakinleşmeni sağlar: (A). (B) sınav süresi erken gelmekle uzamaz. (C) kitapçık ancak sınav başlayınca açılır. (D) oturma yerleri önceden belirlenir, erken gelmek bunu değiştirmez. (E) erken gelmek sana ek süre kazandırmaz.",
       "passageID": null
     }
   ]

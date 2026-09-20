@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Sınav Yönetimi: Zaman Payı",
       "collocations": [],
-      "explanationTR": "YDS gibi uzun bir sınavda başarı, bildiğin bilgiyi zamanında kullanabilmene bağlıdır. Zaman payı planı, bilgin kadar önemlidir.\n\n• Önce süreyi öğren: toplam soru sayısını ve sınav süresini kılavuzdan kontrol et (sınav süresini kılavuzdan öğren). Süreyi soru sayısına bölersen soru başına ortalama zamanı bulursun; bu, tempo ölçünün olur.\n\n• Hızlı soru tiplerini önce çöz: kısa cümle tamamlama, gramer ve kelime soruları çabuk cevaplanır. Uzun okuma parçalarını daha sonraya bırakmak, kolay puanları güvenceye alır.\n\n• Bir soruya sınır koy: bir soruda takıldıysan işaretle ve geç. Sonra kalan zamanla dönersin. Tek bir soruya beş dakika harcamak, birkaç kolay sorudan vazgeçmek demektir.\n\n• Son dakikaları koru: cevap kâğıdını işaretlemek için birkaç dakikanı ayır. Doğru bildiğin cevabı kâğıda geçirememek en pahalı hatadır.\n\nEn sık düşülen tuzak: zor bir soruda inatlaşmak. Kaybettiğin süre, sonraki bilebileceğin soruların hakkını yer.\n\nÖrnek: Bir cloze sorusunda iki şık arasında kaldıysan, soruyu işaretle, kalan sorulara geç ve süre kalırsa geri dön."
+      "explanationTR": "YDS gibi uzun bir sınavda başarı, bildiğin bilgiyi zamanında kullanabilmene bağlıdır. Zaman payı planı, bilgin kadar önemlidir.\n\n• Önce süreyi öğren: toplam soru sayısını ve sınav süresini kılavuzdan kontrol et. Süreyi soru sayısına bölersen soru başına ortalama zamanı bulursun; bu, tempo ölçünün olur.\n\n• Hızlı soru tiplerini önce çöz: kısa cümle tamamlama, gramer ve kelime soruları çabuk cevaplanır. Uzun okuma parçalarını daha sonraya bırakmak, kolay puanları güvenceye alır.\n\n• Bir soruya sınır koy: bir soruda takıldıysan işaretle ve geç. Sonra kalan zamanla dönersin. Tek bir soruya beş dakika harcamak, birkaç kolay sorudan vazgeçmek demektir.\n\n• Son dakikaları koru: cevap kâğıdını işaretlemek için birkaç dakikanı ayır. Doğru bildiğin cevabı kâğıda geçirememek en pahalı hatadır.\n\nEn sık düşülen tuzak: zor bir soruda inatlaşmak. Kaybettiğin süre, sonraki bilebileceğin soruların hakkını yer.\n\nÖrnek: Bir cloze sorusunda iki şık arasında kaldıysan, soruyu işaretle, kalan sorulara geç ve süre kalırsa geri dön."
     }
   ],
   "questions": [
@@ -24,11 +24,11 @@
       "order": 0,
       "prompt": "Sınava girmeden önce soru başına ortalama süreni hesaplamak istiyorsun. Doğru yol hangisidir?",
       "options": [
-        "Süreyi tahmin edip kılavuzdaki sayıları görmezden gelmek",
-        "Bütün soruları eşit derecede zor kabul edip süreyi hiç bölmemek",
-        "Toplam süreyi ve soru sayısını kılavuzdan öğrenip süreyi soru sayısına bölmek",
-        "Sadece okuma parçalarına süre ayırıp diğer soruları sona bırakmak",
-        "Arkadaşlarının önceki sınavda kullandığı süreyi olduğu gibi almak"
+        "Süreyi tahmin edip kılavuzdaki sayılara hiç bakmamak",
+        "Bütün soruları eşit zorlukta kabul edip süreyi hiç bölmemek",
+        "Toplam süreyi kılavuzdan öğrenip soru sayısına bölmek",
+        "Sadece okuma parçalarına süre ayırıp diğerlerini sona bırakmak",
+        "Arkadaşının geçen sınavda kullandığı süreyi olduğu gibi almak"
       ],
       "correctIndex": 2,
       "explanationTR": "Tempo, resmî toplam süre ile soru sayısından çıkar: (C). (A) yanlış bilgiyle plan yapmaktır. (B) soru tiplerinin farklı sürede çözüldüğünü yok sayar. (D) diğer soru tiplerine hiç zaman bırakmaz. (E) geçmiş sınavların koşulları farklı olabilir.",
@@ -79,7 +79,7 @@
         "Sınavı erken bitirdiğini söyleyip kâğıdı teslim etmek"
       ],
       "correctIndex": 1,
-      "explanationTR": "Süre bitmeden cevap kâğıdında boş bırakılmış soru kalmamalı; hızlıca değerlendirip işaretlemek mantıklıdır: (B). (A) iki dakikada tek soru için fazla ağırdır. (C) kâğıdı boş bırakmak. (D) somut gerekçe olmadan cevap değiştirmek daha çok risk taşır. (E) ise sınavı bitirmek demek, hâlbuki süre hâlâ var.",
+      "explanationTR": "Kalan iki dakikada yapılabilecek en verimli iş, cevaplanmamış soruları hızlıca gözden geçirip en makul şıkkı işaretlemektir: (B). (A) tek bir uzun soru iki dakikaya sığmaz. (C) elindeki süreyi hiç kullanmamaktır. (D) somut gerekçe olmadan cevap değiştirmek doğru cevapları da bozar. (E) süre hâlâ dururken sınavı bitirmek demektir.",
       "passageID": null
     },
     {
@@ -89,13 +89,13 @@
       "prompt": "Bir arkadaşın «her soruya eşit süre ayırırım, hangi tip olduğu fark etmez» diyor. Bu yaklaşım için ne söylenebilir?",
       "options": [
         "Doğru bir yaklaşımdır, çünkü tüm soru tipleri aynı sürede çözülür",
-        "Yanlıştır, çünkü sınavda süre sınırı hiç bulunmaz",
+        "Yanlıştır, çünkü sürenin tamamını okuma parçalarına ayırmak gerekir",
         "Yanlıştır, çünkü okuma parçaları hemen hemen hiç süre gerektirmez",
         "Doğrudur, çünkü kısa sorular aslında en uzun süren sorulardır",
         "Soru tipleri farklı süre ister, bu yüzden esnek plan gerekir"
       ],
       "correctIndex": 4,
-      "explanationTR": "Farklı soru tipleri farklı sürede çözülür, bu yüzden esnek plan gerekir: (E). (A) soru tiplerinin aynı sürede çözülemeyeceğini görmezden gelir. (B) sınavın süre sınırı olduğunu yok sayar. (C) okuma parçalarının en çok zaman alan tip olduğunu unutur. (D) mantığı tersine çevirir.",
+      "explanationTR": "Farklı soru tipleri farklı sürede çözülür, bu yüzden esnek plan gerekir: (E). (A) soru tiplerinin aynı sürede çözülemeyeceğini görmezden gelir. (B) okuma dışındaki soruları zamansız bırakır; oysa onlar hızlı puan getirir. (C) okuma parçalarının en çok zaman alan tip olduğunu unutur. (D) mantığı tersine çevirir.",
       "passageID": null
     },
     {
@@ -104,14 +104,14 @@
       "order": 5,
       "prompt": "Zaman planı yapmadan girdiğin bir deneme sınavında son okuma parçasına yalnızca üç dakika kaldı. Bir sonraki denemede ne yapmalısın?",
       "options": [
-        "Daha yavaş okuyup hiçbir soruyu atlamamak",
+        "Daha yavaş okuyup hiçbir soruyu atlamamaya çalışmak",
         "Yalnızca en zor soruların üzerinde uzun süre durmak",
-        "Süreyi soru tiplerine önceden dağıtıp kontrol noktaları belirlemek",
-        "Denemeyi hiç bitirmeden bırakmak",
-        "Süreyi bilmemeye devam etmek, çünkü baskı verimi artırır"
+        "Süreyi soru tiplerine bölüp kontrol noktaları koymak",
+        "Denemeyi hiç bitirmeden yarıda bırakmak",
+        "Süreyi bilmeden girmeye devam etmek, çünkü baskı verimi artırır"
       ],
       "correctIndex": 2,
-      "explanationTR": "Kontrol noktaları (örneğin yarıda hangi soru tipinde olmak istediğin), temponu görmeni sağlar: (C). (A) zaman sorununu büyütür. (B) yoğun ilgi verilen zor sorular süreyi tüketir. (D) deneme bitirilmezse hiçbir şey öğrenilmez. (E) plansızlık baskıyı artırır, verimi düşürür.",
+      "explanationTR": "Kontrol noktaları, yani sınavın yarısında hangi soru tipinde olman gerektiğini önceden belirlemek, temponu görmeni sağlar: (C). (A) yavaşlamak zaman sorununu büyütür. (B) zor sorularda uzun durmak süreyi tüketir. (D) bitirilmeyen deneme tempo hakkında bilgi vermez. (E) plansızlık baskıyı artırır, verimi düşürür.",
       "passageID": null
     }
   ]

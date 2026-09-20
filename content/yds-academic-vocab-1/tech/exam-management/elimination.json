@@ -24,14 +24,14 @@
       "order": 0,
       "prompt": "Bir soruda üç şıkkı gerekçeyle eledin ve iki şık kaldı. Doğru sonraki adım hangisidir?",
       "options": [
-        "Yazımı daha kısa olanı seçip ilerlemek",
-        "İki şıkkı soru kökünde tek tek deneyip aralarındaki farkı bulmak",
-        "İki şıkkı da yanlış sayıp soruyu iptal etmek",
+        "Yazımı daha kısa olan şıkkı seçip hızlıca ilerlemek",
+        "İki şıkkı da soru kökünde deneyip aradaki farkı bulmak",
+        "İki şıkkı da yanlış sayıp soruyu tamamen boş bırakmak",
         "Şıkların sırasına bakıp alfabetik olarak birini seçmek",
-        "Elediğin şıkları bir daha kontrol etmeden ilerlemek"
+        "Elediğin şıkları bir daha kontrol etmeden işaretlemek"
       ],
       "correctIndex": 1,
-      "explanationTR": "Son iki şıkkı köke karşı denemek, farkı ortaya çıkarır: (B). (A) yazım uzunluğu içerikle ilgisizdir. (C) ise soruyu boşa harcar. (D) sıra bilgisi anlama dayalı değildir. (E) zaten kalan iki şıkkı ayırmaya yardım etmez.",
+      "explanationTR": "Son iki şıkkı köke karşı denemek, aradaki farkı ortaya çıkarır: (B). (A) şıkkın uzunluğu içerikle ilgili değildir. (C) çözebileceğin bir soruyu boşa harcar. (D) şıkların sırası anlamla ilgili bir ipucu vermez. (E) zaten elediğin şıklar kalan ikisini ayırmaya yardım etmez.",
       "passageID": null
     },
     {
@@ -47,7 +47,7 @@
         "to welcome"
       ],
       "correctIndex": 2,
-      "explanationTR": "«was widely ---- by» edilgen yapıdır ve past participle ister: (C). (A) ve (E) fiilin yalın biçimleridir, edilgen yapıya uymaz. (B) «-ing» biçimi olup etken anlam taşır. (D) üçüncü tekil kişi biçimidir, «was» ile yan yana gelemez.",
+      "explanationTR": "«was widely ---- by» edilgen yapıdır ve past participle ister: (C). (A) yalın biçimdir; «by the public» eylemi yapanı gösterdiği için edilgen çatı gerekir. (E) mastardır, «was» ile edilgen kurmaz. (B) «-ing» biçimi olup etken anlam taşır. (D) üçüncü tekil kişi biçimidir, «was» ile yan yana gelemez.",
       "passageID": null
     },
     {
@@ -58,12 +58,12 @@
       "options": [
         "Somut bir gerekçe bulamıyorsa ilk seçimini değiştirmemesini",
         "Her zaman ilk seçimi değiştirmesini, çünkü ilk fikir genellikle yanlıştır",
-        "Bütün cevaplarını boş bırakıp yeniden yazmasını",
-        "Kâğıdı silip başka bir kalemle yeniden doldurmasını",
-        "Cevabı arkadaşlarına sorup çoğunluğa uymasını"
+        "Bütün cevaplarını silip baştan yeniden işaretlemesini",
+        "Emin olamadığı soruların cevaplarını sonunda topluca değiştirmesini",
+        "Kalan sürede aynı soruyu tekrar tekrar okuyup şüphesini büyütmesini"
       ],
       "correctIndex": 0,
-      "explanationTR": "Şüphe tek başına sebep değildir; somut hata bulunmadan değiştirmek çoğu zaman doğruyu bozar: (A). (B) kurala dayanmayan genel bir inançtır. (C) ve (D) zaman kaybettirir. (E) sınavda arkadaşa sormak mümkün ve doğru değildir.",
+      "explanationTR": "Şüphe tek başına sebep değildir; somut bir hata bulmadan değiştirmek çoğu zaman doğru cevabı bozar: (A). (B) kurala dayanmayan genel bir inançtır. (C) doğru işaretlenmiş cevapları da riske atar ve süreyi tüketir. (D) gerekçesiz toplu değişiklik, hatayı çoğaltır. (E) aynı soruya dönüp durmak yeni bilgi getirmez, yalnızca kaygıyı artırır.",
       "passageID": null
     },
     {
@@ -95,7 +95,7 @@
         "Önce gerekçeyle elenebilenleri eleyip kalanlardan seçmek"
       ],
       "correctIndex": 4,
-      "explanationTR": "Şık sayısı azaldıkça doğru seçme şansı yükselir; bunun için önce elemek gerekir: (E). (A) hiçbir bilgiyi kullanmaz. (B) ve (C) soruya bağlı olmayan sabit kurallardır. (D) hem şansı hem de değerlendirme kuralını hesaba katmaz; kuralı ÖSYM kılavuzundan oku.",
+      "explanationTR": "Şık sayısı azaldıkça doğru seçme şansın yükselir; bunun için önce gerekçeyle elemek gerekir: (E). (A) elindeki hiçbir bilgiyi kullanmaz. (B) ve (C) sorunun içeriğine bakmayan sabit alışkanlıklardır. (D) elemeyle kazandığın şansı kullanmadan soruyu bırakmaktır; tahmin edip etmeme kararını verirken değerlendirme kuralını ÖSYM kılavuzundan oku.",
       "passageID": null
     },
     {

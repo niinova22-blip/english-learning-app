@@ -25,13 +25,13 @@
       "prompt": "Aralıklı tekrar (spaced repetition) yöntemi nedir?",
       "options": [
         "Aynı kelimeyi tek bir günde yüzlerce kez yazmak",
-        "Kelimeyi bir kez öğrenip bir daha hiç görmemek",
-        "Kelimeleri yalnızca sınavdan önceki gün tekrar etmek",
-        "Kelimeleri sabaha kadar aynı listeden okumak",
-        "Aynı kelimeyi giderek uzayan aralıklarla yeniden gözden geçirmek"
+        "Kelimeyi bir kez öğrenip bir daha hiç tekrar etmemek",
+        "Bütün kelimeleri yalnızca sınavdan önceki gün tekrar etmek",
+        "Aynı listeyi sabaha kadar baştan sona okumak",
+        "Kelimeyi giderek uzayan aralıklarla tekrar etmek"
       ],
       "correctIndex": 4,
-      "explanationTR": "Aralıklı tekrar, unutmaya başlamadan hemen önce gözden geçirmeyi hedefler: (E). (A) aralıksız yoğun yığmadır. (B) tekrarı tamamen bırakır. (C) tekrarı tek bir güne sıkıştırır. (D) pasif okumadır.",
+      "explanationTR": "Aralıklı tekrar, kelimeyi unutmaya başladığın anda yeniden gözden geçirmeyi hedefler; aralıklar her tekrarda biraz daha uzar: (E). (A) aralıksız yığmadır, ertesi gün tekrar gelmez. (B) tekrarı bütünüyle bırakır. (C) bütün tekrarı tek bir güne sıkıştırır. (D) pasif okumadır, hatırlama çabası içermez.",
       "passageID": null
     },
     {
@@ -56,14 +56,14 @@
       "order": 2,
       "prompt": "decide, decision ve decisive gibi kelimeleri birlikte öğrenmenin en önemli faydası nedir?",
       "options": [
-        "Bir kelimeyi bilmenin ailedeki diğer kelimeleri anlamaya yardım etmesi",
-        "Sözcüklerin hepsinin anlamının aynı olması",
+        "Bir kelimeyi bilmenin ailedeki diğerlerini de açması",
+        "Sözcüklerin hepsinin anlamının birbiriyle aynı olması",
         "Sözcüklerin sınavda aynı soruda çıkmasının garanti olması",
-        "Sözcüklerin yazımını unutmanın imkânsız hale gelmesi",
+        "Sözcüklerin yazımını unutmanın imkânsız hâle gelmesi",
         "Kelime öğrenmek için başka bir çabaya gerek kalmaması"
       ],
       "correctIndex": 0,
-      "explanationTR": "Aynı kökten gelen sözcükler ortak anlam taşır; kök ve ekleri bilmek yeni biçimleri tanımayı kolaylaştırır: (A). (B) anlamları aynı değil, ilişkilidir. (C) sınavda çıkma garantisi yoktur. (D) ve (E) gerçekçi olmayan vaatlerdir.",
+      "explanationTR": "Aynı kökten gelen sözcükler ortak bir anlam taşır; kökü ve ekleri bilmek, ailenin tanımadığın biçimlerini de çözmeni sağlar: (A). (B) anlamları aynı değil, akrabadır; decide fiil, decision isimdir. (C) hiçbir sözcüğün sınavda çıkma garantisi yoktur. (D) ve (E) gerçekçi olmayan vaatlerdir; kelime ailesi tekrarın yerini tutmaz.",
       "passageID": null
     },
     {
@@ -73,13 +73,13 @@
       "prompt": "Yeni bir kelimeyi kendi cümlende kullanmak neden faydalıdır?",
       "options": [
         "Kelimenin anlamını öğrenmeyi gereksiz kılar, yalnızca yazımı pekiştirir",
-        "Kelimeyi anlamlı bir bağlama yerleştirerek hatırlamayı kolaylaştırır",
-        "Kelimenin yazımını gereksiz kılar",
-        "Kelimenin sınavda çıkmasını sağlar",
-        "Kelime kartlarının yerini tamamen alır"
+        "Kelimeyi anlamlı bir bağlama yerleştirip akılda tutmayı sağlar",
+        "Kelimenin yazımını öğrenme ihtiyacını tamamen ortadan kaldırır",
+        "Kelimenin sınavda çıkma olasılığını doğrudan artırır",
+        "Kelime kartlarının yerini bütünüyle almasını sağlar"
       ],
       "correctIndex": 1,
-      "explanationTR": "Kişisel ve anlamlı bir bağlam, hatırlamayı güçlendirir: (B). (A) anlamı gereksiz kılmaz; cümle kurmak anlamı da pekiştirir. (C) yazımı öğrenmek yine gerekir. (D) sınavda çıkmasını etkilemez. (E) ihtiyaca göre kartlarla birlikte kullanılabilir.",
+      "explanationTR": "Kendi hayatından kurduğun kişisel ve anlamlı bir bağlam, kelimeyi hatırlamayı güçlendirir: (B). (A) anlamı gereksiz kılmaz; tersine, cümle kurabilmek için anlamı bilmen gerekir. (C) doğru cümle yazmak yazımı da içerir, onu ortadan kaldırmaz. (D) hangi kelimenin çıkacağını etkileyemezsin. (E) cümle kurmak kartların yerini almaz, onları tamamlar.",
       "passageID": null
     },
     {
@@ -88,14 +88,14 @@
       "order": 4,
       "prompt": "Ali bir günde yüz kelime çalıştı ve bir daha hiç bakmadı; bir hafta sonra çoğunu unuttu. En uygun çözüm hangisidir?",
       "options": [
-        "Bir günde iki yüz kelime birden çalışmak",
-        "Kelime çalışmayı bırakmak",
+        "Bir günde iki yüz kelimeyi birden çalışmayı denemek",
+        "Kelime çalışmayı bir süreliğine tamamen bırakmak",
         "Aynı listeyi sabaha kadar tekrar tekrar okumak",
         "Yalnızca zaten bildiği kelimelere tekrar bakmak",
         "Kelimeleri birkaç gün arayla yeniden tekrar etmek"
       ],
       "correctIndex": 4,
-      "explanationTR": "Bir kez öğrenilip terk edilen bilgi unutulur; düzenli tekrar gerekir: (E). (A) yükü artırıp aynı sorunu büyütür. (B) hiçbir çözüm getirmez. (C) pasif tekrardır. (D) öğrenmesi gereken kelimeleri yok sayar.",
+      "explanationTR": "Bir kez öğrenilip bir daha dönülmeyen bilgi unutulur; çözüm, aynı kelimeleri aralıklarla yeniden görmektir: (E). (A) günlük yükü artırıp aynı sorunu büyütür. (B) unutmayı hızlandırır, hiçbir şey çözmez. (C) pasif okumadır; tanıdık gelmek hatırlamak değildir. (D) asıl öğrenilmesi gereken kelimeleri dışarıda bırakır.",
       "passageID": null
     },
     {
@@ -105,13 +105,13 @@
       "prompt": "Yalnızca Türkçe karşılıklı liste ezberleyen bir öğrenci kelimeleri cümlede kullanamıyor. Ona ne önerirsin?",
       "options": [
         "Aynı listeyi biraz daha hızlı ezberlemesini",
-        "Cümle kurmayı tamamen bırakmasını",
+        "Cümle kurma denemelerini tamamen bırakmasını",
         "Örnek cümle ve eşdizimleri de çalışıp cümle yazmasını",
-        "Türkçe karşılıkları unutmasını",
+        "Türkçe karşılıkları tamamen unutmaya çalışmasını",
         "Yalnızca kelimelerin ilk harflerine odaklanmasını"
       ],
       "correctIndex": 2,
-      "explanationTR": "Kelimeyi bağlamda ve kalıplarıyla öğrenmek kullanma becerisini geliştirir: (C). (A) aynı yöntemi hızlandırır. (B) sorunu çözmez. (D) yararlı bir ipucunu atar. (E) anlamla ilgisiz bir hedefe odaklanır.",
+      "explanationTR": "Kelimeyi örnek cümlesi ve eşdizimleriyle öğrenmek, onu kullanma becerisini geliştirir: (C). (A) işe yaramayan yöntemi yalnızca hızlandırır. (B) asıl eksik olan beceriyi büsbütün bırakmaktır. (D) Türkçe karşılık yararlı bir başlangıç ipucudur, atılmaz. (E) ilk harf, kelimenin kullanımı hakkında hiçbir şey öğretmez.",
       "passageID": null
     },
     {
@@ -120,14 +120,14 @@
       "order": 6,
       "prompt": "Bir hafta önce öğrendiğin bir kelimeyi hatırlayamıyorsun. Bu durum neyi gösterir?",
       "options": [
-        "Kelime öğrenme yeteneğinin hiç olmadığını",
+        "Kelime öğrenme yeteneğinin hiç bulunmadığını",
         "Yaşının artık kelime öğrenmek için geç olduğunu",
         "Bu kelimeyi artık hiçbir zaman öğrenemeyeceğini",
         "Unutmanın normal olduğunu ve tekrar zamanının geldiğini",
-        "O kelimenin sınavda çıkmayacağını"
+        "O kelimenin senin için gereksiz bir kelime olduğunu"
       ],
       "correctIndex": 3,
-      "explanationTR": "Unutma sürecin doğal parçasıdır; tekrar zamanını hatırlatır: (D). (A) tek bir unutma yetenek eksikliği değildir. (B) yaş burada belirleyici değildir. (C) tekrar bu durumu değiştirir. (E) çıkıp çıkmayacağıyla ilgisizdir.",
+      "explanationTR": "Unutma, öğrenmenin doğal bir parçasıdır ve sana tekrar zamanının geldiğini haber verir: (D). (A) tek bir kelimeyi unutmak yetenek eksikliği anlamına gelmez. (B) yaş, kelime öğrenmenin önünde bir engel değildir. (C) aralıklı tekrar bu durumu değiştirir. (E) unutmuş olman kelimenin gereksiz olduğunu göstermez.",
       "passageID": null
     },
     {
@@ -137,13 +137,13 @@
       "prompt": "Haftalık on saatlik kelime çalışmasını nasıl dağıtmak daha sürdürülebilirdir?",
       "options": [
         "Her gün kısa oturumlara bölüp düzenli tekrar yapmak",
-        "Tek bir gün on saat çalışmak",
+        "Tek bir günde on saati bir arada çalışmak",
         "İlk gün çok çalışıp haftanın kalanında hiç çalışmamak",
-        "Sadece sınavdan bir gün önce çalışmak",
+        "On saatin tamamını sınavdan önceki güne bırakmak",
         "Aynı oturumda bütün kelimeleri bir kez okumak"
       ],
       "correctIndex": 0,
-      "explanationTR": "Düzenli ve kısa oturumlar aralıklı tekrar sağlar: (A). (B) ve (C) yığılmadır ve unutmayı artırır. (D) yeterli tekrar fırsatı vermez. (E) tek okuma kalıcı öğrenme sağlamaz.",
+      "explanationTR": "Kısa ve düzenli oturumlar, aynı kelimeyi farklı günlerde görmeni, yani aralıklı tekrar yapmanı sağlar: (A). (B) ve (C) yığılmadır; kelimeler arada hiç tekrar edilmediği için unutulur. (D) tek güne sıkıştırılan çalışma tekrar fırsatı bırakmaz. (E) bir kez okumak kalıcı öğrenme sağlamaz.",
       "passageID": null
     }
   ]
