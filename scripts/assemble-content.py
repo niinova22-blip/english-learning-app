@@ -243,7 +243,20 @@ ROMAN = ["I", "II", "III", "IV", "V"]
 
 TECH_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "tech")
 # Slice 7d technique units (orders 13-15). Same contract as GRAMMAR_UNITS.
-TECH_UNITS = []
+TECH_UNITS = [
+    {
+        "id": "yds-tech-unit-question-strategies",
+        "theme": "Sınav soru tipi stratejileri",
+        "order": 13,
+        "files": [
+            "question-strategies/reading.json", "question-strategies/cloze.json",
+            "question-strategies/sentence.json", "question-strategies/translation.json",
+            "question-strategies/paragraph.json", "question-strategies/irrelevant.json",
+            "question-strategies/dialogue.json", "question-strategies/restatement.json",
+            "question-strategies/vocabulary-questions.json", "question-strategies/grammar-questions.json",
+        ],
+    },
+]
 TECH_LESSON_ID_PREFIX = "yds-tech-"
 # slug -> (question kind, lesson skill, exact question count, exact minutes)
 TECH_LESSON_SHAPE = {
@@ -287,7 +300,10 @@ OUTPUT_PATHS = [
 # 7: Slice 7c adds the exam-type units (orders 9-12). Bumping this makes
 # installed apps re-import the package; every existing id is unchanged, so
 # FSRS history survives the reseed.
-PACKAGE_VERSION = 7
+# 8: Slice 7d adds the study-technique and second vocabulary units (orders
+# 13-23). Bumping this makes installed apps re-import the package; every
+# existing id is unchanged, so FSRS history survives the reseed.
+PACKAGE_VERSION = 8
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.

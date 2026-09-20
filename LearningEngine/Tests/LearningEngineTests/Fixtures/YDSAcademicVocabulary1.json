@@ -5,7 +5,7 @@
   "storeProductID": "com.niinova22.englishapp.package.yds",
   "levelLower": "B2",
   "levelUpper": "C1",
-  "version": 7,
+  "version": 8,
   "skillWeights": {
     "vocabulary": 35,
     "grammar": 30,
@@ -13462,6 +13462,1203 @@
               ],
               "correctIndex": 4,
               "explanationTR": "«Scarcely ... when» iki olayın art arda gerçekleştiğini anlatır: toplantı başlar başlamaz alarm çaldı: (E). (A) ve (B) sırayı tersine çevirir. (C) toplantının bitmek üzere olduğunu söyler. (D) alarmı toplantıya bağlar.",
+              "passageID": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-tech-unit-question-strategies",
+      "theme": "Sınav soru tipi stratejileri",
+      "order": 13,
+      "lessons": [
+        {
+          "id": "yds-tech-reading",
+          "order": 0,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Okuma Soruları",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-reading",
+              "type": "grammarPoint",
+              "headword": "Strategy: Reading Questions",
+              "frequencyRank": 4000,
+              "baseDifficulty": 0.5,
+              "definition": "Okuma sorularını adım adım çözme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Okuma Soruları",
+              "collocations": [],
+              "explanationTR": "Okuma sorularında amaç metni baştan sona ezberlemek değil, doğru cümleyi hızlıca BULMAK ve seçeneği o cümleyle doğrulamaktır.\n\n• Önce soruları oku. Ne arandığını bilerek okumak, metinde gezinmeyi hızlandırır: «Which of the following is stated in the passage?» ile «What can be inferred from the passage?» farklı işler ister.\n\n• Metne göz gezdir: her paragrafın ilk cümlesi genellikle konuyu verir. Ayrıntı sorusu gelince ilgili paragrafa dön ve cevabı ilgili cümlede ara.\n\n• Her seçeneği metinle karşılaştır: doğru şık, metindeki bir cümlenin başka sözcüklerle ifadesidir (paraphrase). Sözcüğü aynen tekrarlayıp anlamı değiştiren seçenekler çoğu zaman tuzaktır.\n\n• Mutlak ifadelere (always, never, only, all, entirely) dikkat et: metin bunları açıkça desteklemedikçe yanlış şıktır. Metinde geçmeyen ama gerçek hayatta doğru olan bilgi de (true but not stated) yanlış şıktır.\n\n• Sözcük sorularında yalnızca sözcüğe değil, bütün cümleye bak: «The minister's sceptical reaction suggested that she doubted the figures.» cümlesinde bağlam «sceptical» sözcüğünün anlamını verir.\n\nEn sık düşülen tuzak: aklındaki genel bilgiyle cevap vermek. Doğru şık senin ne bildiğin değil, METNİN ne söylediğidir.\n\nÖrnek: Metinde «many firms reported losses» yazıyorsa «all firms lost money» seçeneği yanlıştır, çünkü «all» metnin söylediğinin ötesine geçer."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-reading-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Uzun bir okuma parçasıyla karşılaştın ve zaman kısıtlısın. Doğru ilk adım hangisidir?",
+              "options": [
+                "Metni her sözcüğünü çevirerek baştan sona okumak",
+                "Yalnızca son paragrafı okuyup soruları geçmek",
+                "Soru köklerini okuyup metinde ne arayacağını belirlemek",
+                "Bilmediğin her sözcüğün anlamını kesinleştirmeden ilerlememek",
+                "Seçenekleri okumadan önce bütün ayrıntıları ezberlemek"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Önce soruları okumak, metinde ne arayacağını bilmeni sağlar ve gezinmeyi hızlandırır: (C). (A) zaman kaybettirir. (B) tek paragraf bütün soruları karşılamaz. (D) bilinmeyen tek sözcük yüzünden ilerlememek okumayı durdurur. (E) ezber, hedefsiz okumadır ve verimsizdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-reading-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Passage: \"The city introduced a congestion charge in 2003. Traffic in the centre fell by nearly a fifth in the first year, although some drivers simply moved to surrounding roads.\" According to the passage, what happened to central traffic in the first year? ----",
+              "options": [
+                "It fell by close to twenty per cent.",
+                "It disappeared from the centre entirely.",
+                "It doubled on the surrounding roads only.",
+                "It rose slightly at first.",
+                "It was unaffected by the charge."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Nearly a fifth» yaklaşık yüzde yirmi demektir; ilgili cümleyi bulup doğrulamak yeterlidir: (A). (B) «entirely» mutlaklığı metinle çelişir. (C) yalnızca çevre yollarda ikiye katlandığı söylenmez. (D) ve (E) metnin verdiği düşüşle çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-reading-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Passage: \"Most participants reported better sleep after the trial. A few noticed no change.\" Which statement is supported by the passage?",
+              "options": [
+                "All participants slept better after the trial.",
+                "No participant reported any change.",
+                "The trial always improves sleep.",
+                "Some participants did not notice any improvement.",
+                "Only a few participants slept better."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«A few noticed no change» bazı katılımcıların bir değişiklik fark etmediğini söyler: (D). (A) «all» metnin ötesine geçer. (B) «no participant» metinle çelişir. (C) «always» mutlaklığı destek görmez. (E) çoğunluğun iyileştiğini görmezden gelir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-reading-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "Bir seçenek gerçek hayatta doğru olsa da metinde hiç geçmiyorsa, okuma sorusunda ne yapmalısın?",
+              "options": [
+                "Seçmeliyim, çünkü doğru bilgi her zaman doğru şıktır",
+                "Elemeliyim, çünkü doğru şık metindeki bilgiye dayanmalı",
+                "Yalnızca uzun ise seçmeliyim",
+                "Metindeki sözcükleri içeriyorsa seçmeliyim",
+                "Diğer seçenekler zayıfsa seçmeliyim"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Okuma sorusu METNE göre cevaplanır: (B). (A) genel doğruyu metinden üstün tutar. (C) ve (D) ile (E) şık uzunluğu, sözcük tekrarı ya da zayıf rakip gibi metin dışı ölçütlere dayanır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-reading-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Passage: \"The minister's sceptical reaction suggested that she doubted the figures.\" The word \"sceptical\" is closest in meaning to ----.",
+              "options": [
+                "enthusiastic",
+                "angry",
+                "curious",
+                "generous",
+                "doubtful"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Cümlenin devamı (she doubted the figures) sözcüğün anlamını verir: (E) şüpheci. (A) hevesli demektir ve «doubted» ile çelişir. (B) öfkeli, (C) meraklı, (D) cömert anlamı taşır; hiçbiri bağlama uymaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-reading-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "«It can be inferred from the passage that ...» türü bir soruda doğru şık hangisidir?",
+              "options": [
+                "Metinden mantıken çıkan ama yazılmamış şık",
+                "Metinden sözcüğü sözcüğüne alınmış şık",
+                "Metinle açıkça çelişmeyen her mümkün şık",
+                "Genel kültüre ve gerçek hayata uyan şık",
+                "En uzun ve en ayrıntılı görünen şık"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Çıkarım (inference), metindeki bilgiden zorunlu olarak sonuç çıkarmaktır: (A). (B) ayrıntı sorusunun cevabıdır. (C) çok geniştir; çelişmeyen ama desteklenmeyen şık yanlıştır. (D) ve (E) metin dışı ölçütlerdir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-cloze",
+          "order": 1,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Cloze Testi",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-cloze",
+              "type": "grammarPoint",
+              "headword": "Strategy: Cloze Test",
+              "frequencyRank": 4001,
+              "baseDifficulty": 0.5,
+              "definition": "Cloze testini adım adım çözme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Cloze Testi",
+              "collocations": [],
+              "explanationTR": "Cloze testinde her boşluk bir CÜMLENİN parçasıdır; doğru cevap boşluğun çevresindeki dil bilgisi ve mantık ilişkisinden çıkar.\n\n• Önce boşluğun bulunduğu cümlenin tamamını, sonra öncesindeki ve sonrasındaki cümleyi oku. Tek kelimeye bakarak karar verme.\n\n• Boşluğun türünü belirle: bağlaç mı (although, because), edat mı (dependent on), ilgi zamiri mi (whose, which), fiil biçimi mi (had passed), niceleyici mi (much, many), yoksa sözcük mü (pose a threat)?\n\n• Her seçeneği cümlede dene; hem gramerle hem anlamla uyuşan tek seçenek kalana kadar ele. Bağlaçlarda cümlenin iki yarısı arasındaki ilişkiye (karşıtlık, neden, sonuç, koşul) bak.\n\n• Kalıp ifadelere (pose a threat, depend on, lead to) güven: doğru kalıp çoğu zaman tek başına cevabı verir.\n\n• Boşluğun iki yanına da bak: fiilin öznesi ile uyumu, sonraki sözcüğün adı mı fiili mi olduğu ipucudur.\n\nEn sık düşülen tuzak: boşluğu yalnızca anlama bakarak doldurmak. Anlamca uyan bir seçenek, edat ya da dil bilgisi kalıbıyla uyuşmuyorsa yanlıştır.\n\nÖrnek: «Many residents are dependent (1) ---- private cars.» cümlesinde «dependent» sözcüğünün kalıbı «on» seçeneğini verir."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-cloze-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Bir cloze sorusunda seçenekler «although / because / unless / therefore / moreover» ise doğru bağlaç hangi adımla belirlenir?",
+              "options": [
+                "Boşluktan önceki tek sözcüğe bakmakla",
+                "En kısa görünen bağlacı hemen seçmekle",
+                "Paragrafın ilk cümlesini çevirmekle",
+                "İki yarı arasındaki mantıksal ilişkiyi bulmakla",
+                "Seçenekleri alfabetik sıraya dizmekle"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Bağlaç, cümlenin iki yarısı arasındaki ilişkiyi (karşıtlık, neden, koşul, sonuç) kurar: (D). (A) tek sözcük ilişkiyi göstermez. (B) ve (C) ve (E) mantıkla ilgisiz ölçütlerdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-cloze-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Cities are growing fast; (2) ----, public transport has not kept pace.",
+              "options": [
+                "however",
+                "therefore",
+                "moreover",
+                "for example",
+                "similarly"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Şehirlerin hızlı büyümesi ile ulaşımın geri kalması arasında KARŞITLIK vardır: (A). (B) sonuç bildirir. (C) ek bir bilgi ekler. (D) örnek verir. (E) benzerlik kurar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-cloze-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Many residents are now dependent (3) ---- private cars.",
+              "options": [
+                "of",
+                "to",
+                "on",
+                "at",
+                "by"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Dependent on» sabit bir sıfat + edat kalıbıdır: (C). (A) of, (B) to, (D) at ve (E) by bu sıfatla kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-cloze-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "By the time the programme ended, most pupils (4) ---- their first language exam.",
+              "options": [
+                "passed",
+                "pass",
+                "would pass",
+                "are passing",
+                "had passed"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«By the time ... ended» geçmişte bir sınır belirler; ondan önce biten eylem past perfect ile verilir: (E). (A) past simple sırayı göstermez. (B) geniş zaman ve (D) sürerlik geçmişle uyuşmaz. (C) would pass gelecek anlamı taşır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-cloze-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "The committee, (5) ---- members were elected last year, meets monthly.",
+              "options": [
+                "which",
+                "whose",
+                "who",
+                "that",
+                "what"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Boşluktan sonra bir ad (members) gelir ve sahiplik bildirilir: (B). (A) which, ardından ad almaz. (C) who kişi zamiridir ve ad öncesi kullanılmaz. (D) that virgülden sonra gelmez. (E) what önceki bir adı niteleyemez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-cloze-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Rising sea levels (6) ---- a serious threat to coastal cities.",
+              "options": [
+                "pose",
+                "make",
+                "give",
+                "take",
+                "do"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Pose a threat» sabit bir kalıptır (= tehdit oluşturmak): (A). (B) make, (C) give, (D) take ve (E) do «threat» ile bu kalıbı kurmaz.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-sentence",
+          "order": 2,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Cümle Tamamlama",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-tech-card-sentence",
+              "type": "grammarPoint",
+              "headword": "Strategy: Sentence Completion",
+              "frequencyRank": 4002,
+              "baseDifficulty": 0.5,
+              "definition": "Cümle tamamlama sorularını mantıksal ilişkiyle çözme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Cümle Tamamlama",
+              "collocations": [],
+              "explanationTR": "Cümle tamamlamada doğru seçenek, kökteki BAĞLAÇ ya da bağlayıcının kurduğu mantıksal ilişkiyi ve dil bilgisini birlikte karşılar.\n\n• Kökteki ilişkiyi bul: because / since (neden), so ... that (sonuç), although / whereas (karşıtlık), unless / provided (koşul), so that (amaç), until / by the time (zaman).\n\n• Seçeneği köke bağlayıp cümleyi baştan sona oku: tek bir doğal cümle çıkmalı; özne, zaman ve anlam uyuşmalı.\n\n• Kökü tekrarlayan ya da çelişen seçenekleri ele: Although the drug passed every test, ---- cümlesinde «ilaç her testi geçti» bilgisini tekrar eden şık karşıtlık kurmaz.\n\n• Paralellik ararsan yapı ipucudur: not only inexpensive but also ---- boşluğuna sıfat gelir.\n\n• Zaman uyumuna bak: By the time the guests arrived, the chef ---- cümlesi past perfect ister.\n\nEn sık düşülen tuzak: yalnızca anlamı ilginç görünen seçeneği seçmek. Ana cümlenin zamanı ya da bağlacın ilişkisi uyuşmuyorsa seçenek yanlıştır.\n\nÖrnek: Unless the government acts quickly, unemployment is likely to rise further."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-sentence-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Cümle tamamlama sorusunda kökteki bağlacı gördükten sonraki en doğru adım hangisidir?",
+              "options": [
+                "Cümlede geçen en uzun sözcüğü seçenekte aramak",
+                "Bağlacın kurduğu ilişkiyi belirleyip seçenekleri elemek",
+                "Her zaman en genel görünen seçeneği seçmek",
+                "Seçenekleri okumadan yalnızca bağlacı çevirmek",
+                "Ana cümlenin zamanını ve öznesini yok saymak"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "İlişkiyi belirlemek, seçenekleri mantıkla elemeni sağlar: (B). (A) sözcük uzunluğu ilişki kurmaz. (C) genellik ölçüt değildir. (D) seçeneklere bakmadan karar vermek yanlıştır. (E) zaman uyumu cevabın parçasıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-sentence-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Because the warehouse flooded, ----.",
+              "options": [
+                "the company had to delay several deliveries",
+                "the company's deliveries arrived earlier than planned",
+                "the warehouse had been built near a river",
+                "the company opened a second warehouse last year",
+                "several customers ordered more goods than usual"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Because» bir neden bildirir; sonuç, taşkının doğal etkisidir: (A). (B) tersine erken teslimat söyler. (C) ve (D) ile (E) nedenle mantıksal bağı olmayan ifadelerdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-sentence-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "By the time the guests arrived, the chef ----.",
+              "options": [
+                "already prepares the meal",
+                "will already prepare the meal",
+                "had already prepared the meal",
+                "is already preparing the meal",
+                "would already prepare the meal"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«By the time» + geçmiş zaman, ondan önce biten eylem için past perfect ister: (C). (A) geniş zaman, (B) gelecek zaman ve (D) sürerlik geçmiş cümleyle uyuşmaz. (E) would prepare gelecek anlamı taşır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-sentence-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "The city built a new bridge to reduce congestion; as a result, ----.",
+              "options": [
+                "the bridge was built to reduce congestion",
+                "congestion increased sharply after the opening",
+                "the old bridge had been very crowded",
+                "the river was wider than expected",
+                "travel times across the river fell noticeably"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«As a result» bir SONUÇ bildirir: köprü sıkışıklığı azalttı, yolculuk süreleri kısaldı: (E). (A) kökteki bilgiyi tekrarlar. (B) sonuçla çelişir. (C) nedeni yeniden anlatır. (D) ilişkisiz bir bilgidir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-sentence-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "The proposal is not only inexpensive but also ----.",
+              "options": [
+                "practical",
+                "practically",
+                "practicality",
+                "to be practical",
+                "it is practical"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Not only ... but also» kalıbında iki öğe paralel olmalıdır: inexpensive ile aynı türde bir sıfat: (A). (B) zarftır. (C) isimdir. (D) mastar yapısıdır. (E) cümlecik kurar ve paralelliği bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-sentence-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Unless the government acts quickly, ----.",
+              "options": [
+                "unemployment fell sharply last year",
+                "the government acted quickly enough",
+                "quick action would have been impossible",
+                "unemployment is likely to rise further",
+                "unemployment cannot possibly rise"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Unless» = «if not»: hükümet hızlı davranmazsa işsizlik artabilir: (D). (A) geçmişe ait bir olgudur. (B) koşulun gerçekleştiğini söyler. (C) yapıyı bozar. (E) «unless» ile çelişen mutlak bir iddiadır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-translation",
+          "order": 3,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Çeviri Soruları",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-translation",
+              "type": "grammarPoint",
+              "headword": "Strategy: Translation Questions",
+              "frequencyRank": 4003,
+              "baseDifficulty": 0.5,
+              "definition": "Çeviri sorularını öğe öğe karşılaştırarak çözme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Çeviri Soruları",
+              "collocations": [],
+              "explanationTR": "Çeviri sorusunda doğru şık, cümlenin BÜTÜN öğelerini korur; yanlış şıklar çoğu zaman yalnızca tek bir öğeyi değiştirir.\n\n• Önce cümledeki öğeleri bul: özne, fiil, zaman, olumsuzluk, kip (must, may, would), niceleyici (few, most) ve bağlaç (although, because).\n\n• Her seçeneği bu öğelerle parça parça karşılaştır. Bir seçenek sözcükleri doğru verse bile zamanı, olumsuzluğu ya da öznesi değişmişse yanlıştır.\n\n• Bağlaçlara dikkat et: although (karşıtlık) ile because (neden) çevirileri birbirine benzeyebilir ama anlamları zıttır.\n\n• Edilgen ve etken yapıyı ayır: The results were announced by the committee cümlesinde açıklayan komitedir.\n\n• few ile a few farkı: Few of the workers had received training, «birkaçı» değil «çok azı» demektir.\n\nEn sık düşülen tuzak: sözcüklerin doğru görünmesiyle yetinmek. Anlamı çeviren tek bir öğe (zaman, olumsuzluk, özne) değişmişse seçenek yanlıştır.\n\nÖrnek: «She has never visited the museum» cümlesinde «hiç» olumsuzluğu ve «has visited» geniş anlamı birlikte korunmalıdır."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-translation-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Bir çeviri seçeneğindeki sözcükler doğru görünüyorsa ne yapmalısın?",
+              "options": [
+                "Hemen seçmeliyim, çünkü sözcükler doğrudur",
+                "Yalnızca en uzun görünen seçeneği seçmeliyim",
+                "Yalnızca cümlenin sonundaki sözcüğe bakmalıyım",
+                "Bağlaçları ve zamanı tamamen yok saymalıyım",
+                "Zaman, olumsuzluk ve özneyi de kontrol etmeliyim"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Yanlış şıklar çoğunlukla tek bir öğeyi değiştirir: (E). (A) sözcük doğruluğu yetmez. (B) uzunluk ölçüt değildir. (C) tek sözcük cümlenin anlamını belirlemez. (D) bağlaçlar anlamı belirleyen öğelerdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-translation-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "She has never visited the museum.",
+              "options": [
+                "Müzeyi şimdiye kadar hiç ziyaret etmedi.",
+                "Müzeyi her zaman ziyaret eder.",
+                "Müzeyi dün ziyaret etti.",
+                "Müzeyi ziyaret etmeyi planlıyor.",
+                "Müzeyi ziyaret etmemesi gerekiyor."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Has never visited» geçmişten bugüne hiç yapılmamış bir eylemdir: (A). (B) geniş zaman ve olumlu bir alışkanlık verir. (C) belirli bir geçmiş zaman ekler. (D) planı anlatır. (E) kip fiili ekler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-translation-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Toplantı, hava kötü olduğu için ertelendi.",
+              "options": [
+                "The meeting was postponed although the weather was bad.",
+                "The meeting was postponed because the weather was bad.",
+                "The weather was bad because the meeting was postponed.",
+                "The meeting will be postponed because the weather is bad.",
+                "The meeting postponed the weather because it was bad."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Olduğu için» neden bildirir ve fiil edilgendir: (B). (A) nedeni karşıtlığa çevirir. (C) neden ile sonucu yer değiştirir. (D) zamanı geleceğe çevirir. (E) etken yapı kurar ve özneleri karıştırır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-translation-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "Few of the workers had received any training.",
+              "options": [
+                "İşçilerin birkaçı belli bir eğitim almıştı.",
+                "İşçilerin çoğu düzenli bir eğitim almıştı.",
+                "İşçilerin hiçbiri hiçbir eğitim almamıştı.",
+                "İşçilerin çok azı ileride eğitim alacaktı.",
+                "İşçilerin çok azı herhangi bir eğitim almıştı."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Few» «çok az» demektir (a few ise «birkaç»tır) ve past perfect zamanı korunmalıdır: (E). (A) «birkaç» diyerek olumlu bir ton verir. (B) çoğunluğu kastetir. (C) «hiçbiri» der ve niceleyiciyi bozar. (D) zamanı geleceğe çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-translation-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "The results were announced by the committee.",
+              "options": [
+                "Komite sonuçlar tarafından açıklandı.",
+                "Sonuçlar komiteyi açıkladı.",
+                "Sonuçlar komite tarafından açıklandı.",
+                "Komite sonuçları açıklayacak.",
+                "Sonuçlar komite tarafından açıklanmadı."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Cümle edilgendir: açıklayan komite, açıklanan sonuçlardır: (C). (A) özneleri tersine çevirir. (B) sonuçları etken yapar. (D) zamanı geleceğe çevirir. (E) olumsuz yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-translation-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "He resigned, even though he had been offered a promotion.",
+              "options": [
+                "Terfi teklif edildiği için istifa etti.",
+                "İstifa ettiği için terfi teklif edildi.",
+                "Terfi teklif edilirse istifa edecek.",
+                "Terfi teklif edilmiş olmasına rağmen istifa etti.",
+                "Terfi teklif edilmediği halde istifa etti."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Even though» karşıtlık kurar: teklif edilmesine rağmen istifa etti: (D). (A) karşıtlığı neden bağıntısına çevirir. (B) neden ile sonucu yer değiştirir. (C) koşullu ve gelecek zamanlı yapar. (E) teklifin yapılmadığını söyler.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-paragraph",
+          "order": 4,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Paragraf Tamamlama",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-paragraph",
+              "type": "grammarPoint",
+              "headword": "Strategy: Paragraph Completion",
+              "frequencyRank": 4004,
+              "baseDifficulty": 0.5,
+              "definition": "Paragraf tamamlama sorularını komşu cümlelerle bağlayarak çözme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Paragraf Tamamlama",
+              "collocations": [],
+              "explanationTR": "Paragraf tamamlamada eksik cümle, paragrafın ANA ÇİZGİSİNİ sürdürmeli ve hem öncesindeki hem sonrasındaki cümleyle bağ kurmalıdır.\n\n• Paragrafın ana fikrini bul: ilk ve son cümleler genellikle bunu verir.\n\n• Boşluğun öncesindeki ve sonrasındaki cümleyi dikkatle oku. Sonraki cümle «This», «These», «However» gibi bir bağlayıcıyla başlıyorsa, eksik cümle o sözcüğün gönderme yapacağı bilgiyi vermelidir.\n\n• Konu kaymasını ele: paragrafla ilgili görünen ama komşu cümlelerle bağlanmayan seçenek yanlıştır.\n\n• Çelişkiyi ele: komşu cümleyle zıt bir bilgi veren seçenek yanlıştır (istisna: sonraki cümle bilinçli olarak zıtlık kuruyorsa).\n\n• Bağlayıcıları izle: However bir karşıtlık, Therefore bir sonuç, For example bir örnek beklediğini söyler.\n\nEn sık düşülen tuzak: konuyla ilgili ama komşu cümlelere bağlanmayan, «genel doğru» bir cümleyi seçmek. Eksik cümle paragrafın zincirinde bir halka olmalıdır.\n\nÖrnek: «The store cut its prices in March. ---- As a result, sales doubled within a month.» boşluğu, fiyat indiriminin satışı artıran etkisini kuran bir cümle ister."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-paragraph-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Eksik cümleyi seçerken en önemli ölçüt hangisidir?",
+              "options": [
+                "Paragraftaki en uzun cümleye benzemesidir",
+                "Yalnızca genel konuyla ilgili olmasıdır",
+                "İki komşu cümleyle mantıksal bağ kurmasıdır",
+                "Paragrafa yepyeni bir fikir açmasıdır",
+                "Cümle içinde hiçbir bağlaç içermemesidir"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Eksik cümle iki komşusuna da bağlanmalıdır: (C). (A) uzunluk ölçüt değildir. (B) konuyla ilgili olmak yetmez, bağ kurmalıdır. (D) paragrafın çizgisini bozabilir. (E) bağlaç olması ya da olmaması belirleyici değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-paragraph-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "The store cut its prices in March. ---- As a result, sales doubled within a month.",
+              "options": [
+                "The cheaper prices attracted many new customers.",
+                "Prices in other industries fell more slowly.",
+                "The store closed for repairs in April.",
+                "Many customers complained about the quality of the goods.",
+                "The store had opened only a year earlier."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«As a result» bir sonuç bildirir; boşluk, fiyat indiriminin satışı artıran etkisini vermelidir: (A). (B) diğer sektörlere kayar. (C) kapanış bilgisi bağlanmaz. (D) şikâyet, satış artışıyla çelişir. (E) açılış zamanı ilgisizdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-paragraph-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Several countries have banned plastic bags. ---- This has cut litter on beaches noticeably.",
+              "options": [
+                "Tourists visit beaches mainly in the summer months.",
+                "Plastic was invented in the nineteenth century.",
+                "Beaches are cleaned only once a year.",
+                "Shoppers in those countries now carry reusable bags instead.",
+                "Litter is a problem in every large city."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«This» sözcüğü bir önceki bilgiye gönderme yapar; boşluk, yasağın sonucunu (yeniden kullanılabilir çantalar) vermelidir: (D). (A) ve (B) ile (C) ve (E) «This»in gönderme yapacağı bir bilgi içermez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-paragraph-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "Boşluktan sonraki cümle «However,» ile başlıyorsa eksik cümle hakkında ne söyleyebilirsin?",
+              "options": [
+                "Boşluktaki cümle sonrakiyle aynı fikri tekrar etmelidir",
+                "Boşluktaki cümle bir soru olmalıdır",
+                "Boşluktaki cümle sayı içermelidir",
+                "Boşluktaki cümle en kısa seçenek olmalıdır",
+                "Boşluktaki cümle, sonrakinin karşı çıkacağı bir fikri vermelidir"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«However» bir karşıtlık işaretidir: önceki fikir, sonrakiyle karşıtlık kurabilecek nitelikte olmalıdır: (E). (A) tekrar, karşıtlıkla çelişir. (B) ve (C) ile (D) biçimsel, anlamla ilgisiz ölçütlerdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-paragraph-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Ancient cities needed reliable water. Rivers supplied it, and aqueducts carried it further. ----",
+              "options": [
+                "Water access therefore shaped where big cities grew.",
+                "Aqueducts were built mostly in the Roman Empire.",
+                "Rivers are shorter today than in ancient times.",
+                "Many modern cities still have no aqueducts at all.",
+                "Water is also essential for growing most crops."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Kapanış cümlesi, öncekilerin sonucunu genellemelidir: suya erişim şehirlerin yerini belirledi: (A). (B) ayrıntı ekler ama sonuç değildir. (C) ve (D) ile (E) zincire bağlanmayan ilgisiz bilgilerdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-paragraph-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Bir seçenek paragrafın konusuyla ilgili görünse de komşu cümlelerle bağlanmıyorsa ne yapmalısın?",
+              "options": [
+                "Seçmeliyim, çünkü konuyla ilgili",
+                "Elemeliyim; eksik cümle hem öncekine hem sonrakine bağlanmalı",
+                "Yalnızca uzun ise seçmeliyim",
+                "Paragrafın son cümlesini tekrar ediyorsa seçmeliyim",
+                "Diğer seçenekler zayıfsa seçmeliyim"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Konu benzerliği yetmez; zincirin halkası olmalıdır: (B). (A) yalnızca konuya güvenir. (C) ve (D) ile (E) şık uzunluğu, tekrar ya da zayıf rakip gibi ölçütlere dayanır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-irrelevant",
+          "order": 5,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Konu Dışı Cümle",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-irrelevant",
+              "type": "grammarPoint",
+              "headword": "Strategy: Irrelevant Sentence",
+              "frequencyRank": 4005,
+              "baseDifficulty": 0.5,
+              "definition": "Paragrafın bütünlüğünü bozan cümleyi bulma tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Konu Dışı Cümle",
+              "collocations": [],
+              "explanationTR": "Konu dışı cümle sorusunda paragraf beş numaralı cümleden oluşur ve biri paragrafın ZİNCİRİNİ bozar.\n\n• Önce konu cümlesini bul (çoğu zaman ilk cümle) ve paragrafın neyi anlattığını tek cümleyle özetle.\n\n• Cümleler arasındaki zinciri izle: zamirler (it, they, this), bağlaçlar (therefore, however) ve tekrar eden anahtar sözcükler bir cümlenin öncekine bağlandığını gösterir.\n\n• Zinciri bozan cümleyi bul: konu değiştirir, ayrıntıya kayar ya da öncesiyle bağlanmayan bir bilgi verir.\n\n• Paragrafla aynı sözcüğü paylaşan ama farklı anlamda kullanan cümleye dikkat et: The plant produces electricity ile The garden plant needs water aynı sözcüğü paylaşır ama konu farklıdır.\n\n• Konuya YAKIN ama odak dışı bir ayrıntı da konu dışı olabilir: paragraf ağaçların serinletmesini anlatıyorsa en yaşlı ağacın yaşını veren cümle zincire girmez.\n\nEn sık düşülen tuzak: aynı anahtar sözcüğü içeren cümleyi «konuyla ilgili» sayıp elemek. Sözcük tekrarı konu bağı değildir.\n\nÖrnek: paragraf bankanın kredi faizini anlatıyorsa, nehir kıyısını (river bank) anlatan cümle konu dışıdır."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-irrelevant-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Konu dışı cümle sorusunda en doğru ilk adım hangisidir?",
+              "options": [
+                "Konu cümlesini bulup paragrafı özetlemek",
+                "Her cümlenin ilk sözcüğünü karşılaştırmak",
+                "Yalnızca en kısa cümleyi işaretlemek",
+                "Yalnızca son cümleyi ayrıntılı incelemek",
+                "Cümle numaralarına göre tahmin yürütmek"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Paragrafın ne anlattığını bilmeden zinciri bozan cümle bulunamaz: (A). (B) ilk sözcükler zinciri göstermez. (C) uzunluk ölçüt değildir. (D) tek cümle yeterli bilgi vermez. (E) tahmin, mantık yerine geçmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-irrelevant-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Rainforests receive more than two metres of rain each year. (II) The constant moisture supports an extraordinary variety of plants. (III) Many people enjoy hiking on weekends. (IV) Dense vegetation in turn provides food and shelter for countless animals. (V) This chain of dependence makes rainforests especially vulnerable to logging.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf, yağmur ormanlarında nem, bitki ve hayvan arasındaki zinciri anlatıyor. (III) hafta sonu yürüyüşünden söz eder ve zincire girmez. (I), (II), (IV) ve (V) nem, bitki örtüsü, hayvanlar ve orman kaybına karşı kırılganlığı birbirine bağlar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-irrelevant-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) The plant produces electricity for nearly half the region. (II) Its turbines are driven by steam. (III) The garden plant needs water twice a week. (IV) Engineers inspect the boilers every spring. (V) A fault at the plant can therefore affect thousands of homes.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf bir enerji santralinden söz ediyor. (III) bahçe bitkisinden söz eder; «plant» sözcüğünü paylaşsa da konusu farklıdır. (I), (II), (IV) ve (V) santralin üretimini, türbinleri, bakımı ve arıza sonuçlarını anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-irrelevant-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "Bir cümle paragraftaki bir sözcüğü paylaşıyor ama farklı bir anlamda kullanıyorsa nasıl davranmalısın?",
+              "options": [
+                "Sözcük aynı olduğu için cümleyi konuyla ilgili saymalıyım",
+                "Bağı sözcüğe değil, cümlenin anlattığı fikre göre kurmalıyım",
+                "Cümleyi her zaman paragrafın ilk cümlesi saymalıyım",
+                "Cümleyi yok sayıp sıradaki cümleye geçmeliyim",
+                "Cümlenin uzunluğuna bakarak karar vermeliyim"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Sözcük tekrarı konu bağı değildir; önemli olan fikirdir: (B). (A) aynı sözcük yanıltıcıdır. (C) ve (D) ile (E) mantıksal bir dayanak sunmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-irrelevant-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) A well-run library keeps its catalogue up to date. (II) Staff remove damaged books and add new titles regularly. (III) Readers can search the catalogue from home. (IV) The library building was designed in 1975. (V) An accurate catalogue saves visitors a great deal of time.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf kataloğun güncel tutulmasının yararını anlatıyor. (IV) binanın tasarım yılını verir; kütüphaneyle ilgili olsa da katalog odağının dışındadır. (I), (II), (III) ve (V) kataloğun bakımı, aranması ve yararını anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-irrelevant-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Numaralı cümlelerde «this», «they» ve «however» gibi sözcükleri izlemenin yararı nedir?",
+              "options": [
+                "Cümlenin uzunluğunu önceden belirlemesi",
+                "Doğru cevabın numarasını doğrudan vermesi",
+                "Paragrafın konusunu tamamen değiştirmesi",
+                "Cümleleri sayıya çevirip sıralaması",
+                "Cümlenin öncekiyle bağlı olup olmadığını göstermesi"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Zamirler ve bağlayıcılar zincirin halkalarını gösterir: (E). (A) uzunlukla ilgili değildir. (B) cevabın numarasını vermez. (C) konuyu değiştirmez, konu bağını gösterir. (D) anlamsız bir işlevdir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-dialogue",
+          "order": 6,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Diyalog Tamamlama",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-tech-card-dialogue",
+              "type": "grammarPoint",
+              "headword": "Strategy: Dialogue Completion",
+              "frequencyRank": 4006,
+              "baseDifficulty": 0.5,
+              "definition": "Diyalog tamamlama sorularını konuşma işleviyle çözme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Diyalog Tamamlama",
+              "collocations": [],
+              "explanationTR": "Diyalog tamamlamada eksik konuşma, önceki konuşmaya YANIT vermeli ve sonraki konuşmaya ZEMİN hazırlamalıdır.\n\n• Önceki konuşmanın işlevini belirle: rica mı (Would you mind ...?), öneri mi, soru mu, şikâyet mi, özür mü? Yanıt bu işleve uymalıdır.\n\n• Sonraki konuşmaya bak: «Thanks, it's freezing in here» diyen kişi, rica kabul edilmiş demektir; eksik cümle ricayı kabul etmelidir.\n\n• Would you mind ...? gibi kalıplarda «No, not at all» kabuldür, «Yes, I would» ise reddir; bu klasik bir tuzaktır.\n\n• Üslubu (register) eşleştir: resmî bir istek resmî, gündelik bir konuşma samimi bir yanıt ister.\n\n• Konuşmayı yok sayan ya da konuyu değiştiren seçenekleri ele.\n\nEn sık düşülen tuzak: seçeneği yalnızca önceki cümleye bakarak seçmek. Sonraki konuşma, doğru yanıtı doğrulayan en güçlü ipucudur.\n\nÖrnek: «A: The printer is out of paper again. B: ---- A: Perfect, that should fix it.» boşluğu, sorunu çözecek bir öneri ister."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-dialogue-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Diyalog tamamlamada seçeneği elemek için hangi iki konuşmaya bakmalısın?",
+              "options": [
+                "Yalnızca ilk konuşmaya",
+                "Yalnızca son konuşmaya",
+                "Hiçbirine, yalnızca seçeneklere",
+                "Yalnızca en uzun konuşmaya",
+                "Hem önceki hem sonraki konuşmaya"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Eksik konuşma öncekine yanıt verir ve sonrakine zemin hazırlar: (E). (A) ve (B) yalnızca bir tarafı görür. (C) bağlamı yok sayar. (D) uzunluk ölçüt değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-dialogue-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "A: Would you mind closing the window?\nB: ----\nA: Thanks, it's freezing in here.",
+              "options": [
+                "Yes, I do mind, but I'll try.",
+                "Not at all; I'll do it right now.",
+                "Yes, please open it wider.",
+                "No, the window is already broken.",
+                "I closed it last week."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Would you mind ...?» ricasına «Not at all» kabuldür; sonraki «Thanks» teşekkürü bunu doğrular: (B). (A) «Yes, I do mind» reddi ifade eder. (C) ricanın tersini yapar. (D) ricaya ilgisiz bir bilgi verir. (E) geçmiş bir eylemden söz eder.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-dialogue-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Student: Excuse me, Professor, could I hand in my essay a day late?\nProfessor: ----\nStudent: Thank you; I'll bring it tomorrow.",
+              "options": [
+                "Yes, that's fine this time, but please plan ahead.",
+                "No way; I'm not going to read it.",
+                "Late essays are always marked zero in every module.",
+                "You can hand it in whenever you like, even next year.",
+                "The essay was due yesterday, so it has been lost."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Öğrenci «Thank you» diyerek ertelemeyi kabul ettiğini gösteriyor; nazik ve uyumlu bir yanıt gerekir: (A). (B) kaba bir retti. (C) «always ... every» mutlaklığı ve reddi içerir. (D) gerçekçi olmayan bir aşırılıktır. (E) bir kayıp bildirir ve teşekkürle uyuşmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-dialogue-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "A: The printer is out of paper again.\nB: ----\nA: Perfect, that should fix it.",
+              "options": [
+                "The paper was extremely expensive last year.",
+                "I think all office printers are too noisy.",
+                "There's a new pack in the cupboard; I'll get it.",
+                "It never has any paper in the morning.",
+                "You should stop printing documents altogether."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "A'nın «that should fix it» sözü, B'nin bir çözüm önerdiğini gösterir: (C). (A) ve (B) ile (D) çözüm sunmaz. (E) çözüm yerine yasak koyar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-dialogue-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "«Would you mind ...?» ricasına verilen «Yes, I would» yanıtı ne anlama gelir?",
+              "options": [
+                "Rica kabul edilmiş olur ve iş yapılır",
+                "Rica nezaketen daha sonraya ertelenmiş olur",
+                "Rica anlaşılmamış olur ve tekrar sorulur",
+                "Rica reddedilmiş olur; kişi itiraz ediyordur",
+                "Rica başka birine yönlendirilmiş olur"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Would you mind ...?» sorusunda «Yes» yanıtı, kişinin bunu YAPMAKTAN rahatsız olacağını gösterir: (D). (A) tersini söyler. (B) ve (C) ile (E) yanıtın işleviyle ilgisiz yorumlardır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-dialogue-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Customer: Could I speak to the manager, please?\nAssistant: ----\nCustomer: Certainly, I'll wait here.",
+              "options": [
+                "One moment, please; I'll see whether she is available.",
+                "The manager doesn't speak to customers.",
+                "You may not speak to anyone here.",
+                "I am the manager, and I am busy today.",
+                "Which manager would you like to complain about?"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Müşteri «Certainly, I'll wait here» diyerek bekleyeceğini söylüyor; bu, asistanın kibar bir bekleme isteğinde bulunduğunu gösterir: (A). (B) ve (C) ise reddeder. (D) «I am the manager» ile önceki isteği anlamsız kılar. (E) konuşmayı gereksiz yere gerginleştirir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-restatement",
+          "order": 7,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Yeniden İfade",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-restatement",
+              "type": "grammarPoint",
+              "headword": "Strategy: Restatement",
+              "frequencyRank": 4007,
+              "baseDifficulty": 0.5,
+              "definition": "Yeniden ifade sorularında anlam koruma denetimi.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Yeniden İfade",
+              "collocations": [],
+              "explanationTR": "Yeniden ifade (restatement) sorusunda doğru şık, kökle AYNI ANLAMI verir; sözcükler farklı olabilir ama ilişki, zaman ve kapsam değişmez.\n\n• Kökteki ilişkiyi bul: koşul (unless = if not), neden-sonuç, karşıtlık, zaman sırası.\n\n• Niceleyicileri koru: few = çok az, a few = birkaç; most, all, no ayrı anlamlar taşır.\n\n• Kip anlamını koru: needn't = zorunlu değil, mustn't = yasak.\n\n• Neden ile sonucun yönünü koru: The match was cancelled owing to the storm = fırtına maçı iptal ettirdi.\n\n• Zamanı ve edilgen/etken yapıyı kontrol et; anlamı değiştiren tek bir öğe seçeneği eler.\n\nEn sık düşülen tuzak: sözcük benzerliğine bakmak. Kökle aynı sözcükleri kullanan ama ilişkiyi tersine çeviren seçenek çoğu zaman yanlıştır.\n\nÖrnek: «Unless she apologises, he will not speak to her again.» = He will speak to her again only if she apologises."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-restatement-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Yeniden ifade sorusunda bir seçenek kökle aynı sözcüklerin çoğunu kullanıyorsa ne yapmalısın?",
+              "options": [
+                "Hemen seçmeliyim, çünkü sözcüklerin çoğu aynı",
+                "Yalnızca en kısa görünen seçeneği seçmeliyim",
+                "İlişkinin ve zamanın korunup korunmadığına bakmalıyım",
+                "Yalnızca cümlenin ilk sözcüğüne bakmalıyım",
+                "Seçeneği hiç okumadan bir sonrakine geçmeliyim"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Sözcük benzerliği yanıltıcıdır; anlamı belirleyen ilişki ve kapsamdır: (C). (A) tuzağa düşürür. (B) uzunluk ölçüt değildir. (D) ilk sözcük anlamı belirlemez. (E) okumadan karar vermek yanlıştır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-restatement-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Unless she apologises, he will not speak to her again.",
+              "options": [
+                "He will speak to her again only if she apologises.",
+                "He will speak to her if she does not apologise.",
+                "She apologised, so he spoke to her.",
+                "Even if she apologises, he won't speak to her.",
+                "He will apologise unless she speaks to him."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Unless» = «if not»: özür dilemezse konuşmayacak, yani yalnızca özür dilerse konuşacak: (A). (B) koşulu tersine çevirir. (C) geçmişte olmuş bir durum anlatır. (D) «even if» ile koşulu geçersiz kılar. (E) özneleri ve eylemleri karıştırır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-restatement-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Few students passed the exam.",
+              "options": [
+                "Many students passed the exam.",
+                "Some students failed and the others were absent.",
+                "All students failed the exam.",
+                "Most students failed the exam.",
+                "A few students passed, which is a good result."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Few passed» çok azının geçtiğini, yani çoğunun kaldığını söyler: (D). (A) çoğunluğun geçtiğini söyler. (B) yeni bir durum (devamsızlık) ekler. (C) «all» ile kapsamı genişletir. (E) «a few» ile olumlu bir ton verir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-restatement-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "The match was cancelled owing to the storm.",
+              "options": [
+                "The match caused the storm to be cancelled.",
+                "The match was cancelled although there was a storm.",
+                "The storm ended before the match was cancelled.",
+                "The storm was cancelled because of the match.",
+                "The storm caused the cancellation of the match."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Owing to» neden bildirir: iptalin nedeni fırtınadır: (E). (A) ve (D) neden ile sonucu tersine çevirir. (B) nedeni karşıtlığa çevirir. (C) zaman sırasını bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-restatement-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "You needn't bring a gift.",
+              "options": [
+                "You must not bring a gift.",
+                "It is not necessary for you to bring a gift.",
+                "You are not allowed to bring a gift.",
+                "You should bring a gift.",
+                "Bringing a gift is compulsory."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Needn't» zorunlu olmadığını bildirir: (B). (A) ve (C) yasaklar. (D) tavsiye eder. (E) zorunlu kılar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-restatement-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Bir yeniden ifade seçeneği kökle aynı sözcükleri kullanıp zamanı değiştiriyorsa ne yapmalısın?",
+              "options": [
+                "Elemeliyim; zaman değişirse anlam değişir",
+                "Seçmeliyim, çünkü sözcükler aynı",
+                "Yalnızca uzun ise seçmeliyim",
+                "Zamanı yok sayıp anlama bakmalıyım",
+                "İlk sözcüğü karşılaştırmalıyım"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Zaman anlamın parçasıdır: (A). (B) sözcük benzerliği yeterli değildir. (C) ve (E) şekilsel ölçütlerdir. (D) zamanı yok saymak, anlamı bozar.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-vocabulary-questions",
+          "order": 8,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Kelime Soruları",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-vocabulary-questions",
+              "type": "grammarPoint",
+              "headword": "Strategy: Vocabulary Questions",
+              "frequencyRank": 4008,
+              "baseDifficulty": 0.5,
+              "definition": "Kelime sorularında bağlam ve kalıp ipuçlarını kullanma tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Kelime Soruları",
+              "collocations": [],
+              "explanationTR": "Kelime sorularında cevabı çoğu zaman BAĞLAM, KALIP ve SÖZCÜK TÜRÜ verir; sözlük bilgisi yetmezse bu ipuçlarına güven.\n\n• Bağlam ipuçları: karşıtlık (unlike, but, whereas), örnek (such as, for instance), tanım (that is, which means) ve neden-sonuç işaretleri bilinmeyen sözcüğü çözer.\n\n• Eşdizimlilik: bazı sözcükler yalnızca belirli sözcüklerle birlikte kullanılır (impose a tax, pose a threat, reach a conclusion).\n\n• Sözcük türü: boşluğun ad, sıfat, zarf ya da fiil istediğini belirle; seçenekleri türüne göre ele.\n\n• Yakın anlamlı sözcüklerden hangisinin cümlede doğal durduğunu bağlama bakarak seç.\n\nEn sık düşülen tuzak: sözcüğü yalnızca Türkçe karşılığına bakarak seçmek. Anlamı yakın iki seçenekten yalnızca biri o cümlenin bağlamına ve kalıbına uyar.\n\nÖrnek: «Unlike his outgoing brother, Tom is quite ----» cümlesinde «unlike» karşıtlığı, boşluğa «outgoing»in zıddını (reserved) getirir."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-vocabulary-questions-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Cümlede bilmediğin bir sözcük varsa doğru anlamı bulmak için ilk hangi ipucuna bakmalısın?",
+              "options": [
+                "Sözcüğün kaç harften oluştuğuna",
+                "Sözcüğün hangi harfle başladığına",
+                "Seçeneklerin sıra numarasına göre tahmine",
+                "Cümlenin geri kalanındaki bağlam ipuçlarına",
+                "Yalnızca metnin başlığına, cümleyi okumadan"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Bağlam, bilinmeyen sözcüğün anlamını çoğu zaman verir: (D). (A) ve (B) ve (C) anlamla ilgisiz biçimsel ölçütlerdir. (E) cümleyi okumadan başlığa güvenmek yeterli bilgi vermez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-vocabulary-questions-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Unlike his outgoing brother, Tom is quite ---- and rarely speaks at parties.",
+              "options": [
+                "reserved",
+                "talkative",
+                "generous",
+                "careless",
+                "energetic"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Unlike» karşıtlık kurar: dışa dönük kardeşin aksine Tom içe dönüktür: (A). (B) konuşkan demektir ve «rarely speaks» ile çelişir. (C) cömert, (D) dikkatsiz, (E) enerjik anlamı taşır; hiçbiri karşıtlığı kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-vocabulary-questions-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "The company's ---- growth surprised analysts.",
+              "options": [
+                "rapidly",
+                "rapidity",
+                "rapid",
+                "rapids",
+                "rapider"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Growth» adından önce bir SIFAT gerekir: (C). (A) zarftır. (B) isimdir ve ardından isim almaz. (D) başka bir anlamı olan çoğul isimdir. (E) geçerli bir biçim değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-vocabulary-questions-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "The government has decided to ---- a new tax on sugary drinks.",
+              "options": [
+                "make",
+                "impose",
+                "give",
+                "carry",
+                "hold"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Impose a tax» sabit bir kalıptır (= vergi getirmek): (B). (A) make, (C) give, (D) carry ve (E) hold «tax» ile bu kalıbı kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-vocabulary-questions-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Nocturnal animals, such as owls and bats, are active ----.",
+              "options": [
+                "in winter",
+                "near water",
+                "in groups",
+                "by day",
+                "at night"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Such as owls and bats» bir ÖRNEK ipucudur: baykuşlar ve yarasalar geceleri aktiftir; nocturnal = gececil: (E). (A) ve (B) ve (C) örneklerle ilgisizdir. (D) tersini söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-vocabulary-questions-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Bir kelime sorusunda iki seçenek anlamca yakın görünüyorsa ne yapmalısın?",
+              "options": [
+                "Kalıba ve sözcük türüne bakarak birini elemeliyim",
+                "Şansıma güvenip rastgele birini seçmeliyim",
+                "Sözcük olarak daha uzun olan seçeneği seçmeliyim",
+                "Türkçe karşılığı daha kısa olanı seçmeliyim",
+                "İkisini de yanlış sayıp soruyu boş bırakmalıyım"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Yakın anlamlı seçeneklerden yalnızca biri kalıba ve sözcük türüne uyar: (A). (B) ve (C) ve (D) ölçütsüz seçimlerdir. (E) tek doğru şık zorunludur.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-grammar-questions",
+          "order": 9,
+          "estimatedDurationMinutes": 7,
+          "title": "Strateji: Gramer Soruları",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-tech-card-grammar-questions",
+              "type": "grammarPoint",
+              "headword": "Strategy: Grammar Questions",
+              "frequencyRank": 4009,
+              "baseDifficulty": 0.5,
+              "definition": "Gramer sorularında sınanan noktayı önce belirleme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Strateji: Gramer Soruları",
+              "collocations": [],
+              "explanationTR": "Gramer sorularında ilk iş, cümlede HANGİ NOKTANIN sınandığını belirlemektir; sonra yalnızca o noktaya uyan seçeneği ararsın.\n\n• Seçeneklere bak: hepsi aynı fiilin farklı zamanlarıysa zaman, hepsi edatsa edat, hepsi ilgi zamiriyse ilgi cümleciği sınanıyordur.\n\n• Zaman ipuçlarını kullan: since, for, by the time, yesterday, so far, every year gibi zarflar zamanı belirler.\n\n• Edat ve kalıpları ezberden çıkar: interested in, depend on, result in, comply with.\n\n• Uyum kuralları: neither of + çoğul ad + tekil fiil; the number of + tekil fiil; her cümlede özne-fiil uyumunu kontrol et.\n\n• Koşul cümlelerinde if cümleciği ile ana cümlenin zamanını eşleştir: if she had studied ... would have passed.\n\nEn sık düşülen tuzak: cümleyi anlamına göre tahmin edip sınanan gramer noktasını atlamak. Anlamca uyan iki seçenekten yalnızca biri kurala uyar.\n\nÖrnek: «The company ---- its profits every year since 2015.» cümlesinde «since» present perfect ister."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-grammar-questions-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Gramer sorusunda seçeneklerin hepsi aynı fiilin farklı zamanlarıysa hangi adımı izlemelisin?",
+              "options": [
+                "En uzun ve en karmaşık fiil biçimini seçmeliyim",
+                "Türkçe karşılığı en yakın olanı seçmeliyim",
+                "Cümledeki zaman ipuçlarını (since, yesterday) bulmalıyım",
+                "Cümleyi hiç okumadan bir sonraki soruya geçmeliyim",
+                "Yalnızca ilk seçeneği işaretleyip ilerlemeliyim"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Zaman sorusunda zarf ve bağlaç ipuçları zamanı belirler: (C). (A) ve (B) ile (E) biçimsel ya da ölçütsüz seçimlerdir. (D) kuralı görmezden gelir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-grammar-questions-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "The company ---- its profits every year since 2015.",
+              "options": [
+                "has increased",
+                "increased",
+                "had increased",
+                "will increase",
+                "is increasing"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Since 2015» geçmişten bugüne uzanan bir süreyi gösterir ve present perfect ister: (A). (B) past simple bitmiş bir zaman ister. (C) past perfect geçmişte bir referans gerektirir. (D) gelecek zamandır. (E) since ile kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-grammar-questions-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "She has been interested ---- astronomy since childhood.",
+              "options": [
+                "at",
+                "in",
+                "on",
+                "for",
+                "with"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Interested in» sabit bir sıfat + edat kalıbıdır: (B). (A) at, (C) on, (D) for ve (E) with bu sıfatla kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-grammar-questions-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "The scientist ---- discovered the enzyme has won a prize.",
+              "options": [
+                "whom",
+                "which",
+                "whose",
+                "who",
+                "what"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Özne konumundaki bir kişiye gönderme yapılır ve fiil hemen ardından gelir: who discovered. (A) whom nesne konumundadır. (B) which cansızlar içindir. (C) whose ardından ad ister. (E) what önceki bir adı niteleyemez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-grammar-questions-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "If she ---- harder, she would have passed the exam.",
+              "options": [
+                "studied",
+                "studies",
+                "has studied",
+                "would study",
+                "had studied"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Ana cümledeki «would have passed» üçüncü tip koşuldur; if cümleciği past perfect ister: (E). (A) past simple ikinci tip koşulu kurar. (B) geniş zaman ve (C) present perfect ana cümleyle uyuşmaz. (D) would if cümleciğinde kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-grammar-questions-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Neither of the two proposals ---- sufficient detail.",
+              "options": [
+                "offers",
+                "offer",
+                "are offering",
+                "have offered",
+                "were offered"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Neither of + çoğul ad» resmî dilde tekil fiil alır: (A). (B) ve (C) ve (D) çoğul fiillerdir. (E) edilgendir ve anlamı bozar.",
               "passageID": null
             }
           ]

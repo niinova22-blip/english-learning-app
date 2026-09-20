@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-translation",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Çeviri Soruları",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-translation",
+      "type": "grammarPoint",
+      "headword": "Strategy: Translation Questions",
+      "frequencyRank": 4003,
+      "baseDifficulty": 0.5,
+      "definition": "Çeviri sorularını öğe öğe karşılaştırarak çözme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Çeviri Soruları",
+      "collocations": [],
+      "explanationTR": "Çeviri sorusunda doğru şık, cümlenin BÜTÜN öğelerini korur; yanlış şıklar çoğu zaman yalnızca tek bir öğeyi değiştirir.\n\n• Önce cümledeki öğeleri bul: özne, fiil, zaman, olumsuzluk, kip (must, may, would), niceleyici (few, most) ve bağlaç (although, because).\n\n• Her seçeneği bu öğelerle parça parça karşılaştır. Bir seçenek sözcükleri doğru verse bile zamanı, olumsuzluğu ya da öznesi değişmişse yanlıştır.\n\n• Bağlaçlara dikkat et: although (karşıtlık) ile because (neden) çevirileri birbirine benzeyebilir ama anlamları zıttır.\n\n• Edilgen ve etken yapıyı ayır: The results were announced by the committee cümlesinde açıklayan komitedir.\n\n• few ile a few farkı: Few of the workers had received training, «birkaçı» değil «çok azı» demektir.\n\nEn sık düşülen tuzak: sözcüklerin doğru görünmesiyle yetinmek. Anlamı çeviren tek bir öğe (zaman, olumsuzluk, özne) değişmişse seçenek yanlıştır.\n\nÖrnek: «She has never visited the museum» cümlesinde «hiç» olumsuzluğu ve «has visited» geniş anlamı birlikte korunmalıdır."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-translation-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Bir çeviri seçeneğindeki sözcükler doğru görünüyorsa ne yapmalısın?",
+      "options": [
+        "Hemen seçmeliyim, çünkü sözcükler doğrudur",
+        "Yalnızca en uzun görünen seçeneği seçmeliyim",
+        "Yalnızca cümlenin sonundaki sözcüğe bakmalıyım",
+        "Bağlaçları ve zamanı tamamen yok saymalıyım",
+        "Zaman, olumsuzluk ve özneyi de kontrol etmeliyim"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Yanlış şıklar çoğunlukla tek bir öğeyi değiştirir: (E). (A) sözcük doğruluğu yetmez. (B) uzunluk ölçüt değildir. (C) tek sözcük cümlenin anlamını belirlemez. (D) bağlaçlar anlamı belirleyen öğelerdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-translation-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "She has never visited the museum.",
+      "options": [
+        "Müzeyi şimdiye kadar hiç ziyaret etmedi.",
+        "Müzeyi her zaman ziyaret eder.",
+        "Müzeyi dün ziyaret etti.",
+        "Müzeyi ziyaret etmeyi planlıyor.",
+        "Müzeyi ziyaret etmemesi gerekiyor."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Has never visited» geçmişten bugüne hiç yapılmamış bir eylemdir: (A). (B) geniş zaman ve olumlu bir alışkanlık verir. (C) belirli bir geçmiş zaman ekler. (D) planı anlatır. (E) kip fiili ekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-translation-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Toplantı, hava kötü olduğu için ertelendi.",
+      "options": [
+        "The meeting was postponed although the weather was bad.",
+        "The meeting was postponed because the weather was bad.",
+        "The weather was bad because the meeting was postponed.",
+        "The meeting will be postponed because the weather is bad.",
+        "The meeting postponed the weather because it was bad."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Olduğu için» neden bildirir ve fiil edilgendir: (B). (A) nedeni karşıtlığa çevirir. (C) neden ile sonucu yer değiştirir. (D) zamanı geleceğe çevirir. (E) etken yapı kurar ve özneleri karıştırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-translation-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "Few of the workers had received any training.",
+      "options": [
+        "İşçilerin birkaçı belli bir eğitim almıştı.",
+        "İşçilerin çoğu düzenli bir eğitim almıştı.",
+        "İşçilerin hiçbiri hiçbir eğitim almamıştı.",
+        "İşçilerin çok azı ileride eğitim alacaktı.",
+        "İşçilerin çok azı herhangi bir eğitim almıştı."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Few» «çok az» demektir (a few ise «birkaç»tır) ve past perfect zamanı korunmalıdır: (E). (A) «birkaç» diyerek olumlu bir ton verir. (B) çoğunluğu kastetir. (C) «hiçbiri» der ve niceleyiciyi bozar. (D) zamanı geleceğe çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-translation-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "The results were announced by the committee.",
+      "options": [
+        "Komite sonuçlar tarafından açıklandı.",
+        "Sonuçlar komiteyi açıkladı.",
+        "Sonuçlar komite tarafından açıklandı.",
+        "Komite sonuçları açıklayacak.",
+        "Sonuçlar komite tarafından açıklanmadı."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Cümle edilgendir: açıklayan komite, açıklanan sonuçlardır: (C). (A) özneleri tersine çevirir. (B) sonuçları etken yapar. (D) zamanı geleceğe çevirir. (E) olumsuz yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-translation-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "He resigned, even though he had been offered a promotion.",
+      "options": [
+        "Terfi teklif edildiği için istifa etti.",
+        "İstifa ettiği için terfi teklif edildi.",
+        "Terfi teklif edilirse istifa edecek.",
+        "Terfi teklif edilmiş olmasına rağmen istifa etti.",
+        "Terfi teklif edilmediği halde istifa etti."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Even though» karşıtlık kurar: teklif edilmesine rağmen istifa etti: (D). (A) karşıtlığı neden bağıntısına çevirir. (B) neden ile sonucu yer değiştirir. (C) koşullu ve gelecek zamanlı yapar. (E) teklifin yapılmadığını söyler.",
+      "passageID": null
+    }
+  ]
+}

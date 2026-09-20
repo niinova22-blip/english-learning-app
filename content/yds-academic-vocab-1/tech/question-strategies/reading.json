@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-reading",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Okuma Soruları",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-reading",
+      "type": "grammarPoint",
+      "headword": "Strategy: Reading Questions",
+      "frequencyRank": 4000,
+      "baseDifficulty": 0.5,
+      "definition": "Okuma sorularını adım adım çözme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Okuma Soruları",
+      "collocations": [],
+      "explanationTR": "Okuma sorularında amaç metni baştan sona ezberlemek değil, doğru cümleyi hızlıca BULMAK ve seçeneği o cümleyle doğrulamaktır.\n\n• Önce soruları oku. Ne arandığını bilerek okumak, metinde gezinmeyi hızlandırır: «Which of the following is stated in the passage?» ile «What can be inferred from the passage?» farklı işler ister.\n\n• Metne göz gezdir: her paragrafın ilk cümlesi genellikle konuyu verir. Ayrıntı sorusu gelince ilgili paragrafa dön ve cevabı ilgili cümlede ara.\n\n• Her seçeneği metinle karşılaştır: doğru şık, metindeki bir cümlenin başka sözcüklerle ifadesidir (paraphrase). Sözcüğü aynen tekrarlayıp anlamı değiştiren seçenekler çoğu zaman tuzaktır.\n\n• Mutlak ifadelere (always, never, only, all, entirely) dikkat et: metin bunları açıkça desteklemedikçe yanlış şıktır. Metinde geçmeyen ama gerçek hayatta doğru olan bilgi de (true but not stated) yanlış şıktır.\n\n• Sözcük sorularında yalnızca sözcüğe değil, bütün cümleye bak: «The minister's sceptical reaction suggested that she doubted the figures.» cümlesinde bağlam «sceptical» sözcüğünün anlamını verir.\n\nEn sık düşülen tuzak: aklındaki genel bilgiyle cevap vermek. Doğru şık senin ne bildiğin değil, METNİN ne söylediğidir.\n\nÖrnek: Metinde «many firms reported losses» yazıyorsa «all firms lost money» seçeneği yanlıştır, çünkü «all» metnin söylediğinin ötesine geçer."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-reading-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Uzun bir okuma parçasıyla karşılaştın ve zaman kısıtlısın. Doğru ilk adım hangisidir?",
+      "options": [
+        "Metni her sözcüğünü çevirerek baştan sona okumak",
+        "Yalnızca son paragrafı okuyup soruları geçmek",
+        "Soru köklerini okuyup metinde ne arayacağını belirlemek",
+        "Bilmediğin her sözcüğün anlamını kesinleştirmeden ilerlememek",
+        "Seçenekleri okumadan önce bütün ayrıntıları ezberlemek"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Önce soruları okumak, metinde ne arayacağını bilmeni sağlar ve gezinmeyi hızlandırır: (C). (A) zaman kaybettirir. (B) tek paragraf bütün soruları karşılamaz. (D) bilinmeyen tek sözcük yüzünden ilerlememek okumayı durdurur. (E) ezber, hedefsiz okumadır ve verimsizdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-reading-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Passage: \"The city introduced a congestion charge in 2003. Traffic in the centre fell by nearly a fifth in the first year, although some drivers simply moved to surrounding roads.\" According to the passage, what happened to central traffic in the first year? ----",
+      "options": [
+        "It fell by close to twenty per cent.",
+        "It disappeared from the centre entirely.",
+        "It doubled on the surrounding roads only.",
+        "It rose slightly at first.",
+        "It was unaffected by the charge."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Nearly a fifth» yaklaşık yüzde yirmi demektir; ilgili cümleyi bulup doğrulamak yeterlidir: (A). (B) «entirely» mutlaklığı metinle çelişir. (C) yalnızca çevre yollarda ikiye katlandığı söylenmez. (D) ve (E) metnin verdiği düşüşle çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-reading-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Passage: \"Most participants reported better sleep after the trial. A few noticed no change.\" Which statement is supported by the passage?",
+      "options": [
+        "All participants slept better after the trial.",
+        "No participant reported any change.",
+        "The trial always improves sleep.",
+        "Some participants did not notice any improvement.",
+        "Only a few participants slept better."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«A few noticed no change» bazı katılımcıların bir değişiklik fark etmediğini söyler: (D). (A) «all» metnin ötesine geçer. (B) «no participant» metinle çelişir. (C) «always» mutlaklığı destek görmez. (E) çoğunluğun iyileştiğini görmezden gelir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-reading-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "Bir seçenek gerçek hayatta doğru olsa da metinde hiç geçmiyorsa, okuma sorusunda ne yapmalısın?",
+      "options": [
+        "Seçmeliyim, çünkü doğru bilgi her zaman doğru şıktır",
+        "Elemeliyim, çünkü doğru şık metindeki bilgiye dayanmalı",
+        "Yalnızca uzun ise seçmeliyim",
+        "Metindeki sözcükleri içeriyorsa seçmeliyim",
+        "Diğer seçenekler zayıfsa seçmeliyim"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Okuma sorusu METNE göre cevaplanır: (B). (A) genel doğruyu metinden üstün tutar. (C) ve (D) ile (E) şık uzunluğu, sözcük tekrarı ya da zayıf rakip gibi metin dışı ölçütlere dayanır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-reading-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Passage: \"The minister's sceptical reaction suggested that she doubted the figures.\" The word \"sceptical\" is closest in meaning to ----.",
+      "options": [
+        "enthusiastic",
+        "angry",
+        "curious",
+        "generous",
+        "doubtful"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Cümlenin devamı (she doubted the figures) sözcüğün anlamını verir: (E) şüpheci. (A) hevesli demektir ve «doubted» ile çelişir. (B) öfkeli, (C) meraklı, (D) cömert anlamı taşır; hiçbiri bağlama uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-reading-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "«It can be inferred from the passage that ...» türü bir soruda doğru şık hangisidir?",
+      "options": [
+        "Metinden mantıken çıkan ama yazılmamış şık",
+        "Metinden sözcüğü sözcüğüne alınmış şık",
+        "Metinle açıkça çelişmeyen her mümkün şık",
+        "Genel kültüre ve gerçek hayata uyan şık",
+        "En uzun ve en ayrıntılı görünen şık"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Çıkarım (inference), metindeki bilgiden zorunlu olarak sonuç çıkarmaktır: (A). (B) ayrıntı sorusunun cevabıdır. (C) çok geniştir; çelişmeyen ama desteklenmeyen şık yanlıştır. (D) ve (E) metin dışı ölçütlerdir.",
+      "passageID": null
+    }
+  ]
+}

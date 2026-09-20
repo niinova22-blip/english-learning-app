@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-dialogue",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Diyalog Tamamlama",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-tech-card-dialogue",
+      "type": "grammarPoint",
+      "headword": "Strategy: Dialogue Completion",
+      "frequencyRank": 4006,
+      "baseDifficulty": 0.5,
+      "definition": "Diyalog tamamlama sorularını konuşma işleviyle çözme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Diyalog Tamamlama",
+      "collocations": [],
+      "explanationTR": "Diyalog tamamlamada eksik konuşma, önceki konuşmaya YANIT vermeli ve sonraki konuşmaya ZEMİN hazırlamalıdır.\n\n• Önceki konuşmanın işlevini belirle: rica mı (Would you mind ...?), öneri mi, soru mu, şikâyet mi, özür mü? Yanıt bu işleve uymalıdır.\n\n• Sonraki konuşmaya bak: «Thanks, it's freezing in here» diyen kişi, rica kabul edilmiş demektir; eksik cümle ricayı kabul etmelidir.\n\n• Would you mind ...? gibi kalıplarda «No, not at all» kabuldür, «Yes, I would» ise reddir; bu klasik bir tuzaktır.\n\n• Üslubu (register) eşleştir: resmî bir istek resmî, gündelik bir konuşma samimi bir yanıt ister.\n\n• Konuşmayı yok sayan ya da konuyu değiştiren seçenekleri ele.\n\nEn sık düşülen tuzak: seçeneği yalnızca önceki cümleye bakarak seçmek. Sonraki konuşma, doğru yanıtı doğrulayan en güçlü ipucudur.\n\nÖrnek: «A: The printer is out of paper again. B: ---- A: Perfect, that should fix it.» boşluğu, sorunu çözecek bir öneri ister."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-dialogue-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Diyalog tamamlamada seçeneği elemek için hangi iki konuşmaya bakmalısın?",
+      "options": [
+        "Yalnızca ilk konuşmaya",
+        "Yalnızca son konuşmaya",
+        "Hiçbirine, yalnızca seçeneklere",
+        "Yalnızca en uzun konuşmaya",
+        "Hem önceki hem sonraki konuşmaya"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Eksik konuşma öncekine yanıt verir ve sonrakine zemin hazırlar: (E). (A) ve (B) yalnızca bir tarafı görür. (C) bağlamı yok sayar. (D) uzunluk ölçüt değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-dialogue-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "A: Would you mind closing the window?\nB: ----\nA: Thanks, it's freezing in here.",
+      "options": [
+        "Yes, I do mind, but I'll try.",
+        "Not at all; I'll do it right now.",
+        "Yes, please open it wider.",
+        "No, the window is already broken.",
+        "I closed it last week."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Would you mind ...?» ricasına «Not at all» kabuldür; sonraki «Thanks» teşekkürü bunu doğrular: (B). (A) «Yes, I do mind» reddi ifade eder. (C) ricanın tersini yapar. (D) ricaya ilgisiz bir bilgi verir. (E) geçmiş bir eylemden söz eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-dialogue-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Student: Excuse me, Professor, could I hand in my essay a day late?\nProfessor: ----\nStudent: Thank you; I'll bring it tomorrow.",
+      "options": [
+        "Yes, that's fine this time, but please plan ahead.",
+        "No way; I'm not going to read it.",
+        "Late essays are always marked zero in every module.",
+        "You can hand it in whenever you like, even next year.",
+        "The essay was due yesterday, so it has been lost."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Öğrenci «Thank you» diyerek ertelemeyi kabul ettiğini gösteriyor; nazik ve uyumlu bir yanıt gerekir: (A). (B) kaba bir retti. (C) «always ... every» mutlaklığı ve reddi içerir. (D) gerçekçi olmayan bir aşırılıktır. (E) bir kayıp bildirir ve teşekkürle uyuşmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-dialogue-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "A: The printer is out of paper again.\nB: ----\nA: Perfect, that should fix it.",
+      "options": [
+        "The paper was extremely expensive last year.",
+        "I think all office printers are too noisy.",
+        "There's a new pack in the cupboard; I'll get it.",
+        "It never has any paper in the morning.",
+        "You should stop printing documents altogether."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "A'nın «that should fix it» sözü, B'nin bir çözüm önerdiğini gösterir: (C). (A) ve (B) ile (D) çözüm sunmaz. (E) çözüm yerine yasak koyar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-dialogue-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "«Would you mind ...?» ricasına verilen «Yes, I would» yanıtı ne anlama gelir?",
+      "options": [
+        "Rica kabul edilmiş olur ve iş yapılır",
+        "Rica nezaketen daha sonraya ertelenmiş olur",
+        "Rica anlaşılmamış olur ve tekrar sorulur",
+        "Rica reddedilmiş olur; kişi itiraz ediyordur",
+        "Rica başka birine yönlendirilmiş olur"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Would you mind ...?» sorusunda «Yes» yanıtı, kişinin bunu YAPMAKTAN rahatsız olacağını gösterir: (D). (A) tersini söyler. (B) ve (C) ile (E) yanıtın işleviyle ilgisiz yorumlardır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-dialogue-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Customer: Could I speak to the manager, please?\nAssistant: ----\nCustomer: Certainly, I'll wait here.",
+      "options": [
+        "One moment, please; I'll see whether she is available.",
+        "The manager doesn't speak to customers.",
+        "You may not speak to anyone here.",
+        "I am the manager, and I am busy today.",
+        "Which manager would you like to complain about?"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Müşteri «Certainly, I'll wait here» diyerek bekleyeceğini söylüyor; bu, asistanın kibar bir bekleme isteğinde bulunduğunu gösterir: (A). (B) ve (C) ise reddeder. (D) «I am the manager» ile önceki isteği anlamsız kılar. (E) konuşmayı gereksiz yere gerginleştirir.",
+      "passageID": null
+    }
+  ]
+}
