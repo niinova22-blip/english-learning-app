@@ -22,6 +22,7 @@ struct TodayPlanView: View {
     @State private var stats: LearnerStats?
     @State private var activeSession: ActiveSession?
     @State private var infoMessage: (title: String, body: String)?
+    @State private var lockedLesson: LockedLesson?
 
     var body: some View {
         NavigationStack {
@@ -48,6 +49,7 @@ struct TodayPlanView: View {
                 }
             }
         }
+        .lockedLessonPrompts($lockedLesson)
         .alert(infoMessage?.title ?? "", isPresented: Binding(get: { infoMessage != nil }, set: { if !$0 { infoMessage = nil } })) {
             Button("Tamam", role: .cancel) { infoMessage = nil }
         } message: {
@@ -130,7 +132,7 @@ struct TodayPlanView: View {
         case .startPracticeReview(let itemID, let lessonID):
             activeSession = ActiveSession(kind: .practice(.review(lessonID: lessonID, itemID: itemID)))
         case .comingSoon(let title): infoMessage = ("Bu ders türü yakında", title)
-        case .locked(let title): infoMessage = ("Bu ders paketin tam sürümünde", title)
+        case .locked(let title): lockedLesson = LockedLesson(title: title)
         case .none: break
         }
     }

@@ -18,6 +18,7 @@ struct CoursePathView: View {
     @State private var viewModel: CoursePathViewModel?
     @State private var activeSession: ActiveSession?
     @State private var infoMessage: (title: String, body: String)?
+    @State private var lockedLesson: LockedLesson?
 
     var body: some View {
         NavigationStack {
@@ -41,6 +42,7 @@ struct CoursePathView: View {
                 }
             }
         }
+        .lockedLessonPrompts($lockedLesson)
         .alert(infoMessage?.title ?? "", isPresented: Binding(get: { infoMessage != nil }, set: { if !$0 { infoMessage = nil } })) {
             Button("Tamam", role: .cancel) { infoMessage = nil }
         } message: {
@@ -77,7 +79,7 @@ struct CoursePathView: View {
         case .startPractice(let lessonID):
             activeSession = ActiveSession(kind: .practice(lessonID: lessonID))
         case .comingSoon(let title): infoMessage = ("Bu ders türü yakında", title)
-        case .locked(let title): infoMessage = ("Bu ders paketin tam sürümünde", title)
+        case .locked(let title): lockedLesson = LockedLesson(title: title)
         // Ders Yolu never shows review tasks, so these cannot occur here.
         case .startReview, .startPracticeReview, .none: break
         }
