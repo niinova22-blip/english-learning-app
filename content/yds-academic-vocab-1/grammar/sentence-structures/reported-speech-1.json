@@ -38,7 +38,7 @@
       "id": "yds-grammar-reported-speech-1-q02",
       "kind": "grammar",
       "order": 1,
-      "prompt": "She said that she would submit the report ----.",
+      "prompt": "She said last year that she would submit the report ----.",
       "options": [
         "tomorrow",
         "yesterday",

@@ -122,12 +122,12 @@
       "options": [
         "when",
         "which",
-        "that",
-        "where",
+        "what",
+        "whom",
         "whose"
       ],
       "correctIndex": 0,
-      "explanationTR": "Zaman bildiren bir adı (periods) tanımlayan ve cümlecikte özneyle başlayan yapı ilgi zarfı ister: periods when ... (B) which ve (C) that edat olmadan zaman anlamı kuramaz. (D) where yer bildirir. (E) whose ardından ad ister.",
+      "explanationTR": "Zaman bildiren bir adı (periods) tanımlayan ve cümlecikte özneyle başlayan yapı ilgi zarfı ister: periods when ... (B) which edat olmadan zaman anlamı kuramaz. (C) what önceki bir adı niteleyemez. (D) whom kişi içindir. (E) whose ardından ad ister.",
       "passageID": null
     },
     {

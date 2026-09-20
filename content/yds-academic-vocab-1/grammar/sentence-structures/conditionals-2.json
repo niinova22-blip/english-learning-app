@@ -38,7 +38,7 @@
       "id": "yds-grammar-conditionals-2-q02",
       "kind": "grammar",
       "order": 1,
-      "prompt": "If the auditor were more meticulous, she ---- the error in last year's accounts.",
+      "prompt": "If the auditor were more meticulous, she ---- the error in last year's accounts before they were published.",
       "options": [
         "would have noticed",
         "would notice",
@@ -47,7 +47,7 @@
         "had noticed"
       ],
       "correctIndex": 0,
-      "explanationTR": "If cümleciği şimdiki genel bir özelliği anlatıyor (were more meticulous), sonuç ise geçmişte gerçekleşmemiş bir olay: would have + V3. (B) would notice sonucu şimdiye bağlar, oysa «last year's accounts» geçmişi gösterir. (C) will have noticed gelecek ve gerçek koşul yapısıdır. (D) noticed ve (E) had noticed ise ana cümlede would gerektiren kalıba uymaz.",
+      "explanationTR": "If cümleciği şimdiki genel bir özelliği anlatıyor (were more meticulous), sonuç ise geçmişte gerçekleşmemiş bir olay: would have + V3. (B) would notice sonucu şimdiye bağlar, oysa «last year's accounts» ve «before they were published» geçmişi gösterir. (C) will have noticed gelecek ve gerçek koşul yapısıdır. (D) noticed ve (E) had noticed ise ana cümlede would gerektiren kalıba uymaz.",
       "passageID": null
     },
     {

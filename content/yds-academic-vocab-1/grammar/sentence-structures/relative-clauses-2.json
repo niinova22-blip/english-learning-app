@@ -154,12 +154,12 @@
       "options": [
         "at which",
         "at that",
-        "that",
+        "to which",
         "whose",
         "where"
       ],
       "correctIndex": 0,
-      "explanationTR": "Edat + ilgi zamiri kalıbında edattan sonra that değil which gelir: the speed at which. (B) at that böyle bir kalıp kuramaz. (C) that edatı karşılamaz; cümlecikte «at» eksik kalır. (D) whose ardından ad ister. (E) where yer bildirir.",
+      "explanationTR": "Edat + ilgi zamiri kalıbında edattan sonra that değil which gelir: the speed at which. (B) at that böyle bir kalıp kuramaz. (C) to which yanlış edat getirir; hız (speed) ile at kullanılır. (D) whose ardından ad ister. (E) where yer bildirir.",
       "passageID": null
     },
     {

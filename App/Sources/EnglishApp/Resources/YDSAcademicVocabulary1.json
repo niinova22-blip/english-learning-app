@@ -4512,7 +4512,7 @@
               "id": "yds-grammar-conditionals-2-q02",
               "kind": "grammar",
               "order": 1,
-              "prompt": "If the auditor were more meticulous, she ---- the error in last year's accounts.",
+              "prompt": "If the auditor were more meticulous, she ---- the error in last year's accounts before they were published.",
               "options": [
                 "would have noticed",
                 "would notice",
@@ -4521,7 +4521,7 @@
                 "had noticed"
               ],
               "correctIndex": 0,
-              "explanationTR": "If cümleciği şimdiki genel bir özelliği anlatıyor (were more meticulous), sonuç ise geçmişte gerçekleşmemiş bir olay: would have + V3. (B) would notice sonucu şimdiye bağlar, oysa «last year's accounts» geçmişi gösterir. (C) will have noticed gelecek ve gerçek koşul yapısıdır. (D) noticed ve (E) had noticed ise ana cümlede would gerektiren kalıba uymaz.",
+              "explanationTR": "If cümleciği şimdiki genel bir özelliği anlatıyor (were more meticulous), sonuç ise geçmişte gerçekleşmemiş bir olay: would have + V3. (B) would notice sonucu şimdiye bağlar, oysa «last year's accounts» ve «before they were published» geçmişi gösterir. (C) will have noticed gelecek ve gerçek koşul yapısıdır. (D) noticed ve (E) had noticed ise ana cümlede would gerektiren kalıba uymaz.",
               "passageID": null
             },
             {
@@ -4779,12 +4779,12 @@
               "options": [
                 "when",
                 "which",
-                "that",
-                "where",
+                "what",
+                "whom",
                 "whose"
               ],
               "correctIndex": 0,
-              "explanationTR": "Zaman bildiren bir adı (periods) tanımlayan ve cümlecikte özneyle başlayan yapı ilgi zarfı ister: periods when ... (B) which ve (C) that edat olmadan zaman anlamı kuramaz. (D) where yer bildirir. (E) whose ardından ad ister.",
+              "explanationTR": "Zaman bildiren bir adı (periods) tanımlayan ve cümlecikte özneyle başlayan yapı ilgi zarfı ister: periods when ... (B) which edat olmadan zaman anlamı kuramaz. (C) what önceki bir adı niteleyemez. (D) whom kişi içindir. (E) whose ardından ad ister.",
               "passageID": null
             },
             {
@@ -4962,12 +4962,12 @@
               "options": [
                 "at which",
                 "at that",
-                "that",
+                "to which",
                 "whose",
                 "where"
               ],
               "correctIndex": 0,
-              "explanationTR": "Edat + ilgi zamiri kalıbında edattan sonra that değil which gelir: the speed at which. (B) at that böyle bir kalıp kuramaz. (C) that edatı karşılamaz; cümlecikte «at» eksik kalır. (D) whose ardından ad ister. (E) where yer bildirir.",
+              "explanationTR": "Edat + ilgi zamiri kalıbında edattan sonra that değil which gelir: the speed at which. (B) at that böyle bir kalıp kuramaz. (C) to which yanlış edat getirir; hız (speed) ile at kullanılır. (D) whose ardından ad ister. (E) where yer bildirir.",
               "passageID": null
             },
             {
@@ -5363,7 +5363,7 @@
               "id": "yds-grammar-reported-speech-1-q02",
               "kind": "grammar",
               "order": 1,
-              "prompt": "She said that she would submit the report ----.",
+              "prompt": "She said last year that she would submit the report ----.",
               "options": [
                 "tomorrow",
                 "yesterday",
