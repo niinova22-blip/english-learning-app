@@ -58,6 +58,8 @@ public struct ContentPackageDocument: Decodable {
     public let levelLower: String
     public let levelUpper: String
     public let version: Int
+    /// Optional App Store product id; absent for packages that are not sold.
+    public let storeProductID: String?
     /// Keyed by `Skill` raw value; validated and converted by `ContentImporter`.
     public let skillWeights: [String: Double]
     public let units: [UnitDocument]

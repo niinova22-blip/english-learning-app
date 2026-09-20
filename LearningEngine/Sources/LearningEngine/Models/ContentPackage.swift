@@ -13,6 +13,9 @@ public final class ContentPackage {
     public var levelLower: String
     public var levelUpper: String
     public var version: Int = 1
+    /// App Store product that unlocks this package; nil for packages that are
+    /// not sold (they always stay in preview).
+    public var storeProductID: String?
     public var weightVocabulary: Double = 1
     public var weightGrammar: Double = 0
     public var weightReading: Double = 0
@@ -25,7 +28,7 @@ public final class ContentPackage {
 
     public init(
         id: String, name: String, goal: LearningGoal, levelLower: String, levelUpper: String,
-        version: Int = 1, skillWeights: SkillWeights = .vocabularyOnly
+        version: Int = 1, skillWeights: SkillWeights = .vocabularyOnly, storeProductID: String? = nil
     ) {
         self.id = id
         self.name = name
@@ -34,6 +37,7 @@ public final class ContentPackage {
         self.levelUpper = levelUpper
         self.version = version
         self.skillWeights = skillWeights
+        self.storeProductID = storeProductID
     }
 
     /// Falls back to vocabulary-only if stored values were ever invalid.

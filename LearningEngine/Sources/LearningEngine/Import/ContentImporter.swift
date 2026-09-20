@@ -8,6 +8,8 @@ public enum ContentImportError: Error, Equatable {
     case invalidSkillWeights(String)
     case invalidSkill(String)
     case invalidVersion(Int)
+    /// `storeProductID` is present but blank.
+    case invalidStoreProductID
     /// Unknown `kind` on a question. Payload: the raw string.
     case invalidQuestionKind(String)
     /// Options count != 5. Payload: question id, actual count.
@@ -63,6 +65,10 @@ public enum ContentImporter {
         guard document.version >= 1 else {
             throw ContentImportError.invalidVersion(document.version)
         }
+        if let productID = document.storeProductID,
+           productID.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            throw ContentImportError.invalidStoreProductID
+        }
         let weights = try validatedWeights(document.skillWeights)
         for unitDoc in document.units {
             for lessonDoc in unitDoc.lessons where Skill(rawValue: lessonDoc.skill) == nil {
@@ -73,7 +79,8 @@ public enum ContentImporter {
         let package = ContentPackage(
             id: document.id, name: document.name, goal: goal,
             levelLower: document.levelLower, levelUpper: document.levelUpper,
-            version: document.version, skillWeights: weights
+            version: document.version, skillWeights: weights,
+            storeProductID: document.storeProductID
         )
 
         var seenQuestionIDs = Set<String>()

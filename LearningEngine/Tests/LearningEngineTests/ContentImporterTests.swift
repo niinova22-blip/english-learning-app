@@ -16,12 +16,15 @@ final class ContentImporterTests: XCTestCase {
         skillWeights: String = #"{"vocabulary": 1, "grammar": 0, "reading": 0, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0}"#,
         lessonSkill: String = "vocabulary",
         goal: String = "yds",
-        itemType: String = "vocabulary"
+        itemType: String = "vocabulary",
+        storeProductID: String? = nil
     ) -> Data {
-        """
+        let storeLine = storeProductID.map { #""storeProductID": "\#($0)","# } ?? ""
+        return """
         {
           "id": "test-package", "name": "Test Package", "goal": "\(goal)",
           "levelLower": "B2", "levelUpper": "C1",
+          \(storeLine)
           "version": \(version),
           "skillWeights": \(skillWeights),
           "units": [
@@ -302,6 +305,29 @@ final class ContentImporterTests: XCTestCase {
         let context = try makeInMemoryContext()
         XCTAssertThrowsError(try ContentImporter.importPackage(from: packageJSON(version: "0"), into: context)) { error in
             XCTAssertEqual(error as? ContentImportError, .invalidVersion(0))
+        }
+    }
+
+    func test_importPackage_storeProductID_isStoredWhenPresent() throws {
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(
+            from: packageJSON(storeProductID: "com.example.package"), into: context
+        )
+        XCTAssertEqual(package.storeProductID, "com.example.package")
+    }
+
+    func test_importPackage_storeProductID_absentIsNil() throws {
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(from: packageJSON(), into: context)
+        XCTAssertNil(package.storeProductID)
+    }
+
+    func test_importPackage_blankStoreProductID_throws() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertThrowsError(
+            try ContentImporter.importPackage(from: packageJSON(storeProductID: "   "), into: context)
+        ) { error in
+            XCTAssertEqual(error as? ContentImportError, .invalidStoreProductID)
         }
     }
 
