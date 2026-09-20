@@ -178,7 +178,8 @@ final class ContentImporterTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
-        XCTAssertEqual(package.version, 5)
+        XCTAssertEqual(package.version, 6)
+        XCTAssertEqual(package.storeProductID, "com.niinova22.englishapp.package.yds")
         XCTAssertEqual(package.units.count, 9)
         let allLessons = package.units.flatMap(\.lessons)
         let allItems = allLessons.flatMap(\.items)

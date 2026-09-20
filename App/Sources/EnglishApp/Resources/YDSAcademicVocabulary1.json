@@ -2,9 +2,10 @@
   "id": "yds-academic-vocab-1",
   "name": "YDS: Academic Vocabulary I",
   "goal": "yds",
+  "storeProductID": "com.niinova22.englishapp.package.yds",
   "levelLower": "B2",
   "levelUpper": "C1",
-  "version": 5,
+  "version": 6,
   "skillWeights": {
     "vocabulary": 35,
     "grammar": 30,

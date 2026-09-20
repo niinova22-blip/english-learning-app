@@ -158,7 +158,10 @@ OUTPUT_PATHS = [
 # 5: Slice 7b adds the grammar curriculum units (orders 4-8). Bumping this
 # makes installed apps re-import the package; every existing id is unchanged,
 # so FSRS history survives the reseed.
-PACKAGE_VERSION = 5
+# 6: Slice 8 stamps the package's App Store product id. Bumping this makes
+# installed apps re-import the package so the new attribute is populated;
+# every existing id is unchanged, so FSRS history survives the reseed.
+PACKAGE_VERSION = 6
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.
@@ -446,6 +449,7 @@ def assemble():
         "id": "yds-academic-vocab-1",
         "name": "YDS: Academic Vocabulary I",
         "goal": "yds",
+        "storeProductID": "com.niinova22.englishapp.package.yds",
         "levelLower": "B2",
         "levelUpper": "C1",
         "version": PACKAGE_VERSION,
