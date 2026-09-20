@@ -12,7 +12,9 @@ struct LevelTestSnapshot: Equatable {
 struct ProfileView: View {
     @Environment(\.modelContext) private var context
     @Environment(AppState.self) private var appState
-    @AppStorage(DevelopmentPackageAccessProvider.unlockAllKey) private var unlockAll = false
+    #if DEBUG
+    @AppStorage(DeveloperOverride.unlockAllKey) private var unlockAll = false
+    #endif
     @State private var stats: LearnerStats?
     @State private var levelTestSnapshot: LevelTestSnapshot?
     @State private var examDate: Date?
@@ -72,10 +74,12 @@ struct ProfileView: View {
                 }
 
                 section("GELİŞTİRİCİ") {
+                    #if DEBUG
                     Toggle("Tüm paketleri aç", isOn: $unlockAll)
                         .tint(Theme.primary)
                         .onChange(of: unlockAll) { _, _ in appState.bumpDataGeneration() }
                     Divider()
+                    #endif
                     Button("Yerel verileri sıfırla", role: .destructive) { showResetConfirmation = true }
                         .foregroundStyle(Theme.danger)
                 }

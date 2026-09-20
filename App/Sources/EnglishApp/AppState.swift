@@ -1,4 +1,6 @@
 import Foundation
+import SwiftData
+import LearningEngine
 import TutorEngine
 
 @MainActor
@@ -7,11 +9,36 @@ final class AppState {
     private(set) var dataGeneration = 0
     private(set) var tutorEngine: (any TutorEngine)?
 
-    /// Swapped for a StoreKit-backed provider in Slice 8.
-    let accessProvider: any PackageAccessProvider = DevelopmentPackageAccessProvider()
+    @ObservationIgnored let entitlements: EntitlementStore
+    @ObservationIgnored let accessProvider: any PackageAccessProvider
+    @ObservationIgnored let premiumProvider: any PremiumAccessProvider
+
+    init(service: any PurchaseService = StoreKitPurchaseService(), defaults: UserDefaults = .standard) {
+        let store = EntitlementStore(service: service, defaults: defaults)
+        entitlements = store
+        let packages = StoreKitPackageAccessProvider(snapshot: store.snapshot)
+        let premium = SnapshotPremiumAccessProvider(snapshot: store.snapshot)
+        #if DEBUG
+        accessProvider = DeveloperOverridePackageAccessProvider(base: packages, defaults: defaults)
+        premiumProvider = DeveloperOverridePremiumAccessProvider(base: premium, defaults: defaults)
+        #else
+        accessProvider = packages
+        premiumProvider = premium
+        #endif
+        store.onChange = { [weak self] in self?.bumpDataGeneration() }
+    }
 
     func bumpDataGeneration() {
         dataGeneration += 1
+    }
+
+    /// Fills the package -> store product table from the installed packages.
+    /// Call once after content seeding, before the first screen renders.
+    func registerPackageProducts(from context: ModelContext) {
+        let packages = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
+        entitlements.snapshot.registerPackages(packages.compactMap { package in
+            package.storeProductID.map { PackageProduct(packageID: package.id, productID: $0, name: package.name) }
+        })
     }
 
     /// Cheap, synchronous check for whether the tutor feature could work on
@@ -56,6 +83,7 @@ final class AppState {
     /// per-request failure for it. If a load is already in flight, this
     /// awaits that same load instead of starting a second one.
     func loadTutorEngineIfNeeded() async {
+        guard premiumProvider.isPremium else { return }
         guard tutorEngine == nil else { return }
         #if targetEnvironment(simulator)
         // MLX (via Metal) does not run in the iOS Simulator: the
