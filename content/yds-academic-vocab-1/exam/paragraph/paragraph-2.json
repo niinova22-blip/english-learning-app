@@ -40,10 +40,10 @@
       "prompt": "Most students assume that rereading their notes is the best way to prepare for an exam. ---- Studies show that testing oneself on the material produces far better long-term recall, because retrieving information strengthens memory in a way that passive rereading does not.",
       "options": [
         "Research suggests, however, that this habit is much less effective than it feels.",
-        "Notes are usually more accurate than the textbook itself.",
+        "Notes taken in class are usually more accurate than the textbook itself.",
         "Exams are designed to test only what students can recall from their notes.",
-        "For this reason, students should never take notes at all.",
-        "Rereading is used more widely in universities than in schools."
+        "For this reason, students should never take notes during lectures at all.",
+        "Rereading is used more widely in universities than in schools or colleges."
       ],
       "correctIndex": 0,
       "explanationTR": "Sonraki cümle kendini sınamanın tekrar okumadan daha etkili olduğunu söylüyor; bir karşıtlık kuran geçiş cümlesi (A). (B) ve (C) notların doğruluğu ya da sınav tasarımı gibi konulara kayar. (D) «asla not alma» mutlak bir sonuçtur, paragraf bunu söylemez. (E) okulla üniversite kıyası konu dışıdır.",
@@ -56,10 +56,10 @@
       "prompt": "Wind turbines are often criticised for the noise they make. ---- Measurements taken at typical distances show that a turbine produces less sound than a busy office, and modern designs are quieter still.",
       "options": [
         "Turbines are the most expensive way of generating electricity.",
-        "Most turbines are built far from any human settlement.",
-        "The noise nevertheless prevents birds from flying nearby.",
-        "In practice, however, the noise is considerably lower than many people expect.",
-        "Critics have therefore withdrawn all of their objections."
+        "Most turbines are built far away from any human settlement or farm.",
+        "The noise nevertheless prevents birds from nesting anywhere nearby.",
+        "In practice, however, the noise is lower than many people expect.",
+        "Critics have therefore withdrawn all of their remaining objections."
       ],
       "correctIndex": 3,
       "explanationTR": "Paragraf gürültü eleştirisinin ölçümlerle çürüdüğünü gösteriyor; geçiş cümlesi (D). (A) maliyet konusuna kayar. (B) yerleşimden uzaklıktır ve ölçüm cümlesine bağlanmaz. (C) kuşlara geçer, konu dışıdır. (E) «tüm itirazlar geri çekildi» mutlak ve desteksizdir.",
@@ -103,11 +103,11 @@
       "order": 5,
       "prompt": "The Roman Empire built roads on a scale that no earlier civilisation had attempted. ---- The network allowed armies to move quickly, but it also carried merchants, officials and, eventually, the ideas of new religions.",
       "options": [
-        "These roads served purposes that went well beyond their original military function.",
-        "Roman engineers had learned their skills from the Greeks.",
-        "Most of these roads have since been covered by modern motorways.",
+        "These roads served purposes that went well beyond their military function.",
+        "Roman engineers had learned most of their skills from the Greeks and Etruscans.",
+        "Most of these roads have since been covered by modern motorways and railways.",
         "The empire collapsed largely because its roads were poorly maintained.",
-        "Merchants avoided the roads because they were reserved for armies."
+        "Merchants avoided the roads because they were reserved for the use of armies."
       ],
       "correctIndex": 0,
       "explanationTR": "Sonraki cümle yolların orduların ötesinde tüccar ve fikir taşıdığını söylüyor; geçiş cümlesi (A). (B) mühendislerin öğrenme kaynağına gider. (C) yolların bugünkü durumudur. (D) çöküş nedeni iddiası konu dışıdır. (E) tüccarların yolları kullandığını söyleyen cümleyle çelişir.",
@@ -119,11 +119,11 @@
       "order": 6,
       "prompt": "Children learn to speak without formal lessons. ---- Yet an adult who moves abroad and receives hours of instruction may still struggle to reach the same level.",
       "options": [
-        "Adults, by contrast, find grammar more interesting than children do.",
-        "Formal lessons were introduced in schools in the nineteenth century.",
-        "Speaking is generally learned earlier than walking.",
-        "By the age of five, most have mastered the basic grammar of their language simply by listening and interacting.",
-        "Children who hear two languages usually learn neither."
+        "Adults, by contrast, usually find grammar more interesting than children do.",
+        "Formal language lessons were introduced in most European schools in the nineteenth century.",
+        "Speaking is generally learned much earlier than walking, in most children.",
+        "By the age of five, most have mastered their language's grammar simply by listening.",
+        "Children who hear two languages at home usually end up learning neither of them well."
       ],
       "correctIndex": 3,
       "explanationTR": "«Yet» ile başlayan cümle çocuğun kolay öğrenmesi ile yetişkinin zorlanması arasında karşıtlık kuruyor; öncesinde çocuğun başarısını somutlaştıran cümle (D). (A) yetişkinlerin gramer ilgisine kayar. (B) okul tarihine gider. (C) yürüme ile kıyas konu dışıdır. (E) iki dilli çocuklar hakkında desteksiz ve olumsuz bir iddiadır.",
@@ -136,7 +136,7 @@
       "prompt": "Solar panels convert sunlight into electricity, but they do not work equally well everywhere. ---- A panel in a cloudy northern city may produce a third of the energy of an identical panel in a desert.",
       "options": [
         "Panels are usually installed on the roofs of public buildings.",
-        "Their output depends heavily on the amount of sunshine a location receives.",
+        "Their output depends heavily on how much sunshine a location receives.",
         "Desert regions are unsuitable for any kind of construction.",
         "Northern cities produce more electricity than deserts.",
         "Solar energy is cheaper than any other source of power."

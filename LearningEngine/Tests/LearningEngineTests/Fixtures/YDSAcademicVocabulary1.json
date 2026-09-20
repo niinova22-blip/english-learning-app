@@ -11015,11 +11015,11 @@
               "order": 5,
               "prompt": "---- Coffee first reached Europe in the seventeenth century, and coffee houses quickly became places where merchants, writers and scientists met to exchange news. Some historians go so far as to argue that the ideas discussed there helped to shape the modern stock market and the scientific societies.",
               "options": [
-                "The coffee house played a larger role in European intellectual life than its modest appearance suggests.",
-                "Coffee is now the most widely consumed drink in the world.",
-                "Merchants in the seventeenth century preferred tea to coffee.",
-                "Scientific societies were founded to promote the sale of coffee.",
-                "European cities have too many coffee houses today."
+                "Coffee houses played a far larger part in European intellectual life than most people realise.",
+                "Coffee is now the most widely consumed drink in the world, ahead of tea and water.",
+                "Merchants in the seventeenth century generally preferred tea to coffee as a drink.",
+                "Scientific societies were founded mainly to promote the sale of coffee across Europe.",
+                "European cities today have far too many coffee houses for their populations to support."
               ],
               "correctIndex": 0,
               "explanationTR": "Paragraf kahvehanelerin fikir alışverişindeki önemli rolünü anlatıyor: (A). (B) kahvenin bugünkü tüketimi konu dışıdır. (C) tüccarların çay tercihini söyler, metinle çelişir. (D) bilimsel toplulukların kahve satışı için kurulduğunu iddia eder. (E) günümüzdeki sayıdan söz eder ve konuyu değiştirir.",
@@ -11031,11 +11031,11 @@
               "order": 6,
               "prompt": "---- Unlike a bank loan, which must be repaid on a fixed schedule, a share gives its owner a claim on the company's future profits. That claim may become very valuable if the firm grows, but it may also become worthless if the firm fails.",
               "options": [
-                "Banks usually refuse to lend money to companies that issue shares.",
-                "The value of a share always rises when a company grows.",
-                "Owning shares offers the possibility of high rewards but carries a greater risk than lending.",
-                "Fixed repayment schedules make bank loans unsuitable for all borrowers.",
-                "Company profits are legally required to be shared equally with employees."
+                "Banks usually refuse to lend money to any company that has also issued shares.",
+                "The value of a share always rises when a company grows, whatever the market does.",
+                "Shares offer the chance of high rewards but carry a greater risk than lending.",
+                "Fixed repayment schedules make bank loans unsuitable for all borrowers, large or small.",
+                "Company profits are legally required to be shared equally among all employees each year."
               ],
               "correctIndex": 2,
               "explanationTR": "Paragraf hisse sahibinin hem büyük kazanç hem de değersizleşme ihtimalini taşıdığını söylüyor: (C). (A) bankaların kredi vermeyi reddettiğini iddia eder. (B) «her zaman yükselir» mutlaklığı «değersiz olabilir» ile çelişir. (D) «tüm borçlular için uygunsuz» mutlaklığı gereksizdir. (E) yasal eşit paylaşımı söyler, metinde yoktur.",
@@ -11047,11 +11047,11 @@
               "order": 7,
               "prompt": "---- A single earthquake can destroy thousands of buildings in seconds, but the damage is rarely random. Structures built on soft ground shake more violently than those on rock, and buildings constructed without flexible frames are far more likely to collapse.",
               "options": [
-                "Earthquakes occur more frequently in cities than in rural regions.",
-                "Rocky ground is the only kind of land on which people can safely build.",
-                "Governments cannot predict where earthquakes are likely to occur.",
-                "Most buildings collapse because their owners fail to maintain them.",
-                "The destruction caused by an earthquake depends heavily on where and how buildings are constructed."
+                "Earthquakes occur far more frequently in large cities than in rural regions.",
+                "Rocky ground is the only kind of land on which people can safely build houses.",
+                "Governments cannot predict where earthquakes are likely to occur in the future.",
+                "Most buildings collapse because their owners fail to maintain them properly.",
+                "The damage caused by an earthquake depends largely on where and how buildings are built."
               ],
               "correctIndex": 4,
               "explanationTR": "Paragraf yıkımın yere ve yapı biçimine bağlı olduğunu (yumuşak zemin, esnek çerçeve) söylüyor: (E). (A) depremlerin şehirlerdeki sıklığından söz eder. (B) «tek güvenli zemin» mutlaklığı fazladır. (C) tahmin edilemezliği iddia eder, metinde yoktur. (D) bakımsızlığa bağlar, oysa metin zemin ve çerçeveyi vurgular.",
@@ -11102,10 +11102,10 @@
               "prompt": "Most students assume that rereading their notes is the best way to prepare for an exam. ---- Studies show that testing oneself on the material produces far better long-term recall, because retrieving information strengthens memory in a way that passive rereading does not.",
               "options": [
                 "Research suggests, however, that this habit is much less effective than it feels.",
-                "Notes are usually more accurate than the textbook itself.",
+                "Notes taken in class are usually more accurate than the textbook itself.",
                 "Exams are designed to test only what students can recall from their notes.",
-                "For this reason, students should never take notes at all.",
-                "Rereading is used more widely in universities than in schools."
+                "For this reason, students should never take notes during lectures at all.",
+                "Rereading is used more widely in universities than in schools or colleges."
               ],
               "correctIndex": 0,
               "explanationTR": "Sonraki cümle kendini sınamanın tekrar okumadan daha etkili olduğunu söylüyor; bir karşıtlık kuran geçiş cümlesi (A). (B) ve (C) notların doğruluğu ya da sınav tasarımı gibi konulara kayar. (D) «asla not alma» mutlak bir sonuçtur, paragraf bunu söylemez. (E) okulla üniversite kıyası konu dışıdır.",
@@ -11118,10 +11118,10 @@
               "prompt": "Wind turbines are often criticised for the noise they make. ---- Measurements taken at typical distances show that a turbine produces less sound than a busy office, and modern designs are quieter still.",
               "options": [
                 "Turbines are the most expensive way of generating electricity.",
-                "Most turbines are built far from any human settlement.",
-                "The noise nevertheless prevents birds from flying nearby.",
-                "In practice, however, the noise is considerably lower than many people expect.",
-                "Critics have therefore withdrawn all of their objections."
+                "Most turbines are built far away from any human settlement or farm.",
+                "The noise nevertheless prevents birds from nesting anywhere nearby.",
+                "In practice, however, the noise is lower than many people expect.",
+                "Critics have therefore withdrawn all of their remaining objections."
               ],
               "correctIndex": 3,
               "explanationTR": "Paragraf gürültü eleştirisinin ölçümlerle çürüdüğünü gösteriyor; geçiş cümlesi (D). (A) maliyet konusuna kayar. (B) yerleşimden uzaklıktır ve ölçüm cümlesine bağlanmaz. (C) kuşlara geçer, konu dışıdır. (E) «tüm itirazlar geri çekildi» mutlak ve desteksizdir.",
@@ -11165,11 +11165,11 @@
               "order": 5,
               "prompt": "The Roman Empire built roads on a scale that no earlier civilisation had attempted. ---- The network allowed armies to move quickly, but it also carried merchants, officials and, eventually, the ideas of new religions.",
               "options": [
-                "These roads served purposes that went well beyond their original military function.",
-                "Roman engineers had learned their skills from the Greeks.",
-                "Most of these roads have since been covered by modern motorways.",
+                "These roads served purposes that went well beyond their military function.",
+                "Roman engineers had learned most of their skills from the Greeks and Etruscans.",
+                "Most of these roads have since been covered by modern motorways and railways.",
                 "The empire collapsed largely because its roads were poorly maintained.",
-                "Merchants avoided the roads because they were reserved for armies."
+                "Merchants avoided the roads because they were reserved for the use of armies."
               ],
               "correctIndex": 0,
               "explanationTR": "Sonraki cümle yolların orduların ötesinde tüccar ve fikir taşıdığını söylüyor; geçiş cümlesi (A). (B) mühendislerin öğrenme kaynağına gider. (C) yolların bugünkü durumudur. (D) çöküş nedeni iddiası konu dışıdır. (E) tüccarların yolları kullandığını söyleyen cümleyle çelişir.",
@@ -11181,11 +11181,11 @@
               "order": 6,
               "prompt": "Children learn to speak without formal lessons. ---- Yet an adult who moves abroad and receives hours of instruction may still struggle to reach the same level.",
               "options": [
-                "Adults, by contrast, find grammar more interesting than children do.",
-                "Formal lessons were introduced in schools in the nineteenth century.",
-                "Speaking is generally learned earlier than walking.",
-                "By the age of five, most have mastered the basic grammar of their language simply by listening and interacting.",
-                "Children who hear two languages usually learn neither."
+                "Adults, by contrast, usually find grammar more interesting than children do.",
+                "Formal language lessons were introduced in most European schools in the nineteenth century.",
+                "Speaking is generally learned much earlier than walking, in most children.",
+                "By the age of five, most have mastered their language's grammar simply by listening.",
+                "Children who hear two languages at home usually end up learning neither of them well."
               ],
               "correctIndex": 3,
               "explanationTR": "«Yet» ile başlayan cümle çocuğun kolay öğrenmesi ile yetişkinin zorlanması arasında karşıtlık kuruyor; öncesinde çocuğun başarısını somutlaştıran cümle (D). (A) yetişkinlerin gramer ilgisine kayar. (B) okul tarihine gider. (C) yürüme ile kıyas konu dışıdır. (E) iki dilli çocuklar hakkında desteksiz ve olumsuz bir iddiadır.",
@@ -11198,7 +11198,7 @@
               "prompt": "Solar panels convert sunlight into electricity, but they do not work equally well everywhere. ---- A panel in a cloudy northern city may produce a third of the energy of an identical panel in a desert.",
               "options": [
                 "Panels are usually installed on the roofs of public buildings.",
-                "Their output depends heavily on the amount of sunshine a location receives.",
+                "Their output depends heavily on how much sunshine a location receives.",
                 "Desert regions are unsuitable for any kind of construction.",
                 "Northern cities produce more electricity than deserts.",
                 "Solar energy is cheaper than any other source of power."
@@ -11235,11 +11235,11 @@
               "order": 0,
               "prompt": "Bees visit thousands of flowers each day in search of nectar. In doing so they carry pollen from one plant to another, allowing the plants to reproduce. Without this service, many fruits and vegetables would disappear from our shops. ----",
               "options": [
-                "Bees should therefore be kept in every private garden.",
-                "Nectar is the only food that bees can digest.",
+                "Bees should therefore be kept in every private garden and on every roof.",
+                "Nectar is the only food that bees are able to digest properly.",
                 "Flowers that are not visited by bees produce larger fruits.",
-                "Our food supply therefore depends far more on these insects than most people realise.",
-                "Shops sell more honey than any other agricultural product."
+                "Our food supply thus depends more on these insects than we realise.",
+                "Shops sell more honey than any other agricultural product in the world."
               ],
               "correctIndex": 3,
               "explanationTR": "Paragraf arıların tozlaşma yoluyla yiyecek arzını desteklediğini söylüyor; doğal sonuç (D). (A) her bahçede arı tutma önerisi metnin dayanağı olmayan bir çıkarımdır. (B) arıların sindirimine dair yeni bir iddiadır. (C) tozlaşmayan çiçeklerin daha büyük meyve verdiğini söyler ve paragrafla çelişir. (E) bal satışına kayar.",
@@ -11252,10 +11252,10 @@
               "prompt": "In the early twentieth century, many factories paid workers by the piece rather than by the hour. This system rewarded speed but discouraged care, and defective goods were common. Managers who switched to hourly wages and quality checks found that output fell slightly at first. ----",
               "options": [
                 "Piece rates are therefore still the most common method of payment today.",
-                "Over the longer term, however, fewer defects and lower repair costs more than made up for the loss.",
-                "Workers unanimously preferred to be paid by the piece.",
-                "Quality checks were abandoned soon afterwards in most factories.",
-                "Managers had never previously considered the cost of defects."
+                "Over time, however, fewer defects and lower repair costs made up for the loss.",
+                "Workers unanimously preferred to be paid by the piece rather than by the hour.",
+                "Quality checks were abandoned a few years later in most large factories.",
+                "Managers had never previously considered the cost of defective goods to the firm."
               ],
               "correctIndex": 1,
               "explanationTR": "«At first» ifadesi bir sonraki dönemi bekler; uzun vadede kusurların azalması kaybı telafi etti: (B). (A) parça başı ücretin hâlâ yaygın olduğunu iddia eder. (C) işçilerin oybirliğini söyler, metinde yoktur. (D) kalite kontrolünün terk edildiğini söyler, oysa paragraf yararını gösteriyor. (E) yöneticilerin daha önce hiç düşünmediğini iddia eder.",
@@ -11284,10 +11284,10 @@
               "prompt": "Early explorers judged the height of mountains by eye, which produced wildly inaccurate estimates. Later, surveyors began to measure angles from two known points and to calculate height by trigonometry. The results were far more reliable. ----",
               "options": [
                 "Mountains were, in fact, much lower than the explorers had claimed.",
-                "Trigonometry was invented by the surveyors themselves.",
+                "Trigonometry was invented by the surveyors themselves in that period.",
                 "Modern satellites have made all earlier methods unnecessary.",
                 "Explorers preferred estimation because it was faster than surveying.",
-                "Accurate maps of mountainous regions became possible only after such methods were adopted."
+                "Reliable maps of mountain regions became possible with such methods."
               ],
               "correctIndex": 4,
               "explanationTR": "Paragraf, göz kararı tahminlerden trigonometriye geçişin güvenilirliği artırdığını söylüyor; sonuç (E). (A) dağların daha alçak olduğunu iddia eder. (B) trigonometrinin mucidi konusunda desteksiz bir iddiadır. (C) uydulara atlayan ve «hepsini gereksiz kıldı» diyen mutlak bir ifadedir. (D) gözlemcilerin tercihini açıklar ama paragrafın sonucu değildir.",
@@ -11301,9 +11301,9 @@
               "options": [
                 "Books have therefore disappeared entirely from modern libraries.",
                 "Libraries now charge visitors for the use of their meeting rooms.",
-                "The library has, in effect, become a community centre as well as a place for books.",
-                "The number of books is no longer of any importance to anyone.",
-                "Language classes are the main reason people visit libraries."
+                "The library has become a community centre as well as a book collection.",
+                "The number of books is no longer of any importance to library users.",
+                "Language classes are the main reason why people visit public libraries."
               ],
               "correctIndex": 2,
               "explanationTR": "Paragraf kütüphanenin işlevlerinin genişlediğini gösteriyor: (C). (A) kitapların «tamamen» kaybolduğunu söyler, «not only to borrow» ile çelişir. (B) ücret bilgisi metinde yoktur. (D) kitap sayısının «kimse için» önemsiz olduğunu söyler ve mutlaktır. (E) ana nedeni tek bir etkinliğe indirger.",
@@ -11315,11 +11315,11 @@
               "order": 5,
               "prompt": "A pilot who flies the same route hundreds of times may begin to feel that nothing can go wrong. Routine breeds confidence, and confidence can breed carelessness. To prevent this, airlines require pilots to follow a written checklist on every flight, however experienced they are. ----",
               "options": [
-                "Experienced pilots therefore make more mistakes than beginners.",
+                "Experienced pilots therefore make more mistakes than beginners do.",
                 "Airlines no longer trust their pilots to fly without instruments.",
                 "Checklists are used only on routes that pilots have never flown.",
-                "The checklist protects against the very complacency that experience tends to create.",
-                "Written instructions have replaced the need for training."
+                "The checklist guards against the complacency that experience creates.",
+                "Written instructions have replaced the need for pilot training altogether."
               ],
               "correctIndex": 3,
               "explanationTR": "Paragraf kontrol listesinin deneyimin yarattığı rehavete karşı önlem olduğunu anlatıyor: (D). (A) deneyimlilerin daha çok hata yaptığını iddia eder. (B) aletlerden vazgeçildiğini söyler. (C) listelerin yalnızca hiç uçulmamış rotalarda kullanıldığını söyler, «every flight» ile çelişir. (E) eğitimin gereksizleştiğini iddia eder.",
@@ -11331,10 +11331,10 @@
               "order": 6,
               "prompt": "Volcanic eruptions can release so much ash that sunlight is partly blocked for months. After the eruption of Tambora in 1815, temperatures fell across much of the northern hemisphere, and the following year became known as the year without a summer. Harvests failed and food prices rose sharply. ----",
               "options": [
-                "A single eruption on one island thus affected the lives of people thousands of kilometres away.",
-                "Volcanoes are the only natural cause of falling temperatures.",
+                "A single eruption thus affected people thousands of kilometres away.",
+                "Volcanoes are the only natural cause of falling temperatures worldwide.",
                 "Farmers had warned the authorities about the eruption in advance.",
-                "Food prices fell as soon as the ash cleared.",
+                "Food prices fell back as soon as the ash had cleared from the sky.",
                 "The year without a summer was followed by a decade of unusually warm weather."
               ],
               "correctIndex": 0,
@@ -11347,14 +11347,14 @@
               "order": 7,
               "prompt": "Buying a house is the largest financial decision most people ever make, yet many spend less time researching it than they spend choosing a phone. Buyers often rely on a single viewing and on the seller's own description. Surveys show that hidden defects are discovered within a year in a large proportion of cases. ----",
               "options": [
-                "Sellers should be prohibited from describing their own houses.",
-                "Phones are more expensive than houses in most countries.",
-                "A thorough independent inspection before purchase is therefore a sensible precaution.",
-                "Viewings should be avoided because they rarely reveal anything.",
-                "Buyers who spend more time researching always pay lower prices."
+                "Sellers should be prohibited from describing their own houses in advertisements.",
+                "Choosing a phone requires more careful research than buying a house does.",
+                "An independent inspection before purchase is therefore a sensible precaution.",
+                "Viewings should be avoided altogether because they rarely reveal anything useful.",
+                "Buyers who spend more time researching a house always pay lower prices."
               ],
               "correctIndex": 2,
-              "explanationTR": "Paragraf, alıcıların yüzeysel araştırma yaptığını ve gizli kusurların sonradan çıktığını gösteriyor; makul sonuç bağımsız bir muayene: (C). (A) satıcının anlatmasını yasaklamak paragrafın çıkarımı değildir. (B) telefon fiyatı konu dışıdır. (D) görmeyi bırakmayı önerir, oysa sorun yetersiz araştırmadır. (E) «her zaman» mutlaklığı desteksizdir.",
+              "explanationTR": "Paragraf, alıcıların yüzeysel araştırma yaptığını ve gizli kusurların sonradan çıktığını gösteriyor; makul sonuç bağımsız bir muayene: (C). (A) satıcının anlatmasını yasaklamak paragrafın çıkarımı değildir. (B) telefon ile ev arasındaki araştırma karşılaştırmasını ters çevirir ve metinden çıkmayan bir sonuç sunar. (D) görmeyi bırakmayı önerir, oysa sorun yetersiz araştırmadır. (E) «her zaman» mutlaklığı desteksizdir.",
               "passageID": null
             }
           ]
@@ -11835,7 +11835,7 @@
               "order": 0,
               "prompt": "Student: Professor, I couldn't finish the survey analysis before the deadline.\nProfessor: ----\nStudent: I'll send you the revised draft by Friday.",
               "options": [
-                "That's understandable, but please tell me earlier next time if you expect a delay.",
+                "I understand, but please warn me earlier if it happens again.",
                 "Then I'll assume you have already submitted the final draft.",
                 "The deadline was extended because most students finished early.",
                 "You should have analysed the survey before it was even conducted.",
@@ -11852,13 +11852,13 @@
               "prompt": "Librarian: I'm afraid this book is already checked out.\nStudent: ----\nLibrarian: Yes, I can reserve it for you, and you'll get an email when it's back.",
               "options": [
                 "Then I'll return it tomorrow.",
-                "Did you write this book yourself?",
+                "Do you know who borrowed it?",
                 "The library closes at nine, doesn't it?",
-                "Could I put my name on a waiting list for it?",
+                "Can I go on a waiting list for it?",
                 "I've already read it twice this week."
               ],
               "correctIndex": 3,
-              "explanationTR": "Kütüphaneci «rezerve edebilirim» diyor; bu cevabı doğuran soru bekleme listesi isteğidir: (D). (A) kitap zaten öğrencide değil, ödünçte olan başkasındadır. (B) ve (C) ile (E) kütüphanecinin cevabına uymayan sorular ya da ifadelerdir.",
+              "explanationTR": "Kütüphaneci «rezerve edebilirim» diyor; bu cevabı doğuran soru bekleme listesi isteğidir: (D). (A) kitap zaten öğrencide değil, ödünçte olan başkasındadır. (B) kimin ödünç aldığını sorar ve \"Yes, I can reserve it\" yanıtıyla uyuşmaz. (C) kapanış saatini sorar, kitapla ilgili istek içermez. (E) kitabı okuduğunu söyler ve rezervasyon talebi taşımaz.",
               "passageID": null
             },
             {
@@ -11868,13 +11868,13 @@
               "prompt": "Advisor: Have you decided which modules to take next term?\nStudent: ----\nAdvisor: Then let's look at the timetable and see whether they overlap.",
               "options": [
                 "Yes, I finished all my modules last year.",
-                "I'm still choosing between two options in economics and statistics.",
+                "I'm still choosing between two options.",
                 "I don't think the timetable is important.",
-                "My advisor told me to stay at home.",
+                "I haven't looked at the course list yet.",
                 "The exams were easier than I expected."
               ],
               "correctIndex": 1,
-              "explanationTR": "Danışman «o zaman zaman çizelgesine bakalım» diyor; bu, öğrencinin iki seçenek arasında kaldığını gösterir: (B). (A) modülleri bitirdiğini söyler ve karar sorusuyla uyuşmaz. (C) çizelgeyi önemsiz sayar. (D) ve (E) konuyla ilgisizdir.",
+              "explanationTR": "Danışman «o zaman zaman çizelgesine bakalım» diyor; bu, öğrencinin iki seçenek arasında kaldığını gösterir: (B). (A) modülleri bitirdiğini söyler ve karar sorusuyla uyuşmaz. (C) çizelgeyi önemsiz sayar. (D) ders listesine bakmadığını söyler; o zaman danışmanın \"they overlap\" ifadesinin göndereceği bir şey kalmaz. (E) sınavlardan söz eder ve soruyu yanıtlamaz.",
               "passageID": null
             },
             {
@@ -11884,13 +11884,13 @@
               "prompt": "Student: I didn't understand the second question on the assignment.\nTutor: ----\nStudent: Oh, I see. I was looking at the wrong data set.",
               "options": [
                 "That question was removed from the assignment last week.",
-                "You should submit your assignment before reading it.",
+                "Please submit it as it is and we will see.",
                 "The data set was collected in 1990.",
                 "Then you must have understood everything.",
                 "Let's read it together, and tell me which part is unclear."
               ],
               "correctIndex": 4,
-              "explanationTR": "Öğrenci yanlış veri setine baktığını fark ediyor; bu, birlikte okuma ve belirsiz kısmı sorma yoluyla olur: (E). (A) sorunun kaldırıldığını söylüyor, öğrencinin fark etmesiyle çelişir. (B) mantıksızdır. (C) konu dışıdır. (D) öğrencinin sorununu yok sayar.",
+              "explanationTR": "Öğrenci yanlış veri setine baktığını fark ediyor; bu, birlikte okuma ve belirsiz kısmı sorma yoluyla olur: (E). (A) sorunun kaldırıldığını söylüyor, öğrencinin fark etmesiyle çelişir. (B) ödevi olduğu gibi teslim etmeyi önerir ve öğrencinin \"Oh, I see\" tepkisine yol açacak bir açıklama içermez. (C) konu dışıdır. (D) öğrencinin sorununu yok sayar.",
               "passageID": null
             },
             {
@@ -11901,12 +11901,12 @@
               "options": [
                 "Good, I have a lot of time to relax.",
                 "The seminar was cancelled yesterday.",
-                "Already? I'm afraid I'm still working on my slides.",
-                "I'll see you at the seminar next year.",
+                "Already? I'm still finishing my slides.",
+                "Let's meet at the cafe after the seminar.",
                 "That is exactly what the lecturer said."
               ],
               "correctIndex": 2,
-              "explanationTR": "«Don't worry» yanıtı bir kaygıya cevap veriyor; kaygıyı doğuran cümle henüz hazır olmama: (C). (A) rahat olduğunu söyler ve «don't worry» ile uyuşmaz. (B) iptal edildiğini söyler ve acele etmeyi gereksiz kılar. (D) gelecek yıla atıfta bulunur.",
+              "explanationTR": "«Don't worry» yanıtı bir kaygıya cevap veriyor; kaygıyı doğuran cümle henüz hazır olmama: (C). (A) rahat olduğunu söyler ve «don't worry» ile uyuşmaz. (B) iptal edildiğini söyler ve acele etmeyi gereksiz kılar. (D) seminer sonrası için buluşma önerir ve \"Don't worry, we'll walk quickly\" yanıtına neden olacak bir kaygı içermez.",
               "passageID": null
             },
             {
@@ -11915,7 +11915,7 @@
               "order": 5,
               "prompt": "Lecturer: Would anyone like to comment on the reading?\nStudent: ----\nLecturer: An interesting point; can you support it with an example from the text?",
               "options": [
-                "I think the author underestimates the role of local governments.",
+                "I think the author underestimates local governments.",
                 "I have not decided whether to go to the cafeteria.",
                 "The lecturer already commented on it yesterday.",
                 "Can you repeat the date of the exam?",
@@ -11985,11 +11985,11 @@
               "order": 0,
               "prompt": "Customer: I ordered this jacket in blue, but you sent me a green one.\nAssistant: ----\nCustomer: Thank you. Can you send the correct one by Friday?",
               "options": [
-                "That colour is always more popular than blue.",
-                "You have not paid for the jacket yet.",
-                "I'm very sorry about that; I'll arrange an exchange straight away.",
-                "Green is the only colour we sell.",
-                "I have never seen that jacket before."
+                "That colour is always more popular than the blue one.",
+                "You have not actually paid for the jacket yet.",
+                "I'm very sorry; I'll arrange an exchange straight away.",
+                "Green is the only colour that we sell in this shop.",
+                "I have never seen that jacket in our shop before."
               ],
               "correctIndex": 2,
               "explanationTR": "Müşteri teşekkür edip doğru ürünü Cuma'ya kadar istiyor; bu, satıcının özür dileyip değişim önerdiğini gösterir: (C). (A) rengin popüler olduğunu söyler ve şikâyeti geçiştirir. (B) ödeme yapılmadığını iddia eder. (D) yalnızca yeşil sattıklarını söyler. (E) ürünü hiç görmediğini söyler.",
@@ -12001,14 +12001,14 @@
               "order": 1,
               "prompt": "Manager: The client has asked us to move the meeting to Thursday.\nColleague: ----\nManager: Then let's ask whether Friday morning is possible.",
               "options": [
-                "Thursday is the day after Friday.",
-                "I have already attended that meeting.",
-                "The client never asks for anything.",
-                "Then the meeting is cancelled forever.",
-                "Unfortunately, I'm attending a conference on Thursday."
+                "The client should have asked us much earlier than this.",
+                "I have already attended that meeting with the client.",
+                "The client never asks us for anything unreasonable.",
+                "Then the meeting is cancelled for good, I suppose.",
+                "Unfortunately, I'm at a conference on Thursday."
               ],
               "correctIndex": 4,
-              "explanationTR": "Müdür «o zaman Cuma sabahını soralım» diyor; bu, çalışanın Perşembe günü müsait olmadığını söylediğini gösterir: (E). (A) günlerin sırasını yanlış verir. (B) toplantının yapılmış olduğunu söyler. (C) müşterinin hiç istekte bulunmadığını iddia eder. (D) toplantıyı sonsuza dek iptal eder.",
+              "explanationTR": "Müdür «o zaman Cuma sabahını soralım» diyor; bu, çalışanın Perşembe günü müsait olmadığını söylediğini gösterir: (E). (A) yalnızca sitem eder; Perşembe'nin uygun olmadığını söylemediği için Cuma önerisine zemin hazırlamaz. (B) toplantının yapılmış olduğunu söyler. (C) müşterinin hiç istekte bulunmadığını iddia eder. (D) toplantıyı sonsuza dek iptal eder.",
               "passageID": null
             },
             {
@@ -12037,7 +12037,7 @@
                 "The document was printed yesterday.",
                 "Sharing is not a useful feature.",
                 "Try logging out and signing in again.",
-                "I have never used a computer."
+                "I'll send you a printed copy tomorrow."
               ],
               "correctIndex": 3,
               "explanationTR": "«That worked» bir çözüm önerisinin işe yaradığını gösterir: (D). (A) okumayı bırakmayı önerir. (B) ve (C) ile (E) çözüm sunmaz.",
@@ -12049,11 +12049,11 @@
               "order": 4,
               "prompt": "Interviewer: Why do you want to work for our company?\nCandidate: ----\nInterviewer: That's helpful; can you give an example of a project you led?",
               "options": [
-                "I'm not sure that I want to work at all.",
-                "I admire your focus on sustainable design, which matches my own experience.",
+                "Honestly, I'm not sure that I want this job at all.",
+                "I admire your focus on sustainable design; it matches my experience.",
                 "Your company is on the same street as my flat, nothing more.",
                 "The salary is the only thing I know about the company.",
-                "I applied to every company in the city."
+                "I applied to every company in the city that was hiring."
               ],
               "correctIndex": 1,
               "explanationTR": "Mülakatçı «yararlı» diyor ve örnek proje soruyor; bu, adayın şirketle bağını gösteren bir yanıt verdiğini gösterir: (B). (A) çalışmak istemediğini söyler. (C) ve (D) ve (E) şirketle içerik bağı kurmaz.",
@@ -12069,7 +12069,7 @@
                 "I have already stayed there in July.",
                 "Then could we travel a month later?",
                 "Is the hotel located in the mountains?",
-                "August comes before July, doesn't it?"
+                "Is there a cheaper hotel nearby in July?"
               ],
               "correctIndex": 2,
               "explanationTR": "Acente «Ağustos mümkün» diyor; bu, müşterinin bir ay sonrasını sorduğunu gösterir: (C). (A) Temmuz'da kalacağını söyler ve otelin dolu olmasıyla çelişir. (B) geçmişte kaldığını söyler. (D) ve (E) Ağustos yanıtına uymaz.",
@@ -12083,12 +12083,12 @@
               "options": [
                 "That means we finished early.",
                 "Schedules are not important in engineering.",
-                "I did not know what a schedule was.",
+                "I thought the schedule was flexible anyway.",
                 "Then we should cancel the project.",
-                "I suggest we add two more people for the testing stage."
+                "I suggest we add two more people to testing."
               ],
               "correctIndex": 4,
-              "explanationTR": "Takım lideri «planı gözden geçirelim» diyor; bu, mühendisin bir çözüm önerdiğini gösterir: (E). (A) erken bittiğini söyler ve gecikmeyle çelişir. (B) takvimi önemsiz sayar. (C) anlamsız bir yanıttır. (D) projeyi iptal etmeyi önerir ve «gözden geçirelim» ile uyuşmaz.",
+              "explanationTR": "Takım lideri «planı gözden geçirelim» diyor; bu, mühendisin bir çözüm önerdiğini gösterir: (E). (A) erken bittiğini söyler ve gecikmeyle çelişir. (B) takvimi önemsiz sayar. (C) çizelgeyi esnek saydığını söyler ve bir çözüm önerisi içermez. (D) projeyi iptal etmeyi önerir ve «gözden geçirelim» ile uyuşmaz.",
               "passageID": null
             },
             {
@@ -12097,9 +12097,9 @@
               "order": 7,
               "prompt": "Caller: I'd like to cancel my subscription.\nAgent: ----\nCaller: No, it's just too expensive for me.",
               "options": [
-                "May I ask whether there is a problem with the service?",
+                "May I ask if something is wrong with the service?",
                 "You have not yet subscribed to anything.",
-                "We have never sent you a bill.",
+                "We have never sent you a bill for this service.",
                 "Thank you for renewing it for another year.",
                 "Subscriptions can be cancelled only in person."
               ],

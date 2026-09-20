@@ -103,11 +103,11 @@
       "order": 5,
       "prompt": "---- Coffee first reached Europe in the seventeenth century, and coffee houses quickly became places where merchants, writers and scientists met to exchange news. Some historians go so far as to argue that the ideas discussed there helped to shape the modern stock market and the scientific societies.",
       "options": [
-        "The coffee house played a larger role in European intellectual life than its modest appearance suggests.",
-        "Coffee is now the most widely consumed drink in the world.",
-        "Merchants in the seventeenth century preferred tea to coffee.",
-        "Scientific societies were founded to promote the sale of coffee.",
-        "European cities have too many coffee houses today."
+        "Coffee houses played a far larger part in European intellectual life than most people realise.",
+        "Coffee is now the most widely consumed drink in the world, ahead of tea and water.",
+        "Merchants in the seventeenth century generally preferred tea to coffee as a drink.",
+        "Scientific societies were founded mainly to promote the sale of coffee across Europe.",
+        "European cities today have far too many coffee houses for their populations to support."
       ],
       "correctIndex": 0,
       "explanationTR": "Paragraf kahvehanelerin fikir alışverişindeki önemli rolünü anlatıyor: (A). (B) kahvenin bugünkü tüketimi konu dışıdır. (C) tüccarların çay tercihini söyler, metinle çelişir. (D) bilimsel toplulukların kahve satışı için kurulduğunu iddia eder. (E) günümüzdeki sayıdan söz eder ve konuyu değiştirir.",
@@ -119,11 +119,11 @@
       "order": 6,
       "prompt": "---- Unlike a bank loan, which must be repaid on a fixed schedule, a share gives its owner a claim on the company's future profits. That claim may become very valuable if the firm grows, but it may also become worthless if the firm fails.",
       "options": [
-        "Banks usually refuse to lend money to companies that issue shares.",
-        "The value of a share always rises when a company grows.",
-        "Owning shares offers the possibility of high rewards but carries a greater risk than lending.",
-        "Fixed repayment schedules make bank loans unsuitable for all borrowers.",
-        "Company profits are legally required to be shared equally with employees."
+        "Banks usually refuse to lend money to any company that has also issued shares.",
+        "The value of a share always rises when a company grows, whatever the market does.",
+        "Shares offer the chance of high rewards but carry a greater risk than lending.",
+        "Fixed repayment schedules make bank loans unsuitable for all borrowers, large or small.",
+        "Company profits are legally required to be shared equally among all employees each year."
       ],
       "correctIndex": 2,
       "explanationTR": "Paragraf hisse sahibinin hem büyük kazanç hem de değersizleşme ihtimalini taşıdığını söylüyor: (C). (A) bankaların kredi vermeyi reddettiğini iddia eder. (B) «her zaman yükselir» mutlaklığı «değersiz olabilir» ile çelişir. (D) «tüm borçlular için uygunsuz» mutlaklığı gereksizdir. (E) yasal eşit paylaşımı söyler, metinde yoktur.",
@@ -135,11 +135,11 @@
       "order": 7,
       "prompt": "---- A single earthquake can destroy thousands of buildings in seconds, but the damage is rarely random. Structures built on soft ground shake more violently than those on rock, and buildings constructed without flexible frames are far more likely to collapse.",
       "options": [
-        "Earthquakes occur more frequently in cities than in rural regions.",
-        "Rocky ground is the only kind of land on which people can safely build.",
-        "Governments cannot predict where earthquakes are likely to occur.",
-        "Most buildings collapse because their owners fail to maintain them.",
-        "The destruction caused by an earthquake depends heavily on where and how buildings are constructed."
+        "Earthquakes occur far more frequently in large cities than in rural regions.",
+        "Rocky ground is the only kind of land on which people can safely build houses.",
+        "Governments cannot predict where earthquakes are likely to occur in the future.",
+        "Most buildings collapse because their owners fail to maintain them properly.",
+        "The damage caused by an earthquake depends largely on where and how buildings are built."
       ],
       "correctIndex": 4,
       "explanationTR": "Paragraf yıkımın yere ve yapı biçimine bağlı olduğunu (yumuşak zemin, esnek çerçeve) söylüyor: (E). (A) depremlerin şehirlerdeki sıklığından söz eder. (B) «tek güvenli zemin» mutlaklığı fazladır. (C) tahmin edilemezliği iddia eder, metinde yoktur. (D) bakımsızlığa bağlar, oysa metin zemin ve çerçeveyi vurgular.",
