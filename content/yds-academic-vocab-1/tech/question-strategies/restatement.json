@@ -28,10 +28,10 @@
         "Yalnızca en kısa görünen seçeneği seçmeliyim",
         "İlişkinin ve zamanın korunup korunmadığına bakmalıyım",
         "Yalnızca cümlenin ilk sözcüğüne bakmalıyım",
-        "Seçeneği hiç okumadan bir sonrakine geçmeliyim"
+        "Kökteki sözcüklerin kaçının seçenekte geçtiğini saymalıyım"
       ],
       "correctIndex": 2,
-      "explanationTR": "Sözcük benzerliği yanıltıcıdır; anlamı belirleyen ilişki ve kapsamdır: (C). (A) tuzağa düşürür. (B) uzunluk ölçüt değildir. (D) ilk sözcük anlamı belirlemez. (E) okumadan karar vermek yanlıştır.",
+      "explanationTR": "Sözcük benzerliği yanıltıcıdır; anlamı belirleyen ilişki ve kapsamdır: (C). (A) tam da bu tuzağa düşürür. (B) uzunluk bir anlam ölçütü değildir. (D) ilk sözcük anlamı belirlemez. (E) ortak sözcük saymak ilişkinin korunduğunu göstermez.",
       "passageID": null
     },
     {
@@ -88,7 +88,7 @@
       "order": 4,
       "prompt": "You needn't bring a gift.",
       "options": [
-        "You must not bring a gift.",
+        "You must not bring a gift under any circumstances.",
         "It is not necessary for you to bring a gift.",
         "You are not allowed to bring a gift.",
         "You should bring a gift.",
@@ -104,14 +104,14 @@
       "order": 5,
       "prompt": "Bir yeniden ifade seçeneği kökle aynı sözcükleri kullanıp zamanı değiştiriyorsa ne yapmalısın?",
       "options": [
-        "Elemeliyim; zaman değişirse anlam değişir",
         "Seçmeliyim, çünkü sözcükler aynı",
-        "Yalnızca uzun ise seçmeliyim",
+        "Seçeneğin daha resmî bir dil kullanıp kullanmadığına bakmalıyım",
         "Zamanı yok sayıp anlama bakmalıyım",
-        "İlk sözcüğü karşılaştırmalıyım"
+        "İlk sözcüğü karşılaştırmalıyım",
+        "Elemeliyim; zaman değişirse anlam değişir"
       ],
-      "correctIndex": 0,
-      "explanationTR": "Zaman anlamın parçasıdır: (A). (B) sözcük benzerliği yeterli değildir. (C) ve (E) şekilsel ölçütlerdir. (D) zamanı yok saymak, anlamı bozar.",
+      "correctIndex": 4,
+      "explanationTR": "Zaman anlamın parçasıdır; değişirse cümle artık aynı şeyi söylemez: (E). (A) sözcük benzerliği yeterli değildir. (B) üslup değil, anlam belirleyicidir. (C) zamanı yok saymak anlamı bozar. (D) ilk sözcüğü karşılaştırmak cümlenin tamamını denetlemez.",
       "passageID": null
     }
   ]

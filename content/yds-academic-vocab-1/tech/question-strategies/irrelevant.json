@@ -28,10 +28,10 @@
         "Her cümlenin ilk sözcüğünü karşılaştırmak",
         "Yalnızca en kısa cümleyi işaretlemek",
         "Yalnızca son cümleyi ayrıntılı incelemek",
-        "Cümle numaralarına göre tahmin yürütmek"
+        "En fazla teknik ayrıntı veren cümleyi işaretlemek"
       ],
       "correctIndex": 0,
-      "explanationTR": "Paragrafın ne anlattığını bilmeden zinciri bozan cümle bulunamaz: (A). (B) ilk sözcükler zinciri göstermez. (C) uzunluk ölçüt değildir. (D) tek cümle yeterli bilgi vermez. (E) tahmin, mantık yerine geçmez.",
+      "explanationTR": "Paragrafın ne anlattığını bilmeden zinciri bozan cümle bulunamaz: (A). (B) ilk sözcükler zinciri göstermez. (C) uzunluk ölçüt değildir. (D) tek cümle yeterli bilgi vermez. (E) ayrıntı vermek konu dışı olmak demek değildir; ayrıntı da zincire bağlı olabilir.",
       "passageID": null
     },
     {
@@ -79,7 +79,7 @@
         "Cümlenin uzunluğuna bakarak karar vermeliyim"
       ],
       "correctIndex": 1,
-      "explanationTR": "Sözcük tekrarı konu bağı değildir; önemli olan fikirdir: (B). (A) aynı sözcük yanıltıcıdır. (C) ve (D) ile (E) mantıksal bir dayanak sunmaz.",
+      "explanationTR": "Sözcük tekrarı konu bağı değildir; önemli olan fikirdir: (B). (A) aynı sözcük yanıltıcıdır; anlam farklıysa bağ kurulmaz. (C) ortak sözcük bir cümleyi konu cümlesi yapmaz. (D) cümleyi atlamak soruyu çözmez. (E) uzunluk konu bağının ölçütü değildir.",
       "passageID": null
     },
     {
@@ -107,11 +107,11 @@
         "Cümlenin uzunluğunu önceden belirlemesi",
         "Doğru cevabın numarasını doğrudan vermesi",
         "Paragrafın konusunu tamamen değiştirmesi",
-        "Cümleleri sayıya çevirip sıralaması",
+        "Hangi cümlenin daha fazla ayrıntı içerdiğini göstermesi",
         "Cümlenin öncekiyle bağlı olup olmadığını göstermesi"
       ],
       "correctIndex": 4,
-      "explanationTR": "Zamirler ve bağlayıcılar zincirin halkalarını gösterir: (E). (A) uzunlukla ilgili değildir. (B) cevabın numarasını vermez. (C) konuyu değiştirmez, konu bağını gösterir. (D) anlamsız bir işlevdir.",
+      "explanationTR": "Zamirler ve bağlayıcılar zincirin halkalarını gösterir: (E). (A) uzunlukla ilgili değildir. (B) cevabın numarasını vermez. (C) konuyu değiştirmez, konu bağını gösterir. (D) ayrıntı miktarını değil, cümleler arası bağı gösterirler.",
       "passageID": null
     }
   ]

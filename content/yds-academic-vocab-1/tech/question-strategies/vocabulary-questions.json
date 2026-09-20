@@ -24,14 +24,14 @@
       "order": 0,
       "prompt": "Cümlede bilmediğin bir sözcük varsa doğru anlamı bulmak için ilk hangi ipucuna bakmalısın?",
       "options": [
-        "Sözcüğün kaç harften oluştuğuna",
-        "Sözcüğün hangi harfle başladığına",
-        "Seçeneklerin sıra numarasına göre tahmine",
+        "Sözcüğün Türkçede benzediği bir sözcüğe",
+        "Sözcüğün ilk hecesinin nasıl okunduğuna",
+        "Seçenekler arasında en tanıdık gelen sözcüğün anlamına",
         "Cümlenin geri kalanındaki bağlam ipuçlarına",
         "Yalnızca metnin başlığına, cümleyi okumadan"
       ],
       "correctIndex": 3,
-      "explanationTR": "Bağlam, bilinmeyen sözcüğün anlamını çoğu zaman verir: (D). (A) ve (B) ve (C) anlamla ilgisiz biçimsel ölçütlerdir. (E) cümleyi okumadan başlığa güvenmek yeterli bilgi vermez.",
+      "explanationTR": "Bağlam, bilinmeyen sözcüğün anlamını çoğu zaman verir: (D). (A) Türkçeye benzeyen sözcükler çoğu zaman sahte dosttur (sympathetic «sempatik» değildir). (B) okunuş anlam hakkında bilgi vermez. (C) tanıdık gelmek doğru olmak değildir. (E) cümleyi okumadan başlığa güvenmek yeterli bilgi vermez.",
       "passageID": null
     },
     {
@@ -75,11 +75,11 @@
         "make",
         "impose",
         "give",
-        "carry",
+        "produce",
         "hold"
       ],
       "correctIndex": 1,
-      "explanationTR": "«Impose a tax» sabit bir kalıptır (= vergi getirmek): (B). (A) make, (C) give, (D) carry ve (E) hold «tax» ile bu kalıbı kurmaz.",
+      "explanationTR": "«Impose a tax» sabit bir kalıptır (= vergi getirmek): (B). (A) make, (C) give, (D) produce ve (E) hold «tax» ile bu kalıbı kurmaz.",
       "passageID": null
     },
     {
@@ -95,7 +95,7 @@
         "at night"
       ],
       "correctIndex": 4,
-      "explanationTR": "«Such as owls and bats» bir ÖRNEK ipucudur: baykuşlar ve yarasalar geceleri aktiftir; nocturnal = gececil: (E). (A) ve (B) ve (C) örneklerle ilgisizdir. (D) tersini söyler.",
+      "explanationTR": "«Such as owls and bats» bir ÖRNEK ipucudur: baykuşlar ve yarasalar geceleri aktiftir; nocturnal = gececil: (E). (A) mevsim, (B) yaşam alanı ve (C) sayı bildirir; hiçbiri örneklerin verdiği ipucuna bağlanmaz. (D) tam tersini söyler.",
       "passageID": null
     },
     {
@@ -105,13 +105,13 @@
       "prompt": "Bir kelime sorusunda iki seçenek anlamca yakın görünüyorsa ne yapmalısın?",
       "options": [
         "Kalıba ve sözcük türüne bakarak birini elemeliyim",
-        "Şansıma güvenip rastgele birini seçmeliyim",
+        "Cümlede daha sık gördüğüm sözcüğü seçmeliyim",
         "Sözcük olarak daha uzun olan seçeneği seçmeliyim",
         "Türkçe karşılığı daha kısa olanı seçmeliyim",
-        "İkisini de yanlış sayıp soruyu boş bırakmalıyım"
+        "Türkçe karşılıkları aynıysa herhangi birini seçmeliyim"
       ],
       "correctIndex": 0,
-      "explanationTR": "Yakın anlamlı seçeneklerden yalnızca biri kalıba ve sözcük türüne uyar: (A). (B) ve (C) ve (D) ölçütsüz seçimlerdir. (E) tek doğru şık zorunludur.",
+      "explanationTR": "Yakın anlamlı seçeneklerden yalnızca biri kalıba ve sözcük türüne uyar: (A). (B) sıklık bir anlam ölçütü değildir. (C) uzunluk bir anlam ölçütü değildir. (D) Türkçe karşılığın kısalığı belirleyici değildir. (E) Türkçesi aynı görünen iki sözcük İngilizcede farklı kalıplarda kullanılır.",
       "passageID": null
     }
   ]

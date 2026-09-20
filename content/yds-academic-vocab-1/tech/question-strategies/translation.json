@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Strateji: Çeviri Soruları",
       "collocations": [],
-      "explanationTR": "Çeviri sorusunda doğru şık, cümlenin BÜTÜN öğelerini korur; yanlış şıklar çoğu zaman yalnızca tek bir öğeyi değiştirir.\n\n• Önce cümledeki öğeleri bul: özne, fiil, zaman, olumsuzluk, kip (must, may, would), niceleyici (few, most) ve bağlaç (although, because).\n\n• Her seçeneği bu öğelerle parça parça karşılaştır. Bir seçenek sözcükleri doğru verse bile zamanı, olumsuzluğu ya da öznesi değişmişse yanlıştır.\n\n• Bağlaçlara dikkat et: although (karşıtlık) ile because (neden) çevirileri birbirine benzeyebilir ama anlamları zıttır.\n\n• Edilgen ve etken yapıyı ayır: The results were announced by the committee cümlesinde açıklayan komitedir.\n\n• few ile a few farkı: Few of the workers had received training, «birkaçı» değil «çok azı» demektir.\n\nEn sık düşülen tuzak: sözcüklerin doğru görünmesiyle yetinmek. Anlamı çeviren tek bir öğe (zaman, olumsuzluk, özne) değişmişse seçenek yanlıştır.\n\nÖrnek: «She has never visited the museum» cümlesinde «hiç» olumsuzluğu ve «has visited» geniş anlamı birlikte korunmalıdır."
+      "explanationTR": "Çeviri sorusunda doğru şık, cümlenin BÜTÜN öğelerini korur; yanlış şıklar çoğu zaman yalnızca tek bir öğeyi değiştirir.\n\n• Önce cümledeki öğeleri bul: özne, fiil, zaman, olumsuzluk, kip (must, may, would), niceleyici (few, most) ve bağlaç (although, because).\n\n• Her seçeneği bu öğelerle parça parça karşılaştır. Bir seçenek sözcükleri doğru verse bile zamanı, olumsuzluğu ya da öznesi değişmişse yanlıştır.\n\n• Bağlaçlara dikkat et: although (karşıtlık) ile because (neden) çevirileri birbirine benzeyebilir ama anlamları zıttır.\n\n• Edilgen ve etken yapıyı ayır: The results were announced by the committee cümlesinde açıklayan komitedir.\n\n• few ile a few farkı: Few of the workers had received training, «birkaçı» değil «çok azı» demektir.\n\nEn sık düşülen tuzak: sözcüklerin doğru görünmesiyle yetinmek. Anlamı çeviren tek bir öğe (zaman, olumsuzluk, özne) değişmişse seçenek yanlıştır.\n\nÖrnek: «She has never visited the museum» cümlesinde «never» olumsuzluğu ile present perfect'in «şimdiye kadar» anlamı birlikte korunmalıdır."
     }
   ],
   "questions": [
@@ -25,13 +25,13 @@
       "prompt": "Bir çeviri seçeneğindeki sözcükler doğru görünüyorsa ne yapmalısın?",
       "options": [
         "Hemen seçmeliyim, çünkü sözcükler doğrudur",
-        "Yalnızca en uzun görünen seçeneği seçmeliyim",
+        "Türkçesi en akıcı ve en doğal okunan seçeneği seçmeliyim",
         "Yalnızca cümlenin sonundaki sözcüğe bakmalıyım",
         "Bağlaçları ve zamanı tamamen yok saymalıyım",
         "Zaman, olumsuzluk ve özneyi de kontrol etmeliyim"
       ],
       "correctIndex": 4,
-      "explanationTR": "Yanlış şıklar çoğunlukla tek bir öğeyi değiştirir: (E). (A) sözcük doğruluğu yetmez. (B) uzunluk ölçüt değildir. (C) tek sözcük cümlenin anlamını belirlemez. (D) bağlaçlar anlamı belirleyen öğelerdir.",
+      "explanationTR": "Yanlış şıklar çoğunlukla tek bir öğeyi değiştirir: (E). (A) sözcük doğruluğu yetmez. (B) akıcılık doğruluk demek değildir; akıcı bir çeviri zamanı ya da özneyi değiştirmiş olabilir. (C) tek sözcük cümlenin anlamını belirlemez. (D) bağlaçlar anlamı belirleyen öğelerdir.",
       "passageID": null
     },
     {
@@ -40,14 +40,14 @@
       "order": 1,
       "prompt": "She has never visited the museum.",
       "options": [
-        "Müzeyi şimdiye kadar hiç ziyaret etmedi.",
         "Müzeyi her zaman ziyaret eder.",
+        "Müzeyi şimdiye kadar hiç ziyaret etmedi.",
         "Müzeyi dün ziyaret etti.",
         "Müzeyi ziyaret etmeyi planlıyor.",
-        "Müzeyi ziyaret etmemesi gerekiyor."
+        "Müzeyi bundan sonra ziyaret etmemesi gerekiyor."
       ],
-      "correctIndex": 0,
-      "explanationTR": "«Has never visited» geçmişten bugüne hiç yapılmamış bir eylemdir: (A). (B) geniş zaman ve olumlu bir alışkanlık verir. (C) belirli bir geçmiş zaman ekler. (D) planı anlatır. (E) kip fiili ekler.",
+      "correctIndex": 1,
+      "explanationTR": "«Has never visited» geçmişten bugüne hiç yapılmamış bir eylemdir: (B). (A) geniş zaman ve olumlu bir alışkanlık verir. (C) belirli bir geçmiş zaman ekler. (D) planı anlatır. (E) kip fiili ekler ve cümleyi geleceğe taşır.",
       "passageID": null
     },
     {
@@ -108,7 +108,7 @@
         "İstifa ettiği için terfi teklif edildi.",
         "Terfi teklif edilirse istifa edecek.",
         "Terfi teklif edilmiş olmasına rağmen istifa etti.",
-        "Terfi teklif edilmediği halde istifa etti."
+        "Terfi teklif edilmediği halde görevinden istifa etti."
       ],
       "correctIndex": 3,
       "explanationTR": "«Even though» karşıtlık kurar: teklif edilmesine rağmen istifa etti: (D). (A) karşıtlığı neden bağıntısına çevirir. (B) neden ile sonucu yer değiştirir. (C) koşullu ve gelecek zamanlı yapar. (E) teklifin yapılmadığını söyler.",

@@ -13549,13 +13549,13 @@
               "prompt": "Bir seçenek gerçek hayatta doğru olsa da metinde hiç geçmiyorsa, okuma sorusunda ne yapmalısın?",
               "options": [
                 "Seçmeliyim, çünkü doğru bilgi her zaman doğru şıktır",
-                "Elemeliyim, çünkü doğru şık metindeki bilgiye dayanmalı",
-                "Yalnızca uzun ise seçmeliyim",
+                "Elemeliyim; doğru şık metne dayanmalıdır",
+                "Yazarın söylemek isteyebileceği bir şeyse seçmeliyim",
                 "Metindeki sözcükleri içeriyorsa seçmeliyim",
-                "Diğer seçenekler zayıfsa seçmeliyim"
+                "Metinde açıkça yalanlanmadıysa seçmeliyim"
               ],
               "correctIndex": 1,
-              "explanationTR": "Okuma sorusu METNE göre cevaplanır: (B). (A) genel doğruyu metinden üstün tutar. (C) ve (D) ile (E) şık uzunluğu, sözcük tekrarı ya da zayıf rakip gibi metin dışı ölçütlere dayanır.",
+              "explanationTR": "Okuma sorusu METNE göre cevaplanır: (B). (A) genel doğruyu metinden üstün tutar. (C) yazarın niyetini tahmin etmek metindeki bilginin yerini tutmaz. (D) ortak sözcük, bilginin metinde verildiği anlamına gelmez. (E) yalanlanmamış olmak desteklenmiş olmak değildir.",
               "passageID": null
             },
             {
@@ -13580,14 +13580,14 @@
               "order": 5,
               "prompt": "«It can be inferred from the passage that ...» türü bir soruda doğru şık hangisidir?",
               "options": [
-                "Metinden mantıken çıkan ama yazılmamış şık",
                 "Metinden sözcüğü sözcüğüne alınmış şık",
-                "Metinle açıkça çelişmeyen her mümkün şık",
+                "Metinle açıkça çelişmeyen, mümkün görünen her şık",
                 "Genel kültüre ve gerçek hayata uyan şık",
+                "Metinden mantıken çıkan ama yazılmamış şık",
                 "En uzun ve en ayrıntılı görünen şık"
               ],
-              "correctIndex": 0,
-              "explanationTR": "Çıkarım (inference), metindeki bilgiden zorunlu olarak sonuç çıkarmaktır: (A). (B) ayrıntı sorusunun cevabıdır. (C) çok geniştir; çelişmeyen ama desteklenmeyen şık yanlıştır. (D) ve (E) metin dışı ölçütlerdir.",
+              "correctIndex": 3,
+              "explanationTR": "Çıkarım (inference), metindeki bilgiden zorunlu olarak sonuç çıkarmaktır: (D). (A) sözcüğü sözcüğüne alıntı, ayrıntı sorusunun cevabıdır. (B) çok geniştir; çelişmeyen ama desteklenmeyen şık yanlıştır. (C) genel kültür metnin yerini tutmaz. (E) uzunluk bir doğruluk ölçütü değildir.",
               "passageID": null
             }
           ]
@@ -13609,7 +13609,7 @@
               "exampleSentences": [],
               "translationTR": "Strateji: Cloze Testi",
               "collocations": [],
-              "explanationTR": "Cloze testinde her boşluk bir CÜMLENİN parçasıdır; doğru cevap boşluğun çevresindeki dil bilgisi ve mantık ilişkisinden çıkar.\n\n• Önce boşluğun bulunduğu cümlenin tamamını, sonra öncesindeki ve sonrasındaki cümleyi oku. Tek kelimeye bakarak karar verme.\n\n• Boşluğun türünü belirle: bağlaç mı (although, because), edat mı (dependent on), ilgi zamiri mi (whose, which), fiil biçimi mi (had passed), niceleyici mi (much, many), yoksa sözcük mü (pose a threat)?\n\n• Her seçeneği cümlede dene; hem gramerle hem anlamla uyuşan tek seçenek kalana kadar ele. Bağlaçlarda cümlenin iki yarısı arasındaki ilişkiye (karşıtlık, neden, sonuç, koşul) bak.\n\n• Kalıp ifadelere (pose a threat, depend on, lead to) güven: doğru kalıp çoğu zaman tek başına cevabı verir.\n\n• Boşluğun iki yanına da bak: fiilin öznesi ile uyumu, sonraki sözcüğün adı mı fiili mi olduğu ipucudur.\n\nEn sık düşülen tuzak: boşluğu yalnızca anlama bakarak doldurmak. Anlamca uyan bir seçenek, edat ya da dil bilgisi kalıbıyla uyuşmuyorsa yanlıştır.\n\nÖrnek: «Many residents are dependent (1) ---- private cars.» cümlesinde «dependent» sözcüğünün kalıbı «on» seçeneğini verir."
+              "explanationTR": "Cloze testinde her boşluk bir CÜMLENİN parçasıdır; doğru cevap boşluğun çevresindeki dil bilgisi ve mantık ilişkisinden çıkar.\n\n• Önce boşluğun bulunduğu cümlenin tamamını, sonra öncesindeki ve sonrasındaki cümleyi oku. Tek kelimeye bakarak karar verme.\n\n• Boşluğun türünü belirle: bağlaç mı (although, because), edat mı (dependent on), ilgi zamiri mi (whose, which), fiil biçimi mi (had passed), niceleyici mi (much, many), yoksa sözcük mü (pose a threat)?\n\n• Her seçeneği cümlede dene; hem gramerle hem anlamla uyuşan tek seçenek kalana kadar ele. Bağlaçlarda cümlenin iki yarısı arasındaki ilişkiye (karşıtlık, neden, sonuç, koşul) bak.\n\n• Kalıp ifadelere (pose a threat, depend on, lead to) güven: doğru kalıp çoğu zaman tek başına cevabı verir.\n\n• Boşluğun iki yanına da bak: fiilin öznesi ile uyumu, sonraki sözcüğün adı mı fiili mi olduğu ipucudur.\n\nEn sık düşülen tuzak: boşluğu yalnızca anlama bakarak doldurmak. Anlamca uyan bir seçenek, edat ya da dil bilgisi kalıbıyla uyuşmuyorsa yanlıştır.\n\nÖrnek: «Many residents are dependent ---- private cars.» cümlesinde «dependent» sözcüğünün kalıbı «on» seçeneğini verir."
             }
           ],
           "questions": [
@@ -13623,33 +13623,33 @@
                 "En kısa görünen bağlacı hemen seçmekle",
                 "Paragrafın ilk cümlesini çevirmekle",
                 "İki yarı arasındaki mantıksal ilişkiyi bulmakla",
-                "Seçenekleri alfabetik sıraya dizmekle"
+                "Türkçe karşılığı en tanıdık gelen bağlacı seçmekle"
               ],
               "correctIndex": 3,
-              "explanationTR": "Bağlaç, cümlenin iki yarısı arasındaki ilişkiyi (karşıtlık, neden, koşul, sonuç) kurar: (D). (A) tek sözcük ilişkiyi göstermez. (B) ve (C) ve (E) mantıkla ilgisiz ölçütlerdir.",
+              "explanationTR": "Bağlaç, cümlenin iki yarısı arasındaki ilişkiyi (karşıtlık, neden, koşul, sonuç) kurar: (D). (A) tek sözcüğe bakmak ilişkiyi göstermez. (B) uzunluk bir anlam ölçütü değildir. (C) ilk cümle, boşluğun bulunduğu cümlenin iç ilişkisini vermez. (E) tanıdık gelen bağlaç çoğu zaman tuzaktır; ilişkiyi kuran bağlaç doğrudur.",
               "passageID": null
             },
             {
               "id": "yds-tech-cloze-q02",
               "kind": "strategy",
               "order": 1,
-              "prompt": "Cities are growing fast; (2) ----, public transport has not kept pace.",
+              "prompt": "Cities are growing fast; ----, public transport has not kept pace.",
               "options": [
-                "however",
                 "therefore",
                 "moreover",
                 "for example",
+                "however",
                 "similarly"
               ],
-              "correctIndex": 0,
-              "explanationTR": "Şehirlerin hızlı büyümesi ile ulaşımın geri kalması arasında KARŞITLIK vardır: (A). (B) sonuç bildirir. (C) ek bir bilgi ekler. (D) örnek verir. (E) benzerlik kurar.",
+              "correctIndex": 3,
+              "explanationTR": "Şehirlerin hızlı büyümesi ile ulaşımın geri kalması arasında KARŞITLIK vardır: (D). (A) therefore sonuç bildirir. (B) moreover ek bir bilgi ekler. (C) for example örnek verir. (E) similarly benzerlik kurar.",
               "passageID": null
             },
             {
               "id": "yds-tech-cloze-q03",
               "kind": "strategy",
               "order": 2,
-              "prompt": "Many residents are now dependent (3) ---- private cars.",
+              "prompt": "Many residents are now dependent ---- private cars.",
               "options": [
                 "of",
                 "to",
@@ -13665,7 +13665,7 @@
               "id": "yds-tech-cloze-q04",
               "kind": "strategy",
               "order": 3,
-              "prompt": "By the time the programme ended, most pupils (4) ---- their first language exam.",
+              "prompt": "By the time the programme ended, most pupils ---- their first language exam.",
               "options": [
                 "passed",
                 "pass",
@@ -13681,7 +13681,7 @@
               "id": "yds-tech-cloze-q05",
               "kind": "strategy",
               "order": 4,
-              "prompt": "The committee, (5) ---- members were elected last year, meets monthly.",
+              "prompt": "The committee, ---- members were elected last year, meets monthly.",
               "options": [
                 "which",
                 "whose",
@@ -13697,7 +13697,7 @@
               "id": "yds-tech-cloze-q06",
               "kind": "strategy",
               "order": 5,
-              "prompt": "Rising sea levels (6) ---- a serious threat to coastal cities.",
+              "prompt": "Rising sea levels ---- a serious threat to coastal cities.",
               "options": [
                 "pose",
                 "make",
@@ -13706,7 +13706,7 @@
                 "do"
               ],
               "correctIndex": 0,
-              "explanationTR": "«Pose a threat» sabit bir kalıptır (= tehdit oluşturmak): (A). (B) make, (C) give, (D) take ve (E) do «threat» ile bu kalıbı kurmaz.",
+              "explanationTR": "«Pose a threat» sabit bir kalıptır (= tehdit oluşturmak): (A). (B) «make a threat» sözlü tehditte bulunmak demektir; yükselen deniz seviyesi için kullanılmaz. (C) give, (D) take ve (E) do «threat» ile bu kalıbı kurmaz.",
               "passageID": null
             }
           ]
@@ -13728,7 +13728,7 @@
               "exampleSentences": [],
               "translationTR": "Strateji: Cümle Tamamlama",
               "collocations": [],
-              "explanationTR": "Cümle tamamlamada doğru seçenek, kökteki BAĞLAÇ ya da bağlayıcının kurduğu mantıksal ilişkiyi ve dil bilgisini birlikte karşılar.\n\n• Kökteki ilişkiyi bul: because / since (neden), so ... that (sonuç), although / whereas (karşıtlık), unless / provided (koşul), so that (amaç), until / by the time (zaman).\n\n• Seçeneği köke bağlayıp cümleyi baştan sona oku: tek bir doğal cümle çıkmalı; özne, zaman ve anlam uyuşmalı.\n\n• Kökü tekrarlayan ya da çelişen seçenekleri ele: Although the drug passed every test, ---- cümlesinde «ilaç her testi geçti» bilgisini tekrar eden şık karşıtlık kurmaz.\n\n• Paralellik ararsan yapı ipucudur: not only inexpensive but also ---- boşluğuna sıfat gelir.\n\n• Zaman uyumuna bak: By the time the guests arrived, the chef ---- cümlesi past perfect ister.\n\nEn sık düşülen tuzak: yalnızca anlamı ilginç görünen seçeneği seçmek. Ana cümlenin zamanı ya da bağlacın ilişkisi uyuşmuyorsa seçenek yanlıştır.\n\nÖrnek: Unless the government acts quickly, unemployment is likely to rise further."
+              "explanationTR": "Cümle tamamlamada doğru seçenek, kökteki BAĞLAÇ ya da bağlayıcının kurduğu mantıksal ilişkiyi ve dil bilgisini birlikte karşılar.\n\n• Kökteki ilişkiyi bul: because / since (neden), so ... that (sonuç), although / whereas (karşıtlık), unless / provided (koşul), so that (amaç), until / by the time (zaman).\n\n• Seçeneği köke bağlayıp cümleyi baştan sona oku: tek bir doğal cümle çıkmalı; özne, zaman ve anlam uyuşmalı.\n\n• Kökü tekrarlayan ya da çelişen seçenekleri ele: Although the drug passed every test, ---- cümlesinde «ilaç her testi geçti» bilgisini tekrar eden şık karşıtlık kurmaz.\n\n• Paralel yapıyı ara: not only inexpensive but also ---- boşluğuna, inexpensive ile aynı türden bir sıfat gelir.\n\n• Zaman uyumuna bak: By the time the guests arrived, the chef ---- cümlesi past perfect ister.\n\nEn sık düşülen tuzak: yalnızca anlamı ilginç görünen seçeneği seçmek. Ana cümlenin zamanı ya da bağlacın ilişkisi uyuşmuyorsa seçenek yanlıştır.\n\nÖrnek: Unless the government acts quickly, unemployment is likely to rise further."
             }
           ],
           "questions": [
@@ -13738,14 +13738,14 @@
               "order": 0,
               "prompt": "Cümle tamamlama sorusunda kökteki bağlacı gördükten sonraki en doğru adım hangisidir?",
               "options": [
-                "Cümlede geçen en uzun sözcüğü seçenekte aramak",
+                "Ana cümlenin öznesiyle aynı özneyi taşıyan seçeneği seçmek",
                 "Bağlacın kurduğu ilişkiyi belirleyip seçenekleri elemek",
                 "Her zaman en genel görünen seçeneği seçmek",
                 "Seçenekleri okumadan yalnızca bağlacı çevirmek",
                 "Ana cümlenin zamanını ve öznesini yok saymak"
               ],
               "correctIndex": 1,
-              "explanationTR": "İlişkiyi belirlemek, seçenekleri mantıkla elemeni sağlar: (B). (A) sözcük uzunluğu ilişki kurmaz. (C) genellik ölçüt değildir. (D) seçeneklere bakmadan karar vermek yanlıştır. (E) zaman uyumu cevabın parçasıdır.",
+              "explanationTR": "İlişkiyi belirlemek, seçenekleri mantıkla elemeni sağlar: (B). (A) ortak özne tek başına mantıksal ilişkiyi kurmaz. (C) genellik bir ölçüt değildir. (D) seçeneklere bakmadan karar vermek yanlıştır. (E) zaman uyumu cevabın parçasıdır, yok sayılamaz.",
               "passageID": null
             },
             {
@@ -13761,7 +13761,7 @@
                 "several customers ordered more goods than usual"
               ],
               "correctIndex": 0,
-              "explanationTR": "«Because» bir neden bildirir; sonuç, taşkının doğal etkisidir: (A). (B) tersine erken teslimat söyler. (C) ve (D) ile (E) nedenle mantıksal bağı olmayan ifadelerdir.",
+              "explanationTR": "«Because» bir neden bildirir; sonuç, taşkının doğal etkisidir: (A). (B) tersine erken teslimat söyler. (C) taşkından önceki bir bilgi verir, sonucunu değil. (D) geçen yıla ait, taşkınla bağı olmayan bir olaydır. (E) sipariş artışı taşkının sonucu değildir.",
               "passageID": null
             },
             {
@@ -13847,7 +13847,7 @@
               "exampleSentences": [],
               "translationTR": "Strateji: Çeviri Soruları",
               "collocations": [],
-              "explanationTR": "Çeviri sorusunda doğru şık, cümlenin BÜTÜN öğelerini korur; yanlış şıklar çoğu zaman yalnızca tek bir öğeyi değiştirir.\n\n• Önce cümledeki öğeleri bul: özne, fiil, zaman, olumsuzluk, kip (must, may, would), niceleyici (few, most) ve bağlaç (although, because).\n\n• Her seçeneği bu öğelerle parça parça karşılaştır. Bir seçenek sözcükleri doğru verse bile zamanı, olumsuzluğu ya da öznesi değişmişse yanlıştır.\n\n• Bağlaçlara dikkat et: although (karşıtlık) ile because (neden) çevirileri birbirine benzeyebilir ama anlamları zıttır.\n\n• Edilgen ve etken yapıyı ayır: The results were announced by the committee cümlesinde açıklayan komitedir.\n\n• few ile a few farkı: Few of the workers had received training, «birkaçı» değil «çok azı» demektir.\n\nEn sık düşülen tuzak: sözcüklerin doğru görünmesiyle yetinmek. Anlamı çeviren tek bir öğe (zaman, olumsuzluk, özne) değişmişse seçenek yanlıştır.\n\nÖrnek: «She has never visited the museum» cümlesinde «hiç» olumsuzluğu ve «has visited» geniş anlamı birlikte korunmalıdır."
+              "explanationTR": "Çeviri sorusunda doğru şık, cümlenin BÜTÜN öğelerini korur; yanlış şıklar çoğu zaman yalnızca tek bir öğeyi değiştirir.\n\n• Önce cümledeki öğeleri bul: özne, fiil, zaman, olumsuzluk, kip (must, may, would), niceleyici (few, most) ve bağlaç (although, because).\n\n• Her seçeneği bu öğelerle parça parça karşılaştır. Bir seçenek sözcükleri doğru verse bile zamanı, olumsuzluğu ya da öznesi değişmişse yanlıştır.\n\n• Bağlaçlara dikkat et: although (karşıtlık) ile because (neden) çevirileri birbirine benzeyebilir ama anlamları zıttır.\n\n• Edilgen ve etken yapıyı ayır: The results were announced by the committee cümlesinde açıklayan komitedir.\n\n• few ile a few farkı: Few of the workers had received training, «birkaçı» değil «çok azı» demektir.\n\nEn sık düşülen tuzak: sözcüklerin doğru görünmesiyle yetinmek. Anlamı çeviren tek bir öğe (zaman, olumsuzluk, özne) değişmişse seçenek yanlıştır.\n\nÖrnek: «She has never visited the museum» cümlesinde «never» olumsuzluğu ile present perfect'in «şimdiye kadar» anlamı birlikte korunmalıdır."
             }
           ],
           "questions": [
@@ -13858,13 +13858,13 @@
               "prompt": "Bir çeviri seçeneğindeki sözcükler doğru görünüyorsa ne yapmalısın?",
               "options": [
                 "Hemen seçmeliyim, çünkü sözcükler doğrudur",
-                "Yalnızca en uzun görünen seçeneği seçmeliyim",
+                "Türkçesi en akıcı ve en doğal okunan seçeneği seçmeliyim",
                 "Yalnızca cümlenin sonundaki sözcüğe bakmalıyım",
                 "Bağlaçları ve zamanı tamamen yok saymalıyım",
                 "Zaman, olumsuzluk ve özneyi de kontrol etmeliyim"
               ],
               "correctIndex": 4,
-              "explanationTR": "Yanlış şıklar çoğunlukla tek bir öğeyi değiştirir: (E). (A) sözcük doğruluğu yetmez. (B) uzunluk ölçüt değildir. (C) tek sözcük cümlenin anlamını belirlemez. (D) bağlaçlar anlamı belirleyen öğelerdir.",
+              "explanationTR": "Yanlış şıklar çoğunlukla tek bir öğeyi değiştirir: (E). (A) sözcük doğruluğu yetmez. (B) akıcılık doğruluk demek değildir; akıcı bir çeviri zamanı ya da özneyi değiştirmiş olabilir. (C) tek sözcük cümlenin anlamını belirlemez. (D) bağlaçlar anlamı belirleyen öğelerdir.",
               "passageID": null
             },
             {
@@ -13873,14 +13873,14 @@
               "order": 1,
               "prompt": "She has never visited the museum.",
               "options": [
-                "Müzeyi şimdiye kadar hiç ziyaret etmedi.",
                 "Müzeyi her zaman ziyaret eder.",
+                "Müzeyi şimdiye kadar hiç ziyaret etmedi.",
                 "Müzeyi dün ziyaret etti.",
                 "Müzeyi ziyaret etmeyi planlıyor.",
-                "Müzeyi ziyaret etmemesi gerekiyor."
+                "Müzeyi bundan sonra ziyaret etmemesi gerekiyor."
               ],
-              "correctIndex": 0,
-              "explanationTR": "«Has never visited» geçmişten bugüne hiç yapılmamış bir eylemdir: (A). (B) geniş zaman ve olumlu bir alışkanlık verir. (C) belirli bir geçmiş zaman ekler. (D) planı anlatır. (E) kip fiili ekler.",
+              "correctIndex": 1,
+              "explanationTR": "«Has never visited» geçmişten bugüne hiç yapılmamış bir eylemdir: (B). (A) geniş zaman ve olumlu bir alışkanlık verir. (C) belirli bir geçmiş zaman ekler. (D) planı anlatır. (E) kip fiili ekler ve cümleyi geleceğe taşır.",
               "passageID": null
             },
             {
@@ -13941,7 +13941,7 @@
                 "İstifa ettiği için terfi teklif edildi.",
                 "Terfi teklif edilirse istifa edecek.",
                 "Terfi teklif edilmiş olmasına rağmen istifa etti.",
-                "Terfi teklif edilmediği halde istifa etti."
+                "Terfi teklif edilmediği halde görevinden istifa etti."
               ],
               "correctIndex": 3,
               "explanationTR": "«Even though» karşıtlık kurar: teklif edilmesine rağmen istifa etti: (D). (A) karşıtlığı neden bağıntısına çevirir. (B) neden ile sonucu yer değiştirir. (C) koşullu ve gelecek zamanlı yapar. (E) teklifin yapılmadığını söyler.",
@@ -13992,14 +13992,14 @@
               "order": 1,
               "prompt": "The store cut its prices in March. ---- As a result, sales doubled within a month.",
               "options": [
-                "The cheaper prices attracted many new customers.",
                 "Prices in other industries fell more slowly.",
                 "The store closed for repairs in April.",
+                "The cheaper prices attracted many new customers.",
                 "Many customers complained about the quality of the goods.",
                 "The store had opened only a year earlier."
               ],
-              "correctIndex": 0,
-              "explanationTR": "«As a result» bir sonuç bildirir; boşluk, fiyat indiriminin satışı artıran etkisini vermelidir: (A). (B) diğer sektörlere kayar. (C) kapanış bilgisi bağlanmaz. (D) şikâyet, satış artışıyla çelişir. (E) açılış zamanı ilgisizdir.",
+              "correctIndex": 2,
+              "explanationTR": "«As a result» bir sonuç bildirir; boşluk, fiyat indiriminin satışı artıran etkisini vermelidir: (C). (A) diğer sektörlere kayar. (B) kapanış bilgisi satış artışına bağlanmaz. (D) şikâyet, satış artışıyla çelişir. (E) açılış zamanı ilgisizdir.",
               "passageID": null
             },
             {
@@ -14008,14 +14008,14 @@
               "order": 2,
               "prompt": "Several countries have banned plastic bags. ---- This has cut litter on beaches noticeably.",
               "options": [
-                "Tourists visit beaches mainly in the summer months.",
+                "Tourists visit the beaches of those countries mainly in the summer.",
                 "Plastic was invented in the nineteenth century.",
                 "Beaches are cleaned only once a year.",
                 "Shoppers in those countries now carry reusable bags instead.",
                 "Litter is a problem in every large city."
               ],
               "correctIndex": 3,
-              "explanationTR": "«This» sözcüğü bir önceki bilgiye gönderme yapar; boşluk, yasağın sonucunu (yeniden kullanılabilir çantalar) vermelidir: (D). (A) ve (B) ile (C) ve (E) «This»in gönderme yapacağı bir bilgi içermez.",
+              "explanationTR": "«This» sözcüğü bir önceki bilgiye gönderme yapar; boşluk, yasağın sonucunu (yeniden kullanılabilir çantalar) vermelidir: (D). (A) turizm mevsimine kayar ve çöpteki azalmayı açıklamaz. (B) plastiğin tarihi zincire girmez. (C) temizlik sıklığı yasağın bir sonucu değildir. (E) genel bir çöp saptamasıdır; «This» buna bağlanamaz.",
               "passageID": null
             },
             {
@@ -14024,14 +14024,14 @@
               "order": 3,
               "prompt": "Boşluktan sonraki cümle «However,» ile başlıyorsa eksik cümle hakkında ne söyleyebilirsin?",
               "options": [
-                "Boşluktaki cümle sonrakiyle aynı fikri tekrar etmelidir",
-                "Boşluktaki cümle bir soru olmalıdır",
-                "Boşluktaki cümle sayı içermelidir",
-                "Boşluktaki cümle en kısa seçenek olmalıdır",
+                "Boşluktaki cümle sonraki cümleyle tam olarak aynı fikri tekrar etmelidir",
+                "Boşluktaki cümle de «However» ile başlamalıdır",
+                "Boşluktaki cümle sonraki cümlenin sonucunu vermelidir",
+                "Boşluktaki cümle paragrafın konu cümlesi olmalıdır",
                 "Boşluktaki cümle, sonrakinin karşı çıkacağı bir fikri vermelidir"
               ],
               "correctIndex": 4,
-              "explanationTR": "«However» bir karşıtlık işaretidir: önceki fikir, sonrakiyle karşıtlık kurabilecek nitelikte olmalıdır: (E). (A) tekrar, karşıtlıkla çelişir. (B) ve (C) ile (D) biçimsel, anlamla ilgisiz ölçütlerdir.",
+              "explanationTR": "«However» bir karşıtlık işaretidir: önceki fikir, sonrakiyle karşıtlık kurabilecek nitelikte olmalıdır: (E). (A) tekrar, karşıtlıkla çelişir. (B) karşıtlığı kuran sonraki cümledir; boşluğun kendisinin bağlaçla başlaması gerekmez. (C) «However» sonuç değil karşıtlık işaretidir. (D) konu cümlesi olmak boşluk için bir koşul değildir.",
               "passageID": null
             },
             {
@@ -14047,7 +14047,7 @@
                 "Water is also essential for growing most crops."
               ],
               "correctIndex": 0,
-              "explanationTR": "Kapanış cümlesi, öncekilerin sonucunu genellemelidir: suya erişim şehirlerin yerini belirledi: (A). (B) ayrıntı ekler ama sonuç değildir. (C) ve (D) ile (E) zincire bağlanmayan ilgisiz bilgilerdir.",
+              "explanationTR": "Kapanış cümlesi, öncekilerin sonucunu genellemelidir: suya erişim şehirlerin yerini belirledi: (A). (B) ayrıntı ekler ama sonuç değildir. (C) nehirlerin bugünkü uzunluğu zincire bağlanmaz. (D) modern şehirler paragrafın konusu değildir. (E) konuyu tarıma kaydırır.",
               "passageID": null
             },
             {
@@ -14058,12 +14058,12 @@
               "options": [
                 "Seçmeliyim, çünkü konuyla ilgili",
                 "Elemeliyim; eksik cümle hem öncekine hem sonrakine bağlanmalı",
-                "Yalnızca uzun ise seçmeliyim",
+                "Paragrafın ana fikrini yeniden ifade ediyorsa seçmeliyim",
                 "Paragrafın son cümlesini tekrar ediyorsa seçmeliyim",
-                "Diğer seçenekler zayıfsa seçmeliyim"
+                "Yalnızca öncekine bağlanıyorsa, sonrakine bakmadan seçmeliyim"
               ],
               "correctIndex": 1,
-              "explanationTR": "Konu benzerliği yetmez; zincirin halkası olmalıdır: (B). (A) yalnızca konuya güvenir. (C) ve (D) ile (E) şık uzunluğu, tekrar ya da zayıf rakip gibi ölçütlere dayanır.",
+              "explanationTR": "Konu benzerliği yetmez; zincirin halkası olmalıdır: (B). (A) yalnızca konuya güvenir. (C) ana fikri yeniden söylemek zincire yeni bir halka eklemez. (D) tekrar eden cümle paragrafı ilerletmez. (E) tek yönlü bağ yetmez; eksik cümle hem öncekine hem sonrakine bağlanmalıdır.",
               "passageID": null
             }
           ]
@@ -14099,10 +14099,10 @@
                 "Her cümlenin ilk sözcüğünü karşılaştırmak",
                 "Yalnızca en kısa cümleyi işaretlemek",
                 "Yalnızca son cümleyi ayrıntılı incelemek",
-                "Cümle numaralarına göre tahmin yürütmek"
+                "En fazla teknik ayrıntı veren cümleyi işaretlemek"
               ],
               "correctIndex": 0,
-              "explanationTR": "Paragrafın ne anlattığını bilmeden zinciri bozan cümle bulunamaz: (A). (B) ilk sözcükler zinciri göstermez. (C) uzunluk ölçüt değildir. (D) tek cümle yeterli bilgi vermez. (E) tahmin, mantık yerine geçmez.",
+              "explanationTR": "Paragrafın ne anlattığını bilmeden zinciri bozan cümle bulunamaz: (A). (B) ilk sözcükler zinciri göstermez. (C) uzunluk ölçüt değildir. (D) tek cümle yeterli bilgi vermez. (E) ayrıntı vermek konu dışı olmak demek değildir; ayrıntı da zincire bağlı olabilir.",
               "passageID": null
             },
             {
@@ -14150,7 +14150,7 @@
                 "Cümlenin uzunluğuna bakarak karar vermeliyim"
               ],
               "correctIndex": 1,
-              "explanationTR": "Sözcük tekrarı konu bağı değildir; önemli olan fikirdir: (B). (A) aynı sözcük yanıltıcıdır. (C) ve (D) ile (E) mantıksal bir dayanak sunmaz.",
+              "explanationTR": "Sözcük tekrarı konu bağı değildir; önemli olan fikirdir: (B). (A) aynı sözcük yanıltıcıdır; anlam farklıysa bağ kurulmaz. (C) ortak sözcük bir cümleyi konu cümlesi yapmaz. (D) cümleyi atlamak soruyu çözmez. (E) uzunluk konu bağının ölçütü değildir.",
               "passageID": null
             },
             {
@@ -14178,11 +14178,11 @@
                 "Cümlenin uzunluğunu önceden belirlemesi",
                 "Doğru cevabın numarasını doğrudan vermesi",
                 "Paragrafın konusunu tamamen değiştirmesi",
-                "Cümleleri sayıya çevirip sıralaması",
+                "Hangi cümlenin daha fazla ayrıntı içerdiğini göstermesi",
                 "Cümlenin öncekiyle bağlı olup olmadığını göstermesi"
               ],
               "correctIndex": 4,
-              "explanationTR": "Zamirler ve bağlayıcılar zincirin halkalarını gösterir: (E). (A) uzunlukla ilgili değildir. (B) cevabın numarasını vermez. (C) konuyu değiştirmez, konu bağını gösterir. (D) anlamsız bir işlevdir.",
+              "explanationTR": "Zamirler ve bağlayıcılar zincirin halkalarını gösterir: (E). (A) uzunlukla ilgili değildir. (B) cevabın numarasını vermez. (C) konuyu değiştirmez, konu bağını gösterir. (D) ayrıntı miktarını değil, cümleler arası bağı gösterirler.",
               "passageID": null
             }
           ]
@@ -14269,7 +14269,7 @@
                 "You should stop printing documents altogether."
               ],
               "correctIndex": 2,
-              "explanationTR": "A'nın «that should fix it» sözü, B'nin bir çözüm önerdiğini gösterir: (C). (A) ve (B) ile (D) çözüm sunmaz. (E) çözüm yerine yasak koyar.",
+              "explanationTR": "A'nın «that should fix it» sözü, B'nin bir çözüm önerdiğini gösterir: (C). (A) geçmiş bir fiyat bilgisi verir. (B) konuyu gürültüye kaydırır. (D) sorunu yineler ama çözmez. (E) çözüm yerine baskıcı bir öğüt verir.",
               "passageID": null
             },
             {
@@ -14285,7 +14285,7 @@
                 "Rica başka birine yönlendirilmiş olur"
               ],
               "correctIndex": 3,
-              "explanationTR": "«Would you mind ...?» sorusunda «Yes» yanıtı, kişinin bunu YAPMAKTAN rahatsız olacağını gösterir: (D). (A) tersini söyler. (B) ve (C) ile (E) yanıtın işleviyle ilgisiz yorumlardır.",
+              "explanationTR": "«Would you mind ...?» sorusunda «Yes» yanıtı, kişinin bunu YAPMAKTAN rahatsız olacağını gösterir: (D). (A) tersini söyler; kabul «No, not at all» ile verilir. (B) erteleme anlamı «Yes, I would» yanıtında yoktur. (C) anlaşılmama «Sorry?» gibi bir soruyla belirtilir. (E) yönlendirme yanıtın işlevinde yoktur.",
               "passageID": null
             },
             {
@@ -14294,14 +14294,14 @@
               "order": 5,
               "prompt": "Customer: Could I speak to the manager, please?\nAssistant: ----\nCustomer: Certainly, I'll wait here.",
               "options": [
-                "One moment, please; I'll see whether she is available.",
                 "The manager doesn't speak to customers.",
                 "You may not speak to anyone here.",
+                "One moment, please; I'll check if she is free.",
                 "I am the manager, and I am busy today.",
                 "Which manager would you like to complain about?"
               ],
-              "correctIndex": 0,
-              "explanationTR": "Müşteri «Certainly, I'll wait here» diyerek bekleyeceğini söylüyor; bu, asistanın kibar bir bekleme isteğinde bulunduğunu gösterir: (A). (B) ve (C) ise reddeder. (D) «I am the manager» ile önceki isteği anlamsız kılar. (E) konuşmayı gereksiz yere gerginleştirir.",
+              "correctIndex": 2,
+              "explanationTR": "Müşteri «Certainly, I'll wait here» diyerek bekleyeceğini söylüyor; bu, asistanın kibar bir bekleme isteğinde bulunduğunu gösterir: (C). (A) ve (B) isteği reddeder; reddedilen biri beklemez. (D) «I am the manager» ile önceki isteği anlamsız kılar. (E) şikâyet varsayar ve beklemeyi gerektirmez.",
               "passageID": null
             }
           ]
@@ -14337,10 +14337,10 @@
                 "Yalnızca en kısa görünen seçeneği seçmeliyim",
                 "İlişkinin ve zamanın korunup korunmadığına bakmalıyım",
                 "Yalnızca cümlenin ilk sözcüğüne bakmalıyım",
-                "Seçeneği hiç okumadan bir sonrakine geçmeliyim"
+                "Kökteki sözcüklerin kaçının seçenekte geçtiğini saymalıyım"
               ],
               "correctIndex": 2,
-              "explanationTR": "Sözcük benzerliği yanıltıcıdır; anlamı belirleyen ilişki ve kapsamdır: (C). (A) tuzağa düşürür. (B) uzunluk ölçüt değildir. (D) ilk sözcük anlamı belirlemez. (E) okumadan karar vermek yanlıştır.",
+              "explanationTR": "Sözcük benzerliği yanıltıcıdır; anlamı belirleyen ilişki ve kapsamdır: (C). (A) tam da bu tuzağa düşürür. (B) uzunluk bir anlam ölçütü değildir. (D) ilk sözcük anlamı belirlemez. (E) ortak sözcük saymak ilişkinin korunduğunu göstermez.",
               "passageID": null
             },
             {
@@ -14397,7 +14397,7 @@
               "order": 4,
               "prompt": "You needn't bring a gift.",
               "options": [
-                "You must not bring a gift.",
+                "You must not bring a gift under any circumstances.",
                 "It is not necessary for you to bring a gift.",
                 "You are not allowed to bring a gift.",
                 "You should bring a gift.",
@@ -14413,14 +14413,14 @@
               "order": 5,
               "prompt": "Bir yeniden ifade seçeneği kökle aynı sözcükleri kullanıp zamanı değiştiriyorsa ne yapmalısın?",
               "options": [
-                "Elemeliyim; zaman değişirse anlam değişir",
                 "Seçmeliyim, çünkü sözcükler aynı",
-                "Yalnızca uzun ise seçmeliyim",
+                "Seçeneğin daha resmî bir dil kullanıp kullanmadığına bakmalıyım",
                 "Zamanı yok sayıp anlama bakmalıyım",
-                "İlk sözcüğü karşılaştırmalıyım"
+                "İlk sözcüğü karşılaştırmalıyım",
+                "Elemeliyim; zaman değişirse anlam değişir"
               ],
-              "correctIndex": 0,
-              "explanationTR": "Zaman anlamın parçasıdır: (A). (B) sözcük benzerliği yeterli değildir. (C) ve (E) şekilsel ölçütlerdir. (D) zamanı yok saymak, anlamı bozar.",
+              "correctIndex": 4,
+              "explanationTR": "Zaman anlamın parçasıdır; değişirse cümle artık aynı şeyi söylemez: (E). (A) sözcük benzerliği yeterli değildir. (B) üslup değil, anlam belirleyicidir. (C) zamanı yok saymak anlamı bozar. (D) ilk sözcüğü karşılaştırmak cümlenin tamamını denetlemez.",
               "passageID": null
             }
           ]
@@ -14452,14 +14452,14 @@
               "order": 0,
               "prompt": "Cümlede bilmediğin bir sözcük varsa doğru anlamı bulmak için ilk hangi ipucuna bakmalısın?",
               "options": [
-                "Sözcüğün kaç harften oluştuğuna",
-                "Sözcüğün hangi harfle başladığına",
-                "Seçeneklerin sıra numarasına göre tahmine",
+                "Sözcüğün Türkçede benzediği bir sözcüğe",
+                "Sözcüğün ilk hecesinin nasıl okunduğuna",
+                "Seçenekler arasında en tanıdık gelen sözcüğün anlamına",
                 "Cümlenin geri kalanındaki bağlam ipuçlarına",
                 "Yalnızca metnin başlığına, cümleyi okumadan"
               ],
               "correctIndex": 3,
-              "explanationTR": "Bağlam, bilinmeyen sözcüğün anlamını çoğu zaman verir: (D). (A) ve (B) ve (C) anlamla ilgisiz biçimsel ölçütlerdir. (E) cümleyi okumadan başlığa güvenmek yeterli bilgi vermez.",
+              "explanationTR": "Bağlam, bilinmeyen sözcüğün anlamını çoğu zaman verir: (D). (A) Türkçeye benzeyen sözcükler çoğu zaman sahte dosttur (sympathetic «sempatik» değildir). (B) okunuş anlam hakkında bilgi vermez. (C) tanıdık gelmek doğru olmak değildir. (E) cümleyi okumadan başlığa güvenmek yeterli bilgi vermez.",
               "passageID": null
             },
             {
@@ -14503,11 +14503,11 @@
                 "make",
                 "impose",
                 "give",
-                "carry",
+                "produce",
                 "hold"
               ],
               "correctIndex": 1,
-              "explanationTR": "«Impose a tax» sabit bir kalıptır (= vergi getirmek): (B). (A) make, (C) give, (D) carry ve (E) hold «tax» ile bu kalıbı kurmaz.",
+              "explanationTR": "«Impose a tax» sabit bir kalıptır (= vergi getirmek): (B). (A) make, (C) give, (D) produce ve (E) hold «tax» ile bu kalıbı kurmaz.",
               "passageID": null
             },
             {
@@ -14523,7 +14523,7 @@
                 "at night"
               ],
               "correctIndex": 4,
-              "explanationTR": "«Such as owls and bats» bir ÖRNEK ipucudur: baykuşlar ve yarasalar geceleri aktiftir; nocturnal = gececil: (E). (A) ve (B) ve (C) örneklerle ilgisizdir. (D) tersini söyler.",
+              "explanationTR": "«Such as owls and bats» bir ÖRNEK ipucudur: baykuşlar ve yarasalar geceleri aktiftir; nocturnal = gececil: (E). (A) mevsim, (B) yaşam alanı ve (C) sayı bildirir; hiçbiri örneklerin verdiği ipucuna bağlanmaz. (D) tam tersini söyler.",
               "passageID": null
             },
             {
@@ -14533,13 +14533,13 @@
               "prompt": "Bir kelime sorusunda iki seçenek anlamca yakın görünüyorsa ne yapmalısın?",
               "options": [
                 "Kalıba ve sözcük türüne bakarak birini elemeliyim",
-                "Şansıma güvenip rastgele birini seçmeliyim",
+                "Cümlede daha sık gördüğüm sözcüğü seçmeliyim",
                 "Sözcük olarak daha uzun olan seçeneği seçmeliyim",
                 "Türkçe karşılığı daha kısa olanı seçmeliyim",
-                "İkisini de yanlış sayıp soruyu boş bırakmalıyım"
+                "Türkçe karşılıkları aynıysa herhangi birini seçmeliyim"
               ],
               "correctIndex": 0,
-              "explanationTR": "Yakın anlamlı seçeneklerden yalnızca biri kalıba ve sözcük türüne uyar: (A). (B) ve (C) ve (D) ölçütsüz seçimlerdir. (E) tek doğru şık zorunludur.",
+              "explanationTR": "Yakın anlamlı seçeneklerden yalnızca biri kalıba ve sözcük türüne uyar: (A). (B) sıklık bir anlam ölçütü değildir. (C) uzunluk bir anlam ölçütü değildir. (D) Türkçe karşılığın kısalığı belirleyici değildir. (E) Türkçesi aynı görünen iki sözcük İngilizcede farklı kalıplarda kullanılır.",
               "passageID": null
             }
           ]
@@ -14561,7 +14561,7 @@
               "exampleSentences": [],
               "translationTR": "Strateji: Gramer Soruları",
               "collocations": [],
-              "explanationTR": "Gramer sorularında ilk iş, cümlede HANGİ NOKTANIN sınandığını belirlemektir; sonra yalnızca o noktaya uyan seçeneği ararsın.\n\n• Seçeneklere bak: hepsi aynı fiilin farklı zamanlarıysa zaman, hepsi edatsa edat, hepsi ilgi zamiriyse ilgi cümleciği sınanıyordur.\n\n• Zaman ipuçlarını kullan: since, for, by the time, yesterday, so far, every year gibi zarflar zamanı belirler.\n\n• Edat ve kalıpları ezberden çıkar: interested in, depend on, result in, comply with.\n\n• Uyum kuralları: neither of + çoğul ad + tekil fiil; the number of + tekil fiil; her cümlede özne-fiil uyumunu kontrol et.\n\n• Koşul cümlelerinde if cümleciği ile ana cümlenin zamanını eşleştir: if she had studied ... would have passed.\n\nEn sık düşülen tuzak: cümleyi anlamına göre tahmin edip sınanan gramer noktasını atlamak. Anlamca uyan iki seçenekten yalnızca biri kurala uyar.\n\nÖrnek: «The company ---- its profits every year since 2015.» cümlesinde «since» present perfect ister."
+              "explanationTR": "Gramer sorularında ilk iş, cümlede HANGİ NOKTANIN sınandığını belirlemektir; sonra yalnızca o noktaya uyan seçeneği ararsın.\n\n• Seçeneklere bak: hepsi aynı fiilin farklı zamanlarıysa zaman, hepsi edatsa edat, hepsi ilgi zamiriyse ilgi cümleciği sınanıyordur.\n\n• Zaman ipuçlarını kullan: since, for, by the time, yesterday, so far, every year gibi zarflar zamanı belirler.\n\n• Edat kalıplarını ezbere bil: interested in, depend on, result in, comply with.\n\n• Uyum kuralları: neither of + çoğul ad + tekil fiil; the number of + tekil fiil; her cümlede özne-fiil uyumunu kontrol et.\n\n• Koşul cümlelerinde if cümleciği ile ana cümlenin zamanını eşleştir: if she had studied ... would have passed.\n\nEn sık düşülen tuzak: cümleyi anlamına göre tahmin edip sınanan gramer noktasını atlamak. Anlamca uyan iki seçenekten yalnızca biri kurala uyar.\n\nÖrnek: «The company ---- its profits every year since 2015.» cümlesinde «since» present perfect ister."
             }
           ],
           "questions": [
@@ -14574,11 +14574,11 @@
                 "En uzun ve en karmaşık fiil biçimini seçmeliyim",
                 "Türkçe karşılığı en yakın olanı seçmeliyim",
                 "Cümledeki zaman ipuçlarını (since, yesterday) bulmalıyım",
-                "Cümleyi hiç okumadan bir sonraki soruya geçmeliyim",
-                "Yalnızca ilk seçeneği işaretleyip ilerlemeliyim"
+                "Yan cümlenin öznesini bulup fiili yalnızca ona göre seçmeliyim",
+                "Sınavda en sık gördüğüm zamanı işaretleyip ilerlemeliyim"
               ],
               "correctIndex": 2,
-              "explanationTR": "Zaman sorusunda zarf ve bağlaç ipuçları zamanı belirler: (C). (A) ve (B) ile (E) biçimsel ya da ölçütsüz seçimlerdir. (D) kuralı görmezden gelir.",
+              "explanationTR": "Zaman sorusunda zarf ve bağlaç ipuçları zamanı belirler: (C). (A) karmaşık biçim doğruluk ölçütü değildir. (B) Türkçe karşılık İngilizce zaman kuralını vermez. (D) özne uyumu kişiyi ve sayıyı belirler, zamanı değil. (E) sıklık tahmini kuralın yerini tutmaz.",
               "passageID": null
             },
             {
@@ -14587,14 +14587,14 @@
               "order": 1,
               "prompt": "The company ---- its profits every year since 2015.",
               "options": [
-                "has increased",
                 "increased",
                 "had increased",
                 "will increase",
-                "is increasing"
+                "is increasing",
+                "has increased"
               ],
-              "correctIndex": 0,
-              "explanationTR": "«Since 2015» geçmişten bugüne uzanan bir süreyi gösterir ve present perfect ister: (A). (B) past simple bitmiş bir zaman ister. (C) past perfect geçmişte bir referans gerektirir. (D) gelecek zamandır. (E) since ile kullanılmaz.",
+              "correctIndex": 4,
+              "explanationTR": "«Since 2015» geçmişten bugüne uzanan bir süreyi gösterir ve present perfect ister: (E). (A) past simple bitmiş bir zaman ister. (B) past perfect geçmişte bir referans gerektirir. (C) gelecek zamandır. (D) present continuous bu «since» kalıbıyla kullanılmaz.",
               "passageID": null
             },
             {
@@ -14626,7 +14626,7 @@
                 "what"
               ],
               "correctIndex": 3,
-              "explanationTR": "Özne konumundaki bir kişiye gönderme yapılır ve fiil hemen ardından gelir: who discovered. (A) whom nesne konumundadır. (B) which cansızlar içindir. (C) whose ardından ad ister. (E) what önceki bir adı niteleyemez.",
+              "explanationTR": "Özne konumundaki bir kişiye gönderme yapılır ve fiil hemen ardından gelir (who discovered): (D). (A) whom nesne konumundadır. (B) which cansızlar içindir. (C) whose ardından ad ister. (E) what önceki bir adı niteleyemez.",
               "passageID": null
             },
             {
@@ -14658,7 +14658,7 @@
                 "were offered"
               ],
               "correctIndex": 0,
-              "explanationTR": "«Neither of + çoğul ad» resmî dilde tekil fiil alır: (A). (B) ve (C) ve (D) çoğul fiillerdir. (E) edilgendir ve anlamı bozar.",
+              "explanationTR": "«Neither of + çoğul ad» resmî dilde tekil fiil alır: (A). (B), (C) ve (D) çoğul fiillerdir. (E) edilgendir ve anlamı bozar: teklifler «sunulmuş» olur.",
               "passageID": null
             }
           ]

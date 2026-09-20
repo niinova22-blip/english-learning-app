@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Strateji: Cümle Tamamlama",
       "collocations": [],
-      "explanationTR": "Cümle tamamlamada doğru seçenek, kökteki BAĞLAÇ ya da bağlayıcının kurduğu mantıksal ilişkiyi ve dil bilgisini birlikte karşılar.\n\n• Kökteki ilişkiyi bul: because / since (neden), so ... that (sonuç), although / whereas (karşıtlık), unless / provided (koşul), so that (amaç), until / by the time (zaman).\n\n• Seçeneği köke bağlayıp cümleyi baştan sona oku: tek bir doğal cümle çıkmalı; özne, zaman ve anlam uyuşmalı.\n\n• Kökü tekrarlayan ya da çelişen seçenekleri ele: Although the drug passed every test, ---- cümlesinde «ilaç her testi geçti» bilgisini tekrar eden şık karşıtlık kurmaz.\n\n• Paralellik ararsan yapı ipucudur: not only inexpensive but also ---- boşluğuna sıfat gelir.\n\n• Zaman uyumuna bak: By the time the guests arrived, the chef ---- cümlesi past perfect ister.\n\nEn sık düşülen tuzak: yalnızca anlamı ilginç görünen seçeneği seçmek. Ana cümlenin zamanı ya da bağlacın ilişkisi uyuşmuyorsa seçenek yanlıştır.\n\nÖrnek: Unless the government acts quickly, unemployment is likely to rise further."
+      "explanationTR": "Cümle tamamlamada doğru seçenek, kökteki BAĞLAÇ ya da bağlayıcının kurduğu mantıksal ilişkiyi ve dil bilgisini birlikte karşılar.\n\n• Kökteki ilişkiyi bul: because / since (neden), so ... that (sonuç), although / whereas (karşıtlık), unless / provided (koşul), so that (amaç), until / by the time (zaman).\n\n• Seçeneği köke bağlayıp cümleyi baştan sona oku: tek bir doğal cümle çıkmalı; özne, zaman ve anlam uyuşmalı.\n\n• Kökü tekrarlayan ya da çelişen seçenekleri ele: Although the drug passed every test, ---- cümlesinde «ilaç her testi geçti» bilgisini tekrar eden şık karşıtlık kurmaz.\n\n• Paralel yapıyı ara: not only inexpensive but also ---- boşluğuna, inexpensive ile aynı türden bir sıfat gelir.\n\n• Zaman uyumuna bak: By the time the guests arrived, the chef ---- cümlesi past perfect ister.\n\nEn sık düşülen tuzak: yalnızca anlamı ilginç görünen seçeneği seçmek. Ana cümlenin zamanı ya da bağlacın ilişkisi uyuşmuyorsa seçenek yanlıştır.\n\nÖrnek: Unless the government acts quickly, unemployment is likely to rise further."
     }
   ],
   "questions": [
@@ -24,14 +24,14 @@
       "order": 0,
       "prompt": "Cümle tamamlama sorusunda kökteki bağlacı gördükten sonraki en doğru adım hangisidir?",
       "options": [
-        "Cümlede geçen en uzun sözcüğü seçenekte aramak",
+        "Ana cümlenin öznesiyle aynı özneyi taşıyan seçeneği seçmek",
         "Bağlacın kurduğu ilişkiyi belirleyip seçenekleri elemek",
         "Her zaman en genel görünen seçeneği seçmek",
         "Seçenekleri okumadan yalnızca bağlacı çevirmek",
         "Ana cümlenin zamanını ve öznesini yok saymak"
       ],
       "correctIndex": 1,
-      "explanationTR": "İlişkiyi belirlemek, seçenekleri mantıkla elemeni sağlar: (B). (A) sözcük uzunluğu ilişki kurmaz. (C) genellik ölçüt değildir. (D) seçeneklere bakmadan karar vermek yanlıştır. (E) zaman uyumu cevabın parçasıdır.",
+      "explanationTR": "İlişkiyi belirlemek, seçenekleri mantıkla elemeni sağlar: (B). (A) ortak özne tek başına mantıksal ilişkiyi kurmaz. (C) genellik bir ölçüt değildir. (D) seçeneklere bakmadan karar vermek yanlıştır. (E) zaman uyumu cevabın parçasıdır, yok sayılamaz.",
       "passageID": null
     },
     {
@@ -47,7 +47,7 @@
         "several customers ordered more goods than usual"
       ],
       "correctIndex": 0,
-      "explanationTR": "«Because» bir neden bildirir; sonuç, taşkının doğal etkisidir: (A). (B) tersine erken teslimat söyler. (C) ve (D) ile (E) nedenle mantıksal bağı olmayan ifadelerdir.",
+      "explanationTR": "«Because» bir neden bildirir; sonuç, taşkının doğal etkisidir: (A). (B) tersine erken teslimat söyler. (C) taşkından önceki bir bilgi verir, sonucunu değil. (D) geçen yıla ait, taşkınla bağı olmayan bir olaydır. (E) sipariş artışı taşkının sonucu değildir.",
       "passageID": null
     },
     {

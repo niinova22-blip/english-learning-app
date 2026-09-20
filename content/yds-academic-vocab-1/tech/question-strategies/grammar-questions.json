@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Strateji: Gramer Soruları",
       "collocations": [],
-      "explanationTR": "Gramer sorularında ilk iş, cümlede HANGİ NOKTANIN sınandığını belirlemektir; sonra yalnızca o noktaya uyan seçeneği ararsın.\n\n• Seçeneklere bak: hepsi aynı fiilin farklı zamanlarıysa zaman, hepsi edatsa edat, hepsi ilgi zamiriyse ilgi cümleciği sınanıyordur.\n\n• Zaman ipuçlarını kullan: since, for, by the time, yesterday, so far, every year gibi zarflar zamanı belirler.\n\n• Edat ve kalıpları ezberden çıkar: interested in, depend on, result in, comply with.\n\n• Uyum kuralları: neither of + çoğul ad + tekil fiil; the number of + tekil fiil; her cümlede özne-fiil uyumunu kontrol et.\n\n• Koşul cümlelerinde if cümleciği ile ana cümlenin zamanını eşleştir: if she had studied ... would have passed.\n\nEn sık düşülen tuzak: cümleyi anlamına göre tahmin edip sınanan gramer noktasını atlamak. Anlamca uyan iki seçenekten yalnızca biri kurala uyar.\n\nÖrnek: «The company ---- its profits every year since 2015.» cümlesinde «since» present perfect ister."
+      "explanationTR": "Gramer sorularında ilk iş, cümlede HANGİ NOKTANIN sınandığını belirlemektir; sonra yalnızca o noktaya uyan seçeneği ararsın.\n\n• Seçeneklere bak: hepsi aynı fiilin farklı zamanlarıysa zaman, hepsi edatsa edat, hepsi ilgi zamiriyse ilgi cümleciği sınanıyordur.\n\n• Zaman ipuçlarını kullan: since, for, by the time, yesterday, so far, every year gibi zarflar zamanı belirler.\n\n• Edat kalıplarını ezbere bil: interested in, depend on, result in, comply with.\n\n• Uyum kuralları: neither of + çoğul ad + tekil fiil; the number of + tekil fiil; her cümlede özne-fiil uyumunu kontrol et.\n\n• Koşul cümlelerinde if cümleciği ile ana cümlenin zamanını eşleştir: if she had studied ... would have passed.\n\nEn sık düşülen tuzak: cümleyi anlamına göre tahmin edip sınanan gramer noktasını atlamak. Anlamca uyan iki seçenekten yalnızca biri kurala uyar.\n\nÖrnek: «The company ---- its profits every year since 2015.» cümlesinde «since» present perfect ister."
     }
   ],
   "questions": [
@@ -27,11 +27,11 @@
         "En uzun ve en karmaşık fiil biçimini seçmeliyim",
         "Türkçe karşılığı en yakın olanı seçmeliyim",
         "Cümledeki zaman ipuçlarını (since, yesterday) bulmalıyım",
-        "Cümleyi hiç okumadan bir sonraki soruya geçmeliyim",
-        "Yalnızca ilk seçeneği işaretleyip ilerlemeliyim"
+        "Yan cümlenin öznesini bulup fiili yalnızca ona göre seçmeliyim",
+        "Sınavda en sık gördüğüm zamanı işaretleyip ilerlemeliyim"
       ],
       "correctIndex": 2,
-      "explanationTR": "Zaman sorusunda zarf ve bağlaç ipuçları zamanı belirler: (C). (A) ve (B) ile (E) biçimsel ya da ölçütsüz seçimlerdir. (D) kuralı görmezden gelir.",
+      "explanationTR": "Zaman sorusunda zarf ve bağlaç ipuçları zamanı belirler: (C). (A) karmaşık biçim doğruluk ölçütü değildir. (B) Türkçe karşılık İngilizce zaman kuralını vermez. (D) özne uyumu kişiyi ve sayıyı belirler, zamanı değil. (E) sıklık tahmini kuralın yerini tutmaz.",
       "passageID": null
     },
     {
@@ -40,14 +40,14 @@
       "order": 1,
       "prompt": "The company ---- its profits every year since 2015.",
       "options": [
-        "has increased",
         "increased",
         "had increased",
         "will increase",
-        "is increasing"
+        "is increasing",
+        "has increased"
       ],
-      "correctIndex": 0,
-      "explanationTR": "«Since 2015» geçmişten bugüne uzanan bir süreyi gösterir ve present perfect ister: (A). (B) past simple bitmiş bir zaman ister. (C) past perfect geçmişte bir referans gerektirir. (D) gelecek zamandır. (E) since ile kullanılmaz.",
+      "correctIndex": 4,
+      "explanationTR": "«Since 2015» geçmişten bugüne uzanan bir süreyi gösterir ve present perfect ister: (E). (A) past simple bitmiş bir zaman ister. (B) past perfect geçmişte bir referans gerektirir. (C) gelecek zamandır. (D) present continuous bu «since» kalıbıyla kullanılmaz.",
       "passageID": null
     },
     {
@@ -79,7 +79,7 @@
         "what"
       ],
       "correctIndex": 3,
-      "explanationTR": "Özne konumundaki bir kişiye gönderme yapılır ve fiil hemen ardından gelir: who discovered. (A) whom nesne konumundadır. (B) which cansızlar içindir. (C) whose ardından ad ister. (E) what önceki bir adı niteleyemez.",
+      "explanationTR": "Özne konumundaki bir kişiye gönderme yapılır ve fiil hemen ardından gelir (who discovered): (D). (A) whom nesne konumundadır. (B) which cansızlar içindir. (C) whose ardından ad ister. (E) what önceki bir adı niteleyemez.",
       "passageID": null
     },
     {
@@ -111,7 +111,7 @@
         "were offered"
       ],
       "correctIndex": 0,
-      "explanationTR": "«Neither of + çoğul ad» resmî dilde tekil fiil alır: (A). (B) ve (C) ve (D) çoğul fiillerdir. (E) edilgendir ve anlamı bozar.",
+      "explanationTR": "«Neither of + çoğul ad» resmî dilde tekil fiil alır: (A). (B), (C) ve (D) çoğul fiillerdir. (E) edilgendir ve anlamı bozar: teklifler «sunulmuş» olur.",
       "passageID": null
     }
   ]

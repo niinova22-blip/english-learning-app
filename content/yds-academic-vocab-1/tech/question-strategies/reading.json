@@ -73,13 +73,13 @@
       "prompt": "Bir seçenek gerçek hayatta doğru olsa da metinde hiç geçmiyorsa, okuma sorusunda ne yapmalısın?",
       "options": [
         "Seçmeliyim, çünkü doğru bilgi her zaman doğru şıktır",
-        "Elemeliyim, çünkü doğru şık metindeki bilgiye dayanmalı",
-        "Yalnızca uzun ise seçmeliyim",
+        "Elemeliyim; doğru şık metne dayanmalıdır",
+        "Yazarın söylemek isteyebileceği bir şeyse seçmeliyim",
         "Metindeki sözcükleri içeriyorsa seçmeliyim",
-        "Diğer seçenekler zayıfsa seçmeliyim"
+        "Metinde açıkça yalanlanmadıysa seçmeliyim"
       ],
       "correctIndex": 1,
-      "explanationTR": "Okuma sorusu METNE göre cevaplanır: (B). (A) genel doğruyu metinden üstün tutar. (C) ve (D) ile (E) şık uzunluğu, sözcük tekrarı ya da zayıf rakip gibi metin dışı ölçütlere dayanır.",
+      "explanationTR": "Okuma sorusu METNE göre cevaplanır: (B). (A) genel doğruyu metinden üstün tutar. (C) yazarın niyetini tahmin etmek metindeki bilginin yerini tutmaz. (D) ortak sözcük, bilginin metinde verildiği anlamına gelmez. (E) yalanlanmamış olmak desteklenmiş olmak değildir.",
       "passageID": null
     },
     {
@@ -104,14 +104,14 @@
       "order": 5,
       "prompt": "«It can be inferred from the passage that ...» türü bir soruda doğru şık hangisidir?",
       "options": [
-        "Metinden mantıken çıkan ama yazılmamış şık",
         "Metinden sözcüğü sözcüğüne alınmış şık",
-        "Metinle açıkça çelişmeyen her mümkün şık",
+        "Metinle açıkça çelişmeyen, mümkün görünen her şık",
         "Genel kültüre ve gerçek hayata uyan şık",
+        "Metinden mantıken çıkan ama yazılmamış şık",
         "En uzun ve en ayrıntılı görünen şık"
       ],
-      "correctIndex": 0,
-      "explanationTR": "Çıkarım (inference), metindeki bilgiden zorunlu olarak sonuç çıkarmaktır: (A). (B) ayrıntı sorusunun cevabıdır. (C) çok geniştir; çelişmeyen ama desteklenmeyen şık yanlıştır. (D) ve (E) metin dışı ölçütlerdir.",
+      "correctIndex": 3,
+      "explanationTR": "Çıkarım (inference), metindeki bilgiden zorunlu olarak sonuç çıkarmaktır: (D). (A) sözcüğü sözcüğüne alıntı, ayrıntı sorusunun cevabıdır. (B) çok geniştir; çelişmeyen ama desteklenmeyen şık yanlıştır. (C) genel kültür metnin yerini tutmaz. (E) uzunluk bir doğruluk ölçütü değildir.",
       "passageID": null
     }
   ]

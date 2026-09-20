@@ -79,7 +79,7 @@
         "You should stop printing documents altogether."
       ],
       "correctIndex": 2,
-      "explanationTR": "A'nın «that should fix it» sözü, B'nin bir çözüm önerdiğini gösterir: (C). (A) ve (B) ile (D) çözüm sunmaz. (E) çözüm yerine yasak koyar.",
+      "explanationTR": "A'nın «that should fix it» sözü, B'nin bir çözüm önerdiğini gösterir: (C). (A) geçmiş bir fiyat bilgisi verir. (B) konuyu gürültüye kaydırır. (D) sorunu yineler ama çözmez. (E) çözüm yerine baskıcı bir öğüt verir.",
       "passageID": null
     },
     {
@@ -95,7 +95,7 @@
         "Rica başka birine yönlendirilmiş olur"
       ],
       "correctIndex": 3,
-      "explanationTR": "«Would you mind ...?» sorusunda «Yes» yanıtı, kişinin bunu YAPMAKTAN rahatsız olacağını gösterir: (D). (A) tersini söyler. (B) ve (C) ile (E) yanıtın işleviyle ilgisiz yorumlardır.",
+      "explanationTR": "«Would you mind ...?» sorusunda «Yes» yanıtı, kişinin bunu YAPMAKTAN rahatsız olacağını gösterir: (D). (A) tersini söyler; kabul «No, not at all» ile verilir. (B) erteleme anlamı «Yes, I would» yanıtında yoktur. (C) anlaşılmama «Sorry?» gibi bir soruyla belirtilir. (E) yönlendirme yanıtın işlevinde yoktur.",
       "passageID": null
     },
     {
@@ -104,14 +104,14 @@
       "order": 5,
       "prompt": "Customer: Could I speak to the manager, please?\nAssistant: ----\nCustomer: Certainly, I'll wait here.",
       "options": [
-        "One moment, please; I'll see whether she is available.",
         "The manager doesn't speak to customers.",
         "You may not speak to anyone here.",
+        "One moment, please; I'll check if she is free.",
         "I am the manager, and I am busy today.",
         "Which manager would you like to complain about?"
       ],
-      "correctIndex": 0,
-      "explanationTR": "Müşteri «Certainly, I'll wait here» diyerek bekleyeceğini söylüyor; bu, asistanın kibar bir bekleme isteğinde bulunduğunu gösterir: (A). (B) ve (C) ise reddeder. (D) «I am the manager» ile önceki isteği anlamsız kılar. (E) konuşmayı gereksiz yere gerginleştirir.",
+      "correctIndex": 2,
+      "explanationTR": "Müşteri «Certainly, I'll wait here» diyerek bekleyeceğini söylüyor; bu, asistanın kibar bir bekleme isteğinde bulunduğunu gösterir: (C). (A) ve (B) isteği reddeder; reddedilen biri beklemez. (D) «I am the manager» ile önceki isteği anlamsız kılar. (E) şikâyet varsayar ve beklemeyi gerektirmez.",
       "passageID": null
     }
   ]
