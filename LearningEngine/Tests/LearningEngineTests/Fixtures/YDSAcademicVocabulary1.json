@@ -10278,16 +10278,16 @@
               "id": "yds-exam-sentence-1-q06",
               "kind": "sentenceCompletion",
               "order": 5,
-              "prompt": "The epidemic spread so rapidly that ----.",
+              "prompt": "The new phone became so popular that ----.",
               "options": [
-                "hospitals were overwhelmed within a matter of days",
-                "doctors had been warned about it years earlier",
-                "the disease affected only a few patients",
-                "public health officials saw no need to act",
-                "the number of cases remained stable"
+                "the manufacturer could hardly keep up with demand",
+                "designers had been advised about it years earlier",
+                "only a few customers bothered to buy one",
+                "the company saw no need to produce more",
+                "the number of sales remained stable"
               ],
               "correctIndex": 0,
-              "explanationTR": "«So ... that» hızlı yayılmanın SONUCUNU ister: hastaneler birkaç gün içinde bunaldı: (A). (B) önceden uyarılmak sonuç değildir. (C) ve (E) hızlı yayılmayla çelişir. (D) önlem alma ihtiyacının olmadığı sonucu mantıksızdır.",
+              "explanationTR": "«So ... that» popülerliğin SONUCUNU ister: üretici talebe yetişmekte zorlandı: (A). (B) önceden uyarılmak sonuç değildir. (C) ve (E) yüksek popülerlikle çelişir. (D) daha fazla üretmeye gerek olmadığı sonucu mantıksızdır.",
               "passageID": null
             },
             {
@@ -12456,16 +12456,16 @@
               "id": "yds-exam-translation-en-tr-3-q02",
               "kind": "translation",
               "order": 1,
-              "prompt": "It is essential that every applicant submit the form in person before the deadline.",
+              "prompt": "It is vital that every candidate bring a valid passport to the interview.",
               "options": [
-                "Her başvuru sahibi formu son tarihten sonra şahsen teslim etti.",
-                "Her başvuru sahibinin formu son tarihten önce posta yoluyla teslim etmesi şarttır.",
-                "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi şarttır.",
-                "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi isteğe bağlıdır.",
-                "Her başvuru sahibinin formu son tarihten önce şahsen ya da vekiliyle teslim etmesi şarttır."
+                "Her aday mülakata geçerli bir pasaport getirdi.",
+                "Her adayın mülakata geçerli bir pasaport yerine kimlik kartı getirmesi şarttır.",
+                "Her adayın mülakata geçerli bir pasaport getirmesi şarttır.",
+                "Her adayın mülakata geçerli bir pasaport getirmesi isteğe bağlıdır.",
+                "Her adayın mülakata geçerli bir pasaport ya da kimlik kartı getirmesi şarttır."
               ],
               "correctIndex": 2,
-              "explanationTR": "«It is essential that ... submit» bir zorunluluktur ve «in person» şahsen teslimi belirtir: (C). (A) zamanı geçmişe ve son tarihten sonraya çevirir. (B) teslim biçimini postaya çevirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) şahsen teslimi vekille teslime de açar.",
+              "explanationTR": "«It is vital that ... bring» bir zorunluluktur ve «a valid passport» geçerli pasaportu belirtir: (C). (A) zorunluluğu geçmişte olmuş bir olaya çevirir. (B) pasaportu kimlik kartıyla değiştirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) pasaportun yanında kimlik kartını da kabul eder.",
               "passageID": null
             },
             {
@@ -12504,16 +12504,16 @@
               "id": "yds-exam-translation-en-tr-3-q05",
               "kind": "translation",
               "order": 4,
-              "prompt": "Were the plan to fail, the government would have no alternative source of funding.",
+              "prompt": "Were the factory to close, the town would have no other major employer.",
               "options": [
-                "Plan başarısız oldu ve hükümetin alternatif bir finansman kaynağı yoktu.",
-                "Plan başarısız olacak olsa, hükümetin alternatif bir finansman kaynağı olmazdı.",
-                "Plan başarısız olacak olsa, hükümetin birçok alternatif finansman kaynağı olurdu.",
-                "Hükümet başarısız olacak olsa, planın alternatif bir finansman kaynağı olmazdı.",
-                "Plan başarısız olursa, hükümetin alternatif bir finansman kaynağı olmuyor."
+                "Fabrika kapandı ve kasabanın başka büyük bir işvereni yoktu.",
+                "Fabrika kapanacak olsa, kasabanın başka büyük bir işvereni olmazdı.",
+                "Fabrika kapanacak olsa, kasabanın birçok başka büyük işvereni olurdu.",
+                "Kasaba kapanacak olsa, fabrikanın başka büyük bir işvereni olmazdı.",
+                "Fabrika kapanırsa, kasabanın başka büyük bir işvereni olmuyor."
               ],
               "correctIndex": 1,
-              "explanationTR": "Devrik «Were the plan to fail» varsayımsal bir koşuldur: başarısız olacak olsa, alternatif kaynak olmazdı: (B). (A) gerçekleşmiş bir olay gibi anlatır. (C) kaynak sayısını «birçok» yapar. (D) özneleri değiştirir. (E) koşul kipini bozar.",
+              "explanationTR": "Devrik «Were the factory to close» varsayımsal bir koşuldur: kapanacak olsa, başka büyük işveren olmazdı: (B). (A) gerçekleşmiş bir olay gibi anlatır. (C) işveren sayısını «birçok» yapar. (D) özneleri değiştirir. (E) koşul kipini bozar.",
               "passageID": null
             },
             {
@@ -13340,16 +13340,16 @@
               "id": "yds-exam-restatement-3-q01",
               "kind": "restatement",
               "order": 0,
-              "prompt": "Only by cutting costs drastically can the company return to profitability.",
+              "prompt": "Only by training its staff thoroughly can the hospital reduce medical errors.",
               "options": [
-                "The company will return to profitability whether or not it cuts costs.",
-                "Cutting costs drastically prevents the company from returning to profitability.",
-                "The company must return to profitability before it cuts costs.",
-                "The company can return to profitability only if it cuts costs drastically.",
-                "The company can return to profitability without cutting any costs."
+                "The hospital will reduce medical errors whether or not it trains its staff.",
+                "Training its staff thoroughly prevents the hospital from reducing medical errors.",
+                "The hospital must reduce medical errors before it trains its staff.",
+                "The hospital can reduce medical errors only if it trains its staff thoroughly.",
+                "The hospital can reduce medical errors without training its staff at all."
               ],
               "correctIndex": 3,
-              "explanationTR": "«Only by ...» tek yolu belirtir: maliyetleri ciddi biçimde kısarsa kârlılığa dönebilir: (D). (A) kısıntıyı gereksiz yapar. (B) kısıntıyı engel yapar. (C) sırayı tersine çevirir. (E) kısıntısız da dönebileceğini söyler.",
+              "explanationTR": "«Only by ...» tek yolu belirtir: personelini iyice eğitirse hastane tıbbi hataları azaltabilir: (D). (A) eğitimi gereksiz yapar. (B) eğitimi engel yapar. (C) sırayı tersine çevirir. (E) eğitimsiz de azaltabileceğini söyler.",
               "passageID": null
             },
             {
@@ -13372,16 +13372,16 @@
               "id": "yds-exam-restatement-3-q03",
               "kind": "restatement",
               "order": 2,
-              "prompt": "It is high time the government took action against tax evasion.",
+              "prompt": "It is high time the council replaced the ageing water pipes in the old town.",
               "options": [
-                "The government ought to act against tax evasion without further delay.",
-                "The government has taken action against tax evasion just in time.",
-                "The government took action against tax evasion too early.",
-                "The government will take action against tax evasion in the distant future.",
-                "The government must not take action against tax evasion yet."
+                "The council ought to replace the ageing water pipes in the old town without further delay.",
+                "The council has replaced the ageing water pipes in the old town just in time.",
+                "The council replaced the ageing water pipes in the old town too early.",
+                "The council will replace the ageing water pipes in the old town in the distant future.",
+                "The council must not replace the ageing water pipes in the old town yet."
               ],
               "correctIndex": 0,
-              "explanationTR": "«It is high time ... took» hükümetin artık harekete geçmesi gerektiğini bildirir: (A). (B) zamanında harekete geçtiğini söyler. (C) çok erken davrandığını söyler. (D) uzak geleceğe erteler. (E) harekete geçmemesi gerektiğini söyler.",
+              "explanationTR": "«It is high time ... replaced» konseyin eskiyen boruları artık değiştirmesi gerektiğini bildirir: (A). (B) zamanında değiştirdiğini söyler. (C) çok erken davrandığını söyler. (D) uzak geleceğe erteler. (E) değiştirmemesi gerektiğini söyler.",
               "passageID": null
             },
             {

@@ -37,16 +37,16 @@
       "id": "yds-exam-translation-en-tr-3-q02",
       "kind": "translation",
       "order": 1,
-      "prompt": "It is essential that every applicant submit the form in person before the deadline.",
+      "prompt": "It is vital that every candidate bring a valid passport to the interview.",
       "options": [
-        "Her başvuru sahibi formu son tarihten sonra şahsen teslim etti.",
-        "Her başvuru sahibinin formu son tarihten önce posta yoluyla teslim etmesi şarttır.",
-        "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi şarttır.",
-        "Her başvuru sahibinin formu son tarihten önce şahsen teslim etmesi isteğe bağlıdır.",
-        "Her başvuru sahibinin formu son tarihten önce şahsen ya da vekiliyle teslim etmesi şarttır."
+        "Her aday mülakata geçerli bir pasaport getirdi.",
+        "Her adayın mülakata geçerli bir pasaport yerine kimlik kartı getirmesi şarttır.",
+        "Her adayın mülakata geçerli bir pasaport getirmesi şarttır.",
+        "Her adayın mülakata geçerli bir pasaport getirmesi isteğe bağlıdır.",
+        "Her adayın mülakata geçerli bir pasaport ya da kimlik kartı getirmesi şarttır."
       ],
       "correctIndex": 2,
-      "explanationTR": "«It is essential that ... submit» bir zorunluluktur ve «in person» şahsen teslimi belirtir: (C). (A) zamanı geçmişe ve son tarihten sonraya çevirir. (B) teslim biçimini postaya çevirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) şahsen teslimi vekille teslime de açar.",
+      "explanationTR": "«It is vital that ... bring» bir zorunluluktur ve «a valid passport» geçerli pasaportu belirtir: (C). (A) zorunluluğu geçmişte olmuş bir olaya çevirir. (B) pasaportu kimlik kartıyla değiştirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) pasaportun yanında kimlik kartını da kabul eder.",
       "passageID": null
     },
     {
@@ -85,16 +85,16 @@
       "id": "yds-exam-translation-en-tr-3-q05",
       "kind": "translation",
       "order": 4,
-      "prompt": "Were the plan to fail, the government would have no alternative source of funding.",
+      "prompt": "Were the factory to close, the town would have no other major employer.",
       "options": [
-        "Plan başarısız oldu ve hükümetin alternatif bir finansman kaynağı yoktu.",
-        "Plan başarısız olacak olsa, hükümetin alternatif bir finansman kaynağı olmazdı.",
-        "Plan başarısız olacak olsa, hükümetin birçok alternatif finansman kaynağı olurdu.",
-        "Hükümet başarısız olacak olsa, planın alternatif bir finansman kaynağı olmazdı.",
-        "Plan başarısız olursa, hükümetin alternatif bir finansman kaynağı olmuyor."
+        "Fabrika kapandı ve kasabanın başka büyük bir işvereni yoktu.",
+        "Fabrika kapanacak olsa, kasabanın başka büyük bir işvereni olmazdı.",
+        "Fabrika kapanacak olsa, kasabanın birçok başka büyük işvereni olurdu.",
+        "Kasaba kapanacak olsa, fabrikanın başka büyük bir işvereni olmazdı.",
+        "Fabrika kapanırsa, kasabanın başka büyük bir işvereni olmuyor."
       ],
       "correctIndex": 1,
-      "explanationTR": "Devrik «Were the plan to fail» varsayımsal bir koşuldur: başarısız olacak olsa, alternatif kaynak olmazdı: (B). (A) gerçekleşmiş bir olay gibi anlatır. (C) kaynak sayısını «birçok» yapar. (D) özneleri değiştirir. (E) koşul kipini bozar.",
+      "explanationTR": "Devrik «Were the factory to close» varsayımsal bir koşuldur: kapanacak olsa, başka büyük işveren olmazdı: (B). (A) gerçekleşmiş bir olay gibi anlatır. (C) işveren sayısını «birçok» yapar. (D) özneleri değiştirir. (E) koşul kipini bozar.",
       "passageID": null
     },
     {

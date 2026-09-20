@@ -21,16 +21,16 @@
       "id": "yds-exam-restatement-3-q01",
       "kind": "restatement",
       "order": 0,
-      "prompt": "Only by cutting costs drastically can the company return to profitability.",
+      "prompt": "Only by training its staff thoroughly can the hospital reduce medical errors.",
       "options": [
-        "The company will return to profitability whether or not it cuts costs.",
-        "Cutting costs drastically prevents the company from returning to profitability.",
-        "The company must return to profitability before it cuts costs.",
-        "The company can return to profitability only if it cuts costs drastically.",
-        "The company can return to profitability without cutting any costs."
+        "The hospital will reduce medical errors whether or not it trains its staff.",
+        "Training its staff thoroughly prevents the hospital from reducing medical errors.",
+        "The hospital must reduce medical errors before it trains its staff.",
+        "The hospital can reduce medical errors only if it trains its staff thoroughly.",
+        "The hospital can reduce medical errors without training its staff at all."
       ],
       "correctIndex": 3,
-      "explanationTR": "«Only by ...» tek yolu belirtir: maliyetleri ciddi biçimde kısarsa kârlılığa dönebilir: (D). (A) kısıntıyı gereksiz yapar. (B) kısıntıyı engel yapar. (C) sırayı tersine çevirir. (E) kısıntısız da dönebileceğini söyler.",
+      "explanationTR": "«Only by ...» tek yolu belirtir: personelini iyice eğitirse hastane tıbbi hataları azaltabilir: (D). (A) eğitimi gereksiz yapar. (B) eğitimi engel yapar. (C) sırayı tersine çevirir. (E) eğitimsiz de azaltabileceğini söyler.",
       "passageID": null
     },
     {
@@ -53,16 +53,16 @@
       "id": "yds-exam-restatement-3-q03",
       "kind": "restatement",
       "order": 2,
-      "prompt": "It is high time the government took action against tax evasion.",
+      "prompt": "It is high time the council replaced the ageing water pipes in the old town.",
       "options": [
-        "The government ought to act against tax evasion without further delay.",
-        "The government has taken action against tax evasion just in time.",
-        "The government took action against tax evasion too early.",
-        "The government will take action against tax evasion in the distant future.",
-        "The government must not take action against tax evasion yet."
+        "The council ought to replace the ageing water pipes in the old town without further delay.",
+        "The council has replaced the ageing water pipes in the old town just in time.",
+        "The council replaced the ageing water pipes in the old town too early.",
+        "The council will replace the ageing water pipes in the old town in the distant future.",
+        "The council must not replace the ageing water pipes in the old town yet."
       ],
       "correctIndex": 0,
-      "explanationTR": "«It is high time ... took» hükümetin artık harekete geçmesi gerektiğini bildirir: (A). (B) zamanında harekete geçtiğini söyler. (C) çok erken davrandığını söyler. (D) uzak geleceğe erteler. (E) harekete geçmemesi gerektiğini söyler.",
+      "explanationTR": "«It is high time ... replaced» konseyin eskiyen boruları artık değiştirmesi gerektiğini bildirir: (A). (B) zamanında değiştirdiğini söyler. (C) çok erken davrandığını söyler. (D) uzak geleceğe erteler. (E) değiştirmemesi gerektiğini söyler.",
       "passageID": null
     },
     {

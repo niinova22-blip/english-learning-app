@@ -101,16 +101,16 @@
       "id": "yds-exam-sentence-1-q06",
       "kind": "sentenceCompletion",
       "order": 5,
-      "prompt": "The epidemic spread so rapidly that ----.",
+      "prompt": "The new phone became so popular that ----.",
       "options": [
-        "hospitals were overwhelmed within a matter of days",
-        "doctors had been warned about it years earlier",
-        "the disease affected only a few patients",
-        "public health officials saw no need to act",
-        "the number of cases remained stable"
+        "the manufacturer could hardly keep up with demand",
+        "designers had been advised about it years earlier",
+        "only a few customers bothered to buy one",
+        "the company saw no need to produce more",
+        "the number of sales remained stable"
       ],
       "correctIndex": 0,
-      "explanationTR": "«So ... that» hızlı yayılmanın SONUCUNU ister: hastaneler birkaç gün içinde bunaldı: (A). (B) önceden uyarılmak sonuç değildir. (C) ve (E) hızlı yayılmayla çelişir. (D) önlem alma ihtiyacının olmadığı sonucu mantıksızdır.",
+      "explanationTR": "«So ... that» popülerliğin SONUCUNU ister: üretici talebe yetişmekte zorlandı: (A). (B) önceden uyarılmak sonuç değildir. (C) ve (E) yüksek popülerlikle çelişir. (D) daha fazla üretmeye gerek olmadığı sonucu mantıksızdır.",
       "passageID": null
     },
     {
