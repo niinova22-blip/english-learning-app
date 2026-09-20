@@ -98,6 +98,37 @@ final class CoursePathViewModelTests: XCTestCase {
         )
     }
 
+    /// Spec "Free preview: the new units are locked." The grammar units sit
+    /// after the vocabulary units, so LessonAccessPolicy (only the
+    /// lowest-ordered unit is free) keeps every one of them behind the
+    /// package — while the free unit keeps its 3 vocabulary + 7 practice
+    /// lessons.
+    @MainActor
+    func test_dersYolu_previewUser_seesOnlyTheFirstUnit_andEveryGrammarUnitIsLocked() throws {
+        let context = try makeRealContentContext()
+        let viewModel = CoursePathViewModel(
+            context: context, userID: "u", accessProvider: FixedAccessProvider(level: .preview)
+        )
+        viewModel.load()
+
+        XCTAssertEqual(viewModel.sections.count, 5)
+        XCTAssertEqual(viewModel.sections.last?.unitID, "yds-grammar-unit-verbs-and-tenses")
+        XCTAssertEqual(viewModel.sections.last?.tasks.count, 5)
+
+        let firstSection = try XCTUnwrap(viewModel.sections.first)
+        XCTAssertEqual(firstSection.tasks.count, 10)
+        XCTAssertFalse(
+            firstSection.tasks.contains { if case .locked = $0 { return true } else { return false } },
+            "the free unit keeps its 3 vocabulary and 7 practice lessons unlocked"
+        )
+        for section in viewModel.sections.dropFirst() {
+            XCTAssertTrue(
+                section.tasks.allSatisfy { if case .locked = $0 { return true } else { return false } },
+                "\(section.unitID) must be locked for a preview user"
+            )
+        }
+    }
+
     @MainActor
     func test_lockedUnits_stillShowPaketiAc() throws {
         let context = try makeRealContentContext()

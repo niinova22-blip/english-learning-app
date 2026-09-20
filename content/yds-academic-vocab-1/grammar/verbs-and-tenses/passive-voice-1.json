@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-passive-voice-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Edilgen Yapı (Passive Voice)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-passive-voice-1",
+      "type": "grammarPoint",
+      "headword": "Passive Voice",
+      "frequencyRank": 2003,
+      "baseDifficulty": 0.5,
+      "definition": "Edilgen çatının kuruluşu ve temel kullanımı.",
+      "exampleSentences": [],
+      "translationTR": "Edilgen Yapı",
+      "collocations": [],
+      "explanationTR": "Edilgen yapıda özne eylemi YAPAN değil, eylemden ETKİLENENDİR. Kuruluş: uygun be fiili + V3. Zamanı be fiili taşır.\n\n• Geniş zaman: is/are + V3. Geçmiş: was/were + V3. Present perfect: has/have been + V3. Past perfect: had been + V3. Gelecek: will be + V3. Sürerlik: is/are being + V3 (The old bridge is being repaired). Future perfect: will have been + V3.\n\n• Eylemi yapan önemliyse by ile verilir (by the committee); bilinmiyorsa ya da önemsizse düşer.\n\n• Kip fiilleri ile: must be submitted, can be measured, should be reviewed.\n\n• İki nesneli fiillerde (send, give, offer, show) iki edilgen cümle kurulabilir: The applicants were sent a confirmation.\n\n• GEÇİŞSİZ fiillerin edilgeni yoktur: occur, happen, rise, emerge, arise, consist of, depend on (nesnesiz olanlar). Serious side effects occurred (were occurred yanlıştır).\n\n• Günlük dilde get + V3 de edilgen anlam verir: Dozens of workers got dismissed.\n\nÖrnek: The 2023 report was written by an independent panel of economists."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-passive-voice-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "Several new regulations ---- by the government since the financial crisis of 2008.",
+      "options": [
+        "introduced",
+        "are introducing",
+        "have introduced",
+        "have been introduced",
+        "were being introduced"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Özne (regulations) eylemi yapan değil, uygulananlardır; ayrıca «since 2008» present perfect ister: have been introduced. (A), (B) ve (C) etkendir ve düzenlemelerin hükümeti «uygulaması» anlamsız olur. (E) were being introduced ise geçmişte sürmekte olan bir edilgen eylemdir ve «since» ile birlikte kullanılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The old bridge ---- at the moment, so drivers are advised to use the northern route.",
+      "options": [
+        "repairs",
+        "is being repaired",
+        "has repaired",
+        "was repaired",
+        "is repairing"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«At the moment» sürmekte olan bir eylemi gösterir ve köprü tamir EDİLEN varlıktır: is being repaired (present continuous edilgen). (A), (C) ve (E) etkendir; köprü kendi kendini tamir etmez. (D) was repaired bitmiş bir eylemi anlatır ve «at the moment» ile çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "After the interview, the successful applicants ---- a written offer by the personnel department.",
+      "options": [
+        "sent",
+        "have sending",
+        "were sending",
+        "were been sent",
+        "were sent"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«By the personnel department» eylemi yapanı belirtir; yani özne (applicants) teklifi ALAN taraftır: were sent (iki nesneli fiilin edilgeni). (A) sent ve (C) were sending etkendir; adaylar teklif göndermemiştir. (B) have sending ve (D) were been sent geçersiz yapılardır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "Air quality ---- accurately only if the sensors are calibrated every month.",
+      "options": [
+        "can be measured",
+        "can measure",
+        "can be measuring",
+        "can been measured",
+        "can measured"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Hava kalitesi ölçülen varlıktır; kip + be + V3 gerekir: can be measured. (B) can measure ve (C) can be measuring etkendir; hava kalitesi ölçüm yapmaz. (D) can been measured ve (E) can measured kip fiilinden sonra yalın fiil gerektiren kuralı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "Serious side effects ---- in only a small proportion of the trial participants.",
+      "options": [
+        "were occurred",
+        "are occurred",
+        "occurred",
+        "were being occurred",
+        "been occurred"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "occur GEÇİŞSİZ bir fiildir (nesnesi olmaz), bu yüzden edilgeni yoktur; doğru biçim etken past simple: occurred. (A), (B), (D) ve (E) geçişsiz bir fiili edilgen yapmaya çalışır; bu YDS'nin klasik tuzağıdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The 2023 report ---- by an independent panel of economists, whose findings were widely quoted.",
+      "options": [
+        "wrote",
+        "has written",
+        "was writing",
+        "was written",
+        "is writing"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«By an independent panel» eylemi yapanı belirtir ve rapor yazılan varlıktır; geçmişte tamamlanmış bir eylem için was written gerekir. (A), (B), (C) ve (E) etkendir; rapor yazma eylemini gerçekleştiremez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "Because the negotiations broke down, dozens of workers ---- without notice last week.",
+      "options": [
+        "dismissed",
+        "got dismissed",
+        "were got dismissed",
+        "got dismissing",
+        "have dismiss"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "İşçiler işten çıkarılan taraftır ve günlük dilde edilgen anlam get + V3 ile de verilebilir: got dismissed. (A) dismissed nesne beklediği için burada etken olarak kullanılamaz. (C) were got dismissed iki yardımcı fiili birleştiren yanlış bir yapıdır. (D) ve (E) geçerli biçimler değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "By next spring, all the outdated equipment ---- with modern machines.",
+      "options": [
+        "will replace",
+        "has replaced",
+        "will be replacing",
+        "will have replaced",
+        "will have been replaced"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«By next spring» future perfect ister ve donanım DEĞİŞTİRİLEN varlıktır: will have been replaced. (A), (B), (C) ve (D) etkendir; donanım kendi kendini değiştirmez. Bunlardan ayrıca (A) ve (B) gelecekteki bir sınırdan önce tamamlanmayı yansıtmaz.",
+      "passageID": null
+    }
+  ]
+}

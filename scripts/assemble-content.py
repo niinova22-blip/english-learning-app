@@ -72,7 +72,20 @@ GRAMMAR_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "gramma
 # document each, without an `order` key: position in the list is the lesson
 # order, restarting at 0 in every unit. The table is filled in unit by unit;
 # an empty table leaves the derived JSON byte-identical.
-GRAMMAR_UNITS = []
+GRAMMAR_UNITS = [
+    {
+        "id": "yds-grammar-unit-verbs-and-tenses",
+        "theme": "Fiil ve zaman",
+        "order": 4,
+        "files": [
+            "verbs-and-tenses/tenses-2.json",
+            "verbs-and-tenses/modals-1.json",
+            "verbs-and-tenses/modals-2.json",
+            "verbs-and-tenses/passive-voice-1.json",
+            "verbs-and-tenses/passive-voice-2.json",
+        ],
+    },
+]
 
 GRAMMAR_LESSON_ID_PREFIX = "yds-grammar-"
 GRAMMAR_LESSON_ID_RE = re.compile(r"^yds-grammar-[a-z0-9-]+-(1|2)$")
@@ -89,7 +102,10 @@ OUTPUT_PATHS = [
 
 # 4: Slice 7a adds practice lessons (questions, passages, grammar topic
 # explanations). Bumping this makes installed apps re-import the package.
-PACKAGE_VERSION = 4
+# 5: Slice 7b adds the grammar curriculum units (orders 4-8). Bumping this
+# makes installed apps re-import the package; every existing id is unchanged,
+# so FSRS history survives the reseed.
+PACKAGE_VERSION = 5
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.

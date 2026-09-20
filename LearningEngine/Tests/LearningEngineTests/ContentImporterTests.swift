@@ -165,7 +165,7 @@ final class ContentImporterTests: XCTestCase {
         }
     }
 
-    func test_importPackage_realYDSPackage_imports127ItemsAnd63QuestionsAcrossFourUnits() throws {
+    func test_importPackage_realYDSPackage_importsEveryUnitItemAndQuestion() throws {
         guard let url = Bundle.module.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
             XCTFail("Fixture file not found in test bundle")
             return
@@ -175,20 +175,20 @@ final class ContentImporterTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
-        XCTAssertEqual(package.version, 4)
-        XCTAssertEqual(package.units.count, 4)
+        XCTAssertEqual(package.version, 5)
+        XCTAssertEqual(package.units.count, 5)
         let allLessons = package.units.flatMap(\.lessons)
         let allItems = allLessons.flatMap(\.items)
-        XCTAssertEqual(allItems.count, 127)
-        XCTAssertEqual(Set(allItems.map(\.id)).count, 127, "duplicate item ids found")
+        XCTAssertEqual(allItems.count, 132)
+        XCTAssertEqual(Set(allItems.map(\.id)).count, 132, "duplicate item ids found")
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
         XCTAssertEqual(allItems.filter { $0.type == .vocabulary }.count, 120)
-        XCTAssertEqual(allItems.filter { $0.type == .grammarPoint }.count, 2)
+        XCTAssertEqual(allItems.filter { $0.type == .grammarPoint }.count, 7)
         XCTAssertEqual(allItems.filter { $0.type == .practiceSet }.count, 5)
 
         let allQuestions = allLessons.flatMap(\.questions)
-        XCTAssertEqual(allQuestions.count, 63)
-        XCTAssertEqual(Set(allQuestions.map(\.id)).count, 63, "duplicate question ids found")
+        XCTAssertEqual(allQuestions.count, 109)
+        XCTAssertEqual(Set(allQuestions.map(\.id)).count, 109, "duplicate question ids found")
         XCTAssertTrue(allQuestions.allSatisfy { $0.options.count == 5 })
         XCTAssertTrue(allQuestions.allSatisfy { (0...4).contains($0.correctIndex) })
         XCTAssertTrue(allQuestions.allSatisfy { !$0.explanationTR.isEmpty })
