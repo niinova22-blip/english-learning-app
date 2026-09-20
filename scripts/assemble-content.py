@@ -112,6 +112,17 @@ GRAMMAR_UNITS = [
             "verbals-and-linkers/conjunctions-linkers-2.json",
         ],
     },
+    {
+        "id": "yds-grammar-unit-exam-level-structures",
+        "theme": "Sınav düzeyi yapılar",
+        "order": 7,
+        "files": [
+            "exam-level-structures/inversion-1.json",
+            "exam-level-structures/inversion-2.json",
+            "exam-level-structures/subjunctive-1.json",
+            "exam-level-structures/subjunctive-2.json",
+        ],
+    },
 ]
 
 GRAMMAR_LESSON_ID_PREFIX = "yds-grammar-"

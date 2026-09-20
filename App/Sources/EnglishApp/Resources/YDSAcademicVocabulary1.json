@@ -6666,6 +6666,681 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yds-grammar-unit-exam-level-structures",
+      "theme": "Sınav düzeyi yapılar",
+      "order": 7,
+      "lessons": [
+        {
+          "id": "yds-grammar-inversion-1",
+          "order": 0,
+          "estimatedDurationMinutes": 8,
+          "title": "Devrik Yapı ve Vurgu (Inversion & Emphasis)",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-inversion-1",
+              "type": "grammarPoint",
+              "headword": "Inversion & Emphasis",
+              "frequencyRank": 2018,
+              "baseDifficulty": 0.5,
+              "definition": "Olumsuz ve kısıtlayıcı zarflarla başlayan cümlelerde devrik söz dizimi.",
+              "exampleSentences": [],
+              "translationTR": "Devrik Yapı ve Vurgu",
+              "collocations": [],
+              "explanationTR": "Vurgu için olumsuz ya da kısıtlayıcı bir zarf cümlenin başına alınırsa, ardından gelen cümlecikte SORU SIRASI kullanılır: yardımcı fiil + özne + fiil.\n\n• Olumsuz zarflar: Never, Rarely, Seldom, Little, At no time, Under no circumstances, On no account, Not until, Nowhere. Never before had the country experienced such a decline. Under no circumstances may employees disclose client data.\n\n• Yardımcı fiil yoksa do / does / did eklenir ve fiil yalın kalır: Not until the audit was complete did the board realise the losses. (realised DEĞİL.)\n\n• Hardly / Scarcely had ... when, No sooner had ... than: Hardly had the law come into force when firms began to exploit it.\n\n• Only after / Only when / Only by / Only if / Only then + DEVRİK ANA CÜMLE: Only by cutting costs was the company able to return to profit. Devrik sıra ana cümlededir, only'li kısımda değildir.\n\n• Not only ... but also: ilk cümlecik devrik olur: Not only did the report correct the estimate, but it also revised the forecast.\n\nÖrnek: Little did the minister suspect that the decision would trigger a national strike."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-inversion-1-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "Never before ---- such a rapid decline in consumer confidence.",
+              "options": [
+                "the country had experienced",
+                "did the country experienced",
+                "the country experienced",
+                "had the country experienced",
+                "experienced the country"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Never before» olumsuz bir zarftır; ardından yardımcı fiil + özne + fiil sırası gelir: had the country experienced. (A) the country had experienced ve (C) the country experienced düz cümle sırasıdır. (B) did the country experienced yardımcı fiilden sonra geçmiş fiil kullandığı için yanlıştır. (E) experienced the country yardımcı fiili düşürür.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-1-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "Under no circumstances ---- confidential client information to third parties.",
+              "options": [
+                "may employees disclose",
+                "employees may disclose",
+                "employees disclose",
+                "do employees to disclose",
+                "disclose employees may"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Under no circumstances» olumsuz bir zarf öbeğidir; ardından kip fiili + özne + fiil sırası gelir: may employees disclose. (B) employees may disclose ve (C) employees disclose düz cümle sırasıdır. (D) do employees to disclose ve (E) disclose employees may kalıbı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-1-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "Not until the audit was complete ---- the true scale of the losses.",
+              "options": [
+                "the board realised",
+                "realised the board",
+                "did the board realise",
+                "the board did realise",
+                "did the board realised"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Not until ...» ile başlayan cümlede devrik sıra ANA cümlededir: did the board realise (yardımcı fiil + özne + yalın fiil). (A) the board realised düz sıradır. (B) realised the board yardımcı fiili düşürür. (D) the board did realise vurgu yapar ama devrik sıra değildir. (E) did the board realised yardımcı fiilden sonra geçmiş fiil kullanır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-1-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "Hardly ---- the new law come into force when several firms began to exploit its loopholes.",
+              "options": [
+                "have",
+                "would",
+                "was",
+                "were",
+                "had"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Hardly ... when» kalıbında ilk kısım past perfect'tir ve had başa geçer: Hardly had the new law come into force when ... (A) have, (B) would, (C) was ve (D) were bu kalıbın gerektirdiği yardımcı fiil değildir; come ise had ile V3 olarak birleşir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-1-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "Only after the results had been verified ---- the findings to the press.",
+              "options": [
+                "the researchers released",
+                "did the researchers release",
+                "released the researchers",
+                "the researchers did release",
+                "had the researchers release"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Only after ...» ile başlayan cümlede devrik sıra ANA cümlededir: did the researchers release. (A) the researchers released düz sıradır. (C) released the researchers yardımcı fiili düşürür. (D) the researchers did release yalnızca vurgu yapar. (E) had the researchers release doğru bir zaman kalıbı kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-1-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "Only by cutting costs drastically ---- to return to profitability.",
+              "options": [
+                "the company was able",
+                "was able the company",
+                "the company able was",
+                "was the company able",
+                "able was the company"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Only by ...» ile başlayan cümlede ana cümle devrik olur: was the company able. (A) the company was able düz sıradır. (B) was able the company ve (C) the company able was ile (E) able was the company sıra kuralını bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-1-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "Not only ---- the earlier estimate, but the agency also revised its growth forecast.",
+              "options": [
+                "did the report correct",
+                "the report corrected",
+                "corrected the report",
+                "the report did correct",
+                "did correct the report"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Not only» ile başlayan ilk cümlecik devrik olur: did the report correct. (B) the report corrected düz sıradır. (C) corrected the report yardımcı fiili düşürür. (D) the report did correct yalnızca vurgu yapar. (E) did correct the report özneyi yanlış yere koyar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-1-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "Little ---- that the decision would trigger a national strike.",
+              "options": [
+                "the minister suspected",
+                "suspected the minister",
+                "did the minister suspect",
+                "the minister did suspect",
+                "did suspect the minister"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Little» olumsuz anlamlı bir zarftır (= hiç sezmedi); ardından did + özne + yalın fiil gelir: did the minister suspect. (A) the minister suspected düz sıradır. (B) suspected the minister yardımcı fiili düşürür. (D) the minister did suspect vurgu yapar ama devrik değildir. (E) did suspect the minister özneyi yanlış yere koyar.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-grammar-inversion-2",
+          "order": 1,
+          "estimatedDurationMinutes": 10,
+          "title": "Devrik Yapı ve Vurgu: Tuzaklar",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-inversion-2",
+              "type": "grammarPoint",
+              "headword": "Inversion & Emphasis (Traps)",
+              "frequencyRank": 2019,
+              "baseDifficulty": 0.6,
+              "definition": "Koşul devriği, so/such yapıları, yer zarfı devriği ve vurgu tuzakları.",
+              "exampleSentences": [],
+              "translationTR": "Devrik Yapı ve Vurgu: Tuzaklar",
+              "collocations": [],
+              "explanationTR": "Bu derste devrik ve vurgulu yapıların ileri biçimleri ve klasik tuzakları sınanır.\n\n• Koşul devriği (if düşer): Should any delay occur, ... (= If any delay should occur). Were the scheme to fail, ... Had the regulator intervened, ... Yalnızca bu üç yapı devrik koşul kurar.\n\n• So + sıfat + be + özne + that: So rapid was the decline that producers suspended output. Such + be + özne + that: Such was the scale of the losses that the firm was rescued.\n\n• Yankı cümleleri: The committee has rejected it, and so has the board. Neither did the second study. Yardımcı fiil, önceki cümlenin yardımcı fiiline uyar.\n\n• Yer zarfı + geçişsiz fiil devriği: In the corner stood a dusty box. Among the findings was a surprising anomaly.\n\n• Vurgulu (cleft) cümle: It was the funding cut that forced the lab to close. What the committee needed was a clearer timetable.\n\n• Vurgu do / does / did + yalın fiil: The chairman rarely comments, but he did speak yesterday.\n\nEn sık düşülen tuzak: olumsuz ya da kısıtlayıcı OLMAYAN bir zarfla başlayan cümleyi devrik yapmak. Recently, In 2019, Yesterday gibi zarflar normal sıra alır: Recently the government has introduced new measures.\n\nÖrnek: Should any further delay occur, the contract will be terminated."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-inversion-2-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "---- any further delay occur, the contract will be terminated.",
+              "options": [
+                "Would",
+                "Should",
+                "Might",
+                "Had",
+                "Did"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Should + özne + V1» if'siz devrik koşul kurar: Should any further delay occur (= If any delay should occur). (A) Would ve (C) Might bu yapıyı kurmaz. (D) Had, past perfect (V3) ister ve «occur» ile birleşmez. (E) Did soru yapısıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "---- the scheme to fail, the government would have to find an alternative source of funding.",
+              "options": [
+                "Was",
+                "Had",
+                "Should",
+                "Were",
+                "Would"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Were + özne + to V1» if'siz devrik koşul kurar: Were the scheme to fail. (A) Was devrik koşulda kullanılmaz. (B) Had V3 ister. (C) Should + to V1 birleşmez. (E) Would bu yapıyı kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "So rapid ---- the decline in oil prices that several producers were forced to suspend output.",
+              "options": [
+                "was",
+                "did",
+                "were",
+                "it was",
+                "being"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«So + sıfat + be + özne + that» kalıbında be fiili özneden önce gelir ve özne tekildir (the decline): was. (B) did bu kalıpta kullanılmaz. (C) were çoğul özneye uyar. (D) it was kalıbı bozar. (E) being çekimli fiil değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "The committee has rejected the proposal, and so ---- the board.",
+              "options": [
+                "does",
+                "is",
+                "have",
+                "did",
+                "has"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«So + yardımcı fiil + özne» yankı cümlesinde yardımcı fiil önceki cümleye uyar: has rejected → so has the board. (A) does ve (D) did farklı bir zaman kurar. (B) is ve (C) have uyumsuzdur.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "The first study found no link between the two variables, and neither ---- the second.",
+              "options": [
+                "does",
+                "was",
+                "did",
+                "has",
+                "is"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Found» past simple'dır; yankı cümlesinde did kullanılır: neither did the second. (A) does şimdiki zamandır. (B) was ve (E) is farklı bir fiile bağlanır. (D) has present perfect'e aittir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "In the corner of the archive ---- a dusty box containing the original letters.",
+              "options": [
+                "it stood",
+                "stood",
+                "did stand",
+                "was stood",
+                "standing"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Yer zarfı + geçişsiz fiil devriği: In the corner stood a dusty box (fiil özneden önce). (A) it stood fazladan özne ekler. (C) did stand devrik yapıda kullanılmaz. (D) was stood geçişsiz fiili edilgen yapar. (E) standing çekimli fiil değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "It was the sudden cut in funding ---- forced the laboratory to close.",
+              "options": [
+                "what",
+                "who",
+                "whom",
+                "that",
+                "whose"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Vurgulu cümlede (cleft) vurgulanan öğeden sonra that gelir: It was the sudden cut ... that forced. (A) what kalıba uymaz. (B) who ve (C) whom kişiler için kullanılır. (E) whose ardından ad ister.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "The chairman rarely comments on policy, but he ---- speak passionately at yesterday's hearing.",
+              "options": [
+                "did",
+                "does",
+                "do",
+                "has",
+                "was"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Yesterday's» geçmişi gösterir ve vurgu için did + yalın fiil kullanılır: did speak. (B) does ve (C) do şimdiki zamandır. (D) has speak ve (E) was speak kalıbı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q09",
+              "kind": "grammar",
+              "order": 8,
+              "prompt": "Recently ---- a series of measures to reduce waste in the public sector.",
+              "options": [
+                "has the government introduced",
+                "did the government introduce",
+                "introduced the government",
+                "was introduced the government",
+                "the government has introduced"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Recently» olumsuz ya da kısıtlayıcı bir zarf DEĞİLDİR; cümle normal sırayla kurulur: the government has introduced. (A) has the government introduced ve (B) did the government introduce gereksiz devrik yapıdır. (C) introduced the government ve (D) was introduced the government öznesiz ya da bozuk kalıptır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-inversion-2-q10",
+              "kind": "grammar",
+              "order": 9,
+              "prompt": "Such ---- the scale of the losses that the firm had to be rescued by the state.",
+              "options": [
+                "did",
+                "were",
+                "was",
+                "it was",
+                "being"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Such + be + özne + that» kalıbında be fiili özneden önce gelir: Such was the scale of the losses that ... (A) did bu kalıpta kullanılmaz. (B) were çoğul özneye uyar. (D) it was kalıbı bozar. (E) being çekimli fiil değildir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-grammar-subjunctive-1",
+          "order": 2,
+          "estimatedDurationMinutes": 8,
+          "title": "İstek Kipi (Subjunctive)",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-subjunctive-1",
+              "type": "grammarPoint",
+              "headword": "Subjunctive",
+              "frequencyRank": 2020,
+              "baseDifficulty": 0.5,
+              "definition": "Öneri, talep ve zorunluluk bildiren yapılardan sonra yalın fiil kullanımı.",
+              "exampleSentences": [],
+              "translationTR": "İstek Kipi",
+              "collocations": [],
+              "explanationTR": "Resmî İngilizcede öneri, talep ve zorunluluk bildiren yapılardan sonra that cümleciğinde YALIN FİİL (bare infinitive) kullanılır; fiil özneye göre çekilmez.\n\n• suggest, recommend, propose, demand, request, urge, require, insist + that + özne + V1: The auditors recommended that the report be submitted to the board. (is / was submitted DEĞİL.)\n\n• Olumsuz: that + özne + not + V1: The union demanded that the manager not be dismissed. (does not be DEĞİL.)\n\n• It is essential / vital / imperative / crucial / necessary / advisable that + özne + V1: It is essential that every applicant submit the form in person.\n\n• İsimlerden sonra da geçerlidir: the recommendation that the post be abolished, on the condition that he resign.\n\n• İngiliz İngilizcesinde aynı anlam should + V1 ile de verilir: The board urged that the audit should be carried out.\n\n• Edilgende: that the evidence be ruled inadmissible.\n\nÖrnek: The minister proposed that the tax be introduced in two stages."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-subjunctive-1-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "The auditors recommended that the report ---- to the board before the end of the month.",
+              "options": [
+                "is submitted",
+                "was submitted",
+                "be submitted",
+                "will be submitted",
+                "submits"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Recommend that» sonrasında istek kipi (yalın fiil) kullanılır; edilgende be + V3: be submitted. (A) is submitted, (B) was submitted ve (E) submits fiili çeker, bu yüzden öneri anlamını taşımaz. (D) will be submitted gelecek zamanı bildirir, öneri kalıbı değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-1-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "The union demanded that the manager ---- dismissed without a proper hearing.",
+              "options": [
+                "not be",
+                "does not be",
+                "did not be",
+                "was not being",
+                "not being"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Olumsuz istek kipi that + özne + not + V1 ile kurulur: not be dismissed. (B) does not be ve (C) did not be do yardımcısı ile yanlış birleşir. (D) was not being ve (E) not being istek kipini kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-1-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "It is essential that every applicant ---- the form in person.",
+              "options": [
+                "submits",
+                "is submitting",
+                "submitted",
+                "has submitted",
+                "submit"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«It is essential that» sonrasında yalın fiil kullanılır: submit (özne tekil olsa bile). (A) submits fiili özneye göre çeker. (B) is submitting sürerlik bildirir. (C) submitted geçmiş biçimdir. (D) has submitted present perfect'tir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-1-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "It is vital that the funds ---- transferred before the deadline.",
+              "options": [
+                "are",
+                "be",
+                "were",
+                "will be",
+                "have been"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«It is vital that» sonrasında istek kipi kullanılır; edilgende be + V3: be transferred. (A) are, (C) were ve (E) have been fiili çeker. (D) will be gelecek zamanı bildirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-1-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "The committee accepted the recommendation that the post ---- abolished.",
+              "options": [
+                "is",
+                "was",
+                "would be",
+                "be",
+                "has been"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "İsim (recommendation) + that cümleciğinde de istek kipi kullanılır: be abolished. (A) is, (B) was ve (E) has been öneri yerine bir olguyu bildirir. (C) would be koşullu bir anlam taşır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-1-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "The finance minister proposed that the tax ---- in two stages.",
+              "options": [
+                "is introduced",
+                "was introduced",
+                "be introduced",
+                "introduces",
+                "will introduce"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Propose that» sonrasında yalın fiil kullanılır; vergi uygulanan taraftır: be introduced. (A) is introduced ve (B) was introduced fiili çeker. (D) introduces etkendir ve fiili çeker. (E) will introduce etkendir ve gelecek zamanı bildirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-1-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "The board urged that the audit ---- immediately.",
+              "options": [
+                "should be carried out",
+                "is carried out",
+                "carried out",
+                "would carry out",
+                "was carrying out"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "İngiliz İngilizcesinde istek kipi should + V1 ile de verilir: should be carried out. (B) is carried out fiili çeker. (C) carried out ve (E) was carrying out geçmiş biçimlerdir. (D) would carry out etkendir ve öneri kalıbını bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-1-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "The lawyers requested that the evidence ---- inadmissible.",
+              "options": [
+                "is ruled",
+                "was ruled",
+                "rules",
+                "ruled",
+                "be ruled"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Request that» sonrasında yalın fiil kullanılır; kanıt hükme bağlanan taraftır: be ruled inadmissible. (A) is ruled ve (B) was ruled fiili çeker. (C) rules ve (D) ruled etken biçimlerdir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-grammar-subjunctive-2",
+          "order": 3,
+          "estimatedDurationMinutes": 10,
+          "title": "İstek Kipi: Tuzaklar",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-subjunctive-2",
+              "type": "grammarPoint",
+              "headword": "Subjunctive (Traps)",
+              "frequencyRank": 2021,
+              "baseDifficulty": 0.6,
+              "definition": "Wish, if only, would rather, it is high time, as if ve lest tuzakları.",
+              "exampleSentences": [],
+              "translationTR": "İstek Kipi: Tuzaklar",
+              "collocations": [],
+              "explanationTR": "Bu derste gerçek dışı durumları ve dilekleri anlatan yapıların zaman kalıpları sınanır. Geçmişe doğru bir adım kayma esastır.\n\n• wish / if only + past simple = şimdiki pişmanlık: I wish the committee had more time. + past perfect = geçmiş pişmanlık: He wishes he had noticed the signs earlier. + would = bir değişiklik isteği ya da sitem: I wish the minister would make a clear statement.\n\n• would rather + özne + past simple / past perfect (öznesi farklıysa): The chairman would rather the meeting were postponed. Özne aynıysa yalın fiil: I would rather write the report myself.\n\n• It is (high) time + özne + past simple: It is high time the government took action. (takes DEĞİL.)\n\n• as if / as though + past simple (were): He talks as if it were a minor problem.\n\n• lest + yalın fiil (ya da should + V1): They moved their funds abroad lest the government impose controls.\n\n• Resmî dilek: May + özne + V1: May the institute flourish.\n\nEn sık düşülen tuzak: I wish he would come (bir değişiklik isteği) ile I wish he came (gerçek dışı şimdiki durum) ayrımı, ve would rather go (aynı özne) ile would rather he went (farklı özne).\n\nÖrnek: It is high time the government took serious action against tax evasion."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-subjunctive-2-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "I wish the committee ---- more time to review the proposal, but the deadline is tomorrow.",
+              "options": [
+                "has",
+                "would have",
+                "will have",
+                "had",
+                "had had"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Wish» sonrasında şimdiki gerçek dışı durum past simple ile anlatılır: wish the committee had more time. (A) has ve (C) will have kalıbı bozar. (B) would have bir değişiklik isteği için kullanılır ve durum fiiliyle uyumsuzdur. (E) had had geçmiş pişmanlığı anlatır; cümle şimdiki zamandan söz ediyor.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "The director wishes he ---- the warning signs earlier; the losses could have been avoided.",
+              "options": [
+                "had noticed",
+                "noticed",
+                "would notice",
+                "notices",
+                "has noticed"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Geçmişteki pişmanlık wish + past perfect ile anlatılır: wishes he had noticed. (B) noticed şimdiki gerçek dışı durumu anlatır. (C) would notice bir değişiklik isteğidir. (D) notices ve (E) has noticed wish ile bu anlamı kuramaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "I wish the minister ---- a clear statement on the tax changes soon.",
+              "options": [
+                "makes",
+                "has made",
+                "will make",
+                "is making",
+                "would make"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Wish + would» bir değişiklik isteği ya da sitem bildirir ve «soon» geleceğe yöneliktir: would make. (A) makes, (B) has made, (C) will make ve (D) is making wish sonrasında zaman kayması yapmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "If only the government ---- the crisis earlier, thousands of jobs would have been saved.",
+              "options": [
+                "addressed",
+                "had addressed",
+                "would address",
+                "has addressed",
+                "addresses"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Ana cümledeki «would have been saved» geçmiş pişmanlığı gösterir; if only + past perfect gerekir: had addressed. (A) addressed şimdiki gerçek dışı durumu anlatır. (C) would address bir değişiklik isteğidir. (D) has addressed ve (E) addresses gerçek zaman kalıplarıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "The chairman would rather the meeting ---- postponed until next week.",
+              "options": [
+                "is",
+                "be",
+                "were",
+                "will be",
+                "has been"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Would rather + FARKLI özne + past simple: the meeting were postponed. (A) is, (D) will be ve (E) has been zaman kaydırmaz. (B) be istek kipi yalın fiil biçimidir ve would rather ile kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "I would rather ---- the report myself than delegate it to an assistant.",
+              "options": [
+                "to write",
+                "wrote",
+                "writing",
+                "write",
+                "have written"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Özne aynı (I ... myself); would rather + yalın fiil: write. (A) to write ve (C) writing bu kalıpta kullanılmaz. (B) wrote farklı özne kalıbıdır. (E) have written geçmişe dönük bir pişmanlık anlamı katar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "It is high time the government ---- serious action against tax evasion.",
+              "options": [
+                "took",
+                "takes",
+                "will take",
+                "has taken",
+                "take"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«It is (high) time + özne + past simple» kalıbıdır: took. (B) takes ve (C) will take ve (D) has taken bu kalıpta zaman kaydırmaz. (E) take istek kipi biçimidir; bu kalıpta kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "The minister talks about the crisis as if it ---- a minor problem, although everyone knows it is not.",
+              "options": [
+                "is",
+                "will be",
+                "has been",
+                "would be",
+                "were"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Although everyone knows it is not» karşılaştırmanın gerçek dışı olduğunu gösterir; as if + past simple (were) gerekir. (A) is bu gerçek dışılığı kurmaz. (B) will be, (C) has been ve (D) would be as if ile kalıp kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q09",
+              "kind": "grammar",
+              "order": 8,
+              "prompt": "Investors moved their funds abroad lest the government ---- new capital controls.",
+              "options": [
+                "imposes",
+                "impose",
+                "imposed",
+                "will impose",
+                "has imposed"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Lest» sonrasında yalın fiil (ya da should + V1) gelir: lest the government impose. (A) imposes fiili çeker. (C) imposed ve (D) will impose ve (E) has imposed lest ile kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-subjunctive-2-q10",
+              "kind": "grammar",
+              "order": 9,
+              "prompt": "---- the new institute flourish for many years, and may its research benefit the whole region.",
+              "options": [
+                "Would",
+                "Will",
+                "May",
+                "Does",
+                "Should"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Resmî dilek May + özne + V1 ile kurulur: May the new institute flourish. (A) Would ve (B) Will bu dilek kalıbını kurmaz. (D) Does soru yapısıdır. (E) Should koşul devriği kurar ve cümlenin devamıyla uyuşmaz.",
+              "passageID": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }

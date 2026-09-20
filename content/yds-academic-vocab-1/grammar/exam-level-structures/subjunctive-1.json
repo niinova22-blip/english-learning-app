@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-subjunctive-1",
+  "estimatedDurationMinutes": 8,
+  "title": "İstek Kipi (Subjunctive)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-subjunctive-1",
+      "type": "grammarPoint",
+      "headword": "Subjunctive",
+      "frequencyRank": 2020,
+      "baseDifficulty": 0.5,
+      "definition": "Öneri, talep ve zorunluluk bildiren yapılardan sonra yalın fiil kullanımı.",
+      "exampleSentences": [],
+      "translationTR": "İstek Kipi",
+      "collocations": [],
+      "explanationTR": "Resmî İngilizcede öneri, talep ve zorunluluk bildiren yapılardan sonra that cümleciğinde YALIN FİİL (bare infinitive) kullanılır; fiil özneye göre çekilmez.\n\n• suggest, recommend, propose, demand, request, urge, require, insist + that + özne + V1: The auditors recommended that the report be submitted to the board. (is / was submitted DEĞİL.)\n\n• Olumsuz: that + özne + not + V1: The union demanded that the manager not be dismissed. (does not be DEĞİL.)\n\n• It is essential / vital / imperative / crucial / necessary / advisable that + özne + V1: It is essential that every applicant submit the form in person.\n\n• İsimlerden sonra da geçerlidir: the recommendation that the post be abolished, on the condition that he resign.\n\n• İngiliz İngilizcesinde aynı anlam should + V1 ile de verilir: The board urged that the audit should be carried out.\n\n• Edilgende: that the evidence be ruled inadmissible.\n\nÖrnek: The minister proposed that the tax be introduced in two stages."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-subjunctive-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The auditors recommended that the report ---- to the board before the end of the month.",
+      "options": [
+        "is submitted",
+        "was submitted",
+        "be submitted",
+        "will be submitted",
+        "submits"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Recommend that» sonrasında istek kipi (yalın fiil) kullanılır; edilgende be + V3: be submitted. (A) is submitted, (B) was submitted ve (E) submits fiili çeker, bu yüzden öneri anlamını taşımaz. (D) will be submitted gelecek zamanı bildirir, öneri kalıbı değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The union demanded that the manager ---- dismissed without a proper hearing.",
+      "options": [
+        "not be",
+        "does not be",
+        "did not be",
+        "was not being",
+        "not being"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Olumsuz istek kipi that + özne + not + V1 ile kurulur: not be dismissed. (B) does not be ve (C) did not be do yardımcısı ile yanlış birleşir. (D) was not being ve (E) not being istek kipini kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "It is essential that every applicant ---- the form in person.",
+      "options": [
+        "submits",
+        "is submitting",
+        "submitted",
+        "has submitted",
+        "submit"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«It is essential that» sonrasında yalın fiil kullanılır: submit (özne tekil olsa bile). (A) submits fiili özneye göre çeker. (B) is submitting sürerlik bildirir. (C) submitted geçmiş biçimdir. (D) has submitted present perfect'tir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "It is vital that the funds ---- transferred before the deadline.",
+      "options": [
+        "are",
+        "be",
+        "were",
+        "will be",
+        "have been"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«It is vital that» sonrasında istek kipi kullanılır; edilgende be + V3: be transferred. (A) are, (C) were ve (E) have been fiili çeker. (D) will be gelecek zamanı bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The committee accepted the recommendation that the post ---- abolished.",
+      "options": [
+        "is",
+        "was",
+        "would be",
+        "be",
+        "has been"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "İsim (recommendation) + that cümleciğinde de istek kipi kullanılır: be abolished. (A) is, (B) was ve (E) has been öneri yerine bir olguyu bildirir. (C) would be koşullu bir anlam taşır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The finance minister proposed that the tax ---- in two stages.",
+      "options": [
+        "is introduced",
+        "was introduced",
+        "be introduced",
+        "introduces",
+        "will introduce"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Propose that» sonrasında yalın fiil kullanılır; vergi uygulanan taraftır: be introduced. (A) is introduced ve (B) was introduced fiili çeker. (D) introduces etkendir ve fiili çeker. (E) will introduce etkendir ve gelecek zamanı bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The board urged that the audit ---- immediately.",
+      "options": [
+        "should be carried out",
+        "is carried out",
+        "carried out",
+        "would carry out",
+        "was carrying out"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "İngiliz İngilizcesinde istek kipi should + V1 ile de verilir: should be carried out. (B) is carried out fiili çeker. (C) carried out ve (E) was carrying out geçmiş biçimlerdir. (D) would carry out etkendir ve öneri kalıbını bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The lawyers requested that the evidence ---- inadmissible.",
+      "options": [
+        "is ruled",
+        "was ruled",
+        "rules",
+        "ruled",
+        "be ruled"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Request that» sonrasında yalın fiil kullanılır; kanıt hükme bağlanan taraftır: be ruled inadmissible. (A) is ruled ve (B) was ruled fiili çeker. (C) rules ve (D) ruled etken biçimlerdir.",
+      "passageID": null
+    }
+  ]
+}
