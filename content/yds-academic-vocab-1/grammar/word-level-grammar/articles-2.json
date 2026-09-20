@@ -43,11 +43,11 @@
         "the Netherlands",
         "Netherlands",
         "a Netherlands",
-        "Netherlands the",
+        "Netherland",
         "the Netherland"
       ],
       "correctIndex": 0,
-      "explanationTR": "Çoğul biçimli ülke adları the alır: the Netherlands. (B) Netherlands tanımlığı eksik bırakır. (C) a Netherlands ve (D) Netherlands the ve (E) the Netherland kalıbı bozar.",
+      "explanationTR": "Çoğul biçimli ülke adları the alır: the Netherlands. (B) Netherlands ve (D) Netherland tanımlığı eksik bırakır. (C) a Netherlands ve (E) the Netherland kalıbı bozar.",
       "passageID": null
     },
     {
@@ -57,13 +57,13 @@
       "prompt": "The expedition set out to climb ---- in the eastern part of the country.",
       "options": [
         "the Mount Ararat",
-        "the Ararat Mount",
+        "the Mount of Ararat",
         "a Mount Ararat",
-        "Mount the Ararat",
+        "the Ararat",
         "Mount Ararat"
       ],
       "correctIndex": 4,
-      "explanationTR": "Tek dağ adları tanımlık almaz: Mount Ararat. (A) the Mount Ararat ve (B) the Ararat Mount ve (C) a Mount Ararat ve (D) Mount the Ararat tanımlık ekler ya da sırayı bozar.",
+      "explanationTR": "Tek dağ adları tanımlık almaz: Mount Ararat. (A) the Mount Ararat, (B) the Mount of Ararat, (C) a Mount Ararat ve (D) the Ararat gereksiz tanımlık ekler.",
       "passageID": null
     },
     {
@@ -75,11 +75,11 @@
         "Alps",
         "the Alps",
         "a Alps",
-        "Alps the",
+        "the Alpine",
         "the Alp"
       ],
       "correctIndex": 1,
-      "explanationTR": "Dağ silsilesi adları the alır: the Alps. (A) Alps tanımlığı eksik bırakır. (C) a Alps ve (D) Alps the ve (E) the Alp kalıbı bozar.",
+      "explanationTR": "Dağ silsilesi adları the alır: the Alps. (A) Alps tanımlığı eksik bırakır. (C) a Alps ve (E) the Alp kalıbı bozar. (D) the Alpine sıfat biçimidir.",
       "passageID": null
     },
     {

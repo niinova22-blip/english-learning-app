@@ -28,10 +28,10 @@
         "a rare mutation",
         "rare mutation",
         "an rare mutation",
-        "rare a mutation"
+        "a rare mutations"
       ],
       "correctIndex": 1,
-      "explanationTR": "Mutasyon ilk kez anılıyor ve sayılabilir tekil bir addır: a rare mutation. (A) the rare mutation belirli, daha önce anılmış bir mutasyonu gösterir. (C) rare mutation sayılabilir tekil adı tanımlıksız bırakır. (D) an rare mutation ünsüz sesle başlayan bir sözcükte an kullanır. (E) rare a mutation sırayı bozar.",
+      "explanationTR": "Mutasyon ilk kez anılıyor ve sayılabilir tekil bir addır: a rare mutation. (A) the rare mutation belirli, daha önce anılmış bir mutasyonu gösterir. (C) rare mutation sayılabilir tekil adı tanımlıksız bırakır. (D) an rare mutation ünsüz sesle başlayan bir sözcükte an kullanır. (E) a rare mutations tekil tanımlığı çoğul adla birleştirir.",
       "passageID": null
     },
     {
@@ -75,11 +75,11 @@
         "a second largest",
         "second largest",
         "the second largest",
-        "second the largest",
+        "the two largest",
         "an second largest"
       ],
       "correctIndex": 2,
-      "explanationTR": "Sıra sayı ve en üstünlük birlikte the alır: the second largest source. (A) a second largest ve (E) an second largest belirsiz tanımlık kullanır. (B) second largest tanımlıksızdır. (D) second the largest sırayı bozar.",
+      "explanationTR": "Sıra sayı ve en üstünlük birlikte the alır: the second largest source. (A) a second largest ve (E) an second largest belirsiz tanımlık kullanır. (B) second largest tanımlıksızdır. (D) the two largest sıra sayı yerine sayı kullanır.",
       "passageID": null
     },
     {
@@ -108,10 +108,10 @@
         "by train",
         "by a train",
         "with train",
-        "on the train by"
+        "by trains"
       ],
       "correctIndex": 1,
-      "explanationTR": "«By + ulaşım aracı» tanımlıksız kullanılır: by train. (A) by the train ve (C) by a train tanımlık ekler. (D) with train ve (E) on the train by kalıbı bozar.",
+      "explanationTR": "«By + ulaşım aracı» tanımlıksız kullanılır: by train. (A) by the train ve (C) by a train tanımlık ekler. (D) with train ve (E) by trains kalıbı bozar.",
       "passageID": null
     },
     {

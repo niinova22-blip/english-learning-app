@@ -72,14 +72,14 @@
       "order": 3,
       "prompt": "Neither of the two candidates currently ---- the necessary experience for the post.",
       "options": [
-        "have",
+        "having",
         "are",
         "had",
         "were",
         "has"
       ],
       "correctIndex": 4,
-      "explanationTR": "«Neither of + çoğul ad» resmî dilde TEKİL fiil alır ve «currently» şimdiki zamanı gösterir: has. (A) have ve (B) are ve (D) were çoğul fiildir. (C) had geçmiş zamandır.",
+      "explanationTR": "«Neither of + çoğul ad» resmî dilde TEKİL fiil alır ve «currently» şimdiki zamanı gösterir: has. (A) having çekimli bir fiil değildir. (B) are ve (D) were çoğul fiildir. (C) had geçmiş zamandır.",
       "passageID": null
     },
     {
@@ -108,10 +108,10 @@
         "every other",
         "one another",
         "every others",
-        "other every"
+        "all other"
       ],
       "correctIndex": 1,
-      "explanationTR": "Yılda altı toplantı, iki ayda bir demektir: every other month. (A) each other ve (C) one another karşılıklı ilişki bildirir. (D) every others ve (E) other every kalıbı bozar.",
+      "explanationTR": "Yılda altı toplantı, iki ayda bir demektir: every other month. (A) each other ve (C) one another karşılıklı ilişki bildirir. (D) every others ve (E) all other kalıbı bozar.",
       "passageID": null
     },
     {
@@ -122,12 +122,12 @@
       "options": [
         "each another",
         "one other",
-        "other each",
+        "the other",
         "one another",
-        "the others one"
+        "one to another"
       ],
       "correctIndex": 3,
-      "explanationTR": "Karşılıklı ilişki one another ile verilir (üç banka). (A) each another ve (B) one other ve (C) other each ve (E) the others one kalıbı bozar.",
+      "explanationTR": "Karşılıklı ilişki one another ile verilir (üç banka). (A) each another, (B) one other ve (E) one to another kalıbı bozar. (C) the other iki kişi/şey için kullanılır.",
       "passageID": null
     },
     {
@@ -154,12 +154,12 @@
       "options": [
         "amount",
         "deal",
-        "quantity",
+        "sum",
         "much",
         "number"
       ],
       "correctIndex": 4,
-      "explanationTR": "Students sayılabilir çoğul bir addır; a considerable number of sabit kalıptır. (A) amount ve (C) quantity sayılamayan adlarla kullanılır. (B) deal ve (D) much bu kalıba uymaz.",
+      "explanationTR": "Students sayılabilir çoğul bir addır; a considerable number of sabit kalıptır. (A) amount sayılamayan adlarla, (C) sum ise para tutarı için kullanılır. (B) deal ve (D) much bu kalıba uymaz.",
       "passageID": null
     },
     {

@@ -104,14 +104,14 @@
       "order": 5,
       "prompt": "She is one of the ---- economists of her generation.",
       "options": [
-        "more influential",
+        "most more influential",
         "much influential",
-        "influential most",
+        "most influentially",
         "very influential",
         "most influential"
       ],
       "correctIndex": 4,
-      "explanationTR": "«One of the» ardından en üstünlük gelir: one of the most influential. (A) more influential iki kişiyi karşılaştırır. (B) much influential ve (D) very influential en üstünlük kurmaz. (C) influential most sırayı bozar.",
+      "explanationTR": "«One of the» ardından en üstünlük gelir: one of the most influential. (A) most more influential çift işaret kullanır. (B) much influential ve (D) very influential en üstünlük kurmaz. (C) most influentially sıfat yerine zarf kullanır.",
       "passageID": null
     },
     {

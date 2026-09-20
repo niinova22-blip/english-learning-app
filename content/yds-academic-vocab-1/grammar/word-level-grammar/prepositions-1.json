@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Edatlar",
       "collocations": [],
-      "explanationTR": "Edat seçimi çoğu zaman EZBER kalıplara dayanır; yine de belirli mantıklar vardır.\n\n• Zaman: at + saat (at 9 a.m.), on + gün (on Monday), in + ay/yıl (in October). by = en geç o zamana kadar (by 31 March), until = o ana kadar sürer. during + olay/dönem (during the crisis), for + süre (for three weeks).\n\n• Yer ve hareket: in + kapalı alan, on + yüzey, at + nokta; into, onto, across. among = ikiden çok belirsiz grup (among the twelve members), between = iki ya da belirli birkaç kişi/şey.\n\n• Fiil + edat: depend on, consist of, result in (sonuç doğurmak), result from (sonucu olmak), account for, deal with, refer to, contribute to, rely on.\n\n• Sıfat + edat: aware of, responsible for, capable of, similar to, different from, subject to, relevant to.\n\n• İsim + edat: an increase in, the reason for, an effect on, a solution to, demand for, an approach to, an attitude towards.\n\nÖrnek: The success of the project depends on the level of public funding."
+      "explanationTR": "Edat seçimi çoğu zaman EZBER kalıplara dayanır; yine de belirli mantıklar vardır.\n\n• Zaman: at + saat (at 9 a.m.), on + gün (on Monday), in + ay/yıl (in October). by = en geç o zamana kadar (by 31 March), until = o ana kadar sürer. during + olay/dönem (during the crisis), for + süre (for three weeks).\n\n• Yer ve hareket: in + kapalı alan, on + yüzey, at + nokta; into, onto, across. among = ikiden çok belirsiz grup (among the several hundred members), between = iki ya da belirli birkaç kişi/şey.\n\n• Fiil + edat: depend on, consist of, result in (sonuç doğurmak), result from (sonucu olmak), account for, deal with, refer to, contribute to, rely on.\n\n• Sıfat + edat: aware of, responsible for, capable of, similar to, different from, subject to, relevant to.\n\n• İsim + edat: an increase in, the reason for, an effect on, a solution to, demand for, an approach to, an attitude towards.\n\nÖrnek: The success of the project depends on the level of public funding."
     }
   ],
   "questions": [
@@ -70,7 +70,7 @@
       "id": "yds-grammar-prepositions-1-q04",
       "kind": "grammar",
       "order": 3,
-      "prompt": "The profits were divided ---- the twelve members of the cooperative.",
+      "prompt": "The profits were divided ---- the several hundred members of the cooperative.",
       "options": [
         "between",
         "across",

@@ -154,12 +154,12 @@
       "options": [
         "more easier",
         "most easier",
-        "more easy",
+        "easily",
         "easier",
         "much more easily"
       ],
       "correctIndex": 3,
-      "explanationTR": "Easy kısa bir sıfattır ve -er alır: easier. (A) more easier ve (B) most easier çift işaret kullanır. (C) more easy kısa sıfata more ekler. (E) much more easily sıfat yerine zarf kullanır (proved bir sıfat ister).",
+      "explanationTR": "Easy kısa bir sıfattır ve -er alır: easier. (A) more easier ve (B) most easier çift işaret kullanır. (C) easily sıfat yerine zarf kullanır. (E) much more easily de zarftır; proved bir sıfat ister.",
       "passageID": null
     },
     {
@@ -171,11 +171,11 @@
         "never before",
         "ever before",
         "ever than",
-        "before ever",
+        "ever since",
         "as ever"
       ],
       "correctIndex": 1,
-      "explanationTR": "«Than ever before» karşılaştırmada kalıp ifadedir. (A) never before than ile çift olumsuzluk yapar. (C) ever than ve (D) before ever sırayı bozar. (E) as ever bu kalıbı kurmaz.",
+      "explanationTR": "«Than ever before» karşılaştırmada kalıp ifadedir. (A) never before than ile çift olumsuzluk yapar. (C) ever than ve (D) ever since kalıbı bozar. (E) as ever bu kalıbı kurmaz.",
       "passageID": null
     }
   ]

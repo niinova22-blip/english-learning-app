@@ -7364,7 +7364,7 @@
               "exampleSentences": [],
               "translationTR": "Edatlar",
               "collocations": [],
-              "explanationTR": "Edat seçimi çoğu zaman EZBER kalıplara dayanır; yine de belirli mantıklar vardır.\n\n• Zaman: at + saat (at 9 a.m.), on + gün (on Monday), in + ay/yıl (in October). by = en geç o zamana kadar (by 31 March), until = o ana kadar sürer. during + olay/dönem (during the crisis), for + süre (for three weeks).\n\n• Yer ve hareket: in + kapalı alan, on + yüzey, at + nokta; into, onto, across. among = ikiden çok belirsiz grup (among the twelve members), between = iki ya da belirli birkaç kişi/şey.\n\n• Fiil + edat: depend on, consist of, result in (sonuç doğurmak), result from (sonucu olmak), account for, deal with, refer to, contribute to, rely on.\n\n• Sıfat + edat: aware of, responsible for, capable of, similar to, different from, subject to, relevant to.\n\n• İsim + edat: an increase in, the reason for, an effect on, a solution to, demand for, an approach to, an attitude towards.\n\nÖrnek: The success of the project depends on the level of public funding."
+              "explanationTR": "Edat seçimi çoğu zaman EZBER kalıplara dayanır; yine de belirli mantıklar vardır.\n\n• Zaman: at + saat (at 9 a.m.), on + gün (on Monday), in + ay/yıl (in October). by = en geç o zamana kadar (by 31 March), until = o ana kadar sürer. during + olay/dönem (during the crisis), for + süre (for three weeks).\n\n• Yer ve hareket: in + kapalı alan, on + yüzey, at + nokta; into, onto, across. among = ikiden çok belirsiz grup (among the several hundred members), between = iki ya da belirli birkaç kişi/şey.\n\n• Fiil + edat: depend on, consist of, result in (sonuç doğurmak), result from (sonucu olmak), account for, deal with, refer to, contribute to, rely on.\n\n• Sıfat + edat: aware of, responsible for, capable of, similar to, different from, subject to, relevant to.\n\n• İsim + edat: an increase in, the reason for, an effect on, a solution to, demand for, an approach to, an attitude towards.\n\nÖrnek: The success of the project depends on the level of public funding."
             }
           ],
           "questions": [
@@ -7420,7 +7420,7 @@
               "id": "yds-grammar-prepositions-1-q04",
               "kind": "grammar",
               "order": 3,
-              "prompt": "The profits were divided ---- the twelve members of the cooperative.",
+              "prompt": "The profits were divided ---- the several hundred members of the cooperative.",
               "options": [
                 "between",
                 "across",
@@ -7788,14 +7788,14 @@
               "order": 5,
               "prompt": "She is one of the ---- economists of her generation.",
               "options": [
-                "more influential",
+                "most more influential",
                 "much influential",
-                "influential most",
+                "most influentially",
                 "very influential",
                 "most influential"
               ],
               "correctIndex": 4,
-              "explanationTR": "«One of the» ardından en üstünlük gelir: one of the most influential. (A) more influential iki kişiyi karşılaştırır. (B) much influential ve (D) very influential en üstünlük kurmaz. (C) influential most sırayı bozar.",
+              "explanationTR": "«One of the» ardından en üstünlük gelir: one of the most influential. (A) most more influential çift işaret kullanır. (B) much influential ve (D) very influential en üstünlük kurmaz. (C) most influentially sıfat yerine zarf kullanır.",
               "passageID": null
             },
             {
@@ -7989,12 +7989,12 @@
               "options": [
                 "more easier",
                 "most easier",
-                "more easy",
+                "easily",
                 "easier",
                 "much more easily"
               ],
               "correctIndex": 3,
-              "explanationTR": "Easy kısa bir sıfattır ve -er alır: easier. (A) more easier ve (B) most easier çift işaret kullanır. (C) more easy kısa sıfata more ekler. (E) much more easily sıfat yerine zarf kullanır (proved bir sıfat ister).",
+              "explanationTR": "Easy kısa bir sıfattır ve -er alır: easier. (A) more easier ve (B) most easier çift işaret kullanır. (C) easily sıfat yerine zarf kullanır. (E) much more easily de zarftır; proved bir sıfat ister.",
               "passageID": null
             },
             {
@@ -8006,11 +8006,11 @@
                 "never before",
                 "ever before",
                 "ever than",
-                "before ever",
+                "ever since",
                 "as ever"
               ],
               "correctIndex": 1,
-              "explanationTR": "«Than ever before» karşılaştırmada kalıp ifadedir. (A) never before than ile çift olumsuzluk yapar. (C) ever than ve (D) before ever sırayı bozar. (E) as ever bu kalıbı kurmaz.",
+              "explanationTR": "«Than ever before» karşılaştırmada kalıp ifadedir. (A) never before than ile çift olumsuzluk yapar. (C) ever than ve (D) ever since kalıbı bozar. (E) as ever bu kalıbı kurmaz.",
               "passageID": null
             }
           ]
@@ -8241,14 +8241,14 @@
               "order": 3,
               "prompt": "Neither of the two candidates currently ---- the necessary experience for the post.",
               "options": [
-                "have",
+                "having",
                 "are",
                 "had",
                 "were",
                 "has"
               ],
               "correctIndex": 4,
-              "explanationTR": "«Neither of + çoğul ad» resmî dilde TEKİL fiil alır ve «currently» şimdiki zamanı gösterir: has. (A) have ve (B) are ve (D) were çoğul fiildir. (C) had geçmiş zamandır.",
+              "explanationTR": "«Neither of + çoğul ad» resmî dilde TEKİL fiil alır ve «currently» şimdiki zamanı gösterir: has. (A) having çekimli bir fiil değildir. (B) are ve (D) were çoğul fiildir. (C) had geçmiş zamandır.",
               "passageID": null
             },
             {
@@ -8277,10 +8277,10 @@
                 "every other",
                 "one another",
                 "every others",
-                "other every"
+                "all other"
               ],
               "correctIndex": 1,
-              "explanationTR": "Yılda altı toplantı, iki ayda bir demektir: every other month. (A) each other ve (C) one another karşılıklı ilişki bildirir. (D) every others ve (E) other every kalıbı bozar.",
+              "explanationTR": "Yılda altı toplantı, iki ayda bir demektir: every other month. (A) each other ve (C) one another karşılıklı ilişki bildirir. (D) every others ve (E) all other kalıbı bozar.",
               "passageID": null
             },
             {
@@ -8291,12 +8291,12 @@
               "options": [
                 "each another",
                 "one other",
-                "other each",
+                "the other",
                 "one another",
-                "the others one"
+                "one to another"
               ],
               "correctIndex": 3,
-              "explanationTR": "Karşılıklı ilişki one another ile verilir (üç banka). (A) each another ve (B) one other ve (C) other each ve (E) the others one kalıbı bozar.",
+              "explanationTR": "Karşılıklı ilişki one another ile verilir (üç banka). (A) each another, (B) one other ve (E) one to another kalıbı bozar. (C) the other iki kişi/şey için kullanılır.",
               "passageID": null
             },
             {
@@ -8323,12 +8323,12 @@
               "options": [
                 "amount",
                 "deal",
-                "quantity",
+                "sum",
                 "much",
                 "number"
               ],
               "correctIndex": 4,
-              "explanationTR": "Students sayılabilir çoğul bir addır; a considerable number of sabit kalıptır. (A) amount ve (C) quantity sayılamayan adlarla kullanılır. (B) deal ve (D) much bu kalıba uymaz.",
+              "explanationTR": "Students sayılabilir çoğul bir addır; a considerable number of sabit kalıptır. (A) amount sayılamayan adlarla, (C) sum ise para tutarı için kullanılır. (B) deal ve (D) much bu kalıba uymaz.",
               "passageID": null
             },
             {
@@ -8380,10 +8380,10 @@
                 "a rare mutation",
                 "rare mutation",
                 "an rare mutation",
-                "rare a mutation"
+                "a rare mutations"
               ],
               "correctIndex": 1,
-              "explanationTR": "Mutasyon ilk kez anılıyor ve sayılabilir tekil bir addır: a rare mutation. (A) the rare mutation belirli, daha önce anılmış bir mutasyonu gösterir. (C) rare mutation sayılabilir tekil adı tanımlıksız bırakır. (D) an rare mutation ünsüz sesle başlayan bir sözcükte an kullanır. (E) rare a mutation sırayı bozar.",
+              "explanationTR": "Mutasyon ilk kez anılıyor ve sayılabilir tekil bir addır: a rare mutation. (A) the rare mutation belirli, daha önce anılmış bir mutasyonu gösterir. (C) rare mutation sayılabilir tekil adı tanımlıksız bırakır. (D) an rare mutation ünsüz sesle başlayan bir sözcükte an kullanır. (E) a rare mutations tekil tanımlığı çoğul adla birleştirir.",
               "passageID": null
             },
             {
@@ -8427,11 +8427,11 @@
                 "a second largest",
                 "second largest",
                 "the second largest",
-                "second the largest",
+                "the two largest",
                 "an second largest"
               ],
               "correctIndex": 2,
-              "explanationTR": "Sıra sayı ve en üstünlük birlikte the alır: the second largest source. (A) a second largest ve (E) an second largest belirsiz tanımlık kullanır. (B) second largest tanımlıksızdır. (D) second the largest sırayı bozar.",
+              "explanationTR": "Sıra sayı ve en üstünlük birlikte the alır: the second largest source. (A) a second largest ve (E) an second largest belirsiz tanımlık kullanır. (B) second largest tanımlıksızdır. (D) the two largest sıra sayı yerine sayı kullanır.",
               "passageID": null
             },
             {
@@ -8460,10 +8460,10 @@
                 "by train",
                 "by a train",
                 "with train",
-                "on the train by"
+                "by trains"
               ],
               "correctIndex": 1,
-              "explanationTR": "«By + ulaşım aracı» tanımlıksız kullanılır: by train. (A) by the train ve (C) by a train tanımlık ekler. (D) with train ve (E) on the train by kalıbı bozar.",
+              "explanationTR": "«By + ulaşım aracı» tanımlıksız kullanılır: by train. (A) by the train ve (C) by a train tanımlık ekler. (D) with train ve (E) by trains kalıbı bozar.",
               "passageID": null
             },
             {
@@ -8546,11 +8546,11 @@
                 "the Netherlands",
                 "Netherlands",
                 "a Netherlands",
-                "Netherlands the",
+                "Netherland",
                 "the Netherland"
               ],
               "correctIndex": 0,
-              "explanationTR": "Çoğul biçimli ülke adları the alır: the Netherlands. (B) Netherlands tanımlığı eksik bırakır. (C) a Netherlands ve (D) Netherlands the ve (E) the Netherland kalıbı bozar.",
+              "explanationTR": "Çoğul biçimli ülke adları the alır: the Netherlands. (B) Netherlands ve (D) Netherland tanımlığı eksik bırakır. (C) a Netherlands ve (E) the Netherland kalıbı bozar.",
               "passageID": null
             },
             {
@@ -8560,13 +8560,13 @@
               "prompt": "The expedition set out to climb ---- in the eastern part of the country.",
               "options": [
                 "the Mount Ararat",
-                "the Ararat Mount",
+                "the Mount of Ararat",
                 "a Mount Ararat",
-                "Mount the Ararat",
+                "the Ararat",
                 "Mount Ararat"
               ],
               "correctIndex": 4,
-              "explanationTR": "Tek dağ adları tanımlık almaz: Mount Ararat. (A) the Mount Ararat ve (B) the Ararat Mount ve (C) a Mount Ararat ve (D) Mount the Ararat tanımlık ekler ya da sırayı bozar.",
+              "explanationTR": "Tek dağ adları tanımlık almaz: Mount Ararat. (A) the Mount Ararat, (B) the Mount of Ararat, (C) a Mount Ararat ve (D) the Ararat gereksiz tanımlık ekler.",
               "passageID": null
             },
             {
@@ -8578,11 +8578,11 @@
                 "Alps",
                 "the Alps",
                 "a Alps",
-                "Alps the",
+                "the Alpine",
                 "the Alp"
               ],
               "correctIndex": 1,
-              "explanationTR": "Dağ silsilesi adları the alır: the Alps. (A) Alps tanımlığı eksik bırakır. (C) a Alps ve (D) Alps the ve (E) the Alp kalıbı bozar.",
+              "explanationTR": "Dağ silsilesi adları the alır: the Alps. (A) Alps tanımlığı eksik bırakır. (C) a Alps ve (E) the Alp kalıbı bozar. (D) the Alpine sıfat biçimidir.",
               "passageID": null
             },
             {
