@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Tanımlıklar: Tuzaklar",
       "collocations": [],
-      "explanationTR": "Bu derste tanımlığın ezber kalıplarla belirlendiği durumlar sınanır.\n\n• Kurumlar (işlevi için): in prison, at university, go to school. Binayı kastediyorsan the kullanılır.\n\n• Coğrafya: çoğul ülke, dağ silsilesi, deniz, nehir ve bölge adları the alır: the Netherlands, the Alps, the Pacific, the Nile, the Middle East. Tek dağ, göl, kıta ve ülke adları almaz: Mount Ararat, Lake Van, Turkey.\n\n• the + sıfat = grup: the elderly, the unemployed.\n\n• The + karşılaştırma ..., the + karşılaştırma ...: The sooner the reforms are implemented, the faster the economy will recover.\n\n• Sabit ifadeler: in the long run, on the whole, in general, at present, on average, in practice.\n\n• Soyut ad genel kullanımda tanımlıksızdır (Education is important), of ile belirlenirse the alır. play the piano, play football (oyun adı tanımlıksız).\n\nEn sık düşülen tuzak: genel çoğul ya da sayılamayan soyut adın önüne the koymak.\n\nÖrnek: In the long run, cutting investment will cost more than it saves."
+      "explanationTR": "Bu derste tanımlığın ezber kalıplarla belirlendiği durumlar sınanır.\n\n• Kurumlar (işlevi için): in prison, at university, go to school. Binayı kastediyorsan the kullanılır.\n\n• Coğrafya: çoğul ülke, dağ silsilesi, deniz, nehir ve bölge adları the alır: the Netherlands, the Alps, the Pacific, the Nile, the Middle East. Tek dağ, göl, kıta ve ülke adları almaz: Mount Ararat, Lake Van, Turkey.\n\n• the + sıfat = grup: the elderly, the unemployed.\n\n• Okyanus ve deniz adları the alır: the Pacific, the Mediterranean, the Baltic.\n\n• Sabit ifadeler: in the long run, on the whole, in general, at present, on average, in practice.\n\n• Soyut ad genel kullanımda tanımlıksızdır (Education is important), of ile belirlenirse the alır. play the piano, play football (oyun adı tanımlıksız).\n\nEn sık düşülen tuzak: genel çoğul ya da sayılamayan soyut adın önüne the koymak.\n\nÖrnek: In the long run, cutting investment will cost more than it saves."
     }
   ],
   "questions": [
@@ -102,16 +102,16 @@
       "id": "yds-grammar-articles-2-q06",
       "kind": "grammar",
       "order": 5,
-      "prompt": "The sooner the reforms are implemented, ---- the economy will recover.",
+      "prompt": "Several island nations in the western part of ---- are threatened by rising sea levels.",
       "options": [
-        "faster",
-        "a faster",
-        "the faster",
-        "fastest",
-        "the fastest"
+        "Pacific",
+        "a Pacific",
+        "the Pacific",
+        "Pacific Ocean",
+        "the Pacifics"
       ],
       "correctIndex": 2,
-      "explanationTR": "«The sooner ..., the faster ...» kalıbının ikinci parçasında da the bulunur: the faster. (A) faster the'yi eksik bırakır. (B) a faster kalıbı bozar. (D) fastest ve (E) the fastest en üstünlüktür.",
+      "explanationTR": "Okyanus ve deniz adları the alır: the Pacific. (A) Pacific ve (D) Pacific Ocean tanımlığı eksik bırakır. (B) a Pacific, tek olan bir okyanusun önüne a getirir. (E) the Pacifics ise özel adı çoğul yapar.",
       "passageID": null
     },
     {

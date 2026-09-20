@@ -4100,16 +4100,16 @@
               "id": "yds-grammar-modals-2-q09",
               "kind": "grammar",
               "order": 8,
-              "prompt": "Given the risks, most investors would rather ---- their money in government bonds than gamble on the stock market.",
+              "prompt": "The cause of the outage is still unknown: it ---- a software fault, and engineers have not yet ruled that possibility out.",
               "options": [
-                "to keep",
-                "keeping",
-                "kept",
-                "having kept",
-                "keep"
+                "must have been",
+                "can't have been",
+                "should have been",
+                "needn't have been",
+                "might have been"
               ],
               "correctIndex": 4,
-              "explanationTR": "would rather + YALIN FİİL kalıbı, aynı öznenin tercihini bildirir: would rather keep ... than gamble. (A) to keep ve (B) keeping would rather'dan sonra kullanılmaz. (C) kept özne değişirse (would rather + özne + past) kullanılan bir yapıdır ve burada özne aynıdır. (D) having kept kalıba uymaz.",
+              "explanationTR": "might have been = geçmişte olmuş olabilir; neden bilinmediği ve ihtimal elenmediği için kesin olmayan bir tahmin gerekir. (A) must have been kesinlik bildirir ve nedenin bilinmemesiyle çelişir. (B) can't have been ihtimali reddeder, oysa mühendisler onu henüz elememiştir. (C) should have been ve (D) needn't have been beklenti ya da gereksizlik anlatır.",
               "passageID": null
             },
             {
@@ -4147,7 +4147,7 @@
               "exampleSentences": [],
               "translationTR": "Edilgen Yapı",
               "collocations": [],
-              "explanationTR": "Edilgen yapıda özne eylemi YAPAN değil, eylemden ETKİLENENDİR. Kuruluş: uygun be fiili + V3. Zamanı be fiili taşır.\n\n• Geniş zaman: is/are + V3. Geçmiş: was/were + V3. Present perfect: has/have been + V3. Past perfect: had been + V3. Gelecek: will be + V3. Sürerlik: is/are being + V3 (The old bridge is being repaired). Future perfect: will have been + V3.\n\n• Eylemi yapan önemliyse by ile verilir (by the committee); bilinmiyorsa ya da önemsizse düşer.\n\n• Kip fiilleri ile: must be submitted, can be measured, should be reviewed.\n\n• İki nesneli fiillerde (send, give, offer, show) iki edilgen cümle kurulabilir: The applicants were sent a confirmation.\n\n• GEÇİŞSİZ fiillerin edilgeni yoktur: occur, happen, rise, emerge, arise, consist of, depend on (nesnesiz olanlar). Serious side effects occurred (were occurred yanlıştır).\n\n• Günlük dilde get + V3 de edilgen anlam verir: Dozens of workers got dismissed.\n\nÖrnek: The 2023 report was written by an independent panel of economists."
+              "explanationTR": "Edilgen yapıda özne eylemi YAPAN değil, eylemden ETKİLENENDİR. Kuruluş: uygun be fiili + V3. Zamanı be fiili taşır.\n\n• Geniş zaman: is/are + V3. Geçmiş: was/were + V3. Present perfect: has/have been + V3. Past perfect: had been + V3. Gelecek: will be + V3. Sürerlik: is/are being + V3 (The old bridge is being repaired). Future perfect: will have been + V3.\n\n• Eylemi yapan önemliyse by ile verilir (by the committee); bilinmiyorsa ya da önemsizse düşer.\n\n• Kip fiilleri ile: must be submitted, can be measured, should be reviewed.\n\n• İki nesneli fiillerde (send, give, offer, show) iki edilgen cümle kurulabilir: The applicants were sent a confirmation.\n\n• GEÇİŞSİZ fiillerin edilgeni yoktur: occur, happen, rise, emerge, arise, consist of (nesnesiz olanlar). Serious side effects occurred (were occurred yanlıştır).\n\n• Günlük dilde get + V3 de edilgen anlam verir: Dozens of workers got dismissed.\n\nÖrnek: The 2023 report was written by an independent panel of economists."
             }
           ],
           "questions": [
@@ -6262,7 +6262,7 @@
                 "Having given"
               ],
               "correctIndex": 2,
-              "explanationTR": "«Given + isim» ortaç görevi gören bir edattır: Given the current economic climate (= göz önüne alındığında). (A) Giving, (D) Gave ve (E) Having given bir şey vermeyi anlatır ve anlamı bozar. (B) To give amaç bildirir.",
+              "explanationTR": "«Given + isim» ortaç görevi gören bir edattır: Given the current economic climate (= göz önüne alındığında). (A) Giving, (B) Gave ve (E) Having given bir şey vermeyi anlatır ve anlamı bozar. (D) To give amaç bildirir.",
               "passageID": null
             },
             {
@@ -8517,7 +8517,7 @@
               "exampleSentences": [],
               "translationTR": "Tanımlıklar: Tuzaklar",
               "collocations": [],
-              "explanationTR": "Bu derste tanımlığın ezber kalıplarla belirlendiği durumlar sınanır.\n\n• Kurumlar (işlevi için): in prison, at university, go to school. Binayı kastediyorsan the kullanılır.\n\n• Coğrafya: çoğul ülke, dağ silsilesi, deniz, nehir ve bölge adları the alır: the Netherlands, the Alps, the Pacific, the Nile, the Middle East. Tek dağ, göl, kıta ve ülke adları almaz: Mount Ararat, Lake Van, Turkey.\n\n• the + sıfat = grup: the elderly, the unemployed.\n\n• The + karşılaştırma ..., the + karşılaştırma ...: The sooner the reforms are implemented, the faster the economy will recover.\n\n• Sabit ifadeler: in the long run, on the whole, in general, at present, on average, in practice.\n\n• Soyut ad genel kullanımda tanımlıksızdır (Education is important), of ile belirlenirse the alır. play the piano, play football (oyun adı tanımlıksız).\n\nEn sık düşülen tuzak: genel çoğul ya da sayılamayan soyut adın önüne the koymak.\n\nÖrnek: In the long run, cutting investment will cost more than it saves."
+              "explanationTR": "Bu derste tanımlığın ezber kalıplarla belirlendiği durumlar sınanır.\n\n• Kurumlar (işlevi için): in prison, at university, go to school. Binayı kastediyorsan the kullanılır.\n\n• Coğrafya: çoğul ülke, dağ silsilesi, deniz, nehir ve bölge adları the alır: the Netherlands, the Alps, the Pacific, the Nile, the Middle East. Tek dağ, göl, kıta ve ülke adları almaz: Mount Ararat, Lake Van, Turkey.\n\n• the + sıfat = grup: the elderly, the unemployed.\n\n• Okyanus ve deniz adları the alır: the Pacific, the Mediterranean, the Baltic.\n\n• Sabit ifadeler: in the long run, on the whole, in general, at present, on average, in practice.\n\n• Soyut ad genel kullanımda tanımlıksızdır (Education is important), of ile belirlenirse the alır. play the piano, play football (oyun adı tanımlıksız).\n\nEn sık düşülen tuzak: genel çoğul ya da sayılamayan soyut adın önüne the koymak.\n\nÖrnek: In the long run, cutting investment will cost more than it saves."
             }
           ],
           "questions": [
@@ -8605,16 +8605,16 @@
               "id": "yds-grammar-articles-2-q06",
               "kind": "grammar",
               "order": 5,
-              "prompt": "The sooner the reforms are implemented, ---- the economy will recover.",
+              "prompt": "Several island nations in the western part of ---- are threatened by rising sea levels.",
               "options": [
-                "faster",
-                "a faster",
-                "the faster",
-                "fastest",
-                "the fastest"
+                "Pacific",
+                "a Pacific",
+                "the Pacific",
+                "Pacific Ocean",
+                "the Pacifics"
               ],
               "correctIndex": 2,
-              "explanationTR": "«The sooner ..., the faster ...» kalıbının ikinci parçasında da the bulunur: the faster. (A) faster the'yi eksik bırakır. (B) a faster kalıbı bozar. (D) fastest ve (E) the fastest en üstünlüktür.",
+              "explanationTR": "Okyanus ve deniz adları the alır: the Pacific. (A) Pacific ve (D) Pacific Ocean tanımlığı eksik bırakır. (B) a Pacific, tek olan bir okyanusun önüne a getirir. (E) the Pacifics ise özel adı çoğul yapar.",
               "passageID": null
             },
             {

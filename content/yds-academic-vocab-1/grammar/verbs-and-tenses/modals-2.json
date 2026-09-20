@@ -150,16 +150,16 @@
       "id": "yds-grammar-modals-2-q09",
       "kind": "grammar",
       "order": 8,
-      "prompt": "Given the risks, most investors would rather ---- their money in government bonds than gamble on the stock market.",
+      "prompt": "The cause of the outage is still unknown: it ---- a software fault, and engineers have not yet ruled that possibility out.",
       "options": [
-        "to keep",
-        "keeping",
-        "kept",
-        "having kept",
-        "keep"
+        "must have been",
+        "can't have been",
+        "should have been",
+        "needn't have been",
+        "might have been"
       ],
       "correctIndex": 4,
-      "explanationTR": "would rather + YALIN FİİL kalıbı, aynı öznenin tercihini bildirir: would rather keep ... than gamble. (A) to keep ve (B) keeping would rather'dan sonra kullanılmaz. (C) kept özne değişirse (would rather + özne + past) kullanılan bir yapıdır ve burada özne aynıdır. (D) having kept kalıba uymaz.",
+      "explanationTR": "might have been = geçmişte olmuş olabilir; neden bilinmediği ve ihtimal elenmediği için kesin olmayan bir tahmin gerekir. (A) must have been kesinlik bildirir ve nedenin bilinmemesiyle çelişir. (B) can't have been ihtimali reddeder, oysa mühendisler onu henüz elememiştir. (C) should have been ve (D) needn't have been beklenti ya da gereksizlik anlatır.",
       "passageID": null
     },
     {
