@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-irrelevant-2",
+  "estimatedDurationMinutes": 9,
+  "title": "Konu Dışı Cümle 2",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-irrelevant-2",
+      "type": "practiceSet",
+      "headword": "Irrelevant Sentence 2",
+      "frequencyRank": 3041,
+      "baseDifficulty": 0.55,
+      "definition": "Paragrafın bütünlüğünü bozan cümleyi bulmaya dayanan sekiz soru.",
+      "exampleSentences": [],
+      "translationTR": "Konu Dışı Cümle 2",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-irrelevant-2-q01",
+      "kind": "irrelevantSentence",
+      "order": 0,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) The printing press allowed identical copies of a text to be produced quickly. (II) Ideas could therefore travel across Europe far faster than before. (III) Gutenberg's own workshop went bankrupt soon after his Bible was printed. (IV) Reformers used cheap pamphlets to reach audiences that sermons could not. (V) Scholars in distant cities could now compare and criticise each other's arguments.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf matbaanın fikirlerin yayılmasını hızlandırmasına odaklanıyor. (III) Gutenberg'in atölyesinin iflasını anlatır; matbaayla ilgili olsa da fikirlerin yayılması odağının dışındadır. Diğer dört cümle yayılma hızını ve etkisini anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-2-q02",
+      "kind": "irrelevantSentence",
+      "order": 1,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Trees lower the temperature of city streets by providing shade. (II) Their leaves also release water vapour, which cools the surrounding air. (III) Cooler streets encourage people to walk rather than drive. (IV) The oldest tree in the city is said to be more than four hundred years old. (V) Less driving in turn reduces traffic noise and air pollution.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf ağaçların şehirleri serinletmesi ve bunun sonuçları üzerine kurulu. (IV) en yaşlı ağacın yaşını verir ve serinletme zincirine katkı yapmaz. (I), (II), (III) ve (V) serinlik, yürüme ve kirlilik zincirini oluşturur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-2-q03",
+      "kind": "irrelevantSentence",
+      "order": 2,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Vaccination protects a community when enough of its members are immune. (II) The disease then finds it hard to spread from person to person. (III) This effect is known as herd immunity. (IV) Edward Jenner tested the first smallpox vaccine in 1796. (V) People who cannot be vaccinated, such as newborn babies, are protected indirectly.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf sürü bağışıklığının nasıl çalıştığını açıklıyor. (IV) ilk çiçek aşısının tarihini verir ve mekanizmayı açıklamaz. (I), (II), (III) ve (V) bağışıklığın topluma yayılan etkisini anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-2-q04",
+      "kind": "irrelevantSentence",
+      "order": 3,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Delays at airports often begin with a single late flight. (II) Modern aircraft are designed to burn less fuel than those of previous decades. (III) The aircraft arrives behind schedule and leaves behind schedule as well. (IV) Passengers on connecting flights may then miss their departure. (V) Each missed connection forces the airline to rebook travellers and adjust crews.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Paragraf gecikmenin zincirleme yayılmasını anlatıyor. (II) uçakların yakıt tüketimini anlatır ve gecikme zincirinin dışındadır. (I), (III), (IV) ve (V) gecikmenin adım adım nasıl büyüdüğünü gösterir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-2-q05",
+      "kind": "irrelevantSentence",
+      "order": 4,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Supermarkets place everyday items such as milk at the back of the store. (II) Customers must therefore walk past tempting displays on the way. (III) Products that shops want to promote are placed at eye level. (IV) Small, inexpensive items are set beside the tills to encourage last-minute purchases. (V) Many supermarkets also offer home delivery through a mobile application.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf mağaza yerleşiminin alışverişi nasıl yönlendirdiğini anlatıyor. (V) eve teslimatı anlatır ve mağaza içi yerleşimin dışındadır. (I)-(IV) ürünlerin yerleştirilme stratejilerini sayar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-2-q06",
+      "kind": "irrelevantSentence",
+      "order": 5,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Inflation is a sustained rise in the general level of prices. (II) It can occur when demand for goods grows faster than supply. (III) Rising costs of raw materials may also push prices upward. (IV) Central banks often respond by raising interest rates to slow spending. (V) Historically, the first paper money appeared in China.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf enflasyonun tanımı, nedenleri ve merkez bankası tepkisi üzerine. (V) kâğıt paranın tarihini verir ve enflasyon mekanizmasının dışındadır. (I)-(IV) tanım, iki neden ve tepkiyi verir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-2-q07",
+      "kind": "irrelevantSentence",
+      "order": 6,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) People who sleep too little find it harder to concentrate. (II) Their reaction times slow down, which makes driving dangerous. (III) The average adult spends about a third of life asleep. (IV) Lack of sleep also weakens the body's defences against infection. (V) Long-term deprivation has been linked to heart disease.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf uykusuzluğun zararlarını sayıyor. (III) yetişkinin uyku süresini verir ve zararlar zincirine girmez. (I), (II), (IV) ve (V) dikkat, refleks, bağışıklık ve kalp hastalığı sonuçlarını anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-2-q08",
+      "kind": "irrelevantSentence",
+      "order": 7,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) In a democracy, citizens choose their leaders through regular elections. (II) Every eligible adult is entitled to cast one vote. (III) Votes are counted openly so that the result can be checked. (IV) The parliament building was designed by a famous architect in the 1920s. (V) Candidates who lose are expected to accept the outcome peacefully.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf demokratik seçimlerin ilkelerini sayıyor. (IV) parlamento binasının mimarını anlatır ve seçim ilkelerinin dışındadır. (I), (II), (III) ve (V) oy hakkı, açık sayım ve sonucu kabul etmeyi anlatır.",
+      "passageID": null
+    }
+  ]
+}

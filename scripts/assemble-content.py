@@ -188,6 +188,21 @@ EXAM_UNITS = [
             "cloze-sentence/sentence-4.json",
         ],
     },
+    {
+        "id": "yds-exam-unit-paragraph",
+        "theme": "Paragraf soruları",
+        "order": 11,
+        "files": [
+            "paragraph/paragraph-1.json",
+            "paragraph/paragraph-2.json",
+            "paragraph/paragraph-3.json",
+            "paragraph/irrelevant-1.json",
+            "paragraph/irrelevant-2.json",
+            "paragraph/irrelevant-3.json",
+            "paragraph/dialogue-1.json",
+            "paragraph/dialogue-2.json",
+        ],
+    },
 ]
 
 EXAM_LESSON_ID_PREFIX = "yds-exam-"

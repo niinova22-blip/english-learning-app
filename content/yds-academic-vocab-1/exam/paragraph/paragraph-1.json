@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-paragraph-1",
+  "estimatedDurationMinutes": 10,
+  "title": "Paragraf Tamamlama 1: Konu Cümlesi",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-paragraph-1",
+      "type": "practiceSet",
+      "headword": "Paragraph Completion: Topic Sentence",
+      "frequencyRank": 3030,
+      "baseDifficulty": 0.5,
+      "definition": "Paragraftaki eksik cümleyi bulmaya dayanan sekiz soru; eksik cümle paragrafı açar.",
+      "exampleSentences": [],
+      "translationTR": "Paragraf Tamamlama 1: Konu Cümlesi",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-paragraph-1-q01",
+      "kind": "paragraphCompletion",
+      "order": 0,
+      "prompt": "---- Rather than following a fixed timetable, they build their day around the moments when they concentrate best. They schedule demanding tasks for the morning, leave routine correspondence for the afternoon, and protect blocks of time in which no meetings are allowed.",
+      "options": [
+        "Most workers dislike meetings because they are held too frequently.",
+        "Fixed timetables are the only reliable way to organise a working day.",
+        "Highly productive people tend to manage their energy as carefully as their time.",
+        "Time management courses have become a profitable business in recent years.",
+        "Morning is the least suitable part of the day for demanding work."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Sonraki cümleler, verimli kişilerin gününü dikkatlerinin en iyi olduğu zamanlara göre kurduğunu anlatıyor; bunu özetleyen açılış cümlesi (C). (A) toplantı sıklığına kayar. (B) «Rather than following a fixed timetable» ifadesiyle çelişir. (D) kurslara dair konu dışı bir bilgidir. (E) sabah çalışmasını uygunsuz gösterir, oysa metin zor işleri sabaha koyar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-1-q02",
+      "kind": "paragraphCompletion",
+      "order": 1,
+      "prompt": "---- Farmers who plant a single crop year after year deplete specific nutrients from the soil and give pests a permanent food supply. By alternating crops, they interrupt these cycles, and the land stays fertile for longer.",
+      "options": [
+        "Crop rotation is one of the oldest ways of protecting the health of farmland.",
+        "Modern farmers rarely use any technique that dates from earlier centuries.",
+        "Pests are attracted mainly to fields that have recently been irrigated.",
+        "Soil quality has no influence on the yield of a harvest.",
+        "Farmland prices have risen faster than the price of food."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Paragraf, ürünleri dönüşümlü ekmenin toprağı koruduğunu anlatıyor; buna uyan açılış (A). (B) eski tekniklerin bırakıldığını söyler, oysa paragraf bir yöntemi övüyor. (C) zararlıların sulamayla ilgisi metinde yoktur. (D) «toprak verimi etkilemez» demek paragrafın tamamıyla çelişir. (E) fiyatlar konu dışıdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-1-q03",
+      "kind": "paragraphCompletion",
+      "order": 2,
+      "prompt": "---- It is not enough for a translator to know two languages; he or she must also understand the cultures in which those languages are spoken. A phrase that is polite in one country may sound rude in another, and a joke can lose all its humour when transferred word for word.",
+      "options": [
+        "Machine translation programs have improved dramatically since the 1990s.",
+        "Languages with fewer speakers are usually more difficult to translate.",
+        "Most people prefer to read books in their original language.",
+        "Jokes are generally the only kind of text that cannot be translated.",
+        "Good translation is as much a matter of cultural understanding as of vocabulary."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf, iki dili bilmenin yetmediğini, kültürü de anlamak gerektiğini söylüyor; bu düşünceyi genelleyen cümle (E). (A) makine çevirisine kayar. (B) konuşur sayısıyla zorluğu ilişkilendirir, metinde yoktur. (C) okuma tercihidir. (D) «tek tür metin» mutlaklığı ve yalnızca fıkralardan söz etmesi paragrafı daraltır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-1-q04",
+      "kind": "paragraphCompletion",
+      "order": 3,
+      "prompt": "---- Its rings, which form each year, record how much rain fell and how warm the summer was. Scientists can therefore read a tree's trunk like a diary, and by comparing very old timber with living trees they have reconstructed climates going back thousands of years.",
+      "options": [
+        "Trees planted near rivers generally grow faster than trees on hills.",
+        "A tree's growth rings preserve a detailed record of past weather.",
+        "Timber from old buildings is often more valuable than living wood.",
+        "Scientists disagree about whether trees are affected by climate at all.",
+        "Every tree in the world produces exactly one ring per century."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Its rings» ifadesi bir ağaçtan söz eden bir cümleden sonra gelir ve halkaların iklimi kaydettiğini anlatır: (B). (A) nehir kenarındaki ağaçlardan söz eder, halkalarla ilgisizdir. (C) kerestenin değeri konu dışıdır. (D) paragrafla çelişir, çünkü bilim insanları iklimi halkalardan okuyor. (E) «yılda bir halka» bilgisini yanlış verir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-1-q05",
+      "kind": "paragraphCompletion",
+      "order": 4,
+      "prompt": "---- A team that hears only one point of view tends to repeat the same mistakes, whereas a team that invites disagreement notices problems earlier. For this reason, some companies deliberately appoint a member whose task is to challenge the majority.",
+      "options": [
+        "Managers who avoid conflict are usually promoted more quickly.",
+        "Large teams work faster than small teams in every situation.",
+        "Most employees are reluctant to join a group that includes critics.",
+        "Constructive disagreement can improve the quality of a group's decisions.",
+        "Decisions are better made by one person than by any committee."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf, muhalefet barındıran ekibin sorunları daha erken fark ettiğini söylüyor: (D). (A) yöneticilerin terfisi konu dışıdır. (B) ekip büyüklüğüne kayar ve «her durumda» mutlaklığı taşır. (C) çalışanların isteksizliğini iddia eder, metin bunu söylemez. (E) karar vermede tek kişiyi över ve paragrafla çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-1-q06",
+      "kind": "paragraphCompletion",
+      "order": 5,
+      "prompt": "---- Coffee first reached Europe in the seventeenth century, and coffee houses quickly became places where merchants, writers and scientists met to exchange news. Some historians go so far as to argue that the ideas discussed there helped to shape the modern stock market and the scientific societies.",
+      "options": [
+        "The coffee house played a larger role in European intellectual life than its modest appearance suggests.",
+        "Coffee is now the most widely consumed drink in the world.",
+        "Merchants in the seventeenth century preferred tea to coffee.",
+        "Scientific societies were founded to promote the sale of coffee.",
+        "European cities have too many coffee houses today."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Paragraf kahvehanelerin fikir alışverişindeki önemli rolünü anlatıyor: (A). (B) kahvenin bugünkü tüketimi konu dışıdır. (C) tüccarların çay tercihini söyler, metinle çelişir. (D) bilimsel toplulukların kahve satışı için kurulduğunu iddia eder. (E) günümüzdeki sayıdan söz eder ve konuyu değiştirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-1-q07",
+      "kind": "paragraphCompletion",
+      "order": 6,
+      "prompt": "---- Unlike a bank loan, which must be repaid on a fixed schedule, a share gives its owner a claim on the company's future profits. That claim may become very valuable if the firm grows, but it may also become worthless if the firm fails.",
+      "options": [
+        "Banks usually refuse to lend money to companies that issue shares.",
+        "The value of a share always rises when a company grows.",
+        "Owning shares offers the possibility of high rewards but carries a greater risk than lending.",
+        "Fixed repayment schedules make bank loans unsuitable for all borrowers.",
+        "Company profits are legally required to be shared equally with employees."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf hisse sahibinin hem büyük kazanç hem de değersizleşme ihtimalini taşıdığını söylüyor: (C). (A) bankaların kredi vermeyi reddettiğini iddia eder. (B) «her zaman yükselir» mutlaklığı «değersiz olabilir» ile çelişir. (D) «tüm borçlular için uygunsuz» mutlaklığı gereksizdir. (E) yasal eşit paylaşımı söyler, metinde yoktur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-1-q08",
+      "kind": "paragraphCompletion",
+      "order": 7,
+      "prompt": "---- A single earthquake can destroy thousands of buildings in seconds, but the damage is rarely random. Structures built on soft ground shake more violently than those on rock, and buildings constructed without flexible frames are far more likely to collapse.",
+      "options": [
+        "Earthquakes occur more frequently in cities than in rural regions.",
+        "Rocky ground is the only kind of land on which people can safely build.",
+        "Governments cannot predict where earthquakes are likely to occur.",
+        "Most buildings collapse because their owners fail to maintain them.",
+        "The destruction caused by an earthquake depends heavily on where and how buildings are constructed."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf yıkımın yere ve yapı biçimine bağlı olduğunu (yumuşak zemin, esnek çerçeve) söylüyor: (E). (A) depremlerin şehirlerdeki sıklığından söz eder. (B) «tek güvenli zemin» mutlaklığı fazladır. (C) tahmin edilemezliği iddia eder, metinde yoktur. (D) bakımsızlığa bağlar, oysa metin zemin ve çerçeveyi vurgular.",
+      "passageID": null
+    }
+  ]
+}

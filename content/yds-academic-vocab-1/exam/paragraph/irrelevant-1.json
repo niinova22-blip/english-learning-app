@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-irrelevant-1",
+  "estimatedDurationMinutes": 9,
+  "title": "Konu Dışı Cümle 1",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-irrelevant-1",
+      "type": "practiceSet",
+      "headword": "Irrelevant Sentence 1",
+      "frequencyRank": 3040,
+      "baseDifficulty": 0.5,
+      "definition": "Paragrafın bütünlüğünü bozan cümleyi bulmaya dayanan sekiz soru.",
+      "exampleSentences": [],
+      "translationTR": "Konu Dışı Cümle 1",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-irrelevant-1-q01",
+      "kind": "irrelevantSentence",
+      "order": 0,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Coral reefs cover less than one per cent of the ocean floor. (II) They nevertheless support roughly a quarter of all marine species. (III) Many tourists travel to tropical coasts specifically to go diving. (IV) The complex structure of a reef provides shelter and breeding grounds for thousands of organisms. (V) For this reason, the loss of a reef often triggers a collapse of the fish populations around it.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf resiflerin ekolojik önemini ve kaybının sonuçlarını anlatıyor. (III) turistlerin dalış tercihinden söz eder ve bu ekolojik akışa bağlanmaz. (I), (II), (IV) ve (V) resifin küçük alanını, tür zenginliğini, barınak işlevini ve kayıp sonucunu anlatarak ana fikri destekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-1-q02",
+      "kind": "irrelevantSentence",
+      "order": 1,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Honeybees communicate the location of food by performing a dance inside the hive. (II) The angle of the dance shows the direction of the source relative to the sun. (III) Its duration indicates how far the bees must fly. (IV) The first commercial cinemas opened in Europe at the end of the nineteenth century. (V) Other workers watch the dancer closely and then set off in the indicated direction.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf arıların dansla yön bildirmesini anlatıyor. (IV) sinemaların açılışından söz eder ve konuyla ilgisizdir. (I), (II), (III) ve (V) dansın yönü, süresi ve izlenmesi üzerinden konuyu sürdürür.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-1-q03",
+      "kind": "irrelevantSentence",
+      "order": 2,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Marathon runners must pace themselves carefully over more than forty kilometres. (II) The Great Wall of China was built over many centuries by different dynasties. (III) Starting too fast drains energy stores before the finish. (IV) Many elite athletes therefore aim for an even speed throughout the race. (V) Coaches also advise runners to drink small amounts of water at regular intervals.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Paragraf maratonda tempo yönetimini anlatıyor. (II) Çin Seddi'nin inşasından söz eder ve konuyla ilgisizdir. (III) ve (IV) tempo bilgisini «therefore» ile sürdürür, (V) su içme tavsiyesini ekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-1-q04",
+      "kind": "irrelevantSentence",
+      "order": 3,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Rainfall in tropical forests is often heavy throughout the year. (II) The invention of paper made it much cheaper to record and store information. (III) Before its arrival, scribes wrote on parchment, which was costly and slow to produce. (IV) As paper spread westward from China, libraries and schools multiplied. (V) Cheaper records in turn helped governments to collect taxes and administer larger territories.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Paragraf kâğıdın bilgi kaydına etkisini anlatıyor. (I) tropik yağmurlardan söz eder ve konuyla ilgisizdir. (II) konuyu açar, (III) öncesini, (IV) yayılmayı, (V) sonuçlarını anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-1-q05",
+      "kind": "irrelevantSentence",
+      "order": 4,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Bridges must be designed to withstand both their own weight and the loads that cross them. (II) Engineers therefore calculate how forces travel through every beam and cable. (III) Suspension bridges spread the load along cables anchored at both ends. (IV) Arch bridges, by contrast, push the load outward into strong abutments. (V) A well-known novelist wrote most of her books in a small seaside village.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf köprü türlerinde yük dağılımını anlatıyor. (V) bir romancının yazarlık yerinden söz eder ve konuyla ilgisizdir. (III) ve (IV) asma ve kemer köprüleri karşılaştırır, (I) ve (II) ise mühendislik ihtiyacını verir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-1-q06",
+      "kind": "irrelevantSentence",
+      "order": 5,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Vitamin D helps the body absorb calcium from food. (II) The skin produces it when exposed to sunlight, which is why people in northern countries are more likely to be deficient. (III) Chess became popular in Europe during the Middle Ages. (IV) Too little of it can weaken bones and cause pain. (V) Some doctors therefore recommend supplements during the winter months.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf D vitamininin kaynağını ve eksikliğinin sonuçlarını anlatıyor. (III) satranç tarihinden söz eder ve konu dışıdır. (V)'teki «therefore» eksikliğin sonuçlarına dayanır: (I), (II), (IV) ve (V) bir zincir oluşturur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-1-q07",
+      "kind": "irrelevantSentence",
+      "order": 6,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) The Nile flooded every year, depositing fertile silt along its banks. (II) Ancient Egyptian farmers planned their planting around the flood. (III) Priests measured the height of the water to predict the size of the coming harvest. (IV) A high flood promised plenty, while a low one warned of hunger. (V) Modern travellers often choose to explore Egypt by boat.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf Nil taşkınının eski Mısır tarımına etkisini anlatıyor. (V) günümüz gezginlerinden söz eder ve konuyla ilgisizdir. (I)-(IV) taşkının tarım ve rahiplerin ölçümleri üzerinden konuyu sürdürür.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-1-q08",
+      "kind": "irrelevantSentence",
+      "order": 7,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Volunteers who exercised three times a week reported better sleep. (II) They also fell asleep faster and woke less often during the night. (III) The researchers monitored each participant's heart rate throughout the study. (IV) The first modern Olympic Games were held in Athens in 1896. (V) Yet the improvement appeared only after several weeks of regular activity.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf egzersizin uyku üzerindeki etkisini araştıran bir çalışmayı anlatıyor. (IV) olimpiyat tarihinden söz eder ve konu dışıdır. (III) çalışmanın yöntemini, (V) ise sonucun zamanlamasını verir.",
+      "passageID": null
+    }
+  ]
+}

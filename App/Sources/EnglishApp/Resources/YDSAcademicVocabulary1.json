@@ -10903,6 +10903,1213 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yds-exam-unit-paragraph",
+      "theme": "Paragraf soruları",
+      "order": 11,
+      "lessons": [
+        {
+          "id": "yds-exam-paragraph-1",
+          "order": 0,
+          "estimatedDurationMinutes": 10,
+          "title": "Paragraf Tamamlama 1: Konu Cümlesi",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-paragraph-1",
+              "type": "practiceSet",
+              "headword": "Paragraph Completion: Topic Sentence",
+              "frequencyRank": 3030,
+              "baseDifficulty": 0.5,
+              "definition": "Paragraftaki eksik cümleyi bulmaya dayanan sekiz soru; eksik cümle paragrafı açar.",
+              "exampleSentences": [],
+              "translationTR": "Paragraf Tamamlama 1: Konu Cümlesi",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-paragraph-1-q01",
+              "kind": "paragraphCompletion",
+              "order": 0,
+              "prompt": "---- Rather than following a fixed timetable, they build their day around the moments when they concentrate best. They schedule demanding tasks for the morning, leave routine correspondence for the afternoon, and protect blocks of time in which no meetings are allowed.",
+              "options": [
+                "Most workers dislike meetings because they are held too frequently.",
+                "Fixed timetables are the only reliable way to organise a working day.",
+                "Highly productive people tend to manage their energy as carefully as their time.",
+                "Time management courses have become a profitable business in recent years.",
+                "Morning is the least suitable part of the day for demanding work."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Sonraki cümleler, verimli kişilerin gününü dikkatlerinin en iyi olduğu zamanlara göre kurduğunu anlatıyor; bunu özetleyen açılış cümlesi (C). (A) toplantı sıklığına kayar. (B) «Rather than following a fixed timetable» ifadesiyle çelişir. (D) kurslara dair konu dışı bir bilgidir. (E) sabah çalışmasını uygunsuz gösterir, oysa metin zor işleri sabaha koyar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-1-q02",
+              "kind": "paragraphCompletion",
+              "order": 1,
+              "prompt": "---- Farmers who plant a single crop year after year deplete specific nutrients from the soil and give pests a permanent food supply. By alternating crops, they interrupt these cycles, and the land stays fertile for longer.",
+              "options": [
+                "Crop rotation is one of the oldest ways of protecting the health of farmland.",
+                "Modern farmers rarely use any technique that dates from earlier centuries.",
+                "Pests are attracted mainly to fields that have recently been irrigated.",
+                "Soil quality has no influence on the yield of a harvest.",
+                "Farmland prices have risen faster than the price of food."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Paragraf, ürünleri dönüşümlü ekmenin toprağı koruduğunu anlatıyor; buna uyan açılış (A). (B) eski tekniklerin bırakıldığını söyler, oysa paragraf bir yöntemi övüyor. (C) zararlıların sulamayla ilgisi metinde yoktur. (D) «toprak verimi etkilemez» demek paragrafın tamamıyla çelişir. (E) fiyatlar konu dışıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-1-q03",
+              "kind": "paragraphCompletion",
+              "order": 2,
+              "prompt": "---- It is not enough for a translator to know two languages; he or she must also understand the cultures in which those languages are spoken. A phrase that is polite in one country may sound rude in another, and a joke can lose all its humour when transferred word for word.",
+              "options": [
+                "Machine translation programs have improved dramatically since the 1990s.",
+                "Languages with fewer speakers are usually more difficult to translate.",
+                "Most people prefer to read books in their original language.",
+                "Jokes are generally the only kind of text that cannot be translated.",
+                "Good translation is as much a matter of cultural understanding as of vocabulary."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf, iki dili bilmenin yetmediğini, kültürü de anlamak gerektiğini söylüyor; bu düşünceyi genelleyen cümle (E). (A) makine çevirisine kayar. (B) konuşur sayısıyla zorluğu ilişkilendirir, metinde yoktur. (C) okuma tercihidir. (D) «tek tür metin» mutlaklığı ve yalnızca fıkralardan söz etmesi paragrafı daraltır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-1-q04",
+              "kind": "paragraphCompletion",
+              "order": 3,
+              "prompt": "---- Its rings, which form each year, record how much rain fell and how warm the summer was. Scientists can therefore read a tree's trunk like a diary, and by comparing very old timber with living trees they have reconstructed climates going back thousands of years.",
+              "options": [
+                "Trees planted near rivers generally grow faster than trees on hills.",
+                "A tree's growth rings preserve a detailed record of past weather.",
+                "Timber from old buildings is often more valuable than living wood.",
+                "Scientists disagree about whether trees are affected by climate at all.",
+                "Every tree in the world produces exactly one ring per century."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Its rings» ifadesi bir ağaçtan söz eden bir cümleden sonra gelir ve halkaların iklimi kaydettiğini anlatır: (B). (A) nehir kenarındaki ağaçlardan söz eder, halkalarla ilgisizdir. (C) kerestenin değeri konu dışıdır. (D) paragrafla çelişir, çünkü bilim insanları iklimi halkalardan okuyor. (E) «yılda bir halka» bilgisini yanlış verir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-1-q05",
+              "kind": "paragraphCompletion",
+              "order": 4,
+              "prompt": "---- A team that hears only one point of view tends to repeat the same mistakes, whereas a team that invites disagreement notices problems earlier. For this reason, some companies deliberately appoint a member whose task is to challenge the majority.",
+              "options": [
+                "Managers who avoid conflict are usually promoted more quickly.",
+                "Large teams work faster than small teams in every situation.",
+                "Most employees are reluctant to join a group that includes critics.",
+                "Constructive disagreement can improve the quality of a group's decisions.",
+                "Decisions are better made by one person than by any committee."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf, muhalefet barındıran ekibin sorunları daha erken fark ettiğini söylüyor: (D). (A) yöneticilerin terfisi konu dışıdır. (B) ekip büyüklüğüne kayar ve «her durumda» mutlaklığı taşır. (C) çalışanların isteksizliğini iddia eder, metin bunu söylemez. (E) karar vermede tek kişiyi över ve paragrafla çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-1-q06",
+              "kind": "paragraphCompletion",
+              "order": 5,
+              "prompt": "---- Coffee first reached Europe in the seventeenth century, and coffee houses quickly became places where merchants, writers and scientists met to exchange news. Some historians go so far as to argue that the ideas discussed there helped to shape the modern stock market and the scientific societies.",
+              "options": [
+                "The coffee house played a larger role in European intellectual life than its modest appearance suggests.",
+                "Coffee is now the most widely consumed drink in the world.",
+                "Merchants in the seventeenth century preferred tea to coffee.",
+                "Scientific societies were founded to promote the sale of coffee.",
+                "European cities have too many coffee houses today."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Paragraf kahvehanelerin fikir alışverişindeki önemli rolünü anlatıyor: (A). (B) kahvenin bugünkü tüketimi konu dışıdır. (C) tüccarların çay tercihini söyler, metinle çelişir. (D) bilimsel toplulukların kahve satışı için kurulduğunu iddia eder. (E) günümüzdeki sayıdan söz eder ve konuyu değiştirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-1-q07",
+              "kind": "paragraphCompletion",
+              "order": 6,
+              "prompt": "---- Unlike a bank loan, which must be repaid on a fixed schedule, a share gives its owner a claim on the company's future profits. That claim may become very valuable if the firm grows, but it may also become worthless if the firm fails.",
+              "options": [
+                "Banks usually refuse to lend money to companies that issue shares.",
+                "The value of a share always rises when a company grows.",
+                "Owning shares offers the possibility of high rewards but carries a greater risk than lending.",
+                "Fixed repayment schedules make bank loans unsuitable for all borrowers.",
+                "Company profits are legally required to be shared equally with employees."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf hisse sahibinin hem büyük kazanç hem de değersizleşme ihtimalini taşıdığını söylüyor: (C). (A) bankaların kredi vermeyi reddettiğini iddia eder. (B) «her zaman yükselir» mutlaklığı «değersiz olabilir» ile çelişir. (D) «tüm borçlular için uygunsuz» mutlaklığı gereksizdir. (E) yasal eşit paylaşımı söyler, metinde yoktur.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-1-q08",
+              "kind": "paragraphCompletion",
+              "order": 7,
+              "prompt": "---- A single earthquake can destroy thousands of buildings in seconds, but the damage is rarely random. Structures built on soft ground shake more violently than those on rock, and buildings constructed without flexible frames are far more likely to collapse.",
+              "options": [
+                "Earthquakes occur more frequently in cities than in rural regions.",
+                "Rocky ground is the only kind of land on which people can safely build.",
+                "Governments cannot predict where earthquakes are likely to occur.",
+                "Most buildings collapse because their owners fail to maintain them.",
+                "The destruction caused by an earthquake depends heavily on where and how buildings are constructed."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf yıkımın yere ve yapı biçimine bağlı olduğunu (yumuşak zemin, esnek çerçeve) söylüyor: (E). (A) depremlerin şehirlerdeki sıklığından söz eder. (B) «tek güvenli zemin» mutlaklığı fazladır. (C) tahmin edilemezliği iddia eder, metinde yoktur. (D) bakımsızlığa bağlar, oysa metin zemin ve çerçeveyi vurgular.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-paragraph-2",
+          "order": 1,
+          "estimatedDurationMinutes": 10,
+          "title": "Paragraf Tamamlama 2: Geçiş Cümlesi",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-paragraph-2",
+              "type": "practiceSet",
+              "headword": "Paragraph Completion: Transition",
+              "frequencyRank": 3031,
+              "baseDifficulty": 0.55,
+              "definition": "Paragraftaki eksik cümleyi bulmaya dayanan sekiz soru; eksik cümle iki fikri bağlar.",
+              "exampleSentences": [],
+              "translationTR": "Paragraf Tamamlama 2: Geçiş Cümlesi",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-paragraph-2-q01",
+              "kind": "paragraphCompletion",
+              "order": 0,
+              "prompt": "Many cities have introduced congestion charges to reduce traffic in their centres. ---- Drivers who once entered the city daily now use trains or park on the outskirts, and the air in the centre has become measurably cleaner.",
+              "options": [
+                "Congestion charges were first proposed by economists in the 1950s.",
+                "The results, in most cases, have been striking.",
+                "Many residents, however, have never owned a car.",
+                "Trains in these cities are usually more expensive than cars.",
+                "The charge is collected mainly from tourists."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Sonraki cümle etkileri (trenle gelme, temiz hava) anlatıyor; buna geçişi kuran cümle (B). (A) ücretin tarihçesine gider. (C) araç sahipliğini konu eder. (D) tren fiyatları anlatılan sonuçlarla çelişir. (E) kimden alındığı bilgisi sonraki cümleyle bağ kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-2-q02",
+              "kind": "paragraphCompletion",
+              "order": 1,
+              "prompt": "Most students assume that rereading their notes is the best way to prepare for an exam. ---- Studies show that testing oneself on the material produces far better long-term recall, because retrieving information strengthens memory in a way that passive rereading does not.",
+              "options": [
+                "Research suggests, however, that this habit is much less effective than it feels.",
+                "Notes are usually more accurate than the textbook itself.",
+                "Exams are designed to test only what students can recall from their notes.",
+                "For this reason, students should never take notes at all.",
+                "Rereading is used more widely in universities than in schools."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Sonraki cümle kendini sınamanın tekrar okumadan daha etkili olduğunu söylüyor; bir karşıtlık kuran geçiş cümlesi (A). (B) ve (C) notların doğruluğu ya da sınav tasarımı gibi konulara kayar. (D) «asla not alma» mutlak bir sonuçtur, paragraf bunu söylemez. (E) okulla üniversite kıyası konu dışıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-2-q03",
+              "kind": "paragraphCompletion",
+              "order": 2,
+              "prompt": "Wind turbines are often criticised for the noise they make. ---- Measurements taken at typical distances show that a turbine produces less sound than a busy office, and modern designs are quieter still.",
+              "options": [
+                "Turbines are the most expensive way of generating electricity.",
+                "Most turbines are built far from any human settlement.",
+                "The noise nevertheless prevents birds from flying nearby.",
+                "In practice, however, the noise is considerably lower than many people expect.",
+                "Critics have therefore withdrawn all of their objections."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf gürültü eleştirisinin ölçümlerle çürüdüğünü gösteriyor; geçiş cümlesi (D). (A) maliyet konusuna kayar. (B) yerleşimden uzaklıktır ve ölçüm cümlesine bağlanmaz. (C) kuşlara geçer, konu dışıdır. (E) «tüm itirazlar geri çekildi» mutlak ve desteksizdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-2-q04",
+              "kind": "paragraphCompletion",
+              "order": 3,
+              "prompt": "The first computers filled entire rooms and were operated by teams of specialists. ---- Within a few decades, however, the invention of the microchip made it possible to place the same power on a desk.",
+              "options": [
+                "Specialists were paid higher salaries than any other workers of the period.",
+                "Rooms of that size were rarely available in universities.",
+                "Many people believed that computers had already become too small.",
+                "The microchip was invented by the same teams who operated the machines.",
+                "At that time, few people imagined that such machines would ever be used at home."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Son cümledeki «however» bir karşıtlık bekler: ilk bilgisayarlar odaları dolduruyordu, evde kullanım düşünülemezdi, sonra mikroçip bunu değiştirdi: (E). (A) maaşlara gider. (B) oda bulunurluğu konusuna kayar. (C) «zaten çok küçüktü» ilk cümleyle çelişir. (D) mikroçipin mucitleri hakkında bir iddiadır ve karşıtlığı kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-2-q05",
+              "kind": "paragraphCompletion",
+              "order": 4,
+              "prompt": "Some economists argue that a higher minimum wage destroys jobs. ---- A widely cited study of neighbouring regions found no fall in employment after wages rose, suggesting that employers absorbed the cost through higher prices or lower profits.",
+              "options": [
+                "Employers in every industry favour a higher minimum wage.",
+                "Wages in neighbouring regions have always been identical.",
+                "The evidence, however, is far from conclusive.",
+                "This view was first put forward by the workers themselves.",
+                "Prices generally fall when wages rise."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "İlk cümle bir iddiayı verir, sonraki cümle onu sorgulayan bir çalışmayı aktarır; geçiş cümlesi (C). (A) «her sektör» mutlaklığı ve işverenlerin tutumu yanlıştır. (B) bölgelerin ücretlerini eşit sayar, oysa paragraf karşılaştırma yapıyor. (D) görüşün kaynağı konu dışıdır. (E) fiyatların düştüğünü söyler ve maliyetin fiyatlara yansıması cümlesiyle çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-2-q06",
+              "kind": "paragraphCompletion",
+              "order": 5,
+              "prompt": "The Roman Empire built roads on a scale that no earlier civilisation had attempted. ---- The network allowed armies to move quickly, but it also carried merchants, officials and, eventually, the ideas of new religions.",
+              "options": [
+                "These roads served purposes that went well beyond their original military function.",
+                "Roman engineers had learned their skills from the Greeks.",
+                "Most of these roads have since been covered by modern motorways.",
+                "The empire collapsed largely because its roads were poorly maintained.",
+                "Merchants avoided the roads because they were reserved for armies."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Sonraki cümle yolların orduların ötesinde tüccar ve fikir taşıdığını söylüyor; geçiş cümlesi (A). (B) mühendislerin öğrenme kaynağına gider. (C) yolların bugünkü durumudur. (D) çöküş nedeni iddiası konu dışıdır. (E) tüccarların yolları kullandığını söyleyen cümleyle çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-2-q07",
+              "kind": "paragraphCompletion",
+              "order": 6,
+              "prompt": "Children learn to speak without formal lessons. ---- Yet an adult who moves abroad and receives hours of instruction may still struggle to reach the same level.",
+              "options": [
+                "Adults, by contrast, find grammar more interesting than children do.",
+                "Formal lessons were introduced in schools in the nineteenth century.",
+                "Speaking is generally learned earlier than walking.",
+                "By the age of five, most have mastered the basic grammar of their language simply by listening and interacting.",
+                "Children who hear two languages usually learn neither."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Yet» ile başlayan cümle çocuğun kolay öğrenmesi ile yetişkinin zorlanması arasında karşıtlık kuruyor; öncesinde çocuğun başarısını somutlaştıran cümle (D). (A) yetişkinlerin gramer ilgisine kayar. (B) okul tarihine gider. (C) yürüme ile kıyas konu dışıdır. (E) iki dilli çocuklar hakkında desteksiz ve olumsuz bir iddiadır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-2-q08",
+              "kind": "paragraphCompletion",
+              "order": 7,
+              "prompt": "Solar panels convert sunlight into electricity, but they do not work equally well everywhere. ---- A panel in a cloudy northern city may produce a third of the energy of an identical panel in a desert.",
+              "options": [
+                "Panels are usually installed on the roofs of public buildings.",
+                "Their output depends heavily on the amount of sunshine a location receives.",
+                "Desert regions are unsuitable for any kind of construction.",
+                "Northern cities produce more electricity than deserts.",
+                "Solar energy is cheaper than any other source of power."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Sonraki cümle bulutlu şehir ile çöl arasındaki üretim farkını veriyor; bu farkı açıklayan geçiş cümlesi (B). (A) kurulum yeri bilgisidir ve farkı açıklamaz. (C) çölün inşaata uygun olmadığını iddia eder. (D) kuzey şehirlerinin daha fazla ürettiğini söyler, örneğe ters düşer. (E) «her başka kaynaktan ucuz» mutlaklığı desteksizdir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-paragraph-3",
+          "order": 2,
+          "estimatedDurationMinutes": 10,
+          "title": "Paragraf Tamamlama 3: Sonuç Cümlesi",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-paragraph-3",
+              "type": "practiceSet",
+              "headword": "Paragraph Completion: Conclusion",
+              "frequencyRank": 3032,
+              "baseDifficulty": 0.6,
+              "definition": "Paragraftaki eksik cümleyi bulmaya dayanan sekiz soru; eksik cümle paragrafı kapatır.",
+              "exampleSentences": [],
+              "translationTR": "Paragraf Tamamlama 3: Sonuç Cümlesi",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-paragraph-3-q01",
+              "kind": "paragraphCompletion",
+              "order": 0,
+              "prompt": "Bees visit thousands of flowers each day in search of nectar. In doing so they carry pollen from one plant to another, allowing the plants to reproduce. Without this service, many fruits and vegetables would disappear from our shops. ----",
+              "options": [
+                "Bees should therefore be kept in every private garden.",
+                "Nectar is the only food that bees can digest.",
+                "Flowers that are not visited by bees produce larger fruits.",
+                "Our food supply therefore depends far more on these insects than most people realise.",
+                "Shops sell more honey than any other agricultural product."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf arıların tozlaşma yoluyla yiyecek arzını desteklediğini söylüyor; doğal sonuç (D). (A) her bahçede arı tutma önerisi metnin dayanağı olmayan bir çıkarımdır. (B) arıların sindirimine dair yeni bir iddiadır. (C) tozlaşmayan çiçeklerin daha büyük meyve verdiğini söyler ve paragrafla çelişir. (E) bal satışına kayar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-3-q02",
+              "kind": "paragraphCompletion",
+              "order": 1,
+              "prompt": "In the early twentieth century, many factories paid workers by the piece rather than by the hour. This system rewarded speed but discouraged care, and defective goods were common. Managers who switched to hourly wages and quality checks found that output fell slightly at first. ----",
+              "options": [
+                "Piece rates are therefore still the most common method of payment today.",
+                "Over the longer term, however, fewer defects and lower repair costs more than made up for the loss.",
+                "Workers unanimously preferred to be paid by the piece.",
+                "Quality checks were abandoned soon afterwards in most factories.",
+                "Managers had never previously considered the cost of defects."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«At first» ifadesi bir sonraki dönemi bekler; uzun vadede kusurların azalması kaybı telafi etti: (B). (A) parça başı ücretin hâlâ yaygın olduğunu iddia eder. (C) işçilerin oybirliğini söyler, metinde yoktur. (D) kalite kontrolünün terk edildiğini söyler, oysa paragraf yararını gösteriyor. (E) yöneticilerin daha önce hiç düşünmediğini iddia eder.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-3-q03",
+              "kind": "paragraphCompletion",
+              "order": 2,
+              "prompt": "Glaciers store roughly two-thirds of the world's fresh water. As temperatures rise, they melt faster than snowfall can replace them. Communities that depend on glacial meltwater for drinking and farming will eventually face shortages. ----",
+              "options": [
+                "Shrinking glaciers thus threaten the water supply of millions of people.",
+                "Snowfall is the main reason that temperatures are rising.",
+                "Fresh water is more abundant today than at any earlier time.",
+                "Farmers can easily replace meltwater with rainfall in every region.",
+                "Communities in mountainous areas should be relocated immediately."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Paragraf, buzulların küçülmesinin su kıtlığına yol açacağını anlatıyor; kapanış (A). (B) kar yağışını sıcaklık artışının nedeni yapar. (C) tatlı suyun bol olduğunu söyler, metinle çelişir. (D) «her bölgede kolayca» mutlaklığı desteksizdir. (E) yerleşimlerin taşınması önerisi metinden çıkmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-3-q04",
+              "kind": "paragraphCompletion",
+              "order": 3,
+              "prompt": "Early explorers judged the height of mountains by eye, which produced wildly inaccurate estimates. Later, surveyors began to measure angles from two known points and to calculate height by trigonometry. The results were far more reliable. ----",
+              "options": [
+                "Mountains were, in fact, much lower than the explorers had claimed.",
+                "Trigonometry was invented by the surveyors themselves.",
+                "Modern satellites have made all earlier methods unnecessary.",
+                "Explorers preferred estimation because it was faster than surveying.",
+                "Accurate maps of mountainous regions became possible only after such methods were adopted."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf, göz kararı tahminlerden trigonometriye geçişin güvenilirliği artırdığını söylüyor; sonuç (E). (A) dağların daha alçak olduğunu iddia eder. (B) trigonometrinin mucidi konusunda desteksiz bir iddiadır. (C) uydulara atlayan ve «hepsini gereksiz kıldı» diyen mutlak bir ifadedir. (D) gözlemcilerin tercihini açıklar ama paragrafın sonucu değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-3-q05",
+              "kind": "paragraphCompletion",
+              "order": 4,
+              "prompt": "Public libraries were once judged mainly by the number of books on their shelves. Today, many of them offer computers, language classes and meeting rooms as well. Visitors come not only to borrow but also to study, to look for work and to meet neighbours. ----",
+              "options": [
+                "Books have therefore disappeared entirely from modern libraries.",
+                "Libraries now charge visitors for the use of their meeting rooms.",
+                "The library has, in effect, become a community centre as well as a place for books.",
+                "The number of books is no longer of any importance to anyone.",
+                "Language classes are the main reason people visit libraries."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf kütüphanenin işlevlerinin genişlediğini gösteriyor: (C). (A) kitapların «tamamen» kaybolduğunu söyler, «not only to borrow» ile çelişir. (B) ücret bilgisi metinde yoktur. (D) kitap sayısının «kimse için» önemsiz olduğunu söyler ve mutlaktır. (E) ana nedeni tek bir etkinliğe indirger.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-3-q06",
+              "kind": "paragraphCompletion",
+              "order": 5,
+              "prompt": "A pilot who flies the same route hundreds of times may begin to feel that nothing can go wrong. Routine breeds confidence, and confidence can breed carelessness. To prevent this, airlines require pilots to follow a written checklist on every flight, however experienced they are. ----",
+              "options": [
+                "Experienced pilots therefore make more mistakes than beginners.",
+                "Airlines no longer trust their pilots to fly without instruments.",
+                "Checklists are used only on routes that pilots have never flown.",
+                "The checklist protects against the very complacency that experience tends to create.",
+                "Written instructions have replaced the need for training."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf kontrol listesinin deneyimin yarattığı rehavete karşı önlem olduğunu anlatıyor: (D). (A) deneyimlilerin daha çok hata yaptığını iddia eder. (B) aletlerden vazgeçildiğini söyler. (C) listelerin yalnızca hiç uçulmamış rotalarda kullanıldığını söyler, «every flight» ile çelişir. (E) eğitimin gereksizleştiğini iddia eder.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-3-q07",
+              "kind": "paragraphCompletion",
+              "order": 6,
+              "prompt": "Volcanic eruptions can release so much ash that sunlight is partly blocked for months. After the eruption of Tambora in 1815, temperatures fell across much of the northern hemisphere, and the following year became known as the year without a summer. Harvests failed and food prices rose sharply. ----",
+              "options": [
+                "A single eruption on one island thus affected the lives of people thousands of kilometres away.",
+                "Volcanoes are the only natural cause of falling temperatures.",
+                "Farmers had warned the authorities about the eruption in advance.",
+                "Food prices fell as soon as the ash cleared.",
+                "The year without a summer was followed by a decade of unusually warm weather."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Paragraf tek bir patlamanın uzak bölgelerde hasat ve fiyatları etkilediğini anlatıyor: (A). (B) volkanların «tek» doğal neden olduğunu iddia eder. (C) önceden uyarıldığını söyler, metinde yoktur. (D) fiyatların düştüğünü söyler, metinle çelişir. (E) sonraki on yılın sıcak geçtiğini iddia eder.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-paragraph-3-q08",
+              "kind": "paragraphCompletion",
+              "order": 7,
+              "prompt": "Buying a house is the largest financial decision most people ever make, yet many spend less time researching it than they spend choosing a phone. Buyers often rely on a single viewing and on the seller's own description. Surveys show that hidden defects are discovered within a year in a large proportion of cases. ----",
+              "options": [
+                "Sellers should be prohibited from describing their own houses.",
+                "Phones are more expensive than houses in most countries.",
+                "A thorough independent inspection before purchase is therefore a sensible precaution.",
+                "Viewings should be avoided because they rarely reveal anything.",
+                "Buyers who spend more time researching always pay lower prices."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf, alıcıların yüzeysel araştırma yaptığını ve gizli kusurların sonradan çıktığını gösteriyor; makul sonuç bağımsız bir muayene: (C). (A) satıcının anlatmasını yasaklamak paragrafın çıkarımı değildir. (B) telefon fiyatı konu dışıdır. (D) görmeyi bırakmayı önerir, oysa sorun yetersiz araştırmadır. (E) «her zaman» mutlaklığı desteksizdir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-irrelevant-1",
+          "order": 3,
+          "estimatedDurationMinutes": 9,
+          "title": "Konu Dışı Cümle 1",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-irrelevant-1",
+              "type": "practiceSet",
+              "headword": "Irrelevant Sentence 1",
+              "frequencyRank": 3040,
+              "baseDifficulty": 0.5,
+              "definition": "Paragrafın bütünlüğünü bozan cümleyi bulmaya dayanan sekiz soru.",
+              "exampleSentences": [],
+              "translationTR": "Konu Dışı Cümle 1",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-irrelevant-1-q01",
+              "kind": "irrelevantSentence",
+              "order": 0,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Coral reefs cover less than one per cent of the ocean floor. (II) They nevertheless support roughly a quarter of all marine species. (III) Many tourists travel to tropical coasts specifically to go diving. (IV) The complex structure of a reef provides shelter and breeding grounds for thousands of organisms. (V) For this reason, the loss of a reef often triggers a collapse of the fish populations around it.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf resiflerin ekolojik önemini ve kaybının sonuçlarını anlatıyor. (III) turistlerin dalış tercihinden söz eder ve bu ekolojik akışa bağlanmaz. (I), (II), (IV) ve (V) resifin küçük alanını, tür zenginliğini, barınak işlevini ve kayıp sonucunu anlatarak ana fikri destekler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-1-q02",
+              "kind": "irrelevantSentence",
+              "order": 1,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Honeybees communicate the location of food by performing a dance inside the hive. (II) The angle of the dance shows the direction of the source relative to the sun. (III) Its duration indicates how far the bees must fly. (IV) The first commercial cinemas opened in Europe at the end of the nineteenth century. (V) Other workers watch the dancer closely and then set off in the indicated direction.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf arıların dansla yön bildirmesini anlatıyor. (IV) sinemaların açılışından söz eder ve konuyla ilgisizdir. (I), (II), (III) ve (V) dansın yönü, süresi ve izlenmesi üzerinden konuyu sürdürür.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-1-q03",
+              "kind": "irrelevantSentence",
+              "order": 2,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Marathon runners must pace themselves carefully over more than forty kilometres. (II) The Great Wall of China was built over many centuries by different dynasties. (III) Starting too fast drains energy stores before the finish. (IV) Many elite athletes therefore aim for an even speed throughout the race. (V) Coaches also advise runners to drink small amounts of water at regular intervals.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Paragraf maratonda tempo yönetimini anlatıyor. (II) Çin Seddi'nin inşasından söz eder ve konuyla ilgisizdir. (III) ve (IV) tempo bilgisini «therefore» ile sürdürür, (V) su içme tavsiyesini ekler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-1-q04",
+              "kind": "irrelevantSentence",
+              "order": 3,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Rainfall in tropical forests is often heavy throughout the year. (II) The invention of paper made it much cheaper to record and store information. (III) Before its arrival, scribes wrote on parchment, which was costly and slow to produce. (IV) As paper spread westward from China, libraries and schools multiplied. (V) Cheaper records in turn helped governments to collect taxes and administer larger territories.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Paragraf kâğıdın bilgi kaydına etkisini anlatıyor. (I) tropik yağmurlardan söz eder ve konuyla ilgisizdir. (II) konuyu açar, (III) öncesini, (IV) yayılmayı, (V) sonuçlarını anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-1-q05",
+              "kind": "irrelevantSentence",
+              "order": 4,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Bridges must be designed to withstand both their own weight and the loads that cross them. (II) Engineers therefore calculate how forces travel through every beam and cable. (III) Suspension bridges spread the load along cables anchored at both ends. (IV) Arch bridges, by contrast, push the load outward into strong abutments. (V) A well-known novelist wrote most of her books in a small seaside village.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf köprü türlerinde yük dağılımını anlatıyor. (V) bir romancının yazarlık yerinden söz eder ve konuyla ilgisizdir. (III) ve (IV) asma ve kemer köprüleri karşılaştırır, (I) ve (II) ise mühendislik ihtiyacını verir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-1-q06",
+              "kind": "irrelevantSentence",
+              "order": 5,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Vitamin D helps the body absorb calcium from food. (II) The skin produces it when exposed to sunlight, which is why people in northern countries are more likely to be deficient. (III) Chess became popular in Europe during the Middle Ages. (IV) Too little of it can weaken bones and cause pain. (V) Some doctors therefore recommend supplements during the winter months.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf D vitamininin kaynağını ve eksikliğinin sonuçlarını anlatıyor. (III) satranç tarihinden söz eder ve konu dışıdır. (V)'teki «therefore» eksikliğin sonuçlarına dayanır: (I), (II), (IV) ve (V) bir zincir oluşturur.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-1-q07",
+              "kind": "irrelevantSentence",
+              "order": 6,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) The Nile flooded every year, depositing fertile silt along its banks. (II) Ancient Egyptian farmers planned their planting around the flood. (III) Priests measured the height of the water to predict the size of the coming harvest. (IV) A high flood promised plenty, while a low one warned of hunger. (V) Modern travellers often choose to explore Egypt by boat.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf Nil taşkınının eski Mısır tarımına etkisini anlatıyor. (V) günümüz gezginlerinden söz eder ve konuyla ilgisizdir. (I)-(IV) taşkının tarım ve rahiplerin ölçümleri üzerinden konuyu sürdürür.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-1-q08",
+              "kind": "irrelevantSentence",
+              "order": 7,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Volunteers who exercised three times a week reported better sleep. (II) They also fell asleep faster and woke less often during the night. (III) The researchers monitored each participant's heart rate throughout the study. (IV) The first modern Olympic Games were held in Athens in 1896. (V) Yet the improvement appeared only after several weeks of regular activity.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf egzersizin uyku üzerindeki etkisini araştıran bir çalışmayı anlatıyor. (IV) olimpiyat tarihinden söz eder ve konu dışıdır. (III) çalışmanın yöntemini, (V) ise sonucun zamanlamasını verir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-irrelevant-2",
+          "order": 4,
+          "estimatedDurationMinutes": 9,
+          "title": "Konu Dışı Cümle 2",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-irrelevant-2",
+              "type": "practiceSet",
+              "headword": "Irrelevant Sentence 2",
+              "frequencyRank": 3041,
+              "baseDifficulty": 0.55,
+              "definition": "Paragrafın bütünlüğünü bozan cümleyi bulmaya dayanan sekiz soru.",
+              "exampleSentences": [],
+              "translationTR": "Konu Dışı Cümle 2",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-irrelevant-2-q01",
+              "kind": "irrelevantSentence",
+              "order": 0,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) The printing press allowed identical copies of a text to be produced quickly. (II) Ideas could therefore travel across Europe far faster than before. (III) Gutenberg's own workshop went bankrupt soon after his Bible was printed. (IV) Reformers used cheap pamphlets to reach audiences that sermons could not. (V) Scholars in distant cities could now compare and criticise each other's arguments.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf matbaanın fikirlerin yayılmasını hızlandırmasına odaklanıyor. (III) Gutenberg'in atölyesinin iflasını anlatır; matbaayla ilgili olsa da fikirlerin yayılması odağının dışındadır. Diğer dört cümle yayılma hızını ve etkisini anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-2-q02",
+              "kind": "irrelevantSentence",
+              "order": 1,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Trees lower the temperature of city streets by providing shade. (II) Their leaves also release water vapour, which cools the surrounding air. (III) Cooler streets encourage people to walk rather than drive. (IV) The oldest tree in the city is said to be more than four hundred years old. (V) Less driving in turn reduces traffic noise and air pollution.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf ağaçların şehirleri serinletmesi ve bunun sonuçları üzerine kurulu. (IV) en yaşlı ağacın yaşını verir ve serinletme zincirine katkı yapmaz. (I), (II), (III) ve (V) serinlik, yürüme ve kirlilik zincirini oluşturur.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-2-q03",
+              "kind": "irrelevantSentence",
+              "order": 2,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Vaccination protects a community when enough of its members are immune. (II) The disease then finds it hard to spread from person to person. (III) This effect is known as herd immunity. (IV) Edward Jenner tested the first smallpox vaccine in 1796. (V) People who cannot be vaccinated, such as newborn babies, are protected indirectly.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf sürü bağışıklığının nasıl çalıştığını açıklıyor. (IV) ilk çiçek aşısının tarihini verir ve mekanizmayı açıklamaz. (I), (II), (III) ve (V) bağışıklığın topluma yayılan etkisini anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-2-q04",
+              "kind": "irrelevantSentence",
+              "order": 3,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Delays at airports often begin with a single late flight. (II) Modern aircraft are designed to burn less fuel than those of previous decades. (III) The aircraft arrives behind schedule and leaves behind schedule as well. (IV) Passengers on connecting flights may then miss their departure. (V) Each missed connection forces the airline to rebook travellers and adjust crews.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Paragraf gecikmenin zincirleme yayılmasını anlatıyor. (II) uçakların yakıt tüketimini anlatır ve gecikme zincirinin dışındadır. (I), (III), (IV) ve (V) gecikmenin adım adım nasıl büyüdüğünü gösterir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-2-q05",
+              "kind": "irrelevantSentence",
+              "order": 4,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Supermarkets place everyday items such as milk at the back of the store. (II) Customers must therefore walk past tempting displays on the way. (III) Products that shops want to promote are placed at eye level. (IV) Small, inexpensive items are set beside the tills to encourage last-minute purchases. (V) Many supermarkets also offer home delivery through a mobile application.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf mağaza yerleşiminin alışverişi nasıl yönlendirdiğini anlatıyor. (V) eve teslimatı anlatır ve mağaza içi yerleşimin dışındadır. (I)-(IV) ürünlerin yerleştirilme stratejilerini sayar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-2-q06",
+              "kind": "irrelevantSentence",
+              "order": 5,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Inflation is a sustained rise in the general level of prices. (II) It can occur when demand for goods grows faster than supply. (III) Rising costs of raw materials may also push prices upward. (IV) Central banks often respond by raising interest rates to slow spending. (V) Historically, the first paper money appeared in China.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf enflasyonun tanımı, nedenleri ve merkez bankası tepkisi üzerine. (V) kâğıt paranın tarihini verir ve enflasyon mekanizmasının dışındadır. (I)-(IV) tanım, iki neden ve tepkiyi verir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-2-q07",
+              "kind": "irrelevantSentence",
+              "order": 6,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) People who sleep too little find it harder to concentrate. (II) Their reaction times slow down, which makes driving dangerous. (III) The average adult spends about a third of life asleep. (IV) Lack of sleep also weakens the body's defences against infection. (V) Long-term deprivation has been linked to heart disease.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf uykusuzluğun zararlarını sayıyor. (III) yetişkinin uyku süresini verir ve zararlar zincirine girmez. (I), (II), (IV) ve (V) dikkat, refleks, bağışıklık ve kalp hastalığı sonuçlarını anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-2-q08",
+              "kind": "irrelevantSentence",
+              "order": 7,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) In a democracy, citizens choose their leaders through regular elections. (II) Every eligible adult is entitled to cast one vote. (III) Votes are counted openly so that the result can be checked. (IV) The parliament building was designed by a famous architect in the 1920s. (V) Candidates who lose are expected to accept the outcome peacefully.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf demokratik seçimlerin ilkelerini sayıyor. (IV) parlamento binasının mimarını anlatır ve seçim ilkelerinin dışındadır. (I), (II), (III) ve (V) oy hakkı, açık sayım ve sonucu kabul etmeyi anlatır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-irrelevant-3",
+          "order": 5,
+          "estimatedDurationMinutes": 9,
+          "title": "Konu Dışı Cümle 3",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-exam-card-irrelevant-3",
+              "type": "practiceSet",
+              "headword": "Irrelevant Sentence 3",
+              "frequencyRank": 3042,
+              "baseDifficulty": 0.6,
+              "definition": "Paragrafın bütünlüğünü bozan cümleyi bulmaya dayanan sekiz soru.",
+              "exampleSentences": [],
+              "translationTR": "Konu Dışı Cümle 3",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-irrelevant-3-q01",
+              "kind": "irrelevantSentence",
+              "order": 0,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) When a bank lends money, it charges interest on the loan. (II) The rate reflects the risk that the borrower may not repay. (III) A river bank can be strengthened with stones to prevent erosion. (IV) Borrowers with a poor credit history therefore pay higher rates. (V) Competition between lenders can push rates down.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf bankanın kredi faizini anlatıyor. (III) nehir kıyısının taşla güçlendirilmesinden söz eder; «bank» sözcüğünü paylaşsa da konuyla ilgisizdir. Diğer dört cümle faizin belirleyicilerini anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-3-q02",
+              "kind": "irrelevantSentence",
+              "order": 1,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Gardeners often store their tools in a wooden shed. (II) A leaf captures sunlight and uses it to produce sugar. (III) Its green colour comes from a pigment called chlorophyll. (IV) In autumn the pigment breaks down, revealing yellow and orange colours. (V) Trees then shed their leaves to save energy through the winter.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Paragraf yaprağın işlevi ve sonbahardaki değişimi üzerine. (I) bahçıvanların alet kulübesinden söz eder; «shed» sözcüğünü paylaşan (V) ile bağı yalnızca sözcüktür. (II)-(V) yaprağın işlevini ve mevsimsel değişimini anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-3-q03",
+              "kind": "irrelevantSentence",
+              "order": 2,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Memory training techniques often rely on visual images. (II) A learner may imagine walking through a familiar house and placing each item to be remembered in a different room. (III) Later, walking through the same rooms in the mind brings each item back in order. (IV) The house itself was sold at auction for a record price. (V) Competitors in memory championships use this method to recall long sequences of cards.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Paragraf bellek sarayı tekniğini anlatıyor. (IV) evin müzayedede satılmasından söz eder; «house» sözcüğünü paylaşsa da tekniğin açıklamasına katkı yapmaz. Diğer dört cümle tekniği ve kullanımını anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-3-q04",
+              "kind": "irrelevantSentence",
+              "order": 3,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) The exchange rate tells us how much of one currency is needed to buy another. (II) Students often exchange notes before exams. (III) When a country's exports become more popular, demand for its currency rises. (IV) A stronger currency makes imported goods cheaper. (V) Exporters, however, may find that their products become more expensive abroad.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Paragraf döviz kurunun ithalat ve ihracata etkisini anlatıyor. (II) öğrencilerin not paylaşmasından söz eder; «exchange» sözcüğünü paylaşsa da kurla ilgisizdir. (I), (III), (IV) ve (V) kur ve ticaret zincirini oluşturur.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-3-q05",
+              "kind": "irrelevantSentence",
+              "order": 4,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) Artificial lighting in cities makes it difficult to see the stars. (II) Astronomers therefore build observatories far from urban areas. (III) Bright streetlights also confuse birds, which navigate by the night sky. (IV) Some towns now use shielded lamps that direct light downward. (V) A light meal in the evening is thought to help people sleep well.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf ışık kirliliğini ve çözümlerini anlatıyor. (V) akşam yemeğinin hafifliğinden söz eder; «light» sözcüğünü paylaşsa da kirlilikle ilgisizdir. (I)-(IV) kirliliğin etkilerini ve önlemlerini sayar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-3-q06",
+              "kind": "irrelevantSentence",
+              "order": 5,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) A court must decide whether the evidence presented is reliable. (II) Witnesses swear to tell the truth before giving their accounts. (III) The tennis court at the club is resurfaced every spring. (IV) The judge may exclude testimony that was obtained unfairly. (V) The jury then weighs the remaining evidence before reaching a verdict.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Paragraf mahkemede delil değerlendirmesini anlatıyor. (III) tenis kortunun yenilenmesinden söz eder; «court» sözcüğünü paylaşsa da yargılama sürecinin dışındadır. Diğer dört cümle süreci adım adım verir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-3-q07",
+              "kind": "irrelevantSentence",
+              "order": 6,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) The rise in oil prices last year worried many consumers. (II) Yeast is a living organism that feeds on sugar. (III) When mixed into dough, it releases gas that makes the bread rise. (IV) Bakers let the dough rest for hours so that the yeast has time to work. (V) The heat of the oven then kills the yeast and fixes the shape of the loaf.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Paragraf mayanın ekmeği kabartmasını anlatıyor. (I) petrol fiyatlarındaki artıştan söz eder; «rise» sözcüğünü paylaşsa da ekmek yapımıyla ilgisizdir. (II)-(V) mayanın rolünü adım adım anlatır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-irrelevant-3-q08",
+              "kind": "irrelevantSentence",
+              "order": 7,
+              "prompt": "Which numbered sentence does not fit the paragraph? (I) A stock exchange allows investors to buy and sell shares in companies. (II) Prices rise when many people wish to buy and fall when many wish to sell. (III) Investors watch company announcements closely for news that may move prices. (IV) Sudden falls can spread quickly when investors panic. (V) The cook added a spoonful of stock to the soup.",
+              "options": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Paragraf borsanın işleyişini anlatıyor. (V) çorbaya konan et suyundan söz eder; «stock» sözcüğünü paylaşsa da borsayla ilgisizdir. (I)-(IV) alım satım, fiyat hareketleri ve panik etkisini anlatır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-dialogue-1",
+          "order": 6,
+          "estimatedDurationMinutes": 8,
+          "title": "Diyalog Tamamlama 1",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-exam-card-dialogue-1",
+              "type": "practiceSet",
+              "headword": "Dialogue Completion 1",
+              "frequencyRank": 3050,
+              "baseDifficulty": 0.5,
+              "definition": "Diyalogdaki eksik konuşmayı tamamlamaya dayanan sekiz soru.",
+              "exampleSentences": [],
+              "translationTR": "Diyalog Tamamlama 1",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-dialogue-1-q01",
+              "kind": "dialogueCompletion",
+              "order": 0,
+              "prompt": "Student: Professor, I couldn't finish the survey analysis before the deadline.\nProfessor: ----\nStudent: I'll send you the revised draft by Friday.",
+              "options": [
+                "That's understandable, but please tell me earlier next time if you expect a delay.",
+                "Then I'll assume you have already submitted the final draft.",
+                "The deadline was extended because most students finished early.",
+                "You should have analysed the survey before it was even conducted.",
+                "In that case, no further work is required for this course."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Öğrenci gecikmeyi kabul edip düzeltilmiş taslağı Cuma günü göndereceğini söylüyor; buna doğal yanıt anlayış gösterip bir dahaki sefere önceden haber istemektir: (A). (B) teslim edildiğini varsayar, oysa öğrenci teslim etmedi. (C) uzatma olduğunu söyler ve öğrencinin cevabıyla uyuşmaz. (D) anlamsız bir eleştiridir. (E) ek iş gerekmediğini söyler ve öğrencinin taslak sözüyle çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-1-q02",
+              "kind": "dialogueCompletion",
+              "order": 1,
+              "prompt": "Librarian: I'm afraid this book is already checked out.\nStudent: ----\nLibrarian: Yes, I can reserve it for you, and you'll get an email when it's back.",
+              "options": [
+                "Then I'll return it tomorrow.",
+                "Did you write this book yourself?",
+                "The library closes at nine, doesn't it?",
+                "Could I put my name on a waiting list for it?",
+                "I've already read it twice this week."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Kütüphaneci «rezerve edebilirim» diyor; bu cevabı doğuran soru bekleme listesi isteğidir: (D). (A) kitap zaten öğrencide değil, ödünçte olan başkasındadır. (B) ve (C) ile (E) kütüphanecinin cevabına uymayan sorular ya da ifadelerdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-1-q03",
+              "kind": "dialogueCompletion",
+              "order": 2,
+              "prompt": "Advisor: Have you decided which modules to take next term?\nStudent: ----\nAdvisor: Then let's look at the timetable and see whether they overlap.",
+              "options": [
+                "Yes, I finished all my modules last year.",
+                "I'm still choosing between two options in economics and statistics.",
+                "I don't think the timetable is important.",
+                "My advisor told me to stay at home.",
+                "The exams were easier than I expected."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Danışman «o zaman zaman çizelgesine bakalım» diyor; bu, öğrencinin iki seçenek arasında kaldığını gösterir: (B). (A) modülleri bitirdiğini söyler ve karar sorusuyla uyuşmaz. (C) çizelgeyi önemsiz sayar. (D) ve (E) konuyla ilgisizdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-1-q04",
+              "kind": "dialogueCompletion",
+              "order": 3,
+              "prompt": "Student: I didn't understand the second question on the assignment.\nTutor: ----\nStudent: Oh, I see. I was looking at the wrong data set.",
+              "options": [
+                "That question was removed from the assignment last week.",
+                "You should submit your assignment before reading it.",
+                "The data set was collected in 1990.",
+                "Then you must have understood everything.",
+                "Let's read it together, and tell me which part is unclear."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Öğrenci yanlış veri setine baktığını fark ediyor; bu, birlikte okuma ve belirsiz kısmı sorma yoluyla olur: (E). (A) sorunun kaldırıldığını söylüyor, öğrencinin fark etmesiyle çelişir. (B) mantıksızdır. (C) konu dışıdır. (D) öğrencinin sorununu yok sayar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-1-q05",
+              "kind": "dialogueCompletion",
+              "order": 4,
+              "prompt": "Student A: The seminar starts in ten minutes.\nStudent B: ----\nStudent A: Don't worry, we'll walk quickly and be there on time.",
+              "options": [
+                "Good, I have a lot of time to relax.",
+                "The seminar was cancelled yesterday.",
+                "Already? I'm afraid I'm still working on my slides.",
+                "I'll see you at the seminar next year.",
+                "That is exactly what the lecturer said."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Don't worry» yanıtı bir kaygıya cevap veriyor; kaygıyı doğuran cümle henüz hazır olmama: (C). (A) rahat olduğunu söyler ve «don't worry» ile uyuşmaz. (B) iptal edildiğini söyler ve acele etmeyi gereksiz kılar. (D) gelecek yıla atıfta bulunur.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-1-q06",
+              "kind": "dialogueCompletion",
+              "order": 5,
+              "prompt": "Lecturer: Would anyone like to comment on the reading?\nStudent: ----\nLecturer: An interesting point; can you support it with an example from the text?",
+              "options": [
+                "I think the author underestimates the role of local governments.",
+                "I have not decided whether to go to the cafeteria.",
+                "The lecturer already commented on it yesterday.",
+                "Can you repeat the date of the exam?",
+                "Yes, I would like a comment from you instead."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Hoca «ilginç bir nokta» diyor ve örnek istiyor; öğrenci bir görüş öne sürmüş olmalı: (A). (B) konu dışıdır. (C) hocanın zaten yorumladığını söyler ve görüşle uyuşmaz. (D) sınav tarihini sorar. (E) yorumu hocadan ister.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-1-q07",
+              "kind": "dialogueCompletion",
+              "order": 6,
+              "prompt": "Student: Could you tell me how to reach the computer lab?\nAssistant: ----\nStudent: Great, thanks; I'll go there now.",
+              "options": [
+                "It was closed for repairs during the summer of 2010.",
+                "You should have arrived at nine o'clock.",
+                "Computers are more expensive than they used to be.",
+                "It's on the second floor, right next to the lifts.",
+                "I never go to the lab myself."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Öğrenci «şimdi oraya gideceğim» diyor; bu, yol tarifi veren yanıttan sonra gelir: (D). (A) geçmişteki bir kapanışı anlatır ve yol tarifi vermez. (B) öğrenciyi eleştirir. (C) bilgisayar fiyatlarına kayar. (E) tarif vermez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-1-q08",
+              "kind": "dialogueCompletion",
+              "order": 7,
+              "prompt": "Professor: Your essay has a strong argument, but the conclusion is weak.\nStudent: ----\nProfessor: Yes, a short summary of your main points and one clear recommendation would help.",
+              "options": [
+                "I did not write an essay this term.",
+                "Could you suggest how I might strengthen it?",
+                "The conclusion is the strongest part, isn't it?",
+                "Then I will delete the argument.",
+                "My computer was repaired last week."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Hoca «kısa bir özet ve tek bir öneri yardımcı olur» diyor; bu, öğrencinin iyileştirme önerisi istediğini gösterir: (B). (A) makale yazmadığını söyler ve hocanın yorumuyla çelişir. (C) sonucun en güçlü kısım olduğunu iddia eder. (D) güçlü argümanı silmeyi önerir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-dialogue-2",
+          "order": 7,
+          "estimatedDurationMinutes": 8,
+          "title": "Diyalog Tamamlama 2",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-exam-card-dialogue-2",
+              "type": "practiceSet",
+              "headword": "Dialogue Completion 2",
+              "frequencyRank": 3051,
+              "baseDifficulty": 0.55,
+              "definition": "Diyalogdaki eksik konuşmayı tamamlamaya dayanan sekiz soru.",
+              "exampleSentences": [],
+              "translationTR": "Diyalog Tamamlama 2",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-dialogue-2-q01",
+              "kind": "dialogueCompletion",
+              "order": 0,
+              "prompt": "Customer: I ordered this jacket in blue, but you sent me a green one.\nAssistant: ----\nCustomer: Thank you. Can you send the correct one by Friday?",
+              "options": [
+                "That colour is always more popular than blue.",
+                "You have not paid for the jacket yet.",
+                "I'm very sorry about that; I'll arrange an exchange straight away.",
+                "Green is the only colour we sell.",
+                "I have never seen that jacket before."
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Müşteri teşekkür edip doğru ürünü Cuma'ya kadar istiyor; bu, satıcının özür dileyip değişim önerdiğini gösterir: (C). (A) rengin popüler olduğunu söyler ve şikâyeti geçiştirir. (B) ödeme yapılmadığını iddia eder. (D) yalnızca yeşil sattıklarını söyler. (E) ürünü hiç görmediğini söyler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-2-q02",
+              "kind": "dialogueCompletion",
+              "order": 1,
+              "prompt": "Manager: The client has asked us to move the meeting to Thursday.\nColleague: ----\nManager: Then let's ask whether Friday morning is possible.",
+              "options": [
+                "Thursday is the day after Friday.",
+                "I have already attended that meeting.",
+                "The client never asks for anything.",
+                "Then the meeting is cancelled forever.",
+                "Unfortunately, I'm attending a conference on Thursday."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Müdür «o zaman Cuma sabahını soralım» diyor; bu, çalışanın Perşembe günü müsait olmadığını söylediğini gösterir: (E). (A) günlerin sırasını yanlış verir. (B) toplantının yapılmış olduğunu söyler. (C) müşterinin hiç istekte bulunmadığını iddia eder. (D) toplantıyı sonsuza dek iptal eder.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-2-q03",
+              "kind": "dialogueCompletion",
+              "order": 2,
+              "prompt": "Receptionist: Do you have an appointment?\nVisitor: ----\nReceptionist: Certainly; please take a seat and Ms Ozturk will see you shortly.",
+              "options": [
+                "Yes, at ten o'clock with Ms Ozturk.",
+                "No, I want to leave now.",
+                "I'm sorry, I don't work here.",
+                "My appointment was yesterday.",
+                "I think it is a lovely building."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Resepsiyonist «lütfen oturun, Bayan Öztürk sizi birazdan kabul edecek» diyor; bu, randevusu olduğunu gösterir: (A). (B) ayrılmak istediğini söyler. (C) ve (D) ile (E) soruyu yanıtlamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-2-q04",
+              "kind": "dialogueCompletion",
+              "order": 3,
+              "prompt": "Colleague A: I can't open the shared document.\nColleague B: ----\nColleague A: That worked; I can see it now.",
+              "options": [
+                "You should stop reading it.",
+                "The document was printed yesterday.",
+                "Sharing is not a useful feature.",
+                "Try logging out and signing in again.",
+                "I have never used a computer."
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«That worked» bir çözüm önerisinin işe yaradığını gösterir: (D). (A) okumayı bırakmayı önerir. (B) ve (C) ile (E) çözüm sunmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-2-q05",
+              "kind": "dialogueCompletion",
+              "order": 4,
+              "prompt": "Interviewer: Why do you want to work for our company?\nCandidate: ----\nInterviewer: That's helpful; can you give an example of a project you led?",
+              "options": [
+                "I'm not sure that I want to work at all.",
+                "I admire your focus on sustainable design, which matches my own experience.",
+                "Your company is on the same street as my flat, nothing more.",
+                "The salary is the only thing I know about the company.",
+                "I applied to every company in the city."
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Mülakatçı «yararlı» diyor ve örnek proje soruyor; bu, adayın şirketle bağını gösteren bir yanıt verdiğini gösterir: (B). (A) çalışmak istemediğini söyler. (C) ve (D) ve (E) şirketle içerik bağı kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-2-q06",
+              "kind": "dialogueCompletion",
+              "order": 5,
+              "prompt": "Travel agent: The hotel is fully booked in July.\nClient: ----\nAgent: August is possible, and there is a discount for early bookings.",
+              "options": [
+                "In that case, we'll definitely stay in July.",
+                "I have already stayed there in July.",
+                "Then could we travel a month later?",
+                "Is the hotel located in the mountains?",
+                "August comes before July, doesn't it?"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Acente «Ağustos mümkün» diyor; bu, müşterinin bir ay sonrasını sorduğunu gösterir: (C). (A) Temmuz'da kalacağını söyler ve otelin dolu olmasıyla çelişir. (B) geçmişte kaldığını söyler. (D) ve (E) Ağustos yanıtına uymaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-2-q07",
+              "kind": "dialogueCompletion",
+              "order": 6,
+              "prompt": "Team leader: We are two days behind schedule.\nEngineer: ----\nTeam leader: Good, then let's meet tomorrow to review the plan.",
+              "options": [
+                "That means we finished early.",
+                "Schedules are not important in engineering.",
+                "I did not know what a schedule was.",
+                "Then we should cancel the project.",
+                "I suggest we add two more people for the testing stage."
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Takım lideri «planı gözden geçirelim» diyor; bu, mühendisin bir çözüm önerdiğini gösterir: (E). (A) erken bittiğini söyler ve gecikmeyle çelişir. (B) takvimi önemsiz sayar. (C) anlamsız bir yanıttır. (D) projeyi iptal etmeyi önerir ve «gözden geçirelim» ile uyuşmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-dialogue-2-q08",
+              "kind": "dialogueCompletion",
+              "order": 7,
+              "prompt": "Caller: I'd like to cancel my subscription.\nAgent: ----\nCaller: No, it's just too expensive for me.",
+              "options": [
+                "May I ask whether there is a problem with the service?",
+                "You have not yet subscribed to anything.",
+                "We have never sent you a bill.",
+                "Thank you for renewing it for another year.",
+                "Subscriptions can be cancelled only in person."
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Arayan «hayır, benim için çok pahalı» diyor; bu, temsilcinin bir sorun olup olmadığını sorduğunu gösterir: (A). (B) abone olmadığını söyler. (C) fatura göndermediklerini iddia eder. (D) yenilediği için teşekkür eder ve iptal isteğiyle çelişir. (E) iptal yolunu kısıtlar ve arayanın cevabına uymaz.",
+              "passageID": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }
