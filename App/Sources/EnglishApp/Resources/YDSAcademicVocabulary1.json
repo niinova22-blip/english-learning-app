@@ -14664,6 +14664,1132 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yds-tech-unit-exam-management",
+      "theme": "Sınav yönetimi ve zaman",
+      "order": 14,
+      "lessons": [
+        {
+          "id": "yds-tech-time-allocation",
+          "order": 0,
+          "estimatedDurationMinutes": 7,
+          "title": "Sınav Yönetimi: Zaman Payı",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-time-allocation",
+              "type": "grammarPoint",
+              "headword": "Exam Management: Time Allocation",
+              "frequencyRank": 4010,
+              "baseDifficulty": 0.5,
+              "definition": "Sınav süresini soru tiplerine akıllıca dağıtma tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Sınav Yönetimi: Zaman Payı",
+              "collocations": [],
+              "explanationTR": "YDS gibi uzun bir sınavda başarı, bildiğin bilgiyi zamanında kullanabilmene bağlıdır. Zaman payı planı, bilgin kadar önemlidir.\n\n• Önce süreyi öğren: toplam soru sayısını ve sınav süresini kılavuzdan kontrol et (sınav süresini kılavuzdan öğren). Süreyi soru sayısına bölersen soru başına ortalama zamanı bulursun; bu, tempo ölçünün olur.\n\n• Hızlı soru tiplerini önce çöz: kısa cümle tamamlama, gramer ve kelime soruları çabuk cevaplanır. Uzun okuma parçalarını daha sonraya bırakmak, kolay puanları güvenceye alır.\n\n• Bir soruya sınır koy: bir soruda takıldıysan işaretle ve geç. Sonra kalan zamanla dönersin. Tek bir soruya beş dakika harcamak, birkaç kolay sorudan vazgeçmek demektir.\n\n• Son dakikaları koru: cevap kâğıdını işaretlemek için birkaç dakikanı ayır. Doğru bildiğin cevabı kâğıda geçirememek en pahalı hatadır.\n\nEn sık düşülen tuzak: zor bir soruda inatlaşmak. Kaybettiğin süre, sonraki bilebileceğin soruların hakkını yer.\n\nÖrnek: Bir cloze sorusunda iki şık arasında kaldıysan, soruyu işaretle, kalan sorulara geç ve süre kalırsa geri dön."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-time-allocation-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Sınava girmeden önce soru başına ortalama süreni hesaplamak istiyorsun. Doğru yol hangisidir?",
+              "options": [
+                "Süreyi tahmin edip kılavuzdaki sayıları görmezden gelmek",
+                "Bütün soruları eşit derecede zor kabul edip süreyi hiç bölmemek",
+                "Toplam süreyi ve soru sayısını kılavuzdan öğrenip süreyi soru sayısına bölmek",
+                "Sadece okuma parçalarına süre ayırıp diğer soruları sona bırakmak",
+                "Arkadaşlarının önceki sınavda kullandığı süreyi olduğu gibi almak"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Tempo, resmî toplam süre ile soru sayısından çıkar: (C). (A) yanlış bilgiyle plan yapmaktır. (B) soru tiplerinin farklı sürede çözüldüğünü yok sayar. (D) diğer soru tiplerine hiç zaman bırakmaz. (E) geçmiş sınavların koşulları farklı olabilir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-time-allocation-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Sınavda 12. soruya dört dakikadır bakıyorsun ve iki şık arasında kaldın. Ne yapmalısın?",
+              "options": [
+                "Soruyu işaretleyip sonraki sorulara geçmek, süre kalırsa dönmek",
+                "Cevabı bulana kadar bu soruda kalmak, çünkü her soru aynı puandır",
+                "Sınavı bırakıp süre bitene kadar beklemek",
+                "Sonraki soruları okumadan hepsine aynı şıkkı işaretlemek",
+                "Bu soruyu boş bırakıp bir daha hiç bakmamak"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "İşaretleyip ilerlemek, sonraki bilebileceğin sorular için zaman bırakır: (A). (B) bir soruya süreyi harcatır; sonraki sorular zarar görür. (C) zaten var olan süreyi çöpe atar. (D) okumadan işaretlemek bilgini kullanmaz. (E) süre kalsa bile soruya dönme fırsatını yok eder.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-time-allocation-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Sınavda 45 dakikan kaldı ve önünde henüz çözmediğin iki uzun okuma parçası ile birkaç kısa gramer sorusu var. En mantıklı sıra hangisidir?",
+              "options": [
+                "Önce en uzun okuma parçasına başlayıp bütün süreyi ona ayırmak",
+                "Kısa soruları tamamen atlayıp yalnızca okuma parçalarıyla ilgilenmek",
+                "Hepsini plansızca, rastgele bir sırayla çözmek ve ilerlemek",
+                "Önce kısa soruları çözüp kalan süreyi okumaya ayırmak",
+                "Okuma parçalarını atlayıp yalnızca kısa gramer sorularına odaklanmak"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Kısa sorular az sürede puan getirir: (D). (A) uzun parçada takılırsan kolay soruları da kaybedersin. (B) kolay puanları bırakır. (C) plansız çalışmak süreyi verimsiz harcar. (E) okuma parçalarının puanından vazgeçmek demektir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-time-allocation-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "Sınavın bitmesine iki dakika kaldı ve bazı sorulara henüz cevap işaretlemedin. Ne yapmalısın?",
+              "options": [
+                "Kalan iki dakikada tek bir uzun soruyu ayrıntılı çözmeye çalışmak",
+                "Kalan soruları hızlıca gözden geçirip en makul şıkkı işaretlemek",
+                "Cevap kâğıdına hiç dokunmadan beklemek",
+                "Önceki bütün cevaplarını gözden geçirip hepsini değiştirmek",
+                "Sınavı erken bitirdiğini söyleyip kâğıdı teslim etmek"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Süre bitmeden cevap kâğıdında boş bırakılmış soru kalmamalı; hızlıca değerlendirip işaretlemek mantıklıdır: (B). (A) iki dakikada tek soru için fazla ağırdır. (C) kâğıdı boş bırakmak. (D) somut gerekçe olmadan cevap değiştirmek daha çok risk taşır. (E) ise sınavı bitirmek demek, hâlbuki süre hâlâ var.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-time-allocation-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Bir arkadaşın «her soruya eşit süre ayırırım, hangi tip olduğu fark etmez» diyor. Bu yaklaşım için ne söylenebilir?",
+              "options": [
+                "Doğru bir yaklaşımdır, çünkü tüm soru tipleri aynı sürede çözülür",
+                "Yanlıştır, çünkü sınavda süre sınırı hiç bulunmaz",
+                "Yanlıştır, çünkü okuma parçaları hemen hemen hiç süre gerektirmez",
+                "Doğrudur, çünkü kısa sorular aslında en uzun süren sorulardır",
+                "Soru tipleri farklı süre ister, bu yüzden esnek plan gerekir"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Farklı soru tipleri farklı sürede çözülür, bu yüzden esnek plan gerekir: (E). (A) soru tiplerinin aynı sürede çözülemeyeceğini görmezden gelir. (B) sınavın süre sınırı olduğunu yok sayar. (C) okuma parçalarının en çok zaman alan tip olduğunu unutur. (D) mantığı tersine çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-time-allocation-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Zaman planı yapmadan girdiğin bir deneme sınavında son okuma parçasına yalnızca üç dakika kaldı. Bir sonraki denemede ne yapmalısın?",
+              "options": [
+                "Daha yavaş okuyup hiçbir soruyu atlamamak",
+                "Yalnızca en zor soruların üzerinde uzun süre durmak",
+                "Süreyi soru tiplerine önceden dağıtıp kontrol noktaları belirlemek",
+                "Denemeyi hiç bitirmeden bırakmak",
+                "Süreyi bilmemeye devam etmek, çünkü baskı verimi artırır"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Kontrol noktaları (örneğin yarıda hangi soru tipinde olmak istediğin), temponu görmeni sağlar: (C). (A) zaman sorununu büyütür. (B) yoğun ilgi verilen zor sorular süreyi tüketir. (D) deneme bitirilmezse hiçbir şey öğrenilmez. (E) plansızlık baskıyı artırır, verimi düşürür.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-elimination",
+          "order": 1,
+          "estimatedDurationMinutes": 7,
+          "title": "Sınav Yönetimi: Eleme ve Tahmin",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-elimination",
+              "type": "grammarPoint",
+              "headword": "Exam Management: Elimination and Guessing",
+              "frequencyRank": 4011,
+              "baseDifficulty": 0.5,
+              "definition": "Şıkları eleyerek ve bilinçli tahminle cevaba yaklaşma tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Sınav Yönetimi: Eleme ve Tahmin",
+              "collocations": [],
+              "explanationTR": "Emin olmadığın bir soruda bile şansını artırabilirsin. Yöntem, doğruyu aramak yerine yanlışları gerekçeyle elemektir.\n\n• Gerekçeli ele: bir şıkkı yalnızca «bana yanlış geldi» diye değil, adlandırabileceğin bir nedenle ele (zaman uyumsuzluğu, yanlış edat, metinle çelişki, anlam kayması). Nedenini söyleyemiyorsan şık henüz elenmemiştir.\n\n• Son ikiyi karşılaştır: iki şık kaldığında ikisini de soru kökünde dene ve farkın nerede olduğunu bul. Genellikle tek bir sözcük ya da ayrıntı ayırır.\n\n• Ele, sonra tahmin et: şıklardan birkaçını elemeden rastgele işaretlemek yerine, önce elenebilenleri ele. Kalan şıklar arasından seçmek şansını yükseltir. Değerlendirme kuralını ÖSYM kılavuzundan oku ve tahmin kararını ona göre ver.\n\n• Cevabı sebepsiz değiştirme: ilk seçimini yalnızca somut bir hata bulursan değiştir; «acaba» duygusu yeterli sebep değildir.\n\nEn sık düşülen tuzak: iyi görünen ilk şıkkı okuyup diğerlerini hiç incelememek.\n\nÖrnek: «The report was ---- by the committee.» sorusunda (A) prepared, (B) prepare, (C) preparing. Özneyle çalışmayan «prepare» ve «preparing» biçimleri edilgen yapıya uymadığı için elenir."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-elimination-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Bir soruda üç şıkkı gerekçeyle eledin ve iki şık kaldı. Doğru sonraki adım hangisidir?",
+              "options": [
+                "Yazımı daha kısa olanı seçip ilerlemek",
+                "İki şıkkı soru kökünde tek tek deneyip aralarındaki farkı bulmak",
+                "İki şıkkı da yanlış sayıp soruyu iptal etmek",
+                "Şıkların sırasına bakıp alfabetik olarak birini seçmek",
+                "Elediğin şıkları bir daha kontrol etmeden ilerlemek"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Son iki şıkkı köke karşı denemek, farkı ortaya çıkarır: (B). (A) yazım uzunluğu içerikle ilgisizdir. (C) ise soruyu boşa harcar. (D) sıra bilgisi anlama dayalı değildir. (E) zaten kalan iki şıkkı ayırmaya yardım etmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-elimination-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "«The new policy was widely ---- by the public.» boşluğuna hangi şık girer?",
+              "options": [
+                "welcome",
+                "welcoming",
+                "welcomed",
+                "welcomes",
+                "to welcome"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«was widely ---- by» edilgen yapıdır ve past participle ister: (C). (A) ve (E) fiilin yalın biçimleridir, edilgen yapıya uymaz. (B) «-ing» biçimi olup etken anlam taşır. (D) üçüncü tekil kişi biçimidir, «was» ile yan yana gelemez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-elimination-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Bir arkadaşın cevabını işaretledikten sonra «acaba yanlış mı yaptım?» diye şüpheleniyor, ama somut bir hata görmüyor. Ne önerirsin?",
+              "options": [
+                "Somut bir gerekçe bulamıyorsa ilk seçimini değiştirmemesini",
+                "Her zaman ilk seçimi değiştirmesini, çünkü ilk fikir genellikle yanlıştır",
+                "Bütün cevaplarını boş bırakıp yeniden yazmasını",
+                "Kâğıdı silip başka bir kalemle yeniden doldurmasını",
+                "Cevabı arkadaşlarına sorup çoğunluğa uymasını"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Şüphe tek başına sebep değildir; somut hata bulunmadan değiştirmek çoğu zaman doğruyu bozar: (A). (B) kurala dayanmayan genel bir inançtır. (C) ve (D) zaman kaybettirir. (E) sınavda arkadaşa sormak mümkün ve doğru değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-elimination-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "«She insisted ---- the meeting be postponed.» boşluğuna hangi şık girer?",
+              "options": [
+                "which",
+                "on",
+                "to",
+                "that",
+                "what"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«insist that + clause» kalıbında «that» yan cümleyi bağlar: (D). (A) «which» bu yapıda kendi başına yan cümle kurmaz. (B) «on» ile «insist on doing» gelir, ama arkasından bir cümle gelmez. (C) mastar ile eylem sonrası kalıba uymaz. (E) soru sözcüğüdür.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-elimination-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Emin olmadığın bir soruda tahmin etmeyi düşünüyorsun. En mantıklı yaklaşım hangisidir?",
+              "options": [
+                "Hiçbir şıkkı incelemeden rastgele birini işaretlemek",
+                "Bütün sorularda hep aynı harfi işaretleyip ilerlemek",
+                "Kendi favori harfini seçip hiç düşünmemek",
+                "Soruyu yanıtlamadan geçip cevap kâğıdını boş bırakmak",
+                "Önce gerekçeyle elenebilenleri eleyip kalanlardan seçmek"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Şık sayısı azaldıkça doğru seçme şansı yükselir; bunun için önce elemek gerekir: (E). (A) hiçbir bilgiyi kullanmaz. (B) ve (C) soruya bağlı olmayan sabit kurallardır. (D) hem şansı hem de değerlendirme kuralını hesaba katmaz; kuralı ÖSYM kılavuzundan oku.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-elimination-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "«He is not only a talented musician ---- also a gifted teacher.» boşluğuna hangisi girer?",
+              "options": [
+                "and",
+                "but",
+                "or",
+                "so",
+                "than"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«not only ... but also» ikili bağlaç kalıbıdır: (B). (A) tek başına eklemeyi verir ama kalıbı bozar. (C) seçenek bildirir, «also» ile uymaz. (D) sonuç bildirir. (E) karşılaştırma için kullanılır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-exam-day",
+          "order": 2,
+          "estimatedDurationMinutes": 7,
+          "title": "Sınav Yönetimi: Sınav Günü",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-exam-day",
+              "type": "grammarPoint",
+              "headword": "Exam Management: Exam Day",
+              "frequencyRank": 4012,
+              "baseDifficulty": 0.5,
+              "definition": "Sınav gününe hazırlık ve sınav sırasında sakin kalma tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Sınav Yönetimi: Sınav Günü",
+              "collocations": [],
+              "explanationTR": "Sınav günü, bilgin kadar hazırlığın ve sakinliğin de belirleyicidir. Küçük hazırlıklar büyük stresi önler.\n\n• Bir gün önce: konu yüklemeyi bırak, hafif bir tekrar yap ve erken uyu. Yorgun beyin, bildiğin bilgiyi de geç hatırlar.\n\n• Belgeleri hazırla: sınav giriş belgeni, kimliğini ve gerekli kalem gibi malzemeleri bir gün önce çantana koy. Sabah arayarak stres yaşama.\n\n• Erken git: sınav yerini önceden bil, yolu hesapla ve erken vardığın bir plan yap. Geç kalma korkusu odaklanmayı bozar.\n\n• Talimatı oku: sınav başında yönergeleri ve cevap kâğıdının doldurulma biçimini dikkatle oku. Yanlış kodlanmış bir kâğıt, doğru bilginin önüne geçer.\n\n• Zor bölümden sonra sakinleş: bir okuma parçası çok zorsa iki derin nefes al ve sonraki bölüme geç. Bir kötü bölüm, bütün sınavı bozmamalı. Sınav sırasında cevapları başkalarıyla karşılaştırma.\n\nEn sık düşülen tuzak: sınavdan hemen önce yeni konu çalışmaya çalışmak; bu, kaygıyı artırır ve hatırlamayı zayıflatır.\n\nÖrnek: Sınav sabahı kimliğini arıyorsan, gün daha başlamadan zaman ve odak kaybedersin; bu yüzden belgeleri bir gün önce hazırla."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-exam-day-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Sınavdan bir gün önce akşam saat 22.00'de ne yapmak en mantıklıdır?",
+              "options": [
+                "Sabaha kadar yeni konular çalışmak",
+                "Yalnızca en zor konuları geceye bırakıp uykuyu bilinçli olarak azaltmak",
+                "Bütün gece deneme çözüp sabah doğrudan sınava gitmek",
+                "Hafif bir tekrar yapıp belgeleri hazırlayarak erkenden uyumak",
+                "Belgeleri sabah hazırlamayı planlayıp gece hiçbir şey yapmamak"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Uyku ve hazırlık, bilgiyi sınavda kullanmanı sağlar: (D). (A) yorgunluk yüzünden verimi düşürür. (B) uykuyu kısıtlamak hatırlamayı zayıflatır. (C) sabaha kadar deneme çözmek aynı şekilde yorgunluğa yol açar. (E) sabah telaşı yaratır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-exam-day-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Sınav başında yönergeyi okumayıp doğrudan sorulara başlayan bir öğrenci ne tür bir risk alır?",
+              "options": [
+                "Cevap kâğıdını yanlış doldurma ve talimatı kaçırma riski",
+                "Sorular kolaylaşır, bu yüzden risk yoktur",
+                "Süreyi fazla kullanma riski, çünkü yönergeyi okumak çok zaman alır",
+                "Bilgi eksikliği yüzünden puan kaybetme riski, ama işaretleme riski yoktur",
+                "Hiçbir risk yoktur, çünkü yönerge her sınavda aynıdır"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Yönerge, işaretleme biçimi gibi önemli ayrıntıları içerir: (A). (B) yönergeyi okumak sorulara etki etmez. (C) yönergeyi okumak yalnızca birkaç saniye alır. (D) yanlış işaretleme de puan kaybettirir. (E) yönerge sınavdan sınava değişebilir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-exam-day-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Okuma parçalarından birinde neredeyse hiçbir şey anlamadın ve panik başlıyor. Ne yapmalısın?",
+              "options": [
+                "Sınavı yarıda bırakıp salondan çıkmak",
+                "Parçada kalıp bütün süreyi ona ayırmak",
+                "Nefes alıp parçayı işaretleyerek sonraki bölüme geçmek",
+                "Diğer bölümlerde de yanlış yapacağına karar vermek",
+                "Yandaki öğrencinin kâğıdına göz atmak"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Bir kötü bölüm bütün sınavı bozmamalı; sakinleşip ilerlemek gerekir: (C). (A) hazırlıklı olduğun sınavı bırakmaktır. (B) süreyi tek parçaya harcar. (D) kanıtsız bir yargıdır. (E) kopyadır ve kurallara aykırıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-exam-day-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "Sınav biter bitmez arkadaşların cevapları karşılaştırmaya başladı. Doğru davranış hangisidir?",
+              "options": [
+                "Cevapları karşılaştırıp yanlış bulduklarını hemen değiştirmek",
+                "Karşılaştırmayı sınavın ortasında da yapmak",
+                "Cevapları değiştirmek için sınav görevlisinden yardım istemek",
+                "Cevapları karşılaştırıp yanlış çıkarsa sınavdan çekilmek",
+                "Cevap karşılaştırmasından kaçınıp sonraki bölüme odaklanmak"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Karşılaştırma yararsız stres yaratır ve değişiklik zaten mümkün değildir: (E). (A) sınav sonrasında cevap değiştirmek mümkün değildir. (B) sınav sırasında karşılaştırma yapmak kurallara aykırıdır. (C) görevli cevabı değiştirmez. (D) sınavdan çekilmek durumu çözmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-exam-day-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Sınav sabahı evden çıkmadan önce hangi hazırlık en önemlidir?",
+              "options": [
+                "Yeni bir konu özetini ezberlemek",
+                "Giriş belgesini, kimliği ve kalemi kontrol etmek",
+                "Arkadaşlarla uzun bir tartışma yapmak",
+                "Sınav yerine gidiş yolunu yürüyerek denemek",
+                "Sınavla ilgisiz bir konuda film izlemek"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Belgeler olmadan sınava alınmama riski vardır; kontrol etmek bu riski kapatır: (B). (A) yeni konu ezberlemek stresi artırır. (C) tartışma enerji tüketir. (D) yolu bir gün önce planlamak gerekir. (E) sınav sabahı film izlemek hazırlık sayılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-exam-day-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Erken varmanın sınav günü sana en somut faydası nedir?",
+              "options": [
+                "Acele etmeden yerleşip sakinleşme fırsatı",
+                "Sınav süresinin kendiliğinden uzaması",
+                "Soru kitapçığını önceden inceleme hakkı",
+                "Doğru cevapları önceden öğrenme olanağı",
+                "Sınav görevlisinden ek süre alma hakkı"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Erken varmak telaşı azaltır ve odak sağlar: (A). (B) sınav süresi erken varmakla uzamaz. (C) kitapçık sınav başlamadan görülemez. (D) cevapları önceden öğrenmek mümkün değildir. (E) ek süre erken gelmekle verilmez.",
+              "passageID": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-tech-unit-vocabulary-skills",
+      "theme": "Kelime öğrenme teknikleri",
+      "order": 15,
+      "lessons": [
+        {
+          "id": "yds-tech-prefixes",
+          "order": 0,
+          "estimatedDurationMinutes": 9,
+          "title": "Kelime Tekniği: Ön Ekler",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-tech-card-prefixes",
+              "type": "grammarPoint",
+              "headword": "Vocabulary Skill: Prefixes",
+              "frequencyRank": 4013,
+              "baseDifficulty": 0.5,
+              "definition": "Ön ekleri tanıyarak bilinmeyen sözcüklerin anlamını çıkarma tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Kelime Tekniği: Ön Ekler",
+              "collocations": [],
+              "explanationTR": "Ön ekler (prefixes), sözcüğün başına gelip anlamı değiştirir. Yaygın ön ekleri bilirsen tanımadığın bir sözcüğü bile parçalayarak anlayabilirsin.\n\n• Olumsuzluk: un- (unhappy), dis- (disagree), in-/im-/il-/ir- (inaccurate, impossible, illegal, irrelevant), mis- «yanlış» anlamı verir (misinterpret, misjudge).\n\n• Zaman ve yer: pre- «önce» (prepare), post- «sonra» (postgraduate), inter- «arasında, karşılıklı» (international, interact), sub- «altında» (subway).\n\n• Derece ve birliktelik: over- «fazla» (overestimate), under- «az» (underestimate), co- «birlikte» (cooperate), anti- «karşı» (antibiotic), re- «tekrar» (rebuild).\n\n• in- iki ayrı işlev taşır: olumsuzluk (inaccurate) veya «içeri» (input). Bağlama bakarak hangisi olduğunu ayırt et. im- p ve m'den önce, il- l'den önce, ir- r'den önce gelir.\n\nEn sık düşülen tuzak: her sözcüğün başındaki harfleri ön ek sanmak. «Interest», «reason» ve «mistake» gibi sözcüklerde başlangıç harfleri ön ek gibi durur ama kökle birleşiktir.\n\nÖrnek: The manager misinterpreted the results, so the report was full of errors. (mis- = yanlış)"
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-prefixes-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "«misinterpret» ve «misjudge» sözcüklerindeki mis- ön eki hangi anlamı verir?",
+              "options": [
+                "tekrar, yeniden",
+                "yanlış, hatalı",
+                "önce, öncesinde",
+                "karşıt, aleyhinde",
+                "birlikte, ortak"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Misinterpret» yanlış yorumlamak, «misjudge» yanlış değerlendirmek demektir; mis- «yanlış, hatalı» anlamı katar: (B). (A) re- ön ekinin anlamıdır. (C) pre- anlamıdır. (D) anti- ön ekine aittir. (E) co- ön ekinin anlamıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-prefixes-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "The company ---- the demand for its new product and ran out of stock within a week.",
+              "options": [
+                "overestimated",
+                "reconsidered",
+                "discussed",
+                "underestimated",
+                "postponed"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Stok tükendiği için talep beklenenden yüksekti; şirket talebi az tahmin etti: (D). (A) talebi fazla tahmin etmek stok fazlası doğurur, bitmesini değil. (B) yeniden düşünmek, (C) tartışmak, (E) ertelemek stok bitmesini açıklamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-prefixes-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "The evidence was ---- to the case, so the judge did not take it into account. Hangi biçim doğrudur?",
+              "options": [
+                "irrelevant",
+                "relevant",
+                "unrelevant",
+                "imrelevant",
+                "dirrelevant"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Relevant» r ile başladığı için olumsuz ön ek ir- olur: (A). (B) olumlu biçimdir, cümleye ters düşer. (C), (D) ve (E) İngilizce'de var olmayan biçimlerdir; un-, im- ve dir- bu sözcükle kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-prefixes-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "His answer was ---- ; it contained several factual errors. Hangi biçim doğrudur?",
+              "options": [
+                "unaccurate",
+                "imaccurate",
+                "disaccurate",
+                "reaccurate",
+                "inaccurate"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Olumsuz biçim in- ile kurulur: (E). (A) ve (C) «accurate» ile kullanılmayan ön eklerle kurulmuştur, (B) ise im- yalnızca p ve m'den önce gelir. (D) «tekrar doğru» gibi bir anlam kurar ve cümleye uymaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-prefixes-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "«international» ve «interact» sözcüklerindeki inter- ön eki hangi anlamı taşır?",
+              "options": [
+                "altında, aşağıda",
+                "fazla, aşırı",
+                "arasında, karşılıklı",
+                "önce, öncesinde",
+                "yanlış, hatalı"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«International» uluslar arası, «interact» birbirini etkilemek demektir: (C). (A) sub- ön ekinin anlamıdır. (B) over- ön ekinin anlamıdır. (D) pre- ön ekine aittir. (E) mis- anlamıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-prefixes-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "Lisans diplomasından SONRA yapılan eğitim için hangi sözcük kullanılır?",
+              "options": [
+                "undergraduate",
+                "pregraduate",
+                "intergraduate",
+                "antigraduate",
+                "postgraduate"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "post- «sonra» demektir; postgraduate lisans sonrası eğitimdir: (E). (A) lisans öğrencisini, yani mezun olmayı henüz tamamlamamış kişiyi anlatır. (B), (C) ve (D) İngilizce'de bu anlamda kullanılan sözcükler değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-prefixes-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "«cooperate», «co-author» ve «coexist» sözcüklerindeki co- ön eki hangi anlamı verir?",
+              "options": [
+                "karşı, aleyhinde",
+                "birlikte, ortak",
+                "tekrar, yeniden",
+                "yanlış, hatalı",
+                "sonra, ardından"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Hepsinde «birlikte» fikri vardır: birlikte çalışmak, birlikte yazmak, birlikte var olmak: (B). (A) anti- ön ekidir. (C) re- ön ekidir. (D) mis- ön ekidir. (E) post- ön ekidir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-prefixes-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "«antibiotic» ve «anticlockwise» sözcüklerindeki anti- ön eki hangi anlamı verir?",
+              "options": [
+                "karşı, aleyhinde",
+                "birlikte, ortak",
+                "altında, aşağıda",
+                "fazla, aşırı",
+                "önce, öncesinde"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Antibiotic canlılara (bakterilere) karşı işleyen ilaç, anticlockwise saat yönünün tersidir: (A). (B) co- anlamıdır. (C) sub- anlamıdır. (D) over- anlamıdır. (E) pre- anlamıdır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-suffixes",
+          "order": 1,
+          "estimatedDurationMinutes": 9,
+          "title": "Kelime Tekniği: Son Ekler",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-tech-card-suffixes",
+              "type": "grammarPoint",
+              "headword": "Vocabulary Skill: Suffixes",
+              "frequencyRank": 4014,
+              "baseDifficulty": 0.5,
+              "definition": "Son ekleri tanıyarak sözcüğün türünü belirleme ve doğru biçimi seçme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Kelime Tekniği: Son Ekler",
+              "collocations": [],
+              "explanationTR": "Son ekler (suffixes), sözcüğün türünü değiştirir. Boşluğa hangi biçimin geleceğini bulmak için önce boşluğun hangi sözcük türünü istediğine bak.\n\n• İsim yapanlar: -ment (agreement), -ness (kindness), -ity (ability), -tion/-sion (decision), -ance/-ence (importance).\n\n• Fiil yapanlar: -ize/-ise (standardise), -ify (simplify), -en (widen), -ate (activate).\n\n• Sıfat yapanlar: -al (national), -ous (dangerous), -ive (effective), -able (reliable), -ful (careful), -less (careless).\n\n• Zarf yapan: -ly (carefully). Zarf fiili, sıfatı veya cümleyi niteler; ismin önünde kullanılmaz.\n\n• Boşluk kuralı: «the/a/her» sözcüklerinden sonra isim, «to/will/can» sözcüklerinden sonra yalın fiil, «is/was/very» sözcüklerinden sonra sıfat, fiilin sonunda çoğu zaman zarf gelir.\n\nEn sık düşülen tuzak: aynı kökten türeyen sözcükleri karıştırmak. «Careful» (dikkatli), «careless» (dikkatsiz) ve «carefully» (dikkatle) farklı işlevlerdedir ve tek başına anlam değil, cümledeki görevleri belirler.\n\nÖrnek: Her ---- to learn impressed the teacher. Sahiplik sıfatından sonra isim gelir: willingness."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-suffixes-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "The ---- of the new system took three months.",
+              "options": [
+                "implementing",
+                "implemented",
+                "implementable",
+                "implementation",
+                "implement"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«The ---- of» yapısında isim gerekir; -ation isim yapar: (D). (A) ve (B) fiil biçimleridir, isim yerine geçmez. (C) sıfattır. (E) yalın fiildir; «the» ile de isim gerekir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-suffixes-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "The committee decided to ---- the rules across all departments.",
+              "options": [
+                "standardise",
+                "standard",
+                "standardised",
+                "standardly",
+                "standardness"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«decided to» sonrasında yalın fiil gelir; -ise fiil yapar: (A). (B) isim veya sıfattır. (C) geçmiş zaman biçimidir ve «to» ile kullanılmaz. (D) zarf biçimindeki uydurma bir sözcüktür. (E) isimdir, fiil yerine geçmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-suffixes-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "The chemical is ---- and must be handled with great care.",
+              "options": [
+                "danger",
+                "dangerously",
+                "dangerous",
+                "endanger",
+                "dangers"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«is» sonrasında sıfat gerekir; -ous sıfat yapar: (C). (A) ve (E) isimdir. (B) zarftır, «is» ile sıfat yerine geçmez. (D) fiildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-suffixes-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "She answered every question ---- and did not make a single mistake.",
+              "options": [
+                "careful",
+                "care",
+                "careless",
+                "carefulness",
+                "carefully"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Fiili niteleyen zarf gerekir; -ly zarf yapar: (E). (A) ve (C) sıfattır, fiili niteleyemez. (B) ve (D) isimdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-suffixes-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "İsimden sıfat yapan ek aşağıdakilerden hangisidir?",
+              "options": [
+                "-ment",
+                "-ous",
+                "-tion",
+                "-ify",
+                "-ize"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Danger → dangerous», «fame → famous» gibi isimlerden sıfat türetir: (B). (A) ve (C) isim yapar, (D) ve (E) ise fiil yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-suffixes-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "Her ---- to learn impressed the teacher.",
+              "options": [
+                "willing",
+                "willingly",
+                "unwilling",
+                "willingness",
+                "will"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Her» sahiplik sıfatından sonra isim gelir; -ness isim yapar: (D). (A) ve (C) sıfattır. (B) zarftır. (E) «will» ismi bu anlamı taşımaz ve cümleyi bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-suffixes-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "It is ---- that the price will rise next year.",
+              "options": [
+                "probable",
+                "probably",
+                "probability",
+                "probabilities",
+                "improbably"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«It is ---- that» yapısında sıfat gerekir: (A). (B) ve (E) zarftır. (C) ve (D) isimdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-suffixes-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "The new law will ---- the process for applicants.",
+              "options": [
+                "simple",
+                "simply",
+                "simplify",
+                "simplicity",
+                "simplification"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«will» sonrasında yalın fiil gerekir; -ify fiil yapar: (C). (A) sıfattır. (B) zarftır. (D) ve (E) isimdir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-context-clues",
+          "order": 2,
+          "estimatedDurationMinutes": 9,
+          "title": "Kelime Tekniği: Bağlamdan Anlam",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-context-clues",
+              "type": "grammarPoint",
+              "headword": "Vocabulary Skill: Context Clues",
+              "frequencyRank": 4015,
+              "baseDifficulty": 0.5,
+              "definition": "Bilinmeyen sözcüğün anlamını çevresindeki ipuçlarından tahmin etme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Kelime Tekniği: Bağlamdan Anlam",
+              "collocations": [],
+              "explanationTR": "Sınavda her sözcüğü bilemezsin; ama cümle çoğu zaman anlamı fısıldar. Bilinmeyen sözcüğün çevresindeki ipuçlarını oku.\n\n• Zıtlık ipuçları: unlike, but, however, whereas, in contrast, while. Bilinmeyen sözcük, karşıtı olan sözcüğün tersini ifade eder.\n\n• Örnek ipuçları: such as, for example, for instance. Verilen örnekler bilinmeyen sözcüğün anlamını gösterir.\n\n• Tanım ipuçları: that is, which means, in other words, virgüller arasındaki açıklamalar. Tanım doğrudan anlamı verir.\n\n• Neden-sonuç ipuçları: because, so, therefore, as a result. Sonuç ya da nedenden sözcüğün olumlu ya da olumsuz anlamını tahmin edersin.\n\n• Tahminini kontrol et: bulduğun anlamı sözcüğün yerine koy; cümle akıcı ve mantıklıysa tahmin büyük olasılıkla doğrudur. Sözcük türünü de (isim, sıfat, fiil) unutma.\n\nEn sık düşülen tuzak: sözcüğün Türkçe'ye benzeyen görünüşüne güvenmek. Bağlam ipucu, sözcüğün görünüşünden daha güvenilirdir.\n\nÖrnek: Unlike his gregarious brother, who loved parties, Tom avoided crowds. «Unlike» zıtlık verir; parti seven kardeşin tersi, kalabalıktan kaçandır; gregarious = sosyal, insanlarla birlikte olmayı seven."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-context-clues-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Unlike his gregarious brother, who loved parties, Tom was reserved and avoided crowds. \"Gregarious\" is closest in meaning to ----.",
+              "options": [
+                "quiet",
+                "generous",
+                "sociable",
+                "wealthy",
+                "ambitious"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Unlike» zıtlık verir; Tom içine kapanık olduğuna göre kardeşi sosyal biriydi: (C). (A) Tom'un özelliğidir, kardeşinin değil. (B), (D) ve (E) bağlamda hiçbir ipucuyla desteklenmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-context-clues-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "The region is known for its arid climate; for example, it receives less than a hundred millimetres of rain a year. \"Arid\" is closest in meaning to ----.",
+              "options": [
+                "very dry",
+                "very cold",
+                "very humid",
+                "unpredictable",
+                "mild"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«For example» sonrasında verilen çok az yağmur, iklimin kuru olduğunu gösterir: (A). (B) sıcaklıkla ilgili bir ipucu yoktur. (C) yağmur azlığıyla çelişir. (D) ve (E) yağış miktarından çıkarılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-context-clues-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "Smartphones are ubiquitous, that is, they can be found almost everywhere. \"Ubiquitous\" is closest in meaning to ----.",
+              "options": [
+                "very expensive",
+                "rarely used",
+                "easy to break",
+                "recently invented",
+                "present everywhere"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«That is» sonrası tanımı verir: neredeyse her yerde bulunur: (E). (A) fiyat hakkında bir ipucu yoktur. (B) tanıma ters düşer. (C) ve (D) bağlamdan çıkarılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-context-clues-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "Because the road was so treacherous after the ice storm, several drivers had accidents. \"Treacherous\" is closest in meaning to ----.",
+              "options": [
+                "crowded",
+                "dangerous",
+                "narrow",
+                "expensive",
+                "familiar"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Because» nedenini gösterir; kazalar yolun tehlikeli olmasından kaynaklanmıştır: (B). (A) kalabalığı, (C) genişliği, (D) maliyeti, (E) aşinalığı gösteren bir ipucu yoktur.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-context-clues-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Bilinmeyen bir sözcüğün çevresinde «however» ve «whereas» gibi bağlaçlar görüyorsan neyi beklersin?",
+              "options": [
+                "Sözcüğün anlamının, yanındaki fikirle aynı olacağını",
+                "Sözcüğün anlamının hiçbir zaman bağlamdan çıkarılamayacağını",
+                "Sözcüğün her zaman bir sıfat olacağını",
+                "Sözcüğün anlamının, yanındaki karşıt fikrin tersi olabileceğini",
+                "Cümlenin geri kalanını okumanın gereksiz olduğunu"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Zıtlık bağlaçları karşıt fikirleri birleştirir: (D). (A) zıtlık yerine benzerlik beklemektir. (B) bağlamın işlevini yok sayar. (C) sözcük türü bağlaçtan belli olmaz. (E) ipuçlarını görmezden gelir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-context-clues-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "«...problems such as pollution, noise and overcrowding» ifadesinde «such as» sonrasındaki örnekler ne işe yarar?",
+              "options": [
+                "Genel sözcüğün hangi şeyleri kapsadığını gösterir",
+                "Cümleyi olumsuz bir anlama çevirir",
+                "Cümlenin zamanını geçmişe kaydırır",
+                "Cümledeki asıl özneyi belirler",
+                "Cümleyi soru cümlesine çevirir"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Örnekler, üst kavramın ne anlama geldiğini gösterir (burada çevresel ve toplumsal sorunlar): (A). (B) ve (C) «such as» ile ilgisizdir. (D) özne, cümle yapısından anlaşılır. (E) soru cümlesi kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-context-clues-q07",
+              "kind": "strategy",
+              "order": 6,
+              "prompt": "The lecturer's verbose explanation, which took forty minutes to say what could have been said in five, exhausted the audience. \"Verbose\" is closest in meaning to ----.",
+              "options": [
+                "very quiet",
+                "highly technical",
+                "using too many words",
+                "clearly organised",
+                "politely phrased"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Beş dakikada söylenebilecek şeyin kırk dakika sürmesi, gereğinden fazla sözcük kullanıldığını gösterir: (C). (A) ses düzeyiyle, (B) teknik ayrıntıyla, (D) düzenle, (E) nezaketle ilgili ipucu yoktur.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-context-clues-q08",
+              "kind": "strategy",
+              "order": 7,
+              "prompt": "Bağlamdan bir sözcüğün anlamını tahmin ettin ama emin değilsin. Tahminini nasıl kontrol edersin?",
+              "options": [
+                "Sözcüğün Türkçe'ye ne kadar benzediğine bakarak",
+                "Şıklardan en uzun olanı hemen işaretleyerek",
+                "Cümleyi okumadan doğrudan şıklar arasından seçerek",
+                "Sözcüğün ilk harfine bakıp sezgiyle karar vererek",
+                "Tahmini yerine koyup cümlenin anlamlı olup olmadığına bakarak"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Tahmini yerine koymak, cümlenin mantığını sınar: (E). (A) yanıltıcı olabilir (sahte dost). (B) uzunluk anlamla ilgisizdir. (C) bağlamı yok sayar. (D) harflerin anlam belirlemesi mümkün değildir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-synonyms-collocations",
+          "order": 3,
+          "estimatedDurationMinutes": 9,
+          "title": "Kelime Tekniği: Eş Anlam ve Eşdizimlilik",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-synonyms-collocations",
+              "type": "grammarPoint",
+              "headword": "Vocabulary Skill: Synonyms and Collocations",
+              "frequencyRank": 4016,
+              "baseDifficulty": 0.5,
+              "definition": "Eş anlamlı sözcüklerin farklı eşdizimlerle kullanıldığını öğrenerek doğru sözcüğü seçme tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Kelime Tekniği: Eş Anlam ve Eşdizimlilik",
+              "collocations": [],
+              "explanationTR": "İngilizce'de anlamları yakın sözcükler çoğu zaman birbirinin yerine kullanılamaz; çünkü her sözcüğün birlikte kullanıldığı alışılmış eşleşmeleri (collocations) vardır.\n\n• Kalıplarla öğren: «decision» sözcüğünü tek başına değil, «make a decision» diye öğren. Sözcükleri en sık eşlendikleri sözcüklerle birlikte ezberle.\n\n• Eş anlamlılar aynı değildir: «strong tea» ama «powerful engine»; «heavy rain» ama «strong wind». Anlam yakın olsa da eşleşme farklıdır.\n\n• Fiil eşdizimlerine dikkat et: «make a mistake» (do a mistake değil), «carry out a survey», «take a risk», «pay attention», «raise a question».\n\n• Sözcük türünü ve kalıbı birlikte düşün: rise (kendiliğinden yükselmek, nesne almaz) ile raise (bir şeyi yükseltmek, nesne alır) farklıdır.\n\n• Sınavda seçeneklerden birinin kalıba uymamasını fark etmek, doğru cevabı bulmanın en hızlı yoludur.\n\nEn sık düşülen tuzak: Türkçe karşılığına bakarak kalıp seçmek. «Karar vermek» Türkçe'de «vermek» ile kurulur ama İngilizce'de «give a decision» değil, «make a decision» denir.\n\nÖrnek: She drinks strong tea. «Powerful tea» eşleşmesi doğal değildir."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-synonyms-collocations-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "The board must ---- a decision about the budget by Friday.",
+              "options": [
+                "make",
+                "do",
+                "hold",
+                "place",
+                "keep"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Decision» ile en doğal eşleşme «make a decision»dır: (A). (B) «do» ile «do homework» gibi kalıplar kurulur. (C) «hold a meeting» gibi kalıplara girer. (D) ve (E) «decision» ile eşleşmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-synonyms-collocations-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "She likes to drink ---- tea, without any milk or sugar.",
+              "options": [
+                "powerful",
+                "strong",
+                "large",
+                "thick",
+                "hard"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Çay için «strong tea» kullanılır: (B). (A) «powerful» daha çok motor, silah, lider için kullanılır. (C), (D) ve (E) «tea» ile eşleşmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-synonyms-collocations-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "There was ---- rain all night, and several streets were flooded.",
+              "options": [
+                "strong",
+                "big",
+                "high",
+                "heavy",
+                "deep"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Yağmur için «heavy rain» eşleşmesi kullanılır: (D). (A) «strong wind» eşleşmesi vardır. (B), (C) ve (E) yağmur için kalıplaşmamıştır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-synonyms-collocations-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "The research team will ---- a large survey next month.",
+              "options": [
+                "take up",
+                "put on",
+                "set off",
+                "bring in",
+                "carry out"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Carry out a survey» yürütmek anlamındadır: (E). (A) bir uğraşa başlamak, (B) giymek veya sahnelemek, (C) yola çıkmak, (D) getirmek anlamındadır; hiçbiri «survey» ile eşleşmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-synonyms-collocations-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Sözcükleri tek tek ezberlemek yerine eşdizimleriyle öğrenmek neden daha etkilidir?",
+              "options": [
+                "Öğrenilecek sözcük sayısını sınırlayarak işi bitirir",
+                "Sözcüklerin Türkçe karşılıklarını tamamen gereksiz kılar",
+                "Sözcüğün hangi sözcüklerle birlikte kullanıldığını da öğretir",
+                "Sözcüklerin yazımını sonradan değiştirmeyi kolaylaştırır",
+                "Sözlük kullanma ihtiyacını tamamen ortadan kaldırır"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Eşdizimlerle öğrenmek, sözcüğü doğru bağlamda ve doğru sözcüklerle kullanmayı sağlar: (C). (A) öğrenilecek sözcük sayısını sınırlamaz. (B) ve (E) sözcük bilgisinin yerini almaz. (D) yazımla ilgisizdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-synonyms-collocations-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "The manager admitted that he had ---- a serious mistake.",
+              "options": [
+                "made",
+                "done",
+                "taken",
+                "given",
+                "put"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "İngilizce'de «make a mistake» denir: (A). (B) Türkçe «hata yapmak» karşılığına bakınca akla gelir ama «do a mistake» kalıbı yoktur. (C), (D) ve (E) «mistake» ile eşleşmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-synonyms-collocations-q07",
+              "kind": "strategy",
+              "order": 6,
+              "prompt": "Prices are expected to ---- sharply next year.",
+              "options": [
+                "raise",
+                "rise",
+                "arise",
+                "arouse",
+                "rouse"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Rise» nesne almayan fiildir ve «yükselmek» demektir: (B). (A) nesne ister (raise prices). (C) «ortaya çıkmak» anlamındadır. (D) ve (E) uyandırmak, heyecanlandırmak anlamındadır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-synonyms-collocations-q08",
+              "kind": "strategy",
+              "order": 7,
+              "prompt": "«Strong» ve «powerful» yakın anlamlı olsa da neden her bağlamda birbirinin yerine kullanılamaz?",
+              "options": [
+                "Biri yalnızca resmî yazıda, diğeri yalnızca günlük konuşmada kullanılır",
+                "Biri yalnızca isim, diğeri yalnızca fiil olarak kullanılır",
+                "Sözcüklerden biri artık İngilizce'de hiç kullanılmamaktadır",
+                "Her sözcüğün alışılmış eşdizimleri vardır (strong tea, powerful engine)",
+                "Anlamları birbirinin tamamen zıttıdır"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Eş anlamlı sözcükler farklı eşdizimlerle kullanılır: (D). (A) ikisi de hem yazıda hem konuşmada geçer. (B) ikisi de sıfattır. (C) ikisi de yaygın kullanılır. (E) anlamları zıt değil, yakındır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-tech-memorisation",
+          "order": 4,
+          "estimatedDurationMinutes": 9,
+          "title": "Kelime Tekniği: Ezberleme ve Tekrar",
+          "skill": "reading",
+          "items": [
+            {
+              "id": "yds-tech-card-memorisation",
+              "type": "grammarPoint",
+              "headword": "Vocabulary Skill: Memorisation and Review",
+              "frequencyRank": 4017,
+              "baseDifficulty": 0.5,
+              "definition": "Kelimeleri kalıcı öğrenmek için aralıklı tekrar ve aktif hatırlama tekniği.",
+              "exampleSentences": [],
+              "translationTR": "Kelime Tekniği: Ezberleme ve Tekrar",
+              "collocations": [],
+              "explanationTR": "Kelimeleri bir kez görmek onları öğrenmek değildir. Kalıcı öğrenme, doğru zamanlarda tekrar ve aktif kullanımla gelir.\n\n• Aralıklı tekrar (spaced repetition): bir kelimeyi öğrendikten sonra giderek uzayan aralıklarla yeniden gözden geçir (örneğin ertesi gün, birkaç gün sonra, bir hafta sonra). Unutmaya başladığın anda tekrar etmek etkilidir.\n\n• Aktif hatırlama (active recall): cevaba bakmadan önce kelimeyi hatırlamaya çalış. Kartın bir yüzüne bakıp diğer yüzünü hatırlamak, listeyi yeniden okumaktan daha etkilidir.\n\n• Kelime ailesi: decide, decision, decisive gibi aynı kökten sözcükleri birlikte öğren. Bir sözcüğü bilmek, ailedeki diğerlerini çözmene yardım eder.\n\n• Kendi cümleni kur: yeni kelimeyi kendi hayatından bir cümlede kullan. Anlamlı bağlam, sözcüğü hatırlamayı kolaylaştırır.\n\n• Kısa ama düzenli çalış: her gün az sayıda kelimeyle düzenli çalışmak, bir günde çok kelimeyle uğraşıp bir daha bakmamaktan daha sürdürülebilirdir.\n\nEn sık düşülen tuzak: aynı listeyi tekrar tekrar sessizce okumak. Tanıdık gelmek, hatırlayabilmek demek değildir.\n\nÖrnek: Bugün öğrendiğin «reluctant» sözcüğünü yarın kartına bakmadan hatırlamaya çalış, sonra bir hafta sonra tekrar dene."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-tech-memorisation-q01",
+              "kind": "strategy",
+              "order": 0,
+              "prompt": "Aralıklı tekrar (spaced repetition) yöntemi nedir?",
+              "options": [
+                "Aynı kelimeyi tek bir günde yüzlerce kez yazmak",
+                "Kelimeyi bir kez öğrenip bir daha hiç görmemek",
+                "Kelimeleri yalnızca sınavdan önceki gün tekrar etmek",
+                "Kelimeleri sabaha kadar aynı listeden okumak",
+                "Aynı kelimeyi giderek uzayan aralıklarla yeniden gözden geçirmek"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Aralıklı tekrar, unutmaya başlamadan hemen önce gözden geçirmeyi hedefler: (E). (A) aralıksız yoğun yığmadır. (B) tekrarı tamamen bırakır. (C) tekrarı tek bir güne sıkıştırır. (D) pasif okumadır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-memorisation-q02",
+              "kind": "strategy",
+              "order": 1,
+              "prompt": "Aşağıdakilerden hangisi aktif hatırlama (active recall) örneğidir?",
+              "options": [
+                "Kelime listesini sessizce defalarca baştan sona okumak ve tanıdık bulmak",
+                "Kelimelerin altını farklı renkli kalemlerle çizmek",
+                "Kartın Türkçe yüzüne bakıp İngilizcesini hatırlamaya çalışmak",
+                "Kelimeleri gün boyu kulaklıkla arka planda dinlemek",
+                "Aynı kelimeyi sözlükte tekrar tekrar bakıp anlamını okumak"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Aktif hatırlama, cevabı görmeden önce çaba göstermektir: (C). (A) ve (B) pasif tekrardır. (D) dinlemek yararlı olsa da hatırlama çabası içermez. (E) her seferinde cevabı hazır bulmak demektir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-memorisation-q03",
+              "kind": "strategy",
+              "order": 2,
+              "prompt": "decide, decision ve decisive gibi kelimeleri birlikte öğrenmenin en önemli faydası nedir?",
+              "options": [
+                "Bir kelimeyi bilmenin ailedeki diğer kelimeleri anlamaya yardım etmesi",
+                "Sözcüklerin hepsinin anlamının aynı olması",
+                "Sözcüklerin sınavda aynı soruda çıkmasının garanti olması",
+                "Sözcüklerin yazımını unutmanın imkânsız hale gelmesi",
+                "Kelime öğrenmek için başka bir çabaya gerek kalmaması"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Aynı kökten gelen sözcükler ortak anlam taşır; kök ve ekleri bilmek yeni biçimleri tanımayı kolaylaştırır: (A). (B) anlamları aynı değil, ilişkilidir. (C) sınavda çıkma garantisi yoktur. (D) ve (E) gerçekçi olmayan vaatlerdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-memorisation-q04",
+              "kind": "strategy",
+              "order": 3,
+              "prompt": "Yeni bir kelimeyi kendi cümlende kullanmak neden faydalıdır?",
+              "options": [
+                "Kelimenin anlamını öğrenmeyi gereksiz kılar, yalnızca yazımı pekiştirir",
+                "Kelimeyi anlamlı bir bağlama yerleştirerek hatırlamayı kolaylaştırır",
+                "Kelimenin yazımını gereksiz kılar",
+                "Kelimenin sınavda çıkmasını sağlar",
+                "Kelime kartlarının yerini tamamen alır"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Kişisel ve anlamlı bir bağlam, hatırlamayı güçlendirir: (B). (A) anlamı gereksiz kılmaz; cümle kurmak anlamı da pekiştirir. (C) yazımı öğrenmek yine gerekir. (D) sınavda çıkmasını etkilemez. (E) ihtiyaca göre kartlarla birlikte kullanılabilir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-memorisation-q05",
+              "kind": "strategy",
+              "order": 4,
+              "prompt": "Ali bir günde yüz kelime çalıştı ve bir daha hiç bakmadı; bir hafta sonra çoğunu unuttu. En uygun çözüm hangisidir?",
+              "options": [
+                "Bir günde iki yüz kelime birden çalışmak",
+                "Kelime çalışmayı bırakmak",
+                "Aynı listeyi sabaha kadar tekrar tekrar okumak",
+                "Yalnızca zaten bildiği kelimelere tekrar bakmak",
+                "Kelimeleri birkaç gün arayla yeniden tekrar etmek"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Bir kez öğrenilip terk edilen bilgi unutulur; düzenli tekrar gerekir: (E). (A) yükü artırıp aynı sorunu büyütür. (B) hiçbir çözüm getirmez. (C) pasif tekrardır. (D) öğrenmesi gereken kelimeleri yok sayar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-memorisation-q06",
+              "kind": "strategy",
+              "order": 5,
+              "prompt": "Yalnızca Türkçe karşılıklı liste ezberleyen bir öğrenci kelimeleri cümlede kullanamıyor. Ona ne önerirsin?",
+              "options": [
+                "Aynı listeyi biraz daha hızlı ezberlemesini",
+                "Cümle kurmayı tamamen bırakmasını",
+                "Örnek cümle ve eşdizimleri de çalışıp cümle yazmasını",
+                "Türkçe karşılıkları unutmasını",
+                "Yalnızca kelimelerin ilk harflerine odaklanmasını"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Kelimeyi bağlamda ve kalıplarıyla öğrenmek kullanma becerisini geliştirir: (C). (A) aynı yöntemi hızlandırır. (B) sorunu çözmez. (D) yararlı bir ipucunu atar. (E) anlamla ilgisiz bir hedefe odaklanır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-memorisation-q07",
+              "kind": "strategy",
+              "order": 6,
+              "prompt": "Bir hafta önce öğrendiğin bir kelimeyi hatırlayamıyorsun. Bu durum neyi gösterir?",
+              "options": [
+                "Kelime öğrenme yeteneğinin hiç olmadığını",
+                "Yaşının artık kelime öğrenmek için geç olduğunu",
+                "Bu kelimeyi artık hiçbir zaman öğrenemeyeceğini",
+                "Unutmanın normal olduğunu ve tekrar zamanının geldiğini",
+                "O kelimenin sınavda çıkmayacağını"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Unutma sürecin doğal parçasıdır; tekrar zamanını hatırlatır: (D). (A) tek bir unutma yetenek eksikliği değildir. (B) yaş burada belirleyici değildir. (C) tekrar bu durumu değiştirir. (E) çıkıp çıkmayacağıyla ilgisizdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-tech-memorisation-q08",
+              "kind": "strategy",
+              "order": 7,
+              "prompt": "Haftalık on saatlik kelime çalışmasını nasıl dağıtmak daha sürdürülebilirdir?",
+              "options": [
+                "Her gün kısa oturumlara bölüp düzenli tekrar yapmak",
+                "Tek bir gün on saat çalışmak",
+                "İlk gün çok çalışıp haftanın kalanında hiç çalışmamak",
+                "Sadece sınavdan bir gün önce çalışmak",
+                "Aynı oturumda bütün kelimeleri bir kez okumak"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Düzenli ve kısa oturumlar aralıklı tekrar sağlar: (A). (B) ve (C) yığılmadır ve unutmayı artırır. (D) yeterli tekrar fırsatı vermez. (E) tek okuma kalıcı öğrenme sağlamaz.",
+              "passageID": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }

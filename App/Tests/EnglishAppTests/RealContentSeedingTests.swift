@@ -33,9 +33,9 @@ final class RealContentSeedingTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
-        XCTAssertEqual(package.units.count, 14)
+        XCTAssertEqual(package.units.count, 16)
         let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
-        XCTAssertEqual(allItems.count, 200)
+        XCTAssertEqual(allItems.count, 208)
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
 
         // Regression guard for the mangled-Turkish-characters bug (Task 6): a bare
@@ -51,7 +51,7 @@ final class RealContentSeedingTests: XCTestCase {
         let secondLesson = scienceUnit?.lessons.first { $0.order == 1 }
         XCTAssertEqual(secondLesson?.title, "Science & Research Methods · 2")
 
-        XCTAssertEqual(package.units.flatMap(\.lessons).flatMap(\.questions).count, 643)
+        XCTAssertEqual(package.units.flatMap(\.lessons).flatMap(\.questions).count, 701)
         XCTAssertEqual(package.units.flatMap(\.lessons).compactMap(\.passage).count, 15)
         XCTAssertEqual(Set(package.units.flatMap(\.lessons).map(\.skill)), [.vocabulary, .grammar, .reading])
     }
@@ -284,6 +284,12 @@ final class RealContentSeedingTests: XCTestCase {
         }
     }
 
+    private static let techShapes: [String: (kind: QuestionKind, questions: Int, minutes: Int)] = [
+        "prefixes": (.grammar, 8, 9), "suffixes": (.grammar, 8, 9),
+        "context-clues": (.strategy, 8, 9), "synonyms-collocations": (.strategy, 8, 9),
+        "memorisation": (.strategy, 8, 9),
+    ]
+
     /// Structure gate for the Slice 7d technique units, read from the shipped app resource.
     func test_bundledPackage_techniqueUnits_areStructurallySound() throws {
         guard let url = Bundle.main.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
@@ -296,10 +302,16 @@ final class RealContentSeedingTests: XCTestCase {
 
         let units = package.units.sorted { $0.order < $1.order }
         XCTAssertEqual(units.map(\.order), Array(0..<units.count), "unit orders must be contiguous from 0")
-        let techUnits = Array(units[13..<14])
-        XCTAssertEqual(techUnits.map(\.id), ["yds-tech-unit-question-strategies"])
-        XCTAssertEqual(techUnits.map(\.theme), ["Sınav soru tipi stratejileri"])
-        XCTAssertEqual(techUnits.map(\.order), [13])
+        let techUnits = Array(units[13..<16])
+        XCTAssertEqual(
+            techUnits.map(\.id),
+            ["yds-tech-unit-question-strategies", "yds-tech-unit-exam-management", "yds-tech-unit-vocabulary-skills"]
+        )
+        XCTAssertEqual(
+            techUnits.map(\.theme),
+            ["Sınav soru tipi stratejileri", "Sınav yönetimi ve zaman", "Kelime öğrenme teknikleri"]
+        )
+        XCTAssertEqual(techUnits.map(\.order), [13, 14, 15])
         XCTAssertEqual(
             units[13].lessons.sorted { $0.order < $1.order }.map(\.id),
             [
@@ -308,7 +320,19 @@ final class RealContentSeedingTests: XCTestCase {
                 "yds-tech-vocabulary-questions", "yds-tech-grammar-questions",
             ]
         )
+        XCTAssertEqual(
+            units[14].lessons.sorted { $0.order < $1.order }.map(\.id),
+            ["yds-tech-time-allocation", "yds-tech-elimination", "yds-tech-exam-day"]
+        )
+        XCTAssertEqual(
+            units[15].lessons.sorted { $0.order < $1.order }.map(\.id),
+            [
+                "yds-tech-prefixes", "yds-tech-suffixes", "yds-tech-context-clues",
+                "yds-tech-synonyms-collocations", "yds-tech-memorisation",
+            ]
+        )
         for lesson in techUnits.flatMap(\.lessons) {
+            let shape = Self.techShapes[String(lesson.id.dropFirst("yds-tech-".count))] ?? (.strategy, 6, 7)
             let slug = String(lesson.id.dropFirst("yds-tech-".count))
             XCTAssertEqual(lesson.items.count, 1, "\(lesson.id) must own exactly one card")
             let card = try XCTUnwrap(lesson.items.first)
@@ -316,10 +340,10 @@ final class RealContentSeedingTests: XCTestCase {
             XCTAssertEqual(card.id, "yds-tech-card-" + slug, lesson.id)
             XCTAssertTrue((card.content?.explanationTR ?? "").contains("En sık düşülen tuzak:"), lesson.id)
             XCTAssertNil(lesson.passage, lesson.id)
-            XCTAssertEqual(lesson.questions.count, 6, lesson.id)
-            XCTAssertEqual(lesson.estimatedDurationMinutes, 7, lesson.id)
+            XCTAssertEqual(lesson.questions.count, shape.questions, lesson.id)
+            XCTAssertEqual(lesson.estimatedDurationMinutes, shape.minutes, lesson.id)
             for question in lesson.questions {
-                XCTAssertEqual(question.kind, .strategy, question.id)
+                XCTAssertEqual(question.kind, shape.kind, question.id)
                 XCTAssertEqual(question.options.count, 5, question.id)
                 XCTAssertTrue((0...4).contains(question.correctIndex), question.id)
                 XCTAssertFalse(question.explanationTR.isEmpty, question.id)
@@ -336,7 +360,7 @@ final class RealContentSeedingTests: XCTestCase {
         let packages = try context.fetch(FetchDescriptor<ContentPackage>())
         XCTAssertEqual(packages.count, 1)
         let allItems = packages.flatMap { $0.units.flatMap { $0.lessons.flatMap { $0.items } } }
-        XCTAssertEqual(allItems.count, 200)
+        XCTAssertEqual(allItems.count, 208)
 
         // Calling again must not duplicate content.
         AppModelContainer.seedRealContentIfNeeded(in: context)

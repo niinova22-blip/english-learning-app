@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-exam-day",
+  "estimatedDurationMinutes": 7,
+  "title": "Sınav Yönetimi: Sınav Günü",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-exam-day",
+      "type": "grammarPoint",
+      "headword": "Exam Management: Exam Day",
+      "frequencyRank": 4012,
+      "baseDifficulty": 0.5,
+      "definition": "Sınav gününe hazırlık ve sınav sırasında sakin kalma tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Sınav Yönetimi: Sınav Günü",
+      "collocations": [],
+      "explanationTR": "Sınav günü, bilgin kadar hazırlığın ve sakinliğin de belirleyicidir. Küçük hazırlıklar büyük stresi önler.\n\n• Bir gün önce: konu yüklemeyi bırak, hafif bir tekrar yap ve erken uyu. Yorgun beyin, bildiğin bilgiyi de geç hatırlar.\n\n• Belgeleri hazırla: sınav giriş belgeni, kimliğini ve gerekli kalem gibi malzemeleri bir gün önce çantana koy. Sabah arayarak stres yaşama.\n\n• Erken git: sınav yerini önceden bil, yolu hesapla ve erken vardığın bir plan yap. Geç kalma korkusu odaklanmayı bozar.\n\n• Talimatı oku: sınav başında yönergeleri ve cevap kâğıdının doldurulma biçimini dikkatle oku. Yanlış kodlanmış bir kâğıt, doğru bilginin önüne geçer.\n\n• Zor bölümden sonra sakinleş: bir okuma parçası çok zorsa iki derin nefes al ve sonraki bölüme geç. Bir kötü bölüm, bütün sınavı bozmamalı. Sınav sırasında cevapları başkalarıyla karşılaştırma.\n\nEn sık düşülen tuzak: sınavdan hemen önce yeni konu çalışmaya çalışmak; bu, kaygıyı artırır ve hatırlamayı zayıflatır.\n\nÖrnek: Sınav sabahı kimliğini arıyorsan, gün daha başlamadan zaman ve odak kaybedersin; bu yüzden belgeleri bir gün önce hazırla."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-exam-day-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Sınavdan bir gün önce akşam saat 22.00'de ne yapmak en mantıklıdır?",
+      "options": [
+        "Sabaha kadar yeni konular çalışmak",
+        "Yalnızca en zor konuları geceye bırakıp uykuyu bilinçli olarak azaltmak",
+        "Bütün gece deneme çözüp sabah doğrudan sınava gitmek",
+        "Hafif bir tekrar yapıp belgeleri hazırlayarak erkenden uyumak",
+        "Belgeleri sabah hazırlamayı planlayıp gece hiçbir şey yapmamak"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Uyku ve hazırlık, bilgiyi sınavda kullanmanı sağlar: (D). (A) yorgunluk yüzünden verimi düşürür. (B) uykuyu kısıtlamak hatırlamayı zayıflatır. (C) sabaha kadar deneme çözmek aynı şekilde yorgunluğa yol açar. (E) sabah telaşı yaratır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-exam-day-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Sınav başında yönergeyi okumayıp doğrudan sorulara başlayan bir öğrenci ne tür bir risk alır?",
+      "options": [
+        "Cevap kâğıdını yanlış doldurma ve talimatı kaçırma riski",
+        "Sorular kolaylaşır, bu yüzden risk yoktur",
+        "Süreyi fazla kullanma riski, çünkü yönergeyi okumak çok zaman alır",
+        "Bilgi eksikliği yüzünden puan kaybetme riski, ama işaretleme riski yoktur",
+        "Hiçbir risk yoktur, çünkü yönerge her sınavda aynıdır"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Yönerge, işaretleme biçimi gibi önemli ayrıntıları içerir: (A). (B) yönergeyi okumak sorulara etki etmez. (C) yönergeyi okumak yalnızca birkaç saniye alır. (D) yanlış işaretleme de puan kaybettirir. (E) yönerge sınavdan sınava değişebilir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-exam-day-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Okuma parçalarından birinde neredeyse hiçbir şey anlamadın ve panik başlıyor. Ne yapmalısın?",
+      "options": [
+        "Sınavı yarıda bırakıp salondan çıkmak",
+        "Parçada kalıp bütün süreyi ona ayırmak",
+        "Nefes alıp parçayı işaretleyerek sonraki bölüme geçmek",
+        "Diğer bölümlerde de yanlış yapacağına karar vermek",
+        "Yandaki öğrencinin kâğıdına göz atmak"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Bir kötü bölüm bütün sınavı bozmamalı; sakinleşip ilerlemek gerekir: (C). (A) hazırlıklı olduğun sınavı bırakmaktır. (B) süreyi tek parçaya harcar. (D) kanıtsız bir yargıdır. (E) kopyadır ve kurallara aykırıdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-exam-day-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "Sınav biter bitmez arkadaşların cevapları karşılaştırmaya başladı. Doğru davranış hangisidir?",
+      "options": [
+        "Cevapları karşılaştırıp yanlış bulduklarını hemen değiştirmek",
+        "Karşılaştırmayı sınavın ortasında da yapmak",
+        "Cevapları değiştirmek için sınav görevlisinden yardım istemek",
+        "Cevapları karşılaştırıp yanlış çıkarsa sınavdan çekilmek",
+        "Cevap karşılaştırmasından kaçınıp sonraki bölüme odaklanmak"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Karşılaştırma yararsız stres yaratır ve değişiklik zaten mümkün değildir: (E). (A) sınav sonrasında cevap değiştirmek mümkün değildir. (B) sınav sırasında karşılaştırma yapmak kurallara aykırıdır. (C) görevli cevabı değiştirmez. (D) sınavdan çekilmek durumu çözmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-exam-day-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Sınav sabahı evden çıkmadan önce hangi hazırlık en önemlidir?",
+      "options": [
+        "Yeni bir konu özetini ezberlemek",
+        "Giriş belgesini, kimliği ve kalemi kontrol etmek",
+        "Arkadaşlarla uzun bir tartışma yapmak",
+        "Sınav yerine gidiş yolunu yürüyerek denemek",
+        "Sınavla ilgisiz bir konuda film izlemek"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Belgeler olmadan sınava alınmama riski vardır; kontrol etmek bu riski kapatır: (B). (A) yeni konu ezberlemek stresi artırır. (C) tartışma enerji tüketir. (D) yolu bir gün önce planlamak gerekir. (E) sınav sabahı film izlemek hazırlık sayılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-exam-day-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Erken varmanın sınav günü sana en somut faydası nedir?",
+      "options": [
+        "Acele etmeden yerleşip sakinleşme fırsatı",
+        "Sınav süresinin kendiliğinden uzaması",
+        "Soru kitapçığını önceden inceleme hakkı",
+        "Doğru cevapları önceden öğrenme olanağı",
+        "Sınav görevlisinden ek süre alma hakkı"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Erken varmak telaşı azaltır ve odak sağlar: (A). (B) sınav süresi erken varmakla uzamaz. (C) kitapçık sınav başlamadan görülemez. (D) cevapları önceden öğrenmek mümkün değildir. (E) ek süre erken gelmekle verilmez.",
+      "passageID": null
+    }
+  ]
+}

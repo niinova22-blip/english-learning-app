@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-elimination",
+  "estimatedDurationMinutes": 7,
+  "title": "Sınav Yönetimi: Eleme ve Tahmin",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-elimination",
+      "type": "grammarPoint",
+      "headword": "Exam Management: Elimination and Guessing",
+      "frequencyRank": 4011,
+      "baseDifficulty": 0.5,
+      "definition": "Şıkları eleyerek ve bilinçli tahminle cevaba yaklaşma tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Sınav Yönetimi: Eleme ve Tahmin",
+      "collocations": [],
+      "explanationTR": "Emin olmadığın bir soruda bile şansını artırabilirsin. Yöntem, doğruyu aramak yerine yanlışları gerekçeyle elemektir.\n\n• Gerekçeli ele: bir şıkkı yalnızca «bana yanlış geldi» diye değil, adlandırabileceğin bir nedenle ele (zaman uyumsuzluğu, yanlış edat, metinle çelişki, anlam kayması). Nedenini söyleyemiyorsan şık henüz elenmemiştir.\n\n• Son ikiyi karşılaştır: iki şık kaldığında ikisini de soru kökünde dene ve farkın nerede olduğunu bul. Genellikle tek bir sözcük ya da ayrıntı ayırır.\n\n• Ele, sonra tahmin et: şıklardan birkaçını elemeden rastgele işaretlemek yerine, önce elenebilenleri ele. Kalan şıklar arasından seçmek şansını yükseltir. Değerlendirme kuralını ÖSYM kılavuzundan oku ve tahmin kararını ona göre ver.\n\n• Cevabı sebepsiz değiştirme: ilk seçimini yalnızca somut bir hata bulursan değiştir; «acaba» duygusu yeterli sebep değildir.\n\nEn sık düşülen tuzak: iyi görünen ilk şıkkı okuyup diğerlerini hiç incelememek.\n\nÖrnek: «The report was ---- by the committee.» sorusunda (A) prepared, (B) prepare, (C) preparing. Özneyle çalışmayan «prepare» ve «preparing» biçimleri edilgen yapıya uymadığı için elenir."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-elimination-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Bir soruda üç şıkkı gerekçeyle eledin ve iki şık kaldı. Doğru sonraki adım hangisidir?",
+      "options": [
+        "Yazımı daha kısa olanı seçip ilerlemek",
+        "İki şıkkı soru kökünde tek tek deneyip aralarındaki farkı bulmak",
+        "İki şıkkı da yanlış sayıp soruyu iptal etmek",
+        "Şıkların sırasına bakıp alfabetik olarak birini seçmek",
+        "Elediğin şıkları bir daha kontrol etmeden ilerlemek"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Son iki şıkkı köke karşı denemek, farkı ortaya çıkarır: (B). (A) yazım uzunluğu içerikle ilgisizdir. (C) ise soruyu boşa harcar. (D) sıra bilgisi anlama dayalı değildir. (E) zaten kalan iki şıkkı ayırmaya yardım etmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "«The new policy was widely ---- by the public.» boşluğuna hangi şık girer?",
+      "options": [
+        "welcome",
+        "welcoming",
+        "welcomed",
+        "welcomes",
+        "to welcome"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«was widely ---- by» edilgen yapıdır ve past participle ister: (C). (A) ve (E) fiilin yalın biçimleridir, edilgen yapıya uymaz. (B) «-ing» biçimi olup etken anlam taşır. (D) üçüncü tekil kişi biçimidir, «was» ile yan yana gelemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Bir arkadaşın cevabını işaretledikten sonra «acaba yanlış mı yaptım?» diye şüpheleniyor, ama somut bir hata görmüyor. Ne önerirsin?",
+      "options": [
+        "Somut bir gerekçe bulamıyorsa ilk seçimini değiştirmemesini",
+        "Her zaman ilk seçimi değiştirmesini, çünkü ilk fikir genellikle yanlıştır",
+        "Bütün cevaplarını boş bırakıp yeniden yazmasını",
+        "Kâğıdı silip başka bir kalemle yeniden doldurmasını",
+        "Cevabı arkadaşlarına sorup çoğunluğa uymasını"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Şüphe tek başına sebep değildir; somut hata bulunmadan değiştirmek çoğu zaman doğruyu bozar: (A). (B) kurala dayanmayan genel bir inançtır. (C) ve (D) zaman kaybettirir. (E) sınavda arkadaşa sormak mümkün ve doğru değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "«She insisted ---- the meeting be postponed.» boşluğuna hangi şık girer?",
+      "options": [
+        "which",
+        "on",
+        "to",
+        "that",
+        "what"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«insist that + clause» kalıbında «that» yan cümleyi bağlar: (D). (A) «which» bu yapıda kendi başına yan cümle kurmaz. (B) «on» ile «insist on doing» gelir, ama arkasından bir cümle gelmez. (C) mastar ile eylem sonrası kalıba uymaz. (E) soru sözcüğüdür.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Emin olmadığın bir soruda tahmin etmeyi düşünüyorsun. En mantıklı yaklaşım hangisidir?",
+      "options": [
+        "Hiçbir şıkkı incelemeden rastgele birini işaretlemek",
+        "Bütün sorularda hep aynı harfi işaretleyip ilerlemek",
+        "Kendi favori harfini seçip hiç düşünmemek",
+        "Soruyu yanıtlamadan geçip cevap kâğıdını boş bırakmak",
+        "Önce gerekçeyle elenebilenleri eleyip kalanlardan seçmek"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Şık sayısı azaldıkça doğru seçme şansı yükselir; bunun için önce elemek gerekir: (E). (A) hiçbir bilgiyi kullanmaz. (B) ve (C) soruya bağlı olmayan sabit kurallardır. (D) hem şansı hem de değerlendirme kuralını hesaba katmaz; kuralı ÖSYM kılavuzundan oku.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "«He is not only a talented musician ---- also a gifted teacher.» boşluğuna hangisi girer?",
+      "options": [
+        "and",
+        "but",
+        "or",
+        "so",
+        "than"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«not only ... but also» ikili bağlaç kalıbıdır: (B). (A) tek başına eklemeyi verir ama kalıbı bozar. (C) seçenek bildirir, «also» ile uymaz. (D) sonuç bildirir. (E) karşılaştırma için kullanılır.",
+      "passageID": null
+    }
+  ]
+}

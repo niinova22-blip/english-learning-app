@@ -1,0 +1,150 @@
+{
+  "id": "yds-tech-memorisation",
+  "estimatedDurationMinutes": 9,
+  "title": "Kelime Tekniği: Ezberleme ve Tekrar",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-memorisation",
+      "type": "grammarPoint",
+      "headword": "Vocabulary Skill: Memorisation and Review",
+      "frequencyRank": 4017,
+      "baseDifficulty": 0.5,
+      "definition": "Kelimeleri kalıcı öğrenmek için aralıklı tekrar ve aktif hatırlama tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Kelime Tekniği: Ezberleme ve Tekrar",
+      "collocations": [],
+      "explanationTR": "Kelimeleri bir kez görmek onları öğrenmek değildir. Kalıcı öğrenme, doğru zamanlarda tekrar ve aktif kullanımla gelir.\n\n• Aralıklı tekrar (spaced repetition): bir kelimeyi öğrendikten sonra giderek uzayan aralıklarla yeniden gözden geçir (örneğin ertesi gün, birkaç gün sonra, bir hafta sonra). Unutmaya başladığın anda tekrar etmek etkilidir.\n\n• Aktif hatırlama (active recall): cevaba bakmadan önce kelimeyi hatırlamaya çalış. Kartın bir yüzüne bakıp diğer yüzünü hatırlamak, listeyi yeniden okumaktan daha etkilidir.\n\n• Kelime ailesi: decide, decision, decisive gibi aynı kökten sözcükleri birlikte öğren. Bir sözcüğü bilmek, ailedeki diğerlerini çözmene yardım eder.\n\n• Kendi cümleni kur: yeni kelimeyi kendi hayatından bir cümlede kullan. Anlamlı bağlam, sözcüğü hatırlamayı kolaylaştırır.\n\n• Kısa ama düzenli çalış: her gün az sayıda kelimeyle düzenli çalışmak, bir günde çok kelimeyle uğraşıp bir daha bakmamaktan daha sürdürülebilirdir.\n\nEn sık düşülen tuzak: aynı listeyi tekrar tekrar sessizce okumak. Tanıdık gelmek, hatırlayabilmek demek değildir.\n\nÖrnek: Bugün öğrendiğin «reluctant» sözcüğünü yarın kartına bakmadan hatırlamaya çalış, sonra bir hafta sonra tekrar dene."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-memorisation-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Aralıklı tekrar (spaced repetition) yöntemi nedir?",
+      "options": [
+        "Aynı kelimeyi tek bir günde yüzlerce kez yazmak",
+        "Kelimeyi bir kez öğrenip bir daha hiç görmemek",
+        "Kelimeleri yalnızca sınavdan önceki gün tekrar etmek",
+        "Kelimeleri sabaha kadar aynı listeden okumak",
+        "Aynı kelimeyi giderek uzayan aralıklarla yeniden gözden geçirmek"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Aralıklı tekrar, unutmaya başlamadan hemen önce gözden geçirmeyi hedefler: (E). (A) aralıksız yoğun yığmadır. (B) tekrarı tamamen bırakır. (C) tekrarı tek bir güne sıkıştırır. (D) pasif okumadır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-memorisation-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Aşağıdakilerden hangisi aktif hatırlama (active recall) örneğidir?",
+      "options": [
+        "Kelime listesini sessizce defalarca baştan sona okumak ve tanıdık bulmak",
+        "Kelimelerin altını farklı renkli kalemlerle çizmek",
+        "Kartın Türkçe yüzüne bakıp İngilizcesini hatırlamaya çalışmak",
+        "Kelimeleri gün boyu kulaklıkla arka planda dinlemek",
+        "Aynı kelimeyi sözlükte tekrar tekrar bakıp anlamını okumak"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Aktif hatırlama, cevabı görmeden önce çaba göstermektir: (C). (A) ve (B) pasif tekrardır. (D) dinlemek yararlı olsa da hatırlama çabası içermez. (E) her seferinde cevabı hazır bulmak demektir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-memorisation-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "decide, decision ve decisive gibi kelimeleri birlikte öğrenmenin en önemli faydası nedir?",
+      "options": [
+        "Bir kelimeyi bilmenin ailedeki diğer kelimeleri anlamaya yardım etmesi",
+        "Sözcüklerin hepsinin anlamının aynı olması",
+        "Sözcüklerin sınavda aynı soruda çıkmasının garanti olması",
+        "Sözcüklerin yazımını unutmanın imkânsız hale gelmesi",
+        "Kelime öğrenmek için başka bir çabaya gerek kalmaması"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Aynı kökten gelen sözcükler ortak anlam taşır; kök ve ekleri bilmek yeni biçimleri tanımayı kolaylaştırır: (A). (B) anlamları aynı değil, ilişkilidir. (C) sınavda çıkma garantisi yoktur. (D) ve (E) gerçekçi olmayan vaatlerdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-memorisation-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "Yeni bir kelimeyi kendi cümlende kullanmak neden faydalıdır?",
+      "options": [
+        "Kelimenin anlamını öğrenmeyi gereksiz kılar, yalnızca yazımı pekiştirir",
+        "Kelimeyi anlamlı bir bağlama yerleştirerek hatırlamayı kolaylaştırır",
+        "Kelimenin yazımını gereksiz kılar",
+        "Kelimenin sınavda çıkmasını sağlar",
+        "Kelime kartlarının yerini tamamen alır"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Kişisel ve anlamlı bir bağlam, hatırlamayı güçlendirir: (B). (A) anlamı gereksiz kılmaz; cümle kurmak anlamı da pekiştirir. (C) yazımı öğrenmek yine gerekir. (D) sınavda çıkmasını etkilemez. (E) ihtiyaca göre kartlarla birlikte kullanılabilir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-memorisation-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Ali bir günde yüz kelime çalıştı ve bir daha hiç bakmadı; bir hafta sonra çoğunu unuttu. En uygun çözüm hangisidir?",
+      "options": [
+        "Bir günde iki yüz kelime birden çalışmak",
+        "Kelime çalışmayı bırakmak",
+        "Aynı listeyi sabaha kadar tekrar tekrar okumak",
+        "Yalnızca zaten bildiği kelimelere tekrar bakmak",
+        "Kelimeleri birkaç gün arayla yeniden tekrar etmek"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Bir kez öğrenilip terk edilen bilgi unutulur; düzenli tekrar gerekir: (E). (A) yükü artırıp aynı sorunu büyütür. (B) hiçbir çözüm getirmez. (C) pasif tekrardır. (D) öğrenmesi gereken kelimeleri yok sayar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-memorisation-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Yalnızca Türkçe karşılıklı liste ezberleyen bir öğrenci kelimeleri cümlede kullanamıyor. Ona ne önerirsin?",
+      "options": [
+        "Aynı listeyi biraz daha hızlı ezberlemesini",
+        "Cümle kurmayı tamamen bırakmasını",
+        "Örnek cümle ve eşdizimleri de çalışıp cümle yazmasını",
+        "Türkçe karşılıkları unutmasını",
+        "Yalnızca kelimelerin ilk harflerine odaklanmasını"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Kelimeyi bağlamda ve kalıplarıyla öğrenmek kullanma becerisini geliştirir: (C). (A) aynı yöntemi hızlandırır. (B) sorunu çözmez. (D) yararlı bir ipucunu atar. (E) anlamla ilgisiz bir hedefe odaklanır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-memorisation-q07",
+      "kind": "strategy",
+      "order": 6,
+      "prompt": "Bir hafta önce öğrendiğin bir kelimeyi hatırlayamıyorsun. Bu durum neyi gösterir?",
+      "options": [
+        "Kelime öğrenme yeteneğinin hiç olmadığını",
+        "Yaşının artık kelime öğrenmek için geç olduğunu",
+        "Bu kelimeyi artık hiçbir zaman öğrenemeyeceğini",
+        "Unutmanın normal olduğunu ve tekrar zamanının geldiğini",
+        "O kelimenin sınavda çıkmayacağını"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Unutma sürecin doğal parçasıdır; tekrar zamanını hatırlatır: (D). (A) tek bir unutma yetenek eksikliği değildir. (B) yaş burada belirleyici değildir. (C) tekrar bu durumu değiştirir. (E) çıkıp çıkmayacağıyla ilgisizdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-memorisation-q08",
+      "kind": "strategy",
+      "order": 7,
+      "prompt": "Haftalık on saatlik kelime çalışmasını nasıl dağıtmak daha sürdürülebilirdir?",
+      "options": [
+        "Her gün kısa oturumlara bölüp düzenli tekrar yapmak",
+        "Tek bir gün on saat çalışmak",
+        "İlk gün çok çalışıp haftanın kalanında hiç çalışmamak",
+        "Sadece sınavdan bir gün önce çalışmak",
+        "Aynı oturumda bütün kelimeleri bir kez okumak"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Düzenli ve kısa oturumlar aralıklı tekrar sağlar: (A). (B) ve (C) yığılmadır ve unutmayı artırır. (D) yeterli tekrar fırsatı vermez. (E) tek okuma kalıcı öğrenme sağlamaz.",
+      "passageID": null
+    }
+  ]
+}

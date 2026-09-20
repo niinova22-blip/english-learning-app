@@ -1,0 +1,150 @@
+{
+  "id": "yds-tech-synonyms-collocations",
+  "estimatedDurationMinutes": 9,
+  "title": "Kelime Tekniği: Eş Anlam ve Eşdizimlilik",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-synonyms-collocations",
+      "type": "grammarPoint",
+      "headword": "Vocabulary Skill: Synonyms and Collocations",
+      "frequencyRank": 4016,
+      "baseDifficulty": 0.5,
+      "definition": "Eş anlamlı sözcüklerin farklı eşdizimlerle kullanıldığını öğrenerek doğru sözcüğü seçme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Kelime Tekniği: Eş Anlam ve Eşdizimlilik",
+      "collocations": [],
+      "explanationTR": "İngilizce'de anlamları yakın sözcükler çoğu zaman birbirinin yerine kullanılamaz; çünkü her sözcüğün birlikte kullanıldığı alışılmış eşleşmeleri (collocations) vardır.\n\n• Kalıplarla öğren: «decision» sözcüğünü tek başına değil, «make a decision» diye öğren. Sözcükleri en sık eşlendikleri sözcüklerle birlikte ezberle.\n\n• Eş anlamlılar aynı değildir: «strong tea» ama «powerful engine»; «heavy rain» ama «strong wind». Anlam yakın olsa da eşleşme farklıdır.\n\n• Fiil eşdizimlerine dikkat et: «make a mistake» (do a mistake değil), «carry out a survey», «take a risk», «pay attention», «raise a question».\n\n• Sözcük türünü ve kalıbı birlikte düşün: rise (kendiliğinden yükselmek, nesne almaz) ile raise (bir şeyi yükseltmek, nesne alır) farklıdır.\n\n• Sınavda seçeneklerden birinin kalıba uymamasını fark etmek, doğru cevabı bulmanın en hızlı yoludur.\n\nEn sık düşülen tuzak: Türkçe karşılığına bakarak kalıp seçmek. «Karar vermek» Türkçe'de «vermek» ile kurulur ama İngilizce'de «give a decision» değil, «make a decision» denir.\n\nÖrnek: She drinks strong tea. «Powerful tea» eşleşmesi doğal değildir."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-synonyms-collocations-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "The board must ---- a decision about the budget by Friday.",
+      "options": [
+        "make",
+        "do",
+        "hold",
+        "place",
+        "keep"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Decision» ile en doğal eşleşme «make a decision»dır: (A). (B) «do» ile «do homework» gibi kalıplar kurulur. (C) «hold a meeting» gibi kalıplara girer. (D) ve (E) «decision» ile eşleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-synonyms-collocations-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "She likes to drink ---- tea, without any milk or sugar.",
+      "options": [
+        "powerful",
+        "strong",
+        "large",
+        "thick",
+        "hard"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Çay için «strong tea» kullanılır: (B). (A) «powerful» daha çok motor, silah, lider için kullanılır. (C), (D) ve (E) «tea» ile eşleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-synonyms-collocations-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "There was ---- rain all night, and several streets were flooded.",
+      "options": [
+        "strong",
+        "big",
+        "high",
+        "heavy",
+        "deep"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Yağmur için «heavy rain» eşleşmesi kullanılır: (D). (A) «strong wind» eşleşmesi vardır. (B), (C) ve (E) yağmur için kalıplaşmamıştır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-synonyms-collocations-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "The research team will ---- a large survey next month.",
+      "options": [
+        "take up",
+        "put on",
+        "set off",
+        "bring in",
+        "carry out"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Carry out a survey» yürütmek anlamındadır: (E). (A) bir uğraşa başlamak, (B) giymek veya sahnelemek, (C) yola çıkmak, (D) getirmek anlamındadır; hiçbiri «survey» ile eşleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-synonyms-collocations-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Sözcükleri tek tek ezberlemek yerine eşdizimleriyle öğrenmek neden daha etkilidir?",
+      "options": [
+        "Öğrenilecek sözcük sayısını sınırlayarak işi bitirir",
+        "Sözcüklerin Türkçe karşılıklarını tamamen gereksiz kılar",
+        "Sözcüğün hangi sözcüklerle birlikte kullanıldığını da öğretir",
+        "Sözcüklerin yazımını sonradan değiştirmeyi kolaylaştırır",
+        "Sözlük kullanma ihtiyacını tamamen ortadan kaldırır"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Eşdizimlerle öğrenmek, sözcüğü doğru bağlamda ve doğru sözcüklerle kullanmayı sağlar: (C). (A) öğrenilecek sözcük sayısını sınırlamaz. (B) ve (E) sözcük bilgisinin yerini almaz. (D) yazımla ilgisizdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-synonyms-collocations-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "The manager admitted that he had ---- a serious mistake.",
+      "options": [
+        "made",
+        "done",
+        "taken",
+        "given",
+        "put"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "İngilizce'de «make a mistake» denir: (A). (B) Türkçe «hata yapmak» karşılığına bakınca akla gelir ama «do a mistake» kalıbı yoktur. (C), (D) ve (E) «mistake» ile eşleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-synonyms-collocations-q07",
+      "kind": "strategy",
+      "order": 6,
+      "prompt": "Prices are expected to ---- sharply next year.",
+      "options": [
+        "raise",
+        "rise",
+        "arise",
+        "arouse",
+        "rouse"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Rise» nesne almayan fiildir ve «yükselmek» demektir: (B). (A) nesne ister (raise prices). (C) «ortaya çıkmak» anlamındadır. (D) ve (E) uyandırmak, heyecanlandırmak anlamındadır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-synonyms-collocations-q08",
+      "kind": "strategy",
+      "order": 7,
+      "prompt": "«Strong» ve «powerful» yakın anlamlı olsa da neden her bağlamda birbirinin yerine kullanılamaz?",
+      "options": [
+        "Biri yalnızca resmî yazıda, diğeri yalnızca günlük konuşmada kullanılır",
+        "Biri yalnızca isim, diğeri yalnızca fiil olarak kullanılır",
+        "Sözcüklerden biri artık İngilizce'de hiç kullanılmamaktadır",
+        "Her sözcüğün alışılmış eşdizimleri vardır (strong tea, powerful engine)",
+        "Anlamları birbirinin tamamen zıttıdır"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Eş anlamlı sözcükler farklı eşdizimlerle kullanılır: (D). (A) ikisi de hem yazıda hem konuşmada geçer. (B) ikisi de sıfattır. (C) ikisi de yaygın kullanılır. (E) anlamları zıt değil, yakındır.",
+      "passageID": null
+    }
+  ]
+}

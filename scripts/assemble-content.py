@@ -256,6 +256,25 @@ TECH_UNITS = [
             "question-strategies/vocabulary-questions.json", "question-strategies/grammar-questions.json",
         ],
     },
+    {
+        "id": "yds-tech-unit-exam-management",
+        "theme": "Sınav yönetimi ve zaman",
+        "order": 14,
+        "files": [
+            "exam-management/time-allocation.json", "exam-management/elimination.json",
+            "exam-management/exam-day.json",
+        ],
+    },
+    {
+        "id": "yds-tech-unit-vocabulary-skills",
+        "theme": "Kelime öğrenme teknikleri",
+        "order": 15,
+        "files": [
+            "vocabulary-skills/prefixes.json", "vocabulary-skills/suffixes.json",
+            "vocabulary-skills/context-clues.json", "vocabulary-skills/synonyms-collocations.json",
+            "vocabulary-skills/memorisation.json",
+        ],
+    },
 ]
 TECH_LESSON_ID_PREFIX = "yds-tech-"
 # slug -> (question kind, lesson skill, exact question count, exact minutes)
