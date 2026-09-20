@@ -95,7 +95,9 @@ struct StoreEntitlement: Equatable, Sendable {
   `Product.purchase()`, `Transaction.currentEntitlements`,
   `Transaction.updates` and `AppStore.sync()`. Only `.verified` transactions
   produce entitlements; `.unverified` results are dropped. `transaction.finish()`
-  is called only after the entitlement has been recorded.
+  is called right after a verified transaction is handed to the store;
+  `currentEntitlements` keeps reporting finished non-consumable and active
+  subscription transactions, so finishing early cannot lose access.
 - `FakePurchaseService` (tests) is scriptable: fixed products, a queue of
   purchase outcomes, injectable entitlement updates and failures.
 - `EntitlementStore` (`@MainActor @Observable`) is the single source of truth:
@@ -108,6 +110,12 @@ struct StoreEntitlement: Equatable, Sendable {
     package. A live `currentEntitlements()` result always replaces the cache.
   - Bumps `AppState.dataGeneration` whenever the entitled set changes, which the
     existing screens already use to reload (Bugün, Ders Yolu, Profil).
+  - Mirrors the active product ids into an `EntitlementSnapshot` (a small
+    lock-protected `Sendable` object), because `PackageAccessProvider` is a
+    synchronous, non-main-actor protocol that the planners call from anywhere.
+    UI observes the store; providers read the snapshot. The snapshot also holds
+    the package id → `storeProductID` / name table, filled once from the
+    installed `ContentPackage` rows at launch.
 - `StoreKitPackageAccessProvider: PackageAccessProvider` maps a package id to
   its `storeProductID` (read from `ContentPackage`) and returns `.owned` when
   that product is in `ownedProductIDs`, `.preview` otherwise. A package with no
@@ -181,8 +189,10 @@ existing screens and `Localizable.xcstrings`.
 - **Launch:** `EntitlementStore` restores the cached ids, then `start()`
   refreshes from StoreKit and listens for updates. Screens render from the
   cache immediately.
-- **Purchase:** paywall → `PurchaseService.purchase` → `.purchased` →
-  `Transaction.updates` delivers the verified entitlement → store updates →
+- **Purchase:** paywall → `EntitlementStore.purchase` → `PurchaseService.purchase`
+  → `.purchased` → the store re-reads `currentEntitlements()` (StoreKit does not
+  emit in-app purchases on `Transaction.updates`; that stream carries purchases
+  made elsewhere, Ask-to-Buy approvals, renewals and refunds) → store updates →
   `dataGeneration` bumps → locked screens reload → paywall dismisses.
 - **Cancelled:** no message, no state change. **Pending (Ask to Buy):** the
   paywall shows the waiting state; approval later arrives through
