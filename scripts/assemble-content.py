@@ -99,6 +99,19 @@ GRAMMAR_UNITS = [
             "sentence-structures/reported-speech-2.json",
         ],
     },
+    {
+        "id": "yds-grammar-unit-verbals-and-linkers",
+        "theme": "Fiilimsiler ve bağlantılar",
+        "order": 6,
+        "files": [
+            "verbals-and-linkers/gerunds-infinitives-1.json",
+            "verbals-and-linkers/gerunds-infinitives-2.json",
+            "verbals-and-linkers/participle-clauses-1.json",
+            "verbals-and-linkers/participle-clauses-2.json",
+            "verbals-and-linkers/conjunctions-linkers-1.json",
+            "verbals-and-linkers/conjunctions-linkers-2.json",
+        ],
+    },
 ]
 
 GRAMMAR_LESSON_ID_PREFIX = "yds-grammar-"

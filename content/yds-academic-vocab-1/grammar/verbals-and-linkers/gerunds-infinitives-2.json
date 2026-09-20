@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-gerunds-infinitives-2",
+  "estimatedDurationMinutes": 10,
+  "title": "İsim-Fiiller ve Mastarlar: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-gerunds-infinitives-2",
+      "type": "grammarPoint",
+      "headword": "Gerunds & Infinitives (Traps)",
+      "frequencyRank": 2013,
+      "baseDifficulty": 0.6,
+      "definition": "Anlam değiştiren fiiller, edilgen/perfect fiilimsiler ve yarım hatırlanan kalıplar.",
+      "exampleSentences": [],
+      "translationTR": "İsim-Fiiller ve Mastarlar: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Bu derste anlamı DEĞİŞTİREN kalıplar ve yarım hatırlanan fiil kalıpları sınanır.\n\n• Anlam değiştiren fiiller: remember / forget / regret / stop + V-ing = GEÇMİŞTE yapılan eylem (I remember signing it; regret ignoring; stopped talking). Aynı fiiller + to V1 = amaç ya da yapılacak eylem (remember to sign; stopped to talk = konuşmak için durdu). regret to inform = üzülerek bildirmek.\n\n• need + V-ing edilgen anlam taşır: The data need checking (= need to be checked). Etken mastar (need to check) özne eylemi yapıyorsa kullanılır.\n\n• Perfect ve edilgen fiilimsiler: having done / to have done (daha önce olmuş), being done / to be done (edilgen), having been done / to have been done (edilgen + önce). The bridge is reported to have been damaged.\n\n• too + sıfat + to V1 (= çok ... ki yapamaz), sıfat + enough + to V1: The tax cut is too small to make a difference.\n\n• do nothing but / had no choice but / rather than + YALIN fiil: The auditor did nothing but offer criticism.\n\n• used to + V1 (geçmiş alışkanlık) ↔ be used to + V-ing (alışık olmak): She used to work in a corporation. Bu yalnızca biçim ayrımıdır.\n\nEn sık düşülen tuzak: yarım hatırlanan kalıp. suggest + V-ing (suggest to do YANLIŞ), look forward to + V-ing, adjective + to V1 (easy to use).\n\nÖrnek: The consultant suggested trialling the scheme in two regions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The engineers now regret ---- the early warning signs, a decision that eventually cost the company millions.",
+      "options": [
+        "to ignore",
+        "ignoring",
+        "to be ignored",
+        "being ignored",
+        "ignored"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Regret + V-ing» geçmişte yapılmış bir eylemden pişmanlık duymayı anlatır; «a decision that eventually cost ...» bu eylemin çoktan olduğunu gösteriyor. (A) «regret to + fiil» yalnızca kötü bir haber verirken kullanılır (regret to inform you). (C) ve (D) edilgendir; mühendisler işaretleri görmezden gelen taraftır. (E) ignored ise regret'ten sonra çekimli bir fiil gibi durur ve kalıba uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The chairman abruptly stopped ---- when the alarm rang, and everyone left the room.",
+      "options": [
+        "to talk",
+        "talk",
+        "to be talked",
+        "talking",
+        "to have talked"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Konuşmayı BIRAKMAK anlamı stop + V-ing ile verilir: stopped talking. (A) to talk «konuşmak için durdu» demektir ve alarm sahnesiyle çelişir. (B) talk yalın fiildir, stop'tan sonra kullanılmaz. (C) to be talked ve (E) to have talked yapıya uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The survey data need ---- again before the report is published.",
+      "options": [
+        "checking",
+        "check",
+        "to check",
+        "checked",
+        "to have checked"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Özne (the survey data) kontrol EDİLEN taraftır; bu edilgen anlam need + V-ing ile verilir: need checking (= need to be checked). (B) check ve (C) to check etken anlam katar; veri kendini kontrol edemez. (D) checked ve (E) to have checked need'den sonra gelmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The bridge is reported ---- seriously damaged by the storm that struck the region two years ago.",
+      "options": [
+        "to have damaged",
+        "to be damaging",
+        "having damaged",
+        "damage",
+        "to have been"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Köprü hasar GÖRENDİR (edilgen) ve hasar rapordan ÖNCE olmuştur: to have been damaged (perfect edilgen mastar). (A) to have damaged, (B) to be damaging ve (C) having damaged etkendir. (D) damage ise mastar edatı ya da edilgen anlamı taşımaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The proposed tax cut is far ---- to make any real difference to household spending.",
+      "options": [
+        "small enough",
+        "enough small",
+        "too small",
+        "so small",
+        "very small"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Too + sıfat + to V1» = «çok ... ki yapamaz»: too small to make a difference. (A) small enough to «yeterince küçük» anlamı verir ve mantığı tersine çevirir. (B) enough small yanlış sıradır. (D) so small ve (E) very small to + V1 ile birleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "During the meeting, the auditor did nothing but ---- criticism.",
+      "options": [
+        "to offer",
+        "offer",
+        "offering",
+        "offered",
+        "having offered"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Do nothing but» sonrası YALIN fiil gelir: did nothing but offer. (A) to offer bu kalıpta standart değildir. (C) offering, (D) offered ve (E) having offered kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "She used ---- in a large corporation before she started her own consultancy.",
+      "options": [
+        "to working",
+        "working",
+        "work",
+        "to work",
+        "to be worked"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Geçmişteki bir alışkanlık ya da durum used to + V1 ile verilir: used to work. (A) to working be yardımcı fiili olmadan «alışık olmak» kalıbı kurar. (B) working ve (C) work kalıbı bozar. (E) to be worked edilgen anlam katar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The consultant suggested ---- the pilot scheme in two regions before a national launch.",
+      "options": [
+        "trialling",
+        "to trial",
+        "us to trial",
+        "for trialling",
+        "that trialling"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Suggest + V-ing kalıbıdır: suggested trialling (suggest to do YANLIŞTIR). (B) to trial, (C) us to trial ve (D) for trialling bu fiille kurulmaz. (E) that trialling that ile V-ing'i birleştirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "The new software is easy ---- and requires no special training.",
+      "options": [
+        "using",
+        "use",
+        "to using",
+        "for using",
+        "to use"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Sıfat + to V1 kalıbıdır: easy to use. (A) using ve (B) use bu kalıpta kullanılmaz. (C) to using ve (D) for using edat + V-ing kalıbını yanlış yere taşır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "I clearly remember ---- the contract, so the signature on this page cannot be forged.",
+      "options": [
+        "to sign",
+        "to be signing",
+        "signing",
+        "sign",
+        "to have signed"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Remember + V-ing» geçmişte yapılan eylemi hatırlamaktır: remember signing (imzayı attığımı hatırlıyorum). (A) to sign yapılacak bir işi hatırlamayı anlatır. (B) to be signing ve (D) sign kalıba uymaz. (E) to have signed remember ile standart değildir.",
+      "passageID": null
+    }
+  ]
+}

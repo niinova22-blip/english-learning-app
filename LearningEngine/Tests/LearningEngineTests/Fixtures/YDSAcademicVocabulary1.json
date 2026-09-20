@@ -5657,6 +5657,1015 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yds-grammar-unit-verbals-and-linkers",
+      "theme": "Fiilimsiler ve bağlantılar",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "yds-grammar-gerunds-infinitives-1",
+          "order": 0,
+          "estimatedDurationMinutes": 8,
+          "title": "İsim-Fiiller ve Mastarlar (Gerunds & Infinitives)",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-gerunds-infinitives-1",
+              "type": "grammarPoint",
+              "headword": "Gerunds & Infinitives",
+              "frequencyRank": 2012,
+              "baseDifficulty": 0.5,
+              "definition": "Fiillerden sonra V-ing mi, to + V1 mi geleceğini belirleyen temel kalıplar.",
+              "exampleSentences": [],
+              "translationTR": "İsim-Fiiller ve Mastarlar",
+              "collocations": [],
+              "explanationTR": "Bir fiilden sonra V-ing (gerund) mi yoksa to + V1 (infinitive) mi geleceği fiilin KALIBINA bağlıdır; anlamdan tahmin edilmez.\n\n• Fiil + V-ing: avoid, deny, mind, risk, consider, postpone, involve, justify, suggest. The board postponed making the final decision.\n\n• Fiil + to V1: decide, manage, afford, refuse, hope, agree, fail, tend. The department managed to maintain its programme.\n\n• Fiil + nesne + to V1: allow, persuade, enable, encourage, require, expect. The rules require companies to publish annual reports.\n\n• Edat + V-ing: capable of doing, responsible for doing, succeed in doing. Edattan sonra to V1 gelmez.\n\n• Edat olan to'dan sonra da V-ing gelir: look forward to seeing, object to adopting, be committed to doing, be accustomed to doing.\n\n• make / let + nesne + YALIN fiil (to almaz): The deadlines made the researchers work overtime. help hem to'lu hem to'suz alır.\n\nÖrnek: The auditors are responsible for ensuring that every transaction is recorded."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-gerunds-infinitives-1-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "The board decided to postpone ---- the final decision until more data became available.",
+              "options": [
+                "to make",
+                "make",
+                "making",
+                "made",
+                "to have made"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Postpone + V-ing kalıbıdır: postpone making. (A) to make ve (E) to have made postpone ile kullanılmaz. (B) make yalın fiil, (D) made ise geçmiş biçimdir; ikisi de fiilden sonra gerund yerine geçemez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-1-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "Despite the budget cuts, the department managed ---- its research programme.",
+              "options": [
+                "to maintain",
+                "maintaining",
+                "maintain",
+                "maintained",
+                "to maintaining"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Manage + to V1 kalıbıdır: managed to maintain. (B) maintaining gerund'dur ve manage ile kullanılmaz. (C) maintain mastar edatını eksik bırakır. (D) maintained ikinci bir çekimli fiil ekler. (E) to maintaining edat + V-ing biçimidir ve manage'den sonra gelmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-1-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "The new regulations require companies ---- annual emissions reports.",
+              "options": [
+                "publishing",
+                "publish",
+                "having published",
+                "to publish",
+                "published"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Require + nesne + to V1 kalıbıdır: require companies to publish. (A) publishing ve (C) having published bu kalıpta kullanılmaz. (B) publish mastar edatı olmadan gelir. (E) published edilgen bir anlam katar; şirketler rapor yayımlayan taraftır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-1-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "The auditors are responsible for ---- that every transaction is properly recorded.",
+              "options": [
+                "ensure",
+                "ensuring",
+                "to ensure",
+                "ensured",
+                "to ensuring"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Edattan (for) sonra V-ing gelir: responsible for ensuring. (A) ensure ve (C) to ensure edattan sonra kullanılamaz. (D) ensured geçmiş biçimdir. (E) to ensuring edatı ikiye katlar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-1-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "Many analysts look forward to ---- the quarterly figures next week.",
+              "options": [
+                "see",
+                "to see",
+                "saw",
+                "have seen",
+                "seeing"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Look forward to kalıbındaki to bir EDATTIR ve ardından V-ing gelir: look forward to seeing. (A) see ve (B) to see to'yu mastar sanmaktan doğan hatalardır. (C) saw geçmiş zamandır. (D) have seen edat sonrası kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-1-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "Several members objected to ---- the committee's recommendation without further debate.",
+              "options": [
+                "adopt",
+                "to adopt",
+                "adopting",
+                "be adopted",
+                "adopted"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Object to kalıbındaki to bir edattır ve ardından V-ing gelir: objected to adopting. (A) adopt ve (B) to adopt mastar biçimleridir. (D) be adopted ve (E) adopted edat sonrası uygun değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-1-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "The strict deadlines made the researchers ---- overtime for several weeks.",
+              "options": [
+                "work",
+                "to work",
+                "working",
+                "to working",
+                "having worked"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Make + nesne + YALIN fiil kalıbıdır (to almaz): made the researchers work. (B) to work make'ten sonra kullanılmaz (yalnızca edilgende gelir). (C) working, (D) to working ve (E) having worked kalıba uymaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-1-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "The grant will enable the laboratory ---- three additional technicians.",
+              "options": [
+                "hire",
+                "hiring",
+                "hired",
+                "to hire",
+                "hire to"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Enable + nesne + to V1 kalıbıdır: enable the laboratory to hire. (A) hire ve (B) hiring bu kalıpta kullanılmaz. (C) hired edilgen bir anlam katar. (E) hire to kalıbı ters kurar.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-grammar-gerunds-infinitives-2",
+          "order": 1,
+          "estimatedDurationMinutes": 10,
+          "title": "İsim-Fiiller ve Mastarlar: Tuzaklar",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-gerunds-infinitives-2",
+              "type": "grammarPoint",
+              "headword": "Gerunds & Infinitives (Traps)",
+              "frequencyRank": 2013,
+              "baseDifficulty": 0.6,
+              "definition": "Anlam değiştiren fiiller, edilgen/perfect fiilimsiler ve yarım hatırlanan kalıplar.",
+              "exampleSentences": [],
+              "translationTR": "İsim-Fiiller ve Mastarlar: Tuzaklar",
+              "collocations": [],
+              "explanationTR": "Bu derste anlamı DEĞİŞTİREN kalıplar ve yarım hatırlanan fiil kalıpları sınanır.\n\n• Anlam değiştiren fiiller: remember / forget / regret / stop + V-ing = GEÇMİŞTE yapılan eylem (I remember signing it; regret ignoring; stopped talking). Aynı fiiller + to V1 = amaç ya da yapılacak eylem (remember to sign; stopped to talk = konuşmak için durdu). regret to inform = üzülerek bildirmek.\n\n• need + V-ing edilgen anlam taşır: The data need checking (= need to be checked). Etken mastar (need to check) özne eylemi yapıyorsa kullanılır.\n\n• Perfect ve edilgen fiilimsiler: having done / to have done (daha önce olmuş), being done / to be done (edilgen), having been done / to have been done (edilgen + önce). The bridge is reported to have been damaged.\n\n• too + sıfat + to V1 (= çok ... ki yapamaz), sıfat + enough + to V1: The tax cut is too small to make a difference.\n\n• do nothing but / had no choice but / rather than + YALIN fiil: The auditor did nothing but offer criticism.\n\n• used to + V1 (geçmiş alışkanlık) ↔ be used to + V-ing (alışık olmak): She used to work in a corporation. Bu yalnızca biçim ayrımıdır.\n\nEn sık düşülen tuzak: yarım hatırlanan kalıp. suggest + V-ing (suggest to do YANLIŞ), look forward to + V-ing, adjective + to V1 (easy to use).\n\nÖrnek: The consultant suggested trialling the scheme in two regions."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "The engineers now regret ---- the early warning signs, a decision that eventually cost the company millions.",
+              "options": [
+                "to ignore",
+                "ignoring",
+                "to be ignored",
+                "being ignored",
+                "ignored"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Regret + V-ing» geçmişte yapılmış bir eylemden pişmanlık duymayı anlatır; «a decision that eventually cost ...» bu eylemin çoktan olduğunu gösteriyor. (A) «regret to + fiil» yalnızca kötü bir haber verirken kullanılır (regret to inform you). (C) ve (D) edilgendir; mühendisler işaretleri görmezden gelen taraftır. (E) ignored ise regret'ten sonra çekimli bir fiil gibi durur ve kalıba uymaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "The chairman abruptly stopped ---- when the alarm rang, and everyone left the room.",
+              "options": [
+                "to talk",
+                "talk",
+                "to be talked",
+                "talking",
+                "to have talked"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Konuşmayı BIRAKMAK anlamı stop + V-ing ile verilir: stopped talking. (A) to talk «konuşmak için durdu» demektir ve alarm sahnesiyle çelişir. (B) talk yalın fiildir, stop'tan sonra kullanılmaz. (C) to be talked ve (E) to have talked yapıya uymaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "The survey data need ---- again before the report is published.",
+              "options": [
+                "checking",
+                "check",
+                "to check",
+                "checked",
+                "to have checked"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Özne (the survey data) kontrol EDİLEN taraftır; bu edilgen anlam need + V-ing ile verilir: need checking (= need to be checked). (B) check ve (C) to check etken anlam katar; veri kendini kontrol edemez. (D) checked ve (E) to have checked need'den sonra gelmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "The bridge is reported ---- seriously damaged by the storm that struck the region two years ago.",
+              "options": [
+                "to have damaged",
+                "to be damaging",
+                "having damaged",
+                "damage",
+                "to have been"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Köprü hasar GÖRENDİR (edilgen) ve hasar rapordan ÖNCE olmuştur: to have been damaged (perfect edilgen mastar). (A) to have damaged, (B) to be damaging ve (C) having damaged etkendir. (D) damage ise mastar edatı ya da edilgen anlamı taşımaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "The proposed tax cut is far ---- to make any real difference to household spending.",
+              "options": [
+                "small enough",
+                "enough small",
+                "too small",
+                "so small",
+                "very small"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Too + sıfat + to V1» = «çok ... ki yapamaz»: too small to make a difference. (A) small enough to «yeterince küçük» anlamı verir ve mantığı tersine çevirir. (B) enough small yanlış sıradır. (D) so small ve (E) very small to + V1 ile birleşmez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "During the meeting, the auditor did nothing but ---- criticism.",
+              "options": [
+                "to offer",
+                "offer",
+                "offering",
+                "offered",
+                "having offered"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Do nothing but» sonrası YALIN fiil gelir: did nothing but offer. (A) to offer bu kalıpta standart değildir. (C) offering, (D) offered ve (E) having offered kalıbı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "She used ---- in a large corporation before she started her own consultancy.",
+              "options": [
+                "to working",
+                "working",
+                "work",
+                "to work",
+                "to be worked"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Geçmişteki bir alışkanlık ya da durum used to + V1 ile verilir: used to work. (A) to working be yardımcı fiili olmadan «alışık olmak» kalıbı kurar. (B) working ve (C) work kalıbı bozar. (E) to be worked edilgen anlam katar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "The consultant suggested ---- the pilot scheme in two regions before a national launch.",
+              "options": [
+                "trialling",
+                "to trial",
+                "us to trial",
+                "for trialling",
+                "that trialling"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Suggest + V-ing kalıbıdır: suggested trialling (suggest to do YANLIŞTIR). (B) to trial, (C) us to trial ve (D) for trialling bu fiille kurulmaz. (E) that trialling that ile V-ing'i birleştirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q09",
+              "kind": "grammar",
+              "order": 8,
+              "prompt": "The new software is easy ---- and requires no special training.",
+              "options": [
+                "using",
+                "use",
+                "to using",
+                "for using",
+                "to use"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Sıfat + to V1 kalıbıdır: easy to use. (A) using ve (B) use bu kalıpta kullanılmaz. (C) to using ve (D) for using edat + V-ing kalıbını yanlış yere taşır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-gerunds-infinitives-2-q10",
+              "kind": "grammar",
+              "order": 9,
+              "prompt": "I clearly remember ---- the contract, so the signature on this page cannot be forged.",
+              "options": [
+                "to sign",
+                "to be signing",
+                "signing",
+                "sign",
+                "to have signed"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Remember + V-ing» geçmişte yapılan eylemi hatırlamaktır: remember signing (imzayı attığımı hatırlıyorum). (A) to sign yapılacak bir işi hatırlamayı anlatır. (B) to be signing ve (D) sign kalıba uymaz. (E) to have signed remember ile standart değildir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-grammar-participle-clauses-1",
+          "order": 2,
+          "estimatedDurationMinutes": 8,
+          "title": "Ortaç Cümlecikleri (Participle Clauses)",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-participle-clauses-1",
+              "type": "grammarPoint",
+              "headword": "Participle Clauses",
+              "frequencyRank": 2014,
+              "baseDifficulty": 0.5,
+              "definition": "V-ing, V3 ve having + V3 ile kurulan ortaç cümlecikleri.",
+              "exampleSentences": [],
+              "translationTR": "Ortaç Cümlecikleri",
+              "collocations": [],
+              "explanationTR": "Ortaç cümleciği (participle clause) iki cümleyi tek cümleye indirger. Gizli özne, ANA CÜMLENİN öznesidir.\n\n• V-ing: etken, eşzamanlı ya da nedensel: Working under severe constraints, the team delivered on time. Knowing the data were incomplete, the editor delayed publication.\n\n• V3 (past participle): edilgen anlam: Published in 1996, the study is still widely cited.\n\n• Having + V3: daha önce tamamlanmış bir eylem: Having collected data for two years, the team began its analysis.\n\n• İndirgenmiş sıfat cümlecikleri: etken için V-ing (analysts watching the market), edilgen için V3 (the proposals approved last week, the countries affected by the drought).\n\n• Kural: ortaç cümleciğinin öznesi ana cümlenin öznesi olmalıdır. Aksi hâlde sarkan ortaç (dangling participle) oluşur ve yanlıştır.\n\nÖrnek: Realising how little time remained, the manager asked the team to work overtime."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-participle-clauses-1-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "---- under severe budget constraints, the research team still delivered its results on schedule.",
+              "options": [
+                "Working",
+                "Worked",
+                "Work",
+                "Being worked",
+                "To be working"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Ekip çalışan taraftır (etken) ve iki eylem eşzamanlıdır: Working under ..., the team delivered. (B) Worked edilgen anlam katar. (C) Work yalın fiildir, cümleciği başlatamaz. (D) Being worked edilgen bir yapıdır. (E) To be working amaç ya da gelecek anlamı taşır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-1-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "---- in 1996, the study is still widely cited in the field of behavioural economics.",
+              "options": [
+                "Publishing",
+                "Having published",
+                "Published",
+                "Publish",
+                "To publish"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Çalışma yayımlanan taraftır (edilgen); bu anlam V3 ile verilir: Published in 1996 (= Because it was published). (A) Publishing ve (B) Having published etkendir; çalışma bir şey yayımlamaz. (D) Publish yalın fiildir. (E) To publish amaç bildirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-1-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "---- data from all forty schools over two years, the team finally began its analysis.",
+              "options": [
+                "Collecting",
+                "Collected",
+                "To collect",
+                "Being collected",
+                "Having collected"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Toplama eylemi analizden ÖNCE tamamlanmıştır; bu ilişki having + V3 ile kurulur: Having collected data ... began. (A) Collecting eşzamanlılık bildirir, oysa sıra önce-sonradır. (B) Collected edilgendir. (C) To collect amaç bildirir. (D) Being collected edilgendir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-1-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "Analysts ---- the market closely say the current trend will continue for at least another year.",
+              "options": [
+                "watched",
+                "watching",
+                "watch",
+                "to watch",
+                "being watched"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Analistler izleyen taraftır (etken); indirgenmiş sıfat cümleciği V-ing ile kurulur: analysts watching the market (= who watch). (A) watched ve (E) being watched edilgen anlam katar. (C) watch ikinci bir çekimli fiil ekler ve ana fiilin (say) önüne geçer. (D) to watch amaç bildirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-1-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "The proposals ---- by the committee last week have been criticised by several members.",
+              "options": [
+                "approving",
+                "to approve",
+                "having approved",
+                "approved",
+                "approve"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Öneriler onaylanan taraftır; indirgenmiş edilgen sıfat cümleciği V3 ile kurulur: the proposals approved by the committee (= that were approved). (A) approving ve (C) having approved etken anlam katar. (B) to approve amaç ya da gelecek bildirir. (E) approve ise ikinci bir çekimli fiil ekler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-1-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "---- how little time remained, the manager asked the team to work overtime.",
+              "options": [
+                "Realising",
+                "Realised",
+                "To realise",
+                "Having been realised",
+                "Being realised"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Gizli özne yöneticidir (the manager) ve o farkeden taraftır: Realising how little time remained, the manager ... (B) Realised ve (E) Being realised edilgen anlam katar. (C) To realise amaç bildirir. (D) Having been realised de edilgendir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-1-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "---- that the data were incomplete, the editor delayed publication until further tests were carried out.",
+              "options": [
+                "Known",
+                "To know",
+                "Knowing",
+                "Having been known",
+                "Being knowing"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Editör bilen taraftır ve bilme eylemi nedendir: Knowing that ..., the editor delayed. (A) Known ve (D) Having been known edilgen anlam katar ve that-cümleciğiyle uyuşmaz. (B) To know amaç bildirir. (E) Being knowing geçerli bir yapı değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-1-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "The countries ---- most severely by the drought received emergency food aid from the international community.",
+              "options": [
+                "affecting",
+                "having affected",
+                "to affect",
+                "affect",
+                "affected"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Ülkeler etkilenen taraftır ve «by the drought» edilgen anlamı doğrular: the countries affected by the drought (= that were affected). (A) affecting ve (B) having affected etken anlam katar. (C) to affect amaç bildirir. (D) affect ikinci bir çekimli fiil ekler.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-grammar-participle-clauses-2",
+          "order": 3,
+          "estimatedDurationMinutes": 10,
+          "title": "Ortaç Cümlecikleri: Tuzaklar",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-participle-clauses-2",
+              "type": "grammarPoint",
+              "headword": "Participle Clauses (Traps)",
+              "frequencyRank": 2015,
+              "baseDifficulty": 0.6,
+              "definition": "Bağlaçlı ortaç cümlecikleri, mutlak yapılar ve sarkan ortaç tuzakları.",
+              "exampleSentences": [],
+              "translationTR": "Ortaç Cümlecikleri: Tuzaklar",
+              "collocations": [],
+              "explanationTR": "Bu derste ortaç yapılarının ileri kalıpları ve klasik tuzakları sınanır.\n\n• Bağlaç korunur: While working ..., When asked ..., Although criticised ..., Once approved ..., Before submitting ... Bağlaç ortaçtan önce korunabilir; yalnızca özne aynıysa.\n\n• Mutlak yapı (absolute construction): kendi öznesi vardır: The weather being unusually mild, the harvest began early. All things considered, ... Its funding withdrawn, the project was abandoned. Other things being equal, ...\n\n• With + isim + ortaç: With inflation rising sharply, the bank raised rates.\n\n• Ortaç görevi gören edatlar: Given ..., Provided (that) ..., Considering ..., Assuming ..., Judging by ...\n\n• having done ↔ having been done: özne eylemi yapıyorsa having done, eylemden etkileniyorsa having been done: Having been warned repeatedly, the investors proceeded.\n\nEn sık düşülen tuzak: sarkan ortaç. Ortaç cümleciğinin öznesi ana cümlenin öznesi değilse (Walking along the shore, a strange shape caught his eye) cümle yanlıştır.\n\nÖrnek: Constructed in the early 1960s, the bridge now carries three times the traffic it was designed for."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-participle-clauses-2-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "---- in the early 1960s, the bridge now carries three times the traffic volume it was designed for.",
+              "options": [
+                "Constructing",
+                "Having constructed",
+                "Constructed",
+                "Being constructed",
+                "To construct"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Ortaç cümleciğinin gizli öznesi ana cümlenin öznesidir: the bridge. Köprü inşa EDİLEN taraf olduğu için edilgen anlam veren üçüncü hâl (past participle) gerekir: Constructed in the early 1960s = As it was constructed ... (A) Constructing ve (B) Having constructed etkendir, yani köprünün bir şey inşa ettiğini söyler. (D) Being constructed şu anda sürmekte olan bir edilgen eylemi anlatır ve «in the early 1960s» ile çelişir. (E) To construct amaç bildirir, zaman değil.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "---- working on the merger, the analysts discovered a serious accounting error.",
+              "options": [
+                "While",
+                "Whereas",
+                "Unless",
+                "Whose",
+                "During"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Bağlaç ortaçtan önce korunabilir ve eşzamanlılık anlatır: While working on the merger, the analysts ... (B) Whereas karşıtlık bağlacıdır. (C) Unless koşul bildirir ve anlamı bozar. (D) Whose ardından ad ister. (E) During bir edattır ve V-ing ile kullanılmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "The weather ---- unusually mild, the harvest began two weeks earlier than usual.",
+              "options": [
+                "is",
+                "having",
+                "to be",
+                "been",
+                "being"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Mutlak yapıda kendi öznesi olan ortaç cümleciği kurulur: The weather being unusually mild, ... (A) is çekimli fiildir ve iki cümleyi virgülle birleştirir. (B) having ve (D) been eksik yardımcı fiil bırakır. (C) to be amaç bildirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "All things ----, the merger appears to have benefited both companies.",
+              "options": [
+                "considering",
+                "considered",
+                "consider",
+                "having considered",
+                "to consider"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«All things considered» sabit bir mutlak yapıdır: her şey göz önüne alındığında. (A) considering, (D) having considered ve (E) to consider bu sabit kalıbı bozar. (C) consider çekimli bir fiildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "---- inflation rising sharply, the central bank was forced to raise interest rates.",
+              "options": [
+                "Having",
+                "Being",
+                "For",
+                "With",
+                "While"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«With + isim + ortaç» kalıbı bir neden ya da eşlik eden durum bildirir: With inflation rising sharply, ... (A) Having ve (B) Being isimden önce bu anlamı kuramaz. (C) For ve (E) While isim + V-ing ile kurulmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "---- the current economic climate, the firm's decision to expand seems overly optimistic.",
+              "options": [
+                "Giving",
+                "Gave",
+                "Given",
+                "To give",
+                "Having given"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Given + isim» ortaç görevi gören bir edattır: Given the current economic climate (= göz önüne alındığında). (A) Giving, (D) Gave ve (E) Having given bir şey vermeyi anlatır ve anlamı bozar. (B) To give amaç bildirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "---- that the funding is secured, construction will begin in March.",
+              "options": [
+                "Provided",
+                "Provide",
+                "To provide",
+                "Having provided",
+                "Provision"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Provided (that)» koşul bildirir: Provided that the funding is secured. (B) Provide yalın fiildir. (C) To provide amaç bildirir. (D) Having provided ve (E) Provision koşul anlamı kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "---- about the risks several times, the investors nevertheless proceeded with the deal.",
+              "options": [
+                "Having warned",
+                "Warning",
+                "Being warning",
+                "To warn",
+                "Having been warned"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Yatırımcılar uyarılan taraftır ve uyarı yatırımdan öncedir: Having been warned. (A) Having warned ve (B) Warning etkendir; yatırımcılar uyarı yapmamıştır. (C) Being warning ve (D) To warn kalıbı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q09",
+              "kind": "grammar",
+              "order": 8,
+              "prompt": "Walking along the shore at dawn, ----.",
+              "options": [
+                "a strange shape caught the surveyor's eye",
+                "the surveyor noticed a strange shape in the sand",
+                "the sand contained a strange shape",
+                "a strange shape was noticed by the surveyor",
+                "it was a strange shape that caught his eye"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Yürüyen taraf gözetmendir; ortaç cümleciğinin öznesi ana cümlenin öznesi olmalıdır: Walking ..., the surveyor noticed ... (A) a strange shape ..., (C) the sand ... ve (D) a strange shape was noticed ... öznesi yürüyen taraf değildir (sarkan ortaç). (E) it was a strange shape ... de yürüyen kişiyi özne yapmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-participle-clauses-2-q10",
+              "kind": "grammar",
+              "order": 9,
+              "prompt": "Its funding ----, the project was abandoned within a month.",
+              "options": [
+                "withdrawing",
+                "having withdrawn",
+                "to withdraw",
+                "withdrawn",
+                "withdraw"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Mutlak yapıda özne (its funding) fonu çekilen taraftır: Its funding withdrawn (= çekilmişken). (A) withdrawing ve (B) having withdrawn etken anlam katar. (C) to withdraw amaç bildirir. (E) withdraw çekimli bir fiildir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-grammar-conjunctions-linkers-1",
+          "order": 4,
+          "estimatedDurationMinutes": 8,
+          "title": "Bağlaçlar ve Bağlayıcılar (Conjunctions & Linkers)",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-conjunctions-linkers-1",
+              "type": "grammarPoint",
+              "headword": "Conjunctions & Linkers",
+              "frequencyRank": 2016,
+              "baseDifficulty": 0.5,
+              "definition": "Neden, sonuç, karşıtlık, amaç ve zaman bağlaçlarının temel kullanımı.",
+              "exampleSentences": [],
+              "translationTR": "Bağlaçlar ve Bağlayıcılar",
+              "collocations": [],
+              "explanationTR": "Bağlaçlar cümleleri anlam ilişkisine göre bağlar; doğru seçim ilişkinin türünü tanımaya bağlıdır.\n\n• Eş değer bağlaçlar: and, but, or, so, yet, for. yet = «ama yine de» (karşıtlık).\n\n• Neden: because, since, as. Sonuç: so + sıfat + that, such + (a) + sıfat + isim + that.\n\n• Karşıtlık: although, though, even though, while, whereas + CÜMLECİK. despite / in spite of + AD ya da V-ing. Although the company reported profits, it cut jobs. Despite the risks, investors stayed.\n\n• Amaç: so that / in order that + cümlecik (can/could ile), so as to / in order to + V1.\n\n• Zaman: when, while, as soon as, until, by the time.\n\nÖrnek: The demand was so high that the factory had to double its output."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-conjunctions-linkers-1-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "---- the company reported record profits, it announced a series of job cuts.",
+              "options": [
+                "Despite",
+                "In spite of",
+                "Because of",
+                "Although",
+                "Owing to"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Boşluktan sonra bir CÜMLECİK var (the company reported ...); cümleciği bağlayan karşıtlık bağlacı although'tur. (A) Despite ve (B) In spite of, (C) Because of ve (E) Owing to edattır ve ardından ad öbeği ister.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-1-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "The launch was postponed ---- the software had not passed its final security tests.",
+              "options": [
+                "although",
+                "because",
+                "unless",
+                "so that",
+                "whereas"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Ertelemenin NEDENİ açıklanıyor: because. (A) although karşıtlık bildirir. (C) unless koşul bildirir. (D) so that amaç bildirir. (E) whereas iki durumu karşılaştırır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-1-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "The demand for the new model was ---- high that the factory had to double its output.",
+              "options": [
+                "such",
+                "very",
+                "too",
+                "enough",
+                "so"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«So + sıfat + that» sonuç bildirir: so high that. (A) such bir isim öbeğiyle kullanılır. (B) very ve (C) too that ile sonuç kuramaz. (D) enough sıfattan sonra gelir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-1-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "It was ---- a persuasive argument that even the sceptics changed their minds.",
+              "options": [
+                "such",
+                "so",
+                "too",
+                "very",
+                "enough"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Such + a + sıfat + isim + that» sonuç bildirir: such a persuasive argument that. (B) so, «a + isim» ile kullanılmaz. (C) too, (D) very ve (E) enough sonuç cümleciği kuramaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-1-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "The government released the data early ---- researchers could begin their analysis without delay.",
+              "options": [
+                "in order to",
+                "so as to",
+                "so that",
+                "because of",
+                "in spite of"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Amaç bildiren ve ardından özneli bir cümlecik alan bağlaç so that'tir (researchers could begin). (A) in order to ve (B) so as to yalnızca V1 alır. (D) because of ve (E) in spite of edattır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-1-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "Some economists favour higher taxes, ---- others argue that lower taxes stimulate growth.",
+              "options": [
+                "so",
+                "for",
+                "because",
+                "whereas",
+                "unless"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "İki karşıt görüşü karşılaştıran bağlaç whereas'tır. (A) so sonuç, (B) for ve (C) because neden bildirir. (E) unless koşul bildirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-1-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "The plan looks convincing on paper, ---- it has never been tested in practice.",
+              "options": [
+                "so",
+                "yet",
+                "for",
+                "or",
+                "nor"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Kâğıt üzerindeki başarı ile uygulamadaki test eksikliği arasında karşıtlık vardır: yet (= ama yine de). (A) so sonuç bildirir. (C) for neden bildirir ve mantığı bozar. (D) or seçenek sunar. (E) nor olumsuz bir ekleme yapar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-1-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "The auditors will contact the board ---- they have finished reviewing the accounts.",
+              "options": [
+                "as long as",
+                "in order that",
+                "even though",
+                "so as to",
+                "as soon as"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Zaman bağlacı as soon as, eylemin biter bitmez gerçekleşeceğini bildirir. (A) as long as koşul, (B) in order that amaç, (C) even though karşıtlık bildirir. (D) so as to yalnızca V1 alır.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-grammar-conjunctions-linkers-2",
+          "order": 5,
+          "estimatedDurationMinutes": 10,
+          "title": "Bağlaçlar ve Bağlayıcılar: Tuzaklar",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-grammar-card-conjunctions-linkers-2",
+              "type": "grammarPoint",
+              "headword": "Conjunctions & Linkers (Traps)",
+              "frequencyRank": 2017,
+              "baseDifficulty": 0.6,
+              "definition": "Bağlaç, bağlayıcı ve edat ayrımı ile ikili bağlaç uyumu tuzakları.",
+              "exampleSentences": [],
+              "translationTR": "Bağlaçlar ve Bağlayıcılar: Tuzaklar",
+              "collocations": [],
+              "explanationTR": "Bu derste YDS'nin en sevdiği ayrım sınanır: bağlaç mı, bağlayıcı mı, edat mı?\n\n• Bağlaç (because, although, whereas) iki cümleciği tek cümlede birleştirir.\n\n• Bağlayıcı / zarf (however, nevertheless, therefore, consequently, moreover) bağımsız iki cümleyi birbirine bağlar; öncesinde nokta ya da noktalı virgül, sonrasında virgül gelir: The results were disappointing; nevertheless, the company continued. Yalnızca virgülle birleştirmek yanlıştır (comma splice).\n\n• Edat (despite, owing to, due to, in view of, on account of) ADI ya da V-ing'i bağlar: Despite the rise in enrolment ... In view of the recent deterioration ...\n\n• due to bir ad ya da be fiilinden sonra gelir (The delay was due to a shortage). because of eylemi niteler.\n\n• İkili bağlaçlar: not only ... but also, either ... or, neither ... nor, both ... and. Fiil, either/neither ... or/nor'da en YAKIN özneye uyar; both ... and'de her zaman çoğuldur: Neither the auditors nor the chairman was aware. Both directors are expected.\n\nÖrnek: In view of the recent deterioration in relations, the summit has been postponed."
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q01",
+              "kind": "grammar",
+              "order": 0,
+              "prompt": "---- the sharp rise in enrolment, the university has not increased the number of teaching staff for three years.",
+              "options": [
+                "Although",
+                "Despite",
+                "However",
+                "Whereas",
+                "Because"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Boşluktan sonra yan cümle değil, bir AD ÖBEĞİ var (the sharp rise in enrolment); ad öbeğinin önüne yalnızca edat niteliği taşıyan despite / in spite of gelir. (A) Although ve (D) Whereas ve (E) Because bağlaçtır ve ardından özne + fiil ister. (C) However ise cümle bağlayıcısıdır; ad öbeğinin önünde kullanılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q02",
+              "kind": "grammar",
+              "order": 1,
+              "prompt": "The trial results were promising; ----, the regulator demanded further evidence before granting approval.",
+              "options": [
+                "although",
+                "because",
+                "whereas",
+                "nevertheless",
+                "so that"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Noktalı virgülden sonra iki bağımsız cümleyi karşıtlıkla bağlayan bağlayıcı nevertheless gelir. (A) although, (B) because, (C) whereas ve (E) so that birer bağlaçtır ve noktalı virgülden sonra virgülle ayrılan bir bağlayıcı yerine kullanılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q03",
+              "kind": "grammar",
+              "order": 2,
+              "prompt": "Sales fell by a third in the second quarter; ----, the company was forced to close two of its factories.",
+              "options": [
+                "consequently",
+                "because",
+                "although",
+                "whereas",
+                "in case"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "İkinci cümle birincinin SONUCUNU bildirir; noktalı virgülden sonra sonuç bağlayıcısı consequently gelir. (B) because, (C) although, (D) whereas ve (E) in case bağlaçtır; noktalı virgülden sonra bağlayıcı yerine kullanılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q04",
+              "kind": "grammar",
+              "order": 3,
+              "prompt": "The delay was ---- a shortage of skilled workers.",
+              "options": [
+                "because",
+                "although",
+                "due to",
+                "despite",
+                "whereas"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Be fiilinden sonra gelen ve nedeni bildiren ad öbeği due to ile bağlanır: was due to a shortage. (A) because bir cümlecik ister. (B) although ve (E) whereas de bağlaçtır. (D) despite karşıtlık bildirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q05",
+              "kind": "grammar",
+              "order": 4,
+              "prompt": "The proposal was rejected not only by the unions ---- also by the management.",
+              "options": [
+                "or",
+                "nor",
+                "yet",
+                "so",
+                "but"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Not only ... but also ikili bağlaçtır. (A) or, (B) nor, (C) yet ve (D) so bu kalıbı tamamlayamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q06",
+              "kind": "grammar",
+              "order": 5,
+              "prompt": "Neither the auditors nor the chairman ---- aware of the discrepancy in the accounts.",
+              "options": [
+                "were",
+                "was",
+                "have been",
+                "are",
+                "being"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Neither ... nor'da fiil en YAKIN özneye uyar: the chairman (tekil) → was. (A) were çoğul özneye uyar. (C) have been ve (D) are çoğuldur. (E) being çekimli bir fiil değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q07",
+              "kind": "grammar",
+              "order": 6,
+              "prompt": "Either the shareholders or the board ---- to approve the amendment before it takes effect.",
+              "options": [
+                "have",
+                "are",
+                "were",
+                "has",
+                "being"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Either ... or'da fiil en YAKIN özneye uyar: the board (tekil) → has. (A) have ve (B) are çoğuldur. (C) were çoğul ve geçmiştir. (E) being çekimli bir fiil değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q08",
+              "kind": "grammar",
+              "order": 7,
+              "prompt": "Both the finance director and the chief executive ---- expected to attend the hearing next week.",
+              "options": [
+                "are",
+                "is",
+                "was",
+                "has",
+                "being"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Both ... and her zaman ÇOĞUL özne oluşturur: are expected. (B) is, (C) was ve (D) has tekil özneye uyar. (E) being çekimli bir fiil değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q09",
+              "kind": "grammar",
+              "order": 8,
+              "prompt": "The results were disappointing ---- the company decided to continue the programme.",
+              "options": [
+                ", nevertheless,",
+                ", however,",
+                ", therefore,",
+                "; because",
+                "; nevertheless,"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Bağlayıcı (nevertheless) iki bağımsız cümleyi bağlar; öncesinde nokta ya da noktalı virgül gelmelidir: ; nevertheless,. (A) ve (B) yalnızca virgülle birleştirir (comma splice). (C) therefore sonuç bildirir ve mantığı bozar. (D) because noktalı virgülden sonra kullanılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-grammar-conjunctions-linkers-2-q10",
+              "kind": "grammar",
+              "order": 9,
+              "prompt": "---- the recent deterioration in relations, the summit has been postponed indefinitely.",
+              "options": [
+                "Although",
+                "Because",
+                "In view of",
+                "Whereas",
+                "Consequently"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Boşluktan sonra bir AD ÖBEĞİ gelir (the recent deterioration); ad öbeğinin önüne edat niteliğindeki in view of gelir. (A) Although, (B) Because ve (D) Whereas bağlaçtır ve cümlecik ister. (E) Consequently bağlayıcıdır.",
+              "passageID": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }
