@@ -3,7 +3,7 @@ import SwiftData
 
 public enum QuestionKind: String, Codable, CaseIterable, Sendable {
     case grammar, reading, cloze, sentenceCompletion, translation
-    case paragraphCompletion, irrelevantSentence, dialogueCompletion, restatement
+    case paragraphCompletion, irrelevantSentence, dialogueCompletion, restatement, strategy
 }
 
 /// One multiple-choice question. Always exactly five options (YDS format,

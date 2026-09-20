@@ -493,8 +493,8 @@ final class ContentImporterTests: XCTestCase {
         }
     }
 
-    func test_importPackage_acceptsEveryExamQuestionKind() throws {
-        for kind in ["paragraphCompletion", "irrelevantSentence", "dialogueCompletion", "restatement"] {
+    func test_importPackage_acceptsEveryExtendedQuestionKind() throws {
+        for kind in ["paragraphCompletion", "irrelevantSentence", "dialogueCompletion", "restatement", "strategy"] {
             let context = try makeInMemoryContext()
             let package = try ContentImporter.importPackage(from: practiceJSON(questionKind: kind), into: context)
             let questions = package.units.flatMap(\.lessons).flatMap(\.questions)

@@ -64,7 +64,7 @@ PRACTICE_FILES = [
 
 QUESTION_KINDS = {
     "grammar", "reading", "cloze", "sentenceCompletion", "translation",
-    "paragraphCompletion", "irrelevantSentence", "dialogueCompletion", "restatement",
+    "paragraphCompletion", "irrelevantSentence", "dialogueCompletion", "restatement", "strategy",
 }
 PRACTICE_CARD_TYPES = {"grammarPoint", "practiceSet"}
 
@@ -241,6 +241,36 @@ EXAM_PASSAGE_MIN_WORDS = 170
 EXAM_PASSAGE_MAX_WORDS = 280
 ROMAN = ["I", "II", "III", "IV", "V"]
 
+TECH_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "tech")
+# Slice 7d technique units (orders 13-15). Same contract as GRAMMAR_UNITS.
+TECH_UNITS = []
+TECH_LESSON_ID_PREFIX = "yds-tech-"
+# slug -> (question kind, lesson skill, exact question count, exact minutes)
+TECH_LESSON_SHAPE = {
+    "reading": ("strategy", "reading", 6, 7), "cloze": ("strategy", "reading", 6, 7),
+    "sentence": ("strategy", "grammar", 6, 7), "translation": ("strategy", "reading", 6, 7),
+    "paragraph": ("strategy", "reading", 6, 7), "irrelevant": ("strategy", "reading", 6, 7),
+    "dialogue": ("strategy", "grammar", 6, 7), "restatement": ("strategy", "reading", 6, 7),
+    "vocabulary-questions": ("strategy", "reading", 6, 7), "grammar-questions": ("strategy", "grammar", 6, 7),
+    "time-allocation": ("strategy", "reading", 6, 7), "elimination": ("strategy", "reading", 6, 7),
+    "exam-day": ("strategy", "reading", 6, 7),
+    "prefixes": ("grammar", "grammar", 8, 9), "suffixes": ("grammar", "grammar", 8, 9),
+    "context-clues": ("strategy", "reading", 8, 9), "synonyms-collocations": ("strategy", "reading", 8, 9),
+    "memorisation": ("strategy", "reading", 8, 9),
+}
+TECH_CARD_TRAP_PHRASE = "En sık düşülen tuzak:"
+
+VOCAB2_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "vocab2")
+# Slice 7d vocabulary units (orders 16-23): one unit document per file, in unit order.
+VOCAB2_FILES = []
+VOCAB2_LESSON_ID_PREFIX = "yds-vocab2-lesson-"
+VOCAB2_LESSON_ID_RE = re.compile(r"^yds-vocab2-lesson-([a-z]+(?:-[a-z]+)*)-([1-6])$")
+VOCAB2_HEADWORD_RE = re.compile(r"^[a-z]+(?:-[a-z]+)*$")
+VOCAB2_ITEM_KEYS = {
+    "id", "type", "headword", "frequencyRank", "baseDifficulty", "definition",
+    "exampleSentences", "translationTR", "collocations",
+}
+
 OUTPUT_PATHS = [
     os.path.join(REPO_ROOT, "App", "Sources", "EnglishApp", "Resources", "YDSAcademicVocabulary1.json"),
     os.path.join(REPO_ROOT, "LearningEngine", "Tests", "LearningEngineTests", "Fixtures", "YDSAcademicVocabulary1.json"),
@@ -385,6 +415,34 @@ def load_exam_units():
             "order": unit_spec["order"],
             "lessons": lessons,
         })
+    return units
+
+
+def load_tech_units():
+    """Builds the Slice 7d technique units from TECH_UNITS (list position = lesson order)."""
+    units = []
+    for unit_spec in TECH_UNITS:
+        lessons = []
+        for order, filename in enumerate(unit_spec["files"]):
+            with open(os.path.join(TECH_DIR, filename), "r", encoding="utf-8") as f:
+                lesson = json.load(f)
+            if not lesson["id"].startswith(TECH_LESSON_ID_PREFIX):
+                raise ValueError(
+                    f"technique lesson {lesson['id']} (from {filename}) must start with {TECH_LESSON_ID_PREFIX!r}"
+                )
+            lesson = dict(lesson)
+            lesson["order"] = order
+            lessons.append(lesson)
+        units.append({"id": unit_spec["id"], "theme": unit_spec["theme"], "order": unit_spec["order"], "lessons": lessons})
+    return units
+
+
+def load_vocab2_units():
+    """Loads the Slice 7d vocabulary unit documents from VOCAB2_FILES."""
+    units = []
+    for filename in VOCAB2_FILES:
+        with open(os.path.join(VOCAB2_DIR, filename), "r", encoding="utf-8") as f:
+            units.append(json.load(f))
     return units
 
 
@@ -562,6 +620,104 @@ def validate_exam_lesson(lesson):
                     raise ValueError(f"question {qid} stem is missing the numbered sentence ({numeral})")
 
 
+def validate_tech_lesson(lesson):
+    """Shape rules for Slice 7d technique lessons, keyed off the lesson id prefix."""
+    lesson_id = lesson["id"]
+    slug = lesson_id[len(TECH_LESSON_ID_PREFIX):]
+    if slug not in TECH_LESSON_SHAPE:
+        raise ValueError(f"technique lesson id {lesson_id!r} has unknown slug {slug!r}")
+    kind, skill, expected_questions, expected_minutes = TECH_LESSON_SHAPE[slug]
+    if lesson["skill"] != skill:
+        raise ValueError(f"technique lesson {lesson_id} must have skill {skill!r}, found {lesson['skill']!r}")
+    if lesson["estimatedDurationMinutes"] != expected_minutes:
+        raise ValueError(f"technique lesson {lesson_id} must have estimatedDurationMinutes {expected_minutes}")
+    if "passage" in lesson:
+        raise ValueError(f"technique lesson {lesson_id} must not carry a passage")
+    if len(lesson["items"]) != 1 or lesson["items"][0]["type"] != "grammarPoint":
+        raise ValueError(f"technique lesson {lesson_id} must own exactly one grammarPoint item")
+    card = lesson["items"][0]
+    if card["id"] != f"yds-tech-card-{slug}":
+        raise ValueError(f"technique lesson {lesson_id}: card id {card['id']!r} must be 'yds-tech-card-{slug}'")
+    if TECH_CARD_TRAP_PHRASE not in card.get("explanationTR", ""):
+        raise ValueError(f"technique lesson {lesson_id}: card explanation must contain {TECH_CARD_TRAP_PHRASE!r}")
+    questions = lesson.get("questions", [])
+    if len(questions) != expected_questions:
+        raise ValueError(
+            f"technique lesson {lesson_id} must have exactly {expected_questions} questions, found {len(questions)}"
+        )
+    for index, question in enumerate(sorted(questions, key=lambda q: q["order"])):
+        qid = question["id"]
+        if question["kind"] != kind:
+            raise ValueError(f"question {qid} in {lesson_id} must have kind {kind!r}, found {question['kind']!r}")
+        if question["order"] != index:
+            raise ValueError(f"lesson {lesson_id} question orders must be 0..{expected_questions - 1} with no gaps")
+        if qid != f"{lesson_id}-q{index + 1:02d}":
+            raise ValueError(f"question at order {index} in {lesson_id} must be named {lesson_id}-q{index + 1:02d}")
+        if len(set(question["options"])) != 5:
+            raise ValueError(f"question {qid} has duplicate options")
+        if question.get("passageID") is not None:
+            raise ValueError(f"question {qid} must have passageID null")
+
+
+def _vocab2_stem(headword):
+    return headword[:max(3, len(headword) - 3)]
+
+
+def validate_vocab2_lesson(lesson):
+    """Shape rules for Slice 7d vocabulary lessons, keyed off the lesson id prefix."""
+    lesson_id = lesson["id"]
+    if VOCAB2_LESSON_ID_RE.match(lesson_id) is None:
+        raise ValueError(f"vocabulary lesson id {lesson_id!r} must look like yds-vocab2-lesson-<slug>-<1..6>")
+    if lesson["estimatedDurationMinutes"] != 5:
+        raise ValueError(f"vocabulary lesson {lesson_id} must have estimatedDurationMinutes 5")
+    if lesson["skill"] != "vocabulary":
+        raise ValueError(f"vocabulary lesson {lesson_id} must have skill 'vocabulary'")
+    items = lesson["items"]
+    if len(items) != 10:
+        raise ValueError(f"vocabulary lesson {lesson_id} must have exactly 10 items, found {len(items)}")
+    for item in items:
+        headword = item["headword"]
+        iid = item["id"]
+        if set(item) != VOCAB2_ITEM_KEYS:
+            raise ValueError(f"item {iid} must have exactly the keys {sorted(VOCAB2_ITEM_KEYS)}")
+        if item["type"] != "vocabulary":
+            raise ValueError(f"item {iid} must have type 'vocabulary'")
+        if VOCAB2_HEADWORD_RE.match(headword) is None:
+            raise ValueError(f"item {iid}: headword {headword!r} must be lowercase ASCII letters and hyphens")
+        if iid != f"yds-vocab2-item-{headword}":
+            raise ValueError(f"item id {iid!r} must be 'yds-vocab2-item-{headword}'")
+        if not isinstance(item["frequencyRank"], int) or item["frequencyRank"] < 1:
+            raise ValueError(f"item {iid}: frequencyRank must be a positive integer")
+        if not 0.05 <= item["baseDifficulty"] <= 0.95:
+            raise ValueError(f"item {iid}: baseDifficulty must be within 0.05-0.95")
+        definition = item["definition"].strip()
+        if not definition.endswith(".") or len(definition) < 15:
+            raise ValueError(f"item {iid}: definition must be a Turkish sentence ending with a full stop")
+        if not item["translationTR"].strip():
+            raise ValueError(f"item {iid}: empty translationTR")
+        stem = _vocab2_stem(headword)
+        for label, values in (("exampleSentences", item["exampleSentences"]), ("collocations", item["collocations"])):
+            if len(values) != 3 or any(not v.strip() for v in values):
+                raise ValueError(f"item {iid}: {label} must hold exactly 3 non-empty strings")
+            for value in values:
+                if stem not in value.lower():
+                    raise ValueError(f"item {iid}: {label} entry {value!r} must contain {stem!r}")
+
+
+def validate_vocab2_unit(unit):
+    """Per-unit rules: six lessons with a strictly rising mean difficulty."""
+    lessons = sorted(unit["lessons"], key=lambda l: l["order"])
+    if len(lessons) != 6:
+        raise ValueError(f"vocabulary unit {unit['id']} must have exactly 6 lessons, found {len(lessons)}")
+    means = [sum(i["baseDifficulty"] for i in l["items"]) / len(l["items"]) for l in lessons]
+    if any(b <= a for a, b in zip(means, means[1:])):
+        raise ValueError(
+            f"vocabulary unit {unit['id']}: mean difficulty must rise across lessons, found {[round(m, 3) for m in means]}"
+        )
+    if means[0] > 0.40 or means[-1] < 0.70:
+        raise ValueError(f"vocabulary unit {unit['id']}: lesson 1 mean must be <= 0.40 and lesson 6 mean >= 0.70")
+
+
 def validate_content(package):
     """Mirrors ContentImporter's validation so authors get the failure here,
     on Windows, seconds after saving -- not half an hour later in macOS CI.
@@ -573,6 +729,7 @@ def validate_content(package):
     passage_ids = set()
     unit_ids = set()
     lesson_ids = set()
+    headwords = set()
 
     orders = sorted(unit["order"] for unit in package["units"])
     if orders != list(range(len(package["units"]))):
@@ -582,6 +739,8 @@ def validate_content(package):
         if unit["id"] in unit_ids:
             raise ValueError(f"duplicate unit id {unit['id']}")
         unit_ids.add(unit["id"])
+        if unit["id"].startswith("yds-vocab2-unit-"):
+            validate_vocab2_unit(unit)
         for lesson in unit["lessons"]:
             lesson_id = lesson["id"]
             if lesson_id in lesson_ids:
@@ -592,6 +751,11 @@ def validate_content(package):
                 if item["id"] in item_ids:
                     raise ValueError(f"duplicate item id {item['id']}")
                 item_ids.add(item["id"])
+                if item["type"] == "vocabulary":
+                    key = item["headword"].strip().lower()
+                    if key in headwords:
+                        raise ValueError(f"duplicate vocabulary headword {item['headword']!r} (lesson {lesson_id})")
+                    headwords.add(key)
 
             if lesson["skill"] != "vocabulary":
                 if not questions:
@@ -643,11 +807,16 @@ def validate_content(package):
                 validate_grammar_lesson(lesson)
             if lesson_id.startswith(EXAM_LESSON_ID_PREFIX):
                 validate_exam_lesson(lesson)
+            if lesson_id.startswith(TECH_LESSON_ID_PREFIX):
+                validate_tech_lesson(lesson)
+            if lesson_id.startswith(VOCAB2_LESSON_ID_PREFIX):
+                validate_vocab2_lesson(lesson)
 
 
 def assemble():
     validate_weights(SKILL_WEIGHTS)
-    units = attach_practice_lessons(load_units()) + load_grammar_units() + load_exam_units()
+    units = (attach_practice_lessons(load_units()) + load_grammar_units() + load_exam_units()
+             + load_tech_units() + load_vocab2_units())
     package = {
         "id": "yds-academic-vocab-1",
         "name": "YDS: Academic Vocabulary I",
