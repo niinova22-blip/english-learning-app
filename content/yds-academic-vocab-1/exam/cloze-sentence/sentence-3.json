@@ -62,7 +62,7 @@
         "it was clear to everyone that the claim was unfounded"
       ],
       "correctIndex": 2,
-      "explanationTR": "Ortaç cümleciğinin öznesi ana cümlenin öznesi olmalıdır; kanıtları inceleyen taraf panelidir: (C). (A) ve (D) ile (E) öznesi inceleme yapmadığı için sarkan ortaç oluşturur. (B) «it» de inceleyen özne değildir.",
+      "explanationTR": "Ortaç cümleciğinin öznesi ana cümlenin öznesi olmalıdır; kanıtları inceleyen taraf panelidir: (C). (A), (B), (D) ve (E) cümlelerinin öznesi (evidence, conclusion, claim, it) incelemeyi yapan taraf olmadığı için sarkan ortaç oluşur.",
       "passageID": null
     },
     {

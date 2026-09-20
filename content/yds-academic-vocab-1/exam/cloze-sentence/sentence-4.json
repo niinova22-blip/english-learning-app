@@ -41,12 +41,12 @@
       "options": [
         "badly organised",
         "organising badly",
-        "it was badly organised",
+        "because it was badly organised",
         "was badly organised",
         "badly organise"
       ],
       "correctIndex": 0,
-      "explanationTR": "«Not so much A as B» kalıbında A ve B paralel olmalıdır: boring ... badly organised (sıfat + sıfat): (A). (B) ve (C) fiil ya da cümlecik yapısıdır. (D) özneyi tekrarlar. (E) yanlış bir biçimdir.",
+      "explanationTR": "«Not so much A as B» kalıbında A ve B paralel olmalıdır: boring ... badly organised (sıfat + sıfat): (A). (B) fiil yapısıdır ve boring ile paralel değildir. (C) because ile ikinci bir bağlaç ekler. (D) özne eksik, çekimli bir fiil koyar. (E) yalın fiildir ve sıfatla paralel kurulamaz.",
       "passageID": null
     },
     {
@@ -55,14 +55,14 @@
       "order": 2,
       "prompt": "Apart from ----, the visitors enjoyed the trip.",
       "options": [
-        "the border delayed long",
-        "delaying at the border long",
-        "the border was delayed long",
-        "delayed the border long",
+        "to be delayed long at the border",
+        "the border was long delayed",
+        "they were delayed long at the border",
+        "delayed long at the border",
         "the long delay at the border"
       ],
       "correctIndex": 4,
-      "explanationTR": "«Apart from» bir edattır ve ardından ad öbeği gelir: the long delay at the border: (E). (A) ve (B) ve (C) ve (D) fiil ya da cümlecik yapısıdır ve edat sonrası kullanılamaz.",
+      "explanationTR": "«Apart from» bir edattır ve ardından ad öbeği gelir: the long delay at the border: (E). (A) mastar yapısıdır. (B) ve (C) tam cümlecik kurar, oysa edattan sonra cümlecik gelmez. (D) «being» olmadan kullanılan bir ortaçtır ve edat sonrasında kurulamaz.",
       "passageID": null
     },
     {
@@ -72,13 +72,13 @@
       "prompt": "The results were, if anything, ----.",
       "options": [
         "better as the researchers had expected",
-        "the better than expected",
+        "more better than the researchers had expected",
         "better that the researchers expected",
         "better than the researchers had expected",
-        "as better than researchers expected"
+        "better than that the researchers had expected"
       ],
       "correctIndex": 3,
-      "explanationTR": "«If anything» kalıbından sonra karşılaştırma kurulur: better than the researchers had expected: (D). (A) as ve (C) that karşılaştırma bağlacı değildir. (B) ve (E) yapıyı bozar.",
+      "explanationTR": "«If anything» kalıbından sonra karşılaştırma kurulur: better than the researchers had expected: (D). (A) as ve (C) that karşılaştırma bağlacı değildir. (B) more better çift karşılaştırma yapar. (E) than'dan sonra fazladan that koyar.",
       "passageID": null
     },
     {
@@ -106,11 +106,11 @@
         "any such agreement had ever been signed",
         "any such agreement was ever signing",
         "any such agreement to have been signed",
-        "of any such agreement ever signed",
+        "whether any such agreement had ever been signed",
         "any such agreement being ever signed"
       ],
       "correctIndex": 0,
-      "explanationTR": "«Deny that» ardından tam bir cümlecik ister ve önceki olay past perfect ile verilir: had ever been signed: (A). (B) ve (C) ile (D) ve (E) cümlecik kurmaz ya da edilgen yapıyı bozar.",
+      "explanationTR": "«Deny that» ardından tam bir cümlecik ister ve önceki olay past perfect ile verilir: had ever been signed: (A). (B), (C) ve (E) cümlecik kurmaz ya da edilgen yapıyı bozar. (D) deny that kalıbından sonra ikinci bir bağlaç (whether) ekler.",
       "passageID": null
     },
     {
@@ -122,11 +122,11 @@
         "its largest customer collapsed suddenly",
         "the largest customer has suddenly collapsed",
         "that its largest customer would collapse",
-        "collapsing its largest customer suddenly",
+        "suddenly its largest customer collapsed",
         "the sudden collapse of its largest customer"
       ],
       "correctIndex": 4,
-      "explanationTR": "«Had it not been for» ardından bir AD ÖBEĞİ gelir: the sudden collapse of its largest customer: (E). (A) ve (B) ve (C) cümlecik ya da yanlış yapıdır. (D) V-ing özneyi karıştırır.",
+      "explanationTR": "«Had it not been for» ardından bir AD ÖBEĞİ gelir: the sudden collapse of its largest customer: (E). (A), (B), (C) ve (D) cümlecik ya da yanlış yapıdır; «had it not been for» ardından cümlecik almaz.",
       "passageID": null
     },
     {
@@ -168,10 +168,10 @@
       "prompt": "In spite of the fact that ----.",
       "options": [
         "overwhelming evidence, the jury took three days to reach a verdict",
-        "the evidence overwhelmingly, the jury took three days",
-        "the evidence being overwhelming, the jury took three days",
+        "the evidence overwhelming, the jury took three days to reach a verdict",
+        "the evidence being overwhelming, the jury took three days to reach a verdict",
         "the evidence was overwhelming, the jury took three days to reach a verdict",
-        "the evidence was overwhelming so the jury took three days"
+        "the evidence was overwhelming so the jury took three days to reach a verdict"
       ],
       "correctIndex": 3,
       "explanationTR": "«In spite of the fact that» ardından tam bir cümlecik gelir ve karşıtlık kurulur: the evidence was overwhelming, the jury took ...: (D). (A) cümlecik yerine ad öbeği koyar. (B) ve (C) yapıyı bozar. (E) so ile anlamı tersine çevirir.",

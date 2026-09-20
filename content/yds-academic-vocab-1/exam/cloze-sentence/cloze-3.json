@@ -67,7 +67,7 @@
         "when"
       ],
       "correctIndex": 0,
-      "explanationTR": "Yer bildiren bir ada (land) gönderme yapılır ve «orada taşınır» anlamı verilir: where. (B) which cümleciğin öznesini karşılayamaz, çünkü özne zaten it'tir. (C) that virgülden sonra gelmez. (D) what önceki bir adı niteleyemez. (E) when zamanı bildirir.",
+      "explanationTR": "Yer bildiren bir ada (land) gönderme yapılır ve «orada taşınır» anlamı verilir: where. (B) which cümlecikte eksik bir öğeyi karşılar, oysa «it is carried by rivers» cümleciği zaten tamdır. (C) that virgülden sonra gelmez. (D) what önceki bir adı niteleyemez. (E) when zamanı bildirir.",
       "passageID": "yds-exam-passage-cloze-3"
     },
     {
@@ -142,12 +142,12 @@
       "options": [
         "those",
         "them",
-        "ones",
+        "these",
         "which",
         "whom"
       ],
       "correctIndex": 0,
-      "explanationTR": "«Countries» yerine geçen ve ardından bir niteleme (with weaker rules) alan zamir those'tur: (A). (B) them ardından niteleme almaz. (C) ones önünde belirteç ister. (D) which ve (E) whom ilgi zamiridir ve bu konumda gönderme yapamaz.",
+      "explanationTR": "«Countries» yerine geçen ve ardından bir niteleme (with weaker rules) alan zamir those'tur: (A). (B) them ardından niteleme almaz. (C) these yakındaki belirli bir göndermeyi bildirir; «with weaker rules» gibi bir niteleme alan genel gönderme için those kullanılır. (D) which ve (E) whom ilgi zamiridir ve bu konumda gönderme yapamaz.",
       "passageID": "yds-exam-passage-cloze-3"
     }
   ]
