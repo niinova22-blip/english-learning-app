@@ -32,10 +32,10 @@
         "the history of lithium-ion batteries",
         "the difficulty of building pumped hydropower plants",
         "the cost of producing hydrogen from water",
-        "the different ways of storing energy produced by variable renewable sources"
+        "ways of storing energy from variable renewable sources"
       ],
       "correctIndex": 4,
-      "explanationTR": "Metin rüzgâr ve güneşin kesintili üretimini ve bunun için çeşitli depolama yöntemlerini karşılaştırıyor: (E). (A) fosil yakıtlarla kıyas yalnızca girişte geçer. (B) ve (C) ile (D) yöntemlerden yalnızca birer tanesidir ve ana konuyu daraltır.",
+      "explanationTR": "Metin rüzgâr ve güneşin kesintili üretimini ve bunun için çeşitli depolama yöntemlerini karşılaştırıyor: (E). (A) fosil yakıtlarla kıyas yalnızca girişte geçer. (B), (C) ve (D) yöntemlerden yalnızca birer tanesidir ve ana konuyu daraltır.",
       "passageID": "yds-exam-passage-reading-7"
     },
     {
@@ -51,7 +51,7 @@
         "unsuitable for use in vehicles"
       ],
       "correctIndex": 2,
-      "explanationTR": "Metin lityum-iyon pillerin kısa süreler için en yaygın çözüm olduğunu söylüyor: (C). (A) haftalarca ya da aylarca depolama için «çok daha az uygun» oldukları belirtilir. (B) verimlilik karşılaştırması pompaj hidroelektrik için yapılır. (D) maliyetlerin arttığı değil, sert biçimde düştüğü söylenir.",
+      "explanationTR": "Metin lityum-iyon pillerin kısa süreler için en yaygın çözüm olduğunu söylüyor: (C). (A) haftalarca ya da aylarca depolama için «çok daha az uygun» oldukları belirtilir. (B) pompaj hidroelektriğin daha verimli olduğu hidrojene kıyasla söylenir; pillerle böyle bir kıyas yapılmaz. (D) maliyetlerin arttığı değil, sert biçimde düştüğü söylenir.",
       "passageID": "yds-exam-passage-reading-7"
     },
     {

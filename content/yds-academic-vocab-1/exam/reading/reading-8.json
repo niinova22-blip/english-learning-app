@@ -30,7 +30,7 @@
       "options": [
         "is caused entirely by biology",
         "disappears if they study for one hour a week",
-        "may be explained more by their circumstances than by their age alone",
+        "may be explained more by their circumstances than by biology",
         "is not real, since adults learn faster than children",
         "can be solved only by moving abroad"
       ],
@@ -51,7 +51,7 @@
         "they avoid mixing with native speakers"
       ],
       "correctIndex": 0,
-      "explanationTR": "Metin, yeni bir ülkeye gömülen çocuğun günün çoğunu dili duyarak ve kullanarak geçirdiğini söylüyor: (A). (B) ve (C) yetişkinlerin avantajı olarak anılır. (D) haftada birkaç saat çalışan yetişkindir. (E) hem çocuk hem de metin bağlamı için yanlıştır.",
+      "explanationTR": "Metin, yeni bir ülkeye gömülen çocuğun günün çoğunu dili duyarak ve kullanarak geçirdiğini söylüyor: (A). (B) ve (C) yetişkinlerin avantajı olarak anılır. (D) haftada birkaç saat çalışan yetişkindir. (E) metinle çelişir; yeni ülkedeki çocuk yerli konuşurlarla iç içedir.",
       "passageID": "yds-exam-passage-reading-8"
     },
     {

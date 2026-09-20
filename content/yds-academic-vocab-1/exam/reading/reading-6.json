@@ -47,11 +47,11 @@
         "unlikely",
         "reluctant",
         "immune",
-        "exposed",
+        "opposed",
         "inclined"
       ],
       "correctIndex": 4,
-      "explanationTR": "«No less prone to prejudice» insan işe alımcıların da önyargıya en az onlar kadar eğilimli olduğunu söyler: (E). (A) ve (B) ile (C) anlamı tersine çevirir. (D) «maruz kalmış» demektir; eğilim değil, dışarıdan gelen etkiyi anlatır ve cümleye uymaz.",
+      "explanationTR": "«No less prone to prejudice» insan işe alımcıların da önyargıya en az onlar kadar eğilimli olduğunu söyler: (E). (A) olası değil, (B) isteksiz, (C) bağışık, (D) ise karşı çıkan demektir; hepsi cümlenin anlamını tersine çevirir.",
       "passageID": "yds-exam-passage-reading-6"
     },
     {
@@ -83,7 +83,7 @@
         "is never affected by past decisions"
       ],
       "correctIndex": 3,
-      "explanationTR": "Savunucular, taraflı bir algoritmanın en azından denetlenebileceğini, taraflı bir görüşmecinin ise «açılıp incelenemeyeceğini» söylüyor: (D). (A) ve (B) savunucuların değil, eleştirmenlerin kaygısına yakındır. (C) mühendislerin düzeltme yaptığı zaten anlatıldı. (E) mutlak bir ifadedir ve metinle çelişir.",
+      "explanationTR": "Savunucular, taraflı bir algoritmanın en azından denetlenebileceğini, taraflı bir görüşmecinin ise «açılıp incelenemeyeceğini» söylüyor: (D). (A) ve (B) metinde hiçbir tarafça öne sürülmez. (C) mühendislerin düzeltme yaptığı zaten anlatıldı. (E) mutlak bir ifadedir ve metinle çelişir.",
       "passageID": "yds-exam-passage-reading-6"
     },
     {

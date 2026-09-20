@@ -8788,7 +8788,7 @@
               "options": [
                 "will certainly forget everything that was studied",
                 "always performs worse than a student who naps",
-                "may lose some of the benefit that the extra study hours were meant to bring",
+                "may lose part of the gain the extra hours promise",
                 "gains more from difficult material than from easy material",
                 "is unable to understand what is being studied"
               ],
@@ -9076,7 +9076,7 @@
               "prompt": "According to the passage, leaving corridors open in crowded districts is useful because it ----.",
               "options": [
                 "absorbs sunlight during the day",
-                "channels breezes into areas that would otherwise stay hot at little cost",
+                "channels breezes into crowded districts",
                 "provides shade for elderly residents",
                 "removes the need to plant trees",
                 "reduces electricity demand directly"
@@ -9173,7 +9173,7 @@
                 "half of what a scribe could copy in a year"
               ],
               "correctIndex": 0,
-              "explanationTR": "Metin bir matbaanın bir haftada bir kâtibin bir yılda kopyaladığını üretebildiğini söylüyor: (A). (B) ve (C) ile (D) metinde geçmeyen kıyaslardır. (E) ise oranı yanlış verir ve matbaanın avantajını küçültür.",
+              "explanationTR": "Metin bir matbaanın bir haftada bir kâtibin bir yılda kopyaladığını üretebildiğini söylüyor: (A). (B), (C) ve (D) metinde geçmeyen kıyaslardır. (E) ise oranı yanlış verir ve matbaanın avantajını küçültür.",
               "passageID": "yds-exam-passage-reading-5"
             },
             {
@@ -9276,11 +9276,11 @@
                 "unlikely",
                 "reluctant",
                 "immune",
-                "exposed",
+                "opposed",
                 "inclined"
               ],
               "correctIndex": 4,
-              "explanationTR": "«No less prone to prejudice» insan işe alımcıların da önyargıya en az onlar kadar eğilimli olduğunu söyler: (E). (A) ve (B) ile (C) anlamı tersine çevirir. (D) «maruz kalmış» demektir; eğilim değil, dışarıdan gelen etkiyi anlatır ve cümleye uymaz.",
+              "explanationTR": "«No less prone to prejudice» insan işe alımcıların da önyargıya en az onlar kadar eğilimli olduğunu söyler: (E). (A) olası değil, (B) isteksiz, (C) bağışık, (D) ise karşı çıkan demektir; hepsi cümlenin anlamını tersine çevirir.",
               "passageID": "yds-exam-passage-reading-6"
             },
             {
@@ -9312,7 +9312,7 @@
                 "is never affected by past decisions"
               ],
               "correctIndex": 3,
-              "explanationTR": "Savunucular, taraflı bir algoritmanın en azından denetlenebileceğini, taraflı bir görüşmecinin ise «açılıp incelenemeyeceğini» söylüyor: (D). (A) ve (B) savunucuların değil, eleştirmenlerin kaygısına yakındır. (C) mühendislerin düzeltme yaptığı zaten anlatıldı. (E) mutlak bir ifadedir ve metinle çelişir.",
+              "explanationTR": "Savunucular, taraflı bir algoritmanın en azından denetlenebileceğini, taraflı bir görüşmecinin ise «açılıp incelenemeyeceğini» söylüyor: (D). (A) ve (B) metinde hiçbir tarafça öne sürülmez. (C) mühendislerin düzeltme yaptığı zaten anlatıldı. (E) mutlak bir ifadedir ve metinle çelişir.",
               "passageID": "yds-exam-passage-reading-6"
             },
             {
@@ -9368,10 +9368,10 @@
                 "the history of lithium-ion batteries",
                 "the difficulty of building pumped hydropower plants",
                 "the cost of producing hydrogen from water",
-                "the different ways of storing energy produced by variable renewable sources"
+                "ways of storing energy from variable renewable sources"
               ],
               "correctIndex": 4,
-              "explanationTR": "Metin rüzgâr ve güneşin kesintili üretimini ve bunun için çeşitli depolama yöntemlerini karşılaştırıyor: (E). (A) fosil yakıtlarla kıyas yalnızca girişte geçer. (B) ve (C) ile (D) yöntemlerden yalnızca birer tanesidir ve ana konuyu daraltır.",
+              "explanationTR": "Metin rüzgâr ve güneşin kesintili üretimini ve bunun için çeşitli depolama yöntemlerini karşılaştırıyor: (E). (A) fosil yakıtlarla kıyas yalnızca girişte geçer. (B), (C) ve (D) yöntemlerden yalnızca birer tanesidir ve ana konuyu daraltır.",
               "passageID": "yds-exam-passage-reading-7"
             },
             {
@@ -9387,7 +9387,7 @@
                 "unsuitable for use in vehicles"
               ],
               "correctIndex": 2,
-              "explanationTR": "Metin lityum-iyon pillerin kısa süreler için en yaygın çözüm olduğunu söylüyor: (C). (A) haftalarca ya da aylarca depolama için «çok daha az uygun» oldukları belirtilir. (B) verimlilik karşılaştırması pompaj hidroelektrik için yapılır. (D) maliyetlerin arttığı değil, sert biçimde düştüğü söylenir.",
+              "explanationTR": "Metin lityum-iyon pillerin kısa süreler için en yaygın çözüm olduğunu söylüyor: (C). (A) haftalarca ya da aylarca depolama için «çok daha az uygun» oldukları belirtilir. (B) pompaj hidroelektriğin daha verimli olduğu hidrojene kıyasla söylenir; pillerle böyle bir kıyas yapılmaz. (D) maliyetlerin arttığı değil, sert biçimde düştüğü söylenir.",
               "passageID": "yds-exam-passage-reading-7"
             },
             {
@@ -9473,7 +9473,7 @@
               "options": [
                 "is caused entirely by biology",
                 "disappears if they study for one hour a week",
-                "may be explained more by their circumstances than by their age alone",
+                "may be explained more by their circumstances than by biology",
                 "is not real, since adults learn faster than children",
                 "can be solved only by moving abroad"
               ],
@@ -9494,7 +9494,7 @@
                 "they avoid mixing with native speakers"
               ],
               "correctIndex": 0,
-              "explanationTR": "Metin, yeni bir ülkeye gömülen çocuğun günün çoğunu dili duyarak ve kullanarak geçirdiğini söylüyor: (A). (B) ve (C) yetişkinlerin avantajı olarak anılır. (D) haftada birkaç saat çalışan yetişkindir. (E) hem çocuk hem de metin bağlamı için yanlıştır.",
+              "explanationTR": "Metin, yeni bir ülkeye gömülen çocuğun günün çoğunu dili duyarak ve kullanarak geçirdiğini söylüyor: (A). (B) ve (C) yetişkinlerin avantajı olarak anılır. (D) haftada birkaç saat çalışan yetişkindir. (E) metinle çelişir; yeni ülkedeki çocuk yerli konuşurlarla iç içedir.",
               "passageID": "yds-exam-passage-reading-8"
             },
             {
