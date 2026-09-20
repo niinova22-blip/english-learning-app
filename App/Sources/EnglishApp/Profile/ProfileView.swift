@@ -1,5 +1,7 @@
 import SwiftUI
 import SwiftData
+import StoreKit
+import UIKit
 import LearningEngine
 
 /// Plain-value copy of the stored level-test result, so the view never holds a
@@ -22,6 +24,9 @@ struct ProfileView: View {
     @State private var showLevelTestSheet = false
     @State private var showResetConfirmation = false
     @State private var resetError: String?
+    @State private var paywall: PaywallMode?
+    @State private var restoreMessage: String?
+    @State private var isRestoring = false
 
     var body: some View {
         ScrollView {
@@ -55,6 +60,35 @@ struct ProfileView: View {
                         showLevelTestSheet = true
                     }
                     .buttonStyle(.plain).foregroundStyle(Theme.primary)
+                }
+
+                section("SATIN ALIMLAR") {
+                    // Registers observation so the rows update after a purchase.
+                    let _ = appState.dataGeneration
+                    row("Paket", stats?.accessLevel == .owned ? "Tam sürüm" : "Önizleme", tint: Theme.accent)
+                    if stats?.accessLevel != .owned,
+                       let target = PaywallTarget.activePackage(context: context, appState: appState) {
+                        Button("Paketi aç") { paywall = target }
+                            .buttonStyle(.plain).foregroundStyle(Theme.primary)
+                    }
+                    Divider()
+                    row("AI Premium", appState.premiumProvider.isPremium ? "Aktif" : "Kapalı", tint: Theme.accent)
+                    if !appState.premiumProvider.isPremium {
+                        Button("AI Premium'a geç") { paywall = .premium }
+                            .buttonStyle(.plain).foregroundStyle(Theme.primary)
+                    } else {
+                        Button("Aboneliği yönet") { Task { await showManageSubscriptions() } }
+                            .buttonStyle(.plain).foregroundStyle(Theme.primary)
+                    }
+                    Divider()
+                    Button(isRestoring ? "Geri yükleniyor..." : "Satın alımları geri yükle") {
+                        Task { await restorePurchases() }
+                    }
+                    .buttonStyle(.plain).foregroundStyle(Theme.primary)
+                    .disabled(isRestoring)
+                    if let restoreMessage {
+                        Text(restoreMessage).font(.caption).foregroundStyle(Theme.secondaryInk)
+                    }
                 }
 
                 section("İSTATİSTİK") {
@@ -93,6 +127,9 @@ struct ProfileView: View {
         .background(Theme.paper.ignoresSafeArea())
         .onAppear(perform: refresh)
         .onChange(of: appState.dataGeneration) { _, _ in refresh() }
+        .sheet(item: $paywall) { mode in
+            PaywallView(mode: mode, store: appState.entitlements)
+        }
         .sheet(isPresented: $showLevelTestSheet) {
             if let packageID = try? TodayPlanCoordinator(context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider).activePackage()?.id {
                 LevelTestRetakeSheet(packageID: packageID) { _ in
@@ -133,6 +170,23 @@ struct ProfileView: View {
             Text(value).foregroundStyle(tint)
         }
         .font(.subheadline)
+    }
+
+    private func restorePurchases() async {
+        isRestoring = true
+        restoreMessage = nil
+        do {
+            try await appState.entitlements.restore()
+            restoreMessage = "Satın alımların güncellendi."
+        } catch {
+            restoreMessage = "Satın alımlar geri yüklenemedi. Bir süre sonra tekrar dene."
+        }
+        isRestoring = false
+    }
+
+    private func showManageSubscriptions() async {
+        guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return }
+        try? await AppStore.showManageSubscriptions(in: scene)
     }
 
     private func refresh() {
