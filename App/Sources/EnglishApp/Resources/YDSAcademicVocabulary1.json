@@ -9548,6 +9548,1361 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yds-exam-unit-cloze-sentence",
+      "theme": "Cloze ve cümle tamamlama",
+      "order": 10,
+      "lessons": [
+        {
+          "id": "yds-exam-cloze-1",
+          "order": 0,
+          "estimatedDurationMinutes": 10,
+          "title": "Cloze Test: Mikrofinans",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-cloze-1",
+            "title": "Microfinance",
+            "body": "Microfinance institutions lend small sums to people who (1)---- normally be refused credit by commercial banks. The idea is simple: a woman who wants to buy a sewing machine may need only a modest loan, yet no bank will consider it (2)---- the cost of assessing such an application exceeds the interest it could earn. Microfinance lenders overcome this problem by lending to groups, (3)---- members guarantee one another's repayments. Peer pressure, rather than collateral, therefore keeps default rates low. (4)---- its early successes, the model has attracted criticism. Some borrowers, having taken new loans to repay earlier ones, have fallen into debt from (5)---- they cannot easily escape. Others use the money for consumption instead of investment, so their incomes do not rise. Researchers who studied thousands of borrowers found that microloans led (6)---- modest improvements in some households, but they did not lift most families out of poverty. Supporters answer that credit was never meant to be a complete solution; it is one tool among many, (7)---- must be combined with education and savings schemes. (8)---- microfinance remains valuable, most economists now agree that it should be presented with realistic expectations."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-cloze-1",
+              "type": "practiceSet",
+              "headword": "Cloze: Microfinance",
+              "frequencyRank": 3010,
+              "baseDifficulty": 0.5,
+              "definition": "Mikrofinans üzerine sekiz boşluklu bir cloze testi; bağlaç, edat ve ilgi zamiri soruları.",
+              "exampleSentences": [],
+              "translationTR": "Cloze Test: Mikrofinans",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-cloze-1-q01",
+              "kind": "cloze",
+              "order": 0,
+              "prompt": "Microfinance institutions lend small sums to people who (1) ---- normally be refused credit by commercial banks.",
+              "options": [
+                "did",
+                "have",
+                "would",
+                "were",
+                "had"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Normally» genel bir durumu anlatır ve «be refused» kip fiili ister; would bu genel durumu verir: (C). (A) did ve (B) have kip yardımcı fiili değildir, «be refused» ile birleşmez. (D) were, «be» ile çift be fiili oluşturur. (E) had ise «be refused» ile geçmiş zaman kalıbı kuramaz.",
+              "passageID": "yds-exam-passage-cloze-1"
+            },
+            {
+              "id": "yds-exam-cloze-1-q02",
+              "kind": "cloze",
+              "order": 1,
+              "prompt": "No bank will consider it (2) ---- the cost of assessing such an application exceeds the interest it could earn.",
+              "options": [
+                "because",
+                "although",
+                "unless",
+                "so that",
+                "whereas"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Bankanın başvuruyu ele almamasının NEDENİ maliyetin faizi aşmasıdır: (A). (B) although karşıtlık kurar ve mantığı bozar. (C) unless koşul bildirir, anlamı tersine çevirir. (D) so that amaç bildirir. (E) whereas iki durumu karşılaştırır, neden anlatmaz.",
+              "passageID": "yds-exam-passage-cloze-1"
+            },
+            {
+              "id": "yds-exam-cloze-1-q03",
+              "kind": "cloze",
+              "order": 2,
+              "prompt": "Microfinance lenders overcome this problem by lending to groups, (3) ---- members guarantee one another's repayments.",
+              "options": [
+                "which",
+                "who",
+                "what",
+                "whose",
+                "that"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Boşluktan sonra bir ad (members) geliyor ve sahiplik bildiriliyor (grubun üyeleri): (D). (A) which ardından ad almaz ve burada nesne konumundadır. (B) who kişi zamiridir ve ad öncesi kullanılmaz. (C) what önceki bir adı niteleyemez. (E) that virgülden sonra kullanılamaz.",
+              "passageID": "yds-exam-passage-cloze-1"
+            },
+            {
+              "id": "yds-exam-cloze-1-q04",
+              "kind": "cloze",
+              "order": 3,
+              "prompt": "(4) ---- its early successes, the model has attracted criticism.",
+              "options": [
+                "Although",
+                "Despite",
+                "However",
+                "Because",
+                "Whereas"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Boşluktan sonra bir AD ÖBEĞİ var (its early successes); ad öbeğinin önüne karşıtlık edatı despite gelir: (B). (A) Although ve (E) Whereas cümlecik ister. (C) However bir bağlayıcı zarftır, ad öbeği alamaz. (D) Because ise neden bildirir.",
+              "passageID": "yds-exam-passage-cloze-1"
+            },
+            {
+              "id": "yds-exam-cloze-1-q05",
+              "kind": "cloze",
+              "order": 4,
+              "prompt": "Some borrowers have fallen into debt from (5) ---- they cannot easily escape.",
+              "options": [
+                "that",
+                "what",
+                "where",
+                "whom",
+                "which"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Edattan (from) sonra ilgi zamiri gelir ve cansız bir ada (debt) gönderme yapılır: from which. (A) that edattan sonra kullanılamaz. (B) what önceki bir adı niteleyemez. (C) where yer bildirir, borç bir yer değildir. (D)'te kişi zamiri whom yanlış gönderme yapar.",
+              "passageID": "yds-exam-passage-cloze-1"
+            },
+            {
+              "id": "yds-exam-cloze-1-q06",
+              "kind": "cloze",
+              "order": 5,
+              "prompt": "Researchers found that microloans led (6) ---- modest improvements in some households.",
+              "options": [
+                "to",
+                "for",
+                "at",
+                "by",
+                "with"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Lead to» sabit bir kalıptır (= yol açmak). (B) for, (C) at, (D) by ve (E) with bu fiille kullanılmaz.",
+              "passageID": "yds-exam-passage-cloze-1"
+            },
+            {
+              "id": "yds-exam-cloze-1-q07",
+              "kind": "cloze",
+              "order": 6,
+              "prompt": "Credit is one tool among many, (7) ---- must be combined with education and savings schemes.",
+              "options": [
+                "that",
+                "what",
+                "who",
+                "which",
+                "whose"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Virgülden sonra gelen ve önceki cümlecikteki cansız ada (one tool) gönderme yapan ilgi zamiri which'tir. (A) that virgülden sonra gelmez. (B) what önceki bir adı niteleyemez. (C) who kişiler içindir. (E) whose ardından ad ister.",
+              "passageID": "yds-exam-passage-cloze-1"
+            },
+            {
+              "id": "yds-exam-cloze-1-q08",
+              "kind": "cloze",
+              "order": 7,
+              "prompt": "(8) ---- microfinance remains valuable, most economists now agree that it should be presented with realistic expectations.",
+              "options": [
+                "Because",
+                "Although",
+                "Unless",
+                "Therefore",
+                "Moreover"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Cümlenin iki yarısı arasında karşıtlık var: mikrofinans değerli olsa da gerçekçi beklentilerle sunulmalı: (B). (A) Because neden bildirir. (C) Unless koşul bildirir. (D) Therefore ve (E) Moreover bağlayıcı zarftır, cümlecik başlatamaz.",
+              "passageID": "yds-exam-passage-cloze-1"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-cloze-2",
+          "order": 1,
+          "estimatedDurationMinutes": 10,
+          "title": "Cloze Test: Çift Dilli Eğitim",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-cloze-2",
+            "title": "Bilingual Education",
+            "body": "Bilingual education programmes divide opinion. Critics argue (1)---- children taught in two languages at once fall behind in both, and that time spent on the minority language is time lost for mastering the majority one. The available evidence does not support this fear. Studies that followed pupils over several years found that, although bilingual children sometimes lagged (2)---- their monolingual classmates in early vocabulary tests, they caught up by the age of ten and often surpassed them in tasks requiring attention control. (3)---- researchers believe that switching between languages exercises the brain in a way that strengthens general cognitive skills. Not (4)---- the benefits are academic. Children who keep their home language remain able to communicate with grandparents and to draw on the cultural heritage of their families, (5)---- helps them to feel secure in their identity. Programmes nevertheless vary greatly in quality. Success depends on how well teachers are trained, how (6)---- time is devoted to each language, and whether parents are involved. A poorly designed programme can (7)---- more harm than good, which is why administrators should evaluate results carefully before they (8)---- a scheme across an entire school system."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-cloze-2",
+              "type": "practiceSet",
+              "headword": "Cloze: Bilingual Education",
+              "frequencyRank": 3011,
+              "baseDifficulty": 0.55,
+              "definition": "Çift dilli eğitim üzerine sekiz boşluklu bir cloze testi; isim cümleciği, niceleyici ve kalıp soruları.",
+              "exampleSentences": [],
+              "translationTR": "Cloze Test: Çift Dilli Eğitim",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-cloze-2-q01",
+              "kind": "cloze",
+              "order": 0,
+              "prompt": "Critics argue (1) ---- children taught in two languages at once fall behind in both.",
+              "options": [
+                "what",
+                "whether",
+                "which",
+                "how",
+                "that"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Argue» fiilinden sonra öğeleri tam bir görüş cümlesi gelir ve bunu that bağlar: (E). (A) what eksik bir öğe ister. (B) whether «olup olmadığı» anlamı katar ve iddiayı zayıflatır. (C) which bir ada gönderme yapar. (D) how yöntem sorar, iddia bildirmez.",
+              "passageID": "yds-exam-passage-cloze-2"
+            },
+            {
+              "id": "yds-exam-cloze-2-q02",
+              "kind": "cloze",
+              "order": 1,
+              "prompt": "Although bilingual children sometimes lagged (2) ---- their monolingual classmates in early vocabulary tests, they caught up by the age of ten.",
+              "options": [
+                "after",
+                "under",
+                "behind",
+                "below",
+                "against"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Lag behind» (= geride kalmak) sabit bir kalıptır: (C). (A) after, (B) under, (D) below ve (E) against bu fiille kullanılmaz.",
+              "passageID": "yds-exam-passage-cloze-2"
+            },
+            {
+              "id": "yds-exam-cloze-2-q03",
+              "kind": "cloze",
+              "order": 2,
+              "prompt": "(3) ---- researchers believe that switching between languages exercises the brain.",
+              "options": [
+                "Some",
+                "Much",
+                "Every",
+                "Little",
+                "Any"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Çoğul ad (researchers) ve çoğul fiil (believe) belirsiz bir grubu bildiren niceleyici ister: (A). (B) Much ve (D) Little sayılamayan adlarla kullanılır. (C) Every tekil ad ister. (E) Any olumlu cümlede bu anlamı kurmaz.",
+              "passageID": "yds-exam-passage-cloze-2"
+            },
+            {
+              "id": "yds-exam-cloze-2-q04",
+              "kind": "cloze",
+              "order": 3,
+              "prompt": "Not (4) ---- the benefits are academic.",
+              "options": [
+                "every",
+                "each",
+                "any",
+                "all",
+                "both"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Not all the benefits» yarı olumsuz bir kalıptır ve «bütün yararlar değil» anlamı verir: (D). (A) every ve (B) each tekil ad ister. (C) any bu kalıpta kullanılmaz. (E) both yalnızca iki şey için geçerlidir.",
+              "passageID": "yds-exam-passage-cloze-2"
+            },
+            {
+              "id": "yds-exam-cloze-2-q05",
+              "kind": "cloze",
+              "order": 4,
+              "prompt": "Children can draw on the cultural heritage of their families, (5) ---- helps them to feel secure in their identity.",
+              "options": [
+                "what",
+                "which",
+                "that",
+                "who",
+                "it"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Virgülden sonra gelen which, önceki cümlenin tamamına gönderme yapar: (B). (A) what önceki bir cümleye gönderme yapmaz. (C) that virgülden sonra kullanılamaz. (D) who kişiler içindir. (E) it bağlaç görevi görmez, iki cümleyi virgülle birleştirir.",
+              "passageID": "yds-exam-passage-cloze-2"
+            },
+            {
+              "id": "yds-exam-cloze-2-q06",
+              "kind": "cloze",
+              "order": 5,
+              "prompt": "Success depends on how (6) ---- time is devoted to each language.",
+              "options": [
+                "many",
+                "some",
+                "any",
+                "enough",
+                "much"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Time» sayılamayan bir addır; miktar sorusu how much ile kurulur: (E). (A) many sayılabilir çoğul adlarla kullanılır. (B) some ve (C) any «how» ile miktar sormaz. (D) enough «how» ile birleşmez.",
+              "passageID": "yds-exam-passage-cloze-2"
+            },
+            {
+              "id": "yds-exam-cloze-2-q07",
+              "kind": "cloze",
+              "order": 6,
+              "prompt": "A poorly designed programme can (7) ---- more harm than good.",
+              "options": [
+                "do",
+                "make",
+                "take",
+                "give",
+                "have"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Do harm» sabit bir kalıptır; do more harm than good (= yarardan çok zarar vermek): (A). (B) make, (C) take, (D) give ve (E) have «harm» ile bu kalıbı kurmaz.",
+              "passageID": "yds-exam-passage-cloze-2"
+            },
+            {
+              "id": "yds-exam-cloze-2-q08",
+              "kind": "cloze",
+              "order": 7,
+              "prompt": "Administrators should evaluate results carefully before they (8) ---- a scheme across an entire school system.",
+              "options": [
+                "will adopt",
+                "adopted",
+                "adopt",
+                "are adopting",
+                "would adopt"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Before» ile kurulan zaman yan cümleciğinde gelecek için geniş zaman kullanılır ve will kullanılmaz: (C). (A) will adopt ve (E) would adopt zaman cümleciğinde yanlıştır. (B) adopted geçmiş zamandır. (D) are adopting sürerlik bildirir, kalıba uymaz.",
+              "passageID": "yds-exam-passage-cloze-2"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-cloze-3",
+          "order": 2,
+          "estimatedDurationMinutes": 10,
+          "title": "Cloze Test: Okyanus Plastikleri",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-cloze-3",
+            "title": "Ocean Plastics",
+            "body": "Every year, roughly eight million tonnes of plastic (1)---- their way into the oceans, where they break into ever smaller fragments. These microplastics have now been found in the deepest trenches and in Arctic ice, and they are eaten by animals ranging from plankton to whales. (2)---- scientists cannot yet say how seriously this contamination damages marine life, laboratory studies suggest that it can reduce the growth and fertility of some species. The problem is far from limited to the sea. Most ocean plastic originates on land, (3)---- it is carried by rivers or blown from landfill sites. Cleaning up (4)---- has already accumulated is therefore a partial solution at best, (5)---- the flow of new waste continues. Several countries have banned single-use bags, and the results are encouraging: in places where a small charge was introduced, consumption fell by more than eighty per cent. Manufacturers, too, are (6)---- pressure to redesign packaging so that it can be recycled easily. Yet experts caution that such measures will make little difference (7)---- they are applied worldwide. A country that regulates its own waste but exports it to (8)---- with weaker rules has merely moved the problem elsewhere."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-cloze-3",
+              "type": "practiceSet",
+              "headword": "Cloze: Ocean Plastics",
+              "frequencyRank": 3012,
+              "baseDifficulty": 0.6,
+              "definition": "Okyanus plastikleri üzerine sekiz boşluklu bir cloze testi; karışık soru tipleri ve kalıp kullanımı.",
+              "exampleSentences": [],
+              "translationTR": "Cloze Test: Okyanus Plastikleri",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-cloze-3-q01",
+              "kind": "cloze",
+              "order": 0,
+              "prompt": "Every year, roughly eight million tonnes of plastic (1) ---- their way into the oceans.",
+              "options": [
+                "take",
+                "find",
+                "put",
+                "reach",
+                "hold"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Find one's way into» sabit bir kalıptır (= bir yerlere ulaşmak): (B). (A) take, (C) put, (D) reach ve (E) hold «their way» ile bu anlamı kurmaz.",
+              "passageID": "yds-exam-passage-cloze-3"
+            },
+            {
+              "id": "yds-exam-cloze-3-q02",
+              "kind": "cloze",
+              "order": 1,
+              "prompt": "(2) ---- scientists cannot yet say how seriously this contamination damages marine life, laboratory studies suggest that it can reduce growth.",
+              "options": [
+                "Because",
+                "Unless",
+                "Moreover",
+                "Although",
+                "Therefore"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Bilim insanlarının kesin söyleyememesi ile laboratuvar bulgularının bir etki göstermesi arasında karşıtlık vardır: (D). (A) Because neden bildirir. (B) Unless koşul bildirir. (C) Moreover ve (E) Therefore bağlayıcı zarftır, yan cümle başlatamaz.",
+              "passageID": "yds-exam-passage-cloze-3"
+            },
+            {
+              "id": "yds-exam-cloze-3-q03",
+              "kind": "cloze",
+              "order": 2,
+              "prompt": "Most ocean plastic originates on land, (3) ---- it is carried by rivers or blown from landfill sites.",
+              "options": [
+                "where",
+                "which",
+                "that",
+                "what",
+                "when"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Yer bildiren bir ada (land) gönderme yapılır ve «orada taşınır» anlamı verilir: where. (B) which cümleciğin öznesini karşılayamaz, çünkü özne zaten it'tir. (C) that virgülden sonra gelmez. (D) what önceki bir adı niteleyemez. (E) when zamanı bildirir.",
+              "passageID": "yds-exam-passage-cloze-3"
+            },
+            {
+              "id": "yds-exam-cloze-3-q04",
+              "kind": "cloze",
+              "order": 3,
+              "prompt": "Cleaning up (4) ---- has already accumulated is therefore a partial solution at best.",
+              "options": [
+                "that",
+                "which",
+                "what",
+                "whose",
+                "whom"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Cümlecikte özne eksiktir (___ has accumulated) ve önceki bir ad yoktur; eksik öğeyi taşıyan isim cümleciği what ile kurulur: (C). (A) that ve (B) which önceki bir ada gönderme yapar. (D) whose ardından ad ister. (E) whom nesne konumundadır.",
+              "passageID": "yds-exam-passage-cloze-3"
+            },
+            {
+              "id": "yds-exam-cloze-3-q05",
+              "kind": "cloze",
+              "order": 4,
+              "prompt": "Cleaning up is a partial solution at best, (5) ---- the flow of new waste continues.",
+              "options": [
+                "even though",
+                "unless",
+                "so that",
+                "in case",
+                "while"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Kirlilik akışı sürdüğü SÜRECE temizliğin kısmi bir çözüm olduğu anlatılıyor: (E). (A) even though karşıtlık kurar ve anlamı bozar. (B) unless anlamı tersine çevirir. (C) so that amaç bildirir. (D) in case önlem bildirir.",
+              "passageID": "yds-exam-passage-cloze-3"
+            },
+            {
+              "id": "yds-exam-cloze-3-q06",
+              "kind": "cloze",
+              "order": 5,
+              "prompt": "Manufacturers, too, are (6) ---- pressure to redesign packaging so that it can be recycled easily.",
+              "options": [
+                "in",
+                "under",
+                "on",
+                "with",
+                "at"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Be under pressure» sabit bir kalıptır (= baskı altında olmak): (B). (A) in, (C) on, (D) with ve (E) at bu isimle kalıp kurmaz.",
+              "passageID": "yds-exam-passage-cloze-3"
+            },
+            {
+              "id": "yds-exam-cloze-3-q07",
+              "kind": "cloze",
+              "order": 6,
+              "prompt": "Experts caution that such measures will make little difference (7) ---- they are applied worldwide.",
+              "options": [
+                "if",
+                "because",
+                "when",
+                "unless",
+                "so that"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Unless» = «if not»: önlemler dünya çapında uygulanmadıkça fark yaratmaz: (D). (A) if anlamı tersine çevirir. (B) because gerekçe bildirir. (C) when zaman bildirir ve koşulu karşılamaz. (E) so that amaç bildirir.",
+              "passageID": "yds-exam-passage-cloze-3"
+            },
+            {
+              "id": "yds-exam-cloze-3-q08",
+              "kind": "cloze",
+              "order": 7,
+              "prompt": "A country that regulates its own waste but exports it to (8) ---- with weaker rules has merely moved the problem elsewhere.",
+              "options": [
+                "those",
+                "them",
+                "ones",
+                "which",
+                "whom"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Countries» yerine geçen ve ardından bir niteleme (with weaker rules) alan zamir those'tur: (A). (B) them ardından niteleme almaz. (C) ones önünde belirteç ister. (D) which ve (E) whom ilgi zamiridir ve bu konumda gönderme yapamaz.",
+              "passageID": "yds-exam-passage-cloze-3"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-cloze-4",
+          "order": 3,
+          "estimatedDurationMinutes": 10,
+          "title": "Cloze Test: Gen Düzenleme Etiği",
+          "skill": "reading",
+          "passage": {
+            "id": "yds-exam-passage-cloze-4",
+            "title": "The Ethics of Gene Editing",
+            "body": "When scientists first learned to edit human genes with precision, many hoped that inherited diseases could soon be (1)---- from families for good. The technology, known as CRISPR, works like a pair of molecular scissors: it cuts DNA at a chosen point so that a faulty sequence can be removed or replaced. Editing the cells of a patient is widely regarded as acceptable, (2)---- any changes affect only that individual. Editing embryos is different, because the alterations would be passed on to (3)---- the patient's descendants. In 2018 a researcher announced that he had created two girls whose genes he had modified, and the reaction was swift: (4)---- he had breached ethical rules, he was sentenced to prison. Critics of embryo editing raise several objections. (5)---- the long-term risks are unknown, future children cannot consent to a procedure that will shape their lives. Furthermore, if the technique is (6)---- available to wealthy parents, it could widen social inequality still further. Supporters reply that refusing a safe treatment would itself be an ethical failure, particularly for families in (7)---- devastating conditions recur from generation to generation. Most bioethicists take a middle position: they would (8)---- research to continue, but under strict international supervision."
+          },
+          "items": [
+            {
+              "id": "yds-exam-card-cloze-4",
+              "type": "practiceSet",
+              "headword": "Cloze: Ethics of Gene Editing",
+              "frequencyRank": 3013,
+              "baseDifficulty": 0.65,
+              "definition": "Gen düzenleme etiği üzerine sekiz boşluklu bir cloze testi; bağlaç ve zaman uyumu soruları.",
+              "exampleSentences": [],
+              "translationTR": "Cloze Test: Gen Düzenleme Etiği",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-cloze-4-q01",
+              "kind": "cloze",
+              "order": 0,
+              "prompt": "Many hoped that inherited diseases could soon be (1) ---- from families for good.",
+              "options": [
+                "removing",
+                "remove",
+                "removes",
+                "removed",
+                "having removed"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Could be» kip + edilgen yapıdır ve V3 ister: could be removed (hastalıklar çıkarılan taraftır). (A) removing ve (E) having removed etkendir. (B) remove yalın fiildir, «be» ile birleşmez. (C) removes çekimli bir fiildir.",
+              "passageID": "yds-exam-passage-cloze-4"
+            },
+            {
+              "id": "yds-exam-cloze-4-q02",
+              "kind": "cloze",
+              "order": 1,
+              "prompt": "Editing the cells of a patient is widely regarded as acceptable, (2) ---- any changes affect only that individual.",
+              "options": [
+                "provided",
+                "unless",
+                "although",
+                "as if",
+                "whereas"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Hastanın hücrelerini düzenlemenin kabul edilebilir sayılması bir KOŞULA bağlanıyor: değişiklikler yalnızca o kişiyi etkilediği sürece: (A). (B) unless anlamı tersine çevirir. (C) although karşıtlık kurar. (D) as if gerçek dışı bir benzetme yapar. (E) whereas iki durumu karşılaştırır.",
+              "passageID": "yds-exam-passage-cloze-4"
+            },
+            {
+              "id": "yds-exam-cloze-4-q03",
+              "kind": "cloze",
+              "order": 2,
+              "prompt": "The alterations would be passed on to (3) ---- the patient's descendants.",
+              "options": [
+                "every",
+                "each",
+                "all",
+                "both",
+                "either"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Descendants» çoğul bir addır ve belirtili bir grubun tamamını bildirmek için all the ... gelir: (C). (A) every ve (B) each tekil ad ister. (D) both yalnızca iki şey için geçerlidir. (E) either «ikisinden biri» demektir.",
+              "passageID": "yds-exam-passage-cloze-4"
+            },
+            {
+              "id": "yds-exam-cloze-4-q04",
+              "kind": "cloze",
+              "order": 3,
+              "prompt": "(4) ---- he had breached ethical rules, he was sentenced to prison.",
+              "options": [
+                "Although",
+                "Because",
+                "Unless",
+                "Whereas",
+                "Provided"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "Hapis cezasının NEDENİ etik kuralları çiğnemesidir: (B). (A) Although karşıtlık kurar ve anlamı bozar. (C) Unless koşul bildirir. (D) Whereas iki durumu karşılaştırır. (E) Provided bir şartı bildirir.",
+              "passageID": "yds-exam-passage-cloze-4"
+            },
+            {
+              "id": "yds-exam-cloze-4-q05",
+              "kind": "cloze",
+              "order": 4,
+              "prompt": "(5) ---- the long-term risks are unknown, future children cannot consent to a procedure that will shape their lives.",
+              "options": [
+                "Unless",
+                "Whereas",
+                "Although",
+                "Provided",
+                "Since"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "Uzun vadeli risklerin bilinmemesi, itirazın GEREKÇESİDİR: (E) (= mademki). (A) Unless anlamı tersine çevirir. (B) Whereas karşılaştırma yapar. (C) Although karşıtlık kurar. (D) Provided koşul bildirir ve gerekçe vermez.",
+              "passageID": "yds-exam-passage-cloze-4"
+            },
+            {
+              "id": "yds-exam-cloze-4-q06",
+              "kind": "cloze",
+              "order": 5,
+              "prompt": "If the technique is (6) ---- available to wealthy parents, it could widen social inequality still further.",
+              "options": [
+                "also",
+                "hardly",
+                "never",
+                "only",
+                "even"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Eşitsizliği artıracak olan şey, tekniğin YALNIZCA zengin ailelere açık olmasıdır: (D). (A) also «başkalarına da açık» anlamı katar ve eşitsizlik sonucuyla çelişir. (B) hardly ve (C) never anlamı bozar. (E) even bu bağlamda anlam kurmaz.",
+              "passageID": "yds-exam-passage-cloze-4"
+            },
+            {
+              "id": "yds-exam-cloze-4-q07",
+              "kind": "cloze",
+              "order": 6,
+              "prompt": "Families in (7) ---- devastating conditions recur from generation to generation.",
+              "options": [
+                "which",
+                "that",
+                "whom",
+                "whose",
+                "what"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Edattan sonra ilgi zamiri gelir ve cansız bir ada gönderme yapılır (conditions): in which. (B) that edattan sonra kullanılamaz. (C) whom kişiler içindir. (D) whose ardından ad ister ve burada özne zaten conditions'tır. (E) what önceki bir adı niteleyemez.",
+              "passageID": "yds-exam-passage-cloze-4"
+            },
+            {
+              "id": "yds-exam-cloze-4-q08",
+              "kind": "cloze",
+              "order": 7,
+              "prompt": "Bioethicists would (8) ---- research to continue, but under strict international supervision.",
+              "options": [
+                "agree",
+                "insist",
+                "allow",
+                "refuse",
+                "deny"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Allow + nesne + to V1» kalıbıdır (= izin vermek): would allow research to continue. (A) agree, (B) insist, (D) refuse ve (E) deny bu nesne + mastar kalıbını kurmaz.",
+              "passageID": "yds-exam-passage-cloze-4"
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-sentence-1",
+          "order": 4,
+          "estimatedDurationMinutes": 9,
+          "title": "Cümle Tamamlama 1: Neden ve Sonuç",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-exam-card-sentence-1",
+              "type": "practiceSet",
+              "headword": "Sentence Completion: Cause and Result",
+              "frequencyRank": 3020,
+              "baseDifficulty": 0.5,
+              "definition": "Neden, sonuç ve karşıtlık ilişkisine dayanan on cümle tamamlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Cümle Tamamlama 1: Neden ve Sonuç",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-sentence-1-q01",
+              "kind": "sentenceCompletion",
+              "order": 0,
+              "prompt": "The new tax was so unpopular that ----.",
+              "options": [
+                "few citizens noticed that it had been introduced",
+                "the government withdrew it within a month",
+                "most economists praised it as a model policy",
+                "it raised far more revenue than had been forecast",
+                "the opposition had supported it from the beginning"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«So ... that» kalıbı bir SONUÇ ister: vergi o kadar popüler değildi ki hükümet geri çekti: (B). (A) ve (E) vergiyi kimsenin fark etmediğini ya da desteklendiğini söyler, «popüler değildi» ile çelişir. (C) iktisatçıların övgüsü sonuç değildir. (D) beklenenden fazla gelir de bu ilişkiyi kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q02",
+              "kind": "sentenceCompletion",
+              "order": 1,
+              "prompt": "Because the factory had been built beside the river, ----.",
+              "options": [
+                "the river had remained free of pollution for decades",
+                "the nearby villagers were unaffected by the noise",
+                "its workers commuted from distant towns",
+                "its waste could be discharged directly into the water",
+                "the company had no need for a water supply"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "Fabrikanın nehir kıyısında olmasının doğal SONUCU, atıkların doğrudan suya verilebilmesidir: (D). (A) nehrin temiz kalması bu nedenin sonucu olamaz. (B) ve (C) yer seçimiyle mantıksal bağı olmayan ifadelerdir. (E) nehir kıyısına kurulmanın nedenini tersine çevirir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q03",
+              "kind": "sentenceCompletion",
+              "order": 2,
+              "prompt": "Although the drug had passed every laboratory test, ----.",
+              "options": [
+                "regulators asked for further trials before approving it",
+                "regulators were confident that no further trials were needed",
+                "the trials had been carried out on a large scale",
+                "its manufacturer had paid for all of the tests",
+                "it was sold widely in pharmacies at once"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Although» bir KARŞITLIK bekler: tüm testleri geçmesine rağmen ek deneyler istendi: (A). (B) tersine güven bildirir ve karşıtlık kurmaz. (C) ve (D) testlerle ilgili ayrıntılardır, karşıtlık içermez. (E) hemen satışa çıkmak da beklenen sonuçtur, karşıt değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q04",
+              "kind": "sentenceCompletion",
+              "order": 3,
+              "prompt": "The company's profits fell sharply; as a result, ----.",
+              "options": [
+                "it had hired hundreds of new workers the year before",
+                "its shareholders were delighted with the figures",
+                "it was able to expand production at once",
+                "its competitors had reported similar results",
+                "it announced plans to close two of its factories"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«As a result» bir sonuç bildirir: kâr düştü, bu yüzden fabrikaları kapatma planı açıklandı: (E). (A) önceki yıla ait bir eylemdir, sonuç olamaz. (B) ortakların memnuniyeti kâr düşüşünün sonucu olamaz. (C) üretimi artırmak, kâr düşüşünün mantıksal sonucu değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q05",
+              "kind": "sentenceCompletion",
+              "order": 4,
+              "prompt": "Whereas the northern provinces have benefited from the export boom, ----.",
+              "options": [
+                "the southern provinces have benefited from it as well",
+                "the boom is expected to end soon",
+                "the southern provinces have seen little improvement in living standards",
+                "the government invested heavily in the north",
+                "the exports were mainly agricultural goods"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Whereas» iki durumu KARŞILAŞTIRIR ve ikinci kısım birinciyle zıt olmalıdır: kuzey kazandı, güney çok az iyileşme gördü: (C). (A) güneyin de kazandığını söyler, zıtlık yoktur. (B), (D) ve (E) karşılaştırma kurmaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q06",
+              "kind": "sentenceCompletion",
+              "order": 5,
+              "prompt": "The epidemic spread so rapidly that ----.",
+              "options": [
+                "hospitals were overwhelmed within a matter of days",
+                "doctors had been warned about it years earlier",
+                "the disease affected only a few patients",
+                "public health officials saw no need to act",
+                "the number of cases remained stable"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«So ... that» hızlı yayılmanın SONUCUNU ister: hastaneler birkaç gün içinde bunaldı: (A). (B) önceden uyarılmak sonuç değildir. (C) ve (E) hızlı yayılmayla çelişir. (D) önlem alma ihtiyacının olmadığı sonucu mantıksızdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q07",
+              "kind": "sentenceCompletion",
+              "order": 6,
+              "prompt": "Despite the heavy rain that had fallen all week, ----.",
+              "options": [
+                "the match was cancelled because of the rain",
+                "the rain was expected to continue",
+                "the pitch became waterlogged",
+                "the football match went ahead as scheduled",
+                "the spectators stayed at home"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Despite» bir KARŞITLIK bildirir: yoğun yağmura rağmen maç planlandığı gibi yapıldı: (D). (A) yağmur yüzünden iptali söyler, bu karşıtlık değil, tutarlı bir sonuçtur. (B) ve (C) yağmurun devamı ya da sahanın durumu karşıtlık kurmaz. (E) seyircilerin evde kalması yağmurla tutarlıdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q08",
+              "kind": "sentenceCompletion",
+              "order": 7,
+              "prompt": "The students had prepared thoroughly for the exam; consequently, ----.",
+              "options": [
+                "several of them failed to attend it",
+                "the examiners lowered the pass mark",
+                "they found the questions surprisingly difficult",
+                "few of them had studied the syllabus",
+                "most of them achieved excellent results"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Consequently» bir SONUÇ bildirir: iyi hazırlanan öğrencilerin çoğu çok iyi sonuç aldı: (E). (A) sınava girmemeleri hazırlıkla ilgili bir sonuç değildir. (B) geçme notunun düşürülmesi de bir sonuç değildir. (C) ve (D) hazırlıkla çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q09",
+              "kind": "sentenceCompletion",
+              "order": 8,
+              "prompt": "Since the city council could not afford a new bridge, ----.",
+              "options": [
+                "it built a second bridge beside the first",
+                "it decided to repair the old one instead",
+                "engineers recommended a much larger design",
+                "the old bridge was demolished at once",
+                "the population of the city declined"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Since» bir NEDEN bildirir: yeni köprüye para yetmediği için eski köprüyü onarmaya karar verildi: (B). (A) ikinci bir köprü yapmak, para yokluğuyla çelişir. (C) daha büyük tasarım maliyeti artırır. (D) eskiyi yıkmak yeni köprü olmadan mantıksızdır. (E) nüfus azalması bir sonuç değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-1-q10",
+              "kind": "sentenceCompletion",
+              "order": 9,
+              "prompt": "The experiment failed, not because the method was flawed but because ----.",
+              "options": [
+                "the method was flawed in several ways",
+                "the results had been published too early",
+                "the researchers refused to repeat it",
+                "the equipment had not been calibrated properly",
+                "the method had been tested in earlier studies"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Not because A but because B» kalıbında B, A'dan FARKLI bir neden olmalıdır: donanım düzgün ayarlanmamıştı: (D). (A) yöntemin kusurlu olduğunu söyler, «not because» ile çelişir. (B) yayın zamanı başarısızlığın nedeni olamaz. (C) tekrarı reddetmek sonuçtur, neden değildir. (E) önceki denemeler neden değildir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-sentence-2",
+          "order": 5,
+          "estimatedDurationMinutes": 9,
+          "title": "Cümle Tamamlama 2: Koşul ve Karşıtlık",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-exam-card-sentence-2",
+              "type": "practiceSet",
+              "headword": "Sentence Completion: Condition and Concession",
+              "frequencyRank": 3021,
+              "baseDifficulty": 0.55,
+              "definition": "Koşul ve karşıtlık ilişkisine dayanan on cümle tamamlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Cümle Tamamlama 2: Koşul ve Karşıtlık",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-sentence-2-q01",
+              "kind": "sentenceCompletion",
+              "order": 0,
+              "prompt": "Unless the government cuts spending, ----.",
+              "options": [
+                "the deficit will fall without any further action",
+                "the budget will be balanced next year",
+                "the budget deficit will continue to grow",
+                "spending has already been reduced by half",
+                "the deficit was eliminated last spring"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Unless» = «if not»: harcama kısılmazsa açık büyümeye devam eder: (C). (A) ve (B) hiçbir şey yapılmadan açığın kapanacağını söyler, koşulla çelişir. (D) ve (E) geçmiş zamanlı ifadelerdir, gelecekteki sonuç değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q02",
+              "kind": "sentenceCompletion",
+              "order": 1,
+              "prompt": "Provided that the funding is approved, ----.",
+              "options": [
+                "construction of the bridge will begin in the spring",
+                "construction was completed several years ago",
+                "the bridge would never have been needed",
+                "the project has been abandoned",
+                "the funding will not be necessary"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Provided that» bir şartı bildirir: fon onaylanırsa inşaat baharda başlar: (A). (B) geçmiş zamanlıdır. (C) gerçek dışı bir durum anlatır. (D) proje terk edildiyse fon onayı anlamsızdır. (E) fon gerekmez demek şartla çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q03",
+              "kind": "sentenceCompletion",
+              "order": 2,
+              "prompt": "Even if the negotiations succeed, ----.",
+              "options": [
+                "the talks will therefore be considered a success",
+                "the negotiators must have failed",
+                "the agreement is bound to be signed tomorrow",
+                "the agreement will take years to implement",
+                "the discussions have already ended"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Even if» bir KARŞITLIK bekler: müzakere başarılı olsa bile anlaşmanın uygulanması yıllar alacak: (D). (A) başarıdan doğal sonucu çıkarır, karşıtlık kurmaz. (B) başarısızlık ile çelişir. (C) ve (E) koşulla ilgisiz ifadelerdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q04",
+              "kind": "sentenceCompletion",
+              "order": 3,
+              "prompt": "Whether or not the merger goes ahead, ----.",
+              "options": [
+                "the merger will be announced next week",
+                "the company would have saved money if it had",
+                "no one will benefit unless it does",
+                "shareholders can only be pleased if it does",
+                "the company will need to reduce its costs"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Whether or not» iki olasılıkta da geçerli bir sonuç ister: birleşme olsa da olmasa da şirketin maliyetleri düşürmesi gerekir: (E). (A) birleşmenin duyurulacağını kesinleştirir ve olasılığı ortadan kaldırır. (B), (C) ve (D) yalnızca birleşme olursa doğru olan sonuçlardır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q05",
+              "kind": "sentenceCompletion",
+              "order": 4,
+              "prompt": "No matter how carefully the results were checked, ----.",
+              "options": [
+                "the results were checked with great care",
+                "the report contained no errors at all",
+                "small errors still appeared in the final report",
+                "the errors were corrected before checking began",
+                "checking was considered unnecessary"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«No matter how» bir KARŞITLIK bekler: ne kadar dikkatli kontrol edilirse edilsin küçük hatalar yine çıktı: (C). (A) aynı bilgiyi tekrarlar. (B) hata olmadığını söyler, karşıtlık kurmaz. (D) mantıksızdır. (E) kontrolün gereksiz olduğunu söylemek anlamı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q06",
+              "kind": "sentenceCompletion",
+              "order": 5,
+              "prompt": "As long as inflation remains low, ----.",
+              "options": [
+                "interest rates rose sharply last year",
+                "inflation will fall even further",
+                "prices had been stable for many years",
+                "interest rates are unlikely to rise",
+                "the central bank must raise rates at once"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«As long as» bir ŞART bildirir: enflasyon düşük kaldığı sürece faiz artışı beklenmez: (D). (A) ve (C) geçmişle ilgilidir. (B) şart cümlesini tekrar eder. (E) faiz artırmanın gerektiğini söylemek düşük enflasyonla çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q07",
+              "kind": "sentenceCompletion",
+              "order": 6,
+              "prompt": "In case the flight is delayed, ----.",
+              "options": [
+                "the airline has arranged rooms at a nearby hotel",
+                "the flight will arrive on schedule",
+                "passengers were compensated yesterday",
+                "no arrangements are necessary if it lands on time",
+                "the airline delayed it deliberately"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«In case» bir ÖNLEM bildirir: rötar olması ihtimaline karşı otel odaları ayarlandı: (A). (B) rötar ihtimalini ortadan kaldırır. (C) geçmişteki bir olaydır. (D) «in case» bir önlem anlatır, bu cümle koşulu tekrarlar. (E) bilerek geciktirmek mantıksızdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q08",
+              "kind": "sentenceCompletion",
+              "order": 7,
+              "prompt": "Even though the deadline had been extended twice, ----.",
+              "options": [
+                "all applicants had submitted their forms early",
+                "the extension was welcomed by every applicant",
+                "the deadline had not been announced in advance",
+                "further extensions had become unnecessary",
+                "several applicants still failed to submit their forms"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Even though» bir KARŞITLIK bekler: süre iki kez uzatılmasına rağmen bazı başvurucular yine de form vermedi: (E). (A) tersine herkesin verdiğini söyler. (B) ve (D) uzatmanın olumlu etkisini anlatır, karşıtlık kurmaz. (C) duyurulmadığını söylemek konuyla ilgisizdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q09",
+              "kind": "sentenceCompletion",
+              "order": 8,
+              "prompt": "However hard the team worked, ----.",
+              "options": [
+                "the project was finished ahead of schedule",
+                "the project could not be finished on time",
+                "the team worked as hard as possible",
+                "hard work was not required",
+                "the deadline had been reached sooner"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«However hard» bir KARŞITLIK bekler: ekip ne kadar çalışırsa çalışsın proje zamanında bitmedi: (B). (A) tersine erken bitirdiğini söyler. (C) çalışmayı tekrar eder. (D) çalışmanın gereksiz olduğunu söylemek anlamı bozar. (E) zaman kavramını yanlış kurar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-2-q10",
+              "kind": "sentenceCompletion",
+              "order": 9,
+              "prompt": "Unless the patient responds to the treatment within a week, ----.",
+              "options": [
+                "the treatment will be considered a success",
+                "the doctors have already changed the drug",
+                "the doctors will try a different drug",
+                "the patient will be discharged at once",
+                "the patient has responded well"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Unless» = «if not»: hasta bir hafta içinde yanıt vermezse doktorlar farklı bir ilaç deneyecek: (C). (A) başarı sonucunu çıkarır, koşulla çelişir. (B) geçmişte olan bir olay anlatır. (D) hemen taburcu etmek yanıt vermeyen hasta için mantıksızdır. (E) yanıt verdiğini söyler.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-sentence-3",
+          "order": 6,
+          "estimatedDurationMinutes": 9,
+          "title": "Cümle Tamamlama 3: Zaman ve Amaç",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-exam-card-sentence-3",
+              "type": "practiceSet",
+              "headword": "Sentence Completion: Time and Purpose",
+              "frequencyRank": 3022,
+              "baseDifficulty": 0.6,
+              "definition": "Zaman, sıra ve amaç ilişkisine dayanan on cümle tamamlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Cümle Tamamlama 3: Zaman ve Amaç",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-sentence-3-q01",
+              "kind": "sentenceCompletion",
+              "order": 0,
+              "prompt": "The museum extended its opening hours so that ----.",
+              "options": [
+                "the exhibition would be closed earlier in the evening",
+                "fewer visitors had queued outside",
+                "the guards were able to leave early",
+                "tickets were made more expensive",
+                "more visitors could see the exhibition"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«So that» bir AMAÇ bildirir: çalışma saatleri uzatıldı, böylece daha fazla ziyaretçi sergiyi görebildi: (E). (A) ve (C) saatleri kısaltma sonucunu anlatır. (B) daha az ziyaretçi amaçla çelişir. (D) bilet fiyatı artışı saat uzatmanın amacı olamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q02",
+              "kind": "sentenceCompletion",
+              "order": 1,
+              "prompt": "The manager waited until ----.",
+              "options": [
+                "the last employee had left the building",
+                "the last employee leaves the building",
+                "the last employee will leave the building",
+                "the last employee is leaving the building",
+                "the last employee would have left the building"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Ana cümle geçmiş zamandadır (waited); önce biten eylem past perfect ile verilir: (A). (B) geniş zaman, (C) gelecek zaman ve (D) sürerlik anlamı geçmiş cümleyle uyuşmaz. (E) would have left koşullu bir anlam katar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q03",
+              "kind": "sentenceCompletion",
+              "order": 2,
+              "prompt": "Having reviewed all the evidence, ----.",
+              "options": [
+                "the evidence was reviewed by the panel for two hours",
+                "the conclusion seemed unfounded to everyone",
+                "the panel concluded that the claim was unfounded",
+                "a claim was found unfounded by the panel",
+                "it was clear to everyone that the claim was unfounded"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "Ortaç cümleciğinin öznesi ana cümlenin öznesi olmalıdır; kanıtları inceleyen taraf panelidir: (C). (A) ve (D) ile (E) öznesi inceleme yapmadığı için sarkan ortaç oluşturur. (B) «it» de inceleyen özne değildir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q04",
+              "kind": "sentenceCompletion",
+              "order": 3,
+              "prompt": "Once the funds have been transferred, ----.",
+              "options": [
+                "the project was able to start",
+                "the project will be able to start",
+                "the project had started",
+                "the project would start last week",
+                "the project has started"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Once» ile kurulan zaman yan cümleciğinde present perfect gelecek zamana referans verir; ana cümle gelecek zamandadır: (B). (A) ve (C) ile (E) geçmiş ya da tamamlanmış bir eylemdir. (D) «last week» ile çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q05",
+              "kind": "sentenceCompletion",
+              "order": 4,
+              "prompt": "The researchers repeated the experiment three times to ----.",
+              "options": [
+                "confirming that the result was not a coincidence",
+                "confirmed that the result was not a coincidence",
+                "being confirmed that the result was not a coincidence",
+                "confirm that the result was not a coincidence",
+                "have been confirming that the result was not a coincidence"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«To» sonrası yalın fiil gelir ve amaç bildirir: to confirm that ...: (D). (A) confirming ve (B) confirmed ve (C) being confirmed to'dan sonra kullanılamaz. (E) have been confirming, mastar edatından sonra yanlış bir biçimdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q06",
+              "kind": "sentenceCompletion",
+              "order": 5,
+              "prompt": "While the engineers were repairing the bridge, ----.",
+              "options": [
+                "the bridge had collapsed the following winter",
+                "traffic was diverted through the old town",
+                "the engineers had finished their work the day before",
+                "the repairs will be completed in spring",
+                "traffic had never been so light"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«While» eşzamanlı iki eylemi bağlar: mühendisler köprüyü onarırken trafik eski şehirden yönlendirildi: (B). (A) ve (C) ile (D) zaman ilişkisini bozar. (E) «never» ile kurulan bir karşılaştırmadır ve bu bağlamda anlamsızdır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q07",
+              "kind": "sentenceCompletion",
+              "order": 6,
+              "prompt": "Before submitting the application, ----.",
+              "options": [
+                "applicants must check that every form has been signed",
+                "the form has been signed by every applicant",
+                "checking was done by every applicant",
+                "it is necessary that all forms had been checked by them",
+                "the deadline was extended by the office"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "Ortaç cümleciğinin (submitting) öznesi ana cümlenin öznesi olmalıdır; başvuruyu yapan taraf başvuru sahipleridir: (A). (B) ve (C) ile (D) ve (E) öznesi başvuru yapan değildir (sarkan ortaç).",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q08",
+              "kind": "sentenceCompletion",
+              "order": 7,
+              "prompt": "She spoke quietly so as not to ----.",
+              "options": [
+                "waking the sleeping children",
+                "woken the sleeping children",
+                "wake the sleeping children",
+                "be woken the sleeping children",
+                "have woken the sleeping children"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«So as not to» kalıbından sonra yalın fiil gelir: so as not to wake ...: (C). (A) waking ve (B) woken kalıba uymaz. (D) be woken nesne almaz. (E) have woken geçmişe dönük bir mastardır ve amaçla çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q09",
+              "kind": "sentenceCompletion",
+              "order": 8,
+              "prompt": "The museum will lend the painting on condition that ----.",
+              "options": [
+                "it was returned in perfect condition last year",
+                "it will be returning in perfect condition",
+                "returning it in perfect condition",
+                "it has been returned yesterday",
+                "it is returned in perfect condition by the end of the year"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«On condition that» bir şart cümleciği başlatır ve gelecek referans için geniş zaman ya da edilgen yapı kullanılır: it is returned ...: (E). (A) geçmişe ait bir durumdur. (B) yapı olarak yanlıştır. (C) cümlecik değildir. (D) «yesterday» ile gelecek şartı çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-3-q10",
+              "kind": "sentenceCompletion",
+              "order": 9,
+              "prompt": "He revised the manuscript twice before ----.",
+              "options": [
+                "sent it to the publisher",
+                "he sending it to the publisher",
+                "to send it to the publisher",
+                "sending it to the publisher",
+                "was sent to the publisher"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«Before» bir edat gibi kullanıldığında ardından V-ing gelir: before sending it: (D). (A) sent çekimli bir fiildir ve özne eksiktir. (B) he sending yapıyı bozar. (C) to send edat sonrası kullanılamaz. (E) was sent özneyi değiştirir.",
+              "passageID": null
+            }
+          ]
+        },
+        {
+          "id": "yds-exam-sentence-4",
+          "order": 7,
+          "estimatedDurationMinutes": 9,
+          "title": "Cümle Tamamlama 4: İnce Ayrımlar",
+          "skill": "grammar",
+          "items": [
+            {
+              "id": "yds-exam-card-sentence-4",
+              "type": "practiceSet",
+              "headword": "Sentence Completion: Fine Distinctions",
+              "frequencyRank": 3023,
+              "baseDifficulty": 0.65,
+              "definition": "İnce mantıksal ayrımlar ilişkisine dayanan on cümle tamamlama sorusu.",
+              "exampleSentences": [],
+              "translationTR": "Cümle Tamamlama 4: İnce Ayrımlar",
+              "collocations": []
+            }
+          ],
+          "questions": [
+            {
+              "id": "yds-exam-sentence-4-q01",
+              "kind": "sentenceCompletion",
+              "order": 0,
+              "prompt": "The proposal is unlikely to be accepted, let alone ----.",
+              "options": [
+                "to implement it in full",
+                "implemented in full",
+                "being implemented in full",
+                "implementing in full",
+                "it has been implemented in full"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Let alone» kalıbında iki öğe paralel kurulur: accepted ... implemented (ikisi de V3): (B). (A) ve (D) paralelliği bozar. (C) ve (E) edilgen ya da cümlecik yapısı karıştırır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q02",
+              "kind": "sentenceCompletion",
+              "order": 1,
+              "prompt": "The lecture was not so much boring as ----.",
+              "options": [
+                "badly organised",
+                "organising badly",
+                "it was badly organised",
+                "was badly organised",
+                "badly organise"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Not so much A as B» kalıbında A ve B paralel olmalıdır: boring ... badly organised (sıfat + sıfat): (A). (B) ve (C) fiil ya da cümlecik yapısıdır. (D) özneyi tekrarlar. (E) yanlış bir biçimdir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q03",
+              "kind": "sentenceCompletion",
+              "order": 2,
+              "prompt": "Apart from ----, the visitors enjoyed the trip.",
+              "options": [
+                "the border delayed long",
+                "delaying at the border long",
+                "the border was delayed long",
+                "delayed the border long",
+                "the long delay at the border"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Apart from» bir edattır ve ardından ad öbeği gelir: the long delay at the border: (E). (A) ve (B) ve (C) ve (D) fiil ya da cümlecik yapısıdır ve edat sonrası kullanılamaz.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q04",
+              "kind": "sentenceCompletion",
+              "order": 3,
+              "prompt": "The results were, if anything, ----.",
+              "options": [
+                "better as the researchers had expected",
+                "the better than expected",
+                "better that the researchers expected",
+                "better than the researchers had expected",
+                "as better than researchers expected"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«If anything» kalıbından sonra karşılaştırma kurulur: better than the researchers had expected: (D). (A) as ve (C) that karşılaştırma bağlacı değildir. (B) ve (E) yapıyı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q05",
+              "kind": "sentenceCompletion",
+              "order": 4,
+              "prompt": "It was not until 1990 that ----.",
+              "options": [
+                "did the university admit its first female professor",
+                "the university has admitted its first female professor",
+                "the university admitted its first female professor",
+                "had the university admitted its first female professor",
+                "when the university admitted its first female professor"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«It was not until ... that» vurgu kalıbında that'ten sonra DÜZ cümle sırası gelir ve geçmiş zaman kullanılır: (C). (A) ve (D) devrik sıra kurar. (B) present perfect, 1990 gibi belirli bir yılla kullanılamaz. (E) when ikinci bir bağlaç ekler.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q06",
+              "kind": "sentenceCompletion",
+              "order": 5,
+              "prompt": "The government denied that ----.",
+              "options": [
+                "any such agreement had ever been signed",
+                "any such agreement was ever signing",
+                "any such agreement to have been signed",
+                "of any such agreement ever signed",
+                "any such agreement being ever signed"
+              ],
+              "correctIndex": 0,
+              "explanationTR": "«Deny that» ardından tam bir cümlecik ister ve önceki olay past perfect ile verilir: had ever been signed: (A). (B) ve (C) ile (D) ve (E) cümlecik kurmaz ya da edilgen yapıyı bozar.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q07",
+              "kind": "sentenceCompletion",
+              "order": 6,
+              "prompt": "The company would have avoided bankruptcy had it not been for ----.",
+              "options": [
+                "its largest customer collapsed suddenly",
+                "the largest customer has suddenly collapsed",
+                "that its largest customer would collapse",
+                "collapsing its largest customer suddenly",
+                "the sudden collapse of its largest customer"
+              ],
+              "correctIndex": 4,
+              "explanationTR": "«Had it not been for» ardından bir AD ÖBEĞİ gelir: the sudden collapse of its largest customer: (E). (A) ve (B) ve (C) cümlecik ya da yanlış yapıdır. (D) V-ing özneyi karıştırır.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q08",
+              "kind": "sentenceCompletion",
+              "order": 7,
+              "prompt": "Much as the public admired the scientists, ----.",
+              "options": [
+                "it admired them greatly",
+                "it was unwilling to pay higher taxes to fund their research",
+                "the scientists admired the public",
+                "admiration was expressed in many letters",
+                "higher taxes had already funded the research"
+              ],
+              "correctIndex": 1,
+              "explanationTR": "«Much as» bir KARŞITLIK (concession) kurar: halk bilim insanlarına hayranlık duysa da araştırmaları için vergi ödemeye isteksizdi: (B). (A) hayranlığı tekrar eder. (C) özneleri değiştirir. (D) ve (E) karşıtlık içermez.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q09",
+              "kind": "sentenceCompletion",
+              "order": 8,
+              "prompt": "The project was completed under budget, which meant that ----.",
+              "options": [
+                "the budget had been exceeded by several million",
+                "the project was cancelled before it began",
+                "the surplus could be used for another scheme",
+                "the surplus had been spent already",
+                "it should have cost more"
+              ],
+              "correctIndex": 2,
+              "explanationTR": "«Under budget» bütçenin altında kalmak demektir ve sonucu artan paranın başka bir işe kullanılabilmesidir: (C). (A) bütçenin aşıldığını söyler. (B) proje tamamlandığı için iptal ile çelişir. (D) artan parayı harcanmış sayar. (E) «under budget» ile çelişir.",
+              "passageID": null
+            },
+            {
+              "id": "yds-exam-sentence-4-q10",
+              "kind": "sentenceCompletion",
+              "order": 9,
+              "prompt": "In spite of the fact that ----.",
+              "options": [
+                "overwhelming evidence, the jury took three days to reach a verdict",
+                "the evidence overwhelmingly, the jury took three days",
+                "the evidence being overwhelming, the jury took three days",
+                "the evidence was overwhelming, the jury took three days to reach a verdict",
+                "the evidence was overwhelming so the jury took three days"
+              ],
+              "correctIndex": 3,
+              "explanationTR": "«In spite of the fact that» ardından tam bir cümlecik gelir ve karşıtlık kurulur: the evidence was overwhelming, the jury took ...: (D). (A) cümlecik yerine ad öbeği koyar. (B) ve (C) yapıyı bozar. (E) so ile anlamı tersine çevirir.",
+              "passageID": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }

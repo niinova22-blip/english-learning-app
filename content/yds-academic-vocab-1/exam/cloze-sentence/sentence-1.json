@@ -1,0 +1,181 @@
+{
+  "id": "yds-exam-sentence-1",
+  "estimatedDurationMinutes": 9,
+  "title": "Cümle Tamamlama 1: Neden ve Sonuç",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-exam-card-sentence-1",
+      "type": "practiceSet",
+      "headword": "Sentence Completion: Cause and Result",
+      "frequencyRank": 3020,
+      "baseDifficulty": 0.5,
+      "definition": "Neden, sonuç ve karşıtlık ilişkisine dayanan on cümle tamamlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Cümle Tamamlama 1: Neden ve Sonuç",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-sentence-1-q01",
+      "kind": "sentenceCompletion",
+      "order": 0,
+      "prompt": "The new tax was so unpopular that ----.",
+      "options": [
+        "few citizens noticed that it had been introduced",
+        "the government withdrew it within a month",
+        "most economists praised it as a model policy",
+        "it raised far more revenue than had been forecast",
+        "the opposition had supported it from the beginning"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«So ... that» kalıbı bir SONUÇ ister: vergi o kadar popüler değildi ki hükümet geri çekti: (B). (A) ve (E) vergiyi kimsenin fark etmediğini ya da desteklendiğini söyler, «popüler değildi» ile çelişir. (C) iktisatçıların övgüsü sonuç değildir. (D) beklenenden fazla gelir de bu ilişkiyi kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q02",
+      "kind": "sentenceCompletion",
+      "order": 1,
+      "prompt": "Because the factory had been built beside the river, ----.",
+      "options": [
+        "the river had remained free of pollution for decades",
+        "the nearby villagers were unaffected by the noise",
+        "its workers commuted from distant towns",
+        "its waste could be discharged directly into the water",
+        "the company had no need for a water supply"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Fabrikanın nehir kıyısında olmasının doğal SONUCU, atıkların doğrudan suya verilebilmesidir: (D). (A) nehrin temiz kalması bu nedenin sonucu olamaz. (B) ve (C) yer seçimiyle mantıksal bağı olmayan ifadelerdir. (E) nehir kıyısına kurulmanın nedenini tersine çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q03",
+      "kind": "sentenceCompletion",
+      "order": 2,
+      "prompt": "Although the drug had passed every laboratory test, ----.",
+      "options": [
+        "regulators asked for further trials before approving it",
+        "regulators were confident that no further trials were needed",
+        "the trials had been carried out on a large scale",
+        "its manufacturer had paid for all of the tests",
+        "it was sold widely in pharmacies at once"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Although» bir KARŞITLIK bekler: tüm testleri geçmesine rağmen ek deneyler istendi: (A). (B) tersine güven bildirir ve karşıtlık kurmaz. (C) ve (D) testlerle ilgili ayrıntılardır, karşıtlık içermez. (E) hemen satışa çıkmak da beklenen sonuçtur, karşıt değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q04",
+      "kind": "sentenceCompletion",
+      "order": 3,
+      "prompt": "The company's profits fell sharply; as a result, ----.",
+      "options": [
+        "it had hired hundreds of new workers the year before",
+        "its shareholders were delighted with the figures",
+        "it was able to expand production at once",
+        "its competitors had reported similar results",
+        "it announced plans to close two of its factories"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«As a result» bir sonuç bildirir: kâr düştü, bu yüzden fabrikaları kapatma planı açıklandı: (E). (A) önceki yıla ait bir eylemdir, sonuç olamaz. (B) ortakların memnuniyeti kâr düşüşünün sonucu olamaz. (C) üretimi artırmak, kâr düşüşünün mantıksal sonucu değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q05",
+      "kind": "sentenceCompletion",
+      "order": 4,
+      "prompt": "Whereas the northern provinces have benefited from the export boom, ----.",
+      "options": [
+        "the southern provinces have benefited from it as well",
+        "the boom is expected to end soon",
+        "the southern provinces have seen little improvement in living standards",
+        "the government invested heavily in the north",
+        "the exports were mainly agricultural goods"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Whereas» iki durumu KARŞILAŞTIRIR ve ikinci kısım birinciyle zıt olmalıdır: kuzey kazandı, güney çok az iyileşme gördü: (C). (A) güneyin de kazandığını söyler, zıtlık yoktur. (B), (D) ve (E) karşılaştırma kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q06",
+      "kind": "sentenceCompletion",
+      "order": 5,
+      "prompt": "The epidemic spread so rapidly that ----.",
+      "options": [
+        "hospitals were overwhelmed within a matter of days",
+        "doctors had been warned about it years earlier",
+        "the disease affected only a few patients",
+        "public health officials saw no need to act",
+        "the number of cases remained stable"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«So ... that» hızlı yayılmanın SONUCUNU ister: hastaneler birkaç gün içinde bunaldı: (A). (B) önceden uyarılmak sonuç değildir. (C) ve (E) hızlı yayılmayla çelişir. (D) önlem alma ihtiyacının olmadığı sonucu mantıksızdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q07",
+      "kind": "sentenceCompletion",
+      "order": 6,
+      "prompt": "Despite the heavy rain that had fallen all week, ----.",
+      "options": [
+        "the match was cancelled because of the rain",
+        "the rain was expected to continue",
+        "the pitch became waterlogged",
+        "the football match went ahead as scheduled",
+        "the spectators stayed at home"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Despite» bir KARŞITLIK bildirir: yoğun yağmura rağmen maç planlandığı gibi yapıldı: (D). (A) yağmur yüzünden iptali söyler, bu karşıtlık değil, tutarlı bir sonuçtur. (B) ve (C) yağmurun devamı ya da sahanın durumu karşıtlık kurmaz. (E) seyircilerin evde kalması yağmurla tutarlıdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q08",
+      "kind": "sentenceCompletion",
+      "order": 7,
+      "prompt": "The students had prepared thoroughly for the exam; consequently, ----.",
+      "options": [
+        "several of them failed to attend it",
+        "the examiners lowered the pass mark",
+        "they found the questions surprisingly difficult",
+        "few of them had studied the syllabus",
+        "most of them achieved excellent results"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Consequently» bir SONUÇ bildirir: iyi hazırlanan öğrencilerin çoğu çok iyi sonuç aldı: (E). (A) sınava girmemeleri hazırlıkla ilgili bir sonuç değildir. (B) geçme notunun düşürülmesi de bir sonuç değildir. (C) ve (D) hazırlıkla çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q09",
+      "kind": "sentenceCompletion",
+      "order": 8,
+      "prompt": "Since the city council could not afford a new bridge, ----.",
+      "options": [
+        "it built a second bridge beside the first",
+        "it decided to repair the old one instead",
+        "engineers recommended a much larger design",
+        "the old bridge was demolished at once",
+        "the population of the city declined"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Since» bir NEDEN bildirir: yeni köprüye para yetmediği için eski köprüyü onarmaya karar verildi: (B). (A) ikinci bir köprü yapmak, para yokluğuyla çelişir. (C) daha büyük tasarım maliyeti artırır. (D) eskiyi yıkmak yeni köprü olmadan mantıksızdır. (E) nüfus azalması bir sonuç değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-1-q10",
+      "kind": "sentenceCompletion",
+      "order": 9,
+      "prompt": "The experiment failed, not because the method was flawed but because ----.",
+      "options": [
+        "the method was flawed in several ways",
+        "the results had been published too early",
+        "the researchers refused to repeat it",
+        "the equipment had not been calibrated properly",
+        "the method had been tested in earlier studies"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Not because A but because B» kalıbında B, A'dan FARKLI bir neden olmalıdır: donanım düzgün ayarlanmamıştı: (D). (A) yöntemin kusurlu olduğunu söyler, «not because» ile çelişir. (B) yayın zamanı başarısızlığın nedeni olamaz. (C) tekrarı reddetmek sonuçtur, neden değildir. (E) önceki denemeler neden değildir.",
+      "passageID": null
+    }
+  ]
+}

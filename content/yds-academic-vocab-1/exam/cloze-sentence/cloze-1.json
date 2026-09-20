@@ -1,0 +1,154 @@
+{
+  "id": "yds-exam-cloze-1",
+  "estimatedDurationMinutes": 10,
+  "title": "Cloze Test: Mikrofinans",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-cloze-1",
+    "title": "Microfinance",
+    "body": "Microfinance institutions lend small sums to people who (1)---- normally be refused credit by commercial banks. The idea is simple: a woman who wants to buy a sewing machine may need only a modest loan, yet no bank will consider it (2)---- the cost of assessing such an application exceeds the interest it could earn. Microfinance lenders overcome this problem by lending to groups, (3)---- members guarantee one another's repayments. Peer pressure, rather than collateral, therefore keeps default rates low. (4)---- its early successes, the model has attracted criticism. Some borrowers, having taken new loans to repay earlier ones, have fallen into debt from (5)---- they cannot easily escape. Others use the money for consumption instead of investment, so their incomes do not rise. Researchers who studied thousands of borrowers found that microloans led (6)---- modest improvements in some households, but they did not lift most families out of poverty. Supporters answer that credit was never meant to be a complete solution; it is one tool among many, (7)---- must be combined with education and savings schemes. (8)---- microfinance remains valuable, most economists now agree that it should be presented with realistic expectations."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-cloze-1",
+      "type": "practiceSet",
+      "headword": "Cloze: Microfinance",
+      "frequencyRank": 3010,
+      "baseDifficulty": 0.5,
+      "definition": "Mikrofinans üzerine sekiz boşluklu bir cloze testi; bağlaç, edat ve ilgi zamiri soruları.",
+      "exampleSentences": [],
+      "translationTR": "Cloze Test: Mikrofinans",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-cloze-1-q01",
+      "kind": "cloze",
+      "order": 0,
+      "prompt": "Microfinance institutions lend small sums to people who (1) ---- normally be refused credit by commercial banks.",
+      "options": [
+        "did",
+        "have",
+        "would",
+        "were",
+        "had"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Normally» genel bir durumu anlatır ve «be refused» kip fiili ister; would bu genel durumu verir: (C). (A) did ve (B) have kip yardımcı fiili değildir, «be refused» ile birleşmez. (D) were, «be» ile çift be fiili oluşturur. (E) had ise «be refused» ile geçmiş zaman kalıbı kuramaz.",
+      "passageID": "yds-exam-passage-cloze-1"
+    },
+    {
+      "id": "yds-exam-cloze-1-q02",
+      "kind": "cloze",
+      "order": 1,
+      "prompt": "No bank will consider it (2) ---- the cost of assessing such an application exceeds the interest it could earn.",
+      "options": [
+        "because",
+        "although",
+        "unless",
+        "so that",
+        "whereas"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Bankanın başvuruyu ele almamasının NEDENİ maliyetin faizi aşmasıdır: (A). (B) although karşıtlık kurar ve mantığı bozar. (C) unless koşul bildirir, anlamı tersine çevirir. (D) so that amaç bildirir. (E) whereas iki durumu karşılaştırır, neden anlatmaz.",
+      "passageID": "yds-exam-passage-cloze-1"
+    },
+    {
+      "id": "yds-exam-cloze-1-q03",
+      "kind": "cloze",
+      "order": 2,
+      "prompt": "Microfinance lenders overcome this problem by lending to groups, (3) ---- members guarantee one another's repayments.",
+      "options": [
+        "which",
+        "who",
+        "what",
+        "whose",
+        "that"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Boşluktan sonra bir ad (members) geliyor ve sahiplik bildiriliyor (grubun üyeleri): (D). (A) which ardından ad almaz ve burada nesne konumundadır. (B) who kişi zamiridir ve ad öncesi kullanılmaz. (C) what önceki bir adı niteleyemez. (E) that virgülden sonra kullanılamaz.",
+      "passageID": "yds-exam-passage-cloze-1"
+    },
+    {
+      "id": "yds-exam-cloze-1-q04",
+      "kind": "cloze",
+      "order": 3,
+      "prompt": "(4) ---- its early successes, the model has attracted criticism.",
+      "options": [
+        "Although",
+        "Despite",
+        "However",
+        "Because",
+        "Whereas"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Boşluktan sonra bir AD ÖBEĞİ var (its early successes); ad öbeğinin önüne karşıtlık edatı despite gelir: (B). (A) Although ve (E) Whereas cümlecik ister. (C) However bir bağlayıcı zarftır, ad öbeği alamaz. (D) Because ise neden bildirir.",
+      "passageID": "yds-exam-passage-cloze-1"
+    },
+    {
+      "id": "yds-exam-cloze-1-q05",
+      "kind": "cloze",
+      "order": 4,
+      "prompt": "Some borrowers have fallen into debt from (5) ---- they cannot easily escape.",
+      "options": [
+        "that",
+        "what",
+        "where",
+        "whom",
+        "which"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Edattan (from) sonra ilgi zamiri gelir ve cansız bir ada (debt) gönderme yapılır: from which. (A) that edattan sonra kullanılamaz. (B) what önceki bir adı niteleyemez. (C) where yer bildirir, borç bir yer değildir. (D)'te kişi zamiri whom yanlış gönderme yapar.",
+      "passageID": "yds-exam-passage-cloze-1"
+    },
+    {
+      "id": "yds-exam-cloze-1-q06",
+      "kind": "cloze",
+      "order": 5,
+      "prompt": "Researchers found that microloans led (6) ---- modest improvements in some households.",
+      "options": [
+        "to",
+        "for",
+        "at",
+        "by",
+        "with"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Lead to» sabit bir kalıptır (= yol açmak). (B) for, (C) at, (D) by ve (E) with bu fiille kullanılmaz.",
+      "passageID": "yds-exam-passage-cloze-1"
+    },
+    {
+      "id": "yds-exam-cloze-1-q07",
+      "kind": "cloze",
+      "order": 6,
+      "prompt": "Credit is one tool among many, (7) ---- must be combined with education and savings schemes.",
+      "options": [
+        "that",
+        "what",
+        "who",
+        "which",
+        "whose"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Virgülden sonra gelen ve önceki cümlecikteki cansız ada (one tool) gönderme yapan ilgi zamiri which'tir. (A) that virgülden sonra gelmez. (B) what önceki bir adı niteleyemez. (C) who kişiler içindir. (E) whose ardından ad ister.",
+      "passageID": "yds-exam-passage-cloze-1"
+    },
+    {
+      "id": "yds-exam-cloze-1-q08",
+      "kind": "cloze",
+      "order": 7,
+      "prompt": "(8) ---- microfinance remains valuable, most economists now agree that it should be presented with realistic expectations.",
+      "options": [
+        "Because",
+        "Although",
+        "Unless",
+        "Therefore",
+        "Moreover"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Cümlenin iki yarısı arasında karşıtlık var: mikrofinans değerli olsa da gerçekçi beklentilerle sunulmalı: (B). (A) Because neden bildirir. (C) Unless koşul bildirir. (D) Therefore ve (E) Moreover bağlayıcı zarftır, cümlecik başlatamaz.",
+      "passageID": "yds-exam-passage-cloze-1"
+    }
+  ]
+}

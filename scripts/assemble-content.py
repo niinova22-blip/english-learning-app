@@ -173,6 +173,21 @@ EXAM_UNITS = [
             "reading/reading-8.json",
         ],
     },
+    {
+        "id": "yds-exam-unit-cloze-sentence",
+        "theme": "Cloze ve cümle tamamlama",
+        "order": 10,
+        "files": [
+            "cloze-sentence/cloze-1.json",
+            "cloze-sentence/cloze-2.json",
+            "cloze-sentence/cloze-3.json",
+            "cloze-sentence/cloze-4.json",
+            "cloze-sentence/sentence-1.json",
+            "cloze-sentence/sentence-2.json",
+            "cloze-sentence/sentence-3.json",
+            "cloze-sentence/sentence-4.json",
+        ],
+    },
 ]
 
 EXAM_LESSON_ID_PREFIX = "yds-exam-"

@@ -1,0 +1,181 @@
+{
+  "id": "yds-exam-sentence-4",
+  "estimatedDurationMinutes": 9,
+  "title": "Cümle Tamamlama 4: İnce Ayrımlar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-exam-card-sentence-4",
+      "type": "practiceSet",
+      "headword": "Sentence Completion: Fine Distinctions",
+      "frequencyRank": 3023,
+      "baseDifficulty": 0.65,
+      "definition": "İnce mantıksal ayrımlar ilişkisine dayanan on cümle tamamlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Cümle Tamamlama 4: İnce Ayrımlar",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-sentence-4-q01",
+      "kind": "sentenceCompletion",
+      "order": 0,
+      "prompt": "The proposal is unlikely to be accepted, let alone ----.",
+      "options": [
+        "to implement it in full",
+        "implemented in full",
+        "being implemented in full",
+        "implementing in full",
+        "it has been implemented in full"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Let alone» kalıbında iki öğe paralel kurulur: accepted ... implemented (ikisi de V3): (B). (A) ve (D) paralelliği bozar. (C) ve (E) edilgen ya da cümlecik yapısı karıştırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q02",
+      "kind": "sentenceCompletion",
+      "order": 1,
+      "prompt": "The lecture was not so much boring as ----.",
+      "options": [
+        "badly organised",
+        "organising badly",
+        "it was badly organised",
+        "was badly organised",
+        "badly organise"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Not so much A as B» kalıbında A ve B paralel olmalıdır: boring ... badly organised (sıfat + sıfat): (A). (B) ve (C) fiil ya da cümlecik yapısıdır. (D) özneyi tekrarlar. (E) yanlış bir biçimdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q03",
+      "kind": "sentenceCompletion",
+      "order": 2,
+      "prompt": "Apart from ----, the visitors enjoyed the trip.",
+      "options": [
+        "the border delayed long",
+        "delaying at the border long",
+        "the border was delayed long",
+        "delayed the border long",
+        "the long delay at the border"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Apart from» bir edattır ve ardından ad öbeği gelir: the long delay at the border: (E). (A) ve (B) ve (C) ve (D) fiil ya da cümlecik yapısıdır ve edat sonrası kullanılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q04",
+      "kind": "sentenceCompletion",
+      "order": 3,
+      "prompt": "The results were, if anything, ----.",
+      "options": [
+        "better as the researchers had expected",
+        "the better than expected",
+        "better that the researchers expected",
+        "better than the researchers had expected",
+        "as better than researchers expected"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«If anything» kalıbından sonra karşılaştırma kurulur: better than the researchers had expected: (D). (A) as ve (C) that karşılaştırma bağlacı değildir. (B) ve (E) yapıyı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q05",
+      "kind": "sentenceCompletion",
+      "order": 4,
+      "prompt": "It was not until 1990 that ----.",
+      "options": [
+        "did the university admit its first female professor",
+        "the university has admitted its first female professor",
+        "the university admitted its first female professor",
+        "had the university admitted its first female professor",
+        "when the university admitted its first female professor"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«It was not until ... that» vurgu kalıbında that'ten sonra DÜZ cümle sırası gelir ve geçmiş zaman kullanılır: (C). (A) ve (D) devrik sıra kurar. (B) present perfect, 1990 gibi belirli bir yılla kullanılamaz. (E) when ikinci bir bağlaç ekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q06",
+      "kind": "sentenceCompletion",
+      "order": 5,
+      "prompt": "The government denied that ----.",
+      "options": [
+        "any such agreement had ever been signed",
+        "any such agreement was ever signing",
+        "any such agreement to have been signed",
+        "of any such agreement ever signed",
+        "any such agreement being ever signed"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Deny that» ardından tam bir cümlecik ister ve önceki olay past perfect ile verilir: had ever been signed: (A). (B) ve (C) ile (D) ve (E) cümlecik kurmaz ya da edilgen yapıyı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q07",
+      "kind": "sentenceCompletion",
+      "order": 6,
+      "prompt": "The company would have avoided bankruptcy had it not been for ----.",
+      "options": [
+        "its largest customer collapsed suddenly",
+        "the largest customer has suddenly collapsed",
+        "that its largest customer would collapse",
+        "collapsing its largest customer suddenly",
+        "the sudden collapse of its largest customer"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Had it not been for» ardından bir AD ÖBEĞİ gelir: the sudden collapse of its largest customer: (E). (A) ve (B) ve (C) cümlecik ya da yanlış yapıdır. (D) V-ing özneyi karıştırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q08",
+      "kind": "sentenceCompletion",
+      "order": 7,
+      "prompt": "Much as the public admired the scientists, ----.",
+      "options": [
+        "it admired them greatly",
+        "it was unwilling to pay higher taxes to fund their research",
+        "the scientists admired the public",
+        "admiration was expressed in many letters",
+        "higher taxes had already funded the research"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Much as» bir KARŞITLIK (concession) kurar: halk bilim insanlarına hayranlık duysa da araştırmaları için vergi ödemeye isteksizdi: (B). (A) hayranlığı tekrar eder. (C) özneleri değiştirir. (D) ve (E) karşıtlık içermez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q09",
+      "kind": "sentenceCompletion",
+      "order": 8,
+      "prompt": "The project was completed under budget, which meant that ----.",
+      "options": [
+        "the budget had been exceeded by several million",
+        "the project was cancelled before it began",
+        "the surplus could be used for another scheme",
+        "the surplus had been spent already",
+        "it should have cost more"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Under budget» bütçenin altında kalmak demektir ve sonucu artan paranın başka bir işe kullanılabilmesidir: (C). (A) bütçenin aşıldığını söyler. (B) proje tamamlandığı için iptal ile çelişir. (D) artan parayı harcanmış sayar. (E) «under budget» ile çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-4-q10",
+      "kind": "sentenceCompletion",
+      "order": 9,
+      "prompt": "In spite of the fact that ----.",
+      "options": [
+        "overwhelming evidence, the jury took three days to reach a verdict",
+        "the evidence overwhelmingly, the jury took three days",
+        "the evidence being overwhelming, the jury took three days",
+        "the evidence was overwhelming, the jury took three days to reach a verdict",
+        "the evidence was overwhelming so the jury took three days"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«In spite of the fact that» ardından tam bir cümlecik gelir ve karşıtlık kurulur: the evidence was overwhelming, the jury took ...: (D). (A) cümlecik yerine ad öbeği koyar. (B) ve (C) yapıyı bozar. (E) so ile anlamı tersine çevirir.",
+      "passageID": null
+    }
+  ]
+}

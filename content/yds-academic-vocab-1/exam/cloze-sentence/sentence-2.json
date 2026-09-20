@@ -1,0 +1,181 @@
+{
+  "id": "yds-exam-sentence-2",
+  "estimatedDurationMinutes": 9,
+  "title": "Cümle Tamamlama 2: Koşul ve Karşıtlık",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-exam-card-sentence-2",
+      "type": "practiceSet",
+      "headword": "Sentence Completion: Condition and Concession",
+      "frequencyRank": 3021,
+      "baseDifficulty": 0.55,
+      "definition": "Koşul ve karşıtlık ilişkisine dayanan on cümle tamamlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Cümle Tamamlama 2: Koşul ve Karşıtlık",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-sentence-2-q01",
+      "kind": "sentenceCompletion",
+      "order": 0,
+      "prompt": "Unless the government cuts spending, ----.",
+      "options": [
+        "the deficit will fall without any further action",
+        "the budget will be balanced next year",
+        "the budget deficit will continue to grow",
+        "spending has already been reduced by half",
+        "the deficit was eliminated last spring"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Unless» = «if not»: harcama kısılmazsa açık büyümeye devam eder: (C). (A) ve (B) hiçbir şey yapılmadan açığın kapanacağını söyler, koşulla çelişir. (D) ve (E) geçmiş zamanlı ifadelerdir, gelecekteki sonuç değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q02",
+      "kind": "sentenceCompletion",
+      "order": 1,
+      "prompt": "Provided that the funding is approved, ----.",
+      "options": [
+        "construction of the bridge will begin in the spring",
+        "construction was completed several years ago",
+        "the bridge would never have been needed",
+        "the project has been abandoned",
+        "the funding will not be necessary"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Provided that» bir şartı bildirir: fon onaylanırsa inşaat baharda başlar: (A). (B) geçmiş zamanlıdır. (C) gerçek dışı bir durum anlatır. (D) proje terk edildiyse fon onayı anlamsızdır. (E) fon gerekmez demek şartla çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q03",
+      "kind": "sentenceCompletion",
+      "order": 2,
+      "prompt": "Even if the negotiations succeed, ----.",
+      "options": [
+        "the talks will therefore be considered a success",
+        "the negotiators must have failed",
+        "the agreement is bound to be signed tomorrow",
+        "the agreement will take years to implement",
+        "the discussions have already ended"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Even if» bir KARŞITLIK bekler: müzakere başarılı olsa bile anlaşmanın uygulanması yıllar alacak: (D). (A) başarıdan doğal sonucu çıkarır, karşıtlık kurmaz. (B) başarısızlık ile çelişir. (C) ve (E) koşulla ilgisiz ifadelerdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q04",
+      "kind": "sentenceCompletion",
+      "order": 3,
+      "prompt": "Whether or not the merger goes ahead, ----.",
+      "options": [
+        "the merger will be announced next week",
+        "the company would have saved money if it had",
+        "no one will benefit unless it does",
+        "shareholders can only be pleased if it does",
+        "the company will need to reduce its costs"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Whether or not» iki olasılıkta da geçerli bir sonuç ister: birleşme olsa da olmasa da şirketin maliyetleri düşürmesi gerekir: (E). (A) birleşmenin duyurulacağını kesinleştirir ve olasılığı ortadan kaldırır. (B), (C) ve (D) yalnızca birleşme olursa doğru olan sonuçlardır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q05",
+      "kind": "sentenceCompletion",
+      "order": 4,
+      "prompt": "No matter how carefully the results were checked, ----.",
+      "options": [
+        "the results were checked with great care",
+        "the report contained no errors at all",
+        "small errors still appeared in the final report",
+        "the errors were corrected before checking began",
+        "checking was considered unnecessary"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«No matter how» bir KARŞITLIK bekler: ne kadar dikkatli kontrol edilirse edilsin küçük hatalar yine çıktı: (C). (A) aynı bilgiyi tekrarlar. (B) hata olmadığını söyler, karşıtlık kurmaz. (D) mantıksızdır. (E) kontrolün gereksiz olduğunu söylemek anlamı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q06",
+      "kind": "sentenceCompletion",
+      "order": 5,
+      "prompt": "As long as inflation remains low, ----.",
+      "options": [
+        "interest rates rose sharply last year",
+        "inflation will fall even further",
+        "prices had been stable for many years",
+        "interest rates are unlikely to rise",
+        "the central bank must raise rates at once"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«As long as» bir ŞART bildirir: enflasyon düşük kaldığı sürece faiz artışı beklenmez: (D). (A) ve (C) geçmişle ilgilidir. (B) şart cümlesini tekrar eder. (E) faiz artırmanın gerektiğini söylemek düşük enflasyonla çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q07",
+      "kind": "sentenceCompletion",
+      "order": 6,
+      "prompt": "In case the flight is delayed, ----.",
+      "options": [
+        "the airline has arranged rooms at a nearby hotel",
+        "the flight will arrive on schedule",
+        "passengers were compensated yesterday",
+        "no arrangements are necessary if it lands on time",
+        "the airline delayed it deliberately"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«In case» bir ÖNLEM bildirir: rötar olması ihtimaline karşı otel odaları ayarlandı: (A). (B) rötar ihtimalini ortadan kaldırır. (C) geçmişteki bir olaydır. (D) «in case» bir önlem anlatır, bu cümle koşulu tekrarlar. (E) bilerek geciktirmek mantıksızdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q08",
+      "kind": "sentenceCompletion",
+      "order": 7,
+      "prompt": "Even though the deadline had been extended twice, ----.",
+      "options": [
+        "all applicants had submitted their forms early",
+        "the extension was welcomed by every applicant",
+        "the deadline had not been announced in advance",
+        "further extensions had become unnecessary",
+        "several applicants still failed to submit their forms"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Even though» bir KARŞITLIK bekler: süre iki kez uzatılmasına rağmen bazı başvurucular yine de form vermedi: (E). (A) tersine herkesin verdiğini söyler. (B) ve (D) uzatmanın olumlu etkisini anlatır, karşıtlık kurmaz. (C) duyurulmadığını söylemek konuyla ilgisizdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q09",
+      "kind": "sentenceCompletion",
+      "order": 8,
+      "prompt": "However hard the team worked, ----.",
+      "options": [
+        "the project was finished ahead of schedule",
+        "the project could not be finished on time",
+        "the team worked as hard as possible",
+        "hard work was not required",
+        "the deadline had been reached sooner"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«However hard» bir KARŞITLIK bekler: ekip ne kadar çalışırsa çalışsın proje zamanında bitmedi: (B). (A) tersine erken bitirdiğini söyler. (C) çalışmayı tekrar eder. (D) çalışmanın gereksiz olduğunu söylemek anlamı bozar. (E) zaman kavramını yanlış kurar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-2-q10",
+      "kind": "sentenceCompletion",
+      "order": 9,
+      "prompt": "Unless the patient responds to the treatment within a week, ----.",
+      "options": [
+        "the treatment will be considered a success",
+        "the doctors have already changed the drug",
+        "the doctors will try a different drug",
+        "the patient will be discharged at once",
+        "the patient has responded well"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Unless» = «if not»: hasta bir hafta içinde yanıt vermezse doktorlar farklı bir ilaç deneyecek: (C). (A) başarı sonucunu çıkarır, koşulla çelişir. (B) geçmişte olan bir olay anlatır. (D) hemen taburcu etmek yanıt vermeyen hasta için mantıksızdır. (E) yanıt verdiğini söyler.",
+      "passageID": null
+    }
+  ]
+}
