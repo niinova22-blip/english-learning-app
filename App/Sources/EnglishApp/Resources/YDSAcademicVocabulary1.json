@@ -3750,16 +3750,16 @@
               "id": "yds-grammar-tenses-2-q08",
               "kind": "grammar",
               "order": 7,
-              "prompt": "The new graduates ---- working under pressure, so the demanding schedule rarely troubles them.",
+              "prompt": "The new graduates ---- under pressure, so the demanding schedule rarely troubles them.",
               "options": [
                 "used to work",
-                "get used to work",
+                "are used to work",
                 "used to working",
                 "are used to working",
-                "would used to work"
+                "were used to working"
               ],
               "correctIndex": 3,
-              "explanationTR": "«Rarely troubles them» şimdiki zamandır ve cümle ALIŞIK olma durumunu anlatır: be used to + V-ing, yani are used to working. (A) used to work geçmişteki, artık sürmeyen bir alışkanlık bildirir; şimdiki zamanla çelişir. (C) used to working için be yardımcı fiili eksiktir. (B) ve (E) ise used to yapısının kurallarına uymaz.",
+              "explanationTR": "«Rarely troubles them» şimdiki zamandır ve cümle ALIŞIK olma durumunu anlatır: be used to + V-ing, yani are used to working. (A) used to work geçmişteki, artık sürmeyen bir alışkanlık bildirir; şimdiki zamanla çelişir. (B) are used to work, be used to'dan sonra V-ing yerine yalın fiil koyar. (C) used to working için be yardımcı fiili eksiktir. (E) were used to working geçmiş zamandır; cümledeki «rarely troubles» şimdiki durumu anlatır.",
               "passageID": null
             },
             {
@@ -3964,7 +3964,7 @@
               "exampleSentences": [],
               "translationTR": "Kipler: Tuzaklar",
               "collocations": [],
-              "explanationTR": "Geçmişe dönük kip yapıları (modal + have + V3) YDS'nin en sevdiği tuzaklardır. Anlam, kipin kendisinden çok arkasındaki kalıba bağlıdır.\n\n• must have V3 = geçmişe yönelik KESİN TAHMİN; had to V1 = geçmişteki ZORUNLULUK. The figures are identical, so the assistant must have entered the data twice (tahmin) ≠ The delegates left early because they had to catch the last train (zorunluluk). En sık düşülen tuzak budur.\n\n• can't have V3 = «olmuş olamaz» (kesin olumsuz tahmin). couldn't V1 ise geçmişteki yeteneksizliktir.\n\n• should have V3 / ought to have V3 = yapılması gerekirdi ama yapılmadı (pişmanlık, eleştiri). shouldn't have V3 = yapılmamalıydı ama yapıldı.\n\n• needn't have V3 = yapıldı ama GEREKSİZDİ. didn't need to V1 ise gerek yoktu, büyük olasılıkla yapılmadı. We rushed, but the train was late; we needn't have hurried.\n\n• may / might have V3 = geçmişte olmuş olabilir. could have V3 = olabilirdi ama olmadı (gerçekleşmemiş olasılık).\n\n• Kip + edilgen: must be reviewed, cannot be explained, should have been reported.\n\n• be supposed to = beklenti/plan (The terminal is supposed to open next month). would rather + V1 = tercih (yalın fiil): Investors would rather keep their money in bonds than gamble.\n\nÖrnek: The board should have rejected such a risky loan."
+              "explanationTR": "Geçmişe dönük kip yapıları (modal + have + V3) YDS'nin en sevdiği tuzaklardır. Anlam, kipin kendisinden çok arkasındaki kalıba bağlıdır.\n\n• must have V3 = geçmişe yönelik KESİN TAHMİN; had to V1 = geçmişteki ZORUNLULUK. The figures are identical, so the assistant must have entered the data twice (tahmin) ≠ The delegates left early because they had to catch the last train (zorunluluk). En sık düşülen tuzak budur.\n\n• can't have V3 = «olmuş olamaz» (kesin olumsuz tahmin). couldn't V1 ise geçmişteki yeteneksizliktir.\n\n• should have V3 / ought to have V3 = yapılması gerekirdi ama yapılmadı (pişmanlık, eleştiri). shouldn't have V3 = yapılmamalıydı ama yapıldı.\n\n• needn't have V3 = yapıldı ama GEREKSİZDİ. didn't need to V1 ise yalnızca gerek olmadığını söyler; eylemin yapılıp yapılmadığı belirsizdir. We rushed, but the train was late; we needn't have hurried.\n\n• may / might have V3 = geçmişte olmuş olabilir. could have V3 = olabilirdi ama olmadı (gerçekleşmemiş olasılık).\n\n• Kip + edilgen: must be reviewed, cannot be explained, should have been reported.\n\n• be supposed to = beklenti/plan (The terminal is supposed to open next month). would rather + V1 = tercih (yalın fiil): Investors would rather keep their money in bonds than gamble.\n\nÖrnek: The board should have rejected such a risky loan."
             }
           ],
           "questions": [
@@ -4025,18 +4025,18 @@
                 "must have informed",
                 "needn't have informed",
                 "should have informed",
-                "couldn't inform",
+                "ought to inform",
                 "might inform"
               ],
               "correctIndex": 2,
-              "explanationTR": "Köprü çöktü ve çatlaklar iki yıl önce fark edilmişti; yani yapılması gereken şey yapılmadı: should have V3 (yerine getirilmeyen yükümlülük). (A) must have informed olmuş olduğuna dair tahmindir; oysa çöküş bildirilmediğini düşündürür. (B) needn't have informed «gereksizdi» der, oysa bildirmek gerekliydi. (D) ve (E) geçmiş yükümlülüğü ifade eden bir yapı değildir.",
+              "explanationTR": "Köprü çöktü ve çatlaklar iki yıl önce fark edilmişti; yani yapılması gereken şey yapılmadı: should have V3 (yerine getirilmeyen yükümlülük). (A) must have informed olmuş olduğuna dair tahmindir; oysa çöküş bildirilmediğini düşündürür. (B) needn't have informed «gereksizdi» der, oysa bildirmek gerekliydi. (D) ought to inform şimdi ya da gelecek için yükümlülüktür; geçmişte yapılmayan eylem için ought to have V3 gerekir. (E) might inform da geçmişe dönük değildir.",
               "passageID": null
             },
             {
               "id": "yds-grammar-modals-2-q05",
               "kind": "grammar",
               "order": 4,
-              "prompt": "We rushed to the station, but the train was delayed by an hour, so we ---- .",
+              "prompt": "We rushed to the station, but the train was delayed by an hour, so we ----.",
               "options": [
                 "mustn't have hurried",
                 "can't have hurried",
@@ -4058,10 +4058,10 @@
                 "must be reviewed",
                 "must have reviewed",
                 "must be reviewing",
-                "must to be reviewed"
+                "had to be reviewed"
               ],
               "correctIndex": 1,
-              "explanationTR": "Özne (the financial statements) eylemi yapan değil, üzerinde işlem yapılandır; kip + edilgen gerekir: must be reviewed. (A) ve (C) etkendir, «financial statements» gözden geçiremez. (D) must be reviewing sürerlik bildirir ve yine etkendir. (E) must to yapısında kip fiilinden sonra to gelmez.",
+              "explanationTR": "Özne (the financial statements) eylemi yapan değil, üzerinde işlem yapılandır; kip + edilgen gerekir: must be reviewed. (A) ve (C) etkendir, «financial statements» gözden geçiremez. (D) must be reviewing sürerlik bildirir ve yine etkendir. (E) had to be reviewed edilgendir ama geçmiş zorunluluğu anlatır; «are submitted» ve «the firm risks» genel/gelecek bir kuralı gösterdiği için must gerekir.",
               "passageID": null
             },
             {
@@ -4077,7 +4077,7 @@
                 "needn't have dominated"
               ],
               "correctIndex": 3,
-              "explanationTR": "Şirketin imkânı vardı ama yapmadı: gerçekleşmemiş olasılık could have V3 ile ifade edilir. (A) must have dominated tahmin verir, oysa cümlenin devamı (chose a cautious strategy) pazara hâkim olunmadığını söylüyor. (B) can't have dominated bu imkânı reddeder, oysa fon ve uzmanlık vardı. (C) ve (E) geçmişe dönük olasılık anlamı vermez.",
+              "explanationTR": "Şirketin imkânı vardı ama yapmadı: gerçekleşmemiş olasılık could have V3 ile ifade edilir. (A) must have dominated tahmin verir, oysa cümlenin devamı (chose a cautious strategy) pazara hâkim olunmadığını söylüyor. (B) can't have dominated bu imkânı reddeder, oysa fon ve uzmanlık vardı. (C) should dominate geçmişe dönük değildir. (E) needn't have dominated «gereksiz yere hâkim olmuş» demektir; oysa şirket pazara hâkim olmamıştır.",
               "passageID": null
             },
             {
@@ -4087,13 +4087,13 @@
               "prompt": "The new terminal ---- open next month, but delays make that date unlikely.",
               "options": [
                 "is supposed to",
-                "must have",
-                "can't have",
-                "supposes to",
+                "had better",
+                "can't",
+                "needn't",
                 "would rather"
               ],
               "correctIndex": 0,
-              "explanationTR": "Planlanan ya da beklenen bir olay be supposed to ile ifade edilir; «but delays make that date unlikely» beklentinin gerçekleşmeme olasılığını gösterir. (B) must have ve (C) can't have geçmiş tahmin kalıplarıdır ve «next month» ile uyuşmaz. (D) supposes to kalıbı yoktur. (E) would rather bir tercih bildirir, plan bildirmez.",
+              "explanationTR": "Planlanan ya da beklenen bir olay be supposed to ile ifade edilir; «but delays make that date unlikely» beklentinin gerçekleşmeme olasılığını gösterir. (B) had better bir uyarı/öneridir, terminalin planlanan açılış tarihini anlatmaz. (C) can't imkânsızlık, (D) needn't gereksizlik bildirir; ikisi de «beklenen tarih» anlamı vermez. (E) would rather bir tercih bildirir, plan bildirmez.",
               "passageID": null
             },
             {
@@ -4190,13 +4190,13 @@
               "prompt": "After the interview, the successful applicants ---- a written offer by the personnel department.",
               "options": [
                 "sent",
-                "have sending",
+                "had sent",
                 "were sending",
-                "were been sent",
+                "have been sending",
                 "were sent"
               ],
               "correctIndex": 4,
-              "explanationTR": "«By the personnel department» eylemi yapanı belirtir; yani özne (applicants) teklifi ALAN taraftır: were sent (iki nesneli fiilin edilgeni). (A) sent ve (C) were sending etkendir; adaylar teklif göndermemiştir. (B) have sending ve (D) were been sent geçersiz yapılardır.",
+              "explanationTR": "«By the personnel department» eylemi yapanı belirtir; yani özne (applicants) teklifi ALAN taraftır: were sent (iki nesneli fiilin edilgeni). (A) sent, (B) had sent, (C) were sending ve (D) have been sending etkendir; adaylar teklif göndermemiş, teklif almıştır.",
               "passageID": null
             },
             {
@@ -4208,11 +4208,11 @@
                 "can be measured",
                 "can measure",
                 "can be measuring",
-                "can been measured",
+                "can have been measured",
                 "can measured"
               ],
               "correctIndex": 0,
-              "explanationTR": "Hava kalitesi ölçülen varlıktır; kip + be + V3 gerekir: can be measured. (B) can measure ve (C) can be measuring etkendir; hava kalitesi ölçüm yapmaz. (D) can been measured ve (E) can measured kip fiilinden sonra yalın fiil gerektiren kuralı bozar.",
+              "explanationTR": "Hava kalitesi ölçülen varlıktır; kip + be + V3 gerekir: can be measured. (B) can measure ve (C) can be measuring etkendir; hava kalitesi ölçüm yapmaz. (D) can have been measured geçmişe dönük bir yapıdır; «are calibrated» ise genel bir koşulu anlatır. (E) can measured kip fiilinden sonra yalın fiil gerektiren kuralı bozar.",
               "passageID": null
             },
             {
@@ -4255,12 +4255,12 @@
               "options": [
                 "dismissed",
                 "got dismissed",
-                "were got dismissed",
-                "got dismissing",
-                "have dismiss"
+                "were dismissing",
+                "had dismissed",
+                "have been dismissed"
               ],
               "correctIndex": 1,
-              "explanationTR": "İşçiler işten çıkarılan taraftır ve günlük dilde edilgen anlam get + V3 ile de verilebilir: got dismissed. (A) dismissed nesne beklediği için burada etken olarak kullanılamaz. (C) were got dismissed iki yardımcı fiili birleştiren yanlış bir yapıdır. (D) ve (E) geçerli biçimler değildir.",
+              "explanationTR": "İşçiler işten çıkarılan taraftır ve günlük dilde edilgen anlam get + V3 ile de verilebilir: got dismissed. (A) dismissed nesne beklediği için burada etken olarak kullanılamaz. (C) were dismissing ve (D) had dismissed etkendir; işçiler kimseyi işten çıkarmamıştır. (E) have been dismissed edilgendir ama «last week» gibi bitmiş bir zaman ifadesiyle present perfect kullanılmaz.",
               "passageID": null
             },
             {
@@ -4315,23 +4315,23 @@
                 "was believing"
               ],
               "correctIndex": 2,
-              "explanationTR": "«It is believed that the virus originated ...» yapısının yükseltilmiş biçimi «The virus is believed to have originated ...»dır; özne eylemi yapan değil, hakkında inanılan şeydir, bu yüzden edilgen gerekir. (A) ve (D) etken; virüsün bir şeye inanması anlamsız olur. (B) ve (E) ise believe gibi durum fiillerinin almadığı sürerlik biçimleridir. Ayrıca «to have originated» geçmişe dönük mastar olduğu için ana fiil geniş zamanda kalır.",
+              "explanationTR": "«It is believed that the virus originated ...» yapısının yükseltilmiş biçimi «The virus is believed to have originated ...»dır; özne eylemi yapan değil, hakkında inanılan şeydir, bu yüzden edilgen gerekir. (A) ve (D) etken; virüsün bir şeye inanması anlamsız olur. (B) ve (E) ise believe gibi durum fiillerinin almadığı sürerlik biçimleridir. Ayrıca «has yet been produced» şimdiki zamanı desteklediği için ana fiil geniş zamandadır.",
               "passageID": null
             },
             {
               "id": "yds-grammar-passive-voice-2-q02",
               "kind": "grammar",
               "order": 1,
-              "prompt": "It ---- estimated that over two million people were displaced by the flooding.",
+              "prompt": "Official records are incomplete, but it ---- that over two million people were displaced by the flooding.",
               "options": [
-                "is",
+                "is estimated",
                 "estimates",
                 "has estimated",
                 "was estimating",
-                "estimating"
+                "being estimated"
               ],
               "correctIndex": 0,
-              "explanationTR": "«It is estimated that ...» kalıbı kişisiz edilgendir: is + estimated. (B) estimates ve (C) has estimated yapıda estimated zaten var olduğundan yardımcı fiilsiz kalır. (D) was estimating ve (E) estimating kalıbın gerektirdiği be + V3 yapısını bozar; «It» burada eylemi yapan bir özne değildir.",
+              "explanationTR": "«It is estimated that ...» kalıbı kişisiz edilgendir: is estimated. «It» burada eylemi yapan bir özne değildir; «records» çoğul olduğu için «it» onlara da gönderme yapamaz. (B) estimates, (C) has estimated ve (D) was estimating etken biçimlerdir ve tahmini yapan bir özne gerektirir. (E) being estimated ise yalnızca ulaçtır, çekimli bir fiil içermez.",
               "passageID": null
             },
             {
@@ -4424,10 +4424,10 @@
                 "must have informed",
                 "should be informed",
                 "should have been informed",
-                "ought informing"
+                "ought to have informed"
               ],
               "correctIndex": 3,
-              "explanationTR": "Geçmişte yapılması gereken ama yapılmayan bir eylem edilgen olarak verilmelidir: should have been informed. (A) etken ve şimdiki zamandır. (B) must have informed etkendir ve bir tahmin bildirir. (C) should be informed şimdiki ya da gelecek zamana aittir, oysa cümlede geçmişteki bir pişmanlık var. (E) ought informing yapı olarak geçersizdir.",
+              "explanationTR": "Geçmişte yapılması gereken ama yapılmayan bir eylem edilgen olarak verilmelidir: should have been informed. (A) etken ve şimdiki zamandır. (B) must have informed etkendir ve bir tahmin bildirir. (C) should be informed şimdiki ya da gelecek zamana aittir, oysa cümlede geçmişteki bir pişmanlık var. (E) ought to have informed geçmişe dönüktür ama etkendir; sakinler bilgilendirmesi gereken taraf değil, bilgilendirilmesi gereken taraftır.",
               "passageID": null
             },
             {
@@ -4439,11 +4439,11 @@
                 "were risen",
                 "rose",
                 "have been risen",
-                "were rising by",
-                "had been rose"
+                "have risen",
+                "had been risen"
               ],
               "correctIndex": 1,
-              "explanationTR": "rise GEÇİŞSİZ bir fiildir ve edilgeni yoktur; «last year» geçmiş zaman gerektirdiği için etken past simple kullanılır: rose. (A), (C) ve (E) geçişsiz bir fiili edilgen yapmaya çalışır. (D) were rising by yapısı ise anlam olarak «yükseldi» yerine kalıp bozukluğu içerir.",
+              "explanationTR": "rise GEÇİŞSİZ bir fiildir ve edilgeni yoktur; «last year» geçmiş zaman gerektirdiği için etken past simple kullanılır: rose. (A), (C) ve (E) geçişsiz bir fiili edilgen yapmaya çalışır. (D) have risen etkendir ama «last year» gibi bitmiş bir zaman ifadesiyle present perfect kullanılmaz.",
               "passageID": null
             },
             {

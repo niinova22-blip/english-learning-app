@@ -31,23 +31,23 @@
         "was believing"
       ],
       "correctIndex": 2,
-      "explanationTR": "«It is believed that the virus originated ...» yapısının yükseltilmiş biçimi «The virus is believed to have originated ...»dır; özne eylemi yapan değil, hakkında inanılan şeydir, bu yüzden edilgen gerekir. (A) ve (D) etken; virüsün bir şeye inanması anlamsız olur. (B) ve (E) ise believe gibi durum fiillerinin almadığı sürerlik biçimleridir. Ayrıca «to have originated» geçmişe dönük mastar olduğu için ana fiil geniş zamanda kalır.",
+      "explanationTR": "«It is believed that the virus originated ...» yapısının yükseltilmiş biçimi «The virus is believed to have originated ...»dır; özne eylemi yapan değil, hakkında inanılan şeydir, bu yüzden edilgen gerekir. (A) ve (D) etken; virüsün bir şeye inanması anlamsız olur. (B) ve (E) ise believe gibi durum fiillerinin almadığı sürerlik biçimleridir. Ayrıca «has yet been produced» şimdiki zamanı desteklediği için ana fiil geniş zamandadır.",
       "passageID": null
     },
     {
       "id": "yds-grammar-passive-voice-2-q02",
       "kind": "grammar",
       "order": 1,
-      "prompt": "It ---- estimated that over two million people were displaced by the flooding.",
+      "prompt": "Official records are incomplete, but it ---- that over two million people were displaced by the flooding.",
       "options": [
-        "is",
+        "is estimated",
         "estimates",
         "has estimated",
         "was estimating",
-        "estimating"
+        "being estimated"
       ],
       "correctIndex": 0,
-      "explanationTR": "«It is estimated that ...» kalıbı kişisiz edilgendir: is + estimated. (B) estimates ve (C) has estimated yapıda estimated zaten var olduğundan yardımcı fiilsiz kalır. (D) was estimating ve (E) estimating kalıbın gerektirdiği be + V3 yapısını bozar; «It» burada eylemi yapan bir özne değildir.",
+      "explanationTR": "«It is estimated that ...» kalıbı kişisiz edilgendir: is estimated. «It» burada eylemi yapan bir özne değildir; «records» çoğul olduğu için «it» onlara da gönderme yapamaz. (B) estimates, (C) has estimated ve (D) was estimating etken biçimlerdir ve tahmini yapan bir özne gerektirir. (E) being estimated ise yalnızca ulaçtır, çekimli bir fiil içermez.",
       "passageID": null
     },
     {
@@ -140,10 +140,10 @@
         "must have informed",
         "should be informed",
         "should have been informed",
-        "ought informing"
+        "ought to have informed"
       ],
       "correctIndex": 3,
-      "explanationTR": "Geçmişte yapılması gereken ama yapılmayan bir eylem edilgen olarak verilmelidir: should have been informed. (A) etken ve şimdiki zamandır. (B) must have informed etkendir ve bir tahmin bildirir. (C) should be informed şimdiki ya da gelecek zamana aittir, oysa cümlede geçmişteki bir pişmanlık var. (E) ought informing yapı olarak geçersizdir.",
+      "explanationTR": "Geçmişte yapılması gereken ama yapılmayan bir eylem edilgen olarak verilmelidir: should have been informed. (A) etken ve şimdiki zamandır. (B) must have informed etkendir ve bir tahmin bildirir. (C) should be informed şimdiki ya da gelecek zamana aittir, oysa cümlede geçmişteki bir pişmanlık var. (E) ought to have informed geçmişe dönüktür ama etkendir; sakinler bilgilendirmesi gereken taraf değil, bilgilendirilmesi gereken taraftır.",
       "passageID": null
     },
     {
@@ -155,11 +155,11 @@
         "were risen",
         "rose",
         "have been risen",
-        "were rising by",
-        "had been rose"
+        "have risen",
+        "had been risen"
       ],
       "correctIndex": 1,
-      "explanationTR": "rise GEÇİŞSİZ bir fiildir ve edilgeni yoktur; «last year» geçmiş zaman gerektirdiği için etken past simple kullanılır: rose. (A), (C) ve (E) geçişsiz bir fiili edilgen yapmaya çalışır. (D) were rising by yapısı ise anlam olarak «yükseldi» yerine kalıp bozukluğu içerir.",
+      "explanationTR": "rise GEÇİŞSİZ bir fiildir ve edilgeni yoktur; «last year» geçmiş zaman gerektirdiği için etken past simple kullanılır: rose. (A), (C) ve (E) geçişsiz bir fiili edilgen yapmaya çalışır. (D) have risen etkendir ama «last year» gibi bitmiş bir zaman ifadesiyle present perfect kullanılmaz.",
       "passageID": null
     },
     {

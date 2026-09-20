@@ -134,16 +134,16 @@
       "id": "yds-grammar-tenses-2-q08",
       "kind": "grammar",
       "order": 7,
-      "prompt": "The new graduates ---- working under pressure, so the demanding schedule rarely troubles them.",
+      "prompt": "The new graduates ---- under pressure, so the demanding schedule rarely troubles them.",
       "options": [
         "used to work",
-        "get used to work",
+        "are used to work",
         "used to working",
         "are used to working",
-        "would used to work"
+        "were used to working"
       ],
       "correctIndex": 3,
-      "explanationTR": "«Rarely troubles them» şimdiki zamandır ve cümle ALIŞIK olma durumunu anlatır: be used to + V-ing, yani are used to working. (A) used to work geçmişteki, artık sürmeyen bir alışkanlık bildirir; şimdiki zamanla çelişir. (C) used to working için be yardımcı fiili eksiktir. (B) ve (E) ise used to yapısının kurallarına uymaz.",
+      "explanationTR": "«Rarely troubles them» şimdiki zamandır ve cümle ALIŞIK olma durumunu anlatır: be used to + V-ing, yani are used to working. (A) used to work geçmişteki, artık sürmeyen bir alışkanlık bildirir; şimdiki zamanla çelişir. (B) are used to work, be used to'dan sonra V-ing yerine yalın fiil koyar. (C) used to working için be yardımcı fiili eksiktir. (E) were used to working geçmiş zamandır; cümledeki «rarely troubles» şimdiki durumu anlatır.",
       "passageID": null
     },
     {

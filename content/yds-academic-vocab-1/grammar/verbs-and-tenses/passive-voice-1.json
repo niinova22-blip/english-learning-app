@@ -57,13 +57,13 @@
       "prompt": "After the interview, the successful applicants ---- a written offer by the personnel department.",
       "options": [
         "sent",
-        "have sending",
+        "had sent",
         "were sending",
-        "were been sent",
+        "have been sending",
         "were sent"
       ],
       "correctIndex": 4,
-      "explanationTR": "«By the personnel department» eylemi yapanı belirtir; yani özne (applicants) teklifi ALAN taraftır: were sent (iki nesneli fiilin edilgeni). (A) sent ve (C) were sending etkendir; adaylar teklif göndermemiştir. (B) have sending ve (D) were been sent geçersiz yapılardır.",
+      "explanationTR": "«By the personnel department» eylemi yapanı belirtir; yani özne (applicants) teklifi ALAN taraftır: were sent (iki nesneli fiilin edilgeni). (A) sent, (B) had sent, (C) were sending ve (D) have been sending etkendir; adaylar teklif göndermemiş, teklif almıştır.",
       "passageID": null
     },
     {
@@ -75,11 +75,11 @@
         "can be measured",
         "can measure",
         "can be measuring",
-        "can been measured",
+        "can have been measured",
         "can measured"
       ],
       "correctIndex": 0,
-      "explanationTR": "Hava kalitesi ölçülen varlıktır; kip + be + V3 gerekir: can be measured. (B) can measure ve (C) can be measuring etkendir; hava kalitesi ölçüm yapmaz. (D) can been measured ve (E) can measured kip fiilinden sonra yalın fiil gerektiren kuralı bozar.",
+      "explanationTR": "Hava kalitesi ölçülen varlıktır; kip + be + V3 gerekir: can be measured. (B) can measure ve (C) can be measuring etkendir; hava kalitesi ölçüm yapmaz. (D) can have been measured geçmişe dönük bir yapıdır; «are calibrated» ise genel bir koşulu anlatır. (E) can measured kip fiilinden sonra yalın fiil gerektiren kuralı bozar.",
       "passageID": null
     },
     {
@@ -122,12 +122,12 @@
       "options": [
         "dismissed",
         "got dismissed",
-        "were got dismissed",
-        "got dismissing",
-        "have dismiss"
+        "were dismissing",
+        "had dismissed",
+        "have been dismissed"
       ],
       "correctIndex": 1,
-      "explanationTR": "İşçiler işten çıkarılan taraftır ve günlük dilde edilgen anlam get + V3 ile de verilebilir: got dismissed. (A) dismissed nesne beklediği için burada etken olarak kullanılamaz. (C) were got dismissed iki yardımcı fiili birleştiren yanlış bir yapıdır. (D) ve (E) geçerli biçimler değildir.",
+      "explanationTR": "İşçiler işten çıkarılan taraftır ve günlük dilde edilgen anlam get + V3 ile de verilebilir: got dismissed. (A) dismissed nesne beklediği için burada etken olarak kullanılamaz. (C) were dismissing ve (D) had dismissed etkendir; işçiler kimseyi işten çıkarmamıştır. (E) have been dismissed edilgendir ama «last week» gibi bitmiş bir zaman ifadesiyle present perfect kullanılmaz.",
       "passageID": null
     },
     {
