@@ -15,6 +15,7 @@ struct PracticeSessionView: View {
     @State private var loadError: String?
     @State private var isLoadingTutor = false
     @State private var showTutorSheet = false
+    @State private var showPremiumPaywall = false
 
     var body: some View {
         Group {
@@ -30,6 +31,9 @@ struct PracticeSessionView: View {
             }
         }
         .background(Theme.paper.ignoresSafeArea())
+        .sheet(isPresented: $showPremiumPaywall) {
+            PaywallView(mode: .premium, store: appState.entitlements)
+        }
         .sheet(isPresented: $showTutorSheet) {
             if let engine = appState.tutorEngine, let vm = viewModel, let question = vm.current {
                 TutorSheetView(engine: engine, questionContext: .question(
@@ -96,6 +100,13 @@ struct PracticeSessionView: View {
     /// concurrent loads, and a nil engine means "not available", never an
     /// error shown to the learner.
     private func openTutor() async {
+        switch appState.tutorAccess {
+        case .unavailable: return
+        case .needsPremium:
+            showPremiumPaywall = true
+            return
+        case .allowed: break
+        }
         guard !isLoadingTutor else { return }
         if appState.tutorEngine == nil {
             isLoadingTutor = true
