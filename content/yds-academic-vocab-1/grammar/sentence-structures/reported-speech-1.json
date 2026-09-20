@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-reported-speech-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Dolaylı Anlatım (Reported Speech)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-reported-speech-1",
+      "type": "grammarPoint",
+      "headword": "Reported Speech",
+      "frequencyRank": 2010,
+      "baseDifficulty": 0.5,
+      "definition": "Zaman kayması, zamir/zarf değişimi ile dolaylı soru ve emir.",
+      "exampleSentences": [],
+      "translationTR": "Dolaylı Anlatım",
+      "collocations": [],
+      "explanationTR": "Dolaylı anlatımda söylenen söz, aktaran kişinin bakış açısıyla yeniden kurulur.\n\n• Zaman bir adım GERİYE kayar: will → would, am/is/are → was/were, have/has done → had done, did → had done. The minister told reporters that the tax would remain in force.\n\n• Zamir, zaman ve yer ifadeleri de değişir: tomorrow → the next / following day, yesterday → the day before, next week → the following week, here → there, this → that.\n\n• Dolaylı soru düz cümle sırası alır. Wh- sorusunda soru sözcüğü korunur: The inspector asked where the samples were kept. Yes-no sorusunda if / whether gelir: The reporter asked whether the merger had been approved.\n\n• Emir ve istek: told / asked / ordered + kişi + (not) to + V1: The director told the staff not to disclose the figures.\n\n• say ↔ tell: tell + KİŞİ (told the committee), say (to) + kişi (said to the committee).\n\nÖrnek: 'We have completed the audit,' they said. → They said that they had completed the audit."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-reported-speech-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The minister told reporters that the emergency tax ---- in force until the end of the following year.",
+      "options": [
+        "will remain",
+        "would remain",
+        "remains",
+        "has remained",
+        "is remaining"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Ana cümlenin fiili «told» geçmiş zamandadır, bu yüzden yan cümlede zaman bir adım geriye kayar ve will → would olur; «the following year» ifadesi de aktarımın geçmişten yapıldığını doğrular. (A) will remain kaydırma yapılmamış doğrudan anlatım biçimidir. (C) remains ve (D) has remained şu ana bağlanır, oysa cümlede «the following year» var. (E) is remaining ise remain gibi durum fiillerinin almadığı sürerlik biçimidir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "She said that she would submit the report ----.",
+      "options": [
+        "tomorrow",
+        "yesterday",
+        "the day before",
+        "the next day",
+        "today"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Aktarılan sözde «tomorrow» vardı; dolaylı anlatımda «the next / following day» olur. (A) tomorrow doğrudan anlatımın zaman ifadesidir. (B) yesterday ve (C) the day before geçmişi gösterir, oysa eylem sonradır. (E) today aktarım anına bağlıdır ve anlamı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The inspector asked where ---- .",
+      "options": [
+        "the samples were kept",
+        "were the samples kept",
+        "are the samples kept",
+        "did the samples keep",
+        "was the samples kept"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Dolaylı soruda düz cümle sırası kullanılır ve zaman bir adım geriye kayar: where the samples were kept. (B) were the samples kept ve (C) are the samples kept soru sırasını korur. (D) did the samples keep hem soru sırasıdır hem de anlamı bozar. (E) was the samples kept özneyle uyuşmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The reporter asked ----.",
+      "options": [
+        "that the merger had been approved",
+        "had the merger been approved",
+        "whether the merger had been approved",
+        "whether had the merger been approved",
+        "if has the merger been approved"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Yes-no sorusu dolaylı anlatımda whether / if ile kurulur, düz cümle sırası alır ve zaman geriye kayar: whether the merger had been approved. (A) that soru değil olgu bildirir. (B) had the merger been approved soru sırasını korur. (D) whether had the merger ... hem bağlaç hem soru sırası taşır. (E) has ... zaman kaymasını yapmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The director told the staff ---- the figures to the press.",
+      "options": [
+        "not disclosing",
+        "do not disclose",
+        "that not disclose",
+        "if not to disclose",
+        "not to disclose"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Dolaylı emir: told + kişi + not to + V1: told the staff not to disclose. (A) not disclosing tell ile kullanılmaz. (B) do not disclose doğrudan emir biçimidir. (C) that not disclose ve (D) if not to disclose kalıba uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The chairman ---- the committee that the results would be published in June.",
+      "options": [
+        "said",
+        "told",
+        "spoke",
+        "mentioned",
+        "explained"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Tell + KİŞİ + that» kalıbı kişiyi doğrudan nesne alır: told the committee that ... (A) said kişiyi doğrudan almaz; said to the committee gerekir. (C) spoke, (D) mentioned ve (E) explained ise kişiyle doğrudan nesne olarak kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "'We have completed the audit,' they said. → They said that they ---- the audit.",
+      "options": [
+        "have completed",
+        "complete",
+        "would complete",
+        "had completed",
+        "were completing"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Present perfect, dolaylı anlatımda past perfect'e kayar: had completed. (A) have completed kaydırma yapmaz. (B) complete geniş zamandır. (C) would complete gelecek anlamı katar. (E) were completing sürerlik bildirir, tamamlanmış bir eylemi karşılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "'The talks will take place here,' he said. → He said that the talks would take place ----.",
+      "options": [
+        "there",
+        "here",
+        "where",
+        "hereby",
+        "now"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Yer zarfı «here», dolaylı anlatımda «there» olur; konuşmacının bulunduğu yer artık aktarım anından farklıdır. (B) here doğrudan anlatımın ifadesidir. (C) where bir soru ya da bağlaç sözcüğüdür. (D) hereby anlamı bozar. (E) now zamanı bildirir.",
+      "passageID": null
+    }
+  ]
+}

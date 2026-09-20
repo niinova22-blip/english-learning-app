@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-reported-speech-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Dolaylı Anlatım: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-reported-speech-2",
+      "type": "grammarPoint",
+      "headword": "Reported Speech (Traps)",
+      "frequencyRank": 2011,
+      "baseDifficulty": 0.6,
+      "definition": "Zaman kaymasının olmadığı durumlar ve bildirme fiili kalıpları.",
+      "exampleSentences": [],
+      "translationTR": "Dolaylı Anlatım: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Dolaylı anlatımda sınav, kayma KURALINDAN çok istisnalarını ve bildirme fiillerinin kalıplarını sorar.\n\n• Kayma olmaz: hâlâ geçerli olan ve bilimsel gerçekler: The lecturer reminded the class that water boils at 100 degrees. Ayrıca ought to, might, could, should, would değişmez: The economist argued that governments ought to intervene.\n\n• must (zorunluluk) → had to: The clerk told me that I had to renew my licence.\n\n• Koşul cümlelerinde past subjunctive ve would aynen kalır: The analysts said that if they had more time, they would review the data.\n\n• Bildirme fiili kalıpları: admit / deny + V-ing; accuse somebody of + V-ing; blame somebody for + V-ing; congratulate somebody on + V-ing; warn somebody against + V-ing; apologise for + V-ing; insist on + V-ing; object to + V-ing; refuse / threaten / promise + to V1; advise somebody to V1.\n\nEn sık düşülen tuzak: bildirme fiilinin kalıbını görmeden anlama göre seçim yapmak. Sorunun devamındaki tamlayıcıya (V-ing mi, to V1 mi, edat mı) bak.\n\nÖrnek: The manager admitted altering the figures before the audit."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-reported-speech-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The lecturer reminded the class that water ---- at 100 degrees Celsius at sea level.",
+      "options": [
+        "had boiled",
+        "would boil",
+        "was boiling",
+        "has boiled",
+        "boils"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Bilimsel gerçekler dolaylı anlatımda zaman kaymasına uğramaz; geniş zaman kalır: boils. (A) had boiled, (B) would boil, (C) was boiling ve (D) has boiled ise gerçeği geçmişe ya da tamamlanmış bir olaya çevirir ve anlamı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The economist argued that governments ---- intervene more decisively in the housing market.",
+      "options": [
+        "ought to",
+        "ought",
+        "had ought to",
+        "would ought to",
+        "ought to have"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Kip fiili ought to dolaylı anlatımda DEĞİŞMEZ. (B) ought kalıbı eksik bırakır. (C) had ought to ve (D) would ought to ise standart olmayan ya da yanlış kalıplardır. (E) ought to have geçmişe dönük eleştiri anlamı katar ve V1 ile uyumsuz kalır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The manager admitted ---- the figures before the audit.",
+      "options": [
+        "to alter",
+        "alter",
+        "altering",
+        "that altering",
+        "to be altered"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Admit + V-ing kalıbıdır: admitted altering. (A) to alter ve (B) alter admit ile bu şekilde kurulmaz. (D) that altering that ile V-ing'i birleştirir. (E) to be altered edilgen anlam katar; yöneticinin kendisi değiştirmiştir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The opposition accused the minister ---- the public about the costs.",
+      "options": [
+        "for misleading",
+        "to mislead",
+        "that misleading",
+        "of misleading",
+        "with misleading"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Accuse somebody of + V-ing kalıbıdır: accused the minister of misleading. (A) for, (B) to ve (E) with bu fiille kullanılmaz. (C) that V-ing ile birleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The engineers warned residents ---- the bridge until repairs were complete.",
+      "options": [
+        "using",
+        "against using",
+        "of using",
+        "to using",
+        "that using"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Warn somebody against + V-ing kalıbıdır: warned residents against using. (A) using edatsız kalır. (C) of using ve (D) to using bu kalıpta kullanılmaz. (E) that using that ile V-ing'i birleştirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The company refused ---- responsibility for the accident.",
+      "options": [
+        "accepting",
+        "accept",
+        "that accepts",
+        "of accepting",
+        "to accept"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Refuse + to V1 kalıbıdır: refused to accept. (A) accepting refuse ile kullanılmaz. (B) accept mastar edatı eksik bırakır. (C) that accepts ve (D) of accepting kalıba uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The analysts said that if they ---- more time, they would review the data again.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have",
+        "are having"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Koşul cümlesindeki past subjunctive dolaylı anlatımda aynen kalır: if they had more time ... would review. (B) have, (C) will have ve (D) would have if cümleciğinde uygun değildir. (E) are having sürerlik bildirir ve koşulu bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "'You must renew your licence by March,' the clerk told me. → The clerk told me that I ---- my licence by March.",
+      "options": [
+        "would must renew",
+        "had must renew",
+        "had to renew",
+        "have renewed",
+        "was renewing"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Must (zorunluluk) dolaylı anlatımda had to olur: had to renew. (A) would must ve (B) had must kip fiillerini birleştirir. (D) have renewed ve (E) was renewing zorunluluk anlamını kaybettirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "The chairman insisted ---- the minutes before the vote.",
+      "options": [
+        "to read",
+        "that reading",
+        "on to read",
+        "on reading",
+        "reading"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Insist on + V-ing kalıbıdır: insisted on reading. (A) to read ve (C) on to read bu fiille yanlıştır. (B) that reading that ile V-ing'i birleştirir. (E) reading edatsız kalır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-reported-speech-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "The board congratulated the team ---- the deadline despite the technical problems.",
+      "options": [
+        "for to meet",
+        "on meeting",
+        "to meet",
+        "that meeting",
+        "of meeting"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Congratulate somebody on + V-ing kalıbıdır: congratulated the team on meeting. (A) for to meet ve (C) to meet mastar kalıbı kurar. (D) that meeting ve (E) of meeting bu fiille uyumsuzdur.",
+      "passageID": null
+    }
+  ]
+}

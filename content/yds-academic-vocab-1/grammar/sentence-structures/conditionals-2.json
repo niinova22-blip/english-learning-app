@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-conditionals-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Koşul Cümleleri: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-conditionals-2",
+      "type": "grammarPoint",
+      "headword": "Conditionals (Traps)",
+      "frequencyRank": 2005,
+      "baseDifficulty": 0.6,
+      "definition": "Karışık koşullar, devrik koşullar ve koşul bağlaçlarının sık sınanan tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "Koşul Cümleleri: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Koşul sorularında asıl tuzak, kalıbın ZAMAN ve BAĞLAÇ ayrıntısıdır.\n\n• Karışık koşullar: geçmiş koşul + şimdiki sonuç: If the government had invested in rail, commuters would not face such delays today. Şimdiki durum + geçmiş sonuç: If the auditor were more meticulous, she would have noticed the error.\n\n• Devrik koşullar (if düşer, yardımcı fiil başa geçer): Had the board acted sooner, ... (= If the board had acted). Were the scheme to fail, ... Should any delay occur, ... Bu yapıda «If had» gibi bir birleşim kurulmaz.\n\n• unless = if ... not. Kendisi olumsuz olduğu için fiil OLUMLU kalır: Unless the committee approves the plan, funding will be withdrawn. Çift olumsuzluk (unless ... not) yanlıştır.\n\n• but for + isim / if it had not been for / were it not for = «-mese, olmasaydı»: But for the central bank's intervention, the crisis would have been worse.\n\n• otherwise / or else = «aksi takdirde», yeni bir cümlenin başında gelir. provided (that) / as long as / on condition that = «-mek şartıyla». in case = önlem («-me ihtimaline karşı»), koşul değildir. even if = varsayımsal «olsa bile», even though = GERÇEK bir olguya rağmen.\n\nEn sık düşülen tuzak: if cümleciğine will ya da would koymak. Gerçek koşulda if cümleciği geniş zaman alır: If the company reduces its emissions, it will avoid the tax.\n\nÖrnek: Had the board acted sooner, the merger could have been prevented."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-conditionals-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "If the government had invested in rail a decade ago, commuters ---- such long delays today.",
+      "options": [
+        "would not have faced",
+        "will not face",
+        "would not face",
+        "did not face",
+        "had not faced"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«A decade ago» koşulun geçmişte olduğunu, «today» ise sonucun şimdide geçerli olduğunu gösterir. Bu karışık koşulda if cümleciği past perfect, ana cümle would + V1 olur: would not face. (A) would not have faced sonucu da geçmişe taşır, oysa «today» şimdiyi gösteriyor. (B) will not face gerçek koşul yapısıdır ve past perfect ile uyuşmaz. (D) did not face ve (E) had not faced koşul sonucunu bildiren would yapısını taşımaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "If the auditor were more meticulous, she ---- the error in last year's accounts.",
+      "options": [
+        "would have noticed",
+        "would notice",
+        "will have noticed",
+        "noticed",
+        "had noticed"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "If cümleciği şimdiki genel bir özelliği anlatıyor (were more meticulous), sonuç ise geçmişte gerçekleşmemiş bir olay: would have + V3. (B) would notice sonucu şimdiye bağlar, oysa «last year's accounts» geçmişi gösterir. (C) will have noticed gelecek ve gerçek koşul yapısıdır. (D) noticed ve (E) had noticed ise ana cümlede would gerektiren kalıba uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "---- the board acted sooner, the merger could have been prevented.",
+      "options": [
+        "Were",
+        "Had",
+        "Would",
+        "Did",
+        "Unless"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Tip 3 koşulunda if düşürülürse yardımcı fiil başa geçer: Had the board acted sooner (= If the board had acted sooner). (A) Were yalnızca «were to» ya da sıfat/ad ile devrik koşul kurar, «acted» ile birleşmez. (C) Would ve (D) Did if yerine geçemez. (E) Unless «değilse» anlamı katar ve cümlenin anlamını bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "Unless the committee ---- the proposal by Friday, the funding will be withdrawn.",
+      "options": [
+        "will approve",
+        "does not approve",
+        "would approve",
+        "approves",
+        "has not approved"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Unless» = «if not»; kendisi olumsuz olduğu için fiil OLUMLU kalır ve koşul cümleciğinde geniş zaman gelir: approves. (A) will approve ve (C) would approve koşul cümleciğinde kullanılamaz. (B) does not approve ve (E) has not approved «unless» ile birleşince çift olumsuzluk yaratır ve anlamı tersine çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "---- the timely intervention of the central bank, the crisis would have been far more severe.",
+      "options": [
+        "Unless",
+        "Provided",
+        "Even if",
+        "In case",
+        "But for"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«But for + isim» = «-mese, olmasaydı»: But for the timely intervention ... the crisis would have been more severe. (A) Unless, (B) Provided ve (D) In case bir fiil cümleciği ister, isim öbeğiyle kullanılamaz. (C) Even if «olsa bile» anlamı ekler; cümledeki anlam ise «müdahale olmasaydı»dır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "Employees must submit the form by noon; ----, their applications will not be processed.",
+      "options": [
+        "otherwise",
+        "unless",
+        "provided that",
+        "even though",
+        "in case"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Noktalı virgülden sonra yeni bir ana cümle gelir ve eksik koşulun sonucu «aksi takdirde» anlamındaki otherwise ile bağlanır. (B) unless, (C) provided that, (D) even though ve (E) in case birer bağlaçtır ve hemen ardından virgül gelen bir yapıda kullanılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "Investors should keep a reserve fund ---- the market suddenly collapses.",
+      "options": [
+        "provided that",
+        "unless",
+        "in case",
+        "as long as",
+        "otherwise"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«In case» önlem bildirir: keep a reserve fund in case the market collapses (= çökme ihtimaline karşı). (A) provided that ve (D) as long as bir koşul bildirir; çöküş bir şart değil, ihtimaldir. (B) unless «çökmezse» anlamı verir ve cümleyi tersine çevirir. (E) otherwise bir bağlaç değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The project went ahead ---- it had been strongly criticised by several experts.",
+      "options": [
+        "even if",
+        "even though",
+        "unless",
+        "provided that",
+        "in case"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Eleştirilmiş olmak GERÇEK bir olgudur ve cümle bir karşıtlık kurar: even though (= -e rağmen). (A) even if varsayımsal durumlar için kullanılır, olgu için değil. (C) unless ve (D) provided that koşul bildirir. (E) in case önlem bildirir; hiçbiri karşıtlık kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "If the company ---- its emissions next year, it will avoid the new carbon tax.",
+      "options": [
+        "will reduce",
+        "would reduce",
+        "reduced",
+        "would have reduced",
+        "reduces"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Gerçek koşulda (tip 1) if cümleciği geniş zaman alır ve ana cümlede will bulunur: reduces ... will avoid. (A) will reduce ve (B) would reduce if cümleciğinde kullanılmaz; bu klasik bir tuzaktır. (C) reduced ve (D) would have reduced tip 2 ve tip 3 yapılarıdır ve ana cümledeki will avoid ile uyuşmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conditionals-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "We will support the reform ---- it does not place an unfair burden on small businesses.",
+      "options": [
+        "unless",
+        "in case",
+        "even though",
+        "as long as",
+        "otherwise"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Cümlede olumsuz fiil (does not place) var, dolayısıyla koşul olumlu bir şart olmalıdır: as long as (= sürece). (A) unless olumsuz fiille çift olumsuzluk yapar ve anlamı tersine çevirir. (B) in case önlem bildirir. (C) even though bir karşıtlık kurar. (E) otherwise bir bağlaç değildir.",
+      "passageID": null
+    }
+  ]
+}

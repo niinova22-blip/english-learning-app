@@ -85,6 +85,20 @@ GRAMMAR_UNITS = [
             "verbs-and-tenses/passive-voice-2.json",
         ],
     },
+    {
+        "id": "yds-grammar-unit-sentence-structures",
+        "theme": "Cümle yapıları",
+        "order": 5,
+        "files": [
+            "sentence-structures/conditionals-2.json",
+            "sentence-structures/relative-clauses-1.json",
+            "sentence-structures/relative-clauses-2.json",
+            "sentence-structures/noun-clauses-1.json",
+            "sentence-structures/noun-clauses-2.json",
+            "sentence-structures/reported-speech-1.json",
+            "sentence-structures/reported-speech-2.json",
+        ],
+    },
 ]
 
 GRAMMAR_LESSON_ID_PREFIX = "yds-grammar-"
