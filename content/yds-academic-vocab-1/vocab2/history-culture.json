@@ -935,7 +935,7 @@
           "headword": "pillage",
           "frequencyRank": 387,
           "baseDifficulty": 0.68,
-          "definition": "Bir yerin, özellikle savaş sırasında, zorla ve yağma yoluyla soyulması.",
+          "definition": "Genellikle savaş sırasında bir yerin ele geçirilip değerli eşyalarının zorla ve düzensizce alınması.",
           "exampleSentences": [
             "Soldiers were given free rein to pillage the conquered city.",
             "The chronicle describes weeks of pillage following the siege.",
@@ -1094,7 +1094,7 @@
           "headword": "vestige",
           "frequencyRank": 395,
           "baseDifficulty": 0.76,
-          "definition": "Geçmişten kalan ve artık büyük ölçüde kaybolmuş bir şeyin küçük izi veya kalıntısı.",
+          "definition": "Bir zamanlar var olan ama büyük ölçüde yok olmuş bir şeyden günümüze ulaşan ve onun varlığını hatırlatan küçük bir parça.",
           "exampleSentences": [
             "A few vestiges of the old fortress still stand on the hillside.",
             "The dialect retains vestiges of a language spoken centuries ago.",
@@ -1113,7 +1113,7 @@
           "headword": "posterity",
           "frequencyRank": 396,
           "baseDifficulty": 0.77,
-          "definition": "Henüz doğmamış gelecek nesiller.",
+          "definition": "Bugün yapılanları veya bırakılanları ileride miras olarak devralacak, henüz dünyaya gelmemiş insanlar.",
           "exampleSentences": [
             "The chronicle was written to preserve the empire's achievements for posterity.",
             "The king ordered the monument built as a gift to posterity.",

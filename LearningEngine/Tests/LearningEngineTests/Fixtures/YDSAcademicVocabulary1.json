@@ -21542,7 +21542,7 @@
               "headword": "pillage",
               "frequencyRank": 387,
               "baseDifficulty": 0.68,
-              "definition": "Bir yerin, özellikle savaş sırasında, zorla ve yağma yoluyla soyulması.",
+              "definition": "Genellikle savaş sırasında bir yerin ele geçirilip değerli eşyalarının zorla ve düzensizce alınması.",
               "exampleSentences": [
                 "Soldiers were given free rein to pillage the conquered city.",
                 "The chronicle describes weeks of pillage following the siege.",
@@ -21703,7 +21703,7 @@
               "headword": "vestige",
               "frequencyRank": 395,
               "baseDifficulty": 0.76,
-              "definition": "Geçmişten kalan ve artık büyük ölçüde kaybolmuş bir şeyin küçük izi veya kalıntısı.",
+              "definition": "Bir zamanlar var olan ama büyük ölçüde yok olmuş bir şeyden günümüze ulaşan ve onun varlığını hatırlatan küçük bir parça.",
               "exampleSentences": [
                 "A few vestiges of the old fortress still stand on the hillside.",
                 "The dialect retains vestiges of a language spoken centuries ago.",
@@ -21722,7 +21722,7 @@
               "headword": "posterity",
               "frequencyRank": 396,
               "baseDifficulty": 0.77,
-              "definition": "Henüz doğmamış gelecek nesiller.",
+              "definition": "Bugün yapılanları veya bırakılanları ileride miras olarak devralacak, henüz dünyaya gelmemiş insanlar.",
               "exampleSentences": [
                 "The chronicle was written to preserve the empire's achievements for posterity.",
                 "The king ordered the monument built as a gift to posterity.",
@@ -21833,7 +21833,7 @@
               "headword": "behaviour",
               "frequencyRank": 401,
               "baseDifficulty": 0.22,
-              "definition": "Bir kişinin belirli durumlarda gösterdiği tutum ve davranış biçimi.",
+              "definition": "Bir kişinin belirli koşullar altında sergilediği, dışarıdan gözlemlenebilen eylem ve tepkiler bütünü.",
               "exampleSentences": [
                 "The study examined how stress affects children's behaviour at school.",
                 "Her sudden change in behaviour worried her close friends.",
@@ -21985,7 +21985,7 @@
               "headword": "reaction",
               "frequencyRank": 409,
               "baseDifficulty": 0.3,
-              "definition": "Bir uyarana veya olaya karşı gösterilen anlık tepki.",
+              "definition": "Bir uyarana veya olaya karşı, genellikle hızlı ve kontrolsüz biçimde ortaya çıkan davranış veya duygu.",
               "exampleSentences": [
                 "His reaction to the news was one of complete shock.",
                 "The experiment measured participants' emotional reactions to the images.",
@@ -22146,7 +22146,7 @@
               "headword": "temperament",
               "frequencyRank": 417,
               "baseDifficulty": 0.38,
-              "definition": "Bir kişinin doğuştan gelen, duygusal tepki verme ve davranış biçimini belirleyen mizacı.",
+              "definition": "Bir kişinin doğuştan getirdiği ve duygusal tepkilerinin şiddetini, hızını ve süresini belirleyen kalıcı özellik.",
               "exampleSentences": [
                 "Even as an infant, she had a remarkably calm temperament.",
                 "The two brothers had completely different temperaments.",
@@ -22212,7 +22212,7 @@
               "headword": "bias",
               "frequencyRank": 420,
               "baseDifficulty": 0.41,
-              "definition": "Bir konuda tarafsız olmayı engelleyen, önceden var olan eğilim veya önyargı.",
+              "definition": "Bir konuda nesnel değerlendirme yapmayı engelleyen, bilinçli ya da bilinçsiz bir yöne kayma.",
               "exampleSentences": [
                 "Researchers tried to eliminate bias from the survey questions.",
                 "Confirmation bias leads people to favour information that confirms their beliefs.",
@@ -22231,7 +22231,7 @@
               "headword": "stereotype",
               "frequencyRank": 421,
               "baseDifficulty": 0.42,
-              "definition": "Bir grubun tüm üyelerine, gerçekliği yansıtmayan basit ve genellemeci özellikler yükleyen kalıp yargı.",
+              "definition": "Bir grubun bütün üyelerini, gerçekte çok çeşitli olmalarına rağmen aynı birkaç özellikle tanımlayan basitleştirilmiş düşünce biçimi.",
               "exampleSentences": [
                 "The film challenges common stereotypes about mental illness.",
                 "Children absorb gender stereotypes from a very young age.",
@@ -22307,7 +22307,7 @@
               "headword": "dependence",
               "frequencyRank": 425,
               "baseDifficulty": 0.46,
-              "definition": "Bir kişinin belirli bir madde, davranış veya başka bir kişiye aşırı derecede bağımlı olması durumu.",
+              "definition": "Bir kişinin belirli bir madde, davranış veya kişi olmadan işlevini normal biçimde sürdürmekte güçlük çekmesi.",
               "exampleSentences": [
                 "Prolonged use of the drug can lead to physical dependence.",
                 "The therapy aims to reduce his emotional dependence on approval from others.",
@@ -22383,7 +22383,7 @@
               "headword": "spontaneous",
               "frequencyRank": 429,
               "baseDifficulty": 0.5,
-              "definition": "Önceden planlanmamış, kendiliğinden ve anlık olarak ortaya çıkan.",
+              "definition": "Önceden düşünülüp planlanmadan, bir anda ve doğal bir dürtüyle ortaya çıkan.",
               "exampleSentences": [
                 "Her spontaneous laughter put everyone in the room at ease.",
                 "The experiment recorded spontaneous reactions rather than rehearsed answers.",
@@ -22468,7 +22468,7 @@
               "headword": "stimulus",
               "frequencyRank": 433,
               "baseDifficulty": 0.54,
-              "definition": "Bir organizmada tepki veya davranış ortaya çıkaran dış veya iç uyaran.",
+              "definition": "Bir organizmanın duyularını harekete geçirip ondan bir tepki alınmasına yol açan dış veya iç etki.",
               "exampleSentences": [
                 "The dog was trained to salivate at a specific auditory stimulus.",
                 "Researchers varied the stimulus to see how quickly participants reacted.",
@@ -22544,7 +22544,7 @@
               "headword": "extrovert",
               "frequencyRank": 437,
               "baseDifficulty": 0.58,
-              "definition": "Enerjisini sosyal ortamlarda ve başkalarıyla etkileşimde bulunarak yenileyen, dışa dönük kişi.",
+              "definition": "Enerjisini sosyal ortamlarda ve başkalarıyla etkileşim kurarak yenileyen, dış dünyaya ve insanlara yönelen kişi.",
               "exampleSentences": [
                 "The confident extrovert quickly made friends at the new office.",
                 "Extroverts tend to thrive in jobs that involve constant social interaction.",
@@ -22610,7 +22610,7 @@
               "headword": "ambivalent",
               "frequencyRank": 440,
               "baseDifficulty": 0.61,
-              "definition": "Bir kişi veya durum karşısında hem olumlu hem olumsuz duyguları aynı anda taşıyan, kararsız.",
+              "definition": "Bir kişi veya durum karşısında hem olumlu hem olumsuz duyguları aynı anda hissedip hangisine göre hareket edeceğine karar verilemeyen.",
               "exampleSentences": [
                 "She felt ambivalent about accepting the promotion.",
                 "His ambivalent feelings toward his father shaped much of his adult life.",
@@ -22667,7 +22667,7 @@
               "headword": "cope",
               "frequencyRank": 443,
               "baseDifficulty": 0.64,
-              "definition": "Zor bir durumla veya stresle baş edebilmek, onunla mücadele edip dayanabilmek.",
+              "definition": "Zor veya stresli bir durumun olumsuz etkilerini azaltacak şekilde davranışlarını ve duygularını yönetebilmek.",
               "exampleSentences": [
                 "She found it difficult to cope with the sudden loss of her job.",
                 "Regular exercise helps many people cope with everyday stress.",
@@ -22762,7 +22762,7 @@
               "headword": "compassion",
               "frequencyRank": 448,
               "baseDifficulty": 0.69,
-              "definition": "Başkasının acısını fark edip ona yardım etme isteği duyacak kadar derin bir şefkat ve merhamet duygusu.",
+              "definition": "Başkasının acı çektiğini fark edip bu acıyı hafifletmek için harekete geçme isteği uyandıran duygu.",
               "exampleSentences": [
                 "The nurse treated every patient with remarkable compassion.",
                 "Her compassion for the homeless led her to volunteer every weekend.",
@@ -22781,7 +22781,7 @@
               "headword": "resentment",
               "frequencyRank": 449,
               "baseDifficulty": 0.7,
-              "definition": "Haksızlığa uğradığı düşüncesiyle bir kişiye veya duruma karşı biriken öfke ve kızgınlık duygusu.",
+              "definition": "Haksızlığa uğradığı düşüncesiyle bir kişiye veya duruma karşı zamanla biriken ve içten içe süren olumsuz bir duygu yükü.",
               "exampleSentences": [
                 "Years of feeling overlooked at work slowly turned into resentment.",
                 "She harboured deep resentment toward her sister for years.",
@@ -22809,7 +22809,7 @@
               "headword": "predisposition",
               "frequencyRank": 450,
               "baseDifficulty": 0.71,
-              "definition": "Bir kişinin belirli bir davranışı, hastalığı veya tepkiyi göstermeye genetik veya çevresel nedenlerle yatkın olması.",
+              "definition": "Bir kişinin, genetik veya çevresel etkiler nedeniyle belirli bir davranışı, hastalığı veya tepkiyi diğerlerine göre daha kolay geliştirebilecek bir zemine sahip olması.",
               "exampleSentences": [
                 "Genetics can create a predisposition toward certain mental health conditions.",
                 "Researchers found a predisposition to anxiety running in some families.",
@@ -22828,7 +22828,7 @@
               "headword": "propensity",
               "frequencyRank": 451,
               "baseDifficulty": 0.72,
-              "definition": "Belirli bir şekilde davranma yönünde doğal veya sık görülen eğilim.",
+              "definition": "Bir kişinin belirli bir şekilde davranmaya doğal olarak ve sıkça yönelmesi.",
               "exampleSentences": [
                 "He has a propensity for taking unnecessary risks.",
                 "Her propensity to worry made even small problems feel overwhelming.",
@@ -22847,7 +22847,7 @@
               "headword": "volition",
               "frequencyRank": 452,
               "baseDifficulty": 0.73,
-              "definition": "Bir kişinin dış baskı olmadan, kendi isteği ve iradesiyle bir eylemi seçmesi.",
+              "definition": "Bir kişinin, dışarıdan hiçbir zorlama olmaksızın bir eylemi kendi bilinçli tercihiyle gerçekleştirme kapasitesi.",
               "exampleSentences": [
                 "She left the job entirely of her own volition.",
                 "The therapy aims to strengthen the patient's sense of volition.",
@@ -22885,7 +22885,7 @@
               "headword": "pragmatic",
               "frequencyRank": 454,
               "baseDifficulty": 0.75,
-              "definition": "Soyut ilkelerden çok, pratik sonuçları ve gerçekçi çözümleri esas alan.",
+              "definition": "Soyut ilkeler yerine, bir durumda işe yarayacak somut sonuçları temel alarak karar veren.",
               "exampleSentences": [
                 "Her pragmatic approach to therapy focuses on practical coping strategies.",
                 "He took a pragmatic view of the setback and moved on quickly.",
@@ -22961,7 +22961,7 @@
               "headword": "narcissism",
               "frequencyRank": 458,
               "baseDifficulty": 0.79,
-              "definition": "Kendine aşırı hayranlık duyma ve başkalarının ihtiyaçlarını göz ardı etme eğilimiyle belirginleşen kişilik özelliği.",
+              "definition": "Kişinin kendi önemini ve yeteneklerini gerçekte olduğundan çok daha büyük görüp başkalarının ihtiyaç ve duygularını önemsememesiyle belirginleşen kişilik özelliği.",
               "exampleSentences": [
                 "Mild narcissism is common, but extreme cases can damage relationships.",
                 "The study links narcissism to a constant need for admiration.",
