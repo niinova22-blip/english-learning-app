@@ -180,13 +180,13 @@ final class ContentImporterTests: XCTestCase {
 
         XCTAssertEqual(package.version, 8)
         XCTAssertEqual(package.storeProductID, "com.niinova22.englishapp.package.yds")
-        XCTAssertEqual(package.units.count, 22)
+        XCTAssertEqual(package.units.count, 24)
         let allLessons = package.units.flatMap(\.lessons)
         let allItems = allLessons.flatMap(\.items)
-        XCTAssertEqual(allItems.count, 568)
-        XCTAssertEqual(Set(allItems.map(\.id)).count, 568, "duplicate item ids found")
+        XCTAssertEqual(allItems.count, 688)
+        XCTAssertEqual(Set(allItems.map(\.id)).count, 688, "duplicate item ids found")
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
-        XCTAssertEqual(allItems.filter { $0.type == .vocabulary }.count, 480)
+        XCTAssertEqual(allItems.filter { $0.type == .vocabulary }.count, 600)
         XCTAssertEqual(allItems.filter { $0.type == .grammarPoint }.count, 50)
         XCTAssertEqual(allItems.filter { $0.type == .practiceSet }.count, 38)
 

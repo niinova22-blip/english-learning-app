@@ -33,9 +33,9 @@ final class RealContentSeedingTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
-        XCTAssertEqual(package.units.count, 22)
+        XCTAssertEqual(package.units.count, 24)
         let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
-        XCTAssertEqual(allItems.count, 568)
+        XCTAssertEqual(allItems.count, 688)
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
 
         // Regression guard for the mangled-Turkish-characters bug (Task 6): a bare
@@ -360,7 +360,7 @@ final class RealContentSeedingTests: XCTestCase {
         let packages = try context.fetch(FetchDescriptor<ContentPackage>())
         XCTAssertEqual(packages.count, 1)
         let allItems = packages.flatMap { $0.units.flatMap { $0.lessons.flatMap { $0.items } } }
-        XCTAssertEqual(allItems.count, 568)
+        XCTAssertEqual(allItems.count, 688)
 
         // Calling again must not duplicate content.
         AppModelContainer.seedRealContentIfNeeded(in: context)
@@ -385,12 +385,14 @@ final class RealContentSeedingTests: XCTestCase {
             "yds-vocab2-unit-health-medicine", "yds-vocab2-unit-environment-energy",
             "yds-vocab2-unit-technology-innovation", "yds-vocab2-unit-education-learning",
             "yds-vocab2-unit-history-culture", "yds-vocab2-unit-psychology-behaviour",
+            "yds-vocab2-unit-politics-governance", "yds-vocab2-unit-media-communication",
         ])
         XCTAssertEqual(vocabUnits.map(\.theme), [
             "Health & Medicine", "Environment & Energy", "Technology & Innovation", "Education & Learning",
             "History & Culture", "Psychology & Behaviour",
+            "Politics & Governance", "Media & Communication",
         ])
-        XCTAssertEqual(vocabUnits.map(\.order), [16, 17, 18, 19, 20, 21])
+        XCTAssertEqual(vocabUnits.map(\.order), [16, 17, 18, 19, 20, 21, 22, 23])
 
         var seenHeadwords = Set<String>()
         for unit in vocabUnits {
