@@ -33,9 +33,9 @@ final class RealContentSeedingTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
-        XCTAssertEqual(package.units.count, 16)
+        XCTAssertEqual(package.units.count, 18)
         let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
-        XCTAssertEqual(allItems.count, 208)
+        XCTAssertEqual(allItems.count, 328)
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
 
         // Regression guard for the mangled-Turkish-characters bug (Task 6): a bare
@@ -360,11 +360,54 @@ final class RealContentSeedingTests: XCTestCase {
         let packages = try context.fetch(FetchDescriptor<ContentPackage>())
         XCTAssertEqual(packages.count, 1)
         let allItems = packages.flatMap { $0.units.flatMap { $0.lessons.flatMap { $0.items } } }
-        XCTAssertEqual(allItems.count, 208)
+        XCTAssertEqual(allItems.count, 328)
 
         // Calling again must not duplicate content.
         AppModelContainer.seedRealContentIfNeeded(in: context)
         let packagesAfterSecondCall = try context.fetch(FetchDescriptor<ContentPackage>())
         XCTAssertEqual(packagesAfterSecondCall.count, 1)
+    }
+
+    /// Structure gate for the Slice 7d vocabulary units, read from the shipped app resource.
+    func test_bundledPackage_secondVocabularyUnits_areStructurallySound() throws {
+        guard let url = Bundle.main.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
+            XCTFail("YDSAcademicVocabulary1.json not found in the app bundle")
+            return
+        }
+        let context = try makeInMemoryContext()
+        let package = try ContentImporter.importPackage(from: try Data(contentsOf: url), into: context)
+        try context.save()
+
+        let units = package.units.sorted { $0.order < $1.order }
+        XCTAssertEqual(units.map(\.order), Array(0..<units.count), "unit orders must be contiguous from 0")
+        let vocabUnits = Array(units[16...])
+        XCTAssertEqual(vocabUnits.map(\.id), ["yds-vocab2-unit-health-medicine", "yds-vocab2-unit-environment-energy"])
+        XCTAssertEqual(vocabUnits.map(\.theme), ["Health & Medicine", "Environment & Energy"])
+        XCTAssertEqual(vocabUnits.map(\.order), [16, 17])
+
+        var seenHeadwords = Set<String>()
+        for unit in vocabUnits {
+            XCTAssertEqual(unit.lessons.count, 6, unit.id)
+            let slug = String(unit.id.dropFirst("yds-vocab2-unit-".count))
+            XCTAssertEqual(
+                unit.lessons.sorted { $0.order < $1.order }.map(\.id),
+                (1...6).map { "yds-vocab2-lesson-\(slug)-\($0)" }
+            )
+            for lesson in unit.lessons {
+                XCTAssertEqual(lesson.skill, .vocabulary, lesson.id)
+                XCTAssertEqual(lesson.estimatedDurationMinutes, 5, lesson.id)
+                XCTAssertTrue(lesson.questions.isEmpty, lesson.id)
+                XCTAssertEqual(lesson.items.count, 10, lesson.id)
+                for item in lesson.items {
+                    XCTAssertEqual(item.type, .vocabulary, item.id)
+                    let content = try XCTUnwrap(item.content, item.id)
+                    XCTAssertEqual(content.exampleSentences.count, 3, item.id)
+                    XCTAssertEqual(content.collocations.count, 3, item.id)
+                    XCTAssertFalse(content.translationTR.isEmpty, item.id)
+                    XCTAssertTrue(seenHeadwords.insert(content.headword).inserted, "duplicate headword \(content.headword)")
+                }
+            }
+        }
+        XCTAssertEqual(seenHeadwords.count, vocabUnits.count * 60)
     }
 }

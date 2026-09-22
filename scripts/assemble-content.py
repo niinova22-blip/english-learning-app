@@ -294,7 +294,7 @@ TECH_CARD_TRAP_PHRASE = "En sık düşülen tuzak:"
 
 VOCAB2_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "vocab2")
 # Slice 7d vocabulary units (orders 16-23): one unit document per file, in unit order.
-VOCAB2_FILES = []
+VOCAB2_FILES = ["health-medicine.json", "environment-energy.json"]
 VOCAB2_LESSON_ID_PREFIX = "yds-vocab2-lesson-"
 VOCAB2_LESSON_ID_RE = re.compile(r"^yds-vocab2-lesson-([a-z]+(?:-[a-z]+)*)-([1-6])$")
 VOCAB2_HEADWORD_RE = re.compile(r"^[a-z]+(?:-[a-z]+)*$")

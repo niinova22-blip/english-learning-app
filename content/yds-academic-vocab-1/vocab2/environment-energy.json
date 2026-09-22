@@ -1,0 +1,1189 @@
+{
+  "id": "yds-vocab2-unit-environment-energy",
+  "theme": "Environment & Energy",
+  "order": 17,
+  "lessons": [
+    {
+      "id": "yds-vocab2-lesson-environment-energy-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-pollution",
+          "type": "vocabulary",
+          "headword": "pollution",
+          "frequencyRank": 160,
+          "baseDifficulty": 0.21,
+          "definition": "Havanın, suyun veya toprağın zararlı maddelerle kirletilmesi sonucu ortaya çıkan çevresel bozulma.",
+          "exampleSentences": [
+            "Air pollution in the city has worsened over the last decade.",
+            "Factories are being fined for dumping waste that causes water pollution.",
+            "Efforts to reduce pollution have improved air quality in several regions."
+          ],
+          "translationTR": "kirlilik",
+          "collocations": [
+            "air pollution",
+            "reduce pollution",
+            "cause pollution"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-climate",
+          "type": "vocabulary",
+          "headword": "climate",
+          "frequencyRank": 161,
+          "baseDifficulty": 0.22,
+          "definition": "Belirli bir bölgede uzun yıllar boyunca gözlemlenen ortalama hava koşulları.",
+          "exampleSentences": [
+            "The region's climate has become noticeably warmer over the past fifty years.",
+            "Scientists warn that climate change is accelerating faster than predicted.",
+            "Farmers had to adapt their crops to the changing climate."
+          ],
+          "translationTR": "iklim",
+          "collocations": [
+            "climate change",
+            "changing climate",
+            "harsh climate"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-fossil",
+          "type": "vocabulary",
+          "headword": "fossil",
+          "frequencyRank": 162,
+          "baseDifficulty": 0.23,
+          "definition": "Milyonlarca yıl önce ölmüş canlıların kalıntılarından oluşan; bu kalıntılardan elde edilen (yakıt için).",
+          "exampleSentences": [
+            "Burning fossil fuels releases large amounts of carbon dioxide into the atmosphere.",
+            "Countries are under pressure to reduce their reliance on fossil energy.",
+            "The museum displayed fossil remains found near the coast."
+          ],
+          "translationTR": "fosil",
+          "collocations": [
+            "fossil fuel",
+            "burn fossil fuels",
+            "fossil remains"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-renewable",
+          "type": "vocabulary",
+          "headword": "renewable",
+          "frequencyRank": 163,
+          "baseDifficulty": 0.24,
+          "definition": "Doğada sürekli yenilenebilen, tükenmeyen kaynaklardan elde edilen (enerji için).",
+          "exampleSentences": [
+            "Solar and wind are among the fastest-growing sources of renewable energy.",
+            "The government set a target to generate half its electricity from renewables by 2030.",
+            "Investing in renewable technology can reduce long-term energy costs."
+          ],
+          "translationTR": "yenilenebilir",
+          "collocations": [
+            "renewable energy",
+            "renewable sources",
+            "renewable technology"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-emission",
+          "type": "vocabulary",
+          "headword": "emission",
+          "frequencyRank": 164,
+          "baseDifficulty": 0.25,
+          "definition": "Özellikle motorlu araçlar veya fabrikalar tarafından atmosfere salınan gaz veya madde.",
+          "exampleSentences": [
+            "The new regulations aim to cut carbon emissions from vehicles.",
+            "Factories are required to monitor their emissions of harmful gases.",
+            "Electric cars produce zero emissions while driving."
+          ],
+          "translationTR": "emisyon, salım",
+          "collocations": [
+            "carbon emissions",
+            "reduce emissions",
+            "emission levels"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-habitat",
+          "type": "vocabulary",
+          "headword": "habitat",
+          "frequencyRank": 165,
+          "baseDifficulty": 0.26,
+          "definition": "Bir canlı türünün doğal olarak yaşadığı ve geliştiği ortam.",
+          "exampleSentences": [
+            "Deforestation is destroying the natural habitat of many species.",
+            "The reserve was created to protect the habitat of endangered birds.",
+            "Rising sea temperatures are altering marine habitats around the world."
+          ],
+          "translationTR": "habitat, yaşam alanı",
+          "collocations": [
+            "natural habitat",
+            "destroy a habitat",
+            "protect the habitat"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-species",
+          "type": "vocabulary",
+          "headword": "species",
+          "frequencyRank": 166,
+          "baseDifficulty": 0.27,
+          "definition": "Ortak özellikleri paylaşan ve kendi aralarında üreyebilen canlılar grubu.",
+          "exampleSentences": [
+            "Several species of frog have disappeared from the wetland in recent years.",
+            "The report lists over a hundred species currently at risk of extinction.",
+            "Scientists discovered a new species of beetle in the rainforest."
+          ],
+          "translationTR": "tür",
+          "collocations": [
+            "endangered species",
+            "species of",
+            "protect a species"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-waste",
+          "type": "vocabulary",
+          "headword": "waste",
+          "frequencyRank": 167,
+          "baseDifficulty": 0.28,
+          "definition": "Kullanıldıktan sonra artık gereksiz veya istenmeyen hale gelen ve atılan madde.",
+          "exampleSentences": [
+            "The city introduced new bins to separate recyclable waste from general rubbish.",
+            "Industrial waste from the factory was polluting the nearby river.",
+            "Reducing food waste is one of the simplest ways households can help the environment."
+          ],
+          "translationTR": "atık, çöp",
+          "collocations": [
+            "household waste",
+            "waste disposal",
+            "reduce waste"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-recycle",
+          "type": "vocabulary",
+          "headword": "recycle",
+          "frequencyRank": 168,
+          "baseDifficulty": 0.29,
+          "definition": "Kullanılmış bir malzemeyi yeniden işleyerek tekrar kullanılabilir hale getirmek.",
+          "exampleSentences": [
+            "Most households now recycle paper, glass and plastic separately.",
+            "The council encourages residents to recycle as much waste as possible.",
+            "Old bottles can be recycled into new glass products."
+          ],
+          "translationTR": "geri dönüştürmek",
+          "collocations": [
+            "recycle plastic",
+            "easy to recycle",
+            "recycled materials"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-drought",
+          "type": "vocabulary",
+          "headword": "drought",
+          "frequencyRank": 169,
+          "baseDifficulty": 0.3,
+          "definition": "Uzun süre yeterli yağış olmaması nedeniyle ortaya çıkan ciddi su kıtlığı dönemi.",
+          "exampleSentences": [
+            "The region has suffered its worst drought in fifty years.",
+            "Farmers lost most of their crops during the prolonged drought.",
+            "Water restrictions were introduced as the drought continued into summer."
+          ],
+          "translationTR": "kuraklık",
+          "collocations": [
+            "severe drought",
+            "during a drought",
+            "drought conditions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-environment-energy-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-ecosystem",
+          "type": "vocabulary",
+          "headword": "ecosystem",
+          "frequencyRank": 170,
+          "baseDifficulty": 0.31,
+          "definition": "Belirli bir ortamda birbiriyle ve çevreleriyle etkileşim içinde bulunan canlılar ve cansız unsurların bütünü.",
+          "exampleSentences": [
+            "Coral reefs support one of the most diverse ecosystems on the planet.",
+            "Removing a single species can disrupt the balance of an entire ecosystem.",
+            "The wetland ecosystem provides a natural habitat for hundreds of bird species."
+          ],
+          "translationTR": "ekosistem",
+          "collocations": [
+            "fragile ecosystem",
+            "marine ecosystem",
+            "disrupt an ecosystem"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-biodiversity",
+          "type": "vocabulary",
+          "headword": "biodiversity",
+          "frequencyRank": 171,
+          "baseDifficulty": 0.32,
+          "definition": "Bir bölgedeki veya dünyadaki canlı türlerinin çeşitliliği.",
+          "exampleSentences": [
+            "The rainforest is home to an extraordinary level of biodiversity.",
+            "Loss of biodiversity threatens the stability of ecosystems worldwide.",
+            "The park was established to protect the region's biodiversity."
+          ],
+          "translationTR": "biyoçeşitlilik",
+          "collocations": [
+            "loss of biodiversity",
+            "protect biodiversity",
+            "rich biodiversity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-erosion",
+          "type": "vocabulary",
+          "headword": "erosion",
+          "frequencyRank": 172,
+          "baseDifficulty": 0.33,
+          "definition": "Toprağın veya kayaların rüzgâr, su gibi doğal etkenlerle aşınıp taşınması.",
+          "exampleSentences": [
+            "Deforestation has accelerated soil erosion along the riverbanks.",
+            "Coastal erosion has caused several homes to be abandoned.",
+            "Planting trees can help prevent erosion on steep hillsides."
+          ],
+          "translationTR": "erozyon, aşınma",
+          "collocations": [
+            "soil erosion",
+            "coastal erosion",
+            "prevent erosion"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-conservation",
+          "type": "vocabulary",
+          "headword": "conservation",
+          "frequencyRank": 173,
+          "baseDifficulty": 0.34,
+          "definition": "Doğal kaynakların, türlerin veya ekosistemlerin korunmasına yönelik çaba veya uygulama.",
+          "exampleSentences": [
+            "The organisation funds conservation projects across the region.",
+            "Wildlife conservation depends heavily on local community support.",
+            "Water conservation has become a priority during the drought."
+          ],
+          "translationTR": "koruma (doğa/kaynak koruması)",
+          "collocations": [
+            "wildlife conservation",
+            "conservation project",
+            "water conservation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-sustainable",
+          "type": "vocabulary",
+          "headword": "sustainable",
+          "frequencyRank": 174,
+          "baseDifficulty": 0.35,
+          "definition": "Doğal kaynakları tüketmeden veya çevreye kalıcı zarar vermeden uzun vadede sürdürülebilen.",
+          "exampleSentences": [
+            "The company shifted to more sustainable packaging to reduce plastic waste.",
+            "Sustainable farming methods help preserve soil quality for future generations.",
+            "Cities are investing in sustainable transport to cut emissions."
+          ],
+          "translationTR": "sürdürülebilir",
+          "collocations": [
+            "sustainable development",
+            "sustainable practices",
+            "environmentally sustainable"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-greenhouse",
+          "type": "vocabulary",
+          "headword": "greenhouse",
+          "frequencyRank": 175,
+          "baseDifficulty": 0.36,
+          "definition": "Atmosferde ısıyı tutarak dünyanın ısınmasına yol açan (gaz için); ayrıca bitki yetiştirmek için kullanılan camdan yapı.",
+          "exampleSentences": [
+            "Carbon dioxide is one of the main greenhouse gases contributing to global warming.",
+            "The greenhouse effect traps heat within the Earth's atmosphere.",
+            "Reducing greenhouse gas emissions is central to most climate agreements."
+          ],
+          "translationTR": "sera (gazı); (genel dilde) sera, cam ev",
+          "collocations": [
+            "greenhouse gas",
+            "greenhouse effect",
+            "reduce greenhouse emissions"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-atmosphere",
+          "type": "vocabulary",
+          "headword": "atmosphere",
+          "frequencyRank": 176,
+          "baseDifficulty": 0.37,
+          "definition": "Dünyayı çevreleyen ve çeşitli gazlardan oluşan hava tabakası.",
+          "exampleSentences": [
+            "Carbon emissions accumulate in the atmosphere and trap heat.",
+            "The upper atmosphere protects the Earth from harmful solar radiation.",
+            "Volcanic eruptions can release large amounts of ash into the atmosphere."
+          ],
+          "translationTR": "atmosfer",
+          "collocations": [
+            "upper atmosphere",
+            "release into the atmosphere",
+            "Earth's atmosphere"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-extinction",
+          "type": "vocabulary",
+          "headword": "extinction",
+          "frequencyRank": 177,
+          "baseDifficulty": 0.38,
+          "definition": "Bir türün tüm bireylerinin ortadan kalkması ve tamamen yok olması durumu.",
+          "exampleSentences": [
+            "Hunting and habitat loss pushed the species to the brink of extinction.",
+            "Conservationists are working to prevent the extinction of the rare tortoise.",
+            "Scientists estimate that thousands of species face extinction within decades."
+          ],
+          "translationTR": "yok olma, tükeniş",
+          "collocations": [
+            "brink of extinction",
+            "face extinction",
+            "prevent extinction"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-contamination",
+          "type": "vocabulary",
+          "headword": "contamination",
+          "frequencyRank": 178,
+          "baseDifficulty": 0.39,
+          "definition": "Bir maddenin, suyun veya toprağın zararlı veya istenmeyen bir maddeyle kirlenmesi.",
+          "exampleSentences": [
+            "Contamination of the local water supply forced the town to issue a warning.",
+            "Soil contamination near the factory has affected nearby farmland.",
+            "Strict testing is used to detect contamination before food reaches shelves."
+          ],
+          "translationTR": "kirlenme, bulaşma",
+          "collocations": [
+            "water contamination",
+            "soil contamination",
+            "risk of contamination"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-wildlife",
+          "type": "vocabulary",
+          "headword": "wildlife",
+          "frequencyRank": 179,
+          "baseDifficulty": 0.4,
+          "definition": "Doğal ortamında yaşayan yabani hayvan ve bitkilerin tümü.",
+          "exampleSentences": [
+            "The reserve was created to protect the region's wildlife.",
+            "Poaching remains one of the biggest threats to African wildlife.",
+            "Volunteers help rehabilitate injured wildlife before releasing them back into the wild."
+          ],
+          "translationTR": "yaban hayatı, vahşi yaşam",
+          "collocations": [
+            "protect wildlife",
+            "wildlife reserve",
+            "local wildlife"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-environment-energy-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-solar",
+          "type": "vocabulary",
+          "headword": "solar",
+          "frequencyRank": 180,
+          "baseDifficulty": 0.41,
+          "definition": "Güneşten gelen ışık veya ısı enerjisiyle ilgili olan ya da bu enerjiden elde edilen.",
+          "exampleSentences": [
+            "The house is powered entirely by solar panels installed on the roof.",
+            "Solar energy has become significantly cheaper over the past decade.",
+            "Many countries are expanding their solar power capacity to cut emissions."
+          ],
+          "translationTR": "güneşe ilişkin, solar",
+          "collocations": [
+            "solar energy",
+            "solar panel",
+            "solar power"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-nuclear",
+          "type": "vocabulary",
+          "headword": "nuclear",
+          "frequencyRank": 181,
+          "baseDifficulty": 0.42,
+          "definition": "Atom çekirdeğinin parçalanması veya birleşmesiyle açığa çıkan enerjiyle ilgili olan.",
+          "exampleSentences": [
+            "The country generates a large share of its electricity from nuclear power.",
+            "Concerns about safety have slowed the construction of new nuclear plants.",
+            "Nuclear energy produces far fewer emissions than fossil fuels."
+          ],
+          "translationTR": "nükleer",
+          "collocations": [
+            "nuclear power",
+            "nuclear plant",
+            "nuclear energy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-turbine",
+          "type": "vocabulary",
+          "headword": "turbine",
+          "frequencyRank": 182,
+          "baseDifficulty": 0.43,
+          "definition": "Rüzgâr, su veya buhar gücüyle dönerek mekanik enerjiyi elektrik enerjisine dönüştüren makine.",
+          "exampleSentences": [
+            "Wind turbines line the hillside, generating power for the nearby town.",
+            "Engineers inspected the turbine after it began making an unusual noise.",
+            "The dam uses turbines to convert flowing water into electricity."
+          ],
+          "translationTR": "türbin",
+          "collocations": [
+            "wind turbine",
+            "turbine blades",
+            "power a turbine"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-fuel",
+          "type": "vocabulary",
+          "headword": "fuel",
+          "frequencyRank": 183,
+          "baseDifficulty": 0.44,
+          "definition": "Yakılarak ısı veya enerji üretmek amacıyla kullanılan madde.",
+          "exampleSentences": [
+            "Rising fuel prices have pushed up the cost of transport across the country.",
+            "The car runs on a mixture of petrol and biofuel.",
+            "Countries are looking for alternatives to fuel their economies without fossil sources."
+          ],
+          "translationTR": "yakıt",
+          "collocations": [
+            "fossil fuel",
+            "fuel prices",
+            "fuel consumption"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-electricity",
+          "type": "vocabulary",
+          "headword": "electricity",
+          "frequencyRank": 184,
+          "baseDifficulty": 0.45,
+          "definition": "Aydınlatma, ısıtma ve makinelerin çalıştırılması gibi amaçlarla kullanılan enerji türü.",
+          "exampleSentences": [
+            "The village finally got access to electricity last year.",
+            "Electricity generated from wind farms now supplies a fifth of the country's needs.",
+            "A sudden storm cut off electricity to thousands of homes."
+          ],
+          "translationTR": "elektrik",
+          "collocations": [
+            "generate electricity",
+            "electricity supply",
+            "electricity prices"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-grid",
+          "type": "vocabulary",
+          "headword": "grid",
+          "frequencyRank": 185,
+          "baseDifficulty": 0.46,
+          "definition": "Elektriğin üretim noktalarından kullanıcılara iletilmesini sağlayan bağlantılı şebeke sistemi.",
+          "exampleSentences": [
+            "Solar farms feed excess electricity back into the national grid.",
+            "A single fault caused a blackout across much of the grid.",
+            "Upgrading the grid is essential to support renewable energy sources."
+          ],
+          "translationTR": "şebeke (elektrik şebekesi)",
+          "collocations": [
+            "national grid",
+            "power grid",
+            "connect to the grid"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-efficiency",
+          "type": "vocabulary",
+          "headword": "efficiency",
+          "frequencyRank": 186,
+          "baseDifficulty": 0.47,
+          "definition": "Bir sistemin veya sürecin enerjiyi, zamanı veya kaynakları en az kayıpla kullanabilme derecesi.",
+          "exampleSentences": [
+            "New insulation greatly improved the building's energy efficiency.",
+            "Manufacturers are competing to increase the fuel efficiency of their vehicles.",
+            "Efficiency gains in solar technology have lowered the cost of electricity."
+          ],
+          "translationTR": "verimlilik",
+          "collocations": [
+            "energy efficiency",
+            "improve efficiency",
+            "fuel efficiency"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ozone",
+          "type": "vocabulary",
+          "headword": "ozone",
+          "frequencyRank": 187,
+          "baseDifficulty": 0.48,
+          "definition": "Atmosferin üst katmanlarında bulunan ve zararlı güneş ışınlarını filtreleyen gaz.",
+          "exampleSentences": [
+            "Certain chemicals were found to be depleting the ozone layer.",
+            "International agreements helped the ozone layer begin to recover.",
+            "A hole in the ozone layer was first detected over Antarctica."
+          ],
+          "translationTR": "ozon",
+          "collocations": [
+            "ozone layer",
+            "deplete the ozone",
+            "ozone hole"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-deforestation",
+          "type": "vocabulary",
+          "headword": "deforestation",
+          "frequencyRank": 188,
+          "baseDifficulty": 0.49,
+          "definition": "Ormanların tarım, yerleşim veya diğer amaçlarla geniş ölçekte yok edilmesi.",
+          "exampleSentences": [
+            "Deforestation in the Amazon has accelerated in recent years.",
+            "Widespread deforestation is a major driver of species loss.",
+            "The government introduced measures to slow deforestation in protected areas."
+          ],
+          "translationTR": "ormansızlaşma",
+          "collocations": [
+            "cause deforestation",
+            "widespread deforestation",
+            "slow deforestation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-glacier",
+          "type": "vocabulary",
+          "headword": "glacier",
+          "frequencyRank": 189,
+          "baseDifficulty": 0.5,
+          "definition": "Yüksek dağlarda veya kutup bölgelerinde uzun süre birikip sıkışan buzdan oluşan büyük buz kütlesi.",
+          "exampleSentences": [
+            "The glacier has retreated significantly over the past thirty years.",
+            "Melting glaciers are contributing to rising sea levels around the world.",
+            "Scientists monitor the glacier to track the effects of a warming climate."
+          ],
+          "translationTR": "buzul",
+          "collocations": [
+            "melting glacier",
+            "glacier retreat",
+            "monitor a glacier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-environment-energy-4",
+      "order": 3,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-carbon",
+          "type": "vocabulary",
+          "headword": "carbon",
+          "frequencyRank": 190,
+          "baseDifficulty": 0.51,
+          "definition": "Fosil yakıtların yanmasıyla açığa çıkan ve iklim değişikliğine katkıda bulunan element; genellikle karbon salımı anlamında kullanılır.",
+          "exampleSentences": [
+            "The company pledged to cut its carbon footprint by half within five years.",
+            "Planting trees is one way to offset carbon emissions.",
+            "Governments are taxing carbon output to encourage cleaner industry."
+          ],
+          "translationTR": "karbon",
+          "collocations": [
+            "carbon footprint",
+            "carbon emissions",
+            "reduce carbon"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-mitigate",
+          "type": "vocabulary",
+          "headword": "mitigate",
+          "frequencyRank": 191,
+          "baseDifficulty": 0.52,
+          "definition": "Bir zararı veya olumsuz etkiyi azaltmak ya da hafifletmek için önlem almak.",
+          "exampleSentences": [
+            "Building sea walls can help mitigate the effects of rising water levels.",
+            "The plan outlines steps to mitigate the environmental impact of the project.",
+            "Countries are working together to mitigate the worst effects of climate change."
+          ],
+          "translationTR": "hafifletmek, azaltmak (önlem yoluyla)",
+          "collocations": [
+            "mitigate the effects",
+            "mitigate impact",
+            "help mitigate"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ecological",
+          "type": "vocabulary",
+          "headword": "ecological",
+          "frequencyRank": 192,
+          "baseDifficulty": 0.53,
+          "definition": "Canlıların birbiriyle ve çevreleriyle olan ilişkileriyle, yani ekolojiyle ilgili olan.",
+          "exampleSentences": [
+            "The dam's construction caused serious ecological damage to the river system.",
+            "Scientists warned of the ecological consequences of continued deforestation.",
+            "The report assessed the ecological impact of the new pipeline."
+          ],
+          "translationTR": "ekolojik",
+          "collocations": [
+            "ecological damage",
+            "ecological impact",
+            "ecological balance"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-endangered",
+          "type": "vocabulary",
+          "headword": "endangered",
+          "frequencyRank": 193,
+          "baseDifficulty": 0.54,
+          "definition": "Sayısı çok azaldığı için soyunun tükenme tehlikesiyle karşı karşıya olan (tür için).",
+          "exampleSentences": [
+            "The panda remains one of the world's most endangered species.",
+            "Poaching has pushed several endangered animals closer to extinction.",
+            "The reserve protects habitat for a number of endangered birds."
+          ],
+          "translationTR": "nesli tükenmekte olan, tehlike altında",
+          "collocations": [
+            "endangered species",
+            "critically endangered",
+            "protect endangered animals"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-irrigation",
+          "type": "vocabulary",
+          "headword": "irrigation",
+          "frequencyRank": 194,
+          "baseDifficulty": 0.55,
+          "definition": "Tarım arazilerine yapay yollarla su sağlanması işlemi.",
+          "exampleSentences": [
+            "The farmers rely on irrigation to grow crops in the dry season.",
+            "Poor irrigation practices can lead to soil salinisation over time.",
+            "The government funded a new irrigation system for the valley's farms."
+          ],
+          "translationTR": "sulama",
+          "collocations": [
+            "irrigation system",
+            "drip irrigation",
+            "irrigation canal"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-landfill",
+          "type": "vocabulary",
+          "headword": "landfill",
+          "frequencyRank": 195,
+          "baseDifficulty": 0.56,
+          "definition": "Katı atıkların toprağa gömülerek bertaraf edildiği alan.",
+          "exampleSentences": [
+            "Most household rubbish still ends up in landfill rather than being recycled.",
+            "The city is running out of space for new landfill sites.",
+            "Reducing packaging waste helps keep plastic out of landfill."
+          ],
+          "translationTR": "çöp sahası, düzenli depolama alanı",
+          "collocations": [
+            "landfill site",
+            "end up in landfill",
+            "reduce landfill waste"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-pesticide",
+          "type": "vocabulary",
+          "headword": "pesticide",
+          "frequencyRank": 196,
+          "baseDifficulty": 0.57,
+          "definition": "Zararlı böcekleri, otları veya diğer istenmeyen organizmaları yok etmek için kullanılan kimyasal madde.",
+          "exampleSentences": [
+            "Overuse of pesticide has been linked to declining bee populations.",
+            "Farmers are switching to organic methods to reduce pesticide use.",
+            "Traces of pesticide were found in the local water supply."
+          ],
+          "translationTR": "pestisit, zirai ilaç",
+          "collocations": [
+            "pesticide use",
+            "chemical pesticide",
+            "spray pesticide"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-toxic",
+          "type": "vocabulary",
+          "headword": "toxic",
+          "frequencyRank": 197,
+          "baseDifficulty": 0.58,
+          "definition": "Canlılara zarar verebilecek ya da öldürebilecek nitelikte zehirli olan.",
+          "exampleSentences": [
+            "The factory was fined for releasing toxic chemicals into the river.",
+            "Exposure to toxic fumes can cause long-term health problems.",
+            "The clean-up crew wore protective suits to handle the toxic waste."
+          ],
+          "translationTR": "zehirli, toksik",
+          "collocations": [
+            "toxic chemicals",
+            "toxic waste",
+            "highly toxic"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-sewage",
+          "type": "vocabulary",
+          "headword": "sewage",
+          "frequencyRank": 198,
+          "baseDifficulty": 0.59,
+          "definition": "Evlerden ve fabrikalardan gelen kirli su ve atıkların oluşturduğu karışım.",
+          "exampleSentences": [
+            "Untreated sewage was being discharged directly into the bay.",
+            "The city upgraded its sewage treatment plant to reduce pollution.",
+            "Heavy rains overwhelmed the sewage system, causing flooding in the streets."
+          ],
+          "translationTR": "kanalizasyon, atık su",
+          "collocations": [
+            "sewage treatment",
+            "raw sewage",
+            "sewage system"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-offset",
+          "type": "vocabulary",
+          "headword": "offset",
+          "frequencyRank": 199,
+          "baseDifficulty": 0.6,
+          "definition": "Bir zararı veya etkiyi başka bir olumlu eylemle dengelemek ya da telafi etmek.",
+          "exampleSentences": [
+            "The airline allows passengers to offset the carbon emissions from their flight.",
+            "Planting new forests can help offset the loss of tree cover elsewhere.",
+            "The company invests in renewable projects to offset its own emissions."
+          ],
+          "translationTR": "dengelemek, telafi etmek (özellikle karbon salımı için)",
+          "collocations": [
+            "offset emissions",
+            "carbon offset",
+            "offset the impact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-environment-energy-5",
+      "order": 4,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-biomass",
+          "type": "vocabulary",
+          "headword": "biomass",
+          "frequencyRank": 200,
+          "baseDifficulty": 0.61,
+          "definition": "Enerji üretmek amacıyla kullanılan bitkisel veya hayvansal kökenli organik madde.",
+          "exampleSentences": [
+            "The power plant burns biomass instead of coal to generate electricity.",
+            "Farmers can sell agricultural waste to biomass energy producers.",
+            "Biomass is considered renewable because the plants used can be regrown."
+          ],
+          "translationTR": "biyokütle",
+          "collocations": [
+            "biomass energy",
+            "burn biomass",
+            "biomass power plant"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-geothermal",
+          "type": "vocabulary",
+          "headword": "geothermal",
+          "frequencyRank": 201,
+          "baseDifficulty": 0.62,
+          "definition": "Yerkabuğunun derinliklerindeki ısıdan elde edilen (enerji için).",
+          "exampleSentences": [
+            "Iceland generates much of its electricity from geothermal energy.",
+            "The region's volcanic activity makes it well suited for geothermal power.",
+            "Geothermal heating systems can significantly reduce a building's energy use."
+          ],
+          "translationTR": "jeotermal",
+          "collocations": [
+            "geothermal energy",
+            "geothermal power",
+            "geothermal heating"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-watershed",
+          "type": "vocabulary",
+          "headword": "watershed",
+          "frequencyRank": 202,
+          "baseDifficulty": 0.63,
+          "definition": "Yağan suyun belirli bir nehir veya göle aktığı toprak alanı; su toplama havzası.",
+          "exampleSentences": [
+            "Protecting the watershed helps ensure a clean water supply for the whole region.",
+            "Deforestation upstream affects the entire watershed's water quality.",
+            "The organisation monitors pollution levels across several watersheds."
+          ],
+          "translationTR": "su toplama havzası",
+          "collocations": [
+            "protect the watershed",
+            "watershed area",
+            "watershed management"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-fertiliser",
+          "type": "vocabulary",
+          "headword": "fertiliser",
+          "frequencyRank": 203,
+          "baseDifficulty": 0.64,
+          "definition": "Toprağın verimliliğini artırmak amacıyla eklenen doğal veya kimyasal madde.",
+          "exampleSentences": [
+            "Excess fertiliser running off farmland can pollute nearby rivers.",
+            "Farmers apply fertiliser to boost crop yields before the growing season.",
+            "Organic fertiliser is often preferred over synthetic alternatives."
+          ],
+          "translationTR": "gübre",
+          "collocations": [
+            "chemical fertiliser",
+            "apply fertiliser",
+            "fertiliser runoff"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-hydroelectric",
+          "type": "vocabulary",
+          "headword": "hydroelectric",
+          "frequencyRank": 204,
+          "baseDifficulty": 0.65,
+          "definition": "Akan veya düşen suyun gücünden elektrik üreten (santral veya enerji için).",
+          "exampleSentences": [
+            "The dam operates a large hydroelectric power station.",
+            "Hydroelectric energy accounts for a significant share of the country's electricity.",
+            "Building the hydroelectric plant required flooding an entire valley."
+          ],
+          "translationTR": "hidroelektrik",
+          "collocations": [
+            "hydroelectric power",
+            "hydroelectric dam",
+            "hydroelectric plant"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-arid",
+          "type": "vocabulary",
+          "headword": "arid",
+          "frequencyRank": 205,
+          "baseDifficulty": 0.66,
+          "definition": "Çok az yağış alan, kurak ve verimsiz (iklim veya toprak için).",
+          "exampleSentences": [
+            "Much of the country's interior consists of arid desert land.",
+            "Farmers struggle to grow crops in such an arid climate.",
+            "The plant has adapted to survive in extremely arid conditions."
+          ],
+          "translationTR": "kurak",
+          "collocations": [
+            "arid climate",
+            "arid region",
+            "arid conditions"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-precipitation",
+          "type": "vocabulary",
+          "headword": "precipitation",
+          "frequencyRank": 206,
+          "baseDifficulty": 0.67,
+          "definition": "Yağmur, kar veya dolu şeklinde atmosferden yeryüzüne düşen su.",
+          "exampleSentences": [
+            "Annual precipitation in the region has declined noticeably over the past decade.",
+            "The forecast predicts heavy precipitation later this week.",
+            "Changes in precipitation patterns are affecting crop yields worldwide."
+          ],
+          "translationTR": "yağış",
+          "collocations": [
+            "annual precipitation",
+            "heavy precipitation",
+            "precipitation levels"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-degradation",
+          "type": "vocabulary",
+          "headword": "degradation",
+          "frequencyRank": 207,
+          "baseDifficulty": 0.68,
+          "definition": "Bir çevrenin, toprağın veya ekosistemin kalitesinin zamanla bozulması.",
+          "exampleSentences": [
+            "Soil degradation has reduced the land's ability to support crops.",
+            "Environmental degradation caused by mining has damaged the surrounding forest.",
+            "The report highlights the degradation of coastal wetlands over the past decade."
+          ],
+          "translationTR": "bozulma, tahribat",
+          "collocations": [
+            "environmental degradation",
+            "soil degradation",
+            "land degradation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-indigenous",
+          "type": "vocabulary",
+          "headword": "indigenous",
+          "frequencyRank": 208,
+          "baseDifficulty": 0.69,
+          "definition": "Bir bölgede tarihsel olarak sonradan gelmemiş, oraya özgü ve o bölgede doğal olarak var olan.",
+          "exampleSentences": [
+            "Indigenous communities have managed the forest sustainably for generations.",
+            "The plant is indigenous to the wetlands of the region.",
+            "Indigenous knowledge has proven valuable in conservation efforts."
+          ],
+          "translationTR": "yerli, o bölgeye özgü",
+          "collocations": [
+            "indigenous communities",
+            "indigenous species",
+            "indigenous knowledge"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-biosphere",
+          "type": "vocabulary",
+          "headword": "biosphere",
+          "frequencyRank": 209,
+          "baseDifficulty": 0.7,
+          "definition": "Dünya üzerinde canlıların yaşadığı ve birbirleriyle etkileşimde bulunduğu bölgelerin tümü.",
+          "exampleSentences": [
+            "Human activity is placing unprecedented pressure on the Earth's biosphere.",
+            "The reserve was designated a protected biosphere by international agreement.",
+            "Scientists study how pollutants move through the biosphere."
+          ],
+          "translationTR": "biyosfer",
+          "collocations": [
+            "Earth's biosphere",
+            "protected biosphere",
+            "damage the biosphere"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-environment-energy-6",
+      "order": 5,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-depletion",
+          "type": "vocabulary",
+          "headword": "depletion",
+          "frequencyRank": 210,
+          "baseDifficulty": 0.71,
+          "definition": "Bir kaynağın miktarının aşırı kullanım sonucu giderek azalması veya tükenmesi.",
+          "exampleSentences": [
+            "The depletion of fish stocks has forced many fishing communities to change trade.",
+            "Ozone depletion was a major environmental concern in the 1980s.",
+            "Continued depletion of groundwater threatens the region's water supply."
+          ],
+          "translationTR": "tükenme, azalma",
+          "collocations": [
+            "resource depletion",
+            "ozone depletion",
+            "depletion of stocks"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-finite",
+          "type": "vocabulary",
+          "headword": "finite",
+          "frequencyRank": 211,
+          "baseDifficulty": 0.72,
+          "definition": "Sınırlı miktarda olan ve tükenebilen, sonsuz olmayan.",
+          "exampleSentences": [
+            "Fossil fuels are a finite resource that cannot be replenished quickly.",
+            "Planners must recognise that the region's water supply is finite.",
+            "The Earth has only a finite amount of arable land."
+          ],
+          "translationTR": "sınırlı, sonlu",
+          "collocations": [
+            "finite resource",
+            "finite supply",
+            "finite amount"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-exploit",
+          "type": "vocabulary",
+          "headword": "exploit",
+          "frequencyRank": 212,
+          "baseDifficulty": 0.73,
+          "definition": "Bir kaynağı, genellikle aşırı veya sorumsuz biçimde, kendi çıkarı için kullanmak.",
+          "exampleSentences": [
+            "Companies have been criticised for exploiting natural resources without regard for the environment.",
+            "The region's forests have been exploited for timber for over a century.",
+            "New technology allows energy companies to exploit deposits that were once inaccessible."
+          ],
+          "translationTR": "sömürmek, aşırı kullanmak (kaynak için)",
+          "collocations": [
+            "exploit resources",
+            "exploit natural resources",
+            "heavily exploited"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-preservation",
+          "type": "vocabulary",
+          "headword": "preservation",
+          "frequencyRank": 213,
+          "baseDifficulty": 0.74,
+          "definition": "Doğal bir alanın, türün veya kaynağın bozulmadan korunması.",
+          "exampleSentences": [
+            "The preservation of wetlands is essential for maintaining local biodiversity.",
+            "Volunteers dedicate their time to the preservation of the coastal forest.",
+            "Preservation efforts have helped bring several species back from the brink."
+          ],
+          "translationTR": "koruma, muhafaza",
+          "collocations": [
+            "preservation of",
+            "preservation efforts",
+            "habitat preservation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-resilient",
+          "type": "vocabulary",
+          "headword": "resilient",
+          "frequencyRank": 214,
+          "baseDifficulty": 0.75,
+          "definition": "Zorlu koşullara veya değişime dayanabilen, kolayca zarar görmeyen.",
+          "exampleSentences": [
+            "Coral reefs that are exposed to moderate stress can become more resilient over time.",
+            "Farmers are adopting crops that are more resilient to drought.",
+            "A resilient ecosystem can recover more quickly after a natural disaster."
+          ],
+          "translationTR": "dayanıklı, dirençli",
+          "collocations": [
+            "resilient ecosystem",
+            "resilient to drought",
+            "become more resilient"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-vulnerable",
+          "type": "vocabulary",
+          "headword": "vulnerable",
+          "frequencyRank": 215,
+          "baseDifficulty": 0.76,
+          "definition": "Zarar görmeye veya olumsuz etkilenmeye açık, savunmasız.",
+          "exampleSentences": [
+            "Low-lying coastal areas are especially vulnerable to rising sea levels.",
+            "Small island nations remain among the most vulnerable to climate change.",
+            "The species is vulnerable because its habitat continues to shrink."
+          ],
+          "translationTR": "savunmasız, kırılgan",
+          "collocations": [
+            "vulnerable to",
+            "highly vulnerable",
+            "particularly vulnerable"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-adverse",
+          "type": "vocabulary",
+          "headword": "adverse",
+          "frequencyRank": 216,
+          "baseDifficulty": 0.77,
+          "definition": "Zararlı veya olumsuz sonuçlar doğuran.",
+          "exampleSentences": [
+            "The chemical spill had an adverse effect on marine life in the bay.",
+            "Adverse weather conditions delayed the construction of the wind farm.",
+            "Scientists documented the adverse impact of the drought on local agriculture."
+          ],
+          "translationTR": "olumsuz, zararlı",
+          "collocations": [
+            "adverse effect",
+            "adverse impact",
+            "adverse conditions"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-replenish",
+          "type": "vocabulary",
+          "headword": "replenish",
+          "frequencyRank": 217,
+          "baseDifficulty": 0.78,
+          "definition": "Azalmış veya tükenmiş bir kaynağı yeniden doldurmak veya tamamlamak.",
+          "exampleSentences": [
+            "Heavy winter rains helped replenish the reservoir after months of drought.",
+            "Sustainable fishing gives fish populations time to replenish.",
+            "The aquifer takes decades to replenish once it has been drained."
+          ],
+          "translationTR": "yeniden doldurmak, tazelemek",
+          "collocations": [
+            "replenish stocks",
+            "replenish supplies",
+            "slowly replenish"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-catastrophic",
+          "type": "vocabulary",
+          "headword": "catastrophic",
+          "frequencyRank": 218,
+          "baseDifficulty": 0.79,
+          "definition": "Çok büyük zarara veya yıkıma yol açan, felaket niteliğinde.",
+          "exampleSentences": [
+            "The oil spill had a catastrophic effect on the coastal ecosystem.",
+            "Scientists warned that unchecked emissions could lead to catastrophic climate change.",
+            "The flood was catastrophic for farmers who lost their entire harvest."
+          ],
+          "translationTR": "yıkıcı, felaket niteliğinde",
+          "collocations": [
+            "catastrophic effect",
+            "catastrophic consequences",
+            "catastrophic damage"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-hazardous",
+          "type": "vocabulary",
+          "headword": "hazardous",
+          "frequencyRank": 219,
+          "baseDifficulty": 0.8,
+          "definition": "İnsan sağlığına veya çevreye ciddi zarar verme riski taşıyan, tehlikeli.",
+          "exampleSentences": [
+            "The factory was fined for improperly disposing of hazardous waste.",
+            "Workers wore protective gear while handling hazardous chemicals.",
+            "The abandoned site was declared hazardous and closed to the public."
+          ],
+          "translationTR": "tehlikeli, zararlı",
+          "collocations": [
+            "hazardous waste",
+            "hazardous materials",
+            "hazardous chemicals"
+          ]
+        }
+      ]
+    }
+  ]
+}
