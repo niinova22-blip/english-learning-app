@@ -18192,6 +18192,2408 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yds-vocab2-unit-technology-innovation",
+      "theme": "Technology & Innovation",
+      "order": 18,
+      "lessons": [
+        {
+          "id": "yds-vocab2-lesson-technology-innovation-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "title": "Technology & Innovation · 1",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-technology",
+              "type": "vocabulary",
+              "headword": "technology",
+              "frequencyRank": 220,
+              "baseDifficulty": 0.21,
+              "definition": "Bilimsel bilginin pratik sorunları çözmek veya yeni araçlar geliştirmek için uygulanmasıyla ortaya çıkan alet, yöntem ve sistemlerin bütünü.",
+              "exampleSentences": [
+                "New technology has transformed the way people communicate with one another.",
+                "The company invests heavily in technology to stay ahead of its competitors.",
+                "Many jobs today require at least a basic understanding of modern technology."
+              ],
+              "translationTR": "teknoloji",
+              "collocations": [
+                "modern technology",
+                "technology company",
+                "advances in technology"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-device",
+              "type": "vocabulary",
+              "headword": "device",
+              "frequencyRank": 221,
+              "baseDifficulty": 0.22,
+              "definition": "Belirli bir işi yapmak üzere tasarlanmış, genellikle elektronik veya mekanik bir alet.",
+              "exampleSentences": [
+                "The hospital uses a small device to monitor patients' heart rates continuously.",
+                "She charged her device overnight so it would be ready for the meeting.",
+                "Engineers are designing a device that can detect gas leaks automatically."
+              ],
+              "translationTR": "cihaz, alet",
+              "collocations": [
+                "electronic device",
+                "device that",
+                "portable device"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-network",
+              "type": "vocabulary",
+              "headword": "network",
+              "frequencyRank": 222,
+              "baseDifficulty": 0.23,
+              "definition": "Birbirine bağlı bilgisayarların, kişilerin veya sistemlerin bilgi ya da kaynak paylaşımı için oluşturduğu yapı.",
+              "exampleSentences": [
+                "The university's computer network crashed during the exam period.",
+                "She built a wide network of contacts while working in the industry.",
+                "Data travels across the network almost instantly once the connection is established."
+              ],
+              "translationTR": "ağ",
+              "collocations": [
+                "computer network",
+                "network of",
+                "connect to a network"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-software",
+              "type": "vocabulary",
+              "headword": "software",
+              "frequencyRank": 223,
+              "baseDifficulty": 0.24,
+              "definition": "Bir bilgisayarın veya cihazın çalışmasını sağlayan program ve verilerin tümü.",
+              "exampleSentences": [
+                "The company released new software to fix the security flaws in its system.",
+                "Engineers spent months developing software that could analyse the data automatically.",
+                "Outdated software often makes a computer more vulnerable to attacks."
+              ],
+              "translationTR": "yazılım",
+              "collocations": [
+                "software development",
+                "install software",
+                "software update"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-internet",
+              "type": "vocabulary",
+              "headword": "internet",
+              "frequencyRank": 224,
+              "baseDifficulty": 0.25,
+              "definition": "Dünya çapındaki bilgisayarları birbirine bağlayan ve bilgi paylaşımını sağlayan küresel ağ.",
+              "exampleSentences": [
+                "Access to the internet has changed how students research their assignments.",
+                "The village finally got a reliable internet connection last year.",
+                "Many businesses now depend entirely on the internet to reach their customers."
+              ],
+              "translationTR": "internet",
+              "collocations": [
+                "internet connection",
+                "access the internet",
+                "internet access"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-digital",
+              "type": "vocabulary",
+              "headword": "digital",
+              "frequencyRank": 225,
+              "baseDifficulty": 0.26,
+              "definition": "Bilginin elektronik ortamda sayısal kodlar biçiminde işlendiği veya saklandığı.",
+              "exampleSentences": [
+                "The library has converted most of its archive into digital format.",
+                "Digital technology has made it easier to share information instantly.",
+                "The newspaper shifted from print to a fully digital edition."
+              ],
+              "translationTR": "dijital, sayısal",
+              "collocations": [
+                "digital technology",
+                "go digital",
+                "digital format"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-online",
+              "type": "vocabulary",
+              "headword": "online",
+              "frequencyRank": 226,
+              "baseDifficulty": 0.27,
+              "definition": "İnternet üzerinden bağlantılı veya erişilebilir olan.",
+              "exampleSentences": [
+                "More students are choosing to complete their degrees online.",
+                "The course materials are all available online for registered users.",
+                "She spends several hours online researching before making a purchase."
+              ],
+              "translationTR": "çevrimiçi",
+              "collocations": [
+                "online course",
+                "shop online",
+                "available online"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-robot",
+              "type": "vocabulary",
+              "headword": "robot",
+              "frequencyRank": 227,
+              "baseDifficulty": 0.28,
+              "definition": "Belirli görevleri insan müdahalesi olmadan veya sınırlı müdahaleyle yerine getirebilen programlanabilir makine.",
+              "exampleSentences": [
+                "The factory installed a robot to handle the most repetitive tasks.",
+                "Researchers are teaching the robot to recognise different objects on its own.",
+                "A small robot now delivers meals directly to hospital patients."
+              ],
+              "translationTR": "robot",
+              "collocations": [
+                "industrial robot",
+                "programme a robot",
+                "robot arm"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-screen",
+              "type": "vocabulary",
+              "headword": "screen",
+              "frequencyRank": 228,
+              "baseDifficulty": 0.29,
+              "definition": "Görüntü veya bilginin gösterildiği düz, genellikle elektronik yüzey.",
+              "exampleSentences": [
+                "The screen went black just as the presentation was about to begin.",
+                "Reading from a screen for too long can strain your eyes.",
+                "The new phone has a much larger screen than the previous model."
+              ],
+              "translationTR": "ekran",
+              "collocations": [
+                "touch screen",
+                "on screen",
+                "screen size"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-invent",
+              "type": "vocabulary",
+              "headword": "invent",
+              "frequencyRank": 229,
+              "baseDifficulty": 0.3,
+              "definition": "Daha önce var olmayan bir şeyi ilk kez tasarlayıp ortaya çıkarmak.",
+              "exampleSentences": [
+                "The engineer invented a device that could purify water without electricity.",
+                "Nobody knows exactly who invented the first practical light bulb.",
+                "Students were encouraged to invent their own simple machines for the project."
+              ],
+              "translationTR": "icat etmek",
+              "collocations": [
+                "invent a device",
+                "invent a machine",
+                "newly invented"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-technology-innovation-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "title": "Technology & Innovation · 2",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-innovation",
+              "type": "vocabulary",
+              "headword": "innovation",
+              "frequencyRank": 230,
+              "baseDifficulty": 0.31,
+              "definition": "Yeni bir fikir, yöntem veya ürünün geliştirilip uygulamaya konulması.",
+              "exampleSentences": [
+                "The award recognises innovation in renewable energy design.",
+                "Constant innovation has kept the company competitive in a crowded market.",
+                "Her team is responsible for driving innovation across all our products."
+              ],
+              "translationTR": "yenilik, inovasyon",
+              "collocations": [
+                "drive innovation",
+                "technological innovation",
+                "innovation in"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-automate",
+              "type": "vocabulary",
+              "headword": "automate",
+              "frequencyRank": 231,
+              "baseDifficulty": 0.32,
+              "definition": "Bir işlemi insan müdahalesi olmadan makine veya yazılım aracılığıyla gerçekleştirmek.",
+              "exampleSentences": [
+                "The factory decided to automate its packaging line to cut costs.",
+                "Many routine office tasks can now be automated with simple software.",
+                "The system automates the process of sorting customer complaints by topic."
+              ],
+              "translationTR": "otomatikleştirmek",
+              "collocations": [
+                "automate a process",
+                "fully automated",
+                "automate tasks"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-algorithm",
+              "type": "vocabulary",
+              "headword": "algorithm",
+              "frequencyRank": 232,
+              "baseDifficulty": 0.33,
+              "definition": "Bir problemi çözmek için izlenen, adım adım tanımlanmış işlem kuralları dizisi.",
+              "exampleSentences": [
+                "The search engine's algorithm ranks pages according to hundreds of factors.",
+                "Researchers designed a new algorithm to detect fraud more accurately.",
+                "The app's recommendation algorithm learns from what you watch and click."
+              ],
+              "translationTR": "algoritma",
+              "collocations": [
+                "search algorithm",
+                "design an algorithm",
+                "algorithm that"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-database",
+              "type": "vocabulary",
+              "headword": "database",
+              "frequencyRank": 233,
+              "baseDifficulty": 0.34,
+              "definition": "Bilgisayarda düzenli biçimde saklanan ve kolayca erişilip güncellenebilen veri topluluğu.",
+              "exampleSentences": [
+                "The company keeps all customer records in a single central database.",
+                "Researchers searched the database for studies published in the last decade.",
+                "The new system will make it easier to update the database in real time."
+              ],
+              "translationTR": "veritabanı",
+              "collocations": [
+                "central database",
+                "search a database",
+                "update a database"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-encryption",
+              "type": "vocabulary",
+              "headword": "encryption",
+              "frequencyRank": 234,
+              "baseDifficulty": 0.35,
+              "definition": "Bilgiyi yetkisiz kişiler tarafından okunamayacak şekilde şifreleyerek koruma yöntemi.",
+              "exampleSentences": [
+                "The bank uses strong encryption to protect its customers' financial data.",
+                "Without encryption, messages sent over public networks can easily be intercepted.",
+                "The app added end-to-end encryption after users raised privacy concerns."
+              ],
+              "translationTR": "şifreleme",
+              "collocations": [
+                "strong encryption",
+                "data encryption",
+                "encryption key"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-platform",
+              "type": "vocabulary",
+              "headword": "platform",
+              "frequencyRank": 235,
+              "baseDifficulty": 0.36,
+              "definition": "Yazılım uygulamalarının üzerinde çalıştığı veya kullanıcıların bir hizmete eriştiği temel sistem ya da ortam.",
+              "exampleSentences": [
+                "The company built its own platform to host and sell online courses.",
+                "Developers can create new applications for the platform using a public toolkit.",
+                "The video-sharing platform now reaches millions of users worldwide."
+              ],
+              "translationTR": "platform",
+              "collocations": [
+                "online platform",
+                "build a platform",
+                "platform for"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-interface",
+              "type": "vocabulary",
+              "headword": "interface",
+              "frequencyRank": 236,
+              "baseDifficulty": 0.37,
+              "definition": "Bir kullanıcının bir sistemle etkileşime girmesini sağlayan ekran, düğme veya komutlar bütünü.",
+              "exampleSentences": [
+                "The new interface is much simpler than the version it replaced.",
+                "Designers tested several interfaces before choosing the most intuitive one.",
+                "A clear interface helps users find what they need without confusion."
+              ],
+              "translationTR": "arayüz",
+              "collocations": [
+                "user interface",
+                "simple interface",
+                "design an interface"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-virtual",
+              "type": "vocabulary",
+              "headword": "virtual",
+              "frequencyRank": 237,
+              "baseDifficulty": 0.38,
+              "definition": "Fiziksel olarak var olmayan ancak bilgisayar teknolojisi aracılığıyla gerçekmiş gibi deneyimlenen.",
+              "exampleSentences": [
+                "Students attended a virtual tour of the museum from their classroom.",
+                "The company held its annual conference in a virtual format this year.",
+                "Virtual reality allows users to explore places they could never visit in person."
+              ],
+              "translationTR": "sanal",
+              "collocations": [
+                "virtual reality",
+                "virtual tour",
+                "virtual environment"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-wireless",
+              "type": "vocabulary",
+              "headword": "wireless",
+              "frequencyRank": 238,
+              "baseDifficulty": 0.39,
+              "definition": "Kablo kullanmadan radyo dalgalarıyla veri ileten veya bağlantı kuran.",
+              "exampleSentences": [
+                "The office switched entirely to wireless internet last spring.",
+                "Wireless headphones have become far more common than wired ones.",
+                "The device connects to the printer wirelessly, without any cables."
+              ],
+              "translationTR": "kablosuz",
+              "collocations": [
+                "wireless connection",
+                "wireless network",
+                "wireless headphones"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-prototype",
+              "type": "vocabulary",
+              "headword": "prototype",
+              "frequencyRank": 239,
+              "baseDifficulty": 0.4,
+              "definition": "Bir ürünün seri üretime geçmeden önce test edilmek üzere yapılan ilk örneği.",
+              "exampleSentences": [
+                "Engineers built a working prototype before seeking investment for the product.",
+                "The first prototype failed several safety tests and had to be redesigned.",
+                "It took the team almost a year to turn the idea into a working prototype."
+              ],
+              "translationTR": "prototip",
+              "collocations": [
+                "working prototype",
+                "build a prototype",
+                "test a prototype"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-technology-innovation-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "title": "Technology & Innovation · 3",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-bandwidth",
+              "type": "vocabulary",
+              "headword": "bandwidth",
+              "frequencyRank": 240,
+              "baseDifficulty": 0.41,
+              "definition": "Bir ağın belirli bir sürede taşıyabildiği veri miktarını ifade eden kapasite ölçüsü.",
+              "exampleSentences": [
+                "The office needed more bandwidth to support video calls for every employee.",
+                "Streaming high-definition video consumes a large amount of bandwidth.",
+                "The provider promised extra bandwidth during peak evening hours."
+              ],
+              "translationTR": "bant genişliği",
+              "collocations": [
+                "limited bandwidth",
+                "consume bandwidth",
+                "increase bandwidth"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-circuit",
+              "type": "vocabulary",
+              "headword": "circuit",
+              "frequencyRank": 241,
+              "baseDifficulty": 0.42,
+              "definition": "Elektrik akımının belirli bir yol boyunca aktığı, birbirine bağlı elemanlardan oluşan sistem.",
+              "exampleSentences": [
+                "A short circuit caused the machine to shut down suddenly.",
+                "Engineers designed a smaller circuit to fit inside the compact device.",
+                "The technician traced the fault back to a single damaged circuit."
+              ],
+              "translationTR": "devre",
+              "collocations": [
+                "electrical circuit",
+                "short circuit",
+                "circuit board"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-hardware",
+              "type": "vocabulary",
+              "headword": "hardware",
+              "frequencyRank": 242,
+              "baseDifficulty": 0.43,
+              "definition": "Bir bilgisayar veya elektronik sistemin fiziksel parçalarının tümü.",
+              "exampleSentences": [
+                "The laptop's hardware could not support the demands of the new software.",
+                "The company upgraded its hardware to speed up processing times.",
+                "A faulty piece of hardware was responsible for the repeated crashes."
+              ],
+              "translationTR": "donanım",
+              "collocations": [
+                "computer hardware",
+                "upgrade hardware",
+                "hardware failure"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-upgrade",
+              "type": "vocabulary",
+              "headword": "upgrade",
+              "frequencyRank": 243,
+              "baseDifficulty": 0.44,
+              "definition": "Bir sistemi veya cihazı daha gelişmiş, daha yeni bir sürümüyle değiştirmek.",
+              "exampleSentences": [
+                "The company decided to upgrade its servers to handle the extra traffic.",
+                "Customers who upgrade to the latest model receive a discount on trade-in.",
+                "The free upgrade added several new features to the existing software."
+              ],
+              "translationTR": "yükseltmek; yükseltme",
+              "collocations": [
+                "upgrade a system",
+                "software upgrade",
+                "free upgrade"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-compatible",
+              "type": "vocabulary",
+              "headword": "compatible",
+              "frequencyRank": 244,
+              "baseDifficulty": 0.45,
+              "definition": "Başka bir sistem, cihaz veya programla birlikte sorunsuz çalışabilen.",
+              "exampleSentences": [
+                "The new printer is compatible with almost every operating system.",
+                "Make sure the charger is compatible with your phone before you buy it.",
+                "Older files are not always compatible with the latest version of the software."
+              ],
+              "translationTR": "uyumlu",
+              "collocations": [
+                "compatible with",
+                "fully compatible",
+                "backward compatible"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-obsolete",
+              "type": "vocabulary",
+              "headword": "obsolete",
+              "frequencyRank": 245,
+              "baseDifficulty": 0.46,
+              "definition": "Daha yeni ve gelişmiş bir alternatif ortaya çıktığı için artık kullanılmayan veya kullanılmaması gereken.",
+              "exampleSentences": [
+                "The rapid pace of innovation makes some devices obsolete within a few years.",
+                "The factory replaced its obsolete machinery with automated equipment.",
+                "Many skills once considered essential have become obsolete in the digital age."
+              ],
+              "translationTR": "eskimiş, kullanım dışı kalmış",
+              "collocations": [
+                "obsolete technology",
+                "become obsolete",
+                "render obsolete"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-integrate",
+              "type": "vocabulary",
+              "headword": "integrate",
+              "frequencyRank": 246,
+              "baseDifficulty": 0.47,
+              "definition": "Farklı parçaları veya sistemleri birbiriyle uyumlu, tek bir bütün hâline getirmek.",
+              "exampleSentences": [
+                "The company plans to integrate the two software platforms into one system.",
+                "New employees are given training to help them integrate into the team.",
+                "The device integrates several functions that once required separate tools."
+              ],
+              "translationTR": "bütünleştirmek, entegre etmek",
+              "collocations": [
+                "integrate into",
+                "fully integrated",
+                "integrate systems"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-simulate",
+              "type": "vocabulary",
+              "headword": "simulate",
+              "frequencyRank": 247,
+              "baseDifficulty": 0.48,
+              "definition": "Gerçek bir durumu veya süreci, bilgisayar ya da model aracılığıyla taklit ederek incelemek.",
+              "exampleSentences": [
+                "Engineers used software to simulate how the bridge would react to strong winds.",
+                "The training programme simulates emergency situations so pilots can practise safely.",
+                "Scientists ran the model several times to simulate different climate scenarios."
+              ],
+              "translationTR": "simüle etmek, benzetim yapmak",
+              "collocations": [
+                "simulate a scenario",
+                "simulate conditions",
+                "computer simulation"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-sensor",
+              "type": "vocabulary",
+              "headword": "sensor",
+              "frequencyRank": 248,
+              "baseDifficulty": 0.49,
+              "definition": "Çevresindeki fiziksel değişiklikleri (ışık, ısı, hareket gibi) algılayıp bunları sinyale dönüştüren cihaz.",
+              "exampleSentences": [
+                "A motion sensor turns the lights on automatically when someone enters the room.",
+                "The car's sensors detect obstacles and warn the driver in time.",
+                "Engineers placed sensors throughout the bridge to monitor its structural condition."
+              ],
+              "translationTR": "sensör, algılayıcı",
+              "collocations": [
+                "motion sensor",
+                "sensor detects",
+                "install a sensor"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-biometric",
+              "type": "vocabulary",
+              "headword": "biometric",
+              "frequencyRank": 249,
+              "baseDifficulty": 0.5,
+              "definition": "Parmak izi, yüz veya ses gibi kişiye özgü fiziksel özelliklere dayanarak kimlik doğrulayan.",
+              "exampleSentences": [
+                "The airport introduced biometric checks to speed up passport control.",
+                "Many phones now unlock using biometric data such as a fingerprint.",
+                "The company installed biometric scanners at the entrance for extra security."
+              ],
+              "translationTR": "biyometrik",
+              "collocations": [
+                "biometric data",
+                "biometric scanner",
+                "biometric security"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-technology-innovation-4",
+          "order": 3,
+          "estimatedDurationMinutes": 5,
+          "title": "Technology & Innovation · 4",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-disrupt",
+              "type": "vocabulary",
+              "headword": "disrupt",
+              "frequencyRank": 250,
+              "baseDifficulty": 0.51,
+              "definition": "Var olan bir düzeni veya işleyişi köklü biçimde değiştirip bozmak.",
+              "exampleSentences": [
+                "The new app has disrupted the entire taxi industry within a few years.",
+                "A power failure disrupted production at the factory for several hours.",
+                "Streaming services have disrupted the way people watch television."
+              ],
+              "translationTR": "altüst etmek, kesintiye uğratmak",
+              "collocations": [
+                "disrupt an industry",
+                "disrupt the market",
+                "cause disruption"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-scalable",
+              "type": "vocabulary",
+              "headword": "scalable",
+              "frequencyRank": 251,
+              "baseDifficulty": 0.52,
+              "definition": "Talep arttıkça büyüklüğü veya kapasitesi kolayca artırılabilen.",
+              "exampleSentences": [
+                "The start-up needed a more scalable system to handle its growing user base.",
+                "Cloud computing makes it easier to build scalable applications.",
+                "Investors were impressed by how scalable the company's business model was."
+              ],
+              "translationTR": "ölçeklenebilir",
+              "collocations": [
+                "scalable solution",
+                "highly scalable",
+                "scalable system"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-proprietary",
+              "type": "vocabulary",
+              "headword": "proprietary",
+              "frequencyRank": 252,
+              "baseDifficulty": 0.53,
+              "definition": "Bir şirkete veya kişiye ait olan, izinsiz kullanılamayan (yazılım, teknoloji vb. için).",
+              "exampleSentences": [
+                "The device runs on proprietary software that only the manufacturer can update.",
+                "Competitors cannot copy the design because it relies on proprietary technology.",
+                "The company keeps its manufacturing process proprietary to protect its advantage."
+              ],
+              "translationTR": "özel mülkiyete ait, tescilli",
+              "collocations": [
+                "proprietary software",
+                "proprietary technology",
+                "proprietary system"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-patent",
+              "type": "vocabulary",
+              "headword": "patent",
+              "frequencyRank": 253,
+              "baseDifficulty": 0.54,
+              "definition": "Bir buluşun sahibine belirli bir süre boyunca onu ticari olarak kullanma hakkını veren resmi belge.",
+              "exampleSentences": [
+                "The inventor filed a patent to protect her new design.",
+                "The company holds several patents for its battery technology.",
+                "It can take years for a patent application to be approved."
+              ],
+              "translationTR": "patent",
+              "collocations": [
+                "file a patent",
+                "hold a patent",
+                "patent application"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-licence",
+              "type": "vocabulary",
+              "headword": "licence",
+              "frequencyRank": 254,
+              "baseDifficulty": 0.55,
+              "definition": "Bir ürünü, yazılımı veya hakkı belirli koşullar altında kullanma iznini gösteren resmi belge.",
+              "exampleSentences": [
+                "The company purchased a licence to use the software across all its offices.",
+                "Without a valid licence, distributing the film would be illegal.",
+                "The university holds a licence that allows students to access the journal database."
+              ],
+              "translationTR": "lisans, ruhsat",
+              "collocations": [
+                "software licence",
+                "hold a licence",
+                "licence to"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-breakthrough",
+              "type": "vocabulary",
+              "headword": "breakthrough",
+              "frequencyRank": 255,
+              "baseDifficulty": 0.56,
+              "definition": "Bir alanda uzun süredir aranan çözüme ulaşılmasını sağlayan önemli buluş veya gelişme.",
+              "exampleSentences": [
+                "Scientists announced a major breakthrough in battery storage technology.",
+                "The breakthrough came after years of failed experiments.",
+                "Researchers hope the discovery will lead to a breakthrough in treating the disease."
+              ],
+              "translationTR": "çığır açan gelişme, atılım",
+              "collocations": [
+                "major breakthrough",
+                "scientific breakthrough",
+                "breakthrough in"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-pioneer",
+              "type": "vocabulary",
+              "headword": "pioneer",
+              "frequencyRank": 256,
+              "baseDifficulty": 0.57,
+              "definition": "Bir alanda ilk kez yeni bir yöntem veya fikir geliştirip yolu açan kişi ya da kuruluş.",
+              "exampleSentences": [
+                "She is widely regarded as a pioneer in the field of artificial intelligence.",
+                "The company pioneered a new method of recycling electronic waste.",
+                "Early pioneers of the internet could not have predicted how it would grow."
+              ],
+              "translationTR": "öncü; öncülük etmek",
+              "collocations": [
+                "pioneer a method",
+                "pioneer in",
+                "early pioneer"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-outsource",
+              "type": "vocabulary",
+              "headword": "outsource",
+              "frequencyRank": 257,
+              "baseDifficulty": 0.58,
+              "definition": "Bir şirketin belirli bir işi kendi bünyesi yerine dış bir firmaya yaptırması.",
+              "exampleSentences": [
+                "The firm decided to outsource its customer service to another country.",
+                "Many companies outsource software development to reduce costs.",
+                "Outsourcing production overseas raised concerns among local workers."
+              ],
+              "translationTR": "dışarıdan hizmet almak, taşerona vermek",
+              "collocations": [
+                "outsource production",
+                "outsource to",
+                "outsourcing costs"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-streamline",
+              "type": "vocabulary",
+              "headword": "streamline",
+              "frequencyRank": 258,
+              "baseDifficulty": 0.59,
+              "definition": "Bir süreci daha basit, hızlı ve verimli hâle getirmek.",
+              "exampleSentences": [
+                "The new software streamlined the entire ordering process.",
+                "Management is looking for ways to streamline communication between departments.",
+                "Streamlining the approval process cut the waiting time in half."
+              ],
+              "translationTR": "sadeleştirmek, verimli hale getirmek",
+              "collocations": [
+                "streamline a process",
+                "streamline operations",
+                "streamlined system"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-refine",
+              "type": "vocabulary",
+              "headword": "refine",
+              "frequencyRank": 259,
+              "baseDifficulty": 0.6,
+              "definition": "Bir şeyi küçük değişikliklerle daha iyi, daha kusursuz hâle getirmek.",
+              "exampleSentences": [
+                "The team refined the algorithm after testing it on real user data.",
+                "She refined her presentation several times before the final version.",
+                "The design was refined based on feedback from early users."
+              ],
+              "translationTR": "geliştirmek, rafine etmek",
+              "collocations": [
+                "refine a design",
+                "refine an algorithm",
+                "further refine"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-technology-innovation-5",
+          "order": 4,
+          "estimatedDurationMinutes": 5,
+          "title": "Technology & Innovation · 5",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-ubiquitous",
+              "type": "vocabulary",
+              "headword": "ubiquitous",
+              "frequencyRank": 260,
+              "baseDifficulty": 0.61,
+              "definition": "Hemen her yerde bulunan veya karşılaşılan, yaygın biçimde var olan.",
+              "exampleSentences": [
+                "Smartphones have become almost ubiquitous in daily life.",
+                "Sensors are now ubiquitous in modern manufacturing plants.",
+                "Wireless internet is so ubiquitous that many people forget life without it."
+              ],
+              "translationTR": "her yerde bulunan, yaygın",
+              "collocations": [
+                "ubiquitous technology",
+                "become ubiquitous",
+                "almost ubiquitous"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-redundant",
+              "type": "vocabulary",
+              "headword": "redundant",
+              "frequencyRank": 261,
+              "baseDifficulty": 0.62,
+              "definition": "Artık gerekli olmayan, fazlalık oluşturan veya işlevini yitirmiş.",
+              "exampleSentences": [
+                "The upgrade made several older components redundant.",
+                "Engineers removed the redundant code to simplify the programme.",
+                "The old warehouse system became redundant once the new database was installed."
+              ],
+              "translationTR": "gereksiz, işlevini yitirmiş",
+              "collocations": [
+                "make redundant",
+                "redundant system",
+                "become redundant"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-intuitive",
+              "type": "vocabulary",
+              "headword": "intuitive",
+              "frequencyRank": 262,
+              "baseDifficulty": 0.63,
+              "definition": "Fazla açıklama gerektirmeden, doğal bir biçimde kolayca anlaşılıp kullanılabilen.",
+              "exampleSentences": [
+                "The app's design is so intuitive that new users need almost no instructions.",
+                "Designers aimed for an intuitive interface that anyone could navigate.",
+                "A more intuitive layout would reduce the number of support calls."
+              ],
+              "translationTR": "sezgisel, kolay anlaşılır",
+              "collocations": [
+                "intuitive interface",
+                "intuitive design",
+                "highly intuitive"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-autonomous",
+              "type": "vocabulary",
+              "headword": "autonomous",
+              "frequencyRank": 263,
+              "baseDifficulty": 0.64,
+              "definition": "Dışarıdan yönlendirilmeden kendi kararlarını alarak işleyebilen.",
+              "exampleSentences": [
+                "The company is testing autonomous vehicles on quiet suburban roads.",
+                "The robot can operate autonomously without any human input.",
+                "Autonomous drones are increasingly used to inspect remote infrastructure."
+              ],
+              "translationTR": "özerk, otonom",
+              "collocations": [
+                "autonomous vehicle",
+                "operate autonomously",
+                "fully autonomous"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-malfunction",
+              "type": "vocabulary",
+              "headword": "malfunction",
+              "frequencyRank": 264,
+              "baseDifficulty": 0.65,
+              "definition": "Bir cihaz veya sistemin normal şekilde çalışmayı durdurması ya da hatalı çalışması.",
+              "exampleSentences": [
+                "The plane returned to the airport after a sensor malfunctioned mid-flight.",
+                "A software malfunction delayed the launch by several hours.",
+                "Technicians were called in to fix the malfunctioning equipment."
+              ],
+              "translationTR": "arıza, bozulma; arızalanmak",
+              "collocations": [
+                "sensor malfunction",
+                "system malfunction",
+                "malfunctioning equipment"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-convergence",
+              "type": "vocabulary",
+              "headword": "convergence",
+              "frequencyRank": 265,
+              "baseDifficulty": 0.66,
+              "definition": "Farklı teknolojilerin, fikirlerin veya eğilimlerin zamanla birleşip benzer bir noktaya doğru ilerlemesi.",
+              "exampleSentences": [
+                "The convergence of telecommunications and computing created entirely new industries.",
+                "Analysts point to a growing convergence between television and internet services.",
+                "The convergence of several technologies made the smartphone possible."
+              ],
+              "translationTR": "yakınsama, birleşme",
+              "collocations": [
+                "technological convergence",
+                "convergence of",
+                "growing convergence"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-adaptive",
+              "type": "vocabulary",
+              "headword": "adaptive",
+              "frequencyRank": 266,
+              "baseDifficulty": 0.67,
+              "definition": "Değişen koşullara göre kendini ayarlayabilen veya uyum sağlayabilen.",
+              "exampleSentences": [
+                "The software uses an adaptive algorithm that adjusts to each user's habits.",
+                "Adaptive lighting systems change brightness depending on the time of day.",
+                "The course uses adaptive testing to match questions to the student's level."
+              ],
+              "translationTR": "uyarlanabilir, uyum sağlayıcı",
+              "collocations": [
+                "adaptive technology",
+                "adaptive system",
+                "adaptive learning"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-sophisticated",
+              "type": "vocabulary",
+              "headword": "sophisticated",
+              "frequencyRank": 267,
+              "baseDifficulty": 0.68,
+              "definition": "Yapısı veya işleyişi karmaşık ve gelişmiş düzeyde olan.",
+              "exampleSentences": [
+                "The company developed a more sophisticated system to detect fraud.",
+                "Modern smartphones contain increasingly sophisticated cameras.",
+                "Hackers are using more sophisticated methods to bypass security systems."
+              ],
+              "translationTR": "gelişmiş, sofistike",
+              "collocations": [
+                "sophisticated technology",
+                "increasingly sophisticated",
+                "sophisticated system"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-unprecedented",
+              "type": "vocabulary",
+              "headword": "unprecedented",
+              "frequencyRank": 268,
+              "baseDifficulty": 0.69,
+              "definition": "Daha önce hiç görülmemiş veya yaşanmamış, benzeri olmayan.",
+              "exampleSentences": [
+                "The technology sector has grown at an unprecedented rate over the past decade.",
+                "The company faced unprecedented demand for its new product.",
+                "Access to data on this scale is entirely unprecedented."
+              ],
+              "translationTR": "eşi benzeri görülmemiş",
+              "collocations": [
+                "unprecedented growth",
+                "unprecedented scale",
+                "unprecedented demand"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-seamless",
+              "type": "vocabulary",
+              "headword": "seamless",
+              "frequencyRank": 269,
+              "baseDifficulty": 0.7,
+              "definition": "Aksama veya kesinti olmadan, kusursuzca akıcı biçimde gerçekleşen.",
+              "exampleSentences": [
+                "The update was designed to give users a seamless transition between devices.",
+                "Good design creates a seamless experience for the customer.",
+                "The two systems now work together seamlessly."
+              ],
+              "translationTR": "kesintisiz, sorunsuz",
+              "collocations": [
+                "seamless experience",
+                "seamless transition",
+                "work seamlessly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-technology-innovation-6",
+          "order": 5,
+          "estimatedDurationMinutes": 5,
+          "title": "Technology & Innovation · 6",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-paradigm",
+              "type": "vocabulary",
+              "headword": "paradigm",
+              "frequencyRank": 270,
+              "baseDifficulty": 0.71,
+              "definition": "Bir alanda düşünme ve uygulama biçimini belirleyen temel model veya çerçeve.",
+              "exampleSentences": [
+                "The internet created an entirely new paradigm for how businesses reach customers.",
+                "Researchers argue that artificial intelligence represents a paradigm shift in computing.",
+                "The old paradigm of centralised computing has largely given way to cloud services."
+              ],
+              "translationTR": "paradigma, temel model",
+              "collocations": [
+                "paradigm shift",
+                "new paradigm",
+                "dominant paradigm"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-proliferation",
+              "type": "vocabulary",
+              "headword": "proliferation",
+              "frequencyRank": 271,
+              "baseDifficulty": 0.72,
+              "definition": "Bir şeyin, özellikle hızlı biçimde, sayıca artıp yaygınlaşması.",
+              "exampleSentences": [
+                "The proliferation of smartphones has changed how people access information.",
+                "Regulators are concerned about the proliferation of unverified data online.",
+                "The rapid proliferation of connected devices has raised new security risks."
+              ],
+              "translationTR": "hızla yayılma, çoğalma",
+              "collocations": [
+                "rapid proliferation",
+                "proliferation of",
+                "prevent proliferation"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-infrastructure",
+              "type": "vocabulary",
+              "headword": "infrastructure",
+              "frequencyRank": 272,
+              "baseDifficulty": 0.73,
+              "definition": "Bir sistemin işlemesi için gerekli temel yapılar, tesisler ve ağların bütünü.",
+              "exampleSentences": [
+                "The city needs to invest more in its digital infrastructure.",
+                "Poor infrastructure was blamed for the repeated power outages.",
+                "Building reliable infrastructure is essential for expanding internet access."
+              ],
+              "translationTR": "altyapı",
+              "collocations": [
+                "digital infrastructure",
+                "invest in infrastructure",
+                "critical infrastructure"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-manipulate",
+              "type": "vocabulary",
+              "headword": "manipulate",
+              "frequencyRank": 273,
+              "baseDifficulty": 0.74,
+              "definition": "Bir şeyi, genellikle ustalıkla veya gizlice, istenen sonucu elde etmek için kontrol edip yönlendirmek.",
+              "exampleSentences": [
+                "The software allows designers to manipulate images with great precision.",
+                "Investigators found evidence that the data had been manipulated.",
+                "Engineers can manipulate the robot's arm remotely using a simple controller."
+              ],
+              "translationTR": "manipüle etmek, kontrol edip yönlendirmek",
+              "collocations": [
+                "manipulate data",
+                "manipulate an image",
+                "easily manipulated"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-surveillance",
+              "type": "vocabulary",
+              "headword": "surveillance",
+              "frequencyRank": 274,
+              "baseDifficulty": 0.75,
+              "definition": "Bir kişi, alan veya faaliyetin sürekli olarak gözetim altında tutulması.",
+              "exampleSentences": [
+                "The building is monitored by a network of surveillance cameras.",
+                "Critics argue that mass surveillance threatens individual privacy.",
+                "Police increased surveillance in the area after several break-ins."
+              ],
+              "translationTR": "gözetim, izleme",
+              "collocations": [
+                "surveillance camera",
+                "under surveillance",
+                "mass surveillance"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-anonymous",
+              "type": "vocabulary",
+              "headword": "anonymous",
+              "frequencyRank": 275,
+              "baseDifficulty": 0.76,
+              "definition": "Kimliği bilinmeyen veya açıklanmayan.",
+              "exampleSentences": [
+                "Users can post comments anonymously on the forum.",
+                "An anonymous donor funded the entire research project.",
+                "The survey guarantees that all responses remain anonymous."
+              ],
+              "translationTR": "anonim, isimsiz",
+              "collocations": [
+                "remain anonymous",
+                "anonymous donor",
+                "post anonymously"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-scrutinise",
+              "type": "vocabulary",
+              "headword": "scrutinise",
+              "frequencyRank": 276,
+              "baseDifficulty": 0.77,
+              "definition": "Bir şeyi çok dikkatli ve ayrıntılı biçimde inceleyip değerlendirmek.",
+              "exampleSentences": [
+                "Regulators scrutinised the company's data practices after the complaints.",
+                "Journalists scrutinised the algorithm to see how it made its decisions.",
+                "Every line of code was scrutinised before the software went live."
+              ],
+              "translationTR": "dikkatle incelemek, mercek altına almak",
+              "collocations": [
+                "closely scrutinise",
+                "scrutinise a claim",
+                "come under scrutiny"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-leverage",
+              "type": "vocabulary",
+              "headword": "leverage",
+              "frequencyRank": 277,
+              "baseDifficulty": 0.78,
+              "definition": "Bir kaynağı veya avantajı, daha büyük bir sonuç elde etmek için etkili biçimde kullanmak.",
+              "exampleSentences": [
+                "The start-up leveraged its existing user base to launch the new product.",
+                "Companies increasingly leverage data to personalise their marketing.",
+                "The team leveraged cloud computing to scale the service quickly."
+              ],
+              "translationTR": "kullanmak, avantaja çevirmek",
+              "collocations": [
+                "leverage technology",
+                "leverage data",
+                "leverage existing resources"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-trajectory",
+              "type": "vocabulary",
+              "headword": "trajectory",
+              "frequencyRank": 278,
+              "baseDifficulty": 0.79,
+              "definition": "Bir şeyin zaman içinde izlediği gelişim yönü veya seyir.",
+              "exampleSentences": [
+                "The company's growth trajectory has been remarkable since it adopted new technology.",
+                "Analysts are trying to predict the trajectory of artificial intelligence research.",
+                "The project's trajectory changed sharply after the unexpected breakthrough."
+              ],
+              "translationTR": "gelişim seyri, yörünge",
+              "collocations": [
+                "growth trajectory",
+                "change trajectory",
+                "trajectory of"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-incorporate",
+              "type": "vocabulary",
+              "headword": "incorporate",
+              "frequencyRank": 279,
+              "baseDifficulty": 0.8,
+              "definition": "Bir şeyi daha büyük bir bütünün parçası hâline getirerek dahil etmek.",
+              "exampleSentences": [
+                "The new model incorporates several features requested by users.",
+                "Designers incorporated feedback from the pilot study into the final version.",
+                "The company plans to incorporate artificial intelligence into its next product line."
+              ],
+              "translationTR": "dahil etmek, katmak",
+              "collocations": [
+                "incorporate feedback",
+                "incorporate a feature",
+                "newly incorporated"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-unit-education-learning",
+      "theme": "Education & Learning",
+      "order": 19,
+      "lessons": [
+        {
+          "id": "yds-vocab2-lesson-education-learning-1",
+          "order": 0,
+          "estimatedDurationMinutes": 5,
+          "title": "Education & Learning · 1",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-education",
+              "type": "vocabulary",
+              "headword": "education",
+              "frequencyRank": 280,
+              "baseDifficulty": 0.21,
+              "definition": "Bilgi, beceri ve değerlerin öğretim yoluyla bireylere kazandırılması süreci.",
+              "exampleSentences": [
+                "Access to quality education remains unequal in many parts of the world.",
+                "The government increased spending on public education this year.",
+                "She believes education is the most powerful tool for reducing poverty."
+              ],
+              "translationTR": "eğitim",
+              "collocations": [
+                "quality education",
+                "higher education",
+                "access to education"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-student",
+              "type": "vocabulary",
+              "headword": "student",
+              "frequencyRank": 281,
+              "baseDifficulty": 0.22,
+              "definition": "Bir okulda veya üniversitede eğitim gören kişi.",
+              "exampleSentences": [
+                "Every student in the class submitted the assignment on time.",
+                "The university welcomed thousands of new students this autumn.",
+                "Struggling students can request extra help from their tutors."
+              ],
+              "translationTR": "öğrenci",
+              "collocations": [
+                "university student",
+                "struggling student",
+                "student loan"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-teacher",
+              "type": "vocabulary",
+              "headword": "teacher",
+              "frequencyRank": 282,
+              "baseDifficulty": 0.23,
+              "definition": "Öğrencilere bilgi ve beceri kazandırmakla görevli kişi.",
+              "exampleSentences": [
+                "The teacher spent extra time explaining the most difficult topics.",
+                "A good teacher can make even a dull subject interesting.",
+                "Teachers often work long hours preparing lessons outside the classroom."
+              ],
+              "translationTR": "öğretmen",
+              "collocations": [
+                "class teacher",
+                "experienced teacher",
+                "teacher training"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-school",
+              "type": "vocabulary",
+              "headword": "school",
+              "frequencyRank": 283,
+              "baseDifficulty": 0.24,
+              "definition": "Çocuk ve gençlere temel eğitim veren kurum.",
+              "exampleSentences": [
+                "The school introduced a new curriculum this term.",
+                "Most children in the area attend the local primary school.",
+                "The school was closed for a week because of the storm."
+              ],
+              "translationTR": "okul",
+              "collocations": [
+                "primary school",
+                "attend school",
+                "school curriculum"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-university",
+              "type": "vocabulary",
+              "headword": "university",
+              "frequencyRank": 284,
+              "baseDifficulty": 0.25,
+              "definition": "Yükseköğrenim veren ve genellikle araştırma da yapan eğitim kurumu.",
+              "exampleSentences": [
+                "She applied to several universities before choosing one close to home.",
+                "The university offers a wide range of postgraduate programmes.",
+                "Many universities now provide some courses entirely online."
+              ],
+              "translationTR": "üniversite",
+              "collocations": [
+                "attend university",
+                "university degree",
+                "apply to university"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-lecture",
+              "type": "vocabulary",
+              "headword": "lecture",
+              "frequencyRank": 285,
+              "baseDifficulty": 0.26,
+              "definition": "Bir öğretim üyesi tarafından genellikle büyük bir gruba verilen ders anlatımı.",
+              "exampleSentences": [
+                "The professor's lecture covered the entire history of the movement.",
+                "Attendance at the morning lecture was surprisingly low.",
+                "Students recorded the lecture so they could review it later."
+              ],
+              "translationTR": "ders, konferans",
+              "collocations": [
+                "attend a lecture",
+                "give a lecture",
+                "lecture hall"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-exam",
+              "type": "vocabulary",
+              "headword": "exam",
+              "frequencyRank": 286,
+              "baseDifficulty": 0.27,
+              "definition": "Bir kişinin bilgi veya becerisini ölçmek amacıyla yapılan resmi sınav.",
+              "exampleSentences": [
+                "Students spent the whole weekend preparing for the final exam.",
+                "She passed the exam with the highest score in her class.",
+                "The exam covered material from the entire semester."
+              ],
+              "translationTR": "sınav",
+              "collocations": [
+                "final exam",
+                "pass an exam",
+                "sit an exam"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-degree",
+              "type": "vocabulary",
+              "headword": "degree",
+              "frequencyRank": 287,
+              "baseDifficulty": 0.28,
+              "definition": "Bir üniversitede belirli bir programı tamamlayan kişiye verilen akademik unvan.",
+              "exampleSentences": [
+                "She earned a degree in engineering before starting her own company.",
+                "A university degree is no longer a guarantee of employment.",
+                "He is studying part-time for a degree in economics."
+              ],
+              "translationTR": "(akademik) derece, diploma",
+              "collocations": [
+                "university degree",
+                "earn a degree",
+                "degree in"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-knowledge",
+              "type": "vocabulary",
+              "headword": "knowledge",
+              "frequencyRank": 288,
+              "baseDifficulty": 0.29,
+              "definition": "Öğrenme veya deneyim yoluyla edinilen bilgi ve anlayış birikimi.",
+              "exampleSentences": [
+                "Her deep knowledge of the subject impressed the interview panel.",
+                "The course aims to give students practical knowledge they can apply immediately.",
+                "Scientific knowledge advances as new research is published."
+              ],
+              "translationTR": "bilgi",
+              "collocations": [
+                "deep knowledge",
+                "acquire knowledge",
+                "knowledge of"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-skill",
+              "type": "vocabulary",
+              "headword": "skill",
+              "frequencyRank": 289,
+              "baseDifficulty": 0.3,
+              "definition": "Belirli bir işi başarıyla yapabilme yeteneği; öğrenilerek ve pratik yapılarak geliştirilen genel yetenek.",
+              "exampleSentences": [
+                "The training programme focuses on practical skills students can use at work.",
+                "Employers increasingly value communication skills as much as technical knowledge.",
+                "It takes years of practice to develop a skill like this."
+              ],
+              "translationTR": "beceri, yetenek",
+              "collocations": [
+                "practical skill",
+                "develop a skill",
+                "skill in"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-education-learning-2",
+          "order": 1,
+          "estimatedDurationMinutes": 5,
+          "title": "Education & Learning · 2",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-curriculum",
+              "type": "vocabulary",
+              "headword": "curriculum",
+              "frequencyRank": 290,
+              "baseDifficulty": 0.31,
+              "definition": "Bir okul veya program kapsamında öğretilmesi planlanan derslerin ve konuların bütünü.",
+              "exampleSentences": [
+                "The school revised its curriculum to include more practical science classes.",
+                "Critics argue the curriculum places too much weight on exams.",
+                "A broad curriculum helps students discover subjects they might otherwise never try."
+              ],
+              "translationTR": "müfredat",
+              "collocations": [
+                "national curriculum",
+                "revise the curriculum",
+                "curriculum for"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-literacy",
+              "type": "vocabulary",
+              "headword": "literacy",
+              "frequencyRank": 291,
+              "baseDifficulty": 0.32,
+              "definition": "Okuma ve yazma becerisine sahip olma durumu.",
+              "exampleSentences": [
+                "The programme aims to improve literacy among adults who never finished school.",
+                "Digital literacy is now considered as important as basic reading and writing.",
+                "Literacy rates have risen sharply in the region over the past decade."
+              ],
+              "translationTR": "okuryazarlık",
+              "collocations": [
+                "digital literacy",
+                "literacy rate",
+                "improve literacy"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-tuition",
+              "type": "vocabulary",
+              "headword": "tuition",
+              "frequencyRank": 292,
+              "baseDifficulty": 0.33,
+              "definition": "Bir eğitim kurumunda verilen öğretim karşılığında ödenen ücret; ayrıca verilen öğretim hizmetinin kendisi.",
+              "exampleSentences": [
+                "Rising tuition has made university unaffordable for many families.",
+                "The scholarship covers tuition but not accommodation costs.",
+                "Some universities offer free tuition to students from low-income households."
+              ],
+              "translationTR": "öğrenim ücreti; öğretim",
+              "collocations": [
+                "tuition fees",
+                "cover tuition",
+                "free tuition"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-scholarship",
+              "type": "vocabulary",
+              "headword": "scholarship",
+              "frequencyRank": 293,
+              "baseDifficulty": 0.34,
+              "definition": "Başarılı veya ihtiyaç sahibi öğrencilere eğitim masraflarını karşılamak üzere verilen mali destek.",
+              "exampleSentences": [
+                "She received a full scholarship to study abroad.",
+                "The university offers scholarships to students with outstanding academic records.",
+                "Without the scholarship, he could never have afforded the tuition."
+              ],
+              "translationTR": "burs",
+              "collocations": [
+                "win a scholarship",
+                "full scholarship",
+                "scholarship for"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-graduate",
+              "type": "vocabulary",
+              "headword": "graduate",
+              "frequencyRank": 294,
+              "baseDifficulty": 0.35,
+              "definition": "Bir eğitim programını başarıyla tamamlayarak diploma alan kişi; böyle bir programı tamamlamak.",
+              "exampleSentences": [
+                "She graduated from university with a degree in biology.",
+                "Most graduates struggle to find their first job in a competitive market.",
+                "He plans to graduate next spring and start working immediately."
+              ],
+              "translationTR": "mezun; mezun olmak",
+              "collocations": [
+                "graduate from",
+                "recent graduate",
+                "graduate with honours"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-diploma",
+              "type": "vocabulary",
+              "headword": "diploma",
+              "frequencyRank": 295,
+              "baseDifficulty": 0.36,
+              "definition": "Bir eğitim programının tamamlandığını gösteren resmi belge.",
+              "exampleSentences": [
+                "He proudly displayed his diploma on the office wall.",
+                "The college awards a diploma after two years of study.",
+                "Without a diploma, she found it difficult to apply for certain jobs."
+              ],
+              "translationTR": "diploma",
+              "collocations": [
+                "award a diploma",
+                "earn a diploma",
+                "diploma in"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-tutor",
+              "type": "vocabulary",
+              "headword": "tutor",
+              "frequencyRank": 296,
+              "baseDifficulty": 0.37,
+              "definition": "Bir öğrenciye özel veya küçük gruplar hâlinde ders veren kişi.",
+              "exampleSentences": [
+                "Her parents hired a tutor to help her prepare for the exam.",
+                "The tutor met with each student individually once a week.",
+                "Online tutors now offer lessons in almost every subject imaginable."
+              ],
+              "translationTR": "özel öğretmen, eğitmen",
+              "collocations": [
+                "private tutor",
+                "hire a tutor",
+                "tutor for"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-seminar",
+              "type": "vocabulary",
+              "headword": "seminar",
+              "frequencyRank": 297,
+              "baseDifficulty": 0.38,
+              "definition": "Küçük bir grupla belirli bir konunun tartışılıp derinlemesine incelendiği ders veya toplantı.",
+              "exampleSentences": [
+                "The seminar encouraged students to debate the reading in small groups.",
+                "She attended a seminar on climate policy last week.",
+                "Unlike the lecture, the seminar allowed plenty of time for questions."
+              ],
+              "translationTR": "seminer",
+              "collocations": [
+                "attend a seminar",
+                "seminar on",
+                "weekly seminar"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-academic",
+              "type": "vocabulary",
+              "headword": "academic",
+              "frequencyRank": 298,
+              "baseDifficulty": 0.39,
+              "definition": "Üniversite veya bilimsel araştırma ile ilgili olan; öğretim ve öğrenimle ilgili.",
+              "exampleSentences": [
+                "Her academic performance improved significantly in her final year.",
+                "The journal publishes academic research from around the world.",
+                "He decided to pursue an academic career after finishing his doctorate."
+              ],
+              "translationTR": "akademik",
+              "collocations": [
+                "academic performance",
+                "academic career",
+                "academic research"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-campus",
+              "type": "vocabulary",
+              "headword": "campus",
+              "frequencyRank": 299,
+              "baseDifficulty": 0.4,
+              "definition": "Bir üniversite veya okulun binalarının ve arazisinin bulunduğu alan.",
+              "exampleSentences": [
+                "Most students live in dormitories on campus during their first year.",
+                "The university built a new library at the centre of the campus.",
+                "Campus life offers far more than just attending lectures."
+              ],
+              "translationTR": "kampüs",
+              "collocations": [
+                "on campus",
+                "university campus",
+                "campus life"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-education-learning-3",
+          "order": 2,
+          "estimatedDurationMinutes": 5,
+          "title": "Education & Learning · 3",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-pedagogy",
+              "type": "vocabulary",
+              "headword": "pedagogy",
+              "frequencyRank": 300,
+              "baseDifficulty": 0.41,
+              "definition": "Öğretme yöntemleri ve öğretim sürecinin ilke ve uygulamalarını inceleyen alan.",
+              "exampleSentences": [
+                "The training focuses on modern pedagogy rather than outdated teaching methods.",
+                "Her research examines how pedagogy has changed with the rise of technology.",
+                "Good pedagogy takes into account how differently students learn."
+              ],
+              "translationTR": "pedagoji, öğretim bilimi",
+              "collocations": [
+                "modern pedagogy",
+                "pedagogy of",
+                "effective pedagogy"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-syllabus",
+              "type": "vocabulary",
+              "headword": "syllabus",
+              "frequencyRank": 301,
+              "baseDifficulty": 0.42,
+              "definition": "Bir dersin kapsamını, konularını ve değerlendirme kriterlerini gösteren belge.",
+              "exampleSentences": [
+                "The professor handed out the syllabus on the first day of class.",
+                "Students are expected to read every text listed on the syllabus.",
+                "The department updates its syllabus every few years to reflect new research."
+              ],
+              "translationTR": "ders programı, müfredat özeti",
+              "collocations": [
+                "course syllabus",
+                "follow the syllabus",
+                "syllabus for"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-plagiarism",
+              "type": "vocabulary",
+              "headword": "plagiarism",
+              "frequencyRank": 302,
+              "baseDifficulty": 0.43,
+              "definition": "Başkasının fikir veya yazısını kaynak göstermeden kendisininmiş gibi sunma eylemi.",
+              "exampleSentences": [
+                "The university takes plagiarism extremely seriously and can expel students for it.",
+                "Software is now used to check every essay for plagiarism.",
+                "He was accused of plagiarism after copying whole paragraphs from another paper."
+              ],
+              "translationTR": "intihal, aşırma",
+              "collocations": [
+                "commit plagiarism",
+                "check for plagiarism",
+                "accused of plagiarism"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-thesis",
+              "type": "vocabulary",
+              "headword": "thesis",
+              "frequencyRank": 303,
+              "baseDifficulty": 0.44,
+              "definition": "Bir öğrencinin bir dereceyi tamamlamak için sunduğu, özgün araştırmaya dayanan uzun yazılı çalışma.",
+              "exampleSentences": [
+                "She spent two years researching her master's thesis.",
+                "His thesis argued that early intervention significantly improves literacy rates.",
+                "The committee asked several difficult questions during her thesis defence."
+              ],
+              "translationTR": "tez",
+              "collocations": [
+                "write a thesis",
+                "thesis defence",
+                "master's thesis"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-dissertation",
+              "type": "vocabulary",
+              "headword": "dissertation",
+              "frequencyRank": 304,
+              "baseDifficulty": 0.45,
+              "definition": "Genellikle doktora düzeyinde hazırlanan, kapsamlı özgün araştırmaya dayanan uzun akademik çalışma.",
+              "exampleSentences": [
+                "His dissertation took nearly four years to complete.",
+                "She is currently writing the final chapter of her dissertation.",
+                "The dissertation must make an original contribution to the field."
+              ],
+              "translationTR": "doktora tezi",
+              "collocations": [
+                "write a dissertation",
+                "doctoral dissertation",
+                "dissertation on"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-postgraduate",
+              "type": "vocabulary",
+              "headword": "postgraduate",
+              "frequencyRank": 305,
+              "baseDifficulty": 0.46,
+              "definition": "Bir lisans derecesini tamamladıktan sonra yapılan, yüksek lisans veya doktora düzeyindeki eğitimle ilgili.",
+              "exampleSentences": [
+                "She enrolled in a postgraduate programme in public health.",
+                "Postgraduate students often work as teaching assistants to fund their studies.",
+                "The university expanded its postgraduate offerings in data science."
+              ],
+              "translationTR": "lisansüstü",
+              "collocations": [
+                "postgraduate programme",
+                "postgraduate student",
+                "postgraduate study"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-undergraduate",
+              "type": "vocabulary",
+              "headword": "undergraduate",
+              "frequencyRank": 306,
+              "baseDifficulty": 0.47,
+              "definition": "Henüz ilk üniversite derecesini (lisans) tamamlamamış öğrenciyle veya bu düzeydeki eğitimle ilgili.",
+              "exampleSentences": [
+                "As an undergraduate, she double-majored in physics and philosophy.",
+                "The undergraduate programme lasts four years at most universities.",
+                "Undergraduate students are required to complete a certain number of credits each term."
+              ],
+              "translationTR": "lisans düzeyinde (öğrenci/eğitim)",
+              "collocations": [
+                "undergraduate degree",
+                "undergraduate student",
+                "undergraduate programme"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-enrolment",
+              "type": "vocabulary",
+              "headword": "enrolment",
+              "frequencyRank": 307,
+              "baseDifficulty": 0.48,
+              "definition": "Bir kişinin bir okula, kursa veya programa resmi olarak kaydolması.",
+              "exampleSentences": [
+                "Enrolment in the online course doubled within a single year.",
+                "The deadline for enrolment is the end of August.",
+                "Falling enrolment forced the college to cut several programmes."
+              ],
+              "translationTR": "kayıt, kaydolma",
+              "collocations": [
+                "student enrolment",
+                "enrolment deadline",
+                "increase enrolment"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-attendance",
+              "type": "vocabulary",
+              "headword": "attendance",
+              "frequencyRank": 308,
+              "baseDifficulty": 0.49,
+              "definition": "Bir derse veya etkinliğe düzenli olarak katılma durumu.",
+              "exampleSentences": [
+                "The teacher takes attendance at the start of every lesson.",
+                "Poor attendance was linked to lower exam results.",
+                "Attendance at the seminar was compulsory for all first-year students."
+              ],
+              "translationTR": "devam, katılım",
+              "collocations": [
+                "take attendance",
+                "poor attendance",
+                "attendance record"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-assignment",
+              "type": "vocabulary",
+              "headword": "assignment",
+              "frequencyRank": 309,
+              "baseDifficulty": 0.5,
+              "definition": "Bir öğretmen veya öğretim üyesi tarafından öğrenciye verilen, tamamlanması gereken görev veya ödev.",
+              "exampleSentences": [
+                "She submitted the assignment two days before the deadline.",
+                "The assignment required students to analyse a real case study.",
+                "Late assignments are only accepted with a valid excuse."
+              ],
+              "translationTR": "ödev, görev",
+              "collocations": [
+                "submit an assignment",
+                "complete an assignment",
+                "assignment deadline"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-education-learning-4",
+          "order": 3,
+          "estimatedDurationMinutes": 5,
+          "title": "Education & Learning · 4",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-comprehension",
+              "type": "vocabulary",
+              "headword": "comprehension",
+              "frequencyRank": 310,
+              "baseDifficulty": 0.51,
+              "definition": "Okunan veya duyulan bir şeyin anlamını kavrama yetisi.",
+              "exampleSentences": [
+                "The test measures reading comprehension rather than vocabulary alone.",
+                "Her comprehension of the lecture improved once she reviewed the notes.",
+                "Simplifying the text helped weaker readers with comprehension."
+              ],
+              "translationTR": "kavrama, anlama",
+              "collocations": [
+                "reading comprehension",
+                "comprehension of",
+                "improve comprehension"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-retention",
+              "type": "vocabulary",
+              "headword": "retention",
+              "frequencyRank": 311,
+              "baseDifficulty": 0.52,
+              "definition": "Öğrenilen bilginin hafızada tutulup daha sonra hatırlanabilmesi.",
+              "exampleSentences": [
+                "Spacing out study sessions improves long-term retention of information.",
+                "The school introduced regular quizzes to boost knowledge retention.",
+                "Poor sleep can significantly reduce memory retention."
+              ],
+              "translationTR": "akılda tutma, kalıcılık",
+              "collocations": [
+                "knowledge retention",
+                "improve retention",
+                "long-term retention"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-motivation",
+              "type": "vocabulary",
+              "headword": "motivation",
+              "frequencyRank": 312,
+              "baseDifficulty": 0.53,
+              "definition": "Bir kişiyi belirli bir hedefe ulaşmak için harekete geçiren istek veya güdü.",
+              "exampleSentences": [
+                "Her motivation to succeed came from watching her parents struggle without an education.",
+                "Teachers often look for ways to increase student motivation.",
+                "A lack of motivation was the main reason he dropped out of the course."
+              ],
+              "translationTR": "motivasyon, güdülenme",
+              "collocations": [
+                "student motivation",
+                "lack of motivation",
+                "boost motivation"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-feedback",
+              "type": "vocabulary",
+              "headword": "feedback",
+              "frequencyRank": 313,
+              "baseDifficulty": 0.54,
+              "definition": "Bir kişinin yaptığı işe veya performansına dair verilen değerlendirme ve yorum.",
+              "exampleSentences": [
+                "The tutor gave detailed feedback on every essay.",
+                "Students said the feedback helped them understand their mistakes.",
+                "Constructive feedback is more useful than simply pointing out errors."
+              ],
+              "translationTR": "geri bildirim",
+              "collocations": [
+                "give feedback",
+                "constructive feedback",
+                "feedback on"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-discipline",
+              "type": "vocabulary",
+              "headword": "discipline",
+              "frequencyRank": 314,
+              "baseDifficulty": 0.55,
+              "definition": "Belirli kurallara uyarak düzenli çalışma alışkanlığı; ayrıca üniversitede okutulan akademik bir bilgi ve araştırma alanı.",
+              "exampleSentences": [
+                "Success in a doctoral programme requires enormous discipline and patience.",
+                "History is a discipline that draws on evidence from many different sources.",
+                "The teacher maintained discipline in the classroom without raising her voice."
+              ],
+              "translationTR": "özdisiplin; (ayrıca) akademik disiplin/bilim dalı",
+              "collocations": [
+                "academic discipline",
+                "self-discipline",
+                "maintain discipline"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-aptitude",
+              "type": "vocabulary",
+              "headword": "aptitude",
+              "frequencyRank": 315,
+              "baseDifficulty": 0.56,
+              "definition": "Belirli bir alanda başarılı olmaya yatkınlık gösteren doğal yetenek.",
+              "exampleSentences": [
+                "The test is designed to measure a student's aptitude for mathematics.",
+                "She showed a natural aptitude for languages from an early age.",
+                "Employers sometimes use aptitude tests during the hiring process."
+              ],
+              "translationTR": "yatkınlık, kabiliyet",
+              "collocations": [
+                "aptitude test",
+                "aptitude for",
+                "natural aptitude"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-vocational",
+              "type": "vocabulary",
+              "headword": "vocational",
+              "frequencyRank": 316,
+              "baseDifficulty": 0.57,
+              "definition": "Belirli bir meslek veya iş için gereken pratik beceri ve bilgiyi kazandırmaya yönelik.",
+              "exampleSentences": [
+                "The college offers vocational training in plumbing and electrical work.",
+                "Vocational education prepares students directly for a specific trade.",
+                "More students are choosing vocational courses over traditional academic degrees."
+              ],
+              "translationTR": "mesleki",
+              "collocations": [
+                "vocational training",
+                "vocational education",
+                "vocational course"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-mentor",
+              "type": "vocabulary",
+              "headword": "mentor",
+              "frequencyRank": 317,
+              "baseDifficulty": 0.58,
+              "definition": "Daha az deneyimli bir kişiye rehberlik eden, deneyimli ve güvenilir danışman.",
+              "exampleSentences": [
+                "Her mentor encouraged her to apply for the scholarship.",
+                "The programme pairs new students with an experienced mentor.",
+                "He mentored several junior researchers throughout his career."
+              ],
+              "translationTR": "akıl hocası, mentor",
+              "collocations": [
+                "act as a mentor",
+                "mentor a student",
+                "assign a mentor"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-competence",
+              "type": "vocabulary",
+              "headword": "competence",
+              "frequencyRank": 318,
+              "baseDifficulty": 0.59,
+              "definition": "Belirli bir görevi yeterli düzeyde yerine getirebilme yeterliliği.",
+              "exampleSentences": [
+                "The exam is designed to assess a candidate's competence in the subject.",
+                "Basic competence in mathematics is required before starting the course.",
+                "Her competence in handling difficult cases impressed the supervisors."
+              ],
+              "translationTR": "yeterlik, yetkinlik (bir görevi gereken düzeyde yerine getirebilme)",
+              "collocations": [
+                "competence in",
+                "assess competence",
+                "professional competence"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-proficiency",
+              "type": "vocabulary",
+              "headword": "proficiency",
+              "frequencyRank": 319,
+              "baseDifficulty": 0.6,
+              "definition": "Bir dilde veya alanda ileri düzeyde, akıcı ve etkili beceri gösterme durumu.",
+              "exampleSentences": [
+                "The job requires proficiency in at least two foreign languages.",
+                "Her proficiency in English improved rapidly after she moved abroad.",
+                "The test measures proficiency rather than basic familiarity with the language."
+              ],
+              "translationTR": "dil/beceri düzeyinde ustalık, ileri düzey yeterlilik",
+              "collocations": [
+                "language proficiency",
+                "proficiency in",
+                "level of proficiency"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-education-learning-5",
+          "order": 4,
+          "estimatedDurationMinutes": 5,
+          "title": "Education & Learning · 5",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-inclusive",
+              "type": "vocabulary",
+              "headword": "inclusive",
+              "frequencyRank": 320,
+              "baseDifficulty": 0.61,
+              "definition": "Farklı yetenek, geçmiş veya ihtiyaca sahip herkesi kapsayacak biçimde tasarlanmış.",
+              "exampleSentences": [
+                "The school adopted an inclusive curriculum that accommodates students with disabilities.",
+                "Inclusive classrooms bring together students of very different abilities.",
+                "The programme aims to make higher education more inclusive."
+              ],
+              "translationTR": "kapsayıcı",
+              "collocations": [
+                "inclusive education",
+                "inclusive classroom",
+                "more inclusive"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-remedial",
+              "type": "vocabulary",
+              "headword": "remedial",
+              "frequencyRank": 321,
+              "baseDifficulty": 0.62,
+              "definition": "Öğrenme eksikliklerini gidermek amacıyla verilen ek destek eğitimine ilişkin.",
+              "exampleSentences": [
+                "Struggling students were offered remedial classes in reading and mathematics.",
+                "The remedial programme helped her catch up with the rest of the class.",
+                "Some universities still require remedial coursework for underprepared students."
+              ],
+              "translationTR": "telafi edici, destekleyici (eğitimde)",
+              "collocations": [
+                "remedial class",
+                "remedial education",
+                "remedial programme"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-bilingual",
+              "type": "vocabulary",
+              "headword": "bilingual",
+              "frequencyRank": 322,
+              "baseDifficulty": 0.63,
+              "definition": "İki dili akıcı biçimde konuşabilen veya iki dilde yürütülen.",
+              "exampleSentences": [
+                "The school runs a bilingual programme in English and Spanish.",
+                "Growing up bilingual gave her an advantage when learning a third language.",
+                "Bilingual education has been shown to improve cognitive flexibility."
+              ],
+              "translationTR": "iki dilli",
+              "collocations": [
+                "bilingual education",
+                "bilingual programme",
+                "become bilingual"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-dropout",
+              "type": "vocabulary",
+              "headword": "dropout",
+              "frequencyRank": 323,
+              "baseDifficulty": 0.64,
+              "definition": "Bir eğitim programını tamamlamadan bırakan kişi; böyle bir programı yarıda bırakma durumu.",
+              "exampleSentences": [
+                "The high school dropout rate fell sharply after the new support programme began.",
+                "He was a college dropout who later became a successful entrepreneur.",
+                "Financial difficulties are one of the main causes of student dropout."
+              ],
+              "translationTR": "okulu terk eden kişi; okul terki",
+              "collocations": [
+                "dropout rate",
+                "high school dropout",
+                "prevent dropout"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-credential",
+              "type": "vocabulary",
+              "headword": "credential",
+              "frequencyRank": 324,
+              "baseDifficulty": 0.65,
+              "definition": "Bir kişinin belirli bir eğitim düzeyine veya yeterliliğe sahip olduğunu kanıtlayan resmi belge.",
+              "exampleSentences": [
+                "Employers increasingly ask for formal credentials rather than just experience.",
+                "She earned a teaching credential after finishing her master's degree.",
+                "The certificate serves as a credential recognised across the industry."
+              ],
+              "translationTR": "yeterlilik belgesi",
+              "collocations": [
+                "teaching credential",
+                "earn a credential",
+                "formal credentials"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-accreditation",
+              "type": "vocabulary",
+              "headword": "accreditation",
+              "frequencyRank": 325,
+              "baseDifficulty": 0.66,
+              "definition": "Bir eğitim kurumunun veya programının belirli standartları karşıladığını gösteren resmi onay süreci.",
+              "exampleSentences": [
+                "The college lost its accreditation after failing to meet quality standards.",
+                "Accreditation reassures students that their degree will be widely recognised.",
+                "The programme is currently seeking accreditation from a national body."
+              ],
+              "translationTR": "akreditasyon",
+              "collocations": [
+                "seek accreditation",
+                "national accreditation",
+                "accreditation process"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-cohort",
+              "type": "vocabulary",
+              "headword": "cohort",
+              "frequencyRank": 326,
+              "baseDifficulty": 0.67,
+              "definition": "Aynı dönemde bir programa başlayan veya eğitimini birlikte sürdüren öğrenci grubu.",
+              "exampleSentences": [
+                "This year's cohort is the largest the programme has ever admitted.",
+                "The study followed a single cohort of students over ten years.",
+                "Students in the same cohort often support one another through difficult courses."
+              ],
+              "translationTR": "kohort, aynı dönem grubu",
+              "collocations": [
+                "student cohort",
+                "entire cohort",
+                "cohort of"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-scaffold",
+              "type": "vocabulary",
+              "headword": "scaffold",
+              "frequencyRank": 327,
+              "baseDifficulty": 0.68,
+              "definition": "Öğrencinin bir beceriyi kazanana kadar geçici destek sağlayarak öğrenmesini kolaylaştırmak.",
+              "exampleSentences": [
+                "The teacher scaffolded the lesson with simpler questions before tackling the main text.",
+                "Good instruction scaffolds difficult tasks so students are not overwhelmed.",
+                "The curriculum scaffolds writing skills from simple sentences to full essays."
+              ],
+              "translationTR": "aşamalı destek sağlamak",
+              "collocations": [
+                "scaffold learning",
+                "scaffold a lesson",
+                "scaffolded instruction"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-differentiate",
+              "type": "vocabulary",
+              "headword": "differentiate",
+              "frequencyRank": 328,
+              "baseDifficulty": 0.69,
+              "definition": "Öğrencilerin farklı ihtiyaç ve düzeylerine göre öğretimi uyarlamak; ayrıca bir şeyi başka bir şeyden ayırt etmek.",
+              "exampleSentences": [
+                "Teachers are trained to differentiate instruction for students at different levels.",
+                "The lesson was differentiated so that advanced students received extra challenges.",
+                "It is important to differentiate between memorising facts and truly understanding them."
+              ],
+              "translationTR": "(öğretimi) düzeye göre uyarlamak; ayırt etmek",
+              "collocations": [
+                "differentiate instruction",
+                "differentiate between",
+                "differentiated learning"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-extracurricular",
+              "type": "vocabulary",
+              "headword": "extracurricular",
+              "frequencyRank": 329,
+              "baseDifficulty": 0.7,
+              "definition": "Okulun normal ders programının dışında yapılan etkinliklerle ilgili.",
+              "exampleSentences": [
+                "She joined several extracurricular clubs to broaden her experience beyond the classroom.",
+                "Extracurricular activities can teach skills that the classroom alone cannot.",
+                "Universities often consider extracurricular involvement alongside academic grades."
+              ],
+              "translationTR": "ders dışı, müfredat dışı",
+              "collocations": [
+                "extracurricular activity",
+                "extracurricular club",
+                "extracurricular involvement"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yds-vocab2-lesson-education-learning-6",
+          "order": 5,
+          "estimatedDurationMinutes": 5,
+          "title": "Education & Learning · 6",
+          "skill": "vocabulary",
+          "items": [
+            {
+              "id": "yds-vocab2-item-rigorous",
+              "type": "vocabulary",
+              "headword": "rigorous",
+              "frequencyRank": 330,
+              "baseDifficulty": 0.71,
+              "definition": "Titiz, sıkı ve yüksek standartlara dayalı biçimde yürütülen.",
+              "exampleSentences": [
+                "The programme is known for its rigorous admission requirements.",
+                "Her thesis underwent rigorous review before it was approved.",
+                "Rigorous training prepared the students for the demands of the profession."
+              ],
+              "translationTR": "titiz, sıkı, katı standartlara dayalı",
+              "collocations": [
+                "rigorous training",
+                "rigorous standards",
+                "rigorous assessment"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-rote",
+              "type": "vocabulary",
+              "headword": "rote",
+              "frequencyRank": 331,
+              "baseDifficulty": 0.72,
+              "definition": "Anlamını kavramadan, yalnızca tekrar yoluyla ezberleme yöntemi.",
+              "exampleSentences": [
+                "Rote learning still dominates some traditional classrooms.",
+                "Memorising formulas by rote does not guarantee real understanding.",
+                "The new curriculum moves away from rote memorisation towards critical thinking."
+              ],
+              "translationTR": "ezber (yoluyla öğrenme)",
+              "collocations": [
+                "rote learning",
+                "learn by rote",
+                "rote memorisation"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-didactic",
+              "type": "vocabulary",
+              "headword": "didactic",
+              "frequencyRank": 332,
+              "baseDifficulty": 0.73,
+              "definition": "Ders verir veya öğretici bir tavırla, açıkça öğretme amacı taşıyan.",
+              "exampleSentences": [
+                "The novel has a strongly didactic tone that some readers find heavy-handed.",
+                "He preferred a didactic teaching style, explaining every step in detail.",
+                "The museum's exhibits are more didactic than entertaining."
+              ],
+              "translationTR": "öğretici, ders verir tarzda",
+              "collocations": [
+                "didactic tone",
+                "didactic style",
+                "overly didactic"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-erudite",
+              "type": "vocabulary",
+              "headword": "erudite",
+              "frequencyRank": 333,
+              "baseDifficulty": 0.74,
+              "definition": "Geniş ve derin bilgi birikimine sahip, çok okumuş.",
+              "exampleSentences": [
+                "The professor's erudite lectures often referenced obscure historical texts.",
+                "She is known among colleagues as an erudite scholar of medieval literature.",
+                "His erudite commentary impressed even the most experienced researchers."
+              ],
+              "translationTR": "engin bilgili, çok bilgili",
+              "collocations": [
+                "erudite scholar",
+                "erudite commentary",
+                "remarkably erudite"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-intellectual",
+              "type": "vocabulary",
+              "headword": "intellectual",
+              "frequencyRank": 334,
+              "baseDifficulty": 0.75,
+              "definition": "Zihinsel çaba, düşünme ve akıl yürütme ile ilgili.",
+              "exampleSentences": [
+                "The seminar encouraged genuine intellectual debate rather than passive listening.",
+                "She has always shown a strong intellectual curiosity about the natural world.",
+                "The university prides itself on fostering an intellectual community."
+              ],
+              "translationTR": "entelektüel, zihinsel",
+              "collocations": [
+                "intellectual curiosity",
+                "intellectual debate",
+                "intellectual community"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-scholarly",
+              "type": "vocabulary",
+              "headword": "scholarly",
+              "frequencyRank": 335,
+              "baseDifficulty": 0.76,
+              "definition": "Bilimsel araştırmaya dayanan veya akademik ciddiyetle yürütülen.",
+              "exampleSentences": [
+                "The journal only publishes scholarly articles that have passed peer review.",
+                "Her scholarly approach to the subject impressed the committee.",
+                "The book is a scholarly account of the region's political history."
+              ],
+              "translationTR": "bilimsel, akademik nitelikli",
+              "collocations": [
+                "scholarly article",
+                "scholarly research",
+                "scholarly work"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-enlighten",
+              "type": "vocabulary",
+              "headword": "enlighten",
+              "frequencyRank": 336,
+              "baseDifficulty": 0.77,
+              "definition": "Bir kişiye yeni bilgi veya anlayış kazandırarak aydınlatmak.",
+              "exampleSentences": [
+                "The lecture enlightened students about the true origins of the theory.",
+                "She hoped the documentary would enlighten viewers on the issue.",
+                "His explanation finally enlightened me about how the process actually works."
+              ],
+              "translationTR": "aydınlatmak, bilgilendirmek",
+              "collocations": [
+                "enlighten students",
+                "greatly enlightened",
+                "enlighten someone about"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-instil",
+              "type": "vocabulary",
+              "headword": "instil",
+              "frequencyRank": 337,
+              "baseDifficulty": 0.78,
+              "definition": "Bir değer, alışkanlık veya inancı zamanla ve yavaş yavaş bir kişide yerleştirmek.",
+              "exampleSentences": [
+                "Good teachers try to instil a genuine love of learning in their students.",
+                "The programme aims to instil discipline and confidence in young athletes.",
+                "Parents play a key role in instilling curiosity at an early age."
+              ],
+              "translationTR": "(değer, alışkanlık) aşılamak, kazandırmak",
+              "collocations": [
+                "instil confidence",
+                "instil a love of",
+                "instil discipline"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-nurture",
+              "type": "vocabulary",
+              "headword": "nurture",
+              "frequencyRank": 338,
+              "baseDifficulty": 0.79,
+              "definition": "Bir kişinin gelişimini destekleyip özenle büyütmek veya geliştirmek.",
+              "exampleSentences": [
+                "Teachers try to nurture creativity rather than simply testing memorisation.",
+                "The mentorship programme was designed to nurture young researchers.",
+                "A supportive environment helps nurture a child's confidence."
+              ],
+              "translationTR": "geliştirmek, özenle büyütmek",
+              "collocations": [
+                "nurture creativity",
+                "nurture talent",
+                "nurturing environment"
+              ]
+            },
+            {
+              "id": "yds-vocab2-item-inquisitive",
+              "type": "vocabulary",
+              "headword": "inquisitive",
+              "frequencyRank": 339,
+              "baseDifficulty": 0.8,
+              "definition": "Merak duygusu güçlü, sürekli soru sorup öğrenmek isteyen.",
+              "exampleSentences": [
+                "Her inquisitive nature made her ask questions long after the lecture ended.",
+                "Teachers try to keep young children inquisitive rather than passive.",
+                "He has always been inquisitive about how things work."
+              ],
+              "translationTR": "meraklı, araştırmacı ruhlu",
+              "collocations": [
+                "inquisitive mind",
+                "inquisitive nature",
+                "naturally inquisitive"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

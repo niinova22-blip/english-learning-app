@@ -1,0 +1,1189 @@
+{
+  "id": "yds-vocab2-unit-education-learning",
+  "theme": "Education & Learning",
+  "order": 19,
+  "lessons": [
+    {
+      "id": "yds-vocab2-lesson-education-learning-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-education",
+          "type": "vocabulary",
+          "headword": "education",
+          "frequencyRank": 280,
+          "baseDifficulty": 0.21,
+          "definition": "Bilgi, beceri ve değerlerin öğretim yoluyla bireylere kazandırılması süreci.",
+          "exampleSentences": [
+            "Access to quality education remains unequal in many parts of the world.",
+            "The government increased spending on public education this year.",
+            "She believes education is the most powerful tool for reducing poverty."
+          ],
+          "translationTR": "eğitim",
+          "collocations": [
+            "quality education",
+            "higher education",
+            "access to education"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-student",
+          "type": "vocabulary",
+          "headword": "student",
+          "frequencyRank": 281,
+          "baseDifficulty": 0.22,
+          "definition": "Bir okulda veya üniversitede eğitim gören kişi.",
+          "exampleSentences": [
+            "Every student in the class submitted the assignment on time.",
+            "The university welcomed thousands of new students this autumn.",
+            "Struggling students can request extra help from their tutors."
+          ],
+          "translationTR": "öğrenci",
+          "collocations": [
+            "university student",
+            "struggling student",
+            "student loan"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-teacher",
+          "type": "vocabulary",
+          "headword": "teacher",
+          "frequencyRank": 282,
+          "baseDifficulty": 0.23,
+          "definition": "Öğrencilere bilgi ve beceri kazandırmakla görevli kişi.",
+          "exampleSentences": [
+            "The teacher spent extra time explaining the most difficult topics.",
+            "A good teacher can make even a dull subject interesting.",
+            "Teachers often work long hours preparing lessons outside the classroom."
+          ],
+          "translationTR": "öğretmen",
+          "collocations": [
+            "class teacher",
+            "experienced teacher",
+            "teacher training"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-school",
+          "type": "vocabulary",
+          "headword": "school",
+          "frequencyRank": 283,
+          "baseDifficulty": 0.24,
+          "definition": "Çocuk ve gençlere temel eğitim veren kurum.",
+          "exampleSentences": [
+            "The school introduced a new curriculum this term.",
+            "Most children in the area attend the local primary school.",
+            "The school was closed for a week because of the storm."
+          ],
+          "translationTR": "okul",
+          "collocations": [
+            "primary school",
+            "attend school",
+            "school curriculum"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-university",
+          "type": "vocabulary",
+          "headword": "university",
+          "frequencyRank": 284,
+          "baseDifficulty": 0.25,
+          "definition": "Yükseköğrenim veren ve genellikle araştırma da yapan eğitim kurumu.",
+          "exampleSentences": [
+            "She applied to several universities before choosing one close to home.",
+            "The university offers a wide range of postgraduate programmes.",
+            "Many universities now provide some courses entirely online."
+          ],
+          "translationTR": "üniversite",
+          "collocations": [
+            "attend university",
+            "university degree",
+            "apply to university"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-lecture",
+          "type": "vocabulary",
+          "headword": "lecture",
+          "frequencyRank": 285,
+          "baseDifficulty": 0.26,
+          "definition": "Bir öğretim üyesi tarafından genellikle büyük bir gruba verilen ders anlatımı.",
+          "exampleSentences": [
+            "The professor's lecture covered the entire history of the movement.",
+            "Attendance at the morning lecture was surprisingly low.",
+            "Students recorded the lecture so they could review it later."
+          ],
+          "translationTR": "ders, konferans",
+          "collocations": [
+            "attend a lecture",
+            "give a lecture",
+            "lecture hall"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-exam",
+          "type": "vocabulary",
+          "headword": "exam",
+          "frequencyRank": 286,
+          "baseDifficulty": 0.27,
+          "definition": "Bir kişinin bilgi veya becerisini ölçmek amacıyla yapılan resmi sınav.",
+          "exampleSentences": [
+            "Students spent the whole weekend preparing for the final exam.",
+            "She passed the exam with the highest score in her class.",
+            "The exam covered material from the entire semester."
+          ],
+          "translationTR": "sınav",
+          "collocations": [
+            "final exam",
+            "pass an exam",
+            "sit an exam"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-degree",
+          "type": "vocabulary",
+          "headword": "degree",
+          "frequencyRank": 287,
+          "baseDifficulty": 0.28,
+          "definition": "Bir üniversitede belirli bir programı tamamlayan kişiye verilen akademik unvan.",
+          "exampleSentences": [
+            "She earned a degree in engineering before starting her own company.",
+            "A university degree is no longer a guarantee of employment.",
+            "He is studying part-time for a degree in economics."
+          ],
+          "translationTR": "(akademik) derece, diploma",
+          "collocations": [
+            "university degree",
+            "earn a degree",
+            "degree in"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-knowledge",
+          "type": "vocabulary",
+          "headword": "knowledge",
+          "frequencyRank": 288,
+          "baseDifficulty": 0.29,
+          "definition": "Öğrenme veya deneyim yoluyla edinilen bilgi ve anlayış birikimi.",
+          "exampleSentences": [
+            "Her deep knowledge of the subject impressed the interview panel.",
+            "The course aims to give students practical knowledge they can apply immediately.",
+            "Scientific knowledge advances as new research is published."
+          ],
+          "translationTR": "bilgi",
+          "collocations": [
+            "deep knowledge",
+            "acquire knowledge",
+            "knowledge of"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-skill",
+          "type": "vocabulary",
+          "headword": "skill",
+          "frequencyRank": 289,
+          "baseDifficulty": 0.3,
+          "definition": "Belirli bir işi başarıyla yapabilme yeteneği; öğrenilerek ve pratik yapılarak geliştirilen genel yetenek.",
+          "exampleSentences": [
+            "The training programme focuses on practical skills students can use at work.",
+            "Employers increasingly value communication skills as much as technical knowledge.",
+            "It takes years of practice to develop a skill like this."
+          ],
+          "translationTR": "beceri, yetenek",
+          "collocations": [
+            "practical skill",
+            "develop a skill",
+            "skill in"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-education-learning-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-curriculum",
+          "type": "vocabulary",
+          "headword": "curriculum",
+          "frequencyRank": 290,
+          "baseDifficulty": 0.31,
+          "definition": "Bir okul veya program kapsamında öğretilmesi planlanan derslerin ve konuların bütünü.",
+          "exampleSentences": [
+            "The school revised its curriculum to include more practical science classes.",
+            "Critics argue the curriculum places too much weight on exams.",
+            "A broad curriculum helps students discover subjects they might otherwise never try."
+          ],
+          "translationTR": "müfredat",
+          "collocations": [
+            "national curriculum",
+            "revise the curriculum",
+            "curriculum for"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-literacy",
+          "type": "vocabulary",
+          "headword": "literacy",
+          "frequencyRank": 291,
+          "baseDifficulty": 0.32,
+          "definition": "Okuma ve yazma becerisine sahip olma durumu.",
+          "exampleSentences": [
+            "The programme aims to improve literacy among adults who never finished school.",
+            "Digital literacy is now considered as important as basic reading and writing.",
+            "Literacy rates have risen sharply in the region over the past decade."
+          ],
+          "translationTR": "okuryazarlık",
+          "collocations": [
+            "digital literacy",
+            "literacy rate",
+            "improve literacy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-tuition",
+          "type": "vocabulary",
+          "headword": "tuition",
+          "frequencyRank": 292,
+          "baseDifficulty": 0.33,
+          "definition": "Bir eğitim kurumunda verilen öğretim karşılığında ödenen ücret; ayrıca verilen öğretim hizmetinin kendisi.",
+          "exampleSentences": [
+            "Rising tuition has made university unaffordable for many families.",
+            "The scholarship covers tuition but not accommodation costs.",
+            "Some universities offer free tuition to students from low-income households."
+          ],
+          "translationTR": "öğrenim ücreti; öğretim",
+          "collocations": [
+            "tuition fees",
+            "cover tuition",
+            "free tuition"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-scholarship",
+          "type": "vocabulary",
+          "headword": "scholarship",
+          "frequencyRank": 293,
+          "baseDifficulty": 0.34,
+          "definition": "Başarılı veya ihtiyaç sahibi öğrencilere eğitim masraflarını karşılamak üzere verilen mali destek.",
+          "exampleSentences": [
+            "She received a full scholarship to study abroad.",
+            "The university offers scholarships to students with outstanding academic records.",
+            "Without the scholarship, he could never have afforded the tuition."
+          ],
+          "translationTR": "burs",
+          "collocations": [
+            "win a scholarship",
+            "full scholarship",
+            "scholarship for"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-graduate",
+          "type": "vocabulary",
+          "headword": "graduate",
+          "frequencyRank": 294,
+          "baseDifficulty": 0.35,
+          "definition": "Bir eğitim programını başarıyla tamamlayarak diploma alan kişi; böyle bir programı tamamlamak.",
+          "exampleSentences": [
+            "She graduated from university with a degree in biology.",
+            "Most graduates struggle to find their first job in a competitive market.",
+            "He plans to graduate next spring and start working immediately."
+          ],
+          "translationTR": "mezun; mezun olmak",
+          "collocations": [
+            "graduate from",
+            "recent graduate",
+            "graduate with honours"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-diploma",
+          "type": "vocabulary",
+          "headword": "diploma",
+          "frequencyRank": 295,
+          "baseDifficulty": 0.36,
+          "definition": "Bir eğitim programının tamamlandığını gösteren resmi belge.",
+          "exampleSentences": [
+            "He proudly displayed his diploma on the office wall.",
+            "The college awards a diploma after two years of study.",
+            "Without a diploma, she found it difficult to apply for certain jobs."
+          ],
+          "translationTR": "diploma",
+          "collocations": [
+            "award a diploma",
+            "earn a diploma",
+            "diploma in"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-tutor",
+          "type": "vocabulary",
+          "headword": "tutor",
+          "frequencyRank": 296,
+          "baseDifficulty": 0.37,
+          "definition": "Bir öğrenciye özel veya küçük gruplar hâlinde ders veren kişi.",
+          "exampleSentences": [
+            "Her parents hired a tutor to help her prepare for the exam.",
+            "The tutor met with each student individually once a week.",
+            "Online tutors now offer lessons in almost every subject imaginable."
+          ],
+          "translationTR": "özel öğretmen, eğitmen",
+          "collocations": [
+            "private tutor",
+            "hire a tutor",
+            "tutor for"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-seminar",
+          "type": "vocabulary",
+          "headword": "seminar",
+          "frequencyRank": 297,
+          "baseDifficulty": 0.38,
+          "definition": "Küçük bir grupla belirli bir konunun tartışılıp derinlemesine incelendiği ders veya toplantı.",
+          "exampleSentences": [
+            "The seminar encouraged students to debate the reading in small groups.",
+            "She attended a seminar on climate policy last week.",
+            "Unlike the lecture, the seminar allowed plenty of time for questions."
+          ],
+          "translationTR": "seminer",
+          "collocations": [
+            "attend a seminar",
+            "seminar on",
+            "weekly seminar"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-academic",
+          "type": "vocabulary",
+          "headword": "academic",
+          "frequencyRank": 298,
+          "baseDifficulty": 0.39,
+          "definition": "Üniversite veya bilimsel araştırma ile ilgili olan; öğretim ve öğrenimle ilgili.",
+          "exampleSentences": [
+            "Her academic performance improved significantly in her final year.",
+            "The journal publishes academic research from around the world.",
+            "He decided to pursue an academic career after finishing his doctorate."
+          ],
+          "translationTR": "akademik",
+          "collocations": [
+            "academic performance",
+            "academic career",
+            "academic research"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-campus",
+          "type": "vocabulary",
+          "headword": "campus",
+          "frequencyRank": 299,
+          "baseDifficulty": 0.4,
+          "definition": "Bir üniversite veya okulun binalarının ve arazisinin bulunduğu alan.",
+          "exampleSentences": [
+            "Most students live in dormitories on campus during their first year.",
+            "The university built a new library at the centre of the campus.",
+            "Campus life offers far more than just attending lectures."
+          ],
+          "translationTR": "kampüs",
+          "collocations": [
+            "on campus",
+            "university campus",
+            "campus life"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-education-learning-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-pedagogy",
+          "type": "vocabulary",
+          "headword": "pedagogy",
+          "frequencyRank": 300,
+          "baseDifficulty": 0.41,
+          "definition": "Öğretme yöntemleri ve öğretim sürecinin ilke ve uygulamalarını inceleyen alan.",
+          "exampleSentences": [
+            "The training focuses on modern pedagogy rather than outdated teaching methods.",
+            "Her research examines how pedagogy has changed with the rise of technology.",
+            "Good pedagogy takes into account how differently students learn."
+          ],
+          "translationTR": "pedagoji, öğretim bilimi",
+          "collocations": [
+            "modern pedagogy",
+            "pedagogy of",
+            "effective pedagogy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-syllabus",
+          "type": "vocabulary",
+          "headword": "syllabus",
+          "frequencyRank": 301,
+          "baseDifficulty": 0.42,
+          "definition": "Bir dersin kapsamını, konularını ve değerlendirme kriterlerini gösteren belge.",
+          "exampleSentences": [
+            "The professor handed out the syllabus on the first day of class.",
+            "Students are expected to read every text listed on the syllabus.",
+            "The department updates its syllabus every few years to reflect new research."
+          ],
+          "translationTR": "ders programı, müfredat özeti",
+          "collocations": [
+            "course syllabus",
+            "follow the syllabus",
+            "syllabus for"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-plagiarism",
+          "type": "vocabulary",
+          "headword": "plagiarism",
+          "frequencyRank": 302,
+          "baseDifficulty": 0.43,
+          "definition": "Başkasının fikir veya yazısını kaynak göstermeden kendisininmiş gibi sunma eylemi.",
+          "exampleSentences": [
+            "The university takes plagiarism extremely seriously and can expel students for it.",
+            "Software is now used to check every essay for plagiarism.",
+            "He was accused of plagiarism after copying whole paragraphs from another paper."
+          ],
+          "translationTR": "intihal, aşırma",
+          "collocations": [
+            "commit plagiarism",
+            "check for plagiarism",
+            "accused of plagiarism"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-thesis",
+          "type": "vocabulary",
+          "headword": "thesis",
+          "frequencyRank": 303,
+          "baseDifficulty": 0.44,
+          "definition": "Bir öğrencinin bir dereceyi tamamlamak için sunduğu, özgün araştırmaya dayanan uzun yazılı çalışma.",
+          "exampleSentences": [
+            "She spent two years researching her master's thesis.",
+            "His thesis argued that early intervention significantly improves literacy rates.",
+            "The committee asked several difficult questions during her thesis defence."
+          ],
+          "translationTR": "tez",
+          "collocations": [
+            "write a thesis",
+            "thesis defence",
+            "master's thesis"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dissertation",
+          "type": "vocabulary",
+          "headword": "dissertation",
+          "frequencyRank": 304,
+          "baseDifficulty": 0.45,
+          "definition": "Genellikle doktora düzeyinde hazırlanan, kapsamlı özgün araştırmaya dayanan uzun akademik çalışma.",
+          "exampleSentences": [
+            "His dissertation took nearly four years to complete.",
+            "She is currently writing the final chapter of her dissertation.",
+            "The dissertation must make an original contribution to the field."
+          ],
+          "translationTR": "doktora tezi",
+          "collocations": [
+            "write a dissertation",
+            "doctoral dissertation",
+            "dissertation on"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-postgraduate",
+          "type": "vocabulary",
+          "headword": "postgraduate",
+          "frequencyRank": 305,
+          "baseDifficulty": 0.46,
+          "definition": "Bir lisans derecesini tamamladıktan sonra yapılan, yüksek lisans veya doktora düzeyindeki eğitimle ilgili.",
+          "exampleSentences": [
+            "She enrolled in a postgraduate programme in public health.",
+            "Postgraduate students often work as teaching assistants to fund their studies.",
+            "The university expanded its postgraduate offerings in data science."
+          ],
+          "translationTR": "lisansüstü",
+          "collocations": [
+            "postgraduate programme",
+            "postgraduate student",
+            "postgraduate study"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-undergraduate",
+          "type": "vocabulary",
+          "headword": "undergraduate",
+          "frequencyRank": 306,
+          "baseDifficulty": 0.47,
+          "definition": "Henüz ilk üniversite derecesini (lisans) tamamlamamış öğrenciyle veya bu düzeydeki eğitimle ilgili.",
+          "exampleSentences": [
+            "As an undergraduate, she double-majored in physics and philosophy.",
+            "The undergraduate programme lasts four years at most universities.",
+            "Undergraduate students are required to complete a certain number of credits each term."
+          ],
+          "translationTR": "lisans düzeyinde (öğrenci/eğitim)",
+          "collocations": [
+            "undergraduate degree",
+            "undergraduate student",
+            "undergraduate programme"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-enrolment",
+          "type": "vocabulary",
+          "headword": "enrolment",
+          "frequencyRank": 307,
+          "baseDifficulty": 0.48,
+          "definition": "Bir kişinin bir okula, kursa veya programa resmi olarak kaydolması.",
+          "exampleSentences": [
+            "Enrolment in the online course doubled within a single year.",
+            "The deadline for enrolment is the end of August.",
+            "Falling enrolment forced the college to cut several programmes."
+          ],
+          "translationTR": "kayıt, kaydolma",
+          "collocations": [
+            "student enrolment",
+            "enrolment deadline",
+            "increase enrolment"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-attendance",
+          "type": "vocabulary",
+          "headword": "attendance",
+          "frequencyRank": 308,
+          "baseDifficulty": 0.49,
+          "definition": "Bir derse veya etkinliğe düzenli olarak katılma durumu.",
+          "exampleSentences": [
+            "The teacher takes attendance at the start of every lesson.",
+            "Poor attendance was linked to lower exam results.",
+            "Attendance at the seminar was compulsory for all first-year students."
+          ],
+          "translationTR": "devam, katılım",
+          "collocations": [
+            "take attendance",
+            "poor attendance",
+            "attendance record"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-assignment",
+          "type": "vocabulary",
+          "headword": "assignment",
+          "frequencyRank": 309,
+          "baseDifficulty": 0.5,
+          "definition": "Bir öğretmen veya öğretim üyesi tarafından öğrenciye verilen, tamamlanması gereken görev veya ödev.",
+          "exampleSentences": [
+            "She submitted the assignment two days before the deadline.",
+            "The assignment required students to analyse a real case study.",
+            "Late assignments are only accepted with a valid excuse."
+          ],
+          "translationTR": "ödev, görev",
+          "collocations": [
+            "submit an assignment",
+            "complete an assignment",
+            "assignment deadline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-education-learning-4",
+      "order": 3,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-comprehension",
+          "type": "vocabulary",
+          "headword": "comprehension",
+          "frequencyRank": 310,
+          "baseDifficulty": 0.51,
+          "definition": "Okunan veya duyulan bir şeyin anlamını kavrama yetisi.",
+          "exampleSentences": [
+            "The test measures reading comprehension rather than vocabulary alone.",
+            "Her comprehension of the lecture improved once she reviewed the notes.",
+            "Simplifying the text helped weaker readers with comprehension."
+          ],
+          "translationTR": "kavrama, anlama",
+          "collocations": [
+            "reading comprehension",
+            "comprehension of",
+            "improve comprehension"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-retention",
+          "type": "vocabulary",
+          "headword": "retention",
+          "frequencyRank": 311,
+          "baseDifficulty": 0.52,
+          "definition": "Öğrenilen bilginin hafızada tutulup daha sonra hatırlanabilmesi.",
+          "exampleSentences": [
+            "Spacing out study sessions improves long-term retention of information.",
+            "The school introduced regular quizzes to boost knowledge retention.",
+            "Poor sleep can significantly reduce memory retention."
+          ],
+          "translationTR": "akılda tutma, kalıcılık",
+          "collocations": [
+            "knowledge retention",
+            "improve retention",
+            "long-term retention"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-motivation",
+          "type": "vocabulary",
+          "headword": "motivation",
+          "frequencyRank": 312,
+          "baseDifficulty": 0.53,
+          "definition": "Bir kişiyi belirli bir hedefe ulaşmak için harekete geçiren istek veya güdü.",
+          "exampleSentences": [
+            "Her motivation to succeed came from watching her parents struggle without an education.",
+            "Teachers often look for ways to increase student motivation.",
+            "A lack of motivation was the main reason he dropped out of the course."
+          ],
+          "translationTR": "motivasyon, güdülenme",
+          "collocations": [
+            "student motivation",
+            "lack of motivation",
+            "boost motivation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-feedback",
+          "type": "vocabulary",
+          "headword": "feedback",
+          "frequencyRank": 313,
+          "baseDifficulty": 0.54,
+          "definition": "Bir kişinin yaptığı işe veya performansına dair verilen değerlendirme ve yorum.",
+          "exampleSentences": [
+            "The tutor gave detailed feedback on every essay.",
+            "Students said the feedback helped them understand their mistakes.",
+            "Constructive feedback is more useful than simply pointing out errors."
+          ],
+          "translationTR": "geri bildirim",
+          "collocations": [
+            "give feedback",
+            "constructive feedback",
+            "feedback on"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-discipline",
+          "type": "vocabulary",
+          "headword": "discipline",
+          "frequencyRank": 314,
+          "baseDifficulty": 0.55,
+          "definition": "Belirli kurallara uyarak düzenli çalışma alışkanlığı; ayrıca üniversitede okutulan akademik bir bilgi ve araştırma alanı.",
+          "exampleSentences": [
+            "Success in a doctoral programme requires enormous discipline and patience.",
+            "History is a discipline that draws on evidence from many different sources.",
+            "The teacher maintained discipline in the classroom without raising her voice."
+          ],
+          "translationTR": "özdisiplin; (ayrıca) akademik disiplin/bilim dalı",
+          "collocations": [
+            "academic discipline",
+            "self-discipline",
+            "maintain discipline"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-aptitude",
+          "type": "vocabulary",
+          "headword": "aptitude",
+          "frequencyRank": 315,
+          "baseDifficulty": 0.56,
+          "definition": "Belirli bir alanda başarılı olmaya yatkınlık gösteren doğal yetenek.",
+          "exampleSentences": [
+            "The test is designed to measure a student's aptitude for mathematics.",
+            "She showed a natural aptitude for languages from an early age.",
+            "Employers sometimes use aptitude tests during the hiring process."
+          ],
+          "translationTR": "yatkınlık, kabiliyet",
+          "collocations": [
+            "aptitude test",
+            "aptitude for",
+            "natural aptitude"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-vocational",
+          "type": "vocabulary",
+          "headword": "vocational",
+          "frequencyRank": 316,
+          "baseDifficulty": 0.57,
+          "definition": "Belirli bir meslek veya iş için gereken pratik beceri ve bilgiyi kazandırmaya yönelik.",
+          "exampleSentences": [
+            "The college offers vocational training in plumbing and electrical work.",
+            "Vocational education prepares students directly for a specific trade.",
+            "More students are choosing vocational courses over traditional academic degrees."
+          ],
+          "translationTR": "mesleki",
+          "collocations": [
+            "vocational training",
+            "vocational education",
+            "vocational course"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-mentor",
+          "type": "vocabulary",
+          "headword": "mentor",
+          "frequencyRank": 317,
+          "baseDifficulty": 0.58,
+          "definition": "Daha az deneyimli bir kişiye rehberlik eden, deneyimli ve güvenilir danışman.",
+          "exampleSentences": [
+            "Her mentor encouraged her to apply for the scholarship.",
+            "The programme pairs new students with an experienced mentor.",
+            "He mentored several junior researchers throughout his career."
+          ],
+          "translationTR": "akıl hocası, mentor",
+          "collocations": [
+            "act as a mentor",
+            "mentor a student",
+            "assign a mentor"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-competence",
+          "type": "vocabulary",
+          "headword": "competence",
+          "frequencyRank": 318,
+          "baseDifficulty": 0.59,
+          "definition": "Belirli bir görevi yeterli düzeyde yerine getirebilme yeterliliği.",
+          "exampleSentences": [
+            "The exam is designed to assess a candidate's competence in the subject.",
+            "Basic competence in mathematics is required before starting the course.",
+            "Her competence in handling difficult cases impressed the supervisors."
+          ],
+          "translationTR": "yeterlik, yetkinlik (bir görevi gereken düzeyde yerine getirebilme)",
+          "collocations": [
+            "competence in",
+            "assess competence",
+            "professional competence"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-proficiency",
+          "type": "vocabulary",
+          "headword": "proficiency",
+          "frequencyRank": 319,
+          "baseDifficulty": 0.6,
+          "definition": "Bir dilde veya alanda ileri düzeyde, akıcı ve etkili beceri gösterme durumu.",
+          "exampleSentences": [
+            "The job requires proficiency in at least two foreign languages.",
+            "Her proficiency in English improved rapidly after she moved abroad.",
+            "The test measures proficiency rather than basic familiarity with the language."
+          ],
+          "translationTR": "dil/beceri düzeyinde ustalık, ileri düzey yeterlilik",
+          "collocations": [
+            "language proficiency",
+            "proficiency in",
+            "level of proficiency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-education-learning-5",
+      "order": 4,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-inclusive",
+          "type": "vocabulary",
+          "headword": "inclusive",
+          "frequencyRank": 320,
+          "baseDifficulty": 0.61,
+          "definition": "Farklı yetenek, geçmiş veya ihtiyaca sahip herkesi kapsayacak biçimde tasarlanmış.",
+          "exampleSentences": [
+            "The school adopted an inclusive curriculum that accommodates students with disabilities.",
+            "Inclusive classrooms bring together students of very different abilities.",
+            "The programme aims to make higher education more inclusive."
+          ],
+          "translationTR": "kapsayıcı",
+          "collocations": [
+            "inclusive education",
+            "inclusive classroom",
+            "more inclusive"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-remedial",
+          "type": "vocabulary",
+          "headword": "remedial",
+          "frequencyRank": 321,
+          "baseDifficulty": 0.62,
+          "definition": "Öğrenme eksikliklerini gidermek amacıyla verilen ek destek eğitimine ilişkin.",
+          "exampleSentences": [
+            "Struggling students were offered remedial classes in reading and mathematics.",
+            "The remedial programme helped her catch up with the rest of the class.",
+            "Some universities still require remedial coursework for underprepared students."
+          ],
+          "translationTR": "telafi edici, destekleyici (eğitimde)",
+          "collocations": [
+            "remedial class",
+            "remedial education",
+            "remedial programme"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-bilingual",
+          "type": "vocabulary",
+          "headword": "bilingual",
+          "frequencyRank": 322,
+          "baseDifficulty": 0.63,
+          "definition": "İki dili akıcı biçimde konuşabilen veya iki dilde yürütülen.",
+          "exampleSentences": [
+            "The school runs a bilingual programme in English and Spanish.",
+            "Growing up bilingual gave her an advantage when learning a third language.",
+            "Bilingual education has been shown to improve cognitive flexibility."
+          ],
+          "translationTR": "iki dilli",
+          "collocations": [
+            "bilingual education",
+            "bilingual programme",
+            "become bilingual"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dropout",
+          "type": "vocabulary",
+          "headword": "dropout",
+          "frequencyRank": 323,
+          "baseDifficulty": 0.64,
+          "definition": "Bir eğitim programını tamamlamadan bırakan kişi; böyle bir programı yarıda bırakma durumu.",
+          "exampleSentences": [
+            "The high school dropout rate fell sharply after the new support programme began.",
+            "He was a college dropout who later became a successful entrepreneur.",
+            "Financial difficulties are one of the main causes of student dropout."
+          ],
+          "translationTR": "okulu terk eden kişi; okul terki",
+          "collocations": [
+            "dropout rate",
+            "high school dropout",
+            "prevent dropout"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-credential",
+          "type": "vocabulary",
+          "headword": "credential",
+          "frequencyRank": 324,
+          "baseDifficulty": 0.65,
+          "definition": "Bir kişinin belirli bir eğitim düzeyine veya yeterliliğe sahip olduğunu kanıtlayan resmi belge.",
+          "exampleSentences": [
+            "Employers increasingly ask for formal credentials rather than just experience.",
+            "She earned a teaching credential after finishing her master's degree.",
+            "The certificate serves as a credential recognised across the industry."
+          ],
+          "translationTR": "yeterlilik belgesi",
+          "collocations": [
+            "teaching credential",
+            "earn a credential",
+            "formal credentials"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-accreditation",
+          "type": "vocabulary",
+          "headword": "accreditation",
+          "frequencyRank": 325,
+          "baseDifficulty": 0.66,
+          "definition": "Bir eğitim kurumunun veya programının belirli standartları karşıladığını gösteren resmi onay süreci.",
+          "exampleSentences": [
+            "The college lost its accreditation after failing to meet quality standards.",
+            "Accreditation reassures students that their degree will be widely recognised.",
+            "The programme is currently seeking accreditation from a national body."
+          ],
+          "translationTR": "akreditasyon",
+          "collocations": [
+            "seek accreditation",
+            "national accreditation",
+            "accreditation process"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-cohort",
+          "type": "vocabulary",
+          "headword": "cohort",
+          "frequencyRank": 326,
+          "baseDifficulty": 0.67,
+          "definition": "Aynı dönemde bir programa başlayan veya eğitimini birlikte sürdüren öğrenci grubu.",
+          "exampleSentences": [
+            "This year's cohort is the largest the programme has ever admitted.",
+            "The study followed a single cohort of students over ten years.",
+            "Students in the same cohort often support one another through difficult courses."
+          ],
+          "translationTR": "kohort, aynı dönem grubu",
+          "collocations": [
+            "student cohort",
+            "entire cohort",
+            "cohort of"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-scaffold",
+          "type": "vocabulary",
+          "headword": "scaffold",
+          "frequencyRank": 327,
+          "baseDifficulty": 0.68,
+          "definition": "Öğrencinin bir beceriyi kazanana kadar geçici destek sağlayarak öğrenmesini kolaylaştırmak.",
+          "exampleSentences": [
+            "The teacher scaffolded the lesson with simpler questions before tackling the main text.",
+            "Good instruction scaffolds difficult tasks so students are not overwhelmed.",
+            "The curriculum scaffolds writing skills from simple sentences to full essays."
+          ],
+          "translationTR": "aşamalı destek sağlamak",
+          "collocations": [
+            "scaffold learning",
+            "scaffold a lesson",
+            "scaffolded instruction"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-differentiate",
+          "type": "vocabulary",
+          "headword": "differentiate",
+          "frequencyRank": 328,
+          "baseDifficulty": 0.69,
+          "definition": "Öğrencilerin farklı ihtiyaç ve düzeylerine göre öğretimi uyarlamak; ayrıca bir şeyi başka bir şeyden ayırt etmek.",
+          "exampleSentences": [
+            "Teachers are trained to differentiate instruction for students at different levels.",
+            "The lesson was differentiated so that advanced students received extra challenges.",
+            "It is important to differentiate between memorising facts and truly understanding them."
+          ],
+          "translationTR": "(öğretimi) düzeye göre uyarlamak; ayırt etmek",
+          "collocations": [
+            "differentiate instruction",
+            "differentiate between",
+            "differentiated learning"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-extracurricular",
+          "type": "vocabulary",
+          "headword": "extracurricular",
+          "frequencyRank": 329,
+          "baseDifficulty": 0.7,
+          "definition": "Okulun normal ders programının dışında yapılan etkinliklerle ilgili.",
+          "exampleSentences": [
+            "She joined several extracurricular clubs to broaden her experience beyond the classroom.",
+            "Extracurricular activities can teach skills that the classroom alone cannot.",
+            "Universities often consider extracurricular involvement alongside academic grades."
+          ],
+          "translationTR": "ders dışı, müfredat dışı",
+          "collocations": [
+            "extracurricular activity",
+            "extracurricular club",
+            "extracurricular involvement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-education-learning-6",
+      "order": 5,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-rigorous",
+          "type": "vocabulary",
+          "headword": "rigorous",
+          "frequencyRank": 330,
+          "baseDifficulty": 0.71,
+          "definition": "Titiz, sıkı ve yüksek standartlara dayalı biçimde yürütülen.",
+          "exampleSentences": [
+            "The programme is known for its rigorous admission requirements.",
+            "Her thesis underwent rigorous review before it was approved.",
+            "Rigorous training prepared the students for the demands of the profession."
+          ],
+          "translationTR": "titiz, sıkı, katı standartlara dayalı",
+          "collocations": [
+            "rigorous training",
+            "rigorous standards",
+            "rigorous assessment"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-rote",
+          "type": "vocabulary",
+          "headword": "rote",
+          "frequencyRank": 331,
+          "baseDifficulty": 0.72,
+          "definition": "Anlamını kavramadan, yalnızca tekrar yoluyla ezberleme yöntemi.",
+          "exampleSentences": [
+            "Rote learning still dominates some traditional classrooms.",
+            "Memorising formulas by rote does not guarantee real understanding.",
+            "The new curriculum moves away from rote memorisation towards critical thinking."
+          ],
+          "translationTR": "ezber (yoluyla öğrenme)",
+          "collocations": [
+            "rote learning",
+            "learn by rote",
+            "rote memorisation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-didactic",
+          "type": "vocabulary",
+          "headword": "didactic",
+          "frequencyRank": 332,
+          "baseDifficulty": 0.73,
+          "definition": "Ders verir veya öğretici bir tavırla, açıkça öğretme amacı taşıyan.",
+          "exampleSentences": [
+            "The novel has a strongly didactic tone that some readers find heavy-handed.",
+            "He preferred a didactic teaching style, explaining every step in detail.",
+            "The museum's exhibits are more didactic than entertaining."
+          ],
+          "translationTR": "öğretici, ders verir tarzda",
+          "collocations": [
+            "didactic tone",
+            "didactic style",
+            "overly didactic"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-erudite",
+          "type": "vocabulary",
+          "headword": "erudite",
+          "frequencyRank": 333,
+          "baseDifficulty": 0.74,
+          "definition": "Geniş ve derin bilgi birikimine sahip, çok okumuş.",
+          "exampleSentences": [
+            "The professor's erudite lectures often referenced obscure historical texts.",
+            "She is known among colleagues as an erudite scholar of medieval literature.",
+            "His erudite commentary impressed even the most experienced researchers."
+          ],
+          "translationTR": "engin bilgili, çok bilgili",
+          "collocations": [
+            "erudite scholar",
+            "erudite commentary",
+            "remarkably erudite"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-intellectual",
+          "type": "vocabulary",
+          "headword": "intellectual",
+          "frequencyRank": 334,
+          "baseDifficulty": 0.75,
+          "definition": "Zihinsel çaba, düşünme ve akıl yürütme ile ilgili.",
+          "exampleSentences": [
+            "The seminar encouraged genuine intellectual debate rather than passive listening.",
+            "She has always shown a strong intellectual curiosity about the natural world.",
+            "The university prides itself on fostering an intellectual community."
+          ],
+          "translationTR": "entelektüel, zihinsel",
+          "collocations": [
+            "intellectual curiosity",
+            "intellectual debate",
+            "intellectual community"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-scholarly",
+          "type": "vocabulary",
+          "headword": "scholarly",
+          "frequencyRank": 335,
+          "baseDifficulty": 0.76,
+          "definition": "Bilimsel araştırmaya dayanan veya akademik ciddiyetle yürütülen.",
+          "exampleSentences": [
+            "The journal only publishes scholarly articles that have passed peer review.",
+            "Her scholarly approach to the subject impressed the committee.",
+            "The book is a scholarly account of the region's political history."
+          ],
+          "translationTR": "bilimsel, akademik nitelikli",
+          "collocations": [
+            "scholarly article",
+            "scholarly research",
+            "scholarly work"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-enlighten",
+          "type": "vocabulary",
+          "headword": "enlighten",
+          "frequencyRank": 336,
+          "baseDifficulty": 0.77,
+          "definition": "Bir kişiye yeni bilgi veya anlayış kazandırarak aydınlatmak.",
+          "exampleSentences": [
+            "The lecture enlightened students about the true origins of the theory.",
+            "She hoped the documentary would enlighten viewers on the issue.",
+            "His explanation finally enlightened me about how the process actually works."
+          ],
+          "translationTR": "aydınlatmak, bilgilendirmek",
+          "collocations": [
+            "enlighten students",
+            "greatly enlightened",
+            "enlighten someone about"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-instil",
+          "type": "vocabulary",
+          "headword": "instil",
+          "frequencyRank": 337,
+          "baseDifficulty": 0.78,
+          "definition": "Bir değer, alışkanlık veya inancı zamanla ve yavaş yavaş bir kişide yerleştirmek.",
+          "exampleSentences": [
+            "Good teachers try to instil a genuine love of learning in their students.",
+            "The programme aims to instil discipline and confidence in young athletes.",
+            "Parents play a key role in instilling curiosity at an early age."
+          ],
+          "translationTR": "(değer, alışkanlık) aşılamak, kazandırmak",
+          "collocations": [
+            "instil confidence",
+            "instil a love of",
+            "instil discipline"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-nurture",
+          "type": "vocabulary",
+          "headword": "nurture",
+          "frequencyRank": 338,
+          "baseDifficulty": 0.79,
+          "definition": "Bir kişinin gelişimini destekleyip özenle büyütmek veya geliştirmek.",
+          "exampleSentences": [
+            "Teachers try to nurture creativity rather than simply testing memorisation.",
+            "The mentorship programme was designed to nurture young researchers.",
+            "A supportive environment helps nurture a child's confidence."
+          ],
+          "translationTR": "geliştirmek, özenle büyütmek",
+          "collocations": [
+            "nurture creativity",
+            "nurture talent",
+            "nurturing environment"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-inquisitive",
+          "type": "vocabulary",
+          "headword": "inquisitive",
+          "frequencyRank": 339,
+          "baseDifficulty": 0.8,
+          "definition": "Merak duygusu güçlü, sürekli soru sorup öğrenmek isteyen.",
+          "exampleSentences": [
+            "Her inquisitive nature made her ask questions long after the lecture ended.",
+            "Teachers try to keep young children inquisitive rather than passive.",
+            "He has always been inquisitive about how things work."
+          ],
+          "translationTR": "meraklı, araştırmacı ruhlu",
+          "collocations": [
+            "inquisitive mind",
+            "inquisitive nature",
+            "naturally inquisitive"
+          ]
+        }
+      ]
+    }
+  ]
+}

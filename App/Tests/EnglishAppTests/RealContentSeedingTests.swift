@@ -33,9 +33,9 @@ final class RealContentSeedingTests: XCTestCase {
         let package = try ContentImporter.importPackage(from: data, into: context)
         try context.save()
 
-        XCTAssertEqual(package.units.count, 18)
+        XCTAssertEqual(package.units.count, 20)
         let allItems = package.units.flatMap { $0.lessons.flatMap { $0.items } }
-        XCTAssertEqual(allItems.count, 328)
+        XCTAssertEqual(allItems.count, 448)
         XCTAssertTrue(allItems.allSatisfy { $0.content != nil })
 
         // Regression guard for the mangled-Turkish-characters bug (Task 6): a bare
@@ -360,7 +360,7 @@ final class RealContentSeedingTests: XCTestCase {
         let packages = try context.fetch(FetchDescriptor<ContentPackage>())
         XCTAssertEqual(packages.count, 1)
         let allItems = packages.flatMap { $0.units.flatMap { $0.lessons.flatMap { $0.items } } }
-        XCTAssertEqual(allItems.count, 328)
+        XCTAssertEqual(allItems.count, 448)
 
         // Calling again must not duplicate content.
         AppModelContainer.seedRealContentIfNeeded(in: context)
@@ -381,9 +381,14 @@ final class RealContentSeedingTests: XCTestCase {
         let units = package.units.sorted { $0.order < $1.order }
         XCTAssertEqual(units.map(\.order), Array(0..<units.count), "unit orders must be contiguous from 0")
         let vocabUnits = Array(units[16...])
-        XCTAssertEqual(vocabUnits.map(\.id), ["yds-vocab2-unit-health-medicine", "yds-vocab2-unit-environment-energy"])
-        XCTAssertEqual(vocabUnits.map(\.theme), ["Health & Medicine", "Environment & Energy"])
-        XCTAssertEqual(vocabUnits.map(\.order), [16, 17])
+        XCTAssertEqual(vocabUnits.map(\.id), [
+            "yds-vocab2-unit-health-medicine", "yds-vocab2-unit-environment-energy",
+            "yds-vocab2-unit-technology-innovation", "yds-vocab2-unit-education-learning",
+        ])
+        XCTAssertEqual(vocabUnits.map(\.theme), [
+            "Health & Medicine", "Environment & Energy", "Technology & Innovation", "Education & Learning",
+        ])
+        XCTAssertEqual(vocabUnits.map(\.order), [16, 17, 18, 19])
 
         var seenHeadwords = Set<String>()
         for unit in vocabUnits {
