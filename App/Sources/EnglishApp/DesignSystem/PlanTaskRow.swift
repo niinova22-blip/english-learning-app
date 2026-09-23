@@ -30,6 +30,7 @@ enum PlanTaskText {
 struct PlanTaskRow: View {
     let task: PlanTask
     let isHighlighted: Bool
+    var isCoachAdded: Bool = false
     let onStart: () -> Void
 
     private var isDone: Bool {
@@ -79,6 +80,11 @@ struct PlanTaskRow: View {
                     Text(PlanTaskText.subtitle(task))
                         .font(.caption)
                         .foregroundStyle(isLocked ? Theme.accent : Theme.secondaryInk)
+                    if isCoachAdded {
+                        Text("Koç ekledi")
+                            .font(.caption2.weight(.semibold))
+                            .foregroundStyle(Theme.accent)
+                    }
                 }
                 Spacer(minLength: 8)
                 if isHighlighted && !isDone && !isLocked {

@@ -158,7 +158,7 @@ struct PaywallView: View {
             return [
                 "Öğretmene Sor: sorunun cevabını Türkçe açıklar",
                 "Öğretmenle serbest sohbet",
-                "Çalışma koçu (yakında)",
+                "Çalışma koçu: sınav tarihine göre kişisel program",
                 "İstediğin zaman iptal edebilirsin",
             ]
         }

@@ -20,6 +20,8 @@ struct ProfileView: View {
     @State private var stats: LearnerStats?
     @State private var levelTestSnapshot: LevelTestSnapshot?
     @State private var examDate: Date?
+    @State private var coachBriefing: CoachBriefing?
+    @State private var showStudySettings = false
     @State private var hasSkippedLevelTest = false
     @State private var showLevelTestSheet = false
     @State private var showResetConfirmation = false
@@ -42,6 +44,24 @@ struct ProfileView: View {
                     if let examDate {
                         Divider()
                         row("Sınav tarihi", examDate.formatted(.dateTime.day().month(.wide).year().locale(Locale(identifier: "tr_TR"))))
+                    }
+                    Button("Düzenle") { showStudySettings = true }
+                        .buttonStyle(.plain).foregroundStyle(Theme.primary)
+                }
+
+                if appState.premiumProvider.isPremium, let coachBriefing {
+                    section("KOÇ") {
+                        row("Bu hafta", "\(coachBriefing.weekDaysStudied) gün · \(coachBriefing.weekMinutes) dk")
+                        Divider()
+                        row("Biten ders (7 gün)", "\(coachBriefing.weekLessonsCompleted)")
+                        if let skill = coachBriefing.plan.weakestSkill {
+                            Divider()
+                            row("En çok ihtiyaç", skill.displayName, tint: Theme.accent)
+                        }
+                        if let finish = coachBriefing.plan.targetFinishDay, coachBriefing.plan.status != .scopeComplete {
+                            Divider()
+                            row("Hedef bitiş", finish.formatted(.dateTime.day().month(.wide).year().locale(Locale(identifier: "tr_TR"))), tint: Theme.primary)
+                        }
                     }
                 }
 
@@ -130,6 +150,7 @@ struct ProfileView: View {
         .sheet(item: $paywall) { mode in
             PaywallView(mode: mode, store: appState.entitlements)
         }
+        .sheet(isPresented: $showStudySettings) { StudySettingsSheet() }
         .sheet(isPresented: $showLevelTestSheet) {
             if let packageID = try? TodayPlanCoordinator(context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider).activePackage()?.id {
                 LevelTestRetakeSheet(packageID: packageID) { _ in
@@ -192,6 +213,7 @@ struct ProfileView: View {
     private func refresh() {
         let userID = UserIdentity.current
         stats = try? TodayPlanCoordinator(context: context, userID: userID, accessProvider: appState.accessProvider).stats()
+        coachBriefing = try? TodayPlanCoordinator(context: context, userID: userID, accessProvider: appState.accessProvider).buildCoachBriefing()
         let result = try? context.fetch(FetchDescriptor<LevelTestResult>(predicate: #Predicate { $0.userID == userID })).first
         levelTestSnapshot = result.map { LevelTestSnapshot(level: $0.cefrLevel, score: $0.vocabularyScore) }
         let profile = try? context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userID })).first

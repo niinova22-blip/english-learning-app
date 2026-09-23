@@ -48,6 +48,8 @@ Sandbox hesabıyla, gerçek cihazda:
 - [ ] Slice 7c yeni soru tipleri (ekranlar CI'da görülemiyor): bir okuma dersi (parça paneli), bir cloze dersi (boşluklu parça) ve bir konu dışı cümle dersi (uzun numaralı soru + I-V seçenekleri) küçük ekranda ve büyük yazı boyutunda düzgün görünüyor mu?
 - [ ] Slice 7d strateji dersi uçtan uca (Sınav soru tipi stratejileri ünitesinden bir ders): strateji kartı önce görünüyor mu, ardından sorular geliyor mu, açıklamalardaki (A)-(E) harfleri seçeneklerle eşleşiyor mu? Sınav yönetimi ve kelime öğrenme teknikleri ünitelerinden birer ders de dene.
 - [ ] Slice 7d yeni kelime ünitelerinden bir ders (ör. Health & Medicine): 10 kelime, üçer örnek ve üçer collocation düzgün görünüyor mu? Uzun tanım/çeviri satırları büyük yazı boyutunda taşmıyor mu?
+- [ ] Slice 9 AI Koç (premium, sandbox abonelikle): Bugün'ün üstünde koç kartı görünüyor mu (durum rozeti, ilerleme satırı)? Sınav tarihi yokken "Sınav tarihini ekle" daveti ve Çalışma ayarları sayfası çalışıyor mu? Sınav tarihini çok yakın (7 günden az) yapınca plan yalnızca tekrar mı oluyor? Tarihi yetişilemeyecek kadar yakın yapınca "Tempo yetmiyor" ve iki buton çıkıyor mu?
+- [ ] AI Koç kişisel not: "Koçtan kişisel not al" → model yüklenip Türkçe, 2-4 cümlelik, sayıları doğru bir not yazıyor mu? Uygulamayı açınca model KENDİLİĞİNDEN yüklenmiyor mu (bellek)? Ücretsiz kullanıcıda kilitli "AI Koç" kartı paywall'u açıyor mu? Büyük yazı boyutunda kart taşmıyor mu?
 - [ ] Kelime havuzu 120'den 600'e çıktıktan sonra seviye testi: yerleştirme hâlâ mantıklı hissettiriyor mu (daha zor kelimeler soru havuzuna girdi)?
 
 Not: Release/TestFlight derlemelerinde geliştirici "Tüm paketleri aç" anahtarı
