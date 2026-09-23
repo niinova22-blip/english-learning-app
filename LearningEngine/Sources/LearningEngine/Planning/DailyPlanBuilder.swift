@@ -47,12 +47,15 @@ public struct DailyPlanInput: Sendable, Equatable {
     public let pastWeekSkillMinutes: [Skill: Double]
     public let startOfToday: Date
     public let duePracticeCards: [DuePracticeCard]
+    /// Premium coach instructions; nil keeps the plan exactly as without a coach.
+    public let coach: CoachDirective?
 
     public init(
         weights: SkillWeights, dailyMinutes: Int, lessonsInPathOrder: [PlanLesson],
         dueNowCount: Int, reviewedTodayCount: Int,
         pastWeekSkillMinutes: [Skill: Double], startOfToday: Date,
-        duePracticeCards: [DuePracticeCard] = []
+        duePracticeCards: [DuePracticeCard] = [],
+        coach: CoachDirective? = nil
     ) {
         self.weights = weights
         self.dailyMinutes = dailyMinutes
@@ -62,6 +65,7 @@ public struct DailyPlanInput: Sendable, Equatable {
         self.pastWeekSkillMinutes = pastWeekSkillMinutes
         self.startOfToday = startOfToday
         self.duePracticeCards = duePracticeCards
+        self.coach = coach
     }
 }
 
@@ -90,11 +94,14 @@ public struct DailyPlan: Sendable, Equatable {
     public let tasks: [PlanTask]
     public let totalMinutes: Double
     public let weeklyBalance: [SkillBalance]
+    /// Lessons that are in the plan only because the coach asked for extra time.
+    public let coachAddedLessonIDs: [String]
 
-    public init(tasks: [PlanTask], totalMinutes: Double, weeklyBalance: [SkillBalance]) {
+    public init(tasks: [PlanTask], totalMinutes: Double, weeklyBalance: [SkillBalance], coachAddedLessonIDs: [String] = []) {
         self.tasks = tasks
         self.totalMinutes = totalMinutes
         self.weeklyBalance = weeklyBalance
+        self.coachAddedLessonIDs = coachAddedLessonIDs
     }
 
     /// Every review/lesson task is done. Locked tasks are not actionable, so
@@ -128,8 +135,10 @@ public struct DailyPlanBuilder: Sendable {
         let weights = input.weights
         let activeSkills = Set(weights.activeSkills)
 
-        // 1. Review task.
-        let reviewCap = Int((budget * Self.maxReviewShareOfBudget / Self.minutesPerReviewCard).rounded(.down))
+        let reviewOnly = input.coach?.reviewOnly ?? false
+        // 1. Review task. In the coach's review-only days reviews may fill the day.
+        let reviewShare = reviewOnly ? 1.0 : Self.maxReviewShareOfBudget
+        let reviewCap = Int((budget * reviewShare / Self.minutesPerReviewCard).rounded(.down))
         let reviewTarget = min(input.reviewedTodayCount + input.dueNowCount, reviewCap)
         var reviewMinutes = 0.0
         if reviewTarget > 0 {
@@ -192,12 +201,21 @@ public struct DailyPlanBuilder: Sendable {
             addedAny = true
         }
 
-        while reviewMinutes + practiceMinutes + plannedLessonMinutes < budget, let lesson = nextLesson() {
-            add(lesson)
-        }
-        // 3. At least one lesson when any candidate exists.
-        if !addedAny, let lesson = nextLesson() {
-            add(lesson)
+        var coachAdded: [String] = []
+        if !reviewOnly {
+            while reviewMinutes + practiceMinutes + plannedLessonMinutes < budget, let lesson = nextLesson() {
+                add(lesson)
+            }
+            // 3. At least one lesson when any candidate exists.
+            if !addedAny, let lesson = nextLesson() {
+                add(lesson)
+            }
+            // 4. Coach catch-up: keep adding past the budget by the coach's extra minutes.
+            let extra = Double(max(input.coach?.extraLessonMinutes ?? 0, 0))
+            while extra > 0, reviewMinutes + practiceMinutes + plannedLessonMinutes < budget + extra, let lesson = nextLesson() {
+                add(lesson)
+                coachAdded.append(lesson.id)
+            }
         }
 
         // 5. Locked card when the accessible part is exhausted.
@@ -215,7 +233,10 @@ public struct DailyPlanBuilder: Sendable {
             )
         }
 
-        return DailyPlan(tasks: tasks, totalMinutes: reviewMinutes + practiceMinutes + plannedLessonMinutes, weeklyBalance: balance)
+        return DailyPlan(
+            tasks: tasks, totalMinutes: reviewMinutes + practiceMinutes + plannedLessonMinutes,
+            weeklyBalance: balance, coachAddedLessonIDs: coachAdded
+        )
     }
 
     private func completedBeforeToday(_ lesson: PlanLesson, _ input: DailyPlanInput) -> Bool {

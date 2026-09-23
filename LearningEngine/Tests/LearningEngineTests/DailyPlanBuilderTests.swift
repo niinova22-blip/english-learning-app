@@ -16,13 +16,13 @@ final class DailyPlanBuilderTests: XCTestCase {
     func input(
         dailyMinutes: Int = 20, lessons: [PlanLesson] = [], due: Int = 0, reviewedToday: Int = 0,
         past: [Skill: Double] = [:], weights: SkillWeights? = nil,
-        practice: [DuePracticeCard] = []
+        practice: [DuePracticeCard] = [], coach: CoachDirective? = nil
     ) -> DailyPlanInput {
         DailyPlanInput(
             weights: weights ?? yds, dailyMinutes: dailyMinutes, lessonsInPathOrder: lessons,
             dueNowCount: due, reviewedTodayCount: reviewedToday,
             pastWeekSkillMinutes: past, startOfToday: startOfToday,
-            duePracticeCards: practice
+            duePracticeCards: practice, coach: coach
         )
     }
 
@@ -213,5 +213,55 @@ final class DailyPlanBuilderTests: XCTestCase {
     func test_weeklyBalance_withNoHistory_hasZeroActualShares() {
         let plan = DailyPlanBuilder().build(input())
         XCTAssertTrue(plan.weeklyBalance.allSatisfy { $0.actualShare == 0 })
+    }
+
+    func vocabLessons(_ count: Int) -> [PlanLesson] {
+        (1...count).map { lesson("v\($0)", .vocabulary) }
+    }
+
+    func test_coach_nilAndNeutralDirective_giveTheSamePlanAsBefore() {
+        let base = input(dailyMinutes: 20, lessons: vocabLessons(6), due: 10, practice: [card("p1", .grammar)])
+        let plain = DailyPlanBuilder().build(base)
+        let neutral = DailyPlanBuilder().build(input(
+            dailyMinutes: 20, lessons: vocabLessons(6), due: 10, practice: [card("p1", .grammar)],
+            coach: CoachDirective(extraLessonMinutes: 0, reviewOnly: false)
+        ))
+        XCTAssertEqual(plain, neutral)
+        XCTAssertEqual(plain.coachAddedLessonIDs, [])
+    }
+
+    func test_coach_extraMinutes_addLessonsBeyondTheBudget_andTagThem() {
+        // Normal fill: 8, 16, 24 -> three lessons. Extra 10 -> keep adding while < 30 -> a fourth.
+        let normal = DailyPlanBuilder().build(input(dailyMinutes: 20, lessons: vocabLessons(6)))
+        XCTAssertEqual(lessonIDs(normal), ["v1", "v2", "v3"])
+
+        let coached = DailyPlanBuilder().build(input(
+            dailyMinutes: 20, lessons: vocabLessons(6),
+            coach: CoachDirective(extraLessonMinutes: 10, reviewOnly: false)
+        ))
+        XCTAssertEqual(lessonIDs(coached), ["v1", "v2", "v3", "v4"])
+        XCTAssertEqual(coached.coachAddedLessonIDs, ["v4"])
+        XCTAssertEqual(coached.totalMinutes, 32, accuracy: 1e-9)
+    }
+
+    func test_reviewOnly_letsReviewsUseTheWholeDay_andAddsNoLessons() {
+        let plan = DailyPlanBuilder().build(input(
+            dailyMinutes: 20, lessons: vocabLessons(3), due: 60,
+            coach: CoachDirective(extraLessonMinutes: 0, reviewOnly: true)
+        ))
+        guard case .review(let count, let minutes, _) = plan.tasks.first else { return XCTFail("expected a review task") }
+        XCTAssertEqual(count, 50)
+        XCTAssertEqual(minutes, 20, accuracy: 1e-9)
+        XCTAssertEqual(lessonIDs(plan), [])
+        XCTAssertEqual(plan.coachAddedLessonIDs, [])
+    }
+
+    func test_reviewOnly_addsNoLessons_evenWithNothingDue() {
+        let plan = DailyPlanBuilder().build(input(
+            dailyMinutes: 20, lessons: vocabLessons(3),
+            coach: CoachDirective(extraLessonMinutes: 5, reviewOnly: true)
+        ))
+        XCTAssertEqual(lessonIDs(plan), [])
+        XCTAssertEqual(plan.totalMinutes, 0, accuracy: 1e-9)
     }
 }
