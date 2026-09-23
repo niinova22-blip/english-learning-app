@@ -29,6 +29,10 @@ final class TodayPlanCoordinatorTests: XCTestCase {
         TodayPlanCoordinator(context: context, userID: userID, accessProvider: FixedAccessProvider(level: level), now: now, calendar: calendar)
     }
 
+    func premiumCoordinator(_ context: ModelContext, level: PackageAccessLevel = .preview) -> TodayPlanCoordinator {
+        TodayPlanCoordinator(context: context, userID: userID, accessProvider: FixedAccessProvider(level: level), now: now, calendar: calendar, isPremium: true)
+    }
+
     func test_ensureProfile_createsDefaultForFirstPackage_once() throws {
         let context = try makeContext()
         let profile = try XCTUnwrap(coordinator(context).ensureProfile())
@@ -231,5 +235,51 @@ final class TodayPlanCoordinatorTests: XCTestCase {
         let input = try XCTUnwrap(coordinator(context).buildPlanInput())
         XCTAssertEqual(input.reviewedTodayCount, 0, "a practice review must not count as a vocabulary review")
         XCTAssertTrue(input.duePracticeCards.first?.isDone ?? false)
+    }
+
+    func test_planInput_nonPremium_hasNoCoachDirective() throws {
+        let context = try makeContext()
+        let profile = try XCTUnwrap(coordinator(context).ensureProfile())
+        profile.examDate = calendar.date(byAdding: .day, value: 5, to: now)
+        try context.save()
+        XCTAssertNil(try XCTUnwrap(coordinator(context).buildPlanInput()).coach)
+    }
+
+    func test_planInput_premium_finalWeek_isReviewOnly_andPlanHasNoLessons() throws {
+        let context = try makeContext()
+        let profile = try XCTUnwrap(premiumCoordinator(context).ensureProfile())
+        profile.examDate = calendar.date(byAdding: .day, value: 5, to: now)
+        try context.save()
+        let input = try XCTUnwrap(premiumCoordinator(context).buildPlanInput())
+        XCTAssertEqual(input.coach, CoachDirective(extraLessonMinutes: 0, reviewOnly: true))
+        let plan = try XCTUnwrap(premiumCoordinator(context).buildPlan())
+        XCTAssertFalse(plan.tasks.contains { if case .lesson = $0 { return true } else { return false } })
+    }
+
+    func test_coachBriefing_freePace_countsLockedLessons_andLastWeek() throws {
+        let context = try makeContext()
+        let profile = try XCTUnwrap(premiumCoordinator(context).ensureProfile())
+        profile.createdAt = calendar.date(byAdding: .day, value: -10, to: now)!
+        let twoDaysAgo = calendar.date(byAdding: .day, value: -2, to: now)!
+        let progress = LessonProgress(userID: userID, lessonID: "lesson-u0-l0", startedAt: twoDaysAgo)
+        progress.completedAt = twoDaysAgo
+        context.insert(progress)
+        context.insert(ReviewLog(userID: userID, itemID: "item-u0-l1-i0", rating: .good, reviewedAt: twoDaysAgo))
+        context.insert(ReviewLog(userID: userID, itemID: "item-u0-l1-i1", rating: .good, reviewedAt: calendar.date(byAdding: .day, value: -3, to: now)!))
+        try context.save()
+
+        let briefing = try XCTUnwrap(premiumCoordinator(context, level: .preview).buildCoachBriefing())
+        XCTAssertEqual(briefing.plan.mode, .freePace)
+        XCTAssertNil(briefing.plan.daysToExam)
+        XCTAssertEqual(briefing.plan.lockedLessonCount, 2)
+        XCTAssertEqual(briefing.plan.remainingMinutes, 8)
+        XCTAssertEqual(briefing.plan.completedShare, 0.5, accuracy: 1e-9)
+        XCTAssertEqual(briefing.weekLessonsCompleted, 1)
+        XCTAssertEqual(briefing.weekDaysStudied, 2)
+        XCTAssertEqual(briefing.weekMinutes, 9) // 8 lesson minutes + 2 reviews * 0.4, rounded
+    }
+
+    func test_coachBriefing_isNil_withoutContent() throws {
+        XCTAssertNil(try premiumCoordinator(try makeContext(seed: false)).buildCoachBriefing())
     }
 }

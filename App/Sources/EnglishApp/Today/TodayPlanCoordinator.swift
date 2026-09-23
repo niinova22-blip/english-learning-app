@@ -19,13 +19,15 @@ struct TodayPlanCoordinator {
     let accessProvider: any PackageAccessProvider
     let now: Date
     let calendar: Calendar
+    let isPremium: Bool
 
-    init(context: ModelContext, userID: String, accessProvider: any PackageAccessProvider, now: Date = Date(), calendar: Calendar = .current) {
+    init(context: ModelContext, userID: String, accessProvider: any PackageAccessProvider, now: Date = Date(), calendar: Calendar = .current, isPremium: Bool = false) {
         self.context = context
         self.userID = userID
         self.accessProvider = accessProvider
         self.now = now
         self.calendar = calendar
+        self.isPremium = isPremium
     }
 
     /// Returns the user's profile, creating or repairing it so it always points
@@ -55,9 +57,17 @@ struct TodayPlanCoordinator {
         return try context.fetch(FetchDescriptor<ContentPackage>(predicate: #Predicate { $0.id == packageID })).first
     }
 
-    func buildPlanInput() throws -> DailyPlanInput? {
-        guard let profile = try ensureProfile(), let package = try activePackage() else { return nil }
+    private struct PathSnapshot {
+        let profile: LearnerProfile
+        let package: ContentPackage
+        let lessons: [Lesson]
+        let planLessons: [PlanLesson]
+        let startOfToday: Date
+        let pastWeekSkillMinutes: [Skill: Double]
+    }
 
+    private func pathSnapshot() throws -> PathSnapshot? {
+        guard let profile = try ensureProfile(), let package = try activePackage() else { return nil }
         let units = package.units.sorted { $0.order < $1.order }
         let lessons = units.flatMap { $0.lessons.sorted { $0.order < $1.order } }
         let outline = PackageOutline(units: units.map { unit in
@@ -65,7 +75,6 @@ struct TodayPlanCoordinator {
         })
         let accessible = LessonAccessPolicy().accessibleLessonIDs(in: outline, level: accessProvider.accessLevel(forPackageID: package.id))
         let completion = try completionDates()
-
         let planLessons = lessons.map { lesson in
             PlanLesson(
                 id: lesson.id, title: lesson.title, skill: lesson.skill,
@@ -74,8 +83,29 @@ struct TodayPlanCoordinator {
                 completedAt: completion[lesson.id]
             )
         }
-
         let startOfToday = calendar.startOfDay(for: now)
+        return PathSnapshot(
+            profile: profile, package: package, lessons: lessons, planLessons: planLessons,
+            startOfToday: startOfToday,
+            pastWeekSkillMinutes: try pastWeekSkillMinutes(startOfToday: startOfToday, lessons: lessons)
+        )
+    }
+
+    private func coachPlan(_ snapshot: PathSnapshot) -> CoachPlan {
+        CoachPlanner(calendar: calendar).plan(CoachInput(
+            startOfToday: snapshot.startOfToday,
+            examDate: snapshot.profile.examDate,
+            dailyMinutes: snapshot.profile.dailyMinutes,
+            profileCreatedAt: snapshot.profile.createdAt,
+            lessonsInPathOrder: snapshot.planLessons,
+            weights: snapshot.package.skillWeights,
+            pastWeekSkillMinutes: snapshot.pastWeekSkillMinutes
+        ))
+    }
+
+    func buildPlanInput() throws -> DailyPlanInput? {
+        guard let snapshot = try pathSnapshot() else { return nil }
+        let startOfToday = snapshot.startOfToday
         let userIDValue = userID
         let nowValue = now
         let existingItemIDs = try existingItemIDs()
@@ -101,19 +131,42 @@ struct TodayPlanCoordinator {
         }
 
         return DailyPlanInput(
-            weights: package.skillWeights,
-            dailyMinutes: profile.dailyMinutes,
-            lessonsInPathOrder: planLessons,
+            weights: snapshot.package.skillWeights,
+            dailyMinutes: snapshot.profile.dailyMinutes,
+            lessonsInPathOrder: snapshot.planLessons,
             dueNowCount: dueNowCount,
             reviewedTodayCount: reviewedTodayCount,
-            pastWeekSkillMinutes: try pastWeekSkillMinutes(startOfToday: startOfToday, lessons: lessons),
+            pastWeekSkillMinutes: snapshot.pastWeekSkillMinutes,
             startOfToday: startOfToday,
-            duePracticeCards: duePracticeCards
+            duePracticeCards: duePracticeCards,
+            coach: isPremium ? coachPlan(snapshot).directive : nil
         )
     }
 
     func buildPlan() throws -> DailyPlan? {
         try buildPlanInput().map { DailyPlanBuilder().build($0) }
+    }
+
+    /// The coach's view of today. Independent of premium: the view decides
+    /// whether to show it or a locked teaser.
+    func buildCoachBriefing() throws -> CoachBriefing? {
+        guard let snapshot = try pathSnapshot() else { return nil }
+        let plan = coachPlan(snapshot)
+        guard let weekStart = calendar.date(byAdding: .day, value: -7, to: snapshot.startOfToday) else { return nil }
+        let userIDValue = userID
+        let today = snapshot.startOfToday
+        let weekLogs = try context.fetch(FetchDescriptor<ReviewLog>(predicate: #Predicate {
+            $0.userID == userIDValue && $0.reviewedAt >= weekStart && $0.reviewedAt < today
+        }))
+        let weekCompletions = try completionDates().values.filter { $0 >= weekStart && $0 < today }
+        let studiedDays = Set((weekLogs.map(\.reviewedAt) + weekCompletions).map { calendar.startOfDay(for: $0) })
+        return CoachBriefing(
+            plan: plan,
+            weekDaysStudied: studiedDays.count,
+            weekMinutes: Int(snapshot.pastWeekSkillMinutes.values.reduce(0, +).rounded()),
+            weekLessonsCompleted: weekCompletions.count,
+            streak: try streak()
+        )
     }
 
     func streak() throws -> Int {
