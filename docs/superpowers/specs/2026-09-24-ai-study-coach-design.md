@@ -24,7 +24,7 @@ learner should progress. This slice delivers it.
    computed by the model.
 2. **The coach really drives the daily plan.** For premium learners, the coach
    output is an extra input to `DailyPlanBuilder` (extra new-lesson budget
-   when behind, priority skill, final-week review mode). For free learners the
+   when behind, final-week review mode). For free learners the
    daily plan is byte-for-byte what it is today. One plan source; no separate
    roadmap screen.
 3. **No exam date → ask, and fall back to free pace.** The coach card invites
@@ -53,8 +53,11 @@ absent input.
 
 **Input (`CoachInput`):** `startOfToday`, optional `examDate`, `dailyMinutes`,
 the path lessons (`[PlanLesson]`, which already carry `estimatedMinutes`,
-`isAccessible`, `completedAt`), the count/minutes of locked lessons, the
-per-skill minutes studied over the last 14 days (by day), skill weights.
+`isAccessible`, `completedAt`; locked lessons are the ones not accessible),
+the profile's creation date (the tracking window never starts before it), the
+past week's per-skill minutes (as `DailyPlanInput` already has) and the skill
+weights. The tracking window for behind/ahead is the last 14 days before
+today, clipped to the profile's creation day.
 
 **Rules:**
 - `finalWeekDays = 7`. With an exam date, the **target finish day** for new
@@ -70,7 +73,7 @@ per-skill minutes studied over the last 14 days (by day), skill weights.
   share `DailyPlanBuilder` already reserves (at most 50%); the planner uses the
   same constant, exposed from `DailyPlanBuilder` rather than duplicated.
 - **Status (`CoachStatus`):**
-  - `noData` — no completed lesson and no study in the last 14 days.
+  - `noData` — no lesson has ever been completed.
   - `onTrack` — required pace ≤ capacity and the learner is not behind.
   - `behind(days: Int)` — lesson minutes completed in the last 14 days fall
     short of what the pace required over the same window; `days` = shortfall ÷
@@ -83,34 +86,43 @@ per-skill minutes studied over the last 14 days (by day), skill weights.
     free pace.
   - `scopeComplete` — no accessible lesson remains.
 - **Status precedence** (first match wins): `scopeComplete`, `examPassed`,
-  `finalWeek`, `noData`, `unreachable`, `behind`, `ahead`, `onTrack`.
-  (`examPassed` then computes its numbers on free pace.)
+  `finalWeek`, `unreachable`, `noData`, `behind`, `ahead`, `onTrack`.
+  (`examPassed` then computes its numbers on free pace. `unreachable` comes
+  before `noData` so an impossible exam date is reported on day one.)
 - **Free pace (no exam date or exam passed):** target finish = today + ceil(
   remaining work ÷ capacity) days; behind/ahead are measured against capacity.
-- **Output (`CoachPlan`):** status, target finish day, days to exam (optional),
-  remaining minutes, completed share of accessible scope, locked lesson count,
-  required minutes/day, and **`CoachDirective`** for the daily plan:
-  - `extraLessonMinutes`: when behind, up to `dailyMinutes - capacity` extra
-    new-lesson minutes (never above the whole `dailyMinutes`); otherwise 0.
-  - `prioritySkill`: the weighted skill furthest behind its weekly target (as
-    `DailyPlanBuilder` already computes); nil if none.
+- **Output (`CoachPlan`):** status, mode (exam date / free pace), target
+  finish day and days until it, days to exam (optional), remaining minutes,
+  completed share of accessible scope, locked lesson count, required
+  minutes/day, weakest skill (the weighted skill furthest behind its weekly
+  target; nil when there is no study in the past week), and
+  **`CoachDirective`** for the daily plan:
+  - `extraLessonMinutes` = min(`dailyMinutes - capacity`, pace excess +
+    catch-up), where pace excess = max(0, required pace - capacity) in exam
+    mode (0 in free pace) and catch-up = ceil(shortfall ÷ 7) when behind
+    (a shortfall is spread over a week); 0 when `reviewOnly`. The day can
+    therefore grow by at most half of `dailyMinutes`.
   - `reviewOnly`: true in `finalWeek` and `scopeComplete`.
+  - (No priority skill in the directive: `DailyPlanBuilder` already picks
+    lessons by weekly skill deficit; the weakest skill is used in the note.)
 - Recomputed from scratch every day; nothing is stored (same philosophy as the
   daily plan).
 
 **`DailyPlanBuilder` change:** `DailyPlanInput` gains an optional
 `coach: CoachDirective?` (default nil). When nil, output is identical to today.
-When set: extra lesson minutes enlarge the lesson budget; the priority skill
-wins ties in lesson selection; `reviewOnly` skips new lessons (the at-least-
-one-lesson rule does not apply) and lets reviews use the whole day. Lesson
-tasks added because of the extra budget carry `addedByCoach: true` (new field
-on the lesson case's data, default false).
+When set: after the normal lesson fill, lessons keep being added while the
+day's total stays below `dailyMinutes + extraLessonMinutes`; `reviewOnly`
+skips new lessons (the at-least-one-lesson rule does not apply) and lets
+reviews use the whole day. The ids of lessons added by the extra budget are
+listed in a new `DailyPlan.coachAddedLessonIDs: [String]` (default empty) —
+the `PlanTask` enum is not changed, so no existing pattern match breaks.
 
 ## 2. Coach note (narration)
 
 - **`CoachBriefing`** (LearningEngine, pure): `CoachPlan` + last 7 days summary
   (days studied, lessons completed, weakest skill, streak).
-- **`CoachMessageTemplates`** (LearningEngine, pure): one Turkish, informal
+- **`CoachMessageTemplates`** (App target, pure — it needs the Turkish skill
+  names, which live in the App's design system): one Turkish, informal
   ("sen") template per status (`onTrack`, `behind`, `ahead`, `finalWeek`,
   `unreachable`, `noExamDate`, `examPassed`, `scopeComplete`, `noData`),
   filled with the briefing's numbers. Deterministic; always available.
@@ -123,11 +135,16 @@ on the lesson case's data, default false).
   rejected, and the template shown, when it is empty, longer than 400
   characters, or contains a number (digits) that is not in the briefing.
   Timeout, thrown error, missing model and Simulator also fall back.
-- **Cost:** generated at most once per day on first display, cached in memory
-  for that day. The model is not loaded at launch because of the coach; the
-  card shows the template immediately and swaps in the model note when ready,
-  using the existing single-flight lazy load in `AppState`. Generation timeout
-  = the existing Tutor timeout (30 s).
+- **Cost:** the card always shows the template first. The model note is
+  generated on request — a "Koçtan kişisel not al" button on the card, shown
+  to premium learners when the tutor is available on the device — so opening
+  Today never loads the ~1.8 GB model. The request uses the existing
+  single-flight lazy load in `AppState`; the note is cached in memory for that
+  day and that template text (a changed status gets a fresh template).
+  Generation timeout = the existing Tutor timeout (30 s).
+- **`CoachRequest`** carries `facts` (Turkish fact lines built from the
+  briefing) and `draft` (the template text); the validator's allowed numbers
+  are the digits appearing in the facts and the draft.
 
 ## 3. Screens and premium gate
 
@@ -137,15 +154,19 @@ on the lesson case's data, default false).
     line ("Sınava N gün · kapsamın %X'i bitti · günde ~Y dk yeni ders"). Coach-
     added lesson tasks show a "Koç ekledi" tag.
   - `unreachable`: explains the shortfall and offers "Günlük süreyi artır" and
-    "Sınav tarihini değiştir", both opening the existing Profile settings.
-  - No exam date: "Sınav tarihini ekle, programını kurayım" invitation opening
-    the exam-date setting; free pace still runs underneath.
+    "Sınav tarihini değiştir", both opening a new **study settings sheet**
+    (daily minutes 10-60 in steps of 5, as in onboarding; exam date on/off +
+    date picker). Profile today only displays these values, so the sheet is
+    also reachable from Profile's "HEDEFİM" section ("Düzenle").
+  - No exam date or exam passed: "Sınav tarihini ekle, programını kurayım"
+    invitation opening the same sheet; free pace still runs underneath.
   - Locked scope: a line that the programme updates when the rest of the
     package is unlocked.
   - Free learner: a small locked teaser card ("AI Koç: sınav tarihine göre
     program") that opens the existing premium paywall. Their plan is unchanged.
 - **Profile — "Koç" section (premium):** this week's days/minutes studied,
-  lessons completed, skill balance, target finish date.
+  lessons completed, weakest skill, target finish date (the full skill
+  balance already shows on Today).
 - **Gate:** `premiumProvider.isPremium`. Because the coach works without the
   model (templates), `TutorAccess.unavailable` does not hide it; only
   non-premium learners see the lock. No new product; AI Premium covers it. The
@@ -169,8 +190,8 @@ on the lesson case's data, default false).
 - **LearningEngine:** `CoachPlanner` table tests for every status, exam-date
   and free-pace paths, locked scope, day boundaries (DST, month end), extra
   budget cap; `DailyPlanBuilder` regression proving identical output with
-  `coach: nil`, plus tests for extra budget, priority skill tie-break,
-  `reviewOnly`, `addedByCoach`; `CoachMessageTemplates` asserting concrete
+  `coach: nil`, plus tests for extra budget,
+  `reviewOnly`, `coachAddedLessonIDs`; `CoachMessageTemplates` (App) asserting concrete
   Turkish strings.
 - **TutorEngine:** `CoachPromptBuilder` output; `CoachNoteValidator` accepts
   valid text and rejects empty, over-long and foreign-number text.
@@ -185,7 +206,8 @@ on the lesson case's data, default false).
 1. Free learner: daily plan identical to before (regression test green); a
    locked coach teaser opens the paywall.
 2. Premium learner with an exam date: coach card shows correct status and pace;
-   when behind, the plan contains coach-added lessons within `dailyMinutes`;
+   when behind, the plan contains coach-added lessons within `dailyMinutes`
+   plus the capped catch-up time (at most half of `dailyMinutes`);
    in the final week, no new lessons.
 3. Premium learner without an exam date: invitation + free-pace programme.
 4. Without the model (Simulator/CI), every coach state renders its template.
