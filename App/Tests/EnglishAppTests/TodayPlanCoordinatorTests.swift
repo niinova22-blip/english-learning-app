@@ -282,4 +282,20 @@ final class TodayPlanCoordinatorTests: XCTestCase {
     func test_coachBriefing_isNil_withoutContent() throws {
         XCTAssertNil(try premiumCoordinator(try makeContext(seed: false)).buildCoachBriefing())
     }
+
+    func test_coachBriefing_ignoresOrphanedProgressRows() throws {
+        let context = try makeContext()
+        _ = try XCTUnwrap(premiumCoordinator(context).ensureProfile())
+        let twoDaysAgo = calendar.date(byAdding: .day, value: -2, to: now)!
+        context.insert(ReviewLog(userID: userID, itemID: "gone-item", rating: .good, reviewedAt: twoDaysAgo))
+        let progress = LessonProgress(userID: userID, lessonID: "gone-lesson", startedAt: twoDaysAgo)
+        progress.completedAt = twoDaysAgo
+        context.insert(progress)
+        try context.save()
+
+        let briefing = try XCTUnwrap(premiumCoordinator(context).buildCoachBriefing())
+        XCTAssertEqual(briefing.weekDaysStudied, 0)
+        XCTAssertEqual(briefing.weekLessonsCompleted, 0)
+        XCTAssertEqual(briefing.weekMinutes, 0)
+    }
 }

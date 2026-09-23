@@ -155,10 +155,12 @@ struct TodayPlanCoordinator {
         guard let weekStart = calendar.date(byAdding: .day, value: -7, to: snapshot.startOfToday) else { return nil }
         let userIDValue = userID
         let today = snapshot.startOfToday
+        let existingItemIDs = try existingItemIDs()
+        let lessonIDs = Set(snapshot.lessons.map(\.id))
         let weekLogs = try context.fetch(FetchDescriptor<ReviewLog>(predicate: #Predicate {
             $0.userID == userIDValue && $0.reviewedAt >= weekStart && $0.reviewedAt < today
-        }))
-        let weekCompletions = try completionDates().values.filter { $0 >= weekStart && $0 < today }
+        })).filter { existingItemIDs.contains($0.itemID) }
+        let weekCompletions = try completionDates().filter { lessonIDs.contains($0.key) }.values.filter { $0 >= weekStart && $0 < today }
         let studiedDays = Set((weekLogs.map(\.reviewedAt) + weekCompletions).map { calendar.startOfDay(for: $0) })
         return CoachBriefing(
             plan: plan,
