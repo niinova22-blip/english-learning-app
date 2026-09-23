@@ -12,6 +12,7 @@ final class AppState {
     @ObservationIgnored let entitlements: EntitlementStore
     @ObservationIgnored let accessProvider: any PackageAccessProvider
     @ObservationIgnored let premiumProvider: any PremiumAccessProvider
+    @ObservationIgnored let coachNoteCache = CoachNoteCache()
 
     init(service: any PurchaseService = StoreKitPurchaseService(), defaults: UserDefaults = .standard) {
         let store = EntitlementStore(service: service, defaults: defaults)
