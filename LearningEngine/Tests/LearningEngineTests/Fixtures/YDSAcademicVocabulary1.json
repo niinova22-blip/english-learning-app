@@ -14894,16 +14894,16 @@
               "id": "yds-tech-elimination-q06",
               "kind": "strategy",
               "order": 5,
-              "prompt": "«The manager is responsible for hiring staff, planning shifts and ---- costs.» boşluğuna hangi şık girer? Paralel yapıyı bozan şıkları gerekçeyle ele.",
+              "prompt": "«The new programme aims to reduce waste, save energy and ---- emissions.» boşluğuna hangi şık girer? Paralel yapıyı bozan şıkları gerekçeyle ele.",
               "options": [
                 "cut",
-                "to cut",
                 "cutting",
                 "cuts",
-                "to have cut"
+                "to have cut",
+                "having cut"
               ],
-              "correctIndex": 2,
-              "explanationTR": "«hiring ..., planning ... and ----» bir -ing dizisidir; paralellik ancak aynı biçimle sürer: (C). (A) yalın biçimdir; «for» sonrasındaki -ing dizisine uymaz, paralelliği bozar. (B) mastar, dizideki -ing biçimleriyle paralel değildir. (D) üçüncü tekil kişi biçimi «for» ardından kullanılmaz. (E) mastarın geçmiş biçimi olup diziye yabancı kalır.",
+              "correctIndex": 0,
+              "explanationTR": "«to reduce ..., save ... and ----» bir mastar dizisidir; ilk «to» dizinin tamamına yettiği için son öğe de yalın biçimde gelir: (A). (B) -ing biçimi, dizideki yalın fiillerle paralel değildir. (C) üçüncü tekil kişi biçimi dizideki yalın fiillerle uyuşmaz. (D) mastarın geçmiş biçimi, dizide gereksiz bir zaman kayması yaratır. (E) -ing ile birlikte geçmiş anlamı katarak paralelliği bozar.",
               "passageID": null
             }
           ]
