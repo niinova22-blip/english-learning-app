@@ -38,7 +38,7 @@ final class CoachViewModelTests: XCTestCase {
         )
     }
 
-    func makeViewModel(engine: FakeCoachEngine?, cache: CoachNoteCache = CoachNoteCache(), timeoutSeconds: UInt64 = 30) -> CoachViewModel {
+    private func makeViewModel(engine: FakeCoachEngine?, cache: CoachNoteCache = CoachNoteCache(), timeoutSeconds: UInt64 = 30) -> CoachViewModel {
         CoachViewModel(cache: cache, timeoutSeconds: timeoutSeconds) { engine as (any TutorEngine)? }
     }
 

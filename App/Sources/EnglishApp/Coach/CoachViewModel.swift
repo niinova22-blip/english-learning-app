@@ -8,6 +8,12 @@ import TutorEngine
 final class CoachNoteCache {
     private var notes: [String: String] = [:]
 
+    // Explicit and `nonisolated` so a non-isolated default-parameter
+    // expression (e.g. `cache: CoachNoteCache = CoachNoteCache()`) can call
+    // it without hopping onto the main actor; the body only touches a plain
+    // dictionary literal, never actor-isolated state.
+    nonisolated init() {}
+
     func note(forKey key: String) -> String? { notes[key] }
     func store(_ note: String, forKey key: String) { notes[key] = note }
 
