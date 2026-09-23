@@ -46,6 +46,9 @@ Sandbox hesabıyla, gerçek cihazda:
 - [ ] Bir gramer dersini uçtan uca dene: kart → 8 veya 10 soru → özet → "Tekrar: konu" zamanlaması.
 - [ ] Ask to Buy (çocuk hesabı) bekleme durumu: "Onay bekleniyor" görünüyor mu?
 - [ ] Slice 7c yeni soru tipleri (ekranlar CI'da görülemiyor): bir okuma dersi (parça paneli), bir cloze dersi (boşluklu parça) ve bir konu dışı cümle dersi (uzun numaralı soru + I-V seçenekleri) küçük ekranda ve büyük yazı boyutunda düzgün görünüyor mu?
+- [ ] Slice 7d strateji dersi uçtan uca (Sınav soru tipi stratejileri ünitesinden bir ders): strateji kartı önce görünüyor mu, ardından sorular geliyor mu, açıklamalardaki (A)-(E) harfleri seçeneklerle eşleşiyor mu? Sınav yönetimi ve kelime öğrenme teknikleri ünitelerinden birer ders de dene.
+- [ ] Slice 7d yeni kelime ünitelerinden bir ders (ör. Health & Medicine): 10 kelime, üçer örnek ve üçer collocation düzgün görünüyor mu? Uzun tanım/çeviri satırları büyük yazı boyutunda taşmıyor mu?
+- [ ] Kelime havuzu 120'den 600'e çıktıktan sonra seviye testi: yerleştirme hâlâ mantıklı hissettiriyor mu (daha zor kelimeler soru havuzuna girdi)?
 
 Not: Release/TestFlight derlemelerinde geliştirici "Tüm paketleri aç" anahtarı
 yoktur (yalnızca Debug). TestFlight'ta kilitli içeriği görmek için sandbox
