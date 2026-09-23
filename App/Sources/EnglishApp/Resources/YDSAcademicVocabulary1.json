@@ -23830,7 +23830,7 @@
               "headword": "subsidy",
               "frequencyRank": 501,
               "baseDifficulty": 0.62,
-              "definition": "Belirli bir sektörü ya da malı desteklemek amacıyla hükümetin sağladığı mali yardım.",
+              "definition": "Bir sektörün ya da malın üretim maliyetini karşılayarak fiyatını düşük tutmak veya üreticinin ayakta kalmasını sağlamak için hükümetin yaptığı karşılıksız ödeme.",
               "exampleSentences": [
                 "Farmers rely on government subsidies to stay profitable.",
                 "The subsidy for renewable energy was cut last year.",
@@ -24785,13 +24785,13 @@
               "headword": "articulate",
               "frequencyRank": 549,
               "baseDifficulty": 0.5,
-              "definition": "Karmaşık bir düşünceyi bile duraksamadan, net ve düzenli cümlelerle karşı tarafa aktarabilme yetisine sahip olmak.",
+              "definition": "Bir görüşü ya da düşünceyi belirsiz bırakmadan, net ve düzenli cümlelerle karşı tarafa aktarmak; bu şekilde anlatım yapabilen kişiyi de niteler.",
               "exampleSentences": [
                 "She articulated her concerns clearly during the interview.",
                 "He struggled to articulate exactly what had gone wrong.",
                 "The spokesperson is known for being articulate under pressure."
               ],
-              "translationTR": "düşüncelerini açıkça ifade edebilen, açık sözlü",
+              "translationTR": "(görüş, düşünce) net biçimde ifade etmek; düşüncelerini açıkça ifade edebilen, açık sözlü",
               "collocations": [
                 "articulate a view",
                 "clearly articulate",
