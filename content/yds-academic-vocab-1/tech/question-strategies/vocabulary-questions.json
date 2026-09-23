@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Strateji: Kelime Soruları",
       "collocations": [],
-      "explanationTR": "Kelime sorularında cevabı çoğu zaman BAĞLAM, KALIP ve SÖZCÜK TÜRÜ verir; sözlük bilgisi yetmezse bu ipuçlarına güven.\n\n• Bağlam ipuçları: karşıtlık (unlike, but, whereas), örnek (such as, for instance), tanım (that is, which means) ve neden-sonuç işaretleri bilinmeyen sözcüğü çözer.\n\n• Eşdizimlilik: bazı sözcükler yalnızca belirli sözcüklerle birlikte kullanılır (impose a tax, pose a threat, reach a conclusion).\n\n• Sözcük türü: boşluğun ad, sıfat, zarf ya da fiil istediğini belirle; seçenekleri türüne göre ele.\n\n• Yakın anlamlı sözcüklerden hangisinin cümlede doğal durduğunu bağlama bakarak seç.\n\nEn sık düşülen tuzak: sözcüğü yalnızca Türkçe karşılığına bakarak seçmek. Anlamı yakın iki seçenekten yalnızca biri o cümlenin bağlamına ve kalıbına uyar.\n\nÖrnek: «Unlike his outgoing brother, Tom is quite ----» cümlesinde «unlike» karşıtlığı, boşluğa «outgoing»in zıddını (reserved) getirir."
+      "explanationTR": "Kelime sorularında cevabı çoğu zaman BAĞLAM, KALIP ve SÖZCÜK TÜRÜ verir; sözlük bilgisi yetmezse bu ipuçlarına güven.\n\n• Bağlam ipuçları: karşıtlık (unlike, but, whereas), örnek (such as, for instance), tanım (that is, which means) ve neden-sonuç işaretleri bilinmeyen sözcüğü çözer.\n\n• Eşdizimlilik: bazı sözcükler yalnızca belirli sözcüklerle birlikte kullanılır (meet a deadline, pose a threat, reach a conclusion).\n\n• Sözcük türü: boşluğun ad, sıfat, zarf ya da fiil istediğini belirle; seçenekleri türüne göre ele.\n\n• Yakın anlamlı sözcüklerden hangisinin cümlede doğal durduğunu bağlama bakarak seç.\n\nEn sık düşülen tuzak: sözcüğü yalnızca Türkçe karşılığına bakarak seçmek. Anlamı yakın iki seçenekten yalnızca biri o cümlenin bağlamına ve kalıbına uyar.\n\nÖrnek: «Unlike her cheerful sister, Anna is rather ----» cümlesinde «unlike» karşıtlığı, boşluğa «cheerful»ın zıddını (gloomy) getirir."
     }
   ],
   "questions": [
@@ -60,10 +60,10 @@
         "rapidity",
         "rapid",
         "rapids",
-        "rapider"
+        "rapidness"
       ],
       "correctIndex": 2,
-      "explanationTR": "«Growth» adından önce bir SIFAT gerekir: (C). (A) zarftır. (B) isimdir ve ardından isim almaz. (D) başka bir anlamı olan çoğul isimdir. (E) geçerli bir biçim değildir.",
+      "explanationTR": "«Growth» adından önce bir SIFAT gerekir: (C). (A) zarftır. (B) isimdir ve ardından isim almaz. (D) başka bir anlamı olan çoğul isimdir. (E) «rapidness» de bir isimdir ve «growth» adını niteleyemez.",
       "passageID": null
     },
     {

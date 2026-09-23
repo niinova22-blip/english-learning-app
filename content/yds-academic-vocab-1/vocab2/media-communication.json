@@ -58,7 +58,7 @@
             "The channel broadcasts news around the clock.",
             "Millions watched the broadcast of the royal wedding."
           ],
-          "translationTR": "yayın yapmak",
+          "translationTR": "yayın yapmak; yayın",
           "collocations": [
             "live broadcast",
             "broadcast live",
@@ -100,7 +100,7 @@
           "collocations": [
             "make headlines",
             "front-page headline",
-            "grab a headline"
+            "grab the headlines"
           ]
         },
         {
@@ -147,13 +147,13 @@
           "headword": "channel",
           "frequencyRank": 527,
           "baseDifficulty": 0.28,
-          "definition": "Belirli bir yayının ya da bilginin izleyiciye ulaştırıldığı televizyon, radyo veya iletişim hattı.",
+          "definition": "Belirli bir yayının ya da bilginin izleyiciye ulaştırıldığı televizyon, radyo veya iletişim hattı (su kanalı anlamında değil).",
           "exampleSentences": [
             "She switched to a different channel during the adverts.",
             "The news channel broadcasts updates every hour.",
             "Complaints should go through the official channel, not social media."
           ],
-          "translationTR": "kanal (yayın kanalı; genel anlamda 'iletişim kanalı'); su kanalı anlamına da gelebilir, ama bu birimde yayın/iletişim anlamı kullanılır",
+          "translationTR": "kanal (yayın kanalı, iletişim kanalı)",
           "collocations": [
             "television channel",
             "news channel",
@@ -863,7 +863,7 @@
           "exampleSentences": [
             "The video went viral within hours of being posted.",
             "Her viral tweet was shared by thousands of people.",
-            "Marketers hope every campaign will become viral."
+            "Marketers hope every campaign will go viral."
           ],
           "translationTR": "viral (hızla yayılan)",
           "collocations": [

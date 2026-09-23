@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Strateji: Yeniden İfade",
       "collocations": [],
-      "explanationTR": "Yeniden ifade (restatement) sorusunda doğru şık, kökle AYNI ANLAMI verir; sözcükler farklı olabilir ama ilişki, zaman ve kapsam değişmez.\n\n• Kökteki ilişkiyi bul: koşul (unless = if not), neden-sonuç, karşıtlık, zaman sırası.\n\n• Niceleyicileri koru: few = çok az, a few = birkaç; most, all, no ayrı anlamlar taşır.\n\n• Kip anlamını koru: needn't = zorunlu değil, mustn't = yasak.\n\n• Neden ile sonucun yönünü koru: The match was cancelled owing to the storm = fırtına maçı iptal ettirdi.\n\n• Zamanı ve edilgen/etken yapıyı kontrol et; anlamı değiştiren tek bir öğe seçeneği eler.\n\nEn sık düşülen tuzak: sözcük benzerliğine bakmak. Kökle aynı sözcükleri kullanan ama ilişkiyi tersine çeviren seçenek çoğu zaman yanlıştır.\n\nÖrnek: «Unless she apologises, he will not speak to her again.» = He will speak to her again only if she apologises."
+      "explanationTR": "Yeniden ifade (restatement) sorusunda doğru şık, kökle AYNI ANLAMI verir; sözcükler farklı olabilir ama ilişki, zaman ve kapsam değişmez.\n\n• Kökteki ilişkiyi bul: koşul (unless = if not), neden-sonuç, karşıtlık, zaman sırası.\n\n• Niceleyicileri koru: few = çok az, a few = birkaç; most, all, no ayrı anlamlar taşır.\n\n• Karşılaştırmada yönü koru: Ali is not as tall as Can = Can, Ali'den daha uzundur.\n\n• Kip anlamını koru: needn't = zorunlu değil, mustn't = yasak.\n\n• Neden ile sonucun yönünü koru: The flight was delayed owing to heavy fog = yoğun sis uçuşun ertelenmesine yol açtı.\n\n• Zamanı ve edilgen/etken yapıyı kontrol et; anlamı değiştiren tek bir öğe seçeneği eler.\n\nEn sık düşülen tuzak: sözcük benzerliğine bakmak. Kökle aynı sözcükleri kullanan ama ilişkiyi tersine çeviren seçenek çoğu zaman yanlıştır.\n\nÖrnek: «Unless you leave now, you will miss the last train.» = You will catch the last train only if you leave now."
     }
   ],
   "questions": [
@@ -54,16 +54,16 @@
       "id": "yds-tech-restatement-q03",
       "kind": "strategy",
       "order": 2,
-      "prompt": "Few students passed the exam.",
+      "prompt": "Tom is not as experienced as his sister.",
       "options": [
-        "Many students passed the exam.",
-        "Some students failed and the others were absent.",
-        "All students failed the exam.",
-        "Most students failed the exam.",
-        "A few students passed, which is a good result."
+        "Tom is more experienced than his sister.",
+        "Tom's sister is less experienced than he is.",
+        "Tom and his sister are equally experienced.",
+        "His sister is more experienced than Tom is.",
+        "Neither Tom nor his sister has any experience."
       ],
       "correctIndex": 3,
-      "explanationTR": "«Few passed» çok azının geçtiğini, yani çoğunun kaldığını söyler: (D). (A) çoğunluğun geçtiğini söyler. (B) yeni bir durum (devamsızlık) ekler. (C) «all» ile kapsamı genişletir. (E) «a few» ile olumlu bir ton verir.",
+      "explanationTR": "«Not as ... as» eşitliğin olumsuzudur: Tom daha az deneyimli, yani kız kardeşi daha deneyimlidir: (D). (A) karşılaştırmanın yönünü tersine çevirir. (B) «less» ile kız kardeşi daha az deneyimli yapar; yön tersine döner. (C) eşitlik bildirir, oysa kökte eşitlik yoktur. (E) deneyimin hiç olmadığı gibi yeni bir iddia ekler.",
       "passageID": null
     },
     {

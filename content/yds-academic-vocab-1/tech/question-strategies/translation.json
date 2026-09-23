@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Strateji: Çeviri Soruları",
       "collocations": [],
-      "explanationTR": "Çeviri sorusunda doğru şık, cümlenin BÜTÜN öğelerini korur; yanlış şıklar çoğu zaman yalnızca tek bir öğeyi değiştirir.\n\n• Önce cümledeki öğeleri bul: özne, fiil, zaman, olumsuzluk, kip (must, may, would), niceleyici (few, most) ve bağlaç (although, because).\n\n• Her seçeneği bu öğelerle parça parça karşılaştır. Bir seçenek sözcükleri doğru verse bile zamanı, olumsuzluğu ya da öznesi değişmişse yanlıştır.\n\n• Bağlaçlara dikkat et: although (karşıtlık) ile because (neden) çevirileri birbirine benzeyebilir ama anlamları zıttır.\n\n• Edilgen ve etken yapıyı ayır: The results were announced by the committee cümlesinde açıklayan komitedir.\n\n• few ile a few farkı: Few of the workers had received training, «birkaçı» değil «çok azı» demektir.\n\nEn sık düşülen tuzak: sözcüklerin doğru görünmesiyle yetinmek. Anlamı çeviren tek bir öğe (zaman, olumsuzluk, özne) değişmişse seçenek yanlıştır.\n\nÖrnek: «She has never visited the museum» cümlesinde «never» olumsuzluğu ile present perfect'in «şimdiye kadar» anlamı birlikte korunmalıdır."
+      "explanationTR": "Çeviri sorusunda doğru şık, cümlenin BÜTÜN öğelerini korur; yanlış şıklar çoğu zaman yalnızca tek bir öğeyi değiştirir.\n\n• Önce cümledeki öğeleri bul: özne, fiil, zaman, olumsuzluk, kip (must, may, would), niceleyici (few, most) ve bağlaç (although, because).\n\n• Her seçeneği bu öğelerle parça parça karşılaştır. Bir seçenek sözcükleri doğru verse bile zamanı, olumsuzluğu ya da öznesi değişmişse yanlıştır.\n\n• Bağlaçlara dikkat et: although (karşıtlık) ile because (neden) çevirileri birbirine benzeyebilir ama anlamları zıttır.\n\n• Edilgen ve etken yapıyı ayır: The bridge was designed by a local architect cümlesinde tasarlayan mimardır.\n\n• few ile a few farkı: Few of the tourists had booked a guide, «birkaçı» değil «çok azı» demektir.\n\nEn sık düşülen tuzak: sözcüklerin doğru görünmesiyle yetinmek. Anlamı çeviren tek bir öğe (zaman, olumsuzluk, özne) değişmişse seçenek yanlıştır.\n\nÖrnek: «He has never tasted sushi» cümlesinde «never» olumsuzluğu ile present perfect'in «şimdiye kadar» anlamı birlikte korunmalıdır."
     }
   ],
   "questions": [
@@ -79,7 +79,7 @@
         "İşçilerin çok azı herhangi bir eğitim almıştı."
       ],
       "correctIndex": 4,
-      "explanationTR": "«Few» «çok az» demektir (a few ise «birkaç»tır) ve past perfect zamanı korunmalıdır: (E). (A) «birkaç» diyerek olumlu bir ton verir. (B) çoğunluğu kastetir. (C) «hiçbiri» der ve niceleyiciyi bozar. (D) zamanı geleceğe çevirir.",
+      "explanationTR": "«Few» «çok az» demektir (a few ise «birkaç»tır) ve past perfect zamanı korunmalıdır: (E). (A) «birkaç» diyerek olumlu bir ton verir. (B) çoğunluğu kasteder. (C) «hiçbiri» der ve niceleyiciyi bozar. (D) zamanı geleceğe çevirir.",
       "passageID": null
     },
     {

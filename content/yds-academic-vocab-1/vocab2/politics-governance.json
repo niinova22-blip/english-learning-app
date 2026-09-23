@@ -128,13 +128,13 @@
           "headword": "party",
           "frequencyRank": 466,
           "baseDifficulty": 0.27,
-          "definition": "Ortak siyasi görüşleri paylaşan ve seçimlerde aday göstererek iktidara gelmeyi amaçlayan örgütlü topluluk.",
+          "definition": "Ortak siyasi görüşleri paylaşan ve seçimlerde aday göstererek iktidara gelmeyi amaçlayan örgütlü topluluk (gündelik dildeki 'davet, eğlence' anlamıyla karıştırılmamalı).",
           "exampleSentences": [
             "The opposition party gained several seats in the election.",
             "He has been a loyal member of the party for twenty years.",
             "The two main parties disagreed sharply over immigration policy."
           ],
-          "translationTR": "parti (siyasi parti); gündelik dilde 'davet, eğlence toplantısı' anlamına da gelebilir, ama bu birimde siyasi anlamı öğretilir",
+          "translationTR": "parti (siyasi)",
           "collocations": [
             "political party",
             "party leader",
@@ -289,7 +289,7 @@
           "baseDifficulty": 0.35,
           "definition": "Bir grup içinde toplamın yarısından azını oluşturan ve genellikle karar alma sürecinde daha az söz sahibi olan kesim.",
           "exampleSentences": [
-            "The government now rules as a minority without full control of parliament.",
+            "Since the coalition split, the party has governed as a minority without full control of parliament.",
             "Ethnic minorities were granted greater representation under the new law.",
             "Only a small minority of MPs supported the amendment."
           ],
@@ -344,13 +344,13 @@
           "headword": "mandate",
           "frequencyRank": 477,
           "baseDifficulty": 0.38,
-          "definition": "Seçmenlerin, belirli politikaları uygulaması için bir siyasetçiye ya da hükümete seçim yoluyla tanıdığı meşruiyet.",
+          "definition": "Seçmenlerin, belirli politikaları uygulaması için bir siyasetçiye ya da hükümete seçim yoluyla tanıdığı meşruiyet (hukuktaki 'zorunlu kılma' anlamından ayrı olarak burada halktan gelen yetki kastedilir).",
           "exampleSentences": [
             "The president claimed a strong mandate after winning by a wide margin.",
             "Without a clear mandate, the coalition struggled to pass reforms.",
             "Voters gave the new government a mandate to cut taxes."
           ],
-          "translationTR": "siyasi yetki (halk tarafından verilen); hukuki bağlamda 'zorunlu kılma, mecburiyet' anlamına da gelebilir, ama burada siyasi yetki anlamı esastır",
+          "translationTR": "siyasi yetki, halk yetkisi",
           "collocations": [
             "clear mandate",
             "electoral mandate",
@@ -363,13 +363,13 @@
           "headword": "sanction",
           "frequencyRank": 478,
           "baseDifficulty": 0.39,
-          "definition": "Bir devleti ya da grubu uluslararası kurallara uymaya zorlamak amacıyla ekonomik ilişkilerine getirilen resmi engel.",
+          "definition": "Bir devleti ya da grubu uluslararası kurallara uymaya zorlamak amacıyla ekonomik ilişkilerine getirilen resmi engel (aynı sözcük 'resmi onay' anlamına da gelebilir, ancak diplomaside ceza anlamı geçerlidir).",
           "exampleSentences": [
             "The United Nations imposed sanctions on the regime after the invasion.",
             "Trade sanctions caused severe shortages in the country.",
             "Officials debated whether to lift the sanctions."
           ],
-          "translationTR": "yaptırım, ceza niteliğinde kısıtlama; dikkat: aynı sözcük resmi izin veya onay anlamına da gelebilir, ama diplomasi bağlamında ceza anlamı kullanılır",
+          "translationTR": "yaptırım, ceza niteliğinde kısıtlama",
           "collocations": [
             "impose sanctions",
             "economic sanctions",
@@ -429,7 +429,7 @@
           "baseDifficulty": 0.42,
           "definition": "Yönetim yetkisinin merkezi hükümet ile eyalet ya da bölgesel yönetimler arasında anayasal olarak paylaşıldığı sisteme ait.",
           "exampleSentences": [
-            "Education policy varies because it is handled at the federal level.",
+            "Education policy varies from state to state because the federal government leaves it to the states.",
             "The federal government provides funding for interstate highways.",
             "Each state has its own laws within the federal system."
           ],
@@ -541,13 +541,13 @@
           "headword": "lobby",
           "frequencyRank": 487,
           "baseDifficulty": 0.48,
-          "definition": "Belirli bir çıkarı temsil eden bir grubun, karar alıcıları belirli bir yönde etkilemeye çalışması.",
+          "definition": "Belirli bir çıkarı temsil eden bir grubun, karar alıcıları belirli bir yönde etkilemeye çalışması (siyasi baskı faaliyeti; 'bina girişi, fuaye' anlamı burada geçerli değildir).",
           "exampleSentences": [
             "The tobacco lobby spent millions opposing the new regulations.",
             "Environmental groups lobbied hard for stricter emissions laws.",
             "She used to lobby on behalf of small businesses."
           ],
-          "translationTR": "lobi yapmak, baskı grubu; isim olarak 'bina girişi, fuaye' anlamına da gelebilir, ama siyasi bağlamda baskı grubu anlamı kullanılır",
+          "translationTR": "lobi yapmak, baskı grubu",
           "collocations": [
             "lobby for change",
             "powerful lobby",
@@ -566,7 +566,7 @@
             "Any permanent member can veto a Security Council resolution.",
             "The mayor's veto blocked the controversial development plan."
           ],
-          "translationTR": "veto etmek",
+          "translationTR": "veto (hakkı); veto etmek",
           "collocations": [
             "exercise a veto",
             "veto power",
@@ -681,7 +681,7 @@
           "headword": "ambassador",
           "frequencyRank": 494,
           "baseDifficulty": 0.55,
-          "definition": "Bir devletin başka bir ülkede resmi olarak temsilcisi olarak görev yapan üst düzey diplomat.",
+          "definition": "Bir devletin başka bir ülkede resmi temsilcisi olarak görev yapan üst düzey diplomat.",
           "exampleSentences": [
             "The ambassador presented her credentials to the president.",
             "He served as ambassador to France for six years.",
@@ -999,7 +999,7 @@
           "headword": "partisan",
           "frequencyRank": 510,
           "baseDifficulty": 0.71,
-          "definition": "Belirli bir parti ya da grubun çıkarlarını, nesnellikten uzaklaşarak sürekli ve koşulsuz biçimde savunan tutum.",
+          "definition": "Belirli bir parti ya da grubun çıkarlarını, nesnellikten uzaklaşarak sürekli ve koşulsuz biçimde savunmaya dayanan, taraflı.",
           "exampleSentences": [
             "The debate quickly became partisan rather than factual.",
             "Partisan politics made compromise almost impossible.",

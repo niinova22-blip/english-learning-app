@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Strateji: Gramer Soruları",
       "collocations": [],
-      "explanationTR": "Gramer sorularında ilk iş, cümlede HANGİ NOKTANIN sınandığını belirlemektir; sonra yalnızca o noktaya uyan seçeneği ararsın.\n\n• Seçeneklere bak: hepsi aynı fiilin farklı zamanlarıysa zaman, hepsi edatsa edat, hepsi ilgi zamiriyse ilgi cümleciği sınanıyordur.\n\n• Zaman ipuçlarını kullan: since, for, by the time, yesterday, so far, every year gibi zarflar zamanı belirler.\n\n• Edat kalıplarını ezbere bil: interested in, depend on, result in, comply with.\n\n• Uyum kuralları: neither of + çoğul ad + tekil fiil; the number of + tekil fiil; her cümlede özne-fiil uyumunu kontrol et.\n\n• Koşul cümlelerinde if cümleciği ile ana cümlenin zamanını eşleştir: if she had studied ... would have passed.\n\nEn sık düşülen tuzak: cümleyi anlamına göre tahmin edip sınanan gramer noktasını atlamak. Anlamca uyan iki seçenekten yalnızca biri kurala uyar.\n\nÖrnek: «The company ---- its profits every year since 2015.» cümlesinde «since» present perfect ister."
+      "explanationTR": "Gramer sorularında ilk iş, cümlede HANGİ NOKTANIN sınandığını belirlemektir; sonra yalnızca o noktaya uyan seçeneği ararsın.\n\n• Seçeneklere bak: hepsi aynı fiilin farklı zamanlarıysa zaman, hepsi edatsa edat, hepsi ilgi zamiriyse ilgi cümleciği, aynı kökün farklı sözcük türleriyse (sıfat, zarf, isim) boşluğun cümledeki görevi sınanıyordur.\n\n• Zaman ipuçlarını kullan: since, for, by the time, yesterday, so far, every year gibi zarflar zamanı belirler.\n\n• Edat kalıplarını ezbere bil: keen on, depend on, result in, comply with.\n\n• Uyum kuralları: neither of + çoğul ad + tekil fiil; the number of + tekil fiil; her cümlede özne-fiil uyumunu kontrol et.\n\n• Koşul cümlelerinde if cümleciği ile ana cümlenin zamanını eşleştir: if they had left earlier ... would have caught the train.\n\nEn sık düşülen tuzak: cümleyi anlamına göre tahmin edip sınanan gramer noktasını atlamak. Anlamca uyan iki seçenekten yalnızca biri kurala uyar.\n\nÖrnek: «The museum ---- more visitors every year since 2018.» cümlesinde «since» present perfect ister."
     }
   ],
   "questions": [
@@ -102,16 +102,16 @@
       "id": "yds-tech-grammar-questions-q06",
       "kind": "strategy",
       "order": 5,
-      "prompt": "Neither of the two proposals ---- sufficient detail.",
+      "prompt": "The results were ---- better than we had expected.",
       "options": [
-        "offers",
-        "offer",
-        "are offering",
-        "have offered",
-        "were offered"
+        "considerably",
+        "considerable",
+        "consider",
+        "consideration",
+        "considering"
       ],
       "correctIndex": 0,
-      "explanationTR": "«Neither of + çoğul ad» resmî dilde tekil fiil alır: (A). (B), (C) ve (D) çoğul fiillerdir. (E) edilgendir ve anlamı bozar: teklifler «sunulmuş» olur.",
+      "explanationTR": "Boşluk, karşılaştırma sıfatı «better»ı niteler; sıfatı niteleyen sözcük zarf olmalıdır: (A). (B) sıfattır ve başka bir sıfatı niteleyemez. (C) fiildir. (D) isimdir; bu konumda beklenmez. (E) -ing biçimi olup cümlede anlamlı bir görev üstlenmez.",
       "passageID": null
     }
   ]

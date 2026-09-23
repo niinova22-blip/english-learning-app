@@ -42,7 +42,7 @@
           "translationTR": "cihaz, alet",
           "collocations": [
             "electronic device",
-            "device that",
+            "mobile device",
             "portable device"
           ]
         },
@@ -259,7 +259,7 @@
           "collocations": [
             "search algorithm",
             "design an algorithm",
-            "algorithm that"
+            "sorting algorithm"
           ]
         },
         {
@@ -367,7 +367,7 @@
           "exampleSentences": [
             "The office switched entirely to wireless internet last spring.",
             "Wireless headphones have become far more common than wired ones.",
-            "The device connects to the printer wirelessly, without any cables."
+            "The printer needs no cables because it uses a wireless link to the laptop."
           ],
           "translationTR": "kablosuz",
           "collocations": [
@@ -551,7 +551,7 @@
           "collocations": [
             "simulate a scenario",
             "simulate conditions",
-            "computer simulation"
+            "simulate an environment"
           ]
         },
         {
@@ -615,7 +615,7 @@
           "collocations": [
             "disrupt an industry",
             "disrupt the market",
-            "cause disruption"
+            "disrupt traffic"
           ]
         },
         {
@@ -862,13 +862,13 @@
           "definition": "Dışarıdan yönlendirilmeden kendi kararlarını alarak işleyebilen.",
           "exampleSentences": [
             "The company is testing autonomous vehicles on quiet suburban roads.",
-            "The robot can operate autonomously without any human input.",
+            "The rover is autonomous enough to choose its own route across rough terrain.",
             "Autonomous drones are increasingly used to inspect remote infrastructure."
           ],
           "translationTR": "özerk, otonom",
           "collocations": [
             "autonomous vehicle",
-            "operate autonomously",
+            "autonomous system",
             "fully autonomous"
           ]
         },
@@ -977,13 +977,13 @@
           "exampleSentences": [
             "The update was designed to give users a seamless transition between devices.",
             "Good design creates a seamless experience for the customer.",
-            "The two systems now work together seamlessly."
+            "Engineers aimed for a seamless integration of the two systems."
           ],
           "translationTR": "kesintisiz, sorunsuz",
           "collocations": [
             "seamless experience",
             "seamless transition",
-            "work seamlessly"
+            "seamless integration"
           ]
         }
       ]
@@ -1096,7 +1096,7 @@
           "baseDifficulty": 0.76,
           "definition": "Kimliği bilinmeyen veya açıklanmayan.",
           "exampleSentences": [
-            "Users can post comments anonymously on the forum.",
+            "Users can leave anonymous comments on the forum without creating an account.",
             "An anonymous donor funded the entire research project.",
             "The survey guarantees that all responses remain anonymous."
           ],
@@ -1104,7 +1104,7 @@
           "collocations": [
             "remain anonymous",
             "anonymous donor",
-            "post anonymously"
+            "an anonymous tip"
           ]
         },
         {
@@ -1123,7 +1123,7 @@
           "collocations": [
             "closely scrutinise",
             "scrutinise a claim",
-            "come under scrutiny"
+            "scrutinise the evidence"
           ]
         },
         {

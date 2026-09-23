@@ -130,7 +130,7 @@
           "baseDifficulty": 0.27,
           "definition": "Bakteri, virüs veya diğer mikroorganizmaların vücuda girip çoğalmasıyla ortaya çıkan hastalık durumu.",
           "exampleSentences": [
-            "The wound became infected because it was not cleaned properly.",
+            "The wound was not cleaned properly, so a serious infection set in within days.",
             "A bacterial infection can often be treated with antibiotics.",
             "Doctors traced the source of the infection to contaminated water."
           ],
@@ -169,7 +169,7 @@
           "definition": "Bir hastalık, yaralanma veya ameliyat sonrasında sağlığın yeniden kazanılması süreci.",
           "exampleSentences": [
             "Her recovery from the operation took almost three months.",
-            "Doctors were pleased with how quickly the patient was recovering.",
+            "Doctors were pleased with the speed of the patient's recovery.",
             "A balanced diet can speed up recovery after illness."
           ],
           "translationTR": "iyileşme, toparlanma",
@@ -253,7 +253,7 @@
           "exampleSentences": [
             "Scientists developed the vaccine in record time during the outbreak.",
             "The vaccine is administered in two separate doses.",
-            "Health authorities urged the public to get vaccinated before winter."
+            "Health authorities urged the public to book a flu vaccine before winter."
           ],
           "translationTR": "aşı",
           "collocations": [
@@ -624,7 +624,7 @@
           "headword": "remission",
           "frequencyRank": 131,
           "baseDifficulty": 0.52,
-          "definition": "Bir hastalığın, özellikle kanserin, belirtilerinin azalması veya tamamen kaybolduğu dönem.",
+          "definition": "Bir hastalığın, özellikle kanserin, belirtilerinin azaldığı veya tamamen kaybolduğu dönem.",
           "exampleSentences": [
             "The cancer has been in remission for over two years.",
             "Doctors were cautiously optimistic when the disease went into remission.",
@@ -824,7 +824,7 @@
           "definition": "Bir organizmanın genetik yapısında meydana gelen kalıcı değişiklik.",
           "exampleSentences": [
             "A single genetic mutation was found to cause the disorder.",
-            "The virus had mutated into a more resistant strain.",
+            "A mutation in the virus produced a more resistant strain.",
             "Researchers track mutations to understand how diseases evolve."
           ],
           "translationTR": "mutasyon, genetik değişim",

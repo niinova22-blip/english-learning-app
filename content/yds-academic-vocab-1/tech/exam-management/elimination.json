@@ -14,7 +14,7 @@
       "exampleSentences": [],
       "translationTR": "Sınav Yönetimi: Eleme ve Tahmin",
       "collocations": [],
-      "explanationTR": "Emin olmadığın bir soruda bile şansını artırabilirsin. Yöntem, doğruyu aramak yerine yanlışları gerekçeyle elemektir.\n\n• Gerekçeli ele: bir şıkkı yalnızca «bana yanlış geldi» diye değil, adlandırabileceğin bir nedenle ele (zaman uyumsuzluğu, yanlış edat, metinle çelişki, anlam kayması). Nedenini söyleyemiyorsan şık henüz elenmemiştir.\n\n• Son ikiyi karşılaştır: iki şık kaldığında ikisini de soru kökünde dene ve farkın nerede olduğunu bul. Genellikle tek bir sözcük ya da ayrıntı ayırır.\n\n• Ele, sonra tahmin et: şıklardan birkaçını elemeden rastgele işaretlemek yerine, önce elenebilenleri ele. Kalan şıklar arasından seçmek şansını yükseltir. Değerlendirme kuralını ÖSYM kılavuzundan oku ve tahmin kararını ona göre ver.\n\n• Cevabı sebepsiz değiştirme: ilk seçimini yalnızca somut bir hata bulursan değiştir; «acaba» duygusu yeterli sebep değildir.\n\nEn sık düşülen tuzak: iyi görünen ilk şıkkı okuyup diğerlerini hiç incelememek.\n\nÖrnek: «The report was ---- by the committee.» sorusunda (A) prepared, (B) prepare, (C) preparing. Özneyle çalışmayan «prepare» ve «preparing» biçimleri edilgen yapıya uymadığı için elenir."
+      "explanationTR": "Emin olmadığın bir soruda bile şansını artırabilirsin. Yöntem, doğruyu aramak yerine yanlışları gerekçeyle elemektir.\n\n• Gerekçeli ele: bir şıkkı yalnızca «bana yanlış geldi» diye değil, adlandırabileceğin bir nedenle ele (zaman uyumsuzluğu, yanlış edat, metinle çelişki, anlam kayması). Nedenini söyleyemiyorsan şık henüz elenmemiştir.\n\n• Son ikiyi karşılaştır: iki şık kaldığında ikisini de soru kökünde dene ve farkın nerede olduğunu bul. Genellikle tek bir sözcük ya da ayrıntı ayırır.\n\n• Ele, sonra tahmin et: şıklardan birkaçını elemeden rastgele işaretlemek yerine, önce elenebilenleri ele. Kalan şıklar arasından seçmek şansını yükseltir. Değerlendirme kuralını ÖSYM kılavuzundan oku ve tahmin kararını ona göre ver.\n\n• Cevabı sebepsiz değiştirme: ilk seçimini yalnızca somut bir hata bulursan değiştir; «acaba» duygusu yeterli sebep değildir.\n\nEn sık düşülen tuzak: iyi görünen ilk şıkkı okuyup diğerlerini hiç incelememek.\n\nÖrnek: «The report was ---- by the committee.» sorusunda (A) prepared, (B) prepare, (C) preparing. Yalın «prepare» ve etken anlamlı «preparing» biçimleri «was ... by» edilgen kalıbına uymadığı için elenir."
     }
   ],
   "questions": [
@@ -79,7 +79,7 @@
         "what"
       ],
       "correctIndex": 3,
-      "explanationTR": "«insist that + clause» kalıbında «that» yan cümleyi bağlar: (D). (A) «which» bu yapıda kendi başına yan cümle kurmaz. (B) «on» ile «insist on doing» gelir, ama arkasından bir cümle gelmez. (C) mastar ile eylem sonrası kalıba uymaz. (E) soru sözcüğüdür.",
+      "explanationTR": "«insist that + clause» kalıbında «that» yan cümleyi bağlar: (D). (A) «which» bu yapıda kendi başına yan cümle kurmaz. (B) «on» ile «insist on doing» gelir, ama arkasından bir cümle gelmez. (C) «insist to do» diye bir kalıp yoktur, mastar burada uymaz. (E) soru sözcüğüdür.",
       "passageID": null
     },
     {
@@ -102,16 +102,16 @@
       "id": "yds-tech-elimination-q06",
       "kind": "strategy",
       "order": 5,
-      "prompt": "«He is not only a talented musician ---- also a gifted teacher.» boşluğuna hangisi girer?",
+      "prompt": "«The new programme aims to reduce waste, save energy and ---- emissions.» boşluğuna hangi şık girer? Paralel yapıyı bozan şıkları gerekçeyle ele.",
       "options": [
-        "and",
-        "but",
-        "or",
-        "so",
-        "than"
+        "cut",
+        "cutting",
+        "cuts",
+        "to have cut",
+        "having cut"
       ],
-      "correctIndex": 1,
-      "explanationTR": "«not only ... but also» ikili bağlaç kalıbıdır: (B). (A) tek başına eklemeyi verir ama kalıbı bozar. (C) seçenek bildirir, «also» ile uymaz. (D) sonuç bildirir. (E) karşılaştırma için kullanılır.",
+      "correctIndex": 0,
+      "explanationTR": "«to reduce ..., save ... and ----» bir mastar dizisidir; ilk «to» dizinin tamamına yettiği için son öğe de yalın biçimde gelir: (A). (B) -ing biçimi, dizideki yalın fiillerle paralel değildir. (C) üçüncü tekil kişi biçimi dizideki yalın fiillerle uyuşmaz. (D) mastarın geçmiş biçimi, dizide gereksiz bir zaman kayması yaratır. (E) -ing ile birlikte geçmiş anlamı katarak paralelliği bozar.",
       "passageID": null
     }
   ]
