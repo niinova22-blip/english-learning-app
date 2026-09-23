@@ -47,6 +47,7 @@ public protocol TutorEngine {
     func respond(to request: TutorRequest) async throws -> String
     func respond(to chat: ChatRequest) async throws -> String
     func respond(to question: QuestionTutorRequest) async throws -> String
+    func respond(to coach: CoachRequest) async throws -> String
 }
 
 /// Everything needed to answer a tutor ask about one practice question: the

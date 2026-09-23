@@ -34,18 +34,23 @@ public actor MLXTutorEngine: TutorEngine {
         return try await runGeneration(UserInput(prompt: prompt))
     }
 
-    /// Uses `MLXLMCommon`'s native multi-turn input (`UserInput(chat:)`),
-    /// so the tutor instructions go in the system role and earlier replies
-    /// are real assistant turns rendered by the model's chat template.
     public func respond(to chat: ChatRequest) async throws -> String {
-        let messages: [Chat.Message] = ChatPromptBuilder.build(for: chat).map { message in
+        try await respondToChatMessages(ChatPromptBuilder.build(for: chat))
+    }
+
+    public func respond(to coach: CoachRequest) async throws -> String {
+        try await respondToChatMessages(CoachPromptBuilder.build(for: coach))
+    }
+
+    /// Native multi-turn input (`UserInput(chat:)`): the instructions go in
+    /// the system role and earlier replies are real assistant turns rendered
+    /// by the model's chat template.
+    private func respondToChatMessages(_ prompt: [ChatPromptMessage]) async throws -> String {
+        let messages: [Chat.Message] = prompt.map { message in
             switch message.role {
-            case .system:
-                return .system(message.text)
-            case .user:
-                return .user(message.text)
-            case .assistant:
-                return .assistant(message.text)
+            case .system: return .system(message.text)
+            case .user: return .user(message.text)
+            case .assistant: return .assistant(message.text)
             }
         }
         let output = try await runGeneration(UserInput(chat: messages))

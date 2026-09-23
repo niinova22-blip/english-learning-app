@@ -22,6 +22,10 @@ private final class FakeChatEngine: TutorEngine {
         if let stubbedError { throw stubbedError }
         return stubbedReply
     }
+
+    func respond(to coach: CoachRequest) async throws -> String {
+        fatalError("not used by ChatViewModelTests")
+    }
 }
 
 private struct StubChatError: Error {}
@@ -58,6 +62,10 @@ private final class ControllableChatEngine: TutorEngine {
         return try await withCheckedThrowingContinuation { continuation in
             pendingContinuations.append(continuation)
         }
+    }
+
+    func respond(to coach: CoachRequest) async throws -> String {
+        fatalError("not used by ChatViewModelTests")
     }
 
     /// Waits, via a bounded `Task.yield()` loop (never `Task.sleep`), until

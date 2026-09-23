@@ -24,6 +24,10 @@ private final class FakeTutorEngine: TutorEngine {
         if let stubbedError { throw stubbedError }
         return stubbedResponse
     }
+
+    func respond(to coach: CoachRequest) async throws -> String {
+        fatalError("not used by TutorViewModelTests")
+    }
 }
 
 private struct StubError: Error {}
