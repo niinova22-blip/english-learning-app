@@ -76,6 +76,36 @@ final class CoachViewModelTests: XCTestCase {
         XCTAssertEqual(vm.text, CoachMessageTemplates.message(for: briefing(.behind(days: 3))))
     }
 
+    func test_cachedNote_isIgnored_whenTheFactsChanged_evenWithTheSameDraft() async {
+        let cache = CoachNoteCache()
+        let engine = FakeCoachEngine()
+        let vm = makeViewModel(engine: engine, cache: cache)
+        let lowStreak = CoachBriefing(plan: briefing().plan, weekDaysStudied: 4, weekMinutes: 55, weekLessonsCompleted: 3, streak: 2)
+        vm.show(lowStreak, day: day)
+        await vm.requestPersonalNote()
+        XCTAssertEqual(vm.source, .model)
+
+        // Same draft text (same plan/status), but a different streak changes
+        // the facts the note was written from, so the cached note is not reused.
+        let highStreak = CoachBriefing(plan: briefing().plan, weekDaysStudied: 4, weekMinutes: 55, weekLessonsCompleted: 3, streak: 9)
+        XCTAssertEqual(CoachMessageTemplates.message(for: highStreak), CoachMessageTemplates.message(for: lowStreak))
+        let second = makeViewModel(engine: FakeCoachEngine(), cache: cache)
+        second.show(highStreak, day: day)
+        XCTAssertEqual(second.source, .template)
+    }
+
+    func test_show_coachAddedLessons_producesADifferentTextThanWithout() {
+        let vm = makeViewModel(engine: FakeCoachEngine())
+        vm.show(briefing(.behind(days: 3)), day: day, coachAddedLessons: true)
+        let withLessons = vm.text
+        vm.show(briefing(.behind(days: 3)), day: day, coachAddedLessons: false)
+        let withoutLessons = vm.text
+
+        XCTAssertEqual(withLessons, "Plana göre 3 gün gerisindesin. Bugünkü plana birkaç ek ders koydum; birkaç gün böyle devam edersen yetişirsin.")
+        XCTAssertEqual(withoutLessons, "Plana göre 3 gün gerisindesin. Bugünkü planını bitirirsen açığı kapatmaya başlarsın.")
+        XCTAssertNotEqual(withLessons, withoutLessons)
+    }
+
     func test_requestPersonalNote_noEngine_keepsTemplate() async {
         let vm = makeViewModel(engine: nil)
         vm.show(briefing(), day: day)

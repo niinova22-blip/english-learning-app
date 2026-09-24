@@ -37,7 +37,7 @@ final class CoachMessageTemplatesTests: XCTestCase {
     func test_behind_ahead_finalWeek_unreachable() {
         XCTAssertEqual(
             CoachMessageTemplates.message(for: briefing(plan(.behind(days: 3)))),
-            "Plana göre 3 gün gerideyiz. Bugünkü plana birkaç ek ders koydum; birkaç gün böyle devam edersek yetişiriz."
+            "Plana göre 3 gün gerisindesin. Bugünkü planını bitirirsen açığı kapatmaya başlarsın."
         )
         XCTAssertEqual(
             CoachMessageTemplates.message(for: briefing(plan(.ahead(days: 2)))),
@@ -50,6 +50,21 @@ final class CoachMessageTemplatesTests: XCTestCase {
         XCTAssertEqual(
             CoachMessageTemplates.message(for: briefing(plan(.unreachable(shortfallMinutesPerDay: 20), daysToExam: 12, pace: 40))),
             "Sınavına 12 gün kaldı ve kalan dersler için günde 40 dakika gerekiyor; bu, günlük sürenden 20 dakika fazla. Günlük süreni artırabilir ya da sınav tarihini gözden geçirebilirsin."
+        )
+    }
+
+    func test_behind_coachAddedLessons_variesTheText() {
+        XCTAssertEqual(
+            CoachMessageTemplates.message(for: briefing(plan(.behind(days: 3))), coachAddedLessons: false),
+            "Plana göre 3 gün gerisindesin. Bugünkü planını bitirirsen açığı kapatmaya başlarsın."
+        )
+        XCTAssertEqual(
+            CoachMessageTemplates.message(for: briefing(plan(.behind(days: 3))), coachAddedLessons: true),
+            "Plana göre 3 gün gerisindesin. Bugünkü plana birkaç ek ders koydum; birkaç gün böyle devam edersen yetişirsin."
+        )
+        XCTAssertEqual(
+            CoachMessageTemplates.request(for: briefing(plan(.behind(days: 3))), coachAddedLessons: true).draft,
+            "Plana göre 3 gün gerisindesin. Bugünkü plana birkaç ek ders koydum; birkaç gün böyle devam edersen yetişirsin."
         )
     }
 
@@ -110,5 +125,6 @@ final class CoachMessageTemplatesTests: XCTestCase {
         XCTAssertTrue(CoachMessageTemplates.needsExamDateInvite(plan(.onTrack, mode: .freePace, daysToExam: nil)))
         XCTAssertTrue(CoachMessageTemplates.needsExamDateInvite(plan(.examPassed, mode: .freePace, daysToExam: -2)))
         XCTAssertFalse(CoachMessageTemplates.needsExamDateInvite(plan(.onTrack)))
+        XCTAssertFalse(CoachMessageTemplates.needsExamDateInvite(plan(.scopeComplete, mode: .freePace, daysToExam: nil)))
     }
 }

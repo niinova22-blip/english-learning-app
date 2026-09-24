@@ -39,8 +39,9 @@ public struct TutorRequest: Sendable, Equatable {
     }
 }
 
-/// Something that can answer tutor asks: a card-scoped `TutorRequest` or a
-/// multi-turn `ChatRequest`, served by one loaded model. `MLXTutorEngine`
+/// Something that can answer tutor asks: a card-scoped `TutorRequest`, a
+/// multi-turn `ChatRequest`, a practice-question `QuestionTutorRequest`, or a
+/// coach `CoachRequest`, served by one loaded model. `MLXTutorEngine`
 /// is the real, on-device implementation; test code defines its own fake
 /// conforming types rather than sharing one from this package.
 public protocol TutorEngine {

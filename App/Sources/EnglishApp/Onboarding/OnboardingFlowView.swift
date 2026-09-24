@@ -111,12 +111,16 @@ private struct ExamDateStep: View {
     @State private var hasExamDate = true
     @State private var date = Date()
 
+    private var tomorrow: Date {
+        Calendar.current.date(byAdding: .day, value: 1, to: Calendar.current.startOfDay(for: Date()))!
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text("Sınav tarihin var mı?").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Toggle("Bir sınav tarihim var", isOn: $hasExamDate).tint(Theme.primary)
             if hasExamDate {
-                DatePicker("Sınav tarihi", selection: $date, in: Date()..., displayedComponents: .date)
+                DatePicker("Sınav tarihi", selection: $date, in: tomorrow..., displayedComponents: .date)
                     .datePickerStyle(.graphical)
             }
             Spacer(minLength: 0)
@@ -133,7 +137,7 @@ private struct ExamDateStep: View {
         }
         .onAppear {
             hasExamDate = viewModel.examDate != nil
-            date = viewModel.examDate ?? Date()
+            date = StudySettings.suggestedExamDate(stored: viewModel.examDate, now: Date())
         }
     }
 }

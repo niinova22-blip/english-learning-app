@@ -182,7 +182,7 @@ struct TodayPlanView: View {
                     await appState.loadTutorEngineIfNeeded()
                     return appState.tutorEngine
                 }
-                viewModel.show(coachBriefing, day: Calendar.current.startOfDay(for: Date()))
+                viewModel.show(coachBriefing, day: Calendar.current.startOfDay(for: Date()), coachAddedLessons: !plan.coachAddedLessonIDs.isEmpty)
                 coachViewModel = viewModel
             }
             loadState = .ready(plan)

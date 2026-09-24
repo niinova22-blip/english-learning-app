@@ -51,14 +51,14 @@ struct ProfileView: View {
 
                 if appState.premiumProvider.isPremium, let coachBriefing {
                     section("KOÇ") {
-                        row("Bu hafta", "\(coachBriefing.weekDaysStudied) gün · \(coachBriefing.weekMinutes) dk")
+                        row("Son 7 gün", "\(coachBriefing.weekDaysStudied) gün · \(coachBriefing.weekMinutes) dk")
                         Divider()
                         row("Biten ders (7 gün)", "\(coachBriefing.weekLessonsCompleted)")
                         if let skill = coachBriefing.plan.weakestSkill {
                             Divider()
                             row("En çok ihtiyaç", skill.displayName, tint: Theme.accent)
                         }
-                        if let finish = coachBriefing.plan.targetFinishDay, coachBriefing.plan.status != .scopeComplete {
+                        if let finish = coachBriefing.plan.targetFinishDay, coachBriefing.plan.status != .scopeComplete, coachBriefing.plan.status != .finalWeek {
                             Divider()
                             row("Hedef bitiş", finish.formatted(.dateTime.day().month(.wide).year().locale(Locale(identifier: "tr_TR"))), tint: Theme.primary)
                         }

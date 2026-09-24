@@ -5,7 +5,7 @@ import TutorEngine
 /// Deterministic Turkish coach texts. Always available; a model note only
 /// ever replaces `message(for:)` after validation.
 enum CoachMessageTemplates {
-    static func message(for briefing: CoachBriefing) -> String {
+    static func message(for briefing: CoachBriefing, coachAddedLessons: Bool = false) -> String {
         let plan = briefing.plan
         let days = plan.daysToExam ?? 0
         let pace = plan.requiredMinutesPerDay
@@ -24,7 +24,9 @@ enum CoachMessageTemplates {
                 ? "Sınavına \(days) gün var. Kalan \(plan.remainingMinutes) dakikalık ders için günde yaklaşık \(pace) dakika yeterli. İlk dersinle başlayalım."
                 : "Kendi temponla, günde yaklaşık \(pace) dakika yeni dersle ilerleyeceğiz. İlk dersinle başlayalım."
         case .behind(let n):
-            text = "Plana göre \(n) gün gerideyiz. Bugünkü plana birkaç ek ders koydum; birkaç gün böyle devam edersek yetişiriz."
+            text = coachAddedLessons
+                ? "Plana göre \(n) gün gerisindesin. Bugünkü plana birkaç ek ders koydum; birkaç gün böyle devam edersen yetişirsin."
+                : "Plana göre \(n) gün gerisindesin. Bugünkü planını bitirirsen açığı kapatmaya başlarsın."
         case .ahead(let n):
             text = "Planın \(n) gün önündesin, harika gidiyorsun! Bu tempoyu korursan hedefine erken ulaşırsın."
         case .onTrack:
@@ -73,7 +75,8 @@ enum CoachMessageTemplates {
 
     /// True when the card should invite the learner to add or change an exam date.
     static func needsExamDateInvite(_ plan: CoachPlan) -> Bool {
-        plan.daysToExam == nil || plan.status == .examPassed
+        guard plan.status != .scopeComplete else { return false }
+        return plan.daysToExam == nil || plan.status == .examPassed
     }
 
     static func facts(for briefing: CoachBriefing) -> [String] {
@@ -92,7 +95,7 @@ enum CoachMessageTemplates {
         return facts
     }
 
-    static func request(for briefing: CoachBriefing) -> CoachRequest {
-        CoachRequest(facts: facts(for: briefing), draft: message(for: briefing))
+    static func request(for briefing: CoachBriefing, coachAddedLessons: Bool = false) -> CoachRequest {
+        CoachRequest(facts: facts(for: briefing), draft: message(for: briefing, coachAddedLessons: coachAddedLessons))
     }
 }

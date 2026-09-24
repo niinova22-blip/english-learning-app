@@ -17,8 +17,8 @@ final class CoachNoteCache {
     func note(forKey key: String) -> String? { notes[key] }
     func store(_ note: String, forKey key: String) { notes[key] = note }
 
-    static func key(day: Date, draft: String) -> String {
-        "\(Int(day.timeIntervalSince1970))|\(draft)"
+    static func key(day: Date, request: CoachRequest) -> String {
+        "\(Int(day.timeIntervalSince1970))|\(request.draft)|\(request.facts.joined(separator: "\n"))"
     }
 }
 
@@ -44,9 +44,9 @@ final class CoachViewModel {
     }
 
     /// Shows today's cached model note for this exact template, else the template.
-    func show(_ briefing: CoachBriefing, day: Date) {
-        let request = CoachMessageTemplates.request(for: briefing)
-        let key = CoachNoteCache.key(day: day, draft: request.draft)
+    func show(_ briefing: CoachBriefing, day: Date, coachAddedLessons: Bool = false) {
+        let request = CoachMessageTemplates.request(for: briefing, coachAddedLessons: coachAddedLessons)
+        let key = CoachNoteCache.key(day: day, request: request)
         self.request = request
         cacheKey = key
         if let cached = cache.note(forKey: key) {

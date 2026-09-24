@@ -6,6 +6,19 @@ enum StudySettings {
     static let dailyMinutesRange = 10...60
     static let dailyMinutesStep = 5
 
+    /// The exam date to show in a picker: the stored date if it is still in
+    /// the future (on or after the start of tomorrow), else 30 days from now.
+    /// Keeps a picker whose range starts at tomorrow from showing a stored
+    /// date the planner would already treat as "exam passed" (today or the past).
+    static func suggestedExamDate(stored: Date?, now: Date, calendar: Calendar = .current) -> Date {
+        let startOfToday = calendar.startOfDay(for: now)
+        let tomorrow = calendar.date(byAdding: .day, value: 1, to: startOfToday)!
+        if let stored, stored >= tomorrow {
+            return stored
+        }
+        return calendar.date(byAdding: .day, value: 30, to: startOfToday)!
+    }
+
     /// Writes the learner's daily minutes (clamped to the onboarding range) and
     /// exam date (start of day, or nil) to their profile.
     static func save(dailyMinutes: Int, examDate: Date?, userID: String, context: ModelContext, calendar: Calendar = .current) throws {
@@ -26,6 +39,10 @@ struct StudySettingsSheet: View {
     @State private var examDate = Date()
     @State private var saveError: String?
 
+    private var tomorrow: Date {
+        Calendar.current.date(byAdding: .day, value: 1, to: Calendar.current.startOfDay(for: Date()))!
+    }
+
     var body: some View {
         NavigationStack {
             Form {
@@ -35,7 +52,7 @@ struct StudySettingsSheet: View {
                 Section("Sınav tarihi") {
                     Toggle("Bir sınav tarihim var", isOn: $hasExamDate).tint(Theme.primary)
                     if hasExamDate {
-                        DatePicker("Sınav tarihi", selection: $examDate, in: Date()..., displayedComponents: .date)
+                        DatePicker("Sınav tarihi", selection: $examDate, in: tomorrow..., displayedComponents: .date)
                     }
                 }
                 if let saveError {
@@ -57,7 +74,7 @@ struct StudySettingsSheet: View {
         guard let profile = try? context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userID })).first else { return }
         dailyMinutes = profile.dailyMinutes
         hasExamDate = profile.examDate != nil
-        examDate = profile.examDate ?? Date()
+        examDate = StudySettings.suggestedExamDate(stored: profile.examDate, now: Date())
     }
 
     private func save() {

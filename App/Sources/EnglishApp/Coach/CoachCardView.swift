@@ -45,7 +45,7 @@ struct CoachCardView: View {
                     }
                     .font(.footnote.weight(.semibold)).foregroundStyle(Theme.primary)
                 } else if CoachMessageTemplates.needsExamDateInvite(plan) {
-                    Button("Sınav tarihini ekle, programını kurayım", action: onOpenSettings)
+                    Button(plan.status == .examPassed ? "Sınav tarihini değiştir" : "Sınav tarihini ekle, programını kurayım", action: onOpenSettings)
                         .font(.footnote.weight(.semibold)).foregroundStyle(Theme.primary)
                 }
                 if canAskModel && viewModel.source == .template {
