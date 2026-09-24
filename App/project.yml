@@ -28,7 +28,8 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.niinova22.englishapp
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
-        INFOPLIST_KEY_CFBundleDisplayName: "English App"
+        INFOPLIST_KEY_CFBundleDisplayName: "Lexpath"
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1"
         CODE_SIGN_STYLE: Automatic
