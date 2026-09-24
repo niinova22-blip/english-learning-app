@@ -16,6 +16,7 @@ struct StudySessionView: View {
     @State private var streak = 0
     @State private var isLoadingTutor = false
     @State private var showTutorSheet = false
+    @State private var showPremiumPaywall = false
 
     var body: some View {
         Group {
@@ -74,6 +75,9 @@ struct StudySessionView: View {
                     onTutor: { Task { await openTutor() } }
                 )
                 .onTapGesture { if !vm.isRevealed { vm.reveal() } }
+                .sheet(isPresented: $showPremiumPaywall) {
+                    PaywallView(mode: .premium, store: appState.entitlements)
+                }
                 .sheet(isPresented: $showTutorSheet) {
                     if let engine = appState.tutorEngine {
                         TutorSheetView(engine: engine, context: .init(
@@ -125,6 +129,13 @@ struct StudySessionView: View {
 
     /// Same single-flight rule as before: AppState dedupes concurrent loads.
     private func openTutor() async {
+        switch appState.tutorAccess {
+        case .unavailable: return
+        case .needsPremium:
+            showPremiumPaywall = true
+            return
+        case .allowed: break
+        }
         guard !isLoadingTutor else { return }
         if appState.tutorEngine == nil {
             isLoadingTutor = true

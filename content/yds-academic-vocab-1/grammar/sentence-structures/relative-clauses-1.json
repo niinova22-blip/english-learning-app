@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-relative-clauses-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Sıfat Cümlecikleri (Relative Clauses)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-relative-clauses-1",
+      "type": "grammarPoint",
+      "headword": "Relative Clauses",
+      "frequencyRank": 2006,
+      "baseDifficulty": 0.5,
+      "definition": "İlgi zamirleri ve ilgi zarflarının seçimi ile temel kuralları.",
+      "exampleSentences": [],
+      "translationTR": "Sıfat Cümlecikleri",
+      "collocations": [],
+      "explanationTR": "Sıfat cümleciği (relative clause) bir adı niteler; hangi ilgi sözcüğünün geleceğini ADIN türü ve cümlecikteki GÖREV belirler.\n\n• Kişi: who (özne), whom (nesne), whose (sahiplik). Cansız: which. Hem kişi hem cansız: that (yalnızca sınırlayıcı cümlecikte).\n\n• Sınırlayıcı (defining) cümlecik adı tanımlar, virgülsüzdür ve that alabilir: Any employee who fails to attend will be reassigned. Açıklayıcı (non-defining) cümlecik ek bilgi verir, virgülle ayrılır ve that ALAMAZ: The treaty, which ended the war, was signed in 1814.\n\n• whose + ad: sahiplik bildirir: Economists whose forecasts proved accurate were invited. Sahiplik zamirinden sonra fiil değil ad gelir.\n\n• whom nesne görevindedir: The senator whom the newspaper accused denied everything. Fiil hemen ardından gelen who ise özne görevindedir.\n\n• İlgi zarfları: where (yer), when (zaman), why (neden, the reason why). The city where the summit will be held ... Yer adından sonra preposition eksikse which tek başına yetmez.\n\n• Cümlecikteki fiil, ilgi sözcüğünün gönderme yaptığı ADA uyar: Each of the reforms that were announced ... (that → reforms).\n\nÖrnek: Professor Alvarez, whose research on inflation is widely cited, will lead the panel."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-relative-clauses-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The Treaty of Ghent, ---- ended the war of 1812, was signed in December 1814.",
+      "options": [
+        "that",
+        "which",
+        "what",
+        "whom",
+        "whose"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Virgüllerle ayrılmış (açıklayıcı) cümlecikte that KULLANILMAZ; cansız bir ada gönderme yapıldığı için which gelir. (A) that yalnızca sınırlayıcı cümlecikte kullanılır. (C) what önceki bir ada gönderme yapamaz. (D) whom kişi içindir ve nesne konumundadır. (E) whose'un ardından bir ad gelmesi gerekir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "Economists ---- forecasts proved accurate were invited to advise the ministry.",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose",
+        "that"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Sahiplik bildiriliyor (economists' forecasts) ve ardından ad geliyor (forecasts): whose. (A) who özne görevindedir ve ardından fiil bekler. (B) whom nesne görevindedir. (C) which cansızlar içindir. (E) that sahiplik bildiremez, whose yerine geçemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The city ---- the summit will be held has invested heavily in security.",
+      "options": [
+        "in which",
+        "which",
+        "that",
+        "whose",
+        "when"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Cümlecik «the summit will be held in the city» anlamını taşır; yer bildiren edat ilgi zamiriyle birlikte gelmelidir: the city in which (= where) the summit will be held. (B) which ve (C) that tek başlarına edatı karşılamaz; cümlecikte «in» eksik kalır. (D) whose ardından ad bekler. (E) when zamanı bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The reason ---- the experiment failed was that the equipment had not been calibrated.",
+      "options": [
+        "what",
+        "where",
+        "when",
+        "whose",
+        "why"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«The reason» adından sonra nedeni bağlayan ilgi zarfı why gelir. (A) what önceki bir adı niteleyemez. (B) where yer, (C) when zaman bildirir. (D) whose ardından ad ister; burada ad değil fiil öbeği geliyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "Each of the reforms that ---- announced last spring has been delayed.",
+      "options": [
+        "was",
+        "has been",
+        "were",
+        "is",
+        "being"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Cümlecikteki fiil, that'in gönderme yaptığı ada uyar: that → reforms (çoğul), «last spring» ise geçmişi gösterir: were announced. (A) was tekil, (B) has been ve (D) is ise geçmiş zaman ipucuyla uyuşmaz. (E) being yardımcı fiil olarak eksiktir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "Any employee ---- fails to attend the training session will be reassigned.",
+      "options": [
+        "which",
+        "whom",
+        "whose",
+        "who",
+        "what"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Kişi bir ada gönderme yapılıyor ve cümlecikte özne görevinde (fails): who. (A) which cansızlar içindir. (B) whom nesne görevindedir. (C) whose ardından ad ister. (E) what önceki bir adı niteleyemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "There are periods ---- credit conditions tighten so rapidly that growth stalls.",
+      "options": [
+        "when",
+        "which",
+        "what",
+        "whom",
+        "whose"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Zaman bildiren bir adı (periods) tanımlayan ve cümlecikte özneyle başlayan yapı ilgi zarfı ister: periods when ... (B) which edat olmadan zaman anlamı kuramaz. (C) what önceki bir adı niteleyemez. (D) whom kişi içindir. (E) whose ardından ad ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The senator ---- the newspaper accused of corruption denied all the allegations.",
+      "options": [
+        "whose",
+        "whom",
+        "which",
+        "whoever",
+        "where"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Senatör, cümlecikte accuse eyleminin NESNESİDİR ve kişidir: whom. (A) whose ardından ad ister. (C) which cansızlar içindir. (D) whoever isim cümleciği kurar, önceki bir adı niteleyemez. (E) where yer bildirir.",
+      "passageID": null
+    }
+  ]
+}

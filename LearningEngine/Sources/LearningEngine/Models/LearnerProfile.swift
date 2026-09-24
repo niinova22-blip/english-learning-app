@@ -12,16 +12,26 @@ public final class LearnerProfile {
     public var dailyMinutes: Int
     public var examDate: Date?
     public var createdAt: Date
+    /// Nil until the first-run onboarding flow finishes; `RootTabView` gates
+    /// on this.
+    public var onboardingCompletedAt: Date?
+    /// Tracked separately from `onboardingCompletedAt` so Profil can offer a
+    /// "take it now" entry point without conflating a skip with an
+    /// incomplete onboarding.
+    public var hasSkippedLevelTest: Bool = false
 
     public init(
         userID: String, activePackageID: String,
         dailyMinutes: Int = LearnerProfile.defaultDailyMinutes,
-        examDate: Date? = nil, createdAt: Date
+        examDate: Date? = nil, createdAt: Date,
+        onboardingCompletedAt: Date? = nil, hasSkippedLevelTest: Bool = false
     ) {
         self.userID = userID
         self.activePackageID = activePackageID
         self.dailyMinutes = dailyMinutes
         self.examDate = examDate
         self.createdAt = createdAt
+        self.onboardingCompletedAt = onboardingCompletedAt
+        self.hasSkippedLevelTest = hasSkippedLevelTest
     }
 }

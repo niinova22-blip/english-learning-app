@@ -1,0 +1,150 @@
+{
+  "id": "yds-practice-lesson-conditionals",
+  "estimatedDurationMinutes": 8,
+  "title": "Koşul Cümleleri (Conditionals)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-practice-card-conditionals",
+      "type": "grammarPoint",
+      "headword": "Conditionals",
+      "frequencyRank": 1004,
+      "baseDifficulty": 0.5,
+      "definition": "Koşul cümlelerinin YDS'de en sık sınanan tipleri, bağlaçları ve devrik kullanımları.",
+      "exampleSentences": [],
+      "translationTR": "Koşul Cümleleri",
+      "collocations": [],
+      "explanationTR": "YDS'de koşul soruları neredeyse her zaman İKİ YARININ ZAMAN EŞLEŞMESİNE dayanır: bir yarıyı görürsen diğeri kendiliğinden belli olur.\n\n• Tip 1 (gerçek, olası): If + geniş zaman, will/can/may + V1. «If the price rises, demand will fall.»\n• Tip 2 (şimdiki zamanda hayali): If + past simple, would/could/might + V1. «If the price rose, demand would fall.» «to be» için kalıp biçim «were» olur: «If I were you...»\n• Tip 3 (geçmişte gerçekleşmemiş): If + past perfect, would/could/might + have + V3. «If the price had risen, demand would have fallen.»\n• Karma tip: geçmişteki bir koşulun bugüne uzanan bir sonucu varsa If + past perfect, would + V1 olur. «If they had invested earlier, the company would be profitable today.» Cümlede «today», «now», «still» görürsen karma tipi düşün.\n\n• unless = if ... not. «Unless» zaten olumsuzdur, üstüne bir daha olumsuzluk ekleme: «Unless the price falls» = «If the price does not fall».\n• otherwise = «aksi takdirde»; koşulu ayrı bir cümleye taşır: «Pay now; otherwise you will lose the discount.»\n• Devrik yapı: «if» atılır, yardımcı fiil başa geçer. «If they had known» → «Had they known»; «If it were not for» → «Were it not for»; «If you should need» → «Should you need».\n\nEn sık düşülen tuzak: if cümlesinin içine «would» koymak. «If the price would rise» YANLIŞTIR; «would» yalnızca ana cümlede bulunur.\n\nÖrnek: Had the central bank not intervened, the currency would have collapsed within days."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-practice-lesson-conditionals-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "If the government ---- the subsidy last year, thousands of small firms would not have gone bankrupt.",
+      "options": [
+        "withdrew",
+        "has not withdrawn",
+        "had not withdrawn",
+        "would not withdraw",
+        "does not withdraw"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Ana cümlede «would not have gone» var; bu, geçmişte gerçekleşmemiş bir durumu anlatan üçüncü tip koşul cümlesidir ve if kısmı past perfect olur: had not withdrawn. (A) ikinci tipin yapısı, (B) present perfect, (E) geniş zaman; üçü de «would have» ile eşleşmez. (D) ise if cümlesinde «would» kullanıyor, bu yapıda olmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-conditionals-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "If the previous government had not cancelled the railway project, the region ---- far better connected than it is now.",
+      "options": [
+        "would be",
+        "would have been",
+        "will be",
+        "is",
+        "had been"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Koşul geçmişte (had not cancelled), sonuç ise BUGÜNDE: «than it is now» bunu açıkça söylüyor. Bu karma koşul yapısında ana cümle «would + V1» olur: would be. (B) saf üçüncü tiptir ve sonucu geçmişe hapseder; «now» ile çelişir. (C) ve (D) koşul cümlesindeki past perfect ile eşleşmez. (E) ise ana cümlede «would» olmadan bir koşul sonucu veremez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-conditionals-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The council has made it clear that it will not approve the development ---- the developer agrees to fund a new primary school.",
+      "options": [
+        "if",
+        "unless",
+        "in case",
+        "provided that",
+        "as long as"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Cümlenin anlamı «okul finanse edilmedikçe onay yok»; yani olumsuz bir koşul gerekiyor ve bunu tek başına veren bağlaç «unless» (= if ... not). (A), (D) ve (E) hepsi «eğer ... ise» anlamı taşır ve cümleyi tersine çevirir: okul finanse edilirse onay VERİLMEYECEĞİNİ söylemiş olurlar. (C) «in case» ise bir önlem bildirir, koşul değil; buradaki onay şartını anlatamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-conditionals-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The firm must restructure its debt immediately; ----, it will be forced into administration within weeks.",
+      "options": [
+        "therefore",
+        "however",
+        "in addition",
+        "otherwise",
+        "nevertheless"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "İkinci cümle, birincideki eylem YAPILMAZSA ne olacağını anlatıyor; bu gizli koşulu veren bağlayıcı «otherwise» (aksi takdirde). (A) «therefore» sonuç bildirir, oysa iflas borcun yapılandırılmasının sonucu değil, yapılmamasının sonucudur. (B) ve (E) zıtlık ya da ödün bildirir, burada zıtlık yok. (C) «in addition» ise yalnızca ek bilgi ekler, koşulu taşıyamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-conditionals-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "If the exchange rate ---- stable over the next quarter, exporters will be able to plan their shipments with far more confidence.",
+      "options": [
+        "would remain",
+        "will remain",
+        "remains",
+        "remained",
+        "had remained"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Ana cümlede «will be able» var; bu, gerçekleşmesi olası bir durumu anlatan birinci tip koşuldur ve if kısmı GENİŞ ZAMAN olur: remains. (A) ve (B) YDS'nin en klasik tuzağıdır: if cümlesinin içine «would» ya da «will» konmaz. (D) ikinci tipin, (E) ise üçüncü tipin zamanıdır; ikisi de ana cümledeki «will» ile eşleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-conditionals-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "----, the company would have been able to refinance its debt at a much lower rate.",
+      "options": [
+        "Had the credit rating agencies not downgraded it last spring",
+        "If the credit rating agencies do not downgrade it",
+        "Unless the credit rating agencies downgrade it",
+        "Were the credit rating agencies not downgrading it",
+        "Should the credit rating agencies downgrade it"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Ana cümledeki «would have been able» üçüncü tip koşul ister: geçmişte gerçekleşmemiş bir durum. «If ... had not downgraded» yapısının devrik biçimi «Had ... not downgraded»dır, yani (A). (B) ve (C) geniş zamandadır ve «would have» ile eşleşmez. (D) şimdiki zamanda hayali bir durumu, (E) ise gelecekte olası bir durumu anlatır; ikisi de geçmişteki bir sonuca bağlanamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-conditionals-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The experiment would have yielded far clearer results ---- larger.",
+      "options": [
+        "if the sample size is",
+        "unless the sample size had been",
+        "provided that the sample size were",
+        "if the sample size would be",
+        "had the sample size been"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Ana cümle üçüncü tiptir («would have yielded»), dolayısıyla koşul past perfect olmalı; «if» atıldığında devrik yapı kurulur: had the sample size been. (A) geniş zaman, (C) ikinci tipin zamanıdır; ikisi de «would have» ile eşleşmez. (B) «unless» anlamı tersine çevirir, örneklem büyük OLMASAYDI sonuçların netleşeceğini söyler. (D) ise if cümlesine «would» koyar; bu yapı İngilizcede kurulmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-conditionals-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "If governments ---- the same importance to biodiversity loss as they do to inflation, far fewer species would be under threat today.",
+      "options": [
+        "will attach",
+        "attached",
+        "have attached",
+        "would attach",
+        "are attaching"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Ana cümledeki «would be» bugün gerçek olmayan bir durumu anlatır; bu ikinci tip koşuldur ve if kısmı past simple olur: attached. (A) ve (E) birinci tipin ya da şimdiki zamanın yapısıdır, «would be» ile eşleşmez. (D) if cümlesine «would» koyar; en sık yapılan hata budur. (C) present perfect ise bugüne uzanan GERÇEK bir durumu anlatır, oysa cümle varsayımsaldır.",
+      "passageID": null
+    }
+  ]
+}

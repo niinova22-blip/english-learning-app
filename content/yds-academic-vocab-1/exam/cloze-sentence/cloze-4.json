@@ -1,0 +1,154 @@
+{
+  "id": "yds-exam-cloze-4",
+  "estimatedDurationMinutes": 10,
+  "title": "Cloze Test: Gen Düzenleme Etiği",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-cloze-4",
+    "title": "The Ethics of Gene Editing",
+    "body": "When scientists first learned to edit human genes with precision, many hoped that inherited diseases could soon be (1)---- from families for good. The technology, known as CRISPR, works like a pair of molecular scissors: it cuts DNA at a chosen point so that a faulty sequence can be removed or replaced. Editing the cells of a patient is widely regarded as acceptable, (2)---- any changes affect only that individual. Editing embryos is different, because the alterations would be passed on to (3)---- the patient's descendants. In 2018 a researcher announced that he had created two girls whose genes he had modified, and the reaction was swift: (4)---- he had breached ethical rules, he was sentenced to prison. Critics of embryo editing raise several objections. (5)---- the long-term risks are unknown, future children cannot consent to a procedure that will shape their lives. Furthermore, if the technique is (6)---- available to wealthy parents, it could widen social inequality still further. Supporters reply that refusing a safe treatment would itself be an ethical failure, particularly for families in (7)---- devastating conditions recur from generation to generation. Most bioethicists take a middle position: they would (8)---- research to continue, but under strict international supervision."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-cloze-4",
+      "type": "practiceSet",
+      "headword": "Cloze: Ethics of Gene Editing",
+      "frequencyRank": 3013,
+      "baseDifficulty": 0.65,
+      "definition": "Gen düzenleme etiği üzerine sekiz boşluklu bir cloze testi; bağlaç ve zaman uyumu soruları.",
+      "exampleSentences": [],
+      "translationTR": "Cloze Test: Gen Düzenleme Etiği",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-cloze-4-q01",
+      "kind": "cloze",
+      "order": 0,
+      "prompt": "Many hoped that inherited diseases could soon be (1) ---- from families for good.",
+      "options": [
+        "removing",
+        "remove",
+        "removes",
+        "removed",
+        "having removed"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Could be» kip + edilgen yapıdır ve V3 ister: could be removed (hastalıklar çıkarılan taraftır). (A) removing ve (E) having removed etkendir. (B) remove yalın fiildir, «be» ile birleşmez. (C) removes çekimli bir fiildir.",
+      "passageID": "yds-exam-passage-cloze-4"
+    },
+    {
+      "id": "yds-exam-cloze-4-q02",
+      "kind": "cloze",
+      "order": 1,
+      "prompt": "Editing the cells of a patient is widely regarded as acceptable, (2) ---- any changes affect only that individual.",
+      "options": [
+        "provided",
+        "unless",
+        "although",
+        "as if",
+        "whereas"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Hastanın hücrelerini düzenlemenin kabul edilebilir sayılması bir KOŞULA bağlanıyor: değişiklikler yalnızca o kişiyi etkilediği sürece: (A). (B) unless anlamı tersine çevirir. (C) although karşıtlık kurar. (D) as if gerçek dışı bir benzetme yapar. (E) whereas iki durumu karşılaştırır.",
+      "passageID": "yds-exam-passage-cloze-4"
+    },
+    {
+      "id": "yds-exam-cloze-4-q03",
+      "kind": "cloze",
+      "order": 2,
+      "prompt": "The alterations would be passed on to (3) ---- the patient's descendants.",
+      "options": [
+        "every",
+        "each",
+        "all",
+        "both",
+        "either"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Descendants» çoğul bir addır ve belirtili bir grubun tamamını bildirmek için all the ... gelir: (C). (A) every ve (B) each tekil ad ister. (D) both yalnızca iki şey için geçerlidir. (E) either «ikisinden biri» demektir.",
+      "passageID": "yds-exam-passage-cloze-4"
+    },
+    {
+      "id": "yds-exam-cloze-4-q04",
+      "kind": "cloze",
+      "order": 3,
+      "prompt": "(4) ---- he had breached ethical rules, he was sentenced to prison.",
+      "options": [
+        "Although",
+        "Because",
+        "Unless",
+        "Whereas",
+        "Provided"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Hapis cezasının NEDENİ etik kuralları çiğnemesidir: (B). (A) Although karşıtlık kurar ve anlamı bozar. (C) Unless koşul bildirir. (D) Whereas iki durumu karşılaştırır. (E) Provided bir şartı bildirir.",
+      "passageID": "yds-exam-passage-cloze-4"
+    },
+    {
+      "id": "yds-exam-cloze-4-q05",
+      "kind": "cloze",
+      "order": 4,
+      "prompt": "(5) ---- the long-term risks are unknown, future children cannot consent to a procedure that will shape their lives.",
+      "options": [
+        "Unless",
+        "Whereas",
+        "Although",
+        "Provided",
+        "Since"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Uzun vadeli risklerin bilinmemesi, itirazın GEREKÇESİDİR: (E) (= mademki). (A) Unless anlamı tersine çevirir. (B) Whereas karşılaştırma yapar. (C) Although karşıtlık kurar. (D) Provided koşul bildirir ve gerekçe vermez.",
+      "passageID": "yds-exam-passage-cloze-4"
+    },
+    {
+      "id": "yds-exam-cloze-4-q06",
+      "kind": "cloze",
+      "order": 5,
+      "prompt": "If the technique is (6) ---- available to wealthy parents, it could widen social inequality still further.",
+      "options": [
+        "also",
+        "hardly",
+        "never",
+        "only",
+        "even"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Eşitsizliği artıracak olan şey, tekniğin YALNIZCA zengin ailelere açık olmasıdır: (D). (A) also «başkalarına da açık» anlamı katar ve eşitsizlik sonucuyla çelişir. (B) hardly ve (C) never anlamı bozar. (E) even bu bağlamda anlam kurmaz.",
+      "passageID": "yds-exam-passage-cloze-4"
+    },
+    {
+      "id": "yds-exam-cloze-4-q07",
+      "kind": "cloze",
+      "order": 6,
+      "prompt": "Families in (7) ---- devastating conditions recur from generation to generation.",
+      "options": [
+        "which",
+        "that",
+        "whom",
+        "whose",
+        "what"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Edattan sonra ilgi zamiri gelir ve cansız bir ada gönderme yapılır (conditions): in which. (B) that edattan sonra kullanılamaz. (C) whom kişiler içindir. (D) whose ardından ad ister ve burada özne zaten conditions'tır. (E) what önceki bir adı niteleyemez.",
+      "passageID": "yds-exam-passage-cloze-4"
+    },
+    {
+      "id": "yds-exam-cloze-4-q08",
+      "kind": "cloze",
+      "order": 7,
+      "prompt": "Bioethicists would (8) ---- research to continue, but under strict international supervision.",
+      "options": [
+        "agree",
+        "insist",
+        "allow",
+        "refuse",
+        "deny"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Allow + nesne + to V1» kalıbıdır (= izin vermek): would allow research to continue. (A) agree, (B) insist, (D) refuse ve (E) deny bu nesne + mastar kalıbını kurmaz.",
+      "passageID": "yds-exam-passage-cloze-4"
+    }
+  ]
+}

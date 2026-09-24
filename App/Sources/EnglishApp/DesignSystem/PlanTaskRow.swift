@@ -7,7 +7,9 @@ enum PlanTaskText {
     static func title(_ task: PlanTask) -> String {
         switch task {
         case .review: return "Kelime tekrarı"
-        case .lesson(_, let title, _, _, _), .locked(_, let title): return title
+        case .lesson(_, let title, _, _, _),
+             .practiceReview(_, _, let title, _, _, _),
+             .locked(_, let title): return title
         }
     }
 
@@ -17,6 +19,8 @@ enum PlanTaskText {
             return isDone ? "\(count) kart · bitti" : "\(count) kart · \(self.minutes(minutes)) dk"
         case .lesson(_, _, let skill, let minutes, let isDone):
             return isDone ? "\(skill.displayName) · bitti" : "Yeni ders · \(skill.displayName) · \(self.minutes(minutes)) dk"
+        case .practiceReview(_, _, _, let skill, let minutes, let isDone):
+            return isDone ? "\(skill.displayName) tekrarı · bitti" : "Konu tekrarı · \(skill.displayName) · \(self.minutes(minutes)) dk"
         case .locked:
             return "Paketi aç"
         }
@@ -26,11 +30,14 @@ enum PlanTaskText {
 struct PlanTaskRow: View {
     let task: PlanTask
     let isHighlighted: Bool
+    var isCoachAdded: Bool = false
     let onStart: () -> Void
 
     private var isDone: Bool {
         switch task {
-        case .review(_, _, let done), .lesson(_, _, _, _, let done): return done
+        case .review(_, _, let done),
+             .lesson(_, _, _, _, let done),
+             .practiceReview(_, _, _, _, _, let done): return done
         case .locked: return false
         }
     }
@@ -44,6 +51,7 @@ struct PlanTaskRow: View {
         switch task {
         case .review: return "arrow.triangle.2.circlepath"
         case .lesson: return "text.book.closed"
+        case .practiceReview: return "arrow.trianglehead.2.clockwise.rotate.90"
         case .locked: return "lock.fill"
         }
     }
@@ -51,7 +59,7 @@ struct PlanTaskRow: View {
     private var tint: Color {
         switch task {
         case .review: return Theme.primary
-        case .lesson(_, _, let skill, _, _): return skill.color
+        case .lesson(_, _, let skill, _, _), .practiceReview(_, _, _, let skill, _, _): return skill.color
         case .locked: return Theme.secondaryInk
         }
     }
@@ -72,6 +80,11 @@ struct PlanTaskRow: View {
                     Text(PlanTaskText.subtitle(task))
                         .font(.caption)
                         .foregroundStyle(isLocked ? Theme.accent : Theme.secondaryInk)
+                    if isCoachAdded {
+                        Text("Koç ekledi")
+                            .font(.caption2.weight(.semibold))
+                            .foregroundStyle(Theme.accent)
+                    }
                 }
                 Spacer(minLength: 8)
                 if isHighlighted && !isDone && !isLocked {
@@ -99,6 +112,7 @@ struct PlanTaskRow: View {
     VStack(spacing: 8) {
         PlanTaskRow(task: .review(cardCount: 14, minutes: 5.6, isDone: true), isHighlighted: false) {}
         PlanTaskRow(task: .lesson(id: "a", title: "Science & Research Methods · 2", skill: .vocabulary, minutes: 8, isDone: false), isHighlighted: true) {}
+        PlanTaskRow(task: .practiceReview(itemID: "i", lessonID: "l", title: "Zamanlar (Tenses)", skill: .grammar, minutes: 3, isDone: false), isHighlighted: false) {}
         PlanTaskRow(task: .locked(id: "b", title: "Law, Policy & Society · 1"), isHighlighted: false) {}
     }
     .padding()

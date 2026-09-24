@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-comparatives-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Karşılaştırma Yapıları: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-comparatives-2",
+      "type": "grammarPoint",
+      "headword": "Comparatives (Traps)",
+      "frequencyRank": 2025,
+      "baseDifficulty": 0.6,
+      "definition": "Çift karşılaştırma, katlar, paralellik ve sık düşülen tuzaklar.",
+      "exampleSentences": [],
+      "translationTR": "Karşılaştırma Yapıları: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Bu derste karşılaştırmanın ileri kalıpları ve tuzakları sınanır.\n\n• The + karşılaştırma ..., the + karşılaştırma ...: The more rapidly the population grows, the greater the pressure becomes. (İki tarafta da the vardır.)\n\n• Katlar: twice as high as, three times the size of, half as expensive as. (twice higher than YANLIŞ).\n\n• no more than (yalnızca), no fewer than (tam olarak en az), no later than (en geç).\n\n• the same as, similar to, different from, in contrast to.\n\n• Paralellik: aynı türden şeyler karşılaştırılır; tekrarı önlemek için tekil isim yerine that of, çoğul için those of: The output of the new plant exceeds that of the old one.\n\n• than any other + TEKİL isim, than ever before; prefer A to B.\n\nEn sık düşülen tuzak: çift işaret (more easier, most highest) ve farklı türden şeylerin karşılaştırılması.\n\nÖrnek: Wages in the capital are now twice as high as in the rural provinces."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-comparatives-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The more rapidly the population grows, ---- the pressure on public services becomes.",
+      "options": [
+        "greater",
+        "the more great",
+        "the greater",
+        "more greater",
+        "the greatest"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«The + karşılaştırma, the + karşılaştırma» kalıbında iki tarafta da the bulunur: the greater. (A) greater the'yi eksik bırakır. (B) the more great kısa sıfata more ekler. (D) more greater çift işaret kullanır. (E) the greatest en üstünlüktür.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "Wages in the capital are now ---- in the rural provinces.",
+      "options": [
+        "twice higher as",
+        "twice as higher than",
+        "two times as high",
+        "twice high than",
+        "twice as high as"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Kat bildiren kalıp twice as + sıfat + as ile kurulur: twice as high as. (A) twice higher as, (B) twice as higher than ve (D) twice high than karşılaştırma işaretlerini karıştırır. (C) two times as high as'ın ikinci as'ını eksik bırakır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The survey covered ---- forty countries, making it the largest of its kind.",
+      "options": [
+        "no fewer than",
+        "no more than",
+        "no later than",
+        "no longer than",
+        "not many than"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«No fewer than forty» kırk gibi büyük bir sayıyı vurgular: en az kırk ülke. (B) no more than sayının küçüklüğünü vurgular ve «largest» ile çelişir. (C) no later than zaman bildirir. (D) no longer than uzunluk bildirir. (E) not many than kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The results of the second trial were not ---- those of the first.",
+      "options": [
+        "same to",
+        "similar as",
+        "alike to",
+        "the same as",
+        "like as"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "The same as sabit kalıptır: not the same as those of the first. (A) same to, (B) similar as, (C) alike to ve (E) like as kalıpları bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The output of the new plant far exceeds ---- of the old one.",
+      "options": [
+        "those",
+        "that",
+        "it",
+        "which",
+        "what"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«The output» tekil bir addır ve tekrarı önlemek için that of kullanılır: that of the old one. (A) those çoğul adlar içindir. (C) it ve (D) which ve (E) what bu yapıda of ile birleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The living standards in the north are much higher than ---- in the south.",
+      "options": [
+        "that",
+        "these",
+        "those",
+        "them",
+        "which"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Living standards» çoğuldur ve tekrar için those in the south kullanılır. (A) that tekil adlar içindir. (B) these yakın şeylere işaret eder. (D) them kişi zamiridir. (E) which bu yapıda ad yerine geçmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The company is larger than ---- in the industry.",
+      "options": [
+        "any others firms",
+        "any other firms",
+        "all other firm",
+        "the other firm",
+        "any other firm"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Any other» ardından TEKİL bir ad gelir: any other firm. (A) any others firms ve (B) any other firms çoğul kullanır. (C) all other firm çoğul özneyle tekil adı karıştırır. (D) the other firm belirli bir başka şirketi gösterir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "Most investors prefer keeping their savings in cash ---- investing in the stock market.",
+      "options": [
+        "to",
+        "than",
+        "from",
+        "against",
+        "rather"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Prefer A to B kalıbıdır: prefer keeping ... to investing. (B) than prefer ile kullanılmaz. (C) from ve (D) against ve (E) rather bu kalıbı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "The negotiations proved ---- than the delegates had expected.",
+      "options": [
+        "more easier",
+        "most easier",
+        "easily",
+        "easier",
+        "much more easily"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Easy kısa bir sıfattır ve -er alır: easier. (A) more easier ve (B) most easier çift işaret kullanır. (C) easily sıfat yerine zarf kullanır. (E) much more easily de zarftır; proved bir sıfat ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "Unemployment in the region is now higher than ----.",
+      "options": [
+        "never before",
+        "ever before",
+        "ever than",
+        "ever since",
+        "as ever"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Than ever before» karşılaştırmada kalıp ifadedir. (A) never before than ile çift olumsuzluk yapar. (C) ever than ve (D) ever since kalıbı bozar. (E) as ever bu kalıbı kurmaz.",
+      "passageID": null
+    }
+  ]
+}

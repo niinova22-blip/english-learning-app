@@ -1,0 +1,1189 @@
+{
+  "id": "yds-vocab2-unit-media-communication",
+  "theme": "Media & Communication",
+  "order": 23,
+  "lessons": [
+    {
+      "id": "yds-vocab2-lesson-media-communication-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-media",
+          "type": "vocabulary",
+          "headword": "media",
+          "frequencyRank": 520,
+          "baseDifficulty": 0.21,
+          "definition": "Haber, bilgi ve eğlence içeriğinin geniş kitlelere ulaştırılmasını sağlayan gazete, televizyon, radyo ve internet gibi araçların tümü.",
+          "exampleSentences": [
+            "The media covered the election extensively for weeks.",
+            "Social media has changed the way news spreads.",
+            "Critics accused the media of bias in its coverage."
+          ],
+          "translationTR": "medya",
+          "collocations": [
+            "mass media",
+            "media coverage",
+            "social media"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-newspaper",
+          "type": "vocabulary",
+          "headword": "newspaper",
+          "frequencyRank": 521,
+          "baseDifficulty": 0.22,
+          "definition": "Güncel haberleri, yorumları ve reklamları düzenli aralıklarla basılı ya da dijital olarak yayımlayan yayın.",
+          "exampleSentences": [
+            "She reads the newspaper every morning with her coffee.",
+            "The story made the front page of every major newspaper.",
+            "Newspaper sales have declined as more people read news online."
+          ],
+          "translationTR": "gazete",
+          "collocations": [
+            "local newspaper",
+            "read a newspaper",
+            "newspaper article"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-broadcast",
+          "type": "vocabulary",
+          "headword": "broadcast",
+          "frequencyRank": 522,
+          "baseDifficulty": 0.23,
+          "definition": "Bir programı ya da haberi radyo, televizyon veya internet aracılığıyla geniş bir kitleye eş zamanlı olarak ulaştırmak.",
+          "exampleSentences": [
+            "The match will be broadcast live across the country.",
+            "The channel broadcasts news around the clock.",
+            "Millions watched the broadcast of the royal wedding."
+          ],
+          "translationTR": "yayın yapmak; yayın",
+          "collocations": [
+            "live broadcast",
+            "broadcast live",
+            "television broadcast"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-audience",
+          "type": "vocabulary",
+          "headword": "audience",
+          "frequencyRank": 523,
+          "baseDifficulty": 0.24,
+          "definition": "Bir yayını, programı ya da performansı izleyen veya dinleyen kişilerin oluşturduğu topluluk.",
+          "exampleSentences": [
+            "The programme attracted a huge audience on its first night.",
+            "The speaker adjusted her tone to suit a younger audience.",
+            "Ratings show the audience for the news has been shrinking."
+          ],
+          "translationTR": "izleyici kitlesi, dinleyici kitlesi",
+          "collocations": [
+            "target audience",
+            "wide audience",
+            "reach an audience"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-headline",
+          "type": "vocabulary",
+          "headword": "headline",
+          "frequencyRank": 524,
+          "baseDifficulty": 0.25,
+          "definition": "Bir haberin ana konusunu kısaca özetleyen ve dikkat çekmek için büyük puntoyla yazılan başlık.",
+          "exampleSentences": [
+            "The scandal dominated the headlines for days.",
+            "Editors chose a dramatic headline to grab attention.",
+            "The headline exaggerated what the report actually said."
+          ],
+          "translationTR": "manşet, başlık",
+          "collocations": [
+            "make headlines",
+            "front-page headline",
+            "grab the headlines"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-article",
+          "type": "vocabulary",
+          "headword": "article",
+          "frequencyRank": 525,
+          "baseDifficulty": 0.26,
+          "definition": "Bir gazete, dergi ya da web sitesinde yayımlanan, belirli bir konuyu ele alan yazı.",
+          "exampleSentences": [
+            "She wrote an article about climate change for the magazine.",
+            "The article was later criticised for factual errors.",
+            "He read every article in the newspaper before breakfast."
+          ],
+          "translationTR": "makale, haber yazısı (gazetecilik anlamı); ayrıca dilbilgisinde 'tanımlık', hukukta 'madde' anlamına da gelir",
+          "collocations": [
+            "write an article",
+            "newspaper article",
+            "publish an article"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-message",
+          "type": "vocabulary",
+          "headword": "message",
+          "frequencyRank": 526,
+          "baseDifficulty": 0.27,
+          "definition": "Bir gönderenin, sözlü, yazılı ya da görsel yollarla karşı tarafa aktarmak istediği bilgi ya da düşünce.",
+          "exampleSentences": [
+            "The advert's message was aimed at young parents.",
+            "She sent a brief message explaining the delay.",
+            "The campaign's core message focused on unity."
+          ],
+          "translationTR": "mesaj, ileti",
+          "collocations": [
+            "convey a message",
+            "clear message",
+            "send a message"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-channel",
+          "type": "vocabulary",
+          "headword": "channel",
+          "frequencyRank": 527,
+          "baseDifficulty": 0.28,
+          "definition": "Belirli bir yayının ya da bilginin izleyiciye ulaştırıldığı televizyon, radyo veya iletişim hattı (su kanalı anlamında değil).",
+          "exampleSentences": [
+            "She switched to a different channel during the adverts.",
+            "The news channel broadcasts updates every hour.",
+            "Complaints should go through the official channel, not social media."
+          ],
+          "translationTR": "kanal (yayın kanalı, iletişim kanalı)",
+          "collocations": [
+            "television channel",
+            "news channel",
+            "official channel"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-advertise",
+          "type": "vocabulary",
+          "headword": "advertise",
+          "frequencyRank": 528,
+          "baseDifficulty": 0.29,
+          "definition": "Bir ürünü, hizmeti ya da etkinliği, halkın dikkatini çekip satın almasını veya katılmasını teşvik etmek amacıyla tanıtmak.",
+          "exampleSentences": [
+            "The company advertised its new product during the football final.",
+            "Local shops advertise in the weekly newspaper.",
+            "The job was advertised on several recruitment websites."
+          ],
+          "translationTR": "reklamını yapmak",
+          "collocations": [
+            "advertise a product",
+            "widely advertised",
+            "advertise online"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-publish",
+          "type": "vocabulary",
+          "headword": "publish",
+          "frequencyRank": 529,
+          "baseDifficulty": 0.3,
+          "definition": "Bir yazıyı, kitabı ya da haberi, kamuoyunun erişimine açık hâle getirmek amacıyla basılı ya da dijital ortamda ortaya çıkarmak.",
+          "exampleSentences": [
+            "The newspaper published the interview on its front page.",
+            "Her first novel was published last spring.",
+            "The findings were published in a leading scientific journal."
+          ],
+          "translationTR": "yayımlamak",
+          "collocations": [
+            "publish a report",
+            "newly published",
+            "publish online"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-media-communication-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-journalism",
+          "type": "vocabulary",
+          "headword": "journalism",
+          "frequencyRank": 530,
+          "baseDifficulty": 0.31,
+          "definition": "Haberlerin araştırılıp toplanarak kamuoyuna doğru ve zamanında aktarılması mesleği ve uygulaması.",
+          "exampleSentences": [
+            "She studied journalism before joining the newspaper.",
+            "Investigative journalism exposed the corruption scandal.",
+            "Good journalism requires checking facts carefully."
+          ],
+          "translationTR": "gazetecilik",
+          "collocations": [
+            "investigative journalism",
+            "study journalism",
+            "quality journalism"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-editorial",
+          "type": "vocabulary",
+          "headword": "editorial",
+          "frequencyRank": 531,
+          "baseDifficulty": 0.32,
+          "definition": "Bir gazete ya da derginin, güncel bir konu hakkında kurumsal görüşünü yansıtan yorum yazısı.",
+          "exampleSentences": [
+            "The editorial criticised the government's new policy.",
+            "He writes a weekly editorial for the local paper.",
+            "The magazine's editorial called for urgent reform."
+          ],
+          "translationTR": "başyazı (yorum yazısı); sıfat olarak 'yayına ilişkin' anlamına da gelir",
+          "collocations": [
+            "write an editorial",
+            "editorial board",
+            "newspaper editorial"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-correspondent",
+          "type": "vocabulary",
+          "headword": "correspondent",
+          "frequencyRank": 532,
+          "baseDifficulty": 0.33,
+          "definition": "Bir haber kuruluşu adına, genellikle belirli bir bölge ya da konuda haber toplayıp bildiren gazeteci.",
+          "exampleSentences": [
+            "Our correspondent in the capital filed the report live.",
+            "The foreign correspondent covered the conflict for months.",
+            "She works as a political correspondent for a national newspaper."
+          ],
+          "translationTR": "muhabir",
+          "collocations": [
+            "foreign correspondent",
+            "war correspondent",
+            "special correspondent"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-censorship",
+          "type": "vocabulary",
+          "headword": "censorship",
+          "frequencyRank": 533,
+          "baseDifficulty": 0.34,
+          "definition": "Bir otoritenin, sakıncalı bulduğu bilgi ya da içeriğin yayılmasını engellemesi.",
+          "exampleSentences": [
+            "The regime imposed strict censorship on the press.",
+            "Writers protested against government censorship of their work.",
+            "Online censorship made it harder to access independent news."
+          ],
+          "translationTR": "sansür",
+          "collocations": [
+            "impose censorship",
+            "government censorship",
+            "media censorship"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-circulation",
+          "type": "vocabulary",
+          "headword": "circulation",
+          "frequencyRank": 534,
+          "baseDifficulty": 0.35,
+          "definition": "Bir gazete ya da derginin belirli bir dönemde satılan ya da dağıtılan toplam nüsha sayısı.",
+          "exampleSentences": [
+            "The newspaper's circulation has fallen sharply since 2010.",
+            "The magazine boosted circulation with a free gift offer.",
+            "Daily circulation figures are published every quarter."
+          ],
+          "translationTR": "tiraj, dolaşım",
+          "collocations": [
+            "daily circulation",
+            "boost circulation",
+            "circulation figures"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-subscription",
+          "type": "vocabulary",
+          "headword": "subscription",
+          "frequencyRank": 535,
+          "baseDifficulty": 0.36,
+          "definition": "Bir yayına ya da hizmete düzenli aralıklarla erişim karşılığında önceden ödeme yaparak üye olma anlaşması.",
+          "exampleSentences": [
+            "She cancelled her newspaper subscription after moving abroad.",
+            "The magazine offers a discounted subscription for students.",
+            "Digital subscriptions now outnumber print subscriptions."
+          ],
+          "translationTR": "abonelik",
+          "collocations": [
+            "annual subscription",
+            "cancel a subscription",
+            "digital subscription"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-tabloid",
+          "type": "vocabulary",
+          "headword": "tabloid",
+          "frequencyRank": 536,
+          "baseDifficulty": 0.37,
+          "definition": "Genellikle küçük boyutlu, dikkat çekici manşetleri ve magazin içerikli haberleriyle bilinen gazete türü.",
+          "exampleSentences": [
+            "The tabloid ran a sensational story about the celebrity's divorce.",
+            "Tabloids are often criticised for exaggerating minor incidents.",
+            "She avoided reading the tabloid press before the trial."
+          ],
+          "translationTR": "tabloid (magazin tarzı gazete)",
+          "collocations": [
+            "tabloid newspaper",
+            "tabloid press",
+            "tabloid headline"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-documentary",
+          "type": "vocabulary",
+          "headword": "documentary",
+          "frequencyRank": 537,
+          "baseDifficulty": 0.38,
+          "definition": "Gerçek olayları, kişileri ya da konuları araştırarak izleyiciye aktaran, kurgusal olmayan film veya program türü.",
+          "exampleSentences": [
+            "The documentary exposed the true cost of fast fashion.",
+            "She directed an award-winning documentary about climate change.",
+            "The channel broadcast a documentary series on ancient civilisations."
+          ],
+          "translationTR": "belgesel",
+          "collocations": [
+            "documentary film",
+            "make a documentary",
+            "documentary series"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-commentary",
+          "type": "vocabulary",
+          "headword": "commentary",
+          "frequencyRank": 538,
+          "baseDifficulty": 0.39,
+          "definition": "Bir olay ya da performans sırasında ya da sonrasında sunulan, açıklayıcı ya da eleştirel sözlü veya yazılı anlatım.",
+          "exampleSentences": [
+            "The football match had lively commentary throughout.",
+            "His book offers sharp commentary on modern politics.",
+            "The radio station provides live commentary during elections."
+          ],
+          "translationTR": "yorum (canlı anlatım veya eleştirel değerlendirme)",
+          "collocations": [
+            "live commentary",
+            "political commentary",
+            "provide commentary"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-bulletin",
+          "type": "vocabulary",
+          "headword": "bulletin",
+          "frequencyRank": 539,
+          "baseDifficulty": 0.4,
+          "definition": "Güncel gelişmeleri kısa ve öz biçimde aktaran, genellikle belirli aralıklarla yayımlanan haber özeti.",
+          "exampleSentences": [
+            "The news bulletin lasted only five minutes.",
+            "A special bulletin interrupted the programme to report the earthquake.",
+            "The weather bulletin warned of heavy rain overnight."
+          ],
+          "translationTR": "bülten",
+          "collocations": [
+            "news bulletin",
+            "special bulletin",
+            "weather bulletin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-media-communication-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-rhetoric",
+          "type": "vocabulary",
+          "headword": "rhetoric",
+          "frequencyRank": 540,
+          "baseDifficulty": 0.41,
+          "definition": "Bir konuşmacının dinleyicileri ikna etmek ya da etkilemek amacıyla dili etkili biçimde kullanma sanatı.",
+          "exampleSentences": [
+            "The speech was full of rhetoric but light on concrete policy.",
+            "Political rhetoric often exaggerates the scale of a threat.",
+            "Her rhetoric appealed strongly to the crowd's emotions."
+          ],
+          "translationTR": "retorik, söylem sanatı",
+          "collocations": [
+            "political rhetoric",
+            "empty rhetoric",
+            "heated rhetoric"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-persuade",
+          "type": "vocabulary",
+          "headword": "persuade",
+          "frequencyRank": 541,
+          "baseDifficulty": 0.42,
+          "definition": "Birini, mantıklı gerekçeler ya da duygusal çekicilik kullanarak bir düşünceyi kabul etmeye ya da bir eylemi yapmaya yöneltmek.",
+          "exampleSentences": [
+            "The advert tried to persuade viewers to switch brands.",
+            "She persuaded her colleagues to support the proposal.",
+            "No amount of evidence could persuade the sceptics."
+          ],
+          "translationTR": "ikna etmek",
+          "collocations": [
+            "persuade someone",
+            "hard to persuade",
+            "attempt to persuade"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-slogan",
+          "type": "vocabulary",
+          "headword": "slogan",
+          "frequencyRank": 542,
+          "baseDifficulty": 0.43,
+          "definition": "Bir kampanyanın ya da markanın ana fikrini kısa ve akılda kalıcı bir sözle özetleyen ifade.",
+          "exampleSentences": [
+            "The campaign's slogan appeared on posters across the city.",
+            "Protesters chanted a simple but powerful slogan.",
+            "The company changed its slogan after years of the old one."
+          ],
+          "translationTR": "slogan",
+          "collocations": [
+            "catchy slogan",
+            "campaign slogan",
+            "chant a slogan"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-narrative",
+          "type": "vocabulary",
+          "headword": "narrative",
+          "frequencyRank": 543,
+          "baseDifficulty": 0.44,
+          "definition": "Olayların belirli bir bakış açısı ve belirli bir sıra izlenerek sunulma biçimi.",
+          "exampleSentences": [
+            "The film's narrative jumps between past and present.",
+            "The government tried to control the narrative around the crisis.",
+            "Her book offers a compelling narrative of the revolution."
+          ],
+          "translationTR": "anlatı, kurgu (olayların sunuluş biçimi)",
+          "collocations": [
+            "control the narrative",
+            "compelling narrative",
+            "shift the narrative"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-discourse",
+          "type": "vocabulary",
+          "headword": "discourse",
+          "frequencyRank": 544,
+          "baseDifficulty": 0.45,
+          "definition": "Belirli bir konu üzerine toplumda ya da bir alanda sürdürülen, birbirine bağlı konuşma ve yazıların bütünü.",
+          "exampleSentences": [
+            "Social media has transformed public discourse in recent years.",
+            "The book examines discourse around immigration in the press.",
+            "Academic discourse on the subject remains deeply divided."
+          ],
+          "translationTR": "söylem, kamusal tartışma",
+          "collocations": [
+            "public discourse",
+            "political discourse",
+            "shape discourse"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-jargon",
+          "type": "vocabulary",
+          "headword": "jargon",
+          "frequencyRank": 545,
+          "baseDifficulty": 0.46,
+          "definition": "Belirli bir meslek ya da alandaki kişilerin kullandığı, dışarıdakiler için anlaşılması güç özel terimler bütünü.",
+          "exampleSentences": [
+            "The report was full of technical jargon that confused readers.",
+            "She avoided jargon so the article would reach a general audience.",
+            "Legal jargon can make contracts difficult to understand."
+          ],
+          "translationTR": "jargon, meslek dili",
+          "collocations": [
+            "technical jargon",
+            "avoid jargon",
+            "full of jargon"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dialect",
+          "type": "vocabulary",
+          "headword": "dialect",
+          "frequencyRank": 546,
+          "baseDifficulty": 0.47,
+          "definition": "Bir dilin, belirli bir bölge ya da toplumsal grup tarafından konuşulan, kendine özgü telaffuz ve kelimelere sahip biçimi.",
+          "exampleSentences": [
+            "The character in the novel speaks in a strong regional dialect.",
+            "Local dialects are gradually disappearing among younger speakers.",
+            "The interviewer struggled to understand the interviewee's dialect."
+          ],
+          "translationTR": "lehçe, ağız",
+          "collocations": [
+            "regional dialect",
+            "local dialect",
+            "speak in dialect"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-idiom",
+          "type": "vocabulary",
+          "headword": "idiom",
+          "frequencyRank": 547,
+          "baseDifficulty": 0.48,
+          "definition": "Kelimelerin tek tek anlamlarından bağımsız, kalıplaşmış ve mecazi bir anlam taşıyan sabit söz öbeği.",
+          "exampleSentences": [
+            "Learners often struggle with English idioms in casual conversation.",
+            "The article used a well-known idiom to make its point memorable.",
+            "Translating idioms literally can produce confusing results."
+          ],
+          "translationTR": "deyim",
+          "collocations": [
+            "common idiom",
+            "use an idiom",
+            "English idiom"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-eloquent",
+          "type": "vocabulary",
+          "headword": "eloquent",
+          "frequencyRank": 548,
+          "baseDifficulty": 0.49,
+          "definition": "Düşüncelerini akıcı, etkileyici ve ikna edici bir dille ifade edebilen.",
+          "exampleSentences": [
+            "The candidate gave an eloquent speech that won over the crowd.",
+            "Her eloquent defence of the policy silenced the critics.",
+            "He is known as one of the most eloquent speakers in parliament."
+          ],
+          "translationTR": "etkili konuşan, güzel söz söyleyen",
+          "collocations": [
+            "eloquent speech",
+            "eloquent speaker",
+            "remarkably eloquent"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-articulate",
+          "type": "vocabulary",
+          "headword": "articulate",
+          "frequencyRank": 549,
+          "baseDifficulty": 0.5,
+          "definition": "Bir görüşü ya da düşünceyi belirsiz bırakmadan, net ve düzenli cümlelerle karşı tarafa aktarmak; bu şekilde anlatım yapabilen kişiyi de niteler.",
+          "exampleSentences": [
+            "She articulated her concerns clearly during the interview.",
+            "He struggled to articulate exactly what had gone wrong.",
+            "The spokesperson is known for being articulate under pressure."
+          ],
+          "translationTR": "(görüş, düşünce) net biçimde ifade etmek; düşüncelerini açıkça ifade edebilen, açık sözlü",
+          "collocations": [
+            "articulate a view",
+            "clearly articulate",
+            "highly articulate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-media-communication-4",
+      "order": 3,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-credibility",
+          "type": "vocabulary",
+          "headword": "credibility",
+          "frequencyRank": 550,
+          "baseDifficulty": 0.51,
+          "definition": "Bir kaynağın ya da kişinin geçmişte doğru bilgi sunmuş olmasından kaynaklanan ve başkalarının onun sözlerini kabul etmesini sağlayan itibar.",
+          "exampleSentences": [
+            "The scandal seriously damaged the newspaper's credibility.",
+            "Citing reliable sources helps establish a report's credibility.",
+            "His credibility as a witness was questioned in court."
+          ],
+          "translationTR": "güvenilirlik",
+          "collocations": [
+            "lose credibility",
+            "damage credibility",
+            "lack credibility"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-exaggerate",
+          "type": "vocabulary",
+          "headword": "exaggerate",
+          "frequencyRank": 551,
+          "baseDifficulty": 0.52,
+          "definition": "Bir durumu ya da olayı, gerçekte olduğundan daha büyük, ciddi ya da etkileyici göstermek.",
+          "exampleSentences": [
+            "The headline exaggerated the danger to attract readers.",
+            "He tends to exaggerate his achievements at interviews.",
+            "The report was accused of exaggerating the scale of the problem."
+          ],
+          "translationTR": "abartmak",
+          "collocations": [
+            "grossly exaggerate",
+            "tend to exaggerate",
+            "exaggerate the risk"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-misinformation",
+          "type": "vocabulary",
+          "headword": "misinformation",
+          "frequencyRank": 552,
+          "baseDifficulty": 0.53,
+          "definition": "Doğruluğu araştırılmadan, çoğunlukla kasıt olmaksızın paylaşılan ve gerçeği yansıtmayan içerik.",
+          "exampleSentences": [
+            "Misinformation about the vaccine spread rapidly online.",
+            "The platform introduced tools to flag misinformation.",
+            "Officials struggled to counter the wave of misinformation."
+          ],
+          "translationTR": "yanlış bilgi (genellikle kasıtsız)",
+          "collocations": [
+            "spread misinformation",
+            "counter misinformation",
+            "online misinformation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-hoax",
+          "type": "vocabulary",
+          "headword": "hoax",
+          "frequencyRank": 553,
+          "baseDifficulty": 0.54,
+          "definition": "İnsanları kandırmak amacıyla kasıtlı olarak uydurulan sahte olay ya da haber.",
+          "exampleSentences": [
+            "The bomb threat turned out to be a hoax.",
+            "The viral video was later exposed as a hoax.",
+            "Police warned the public about a phone scam hoax."
+          ],
+          "translationTR": "aldatmaca, yalan haber",
+          "collocations": [
+            "elaborate hoax",
+            "expose a hoax",
+            "internet hoax"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-satire",
+          "type": "vocabulary",
+          "headword": "satire",
+          "frequencyRank": 554,
+          "baseDifficulty": 0.55,
+          "definition": "Toplumsal ya da siyasi eleştiriyi, alay ve abartı kullanarak mizahi biçimde ifade eden yazın ya da sanat türü.",
+          "exampleSentences": [
+            "The programme uses satire to mock politicians' hypocrisy.",
+            "His novel is a biting satire of corporate greed.",
+            "Some viewers mistook the satire for a genuine news report."
+          ],
+          "translationTR": "hiciv, taşlama",
+          "collocations": [
+            "political satire",
+            "biting satire",
+            "use satire"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-parody",
+          "type": "vocabulary",
+          "headword": "parody",
+          "frequencyRank": 555,
+          "baseDifficulty": 0.56,
+          "definition": "Bir eseri ya da üslubu, mizahi bir amaçla abartarak ve komik biçimde taklit etme.",
+          "exampleSentences": [
+            "The sketch was a parody of the president's speeches.",
+            "Fans created a parody of the film's famous trailer.",
+            "Her song is a gentle parody of pop music clichés."
+          ],
+          "translationTR": "parodi",
+          "collocations": [
+            "comic parody",
+            "parody of",
+            "create a parody"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-allegation",
+          "type": "vocabulary",
+          "headword": "allegation",
+          "frequencyRank": 556,
+          "baseDifficulty": 0.57,
+          "definition": "Bir kişi ya da kurum hakkında, henüz kanıtlanmadan resmî ortamda ya da kamuoyu önünde dile getirilen suçlama.",
+          "exampleSentences": [
+            "The minister denied the allegations of corruption.",
+            "The newspaper published serious allegations against the company.",
+            "Police are investigating the allegation of fraud."
+          ],
+          "translationTR": "asılsız olabilecek iddia",
+          "collocations": [
+            "deny an allegation",
+            "serious allegation",
+            "investigate an allegation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-rumour",
+          "type": "vocabulary",
+          "headword": "rumour",
+          "frequencyRank": 557,
+          "baseDifficulty": 0.58,
+          "definition": "Doğruluğu kesin olarak bilinmeyen ve ağızdan ağıza yayılan bilgi ya da iddia.",
+          "exampleSentences": [
+            "Rumours about the merger spread through the office within hours.",
+            "The rumour turned out to be completely false.",
+            "Officials refused to comment on the rumour."
+          ],
+          "translationTR": "söylenti",
+          "collocations": [
+            "spread a rumour",
+            "start a rumour",
+            "deny a rumour"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-retract",
+          "type": "vocabulary",
+          "headword": "retract",
+          "frequencyRank": 558,
+          "baseDifficulty": 0.59,
+          "definition": "Daha önce kamuoyuna açıklanmış bir ifadeyi ya da yayını, hatalı olduğunu kabul ederek resmî olarak iptal etmek.",
+          "exampleSentences": [
+            "The newspaper was forced to retract its false claim.",
+            "He later retracted his statement after new evidence emerged.",
+            "The journal retracted the study over concerns about the data."
+          ],
+          "translationTR": "geri çekmek (bir ifadeyi veya yayını)",
+          "collocations": [
+            "retract a statement",
+            "forced to retract",
+            "retract a claim"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-disclose",
+          "type": "vocabulary",
+          "headword": "disclose",
+          "frequencyRank": 559,
+          "baseDifficulty": 0.6,
+          "definition": "Daha önce gizli tutulan bir bilgiyi resmi olarak kamuoyuna ya da ilgili taraflara duyurmak.",
+          "exampleSentences": [
+            "The company was required to disclose its financial losses.",
+            "She refused to disclose her sources to the court.",
+            "The report disclosed previously unknown details of the deal."
+          ],
+          "translationTR": "açıklamak, ifşa etmek",
+          "collocations": [
+            "fully disclose",
+            "disclose information",
+            "refuse to disclose"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-media-communication-5",
+      "order": 4,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-publicity",
+          "type": "vocabulary",
+          "headword": "publicity",
+          "frequencyRank": 560,
+          "baseDifficulty": 0.61,
+          "definition": "Bir kişi, ürün ya da olayın medya aracılığıyla geniş kitlelerin dikkatine sunulması.",
+          "exampleSentences": [
+            "The film received huge publicity before its release.",
+            "Bad publicity following the scandal hurt ticket sales.",
+            "The charity used the event to generate publicity for its cause."
+          ],
+          "translationTR": "tanıtım, kamuoyu ilgisi",
+          "collocations": [
+            "generate publicity",
+            "bad publicity",
+            "publicity campaign"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-endorsement",
+          "type": "vocabulary",
+          "headword": "endorsement",
+          "frequencyRank": 561,
+          "baseDifficulty": 0.62,
+          "definition": "Tanınmış bir kişinin ya da kurumun adını kullanarak bir ürüne veya adaya kamuoyu nezdinde güven ve itibar kazandırma beyanı.",
+          "exampleSentences": [
+            "The candidate received an endorsement from a popular actor.",
+            "The brand paid for a celebrity endorsement of its new trainers.",
+            "Her endorsement boosted the campaign's visibility overnight."
+          ],
+          "translationTR": "destek beyanı, onay (özellikle ünlü veya kurum desteği)",
+          "collocations": [
+            "celebrity endorsement",
+            "public endorsement",
+            "receive an endorsement"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-sponsor",
+          "type": "vocabulary",
+          "headword": "sponsor",
+          "frequencyRank": 562,
+          "baseDifficulty": 0.63,
+          "definition": "Bir etkinliği, programı ya da kişiyi, genellikle karşılığında tanıtım elde ederek mali olarak destekleyen kurum ya da kişi.",
+          "exampleSentences": [
+            "A major airline sponsors the annual film festival.",
+            "The team's shirts display their main sponsor's logo.",
+            "Without a sponsor, the documentary might never have been made."
+          ],
+          "translationTR": "sponsor",
+          "collocations": [
+            "main sponsor",
+            "corporate sponsor",
+            "sponsor an event"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-viral",
+          "type": "vocabulary",
+          "headword": "viral",
+          "frequencyRank": 563,
+          "baseDifficulty": 0.64,
+          "definition": "Bir içeriğin, internet üzerinden kısa sürede ve geniş çapta paylaşılarak yaygınlaşması durumu.",
+          "exampleSentences": [
+            "The video went viral within hours of being posted.",
+            "Her viral tweet was shared by thousands of people.",
+            "Marketers hope every campaign will go viral."
+          ],
+          "translationTR": "viral (hızla yayılan)",
+          "collocations": [
+            "go viral",
+            "viral video",
+            "viral post"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-outreach",
+          "type": "vocabulary",
+          "headword": "outreach",
+          "frequencyRank": 564,
+          "baseDifficulty": 0.65,
+          "definition": "Bir kurumun, bilgi ve hizmetlerini ulaşması zor olan gruplara aktif biçimde ulaştırma çabası.",
+          "exampleSentences": [
+            "The charity's outreach programme targets homeless teenagers.",
+            "The university expanded its outreach to rural schools.",
+            "Community outreach helped rebuild trust with local residents."
+          ],
+          "translationTR": "toplumla veya hedef kitleyle iletişim ve bilgilendirme faaliyeti",
+          "collocations": [
+            "outreach programme",
+            "community outreach",
+            "expand outreach"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-moderator",
+          "type": "vocabulary",
+          "headword": "moderator",
+          "frequencyRank": 565,
+          "baseDifficulty": 0.66,
+          "definition": "Bir tartışmanın, yayının ya da çevrimiçi platformun kurallara uygun ve düzenli ilerlemesini sağlayan, gerektiğinde söz hakkını denetleyen kişi.",
+          "exampleSentences": [
+            "The debate moderator kept both candidates to their time limits.",
+            "Online moderators removed the abusive comments within minutes.",
+            "The panel discussion needed a firm moderator to control interruptions."
+          ],
+          "translationTR": "tartışma veya yayın yöneticisi, oturum başkanı",
+          "collocations": [
+            "debate moderator",
+            "forum moderator",
+            "act as moderator"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-syndicate",
+          "type": "vocabulary",
+          "headword": "syndicate",
+          "frequencyRank": 566,
+          "baseDifficulty": 0.67,
+          "definition": "Bir yazıyı, programı ya da içeriği, tek seferde üretip aynı anda birçok farklı yayın organına satma uygulaması.",
+          "exampleSentences": [
+            "Her column is syndicated to newspapers across the country.",
+            "The cartoon strip is syndicated in dozens of publications.",
+            "A press syndicate distributed the photograph worldwide."
+          ],
+          "translationTR": "haberi veya içeriği birden fazla yayın organına satmak; isim olarak 'birlik, konsorsiyum'",
+          "collocations": [
+            "syndicated column",
+            "news syndicate",
+            "widely syndicated"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-copyright",
+          "type": "vocabulary",
+          "headword": "copyright",
+          "frequencyRank": 567,
+          "baseDifficulty": 0.68,
+          "definition": "Bir eserin yaratıcısına, o eserin çoğaltılması ve dağıtılması üzerinde yasal olarak tanınan münhasır hak.",
+          "exampleSentences": [
+            "The photograph was used without the photographer's permission, violating copyright.",
+            "Copyright law protects the author's work for decades after publication.",
+            "The publisher owns the copyright to the entire series."
+          ],
+          "translationTR": "telif hakkı",
+          "collocations": [
+            "copyright law",
+            "hold the copyright",
+            "violate copyright"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-footage",
+          "type": "vocabulary",
+          "headword": "footage",
+          "frequencyRank": 568,
+          "baseDifficulty": 0.69,
+          "definition": "Bir kamera ile henüz kurgulanmadan kaydedilmiş, işlenmemiş video malzemesi.",
+          "exampleSentences": [
+            "Security footage showed the suspect leaving the building.",
+            "The documentary used rare archive footage from the 1960s.",
+            "News channels aired footage of the flooded streets."
+          ],
+          "translationTR": "ham görüntü, çekim malzemesi",
+          "collocations": [
+            "archive footage",
+            "security footage",
+            "video footage"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-screenplay",
+          "type": "vocabulary",
+          "headword": "screenplay",
+          "frequencyRank": 569,
+          "baseDifficulty": 0.7,
+          "definition": "Bir filmin çekimi için diyalog, sahne ve yönetmen talimatlarını içeren yazılı metin.",
+          "exampleSentences": [
+            "She adapted the novel into a screenplay in under a year.",
+            "The screenplay won an award for its sharp dialogue.",
+            "Writing a good screenplay requires tight, visual storytelling."
+          ],
+          "translationTR": "senaryo",
+          "collocations": [
+            "write a screenplay",
+            "adapt a screenplay",
+            "original screenplay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-media-communication-6",
+      "order": 5,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-connotation",
+          "type": "vocabulary",
+          "headword": "connotation",
+          "frequencyRank": 570,
+          "baseDifficulty": 0.71,
+          "definition": "Bir kelimenin birebir sözlük anlamının ötesinde, kullanan veya duyan kişide uyandırdığı ek duygusal ya da kültürel etki.",
+          "exampleSentences": [
+            "The word 'cheap' has a negative connotation that 'affordable' avoids.",
+            "Editors chose their words carefully to avoid unwanted connotations.",
+            "The term carries different connotations in different cultures."
+          ],
+          "translationTR": "yan anlam, çağrışım",
+          "collocations": [
+            "negative connotation",
+            "carry a connotation",
+            "positive connotation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-semantics",
+          "type": "vocabulary",
+          "headword": "semantics",
+          "frequencyRank": 571,
+          "baseDifficulty": 0.72,
+          "definition": "Kelimelerin ve cümlelerin anlamlarını ve bu anlamların nasıl oluştuğunu inceleyen dilbilim dalı.",
+          "exampleSentences": [
+            "The dispute was really about semantics rather than substance.",
+            "Semantics studies how meaning is constructed in language.",
+            "Lawyers often argue over the semantics of a single clause."
+          ],
+          "translationTR": "anlambilim, anlam meselesi",
+          "collocations": [
+            "question of semantics",
+            "study semantics",
+            "argue over semantics"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-subtext",
+          "type": "vocabulary",
+          "headword": "subtext",
+          "frequencyRank": 572,
+          "baseDifficulty": 0.73,
+          "definition": "Bir metinde ya da konuşmada doğrudan dile getirilmeyen, ancak bağlamdan çıkarılabilen ikinci bir mesaj.",
+          "exampleSentences": [
+            "Beneath the polite wording lay a subtext of criticism.",
+            "The play's subtext deals with class and power.",
+            "Readers picked up on the article's political subtext."
+          ],
+          "translationTR": "alt metin, örtük anlam",
+          "collocations": [
+            "hidden subtext",
+            "political subtext",
+            "carry a subtext"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-euphemism",
+          "type": "vocabulary",
+          "headword": "euphemism",
+          "frequencyRank": 573,
+          "baseDifficulty": 0.74,
+          "definition": "Rahatsız edici ya da hoş karşılanmayan bir kavramı, daha yumuşak ve dolaylı bir sözle ifade etme.",
+          "exampleSentences": [
+            "'Letting someone go' is a common euphemism for firing them.",
+            "The report used euphemisms to soften the scale of the losses.",
+            "Politicians often rely on euphemism to avoid uncomfortable truths."
+          ],
+          "translationTR": "örtmece",
+          "collocations": [
+            "common euphemism",
+            "use a euphemism",
+            "polite euphemism"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ambiguity",
+          "type": "vocabulary",
+          "headword": "ambiguity",
+          "frequencyRank": 574,
+          "baseDifficulty": 0.75,
+          "definition": "Bir ifadenin birden fazla şekilde yorumlanabilmesi yüzünden ortaya çıkan yorum farklılığı.",
+          "exampleSentences": [
+            "The contract's wording created ambiguity over who was liable.",
+            "The poem's ambiguity allows for several interpretations.",
+            "Editors removed the ambiguity by rewriting the sentence."
+          ],
+          "translationTR": "belirsizlik, çok anlamlılık",
+          "collocations": [
+            "remove ambiguity",
+            "legal ambiguity",
+            "source of ambiguity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-paraphrase",
+          "type": "vocabulary",
+          "headword": "paraphrase",
+          "frequencyRank": 575,
+          "baseDifficulty": 0.76,
+          "definition": "Bir metnin ya da sözün anlamını, aynı kelimeleri tekrar etmeden kendi cümleleriyle yeniden aktarmak.",
+          "exampleSentences": [
+            "The journalist paraphrased the minister's remarks for clarity.",
+            "Students were asked to paraphrase the passage in their own words.",
+            "A brief paraphrase can be clearer than a long direct quotation."
+          ],
+          "translationTR": "kendi sözcükleriyle yeniden anlatmak, açımlamak",
+          "collocations": [
+            "paraphrase a quote",
+            "brief paraphrase",
+            "paraphrase accurately"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-rhetorical",
+          "type": "vocabulary",
+          "headword": "rhetorical",
+          "frequencyRank": 576,
+          "baseDifficulty": 0.77,
+          "definition": "Gerçek bir cevap beklenmeden, etki yaratmak ya da bir noktayı vurgulamak amacıyla kullanılan (söz veya soru).",
+          "exampleSentences": [
+            "'Who could possibly disagree?' was clearly a rhetorical question.",
+            "The speech relied on rhetorical devices rather than hard facts.",
+            "Her rhetorical skill made even dull statistics sound urgent."
+          ],
+          "translationTR": "retorik nitelikte, ikna amaçlı",
+          "collocations": [
+            "rhetorical question",
+            "rhetorical device",
+            "rhetorical skill"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-verbatim",
+          "type": "vocabulary",
+          "headword": "verbatim",
+          "frequencyRank": 577,
+          "baseDifficulty": 0.78,
+          "definition": "Bir konuşma ya da metnin, hiçbir değişiklik yapılmadan tam olarak söylendiği veya yazıldığı gibi aktarılması.",
+          "exampleSentences": [
+            "The transcript recorded the interview verbatim.",
+            "She quoted the minister verbatim in her article.",
+            "The witness repeated the conversation almost verbatim."
+          ],
+          "translationTR": "kelimesi kelimesine, harfiyen",
+          "collocations": [
+            "quote verbatim",
+            "record verbatim",
+            "repeat verbatim"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-lucid",
+          "type": "vocabulary",
+          "headword": "lucid",
+          "frequencyRank": 578,
+          "baseDifficulty": 0.79,
+          "definition": "Karmaşık bir konuyu bile okuyucunun hiç zorlanmadan takip edebileceği kadar düzenli ve net bir anlatım biçimi.",
+          "exampleSentences": [
+            "Her lucid explanation made the complex policy easy to follow.",
+            "The report was praised for its lucid style, free of jargon.",
+            "Even under pressure, he remained remarkably lucid in interviews."
+          ],
+          "translationTR": "açık, anlaşılır (zihinsel veya anlatımsal netlik)",
+          "collocations": [
+            "lucid explanation",
+            "remarkably lucid",
+            "lucid style"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-succinct",
+          "type": "vocabulary",
+          "headword": "succinct",
+          "frequencyRank": 579,
+          "baseDifficulty": 0.8,
+          "definition": "Gereksiz ayrıntılardan arınmış biçimde, az sözcükle net bir anlam ileten.",
+          "exampleSentences": [
+            "The editor demanded a more succinct summary of the report.",
+            "Her succinct answer left no room for misunderstanding.",
+            "Headlines must be succinct enough to fit a single line."
+          ],
+          "translationTR": "özlü, kısa ve öz",
+          "collocations": [
+            "succinct summary",
+            "succinct answer",
+            "keep it succinct"
+          ]
+        }
+      ]
+    }
+  ]
+}

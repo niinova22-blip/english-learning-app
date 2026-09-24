@@ -33,7 +33,10 @@ enum ContentSeeder {
 
         // Validate the whole document in a throwaway store first, so invalid
         // content can never delete what is already installed.
-        let scratchSchema = Schema([ContentPackage.self, Unit.self, Lesson.self, LearningItem.self, ItemContent.self])
+        let scratchSchema = Schema([
+            ContentPackage.self, Unit.self, Lesson.self, LearningItem.self, ItemContent.self,
+            Question.self, Passage.self
+        ])
         let scratch = try ModelContainer(for: scratchSchema, configurations: [ModelConfiguration(schema: scratchSchema, isStoredInMemoryOnly: true)])
         _ = try ContentImporter.importPackage(from: data, into: ModelContext(scratch))
 

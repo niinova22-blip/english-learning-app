@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-cloze",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Cloze Testi",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-cloze",
+      "type": "grammarPoint",
+      "headword": "Strategy: Cloze Test",
+      "frequencyRank": 4001,
+      "baseDifficulty": 0.5,
+      "definition": "Cloze testini adım adım çözme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Cloze Testi",
+      "collocations": [],
+      "explanationTR": "Cloze testinde her boşluk bir CÜMLENİN parçasıdır; doğru cevap boşluğun çevresindeki dil bilgisi ve mantık ilişkisinden çıkar.\n\n• Önce boşluğun bulunduğu cümlenin tamamını, sonra öncesindeki ve sonrasındaki cümleyi oku. Tek kelimeye bakarak karar verme.\n\n• Boşluğun türünü belirle: bağlaç mı (although, because), edat mı (responsible for), ilgi zamiri mi (whom, which), fiil biçimi mi (had left), niceleyici mi (much, many), yoksa sözcük mü (reach a conclusion)?\n\n• Her seçeneği cümlede dene; hem gramerle hem anlamla uyuşan tek seçenek kalana kadar ele. Bağlaçlarda cümlenin iki yarısı arasındaki ilişkiye (karşıtlık, neden, sonuç, koşul) bak.\n\n• Kalıp ifadelere (reach a conclusion, rely on, lead to) güven: doğru kalıp çoğu zaman tek başına cevabı verir.\n\n• Boşluğun iki yanına da bak: fiilin öznesi ile uyumu, sonraki sözcüğün adı mı fiili mi olduğu ipucudur.\n\nEn sık düşülen tuzak: boşluğu yalnızca anlama bakarak doldurmak. Anlamca uyan bir seçenek, edat ya da dil bilgisi kalıbıyla uyuşmuyorsa yanlıştır.\n\nÖrnek: «The town is heavily reliant ---- tourism.» cümlesinde «reliant» sözcüğünün kalıbı «on» seçeneğini verir."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-cloze-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Bir cloze sorusunda seçenekler «although / because / unless / therefore / moreover» ise doğru bağlaç hangi adımla belirlenir?",
+      "options": [
+        "Boşluktan önceki tek sözcüğe bakmakla",
+        "En kısa görünen bağlacı hemen seçmekle",
+        "Paragrafın ilk cümlesini çevirmekle",
+        "İki yarı arasındaki mantıksal ilişkiyi bulmakla",
+        "Türkçe karşılığı en tanıdık gelen bağlacı seçmekle"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Bağlaç, cümlenin iki yarısı arasındaki ilişkiyi (karşıtlık, neden, koşul, sonuç) kurar: (D). (A) tek sözcüğe bakmak ilişkiyi göstermez. (B) uzunluk bir anlam ölçütü değildir. (C) ilk cümle, boşluğun bulunduğu cümlenin iç ilişkisini vermez. (E) tanıdık gelen bağlaç çoğu zaman tuzaktır; ilişkiyi kuran bağlaç doğrudur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-cloze-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Cities are growing fast; ----, public transport has not kept pace.",
+      "options": [
+        "therefore",
+        "moreover",
+        "for example",
+        "however",
+        "similarly"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Şehirlerin hızlı büyümesi ile ulaşımın geri kalması arasında KARŞITLIK vardır: (D). (A) therefore sonuç bildirir. (B) moreover ek bir bilgi ekler. (C) for example örnek verir. (E) similarly benzerlik kurar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-cloze-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Many residents are now dependent ---- private cars.",
+      "options": [
+        "of",
+        "to",
+        "on",
+        "at",
+        "by"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Dependent on» sabit bir sıfat + edat kalıbıdır: (C). (A) of, (B) to, (D) at ve (E) by bu sıfatla kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-cloze-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "By the time the programme ended, most pupils ---- their first language exam.",
+      "options": [
+        "passed",
+        "pass",
+        "would pass",
+        "are passing",
+        "had passed"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«By the time ... ended» geçmişte bir sınır belirler; ondan önce biten eylem past perfect ile verilir: (E). (A) past simple sırayı göstermez. (B) geniş zaman ve (D) sürerlik geçmişle uyuşmaz. (C) would pass gelecek anlamı taşır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-cloze-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "The committee, ---- members were elected last year, meets monthly.",
+      "options": [
+        "which",
+        "whose",
+        "who",
+        "that",
+        "what"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Boşluktan sonra bir ad (members) gelir ve sahiplik bildirilir: (B). (A) which, ardından ad almaz. (C) who kişi zamiridir ve ad öncesi kullanılmaz. (D) that virgülden sonra gelmez. (E) what önceki bir adı niteleyemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-cloze-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Rising sea levels ---- a serious threat to coastal cities.",
+      "options": [
+        "pose",
+        "make",
+        "give",
+        "take",
+        "do"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Pose a threat» sabit bir kalıptır (= tehdit oluşturmak): (A). (B) «make a threat» sözlü tehditte bulunmak demektir; yükselen deniz seviyesi için kullanılmaz. (C) give, (D) take ve (E) do «threat» ile bu kalıbı kurmaz.",
+      "passageID": null
+    }
+  ]
+}

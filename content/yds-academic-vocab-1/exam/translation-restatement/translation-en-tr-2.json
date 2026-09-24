@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-translation-en-tr-2",
+  "estimatedDurationMinutes": 9,
+  "title": "Çeviri: İngilizce-Türkçe 2",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-translation-en-tr-2",
+      "type": "practiceSet",
+      "headword": "Translation EN-TR 2",
+      "frequencyRank": 3061,
+      "baseDifficulty": 0.55,
+      "definition": "İngilizce cümlelerin Türkçe karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Çeviri: İngilizce-Türkçe 2",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-translation-en-tr-2-q01",
+      "kind": "translation",
+      "order": 0,
+      "prompt": "If the funding had been approved earlier, the project would have been completed by now.",
+      "options": [
+        "Fon daha erken onaylandığı için proje şimdiye kadar tamamlandı.",
+        "Fon daha erken onaylanmış olsaydı, proje şimdiye kadar iptal edilmiş olurdu.",
+        "Fon daha erken onaylanmış olsaydı, proje şimdiye kadar tamamlanmış olurdu.",
+        "Fon daha erken onaylanırsa, proje gelecek yıl tamamlanmış olacak.",
+        "Proje daha erken tamamlanmış olsaydı, fon şimdiye kadar onaylanmış olurdu."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Üçüncü tip koşul, gerçekleşmemiş bir geçmişi anlatır: onaylanmadığı için tamamlanmadı: (C). (A) gerçekleşmiş bir durum gibi anlatır. (B) sonucu iptal yapar. (D) gerçek koşula ve geleceğe çevirir. (E) neden ve sonucu yer değiştirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-2-q02",
+      "kind": "translation",
+      "order": 1,
+      "prompt": "The findings, which were published last spring, have been widely criticised by other researchers.",
+      "options": [
+        "Geçen ilkbaharda yayımlanan bulgular, diğer araştırmacılar tarafından geniş ölçüde eleştirildi.",
+        "Geçen ilkbaharda yayımlanan bulgular, diğer araştırmacıları geniş ölçüde eleştirdi.",
+        "Gelecek ilkbaharda yayımlanacak bulgular, diğer araştırmacılar tarafından geniş ölçüde eleştirildi.",
+        "Geçen ilkbaharda yayımlanan bulgular, diğer araştırmacılar tarafından yalnızca kısmen eleştirildi.",
+        "Diğer araştırmacıların yayımladığı bulgular, geçen ilkbaharda geniş ölçüde eleştirildi."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Cümle edilgendir (have been criticised by): bulgular eleştirilen taraftır: (A). (B) edilgeni etkene çevirir. (C) yayım zamanını geleceğe çeker. (D) «widely» yerine «yalnızca kısmen» der. (E) yayımlayanları ve eleştiri zamanını karıştırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-2-q03",
+      "kind": "translation",
+      "order": 2,
+      "prompt": "It is widely assumed that the policy will reduce unemployment, although there is little evidence for this.",
+      "options": [
+        "Politikanın işsizliği azaltacağı yaygın biçimde varsayılıyor, ancak bunu destekleyen çok sayıda kanıt var.",
+        "Politikanın işsizliği artıracağı yaygın biçimde varsayılıyor, ancak bunu destekleyen çok az kanıt var.",
+        "Politikanın işsizliği azaltacağı yaygın biçimde varsayılıyordu, çünkü bunu destekleyen çok az kanıt vardı.",
+        "Politikanın işsizliği azaltacağını yalnızca birkaç kişi varsayıyor, ancak bunu destekleyen çok az kanıt var.",
+        "Politikanın işsizliği azaltacağı yaygın biçimde varsayılıyor, ancak bunu destekleyen çok az kanıt var."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Although» karşıtlık kurar: yaygın varsayım var ama kanıt az: (E). (A) kanıtı çok yapar. (B) işsizliği artırmaya çevirir. (C) karşıtlığı neden bağıntısına çevirir. (D) varsayımın yaygınlığını «yalnızca birkaç kişi» yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-2-q04",
+      "kind": "translation",
+      "order": 3,
+      "prompt": "The company, whose profits had fallen sharply, was forced to cancel its expansion plans.",
+      "options": [
+        "Kârı keskin biçimde artan şirket, genişleme planlarını iptal etmek zorunda kaldı.",
+        "Kârı keskin biçimde düşen şirket, genişleme planlarını iptal etmek zorunda kaldı.",
+        "Kârı keskin biçimde düşen şirket, genişleme planlarını hızlandırmak zorunda kaldı.",
+        "Kârı keskin biçimde düşen şirket, genişleme planlarını iptal etmek zorunda kalacak.",
+        "Kârı keskin biçimde düşen şirket, genişleme planlarını iptal etmeyi tercih etti."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Was forced to cancel» bir zorunluluktur ve geçmiş zamandadır; kâr düşmüştür: (B). (A) kârı artıran bir şirket anlatır. (C) planları hızlandırmak der. (D) zamanı geleceğe çevirir. (E) zorunluluğu tercihe çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-2-q05",
+      "kind": "translation",
+      "order": 4,
+      "prompt": "Had the warning been taken seriously, the disaster might have been avoided.",
+      "options": [
+        "Uyarı ciddiye alındığı için felaket önlendi.",
+        "Uyarı ciddiye alınırsa, felaket önlenebilir.",
+        "Uyarı ciddiye alınmış olsaydı, felaket kaçınılmaz olurdu.",
+        "Uyarı ciddiye alınmış olsaydı, felaket önlenebilirdi.",
+        "Felaket önlenmiş olsaydı, uyarı ciddiye alınabilirdi."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Devrik yapı (Had the warning been ...) üçüncü tip koşuldur: uyarı ciddiye alınmadı, felaket önlenemedi: (D). (A) gerçekleşmiş bir olay gibi anlatır. (B) gerçek koşula ve şimdiye çevirir. (C) sonucu tersine çevirir. (E) neden ve sonucu yer değiştirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-2-q06",
+      "kind": "translation",
+      "order": 5,
+      "prompt": "The students who had prepared thoroughly were allowed to take the exam a week early.",
+      "options": [
+        "İyice hazırlanmış olan öğrencilerin sınava bir hafta erken girmesine izin verildi.",
+        "İyice hazırlanmış olan öğrenciler, sınava bir hafta erken girmeyi kabul etti.",
+        "İyice hazırlanmamış olan öğrencilerin sınava bir hafta erken girmesine izin verildi.",
+        "İyice hazırlanmış olan öğrencilerin sınava bir hafta geç girmesine izin verildi.",
+        "Sınava bir hafta erken giren öğrencilerin iyice hazırlanmış olması gerekiyordu."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Were allowed» edilgendir: öğrencilere izin verildi: (A). (B) izin verilmesini öğrencilerin girmeyi kabul etmesine çevirir. (C) hazırlanmayanları konu eder. (D) «erken» yerine «geç» der. (E) izni bir koşula çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-2-q07",
+      "kind": "translation",
+      "order": 6,
+      "prompt": "Several of the participants were unable to complete the questionnaire in the time available.",
+      "options": [
+        "Katılımcıların tümü anketi eldeki sürede tamamladı.",
+        "Katılımcılardan birkaçı anketi eldeki sürede tamamlayabildi.",
+        "Katılımcılardan birkaçı anketi eldeki sürede tamamlayamadı.",
+        "Katılımcılardan birkaçı anketi eldeki sürede tamamlamak istemedi.",
+        "Katılımcılardan birkaçı anketi eldeki sürede tamamlayamayacak."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Several ... were unable to complete» bir kısmın tamamlayamadığını söyler: (C). (A) herkesin tamamladığını söyler. (B) olumsuzu olumluya çevirir. (D) yapamamayı istememeye çevirir. (E) zamanı geleceğe çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-2-q08",
+      "kind": "translation",
+      "order": 7,
+      "prompt": "The proposal was rejected on the grounds that it would place an unfair burden on small firms.",
+      "options": [
+        "Öneri, küçük firmalara haksız bir yük bindirdiği için kabul edildi.",
+        "Öneri, küçük firmalara haksız bir yük bindirmeyeceği gerekçesiyle reddedildi.",
+        "Öneriyi küçük firmalar, haksız bir yük bindireceği gerekçesiyle reddetti.",
+        "Öneri, küçük firmaların haksız bir yük bindireceği gerekçesiyle reddedildi.",
+        "Öneri, küçük firmalara haksız bir yük bindireceği gerekçesiyle reddedildi."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«On the grounds that» gerekçe bildirir: öneri haksız yük getireceği için reddedildi: (E). (A) kabul edildiğini söyler. (B) gerekçeyi olumsuzlar. (C) özneleri değiştirir (reddeden firmalar olur). (D) haksız yükü küçük firmaların bindirdiğini söyler.",
+      "passageID": null
+    }
+  ]
+}

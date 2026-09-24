@@ -1,0 +1,150 @@
+{
+  "id": "yds-practice-lesson-tenses",
+  "estimatedDurationMinutes": 8,
+  "title": "Zamanlar (Tenses)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-practice-card-tenses",
+      "type": "grammarPoint",
+      "headword": "Tenses",
+      "frequencyRank": 1003,
+      "baseDifficulty": 0.5,
+      "definition": "İngilizcede zamanların YDS'de en sık sınanan kullanımları.",
+      "exampleSentences": [],
+      "translationTR": "Zamanlar",
+      "collocations": [],
+      "explanationTR": "YDS'de zaman soruları neredeyse her zaman cümledeki bir ZAMAN İŞARETİNE dayanır.\n\n• Present perfect (have/has + V3): «since», «for», «so far», «recently» ile; geçmişte başlayıp etkisi süren durumlar için.\n• Past simple: «in 2019», «last year», «... ago» gibi bitmiş bir zamanı gösteren ifadelerle; present perfect ile asla karışmaz.\n• Past perfect (had + V3): geçmişteki iki olaydan ÖNCE olanı için. «by the time», «before», «after», «no sooner ... than» kalıplarında beklenen zamandır.\n• Future perfect (will have + V3): «by 2030», «by the end of the year» gibi gelecekteki bir sınırdan önce bitecek eylemler için.\n\nEn sık düşülen tuzak: «by the time» görünce present perfect işaretlemek. Oysa «by the time» ile kurulan yan cümle past simple kalır, past perfect'e geçen ANA CÜMLEDİR.\n\nÖrnek: By the time the results were published, the team had already left the laboratory."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-practice-lesson-tenses-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "By the time the central bank announced the new interest rate, most investors ---- their portfolios.",
+      "options": [
+        "have already restructured",
+        "had already restructured",
+        "already restructure",
+        "are already restructuring",
+        "will already restructure"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«By the time» + geçmiş zaman kalıbı, ana cümledeki eylemin o andan DAHA ÖNCE bittiğini anlatır; bu yüzden past perfect gerekir: had already restructured. (A) present perfect, geçmişte belirli bir ana bağlanamaz. (C) ve (D) şimdiki zamanı, (E) ise geleceği anlatıyor; hiçbiri cümledeki geçmiş referansıyla uyuşmuyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-tenses-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The research team ---- data on migratory birds since 2015, and the project is expected to continue for another decade.",
+      "options": [
+        "has been collecting",
+        "collects",
+        "collected",
+        "had collected",
+        "will collect"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«since 2015» geçmişte başlayıp hâlâ süren bir eylemi işaret eder; cümlede süreklilik vurgusu da olduğu için present perfect continuous gerekir: has been collecting. (B) geniş zaman, «since» ile kullanılmaz. (C) past simple bitmiş bir dönem ister, oysa proje sürüyor. (D) past perfect geçmişte bir başka olaydan öncesini anlatır, burada öyle bir olay yok.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-tenses-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "By the end of this decade, the agency ---- the largest infrastructure survey ever undertaken in the region.",
+      "options": [
+        "is completing",
+        "completes",
+        "had completed",
+        "will have completed",
+        "has completed"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«By the end of this decade» gelecekteki bir SINIR verir; o sınırdan önce tamamlanacak eylem için future perfect kullanılır: will have completed. (C) past perfect ve (E) present perfect geçmişe bakar, oysa cümlede gelecek bir tarih var. (A) ve (B) şimdiki zamanı anlatır; gelecekteki bir bitişi karşılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-tenses-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "No sooner ---- the new tariffs than several exporters announced large-scale job cuts.",
+      "options": [
+        "the government had introduced",
+        "had the government introduced",
+        "has the government introduced",
+        "the government introduced",
+        "would the government introduce"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«No sooner ... than» kalıbı iki şey ister: past perfect ve DEVRİK yapı, yani yardımcı fiilin özneden önce gelmesi. Bu yüzden «had the government introduced» doğrudur. (A) doğru zamanı kullanıyor ama devrik değil; (D) hem devrik değil hem de yanlış zamanda. (C) present perfect, ana cümledeki «announced» ile uyuşmaz; (E) ise bu kalıpta hiç kullanılmayan bir modal yapıdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-tenses-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "When the inspectors finally arrived at the plant, the workers ---- for more than six hours and production had come to a complete halt.",
+      "options": [
+        "were striking",
+        "have been striking",
+        "had been striking",
+        "are striking",
+        "will have been striking"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Geçmişteki bir ana (müfettişlerin gelişi) kadar SÜREGELMİŞ bir eylemi «for more than six hours» ile anlatmak için past perfect continuous gerekir: had been striking. Aynı cümledeki «had come» de bu geçmiş-öncesi düzlemi doğruluyor. (A) past continuous yalnızca o anda sürmekte olanı anlatır, o ana kadar biriken süreyi veremez. (B) ve (D) bugüne, (E) ise geleceğe bağlanır; hiçbiri «arrived» ile uyuşmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-tenses-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The central bank ---- interest rates three times before the inflation figures finally began to fall.",
+      "options": [
+        "had raised",
+        "has raised",
+        "raises",
+        "was raising",
+        "will raise"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Geçmişteki iki olaydan ÖNCE olan için past perfect kullanılır; faiz artışları, enflasyonun düşmeye başlamasından öncedir: had raised. (B) present perfect bugüne bağlanır, oysa cümle «began» ile geçmişte kalıyor. (D) past continuous süregelen tek bir eylemi anlatır, «three times» gibi tamamlanmış bir tekrar sayısıyla kullanılmaz. (C) ve (E) ise cümledeki geçmiş referansıyla tamamen çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-tenses-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "This time next year, the research station ---- data from the Antarctic ice sheet for a full decade.",
+      "options": [
+        "collects",
+        "collected",
+        "has collected",
+        "had been collecting",
+        "will have been collecting"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«This time next year» gelecekte bir an verir, «for a full decade» ise o ana kadar SÜREN bir zaman dilimini; ikisi birlikte future perfect continuous ister: will have been collecting. (C) present perfect bugüne kadarki süreyi verir, gelecekteki bir ana değil. (D) past perfect continuous geçmişteki bir ana bakar. (A) ve (B) ise bu süre vurgusunu hiç karşılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-tenses-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "Although the company ---- record profits last year, its share price has fallen steadily ever since.",
+      "options": [
+        "has announced",
+        "announces",
+        "had been announcing",
+        "announced",
+        "will announce"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«last year» bitmiş ve belirli bir zamanı gösterir; böyle bir ifadeyle past simple kullanılır: announced. (A) present perfect en sık düşülen tuzaktır ama «last year» gibi belirli bir geçmiş zaman ifadesiyle asla birlikte kullanılmaz. (C) past perfect continuous tekrarlanan bir süreci anlatır, oysa kâr açıklaması tek seferlik bir olaydır. (B) ve (E) cümlenin geçmiş referansıyla çelişir.",
+      "passageID": null
+    }
+  ]
+}

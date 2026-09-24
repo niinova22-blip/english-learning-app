@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-time-allocation",
+  "estimatedDurationMinutes": 7,
+  "title": "Sınav Yönetimi: Zaman Payı",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-time-allocation",
+      "type": "grammarPoint",
+      "headword": "Exam Management: Time Allocation",
+      "frequencyRank": 4010,
+      "baseDifficulty": 0.5,
+      "definition": "Sınav süresini soru tiplerine akıllıca dağıtma tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Sınav Yönetimi: Zaman Payı",
+      "collocations": [],
+      "explanationTR": "YDS gibi uzun bir sınavda başarı, bildiğin bilgiyi zamanında kullanabilmene bağlıdır. Zaman payı planı, bilgin kadar önemlidir.\n\n• Önce süreyi öğren: toplam soru sayısını ve sınav süresini kılavuzdan kontrol et. Süreyi soru sayısına bölersen soru başına ortalama zamanı bulursun; bu, tempo ölçünün olur.\n\n• Hızlı soru tiplerini önce çöz: kısa cümle tamamlama, gramer ve kelime soruları çabuk cevaplanır. Uzun okuma parçalarını daha sonraya bırakmak, kolay puanları güvenceye alır.\n\n• Bir soruya sınır koy: bir soruda takıldıysan işaretle ve geç. Sonra kalan zamanla dönersin. Tek bir soruya beş dakika harcamak, birkaç kolay sorudan vazgeçmek demektir.\n\n• Son dakikaları koru: cevap kâğıdını işaretlemek için birkaç dakikanı ayır. Doğru bildiğin cevabı kâğıda geçirememek en pahalı hatadır.\n\nEn sık düşülen tuzak: zor bir soruda inatlaşmak. Kaybettiğin süre, sonraki bilebileceğin soruların hakkını yer.\n\nÖrnek: Bir cloze sorusunda iki şık arasında kaldıysan, soruyu işaretle, kalan sorulara geç ve süre kalırsa geri dön."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-time-allocation-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Sınava girmeden önce soru başına ortalama süreni hesaplamak istiyorsun. Doğru yol hangisidir?",
+      "options": [
+        "Süreyi tahmin edip kılavuzdaki sayılara hiç bakmamak",
+        "Bütün soruları eşit zorlukta kabul edip süreyi hiç bölmemek",
+        "Toplam süreyi kılavuzdan öğrenip soru sayısına bölmek",
+        "Sadece okuma parçalarına süre ayırıp diğerlerini sona bırakmak",
+        "Arkadaşının geçen sınavda kullandığı süreyi olduğu gibi almak"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Tempo, resmî toplam süre ile soru sayısından çıkar: (C). (A) yanlış bilgiyle plan yapmaktır. (B) soru tiplerinin farklı sürede çözüldüğünü yok sayar. (D) diğer soru tiplerine hiç zaman bırakmaz. (E) geçmiş sınavların koşulları farklı olabilir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-time-allocation-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Sınavda 12. soruya dört dakikadır bakıyorsun ve iki şık arasında kaldın. Ne yapmalısın?",
+      "options": [
+        "Soruyu işaretleyip sonraki sorulara geçmek, süre kalırsa dönmek",
+        "Cevabı bulana kadar bu soruda kalmak, çünkü her soru aynı puandır",
+        "Sınavı bırakıp süre bitene kadar beklemek",
+        "Sonraki soruları okumadan hepsine aynı şıkkı işaretlemek",
+        "Bu soruyu boş bırakıp bir daha hiç bakmamak"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "İşaretleyip ilerlemek, sonraki bilebileceğin sorular için zaman bırakır: (A). (B) bir soruya süreyi harcatır; sonraki sorular zarar görür. (C) zaten var olan süreyi çöpe atar. (D) okumadan işaretlemek bilgini kullanmaz. (E) süre kalsa bile soruya dönme fırsatını yok eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-time-allocation-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Sınavda 45 dakikan kaldı ve önünde henüz çözmediğin iki uzun okuma parçası ile birkaç kısa gramer sorusu var. En mantıklı sıra hangisidir?",
+      "options": [
+        "Önce en uzun okuma parçasına başlayıp bütün süreyi ona ayırmak",
+        "Kısa soruları tamamen atlayıp yalnızca okuma parçalarıyla ilgilenmek",
+        "Hepsini plansızca, rastgele bir sırayla çözmek ve ilerlemek",
+        "Önce kısa soruları çözüp kalan süreyi okumaya ayırmak",
+        "Okuma parçalarını atlayıp yalnızca kısa gramer sorularına odaklanmak"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Kısa sorular az sürede puan getirir: (D). (A) uzun parçada takılırsan kolay soruları da kaybedersin. (B) kolay puanları bırakır. (C) plansız çalışmak süreyi verimsiz harcar. (E) okuma parçalarının puanından vazgeçmek demektir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-time-allocation-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "Sınavın bitmesine iki dakika kaldı ve bazı sorulara henüz cevap işaretlemedin. Ne yapmalısın?",
+      "options": [
+        "Kalan iki dakikada tek bir uzun soruyu ayrıntılı çözmeye çalışmak",
+        "Kalan soruları hızlıca gözden geçirip en makul şıkkı işaretlemek",
+        "Cevap kâğıdına hiç dokunmadan beklemek",
+        "Önceki bütün cevaplarını gözden geçirip hepsini değiştirmek",
+        "Sınavı erken bitirdiğini söyleyip kâğıdı teslim etmek"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Kalan iki dakikada yapılabilecek en verimli iş, cevaplanmamış soruları hızlıca gözden geçirip en makul şıkkı işaretlemektir: (B). (A) tek bir uzun soru iki dakikaya sığmaz. (C) elindeki süreyi hiç kullanmamaktır. (D) somut gerekçe olmadan cevap değiştirmek doğru cevapları da bozar. (E) süre hâlâ dururken sınavı bitirmek demektir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-time-allocation-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Bir arkadaşın «her soruya eşit süre ayırırım, hangi tip olduğu fark etmez» diyor. Bu yaklaşım için ne söylenebilir?",
+      "options": [
+        "Doğru bir yaklaşımdır, çünkü tüm soru tipleri aynı sürede çözülür",
+        "Yanlıştır, çünkü sürenin tamamını okuma parçalarına ayırmak gerekir",
+        "Yanlıştır, çünkü okuma parçaları hemen hemen hiç süre gerektirmez",
+        "Doğrudur, çünkü kısa sorular aslında en uzun süren sorulardır",
+        "Soru tipleri farklı süre ister, bu yüzden esnek plan gerekir"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Farklı soru tipleri farklı sürede çözülür, bu yüzden esnek plan gerekir: (E). (A) soru tiplerinin aynı sürede çözülemeyeceğini görmezden gelir. (B) okuma dışındaki soruları zamansız bırakır; oysa onlar hızlı puan getirir. (C) okuma parçalarının en çok zaman alan tip olduğunu unutur. (D) mantığı tersine çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-time-allocation-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Zaman planı yapmadan girdiğin bir deneme sınavında son okuma parçasına yalnızca üç dakika kaldı. Bir sonraki denemede ne yapmalısın?",
+      "options": [
+        "Daha yavaş okuyup hiçbir soruyu atlamamaya çalışmak",
+        "Yalnızca en zor soruların üzerinde uzun süre durmak",
+        "Süreyi soru tiplerine bölüp kontrol noktaları koymak",
+        "Denemeyi hiç bitirmeden yarıda bırakmak",
+        "Süreyi bilmeden girmeye devam etmek, çünkü baskı verimi artırır"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Kontrol noktaları, yani sınavın yarısında hangi soru tipinde olman gerektiğini önceden belirlemek, temponu görmeni sağlar: (C). (A) yavaşlamak zaman sorununu büyütür. (B) zor sorularda uzun durmak süreyi tüketir. (D) bitirilmeyen deneme tempo hakkında bilgi vermez. (E) plansızlık baskıyı artırır, verimi düşürür.",
+      "passageID": null
+    }
+  ]
+}

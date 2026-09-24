@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-passive-voice-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Edilgen Yapı: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-passive-voice-2",
+      "type": "grammarPoint",
+      "headword": "Passive Voice (Traps)",
+      "frequencyRank": 2004,
+      "baseDifficulty": 0.6,
+      "definition": "Edilgen çatının kişisiz yapıları, ettirgen ve fiil+edat tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "Edilgen Yapı: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Edilgen yapıda YDS'nin sorduğu tuzaklar biçimden çok kalıba dayanır.\n\n• Kişisiz edilgen: It is believed / reported / estimated that ... Yükseltilmiş biçimi: X is believed to be ... (şimdi) ve X is thought to have been ... (daha önce). The virus is believed to have originated in a farming region.\n\n• Edilgen mastar ve ulaç: to be examined, to have been examined, being examined, having been examined. The proposal is expected to be discussed at the next meeting. He objected to being identified.\n\n• Ettirgen: have / get + nesne + V3 (işin başkasına yaptırılması): We had the results analysed. have + kişi + V1 ve get + kişi + to V1 (kişiyi yaptırmak): The manager got the technicians to repair the fault.\n\n• Edat alan fiiller edilgende edatını korur: was dealt with, was looked into, is referred to as, was done away with.\n\n• Edilgen + geçmişe dönük kip: should have been notified.\n\n• GEÇİŞSİZ fiillerin edilgeni olmaz: The accident was occurred ve Prices were risen yanlıştır. rise/occur/happen etken kalır.\n\nEn sık düşülen tuzak: özne eylemi yapıyor mu, yoksa eylemden mi etkileniyor? Sorunun altında bu mantık yatar.\n\nÖrnek: The factors that are given in the appendix were compiled from official records."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-passive-voice-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The virus ---- to have originated in a remote farming region, although no conclusive evidence has yet been produced.",
+      "options": [
+        "believes",
+        "is believing",
+        "is believed",
+        "has believed",
+        "was believing"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«It is believed that the virus originated ...» yapısının yükseltilmiş biçimi «The virus is believed to have originated ...»dır; özne eylemi yapan değil, hakkında inanılan şeydir, bu yüzden edilgen gerekir. (A) ve (D) etken; virüsün bir şeye inanması anlamsız olur. (B) ve (E) ise believe gibi durum fiillerinin almadığı sürerlik biçimleridir. Ayrıca «has yet been produced» şimdiki zamanı desteklediği için ana fiil geniş zamandadır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "Official records are incomplete, but it ---- that over two million people were displaced by the flooding.",
+      "options": [
+        "is estimated",
+        "estimates",
+        "has estimated",
+        "was estimating",
+        "being estimated"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«It is estimated that ...» kalıbı kişisiz edilgendir: is estimated. «It» burada eylemi yapan bir özne değildir; «records» çoğul olduğu için «it» onlara da gönderme yapamaz. (B) estimates, (C) has estimated ve (D) was estimating etken biçimlerdir ve tahmini yapan bir özne gerektirir. (E) being estimated ise yalnızca ulaçtır, çekimli bir fiil içermez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The proposal is expected ---- at the next board meeting.",
+      "options": [
+        "discussing",
+        "to discuss",
+        "being discussed",
+        "to be discussed",
+        "be discussed"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Is expected» sonrası mastar gelir ve öneri tartışılan taraftır, tartışan değil: to be discussed (edilgen mastar). (B) to discuss etkendir; öneri bir şeyi tartışamaz. (A) ve (C) expect'ten sonra kullanılmaz. (E) be discussed mastar edatını (to) eksik bırakır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The whistleblower objected to ---- as the source of the confidential information.",
+      "options": [
+        "identify",
+        "being identified",
+        "have identified",
+        "identifying",
+        "be identified"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "object to + V-ing kalıbıdır ve muhbir teşhis EDİLEN taraftır: being identified (edilgen ulaç). (A) ve (C) bu kalıpta yapıya uymaz. (D) identifying etkendir; muhbir kimseyi teşhis etmiyor, kendisi teşhis ediliyor. (E) be identified to'dan sonra V-ing gerektiren kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The firm cannot analyse the data itself, so it will have the results ---- by an external laboratory.",
+      "options": [
+        "analyse",
+        "analysing",
+        "to analyse",
+        "be analysed",
+        "analysed"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Ettirgen kalıp: have + nesne + V3, işin başkasına yaptırıldığını gösterir; sonuçlar analiz EDİLEN taraftır: have the results analysed. (A) analyse ve (C) to analyse etkendir. (B) analysing sonuçların analiz yaptığını ima eder. (D) be analysed have'den sonra gelmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The manager managed to get the technicians ---- the fault before the inspection.",
+      "options": [
+        "repair",
+        "to be repaired",
+        "to repair",
+        "repaired",
+        "having repaired"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Kişiyi bir şeyi yapmaya İKNA etmek anlamında get + kişi + to V1 kullanılır: get the technicians to repair. (A) repair yalnızca have ile kullanılır. (D) repaired kişi yerine nesne olan durumlarda gelir. (B) to be repaired teknisyenlerin tamir edilmesi gibi anlamsız bir sonuç verir. (E) kalıba uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The complaint ---- by the committee, and a formal inquiry has been launched.",
+      "options": [
+        "was looked into",
+        "was looked",
+        "was looking into",
+        "looked",
+        "was looked after"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "look into (incelemek) bir edat fiilidir ve edilgende edatını korur: was looked into. (B) was looked edatı düşürür ve anlamsızdır. (C) was looking into etkendir. (D) looked de etkendir; şikâyet bir şeyi incelemez. (E) was looked after «bakılmak» anlamındadır, cümlenin bağlamına uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The residents ---- of the contamination as soon as the results were known; instead, they learned of it from the press.",
+      "options": [
+        "should inform",
+        "must have informed",
+        "should be informed",
+        "should have been informed",
+        "ought to have informed"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Geçmişte yapılması gereken ama yapılmayan bir eylem edilgen olarak verilmelidir: should have been informed. (A) etken ve şimdiki zamandır. (B) must have informed etkendir ve bir tahmin bildirir. (C) should be informed şimdiki ya da gelecek zamana aittir, oysa cümlede geçmişteki bir pişmanlık var. (E) ought to have informed geçmişe dönüktür ama etkendir; sakinler bilgilendirmesi gereken taraf değil, bilgilendirilmesi gereken taraftır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "Consumer prices ---- sharply last year, largely because of higher energy costs.",
+      "options": [
+        "were risen",
+        "rose",
+        "have been risen",
+        "have risen",
+        "had been risen"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "rise GEÇİŞSİZ bir fiildir ve edilgeni yoktur; «last year» geçmiş zaman gerektirdiği için etken past simple kullanılır: rose. (A), (C) ve (E) geçişsiz bir fiili edilgen yapmaya çalışır. (D) have risen etkendir ama «last year» gibi bitmiş bir zaman ifadesiyle present perfect kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-passive-voice-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "The figures that ---- in the appendix were compiled from the ministry's own records.",
+      "options": [
+        "give",
+        "were giving",
+        "gave",
+        "have given",
+        "are given"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Rakamlar verilen şeylerdir, veren değil; edilgen gerekir: are given. (A), (B), (C) ve (D) etkendir ve nesneleri eksiktir. Rakamlar bir şey veremez. Bu yapı, edilgenin ilgi cümleciği içinde doğru kurulup kurulmadığını sınar.",
+      "passageID": null
+    }
+  ]
+}

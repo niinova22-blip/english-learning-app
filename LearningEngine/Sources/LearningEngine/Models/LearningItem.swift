@@ -2,7 +2,18 @@ import Foundation
 import SwiftData
 
 public enum LearningItemType: String, Codable, CaseIterable, Sendable {
-    case vocabulary, grammarPoint, phrase, collocation
+    case vocabulary, grammarPoint, phrase, collocation, practiceSet
+
+    /// Whether this item belongs in the vocabulary flashcard flow
+    /// (`StudySessionViewModel` / `TodaySessionCoordinator`). Grammar topics
+    /// and practice sets are FSRS cards too, but they are reviewed through
+    /// the practice screen, never as flashcards.
+    public var isVocabularyCard: Bool {
+        switch self {
+        case .vocabulary, .phrase, .collocation: return true
+        case .grammarPoint, .practiceSet: return false
+        }
+    }
 }
 
 @Model

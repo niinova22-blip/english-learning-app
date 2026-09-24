@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-paragraph",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Paragraf Tamamlama",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-paragraph",
+      "type": "grammarPoint",
+      "headword": "Strategy: Paragraph Completion",
+      "frequencyRank": 4004,
+      "baseDifficulty": 0.5,
+      "definition": "Paragraf tamamlama sorularını komşu cümlelerle bağlayarak çözme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Paragraf Tamamlama",
+      "collocations": [],
+      "explanationTR": "Paragraf tamamlamada eksik cümle, paragrafın ANA ÇİZGİSİNİ sürdürmeli ve hem öncesindeki hem sonrasındaki cümleyle bağ kurmalıdır.\n\n• Paragrafın ana fikrini bul: ilk ve son cümleler genellikle bunu verir.\n\n• Boşluğun öncesindeki ve sonrasındaki cümleyi dikkatle oku. Sonraki cümle «This», «These», «However» gibi bir bağlayıcıyla başlıyorsa, eksik cümle o sözcüğün gönderme yapacağı bilgiyi vermelidir.\n\n• Konu kaymasını ele: paragrafla ilgili görünen ama komşu cümlelerle bağlanmayan seçenek yanlıştır.\n\n• Çelişkiyi ele: komşu cümleyle zıt bir bilgi veren seçenek yanlıştır (istisna: sonraki cümle bilinçli olarak zıtlık kuruyorsa).\n\n• Bağlayıcıları izle: However bir karşıtlık, Therefore bir sonuç, For example bir örnek beklediğini söyler.\n\nEn sık düşülen tuzak: konuyla ilgili ama komşu cümlelere bağlanmayan, «genel doğru» bir cümleyi seçmek. Eksik cümle paragrafın zincirinde bir halka olmalıdır.\n\nÖrnek: «The council opened a new cycle lane last spring. ---- As a result, far more people now cycle to work.» boşluğu, yeni bisiklet yolunun bisikletli sayısını artıran etkisini kuran bir cümle ister."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-paragraph-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Eksik cümleyi seçerken en önemli ölçüt hangisidir?",
+      "options": [
+        "Paragraftaki en uzun cümleye benzemesidir",
+        "Yalnızca genel konuyla ilgili olmasıdır",
+        "İki komşu cümleyle mantıksal bağ kurmasıdır",
+        "Paragrafa yepyeni bir fikir açmasıdır",
+        "Cümle içinde hiçbir bağlaç içermemesidir"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Eksik cümle iki komşusuna da bağlanmalıdır: (C). (A) uzunluk ölçüt değildir. (B) konuyla ilgili olmak yetmez, bağ kurmalıdır. (D) paragrafın çizgisini bozabilir. (E) bağlaç olması ya da olmaması belirleyici değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-paragraph-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "The store cut its prices in March. ---- As a result, sales doubled within a month.",
+      "options": [
+        "Prices in other industries fell more slowly.",
+        "The store closed for repairs in April.",
+        "The cheaper prices attracted many new customers.",
+        "Many customers complained about the quality of the goods.",
+        "The store had opened only a year earlier."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«As a result» bir sonuç bildirir; boşluk, fiyat indiriminin satışı artıran etkisini vermelidir: (C). (A) diğer sektörlere kayar. (B) kapanış bilgisi satış artışına bağlanmaz. (D) şikâyet, satış artışıyla çelişir. (E) açılış zamanı ilgisizdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-paragraph-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Several countries have banned plastic bags. ---- This has cut litter on beaches noticeably.",
+      "options": [
+        "Tourists visit the beaches of those countries mainly in the summer.",
+        "Plastic was invented in the nineteenth century.",
+        "Beaches are cleaned only once a year.",
+        "Shoppers in those countries now carry reusable bags instead.",
+        "Litter is a problem in every large city."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«This» sözcüğü bir önceki bilgiye gönderme yapar; boşluk, yasağın sonucunu (yeniden kullanılabilir çantalar) vermelidir: (D). (A) turizm mevsimine kayar ve çöpteki azalmayı açıklamaz. (B) plastiğin tarihi zincire girmez. (C) temizlik sıklığı yasağın bir sonucu değildir. (E) genel bir çöp saptamasıdır; «This» buna bağlanamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-paragraph-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "Boşluktan sonraki cümle «However,» ile başlıyorsa eksik cümle hakkında ne söyleyebilirsin?",
+      "options": [
+        "Boşluktaki cümle sonraki cümleyle tam olarak aynı fikri tekrar etmelidir",
+        "Boşluktaki cümle de «However» ile başlamalıdır",
+        "Boşluktaki cümle sonraki cümlenin sonucunu vermelidir",
+        "Boşluktaki cümle paragrafın konu cümlesi olmalıdır",
+        "Boşluktaki cümle, sonrakinin karşı çıkacağı bir fikri vermelidir"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«However» bir karşıtlık işaretidir: önceki fikir, sonrakiyle karşıtlık kurabilecek nitelikte olmalıdır: (E). (A) tekrar, karşıtlıkla çelişir. (B) karşıtlığı kuran sonraki cümledir; boşluğun kendisinin bağlaçla başlaması gerekmez. (C) «However» sonuç değil karşıtlık işaretidir. (D) konu cümlesi olmak boşluk için bir koşul değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-paragraph-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Ancient cities needed reliable water. Rivers supplied it, and aqueducts carried it further. ----",
+      "options": [
+        "Water access therefore shaped where big cities grew.",
+        "Aqueducts were built mostly in the Roman Empire.",
+        "Rivers are shorter today than in ancient times.",
+        "Many modern cities still have no aqueducts at all.",
+        "Water is also essential for growing most crops."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Kapanış cümlesi, öncekilerin sonucunu genellemelidir: suya erişim şehirlerin yerini belirledi: (A). (B) ayrıntı ekler ama sonuç değildir. (C) nehirlerin bugünkü uzunluğu zincire bağlanmaz. (D) modern şehirler paragrafın konusu değildir. (E) konuyu tarıma kaydırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-paragraph-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Bir seçenek paragrafın konusuyla ilgili görünse de komşu cümlelerle bağlanmıyorsa ne yapmalısın?",
+      "options": [
+        "Seçmeliyim, çünkü konuyla ilgili",
+        "Elemeliyim; eksik cümle hem öncekine hem sonrakine bağlanmalı",
+        "Paragrafın ana fikrini yeniden ifade ediyorsa seçmeliyim",
+        "Paragrafın son cümlesini tekrar ediyorsa seçmeliyim",
+        "Yalnızca öncekine bağlanıyorsa, sonrakine bakmadan seçmeliyim"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Konu benzerliği yetmez; zincirin halkası olmalıdır: (B). (A) yalnızca konuya güvenir. (C) ana fikri yeniden söylemek zincire yeni bir halka eklemez. (D) tekrar eden cümle paragrafı ilerletmez. (E) tek yönlü bağ yetmez; eksik cümle hem öncekine hem sonrakine bağlanmalıdır.",
+      "passageID": null
+    }
+  ]
+}

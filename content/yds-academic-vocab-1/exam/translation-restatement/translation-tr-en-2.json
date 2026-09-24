@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-translation-tr-en-2",
+  "estimatedDurationMinutes": 9,
+  "title": "Çeviri: Türkçe-İngilizce 2",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-translation-tr-en-2",
+      "type": "practiceSet",
+      "headword": "Translation TR-EN 2",
+      "frequencyRank": 3071,
+      "baseDifficulty": 0.55,
+      "definition": "Türkçe cümlelerin İngilizce karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Çeviri: Türkçe-İngilizce 2",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-translation-tr-en-2-q01",
+      "kind": "translation",
+      "order": 0,
+      "prompt": "Eğer bina yönetmeliğe uygun yapılsaydı, depremde bu kadar hasar görmezdi.",
+      "options": [
+        "If the building is built according to the regulations, it will not be damaged so badly in the earthquake.",
+        "If the building had been built according to the regulations, it would have been damaged so badly in the earthquake.",
+        "If the building had been built according to the regulations, it would not have been damaged so badly in the earthquake.",
+        "If the building had not been damaged so badly in the earthquake, it would have been built according to the regulations.",
+        "Unless the building had been built according to the regulations, it would not have been damaged so badly in the earthquake."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul: bina yönetmeliğe uygun yapılmadı, bu yüzden ağır hasar gördü: had been built ... would not have been damaged: (C). (A) gerçek koşula ve geleceğe çevirir. (B) sonucu olumlu yapar. (D) neden ile sonucu yer değiştirir. (E) «unless» ile koşulu tersine çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-2-q02",
+      "kind": "translation",
+      "order": 1,
+      "prompt": "Bu ilaç, doktor tavsiyesi olmadan kullanılmamalıdır.",
+      "options": [
+        "This drug should not be used without a doctor's advice.",
+        "This drug should not have been used without a doctor's advice.",
+        "This drug must be used without a doctor's advice.",
+        "This drug should not be used instead of a doctor's advice.",
+        "This drug should not be used with a doctor's advice."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Kullanılmamalıdır» edilgen ve tavsiye/zorunluluk bildirir: should not be used; «olmadan» = without: (A). (B) geçmişe dönük eleştiri kurar. (C) zorunluluğu «tavsiyesiz kullanmak»a çevirir. (D) «olmadan» yerine «-in yerine» anlamı katar. (E) «without» yerine «with» der.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-2-q03",
+      "kind": "translation",
+      "order": 2,
+      "prompt": "Sonuçların yanlış yorumlandığı ancak yıllar sonra anlaşıldı.",
+      "options": [
+        "It was understood years earlier that the results had been misinterpreted.",
+        "It was understood only years later that the results had been misinterpreted.",
+        "It was understood only years later that the results had been interpreted correctly.",
+        "Only years later were the results misinterpreted by the researchers.",
+        "It has been understood only years later that the results are being misinterpreted."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Ancak yıllar sonra» = only years later ve yorumlama önceden gerçekleşmiştir (past perfect): (B). (A) zamanı «yıllar önce»ye çevirir. (C) sonuçların doğru yorumlandığını söyler. (D) yanlış yorumlamayı yıllar sonraya taşır. (E) zamanı present perfect ve sürerliğe çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-2-q04",
+      "kind": "translation",
+      "order": 3,
+      "prompt": "Ne kadar çabalasa da amacına ulaşamadı.",
+      "options": [
+        "Because he tried hard, he could not achieve his goal.",
+        "However hard he tried, he achieved his goal.",
+        "However hard he tries, he cannot achieve his goal.",
+        "However hard he tried, he could not achieve his goal.",
+        "Although he did not try, he could not achieve his goal."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Ne kadar ... da» = however hard; sonuç olumsuz ve geçmiştir: (D). (A) karşıtlığı neden bağıntısına çevirir. (B) sonucu olumlu yapar. (C) zamanı şimdiye çevirir. (E) «çabalamadı» der.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-2-q05",
+      "kind": "translation",
+      "order": 4,
+      "prompt": "Konuşmacının söylediklerini kimse tam olarak anlamadı.",
+      "options": [
+        "Everyone fully understood what the speaker had said.",
+        "No one fully understood what the speaker would say.",
+        "Someone fully understood what the speaker had said.",
+        "Not everyone fully understood what the speaker had said.",
+        "No one fully understood what the speaker had said."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Kimse ... anlamadı» = no one understood; söylenen önceden olmuştur (had said): (E). (A) herkesin anladığını söyler. (B) söylenecekleri konu eder. (C) birinin anladığını söyler. (D) «kimse» yerine «herkes değil» diyerek kısmi olumsuzluğa çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-2-q06",
+      "kind": "translation",
+      "order": 5,
+      "prompt": "Barajın yapımı, yerel halkın tepkisi nedeniyle ertelendi.",
+      "options": [
+        "The construction of the dam was postponed because of the reaction of the local people.",
+        "The construction of the dam was postponed in spite of the reaction of the local people.",
+        "The local people postponed the construction of the dam because of the government.",
+        "The construction of the dam is being postponed because of the local people.",
+        "The reaction of the local people was postponed because of the construction of the dam."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Nedeniyle» = because of ve yapım ertelenendir (edilgen): (A). (B) nedeni karşıtlığa çevirir. (C) ertelemeyi yerel halka yükler ve nedeni hükümete çevirir. (D) zamanı sürerliğe çevirir. (E) neden ile sonucu yer değiştirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-2-q07",
+      "kind": "translation",
+      "order": 6,
+      "prompt": "Toplantıda, bütçenin azaltılması gerektiği üzerinde uzlaşıldı.",
+      "options": [
+        "It was agreed at the meeting that the budget should be increased.",
+        "It was agreed at the meeting that the budget had been reduced.",
+        "It was agreed at the meeting that the budget should be reduced.",
+        "It was agreed at the meeting that the budget could be reduced.",
+        "It was agreed after the meeting that the budget should be reduced."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Uzlaşıldı» edilgen; «azaltılması gerektiği» = should be reduced: (C). (A) azaltmayı artırmaya çevirir. (B) gerekliliği tamamlanmış işe çevirir. (D) «gerektiği» yerine olasılık bildiren «could» der. (E) «toplantıda» yerine «toplantıdan sonra» der.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-2-q08",
+      "kind": "translation",
+      "order": 7,
+      "prompt": "Kararı veren kurul, eleştirilere yanıt vermeyi reddetti.",
+      "options": [
+        "The board that made the decision was refused a response to the criticism.",
+        "The board that made the decision agreed to respond to the criticism.",
+        "The board that made the decision was unable to respond to the criticism.",
+        "The board that made the decision refused to respond to the criticism.",
+        "The board that makes the decision refuses to respond to the criticism."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Kararı veren kurul» = the board that made the decision; «reddetti» = refused (geçmiş): (D). (A) edilgen yapar. (B) reddi kabule çevirir. (C) reddetmeyi yapamamaya çevirir. (E) zamanı şimdiye çevirir.",
+      "passageID": null
+    }
+  ]
+}

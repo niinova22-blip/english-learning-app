@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-conjunctions-linkers-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Bağlaçlar ve Bağlayıcılar: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-conjunctions-linkers-2",
+      "type": "grammarPoint",
+      "headword": "Conjunctions & Linkers (Traps)",
+      "frequencyRank": 2017,
+      "baseDifficulty": 0.6,
+      "definition": "Bağlaç, bağlayıcı ve edat ayrımı ile ikili bağlaç uyumu tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "Bağlaçlar ve Bağlayıcılar: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Bu derste YDS'nin en sevdiği ayrım sınanır: bağlaç mı, bağlayıcı mı, edat mı?\n\n• Bağlaç (because, although, whereas) iki cümleciği tek cümlede birleştirir.\n\n• Bağlayıcı / zarf (however, nevertheless, therefore, consequently, moreover) bağımsız iki cümleyi birbirine bağlar; öncesinde nokta ya da noktalı virgül, sonrasında virgül gelir: The results were disappointing; nevertheless, the company continued. Yalnızca virgülle birleştirmek yanlıştır (comma splice).\n\n• Edat (despite, owing to, due to, in view of, on account of) ADI ya da V-ing'i bağlar: Despite the rise in enrolment ... In view of the recent deterioration ...\n\n• due to bir ad ya da be fiilinden sonra gelir (The delay was due to a shortage). because of eylemi niteler.\n\n• İkili bağlaçlar: not only ... but also, either ... or, neither ... nor, both ... and. Fiil, either/neither ... or/nor'da en YAKIN özneye uyar; both ... and'de her zaman çoğuldur: Neither the auditors nor the chairman was aware. Both directors are expected.\n\nÖrnek: In view of the recent deterioration in relations, the summit has been postponed."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "---- the sharp rise in enrolment, the university has not increased the number of teaching staff for three years.",
+      "options": [
+        "Although",
+        "Despite",
+        "However",
+        "Whereas",
+        "Because"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Boşluktan sonra yan cümle değil, bir AD ÖBEĞİ var (the sharp rise in enrolment); ad öbeğinin önüne yalnızca edat niteliği taşıyan despite / in spite of gelir. (A) Although ve (D) Whereas ve (E) Because bağlaçtır ve ardından özne + fiil ister. (C) However ise cümle bağlayıcısıdır; ad öbeğinin önünde kullanılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The trial results were promising; ----, the regulator demanded further evidence before granting approval.",
+      "options": [
+        "although",
+        "because",
+        "whereas",
+        "nevertheless",
+        "so that"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Noktalı virgülden sonra iki bağımsız cümleyi karşıtlıkla bağlayan bağlayıcı nevertheless gelir. (A) although, (B) because, (C) whereas ve (E) so that birer bağlaçtır ve noktalı virgülden sonra virgülle ayrılan bir bağlayıcı yerine kullanılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "Sales fell by a third in the second quarter; ----, the company was forced to close two of its factories.",
+      "options": [
+        "consequently",
+        "because",
+        "although",
+        "whereas",
+        "in case"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "İkinci cümle birincinin SONUCUNU bildirir; noktalı virgülden sonra sonuç bağlayıcısı consequently gelir. (B) because, (C) although, (D) whereas ve (E) in case bağlaçtır; noktalı virgülden sonra bağlayıcı yerine kullanılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The delay was ---- a shortage of skilled workers.",
+      "options": [
+        "because",
+        "although",
+        "due to",
+        "despite",
+        "whereas"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Be fiilinden sonra gelen ve nedeni bildiren ad öbeği due to ile bağlanır: was due to a shortage. (A) because bir cümlecik ister. (B) although ve (E) whereas de bağlaçtır. (D) despite karşıtlık bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The proposal was rejected not only by the unions ---- also by the management.",
+      "options": [
+        "or",
+        "nor",
+        "yet",
+        "so",
+        "but"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Not only ... but also ikili bağlaçtır. (A) or, (B) nor, (C) yet ve (D) so bu kalıbı tamamlayamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "Neither the auditors nor the chairman ---- aware of the discrepancy in the accounts.",
+      "options": [
+        "were",
+        "was",
+        "have been",
+        "are",
+        "being"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Neither ... nor'da fiil en YAKIN özneye uyar: the chairman (tekil) → was. (A) were çoğul özneye uyar. (C) have been ve (D) are çoğuldur. (E) being çekimli bir fiil değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "Either the shareholders or the regulator ---- to approve the amendment before it takes effect.",
+      "options": [
+        "have",
+        "are",
+        "were",
+        "has",
+        "being"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Either ... or'da fiil en YAKIN özneye uyar: the regulator (tekil) → has. (A) have ve (B) are çoğuldur. (C) were çoğul ve geçmiştir. (E) being çekimli bir fiil değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "Both the finance director and the chief executive ---- expected to attend the hearing next week.",
+      "options": [
+        "are",
+        "is",
+        "was",
+        "has",
+        "being"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Both ... and her zaman ÇOĞUL özne oluşturur: are expected. (B) is, (C) was ve (D) has tekil özneye uyar. (E) being çekimli bir fiil değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "The results were disappointing ---- the company decided to continue the programme.",
+      "options": [
+        ", nevertheless,",
+        ", however,",
+        ", therefore,",
+        "; because",
+        "; nevertheless,"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Bağlayıcı (nevertheless) iki bağımsız cümleyi bağlar; öncesinde nokta ya da noktalı virgül gelmelidir: ; nevertheless,. (A) ve (B) yalnızca virgülle birleştirir (comma splice). (C) therefore sonuç bildirir ve mantığı bozar. (D) because noktalı virgülden sonra kullanılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "---- the recent deterioration in relations, the summit has been postponed indefinitely.",
+      "options": [
+        "Although",
+        "Because",
+        "In view of",
+        "Whereas",
+        "Consequently"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Boşluktan sonra bir AD ÖBEĞİ gelir (the recent deterioration); ad öbeğinin önüne edat niteliğindeki in view of gelir. (A) Although, (B) Because ve (D) Whereas bağlaçtır ve cümlecik ister. (E) Consequently bağlayıcıdır.",
+      "passageID": null
+    }
+  ]
+}

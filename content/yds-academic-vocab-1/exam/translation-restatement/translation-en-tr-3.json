@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-translation-en-tr-3",
+  "estimatedDurationMinutes": 9,
+  "title": "Çeviri: İngilizce-Türkçe 3",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-translation-en-tr-3",
+      "type": "practiceSet",
+      "headword": "Translation EN-TR 3",
+      "frequencyRank": 3062,
+      "baseDifficulty": 0.6,
+      "definition": "İngilizce cümlelerin Türkçe karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Çeviri: İngilizce-Türkçe 3",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-translation-en-tr-3-q01",
+      "kind": "translation",
+      "order": 0,
+      "prompt": "Rarely do policymakers acknowledge that a measure they introduced has had consequences that no one intended.",
+      "options": [
+        "Politika yapıcılar, uyguladıkları bir önlemin kimsenin istemediği sonuçlar doğurduğunu nadiren kabul eder.",
+        "Politika yapıcılar, uyguladıkları önlemlerin kimsenin istemediği sonuçlar doğurmasını sık sık kabul eder.",
+        "Politika yapıcılar, uyguladıkları bir önlemin nadiren de olsa istenen sonuçlar doğurduğunu kabul eder.",
+        "Politika yapıcılar, kimsenin istemediği sonuçlar doğuran bir önlemi fark edince hemen geri çeker.",
+        "Politika yapıcılar, önlemlerin sonuçlarını daha önce kimsenin bilmediğini nadiren kabul eder."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Rarely do ...» devrik yapısı «nadiren» demektir ve kabul etme sıklığını olumsuzlar; «had consequences that no one intended» ise «kimsenin istemediği sonuçlar doğurduğunu» verir: (A). (B) sıklığı tersine çevirip «sık sık» der. (C) önlemin nadiren de olsa istenen sonuçlar doğurduğunu söyler. (D) önlemlerin hemen geri çekildiğini ekler. (E) bilgi eksikliğini anlatır, istenmeyen sonucu değil.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-3-q02",
+      "kind": "translation",
+      "order": 1,
+      "prompt": "It is vital that every candidate bring a valid passport to the interview.",
+      "options": [
+        "Her aday mülakata geçerli bir pasaport getirdi.",
+        "Her adayın mülakata geçerli bir pasaport yerine kimlik kartı getirmesi şarttır.",
+        "Her adayın mülakata geçerli bir pasaport getirmesi şarttır.",
+        "Her adayın mülakata geçerli bir pasaport getirmesi isteğe bağlıdır.",
+        "Her adayın mülakata geçerli bir pasaport ya da kimlik kartı getirmesi şarttır."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«It is vital that ... bring» bir zorunluluktur ve «a valid passport» geçerli pasaportu belirtir: (C). (A) zorunluluğu geçmişte olmuş bir olaya çevirir. (B) pasaportu kimlik kartıyla değiştirir. (D) zorunluluğu isteğe bağlılığa çevirir. (E) pasaportun yanında kimlik kartını da kabul eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-3-q03",
+      "kind": "translation",
+      "order": 2,
+      "prompt": "What surprised the analysts was not the size of the loss but how quickly it had been concealed.",
+      "options": [
+        "Analistleri şaşırtan şey kaybın büyüklüğüydü, ne kadar çabuk gizlendiği değil.",
+        "Analistler kaybın büyüklüğüne şaşırmadı, ancak onu gizleyenlere şaşırdı.",
+        "Analistleri şaşırtan şey kaybın ne kadar çabuk ortaya çıkarıldığıydı.",
+        "Analistleri şaşırtan şey kaybın büyüklüğü değil, ne kadar çabuk gizlendiğiydi.",
+        "Kaybın büyüklüğünü gizleyen analistler, buna çok şaşırdı."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Not A but B» kalıbı: şaşırtan şey büyüklük değil, gizlenme hızıydı: (D). (A) A ile B'nin yerini değiştirir. (B) gizleyenlere şaşırmayı ekler. (C) gizlenmeyi ortaya çıkarılmaya çevirir. (E) analistleri gizleyen yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-3-q04",
+      "kind": "translation",
+      "order": 3,
+      "prompt": "No sooner had the results been announced than the share price began to fall.",
+      "options": [
+        "Sonuçlar açıklandıktan uzun süre sonra hisse fiyatı düşmeye başladı.",
+        "Hisse fiyatı düşmeye başlar başlamaz sonuçlar açıklandı.",
+        "Sonuçlar açıklanmadan önce hisse fiyatı düşmeye başlamıştı.",
+        "Sonuçlar açıklanır açıklanmaz hisse fiyatı yükselmeye başladı.",
+        "Sonuçlar açıklanır açıklanmaz hisse fiyatı düşmeye başladı."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«No sooner ... than» art arda gerçekleşen iki olayı anlatır: açıklanır açıklanmaz düşüş: (E). (A) «uzun süre sonra» der. (B) sırayı tersine çevirir. (C) düşüşü açıklamadan önceye taşır. (D) fiyat yönünü tersine çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-3-q05",
+      "kind": "translation",
+      "order": 4,
+      "prompt": "Were the factory to close, the town would have no other major employer.",
+      "options": [
+        "Fabrika kapandı ve kasabanın başka büyük bir işvereni yoktu.",
+        "Fabrika kapanacak olsa, kasabanın başka büyük bir işvereni olmazdı.",
+        "Fabrika kapanacak olsa, kasabanın birçok başka büyük işvereni olurdu.",
+        "Kasaba kapanacak olsa, fabrikanın başka büyük bir işvereni olmazdı.",
+        "Fabrika kapanırsa, kasabanın başka büyük bir işvereni olmuyor."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Devrik «Were the factory to close» varsayımsal bir koşuldur: kapanacak olsa, başka büyük işveren olmazdı: (B). (A) gerçekleşmiş bir olay gibi anlatır. (C) işveren sayısını «birçok» yapar. (D) özneleri değiştirir. (E) koşul kipini bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-3-q06",
+      "kind": "translation",
+      "order": 5,
+      "prompt": "The report is thought to have been written by someone with direct access to the archives.",
+      "options": [
+        "Raporun, arşivlere doğrudan erişimi olan birini yazdığı düşünülüyor.",
+        "Raporun, arşivlere doğrudan erişimi olan biri tarafından yazılacağı düşünülüyor.",
+        "Raporun, arşivlere doğrudan erişimi olan biri tarafından yazıldığı düşünülüyor.",
+        "Raporun, arşivlere doğrudan erişimi olmayan biri tarafından yazıldığı düşünülüyor.",
+        "Arşivlere doğrudan erişimi olan birinin raporu okuduğu düşünülüyor."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Is thought to have been written by» geçmişe dönük edilgen bir düşüncedir: rapor yazılmıştır ve yazan erişimi olan biridir: (C). (A) edilgeni etkene çevirir. (B) geçmişi geleceğe çevirir. (D) erişimi olanı olmayan yapar. (E) yazma eylemini okumaya çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-3-q07",
+      "kind": "translation",
+      "order": 6,
+      "prompt": "The more information the public receives, the less likely it is to trust any single source.",
+      "options": [
+        "Halk ne kadar çok bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar azalır.",
+        "Halk ne kadar çok bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar artar.",
+        "Halk ne kadar az bilgi alırsa, tek bir kaynağa güvenme olasılığı o kadar azalır.",
+        "Halk tek bir kaynağa ne kadar çok güvenirse, o kadar çok bilgi alma olasılığı artar.",
+        "Halk çok fazla bilgi aldığı için artık hiçbir kaynağa güvenmiyor, hepsini reddediyor."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«The more ..., the less ...» orantılı bir ilişkidir: bilgi arttıkça güven olasılığı azalır: (A). (B) yönü tersine çevirir. (C) bilginin azalmasını koşul yapar. (D) neden-sonucu tersine çevirir. (E) ilişkiyi mutlak bir yargıya çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-en-tr-3-q08",
+      "kind": "translation",
+      "order": 7,
+      "prompt": "Much as the minister regretted the decision, she insisted that it had been unavoidable.",
+      "options": [
+        "Bakan kararı çok istediği için bunun kaçınılmaz olduğunda ısrar etti.",
+        "Bakan kararın kaçınılmaz olduğunu kabul edince ondan pişmanlık duydu.",
+        "Bakan kararı pişmanlık duymadan aldı ve kaçınılmaz olduğunu reddetti.",
+        "Bakan karardan pişmanlık duysa da, bunun kaçınılabilir olduğunda ısrar etti.",
+        "Bakan karardan pişmanlık duysa da, bunun kaçınılmaz olduğunda ısrar etti."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Much as» karşıtlık kurar: pişmanlık duysa da kaçınılmaz olduğunu savundu: (E). (A) pişmanlığı isteğe çevirir. (B) nedeni tersine çevirir. (C) pişmanlığı inkâr eder. (D) «kaçınılmaz» yerine «kaçınılabilir» der.",
+      "passageID": null
+    }
+  ]
+}

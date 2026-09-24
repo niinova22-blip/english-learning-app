@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-irrelevant",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Konu Dışı Cümle",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-irrelevant",
+      "type": "grammarPoint",
+      "headword": "Strategy: Irrelevant Sentence",
+      "frequencyRank": 4005,
+      "baseDifficulty": 0.5,
+      "definition": "Paragrafın bütünlüğünü bozan cümleyi bulma tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Konu Dışı Cümle",
+      "collocations": [],
+      "explanationTR": "Konu dışı cümle sorusunda paragraf beş numaralı cümleden oluşur ve biri paragrafın ZİNCİRİNİ bozar.\n\n• Önce konu cümlesini bul (çoğu zaman ilk cümle) ve paragrafın neyi anlattığını tek cümleyle özetle.\n\n• Cümleler arasındaki zinciri izle: zamirler (it, they, this), bağlaçlar (therefore, however) ve tekrar eden anahtar sözcükler bir cümlenin öncekine bağlandığını gösterir.\n\n• Zinciri bozan cümleyi bul: konu değiştirir, ayrıntıya kayar ya da öncesiyle bağlanmayan bir bilgi verir.\n\n• Paragrafla aynı sözcüğü paylaşan ama farklı anlamda kullanan cümleye dikkat et: The mouse is a small rodent ile The computer mouse has two buttons aynı sözcüğü paylaşır ama konu farklıdır.\n\n• Konuya YAKIN ama odak dışı bir ayrıntı da konu dışı olabilir: paragraf ağaçların serinletmesini anlatıyorsa en yaşlı ağacın yaşını veren cümle zincire girmez.\n\nEn sık düşülen tuzak: aynı anahtar sözcüğü içeren cümleyi «konuyla ilgili» sayıp elemek. Sözcük tekrarı konu bağı değildir.\n\nÖrnek: paragraf bankanın kredi faizini anlatıyorsa, nehir kıyısını (river bank) anlatan cümle konu dışıdır."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-irrelevant-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Konu dışı cümle sorusunda en doğru ilk adım hangisidir?",
+      "options": [
+        "Konu cümlesini bulup paragrafı özetlemek",
+        "Her cümlenin ilk sözcüğünü karşılaştırmak",
+        "Yalnızca en kısa cümleyi işaretlemek",
+        "Yalnızca son cümleyi ayrıntılı incelemek",
+        "En fazla teknik ayrıntı veren cümleyi işaretlemek"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Paragrafın ne anlattığını bilmeden zinciri bozan cümle bulunamaz: (A). (B) ilk sözcükler zinciri göstermez. (C) uzunluk ölçüt değildir. (D) tek cümle yeterli bilgi vermez. (E) ayrıntı vermek konu dışı olmak demek değildir; ayrıntı da zincire bağlı olabilir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-irrelevant-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Rainforests receive more than two metres of rain each year. (II) The constant moisture supports an extraordinary variety of plants. (III) Many people enjoy hiking on weekends. (IV) Dense vegetation in turn provides food and shelter for countless animals. (V) This chain of dependence makes rainforests especially vulnerable to logging.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf, yağmur ormanlarında nem, bitki ve hayvan arasındaki zinciri anlatıyor. (III) hafta sonu yürüyüşünden söz eder ve zincire girmez. (I), (II), (IV) ve (V) nem, bitki örtüsü, hayvanlar ve orman kaybına karşı kırılganlığı birbirine bağlar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-irrelevant-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) The plant produces electricity for nearly half the region. (II) Its turbines are driven by steam. (III) The garden plant needs water twice a week. (IV) Engineers inspect the boilers every spring. (V) A fault at the plant can therefore affect thousands of homes.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf bir enerji santralinden söz ediyor. (III) bahçe bitkisinden söz eder; «plant» sözcüğünü paylaşsa da konusu farklıdır. (I), (II), (IV) ve (V) santralin üretimini, türbinleri, bakımı ve arıza sonuçlarını anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-irrelevant-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "Bir cümle paragraftaki bir sözcüğü paylaşıyor ama farklı bir anlamda kullanıyorsa nasıl davranmalısın?",
+      "options": [
+        "Sözcük aynı olduğu için cümleyi konuyla ilgili saymalıyım",
+        "Bağı sözcüğe değil, cümlenin anlattığı fikre göre kurmalıyım",
+        "Cümleyi her zaman paragrafın ilk cümlesi saymalıyım",
+        "Cümleyi yok sayıp sıradaki cümleye geçmeliyim",
+        "Cümlenin uzunluğuna bakarak karar vermeliyim"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Sözcük tekrarı konu bağı değildir; önemli olan fikirdir: (B). (A) aynı sözcük yanıltıcıdır; anlam farklıysa bağ kurulmaz. (C) ortak sözcük bir cümleyi konu cümlesi yapmaz. (D) cümleyi atlamak soruyu çözmez. (E) uzunluk konu bağının ölçütü değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-irrelevant-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) A well-run library keeps its catalogue up to date. (II) Staff remove damaged books and add new titles regularly. (III) Readers can search the catalogue from home. (IV) The library building was designed in 1975. (V) An accurate catalogue saves visitors a great deal of time.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf kataloğun güncel tutulmasının yararını anlatıyor. (IV) binanın tasarım yılını verir; kütüphaneyle ilgili olsa da katalog odağının dışındadır. (I), (II), (III) ve (V) kataloğun bakımı, aranması ve yararını anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-irrelevant-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Numaralı cümlelerde «this», «they» ve «however» gibi sözcükleri izlemenin yararı nedir?",
+      "options": [
+        "Cümlenin uzunluğunu önceden belirlemesi",
+        "Doğru cevabın numarasını doğrudan vermesi",
+        "Paragrafın konusunu tamamen değiştirmesi",
+        "Hangi cümlenin daha fazla ayrıntı içerdiğini göstermesi",
+        "Cümlenin öncekiyle bağlı olup olmadığını göstermesi"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Zamirler ve bağlayıcılar zincirin halkalarını gösterir: (E). (A) uzunlukla ilgili değildir. (B) cevabın numarasını vermez. (C) konuyu değiştirmez, konu bağını gösterir. (D) ayrıntı miktarını değil, cümleler arası bağı gösterirler.",
+      "passageID": null
+    }
+  ]
+}

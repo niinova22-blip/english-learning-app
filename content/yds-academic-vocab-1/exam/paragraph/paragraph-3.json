@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-paragraph-3",
+  "estimatedDurationMinutes": 10,
+  "title": "Paragraf Tamamlama 3: Sonuç Cümlesi",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-paragraph-3",
+      "type": "practiceSet",
+      "headword": "Paragraph Completion: Conclusion",
+      "frequencyRank": 3032,
+      "baseDifficulty": 0.6,
+      "definition": "Paragraftaki eksik cümleyi bulmaya dayanan sekiz soru; eksik cümle paragrafı kapatır.",
+      "exampleSentences": [],
+      "translationTR": "Paragraf Tamamlama 3: Sonuç Cümlesi",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-paragraph-3-q01",
+      "kind": "paragraphCompletion",
+      "order": 0,
+      "prompt": "Bees visit thousands of flowers each day in search of nectar. In doing so they carry pollen from one plant to another, allowing the plants to reproduce. Without this service, many fruits and vegetables would disappear from our shops. ----",
+      "options": [
+        "Bees should therefore be kept in every private garden and on every roof.",
+        "Nectar is the only food that bees are able to digest properly.",
+        "Flowers that are not visited by bees produce larger fruits.",
+        "Our food supply thus depends more on these insects than we realise.",
+        "Shops sell more honey than any other agricultural product in the world."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf arıların tozlaşma yoluyla yiyecek arzını desteklediğini söylüyor; doğal sonuç (D). (A) her bahçede arı tutma önerisi metnin dayanağı olmayan bir çıkarımdır. (B) arıların sindirimine dair yeni bir iddiadır. (C) tozlaşmayan çiçeklerin daha büyük meyve verdiğini söyler ve paragrafla çelişir. (E) bal satışına kayar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-3-q02",
+      "kind": "paragraphCompletion",
+      "order": 1,
+      "prompt": "In the early twentieth century, many factories paid workers by the piece rather than by the hour. This system rewarded speed but discouraged care, and defective goods were common. Managers who switched to hourly wages and quality checks found that output fell slightly at first. ----",
+      "options": [
+        "Piece rates are therefore still the most common method of payment today.",
+        "Over time, however, fewer defects and lower repair costs made up for the loss.",
+        "Workers unanimously preferred to be paid by the piece rather than by the hour.",
+        "Quality checks were abandoned a few years later in most large factories.",
+        "Managers had never previously considered the cost of defective goods to the firm."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«At first» ifadesi bir sonraki dönemi bekler; uzun vadede kusurların azalması kaybı telafi etti: (B). (A) parça başı ücretin hâlâ yaygın olduğunu iddia eder. (C) işçilerin oybirliğini söyler, metinde yoktur. (D) kalite kontrolünün terk edildiğini söyler, oysa paragraf yararını gösteriyor. (E) yöneticilerin daha önce hiç düşünmediğini iddia eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-3-q03",
+      "kind": "paragraphCompletion",
+      "order": 2,
+      "prompt": "Glaciers store roughly two-thirds of the world's fresh water. As temperatures rise, they melt faster than snowfall can replace them. Communities that depend on glacial meltwater for drinking and farming will eventually face shortages. ----",
+      "options": [
+        "Shrinking glaciers thus threaten the water supply of millions of people.",
+        "Snowfall is the main reason that temperatures are rising.",
+        "Fresh water is more abundant today than at any earlier time.",
+        "Farmers can easily replace meltwater with rainfall in every region.",
+        "Communities in mountainous areas should be relocated immediately."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Paragraf, buzulların küçülmesinin su kıtlığına yol açacağını anlatıyor; kapanış (A). (B) kar yağışını sıcaklık artışının nedeni yapar. (C) tatlı suyun bol olduğunu söyler, metinle çelişir. (D) «her bölgede kolayca» mutlaklığı desteksizdir. (E) yerleşimlerin taşınması önerisi metinden çıkmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-3-q04",
+      "kind": "paragraphCompletion",
+      "order": 3,
+      "prompt": "Early explorers judged the height of mountains by eye, which produced wildly inaccurate estimates. Later, surveyors began to measure angles from two known points and to calculate height by trigonometry. The results were far more reliable. ----",
+      "options": [
+        "Mountains were, in fact, much lower than the explorers had claimed.",
+        "Trigonometry was invented by the surveyors themselves in that period.",
+        "Modern satellites have made all earlier methods unnecessary.",
+        "Explorers preferred estimation because it was faster than surveying.",
+        "Reliable maps of mountain regions became possible with such methods."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf, göz kararı tahminlerden trigonometriye geçişin güvenilirliği artırdığını söylüyor; sonuç (E). (A) dağların daha alçak olduğunu iddia eder. (B) trigonometrinin mucidi konusunda desteksiz bir iddiadır. (C) uydulara atlayan ve «hepsini gereksiz kıldı» diyen mutlak bir ifadedir. (D) gözlemcilerin tercihini açıklar ama paragrafın sonucu değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-3-q05",
+      "kind": "paragraphCompletion",
+      "order": 4,
+      "prompt": "Public libraries were once judged mainly by the number of books on their shelves. Today, many of them offer computers, language classes and meeting rooms as well. Visitors come not only to borrow but also to study, to look for work and to meet neighbours. ----",
+      "options": [
+        "Books have therefore disappeared entirely from modern libraries.",
+        "Libraries now charge visitors for the use of their meeting rooms.",
+        "The library has become a community centre as well as a book collection.",
+        "The number of books is no longer of any importance to library users.",
+        "Language classes are the main reason why people visit public libraries."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf kütüphanenin işlevlerinin genişlediğini gösteriyor: (C). (A) kitapların «tamamen» kaybolduğunu söyler, «not only to borrow» ile çelişir. (B) ücret bilgisi metinde yoktur. (D) kitap sayısının «kimse için» önemsiz olduğunu söyler ve mutlaktır. (E) ana nedeni tek bir etkinliğe indirger.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-3-q06",
+      "kind": "paragraphCompletion",
+      "order": 5,
+      "prompt": "A pilot who flies the same route hundreds of times may begin to feel that nothing can go wrong. Routine breeds confidence, and confidence can breed carelessness. To prevent this, airlines require pilots to follow a written checklist on every flight, however experienced they are. ----",
+      "options": [
+        "Experienced pilots therefore make more mistakes than beginners do.",
+        "Airlines no longer trust their pilots to fly without instruments.",
+        "Checklists are used only on routes that pilots have never flown.",
+        "The checklist guards against the complacency that experience creates.",
+        "Written instructions have replaced the need for pilot training altogether."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf kontrol listesinin deneyimin yarattığı rehavete karşı önlem olduğunu anlatıyor: (D). (A) deneyimlilerin daha çok hata yaptığını iddia eder. (B) aletlerden vazgeçildiğini söyler. (C) listelerin yalnızca hiç uçulmamış rotalarda kullanıldığını söyler, «every flight» ile çelişir. (E) eğitimin gereksizleştiğini iddia eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-3-q07",
+      "kind": "paragraphCompletion",
+      "order": 6,
+      "prompt": "Volcanic eruptions can release so much ash that sunlight is partly blocked for months. After the eruption of Tambora in 1815, temperatures fell across much of the northern hemisphere, and the following year became known as the year without a summer. Harvests failed and food prices rose sharply. ----",
+      "options": [
+        "A single eruption thus affected people thousands of kilometres away.",
+        "Volcanoes are the only natural cause of falling temperatures worldwide.",
+        "Farmers had warned the authorities about the eruption in advance.",
+        "Food prices fell back as soon as the ash had cleared from the sky.",
+        "The year without a summer was followed by a decade of unusually warm weather."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Paragraf tek bir patlamanın uzak bölgelerde hasat ve fiyatları etkilediğini anlatıyor: (A). (B) volkanların «tek» doğal neden olduğunu iddia eder. (C) önceden uyarıldığını söyler, metinde yoktur. (D) fiyatların düştüğünü söyler, metinle çelişir. (E) sonraki on yılın sıcak geçtiğini iddia eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-3-q08",
+      "kind": "paragraphCompletion",
+      "order": 7,
+      "prompt": "Buying a house is the largest financial decision most people ever make, yet many spend less time researching it than they spend choosing a phone. Buyers often rely on a single viewing and on the seller's own description. Surveys show that hidden defects are discovered within a year in a large proportion of cases. ----",
+      "options": [
+        "Sellers should be prohibited from describing their own houses in advertisements.",
+        "Choosing a phone requires more careful research than buying a house does.",
+        "An independent inspection before purchase is therefore a sensible precaution.",
+        "Viewings should be avoided altogether because they rarely reveal anything useful.",
+        "Buyers who spend more time researching a house always pay lower prices."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf, alıcıların yüzeysel araştırma yaptığını ve gizli kusurların sonradan çıktığını gösteriyor; makul sonuç bağımsız bir muayene: (C). (A) satıcının anlatmasını yasaklamak paragrafın çıkarımı değildir. (B) telefon ile ev arasındaki araştırma karşılaştırmasını ters çevirir ve metinden çıkmayan bir sonuç sunar. (D) görmeyi bırakmayı önerir, oysa sorun yetersiz araştırmadır. (E) «her zaman» mutlaklığı desteksizdir.",
+      "passageID": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "yds-tech-context-clues",
+  "estimatedDurationMinutes": 9,
+  "title": "Kelime Tekniği: Bağlamdan Anlam",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-context-clues",
+      "type": "grammarPoint",
+      "headword": "Vocabulary Skill: Context Clues",
+      "frequencyRank": 4015,
+      "baseDifficulty": 0.5,
+      "definition": "Bilinmeyen sözcüğün anlamını çevresindeki ipuçlarından tahmin etme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Kelime Tekniği: Bağlamdan Anlam",
+      "collocations": [],
+      "explanationTR": "Sınavda her sözcüğü bilemezsin; ama cümle çoğu zaman anlamı fısıldar. Bilinmeyen sözcüğün çevresindeki ipuçlarını oku.\n\n• Zıtlık ipuçları: unlike, but, however, whereas, in contrast, while. Bilinmeyen sözcük, karşıtı olan sözcüğün tersini ifade eder.\n\n• Örnek ipuçları: such as, for example, for instance. Verilen örnekler bilinmeyen sözcüğün anlamını gösterir.\n\n• Tanım ipuçları: that is, which means, in other words, virgüller arasındaki açıklamalar. Tanım doğrudan anlamı verir.\n\n• Neden-sonuç ipuçları: because, so, therefore, as a result. Sonuç ya da nedenden sözcüğün olumlu ya da olumsuz anlamını tahmin edersin.\n\n• Tahminini kontrol et: bulduğun anlamı sözcüğün yerine koy; cümle akıcı ve mantıklıysa tahmin büyük olasılıkla doğrudur. Sözcük türünü de (isim, sıfat, fiil) unutma.\n\nEn sık düşülen tuzak: sözcüğün Türkçeye benzeyen görünüşüne güvenmek. Bağlam ipucu, sözcüğün görünüşünden her zaman daha güvenilirdir.\n\nÖrnek: The first lecture was tedious, but the second one was lively and full of examples. «But» zıtlık verir; canlı ve örnekli bir dersin tersi sıkıcı bir derstir; tedious = sıkıcı, usandırıcı."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-context-clues-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Unlike his gregarious brother, who loved parties, Tom was reserved and avoided crowds. \"Gregarious\" is closest in meaning to ----.",
+      "options": [
+        "quiet",
+        "generous",
+        "sociable",
+        "wealthy",
+        "ambitious"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Unlike» zıtlık verir; Tom içine kapanık olduğuna göre kardeşi sosyal biriydi: (C). (A) Tom'un özelliğidir, kardeşinin değil. (B), (D) ve (E) bağlamda hiçbir ipucuyla desteklenmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-context-clues-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "The region is known for its arid climate; for example, it receives less than a hundred millimetres of rain a year. \"Arid\" is closest in meaning to ----.",
+      "options": [
+        "very dry",
+        "very cold",
+        "very humid",
+        "unpredictable",
+        "mild"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«For example» sonrasında verilen çok az yağmur, iklimin kuru olduğunu gösterir: (A). (B) sıcaklıkla ilgili bir ipucu yoktur. (C) yağmur azlığıyla çelişir. (D) ve (E) yağış miktarından çıkarılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-context-clues-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Smartphones are ubiquitous, that is, they can be found almost everywhere. \"Ubiquitous\" is closest in meaning to ----.",
+      "options": [
+        "very expensive",
+        "rarely used",
+        "easy to break",
+        "recently invented",
+        "found everywhere"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«That is» sonrası tanımı verir: neredeyse her yerde bulunur: (E). (A) fiyat hakkında bir ipucu yoktur. (B) tanıma ters düşer. (C) ve (D) bağlamdan çıkarılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-context-clues-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "Because the road was so treacherous after the ice storm, several drivers had accidents. \"Treacherous\" is closest in meaning to ----.",
+      "options": [
+        "crowded",
+        "dangerous",
+        "narrow",
+        "expensive",
+        "familiar"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Because» nedenini gösterir; kazalar yolun tehlikeli olmasından kaynaklanmıştır: (B). (A) kalabalığı, (C) genişliği, (D) maliyeti, (E) aşinalığı gösteren bir ipucu yoktur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-context-clues-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Bilinmeyen bir sözcüğün çevresinde «however» ve «whereas» gibi bağlaçlar görüyorsan neyi beklersin?",
+      "options": [
+        "Sözcüğün anlamının, yanındaki fikirle aynı olacağını",
+        "Sözcüğün anlamının hiçbir zaman bağlamdan çıkarılamayacağını",
+        "Sözcüğün cümlede her zaman bir sıfat olarak kullanılacağını",
+        "Sözcüğün, karşısındaki fikrin tersini anlatabileceğini",
+        "Cümlenin geri kalanını okumanın artık gereksiz olduğunu"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«However» ve «whereas» zıtlık bağlaçlarıdır; karşıt fikirleri birbirine bağlar, bu yüzden bilinmeyen sözcük karşısındaki fikrin tersini anlatır: (D). (A) zıtlık yerine benzerlik beklemektir. (B) bağlamın işlevini tamamen yok sayar. (C) bağlaç, sözcüğün türü hakkında bilgi vermez. (E) ipucunu getiren asıl bölümü okumamak demektir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-context-clues-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "«...problems such as pollution, noise and overcrowding» ifadesinde «such as» sonrasındaki örnekler ne işe yarar?",
+      "options": [
+        "Genel sözcüğün kapsamını örneklerle gösterir",
+        "Cümledeki bütün yargıyı olumsuz anlama çevirir",
+        "Cümlenin zaman kipini geçmişe kaydırır",
+        "Cümlenin asıl öznesini okura belirtir",
+        "Cümleyi bir soru cümlesine dönüştürür"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Such as» sonrasındaki örnekler, önündeki genel sözcüğün neleri kapsadığını gösterir; burada kirlilik, gürültü ve aşırı kalabalık «problems» sözcüğünü somutlaştırır: (A). (B) ve (C) «such as» ile ilgisizdir; bu ifade ne olumsuzluk ne de zaman değiştirir. (D) özne, cümlenin yapısından anlaşılır. (E) «such as» soru cümlesi kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-context-clues-q07",
+      "kind": "strategy",
+      "order": 6,
+      "prompt": "The lecturer's verbose explanation, which took forty minutes to say what could have been said in five, exhausted the audience. \"Verbose\" is closest in meaning to ----.",
+      "options": [
+        "quiet and brief",
+        "highly technical",
+        "too wordy and long",
+        "clearly organised",
+        "politely phrased"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Beş dakikada söylenebilecek şeyin kırk dakika sürmesi, gereğinden fazla sözcük kullanıldığını gösterir: (C). (A) tam tersini söyler; kısa olsaydı dinleyici yorulmazdı. (B) teknik ayrıntıyla, (D) düzenle, (E) nezaketle ilgili hiçbir ipucu yoktur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-context-clues-q08",
+      "kind": "strategy",
+      "order": 7,
+      "prompt": "Bağlamdan bir sözcüğün anlamını tahmin ettin ama emin değilsin. Tahminini nasıl kontrol edersin?",
+      "options": [
+        "Sözcüğün Türkçedeki bir sözcüğe benzeyip benzemediğine bakarak",
+        "Şıklardan en uzun olanı hiç düşünmeden işaretleyerek",
+        "Cümleyi hiç okumadan doğrudan şıklar arasından seçerek",
+        "Sözcüğün ilk harfine bakıp sezgiyle karar vererek",
+        "Tahmini yerine koyup cümle anlamlı mı diye bakarak"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Tahmin ettiğin anlamı sözcüğün yerine koymak, cümlenin mantığını sınar; cümle akıyorsa tahmin büyük olasılıkla doğrudur: (E). (A) benzer görünen sözcükler çoğu zaman yanıltır (sahte dost). (B) şıkkın uzunluğu anlamla ilgili değildir. (C) bağlamı, yani tek güvenilir ipucunu yok sayar. (D) bir sözcüğün ilk harfi anlamı hakkında bilgi vermez.",
+      "passageID": null
+    }
+  ]
+}

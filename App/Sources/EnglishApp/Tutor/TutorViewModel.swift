@@ -1,19 +1,6 @@
 import Foundation
 import TutorEngine
 
-/// Thrown when a tutor request takes longer than `TutorViewModel`'s
-/// timeout to respond. The spec requires generation timeouts to
-/// surface as an inline, retryable error rather than an infinite
-/// spinner. Note this only reliably bounds latency if the underlying
-/// `TutorEngine.respond(to:)` call cooperates with task cancellation:
-/// `withThrowingTaskGroup` won't actually return until the losing
-/// child task completes, so against a non-cancellation-checking engine
-/// (e.g. `MLXTutorEngine` today) the spinner can in practice outlive
-/// this bound. Known, deliberately deferred limitation — not fixed here.
-struct TutorTimeoutError: LocalizedError {
-    var errorDescription: String? { "Öğretmen yanıt vermekte çok gecikti. Lütfen tekrar dene." }
-}
-
 @MainActor
 @Observable
 final class TutorViewModel {
@@ -22,6 +9,11 @@ final class TutorViewModel {
         case loading
         case response(String)
         case failure(String)
+    }
+
+    enum Context {
+        case card(TutorContext)
+        case question(prompt: String, options: [String], correctIndex: Int, selectedIndex: Int?, explanationTR: String, passage: String? = nil)
     }
 
     struct TutorContext {
@@ -33,10 +25,14 @@ final class TutorViewModel {
 
     private(set) var state: State = .idle
     private let engine: any TutorEngine
-    private let context: TutorContext
+    private let context: Context
     private let timeoutNanoseconds: UInt64
 
-    init(engine: any TutorEngine, context: TutorContext, timeoutSeconds: UInt64 = 30) {
+    convenience init(engine: any TutorEngine, context: TutorContext, timeoutSeconds: UInt64 = 30) {
+        self.init(engine: engine, context: .card(context), timeoutSeconds: timeoutSeconds)
+    }
+
+    init(engine: any TutorEngine, context: Context, timeoutSeconds: UInt64 = 30) {
         self.engine = engine
         self.context = context
         self.timeoutNanoseconds = timeoutSeconds * 1_000_000_000
@@ -54,33 +50,26 @@ final class TutorViewModel {
 
     private func send(_ ask: TutorAsk) async {
         state = .loading
-        let request = TutorRequest(
-            headword: context.headword,
-            definition: context.definition,
-            exampleSentences: context.exampleSentences,
-            translationTR: context.translationTR,
-            ask: ask
-        )
         do {
-            let response = try await respondWithTimeout(to: request)
+            let response: String
+            switch context {
+            case .card(let card):
+                let request = TutorRequest(
+                    headword: card.headword, definition: card.definition,
+                    exampleSentences: card.exampleSentences, translationTR: card.translationTR, ask: ask
+                )
+                response = try await withTutorTimeout(nanoseconds: timeoutNanoseconds) { try await self.engine.respond(to: request) }
+            case .question(let prompt, let options, let correctIndex, let selectedIndex, let explanationTR, let passage):
+                let request = QuestionTutorRequest(
+                    prompt: prompt, options: options, correctIndex: correctIndex,
+                    selectedIndex: selectedIndex, explanationTR: explanationTR, ask: ask,
+                    passage: passage
+                )
+                response = try await withTutorTimeout(nanoseconds: timeoutNanoseconds) { try await self.engine.respond(to: request) }
+            }
             state = .response(response)
         } catch {
             state = .failure(error.localizedDescription)
-        }
-    }
-
-    private func respondWithTimeout(to request: TutorRequest) async throws -> String {
-        try await withThrowingTaskGroup(of: String.self) { group in
-            group.addTask { try await self.engine.respond(to: request) }
-            group.addTask {
-                try await Task.sleep(nanoseconds: self.timeoutNanoseconds)
-                throw TutorTimeoutError()
-            }
-            defer { group.cancelAll() }
-            guard let result = try await group.next() else {
-                throw TutorTimeoutError()
-            }
-            return result
         }
     }
 }

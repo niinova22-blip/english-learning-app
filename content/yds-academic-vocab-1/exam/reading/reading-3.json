@@ -1,0 +1,106 @@
+{
+  "id": "yds-exam-reading-3",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Antibiyotik Direnci",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-reading-3",
+    "title": "Antibiotic Resistance",
+    "body": "Antibiotics transformed medicine in the twentieth century, turning once-fatal infections into routine problems that a short course of tablets could cure. Today, that achievement is under threat. Bacteria reproduce so quickly that any mutation which helps a microbe survive a drug spreads through a population within days, and each time an antibiotic is used, susceptible bacteria are killed while resistant ones are left to multiply. The more often a drug is prescribed, therefore, the faster resistance to it develops. Overuse is not confined to hospitals. In several countries antibiotics are available without a prescription, and in agriculture they are routinely added to animal feed to promote growth. Patients also contribute when they stop taking a course as soon as they feel better, since the weakest bacteria die first and the hardier survivors remain. Researchers warn that the pipeline of new drugs is thin, largely because developing an antibiotic is expensive and offers pharmaceutical companies little profit compared with medicines taken every day for chronic conditions. Some health economists have therefore proposed that governments pay companies a fixed fee for new antibiotics, regardless of how many are sold, so that firms are rewarded for innovation rather than for volume. Such a scheme would only work, of course, if doctors used the new drugs sparingly."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-reading-3",
+      "type": "practiceSet",
+      "headword": "Reading: Antibiotic Resistance",
+      "frequencyRank": 3002,
+      "baseDifficulty": 0.6,
+      "definition": "Antibiyotik direnci üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Antibiyotik Direnci",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-reading-3-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "The passage is mainly about ----.",
+      "options": [
+        "the history of antibiotics in twentieth-century medicine",
+        "the best way for patients to complete a course of tablets",
+        "the causes of antibiotic resistance and one proposed remedy",
+        "the profits that pharmaceutical companies earn from antibiotics",
+        "the use of antibiotics in agriculture"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Metin direncin nedenlerini sıralıyor ve sabit ücret önerisini tartışıyor: (C). (A) tarih yalnızca giriş cümlesidir. (B) hasta davranışı nedenlerden yalnızca biridir. (D) kâr, yeni ilaçların azlığının açıklamasıdır, ana konu değildir. (E) tarım, yalnızca bir örnektir ve konuyu fazla daraltır.",
+      "passageID": "yds-exam-passage-reading-3"
+    },
+    {
+      "id": "yds-exam-reading-3-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "According to the passage, resistance to a drug develops faster when ----.",
+      "options": [
+        "the drug is prescribed more frequently",
+        "bacteria reproduce more slowly",
+        "patients complete every course of treatment",
+        "antibiotics are reserved for use in hospitals",
+        "new drugs enter the market more quickly"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«The more often a drug is prescribed, the faster resistance to it develops» cümlesi bunu doğrudan söyler: (A). (B) bakterilerin hızlı üremesi direncin nedenidir, yavaş üremesi değil. (C) kürü tamamlamak dirençle ilişkilendirilmez. (D) kullanımın hastanelerle sınırlı olmadığı belirtilir.",
+      "passageID": "yds-exam-passage-reading-3"
+    },
+    {
+      "id": "yds-exam-reading-3-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "All of the following are given as contributors to antibiotic overuse EXCEPT ----.",
+      "options": [
+        "the sale of antibiotics without a prescription",
+        "the addition of antibiotics to animal feed",
+        "patients stopping a course as soon as they feel better",
+        "the use of expired stocks by pharmacies",
+        "the frequent prescription of the drugs"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Soru metinde verilmeyen seçeneği arıyor: eczanelerin son kullanma tarihi geçmiş stokları metinde hiç geçmez: (D). (A) reçetesiz satış, (B) hayvan yemine katma, (C) kürü erken bırakma ve (E) sık reçete yazımı metinde açıkça anılan katkılardır.",
+      "passageID": "yds-exam-passage-reading-3"
+    },
+    {
+      "id": "yds-exam-reading-3-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "The proposal of a fixed fee for new antibiotics is intended to ----.",
+      "options": [
+        "make antibiotics cheaper for patients",
+        "reward companies for developing drugs rather than for selling large quantities",
+        "encourage doctors to prescribe the new drugs more often",
+        "remove the need for further research",
+        "raise the price of medicines for chronic conditions"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Metin, firmaların «hacim yerine yenilik için» ödüllendirilmesini amaçladığını söylüyor: (B). (A) hasta fiyatından söz edilmez. (C) tersine, yeni ilaçların idareli kullanılması gerekir. (D) araştırma ihtiyacını ortadan kaldırmaz, teşvik eder.",
+      "passageID": "yds-exam-passage-reading-3"
+    },
+    {
+      "id": "yds-exam-reading-3-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "The final sentence suggests that a fixed-fee scheme ----.",
+      "options": [
+        "will certainly put an end to antibiotic resistance",
+        "would be cheaper than any other possible scheme",
+        "is unnecessary because antibiotics already sell well",
+        "has already been adopted by several governments",
+        "could fail if the new antibiotics were prescribed too freely"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Son cümle planın ancak doktorlar yeni ilaçları idareli kullanırsa işe yarayacağını söylüyor; yani serbest reçete planı boşa çıkarabilir: (E). (A) «kesinlikle» mutlaklığı metinde yoktur. (B) «herhangi bir başka plandan» kıyası yapılmaz. (C) ilaçların az kâr getirdiği söylenir. (D) plan hâlâ bir öneridir.",
+      "passageID": "yds-exam-passage-reading-3"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-prepositions-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Edatlar (Prepositions)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-prepositions-1",
+      "type": "grammarPoint",
+      "headword": "Prepositions",
+      "frequencyRank": 2022,
+      "baseDifficulty": 0.5,
+      "definition": "Zaman, yer ve fiil/sıfat/isim + edat kalıplarının temel kullanımı.",
+      "exampleSentences": [],
+      "translationTR": "Edatlar",
+      "collocations": [],
+      "explanationTR": "Edat seçimi çoğu zaman EZBER kalıplara dayanır; yine de belirli mantıklar vardır.\n\n• Zaman: at + saat (at 9 a.m.), on + gün (on Monday), in + ay/yıl (in October). by = en geç o zamana kadar (by 31 March), until = o ana kadar sürer. during + olay/dönem (during the crisis), for + süre (for three weeks).\n\n• Yer ve hareket: in + kapalı alan, on + yüzey, at + nokta; into, onto, across. among = ikiden çok belirsiz grup (among the several hundred members), between = iki ya da belirli birkaç kişi/şey.\n\n• Fiil + edat: depend on, consist of, result in (sonuç doğurmak), result from (sonucu olmak), account for, deal with, refer to, contribute to, rely on.\n\n• Sıfat + edat: aware of, responsible for, capable of, similar to, different from, subject to, relevant to.\n\n• İsim + edat: an increase in, the reason for, an effect on, a solution to, demand for, an approach to, an attitude towards.\n\nÖrnek: The success of the project depends on the level of public funding."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-prepositions-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The company must submit its annual accounts ---- 31 March at the latest.",
+      "options": [
+        "until",
+        "by",
+        "for",
+        "since",
+        "from"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«At the latest» en geç tarihi belirtir; bu anlam by ile verilir: by 31 March. (A) until eylemin o tarihe kadar SÜRDÜĞÜNÜ bildirir. (C) for bir süre belirtir. (D) since başlangıç noktası bildirir. (E) from başlangıç bildirir ve «en geç» anlamı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "Output fell sharply ---- the financial crisis.",
+      "options": [
+        "for",
+        "since",
+        "by",
+        "during",
+        "while"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Bir olay ya da dönem adının önünde (the financial crisis) during kullanılır. (A) for bir süre ister (for two years). (B) since başlangıç bildirir. (C) by son tarih bildirir. (E) while bir cümlecik ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The conference will begin ---- 9 a.m. on Monday 14 October.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "by",
+        "during"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Saat için at kullanılır: at 9 a.m. (B) in ay ve yıl için, (C) on gün için kullanılır. (D) by son tarih bildirir. (E) during bir dönem ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The profits were divided ---- the several hundred members of the cooperative.",
+      "options": [
+        "between",
+        "across",
+        "through",
+        "beside",
+        "among"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "İkiden çok, belirsiz bir gruba paylaştırma among ile anlatılır. (A) between iki ya da belirli birkaç öğe için kullanılır. (B) across ve (C) through ve (D) beside paylaştırma anlamı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The success of the project largely depends ---- the level of public funding.",
+      "options": [
+        "of",
+        "from",
+        "on",
+        "to",
+        "with"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Depend on sabit bir kalıptır. (A) of, (B) from, (D) to ve (E) with bu fiille kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The committee consists ---- twelve elected members and three observers.",
+      "options": [
+        "in",
+        "of",
+        "from",
+        "with",
+        "by"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Consist of sabit bir kalıptır (= oluşmak). (A) in, (C) from, (D) with ve (E) by bu fiille kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "Employees must be aware ---- the risks associated with handling chemicals.",
+      "options": [
+        "for",
+        "on",
+        "to",
+        "of",
+        "at"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Aware of sabit bir sıfat + edat kalıbıdır. (A) for, (B) on, (C) to ve (E) at bu sıfatla kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-prepositions-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "There has been a marked increase ---- the demand for renewable energy.",
+      "options": [
+        "in",
+        "of",
+        "on",
+        "to",
+        "for"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "An increase in + isim (bir şeydeki artış) sabit bir kalıptır. (B) of miktar bildirirken kullanılır (an increase of 5%). (C) on, (D) to ve (E) for bu isimle kullanılmaz.",
+      "passageID": null
+    }
+  ]
+}

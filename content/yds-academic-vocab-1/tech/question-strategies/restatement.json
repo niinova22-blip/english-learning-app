@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-restatement",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Yeniden İfade",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-restatement",
+      "type": "grammarPoint",
+      "headword": "Strategy: Restatement",
+      "frequencyRank": 4007,
+      "baseDifficulty": 0.5,
+      "definition": "Yeniden ifade sorularında anlam koruma denetimi.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Yeniden İfade",
+      "collocations": [],
+      "explanationTR": "Yeniden ifade (restatement) sorusunda doğru şık, kökle AYNI ANLAMI verir; sözcükler farklı olabilir ama ilişki, zaman ve kapsam değişmez.\n\n• Kökteki ilişkiyi bul: koşul (unless = if not), neden-sonuç, karşıtlık, zaman sırası.\n\n• Niceleyicileri koru: few = çok az, a few = birkaç; most, all, no ayrı anlamlar taşır.\n\n• Karşılaştırmada yönü koru: Ali is not as tall as Can = Can, Ali'den daha uzundur.\n\n• Kip anlamını koru: needn't = zorunlu değil, mustn't = yasak.\n\n• Neden ile sonucun yönünü koru: The flight was delayed owing to heavy fog = yoğun sis uçuşun ertelenmesine yol açtı.\n\n• Zamanı ve edilgen/etken yapıyı kontrol et; anlamı değiştiren tek bir öğe seçeneği eler.\n\nEn sık düşülen tuzak: sözcük benzerliğine bakmak. Kökle aynı sözcükleri kullanan ama ilişkiyi tersine çeviren seçenek çoğu zaman yanlıştır.\n\nÖrnek: «Unless you leave now, you will miss the last train.» = You will catch the last train only if you leave now."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-restatement-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Yeniden ifade sorusunda bir seçenek kökle aynı sözcüklerin çoğunu kullanıyorsa ne yapmalısın?",
+      "options": [
+        "Hemen seçmeliyim, çünkü sözcüklerin çoğu aynı",
+        "Yalnızca en kısa görünen seçeneği seçmeliyim",
+        "İlişkinin ve zamanın korunup korunmadığına bakmalıyım",
+        "Yalnızca cümlenin ilk sözcüğüne bakmalıyım",
+        "Kökteki sözcüklerin kaçının seçenekte geçtiğini saymalıyım"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Sözcük benzerliği yanıltıcıdır; anlamı belirleyen ilişki ve kapsamdır: (C). (A) tam da bu tuzağa düşürür. (B) uzunluk bir anlam ölçütü değildir. (D) ilk sözcük anlamı belirlemez. (E) ortak sözcük saymak ilişkinin korunduğunu göstermez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-restatement-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Unless she apologises, he will not speak to her again.",
+      "options": [
+        "He will speak to her again only if she apologises.",
+        "He will speak to her if she does not apologise.",
+        "She apologised, so he spoke to her.",
+        "Even if she apologises, he won't speak to her.",
+        "He will apologise unless she speaks to him."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Unless» = «if not»: özür dilemezse konuşmayacak, yani yalnızca özür dilerse konuşacak: (A). (B) koşulu tersine çevirir. (C) geçmişte olmuş bir durum anlatır. (D) «even if» ile koşulu geçersiz kılar. (E) özneleri ve eylemleri karıştırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-restatement-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Tom is not as experienced as his sister.",
+      "options": [
+        "Tom is more experienced than his sister.",
+        "Tom's sister is less experienced than he is.",
+        "Tom and his sister are equally experienced.",
+        "His sister is more experienced than Tom is.",
+        "Neither Tom nor his sister has any experience."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Not as ... as» eşitliğin olumsuzudur: Tom daha az deneyimli, yani kız kardeşi daha deneyimlidir: (D). (A) karşılaştırmanın yönünü tersine çevirir. (B) «less» ile kız kardeşi daha az deneyimli yapar; yön tersine döner. (C) eşitlik bildirir, oysa kökte eşitlik yoktur. (E) deneyimin hiç olmadığı gibi yeni bir iddia ekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-restatement-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "The match was cancelled owing to the storm.",
+      "options": [
+        "The match caused the storm to be cancelled.",
+        "The match was cancelled although there was a storm.",
+        "The storm ended before the match was cancelled.",
+        "The storm was cancelled because of the match.",
+        "The storm caused the cancellation of the match."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Owing to» neden bildirir: iptalin nedeni fırtınadır: (E). (A) ve (D) neden ile sonucu tersine çevirir. (B) nedeni karşıtlığa çevirir. (C) zaman sırasını bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-restatement-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "You needn't bring a gift.",
+      "options": [
+        "You must not bring a gift under any circumstances.",
+        "It is not necessary for you to bring a gift.",
+        "You are not allowed to bring a gift.",
+        "You should bring a gift.",
+        "Bringing a gift is compulsory."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Needn't» zorunlu olmadığını bildirir: (B). (A) ve (C) yasaklar. (D) tavsiye eder. (E) zorunlu kılar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-restatement-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Bir yeniden ifade seçeneği kökle aynı sözcükleri kullanıp zamanı değiştiriyorsa ne yapmalısın?",
+      "options": [
+        "Seçmeliyim, çünkü sözcükler aynı",
+        "Seçeneğin daha resmî bir dil kullanıp kullanmadığına bakmalıyım",
+        "Zamanı yok sayıp anlama bakmalıyım",
+        "İlk sözcüğü karşılaştırmalıyım",
+        "Elemeliyim; zaman değişirse anlam değişir"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Zaman anlamın parçasıdır; değişirse cümle artık aynı şeyi söylemez: (E). (A) sözcük benzerliği yeterli değildir. (B) üslup değil, anlam belirleyicidir. (C) zamanı yok saymak anlamı bozar. (D) ilk sözcüğü karşılaştırmak cümlenin tamamını denetlemez.",
+      "passageID": null
+    }
+  ]
+}

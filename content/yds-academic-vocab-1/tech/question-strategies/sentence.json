@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-sentence",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Cümle Tamamlama",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-tech-card-sentence",
+      "type": "grammarPoint",
+      "headword": "Strategy: Sentence Completion",
+      "frequencyRank": 4002,
+      "baseDifficulty": 0.5,
+      "definition": "Cümle tamamlama sorularını mantıksal ilişkiyle çözme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Cümle Tamamlama",
+      "collocations": [],
+      "explanationTR": "Cümle tamamlamada doğru seçenek, kökteki BAĞLAÇ ya da bağlayıcının kurduğu mantıksal ilişkiyi ve dil bilgisini birlikte karşılar.\n\n• Kökteki ilişkiyi bul: because / since (neden), so ... that (sonuç), although / whereas (karşıtlık), unless / provided (koşul), so that (amaç), until / by the time (zaman).\n\n• Seçeneği köke bağlayıp cümleyi baştan sona oku: tek bir doğal cümle çıkmalı; özne, zaman ve anlam uyuşmalı.\n\n• Kökü tekrarlayan ya da çelişen seçenekleri ele: Although the drug passed every test, ---- cümlesinde «ilaç her testi geçti» bilgisini tekrar eden şık karşıtlık kurmaz.\n\n• Paralel yapıyı ara: not only quiet but also ---- boşluğuna, quiet ile aynı türden bir sıfat gelir.\n\n• Zaman uyumuna bak: By the time the rescue team arrived, the hikers ---- cümlesi past perfect ister.\n\nEn sık düşülen tuzak: yalnızca anlamı ilginç görünen seçeneği seçmek. Ana cümlenin zamanı ya da bağlacın ilişkisi uyuşmuyorsa seçenek yanlıştır.\n\nÖrnek: Unless the council repairs the road soon, more accidents are likely to happen."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-sentence-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Cümle tamamlama sorusunda kökteki bağlacı gördükten sonraki en doğru adım hangisidir?",
+      "options": [
+        "Ana cümlenin öznesiyle aynı özneyi taşıyan seçeneği seçmek",
+        "Bağlacın kurduğu ilişkiyi belirleyip seçenekleri elemek",
+        "Her zaman en genel görünen seçeneği seçmek",
+        "Seçenekleri okumadan yalnızca bağlacı çevirmek",
+        "Ana cümlenin zamanını ve öznesini yok saymak"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "İlişkiyi belirlemek, seçenekleri mantıkla elemeni sağlar: (B). (A) ortak özne tek başına mantıksal ilişkiyi kurmaz. (C) genellik bir ölçüt değildir. (D) seçeneklere bakmadan karar vermek yanlıştır. (E) zaman uyumu cevabın parçasıdır, yok sayılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-sentence-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Because the warehouse flooded, ----.",
+      "options": [
+        "the company had to delay several deliveries",
+        "the company's deliveries arrived earlier than planned",
+        "the warehouse had been built near a river",
+        "the company opened a second warehouse last year",
+        "several customers ordered more goods than usual"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Because» bir neden bildirir; sonuç, taşkının doğal etkisidir: (A). (B) tersine erken teslimat söyler. (C) taşkından önceki bir bilgi verir, sonucunu değil. (D) geçen yıla ait, taşkınla bağı olmayan bir olaydır. (E) sipariş artışı taşkının sonucu değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-sentence-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "By the time the guests arrived, the chef ----.",
+      "options": [
+        "already prepares the meal",
+        "will already prepare the meal",
+        "had already prepared the meal",
+        "is already preparing the meal",
+        "would already prepare the meal"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«By the time» + geçmiş zaman, ondan önce biten eylem için past perfect ister: (C). (A) geniş zaman, (B) gelecek zaman ve (D) sürerlik geçmiş cümleyle uyuşmaz. (E) would prepare gelecek anlamı taşır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-sentence-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "The city built a new bridge to reduce congestion; as a result, ----.",
+      "options": [
+        "the bridge was built to reduce congestion",
+        "congestion increased sharply after the opening",
+        "the old bridge had been very crowded",
+        "the river was wider than expected",
+        "travel times across the river fell noticeably"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«As a result» bir SONUÇ bildirir: köprü sıkışıklığı azalttı, yolculuk süreleri kısaldı: (E). (A) kökteki bilgiyi tekrarlar. (B) sonuçla çelişir. (C) nedeni yeniden anlatır. (D) ilişkisiz bir bilgidir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-sentence-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "The proposal is not only inexpensive but also ----.",
+      "options": [
+        "practical",
+        "practically",
+        "practicality",
+        "to be practical",
+        "it is practical"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Not only ... but also» kalıbında iki öğe paralel olmalıdır: inexpensive ile aynı türde bir sıfat: (A). (B) zarftır. (C) isimdir. (D) mastar yapısıdır. (E) cümlecik kurar ve paralelliği bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-sentence-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Unless the government acts quickly, ----.",
+      "options": [
+        "unemployment fell sharply last year",
+        "the government acted quickly enough",
+        "quick action would have been impossible",
+        "unemployment is likely to rise further",
+        "unemployment cannot possibly rise"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Unless» = «if not»: hükümet hızlı davranmazsa işsizlik artabilir: (D). (A) geçmişe ait bir olgudur. (B) koşulun gerçekleştiğini söyler. (C) yapıyı bozar. (E) «unless» ile çelişen mutlak bir iddiadır.",
+      "passageID": null
+    }
+  ]
+}

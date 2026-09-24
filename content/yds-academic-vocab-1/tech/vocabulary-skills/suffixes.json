@@ -1,0 +1,150 @@
+{
+  "id": "yds-tech-suffixes",
+  "estimatedDurationMinutes": 9,
+  "title": "Kelime Tekniği: Son Ekler",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-tech-card-suffixes",
+      "type": "grammarPoint",
+      "headword": "Vocabulary Skill: Suffixes",
+      "frequencyRank": 4014,
+      "baseDifficulty": 0.5,
+      "definition": "Son ekleri tanıyarak sözcüğün türünü belirleme ve doğru biçimi seçme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Kelime Tekniği: Son Ekler",
+      "collocations": [],
+      "explanationTR": "Son ekler (suffixes), sözcüğün türünü değiştirir. Boşluğa hangi biçimin geleceğini bulmak için önce boşluğun hangi sözcük türünü istediğine bak.\n\n• İsim yapanlar: -ment (agreement), -ness (kindness), -ity (ability), -tion/-sion (decision), -ance/-ence (importance).\n\n• Fiil yapanlar: -ize/-ise (standardise), -ify (simplify), -en (widen), -ate (activate).\n\n• Sıfat yapanlar: -al (national), -ous (dangerous), -ive (effective), -able (reliable), -ful (careful), -less (careless).\n\n• Zarf yapan: -ly (carefully). Zarf; fiili, sıfatı veya cümlenin tamamını niteler, ismin önünde kullanılmaz.\n\n• Boşluk kuralı: «the/a/her» sözcüklerinden sonra isim, «to/will/can» sözcüklerinden sonra yalın fiil, «is/was/very» sözcüklerinden sonra sıfat, fiilden sonra çoğu zaman zarf gelir.\n\nEn sık düşülen tuzak: aynı kökten türeyen sözcükleri karıştırmak. «Careful» (dikkatli), «careless» (dikkatsiz) ve «carefully» (dikkatle) farklı işlevlerdedir; boşluğa hangisinin geleceğini sözcüğün anlamı değil, cümledeki görevi belirler.\n\nÖrnek: The committee reached an ---- after long talks. «an» sözcüğünden sonra isim gelir: agreement."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-suffixes-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The ---- of the new system took three months.",
+      "options": [
+        "implements",
+        "implemented",
+        "implementable",
+        "implementation",
+        "implement"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«The ---- of» yapısında isim gerekir; -ation isim yapar: (D). (A) ve (B) çekimli fiil biçimleridir, «the» ile kullanılmaz. (C) «uygulanabilir» anlamında sıfattır. (E) yalın fiildir; buraya bir eylem değil, eylemin adı gelir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-suffixes-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The committee decided to ---- the rules across all departments.",
+      "options": [
+        "standardise",
+        "standard",
+        "standardised",
+        "standardisation",
+        "standards"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«decided to» sonrasında yalın fiil gelir; -ise fiil yapar: (A). (B) isim ya da sıfattır. (C) geçmiş zaman biçimidir, «to» ile kullanılmaz. (D) «-ation» ile kurulmuş isimdir. (E) çoğul isimdir; hiçbiri «to»dan sonra gelemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-suffixes-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The chemical is ---- and must be handled with great care.",
+      "options": [
+        "danger",
+        "dangerously",
+        "dangerous",
+        "endanger",
+        "dangers"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«is» sonrasında sıfat gerekir; -ous sıfat yapar: (C). (A) ve (E) isimdir. (B) zarftır, «is» ile sıfat yerine geçmez. (D) fiildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-suffixes-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "She answered every question ---- and did not make a single mistake.",
+      "options": [
+        "careful",
+        "care",
+        "careless",
+        "carefulness",
+        "carefully"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Fiili niteleyen zarf gerekir; -ly zarf yapar: (E). (A) ve (C) sıfattır, fiili niteleyemez. (B) ve (D) isimdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-suffixes-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "İsimden sıfat yapan ek aşağıdakilerden hangisidir?",
+      "options": [
+        "-ment",
+        "-ous",
+        "-tion",
+        "-ify",
+        "-ize"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Danger → dangerous», «fame → famous» gibi isimlerden sıfat türetir: (B). (A) ve (C) isim yapar, (D) ve (E) ise fiil yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-suffixes-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "Her ---- to learn impressed the teacher.",
+      "options": [
+        "willing",
+        "willingly",
+        "unwilling",
+        "willingness",
+        "willed"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Her» sahiplik sıfatından sonra isim gelir; -ness sıfattan isim yapar: (D). (A) ve (C) sıfattır, «her» ile tek başına özne olamaz. (B) zarftır. (E) fiilin geçmiş biçimidir; cümlenin öznesi olamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-suffixes-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "It is ---- that the price will rise next year.",
+      "options": [
+        "probable",
+        "probably",
+        "probability",
+        "probabilities",
+        "improbably"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«It is ---- that» kalıbında «is» fiilinden sonra sıfat gerekir: (A). (B) ve (E) zarftır; «is» ile yüklem kurmaz. (C) ve (D) isimdir ve bu kalıba girmez; ayrıca (E) anlamı da tersine çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-suffixes-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The new law will ---- the process for applicants.",
+      "options": [
+        "simple",
+        "simply",
+        "simplify",
+        "simplicity",
+        "simplification"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«will» sonrasında yalın fiil gerekir; -ify fiil yapar: (C). (A) sıfattır. (B) zarftır. (D) ve (E) isimdir.",
+      "passageID": null
+    }
+  ]
+}

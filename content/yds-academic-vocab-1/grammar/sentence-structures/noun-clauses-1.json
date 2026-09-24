@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-noun-clauses-1",
+  "estimatedDurationMinutes": 8,
+  "title": "İsim Cümlecikleri (Noun Clauses)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-noun-clauses-1",
+      "type": "grammarPoint",
+      "headword": "Noun Clauses",
+      "frequencyRank": 2008,
+      "baseDifficulty": 0.5,
+      "definition": "That, wh- ve whether ile kurulan isim cümlecikleri.",
+      "exampleSentences": [],
+      "translationTR": "İsim Cümlecikleri",
+      "collocations": [],
+      "explanationTR": "İsim cümleciği bir adın yerine geçer; özne, nesne ya da edatın nesnesi olabilir.\n\n• that-cümleciği: The findings suggest that the drug is effective. Öğeleri TAM bir cümleyi bağlar. Bazı fiillerden sonra that düşebilir; edat ya da sıfattan sonra düşmez: The minister was unaware that the scheme had failed.\n\n• wh- cümlecikleri (what, how, when, where, why, who) düz cümle sırasını korur: Nobody can say what caused the fire. It is unclear when the treaty will be ratified (will the treaty be ... DEĞİL).\n\n• whether / if: yes-no anlamı verir. Edattan sonra ve to + V1 öncesinde yalnızca whether kullanılır: It depends on whether the unions accept the offer. The board must decide whether to renew.\n\n• The fact that ... öznesi ya da yalın that-cümleciği özne olabilir: That the survey excluded rural households limits its validity.\n\n• what, kendi içinde eksik bir öğe taşır: The article explores what makes some cities resilient.\n\nÖrnek: There is no indication of how the government intends to pay for the programme."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-noun-clauses-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The findings suggest ---- the drug is effective only in early-stage patients.",
+      "options": [
+        "that",
+        "what",
+        "which",
+        "whether",
+        "whose"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Suggest» sonrasında öğeleri tam bir cümle gelir ve bu cümleyi that bağlar. (B) what eksik bir öğe ister; cümlede eksik öğe yok. (C) which bir ada gönderme yapar. (D) whether «olup olmadığı» anlamı katar; suggest ile uyumsuzdur. (E) whose ardından ad ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-noun-clauses-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "It is still unclear when ---- ratified.",
+      "options": [
+        "will the treaty be",
+        "will be the treaty",
+        "the treaty will be",
+        "the treaty be will",
+        "be the treaty"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Wh- isim cümleciği DÜZ cümle sırasını korur: özne + yardımcı fiil + fiil, yani the treaty will be ratified. (A) will the treaty be soru sırasıdır ve isim cümleciğinde kullanılmaz. (B) will be the treaty ve (D) the treaty be will ile (E) be the treaty dizilimi cümle kuralını bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-noun-clauses-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The outcome of the negotiations depends on ---- the unions accept the revised offer.",
+      "options": [
+        "if",
+        "that",
+        "what",
+        "which",
+        "whether"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Depends on» bir edattır ve edattan sonra isim cümleciği kurmak için yalnızca whether kullanılır. (A) if edattan sonra gelemez. (B) that edatın nesnesi olamaz. (C) what eksik bir öğe ister. (D) which bir ada gönderme yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-noun-clauses-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The board has not yet decided ---- to renew the contract.",
+      "options": [
+        "if",
+        "whether",
+        "that",
+        "what",
+        "which"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Whether + to V1» kalıbı kullanılır; to + V1 öncesinde if gelmez. (A) if bu kalıpta kullanılamaz. (C) that mastarla birleşmez. (D) what ve (E) which ise bu bağlamda anlam kuramaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-noun-clauses-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "---- the survey excluded rural households limits the validity of its conclusions.",
+      "options": [
+        "What",
+        "Which",
+        "Whether",
+        "That",
+        "Whose"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Cümle öğeleri tam bir olguyu (kırsal hanelerin dışlanması) bildirir ve özne konumundadır: That the survey excluded ... limits ... (A) What eksik bir öğe ister. (B) Which ve (E) Whose bir adı niteler. (C) Whether «olup olmadığı» sorusu açar; oysa dışlama bir gerçektir ve cümle bir belirsizlik bildirmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-noun-clauses-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The article explores ---- makes some cities more resilient than others.",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "whether",
+        "whose"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Cümlecikte özne eksiktir (___ makes); eksik öğeyi taşıyan ve isim cümleciği kuran sözcük what'tır. (B) that eksik bir özneyi karşılayamaz. (C) which önceki bir ada gönderme yapar. (D) whether «olup olmadığı» anlamı katar. (E) whose ardından ad ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-noun-clauses-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "They asked the board ---- or not the plan had been approved.",
+      "options": [
+        "if",
+        "that",
+        "whether",
+        "what",
+        "which"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«... or not» ile birlikte yalnızca whether kullanılır: whether or not. (A) if bu kalıpta doğrudan «or not» ile kullanılmaz. (B) that ve (D) what ile (E) which yes-no anlamı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-noun-clauses-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The minister was unaware ---- the scheme had already failed.",
+      "options": [
+        "of that",
+        "of",
+        "of what",
+        "from that",
+        "that"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Sıfat (unaware) + that-cümleciği doğrudan kurulur: unaware that the scheme had failed. (A) of that ve (B) of edatı ekleyerek cümleciği bozar. (C) of what eksik bir öğe ister. (D) from that anlamsızdır.",
+      "passageID": null
+    }
+  ]
+}

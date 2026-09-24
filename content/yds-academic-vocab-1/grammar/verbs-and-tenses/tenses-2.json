@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-tenses-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Zamanlar: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-tenses-2",
+      "type": "grammarPoint",
+      "headword": "Tenses (Traps)",
+      "frequencyRank": 2000,
+      "baseDifficulty": 0.6,
+      "definition": "YDS'de zaman işaretlerinin kurduğu en sık tuzaklar.",
+      "exampleSentences": [],
+      "translationTR": "Zamanlar: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Zaman sorularının çoğu, cümledeki bir ZAMAN İŞARETİNİN yanlış zamanla eşleştirilmesi üzerine kuruludur.\n\n• by the time + geçmiş yan cümle: ana cümle past perfect olur. By the time the inspector arrived, the accountants had left. Gelecekte ise by the time + geniş zaman, ana cümle future perfect: By the time the treaty is ratified, the negotiators will have produced ten drafts. «by 2030», «by the end of the decade» de future perfect ister.\n\n• since / for / so far → present perfect. in 2019 / two years ago / last quarter gibi BİTMİŞ zaman ifadeleri → past simple. İkisi aynı cümlede olabilir: The institute hosted its first conference in 2019 and has hosted one every year since.\n\n• Present perfect continuous süreci ve devamlılığı vurgular (have been working for eleven months); present perfect ise sonucu ya da SAYIYI (has synthesised three compounds).\n\n• when, as soon as, until, once, before, after ile kurulan zaman yan cümlelerinde will KULLANILMAZ; geniş zaman ya da present perfect gelir: The committee will publish its report as soon as it has completed the hearings.\n\n• It is the first time / This is the third time + present perfect: This is the first time the ministry has recorded such a deficit. Geçmişte anlatılırsa past perfect: It was the first time she had chaired a session.\n\n• No sooner had ... than ve Hardly had ... when kalıplarında ilk kısım past perfect (devrik), ikinci kısım past simple'dır: No sooner had the meeting begun than the power failed.\n\n• used to + V1 = geçmişteki alışkanlık (artık yok). be / get used to + V-ing = alışık olmak: The graduates are used to working under pressure.\n\n• Past perfect continuous, geçmişteki bir andan önce süren ve sonucu o anda görünen eylemler içindir: When the auditor arrived, the accountants had been working for nineteen hours.\n\nEn sık düşülen tuzak: by the time görünce yan cümleyi de past perfect yapmak. Yan cümle past simple kalır; past perfect ANA cümleye aittir.\n\nÖrnek: By the time the results were announced, the laboratory had already lost its funding."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-tenses-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The company ---- a profit in any quarter since it was founded in 2011, and investors are growing impatient.",
+      "options": [
+        "did not report",
+        "had not reported",
+        "has not reported",
+        "would not report",
+        "does not report"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«since 2011» geçmişte başlayıp bugüne uzanan bir süreyi gösterir; «investors are growing impatient» ise durumun şimdiye bağlı olduğunu doğrular. Bu yüzden present perfect gerekir: has not reported. (A) did not report bitmiş bir zaman dilimi ister, oysa süreç bugüne kadar sürüyor. (B) had not reported geçmişte bir referans noktası gerektirir, cümlede yok. (E) does not report ise «since» ile kullanılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "By the time the regulators noticed the irregularities, the firm ---- millions of dollars of client funds.",
+      "options": [
+        "had already transferred",
+        "has already transferred",
+        "already transfers",
+        "will already transfer",
+        "would already transfer"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«By the time» + past simple yan cümle (noticed) kurulduğunda, ondan ÖNCE olan eylem ana cümlede past perfect ile verilir: had already transferred. (B) has already transferred şimdiki zamanla bağlantılı bir eylem için kullanılır, oysa tüm olay geçmişte. (C) geniş zaman ve (D) gelecek zaman, geçmiş bir yan cümleyle uyumsuzdur. (E) would + V1 geçmişteki bir alışkanlık ya da gelecek anlamı taşır, tamamlanmış bir eylemi anlatmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "By the time the treaty is ratified next spring, the negotiators ---- more than forty drafts.",
+      "options": [
+        "have produced",
+        "produced",
+        "had produced",
+        "will have produced",
+        "are producing"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Yan cümle geniş zamanda (is ratified) ve «next spring» geleceği gösteriyor; gelecekteki bir sınırdan önce tamamlanacak eylem future perfect ile verilir: will have produced. (B) produced ve (C) had produced geçmiş bir olay için kullanılır, oysa sınır gelecekte. (A) have produced şimdiye kadarki sonucu anlatır, gelecekteki sınırı karşılamaz. (E) are producing süren bir eylemdir, «bitmiş olacak» anlamı taşımaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The laboratory ---- three new compounds this year, and a fourth is currently under way.",
+      "options": [
+        "has been synthesising",
+        "has synthesised",
+        "had synthesised",
+        "synthesised",
+        "is synthesising"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«this year» henüz bitmemiş bir dönemdir ve cümle tamamlanmış bir SAYI verir (three new compounds); sayı ve sonuç vurgusu present perfect ister: has synthesised. (A) present perfect continuous süreci vurgular, tamamlanmış üç bileşiği saymak için uygun değildir. (D) synthesised bitmiş bir zaman dilimi ister, «this year» sürüyor. (C) had synthesised geçmişte bir referans noktası gerektirir; cümlede yok.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The committee will publish its recommendations as soon as it ---- the final round of hearings.",
+      "options": [
+        "will complete",
+        "would complete",
+        "will have completed",
+        "completed",
+        "has completed"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«as soon as» gibi zaman bağlaçlarından sonra will KULLANILMAZ; gelecekteki bir olay için geniş zaman ya da present perfect gelir. Öneriler yayımlanmadan ÖNCE duruşmalar tamamlanacağı için has completed uygundur. (A), (B) ve (C) will/would içerir, zaman yan cümlesinde bu yapı yanlıştır. (D) completed ise geçmiş zamanı gösterir, oysa ana cümle gelecekten söz ediyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "This is the first time the ministry ---- such a large deficit in a single year.",
+      "options": [
+        "recorded",
+        "is recording",
+        "has recorded",
+        "had recorded",
+        "records"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«This is the first time ...» kalıbından sonra present perfect gelir: has recorded. (A) recorded ve (E) records bu kalıbın gerektirdiği zamanı vermez. (D) had recorded ancak kalıp geçmişe çekildiğinde (It was the first time ... had recorded) kullanılır; burada ana fiil şimdiki zamandadır. (B) is recording süren bir eylemi anlatır, «ilk kez» yaşanmış bir deneyimi değil.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "No sooner had the delegates taken their seats than the chairman ---- that the session would be postponed.",
+      "options": [
+        "announced",
+        "had announced",
+        "has announced",
+        "would announce",
+        "was announcing"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«No sooner had + V3 ... than» kalıbında ilk kısım past perfect (devrik), «than» sonrası kısım past simple olur: announced. (B) had announced kalıbın ilk kısmıyla aynı zamanı tekrarlar; iki olayın art arda gerçekleştiğini bozar. (C) has announced şimdiki zamanla bağlantılı bir sonuç anlatır. (D) would announce ve (E) was announcing kalıbın gerektirdiği tek, tamamlanmış olayı vermez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The new graduates ---- under pressure, so the demanding schedule rarely troubles them.",
+      "options": [
+        "used to work",
+        "are used to work",
+        "used to working",
+        "are used to working",
+        "were used to working"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Rarely troubles them» şimdiki zamandır ve cümle ALIŞIK olma durumunu anlatır: be used to + V-ing, yani are used to working. (A) used to work geçmişteki, artık sürmeyen bir alışkanlık bildirir; şimdiki zamanla çelişir. (B) are used to work, be used to'dan sonra V-ing yerine yalın fiil koyar. (C) used to working için be yardımcı fiili eksiktir. (E) were used to working geçmiş zamandır; cümledeki «rarely troubles» şimdiki durumu anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "By the time the inspector arrived, the accountants ---- for nineteen hours without a break, and none of them could concentrate.",
+      "options": [
+        "have been working",
+        "had been working",
+        "worked",
+        "would work",
+        "are working"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«By the time the inspector arrived» geçmişte bir an belirler; o ana kadar SÜREN ve etkisi görünen eylem past perfect continuous ile verilir: had been working. (A) have been working ve (E) are working şimdiki zamana aittir. (C) worked bitmiş bir eylemi anlatır ve «o ana kadar süren» süreyi göstermez. (D) would work alışkanlık ya da gelecek anlamı taşır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-tenses-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "The research institute ---- its first international conference in 2019, and it has organised one every year since.",
+      "options": [
+        "has hosted",
+        "had hosted",
+        "hosts",
+        "was hosting",
+        "hosted"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«in 2019» bitmiş, belirli bir zamanı gösterir ve bu tür ifadelerle present perfect kullanılmaz; past simple gerekir: hosted. «since» ile başlayan ikinci cümle ise present perfect kullanır (has organised). (A) has hosted belirli geçmiş zaman ifadesiyle kullanılamaz. (B) had hosted geçmişte başka bir olaydan önce olmayı ifade eder. (D) was hosting tamamlanmış tek bir olayı değil, sürmekte olan bir eylemi anlatır.",
+      "passageID": null
+    }
+  ]
+}

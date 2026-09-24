@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-comparatives-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Karşılaştırma Yapıları (Comparatives)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-comparatives-1",
+      "type": "grammarPoint",
+      "headword": "Comparatives",
+      "frequencyRank": 2024,
+      "baseDifficulty": 0.5,
+      "definition": "Üstünlük, en üstünlük, eşitlik ve derece belirteçleri ile temel karşılaştırma yapıları.",
+      "exampleSentences": [],
+      "translationTR": "Karşılaştırma Yapıları",
+      "collocations": [],
+      "explanationTR": "Karşılaştırmada iki işaret vardır: KISA sıfat + -er / the -est, UZUN sıfat + more / the most. İkisini birlikte kullanmak yanlıştır.\n\n• Karşılaştırma: faster than, more reliable than. En üstünlük: the fastest, the most reliable (the şarttır): This is the most reliable source of data.\n\n• Düzensizler: good → better → the best; bad → worse → the worst; far → farther/further; little → less → the least.\n\n• Eşitlik: as ... as; olumsuzda not as / so ... as: The new model is not as expensive as the old one.\n\n• Derece belirteçleri: much, far, considerably, slightly, a great deal + karşılaştırma. Very ve too karşılaştırma sıfatıyla kullanılmaz (very slower YANLIŞ).\n\n• one of the + en üstünlük + ÇOĞUL isim: one of the most influential economists.\n\n• fewer + sayılabilir çoğul, less + sayılamayan: fewer graduates, less money.\n\nÖrnek: The second trial produced worse results than the first."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-comparatives-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "Investment in renewable energy grew ---- than in any other sector last year.",
+      "options": [
+        "more fast",
+        "most fast",
+        "fastest",
+        "as fast",
+        "faster"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Tek heceli sıfat/zarf -er alır ve than ile birlikte gelir: faster than. (A) more fast ve (B) most fast kısa sıfatla kullanılmaz. (C) fastest en üstünlüktür ve than ile kullanılmaz. (D) as fast as kalıbı than ile birleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "This is ---- reliable source of data available to researchers in the field.",
+      "options": [
+        "most",
+        "the most",
+        "more",
+        "the more",
+        "much"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "En üstünlük the + most + sıfat ile kurulur: the most reliable. (A) most the ile birlikte gelmediği için kalıbı eksik bırakır. (C) more ve (D) the more iki kişi/şey karşılaştırır. (E) much karşılaştırma kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The second trial produced ---- results than the first, which had to be repeated.",
+      "options": [
+        "worse",
+        "worst",
+        "badder",
+        "more bad",
+        "the worse"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Bad düzensiz bir sıfattır: bad → worse → worst. Than ile karşılaştırma kurulur: worse than. (B) worst en üstünlüktür. (C) badder ve (D) more bad düzensiz sıfata düzenli ek getirir. (E) the worse than ile birleşmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The new model is not ---- expensive as the previous one, so demand is expected to rise.",
+      "options": [
+        "more",
+        "than",
+        "much",
+        "as",
+        "too"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Olumsuz eşitlik not as ... as ile kurulur: not as expensive as. (A) more ve (B) than ve (C) much ve (E) too bu kalıbı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The recovery has been ---- slower than economists had predicted.",
+      "options": [
+        "very",
+        "most",
+        "much",
+        "so",
+        "too"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Karşılaştırma sıfatının önüne much, far, considerably gibi derece belirteçleri gelir: much slower. (A) very ve (D) so ve (E) too karşılaştırma sıfatıyla kullanılmaz. (B) most en üstünlük kurar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "She is one of the ---- economists of her generation.",
+      "options": [
+        "most more influential",
+        "much influential",
+        "most influentially",
+        "very influential",
+        "most influential"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«One of the» ardından en üstünlük gelir: one of the most influential. (A) most more influential çift işaret kullanır. (B) much influential ve (D) very influential en üstünlük kurmaz. (C) most influentially sıfat yerine zarf kullanır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The company has recruited ---- graduates this year than last year.",
+      "options": [
+        "less",
+        "fewer",
+        "little",
+        "lesser",
+        "least"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Graduates sayılabilir çoğul bir addır; fewer kullanılır. (A) less sayılamayan adlarla kullanılır. (C) little sayılamayan adlarla kullanılır. (D) lesser ve (E) least than ile karşılaştırma kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-comparatives-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "Living costs in the capital are ---- higher than in rural areas.",
+      "options": [
+        "considerably",
+        "very",
+        "most",
+        "more",
+        "too"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Karşılaştırma sıfatını considerably ile pekiştirebilirsin: considerably higher. (B) very ve (E) too karşılaştırma sıfatıyla kullanılmaz. (C) most ve (D) more ise higher ile çift işaret oluşturur.",
+      "passageID": null
+    }
+  ]
+}

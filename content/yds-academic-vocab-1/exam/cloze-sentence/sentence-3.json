@@ -1,0 +1,181 @@
+{
+  "id": "yds-exam-sentence-3",
+  "estimatedDurationMinutes": 9,
+  "title": "Cümle Tamamlama 3: Zaman ve Amaç",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-exam-card-sentence-3",
+      "type": "practiceSet",
+      "headword": "Sentence Completion: Time and Purpose",
+      "frequencyRank": 3022,
+      "baseDifficulty": 0.6,
+      "definition": "Zaman, sıra ve amaç ilişkisine dayanan on cümle tamamlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Cümle Tamamlama 3: Zaman ve Amaç",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-sentence-3-q01",
+      "kind": "sentenceCompletion",
+      "order": 0,
+      "prompt": "The museum extended its opening hours so that ----.",
+      "options": [
+        "the exhibition would be closed earlier in the evening",
+        "fewer visitors had queued outside",
+        "the guards were able to leave early",
+        "tickets were made more expensive",
+        "more visitors could see the exhibition"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«So that» bir AMAÇ bildirir: çalışma saatleri uzatıldı, böylece daha fazla ziyaretçi sergiyi görebildi: (E). (A) ve (C) saatleri kısaltma sonucunu anlatır. (B) daha az ziyaretçi amaçla çelişir. (D) bilet fiyatı artışı saat uzatmanın amacı olamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q02",
+      "kind": "sentenceCompletion",
+      "order": 1,
+      "prompt": "The manager waited until ----.",
+      "options": [
+        "the last employee had left the building",
+        "the last employee leaves the building",
+        "the last employee will leave the building",
+        "the last employee is leaving the building",
+        "the last employee would have left the building"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Ana cümle geçmiş zamandadır (waited); önce biten eylem past perfect ile verilir: (A). (B) geniş zaman, (C) gelecek zaman ve (D) sürerlik anlamı geçmiş cümleyle uyuşmaz. (E) would have left koşullu bir anlam katar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q03",
+      "kind": "sentenceCompletion",
+      "order": 2,
+      "prompt": "Having reviewed all the evidence, ----.",
+      "options": [
+        "the evidence was reviewed by the panel for two hours",
+        "the conclusion seemed unfounded to everyone",
+        "the panel concluded that the claim was unfounded",
+        "a claim was found unfounded by the panel",
+        "it was clear to everyone that the claim was unfounded"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Ortaç cümleciğinin öznesi ana cümlenin öznesi olmalıdır; kanıtları inceleyen taraf panelidir: (C). (A), (B), (D) ve (E) cümlelerinin öznesi (evidence, conclusion, claim, it) incelemeyi yapan taraf olmadığı için sarkan ortaç oluşur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q04",
+      "kind": "sentenceCompletion",
+      "order": 3,
+      "prompt": "Once the funds have been transferred, ----.",
+      "options": [
+        "the project was able to start",
+        "the project will be able to start",
+        "the project had started",
+        "the project would start last week",
+        "the project has started"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Once» ile kurulan zaman yan cümleciğinde present perfect gelecek zamana referans verir; ana cümle gelecek zamandadır: (B). (A) ve (C) ile (E) geçmiş ya da tamamlanmış bir eylemdir. (D) «last week» ile çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q05",
+      "kind": "sentenceCompletion",
+      "order": 4,
+      "prompt": "The researchers repeated the experiment three times to ----.",
+      "options": [
+        "confirming that the result was not a coincidence",
+        "confirmed that the result was not a coincidence",
+        "being confirmed that the result was not a coincidence",
+        "confirm that the result was not a coincidence",
+        "have been confirming that the result was not a coincidence"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«To» sonrası yalın fiil gelir ve amaç bildirir: to confirm that ...: (D). (A) confirming ve (B) confirmed ve (C) being confirmed to'dan sonra kullanılamaz. (E) have been confirming, mastar edatından sonra yanlış bir biçimdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q06",
+      "kind": "sentenceCompletion",
+      "order": 5,
+      "prompt": "While the engineers were repairing the bridge, ----.",
+      "options": [
+        "the bridge had collapsed the following winter",
+        "traffic was diverted through the old town",
+        "the engineers had finished their work the day before",
+        "the repairs will be completed in spring",
+        "traffic had never been so light"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«While» eşzamanlı iki eylemi bağlar: mühendisler köprüyü onarırken trafik eski şehirden yönlendirildi: (B). (A) ve (C) ile (D) zaman ilişkisini bozar. (E) «never» ile kurulan bir karşılaştırmadır ve bu bağlamda anlamsızdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q07",
+      "kind": "sentenceCompletion",
+      "order": 6,
+      "prompt": "Before submitting the application, ----.",
+      "options": [
+        "applicants must check that every form has been signed",
+        "the form has been signed by every applicant",
+        "checking was done by every applicant",
+        "it is necessary that all forms had been checked by them",
+        "the deadline was extended by the office"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Ortaç cümleciğinin (submitting) öznesi ana cümlenin öznesi olmalıdır; başvuruyu yapan taraf başvuru sahipleridir: (A). (B) ve (C) ile (D) ve (E) öznesi başvuru yapan değildir (sarkan ortaç).",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q08",
+      "kind": "sentenceCompletion",
+      "order": 7,
+      "prompt": "She spoke quietly so as not to ----.",
+      "options": [
+        "waking the sleeping children",
+        "woken the sleeping children",
+        "wake the sleeping children",
+        "be woken the sleeping children",
+        "have woken the sleeping children"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«So as not to» kalıbından sonra yalın fiil gelir: so as not to wake ...: (C). (A) waking ve (B) woken kalıba uymaz. (D) be woken nesne almaz. (E) have woken geçmişe dönük bir mastardır ve amaçla çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q09",
+      "kind": "sentenceCompletion",
+      "order": 8,
+      "prompt": "The museum will lend the painting on condition that ----.",
+      "options": [
+        "it was returned in perfect condition last year",
+        "it will be returning in perfect condition",
+        "returning it in perfect condition",
+        "it has been returned yesterday",
+        "it is returned in perfect condition by the end of the year"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«On condition that» bir şart cümleciği başlatır ve gelecek referans için geniş zaman ya da edilgen yapı kullanılır: it is returned ...: (E). (A) geçmişe ait bir durumdur. (B) yapı olarak yanlıştır. (C) cümlecik değildir. (D) «yesterday» ile gelecek şartı çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-sentence-3-q10",
+      "kind": "sentenceCompletion",
+      "order": 9,
+      "prompt": "He revised the manuscript twice before ----.",
+      "options": [
+        "sent it to the publisher",
+        "he sending it to the publisher",
+        "to send it to the publisher",
+        "sending it to the publisher",
+        "was sent to the publisher"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Before» bir edat gibi kullanıldığında ardından V-ing gelir: before sending it: (D). (A) sent çekimli bir fiildir ve özne eksiktir. (B) he sending yapıyı bozar. (C) to send edat sonrası kullanılamaz. (E) was sent özneyi değiştirir.",
+      "passageID": null
+    }
+  ]
+}

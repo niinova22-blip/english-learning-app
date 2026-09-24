@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-modals-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Kipler (Modals)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-modals-1",
+      "type": "grammarPoint",
+      "headword": "Modals",
+      "frequencyRank": 2001,
+      "baseDifficulty": 0.5,
+      "definition": "Yetenek, zorunluluk, tahmin ve izin bildiren kip yardımcı fiilleri.",
+      "exampleSentences": [],
+      "translationTR": "Kipler",
+      "collocations": [],
+      "explanationTR": "Kip fiilleri (modals) tek başına anlam taşımaz; cümleye YETENEK, ZORUNLULUK, TAHMİN veya İZİN anlamı ekler. Hepsinin ardından yalın fiil gelir (to almaz).\n\n• Yetenek: can (şimdi), could (geçmişte genel yetenek), be able to (her zamanda çekilebilir). Geçmişte TEK bir seferlik başarı için could değil was/were able to kullanılır: After three attempts, the team was able to isolate the compound.\n\n• Zorunluluk: must konuşanın kendi kararıdır, have to dışarıdan gelen kuraldır. Geçmişte must'ın karşılığı yoktur; had to kullanılır.\n\n• En kritik ayrım: mustn't = YASAK, don't have to = GEREK YOK. Applicants mustn't submit two forms (yasak) ≠ Applicants don't have to submit two forms (isteğe bağlı). Gerek yok anlamı için needn't de kullanılır: You needn't print the ticket.\n\n• Öneri: should ve ought to eşdeğerdir; had better ise sonucu kötü olacak bir uyarıdır: You had better check the figures before the audit.\n\n• Tahmin: must be (kesin öyle), can't be (kesin değil), may/might/could be (olabilir). Olumsuz kesinlik için mustn't be DEĞİL can't be kullanılır.\n\nÖrnek: The building is empty at this hour, so the alarm can't be genuine."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-modals-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "Since the original samples had been contaminated, the researchers ---- repeat the entire experiment; there was simply no alternative.",
+      "options": [
+        "must",
+        "had to",
+        "should",
+        "could",
+        "might"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Cümle geçmişte gerçekleşmiş bir ZORUNLULUĞU anlatıyor ve «there was simply no alternative» bunu doğruluyor; must'ın geçmiş biçimi olmadığı için had to gerekir. (A) must yalnızca şimdiki zamanda zorunluluk bildirir, geçmişe çekilemez. (C) should zorunluluk değil ÖNERİ verir, oysa burada seçenek yok. (D) could yetenek/olasılık, (E) might ise ihtimal bildirir; ikisi de «başka çare yoktu» anlamını karşılamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "Although the storm had damaged the transmission equipment, the technicians ---- restore the connection within an hour.",
+      "options": [
+        "can",
+        "could",
+        "must",
+        "were able to",
+        "may"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Geçmişte TEK bir seferde başarılan bir eylemden söz ediliyor (restore the connection within an hour); bu durumda could değil was/were able to kullanılır. (A) can şimdiki zamana aittir. (B) could geçmişteki GENEL yeteneği anlatır, tek seferlik bir başarıyı değil. (C) must zorunluluk, (E) may ise izin ya da olasılık bildirir; ikisi de başarıyı anlatmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "Visitors to the archive ---- leave their bags at the desk, but they may do so if they wish; it is entirely optional.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "can't",
+        "shouldn't",
+        "couldn't"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«It is entirely optional» bir GEREKLİLİK OLMADIĞINI söylüyor; bunu karşılayan yapı don't have to'dur. (B) mustn't YASAK anlamı taşır ve «may do so if they wish» ile çelişir. (C) can't da yasak/imkânsızlık bildirir. (D) shouldn't tavsiye edilmeme anlamındadır, isteğe bağlılığı ifade etmez. (E) couldn't geçmişteki yeteneksizliği anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "Passengers ---- use mobile phones during take-off; this rule is strictly enforced for safety reasons.",
+      "options": [
+        "don't have to",
+        "needn't",
+        "mustn't",
+        "may",
+        "can"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Strictly enforced» bir YASAKTAN söz ettiğini gösterir; yasak için mustn't kullanılır. (A) don't have to ve (B) needn't «gerek yok» anlamına gelir, yani telefon kullanmak serbest olur; bu, kuralın sıkı uygulanmasıyla çelişir. (D) may ve (E) can izin bildirir; verilen anlamın tam tersidir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "You ---- submit the application before the deadline, or the committee will reject it.",
+      "options": [
+        "can",
+        "might",
+        "could",
+        "would",
+        "had better"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Or the committee will reject it» olumsuz bir SONUCU belirtir; sonucu kötü olacak bir uyarı had better ile verilir. (A) can ve (C) could yetenek ya da olasılık bildirir, uyarı vermez. (B) might yalnızca zayıf bir olasılıktır. (D) would koşula bağlı ya da geçmişteki alışkanlık için kullanılır ve buradaki uyarı anlamını taşımaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The fingerprints do not match those on the weapon, so the suspect ---- the person who committed the crime.",
+      "options": [
+        "mustn't be",
+        "can't be",
+        "may be",
+        "should be",
+        "needn't be"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Elde bir kanıt var (parmak izleri uyuşmuyor) ve sonuç KESİN OLUMSUZ bir tahmindir: can't be. (A) mustn't be tahmin değil YASAK bildirir; olumsuz kesinlik için kullanılmaz. (C) may be ve (D) should be kanıtla çelişen olumlu bir olasılık verir. (E) needn't be gereksizlik anlamı taşır, tahmin değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The lights are on and the engine is still warm, so the owner ---- be somewhere nearby.",
+      "options": [
+        "can't",
+        "needn't",
+        "might not",
+        "must",
+        "shouldn't"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Işıklar yanıyor ve motor hâlâ sıcak; bu kanıtlar KESİN OLUMLU bir tahmin doğurur: must be. (A) can't be kesin olumsuzluktur, kanıtla çelişir. (C) might not olumsuz bir olasılıktır. (B) needn't gereksizlik, (E) shouldn't ise tavsiye edilmeme anlamı taşır; ikisi de tahmin bildirmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "Passengers holding an electronic ticket ---- print it; the scanner reads it directly from the phone.",
+      "options": [
+        "needn't",
+        "mustn't",
+        "can't",
+        "shouldn't",
+        "wouldn't"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Tarayıcı bileti doğrudan telefondan okuduğu için basılı bilet GEREKMİYOR: needn't (= don't have to). (B) mustn't yasak anlamı taşır; cümlede yasağı destekleyen bir bilgi yok. (C) can't imkânsızlık bildirir, oysa bilet basılabilir. (D) shouldn't ve (E) wouldn't gerekliliğin olmadığını değil, tavsiye edilmeme ya da varsayım anlamını verir.",
+      "passageID": null
+    }
+  ]
+}

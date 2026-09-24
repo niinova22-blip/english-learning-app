@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-inversion-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Devrik Yapı ve Vurgu (Inversion & Emphasis)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-inversion-1",
+      "type": "grammarPoint",
+      "headword": "Inversion & Emphasis",
+      "frequencyRank": 2018,
+      "baseDifficulty": 0.5,
+      "definition": "Olumsuz ve kısıtlayıcı zarflarla başlayan cümlelerde devrik söz dizimi.",
+      "exampleSentences": [],
+      "translationTR": "Devrik Yapı ve Vurgu",
+      "collocations": [],
+      "explanationTR": "Vurgu için olumsuz ya da kısıtlayıcı bir zarf cümlenin başına alınırsa, ardından gelen cümlecikte SORU SIRASI kullanılır: yardımcı fiil + özne + fiil.\n\n• Olumsuz zarflar: Never, Rarely, Seldom, Little, At no time, Under no circumstances, On no account, Not until, Nowhere. Never before had the country experienced such a decline. Under no circumstances may employees disclose client data.\n\n• Yardımcı fiil yoksa do / does / did eklenir ve fiil yalın kalır: Not until the audit was complete did the board realise the losses. (realised DEĞİL.)\n\n• Hardly / Scarcely had ... when, No sooner had ... than: Hardly had the law come into force when firms began to exploit it.\n\n• Only after / Only when / Only by / Only if / Only then + DEVRİK ANA CÜMLE: Only by cutting costs was the company able to return to profit. Devrik sıra ana cümlededir, only'li kısımda değildir.\n\n• Not only ... but also: ilk cümlecik devrik olur: Not only did the report correct the estimate, but it also revised the forecast.\n\nÖrnek: Little did the minister suspect that the decision would trigger a national strike."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-inversion-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "Never before ---- such a rapid decline in consumer confidence.",
+      "options": [
+        "the country had experienced",
+        "did the country experienced",
+        "the country experienced",
+        "had the country experienced",
+        "experienced the country"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Never before» olumsuz bir zarftır; ardından yardımcı fiil + özne + fiil sırası gelir: had the country experienced. (A) the country had experienced ve (C) the country experienced düz cümle sırasıdır. (B) did the country experienced yardımcı fiilden sonra geçmiş fiil kullandığı için yanlıştır. (E) experienced the country yardımcı fiili düşürür.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "Under no circumstances ---- confidential client information to third parties.",
+      "options": [
+        "may employees disclose",
+        "employees may disclose",
+        "employees disclose",
+        "do employees to disclose",
+        "disclose employees may"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Under no circumstances» olumsuz bir zarf öbeğidir; ardından kip fiili + özne + fiil sırası gelir: may employees disclose. (B) employees may disclose ve (C) employees disclose düz cümle sırasıdır. (D) do employees to disclose ve (E) disclose employees may kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "Not until the audit was complete ---- the true scale of the losses.",
+      "options": [
+        "the board realised",
+        "realised the board",
+        "did the board realise",
+        "the board did realise",
+        "did the board realised"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Not until ...» ile başlayan cümlede devrik sıra ANA cümlededir: did the board realise (yardımcı fiil + özne + yalın fiil). (A) the board realised düz sıradır. (B) realised the board yardımcı fiili düşürür. (D) the board did realise vurgu yapar ama devrik sıra değildir. (E) did the board realised yardımcı fiilden sonra geçmiş fiil kullanır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "Hardly ---- the new law come into force when several firms began to exploit its loopholes.",
+      "options": [
+        "has",
+        "would",
+        "was",
+        "is",
+        "had"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Hardly ... when» kalıbında ilk kısım past perfect'tir ve had başa geçer: Hardly had the new law come into force when ... (A) has present perfect'tir ve «began» ile uyuşmaz. (B) would, (C) was ve (D) is come ile V3 kalıbı kurmaz; come ise had ile V3 olarak birleşir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "Only after the results had been verified ---- the findings to the press.",
+      "options": [
+        "the researchers released",
+        "did the researchers release",
+        "released the researchers",
+        "the researchers did release",
+        "had the researchers release"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Only after ...» ile başlayan cümlede devrik sıra ANA cümlededir: did the researchers release. (A) the researchers released düz sıradır. (C) released the researchers yardımcı fiili düşürür. (D) the researchers did release yalnızca vurgu yapar. (E) had the researchers release doğru bir zaman kalıbı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "Only by cutting costs drastically ---- to return to profitability.",
+      "options": [
+        "the company was able",
+        "was able the company",
+        "the company able was",
+        "was the company able",
+        "able was the company"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Only by ...» ile başlayan cümlede ana cümle devrik olur: was the company able. (A) the company was able düz sıradır. (B) was able the company ve (C) the company able was ile (E) able was the company sıra kuralını bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "Not only ---- the earlier estimate, but the agency also revised its growth forecast.",
+      "options": [
+        "did the report correct",
+        "the report corrected",
+        "corrected the report",
+        "the report did correct",
+        "did correct the report"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Not only» ile başlayan ilk cümlecik devrik olur: did the report correct. (B) the report corrected düz sıradır. (C) corrected the report yardımcı fiili düşürür. (D) the report did correct yalnızca vurgu yapar. (E) did correct the report özneyi yanlış yere koyar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "Little ---- that the decision would trigger a national strike.",
+      "options": [
+        "the minister suspected",
+        "suspected the minister",
+        "did the minister suspect",
+        "the minister did suspect",
+        "did suspect the minister"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Little» olumsuz anlamlı bir zarftır (= hiç sezmedi); ardından did + özne + yalın fiil gelir: did the minister suspect. (A) the minister suspected düz sıradır. (B) suspected the minister yardımcı fiili düşürür. (D) the minister did suspect vurgu yapar ama devrik değildir. (E) did suspect the minister özneyi yanlış yere koyar.",
+      "passageID": null
+    }
+  ]
+}

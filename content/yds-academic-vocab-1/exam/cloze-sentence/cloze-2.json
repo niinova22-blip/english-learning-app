@@ -1,0 +1,154 @@
+{
+  "id": "yds-exam-cloze-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Cloze Test: Çift Dilli Eğitim",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-cloze-2",
+    "title": "Bilingual Education",
+    "body": "Bilingual education programmes divide opinion. Critics argue (1)---- children taught in two languages at once fall behind in both, and that time spent on the minority language is time lost for mastering the majority one. The available evidence does not support this fear. Studies that followed pupils over several years found that, although bilingual children sometimes lagged (2)---- their monolingual classmates in early vocabulary tests, they caught up by the age of ten and often surpassed them in tasks requiring attention control. (3)---- researchers believe that switching between languages exercises the brain in a way that strengthens general cognitive skills. Not (4)---- the benefits are academic. Children who keep their home language remain able to communicate with grandparents and to draw on the cultural heritage of their families, (5)---- helps them to feel secure in their identity. Programmes nevertheless vary greatly in quality. Success depends on how well teachers are trained, how (6)---- time is devoted to each language, and whether parents are involved. A poorly designed programme can (7)---- more harm than good, which is why administrators should evaluate results carefully before they (8)---- a scheme across an entire school system."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-cloze-2",
+      "type": "practiceSet",
+      "headword": "Cloze: Bilingual Education",
+      "frequencyRank": 3011,
+      "baseDifficulty": 0.55,
+      "definition": "Çift dilli eğitim üzerine sekiz boşluklu bir cloze testi; isim cümleciği, niceleyici ve kalıp soruları.",
+      "exampleSentences": [],
+      "translationTR": "Cloze Test: Çift Dilli Eğitim",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-cloze-2-q01",
+      "kind": "cloze",
+      "order": 0,
+      "prompt": "Critics argue (1) ---- children taught in two languages at once fall behind in both.",
+      "options": [
+        "what",
+        "whether",
+        "which",
+        "how",
+        "that"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Argue» fiilinden sonra öğeleri tam bir görüş cümlesi gelir ve bunu that bağlar: (E). (A) what eksik bir öğe ister. (B) whether «olup olmadığı» anlamı katar ve iddiayı zayıflatır. (C) which bir ada gönderme yapar. (D) how yöntem sorar, iddia bildirmez.",
+      "passageID": "yds-exam-passage-cloze-2"
+    },
+    {
+      "id": "yds-exam-cloze-2-q02",
+      "kind": "cloze",
+      "order": 1,
+      "prompt": "Although bilingual children sometimes lagged (2) ---- their monolingual classmates in early vocabulary tests, they caught up by the age of ten.",
+      "options": [
+        "after",
+        "under",
+        "behind",
+        "below",
+        "against"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Lag behind» (= geride kalmak) sabit bir kalıptır: (C). (A) after, (B) under, (D) below ve (E) against bu fiille kullanılmaz.",
+      "passageID": "yds-exam-passage-cloze-2"
+    },
+    {
+      "id": "yds-exam-cloze-2-q03",
+      "kind": "cloze",
+      "order": 2,
+      "prompt": "(3) ---- researchers believe that switching between languages exercises the brain.",
+      "options": [
+        "Some",
+        "Much",
+        "Every",
+        "Little",
+        "Any"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Çoğul ad (researchers) ve çoğul fiil (believe) belirsiz bir grubu bildiren niceleyici ister: (A). (B) Much ve (D) Little sayılamayan adlarla kullanılır. (C) Every tekil ad ister. (E) Any olumlu cümlede bu anlamı kurmaz.",
+      "passageID": "yds-exam-passage-cloze-2"
+    },
+    {
+      "id": "yds-exam-cloze-2-q04",
+      "kind": "cloze",
+      "order": 3,
+      "prompt": "Not (4) ---- the benefits are academic.",
+      "options": [
+        "every",
+        "each",
+        "any",
+        "all",
+        "both"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Not all the benefits» yarı olumsuz bir kalıptır ve «bütün yararlar değil» anlamı verir: (D). (A) every ve (B) each tekil ad ister. (C) any bu kalıpta kullanılmaz. (E) both yalnızca iki şey için geçerlidir.",
+      "passageID": "yds-exam-passage-cloze-2"
+    },
+    {
+      "id": "yds-exam-cloze-2-q05",
+      "kind": "cloze",
+      "order": 4,
+      "prompt": "Children can draw on the cultural heritage of their families, (5) ---- helps them to feel secure in their identity.",
+      "options": [
+        "what",
+        "which",
+        "that",
+        "who",
+        "it"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Virgülden sonra gelen which, önceki cümlenin tamamına gönderme yapar: (B). (A) what önceki bir cümleye gönderme yapmaz. (C) that virgülden sonra kullanılamaz. (D) who kişiler içindir. (E) it bağlaç görevi görmez, iki cümleyi virgülle birleştirir.",
+      "passageID": "yds-exam-passage-cloze-2"
+    },
+    {
+      "id": "yds-exam-cloze-2-q06",
+      "kind": "cloze",
+      "order": 5,
+      "prompt": "Success depends on how (6) ---- time is devoted to each language.",
+      "options": [
+        "many",
+        "some",
+        "any",
+        "enough",
+        "much"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Time» sayılamayan bir addır; miktar sorusu how much ile kurulur: (E). (A) many sayılabilir çoğul adlarla kullanılır. (B) some ve (C) any «how» ile miktar sormaz. (D) enough «how» ile birleşmez.",
+      "passageID": "yds-exam-passage-cloze-2"
+    },
+    {
+      "id": "yds-exam-cloze-2-q07",
+      "kind": "cloze",
+      "order": 6,
+      "prompt": "A poorly designed programme can (7) ---- more harm than good.",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "give",
+        "have"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Do harm» sabit bir kalıptır; do more harm than good (= yarardan çok zarar vermek): (A). (B) make, (C) take, (D) give ve (E) have «harm» ile bu kalıbı kurmaz.",
+      "passageID": "yds-exam-passage-cloze-2"
+    },
+    {
+      "id": "yds-exam-cloze-2-q08",
+      "kind": "cloze",
+      "order": 7,
+      "prompt": "Administrators should evaluate results carefully before they (8) ---- a scheme across an entire school system.",
+      "options": [
+        "will adopt",
+        "adopted",
+        "adopt",
+        "are adopting",
+        "would adopt"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Before» ile kurulan zaman yan cümleciğinde gelecek için geniş zaman kullanılır ve will kullanılmaz: (C). (A) will adopt ve (E) would adopt zaman cümleciğinde yanlıştır. (B) adopted geçmiş zamandır. (D) are adopting sürerlik bildirir, kalıba uymaz.",
+      "passageID": "yds-exam-passage-cloze-2"
+    }
+  ]
+}

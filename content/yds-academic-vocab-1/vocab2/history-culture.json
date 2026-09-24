@@ -1,0 +1,1189 @@
+{
+  "id": "yds-vocab2-unit-history-culture",
+  "theme": "History & Culture",
+  "order": 20,
+  "lessons": [
+    {
+      "id": "yds-vocab2-lesson-history-culture-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-history",
+          "type": "vocabulary",
+          "headword": "history",
+          "frequencyRank": 340,
+          "baseDifficulty": 0.21,
+          "definition": "Geçmişte yaşanmış olayların bütünü ve bu olayların bilimsel olarak incelenmesi.",
+          "exampleSentences": [
+            "The museum's new exhibition traces the history of the region over three thousand years.",
+            "Many local histories were written by amateur enthusiasts long before universities took an interest.",
+            "Her thesis examines how colonial history shaped modern political borders."
+          ],
+          "translationTR": "tarih",
+          "collocations": [
+            "ancient history",
+            "a history of",
+            "make history"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ancient",
+          "type": "vocabulary",
+          "headword": "ancient",
+          "frequencyRank": 341,
+          "baseDifficulty": 0.22,
+          "definition": "Çok eski çağlarda var olmuş veya o döneme ait olan.",
+          "exampleSentences": [
+            "Ancient trade networks connected Egypt with distant lands.",
+            "The city was built on the ruins of an ancient settlement.",
+            "Scholars study ancient texts to understand early belief systems."
+          ],
+          "translationTR": "eski, antik çağa ait",
+          "collocations": [
+            "ancient civilisation",
+            "ancient ruins",
+            "ancient times"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-empire",
+          "type": "vocabulary",
+          "headword": "empire",
+          "frequencyRank": 342,
+          "baseDifficulty": 0.23,
+          "definition": "Bir hükümdarın veya devletin yönetimi altında birleşmiş, genellikle birden fazla halkı ve geniş toprakları kapsayan siyasi yapı.",
+          "exampleSentences": [
+            "At its height, the empire stretched across three continents.",
+            "Historians argue about what caused the empire's sudden collapse.",
+            "The emperor expanded his empire through a series of conquests."
+          ],
+          "translationTR": "imparatorluk",
+          "collocations": [
+            "vast empire",
+            "empire builder",
+            "the fall of the empire"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-war",
+          "type": "vocabulary",
+          "headword": "war",
+          "frequencyRank": 343,
+          "baseDifficulty": 0.24,
+          "definition": "İki veya daha fazla taraf arasında silahlı çatışma yoluyla yürütülen mücadele.",
+          "exampleSentences": [
+            "The war lasted for nearly a decade and reshaped the continent's borders.",
+            "Diplomats tried to prevent the war through last-minute negotiations.",
+            "Entire villages were destroyed during the war."
+          ],
+          "translationTR": "savaş",
+          "collocations": [
+            "declare war",
+            "war broke out",
+            "the aftermath of war"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-revolution",
+          "type": "vocabulary",
+          "headword": "revolution",
+          "frequencyRank": 344,
+          "baseDifficulty": 0.25,
+          "definition": "Bir toplumun siyasi, ekonomik veya sosyal düzenini kökten değiştiren ani ve köklü değişim.",
+          "exampleSentences": [
+            "The revolution overthrew the monarchy within a matter of months.",
+            "Economic hardship was one of the main triggers of the revolution.",
+            "The country never fully recovered from the chaos of the revolution."
+          ],
+          "translationTR": "devrim, ihtilal",
+          "collocations": [
+            "spark a revolution",
+            "the outbreak of revolution",
+            "lead a revolution"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-century",
+          "type": "vocabulary",
+          "headword": "century",
+          "frequencyRank": 345,
+          "baseDifficulty": 0.26,
+          "definition": "Yüz yıllık zaman dilimi.",
+          "exampleSentences": [
+            "The cathedral took almost a century to complete.",
+            "By the turn of the century, the empire had lost most of its territory.",
+            "Attitudes toward women changed dramatically over the following century."
+          ],
+          "translationTR": "yüzyıl",
+          "collocations": [
+            "turn of the century",
+            "for centuries",
+            "the 19th century"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-heritage",
+          "type": "vocabulary",
+          "headword": "heritage",
+          "frequencyRank": 346,
+          "baseDifficulty": 0.27,
+          "definition": "Bir toplumun geçmişten devraldığı ve gelecek kuşaklara aktardığı kültürel, tarihi ve doğal miras.",
+          "exampleSentences": [
+            "The old town was declared a UNESCO World Heritage site.",
+            "Many young people are rediscovering pride in their cultural heritage.",
+            "The festival celebrates the region's rich musical heritage."
+          ],
+          "translationTR": "miras, kültürel miras",
+          "collocations": [
+            "cultural heritage",
+            "heritage site",
+            "national heritage"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-monument",
+          "type": "vocabulary",
+          "headword": "monument",
+          "frequencyRank": 347,
+          "baseDifficulty": 0.28,
+          "definition": "Önemli bir kişiyi veya olayı anmak için inşa edilmiş büyük yapı.",
+          "exampleSentences": [
+            "A stone monument was erected to honour the fallen soldiers.",
+            "Tourists gather every morning to photograph the ancient monument.",
+            "The city council voted to restore the crumbling monument."
+          ],
+          "translationTR": "anıt",
+          "collocations": [
+            "erect a monument",
+            "national monument",
+            "monument to"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-museum",
+          "type": "vocabulary",
+          "headword": "museum",
+          "frequencyRank": 348,
+          "baseDifficulty": 0.29,
+          "definition": "Tarihi, sanatsal veya bilimsel değeri olan eserlerin toplanıp sergilendiği kurum.",
+          "exampleSentences": [
+            "The museum's new wing houses artefacts from the Bronze Age.",
+            "She spent the whole afternoon wandering through the history museum.",
+            "The museum acquired a rare collection of medieval coins."
+          ],
+          "translationTR": "müze",
+          "collocations": [
+            "visit a museum",
+            "museum exhibit",
+            "national museum"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-artefact",
+          "type": "vocabulary",
+          "headword": "artefact",
+          "frequencyRank": 349,
+          "baseDifficulty": 0.3,
+          "definition": "Geçmiş bir dönemden kalan ve insan eliyle yapılmış tarihi nesne.",
+          "exampleSentences": [
+            "Archaeologists unearthed several artefacts dating back to the Bronze Age.",
+            "Each artefact in the collection tells a story about daily life centuries ago.",
+            "The stolen artefact was eventually returned to the national museum."
+          ],
+          "translationTR": "tarihi eser, arkeolojik buluntu",
+          "collocations": [
+            "ancient artefact",
+            "recover an artefact",
+            "artefact collection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-history-culture-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-civilisation",
+          "type": "vocabulary",
+          "headword": "civilisation",
+          "frequencyRank": 350,
+          "baseDifficulty": 0.31,
+          "definition": "Gelişmiş bir toplum düzeni, kurumları ve kültürüyle tanımlanan uygar toplum yapısı.",
+          "exampleSentences": [
+            "The Nile made it possible for a great civilisation to flourish in the desert.",
+            "Historians trace the collapse of the civilisation to a series of droughts.",
+            "Trade allowed ideas to spread rapidly between neighbouring civilisations."
+          ],
+          "translationTR": "uygarlık, medeniyet",
+          "collocations": [
+            "ancient civilisation",
+            "the rise of civilisation",
+            "collapse of a civilisation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dynasty",
+          "type": "vocabulary",
+          "headword": "dynasty",
+          "frequencyRank": 351,
+          "baseDifficulty": 0.32,
+          "definition": "Aynı ailenin kuşaklar boyunca hükümdarlık yaptığı yönetim dönemi.",
+          "exampleSentences": [
+            "The dynasty ruled the kingdom for over three hundred years.",
+            "A palace coup brought the dynasty to a sudden end.",
+            "Each new ruler of the dynasty added to the capital's grand monuments."
+          ],
+          "translationTR": "hanedan",
+          "collocations": [
+            "ruling dynasty",
+            "founder of the dynasty",
+            "dynasty collapsed"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-colony",
+          "type": "vocabulary",
+          "headword": "colony",
+          "frequencyRank": 352,
+          "baseDifficulty": 0.33,
+          "definition": "Bir devletin, kendi topraklarının dışında kurduğu ve genellikle siyasi olarak bağımlı tuttuğu yerleşim veya bölge.",
+          "exampleSentences": [
+            "The colony relied heavily on trade with its mother country.",
+            "Settlers established the colony along the coast in the seventeenth century.",
+            "Growing resentment eventually pushed the colony toward independence."
+          ],
+          "translationTR": "koloni, sömürge",
+          "collocations": [
+            "establish a colony",
+            "a penal colony",
+            "former colony"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-invasion",
+          "type": "vocabulary",
+          "headword": "invasion",
+          "frequencyRank": 353,
+          "baseDifficulty": 0.34,
+          "definition": "Bir ülkenin veya bölgenin başka bir güç tarafından silah zoruyla ele geçirilmeye çalışılması.",
+          "exampleSentences": [
+            "The invasion caught the kingdom's defences completely unprepared.",
+            "Historians still argue over what triggered the invasion.",
+            "Villagers fled inland to escape the advancing invasion force."
+          ],
+          "translationTR": "istila, işgal",
+          "collocations": [
+            "repel an invasion",
+            "invasion force",
+            "the threat of invasion"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-conquest",
+          "type": "vocabulary",
+          "headword": "conquest",
+          "frequencyRank": 354,
+          "baseDifficulty": 0.35,
+          "definition": "Bir toprağın veya halkın savaş yoluyla ele geçirilmesi.",
+          "exampleSentences": [
+            "The conquest of the region took nearly two decades to complete.",
+            "His military conquests doubled the size of the empire.",
+            "The conquest brought new languages and customs to the area."
+          ],
+          "translationTR": "fetih, ele geçirme",
+          "collocations": [
+            "military conquest",
+            "conquest of",
+            "swift conquest"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-treaty",
+          "type": "vocabulary",
+          "headword": "treaty",
+          "frequencyRank": 355,
+          "baseDifficulty": 0.36,
+          "definition": "İki veya daha fazla devlet arasında imzalanan resmi anlaşma.",
+          "exampleSentences": [
+            "The two nations finally signed a peace treaty after years of conflict.",
+            "The treaty redrew the borders of several Central European states.",
+            "Negotiators spent months drafting the terms of the treaty."
+          ],
+          "translationTR": "antlaşma",
+          "collocations": [
+            "sign a treaty",
+            "peace treaty",
+            "treaty negotiations"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-medieval",
+          "type": "vocabulary",
+          "headword": "medieval",
+          "frequencyRank": 356,
+          "baseDifficulty": 0.37,
+          "definition": "Avrupa tarihinde yaklaşık beşinci ve on beşinci yüzyıllar arasındaki döneme, yani Orta Çağ'a ait olan.",
+          "exampleSentences": [
+            "The town's medieval walls are still remarkably well preserved.",
+            "Medieval scholars copied ancient texts by hand in monasteries.",
+            "The novel is set against the backdrop of medieval Europe."
+          ],
+          "translationTR": "Orta Çağ'a ait, ortaçağ",
+          "collocations": [
+            "medieval castle",
+            "medieval Europe",
+            "medieval manuscript"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-monarchy",
+          "type": "vocabulary",
+          "headword": "monarchy",
+          "frequencyRank": 357,
+          "baseDifficulty": 0.38,
+          "definition": "Devlet başkanlığının kalıtım yoluyla bir hükümdara geçtiği yönetim biçimi.",
+          "exampleSentences": [
+            "The country abolished the monarchy after the revolution.",
+            "Support for the monarchy has declined among younger generations.",
+            "Under the monarchy, all major decisions required the king's approval."
+          ],
+          "translationTR": "monarşi, krallık yönetimi",
+          "collocations": [
+            "abolish the monarchy",
+            "constitutional monarchy",
+            "restore the monarchy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-archaeology",
+          "type": "vocabulary",
+          "headword": "archaeology",
+          "frequencyRank": 358,
+          "baseDifficulty": 0.39,
+          "definition": "Geçmiş toplumları kalıntılar ve eserler aracılığıyla inceleyen bilim dalı.",
+          "exampleSentences": [
+            "She studied archaeology before joining the excavation team in Anatolia.",
+            "Advances in archaeology have revealed much about early farming communities.",
+            "The department funds several archaeology projects across the region."
+          ],
+          "translationTR": "arkeoloji",
+          "collocations": [
+            "study archaeology",
+            "archaeology department",
+            "field of archaeology"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-chronicle",
+          "type": "vocabulary",
+          "headword": "chronicle",
+          "frequencyRank": 359,
+          "baseDifficulty": 0.4,
+          "definition": "Olayları oluş sırasına göre kaydeden yazılı tarihi kayıt.",
+          "exampleSentences": [
+            "The monk's chronicle remains one of the few records of the period.",
+            "Her latest book chronicles the rise and fall of the dynasty.",
+            "The medieval chronicle describes the siege in vivid detail."
+          ],
+          "translationTR": "vakayiname, tarihsel kayıt; (fiil) kaydetmek, tarihini yazmak",
+          "collocations": [
+            "medieval chronicle",
+            "chronicle of events",
+            "chronicle the rise of"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-history-culture-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-renaissance",
+          "type": "vocabulary",
+          "headword": "renaissance",
+          "frequencyRank": 360,
+          "baseDifficulty": 0.41,
+          "definition": "On dördüncü yüzyılda İtalya'da başlayıp Avrupa'ya yayılan, sanat ve bilimde büyük bir canlanmaya yol açan dönem.",
+          "exampleSentences": [
+            "The Renaissance transformed painting through the use of perspective.",
+            "Wealthy merchants funded much of the art produced during the Renaissance.",
+            "Historians see the Renaissance as a bridge between medieval and modern Europe."
+          ],
+          "translationTR": "Rönesans",
+          "collocations": [
+            "the Renaissance period",
+            "Renaissance art",
+            "Italian Renaissance"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-reformation",
+          "type": "vocabulary",
+          "headword": "reformation",
+          "frequencyRank": 361,
+          "baseDifficulty": 0.42,
+          "definition": "On altıncı yüzyılda Avrupa'da Katolik Kilisesi'ne karşı başlayan ve Protestanlığın doğmasına yol açan dinsel yenilenme hareketi.",
+          "exampleSentences": [
+            "The Reformation split the Christian church into rival factions.",
+            "Printing presses helped spread the ideas of the Reformation across Europe.",
+            "The Reformation had lasting political as well as religious consequences."
+          ],
+          "translationTR": "Reform (Protestan Reformasyonu), dinsel yenilenme hareketi",
+          "collocations": [
+            "the Protestant Reformation",
+            "spread of the Reformation",
+            "leaders of the Reformation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-feudal",
+          "type": "vocabulary",
+          "headword": "feudal",
+          "frequencyRank": 362,
+          "baseDifficulty": 0.43,
+          "definition": "Toprak sahibi soyluların hizmet ve sadakat karşılığında köylülere toprak tahsis ettiği ortaçağ düzenine ait olan.",
+          "exampleSentences": [
+            "Under the feudal system, peasants worked the land in exchange for protection.",
+            "The lord's feudal obligations included providing soldiers in times of war.",
+            "Historians describe how feudal ties bound peasants to their lords."
+          ],
+          "translationTR": "feodal",
+          "collocations": [
+            "feudal system",
+            "feudal lord",
+            "feudal obligations"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-industrial",
+          "type": "vocabulary",
+          "headword": "industrial",
+          "frequencyRank": 363,
+          "baseDifficulty": 0.44,
+          "definition": "Fabrikalarda makineleşmiş üretime dayalı sanayi faaliyetleriyle ilgili olan.",
+          "exampleSentences": [
+            "The industrial revolution transformed small towns into crowded factory cities.",
+            "New industrial techniques dramatically increased textile production.",
+            "The region's economy still depends heavily on industrial output."
+          ],
+          "translationTR": "sanayiye ait, endüstriyel",
+          "collocations": [
+            "industrial revolution",
+            "industrial output",
+            "an industrial town"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-migration",
+          "type": "vocabulary",
+          "headword": "migration",
+          "frequencyRank": 364,
+          "baseDifficulty": 0.45,
+          "definition": "İnsanların veya toplulukların bir yerden başka bir yere, genellikle kalıcı olarak yerleşmek üzere göç etmesi.",
+          "exampleSentences": [
+            "Mass migration reshaped the population of the region within a generation.",
+            "Drought was one of the main causes of the migration.",
+            "The chronicle records the migration of entire tribes westward."
+          ],
+          "translationTR": "göç",
+          "collocations": [
+            "mass migration",
+            "wave of migration",
+            "pattern of migration"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-nationalism",
+          "type": "vocabulary",
+          "headword": "nationalism",
+          "frequencyRank": 365,
+          "baseDifficulty": 0.46,
+          "definition": "Bir ulusun bağımsızlığını, birliğini ve çıkarlarını her şeyin üstünde tutan siyasi görüş.",
+          "exampleSentences": [
+            "Rising nationalism fuelled demands for independence across the empire.",
+            "The war intensified nationalism among the occupied population.",
+            "Historians debate whether nationalism caused or merely accelerated the empire's collapse."
+          ],
+          "translationTR": "milliyetçilik",
+          "collocations": [
+            "rise of nationalism",
+            "fuel nationalism",
+            "wave of nationalism"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ideology",
+          "type": "vocabulary",
+          "headword": "ideology",
+          "frequencyRank": 366,
+          "baseDifficulty": 0.47,
+          "definition": "Bir toplumsal veya siyasi grubun eylemlerine yön veren fikir ve inançlar bütünü.",
+          "exampleSentences": [
+            "The new regime imposed its ideology on schools and the press alike.",
+            "Competing ideologies divided the country during the Cold War.",
+            "The revolution was driven as much by ideology as by economic hardship."
+          ],
+          "translationTR": "ideoloji",
+          "collocations": [
+            "political ideology",
+            "impose an ideology",
+            "clash of ideologies"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-propaganda",
+          "type": "vocabulary",
+          "headword": "propaganda",
+          "frequencyRank": 367,
+          "baseDifficulty": 0.48,
+          "definition": "Belirli bir görüşü yaymak veya kabul ettirmek amacıyla üretilen, genellikle yanıltıcı bilgi.",
+          "exampleSentences": [
+            "The regime used propaganda to justify the invasion to its own citizens.",
+            "Wartime propaganda portrayed the enemy as a direct threat to the homeland.",
+            "Posters were one of the most effective tools of propaganda."
+          ],
+          "translationTR": "propaganda",
+          "collocations": [
+            "state propaganda",
+            "propaganda poster",
+            "spread propaganda"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ritual",
+          "type": "vocabulary",
+          "headword": "ritual",
+          "frequencyRank": 368,
+          "baseDifficulty": 0.49,
+          "definition": "Belirli bir düzene göre yapılan, genellikle sembolik anlam taşıyan ve tekrar eden tören veya uygulama.",
+          "exampleSentences": [
+            "The harvest ritual has been performed in the village for centuries.",
+            "Anthropologists studied the tribe's burial rituals in detail.",
+            "Every coronation followed the same ancient ritual."
+          ],
+          "translationTR": "ritüel, tören",
+          "collocations": [
+            "religious ritual",
+            "ancient ritual",
+            "perform a ritual"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-folklore",
+          "type": "vocabulary",
+          "headword": "folklore",
+          "frequencyRank": 369,
+          "baseDifficulty": 0.5,
+          "definition": "Bir toplumun kuşaktan kuşağa sözlü olarak aktardığı efsane, masal ve gelenekler bütünü.",
+          "exampleSentences": [
+            "The dragon appears frequently in the region's folklore.",
+            "Local folklore attributes the ruins to a forgotten king.",
+            "She collected folklore from villages across the mountains."
+          ],
+          "translationTR": "halk bilimi, folklor",
+          "collocations": [
+            "local folklore",
+            "figure in folklore",
+            "collect folklore"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-history-culture-4",
+      "order": 3,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-pilgrimage",
+          "type": "vocabulary",
+          "headword": "pilgrimage",
+          "frequencyRank": 370,
+          "baseDifficulty": 0.51,
+          "definition": "Dini veya manevi bir amaçla kutsal sayılan bir yere yapılan yolculuk.",
+          "exampleSentences": [
+            "Thousands of believers undertake the pilgrimage to the shrine each year.",
+            "The medieval pilgrimage often took several months to complete on foot.",
+            "Her book describes a pilgrimage across three countries."
+          ],
+          "translationTR": "hac, hac yolculuğu (dini amaçlı ziyaret)",
+          "collocations": [
+            "religious pilgrimage",
+            "go on a pilgrimage",
+            "pilgrimage route"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-aristocracy",
+          "type": "vocabulary",
+          "headword": "aristocracy",
+          "frequencyRank": 371,
+          "baseDifficulty": 0.52,
+          "definition": "Toplumda ayrıcalıklı statüye ve genellikle soylu unvanlara sahip üst tabaka.",
+          "exampleSentences": [
+            "The aristocracy controlled most of the country's land and wealth.",
+            "Revolutionary leaders called for the abolition of the aristocracy.",
+            "Members of the aristocracy rarely mixed with ordinary peasants."
+          ],
+          "translationTR": "aristokrasi, soylular sınıfı",
+          "collocations": [
+            "landed aristocracy",
+            "the old aristocracy",
+            "aristocracy's privileges"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-peasant",
+          "type": "vocabulary",
+          "headword": "peasant",
+          "frequencyRank": 372,
+          "baseDifficulty": 0.53,
+          "definition": "Geçimini genellikle küçük bir toprak parçasını işleyerek sağlayan kırsal kesim çiftçisi.",
+          "exampleSentences": [
+            "Most peasants owed a portion of their harvest to the local lord.",
+            "The uprising began among peasants angered by rising taxes.",
+            "Peasant families often lived in small huts near the fields they farmed."
+          ],
+          "translationTR": "köylü",
+          "collocations": [
+            "peasant uprising",
+            "peasant farmer",
+            "landless peasant"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-nomadic",
+          "type": "vocabulary",
+          "headword": "nomadic",
+          "frequencyRank": 373,
+          "baseDifficulty": 0.54,
+          "definition": "Sabit bir yerleşim yeri olmadan sürekli yer değiştirerek yaşayan.",
+          "exampleSentences": [
+            "Nomadic tribes followed their herds across the steppe each season.",
+            "The region was once home to several nomadic peoples.",
+            "Their nomadic lifestyle made them skilled traders across vast distances."
+          ],
+          "translationTR": "göçebe",
+          "collocations": [
+            "nomadic tribe",
+            "nomadic lifestyle",
+            "nomadic peoples"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-settlement",
+          "type": "vocabulary",
+          "headword": "settlement",
+          "frequencyRank": 374,
+          "baseDifficulty": 0.55,
+          "definition": "İnsanların kalıcı olarak yerleşip yaşadıkları yer veya bu yerin kurulma süreci.",
+          "exampleSentences": [
+            "Archaeologists found traces of an early settlement beneath the modern city.",
+            "The first settlement was established near the mouth of the river.",
+            "The settlement grew steadily as more families arrived each year."
+          ],
+          "translationTR": "yerleşim, yerleşim yeri",
+          "collocations": [
+            "early settlement",
+            "establish a settlement",
+            "permanent settlement"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-expedition",
+          "type": "vocabulary",
+          "headword": "expedition",
+          "frequencyRank": 375,
+          "baseDifficulty": 0.56,
+          "definition": "Bilimsel araştırma, keşif veya fetih amacıyla düzenlenen uzun ve zorlu yolculuk.",
+          "exampleSentences": [
+            "The expedition set out to map the uncharted interior of the continent.",
+            "Several members of the expedition never returned home.",
+            "The king funded the expedition in the hope of finding new trade routes."
+          ],
+          "translationTR": "sefer, keşif gezisi",
+          "collocations": [
+            "scientific expedition",
+            "launch an expedition",
+            "expedition team"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-exile",
+          "type": "vocabulary",
+          "headword": "exile",
+          "frequencyRank": 376,
+          "baseDifficulty": 0.57,
+          "definition": "Bir kişinin, genellikle siyasi nedenlerle, kendi ülkesinden zorla veya isteyerek uzaklaştırılıp başka bir yerde yaşamaya mecbur bırakılması.",
+          "exampleSentences": [
+            "The deposed king spent the rest of his life in exile.",
+            "Many intellectuals were sent into exile after the uprising failed.",
+            "She wrote her most famous chronicle while living in exile."
+          ],
+          "translationTR": "sürgün",
+          "collocations": [
+            "live in exile",
+            "send into exile",
+            "return from exile"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dominion",
+          "type": "vocabulary",
+          "headword": "dominion",
+          "frequencyRank": 377,
+          "baseDifficulty": 0.58,
+          "definition": "Bir hükümdarın veya devletin egemenlik ve yönetim yetkisi altındaki toprak veya alan.",
+          "exampleSentences": [
+            "The empire's dominion extended far beyond its original borders.",
+            "Local rulers governed the outer dominions with considerable independence.",
+            "The treaty recognised the king's dominion over the disputed territory."
+          ],
+          "translationTR": "egemenlik alanı, hükümranlık",
+          "collocations": [
+            "extend dominion",
+            "royal dominion",
+            "dominion over"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-era",
+          "type": "vocabulary",
+          "headword": "era",
+          "frequencyRank": 378,
+          "baseDifficulty": 0.59,
+          "definition": "Belirgin özellikleriyle diğer dönemlerden ayrılan, tarihte belirli bir zaman dilimi.",
+          "exampleSentences": [
+            "The discovery of the new trade route opened a new era of prosperity.",
+            "Historians refer to this period as the era of exploration.",
+            "The treaty marked the end of an era of continuous warfare."
+          ],
+          "translationTR": "çağ, dönem (tarihsel dönem anlamında)",
+          "collocations": [
+            "a new era",
+            "era of prosperity",
+            "mark the end of an era"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-legacy",
+          "type": "vocabulary",
+          "headword": "legacy",
+          "frequencyRank": 379,
+          "baseDifficulty": 0.6,
+          "definition": "Bir kişinin veya dönemin geride bıraktığı, sonraki nesilleri etkileyen kalıcı miras.",
+          "exampleSentences": [
+            "The emperor's legacy still shapes the region's laws and institutions.",
+            "Historians continue to debate the legacy of the revolution.",
+            "The dynasty left behind a lasting legacy of monuments and manuscripts."
+          ],
+          "translationTR": "miras, bırakılan iz",
+          "collocations": [
+            "lasting legacy",
+            "leave a legacy",
+            "legacy of"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-history-culture-5",
+      "order": 4,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-tribute",
+          "type": "vocabulary",
+          "headword": "tribute",
+          "frequencyRank": 380,
+          "baseDifficulty": 0.61,
+          "definition": "Zayıf bir devletin veya halkın, güçlü bir hükümdara bağlılık göstergesi olarak ödediği vergi veya sunduğu değerli eşya.",
+          "exampleSentences": [
+            "Conquered territories were required to pay tribute to the empire each year.",
+            "The chronicle lists the goods sent as tribute to the sovereign.",
+            "Refusal to pay tribute often provoked a swift military response."
+          ],
+          "translationTR": "haraç, bağlılık göstergesi olarak sunulan vergi",
+          "collocations": [
+            "pay tribute",
+            "demand tribute",
+            "tribute to the empire"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-decree",
+          "type": "vocabulary",
+          "headword": "decree",
+          "frequencyRank": 381,
+          "baseDifficulty": 0.62,
+          "definition": "Bir hükümdar veya yetkili makam tarafından çıkarılan ve derhal yürürlüğe giren resmi emir.",
+          "exampleSentences": [
+            "The king issued a decree banning the practice throughout his dominion.",
+            "The decree ordered the immediate release of political prisoners.",
+            "News of the decree spread quickly through the provinces."
+          ],
+          "translationTR": "ferman, kararname",
+          "collocations": [
+            "royal decree",
+            "issue a decree",
+            "decree ordering"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-manuscript",
+          "type": "vocabulary",
+          "headword": "manuscript",
+          "frequencyRank": 382,
+          "baseDifficulty": 0.63,
+          "definition": "El yazısıyla yazılmış, basılmamış eski veya özgün metin.",
+          "exampleSentences": [
+            "The monastery preserved a rare manuscript from the twelfth century.",
+            "Scholars spent years translating the damaged manuscript.",
+            "Only a handful of copies of the original manuscript survive today."
+          ],
+          "translationTR": "el yazması",
+          "collocations": [
+            "ancient manuscript",
+            "preserve a manuscript",
+            "handwritten manuscript"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-patriarchal",
+          "type": "vocabulary",
+          "headword": "patriarchal",
+          "frequencyRank": 383,
+          "baseDifficulty": 0.64,
+          "definition": "Aile veya toplum içinde asıl yetkinin erkeklere ait olduğu düzene dayanan.",
+          "exampleSentences": [
+            "Inheritance laws in the kingdom reflected a deeply patriarchal system.",
+            "The novel critiques the patriarchal customs of the period.",
+            "Under the patriarchal structure, sons alone could inherit the family estate."
+          ],
+          "translationTR": "ataerkil",
+          "collocations": [
+            "patriarchal society",
+            "patriarchal system",
+            "patriarchal customs"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-hierarchy",
+          "type": "vocabulary",
+          "headword": "hierarchy",
+          "frequencyRank": 384,
+          "baseDifficulty": 0.65,
+          "definition": "Kişi veya grupların yetki, statü ya da öneme göre sıralandığı yapı.",
+          "exampleSentences": [
+            "The court followed a strict hierarchy, with the sovereign at its head.",
+            "Social hierarchy determined nearly every aspect of daily life.",
+            "Priests occupied a position near the top of the religious hierarchy."
+          ],
+          "translationTR": "hiyerarşi",
+          "collocations": [
+            "social hierarchy",
+            "strict hierarchy",
+            "top of the hierarchy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-regime",
+          "type": "vocabulary",
+          "headword": "regime",
+          "frequencyRank": 385,
+          "baseDifficulty": 0.66,
+          "definition": "Genellikle otoriter niteliklere sahip, bir ülkeyi yöneten hükümet veya yönetim sistemi.",
+          "exampleSentences": [
+            "The regime silenced its critics through censorship and imprisonment.",
+            "Opposition to the regime grew steadily after the failed harvest.",
+            "The new regime seized power following a brief but violent uprising."
+          ],
+          "translationTR": "rejim, (genellikle otoriter) yönetim",
+          "collocations": [
+            "authoritarian regime",
+            "overthrow the regime",
+            "under the regime"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-sovereign",
+          "type": "vocabulary",
+          "headword": "sovereign",
+          "frequencyRank": 386,
+          "baseDifficulty": 0.67,
+          "definition": "Bir ülke üzerinde en yüksek yönetim yetkisine sahip hükümdar.",
+          "exampleSentences": [
+            "The treaty recognised the prince as the region's rightful sovereign.",
+            "The sovereign's word was law throughout the kingdom.",
+            "Nobles swore loyalty to their sovereign at his coronation."
+          ],
+          "translationTR": "hükümdar, egemen (isim: hükümdar; sıfat: egemen)",
+          "collocations": [
+            "the reigning sovereign",
+            "sovereign's authority",
+            "loyal to the sovereign"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-pillage",
+          "type": "vocabulary",
+          "headword": "pillage",
+          "frequencyRank": 387,
+          "baseDifficulty": 0.68,
+          "definition": "Genellikle savaş sırasında bir yerin ele geçirilip değerli eşyalarının zorla ve düzensizce alınması.",
+          "exampleSentences": [
+            "Soldiers were given free rein to pillage the conquered city.",
+            "The chronicle describes weeks of pillage following the siege.",
+            "Villages along the border lived in constant fear of pillage."
+          ],
+          "translationTR": "yağma, çapul (fiil: yağmalamak)",
+          "collocations": [
+            "pillage a city",
+            "widespread pillage",
+            "pillage and destruction"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-siege",
+          "type": "vocabulary",
+          "headword": "siege",
+          "frequencyRank": 388,
+          "baseDifficulty": 0.69,
+          "definition": "Bir şehir veya kalenin, teslim olmaya zorlamak amacıyla ordu tarafından kuşatılması.",
+          "exampleSentences": [
+            "The city withstood the siege for nearly a year before finally falling.",
+            "Food supplies ran dangerously low during the long siege.",
+            "The general lifted the siege after receiving news of a rival attack."
+          ],
+          "translationTR": "kuşatma",
+          "collocations": [
+            "lay siege to",
+            "under siege",
+            "lift a siege"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-uprising",
+          "type": "vocabulary",
+          "headword": "uprising",
+          "frequencyRank": 389,
+          "baseDifficulty": 0.7,
+          "definition": "Halkın mevcut yönetime karşı örgütlü ve genellikle şiddet içeren başkaldırısı.",
+          "exampleSentences": [
+            "The peasant uprising spread rapidly across the countryside.",
+            "Troops were sent to crush the uprising within days.",
+            "The uprising ultimately forced the regime to grant new reforms."
+          ],
+          "translationTR": "ayaklanma, isyan",
+          "collocations": [
+            "peasant uprising",
+            "crush an uprising",
+            "spark an uprising"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-history-culture-6",
+      "order": 5,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-antiquity",
+          "type": "vocabulary",
+          "headword": "antiquity",
+          "frequencyRank": 390,
+          "baseDifficulty": 0.71,
+          "definition": "Özellikle eski Yunan ve Roma uygarlıklarını kapsayan, çok eski tarihi dönem.",
+          "exampleSentences": [
+            "The temple has stood since antiquity and still draws thousands of visitors.",
+            "Scholars of antiquity often relied on fragments of lost texts.",
+            "The custom dates back to antiquity, though its origins remain unclear."
+          ],
+          "translationTR": "eski çağ, antik dönem",
+          "collocations": [
+            "since antiquity",
+            "classical antiquity",
+            "relic of antiquity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-epoch",
+          "type": "vocabulary",
+          "headword": "epoch",
+          "frequencyRank": 391,
+          "baseDifficulty": 0.72,
+          "definition": "Kendine özgü belirgin niteliklerle ayırt edilen ve tarihte önemli bir dönüm noktasıyla başlayan uzun zaman dilimi.",
+          "exampleSentences": [
+            "The invention of the printing press marked the start of a new epoch.",
+            "Historians divide the empire's history into several distinct epochs.",
+            "The treaty is often seen as the beginning of a more peaceful epoch."
+          ],
+          "translationTR": "çağ, devir (tarihsel dönüm noktasıyla başlayan dönem)",
+          "collocations": [
+            "a new epoch",
+            "mark an epoch",
+            "epoch of change"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-chronology",
+          "type": "vocabulary",
+          "headword": "chronology",
+          "frequencyRank": 392,
+          "baseDifficulty": 0.73,
+          "definition": "Olayların zaman içinde meydana geliş sırasına göre düzenlenmesi.",
+          "exampleSentences": [
+            "The chronicle provides a detailed chronology of the dynasty's rulers.",
+            "Historians reconstructed the chronology of events from scattered records.",
+            "The exhibition follows the chronology of the civilisation's rise and fall."
+          ],
+          "translationTR": "kronoloji, olayların zaman sırası",
+          "collocations": [
+            "establish a chronology",
+            "chronology of events",
+            "detailed chronology"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-hegemony",
+          "type": "vocabulary",
+          "headword": "hegemony",
+          "frequencyRank": 393,
+          "baseDifficulty": 0.74,
+          "definition": "Bir devletin veya grubun diğerleri üzerinde kurduğu baskın etki ve üstünlük.",
+          "exampleSentences": [
+            "The empire maintained its hegemony over the region for two centuries.",
+            "Rival powers eventually challenged the empire's hegemony.",
+            "Cultural hegemony allowed the empire to spread its language far beyond its borders."
+          ],
+          "translationTR": "hegemonya, üstünlük/egemenlik kurma",
+          "collocations": [
+            "regional hegemony",
+            "challenge hegemony",
+            "cultural hegemony"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-assimilate",
+          "type": "vocabulary",
+          "headword": "assimilate",
+          "frequencyRank": 394,
+          "baseDifficulty": 0.75,
+          "definition": "Bir grubun, başka bir toplumun kültürünü, dilini veya geleneklerini benimseyerek onunla bütünleşmesi.",
+          "exampleSentences": [
+            "Conquered peoples were gradually assimilated into the empire's culture.",
+            "Many migrants assimilate quickly while others keep their own traditions.",
+            "The regime pursued a policy of forcibly assimilating minority groups."
+          ],
+          "translationTR": "asimile etmek, (bir kültüre) bütünleştirmek/uyum sağlamak",
+          "collocations": [
+            "assimilate into",
+            "forcibly assimilate",
+            "assimilate a culture"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-vestige",
+          "type": "vocabulary",
+          "headword": "vestige",
+          "frequencyRank": 395,
+          "baseDifficulty": 0.76,
+          "definition": "Bir zamanlar var olan ama büyük ölçüde yok olmuş bir şeyden günümüze ulaşan ve onun varlığını hatırlatan küçük bir parça.",
+          "exampleSentences": [
+            "A few vestiges of the old fortress still stand on the hillside.",
+            "The dialect retains vestiges of a language spoken centuries ago.",
+            "Only faint vestiges of the ancient road remain today."
+          ],
+          "translationTR": "iz, kalıntı",
+          "collocations": [
+            "last vestige",
+            "vestige of the past",
+            "faint vestige"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-posterity",
+          "type": "vocabulary",
+          "headword": "posterity",
+          "frequencyRank": 396,
+          "baseDifficulty": 0.77,
+          "definition": "Bugün yapılanları veya bırakılanları ileride miras olarak devralacak, henüz dünyaya gelmemiş insanlar.",
+          "exampleSentences": [
+            "The chronicle was written to preserve the empire's achievements for posterity.",
+            "The king ordered the monument built as a gift to posterity.",
+            "Historians record these events so that posterity will not forget them."
+          ],
+          "translationTR": "gelecek nesiller",
+          "collocations": [
+            "for posterity",
+            "preserve for posterity",
+            "leave to posterity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-oppression",
+          "type": "vocabulary",
+          "headword": "oppression",
+          "frequencyRank": 397,
+          "baseDifficulty": 0.78,
+          "definition": "Bir grubun veya bireyin haksız ve baskıcı güç kullanılarak ezilmesi.",
+          "exampleSentences": [
+            "Decades of oppression finally gave way to open revolt.",
+            "The uprising was a direct response to years of oppression.",
+            "The regime justified its oppression of minorities as necessary for order."
+          ],
+          "translationTR": "baskı, zulüm",
+          "collocations": [
+            "years of oppression",
+            "resist oppression",
+            "oppression of"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-emancipation",
+          "type": "vocabulary",
+          "headword": "emancipation",
+          "frequencyRank": 398,
+          "baseDifficulty": 0.79,
+          "definition": "Bir kişi veya grubun köle olma, bağımlılık ya da baskıcı bir denetim durumundan hukuken kurtarılması.",
+          "exampleSentences": [
+            "The decree announced the emancipation of enslaved people across the empire.",
+            "Emancipation did not immediately bring full political equality.",
+            "The anniversary of emancipation is still celebrated across the region."
+          ],
+          "translationTR": "özgürleştirme, (köle vb. durumundan) kurtuluş",
+          "collocations": [
+            "emancipation of",
+            "decree of emancipation",
+            "fight for emancipation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-legitimacy",
+          "type": "vocabulary",
+          "headword": "legitimacy",
+          "frequencyRank": 399,
+          "baseDifficulty": 0.8,
+          "definition": "Bir yönetimin veya iktidarın hukuka, geleneğe ya da halkın rızasına dayanarak meşru sayılması.",
+          "exampleSentences": [
+            "The new regime struggled to establish legitimacy among the population.",
+            "Coronation rituals were designed to reinforce the sovereign's legitimacy.",
+            "Historians question the legitimacy of the dynasty's claim to the throne."
+          ],
+          "translationTR": "meşruiyet",
+          "collocations": [
+            "question legitimacy",
+            "establish legitimacy",
+            "legitimacy of the regime"
+          ]
+        }
+      ]
+    }
+  ]
+}

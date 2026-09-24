@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-gerunds-infinitives-1",
+  "estimatedDurationMinutes": 8,
+  "title": "İsim-Fiiller ve Mastarlar (Gerunds & Infinitives)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-gerunds-infinitives-1",
+      "type": "grammarPoint",
+      "headword": "Gerunds & Infinitives",
+      "frequencyRank": 2012,
+      "baseDifficulty": 0.5,
+      "definition": "Fiillerden sonra V-ing mi, to + V1 mi geleceğini belirleyen temel kalıplar.",
+      "exampleSentences": [],
+      "translationTR": "İsim-Fiiller ve Mastarlar",
+      "collocations": [],
+      "explanationTR": "Bir fiilden sonra V-ing (gerund) mi yoksa to + V1 (infinitive) mi geleceği fiilin KALIBINA bağlıdır; anlamdan tahmin edilmez.\n\n• Fiil + V-ing: avoid, deny, mind, risk, consider, postpone, involve, justify, suggest. The board postponed making the final decision.\n\n• Fiil + to V1: decide, manage, afford, refuse, hope, agree, fail, tend. The department managed to maintain its programme.\n\n• Fiil + nesne + to V1: allow, persuade, enable, encourage, require, expect. The rules require companies to publish annual reports.\n\n• Edat + V-ing: capable of doing, responsible for doing, succeed in doing. Edattan sonra to V1 gelmez.\n\n• Edat olan to'dan sonra da V-ing gelir: look forward to seeing, object to adopting, be committed to doing, be accustomed to doing.\n\n• make / let + nesne + YALIN fiil (to almaz): The deadlines made the researchers work overtime. help hem to'lu hem to'suz alır.\n\nÖrnek: The auditors are responsible for ensuring that every transaction is recorded."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-gerunds-infinitives-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The board decided to postpone ---- the final decision until more data became available.",
+      "options": [
+        "to make",
+        "make",
+        "making",
+        "made",
+        "to have made"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Postpone + V-ing kalıbıdır: postpone making. (A) to make ve (E) to have made postpone ile kullanılmaz. (B) make yalın fiil, (D) made ise geçmiş biçimdir; ikisi de fiilden sonra gerund yerine geçemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "Despite the budget cuts, the department managed ---- its research programme.",
+      "options": [
+        "to maintain",
+        "maintaining",
+        "maintain",
+        "maintained",
+        "to maintaining"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Manage + to V1 kalıbıdır: managed to maintain. (B) maintaining gerund'dur ve manage ile kullanılmaz. (C) maintain mastar edatını eksik bırakır. (D) maintained ikinci bir çekimli fiil ekler. (E) to maintaining edat + V-ing biçimidir ve manage'den sonra gelmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The new regulations require companies ---- annual emissions reports.",
+      "options": [
+        "publishing",
+        "publish",
+        "having published",
+        "to publish",
+        "published"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Require + nesne + to V1 kalıbıdır: require companies to publish. (A) publishing ve (C) having published bu kalıpta kullanılmaz. (B) publish mastar edatı olmadan gelir. (E) published edilgen bir anlam katar; şirketler rapor yayımlayan taraftır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The auditors are responsible for ---- that every transaction is properly recorded.",
+      "options": [
+        "ensure",
+        "ensuring",
+        "to ensure",
+        "ensured",
+        "to ensuring"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Edattan (for) sonra V-ing gelir: responsible for ensuring. (A) ensure ve (C) to ensure edattan sonra kullanılamaz. (D) ensured geçmiş biçimdir. (E) to ensuring edatı ikiye katlar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "Many analysts look forward to ---- the quarterly figures next week.",
+      "options": [
+        "see",
+        "to see",
+        "saw",
+        "have seen",
+        "seeing"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Look forward to kalıbındaki to bir EDATTIR ve ardından V-ing gelir: look forward to seeing. (A) see ve (B) to see to'yu mastar sanmaktan doğan hatalardır. (C) saw geçmiş zamandır. (D) have seen edat sonrası kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "Several members objected to ---- the committee's recommendation without further debate.",
+      "options": [
+        "adopt",
+        "to adopt",
+        "adopting",
+        "be adopted",
+        "adopted"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Object to kalıbındaki to bir edattır ve ardından V-ing gelir: objected to adopting. (A) adopt ve (B) to adopt mastar biçimleridir. (D) be adopted ve (E) adopted edat sonrası uygun değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The strict deadlines made the researchers ---- overtime for several weeks.",
+      "options": [
+        "work",
+        "to work",
+        "working",
+        "to working",
+        "having worked"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Make + nesne + YALIN fiil kalıbıdır (to almaz): made the researchers work. (B) to work make'ten sonra kullanılmaz (yalnızca edilgende gelir). (C) working, (D) to working ve (E) having worked kalıba uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-gerunds-infinitives-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The grant will enable the laboratory ---- three additional technicians.",
+      "options": [
+        "hire",
+        "hiring",
+        "hired",
+        "to hire",
+        "to have hired"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Enable + nesne + to V1 kalıbıdır: enable the laboratory to hire. (A) hire ve (B) hiring bu kalıpta kullanılmaz. (C) hired edilgen bir anlam katar. (E) to have hired geleceğe dönük bir amaç için geçmişe dönük perfect mastar kurar.",
+      "passageID": null
+    }
+  ]
+}

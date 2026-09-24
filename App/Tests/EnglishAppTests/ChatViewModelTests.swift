@@ -12,11 +12,19 @@ private final class FakeChatEngine: TutorEngine {
         fatalError("not used by ChatViewModelTests")
     }
 
+    func respond(to question: QuestionTutorRequest) async throws -> String {
+        fatalError("not used by ChatViewModelTests")
+    }
+
     func respond(to chat: ChatRequest) async throws -> String {
         lastChatRequest = chat
         chatRequestCount += 1
         if let stubbedError { throw stubbedError }
         return stubbedReply
+    }
+
+    func respond(to coach: CoachRequest) async throws -> String {
+        fatalError("not used by ChatViewModelTests")
     }
 }
 
@@ -44,12 +52,20 @@ private final class ControllableChatEngine: TutorEngine {
         fatalError("not used by ChatViewModelTests")
     }
 
+    func respond(to question: QuestionTutorRequest) async throws -> String {
+        fatalError("not used by ChatViewModelTests")
+    }
+
     func respond(to chat: ChatRequest) async throws -> String {
         lastChatRequest = chat
         callCount += 1
         return try await withCheckedThrowingContinuation { continuation in
             pendingContinuations.append(continuation)
         }
+    }
+
+    func respond(to coach: CoachRequest) async throws -> String {
+        fatalError("not used by ChatViewModelTests")
     }
 
     /// Waits, via a bounded `Task.yield()` loop (never `Task.sleep`), until

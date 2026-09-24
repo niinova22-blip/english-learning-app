@@ -1,0 +1,154 @@
+{
+  "id": "yds-exam-cloze-3",
+  "estimatedDurationMinutes": 10,
+  "title": "Cloze Test: Okyanus Plastikleri",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-cloze-3",
+    "title": "Ocean Plastics",
+    "body": "Every year, roughly eight million tonnes of plastic (1)---- their way into the oceans, where they break into ever smaller fragments. These microplastics have now been found in the deepest trenches and in Arctic ice, and they are eaten by animals ranging from plankton to whales. (2)---- scientists cannot yet say how seriously this contamination damages marine life, laboratory studies suggest that it can reduce the growth and fertility of some species. The problem is far from limited to the sea. Most ocean plastic originates on land, (3)---- it is carried by rivers or blown from landfill sites. Cleaning up (4)---- has already accumulated is therefore a partial solution at best, (5)---- the flow of new waste continues. Several countries have banned single-use bags, and the results are encouraging: in places where a small charge was introduced, consumption fell by more than eighty per cent. Manufacturers, too, are (6)---- pressure to redesign packaging so that it can be recycled easily. Yet experts caution that such measures will make little difference (7)---- they are applied worldwide. A country that regulates its own waste but exports it to (8)---- with weaker rules has merely moved the problem elsewhere."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-cloze-3",
+      "type": "practiceSet",
+      "headword": "Cloze: Ocean Plastics",
+      "frequencyRank": 3012,
+      "baseDifficulty": 0.6,
+      "definition": "Okyanus plastikleri üzerine sekiz boşluklu bir cloze testi; karışık soru tipleri ve kalıp kullanımı.",
+      "exampleSentences": [],
+      "translationTR": "Cloze Test: Okyanus Plastikleri",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-cloze-3-q01",
+      "kind": "cloze",
+      "order": 0,
+      "prompt": "Every year, roughly eight million tonnes of plastic (1) ---- their way into the oceans.",
+      "options": [
+        "take",
+        "find",
+        "put",
+        "reach",
+        "hold"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Find one's way into» sabit bir kalıptır (= bir yerlere ulaşmak): (B). (A) take, (C) put, (D) reach ve (E) hold «their way» ile bu anlamı kurmaz.",
+      "passageID": "yds-exam-passage-cloze-3"
+    },
+    {
+      "id": "yds-exam-cloze-3-q02",
+      "kind": "cloze",
+      "order": 1,
+      "prompt": "(2) ---- scientists cannot yet say how seriously this contamination damages marine life, laboratory studies suggest that it can reduce growth.",
+      "options": [
+        "Because",
+        "Unless",
+        "Moreover",
+        "Although",
+        "Therefore"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Bilim insanlarının kesin söyleyememesi ile laboratuvar bulgularının bir etki göstermesi arasında karşıtlık vardır: (D). (A) Because neden bildirir. (B) Unless koşul bildirir. (C) Moreover ve (E) Therefore bağlayıcı zarftır, yan cümle başlatamaz.",
+      "passageID": "yds-exam-passage-cloze-3"
+    },
+    {
+      "id": "yds-exam-cloze-3-q03",
+      "kind": "cloze",
+      "order": 2,
+      "prompt": "Most ocean plastic originates on land, (3) ---- it is carried by rivers or blown from landfill sites.",
+      "options": [
+        "where",
+        "which",
+        "that",
+        "what",
+        "when"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Yer bildiren bir ada (land) gönderme yapılır ve «orada taşınır» anlamı verilir: where. (B) which cümlecikte eksik bir öğeyi karşılar, oysa «it is carried by rivers» cümleciği zaten tamdır. (C) that virgülden sonra gelmez. (D) what önceki bir adı niteleyemez. (E) when zamanı bildirir.",
+      "passageID": "yds-exam-passage-cloze-3"
+    },
+    {
+      "id": "yds-exam-cloze-3-q04",
+      "kind": "cloze",
+      "order": 3,
+      "prompt": "Cleaning up (4) ---- has already accumulated is therefore a partial solution at best.",
+      "options": [
+        "that",
+        "which",
+        "what",
+        "whose",
+        "whom"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Cümlecikte özne eksiktir (___ has accumulated) ve önceki bir ad yoktur; eksik öğeyi taşıyan isim cümleciği what ile kurulur: (C). (A) that ve (B) which önceki bir ada gönderme yapar. (D) whose ardından ad ister. (E) whom nesne konumundadır.",
+      "passageID": "yds-exam-passage-cloze-3"
+    },
+    {
+      "id": "yds-exam-cloze-3-q05",
+      "kind": "cloze",
+      "order": 4,
+      "prompt": "Cleaning up is a partial solution at best, (5) ---- the flow of new waste continues.",
+      "options": [
+        "even though",
+        "unless",
+        "so that",
+        "in case",
+        "while"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Kirlilik akışı sürdüğü SÜRECE temizliğin kısmi bir çözüm olduğu anlatılıyor: (E). (A) even though karşıtlık kurar ve anlamı bozar. (B) unless anlamı tersine çevirir. (C) so that amaç bildirir. (D) in case önlem bildirir.",
+      "passageID": "yds-exam-passage-cloze-3"
+    },
+    {
+      "id": "yds-exam-cloze-3-q06",
+      "kind": "cloze",
+      "order": 5,
+      "prompt": "Manufacturers, too, are (6) ---- pressure to redesign packaging so that it can be recycled easily.",
+      "options": [
+        "in",
+        "under",
+        "on",
+        "with",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Be under pressure» sabit bir kalıptır (= baskı altında olmak): (B). (A) in, (C) on, (D) with ve (E) at bu isimle kalıp kurmaz.",
+      "passageID": "yds-exam-passage-cloze-3"
+    },
+    {
+      "id": "yds-exam-cloze-3-q07",
+      "kind": "cloze",
+      "order": 6,
+      "prompt": "Experts caution that such measures will make little difference (7) ---- they are applied worldwide.",
+      "options": [
+        "if",
+        "because",
+        "when",
+        "unless",
+        "so that"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Unless» = «if not»: önlemler dünya çapında uygulanmadıkça fark yaratmaz: (D). (A) if anlamı tersine çevirir. (B) because gerekçe bildirir. (C) when zaman bildirir ve koşulu karşılamaz. (E) so that amaç bildirir.",
+      "passageID": "yds-exam-passage-cloze-3"
+    },
+    {
+      "id": "yds-exam-cloze-3-q08",
+      "kind": "cloze",
+      "order": 7,
+      "prompt": "A country that regulates its own waste but exports it to (8) ---- with weaker rules has merely moved the problem elsewhere.",
+      "options": [
+        "those",
+        "them",
+        "these",
+        "which",
+        "whom"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Countries» yerine geçen ve ardından bir niteleme (with weaker rules) alan zamir those'tur: (A). (B) them ardından niteleme almaz. (C) these yakındaki belirli bir göndermeyi bildirir; «with weaker rules» gibi bir niteleme alan genel gönderme için those kullanılır. (D) which ve (E) whom ilgi zamiridir ve bu konumda gönderme yapamaz.",
+      "passageID": "yds-exam-passage-cloze-3"
+    }
+  ]
+}

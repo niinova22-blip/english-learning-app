@@ -1,0 +1,1189 @@
+{
+  "id": "yds-vocab2-unit-health-medicine",
+  "theme": "Health & Medicine",
+  "order": 16,
+  "lessons": [
+    {
+      "id": "yds-vocab2-lesson-health-medicine-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-diagnose",
+          "type": "vocabulary",
+          "headword": "diagnose",
+          "frequencyRank": 100,
+          "baseDifficulty": 0.21,
+          "definition": "Bir hastalığın ya da sorunun ne olduğunu belirtilere ve muayeneye bakarak saptamak.",
+          "exampleSentences": [
+            "Doctors diagnosed the condition as a rare form of anaemia.",
+            "The disease is often diagnosed too late for treatment to be effective.",
+            "It took specialists several months to diagnose the cause of her symptoms."
+          ],
+          "translationTR": "teşhis etmek, tanı koymak",
+          "collocations": [
+            "diagnose a condition",
+            "be diagnosed with",
+            "correctly diagnose"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-symptom",
+          "type": "vocabulary",
+          "headword": "symptom",
+          "frequencyRank": 101,
+          "baseDifficulty": 0.22,
+          "definition": "Bir hastalığın varlığını gösteren, hastanın hissettiği ya da doktorun gözlemlediği belirti.",
+          "exampleSentences": [
+            "A persistent cough was the first symptom she noticed.",
+            "Doctors ask patients to describe their symptoms in as much detail as possible.",
+            "The flu and the common cold share many of the same symptoms."
+          ],
+          "translationTR": "belirti, semptom",
+          "collocations": [
+            "common symptom",
+            "symptoms of",
+            "relieve symptoms"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-disease",
+          "type": "vocabulary",
+          "headword": "disease",
+          "frequencyRank": 102,
+          "baseDifficulty": 0.23,
+          "definition": "Vücudun normal işleyişini bozan ve genellikle belirli belirtilerle kendini gösteren sağlık sorunu.",
+          "exampleSentences": [
+            "Heart disease remains one of the leading causes of death worldwide.",
+            "The research team is trying to understand how the disease spreads between people.",
+            "Early screening can catch the disease before symptoms even appear."
+          ],
+          "translationTR": "hastalık",
+          "collocations": [
+            "heart disease",
+            "spread of disease",
+            "prevent disease"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-treatment",
+          "type": "vocabulary",
+          "headword": "treatment",
+          "frequencyRank": 103,
+          "baseDifficulty": 0.24,
+          "definition": "Bir hastalığı iyileştirmek veya kontrol altına almak için uygulanan tıbbi bakım ya da yöntem.",
+          "exampleSentences": [
+            "The new treatment significantly reduced the patient's pain within a week.",
+            "Without proper treatment, the infection can spread to other organs.",
+            "Researchers are testing whether the treatment works better in combination with exercise."
+          ],
+          "translationTR": "tedavi",
+          "collocations": [
+            "undergo treatment",
+            "treatment for",
+            "respond to treatment"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-patient",
+          "type": "vocabulary",
+          "headword": "patient",
+          "frequencyRank": 104,
+          "baseDifficulty": 0.25,
+          "definition": "Tıbbi bakım veya tedavi gören kişi.",
+          "exampleSentences": [
+            "The patient was discharged from hospital after a full recovery.",
+            "Nurses monitored the patient's vital signs throughout the night.",
+            "Each patient received a personalised treatment plan based on their test results."
+          ],
+          "translationTR": "hasta; (sıfat olarak) sabırlı",
+          "collocations": [
+            "treat a patient",
+            "patient's condition",
+            "hospital patient"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-surgery",
+          "type": "vocabulary",
+          "headword": "surgery",
+          "frequencyRank": 105,
+          "baseDifficulty": 0.26,
+          "definition": "Bir hastalığı tedavi etmek veya bir yaralanmayı düzeltmek amacıyla vücut üzerinde yapılan tıbbi müdahale.",
+          "exampleSentences": [
+            "She underwent surgery to repair the torn ligament in her knee.",
+            "Surgery is usually recommended only when other treatments have failed.",
+            "The surgeon explained the risks of the surgery before the operation began."
+          ],
+          "translationTR": "ameliyat, cerrahi",
+          "collocations": [
+            "undergo surgery",
+            "perform surgery",
+            "surgery on"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-infection",
+          "type": "vocabulary",
+          "headword": "infection",
+          "frequencyRank": 106,
+          "baseDifficulty": 0.27,
+          "definition": "Bakteri, virüs veya diğer mikroorganizmaların vücuda girip çoğalmasıyla ortaya çıkan hastalık durumu.",
+          "exampleSentences": [
+            "The wound was not cleaned properly, so a serious infection set in within days.",
+            "A bacterial infection can often be treated with antibiotics.",
+            "Doctors traced the source of the infection to contaminated water."
+          ],
+          "translationTR": "enfeksiyon, iltihap",
+          "collocations": [
+            "bacterial infection",
+            "risk of infection",
+            "fight infection"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-therapy",
+          "type": "vocabulary",
+          "headword": "therapy",
+          "frequencyRank": 107,
+          "baseDifficulty": 0.28,
+          "definition": "Bir hastalığı veya rahatsızlığı iyileştirmek ya da hafifletmek için uygulanan tedavi yöntemi.",
+          "exampleSentences": [
+            "Physical therapy helped him regain movement in his injured shoulder.",
+            "She has been attending therapy twice a week since the accident.",
+            "The clinic offers speech therapy for children with developmental delays."
+          ],
+          "translationTR": "terapi, tedavi",
+          "collocations": [
+            "physical therapy",
+            "undergo therapy",
+            "therapy session"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-recovery",
+          "type": "vocabulary",
+          "headword": "recovery",
+          "frequencyRank": 108,
+          "baseDifficulty": 0.29,
+          "definition": "Bir hastalık, yaralanma veya ameliyat sonrasında sağlığın yeniden kazanılması süreci.",
+          "exampleSentences": [
+            "Her recovery from the operation took almost three months.",
+            "Doctors were pleased with the speed of the patient's recovery.",
+            "A balanced diet can speed up recovery after illness."
+          ],
+          "translationTR": "iyileşme, toparlanma",
+          "collocations": [
+            "full recovery",
+            "recovery from",
+            "speed up recovery"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dose",
+          "type": "vocabulary",
+          "headword": "dose",
+          "frequencyRank": 109,
+          "baseDifficulty": 0.3,
+          "definition": "Bir ilacın tek seferde alınması öngörülen miktarı.",
+          "exampleSentences": [
+            "The doctor increased the dose after the first week showed no improvement.",
+            "Taking more than the recommended dose can be dangerous.",
+            "Each tablet contains a low dose of the active ingredient."
+          ],
+          "translationTR": "doz",
+          "collocations": [
+            "daily dose",
+            "high dose",
+            "dose of medication"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-health-medicine-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-chronic",
+          "type": "vocabulary",
+          "headword": "chronic",
+          "frequencyRank": 110,
+          "baseDifficulty": 0.31,
+          "definition": "Uzun süre devam eden veya sık sık tekrarlayan, kronik nitelikte olan (hastalık için).",
+          "exampleSentences": [
+            "Chronic back pain forced her to change careers.",
+            "The disease is chronic, meaning it requires lifelong management rather than a one-time cure.",
+            "He was diagnosed with a chronic respiratory condition in his thirties."
+          ],
+          "translationTR": "kronik, süregen",
+          "collocations": [
+            "chronic illness",
+            "chronic pain",
+            "chronic condition"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-acute",
+          "type": "vocabulary",
+          "headword": "acute",
+          "frequencyRank": 111,
+          "baseDifficulty": 0.32,
+          "definition": "Aniden ortaya çıkan ve genellikle şiddetli fakat kısa süreli olan (hastalık veya durum için).",
+          "exampleSentences": [
+            "The patient was admitted with acute abdominal pain.",
+            "An acute shortage of nurses put pressure on the emergency department.",
+            "Symptoms became acute within hours of the initial infection."
+          ],
+          "translationTR": "akut, şiddetli/ani",
+          "collocations": [
+            "acute pain",
+            "acute shortage",
+            "acute condition"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-vaccine",
+          "type": "vocabulary",
+          "headword": "vaccine",
+          "frequencyRank": 112,
+          "baseDifficulty": 0.33,
+          "definition": "Vücudu belirli bir hastalığa karşı bağışık kılmak amacıyla üretilen biyolojik madde.",
+          "exampleSentences": [
+            "Scientists developed the vaccine in record time during the outbreak.",
+            "The vaccine is administered in two separate doses.",
+            "Health authorities urged the public to book a flu vaccine before winter."
+          ],
+          "translationTR": "aşı",
+          "collocations": [
+            "develop a vaccine",
+            "vaccine against",
+            "receive a vaccine"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-immune",
+          "type": "vocabulary",
+          "headword": "immune",
+          "frequencyRank": 113,
+          "baseDifficulty": 0.34,
+          "definition": "Vücudun hastalık yapan mikroorganizmalara karşı direnç gösterebilme özelliğine sahip olan.",
+          "exampleSentences": [
+            "A healthy diet helps keep the immune system strong.",
+            "Once you have had the disease, you may become immune to it.",
+            "The vaccine works by training the immune system to recognise the virus."
+          ],
+          "translationTR": "bağışık",
+          "collocations": [
+            "immune system",
+            "immune to",
+            "immune response"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-nutrition",
+          "type": "vocabulary",
+          "headword": "nutrition",
+          "frequencyRank": 114,
+          "baseDifficulty": 0.35,
+          "definition": "Vücudun büyümesi, gelişmesi ve sağlıklı kalması için gerekli besinlerin alınması ve kullanılması.",
+          "exampleSentences": [
+            "Good nutrition during childhood supports healthy development later in life.",
+            "The clinic offers advice on nutrition for patients recovering from surgery.",
+            "Poor nutrition is linked to a higher risk of chronic disease."
+          ],
+          "translationTR": "beslenme",
+          "collocations": [
+            "poor nutrition",
+            "nutrition advice",
+            "balanced nutrition"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-obesity",
+          "type": "vocabulary",
+          "headword": "obesity",
+          "frequencyRank": 115,
+          "baseDifficulty": 0.36,
+          "definition": "Vücutta sağlığı olumsuz etkileyecek ölçüde aşırı yağ birikmesiyle karakterize durum.",
+          "exampleSentences": [
+            "Childhood obesity has risen sharply over the past two decades.",
+            "Obesity increases the risk of developing type 2 diabetes.",
+            "The programme aims to tackle obesity through diet and exercise."
+          ],
+          "translationTR": "obezite, aşırı şişmanlık",
+          "collocations": [
+            "childhood obesity",
+            "obesity rates",
+            "tackle obesity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-epidemic",
+          "type": "vocabulary",
+          "headword": "epidemic",
+          "frequencyRank": 116,
+          "baseDifficulty": 0.37,
+          "definition": "Bir hastalığın belirli bir bölgede kısa sürede çok sayıda insana yayılması durumu.",
+          "exampleSentences": [
+            "The city declared an epidemic after cases tripled within a week.",
+            "An epidemic of measles swept through the region last spring.",
+            "Public health officials worked around the clock to contain the epidemic."
+          ],
+          "translationTR": "salgın",
+          "collocations": [
+            "declare an epidemic",
+            "epidemic of",
+            "contain an epidemic"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-mortality",
+          "type": "vocabulary",
+          "headword": "mortality",
+          "frequencyRank": 117,
+          "baseDifficulty": 0.38,
+          "definition": "Bir topluluk içinde belirli bir sürede meydana gelen ölüm oranı veya ölümlülük durumu.",
+          "exampleSentences": [
+            "Infant mortality has fallen dramatically since the vaccine was introduced.",
+            "The study compared mortality rates across different age groups.",
+            "Improved sanitation played a major role in reducing mortality in the city."
+          ],
+          "translationTR": "ölüm oranı, ölümlülük",
+          "collocations": [
+            "mortality rate",
+            "infant mortality",
+            "reduce mortality"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-disorder",
+          "type": "vocabulary",
+          "headword": "disorder",
+          "frequencyRank": 118,
+          "baseDifficulty": 0.39,
+          "definition": "Bedenin veya zihnin normal işleyişinin bozulmasıyla ortaya çıkan sağlık sorunu.",
+          "exampleSentences": [
+            "He was diagnosed with an anxiety disorder in his early twenties.",
+            "Sleep disorders can affect both physical and mental health.",
+            "The clinic specialises in treating eating disorders."
+          ],
+          "translationTR": "bozukluk, rahatsızlık",
+          "collocations": [
+            "anxiety disorder",
+            "sleep disorder",
+            "eating disorder"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-pharmaceutical",
+          "type": "vocabulary",
+          "headword": "pharmaceutical",
+          "frequencyRank": 119,
+          "baseDifficulty": 0.4,
+          "definition": "İlaçların üretimi, geliştirilmesi veya satışıyla ilgili olan.",
+          "exampleSentences": [
+            "The pharmaceutical company invested heavily in developing the new drug.",
+            "Pharmaceutical research has led to major advances in cancer treatment.",
+            "Strict regulations govern how pharmaceutical products are tested and sold."
+          ],
+          "translationTR": "ilaca ilişkin, farmasötik",
+          "collocations": [
+            "pharmaceutical company",
+            "pharmaceutical industry",
+            "pharmaceutical research"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-health-medicine-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-clinical",
+          "type": "vocabulary",
+          "headword": "clinical",
+          "frequencyRank": 120,
+          "baseDifficulty": 0.41,
+          "definition": "Hastaların doğrudan gözlemine veya tedavisine dayanan, hastane ya da klinik ortamında yürütülen.",
+          "exampleSentences": [
+            "The drug passed clinical trials before it was approved for general use.",
+            "Clinical evidence suggests the treatment reduces recovery time.",
+            "She has ten years of clinical experience working in intensive care."
+          ],
+          "translationTR": "klinik",
+          "collocations": [
+            "clinical trial",
+            "clinical evidence",
+            "clinical experience"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-prescribe",
+          "type": "vocabulary",
+          "headword": "prescribe",
+          "frequencyRank": 121,
+          "baseDifficulty": 0.42,
+          "definition": "Bir doktorun hastaya belirli bir ilaç veya tedavi önermesi ya da reçete yazması.",
+          "exampleSentences": [
+            "The doctor prescribed antibiotics for the throat infection.",
+            "Painkillers should only be prescribed when absolutely necessary.",
+            "Her physician prescribed a course of physiotherapy instead of surgery."
+          ],
+          "translationTR": "reçete etmek, önermek (tedavi)",
+          "collocations": [
+            "prescribe medication",
+            "prescribed antibiotics",
+            "commonly prescribed"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-allergy",
+          "type": "vocabulary",
+          "headword": "allergy",
+          "frequencyRank": 122,
+          "baseDifficulty": 0.43,
+          "definition": "Bağışıklık sisteminin normalde zararsız bir maddeye aşırı ve zararlı tepki vermesi durumu.",
+          "exampleSentences": [
+            "His allergy to peanuts means he has to check every food label carefully.",
+            "Seasonal allergies get worse for many people in spring.",
+            "The doctor ran tests to identify the cause of her allergy."
+          ],
+          "translationTR": "alerji",
+          "collocations": [
+            "allergy to",
+            "seasonal allergy",
+            "trigger an allergy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-genetic",
+          "type": "vocabulary",
+          "headword": "genetic",
+          "frequencyRank": 123,
+          "baseDifficulty": 0.44,
+          "definition": "Canlıların özelliklerinin kalıtım yoluyla, genler aracılığıyla nesilden nesile aktarılmasıyla ilgili olan.",
+          "exampleSentences": [
+            "Some forms of the disease have a strong genetic component.",
+            "Genetic testing can reveal whether a person carries the mutation.",
+            "Researchers are studying the genetic basis of the disorder."
+          ],
+          "translationTR": "genetik, kalıtsal",
+          "collocations": [
+            "genetic testing",
+            "genetic disorder",
+            "genetic component"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-hygiene",
+          "type": "vocabulary",
+          "headword": "hygiene",
+          "frequencyRank": 124,
+          "baseDifficulty": 0.45,
+          "definition": "Hastalıkları önlemek amacıyla temizliğe ve sağlıklı alışkanlıklara dikkat edilmesi.",
+          "exampleSentences": [
+            "Good hygiene practices can prevent the spread of many infections.",
+            "The hospital enforces strict hygiene standards in every ward.",
+            "Poor hygiene was identified as a major factor in the outbreak."
+          ],
+          "translationTR": "hijyen, temizlik",
+          "collocations": [
+            "personal hygiene",
+            "hygiene standards",
+            "poor hygiene"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-pathogen",
+          "type": "vocabulary",
+          "headword": "pathogen",
+          "frequencyRank": 125,
+          "baseDifficulty": 0.46,
+          "definition": "Vücuda girdiğinde hastalığa yol açabilen bakteri, virüs veya başka bir mikroorganizma.",
+          "exampleSentences": [
+            "The pathogen spreads easily through contaminated water.",
+            "Researchers identified a new pathogen responsible for the outbreak.",
+            "Hospitals use strict protocols to prevent pathogens from spreading between patients."
+          ],
+          "translationTR": "patojen, hastalık etkeni",
+          "collocations": [
+            "pathogen spreads",
+            "identify a pathogen",
+            "airborne pathogen"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-antibiotic",
+          "type": "vocabulary",
+          "headword": "antibiotic",
+          "frequencyRank": 126,
+          "baseDifficulty": 0.47,
+          "definition": "Bakterilerin neden olduğu enfeksiyonları tedavi etmek için kullanılan ilaç.",
+          "exampleSentences": [
+            "The doctor prescribed a course of antibiotics for the infection.",
+            "Overusing antibiotics has contributed to the rise of resistant bacteria.",
+            "Not all infections respond to antibiotic treatment."
+          ],
+          "translationTR": "antibiyotik",
+          "collocations": [
+            "course of antibiotics",
+            "antibiotic resistance",
+            "antibiotic treatment"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-rehabilitation",
+          "type": "vocabulary",
+          "headword": "rehabilitation",
+          "frequencyRank": 127,
+          "baseDifficulty": 0.48,
+          "definition": "Bir hastalık, yaralanma veya bağımlılık sonrasında kişinin işlevlerini yeniden kazanmasına yönelik tedavi süreci.",
+          "exampleSentences": [
+            "He spent months in rehabilitation after the accident.",
+            "The rehabilitation programme includes both physical and psychological support.",
+            "Patients often need rehabilitation to regain full use of an injured limb."
+          ],
+          "translationTR": "rehabilitasyon, iyileştirme",
+          "collocations": [
+            "rehabilitation programme",
+            "physical rehabilitation",
+            "undergo rehabilitation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-transplant",
+          "type": "vocabulary",
+          "headword": "transplant",
+          "frequencyRank": 128,
+          "baseDifficulty": 0.49,
+          "definition": "Hasarlı veya işlevini yitirmiş bir organın yerine sağlıklı bir organın nakledilmesi.",
+          "exampleSentences": [
+            "She received a kidney transplant after years on dialysis.",
+            "Doctors performed the heart transplant in a twelve-hour operation.",
+            "The waiting list for organ transplants continues to grow."
+          ],
+          "translationTR": "nakil (organ)",
+          "collocations": [
+            "organ transplant",
+            "kidney transplant",
+            "transplant surgery"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dementia",
+          "type": "vocabulary",
+          "headword": "dementia",
+          "frequencyRank": 129,
+          "baseDifficulty": 0.5,
+          "definition": "Bellek, düşünme ve akıl yürütme becerilerinin ilerleyici biçimde bozulmasıyla ortaya çıkan durum.",
+          "exampleSentences": [
+            "Her grandmother was diagnosed with dementia in her late seventies.",
+            "Dementia gradually affects memory, communication and daily functioning.",
+            "The care home specialises in supporting patients with dementia."
+          ],
+          "translationTR": "demans, bunama",
+          "collocations": [
+            "diagnosed with dementia",
+            "signs of dementia",
+            "dementia patient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-health-medicine-4",
+      "order": 3,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-contagious",
+          "type": "vocabulary",
+          "headword": "contagious",
+          "frequencyRank": 130,
+          "baseDifficulty": 0.51,
+          "definition": "Doğrudan veya dolaylı temas yoluyla kolayca bir kişiden diğerine bulaşabilen (hastalık için).",
+          "exampleSentences": [
+            "The virus is highly contagious and spreads quickly in crowded places.",
+            "Patients with contagious infections are isolated to protect others.",
+            "Health officials warned that the disease remains contagious for up to a week."
+          ],
+          "translationTR": "bulaşıcı",
+          "collocations": [
+            "highly contagious",
+            "contagious disease",
+            "remain contagious"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-remission",
+          "type": "vocabulary",
+          "headword": "remission",
+          "frequencyRank": 131,
+          "baseDifficulty": 0.52,
+          "definition": "Bir hastalığın, özellikle kanserin, belirtilerinin azaldığı veya tamamen kaybolduğu dönem.",
+          "exampleSentences": [
+            "The cancer has been in remission for over two years.",
+            "Doctors were cautiously optimistic when the disease went into remission.",
+            "Some patients relapse even after long periods of remission."
+          ],
+          "translationTR": "remisyon, hastalığın gerilemesi",
+          "collocations": [
+            "in remission",
+            "go into remission",
+            "period of remission"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-cardiovascular",
+          "type": "vocabulary",
+          "headword": "cardiovascular",
+          "frequencyRank": 132,
+          "baseDifficulty": 0.53,
+          "definition": "Kalp ve kan damarlarıyla ilgili olan.",
+          "exampleSentences": [
+            "Regular exercise lowers the risk of cardiovascular disease.",
+            "The study examined the cardiovascular effects of long-term smoking.",
+            "A diet high in salt can harm cardiovascular health over time."
+          ],
+          "translationTR": "kalp-damar sistemine ilişkin, kardiyovasküler",
+          "collocations": [
+            "cardiovascular disease",
+            "cardiovascular health",
+            "cardiovascular system"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-sedative",
+          "type": "vocabulary",
+          "headword": "sedative",
+          "frequencyRank": 133,
+          "baseDifficulty": 0.54,
+          "definition": "Kişiyi sakinleştirmek veya uyutmak amacıyla verilen ilaç.",
+          "exampleSentences": [
+            "The nurse administered a mild sedative before the procedure.",
+            "Sedatives are sometimes prescribed to help patients sleep before surgery.",
+            "Overuse of sedatives can lead to dependence."
+          ],
+          "translationTR": "yatıştırıcı, sedatif",
+          "collocations": [
+            "mild sedative",
+            "administer a sedative",
+            "sedative effect"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-placebo",
+          "type": "vocabulary",
+          "headword": "placebo",
+          "frequencyRank": 134,
+          "baseDifficulty": 0.55,
+          "definition": "Gerçek bir etkin madde içermeyen, ancak tedavi etkisini test etmek için kullanılan madde.",
+          "exampleSentences": [
+            "Half the participants received the drug, and half received a placebo.",
+            "Some patients reported improvement even after taking the placebo.",
+            "The placebo effect can influence how a patient perceives pain."
+          ],
+          "translationTR": "plasebo",
+          "collocations": [
+            "placebo effect",
+            "receive a placebo",
+            "placebo group"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-cognitive",
+          "type": "vocabulary",
+          "headword": "cognitive",
+          "frequencyRank": 135,
+          "baseDifficulty": 0.56,
+          "definition": "Düşünme, öğrenme, hatırlama ve akıl yürütme gibi zihinsel süreçlerle ilgili olan.",
+          "exampleSentences": [
+            "The illness gradually affected her cognitive abilities.",
+            "Researchers measured cognitive function before and after the treatment.",
+            "Ageing is often accompanied by a slow cognitive decline."
+          ],
+          "translationTR": "bilişsel",
+          "collocations": [
+            "cognitive function",
+            "cognitive decline",
+            "cognitive ability"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-prognosis",
+          "type": "vocabulary",
+          "headword": "prognosis",
+          "frequencyRank": 136,
+          "baseDifficulty": 0.57,
+          "definition": "Bir hastalığın muhtemel seyri ve sonucu hakkında yapılan tıbbi tahmin.",
+          "exampleSentences": [
+            "The prognosis was encouraging, with a high chance of full recovery.",
+            "Doctors gave the family an honest assessment of the prognosis.",
+            "Early diagnosis generally improves the prognosis for this condition."
+          ],
+          "translationTR": "prognoz, hastalığın seyrine dair tahmin",
+          "collocations": [
+            "poor prognosis",
+            "improve the prognosis",
+            "prognosis for"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-prevalence",
+          "type": "vocabulary",
+          "headword": "prevalence",
+          "frequencyRank": 137,
+          "baseDifficulty": 0.58,
+          "definition": "Bir hastalığın veya durumun belirli bir nüfus içinde ne kadar yaygın olduğu.",
+          "exampleSentences": [
+            "The prevalence of obesity has increased steadily over the past decade.",
+            "Researchers measured the prevalence of the disease across different regions.",
+            "High prevalence of the infection prompted a nationwide screening programme."
+          ],
+          "translationTR": "yaygınlık",
+          "collocations": [
+            "prevalence of",
+            "high prevalence",
+            "increasing prevalence"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-sanitation",
+          "type": "vocabulary",
+          "headword": "sanitation",
+          "frequencyRank": 138,
+          "baseDifficulty": 0.59,
+          "definition": "Halk sağlığını korumak amacıyla temiz su temini ve atıkların uygun şekilde bertaraf edilmesi.",
+          "exampleSentences": [
+            "Poor sanitation contributes to the spread of waterborne diseases.",
+            "The programme aims to improve sanitation in rural communities.",
+            "Investment in sanitation has significantly reduced infection rates in the city."
+          ],
+          "translationTR": "sağlık koşulları, atık ve su yönetimi (sanitasyon)",
+          "collocations": [
+            "poor sanitation",
+            "improve sanitation",
+            "sanitation system"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-cardiac",
+          "type": "vocabulary",
+          "headword": "cardiac",
+          "frequencyRank": 139,
+          "baseDifficulty": 0.6,
+          "definition": "Kalple ilgili veya kalbi etkileyen.",
+          "exampleSentences": [
+            "He was rushed to hospital after suffering a cardiac arrest.",
+            "The unit specialises in treating patients with cardiac conditions.",
+            "Cardiac surgery has advanced significantly over the past twenty years."
+          ],
+          "translationTR": "kalple ilgili, kardiyak",
+          "collocations": [
+            "cardiac arrest",
+            "cardiac surgery",
+            "cardiac condition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-health-medicine-5",
+      "order": 4,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-immunity",
+          "type": "vocabulary",
+          "headword": "immunity",
+          "frequencyRank": 140,
+          "baseDifficulty": 0.61,
+          "definition": "Vücudun belirli bir hastalığa karşı direnç gösterebilme yeteneği.",
+          "exampleSentences": [
+            "The vaccine provides long-lasting immunity against the virus.",
+            "Natural immunity can develop after recovering from an infection.",
+            "Scientists are studying how quickly immunity fades over time."
+          ],
+          "translationTR": "bağışıklık",
+          "collocations": [
+            "build immunity",
+            "immunity against",
+            "natural immunity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-mutation",
+          "type": "vocabulary",
+          "headword": "mutation",
+          "frequencyRank": 141,
+          "baseDifficulty": 0.62,
+          "definition": "Bir organizmanın genetik yapısında meydana gelen kalıcı değişiklik.",
+          "exampleSentences": [
+            "A single genetic mutation was found to cause the disorder.",
+            "A mutation in the virus produced a more resistant strain.",
+            "Researchers track mutations to understand how diseases evolve."
+          ],
+          "translationTR": "mutasyon, genetik değişim",
+          "collocations": [
+            "genetic mutation",
+            "undergo mutation",
+            "rare mutation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-malignant",
+          "type": "vocabulary",
+          "headword": "malignant",
+          "frequencyRank": 142,
+          "baseDifficulty": 0.63,
+          "definition": "Kontrolsüz biçimde büyüyerek vücudun diğer bölgelerine yayılabilen, kötü huylu (tümör için).",
+          "exampleSentences": [
+            "The biopsy confirmed that the tumour was malignant.",
+            "Malignant cells can spread rapidly to nearby tissue.",
+            "Doctors removed the malignant growth before it could spread further."
+          ],
+          "translationTR": "kötü huylu, malign",
+          "collocations": [
+            "malignant tumour",
+            "malignant cells",
+            "malignant growth"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-benign",
+          "type": "vocabulary",
+          "headword": "benign",
+          "frequencyRank": 143,
+          "baseDifficulty": 0.64,
+          "definition": "Zararsız, vücudun diğer bölgelerine yayılmayan (tümör için); iyi huylu.",
+          "exampleSentences": [
+            "Fortunately, the lump turned out to be benign.",
+            "Most skin growths of this kind are benign and require no treatment.",
+            "The scan confirmed a benign tumour with no sign of spreading."
+          ],
+          "translationTR": "iyi huylu, zararsız (tıpta)",
+          "collocations": [
+            "benign tumour",
+            "benign growth",
+            "prove to be benign"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-autopsy",
+          "type": "vocabulary",
+          "headword": "autopsy",
+          "frequencyRank": 144,
+          "baseDifficulty": 0.65,
+          "definition": "Ölüm nedenini belirlemek amacıyla bir cesedin tıbbi olarak incelenmesi.",
+          "exampleSentences": [
+            "The autopsy revealed that the victim had died of natural causes.",
+            "An autopsy was ordered to determine the exact cause of death.",
+            "Pathologists perform autopsies to answer questions a death certificate cannot."
+          ],
+          "translationTR": "otopsi",
+          "collocations": [
+            "perform an autopsy",
+            "order an autopsy",
+            "autopsy report"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-palliative",
+          "type": "vocabulary",
+          "headword": "palliative",
+          "frequencyRank": 145,
+          "baseDifficulty": 0.66,
+          "definition": "Bir hastalığı iyileştirmek yerine acıyı ve belirtileri hafifletmeye yönelik (bakım için).",
+          "exampleSentences": [
+            "The hospice provides palliative care for terminally ill patients.",
+            "Palliative treatment focuses on comfort rather than a cure.",
+            "She chose palliative care in the final stage of her illness."
+          ],
+          "translationTR": "acı dindirici, palyatif",
+          "collocations": [
+            "palliative care",
+            "palliative treatment",
+            "receive palliative care"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-hereditary",
+          "type": "vocabulary",
+          "headword": "hereditary",
+          "frequencyRank": 146,
+          "baseDifficulty": 0.67,
+          "definition": "Ebeveynlerden çocuklara genetik yolla aktarılan (hastalık veya özellik için).",
+          "exampleSentences": [
+            "The condition is hereditary and tends to run in families.",
+            "Doctors asked about any hereditary illnesses in her family history.",
+            "Not all forms of the disease are hereditary."
+          ],
+          "translationTR": "kalıtsal",
+          "collocations": [
+            "hereditary disease",
+            "hereditary condition",
+            "hereditary factor"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-resistance",
+          "type": "vocabulary",
+          "headword": "resistance",
+          "frequencyRank": 147,
+          "baseDifficulty": 0.68,
+          "definition": "Bir etkene, tedaviye veya değişime karşı direnç gösterme veya karşı koyma durumu.",
+          "exampleSentences": [
+            "Overuse of antibiotics has led to growing resistance among bacteria.",
+            "The body's resistance to infection weakens with age.",
+            "Scientists are searching for ways to overcome drug resistance."
+          ],
+          "translationTR": "direnç",
+          "collocations": [
+            "antibiotic resistance",
+            "resistance to",
+            "build resistance"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-susceptible",
+          "type": "vocabulary",
+          "headword": "susceptible",
+          "frequencyRank": 148,
+          "baseDifficulty": 0.69,
+          "definition": "Bir hastalığa, enfeksiyona veya etkiye karşı kolayca etkilenebilir, savunmasız olan.",
+          "exampleSentences": [
+            "Young children are particularly susceptible to this type of infection.",
+            "People with weakened immune systems are more susceptible to disease.",
+            "The elderly tend to be more susceptible to complications from flu."
+          ],
+          "translationTR": "hassas, kolay etkilenebilir",
+          "collocations": [
+            "susceptible to",
+            "highly susceptible",
+            "more susceptible"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-longevity",
+          "type": "vocabulary",
+          "headword": "longevity",
+          "frequencyRank": 149,
+          "baseDifficulty": 0.7,
+          "definition": "Uzun süre yaşama veya var olma durumu, uzun ömürlülük.",
+          "exampleSentences": [
+            "A healthy diet and regular exercise are linked to greater longevity.",
+            "Researchers study certain populations to understand the secrets of longevity.",
+            "Improvements in medicine have contributed to increased human longevity."
+          ],
+          "translationTR": "uzun ömürlülük",
+          "collocations": [
+            "increase longevity",
+            "human longevity",
+            "linked to longevity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-health-medicine-6",
+      "order": 5,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-detrimental",
+          "type": "vocabulary",
+          "headword": "detrimental",
+          "frequencyRank": 150,
+          "baseDifficulty": 0.71,
+          "definition": "Zararlı sonuçlar doğuran, olumsuz etkisi olan.",
+          "exampleSentences": [
+            "Smoking has a detrimental effect on cardiovascular health.",
+            "Prolonged stress can be detrimental to both physical and mental wellbeing.",
+            "The report warned that the delay would be detrimental to patient care."
+          ],
+          "translationTR": "zararlı, olumsuz etkili",
+          "collocations": [
+            "detrimental effect",
+            "detrimental to health",
+            "prove detrimental"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ameliorate",
+          "type": "vocabulary",
+          "headword": "ameliorate",
+          "frequencyRank": 151,
+          "baseDifficulty": 0.72,
+          "definition": "Bir durumu, özellikle kötü veya rahatsız edici bir durumu, daha iyi hale getirmek.",
+          "exampleSentences": [
+            "The new drug was designed to ameliorate the symptoms of the disease.",
+            "Better housing conditions helped ameliorate the health of the community.",
+            "Doctors hoped the treatment would ameliorate her chronic pain."
+          ],
+          "translationTR": "iyileştirmek, hafifletmek",
+          "collocations": [
+            "ameliorate symptoms",
+            "ameliorate conditions",
+            "help ameliorate"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-exacerbate",
+          "type": "vocabulary",
+          "headword": "exacerbate",
+          "frequencyRank": 152,
+          "baseDifficulty": 0.73,
+          "definition": "Bir sorunu, hastalığı veya durumu daha da kötüleştirmek, şiddetlendirmek.",
+          "exampleSentences": [
+            "Stress can exacerbate symptoms of an existing heart condition.",
+            "Skipping medication may exacerbate the disease's progression.",
+            "Poor air quality tends to exacerbate respiratory problems."
+          ],
+          "translationTR": "kötüleştirmek, şiddetlendirmek",
+          "collocations": [
+            "exacerbate symptoms",
+            "exacerbate the condition",
+            "further exacerbate"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-debilitating",
+          "type": "vocabulary",
+          "headword": "debilitating",
+          "frequencyRank": 153,
+          "baseDifficulty": 0.74,
+          "definition": "Kişiyi güçsüz bırakan, günlük işlevleri ciddi biçimde zayıflatan (hastalık veya durum için).",
+          "exampleSentences": [
+            "The disease left him with a debilitating weakness in his legs.",
+            "Chronic migraines can be debilitating enough to prevent people from working.",
+            "She continued to work despite her debilitating illness."
+          ],
+          "translationTR": "güçten düşürücü, zayıflatıcı",
+          "collocations": [
+            "debilitating illness",
+            "debilitating condition",
+            "debilitating effect"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-alleviate",
+          "type": "vocabulary",
+          "headword": "alleviate",
+          "frequencyRank": 154,
+          "baseDifficulty": 0.75,
+          "definition": "Bir acıyı, sorunu veya rahatsızlığı hafifletmek, azaltmak.",
+          "exampleSentences": [
+            "The medication helped alleviate her chronic back pain.",
+            "Simple breathing exercises can alleviate anxiety before surgery.",
+            "Doctors prescribed painkillers to alleviate the discomfort."
+          ],
+          "translationTR": "hafifletmek, azaltmak",
+          "collocations": [
+            "alleviate pain",
+            "alleviate symptoms",
+            "help alleviate"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-morbidity",
+          "type": "vocabulary",
+          "headword": "morbidity",
+          "frequencyRank": 155,
+          "baseDifficulty": 0.76,
+          "definition": "Bir topluluk içinde belirli bir hastalığın görülme sıklığı veya hastalık hali.",
+          "exampleSentences": [
+            "The study measured both morbidity and mortality associated with the disease.",
+            "Rates of morbidity from the infection were higher in older adults.",
+            "Improved sanitation has reduced morbidity linked to waterborne illnesses."
+          ],
+          "translationTR": "hastalık oranı, morbidite",
+          "collocations": [
+            "morbidity rate",
+            "morbidity and mortality",
+            "reduce morbidity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-epidemiology",
+          "type": "vocabulary",
+          "headword": "epidemiology",
+          "frequencyRank": 156,
+          "baseDifficulty": 0.77,
+          "definition": "Hastalıkların bir toplumda nasıl yayıldığını ve nedenlerini inceleyen bilim dalı.",
+          "exampleSentences": [
+            "She specialises in the epidemiology of infectious diseases.",
+            "Epidemiology helped researchers trace the outbreak back to its source.",
+            "The university offers a graduate programme in epidemiology."
+          ],
+          "translationTR": "epidemiyoloji, salgın bilimi",
+          "collocations": [
+            "epidemiology of",
+            "field of epidemiology",
+            "study epidemiology"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-pathology",
+          "type": "vocabulary",
+          "headword": "pathology",
+          "frequencyRank": 157,
+          "baseDifficulty": 0.78,
+          "definition": "Hastalıkların nedenlerini, gelişimini ve etkilerini inceleyen tıp dalı; ayrıca bir hastalığın kendisi.",
+          "exampleSentences": [
+            "The lab report confirmed the pathology of the tumour.",
+            "He works as a specialist in pathology at the city hospital.",
+            "Understanding the underlying pathology is essential for effective treatment."
+          ],
+          "translationTR": "patoloji",
+          "collocations": [
+            "field of pathology",
+            "underlying pathology",
+            "pathology report"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-virulent",
+          "type": "vocabulary",
+          "headword": "virulent",
+          "frequencyRank": 158,
+          "baseDifficulty": 0.79,
+          "definition": "Hızla yayılan ve ciddi zarar veren, çok şiddetli etkiye sahip (hastalık etkeni için).",
+          "exampleSentences": [
+            "A more virulent strain of the virus emerged the following winter.",
+            "The infection proved highly virulent, spreading rapidly through the ward.",
+            "Researchers are studying why this strain is so virulent."
+          ],
+          "translationTR": "şiddetli, hızla yayılan (hastalık etkeni)",
+          "collocations": [
+            "virulent strain",
+            "highly virulent",
+            "virulent infection"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-holistic",
+          "type": "vocabulary",
+          "headword": "holistic",
+          "frequencyRank": 159,
+          "baseDifficulty": 0.8,
+          "definition": "Bir sorunu yalnızca bir parçasıyla değil, bütünüyle ele alan (özellikle sağlıkta beden ve zihni birlikte değerlendiren).",
+          "exampleSentences": [
+            "The clinic takes a holistic approach to treating chronic illness.",
+            "Holistic care considers a patient's emotional and social wellbeing, not just their symptoms.",
+            "She switched to a more holistic method of managing her condition."
+          ],
+          "translationTR": "bütüncül, holistik",
+          "collocations": [
+            "holistic approach",
+            "holistic care",
+            "holistic treatment"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-subjunctive-2",
+  "estimatedDurationMinutes": 10,
+  "title": "İstek Kipi: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-subjunctive-2",
+      "type": "grammarPoint",
+      "headword": "Subjunctive (Traps)",
+      "frequencyRank": 2021,
+      "baseDifficulty": 0.6,
+      "definition": "Wish, if only, would rather, it is high time, as if ve lest tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "İstek Kipi: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Bu derste gerçek dışı durumları ve dilekleri anlatan yapıların zaman kalıpları sınanır. Geçmişe doğru bir adım kayma esastır.\n\n• wish / if only + past simple = şimdiki pişmanlık: I wish the committee had more time. + past perfect = geçmiş pişmanlık: He wishes he had noticed the signs earlier. + would = bir değişiklik isteği ya da sitem: I wish the minister would make a clear statement.\n\n• would rather + özne + past simple / past perfect (öznesi farklıysa): The chairman would rather the meeting were postponed. Özne aynıysa yalın fiil: I would rather write the report myself.\n\n• It is (high) time + özne + past simple: It is high time the government took action. (takes DEĞİL.)\n\n• as if / as though + past simple (were): He talks as if it were a minor problem.\n\n• lest + yalın fiil (ya da should + V1): They moved their funds abroad lest the government impose controls.\n\n• Resmî dilek: May + özne + V1: May the institute flourish.\n\nEn sık düşülen tuzak: I wish he would come (bir değişiklik isteği) ile I wish he came (gerçek dışı şimdiki durum) ayrımı, ve would rather go (aynı özne) ile would rather he went (farklı özne).\n\nÖrnek: It is high time the government took serious action against tax evasion."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-subjunctive-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "I wish the committee ---- more time to review the proposal, but the deadline is tomorrow.",
+      "options": [
+        "has",
+        "would have",
+        "will have",
+        "had",
+        "had had"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Wish» sonrasında şimdiki gerçek dışı durum past simple ile anlatılır: wish the committee had more time. (A) has ve (C) will have kalıbı bozar. (B) would have bir değişiklik isteği için kullanılır ve durum fiiliyle uyumsuzdur. (E) had had geçmiş pişmanlığı anlatır; cümle şimdiki zamandan söz ediyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The director wishes he ---- the warning signs earlier; the losses could have been avoided.",
+      "options": [
+        "had noticed",
+        "noticed",
+        "would notice",
+        "notices",
+        "has noticed"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Geçmişteki pişmanlık wish + past perfect ile anlatılır: wishes he had noticed. (B) noticed şimdiki gerçek dışı durumu anlatır. (C) would notice bir değişiklik isteğidir. (D) notices ve (E) has noticed wish ile bu anlamı kuramaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "I wish the minister ---- a clear statement on the tax changes soon.",
+      "options": [
+        "makes",
+        "has made",
+        "will make",
+        "is making",
+        "would make"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Wish + would» bir değişiklik isteği ya da sitem bildirir ve «soon» geleceğe yöneliktir: would make. (A) makes, (B) has made, (C) will make ve (D) is making wish sonrasında zaman kayması yapmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "If only the government ---- the crisis earlier, thousands of jobs would have been saved.",
+      "options": [
+        "addressed",
+        "had addressed",
+        "would address",
+        "has addressed",
+        "addresses"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Ana cümledeki «would have been saved» geçmiş pişmanlığı gösterir; if only + past perfect gerekir: had addressed. (A) addressed şimdiki gerçek dışı durumu anlatır. (C) would address bir değişiklik isteğidir. (D) has addressed ve (E) addresses gerçek zaman kalıplarıdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The chairman would rather the meeting ---- postponed until next week.",
+      "options": [
+        "is",
+        "would be",
+        "were",
+        "will be",
+        "has been"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Would rather + FARKLI özne + past simple: the meeting were postponed. (A) is, (D) will be ve (E) has been zaman kaydırmaz. (B) would be, would rather'dan sonra ikinci bir would getirir ve kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "I would rather ---- the report myself than delegate it to an assistant.",
+      "options": [
+        "to write",
+        "wrote",
+        "writing",
+        "write",
+        "have written"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Özne aynı (I ... myself); would rather + yalın fiil: write. (A) to write ve (C) writing bu kalıpta kullanılmaz. (B) wrote farklı özne kalıbıdır. (E) have written geçmişe dönük bir pişmanlık anlamı katar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "It is high time the government ---- serious action against tax evasion.",
+      "options": [
+        "took",
+        "takes",
+        "will take",
+        "has taken",
+        "would take"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«It is (high) time + özne + past simple» kalıbıdır: took. (B) takes, (C) will take ve (D) has taken bu kalıpta zaman kaydırmaz. (E) would take ise it is time'dan sonra kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "Decades later, the economist still describes the 1929 crash as if it ---- yesterday.",
+      "options": [
+        "is",
+        "will be",
+        "has been",
+        "would be",
+        "were"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«As if» gerçek dışı karşılaştırmada past simple (were) ister: as if it were yesterday. «Yesterday» geçmişi gösterdiği için (A) is, (B) will be ve (C) has been kullanılamaz. (D) would be as if ile kalıp kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "Investors moved their funds abroad lest the government ---- new capital controls.",
+      "options": [
+        "imposes",
+        "impose",
+        "imposed",
+        "will impose",
+        "has imposed"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Lest» sonrasında yalın fiil (ya da should + V1) gelir: lest the government impose. (A) imposes fiili çeker. (C) imposed ve (D) will impose ve (E) has imposed lest ile kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-subjunctive-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "---- the new institute flourish for many years to come, and its research benefit the whole region!",
+      "options": [
+        "Would",
+        "Will",
+        "May",
+        "Does",
+        "Should"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Resmî dilek May + özne + V1 ile kurulur: May the new institute flourish. (A) Would ve (B) Will bu dilek kalıbını kurmaz. (D) Does soru yapısıdır. (E) Should koşul cümlesi başlatır ve ana cümle beklenir; burada dilek vardır.",
+      "passageID": null
+    }
+  ]
+}

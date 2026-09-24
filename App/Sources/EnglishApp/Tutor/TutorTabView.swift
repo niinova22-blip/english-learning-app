@@ -7,15 +7,19 @@ import SwiftUI
 /// is true (see `RootTabView`) — this view's own states are about
 /// "available but not yet loaded" / "available but failed to load",
 /// never about total unavailability, which is handled by hiding the
-/// tab entirely one level up.
+/// tab entirely one level up. Without AI Premium the tab stays visible
+/// but shows a locked state that opens the premium paywall.
 struct TutorTabView: View {
     @Environment(AppState.self) private var appState
     @State private var isLoading = false
     @State private var loadFailed = false
+    @State private var showPaywall = false
 
     var body: some View {
         Group {
-            if let engine = appState.tutorEngine {
+            if appState.tutorAccess == .needsPremium {
+                lockedState
+            } else if let engine = appState.tutorEngine {
                 TutorChatView(engine: engine)
             } else if isLoading {
                 ProgressView("Öğretmen yükleniyor...")
@@ -35,10 +39,29 @@ struct TutorTabView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Theme.paper.ignoresSafeArea())
-        .task { await load() }
+        .task(id: appState.tutorAccess) { await load() }
+        .sheet(isPresented: $showPaywall) {
+            PaywallView(mode: .premium, store: appState.entitlements)
+        }
+    }
+
+    private var lockedState: some View {
+        VStack(spacing: 14) {
+            Image(systemName: "lock.fill").font(.largeTitle).foregroundStyle(Theme.accent)
+            Text("Öğretmen AI Premium ile açılır")
+                .font(.serifTitle(.title3)).foregroundStyle(Theme.ink)
+            Text("Sorularını Türkçe açıklatabilir ve öğretmenle sohbet edebilirsin.")
+                .font(.subheadline).foregroundStyle(Theme.secondaryInk)
+                .multilineTextAlignment(.center)
+            Button("AI Premium'a geç") { showPaywall = true }
+                .buttonStyle(PrimaryButtonStyle())
+                .frame(maxWidth: 260)
+        }
+        .padding(24)
     }
 
     private func load() async {
+        guard appState.tutorAccess == .allowed else { return }
         guard appState.tutorEngine == nil, !isLoading else { return }
         isLoading = true
         await appState.loadTutorEngineIfNeeded()

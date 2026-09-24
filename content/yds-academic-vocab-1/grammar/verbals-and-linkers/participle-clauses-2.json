@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-participle-clauses-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Ortaç Cümlecikleri: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-participle-clauses-2",
+      "type": "grammarPoint",
+      "headword": "Participle Clauses (Traps)",
+      "frequencyRank": 2015,
+      "baseDifficulty": 0.6,
+      "definition": "Bağlaçlı ortaç cümlecikleri, mutlak yapılar ve sarkan ortaç tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "Ortaç Cümlecikleri: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Bu derste ortaç yapılarının ileri kalıpları ve klasik tuzakları sınanır.\n\n• Bağlaç korunur: While working ..., When asked ..., Although criticised ..., Once approved ..., Before submitting ... Bağlaç ortaçtan önce korunabilir; yalnızca özne aynıysa.\n\n• Mutlak yapı (absolute construction): kendi öznesi vardır: The weather being unusually mild, the harvest began early. All things considered, ... Its funding withdrawn, the project was abandoned. Other things being equal, ...\n\n• With + isim + ortaç: With inflation rising sharply, the bank raised rates.\n\n• Ortaç görevi gören edatlar: Given ..., Provided (that) ..., Considering ..., Assuming ..., Judging by ...\n\n• having done ↔ having been done: özne eylemi yapıyorsa having done, eylemden etkileniyorsa having been done: Having been warned repeatedly, the investors proceeded.\n\nEn sık düşülen tuzak: sarkan ortaç. Ortaç cümleciğinin öznesi ana cümlenin öznesi değilse (Walking along the shore, a strange shape caught his eye) cümle yanlıştır.\n\nÖrnek: Constructed in the early 1960s, the bridge now carries three times the traffic it was designed for."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-participle-clauses-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "---- in the early 1960s, the bridge now carries three times the traffic volume it was designed for.",
+      "options": [
+        "Constructing",
+        "Having constructed",
+        "Constructed",
+        "Being constructed",
+        "To construct"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Ortaç cümleciğinin gizli öznesi ana cümlenin öznesidir: the bridge. Köprü inşa EDİLEN taraf olduğu için edilgen anlam veren üçüncü hâl (past participle) gerekir: Constructed in the early 1960s = As it was constructed ... (A) Constructing ve (B) Having constructed etkendir, yani köprünün bir şey inşa ettiğini söyler. (D) Being constructed şu anda sürmekte olan bir edilgen eylemi anlatır ve «in the early 1960s» ile çelişir. (E) To construct amaç bildirir, zaman değil.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "---- working on the merger, the analysts discovered a serious accounting error.",
+      "options": [
+        "While",
+        "Whereas",
+        "Unless",
+        "Whose",
+        "During"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Bağlaç ortaçtan önce korunabilir ve eşzamanlılık anlatır: While working on the merger, the analysts ... (B) Whereas karşıtlık bağlacıdır. (C) Unless koşul bildirir ve anlamı bozar. (D) Whose ardından ad ister. (E) During bir edattır ve V-ing ile kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The weather ---- unusually mild, the harvest began two weeks earlier than usual.",
+      "options": [
+        "is",
+        "having",
+        "to be",
+        "been",
+        "being"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Mutlak yapıda kendi öznesi olan ortaç cümleciği kurulur: The weather being unusually mild, ... (A) is çekimli fiildir ve iki cümleyi virgülle birleştirir. (B) having ve (D) been eksik yardımcı fiil bırakır. (C) to be amaç bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "All things ----, the merger appears to have benefited both companies.",
+      "options": [
+        "considering",
+        "considered",
+        "consider",
+        "having considered",
+        "to consider"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«All things considered» sabit bir mutlak yapıdır: her şey göz önüne alındığında. (A) considering, (D) having considered ve (E) to consider bu sabit kalıbı bozar. (C) consider çekimli bir fiildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "---- inflation rising sharply, the central bank was forced to raise interest rates.",
+      "options": [
+        "Having",
+        "Being",
+        "For",
+        "With",
+        "While"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«With + isim + ortaç» kalıbı bir neden ya da eşlik eden durum bildirir: With inflation rising sharply, ... (A) Having ve (B) Being isimden önce bu anlamı kuramaz. (C) For ve (E) While isim + V-ing ile kurulmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "---- the current economic climate, the firm's decision to expand seems overly optimistic.",
+      "options": [
+        "Giving",
+        "Gave",
+        "Given",
+        "To give",
+        "Having given"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Given + isim» ortaç görevi gören bir edattır: Given the current economic climate (= göz önüne alındığında). (A) Giving, (B) Gave ve (E) Having given bir şey vermeyi anlatır ve anlamı bozar. (D) To give amaç bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "---- that the funding is secured, construction will begin in March.",
+      "options": [
+        "Provided",
+        "Provide",
+        "To provide",
+        "Having provided",
+        "Provision"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Provided (that)» koşul bildirir: Provided that the funding is secured. (B) Provide yalın fiildir. (C) To provide amaç bildirir. (D) Having provided ve (E) Provision koşul anlamı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "---- about the risks several times, the investors nevertheless proceeded with the deal.",
+      "options": [
+        "Having warned",
+        "Warning",
+        "Being warning",
+        "To warn",
+        "Having been warned"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Yatırımcılar uyarılan taraftır ve uyarı yatırımdan öncedir: Having been warned. (A) Having warned ve (B) Warning etkendir; yatırımcılar uyarı yapmamıştır. (C) Being warning ve (D) To warn kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "Walking along the shore at dawn, ----.",
+      "options": [
+        "a strange shape caught the surveyor's eye",
+        "the surveyor noticed a strange shape in the sand",
+        "the sand contained a strange shape",
+        "a strange shape was noticed by the surveyor",
+        "it was a strange shape that caught his eye"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Yürüyen taraf gözetmendir; ortaç cümleciğinin öznesi ana cümlenin öznesi olmalıdır: Walking ..., the surveyor noticed ... (A) a strange shape ..., (C) the sand ... ve (D) a strange shape was noticed ... öznesi yürüyen taraf değildir (sarkan ortaç). (E) it was a strange shape ... de yürüyen kişiyi özne yapmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "Its funding ----, the project was abandoned within a month.",
+      "options": [
+        "withdrawing",
+        "having withdrawn",
+        "to withdraw",
+        "withdrawn",
+        "withdraw"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Mutlak yapıda özne (its funding) fonu çekilen taraftır: Its funding withdrawn (= çekilmişken). (A) withdrawing ve (B) having withdrawn etken anlam katar. (C) to withdraw amaç bildirir. (E) withdraw çekimli bir fiildir.",
+      "passageID": null
+    }
+  ]
+}

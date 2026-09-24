@@ -1,0 +1,1189 @@
+{
+  "id": "yds-vocab2-unit-psychology-behaviour",
+  "theme": "Psychology & Behaviour",
+  "order": 21,
+  "lessons": [
+    {
+      "id": "yds-vocab2-lesson-psychology-behaviour-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-emotion",
+          "type": "vocabulary",
+          "headword": "emotion",
+          "frequencyRank": 400,
+          "baseDifficulty": 0.21,
+          "definition": "Bir olay veya duruma karşı hissedilen, genellikle davranışı da etkileyen güçlü duygusal tepki.",
+          "exampleSentences": [
+            "Fear is one of the most basic human emotions.",
+            "She struggled to hide her emotions during the interview.",
+            "The therapist encouraged him to express his emotions more openly."
+          ],
+          "translationTR": "duygu",
+          "collocations": [
+            "strong emotion",
+            "express emotion",
+            "mixed emotions"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-behaviour",
+          "type": "vocabulary",
+          "headword": "behaviour",
+          "frequencyRank": 401,
+          "baseDifficulty": 0.22,
+          "definition": "Bir kişinin belirli koşullar altında sergilediği, dışarıdan gözlemlenebilen eylem ve tepkiler bütünü.",
+          "exampleSentences": [
+            "The study examined how stress affects children's behaviour at school.",
+            "Her sudden change in behaviour worried her close friends.",
+            "Rewarding good behaviour is more effective than punishing bad behaviour."
+          ],
+          "translationTR": "davranış",
+          "collocations": [
+            "change in behaviour",
+            "aggressive behaviour",
+            "human behaviour"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-personality",
+          "type": "vocabulary",
+          "headword": "personality",
+          "frequencyRank": 402,
+          "baseDifficulty": 0.23,
+          "definition": "Bir bireyi diğerlerinden ayıran, düşünce, duygu ve davranış biçimlerinin kalıcı bütünü.",
+          "exampleSentences": [
+            "Twin studies have shed light on how much personality is shaped by genetics.",
+            "His outgoing personality made him popular among his colleagues.",
+            "Psychologists use several models to describe different personality types."
+          ],
+          "translationTR": "kişilik",
+          "collocations": [
+            "personality trait",
+            "personality type",
+            "outgoing personality"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-memory",
+          "type": "vocabulary",
+          "headword": "memory",
+          "frequencyRank": 403,
+          "baseDifficulty": 0.24,
+          "definition": "Bilginin veya yaşanmış deneyimlerin zihinde depolanması ve daha sonra hatırlanabilmesi süreci.",
+          "exampleSentences": [
+            "Sleep plays a crucial role in consolidating long-term memory.",
+            "The accident left a lasting memory that still troubles her.",
+            "Researchers tested how anxiety affects short-term memory."
+          ],
+          "translationTR": "hafıza, bellek",
+          "collocations": [
+            "short-term memory",
+            "loss of memory",
+            "vivid memory"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-stress",
+          "type": "vocabulary",
+          "headword": "stress",
+          "frequencyRank": 404,
+          "baseDifficulty": 0.25,
+          "definition": "Zorlayıcı bir durum karşısında bedenin ve zihnin yaşadığı gerginlik ve baskı hâli.",
+          "exampleSentences": [
+            "Chronic stress can weaken the immune system over time.",
+            "She learned several techniques to manage exam stress.",
+            "Financial problems were the main source of his stress."
+          ],
+          "translationTR": "stres, gerginlik (psikolojik/fiziksel anlamda)",
+          "collocations": [
+            "under stress",
+            "cope with stress",
+            "stress levels"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-attitude",
+          "type": "vocabulary",
+          "headword": "attitude",
+          "frequencyRank": 405,
+          "baseDifficulty": 0.26,
+          "definition": "Bir kişi, nesne veya duruma karşı benimsenen olumlu ya da olumsuz bakış açısı.",
+          "exampleSentences": [
+            "Her positive attitude helped the whole team stay motivated.",
+            "The survey measured attitudes toward mental health treatment.",
+            "His attitude toward authority changed noticeably after therapy."
+          ],
+          "translationTR": "tutum",
+          "collocations": [
+            "positive attitude",
+            "change of attitude",
+            "attitude toward"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-motive",
+          "type": "vocabulary",
+          "headword": "motive",
+          "frequencyRank": 406,
+          "baseDifficulty": 0.27,
+          "definition": "Bir kişiyi belirli bir şekilde davranmaya yönelten iç sebep.",
+          "exampleSentences": [
+            "Investigators struggled to identify the suspect's motive.",
+            "Psychologists study the motives behind altruistic behaviour.",
+            "Her motive for volunteering was simply a desire to help others."
+          ],
+          "translationTR": "güdü, saik, dürtü nedeni",
+          "collocations": [
+            "hidden motive",
+            "underlying motive",
+            "question someone's motives"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-anxiety",
+          "type": "vocabulary",
+          "headword": "anxiety",
+          "frequencyRank": 407,
+          "baseDifficulty": 0.28,
+          "definition": "Belirsiz bir tehlike karşısında hissedilen yoğun endişe ve huzursuzluk duygusu.",
+          "exampleSentences": [
+            "Social anxiety made it difficult for him to speak in front of others.",
+            "Her anxiety levels rose sharply in the days before the exam.",
+            "Mild anxiety before a performance is completely normal."
+          ],
+          "translationTR": "kaygı, anksiyete",
+          "collocations": [
+            "social anxiety",
+            "anxiety levels",
+            "cause anxiety"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-habit",
+          "type": "vocabulary",
+          "headword": "habit",
+          "frequencyRank": 408,
+          "baseDifficulty": 0.29,
+          "definition": "Sıkça tekrarlanarak neredeyse otomatik hale gelmiş davranış.",
+          "exampleSentences": [
+            "Breaking an old habit takes far more willpower than forming a new one.",
+            "Smoking is a difficult habit for many people to quit.",
+            "Keeping a journal became a nightly habit for her."
+          ],
+          "translationTR": "alışkanlık",
+          "collocations": [
+            "break a habit",
+            "form a habit",
+            "bad habit"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-reaction",
+          "type": "vocabulary",
+          "headword": "reaction",
+          "frequencyRank": 409,
+          "baseDifficulty": 0.3,
+          "definition": "Bir uyarana veya olaya karşı, genellikle hızlı ve kontrolsüz biçimde ortaya çıkan davranış veya duygu.",
+          "exampleSentences": [
+            "His reaction to the news was one of complete shock.",
+            "The experiment measured participants' emotional reactions to the images.",
+            "Her calm reaction surprised everyone in the room."
+          ],
+          "translationTR": "tepki",
+          "collocations": [
+            "strong reaction",
+            "emotional reaction",
+            "provoke a reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-psychology-behaviour-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-instinct",
+          "type": "vocabulary",
+          "headword": "instinct",
+          "frequencyRank": 410,
+          "baseDifficulty": 0.31,
+          "definition": "Öğrenilmeden, doğuştan gelen ve otomatik olarak ortaya çıkan davranış eğilimi.",
+          "exampleSentences": [
+            "Maternal instinct drives many animals to protect their young at any cost.",
+            "Her first instinct was to run, but she forced herself to stay calm.",
+            "Some fears seem to be instinct rather than learned behaviour."
+          ],
+          "translationTR": "içgüdü",
+          "collocations": [
+            "survival instinct",
+            "maternal instinct",
+            "trust one's instinct"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-impulse",
+          "type": "vocabulary",
+          "headword": "impulse",
+          "frequencyRank": 411,
+          "baseDifficulty": 0.32,
+          "definition": "Düşünmeden, ani bir dürtüyle ortaya çıkan hareket etme isteği.",
+          "exampleSentences": [
+            "He bought the car on a sudden impulse he later regretted.",
+            "Children often struggle to control their impulses.",
+            "Therapy helped her resist the impulse to react angrily."
+          ],
+          "translationTR": "dürtü, ani istek",
+          "collocations": [
+            "sudden impulse",
+            "control an impulse",
+            "act on impulse"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-phobia",
+          "type": "vocabulary",
+          "headword": "phobia",
+          "frequencyRank": 412,
+          "baseDifficulty": 0.33,
+          "definition": "Belirli bir nesne veya durumla orantısız derecede yoğun ve mantıksız korku.",
+          "exampleSentences": [
+            "His phobia of heights kept him from climbing the tower.",
+            "Exposure therapy is commonly used to treat specific phobias.",
+            "Her phobia developed after a frightening childhood experience."
+          ],
+          "translationTR": "fobi",
+          "collocations": [
+            "irrational phobia",
+            "develop a phobia",
+            "treat a phobia"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-conscious",
+          "type": "vocabulary",
+          "headword": "conscious",
+          "frequencyRank": 413,
+          "baseDifficulty": 0.34,
+          "definition": "Farkındalık hâlinde olan, çevresindeki uyaranların bilincinde olan.",
+          "exampleSentences": [
+            "She remained fully conscious throughout the entire procedure.",
+            "He made a conscious effort to control his temper.",
+            "Patients are asked several questions to check whether they are conscious."
+          ],
+          "translationTR": "bilinçli, farkında olan (bilinç anlamında; 'vicdan' anlamına gelen conscience ile karıştırılmamalı)",
+          "collocations": [
+            "fully conscious",
+            "conscious effort",
+            "politically conscious"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-trauma",
+          "type": "vocabulary",
+          "headword": "trauma",
+          "frequencyRank": 414,
+          "baseDifficulty": 0.35,
+          "definition": "Kişide derin ve kalıcı ruhsal etkiler bırakan sarsıcı olay veya bu olayın yol açtığı ruhsal yara.",
+          "exampleSentences": [
+            "The accident left him with lasting psychological trauma.",
+            "Therapists help patients process childhood trauma.",
+            "War often leaves entire communities dealing with collective trauma."
+          ],
+          "translationTR": "travma",
+          "collocations": [
+            "psychological trauma",
+            "childhood trauma",
+            "process trauma"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-empathy",
+          "type": "vocabulary",
+          "headword": "empathy",
+          "frequencyRank": 415,
+          "baseDifficulty": 0.36,
+          "definition": "Başka birinin duygularını anlayabilme ve onun bakış açısını hissedebilme becerisi.",
+          "exampleSentences": [
+            "Good therapists show genuine empathy toward their clients.",
+            "The training programme aims to build empathy among healthcare staff.",
+            "She listened with such empathy that he felt truly understood."
+          ],
+          "translationTR": "empati (başkasının duygularını anlama ve paylaşma becerisi)",
+          "collocations": [
+            "show empathy",
+            "lack of empathy",
+            "empathy toward"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-intelligence",
+          "type": "vocabulary",
+          "headword": "intelligence",
+          "frequencyRank": 416,
+          "baseDifficulty": 0.37,
+          "definition": "Bilgiyi öğrenme, anlama, akıl yürütme ve sorunları çözme yeteneği.",
+          "exampleSentences": [
+            "Researchers debate how much intelligence is inherited rather than learned.",
+            "The test claims to measure several types of intelligence.",
+            "Emotional intelligence is now considered as important as academic ability."
+          ],
+          "translationTR": "zekâ",
+          "collocations": [
+            "emotional intelligence",
+            "measure intelligence",
+            "level of intelligence"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-temperament",
+          "type": "vocabulary",
+          "headword": "temperament",
+          "frequencyRank": 417,
+          "baseDifficulty": 0.38,
+          "definition": "Bir kişinin doğuştan getirdiği ve duygusal tepkilerinin şiddetini, hızını ve süresini belirleyen kalıcı özellik.",
+          "exampleSentences": [
+            "Even as an infant, she had a remarkably calm temperament.",
+            "The two brothers had completely different temperaments.",
+            "A child's temperament can influence how caregivers respond to them."
+          ],
+          "translationTR": "mizaç, huy",
+          "collocations": [
+            "calm temperament",
+            "difficult temperament",
+            "mild temperament"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-mood",
+          "type": "vocabulary",
+          "headword": "mood",
+          "frequencyRank": 418,
+          "baseDifficulty": 0.39,
+          "definition": "Belirli bir süre boyunca devam eden, kişinin genel duygu durumu.",
+          "exampleSentences": [
+            "Lack of sleep can have a noticeable effect on your mood.",
+            "She was in a cheerful mood after hearing the good news.",
+            "The therapist asked him to keep a daily record of his mood."
+          ],
+          "translationTR": "ruh hali (psikolojik anlamda; ortamın 'havası' anlamıyla karıştırılmamalı)",
+          "collocations": [
+            "good mood",
+            "mood swing",
+            "affect someone's mood"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-counselling",
+          "type": "vocabulary",
+          "headword": "counselling",
+          "frequencyRank": 419,
+          "baseDifficulty": 0.4,
+          "definition": "Kişilerin duygusal veya psikolojik sorunlarını çözmelerine yardımcı olmak amacıyla verilen profesyonel destek ve rehberlik.",
+          "exampleSentences": [
+            "The university offers free counselling to students under stress.",
+            "She sought counselling after struggling with anxiety for months.",
+            "Trained counsellors provide confidential counselling to victims of trauma."
+          ],
+          "translationTR": "danışmanlık, psikolojik danışmanlık",
+          "collocations": [
+            "seek counselling",
+            "counselling session",
+            "professional counselling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-psychology-behaviour-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-bias",
+          "type": "vocabulary",
+          "headword": "bias",
+          "frequencyRank": 420,
+          "baseDifficulty": 0.41,
+          "definition": "Bir konuda nesnel değerlendirme yapmayı engelleyen, bilinçli ya da bilinçsiz bir yöne kayma.",
+          "exampleSentences": [
+            "Researchers tried to eliminate bias from the survey questions.",
+            "Confirmation bias leads people to favour information that confirms their beliefs.",
+            "The judge was accused of bias in his handling of the case."
+          ],
+          "translationTR": "önyargı, yanlılık",
+          "collocations": [
+            "confirmation bias",
+            "unconscious bias",
+            "eliminate bias"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-stereotype",
+          "type": "vocabulary",
+          "headword": "stereotype",
+          "frequencyRank": 421,
+          "baseDifficulty": 0.42,
+          "definition": "Bir grubun bütün üyelerini, gerçekte çok çeşitli olmalarına rağmen aynı birkaç özellikle tanımlayan basitleştirilmiş düşünce biçimi.",
+          "exampleSentences": [
+            "The film challenges common stereotypes about mental illness.",
+            "Children absorb gender stereotypes from a very young age.",
+            "Her research examines how stereotypes affect hiring decisions."
+          ],
+          "translationTR": "kalıp yargı, stereotip",
+          "collocations": [
+            "negative stereotype",
+            "challenge a stereotype",
+            "gender stereotype"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-conformity",
+          "type": "vocabulary",
+          "headword": "conformity",
+          "frequencyRank": 422,
+          "baseDifficulty": 0.43,
+          "definition": "Bireyin, kendi görüşlerinden bağımsız olarak grup normlarına ve beklentilerine uyum göstermesi.",
+          "exampleSentences": [
+            "Peer pressure often pushes teenagers toward conformity.",
+            "The experiment revealed how strongly social conformity shapes judgement.",
+            "Some cultures place greater value on conformity than others."
+          ],
+          "translationTR": "uyum, konformizm (gruba uyma eğilimi)",
+          "collocations": [
+            "social conformity",
+            "pressure toward conformity",
+            "demand conformity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-obedience",
+          "type": "vocabulary",
+          "headword": "obedience",
+          "frequencyRank": 423,
+          "baseDifficulty": 0.44,
+          "definition": "Bir otoriteye veya kurala koşulsuz uyma davranışı.",
+          "exampleSentences": [
+            "Milgram's famous experiment examined obedience to authority.",
+            "The soldiers were trained to value obedience above independent judgement.",
+            "Her research questions why obedience can override personal morality."
+          ],
+          "translationTR": "itaat",
+          "collocations": [
+            "blind obedience",
+            "obedience to authority",
+            "demand obedience"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-aggression",
+          "type": "vocabulary",
+          "headword": "aggression",
+          "frequencyRank": 424,
+          "baseDifficulty": 0.45,
+          "definition": "Başkasına zarar verme niyeti taşıyan düşmanca söz veya davranış.",
+          "exampleSentences": [
+            "The study links frustration to increased levels of aggression.",
+            "Verbal aggression can be just as damaging as physical aggression.",
+            "Therapists teach children healthier ways to manage aggression."
+          ],
+          "translationTR": "saldırganlık",
+          "collocations": [
+            "physical aggression",
+            "verbal aggression",
+            "trigger aggression"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dependence",
+          "type": "vocabulary",
+          "headword": "dependence",
+          "frequencyRank": 425,
+          "baseDifficulty": 0.46,
+          "definition": "Bir kişinin belirli bir madde, davranış veya kişi olmadan işlevini normal biçimde sürdürmekte güçlük çekmesi.",
+          "exampleSentences": [
+            "Prolonged use of the drug can lead to physical dependence.",
+            "The therapy aims to reduce his emotional dependence on approval from others.",
+            "Psychological dependence can be just as hard to overcome as physical addiction."
+          ],
+          "translationTR": "bağımlılık",
+          "collocations": [
+            "physical dependence",
+            "emotional dependence",
+            "dependence on"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-deviant",
+          "type": "vocabulary",
+          "headword": "deviant",
+          "frequencyRank": 426,
+          "baseDifficulty": 0.47,
+          "definition": "Toplumun kabul ettiği norm ve kurallardan belirgin biçimde sapan.",
+          "exampleSentences": [
+            "Sociologists study why certain behaviours are labelled deviant in one culture but not another.",
+            "The community treated her unconventional lifestyle as deviant.",
+            "Labelling theory examines how society responds to deviant behaviour."
+          ],
+          "translationTR": "sapkın, norm dışı",
+          "collocations": [
+            "deviant behaviour",
+            "labelled deviant",
+            "deviant from the norm"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-inhibition",
+          "type": "vocabulary",
+          "headword": "inhibition",
+          "frequencyRank": 427,
+          "baseDifficulty": 0.48,
+          "definition": "Bir dürtü, duygu veya davranışın bilinçli ya da bilinçsiz olarak bastırılması.",
+          "exampleSentences": [
+            "Alcohol tends to lower people's normal inhibitions.",
+            "Years of strict upbringing left him with strong social inhibitions.",
+            "The therapy focuses on overcoming inhibitions that block emotional expression."
+          ],
+          "translationTR": "engelleme, çekingenlik (dürtü ya da davranışın bastırılması)",
+          "collocations": [
+            "lower inhibitions",
+            "social inhibition",
+            "overcome inhibition"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-phenomenon",
+          "type": "vocabulary",
+          "headword": "phenomenon",
+          "frequencyRank": 428,
+          "baseDifficulty": 0.49,
+          "definition": "Gözlemlenebilen, açıklanması veya incelenmesi gereken olay ya da durum.",
+          "exampleSentences": [
+            "Groupthink is a well-documented phenomenon in social psychology.",
+            "Researchers are still trying to explain this puzzling phenomenon.",
+            "The phenomenon occurs across almost every culture studied."
+          ],
+          "translationTR": "olgu, fenomen",
+          "collocations": [
+            "psychological phenomenon",
+            "well-documented phenomenon",
+            "explain a phenomenon"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-spontaneous",
+          "type": "vocabulary",
+          "headword": "spontaneous",
+          "frequencyRank": 429,
+          "baseDifficulty": 0.5,
+          "definition": "Önceden düşünülüp planlanmadan, bir anda ve doğal bir dürtüyle ortaya çıkan.",
+          "exampleSentences": [
+            "Her spontaneous laughter put everyone in the room at ease.",
+            "The experiment recorded spontaneous reactions rather than rehearsed answers.",
+            "Toddlers often display spontaneous acts of sharing without being asked."
+          ],
+          "translationTR": "kendiliğinden, spontane",
+          "collocations": [
+            "spontaneous reaction",
+            "spontaneous behaviour",
+            "purely spontaneous"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-psychology-behaviour-4",
+      "order": 3,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-subconscious",
+          "type": "vocabulary",
+          "headword": "subconscious",
+          "frequencyRank": 430,
+          "baseDifficulty": 0.51,
+          "definition": "Kişinin farkında olmadan zihninde etkili olan, bilinç düzeyinin altındaki süreçlere ait olan.",
+          "exampleSentences": [
+            "Freud believed that many of our decisions are shaped by subconscious desires.",
+            "The advertisement was designed to appeal to the subconscious mind.",
+            "A subconscious fear of failure kept her from applying for the promotion."
+          ],
+          "translationTR": "bilinçaltı, bilinçaltına ait",
+          "collocations": [
+            "subconscious mind",
+            "subconscious desire",
+            "subconscious fear"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-hypothesis",
+          "type": "vocabulary",
+          "headword": "hypothesis",
+          "frequencyRank": 431,
+          "baseDifficulty": 0.52,
+          "definition": "Gözlem veya deneylerle sınanmak üzere öne sürülen, henüz kanıtlanmamış açıklama önerisi.",
+          "exampleSentences": [
+            "The researchers designed an experiment to test their hypothesis.",
+            "Her initial hypothesis was not supported by the data.",
+            "A good hypothesis must be possible to prove false."
+          ],
+          "translationTR": "hipotez, varsayım",
+          "collocations": [
+            "test a hypothesis",
+            "propose a hypothesis",
+            "support a hypothesis"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-correlation",
+          "type": "vocabulary",
+          "headword": "correlation",
+          "frequencyRank": 432,
+          "baseDifficulty": 0.53,
+          "definition": "İki değişken arasında, birinin değişmesiyle diğerinin de belirli bir yönde değiştiği ilişki.",
+          "exampleSentences": [
+            "The study found a strong correlation between sleep quality and mood.",
+            "Correlation does not necessarily imply that one factor causes the other.",
+            "Researchers examined the correlation between stress and memory performance."
+          ],
+          "translationTR": "korelasyon, ilişki (iki değişken arasındaki)",
+          "collocations": [
+            "strong correlation",
+            "correlation between",
+            "positive correlation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-stimulus",
+          "type": "vocabulary",
+          "headword": "stimulus",
+          "frequencyRank": 433,
+          "baseDifficulty": 0.54,
+          "definition": "Bir organizmanın duyularını harekete geçirip ondan bir tepki alınmasına yol açan dış veya iç etki.",
+          "exampleSentences": [
+            "The dog was trained to salivate at a specific auditory stimulus.",
+            "Researchers varied the stimulus to see how quickly participants reacted.",
+            "A loud noise can act as a stimulus that triggers a fear response."
+          ],
+          "translationTR": "uyaran",
+          "collocations": [
+            "respond to a stimulus",
+            "external stimulus",
+            "stimulus and response"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-reinforcement",
+          "type": "vocabulary",
+          "headword": "reinforcement",
+          "frequencyRank": 434,
+          "baseDifficulty": 0.55,
+          "definition": "Bir davranışın tekrarlanma olasılığını artırmak amacıyla ödül veya olumlu sonuçla desteklenmesi.",
+          "exampleSentences": [
+            "Positive reinforcement encouraged the children to complete their homework on time.",
+            "The training relies heavily on reinforcement rather than punishment.",
+            "Without regular reinforcement, the learned behaviour gradually faded."
+          ],
+          "translationTR": "pekiştirme, pekiştireç",
+          "collocations": [
+            "positive reinforcement",
+            "negative reinforcement",
+            "reinforcement schedule"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-conditioning",
+          "type": "vocabulary",
+          "headword": "conditioning",
+          "frequencyRank": 435,
+          "baseDifficulty": 0.56,
+          "definition": "Bir davranışın, tekrarlanan deneyim veya uyaranlar yoluyla öğrenilmesi süreci.",
+          "exampleSentences": [
+            "Pavlov's experiments on conditioning remain foundational to psychology.",
+            "His fear of dogs seems to be the result of early conditioning.",
+            "Classical conditioning pairs a neutral stimulus with an automatic response."
+          ],
+          "translationTR": "koşullanma, şartlanma",
+          "collocations": [
+            "classical conditioning",
+            "operant conditioning",
+            "process of conditioning"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-introvert",
+          "type": "vocabulary",
+          "headword": "introvert",
+          "frequencyRank": 436,
+          "baseDifficulty": 0.57,
+          "definition": "Enerjisini yalnız kalarak yenileyen, sosyal ortamlardan çok iç dünyasına yönelen kişi.",
+          "exampleSentences": [
+            "As a natural introvert, she preferred quiet evenings to large parties.",
+            "Introverts often need time alone to recover after social events.",
+            "Being an introvert does not necessarily mean being shy."
+          ],
+          "translationTR": "içe dönük kişi",
+          "collocations": [
+            "natural introvert",
+            "introvert personality",
+            "classic introvert"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-extrovert",
+          "type": "vocabulary",
+          "headword": "extrovert",
+          "frequencyRank": 437,
+          "baseDifficulty": 0.58,
+          "definition": "Enerjisini sosyal ortamlarda ve başkalarıyla etkileşim kurarak yenileyen, dış dünyaya ve insanlara yönelen kişi.",
+          "exampleSentences": [
+            "The confident extrovert quickly made friends at the new office.",
+            "Extroverts tend to thrive in jobs that involve constant social interaction.",
+            "He described himself as an extrovert who loves meeting new people."
+          ],
+          "translationTR": "dışa dönük kişi",
+          "collocations": [
+            "confident extrovert",
+            "extrovert personality",
+            "typical extrovert"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-compulsive",
+          "type": "vocabulary",
+          "headword": "compulsive",
+          "frequencyRank": 438,
+          "baseDifficulty": 0.59,
+          "definition": "Bir davranışı, istenmese bile kontrol edilemeyen bir dürtüyle tekrar tekrar yapma eğiliminde olan.",
+          "exampleSentences": [
+            "Compulsive checking of the locks was one symptom of his condition.",
+            "She struggled with compulsive shopping whenever she felt anxious.",
+            "Compulsive behaviours often provide temporary relief from anxiety."
+          ],
+          "translationTR": "kompulsif, dürtüsel olarak tekrarlanan",
+          "collocations": [
+            "compulsive behaviour",
+            "compulsive checking",
+            "compulsive disorder"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-insight",
+          "type": "vocabulary",
+          "headword": "insight",
+          "frequencyRank": 439,
+          "baseDifficulty": 0.6,
+          "definition": "Bir sorunun veya durumun ani ve derin bir şekilde kavranmasıyla ortaya çıkan anlayış.",
+          "exampleSentences": [
+            "Therapy gave her valuable insight into her own patterns of behaviour.",
+            "The study offers new insight into how memory declines with age.",
+            "A sudden insight helped him solve the puzzle he had struggled with for hours."
+          ],
+          "translationTR": "içgörü, kavrayış",
+          "collocations": [
+            "gain insight",
+            "valuable insight",
+            "insight into"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-psychology-behaviour-5",
+      "order": 4,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-ambivalent",
+          "type": "vocabulary",
+          "headword": "ambivalent",
+          "frequencyRank": 440,
+          "baseDifficulty": 0.61,
+          "definition": "Bir kişi veya durum karşısında hem olumlu hem olumsuz duyguları aynı anda hissedip hangisine göre hareket edeceğine karar verilemeyen.",
+          "exampleSentences": [
+            "She felt ambivalent about accepting the promotion.",
+            "His ambivalent feelings toward his father shaped much of his adult life.",
+            "Many participants reported ambivalent attitudes toward the new policy."
+          ],
+          "translationTR": "kararsız, çelişik duygular içinde olan",
+          "collocations": [
+            "ambivalent feelings",
+            "feel ambivalent",
+            "ambivalent attitude"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-repress",
+          "type": "vocabulary",
+          "headword": "repress",
+          "frequencyRank": 441,
+          "baseDifficulty": 0.62,
+          "definition": "Rahatsız edici bir duygu veya anıyı bilinçdışına iterek bastırmak.",
+          "exampleSentences": [
+            "She had repressed the memory of the accident for years.",
+            "Repressing painful emotions can eventually lead to greater distress.",
+            "He learned to repress his anger rather than express it openly."
+          ],
+          "translationTR": "bastırmak (bilinçdışına itmek)",
+          "collocations": [
+            "repress a memory",
+            "repress emotions",
+            "repress anger"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-suppress",
+          "type": "vocabulary",
+          "headword": "suppress",
+          "frequencyRank": 442,
+          "baseDifficulty": 0.63,
+          "definition": "Bir duygu, düşünce veya tepkiyi bilinçli olarak kontrol altına alıp dışa vurmamak.",
+          "exampleSentences": [
+            "He struggled to suppress a yawn during the long lecture.",
+            "She suppressed her frustration and calmly explained the situation again.",
+            "Constantly suppressing emotions can take a toll on mental health."
+          ],
+          "translationTR": "bastırmak, gizlemek (bilinçli olarak dışa vurmamak)",
+          "collocations": [
+            "suppress a feeling",
+            "suppress anger",
+            "suppress emotion"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-cope",
+          "type": "vocabulary",
+          "headword": "cope",
+          "frequencyRank": 443,
+          "baseDifficulty": 0.64,
+          "definition": "Zor veya stresli bir durumun olumsuz etkilerini azaltacak şekilde davranışlarını ve duygularını yönetebilmek.",
+          "exampleSentences": [
+            "She found it difficult to cope with the sudden loss of her job.",
+            "Regular exercise helps many people cope with everyday stress.",
+            "He developed healthier ways of coping with anxiety over time."
+          ],
+          "translationTR": "baş etmek, üstesinden gelmek",
+          "collocations": [
+            "cope with stress",
+            "learn to cope",
+            "coping strategy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-grief",
+          "type": "vocabulary",
+          "headword": "grief",
+          "frequencyRank": 444,
+          "baseDifficulty": 0.65,
+          "definition": "Sevilen birinin kaybı veya büyük bir yıkım sonrasında yaşanan derin üzüntü.",
+          "exampleSentences": [
+            "The support group helps people work through their grief together.",
+            "Grief affects everyone differently, and there is no fixed timeline for it.",
+            "She was overwhelmed by grief after her grandmother's death."
+          ],
+          "translationTR": "yas, keder",
+          "collocations": [
+            "overwhelmed by grief",
+            "process grief",
+            "stages of grief"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-obsession",
+          "type": "vocabulary",
+          "headword": "obsession",
+          "frequencyRank": 445,
+          "baseDifficulty": 0.66,
+          "definition": "Zihni sürekli meşgul eden, kontrol edilmesi zor, tekrarlayan düşünce veya ilgi.",
+          "exampleSentences": [
+            "His obsession with the project left him little time for anything else.",
+            "The disorder is characterised by obsessions that trigger repeated compulsions.",
+            "Her obsession with cleanliness gradually began to affect daily life."
+          ],
+          "translationTR": "takıntı, obsesyon",
+          "collocations": [
+            "develop an obsession",
+            "obsession with",
+            "unhealthy obsession"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-delusion",
+          "type": "vocabulary",
+          "headword": "delusion",
+          "frequencyRank": 446,
+          "baseDifficulty": 0.67,
+          "definition": "Gerçekle bağdaşmadığı hâlde kişinin kesin doğru olduğuna inandığı yanlış düşünce.",
+          "exampleSentences": [
+            "He suffered from the delusion that he was being watched at all times.",
+            "The patient's delusions made it difficult for doctors to gain her trust.",
+            "Grandiose delusions are a common symptom of the disorder."
+          ],
+          "translationTR": "sanrı, hezeyan (gerçek dışı olduğu hâlde kesin doğru sanılan inanç)",
+          "collocations": [
+            "grandiose delusion",
+            "suffer from delusions",
+            "delusion of"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-paranoia",
+          "type": "vocabulary",
+          "headword": "paranoia",
+          "frequencyRank": 447,
+          "baseDifficulty": 0.68,
+          "definition": "Yeterli kanıt olmaksızın başkalarının kendisine zarar vermeyi veya kötülük yapmayı planladığına dair aşırı ve mantıksız kuşku.",
+          "exampleSentences": [
+            "Sleep deprivation can sometimes trigger mild paranoia.",
+            "His growing paranoia made him suspicious of even his closest friends.",
+            "The drug's side effects included anxiety and occasional paranoia."
+          ],
+          "translationTR": "paranoya, aşırı kuşkuculuk",
+          "collocations": [
+            "growing paranoia",
+            "trigger paranoia",
+            "paranoia about"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-compassion",
+          "type": "vocabulary",
+          "headword": "compassion",
+          "frequencyRank": 448,
+          "baseDifficulty": 0.69,
+          "definition": "Başkasının acı çektiğini fark edip bu acıyı hafifletmek için harekete geçme isteği uyandıran duygu.",
+          "exampleSentences": [
+            "The nurse treated every patient with remarkable compassion.",
+            "Her compassion for the homeless led her to volunteer every weekend.",
+            "The programme teaches children to act with compassion toward others."
+          ],
+          "translationTR": "şefkat, merhamet (başkasının acısına duyarlılık gösterip yardım etme isteği)",
+          "collocations": [
+            "show compassion",
+            "compassion for",
+            "act with compassion"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-resentment",
+          "type": "vocabulary",
+          "headword": "resentment",
+          "frequencyRank": 449,
+          "baseDifficulty": 0.7,
+          "definition": "Haksızlığa uğradığı düşüncesiyle bir kişiye veya duruma karşı zamanla biriken ve içten içe süren olumsuz bir duygu yükü.",
+          "exampleSentences": [
+            "Years of feeling overlooked at work slowly turned into resentment.",
+            "She harboured deep resentment toward her sister for years.",
+            "Unspoken resentment can quietly damage even the strongest relationships."
+          ],
+          "translationTR": "kızgınlık, içerleme",
+          "collocations": [
+            "harbour resentment",
+            "deep resentment",
+            "resentment toward"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-psychology-behaviour-6",
+      "order": 5,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-predisposition",
+          "type": "vocabulary",
+          "headword": "predisposition",
+          "frequencyRank": 450,
+          "baseDifficulty": 0.71,
+          "definition": "Bir kişinin, genetik veya çevresel etkiler nedeniyle belirli bir davranışı, hastalığı veya tepkiyi diğerlerine göre daha kolay geliştirebilecek bir zemine sahip olması.",
+          "exampleSentences": [
+            "Genetics can create a predisposition toward certain mental health conditions.",
+            "Researchers found a predisposition to anxiety running in some families.",
+            "Early trauma can increase a person's predisposition to depression later in life."
+          ],
+          "translationTR": "yatkınlık, eğilim (genetik veya çevresel nedenlerle)",
+          "collocations": [
+            "genetic predisposition",
+            "predisposition toward",
+            "underlying predisposition"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-propensity",
+          "type": "vocabulary",
+          "headword": "propensity",
+          "frequencyRank": 451,
+          "baseDifficulty": 0.72,
+          "definition": "Bir kişinin, tek seferlik bir tercihten farklı olarak, karşılaştığı farklı durumlarda tekrar tekrar aynı yönde davranmasına yol açan kalıcı bir özellik.",
+          "exampleSentences": [
+            "He has a propensity for taking unnecessary risks.",
+            "Her propensity to worry made even small problems feel overwhelming.",
+            "The study explores why some people show a greater propensity for aggression."
+          ],
+          "translationTR": "eğilim, meyil",
+          "collocations": [
+            "natural propensity",
+            "propensity for",
+            "growing propensity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-volition",
+          "type": "vocabulary",
+          "headword": "volition",
+          "frequencyRank": 452,
+          "baseDifficulty": 0.73,
+          "definition": "Bir kişinin, dışarıdan hiçbir zorlama olmaksızın bir eylemi kendi bilinçli tercihiyle gerçekleştirme kapasitesi.",
+          "exampleSentences": [
+            "She left the job entirely of her own volition.",
+            "The therapy aims to strengthen the patient's sense of volition.",
+            "Choices made under volition feel very different from those made under pressure."
+          ],
+          "translationTR": "irade, kendi isteğiyle karar verme",
+          "collocations": [
+            "own volition",
+            "act of volition",
+            "exercise volition"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-complacency",
+          "type": "vocabulary",
+          "headword": "complacency",
+          "frequencyRank": 453,
+          "baseDifficulty": 0.74,
+          "definition": "Mevcut durumdan aşırı memnun olma nedeniyle daha fazla çaba göstermeye gerek duymama hâli.",
+          "exampleSentences": [
+            "Early success led to a dangerous complacency within the team.",
+            "Complacency can prevent people from noticing warning signs of burnout.",
+            "The coach warned players against complacency after their winning streak."
+          ],
+          "translationTR": "kendini beğenmişlik, aşırı rahatlık/tatmin olma hâli",
+          "collocations": [
+            "dangerous complacency",
+            "breed complacency",
+            "guard against complacency"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-pragmatic",
+          "type": "vocabulary",
+          "headword": "pragmatic",
+          "frequencyRank": 454,
+          "baseDifficulty": 0.75,
+          "definition": "Soyut ilkeler yerine, bir durumda işe yarayacak somut sonuçları temel alarak karar veren.",
+          "exampleSentences": [
+            "Her pragmatic approach to therapy focuses on practical coping strategies.",
+            "He took a pragmatic view of the setback and moved on quickly.",
+            "The counsellor offered pragmatic advice rather than abstract theory."
+          ],
+          "translationTR": "pragmatik, pratik/gerçekçi",
+          "collocations": [
+            "pragmatic approach",
+            "pragmatic solution",
+            "purely pragmatic"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-rationalise",
+          "type": "vocabulary",
+          "headword": "rationalise",
+          "frequencyRank": 455,
+          "baseDifficulty": 0.76,
+          "definition": "Bir davranışı veya duyguyu, gerçek nedenini gizleyerek mantıklı gerekçelerle açıklamaya çalışmak.",
+          "exampleSentences": [
+            "He tried to rationalise his outburst by blaming a stressful week.",
+            "People often rationalise poor decisions after the fact.",
+            "She rationalised her fear of flying as simply being cautious."
+          ],
+          "translationTR": "akla uydurmak, mantığa büründürmek (gerçek nedeni gizleyerek gerekçelendirmek)",
+          "collocations": [
+            "rationalise a decision",
+            "rationalise behaviour",
+            "tend to rationalise"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-catharsis",
+          "type": "vocabulary",
+          "headword": "catharsis",
+          "frequencyRank": 456,
+          "baseDifficulty": 0.77,
+          "definition": "Bastırılmış duyguların dışa vurulmasıyla yaşanan zihinsel rahatlama.",
+          "exampleSentences": [
+            "Writing about the loss gave her a sense of catharsis.",
+            "The therapist believes that expressing anger safely can provide catharsis.",
+            "For many, crying during the film offered an unexpected catharsis."
+          ],
+          "translationTR": "katarsis, ruhsal arınma",
+          "collocations": [
+            "provide catharsis",
+            "sense of catharsis",
+            "emotional catharsis"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-altruism",
+          "type": "vocabulary",
+          "headword": "altruism",
+          "frequencyRank": 457,
+          "baseDifficulty": 0.78,
+          "definition": "Kişisel çıkar gözetmeksizin başkalarının iyiliği için gösterilen özverili davranış.",
+          "exampleSentences": [
+            "Evolutionary psychologists debate why altruism exists even toward strangers.",
+            "Her decision to donate a kidney to a stranger was a striking act of altruism.",
+            "The experiment tested whether altruism increases when people feel observed."
+          ],
+          "translationTR": "özgecilik, diğerkâmlık",
+          "collocations": [
+            "act of altruism",
+            "pure altruism",
+            "human altruism"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-narcissism",
+          "type": "vocabulary",
+          "headword": "narcissism",
+          "frequencyRank": 458,
+          "baseDifficulty": 0.79,
+          "definition": "Kişinin kendi önemini ve yeteneklerini gerçekte olduğundan çok daha büyük görüp başkalarının ihtiyaç ve duygularını önemsememesiyle belirginleşen kişilik özelliği.",
+          "exampleSentences": [
+            "Mild narcissism is common, but extreme cases can damage relationships.",
+            "The study links narcissism to a constant need for admiration.",
+            "His narcissism made it almost impossible for him to accept criticism."
+          ],
+          "translationTR": "narsisizm, kendine aşırı hayranlık",
+          "collocations": [
+            "extreme narcissism",
+            "signs of narcissism",
+            "malignant narcissism"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ethos",
+          "type": "vocabulary",
+          "headword": "ethos",
+          "frequencyRank": 459,
+          "baseDifficulty": 0.8,
+          "definition": "Bir grubun veya toplumun paylaştığı temel değerler, inançlar ve karakteristik ruhu.",
+          "exampleSentences": [
+            "The clinic's ethos places the patient's wellbeing above all else.",
+            "A strong team ethos helped the group work through the crisis together.",
+            "The programme was built around an ethos of compassion and respect."
+          ],
+          "translationTR": "ethos, bir topluluğun temel değer ve ruhu",
+          "collocations": [
+            "team ethos",
+            "shared ethos",
+            "underlying ethos"
+          ]
+        }
+      ]
+    }
+  ]
+}

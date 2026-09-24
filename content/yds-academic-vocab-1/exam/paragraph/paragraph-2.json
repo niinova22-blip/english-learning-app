@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-paragraph-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Paragraf Tamamlama 2: Geçiş Cümlesi",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-paragraph-2",
+      "type": "practiceSet",
+      "headword": "Paragraph Completion: Transition",
+      "frequencyRank": 3031,
+      "baseDifficulty": 0.55,
+      "definition": "Paragraftaki eksik cümleyi bulmaya dayanan sekiz soru; eksik cümle iki fikri bağlar.",
+      "exampleSentences": [],
+      "translationTR": "Paragraf Tamamlama 2: Geçiş Cümlesi",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-paragraph-2-q01",
+      "kind": "paragraphCompletion",
+      "order": 0,
+      "prompt": "Many cities have introduced congestion charges to reduce traffic in their centres. ---- Drivers who once entered the city daily now use trains or park on the outskirts, and the air in the centre has become measurably cleaner.",
+      "options": [
+        "Congestion charges were first proposed by economists in the 1950s.",
+        "The results, in most cases, have been striking.",
+        "Many residents, however, have never owned a car.",
+        "Trains in these cities are usually more expensive than cars.",
+        "The charge is collected mainly from tourists."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Sonraki cümle etkileri (trenle gelme, temiz hava) anlatıyor; buna geçişi kuran cümle (B). (A) ücretin tarihçesine gider. (C) araç sahipliğini konu eder. (D) tren fiyatları anlatılan sonuçlarla çelişir. (E) kimden alındığı bilgisi sonraki cümleyle bağ kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-2-q02",
+      "kind": "paragraphCompletion",
+      "order": 1,
+      "prompt": "Most students assume that rereading their notes is the best way to prepare for an exam. ---- Studies show that testing oneself on the material produces far better long-term recall, because retrieving information strengthens memory in a way that passive rereading does not.",
+      "options": [
+        "Research suggests, however, that this habit is much less effective than it feels.",
+        "Notes taken in class are usually more accurate than the textbook itself.",
+        "Exams are designed to test only what students can recall from their notes.",
+        "For this reason, students should never take notes during lectures at all.",
+        "Rereading is used more widely in universities than in schools or colleges."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Sonraki cümle kendini sınamanın tekrar okumadan daha etkili olduğunu söylüyor; bir karşıtlık kuran geçiş cümlesi (A). (B) ve (C) notların doğruluğu ya da sınav tasarımı gibi konulara kayar. (D) «asla not alma» mutlak bir sonuçtur, paragraf bunu söylemez. (E) okulla üniversite kıyası konu dışıdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-2-q03",
+      "kind": "paragraphCompletion",
+      "order": 2,
+      "prompt": "Wind turbines are often criticised for the noise they make. ---- Measurements taken at typical distances show that a turbine produces less sound than a busy office, and modern designs are quieter still.",
+      "options": [
+        "Turbines are the most expensive way of generating electricity.",
+        "Most turbines are built far away from any human settlement or farm.",
+        "The noise nevertheless prevents birds from nesting anywhere nearby.",
+        "In practice, however, the noise is lower than many people expect.",
+        "Critics have therefore withdrawn all of their remaining objections."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf gürültü eleştirisinin ölçümlerle çürüdüğünü gösteriyor; geçiş cümlesi (D). (A) maliyet konusuna kayar. (B) yerleşimden uzaklıktır ve ölçüm cümlesine bağlanmaz. (C) kuşlara geçer, konu dışıdır. (E) «tüm itirazlar geri çekildi» mutlak ve desteksizdir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-2-q04",
+      "kind": "paragraphCompletion",
+      "order": 3,
+      "prompt": "The first computers filled entire rooms and were operated by teams of specialists. ---- Within a few decades, however, the invention of the microchip made it possible to place the same power on a desk.",
+      "options": [
+        "Specialists were paid higher salaries than any other workers of the period.",
+        "Rooms of that size were rarely available in universities.",
+        "Many people believed that computers had already become too small.",
+        "The microchip was invented by the same teams who operated the machines.",
+        "At that time, few people imagined that such machines would ever be used at home."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Son cümledeki «however» bir karşıtlık bekler: ilk bilgisayarlar odaları dolduruyordu, evde kullanım düşünülemezdi, sonra mikroçip bunu değiştirdi: (E). (A) maaşlara gider. (B) oda bulunurluğu konusuna kayar. (C) «zaten çok küçüktü» ilk cümleyle çelişir. (D) mikroçipin mucitleri hakkında bir iddiadır ve karşıtlığı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-2-q05",
+      "kind": "paragraphCompletion",
+      "order": 4,
+      "prompt": "Some economists argue that a higher minimum wage destroys jobs. ---- A widely cited study of neighbouring regions found no fall in employment after wages rose, suggesting that employers absorbed the cost through higher prices or lower profits.",
+      "options": [
+        "Employers in every industry favour a higher minimum wage.",
+        "Wages in neighbouring regions have always been identical.",
+        "The evidence, however, is far from conclusive.",
+        "This view was first put forward by the workers themselves.",
+        "Prices generally fall when wages rise."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "İlk cümle bir iddiayı verir, sonraki cümle onu sorgulayan bir çalışmayı aktarır; geçiş cümlesi (C). (A) «her sektör» mutlaklığı ve işverenlerin tutumu yanlıştır. (B) bölgelerin ücretlerini eşit sayar, oysa paragraf karşılaştırma yapıyor. (D) görüşün kaynağı konu dışıdır. (E) fiyatların düştüğünü söyler ve maliyetin fiyatlara yansıması cümlesiyle çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-2-q06",
+      "kind": "paragraphCompletion",
+      "order": 5,
+      "prompt": "The Roman Empire built roads on a scale that no earlier civilisation had attempted. ---- The network allowed armies to move quickly, but it also carried merchants, officials and, eventually, the ideas of new religions.",
+      "options": [
+        "These roads served purposes that went well beyond their military function.",
+        "Roman engineers had learned most of their skills from the Greeks and Etruscans.",
+        "Most of these roads have since been covered by modern motorways and railways.",
+        "The empire collapsed largely because its roads were poorly maintained.",
+        "Merchants avoided the roads because they were reserved for the use of armies."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Sonraki cümle yolların orduların ötesinde tüccar ve fikir taşıdığını söylüyor; geçiş cümlesi (A). (B) mühendislerin öğrenme kaynağına gider. (C) yolların bugünkü durumudur. (D) çöküş nedeni iddiası konu dışıdır. (E) tüccarların yolları kullandığını söyleyen cümleyle çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-2-q07",
+      "kind": "paragraphCompletion",
+      "order": 6,
+      "prompt": "Children learn to speak without formal lessons. ---- Yet an adult who moves abroad and receives hours of instruction may still struggle to reach the same level.",
+      "options": [
+        "Adults, by contrast, usually find grammar more interesting than children do.",
+        "Formal language lessons were introduced in most European schools in the nineteenth century.",
+        "Speaking is generally learned much earlier than walking, in most children.",
+        "By the age of five, most have mastered their language's grammar simply by listening.",
+        "Children who hear two languages at home usually end up learning neither of them well."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Yet» ile başlayan cümle çocuğun kolay öğrenmesi ile yetişkinin zorlanması arasında karşıtlık kuruyor; öncesinde çocuğun başarısını somutlaştıran cümle (D). (A) yetişkinlerin gramer ilgisine kayar. (B) okul tarihine gider. (C) yürüme ile kıyas konu dışıdır. (E) iki dilli çocuklar hakkında desteksiz ve olumsuz bir iddiadır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-paragraph-2-q08",
+      "kind": "paragraphCompletion",
+      "order": 7,
+      "prompt": "Solar panels convert sunlight into electricity, but they do not work equally well everywhere. ---- A panel in a cloudy northern city may produce a third of the energy of an identical panel in a desert.",
+      "options": [
+        "Panels are usually installed on the roofs of public buildings.",
+        "Their output depends heavily on how much sunshine a location receives.",
+        "Desert regions are unsuitable for any kind of construction.",
+        "Northern cities produce more electricity than deserts.",
+        "Solar energy is cheaper than any other source of power."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Sonraki cümle bulutlu şehir ile çöl arasındaki üretim farkını veriyor; bu farkı açıklayan geçiş cümlesi (B). (A) kurulum yeri bilgisidir ve farkı açıklamaz. (C) çölün inşaata uygun olmadığını iddia eder. (D) kuzey şehirlerinin daha fazla ürettiğini söyler, örneğe ters düşer. (E) «her başka kaynaktan ucuz» mutlaklığı desteksizdir.",
+      "passageID": null
+    }
+  ]
+}

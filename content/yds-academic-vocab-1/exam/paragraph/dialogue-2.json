@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-dialogue-2",
+  "estimatedDurationMinutes": 8,
+  "title": "Diyalog Tamamlama 2",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-exam-card-dialogue-2",
+      "type": "practiceSet",
+      "headword": "Dialogue Completion 2",
+      "frequencyRank": 3051,
+      "baseDifficulty": 0.55,
+      "definition": "Diyalogdaki eksik konuşmayı tamamlamaya dayanan sekiz soru.",
+      "exampleSentences": [],
+      "translationTR": "Diyalog Tamamlama 2",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-dialogue-2-q01",
+      "kind": "dialogueCompletion",
+      "order": 0,
+      "prompt": "Customer: I ordered this jacket in blue, but you sent me a green one.\nAssistant: ----\nCustomer: Thank you. Can you send the correct one by Friday?",
+      "options": [
+        "That colour is always more popular than the blue one.",
+        "You have not actually paid for the jacket yet.",
+        "I'm very sorry; I'll arrange an exchange straight away.",
+        "Green is the only colour that we sell in this shop.",
+        "I have never seen that jacket in our shop before."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Müşteri teşekkür edip doğru ürünü Cuma'ya kadar istiyor; bu, satıcının özür dileyip değişim önerdiğini gösterir: (C). (A) rengin popüler olduğunu söyler ve şikâyeti geçiştirir. (B) ödeme yapılmadığını iddia eder. (D) yalnızca yeşil sattıklarını söyler. (E) ürünü hiç görmediğini söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-2-q02",
+      "kind": "dialogueCompletion",
+      "order": 1,
+      "prompt": "Manager: The client has asked us to move the meeting to Thursday.\nColleague: ----\nManager: Then let's ask whether Friday morning is possible.",
+      "options": [
+        "The client should have asked us much earlier than this.",
+        "I have already attended that meeting with the client.",
+        "The client never asks us for anything unreasonable.",
+        "Then the meeting is cancelled for good, I suppose.",
+        "Unfortunately, I'm at a conference on Thursday."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Müdür «o zaman Cuma sabahını soralım» diyor; bu, çalışanın Perşembe günü müsait olmadığını söylediğini gösterir: (E). (A) yalnızca sitem eder; Perşembe'nin uygun olmadığını söylemediği için Cuma önerisine zemin hazırlamaz. (B) toplantının yapılmış olduğunu söyler. (C) müşterinin hiç istekte bulunmadığını iddia eder. (D) toplantıyı sonsuza dek iptal eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-2-q03",
+      "kind": "dialogueCompletion",
+      "order": 2,
+      "prompt": "Receptionist: Do you have an appointment?\nVisitor: ----\nReceptionist: Certainly; please take a seat and Ms Ozturk will see you shortly.",
+      "options": [
+        "Yes, at ten o'clock with Ms Ozturk.",
+        "No, I want to leave now.",
+        "I'm sorry, I don't work here.",
+        "My appointment was yesterday.",
+        "I think it is a lovely building."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Resepsiyonist «lütfen oturun, Bayan Öztürk sizi birazdan kabul edecek» diyor; bu, randevusu olduğunu gösterir: (A). (B) ayrılmak istediğini söyler. (C) ve (D) ile (E) soruyu yanıtlamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-2-q04",
+      "kind": "dialogueCompletion",
+      "order": 3,
+      "prompt": "Colleague A: I can't open the shared document.\nColleague B: ----\nColleague A: That worked; I can see it now.",
+      "options": [
+        "You should stop reading it.",
+        "The document was printed yesterday.",
+        "Sharing is not a useful feature.",
+        "Try logging out and signing in again.",
+        "I'll send you a printed copy tomorrow."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«That worked» bir çözüm önerisinin işe yaradığını gösterir: (D). (A) okumayı bırakmayı önerir. (B) ve (C) ile (E) çözüm sunmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-2-q05",
+      "kind": "dialogueCompletion",
+      "order": 4,
+      "prompt": "Interviewer: Why do you want to work for our company?\nCandidate: ----\nInterviewer: That's helpful; can you give an example of a project you led?",
+      "options": [
+        "Honestly, I'm not sure that I want this job at all.",
+        "I admire your focus on sustainable design; it matches my experience.",
+        "Your company is on the same street as my flat, nothing more.",
+        "The salary is the only thing I know about the company.",
+        "I applied to every company in the city that was hiring."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Mülakatçı «yararlı» diyor ve örnek proje soruyor; bu, adayın şirketle bağını gösteren bir yanıt verdiğini gösterir: (B). (A) çalışmak istemediğini söyler. (C) ve (D) ve (E) şirketle içerik bağı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-2-q06",
+      "kind": "dialogueCompletion",
+      "order": 5,
+      "prompt": "Travel agent: The hotel is fully booked in July.\nClient: ----\nAgent: August is possible, and there is a discount for early bookings.",
+      "options": [
+        "In that case, we'll definitely stay in July.",
+        "I have already stayed there in July.",
+        "Then could we travel a month later?",
+        "Is the hotel located in the mountains?",
+        "Is there a cheaper hotel nearby in July?"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Acente «Ağustos mümkün» diyor; bu, müşterinin bir ay sonrasını sorduğunu gösterir: (C). (A) Temmuz'da kalacağını söyler ve otelin dolu olmasıyla çelişir. (B) geçmişte kaldığını söyler. (D) ve (E) Ağustos yanıtına uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-2-q07",
+      "kind": "dialogueCompletion",
+      "order": 6,
+      "prompt": "Team leader: We are two days behind schedule.\nEngineer: ----\nTeam leader: Good, then let's meet tomorrow to review the plan.",
+      "options": [
+        "That means we finished early.",
+        "Schedules are not important in engineering.",
+        "I thought the schedule was flexible anyway.",
+        "Then we should cancel the project.",
+        "I suggest we add two more people to testing."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Takım lideri «planı gözden geçirelim» diyor; bu, mühendisin bir çözüm önerdiğini gösterir: (E). (A) erken bittiğini söyler ve gecikmeyle çelişir. (B) takvimi önemsiz sayar. (C) çizelgeyi esnek saydığını söyler ve bir çözüm önerisi içermez. (D) projeyi iptal etmeyi önerir ve «gözden geçirelim» ile uyuşmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-2-q08",
+      "kind": "dialogueCompletion",
+      "order": 7,
+      "prompt": "Caller: I'd like to cancel my subscription.\nAgent: ----\nCaller: No, it's just too expensive for me.",
+      "options": [
+        "May I ask if something is wrong with the service?",
+        "You have not yet subscribed to anything.",
+        "We have never sent you a bill for this service.",
+        "Thank you for renewing it for another year.",
+        "Subscriptions can be cancelled only in person."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Arayan «hayır, benim için çok pahalı» diyor; bu, temsilcinin bir sorun olup olmadığını sorduğunu gösterir: (A). (B) abone olmadığını söyler. (C) fatura göndermediklerini iddia eder. (D) yenilediği için teşekkür eder ve iptal isteğiyle çelişir. (E) iptal yolunu kısıtlar ve arayanın cevabına uymaz.",
+      "passageID": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-relative-clauses-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Sıfat Cümlecikleri: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-relative-clauses-2",
+      "type": "grammarPoint",
+      "headword": "Relative Clauses (Traps)",
+      "frequencyRank": 2007,
+      "baseDifficulty": 0.6,
+      "definition": "Edat + ilgi zamiri, niceleyici + of which ve indirgenmiş sıfat cümlecikleri.",
+      "exampleSentences": [],
+      "translationTR": "Sıfat Cümlecikleri: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Resmî yazıda sıfat cümlecikleri daha ağır kalıplarla kurulur; sınav bu kalıpların doğru seçimini ölçer.\n\n• Edat + ilgi zamiri: the extent to which, the degree to which, the speed at which, the manner in which, in which case, at which point. Edattan sonra that KULLANILMAZ: the speed at which (at that yanlıştır).\n\n• Niceleyici + of which / of whom: most of which, both of whom, the majority of which, none of which. Cansız → which, kişi → whom: two hundred teachers, most of whom ...\n\n• whereby = «bu yolla / buna göre»: a scheme whereby unemployed workers receive retraining.\n\n• İndirgenmiş sıfat cümlecikleri: etken için V-ing (the committee overseeing the reform), edilgen için V3 (the measures introduced last year).\n\n• Cümlenin TAMAMINA gönderme yapan which virgülle gelir: The company announced record losses, which caused its share price to fall.\n\n• one of the + çoğul ad + who/that + ÇOĞUL fiil: She is one of the few economists who have predicted the crisis.\n\nEn sık düşülen tuzak: edattan sonra that kullanmak ya da niceleyiciden sonra them gibi bir kişi zamiri koymak. Bunlar cümleyi iki bağımsız cümleye böler.\n\nÖrnek: The scheme, most of which was funded privately, collapsed within a year."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-relative-clauses-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The report identifies several structural weaknesses, the most serious of ---- is the steady decline in public investment.",
+      "options": [
+        "them",
+        "that",
+        "whose",
+        "which",
+        "what"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Niceleyici + of + ilgi zamiri» kalıbında iki cümleyi bağlayan bir ilgi zamiri gerekir ve cansız bir ada gönderme yapıldığı için which kullanılır: the most serious of which is ... (A) them bir kişi zamiridir, bağlaç görevi görmez; cümle iki bağımsız cümleye bölünür. (B) that edattan veya niceleyiciden sonra kullanılamaz. (C) whose'un ardından bir ad gelmelidir. (E) what daha önce geçen bir ada gönderme yapamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "Researchers are still debating the extent to ---- climate change has intensified the recent floods.",
+      "options": [
+        "that",
+        "which",
+        "what",
+        "whom",
+        "where"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«The extent to which» sabit bir kalıptır; edattan sonra ilgi zamiri which gelir. (A) that edattan sonra kullanılamaz. (C) what önceki bir adı niteleyemez. (D) whom kişi içindir, «extent» cansızdır. (E) where yer bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The survey covered two hundred teachers, most of ---- had over ten years of experience.",
+      "options": [
+        "which",
+        "who",
+        "them",
+        "whose",
+        "whom"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Gönderme yapılan ad kişidir (teachers) ve niceleyiciden sonra edat gibi davranan of'un nesnesi olur: most of whom. (A) which cansızlar içindir. (B) who nesne konumunda of'tan sonra gelemez. (C) them bağlaç görevi görmez. (D) whose ardından ad bekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The government introduced a scheme ---- unemployed workers receive retraining in exchange for benefits.",
+      "options": [
+        "whereby",
+        "whereas",
+        "whenever",
+        "wherever",
+        "whoever"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Whereby» = «bu yolla, buna göre» ve bir sistemin ya da düzenin nasıl işlediğini tanımlar. (B) whereas karşıtlık bağlacıdır. (C) whenever ve (D) wherever zaman ve yer bildirir. (E) whoever isim cümleciği kurar, adı niteleyemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The committee ---- the reform has proposed a two-year transition period.",
+      "options": [
+        "oversees",
+        "overseen",
+        "overseeing",
+        "was overseeing",
+        "to have overseen"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Sıfat cümleciği etken anlamda indirgenmiştir: the committee overseeing the reform (= that oversees). (A) oversees ve (D) was overseeing ikinci bir çekimli fiil ekler; ana fiil has proposed zaten vardır. (B) overseen edilgen anlam katar; komite reformu yönetir, yönetilmez. (E) to have overseen yapıya uymaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The measures ---- last year have already reduced emissions by six per cent.",
+      "options": [
+        "introducing",
+        "to introduce",
+        "which introduce",
+        "introduced",
+        "having introduced"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Önlemler uygulanan taraftır, uygulayan değil; edilgen anlamı indirgenmiş V3 verir: the measures introduced last year (= that were introduced). (A) introducing ve (E) having introduced etken anlam katar. (B) to introduce amaç ya da gelecek bildirir. (C) which introduce ise çekimli bir fiil ekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The company announced record losses, ---- caused its share price to fall sharply.",
+      "options": [
+        "that",
+        "which",
+        "what",
+        "whose",
+        "who"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Virgülden sonra gelen which, önceki cümlenin TAMAMINA gönderme yapabilir. (A) that virgülden sonra kullanılamaz. (C) what önceki bir cümleye gönderme yapmaz. (D) whose ardından ad ister. (E) who kişiler içindir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "She is one of the few economists who ---- predicted the financial crisis.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was",
+        "does"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«One of the + çoğul ad + who» yapısında ilgi zamiri ÇOĞUL ada (economists) gönderme yapar ve fiil çoğul olur: who have predicted. (B) has, (C) is, (D) was ve (E) does tekil özneye uyar ya da anlamı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "The speed ---- the glacier is retreating has alarmed scientists.",
+      "options": [
+        "at which",
+        "at that",
+        "to which",
+        "whose",
+        "where"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Edat + ilgi zamiri kalıbında edattan sonra that değil which gelir: the speed at which. (B) at that böyle bir kalıp kuramaz. (C) to which yanlış edat getirir; hız (speed) ile at kullanılır. (D) whose ardından ad ister. (E) where yer bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-relative-clauses-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "The board may reject the offer, ---- case the shares will be suspended.",
+      "options": [
+        "which",
+        "that",
+        "in which",
+        "where",
+        "whose"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«In which case» sabit bir kalıptır ve önceki durumu «bu durumda» diye bağlar. (A) which ve (B) that edatsız kalır. (D) where yer bildirir, durum bildirmez. (E) whose ardından ad bekler.",
+      "passageID": null
+    }
+  ]
+}

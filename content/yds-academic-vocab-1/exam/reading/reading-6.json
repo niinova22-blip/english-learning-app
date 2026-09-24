@@ -1,0 +1,106 @@
+{
+  "id": "yds-exam-reading-6",
+  "estimatedDurationMinutes": 10,
+  "title": "Okuma: Algoritmik İşe Alım",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-exam-passage-reading-6",
+    "title": "Algorithmic Hiring",
+    "body": "Many large employers now use software to sort job applications, on the assumption that an algorithm will be more objective than a tired human reader. The promise is appealing: a program does not favour candidates who share its author's background, and it can process thousands of applications in the time it takes a recruiter to read a dozen. In practice, however, such systems learn from past decisions, and past decisions are rarely free of bias. A well-known case involved a system trained on ten years of successful applications at a technology firm; because most of those hired had been men, the software learned to rate applications containing certain words associated with women less favourably. The engineers corrected the specific pattern, but they could not be sure that the program had not found other, subtler ways of reproducing the same preference. Defenders of automated screening point out that human recruiters are no less prone to prejudice, and that a biased algorithm can at least be audited, whereas a biased interviewer cannot be opened up and inspected. Critics reply that auditing is meaningful only if firms are required to disclose how their systems work, something that commercial confidentiality often prevents. The debate, therefore, is less about whether machines can be fair than about who is allowed to check."
+  },
+  "items": [
+    {
+      "id": "yds-exam-card-reading-6",
+      "type": "practiceSet",
+      "headword": "Reading: Algorithmic Hiring",
+      "frequencyRank": 3005,
+      "baseDifficulty": 0.65,
+      "definition": "Algoritmik işe alım üzerine akademik bir metin ve beş okuduğunu anlama sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Okuma: Algoritmik İşe Alım",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-reading-6-q01",
+      "kind": "reading",
+      "order": 0,
+      "prompt": "The system trained on ten years of applications rated some applications lower because ----.",
+      "options": [
+        "its engineers had deliberately programmed it to prefer men",
+        "most of the people previously hired had been men",
+        "the applications contained more spelling mistakes",
+        "women applied for different jobs from men",
+        "the software could not read certain words"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Metin, işe alınanların çoğunun erkek olması nedeniyle yazılımın kadınlarla ilişkilendirilen sözcükleri içeren başvurulara düşük puan verdiğini söylüyor: (B). (A) mühendislerin bilerek yaptığı söylenmez. (C) yazım hatalarından söz edilmez. (D) farklı işlere başvurma metinde geçmez. (E) yazılımın sözcükleri okuyamadığı değil, onları değerlendirdiği anlatılır.",
+      "passageID": "yds-exam-passage-reading-6"
+    },
+    {
+      "id": "yds-exam-reading-6-q02",
+      "kind": "reading",
+      "order": 1,
+      "prompt": "The word \"prone\" in the passage is closest in meaning to ----.",
+      "options": [
+        "unlikely",
+        "reluctant",
+        "immune",
+        "opposed",
+        "inclined"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«No less prone to prejudice» insan işe alımcıların da önyargıya en az onlar kadar eğilimli olduğunu söyler: (E). (A) olası değil, (B) isteksiz, (C) bağışık, (D) ise karşı çıkan demektir; hepsi cümlenin anlamını tersine çevirir.",
+      "passageID": "yds-exam-passage-reading-6"
+    },
+    {
+      "id": "yds-exam-reading-6-q03",
+      "kind": "reading",
+      "order": 2,
+      "prompt": "The passage suggests that the engineers' correction of the specific pattern ----.",
+      "options": [
+        "did not guarantee that other forms of bias had been removed",
+        "proved that the program was now completely fair",
+        "showed that human recruiters were less biased",
+        "made the software unable to process applications",
+        "was welcomed by all defenders of automation"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Mühendisler programın aynı tercihi «başka, daha ince yollarla» üretmediğinden emin olamadı: (A). (B) «tamamen adil» iddiası metinde yoktur. (C) insan işe alımcılarla kıyas başka bir bağlamda yapılır. (D) ve (E) hakkında metin bilgi vermez.",
+      "passageID": "yds-exam-passage-reading-6"
+    },
+    {
+      "id": "yds-exam-reading-6-q04",
+      "kind": "reading",
+      "order": 3,
+      "prompt": "According to defenders of automated screening, a biased algorithm ----.",
+      "options": [
+        "is easier to hide from regulators",
+        "is more harmful than a biased interviewer",
+        "cannot be corrected by engineers",
+        "can be audited in a way that a biased interviewer cannot",
+        "is never affected by past decisions"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Savunucular, taraflı bir algoritmanın en azından denetlenebileceğini, taraflı bir görüşmecinin ise «açılıp incelenemeyeceğini» söylüyor: (D). (A) ve (B) metinde hiçbir tarafça öne sürülmez. (C) mühendislerin düzeltme yaptığı zaten anlatıldı. (E) mutlak bir ifadedir ve metinle çelişir.",
+      "passageID": "yds-exam-passage-reading-6"
+    },
+    {
+      "id": "yds-exam-reading-6-q05",
+      "kind": "reading",
+      "order": 4,
+      "prompt": "The final sentence suggests that the real dispute concerns ----.",
+      "options": [
+        "whether algorithms are cheaper than recruiters",
+        "whether machines can ever be fair",
+        "who is allowed to inspect how the systems work",
+        "how many applications a program can process",
+        "whether engineers can correct every bias"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Son cümle tartışmanın makinelerin adil olup olamayacağından çok «kimin denetleyebileceği» üzerine olduğunu söylüyor: (C). (B) makinelerin adaleti son cümlede özellikle ikinci plana atılır. (A) maliyet, (D) işleme kapasitesi, (E) düzeltme yeteneği bu cümlenin konusu değildir.",
+      "passageID": "yds-exam-passage-reading-6"
+    }
+  ]
+}

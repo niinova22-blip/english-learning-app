@@ -55,4 +55,17 @@ final class TodaySessionCoordinatorTests: XCTestCase {
         XCTAssertEqual(snapshot.rollingComprehensionAccuracy, 0.7, accuracy: 1e-9)
         XCTAssertFalse(snapshot.isColdStart)
     }
+
+    func test_buildTodaySession_neverIncludesDuePracticeCards() throws {
+        let context = try makeInMemoryContext()
+        AppModelContainer.seedRealContentIfNeeded(in: context)
+        let past = Date().addingTimeInterval(-3 * 86_400)
+        let store = FSRSStateStore()
+        try store.recordReview(userID: "test-user", itemID: "yds-practice-card-tenses", rating: .again, now: past, in: context, scheduler: FSRSScheduler())
+        try store.recordReview(userID: "test-user", itemID: "yds-vocab1-item-economy", rating: .again, now: past, in: context, scheduler: FSRSScheduler())
+
+        let session = try TodaySessionCoordinator(context: context, userID: "test-user", sessionSize: 5).buildTodaySession()
+
+        XCTAssertEqual(session.map(\.id), ["yds-vocab1-item-economy"])
+    }
 }

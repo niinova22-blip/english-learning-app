@@ -175,7 +175,7 @@ final class StudySessionViewModel {
         return Card(
             id: item.id, headword: content.headword, definition: content.definition,
             exampleSentence: content.exampleSentences.first, translationTR: content.translationTR,
-            collocations: content.collocations, skill: Skill.forItemType(item.type)
+            collocations: content.collocations, skill: Skill.forItem(type: item.type, lessonSkill: item.lesson?.skill)
         )
     }
 }

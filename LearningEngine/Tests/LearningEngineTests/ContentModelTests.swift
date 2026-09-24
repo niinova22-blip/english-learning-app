@@ -4,7 +4,7 @@ import SwiftData
 
 final class ContentModelTests: XCTestCase {
     func makeInMemoryContainer() throws -> ModelContainer {
-        let schema = Schema([ContentPackage.self, Unit.self, Lesson.self, LearningItem.self, ItemContent.self])
+        let schema = Schema([ContentPackage.self, Unit.self, Lesson.self, LearningItem.self, ItemContent.self, Question.self, Passage.self])
         let config = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)
         return try ModelContainer(for: schema, configurations: [config])
     }

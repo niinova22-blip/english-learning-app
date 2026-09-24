@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-vocabulary-questions",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Kelime Soruları",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-vocabulary-questions",
+      "type": "grammarPoint",
+      "headword": "Strategy: Vocabulary Questions",
+      "frequencyRank": 4008,
+      "baseDifficulty": 0.5,
+      "definition": "Kelime sorularında bağlam ve kalıp ipuçlarını kullanma tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Kelime Soruları",
+      "collocations": [],
+      "explanationTR": "Kelime sorularında cevabı çoğu zaman BAĞLAM, KALIP ve SÖZCÜK TÜRÜ verir; sözlük bilgisi yetmezse bu ipuçlarına güven.\n\n• Bağlam ipuçları: karşıtlık (unlike, but, whereas), örnek (such as, for instance), tanım (that is, which means) ve neden-sonuç işaretleri bilinmeyen sözcüğü çözer.\n\n• Eşdizimlilik: bazı sözcükler yalnızca belirli sözcüklerle birlikte kullanılır (meet a deadline, pose a threat, reach a conclusion).\n\n• Sözcük türü: boşluğun ad, sıfat, zarf ya da fiil istediğini belirle; seçenekleri türüne göre ele.\n\n• Yakın anlamlı sözcüklerden hangisinin cümlede doğal durduğunu bağlama bakarak seç.\n\nEn sık düşülen tuzak: sözcüğü yalnızca Türkçe karşılığına bakarak seçmek. Anlamı yakın iki seçenekten yalnızca biri o cümlenin bağlamına ve kalıbına uyar.\n\nÖrnek: «Unlike her cheerful sister, Anna is rather ----» cümlesinde «unlike» karşıtlığı, boşluğa «cheerful»ın zıddını (gloomy) getirir."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-vocabulary-questions-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Cümlede bilmediğin bir sözcük varsa doğru anlamı bulmak için ilk hangi ipucuna bakmalısın?",
+      "options": [
+        "Sözcüğün Türkçede benzediği bir sözcüğe",
+        "Sözcüğün ilk hecesinin nasıl okunduğuna",
+        "Seçenekler arasında en tanıdık gelen sözcüğün anlamına",
+        "Cümlenin geri kalanındaki bağlam ipuçlarına",
+        "Yalnızca metnin başlığına, cümleyi okumadan"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Bağlam, bilinmeyen sözcüğün anlamını çoğu zaman verir: (D). (A) Türkçeye benzeyen sözcükler çoğu zaman sahte dosttur (sympathetic «sempatik» değildir). (B) okunuş anlam hakkında bilgi vermez. (C) tanıdık gelmek doğru olmak değildir. (E) cümleyi okumadan başlığa güvenmek yeterli bilgi vermez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-vocabulary-questions-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "Unlike his outgoing brother, Tom is quite ---- and rarely speaks at parties.",
+      "options": [
+        "reserved",
+        "talkative",
+        "generous",
+        "careless",
+        "energetic"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Unlike» karşıtlık kurar: dışa dönük kardeşin aksine Tom içe dönüktür: (A). (B) konuşkan demektir ve «rarely speaks» ile çelişir. (C) cömert, (D) dikkatsiz, (E) enerjik anlamı taşır; hiçbiri karşıtlığı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-vocabulary-questions-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "The company's ---- growth surprised analysts.",
+      "options": [
+        "rapidly",
+        "rapidity",
+        "rapid",
+        "rapids",
+        "rapidness"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Growth» adından önce bir SIFAT gerekir: (C). (A) zarftır. (B) isimdir ve ardından isim almaz. (D) başka bir anlamı olan çoğul isimdir. (E) «rapidness» de bir isimdir ve «growth» adını niteleyemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-vocabulary-questions-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "The government has decided to ---- a new tax on sugary drinks.",
+      "options": [
+        "make",
+        "impose",
+        "give",
+        "produce",
+        "hold"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Impose a tax» sabit bir kalıptır (= vergi getirmek): (B). (A) make, (C) give, (D) produce ve (E) hold «tax» ile bu kalıbı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-vocabulary-questions-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Nocturnal animals, such as owls and bats, are active ----.",
+      "options": [
+        "in winter",
+        "near water",
+        "in groups",
+        "by day",
+        "at night"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Such as owls and bats» bir ÖRNEK ipucudur: baykuşlar ve yarasalar geceleri aktiftir; nocturnal = gececil: (E). (A) mevsim, (B) yaşam alanı ve (C) sayı bildirir; hiçbiri örneklerin verdiği ipucuna bağlanmaz. (D) tam tersini söyler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-vocabulary-questions-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "Bir kelime sorusunda iki seçenek anlamca yakın görünüyorsa ne yapmalısın?",
+      "options": [
+        "Kalıba ve sözcük türüne bakarak birini elemeliyim",
+        "Cümlede daha sık gördüğüm sözcüğü seçmeliyim",
+        "Sözcük olarak daha uzun olan seçeneği seçmeliyim",
+        "Türkçe karşılığı daha kısa olanı seçmeliyim",
+        "Türkçe karşılıkları aynıysa herhangi birini seçmeliyim"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Yakın anlamlı seçeneklerden yalnızca biri kalıba ve sözcük türüne uyar: (A). (B) sıklık bir anlam ölçütü değildir. (C) uzunluk bir anlam ölçütü değildir. (D) Türkçe karşılığın kısalığı belirleyici değildir. (E) Türkçesi aynı görünen iki sözcük İngilizcede farklı kalıplarda kullanılır.",
+      "passageID": null
+    }
+  ]
+}

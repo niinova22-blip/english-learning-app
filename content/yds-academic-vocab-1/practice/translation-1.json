@@ -1,0 +1,181 @@
+{
+  "id": "yds-practice-lesson-translation-1",
+  "estimatedDurationMinutes": 9,
+  "title": "Çeviri: İngilizce-Türkçe",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-practice-card-translation-1",
+      "type": "practiceSet",
+      "headword": "English-Turkish Translation",
+      "frequencyRank": 1009,
+      "baseDifficulty": 0.5,
+      "definition": "Akademik İngilizce cümlelerin Türkçe karşılığını seçmeye dayanan on çeviri sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Çeviri: İngilizce-Türkçe",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-practice-lesson-translation-1-q01",
+      "kind": "translation",
+      "order": 0,
+      "prompt": "The committee argued that the new regulation would do little to curb inflation unless it was accompanied by tighter fiscal policy.",
+      "options": [
+        "Komisyon, yeni düzenlemenin daha sıkı bir maliye politikasıyla desteklenmedikçe enflasyonu dizginlemede pek işe yaramayacağını savundu.",
+        "Komisyon, yeni düzenlemenin enflasyonu dizginlediğini ve daha sıkı bir maliye politikası gerektirdiğini savundu.",
+        "Komisyon, daha sıkı bir maliye politikasının enflasyonu dizginleyeceğini, ancak yeni düzenlemenin gereksiz olduğunu savundu.",
+        "Komisyona göre yeni düzenleme, daha sıkı bir maliye politikası uygulansa bile enflasyonu dizginleyemeyecekti.",
+        "Komisyon, enflasyon dizginlenmedikçe yeni düzenlemenin daha sıkı bir maliye politikasına dönüşeceğini savundu."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«unless it was accompanied by» = «...ile desteklenmedikçe», «would do little to curb» = «dizginlemede pek işe yaramayacak». Her iki ögeyi de doğru veren tek seçenek (A). (B) olumsuzluğu tümden atlıyor. (C) neden-sonucu ters çeviriyor ve metinde olmayan «gereksiz» yargısını ekliyor. (D) «unless» yerine «even if» anlamı veriyor. (E) ise cümlenin ögelerini birbirine karıştırıyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q02",
+      "kind": "translation",
+      "order": 1,
+      "prompt": "Had the regulator acted sooner, the losses suffered by small investors could have been avoided.",
+      "options": [
+        "Düzenleyici kurum daha erken harekete geçtiği için küçük yatırımcılar kayıplardan korundu.",
+        "Küçük yatırımcıların uğradığı kayıplar, düzenleyici kurumun daha erken harekete geçmesini engelledi.",
+        "Düzenleyici kurum daha erken harekete geçseydi, küçük yatırımcıların uğradığı kayıplar önlenebilirdi.",
+        "Düzenleyici kurum harekete geçmeseydi bile küçük yatırımcıların kayıpları önlenebilirdi.",
+        "Düzenleyici kurum daha erken harekete geçerse küçük yatırımcıların kayıpları önlenebilir."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Cümle devrik kurulmuş üçüncü tip bir koşuldur: «Had the regulator acted sooner» = «daha erken harekete geçseydi», «could have been avoided» = «önlenebilirdi». İkisini de doğru veren tek seçenek (C). (A) koşulu gerçekleşmiş gibi anlatıyor. (B) özne ile nesneyi yer değiştirip nedeni tersine çeviriyor. (D) «bile» diyerek ödün anlamı katıyor, (E) ise gerçekleşmemiş bir geçmişi geleceğe taşıyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q03",
+      "kind": "translation",
+      "order": 2,
+      "prompt": "Although renewable capacity has expanded rapidly, it still accounts for less than a fifth of the country's electricity generation.",
+      "options": [
+        "Yenilenebilir enerji kapasitesi hızla arttığı için ülkenin elektrik üretiminin beşte birini aştı.",
+        "Yenilenebilir enerji kapasitesi hızla artarsa ülkenin elektrik üretiminin beşte birine ulaşacak.",
+        "Ülkenin elektrik üretiminin beşte birinden azı, yenilenebilir enerji kapasitesinin hızla artmasını engelliyor.",
+        "Yenilenebilir enerji kapasitesi hızla artmasaydı ülkenin elektrik üretiminin beşte birini karşılayamazdı.",
+        "Yenilenebilir enerji kapasitesi hızla artmış olsa da, ülkenin elektrik üretiminin hâlâ beşte birinden azını karşılıyor."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Although» zıtlık kurar, «still accounts for less than a fifth» ise «hâlâ beşte birinden azını karşılıyor» demektir; her iki ögeyi de koruyan tek seçenek (E). (A) zıtlığı nedene çeviriyor ve oranı «aştı» diyerek tersine döndürüyor. (B) cümleyi koşula, (D) ise gerçekleşmemiş bir koşula sokuyor. (C) ise özne ile nesne ilişkisini tamamen değiştiriyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q04",
+      "kind": "translation",
+      "order": 3,
+      "prompt": "The study suggests that early exposure to a second language improves cognitive flexibility later in life.",
+      "options": [
+        "Çalışma, ikinci bir dile erken yaşta maruz kalmanın ileriki yaşlarda bilişsel esnekliği zayıflattığını öne sürüyor.",
+        "Çalışma, ikinci bir dile erken yaşta maruz kalmanın ileriki yaşlarda bilişsel esnekliği geliştirdiğini öne sürüyor.",
+        "Çalışmaya göre bilişsel esnekliği yüksek olan çocuklar ikinci bir dili daha erken öğreniyor.",
+        "Çalışma, ileriki yaşlarda ikinci bir dil öğrenmenin bilişsel esnekliği artırdığını gösteriyor.",
+        "Çalışma, ikinci bir dile erken yaşta maruz kalan çocukların bilişsel esnekliğinin ölçülemediğini belirtiyor."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«early exposure ... improves ... later in life» = «erken yaşta maruz kalmak ileriki yaşlarda geliştirir»; bunu birebir veren (B). (A) «improves» yerine «zayıflatıyor» diyerek anlamı tersine çeviriyor. (C) neden ile sonucu yer değiştiriyor: cümlede erken dil teması bilişsel esnekliği doğuruyor, tersi değil. (D) «early»yi «ileriki yaşlarda»ya kaydırıyor, (E) ise cümlede hiç olmayan bir «ölçülemezlik» iddiası ekliyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q05",
+      "kind": "translation",
+      "order": 4,
+      "prompt": "Not only did the reform fail to reduce inequality, but it also increased the tax burden on middle-income families.",
+      "options": [
+        "Reform eşitsizliği azaltmakla kalmadı, orta gelirli ailelerin vergi yükünü de hafifletti.",
+        "Reform, orta gelirli ailelerin vergi yükünü artırarak eşitsizliği azalttı.",
+        "Reform eşitsizliği azaltsaydı orta gelirli ailelerin vergi yükü artmayacaktı.",
+        "Reform yalnızca eşitsizliği azaltmayı başaramamakla kalmadı, orta gelirli ailelerin vergi yükünü de artırdı.",
+        "Reformun eşitsizliği azaltıp azaltmadığı, orta gelirli ailelerin vergi yüküne bağlıydı."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Not only ... but also» kalıbı iki OLUMSUZ bulguyu üst üste koyuyor: reform eşitsizliği azaltamadı, üstelik vergi yükünü artırdı. Bunu veren tek seçenek (D). (A) «fail to reduce» ögesini atlıyor ve yükün hafiflediğini söylüyor; iki hata birden. (B) reformun eşitsizliği azalttığını iddia ediyor. (C) cümleyi koşula, (E) ise bir belirsizlik ifadesine çeviriyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q06",
+      "kind": "translation",
+      "order": 5,
+      "prompt": "Researchers warn that the coral reefs may not recover unless sea temperatures fall within the next decade.",
+      "options": [
+        "Araştırmacılar, deniz sıcaklıkları önümüzdeki on yıl içinde düşmedikçe mercan resiflerinin toparlanamayabileceği konusunda uyarıyor.",
+        "Araştırmacılar, deniz sıcaklıkları önümüzdeki on yıl içinde düşse bile mercan resiflerinin toparlanamayacağını söylüyor.",
+        "Araştırmacılara göre mercan resifleri toparlandıkça deniz sıcaklıkları önümüzdeki on yıl içinde düşecek.",
+        "Araştırmacılar, mercan resiflerinin toparlanmasının deniz sıcaklıklarını on yıl içinde düşüreceği konusunda uyarıyor.",
+        "Araştırmacılar, deniz sıcaklıkları düşmediği için mercan resiflerinin on yıl önce toparlandığını belirtiyor."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«unless ... fall» = «düşmedikçe», «may not recover» = «toparlanamayabilir»; olumsuz koşulu ve ihtimal payını birlikte koruyan tek seçenek (A). (B) «unless»i «even if»e çevirip toparlanmayı tümden imkânsız gösteriyor. (C) koşul ile sonucu yer değiştiriyor. (D) neden-sonucu tersine çeviriyor, (E) ise geleceğe dönük bir uyarıyı geçmişte olmuş bir olaya dönüştürüyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q07",
+      "kind": "translation",
+      "order": 6,
+      "prompt": "The court ruled that the company had been aware of the defect long before it issued the recall.",
+      "options": [
+        "Mahkeme, şirketin geri çağırma kararını açıklamasından çok sonra kusurdan haberdar olduğuna hükmetti.",
+        "Mahkeme, şirketin kusurdan haberdar olmadığı için geri çağırma kararını geciktirdiğine hükmetti.",
+        "Mahkeme, şirketin geri çağırma kararını açıklamasından çok önce kusurdan haberdar olduğuna hükmetti.",
+        "Mahkemeye göre şirket, kusuru fark eder etmez geri çağırma kararını açıklamıştı.",
+        "Mahkeme, şirketin kusuru gizlemek için geri çağırma kararını açıkladığına hükmetti."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«had been aware ... long before it issued the recall» = «geri çağırma kararını açıklamasından çok önce kusurdan haberdardı»; zaman sırasını doğru kuran tek seçenek (C). (A) sırayı tersine çevirip «çok sonra» diyor. (B) şirketin haberdar olmadığını söyleyerek mahkemenin tespitini ortadan kaldırıyor. (D) «çok önce»yi «fark eder etmez»e dönüştürüyor, (E) ise cümlede hiç bulunmayan bir gizleme kastı ekliyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q08",
+      "kind": "translation",
+      "order": 7,
+      "prompt": "Far from solving the housing shortage, the new planning rules have made it harder for small builders to obtain permission.",
+      "options": [
+        "Yeni imar kuralları konut açığını çözdüğü gibi küçük müteahhitlerin izin almasını da kolaylaştırdı.",
+        "Yeni imar kuralları konut açığını çözmek bir yana, küçük müteahhitlerin izin almasını daha da zorlaştırdı.",
+        "Konut açığı çözülmedikçe yeni imar kuralları küçük müteahhitlerin izin almasını zorlaştıracak.",
+        "Yeni imar kuralları, küçük müteahhitler izin alamadığı için konut açığını çözemedi.",
+        "Yeni imar kuralları konut açığını çözerken küçük müteahhitlerin izin almasını da zorlaştırdı."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Far from solving» = «çözmek bir yana / çözmek şöyle dursun»; yani kurallar açığı çözmemiştir. Bunu ve «harder to obtain permission» ögesini birlikte veren tek seçenek (B). (A) hem açığın çözüldüğünü hem de işlerin kolaylaştığını söyleyerek iki kez ters düşüyor. (E) de açığın çözüldüğünü kabul ediyor. (C) cümleyi koşullu bir geleceğe taşıyor, (D) ise neden-sonucu tersine çeviriyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q09",
+      "kind": "translation",
+      "order": 8,
+      "prompt": "It is widely believed that the treaty would never have been signed had the two leaders not met in private.",
+      "options": [
+        "İki liderin özel olarak görüşmesi, anlaşmanın imzalanmasını engellediği için yaygın olarak eleştiriliyor.",
+        "Anlaşmanın imzalanabilmesi için iki liderin özel olarak görüşmesi gerektiği yaygın biçimde savunuluyor.",
+        "İki lider özel olarak görüşmezse anlaşmanın hiçbir zaman imzalanmayacağına yaygın olarak inanılıyor.",
+        "İki lider özel olarak görüşmemiş olsaydı anlaşmanın hiçbir zaman imzalanmayacağına yaygın olarak inanılıyor.",
+        "Anlaşma imzalandıktan sonra iki liderin özel olarak görüştüğüne yaygın olarak inanılıyor."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Cümlenin sonundaki «had the two leaders not met» devrik üçüncü tip koşuldur: «görüşmemiş olsalardı». Ana kısım da «would never have been signed» = «hiçbir zaman imzalanmayacaktı». İkisini de veren tek seçenek (D). (C) koşulu geniş zamana çekerek geçmişte gerçekleşmiş bir olayı olasılığa dönüştürüyor. (B) karşı olgusal yapıyı bir «gereklilik» ifadesine indiriyor. (A) ve (E) ise olayların sırasını ve anlamını tamamen değiştiriyor.",
+      "passageID": null
+    },
+    {
+      "id": "yds-practice-lesson-translation-1-q10",
+      "kind": "translation",
+      "order": 9,
+      "prompt": "While automation has displaced many routine jobs, it has simultaneously created demand for skills that did not exist a generation ago.",
+      "options": [
+        "Otomasyon rutin işlerin çoğunu ortadan kaldırdığı için bir kuşak önce var olmayan becerilere olan talep azaldı.",
+        "Otomasyon, bir kuşak önce var olmayan becerileri ortadan kaldırırken rutin işlere olan talebi artırdı.",
+        "Otomasyon rutin işleri ortadan kaldırmasaydı bir kuşak önce var olmayan beceriler ortaya çıkmazdı.",
+        "Bir kuşak önce var olmayan beceriler, otomasyonun rutin işleri ortadan kaldırmasını yavaşlattı.",
+        "Otomasyon birçok rutin işi ortadan kaldırırken, aynı anda bir kuşak önce var olmayan becerilere talep yarattı."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«While» burada zıtlık kuruyor, «has simultaneously created demand» ise aynı anda yeni bir talebin doğduğunu söylüyor; her iki ögeyi de koruyan tek seçenek (E). (A) talebin azaldığını söyleyerek cümleyi tersine çeviriyor. (B) ortadan kalkan ile yaratılanı yer değiştiriyor. (C) cümleyi gerçekleşmemiş bir koşula sokuyor, (D) ise özne ile nesnenin rolünü değiştiriyor.",
+      "passageID": null
+    }
+  ]
+}

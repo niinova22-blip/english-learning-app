@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-grammar-questions",
+  "estimatedDurationMinutes": 7,
+  "title": "Strateji: Gramer Soruları",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-tech-card-grammar-questions",
+      "type": "grammarPoint",
+      "headword": "Strategy: Grammar Questions",
+      "frequencyRank": 4009,
+      "baseDifficulty": 0.5,
+      "definition": "Gramer sorularında sınanan noktayı önce belirleme tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Strateji: Gramer Soruları",
+      "collocations": [],
+      "explanationTR": "Gramer sorularında ilk iş, cümlede HANGİ NOKTANIN sınandığını belirlemektir; sonra yalnızca o noktaya uyan seçeneği ararsın.\n\n• Seçeneklere bak: hepsi aynı fiilin farklı zamanlarıysa zaman, hepsi edatsa edat, hepsi ilgi zamiriyse ilgi cümleciği, aynı kökün farklı sözcük türleriyse (sıfat, zarf, isim) boşluğun cümledeki görevi sınanıyordur.\n\n• Zaman ipuçlarını kullan: since, for, by the time, yesterday, so far, every year gibi zarflar zamanı belirler.\n\n• Edat kalıplarını ezbere bil: keen on, depend on, result in, comply with.\n\n• Uyum kuralları: neither of + çoğul ad + tekil fiil; the number of + tekil fiil; her cümlede özne-fiil uyumunu kontrol et.\n\n• Koşul cümlelerinde if cümleciği ile ana cümlenin zamanını eşleştir: if they had left earlier ... would have caught the train.\n\nEn sık düşülen tuzak: cümleyi anlamına göre tahmin edip sınanan gramer noktasını atlamak. Anlamca uyan iki seçenekten yalnızca biri kurala uyar.\n\nÖrnek: «The museum ---- more visitors every year since 2018.» cümlesinde «since» present perfect ister."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-grammar-questions-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Gramer sorusunda seçeneklerin hepsi aynı fiilin farklı zamanlarıysa hangi adımı izlemelisin?",
+      "options": [
+        "En uzun ve en karmaşık fiil biçimini seçmeliyim",
+        "Türkçe karşılığı en yakın olanı seçmeliyim",
+        "Cümledeki zaman ipuçlarını (since, yesterday) bulmalıyım",
+        "Yan cümlenin öznesini bulup fiili yalnızca ona göre seçmeliyim",
+        "Sınavda en sık gördüğüm zamanı işaretleyip ilerlemeliyim"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Zaman sorusunda zarf ve bağlaç ipuçları zamanı belirler: (C). (A) karmaşık biçim doğruluk ölçütü değildir. (B) Türkçe karşılık İngilizce zaman kuralını vermez. (D) özne uyumu kişiyi ve sayıyı belirler, zamanı değil. (E) sıklık tahmini kuralın yerini tutmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-grammar-questions-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "The company ---- its profits every year since 2015.",
+      "options": [
+        "increased",
+        "had increased",
+        "will increase",
+        "is increasing",
+        "has increased"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Since 2015» geçmişten bugüne uzanan bir süreyi gösterir ve present perfect ister: (E). (A) past simple bitmiş bir zaman ister. (B) past perfect geçmişte bir referans gerektirir. (C) gelecek zamandır. (D) present continuous bu «since» kalıbıyla kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-grammar-questions-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "She has been interested ---- astronomy since childhood.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "for",
+        "with"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Interested in» sabit bir sıfat + edat kalıbıdır: (B). (A) at, (C) on, (D) for ve (E) with bu sıfatla kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-grammar-questions-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "The scientist ---- discovered the enzyme has won a prize.",
+      "options": [
+        "whom",
+        "which",
+        "whose",
+        "who",
+        "what"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Özne konumundaki bir kişiye gönderme yapılır ve fiil hemen ardından gelir (who discovered): (D). (A) whom nesne konumundadır. (B) which cansızlar içindir. (C) whose ardından ad ister. (E) what önceki bir adı niteleyemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-grammar-questions-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "If she ---- harder, she would have passed the exam.",
+      "options": [
+        "studied",
+        "studies",
+        "has studied",
+        "would study",
+        "had studied"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Ana cümledeki «would have passed» üçüncü tip koşuldur; if cümleciği past perfect ister: (E). (A) past simple ikinci tip koşulu kurar. (B) geniş zaman ve (C) present perfect ana cümleyle uyuşmaz. (D) would if cümleciğinde kullanılmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-grammar-questions-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "The results were ---- better than we had expected.",
+      "options": [
+        "considerably",
+        "considerable",
+        "consider",
+        "consideration",
+        "considering"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Boşluk, karşılaştırma sıfatı «better»ı niteler; sıfatı niteleyen sözcük zarf olmalıdır: (A). (B) sıfattır ve başka bir sıfatı niteleyemez. (C) fiildir. (D) isimdir; bu konumda beklenmez. (E) -ing biçimi olup cümlede anlamlı bir görev üstlenmez.",
+      "passageID": null
+    }
+  ]
+}

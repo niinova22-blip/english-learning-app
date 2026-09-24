@@ -15,13 +15,84 @@ final class DailyPlanBuilderTests: XCTestCase {
 
     func input(
         dailyMinutes: Int = 20, lessons: [PlanLesson] = [], due: Int = 0, reviewedToday: Int = 0,
-        past: [Skill: Double] = [:], weights: SkillWeights? = nil
+        past: [Skill: Double] = [:], weights: SkillWeights? = nil,
+        practice: [DuePracticeCard] = [], coach: CoachDirective? = nil
     ) -> DailyPlanInput {
         DailyPlanInput(
             weights: weights ?? yds, dailyMinutes: dailyMinutes, lessonsInPathOrder: lessons,
             dueNowCount: due, reviewedTodayCount: reviewedToday,
-            pastWeekSkillMinutes: past, startOfToday: startOfToday
+            pastWeekSkillMinutes: past, startOfToday: startOfToday,
+            duePracticeCards: practice, coach: coach
         )
+    }
+
+    func card(_ id: String, _ skill: Skill, day: Int = 0) -> DuePracticeCard {
+        DuePracticeCard(
+            itemID: id, lessonID: "lesson-\(id)", title: "T-\(id)", skill: skill,
+            dueDate: startOfToday.addingTimeInterval(Double(day) * 86_400)
+        )
+    }
+
+    func practiceIDs(_ plan: DailyPlan) -> [String] {
+        plan.tasks.compactMap { if case .practiceReview(let id, _, _, _, _, _) = $0 { return id } else { return nil } }
+    }
+
+    func test_practiceReview_isCappedAtTwoPerDay_earliestDueFirst() {
+        let plan = DailyPlanBuilder().build(input(
+            dailyMinutes: 30,
+            practice: [card("p3", .grammar, day: 3), card("p1", .reading, day: 1), card("p2", .grammar, day: 2)]
+        ))
+        XCTAssertEqual(practiceIDs(plan), ["p1", "p2"])
+    }
+
+    func test_practiceReview_sitsAfterTheVocabularyReviewTask_andBeforeLessons() {
+        let plan = DailyPlanBuilder().build(input(
+            dailyMinutes: 30, lessons: [lesson("v1", .vocabulary)], due: 5,
+            practice: [card("p1", .grammar)]
+        ))
+        guard case .review = plan.tasks[0] else { return XCTFail("expected review first, got \(plan.tasks[0])") }
+        guard case .practiceReview(let itemID, _, _, let skill, let minutes, let isDone) = plan.tasks[1] else {
+            return XCTFail("expected practiceReview second, got \(plan.tasks[1])")
+        }
+        XCTAssertEqual(itemID, "p1")
+        XCTAssertEqual(skill, .grammar)
+        XCTAssertEqual(minutes, 3, accuracy: 1e-9)
+        XCTAssertFalse(isDone)
+        guard case .lesson = plan.tasks[2] else { return XCTFail("expected lesson third, got \(plan.tasks[2])") }
+    }
+
+    func test_practiceReviewMinutes_countTowardTheDailyTotalAndSqueezeLessons() {
+        // Budget 16; review 5 due cards = 2 min; two practice reviews = 6 min;
+        // 8 < 16 admits v1 (total 16), and 16 < 16 is false so v2 is squeezed
+        // out (without practice, 2 + 8 = 10 < 16 would have admitted v2).
+        let plan = DailyPlanBuilder().build(input(
+            dailyMinutes: 16, lessons: [lesson("v1", .vocabulary), lesson("v2", .vocabulary)], due: 5,
+            practice: [card("p1", .grammar), card("p2", .reading)]
+        ))
+        XCTAssertEqual(practiceIDs(plan), ["p1", "p2"])
+        XCTAssertEqual(lessonIDs(plan), ["v1"])
+        XCTAssertEqual(plan.totalMinutes, 2 + 6 + 8, accuracy: 1e-9)
+    }
+
+    func test_practiceReview_isSkippedOnceTheBudgetIsSpent() {
+        // Budget 4; review cap is half of it, 5 cards = 2 min. 2 < 4 so one
+        // practice review is added (2 + 3 = 5), and the second is not.
+        let plan = DailyPlanBuilder().build(input(
+            dailyMinutes: 4, due: 5, practice: [card("p1", .grammar), card("p2", .grammar)]
+        ))
+        XCTAssertEqual(practiceIDs(plan), ["p1"])
+    }
+
+    func test_aDonePracticeReview_keepsTheTaskButDoesNotBlockPlanCompletion() {
+        let done = DuePracticeCard(itemID: "p1", lessonID: "l1", title: "T", skill: .grammar, dueDate: startOfToday, isDone: true)
+        let plan = DailyPlanBuilder().build(input(dailyMinutes: 30, practice: [done]))
+        XCTAssertEqual(practiceIDs(plan), ["p1"])
+        XCTAssertTrue(plan.isComplete)
+    }
+
+    func test_noDuePracticeCards_producesNoPracticeTask() {
+        let plan = DailyPlanBuilder().build(input(lessons: [lesson("v1", .vocabulary)]))
+        XCTAssertTrue(practiceIDs(plan).isEmpty)
     }
 
     func lessonIDs(_ plan: DailyPlan) -> [String] {
@@ -142,5 +213,55 @@ final class DailyPlanBuilderTests: XCTestCase {
     func test_weeklyBalance_withNoHistory_hasZeroActualShares() {
         let plan = DailyPlanBuilder().build(input())
         XCTAssertTrue(plan.weeklyBalance.allSatisfy { $0.actualShare == 0 })
+    }
+
+    func vocabLessons(_ count: Int) -> [PlanLesson] {
+        (1...count).map { lesson("v\($0)", .vocabulary) }
+    }
+
+    func test_coach_nilAndNeutralDirective_giveTheSamePlanAsBefore() {
+        let base = input(dailyMinutes: 20, lessons: vocabLessons(6), due: 10, practice: [card("p1", .grammar)])
+        let plain = DailyPlanBuilder().build(base)
+        let neutral = DailyPlanBuilder().build(input(
+            dailyMinutes: 20, lessons: vocabLessons(6), due: 10, practice: [card("p1", .grammar)],
+            coach: CoachDirective(extraLessonMinutes: 0, reviewOnly: false)
+        ))
+        XCTAssertEqual(plain, neutral)
+        XCTAssertEqual(plain.coachAddedLessonIDs, [])
+    }
+
+    func test_coach_extraMinutes_addLessonsBeyondTheBudget_andTagThem() {
+        // Normal fill: 8, 16, 24 -> three lessons. Extra 10 -> keep adding while < 30 -> a fourth.
+        let normal = DailyPlanBuilder().build(input(dailyMinutes: 20, lessons: vocabLessons(6)))
+        XCTAssertEqual(lessonIDs(normal), ["v1", "v2", "v3"])
+
+        let coached = DailyPlanBuilder().build(input(
+            dailyMinutes: 20, lessons: vocabLessons(6),
+            coach: CoachDirective(extraLessonMinutes: 10, reviewOnly: false)
+        ))
+        XCTAssertEqual(lessonIDs(coached), ["v1", "v2", "v3", "v4"])
+        XCTAssertEqual(coached.coachAddedLessonIDs, ["v4"])
+        XCTAssertEqual(coached.totalMinutes, 32, accuracy: 1e-9)
+    }
+
+    func test_reviewOnly_letsReviewsUseTheWholeDay_andAddsNoLessons() {
+        let plan = DailyPlanBuilder().build(input(
+            dailyMinutes: 20, lessons: vocabLessons(3), due: 60,
+            coach: CoachDirective(extraLessonMinutes: 0, reviewOnly: true)
+        ))
+        guard case .review(let count, let minutes, _) = plan.tasks.first else { return XCTFail("expected a review task") }
+        XCTAssertEqual(count, 50)
+        XCTAssertEqual(minutes, 20, accuracy: 1e-9)
+        XCTAssertEqual(lessonIDs(plan), [])
+        XCTAssertEqual(plan.coachAddedLessonIDs, [])
+    }
+
+    func test_reviewOnly_addsNoLessons_evenWithNothingDue() {
+        let plan = DailyPlanBuilder().build(input(
+            dailyMinutes: 20, lessons: vocabLessons(3),
+            coach: CoachDirective(extraLessonMinutes: 5, reviewOnly: true)
+        ))
+        XCTAssertEqual(lessonIDs(plan), [])
+        XCTAssertEqual(plan.totalMinutes, 0, accuracy: 1e-9)
     }
 }

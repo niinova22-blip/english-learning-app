@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-participle-clauses-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Ortaç Cümlecikleri (Participle Clauses)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-participle-clauses-1",
+      "type": "grammarPoint",
+      "headword": "Participle Clauses",
+      "frequencyRank": 2014,
+      "baseDifficulty": 0.5,
+      "definition": "V-ing, V3 ve having + V3 ile kurulan ortaç cümlecikleri.",
+      "exampleSentences": [],
+      "translationTR": "Ortaç Cümlecikleri",
+      "collocations": [],
+      "explanationTR": "Ortaç cümleciği (participle clause) iki cümleyi tek cümleye indirger. Gizli özne, ANA CÜMLENİN öznesidir.\n\n• V-ing: etken, eşzamanlı ya da nedensel: Working under severe constraints, the team delivered on time. Knowing the data were incomplete, the editor delayed publication.\n\n• V3 (past participle): edilgen anlam: Published in 1996, the study is still widely cited.\n\n• Having + V3: daha önce tamamlanmış bir eylem: Having collected data for two years, the team began its analysis.\n\n• İndirgenmiş sıfat cümlecikleri: etken için V-ing (analysts watching the market), edilgen için V3 (the proposals approved last week, the countries affected by the drought).\n\n• Kural: ortaç cümleciğinin öznesi ana cümlenin öznesi olmalıdır. Aksi hâlde sarkan ortaç (dangling participle) oluşur ve yanlıştır.\n\nÖrnek: Realising how little time remained, the manager asked the team to work overtime."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-participle-clauses-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "---- under severe budget constraints, the research team still delivered its results on schedule.",
+      "options": [
+        "Working",
+        "Worked",
+        "Work",
+        "Being worked",
+        "To be working"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Ekip çalışan taraftır (etken) ve iki eylem eşzamanlıdır: Working under ..., the team delivered. (B) Worked edilgen anlam katar. (C) Work yalın fiildir, cümleciği başlatamaz. (D) Being worked edilgen bir yapıdır. (E) To be working amaç ya da gelecek anlamı taşır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "---- in 1996, the study is still widely cited in the field of behavioural economics.",
+      "options": [
+        "Publishing",
+        "Having published",
+        "Published",
+        "Publish",
+        "To publish"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Çalışma yayımlanan taraftır (edilgen); bu anlam V3 ile verilir: Published in 1996 (= Because it was published). (A) Publishing ve (B) Having published etkendir; çalışma bir şey yayımlamaz. (D) Publish yalın fiildir. (E) To publish amaç bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "---- data from all forty schools in 2019, the team did not begin its analysis until 2021.",
+      "options": [
+        "Collecting",
+        "Collected",
+        "To collect",
+        "Being collected",
+        "Having collected"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Toplama eylemi (2019) analizden (2021) ÖNCE tamamlanmıştır; bu ilişki having + V3 ile kurulur: Having collected data ..., the team did not begin ... (A) Collecting eşzamanlılık bildirir, oysa sıra önce-sonradır. (B) Collected edilgendir. (C) To collect amaç bildirir. (D) Being collected edilgendir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "Analysts ---- the market closely say the current trend will continue for at least another year.",
+      "options": [
+        "watched",
+        "watching",
+        "watch",
+        "to watch",
+        "being watched"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Analistler izleyen taraftır (etken); indirgenmiş sıfat cümleciği V-ing ile kurulur: analysts watching the market (= who watch). (A) watched ve (E) being watched edilgen anlam katar. (C) watch ikinci bir çekimli fiil ekler ve ana fiilin (say) önüne geçer. (D) to watch amaç bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The proposals ---- by the committee last week have been criticised by several members.",
+      "options": [
+        "approving",
+        "to approve",
+        "having approved",
+        "approved",
+        "approve"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Öneriler onaylanan taraftır; indirgenmiş edilgen sıfat cümleciği V3 ile kurulur: the proposals approved by the committee (= that were approved). (A) approving ve (C) having approved etken anlam katar. (B) to approve amaç ya da gelecek bildirir. (E) approve ise ikinci bir çekimli fiil ekler.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "---- how little time remained, the manager asked the team to work overtime.",
+      "options": [
+        "Realising",
+        "Realised",
+        "To realise",
+        "Having been realised",
+        "Being realised"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Gizli özne yöneticidir (the manager) ve o fark eden taraftır: Realising how little time remained, the manager ... (B) Realised ve (E) Being realised edilgen anlam katar. (C) To realise amaç bildirir. (D) Having been realised de edilgendir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "---- that the data were incomplete, the editor delayed publication until further tests were carried out.",
+      "options": [
+        "Known",
+        "To know",
+        "Knowing",
+        "Having been known",
+        "Know"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Editör bilen taraftır ve bilme eylemi nedendir: Knowing that ..., the editor delayed. (A) Known ve (D) Having been known edilgen anlam katar ve that-cümleciğiyle uyuşmaz. (B) To know amaç bildirir. (E) Know yalın fiildir, cümleciği başlatamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-participle-clauses-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The countries ---- most severely by the drought received emergency food aid from the international community.",
+      "options": [
+        "affecting",
+        "having affected",
+        "to affect",
+        "affect",
+        "affected"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Ülkeler etkilenen taraftır ve «by the drought» edilgen anlamı doğrular: the countries affected by the drought (= that were affected). (A) affecting ve (B) having affected etken anlam katar. (C) to affect amaç bildirir. (D) affect ikinci bir çekimli fiil ekler.",
+      "passageID": null
+    }
+  ]
+}

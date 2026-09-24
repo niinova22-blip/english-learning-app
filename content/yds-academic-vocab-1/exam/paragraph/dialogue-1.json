@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-dialogue-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Diyalog Tamamlama 1",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-exam-card-dialogue-1",
+      "type": "practiceSet",
+      "headword": "Dialogue Completion 1",
+      "frequencyRank": 3050,
+      "baseDifficulty": 0.5,
+      "definition": "Diyalogdaki eksik konuşmayı tamamlamaya dayanan sekiz soru.",
+      "exampleSentences": [],
+      "translationTR": "Diyalog Tamamlama 1",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-dialogue-1-q01",
+      "kind": "dialogueCompletion",
+      "order": 0,
+      "prompt": "Student: Professor, I couldn't finish the survey analysis before the deadline.\nProfessor: ----\nStudent: I'll send you the revised draft by Friday.",
+      "options": [
+        "I understand, but please warn me earlier if it happens again.",
+        "Then I'll assume you have already submitted the final draft.",
+        "The deadline was extended because most students finished early.",
+        "You should have analysed the survey before it was even conducted.",
+        "In that case, no further work is required for this course."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Öğrenci gecikmeyi kabul edip düzeltilmiş taslağı Cuma günü göndereceğini söylüyor; buna doğal yanıt anlayış gösterip bir dahaki sefere önceden haber istemektir: (A). (B) teslim edildiğini varsayar, oysa öğrenci teslim etmedi. (C) uzatma olduğunu söyler ve öğrencinin cevabıyla uyuşmaz. (D) anlamsız bir eleştiridir. (E) ek iş gerekmediğini söyler ve öğrencinin taslak sözüyle çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-1-q02",
+      "kind": "dialogueCompletion",
+      "order": 1,
+      "prompt": "Librarian: I'm afraid this book is already checked out.\nStudent: ----\nLibrarian: Yes, I can reserve it for you, and you'll get an email when it's back.",
+      "options": [
+        "Then I'll return it tomorrow.",
+        "Do you know who borrowed it?",
+        "The library closes at nine, doesn't it?",
+        "Can I go on a waiting list for it?",
+        "I've already read it twice this week."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Kütüphaneci «rezerve edebilirim» diyor; bu cevabı doğuran soru bekleme listesi isteğidir: (D). (A) kitap zaten öğrencide değil, ödünçte olan başkasındadır. (B) kimin ödünç aldığını sorar ve \"Yes, I can reserve it\" yanıtıyla uyuşmaz. (C) kapanış saatini sorar, kitapla ilgili istek içermez. (E) kitabı okuduğunu söyler ve rezervasyon talebi taşımaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-1-q03",
+      "kind": "dialogueCompletion",
+      "order": 2,
+      "prompt": "Advisor: Have you decided which modules to take next term?\nStudent: ----\nAdvisor: Then let's look at the timetable and see whether they overlap.",
+      "options": [
+        "Yes, I finished all my modules last year.",
+        "I'm still choosing between two options.",
+        "I don't think the timetable is important.",
+        "I haven't looked at the course list yet.",
+        "The exams were easier than I expected."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Danışman «o zaman zaman çizelgesine bakalım» diyor; bu, öğrencinin iki seçenek arasında kaldığını gösterir: (B). (A) modülleri bitirdiğini söyler ve karar sorusuyla uyuşmaz. (C) çizelgeyi önemsiz sayar. (D) ders listesine bakmadığını söyler; o zaman danışmanın \"they overlap\" ifadesinin göndereceği bir şey kalmaz. (E) sınavlardan söz eder ve soruyu yanıtlamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-1-q04",
+      "kind": "dialogueCompletion",
+      "order": 3,
+      "prompt": "Student: I didn't understand the second question on the assignment.\nTutor: ----\nStudent: Oh, I see. I was looking at the wrong data set.",
+      "options": [
+        "That question was removed from the assignment last week.",
+        "Please submit it as it is and we will see.",
+        "The data set was collected in 1990.",
+        "Then you must have understood everything.",
+        "Let's read it together, and tell me which part is unclear."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Öğrenci yanlış veri setine baktığını fark ediyor; bu, birlikte okuma ve belirsiz kısmı sorma yoluyla olur: (E). (A) sorunun kaldırıldığını söylüyor, öğrencinin fark etmesiyle çelişir. (B) ödevi olduğu gibi teslim etmeyi önerir ve öğrencinin \"Oh, I see\" tepkisine yol açacak bir açıklama içermez. (C) konu dışıdır. (D) öğrencinin sorununu yok sayar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-1-q05",
+      "kind": "dialogueCompletion",
+      "order": 4,
+      "prompt": "Student A: The seminar starts in ten minutes.\nStudent B: ----\nStudent A: Don't worry, we'll walk quickly and be there on time.",
+      "options": [
+        "Good, I have a lot of time to relax.",
+        "The seminar was cancelled yesterday.",
+        "Already? I'm still finishing my slides.",
+        "Let's meet at the cafe after the seminar.",
+        "That is exactly what the lecturer said."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Don't worry» yanıtı bir kaygıya cevap veriyor; kaygıyı doğuran cümle henüz hazır olmama: (C). (A) rahat olduğunu söyler ve «don't worry» ile uyuşmaz. (B) iptal edildiğini söyler ve acele etmeyi gereksiz kılar. (D) seminer sonrası için buluşma önerir ve \"Don't worry, we'll walk quickly\" yanıtına neden olacak bir kaygı içermez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-1-q06",
+      "kind": "dialogueCompletion",
+      "order": 5,
+      "prompt": "Lecturer: Would anyone like to comment on the reading?\nStudent: ----\nLecturer: An interesting point; can you support it with an example from the text?",
+      "options": [
+        "I think the author underestimates local governments.",
+        "I have not decided whether to go to the cafeteria.",
+        "The lecturer already commented on it yesterday.",
+        "Can you repeat the date of the exam?",
+        "Yes, I would like a comment from you instead."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Hoca «ilginç bir nokta» diyor ve örnek istiyor; öğrenci bir görüş öne sürmüş olmalı: (A). (B) konu dışıdır. (C) hocanın zaten yorumladığını söyler ve görüşle uyuşmaz. (D) sınav tarihini sorar. (E) yorumu hocadan ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-1-q07",
+      "kind": "dialogueCompletion",
+      "order": 6,
+      "prompt": "Student: Could you tell me how to reach the computer lab?\nAssistant: ----\nStudent: Great, thanks; I'll go there now.",
+      "options": [
+        "It was closed for repairs during the summer of 2010.",
+        "You should have arrived at nine o'clock.",
+        "Computers are more expensive than they used to be.",
+        "It's on the second floor, right next to the lifts.",
+        "I never go to the lab myself."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Öğrenci «şimdi oraya gideceğim» diyor; bu, yol tarifi veren yanıttan sonra gelir: (D). (A) geçmişteki bir kapanışı anlatır ve yol tarifi vermez. (B) öğrenciyi eleştirir. (C) bilgisayar fiyatlarına kayar. (E) tarif vermez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-dialogue-1-q08",
+      "kind": "dialogueCompletion",
+      "order": 7,
+      "prompt": "Professor: Your essay has a strong argument, but the conclusion is weak.\nStudent: ----\nProfessor: Yes, a short summary of your main points and one clear recommendation would help.",
+      "options": [
+        "I did not write an essay this term.",
+        "Could you suggest how I might strengthen it?",
+        "The conclusion is the strongest part, isn't it?",
+        "Then I will delete the argument.",
+        "My computer was repaired last week."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Hoca «kısa bir özet ve tek bir öneri yardımcı olur» diyor; bu, öğrencinin iyileştirme önerisi istediğini gösterir: (B). (A) makale yazmadığını söyler ve hocanın yorumuyla çelişir. (C) sonucun en güçlü kısım olduğunu iddia eder. (D) güçlü argümanı silmeyi önerir.",
+      "passageID": null
+    }
+  ]
+}

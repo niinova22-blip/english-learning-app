@@ -15,6 +15,27 @@ public struct FSRSStateStore: Sendable {
         scheduler: FSRSScheduler,
         reactionTimeMs: Int = 0
     ) throws -> UserItemState {
+        let state = try stageReview(
+            userID: userID, itemID: itemID, rating: rating, now: now,
+            in: context, scheduler: scheduler, reactionTimeMs: reactionTimeMs
+        )
+        try context.save()
+        return state
+    }
+
+    /// Same as `recordReview` but leaves the context unsaved, so a caller can
+    /// commit the review together with other changes in a single save (and
+    /// `rollback()` everything if that save fails).
+    @discardableResult
+    public func stageReview(
+        userID: String,
+        itemID: String,
+        rating: FSRSRating,
+        now: Date,
+        in context: ModelContext,
+        scheduler: FSRSScheduler,
+        reactionTimeMs: Int = 0
+    ) throws -> UserItemState {
         let stateID = "\(userID)_\(itemID)"
         let descriptor = FetchDescriptor<UserItemState>(predicate: #Predicate { $0.id == stateID })
         let existing = try context.fetch(descriptor).first
@@ -44,7 +65,6 @@ public struct FSRSStateStore: Sendable {
 
         let log = ReviewLog(userID: userID, itemID: itemID, rating: rating, reviewedAt: now, reactionTimeMs: reactionTimeMs)
         context.insert(log)
-        try context.save()
         return state
     }
 }

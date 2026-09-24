@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-translation-tr-en-3",
+  "estimatedDurationMinutes": 9,
+  "title": "Çeviri: Türkçe-İngilizce 3",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-translation-tr-en-3",
+      "type": "practiceSet",
+      "headword": "Translation TR-EN 3",
+      "frequencyRank": 3072,
+      "baseDifficulty": 0.6,
+      "definition": "Türkçe cümlelerin İngilizce karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Çeviri: Türkçe-İngilizce 3",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-translation-tr-en-3-q01",
+      "kind": "translation",
+      "order": 0,
+      "prompt": "Ancak fonlar aktarıldıktan sonra proje başlayabilecek.",
+      "options": [
+        "Only after the funds have been transferred will the project be required to start.",
+        "Only after the project starts will the funds be transferred.",
+        "Only after the funds had been transferred would the project be able to start.",
+        "Only after the funds have been transferred will the project be able to start.",
+        "Not until the funds are transferred can the project not start."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Only after ...» ile başlayan cümlede ana cümle devrik olur: will the project be able to start: (D). (A) «başlayabilecek» yerine zorunluluk bildirir. (B) sırayı tersine çevirir. (C) zamanı geçmişe çevirir. (E) olumsuzluk ekleyerek anlamı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-3-q02",
+      "kind": "translation",
+      "order": 1,
+      "prompt": "Yöneticinin önerisinin kabul edilmesini herkes istiyordu.",
+      "options": [
+        "Everyone wanted the manager to accept the proposal.",
+        "Everyone wanted the manager's proposal to be considered.",
+        "The manager wanted everyone's proposal to be accepted.",
+        "Everyone did not want the manager's proposal to be accepted.",
+        "Everyone wanted the manager's proposal to be accepted."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Kabul edilmesini» edilgen mastar gerektirir: to be accepted; kabul edilen öneridir: (E). (A) özneyi yöneticiye çevirir. (B) «kabul» yerine «değerlendirme» der. (C) isteyeni değiştirir. (D) olumsuz yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-3-q03",
+      "kind": "translation",
+      "order": 2,
+      "prompt": "Bu kadar kısa sürede bu kadar çok şey başarılacağını hiç kimse beklemiyordu.",
+      "options": [
+        "Everybody had expected that so much would be achieved in such a short time.",
+        "Nobody had expected that so much would be achieved in such a short time.",
+        "Nobody expected that so much had been achieved in such a short time.",
+        "Nobody had expected that so little would be achieved in such a short time.",
+        "Nobody had expected that so much would be achieved in such a long time."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Hiç kimse beklemiyordu» olumsuz ve öncedendir: nobody had expected; başarı beklenen gelecektir (would be achieved): (B). (A) herkesi olumlu yapar. (C) zamanı karıştırır. (D) «çok» yerine «az» der. (E) «kısa» yerine «uzun» der.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-3-q04",
+      "kind": "translation",
+      "order": 3,
+      "prompt": "Şirketin yönetimi krizi önlemek için elinden geleni yaptı, ne var ki çok geçti.",
+      "options": [
+        "The company's management did everything it could to prevent the crisis, but it was too late.",
+        "The company's management did everything it could to cause the crisis, but it was too late.",
+        "The company's management did nothing to prevent the crisis, and it was too late.",
+        "The company's management had done everything it could to prevent the crisis, but it is too late.",
+        "The company's management did everything it could to prevent the crisis, and therefore it was too late."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Ne var ki» karşıtlık kurar: her şeyi yaptılar ama geç kaldılar: (A). (B) krizi yaratmayı amaçlar. (C) hiçbir şey yapılmadığını söyler. (D) zaman uyumunu bozar. (E) karşıtlığı sonuç bağıntısına çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-3-q05",
+      "kind": "translation",
+      "order": 4,
+      "prompt": "Öğrencilerin başarısı, kısmen öğretmenlerin yaklaşımına bağlıdır.",
+      "options": [
+        "The students' success depends entirely on the teachers' approach.",
+        "The teachers' success depends partly on the students' approach.",
+        "The students' success depends partly on the teachers' approach.",
+        "The students' success depended partly on the teachers' approach.",
+        "The students' success does not depend on the teachers' approach."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Kısmen» = partly; «bağlıdır» geniş zaman: (C). (A) «tamamen» der. (B) özneleri yer değiştirir. (D) zamanı geçmişe çevirir. (E) bağımlılığı inkâr eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-3-q06",
+      "kind": "translation",
+      "order": 5,
+      "prompt": "Yağmur yağmasaydı, maç iptal edilmezdi.",
+      "options": [
+        "If it does not rain, the match will not be cancelled.",
+        "If it had rained, the match would not have been cancelled.",
+        "If the match had not been cancelled, it would not have rained.",
+        "If it had not rained, the match would not have been cancelled.",
+        "If it had not rained, the match would have been cancelled."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Gerçekleşmemiş geçmiş için üçüncü tip koşul: had not rained ... would not have been cancelled: (D). (A) gerçek koşula ve geleceğe çevirir. (B) yağmurun yağdığını varsayar. (C) neden ile sonucu yer değiştirir. (E) sonucu olumlu yapar (iptal edilirdi).",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-3-q07",
+      "kind": "translation",
+      "order": 6,
+      "prompt": "Toplumun her kesiminden insanlar, reformun gerekli olduğu konusunda hemfikir.",
+      "options": [
+        "People from every part of society agree that the reform is necessary.",
+        "People from some parts of society agree that the reform is necessary.",
+        "People from every part of society agreed that the reform was unnecessary.",
+        "People from every part of society agree that the reform will be necessary.",
+        "People from every part of society agree that the reform is sufficient."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Her kesiminden» = from every part; «hemfikir» geniş zaman; «gerekli» = necessary: (A). (B) «her kesim» yerine «bazı kesimler» der. (C) «gereksiz» diyerek anlamı tersine çevirir. (D) zamanı geleceğe çevirir. (E) «gerekli» yerine «yeterli» der.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-3-q08",
+      "kind": "translation",
+      "order": 7,
+      "prompt": "Hükümetin açıkladığı verilere göre, ihracat geçen yıla kıyasla belirgin biçimde arttı.",
+      "options": [
+        "According to the data released by the government, exports fell markedly compared with last year.",
+        "According to the data released by the government, exports rose slightly compared with last year.",
+        "According to the data released by the government, exports will rise markedly compared with last year.",
+        "According to the data released by the government, imports rose markedly compared with last year.",
+        "According to the data released by the government, exports rose markedly compared with last year."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Belirgin biçimde arttı» = rose markedly; «geçen yıla kıyasla» = compared with last year: (E). (A) artışı düşüşe çevirir. (B) «belirgin» yerine «hafif» der. (C) zamanı geleceğe çevirir. (D) ihracat yerine ithalatı konu eder.",
+      "passageID": null
+    }
+  ]
+}

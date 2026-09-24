@@ -1,0 +1,150 @@
+{
+  "id": "yds-grammar-conjunctions-linkers-1",
+  "estimatedDurationMinutes": 8,
+  "title": "Bağlaçlar ve Bağlayıcılar (Conjunctions & Linkers)",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-conjunctions-linkers-1",
+      "type": "grammarPoint",
+      "headword": "Conjunctions & Linkers",
+      "frequencyRank": 2016,
+      "baseDifficulty": 0.5,
+      "definition": "Neden, sonuç, karşıtlık, amaç ve zaman bağlaçlarının temel kullanımı.",
+      "exampleSentences": [],
+      "translationTR": "Bağlaçlar ve Bağlayıcılar",
+      "collocations": [],
+      "explanationTR": "Bağlaçlar cümleleri anlam ilişkisine göre bağlar; doğru seçim ilişkinin türünü tanımaya bağlıdır.\n\n• Eş değer bağlaçlar: and, but, or, so, yet, for. yet = «ama yine de» (karşıtlık).\n\n• Neden: because, since, as. Sonuç: so + sıfat + that, such + (a) + sıfat + isim + that.\n\n• Karşıtlık: although, though, even though, while, whereas + CÜMLECİK. despite / in spite of + AD ya da V-ing. Although the company reported profits, it cut jobs. Despite the risks, investors stayed.\n\n• Amaç: so that / in order that + cümlecik (can/could ile), so as to / in order to + V1.\n\n• Zaman: when, while, as soon as, until, by the time.\n\nÖrnek: The demand was so high that the factory had to double its output."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-conjunctions-linkers-1-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "---- the company reported record profits, it announced a series of job cuts.",
+      "options": [
+        "Despite",
+        "In spite of",
+        "Because of",
+        "Although",
+        "Owing to"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Boşluktan sonra bir CÜMLECİK var (the company reported ...); cümleciği bağlayan karşıtlık bağlacı although'tur. (A) Despite ve (B) In spite of, (C) Because of ve (E) Owing to edattır ve ardından ad öbeği ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-1-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The launch was postponed ---- the software had not passed its final security tests.",
+      "options": [
+        "although",
+        "because",
+        "unless",
+        "so that",
+        "whereas"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Ertelemenin NEDENİ açıklanıyor: because. (A) although karşıtlık bildirir. (C) unless koşul bildirir. (D) so that amaç bildirir. (E) whereas iki durumu karşılaştırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-1-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The demand for the new model was ---- high that the factory had to double its output.",
+      "options": [
+        "such",
+        "very",
+        "too",
+        "enough",
+        "so"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«So + sıfat + that» sonuç bildirir: so high that. (A) such bir isim öbeğiyle kullanılır. (B) very ve (C) too that ile sonuç kuramaz. (D) enough sıfattan sonra gelir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-1-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "It was ---- a persuasive argument that even the sceptics changed their minds.",
+      "options": [
+        "such",
+        "so",
+        "too",
+        "very",
+        "enough"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Such + a + sıfat + isim + that» sonuç bildirir: such a persuasive argument that. (B) so, «a + isim» ile kullanılmaz. (C) too, (D) very ve (E) enough sonuç cümleciği kuramaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-1-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The government released the data early ---- researchers could begin their analysis without delay.",
+      "options": [
+        "in order to",
+        "so as to",
+        "so that",
+        "because of",
+        "in spite of"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Amaç bildiren ve ardından özneli bir cümlecik alan bağlaç so that'tir (researchers could begin). (A) in order to ve (B) so as to yalnızca V1 alır. (D) because of ve (E) in spite of edattır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-1-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "Some economists favour higher taxes, ---- others argue that lower taxes stimulate growth.",
+      "options": [
+        "so",
+        "for",
+        "because",
+        "whereas",
+        "unless"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "İki karşıt görüşü karşılaştıran bağlaç whereas'tır. (A) so sonuç, (B) for ve (C) because neden bildirir. (E) unless koşul bildirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-1-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The plan looks convincing on paper, ---- it has never been tested in practice.",
+      "options": [
+        "so",
+        "yet",
+        "for",
+        "or",
+        "nor"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Kâğıt üzerindeki başarı ile uygulamadaki test eksikliği arasında karşıtlık vardır: yet (= ama yine de). (A) so sonuç bildirir. (C) for neden bildirir ve mantığı bozar. (D) or seçenek sunar. (E) nor olumsuz bir ekleme yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-conjunctions-linkers-1-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The auditors will contact the board ---- they have finished reviewing the accounts.",
+      "options": [
+        "whereas",
+        "in order that",
+        "even though",
+        "so as to",
+        "as soon as"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Zaman bağlacı as soon as, eylemin biter bitmez gerçekleşeceğini bildirir. (A) whereas karşılaştırma, (B) in order that amaç, (C) even though karşıtlık bildirir. (D) so as to yalnızca V1 alır.",
+      "passageID": null
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-translation-tr-en-1",
+  "estimatedDurationMinutes": 9,
+  "title": "Çeviri: Türkçe-İngilizce 1",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-translation-tr-en-1",
+      "type": "practiceSet",
+      "headword": "Translation TR-EN 1",
+      "frequencyRank": 3070,
+      "baseDifficulty": 0.5,
+      "definition": "Türkçe cümlelerin İngilizce karşılığını seçmeye dayanan sekiz çeviri sorusu.",
+      "exampleSentences": [],
+      "translationTR": "Çeviri: Türkçe-İngilizce 1",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-translation-tr-en-1-q01",
+      "kind": "translation",
+      "order": 0,
+      "prompt": "Hükümetin açıkladığı yeni teşvikler, küçük işletmelerin ihracat yapmasını kolaylaştırmayı amaçlıyor.",
+      "options": [
+        "The new incentives announced by the government are intended to make it easier for small businesses to export.",
+        "The new incentives announced by the government have made it impossible for small businesses to export.",
+        "The new incentives announced by the government are intended to make it easier for large companies to export.",
+        "The new incentives announced by the government are intended to make it easier for small businesses to import.",
+        "The new incentives announced by the government will be introduced only after small businesses have started to export."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Açıkladığı yeni teşvikler» = the new incentives announced by the government; «amaçlıyor» = are intended to; «kolaylaştırmayı» = make it easier: (A). (B) ihracatı imkânsız kılar, anlam tersine döner. (C) hedef kitleyi büyük şirketlere çevirir. (D) ihracat yerine ithalatı konu eder. (E) amacı bir ön koşula çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-1-q02",
+      "kind": "translation",
+      "order": 1,
+      "prompt": "Öğrencilerin çoğu, ödevin beklenenden daha zor olduğunu düşündü.",
+      "options": [
+        "Few of the students thought the assignment was harder than expected.",
+        "Most of the students thought the assignment was harder than expected.",
+        "Most of the students thought the assignment was easier than expected.",
+        "Most of the students had thought the assignment would be harder than expected.",
+        "Most of the assignments were thought harder than the students expected."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Çoğu» = most of; «daha zor» = harder; «düşündü» geçmiş zamandır: (B). (A) «çoğu» yerine «az» der. (C) zorluğu kolaya çevirir. (D) zamanı öncelenmiş bir beklentiye çevirir. (E) özneyi ödevlere çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-1-q03",
+      "kind": "translation",
+      "order": 2,
+      "prompt": "Hükümet, fiyatların yükselmesini önlemek için önlemler aldı.",
+      "options": [
+        "The government took measures after prices had risen.",
+        "The government took measures to make prices rise.",
+        "The government took measures to prevent prices from rising.",
+        "The government took measures to prevent wages from rising.",
+        "The government has taken no measures to prevent prices from rising."
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Önlemek için» amaç bildirir: fiyat artışını önlemek amacıyla önlem aldı: (C). (A) zamanı ve amacı değiştirir. (B) amacı tersine çevirir. (D) fiyatlar yerine ücretlerin artışını önlemeyi söyler. (E) olumsuz yapar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-1-q04",
+      "kind": "translation",
+      "order": 3,
+      "prompt": "Toplantıya katılmayan üyelere karar daha sonra bildirilecek.",
+      "options": [
+        "The decision was communicated later to the members who attended the meeting.",
+        "The members who did not attend the meeting will communicate the decision later.",
+        "The decision will not be communicated to the members who did not attend the meeting.",
+        "The decision will be communicated later to the members who did not attend the meeting.",
+        "The decision will be communicated earlier to the members who did not attend the meeting."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Cümle gelecek zamanlı edilgendir ve hedef katılmayan üyelerdir: (D). (A) geçmiş zamana ve katılanlara çevirir. (B) edilgeni etkene çevirir. (C) bildirmeyeceğini söyler. (E) «daha sonra» yerine «daha önce» der.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-1-q05",
+      "kind": "translation",
+      "order": 4,
+      "prompt": "Deney başarısız olduğu için araştırmacılar yöntemi değiştirmek zorunda kaldı.",
+      "options": [
+        "Although the experiment failed, the researchers had to change the method.",
+        "Because the experiment succeeded, the researchers had to change the method.",
+        "Because the researchers changed the method, the experiment failed.",
+        "Because the experiment failed, the researchers were able to change the method.",
+        "Because the experiment failed, the researchers had to change the method."
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Olduğu için» neden bildirir; «zorunda kaldı» = had to: (E). (A) nedeni karşıtlığa çevirir. (B) başarısızlığı başarıya çevirir. (C) neden ve sonucu tersine çevirir. (D) zorunluluğu imkâna çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-1-q06",
+      "kind": "translation",
+      "order": 5,
+      "prompt": "Bu bölgede yaşayanların büyük bir kısmı tarımla geçiniyor.",
+      "options": [
+        "A large proportion of those who live in this region earn their living from farming.",
+        "A small proportion of those who live in this region earn their living from farming.",
+        "A large proportion of those who lived in this region earned their living from farming.",
+        "All of those who live in this region earn their living from farming.",
+        "A large proportion of those who live in this region earn their living from fishing."
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Büyük bir kısmı» = a large proportion; «geçiniyor» geniş zamandır: (A). (B) oranı küçük yapar. (C) zamanı geçmişe çevirir. (D) «tümü» diyerek oranı mutlaklaştırır. (E) geçim kaynağını balıkçılığa çevirir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-1-q07",
+      "kind": "translation",
+      "order": 6,
+      "prompt": "Raporda belirtildiğine göre, işsizlik oranı son üç ayda düşmüştür.",
+      "options": [
+        "According to the report, the unemployment rate rose over the last three months.",
+        "According to the report, the unemployment rate has fallen over the last three months.",
+        "According to the report, the unemployment rate will fall over the next three months.",
+        "According to the report, the unemployment rate has fallen only over the last month.",
+        "The report claims that the unemployment rate had not fallen over the last three months."
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Düşmüştür» ve «son üç ayda» present perfect ile verilir: has fallen over the last three months: (B). (A) düşüşü yükselişe çevirir. (C) zamanı geleceğe çevirir. (D) süreyi bir aya indirir. (E) düşüşü inkâr eder.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-translation-tr-en-1-q08",
+      "kind": "translation",
+      "order": 7,
+      "prompt": "Yeni kütüphane, hem öğrencilere hem de yerel halka hizmet edecek.",
+      "options": [
+        "The new library will serve either students or the local community.",
+        "The new library served both students and the local community.",
+        "The new library will serve neither students nor the local community.",
+        "The new library will serve both students and the local community.",
+        "The new library will serve only the local community, not students."
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Hem ... hem de» = both ... and; «edecek» gelecek zamandır: (D). (A) «both ... and» yerine «either ... or» der. (B) zamanı geçmişe çevirir. (C) her iki kitleyi de dışlar. (E) öğrencileri dışlar.",
+      "passageID": null
+    }
+  ]
+}

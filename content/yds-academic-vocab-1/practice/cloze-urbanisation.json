@@ -1,0 +1,126 @@
+{
+  "id": "yds-practice-lesson-cloze-1",
+  "estimatedDurationMinutes": 10,
+  "title": "Cloze Test: Kentleşme",
+  "skill": "reading",
+  "passage": {
+    "id": "yds-practice-passage-cloze-1",
+    "title": "Urbanisation in Developing Economies",
+    "body": "Cities in the developing world are growing faster than at any point in recorded history. (1)---- this growth creates jobs and lifts millions of people out of poverty, it also puts enormous pressure on housing, transport and sanitation. Municipal budgets rarely expand as (2)---- as the populations they are meant to serve, and the gap is filled by informal settlements built (3)---- any official plan. Residents there usually lack legal title to their homes, which discourages them (4)---- investing in repairs that would last decades. Governments have responded in two ways. Some have tried to slow migration by restricting movement, an approach (5)---- effectiveness has never been demonstrated. (6)---- have accepted urbanisation as inevitable and concentrated on upgrading what exists. The second approach is (7)---- more expensive at first, but evidence from Latin America suggests that it (8)---- far better returns over a generation. Successful programmes involve residents early, (9)---- know which streets flood in the rainy season. Where such consultation (10)----, even well-funded projects have quietly been abandoned."
+  },
+  "items": [
+    {
+      "id": "yds-practice-card-cloze-1",
+      "type": "practiceSet",
+      "headword": "Urbanisation Cloze",
+      "frequencyRank": 1007,
+      "baseDifficulty": 0.5,
+      "definition": "Kentleşme üzerine on boşluklu bir cloze testi; bağlaç, edat, ilgi zamiri ve fiil biçimi soruları.",
+      "exampleSentences": [],
+      "translationTR": "Cloze Test: Kentleşme",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-practice-lesson-cloze-1-q01",
+      "kind": "cloze",
+      "order": 0,
+      "prompt": "(1) ---- this growth creates jobs and lifts millions of people out of poverty, it also puts enormous pressure on housing, transport and sanitation.",
+      "options": ["Although", "Because", "Unless", "Therefore", "Moreover"],
+      "correctIndex": 0,
+      "explanationTR": "Cümlenin ilk yarısı olumlu (iş yaratıyor, yoksulluğu azaltıyor), ikinci yarısı olumsuz (konut, ulaşım ve altyapı üzerinde baskı); aradaki ilişki zıtlıktır ve iki yan cümleyi bağlayan bir bağlaç gerekir: «Although». (B) neden, (C) koşul bildirir. (D) sonuç bildirir, oysa burada zıtlık var. (E) ise bağlaç değil, cümle bağlayıcı bir zarftır; tek bir cümlede iki yan cümleyi birleştiremez.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q02",
+      "kind": "cloze",
+      "order": 1,
+      "prompt": "Municipal budgets rarely expand as (2) ---- as the populations they are meant to serve.",
+      "options": ["rapid", "rapidly", "more rapidly", "rapidity", "most rapidly"],
+      "correctIndex": 1,
+      "explanationTR": "«as ... as» eşitlik kalıbının ortasına, burada olduğu gibi bir FİİLİ (expand) niteleyen bir zarf girer: rapidly. (A) sıfattır, fiili niteleyemez. (C) ve (E) karşılaştırma ve üstünlük biçimleridir; «as ... as» kalıbının içinde kullanılmazlar. (D) ise isimdir.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q03",
+      "kind": "cloze",
+      "order": 2,
+      "prompt": "... and the gap is filled by informal settlements built (3) ---- any official plan.",
+      "options": ["despite", "within", "besides", "without", "unlike"],
+      "correctIndex": 3,
+      "explanationTR": "Kaçak yerleşimler resmî bir plan OLMADAN kurulur; bu yokluğu veren edat «without». (A) «despite» ödün bildirir: plan varmış ama yine de yapılmış anlamına gelir, oysa metin planın hiç olmadığını söylüyor. (B) tam tersini, planın içinde kalındığını anlatır. (C) ekleme, (E) ise karşılaştırma bildirir; ikisi de bu cümleye oturmaz.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q04",
+      "kind": "cloze",
+      "order": 3,
+      "prompt": "Residents there usually lack legal title to their homes, which discourages them (4) ---- investing in repairs that would last decades.",
+      "options": ["to", "for", "of", "in", "from"],
+      "correctIndex": 4,
+      "explanationTR": "«discourage» fiili, engellediği eylemi her zaman «from + V-ing» ile alır: discourages them from investing. (A) «discourage to do» diye bir yapı yoktur; bu hata «encourage somebody to do» ile karıştırmaktan doğar. (C) ve (D) bu fiille kullanılmaz. (B) «for investing» dendiğinde neden bildirir ve cümlenin anlamını bozar.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q05",
+      "kind": "cloze",
+      "order": 4,
+      "prompt": "Some have tried to slow migration by restricting movement, an approach (5) ---- effectiveness has never been demonstrated.",
+      "options": ["which", "that", "whose", "what", "of which"],
+      "correctIndex": 2,
+      "explanationTR": "Boşluktan sonra artikelsiz bir isim (effectiveness) geliyor ve bu isim «an approach»a AİT; iyelik bildiren ilgi zamiri gerekir: whose. (A) ve (B) hemen arkasına fiil ister, araya bir isim giremez. (E) «of which» ancak «the effectiveness of which» sırasıyla kullanılır, bu dizilişte olmaz. (D) «what» ise kendinden önce bir isim almaz.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q06",
+      "kind": "cloze",
+      "order": 5,
+      "prompt": "(6) ---- have accepted urbanisation as inevitable and concentrated on upgrading what exists.",
+      "options": ["Others", "Other", "Another", "The other", "Each other"],
+      "correctIndex": 0,
+      "explanationTR": "Bir önceki cümle «Some have tried ...» diye başlıyor; bu ikiliyi tamamlayan ve çoğul «have» ile uyuşan zamir «Others»tır. (B) «Other» sıfattır, arkasına isim ister. (C) «Another» tekildir ve «have» ile uyuşmaz. (D) «The other» da tekildir. (E) «Each other» ise karşılıklılık zamiridir, özne olamaz.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q07",
+      "kind": "cloze",
+      "order": 6,
+      "prompt": "The second approach is (7) ---- more expensive at first.",
+      "options": ["very", "too", "so", "much", "quite"],
+      "correctIndex": 3,
+      "explanationTR": "Karşılaştırmalı bir sıfatı (more expensive) güçlendiren pekiştiriciler «much, far, a lot, even»dır; buradaki tek doğru seçenek «much». (A) ve (E) yalın sıfatla kullanılır: very expensive, quite expensive. (B) ve (C) de karşılaştırmalı biçimin önüne gelmez; «too expensive», «so expensive» denir.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q08",
+      "kind": "cloze",
+      "order": 7,
+      "prompt": "... but evidence from Latin America suggests that it (8) ---- far better returns over a generation.",
+      "options": ["yield", "yields", "is yielded", "yielding", "to yield"],
+      "correctIndex": 1,
+      "explanationTR": "«suggests that» sonrası tam bir yan cümle ister: bir özne (it) ve ona uyan ÇEKİMLİ bir fiil. Tekil özneyle geniş zamanda «yields» olur. (A) özneyle uyuşmuyor. (C) edilgendir, oysa getiriyi sağlayan yaklaşımın kendisidir; etken biçim gerekir. (D) ve (E) çekimli fiil değildir ve yan cümleyi yüklemsiz bırakır.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q09",
+      "kind": "cloze",
+      "order": 8,
+      "prompt": "Successful programmes involve residents early, (9) ---- know which streets flood in the rainy season.",
+      "options": ["which", "whom", "whose", "they", "who"],
+      "correctIndex": 4,
+      "explanationTR": "Boşluk, «residents»ı niteleyen yan cümlenin ÖZNESİDİR ve insanları gösterir; bu yüzden «who». (A) «which» insanlar için kullanılmaz. (B) «whom» nesne durumundadır, hemen arkasına «know» gibi bir fiil alamaz. (C) «whose» iyelik bildirir ve arkasına isim ister. (D) «they» ise zamirdir; iki cümleyi yalnızca virgülle birleştiremez.",
+      "passageID": "yds-practice-passage-cloze-1"
+    },
+    {
+      "id": "yds-practice-lesson-cloze-1-q10",
+      "kind": "cloze",
+      "order": 9,
+      "prompt": "Where such consultation (10) ----, even well-funded projects have quietly been abandoned.",
+      "options": ["neglects", "is neglecting", "has been neglected", "neglecting", "has neglected"],
+      "correctIndex": 2,
+      "explanationTR": "«consultation» eylemi yapan değil, kendisine YAPILAN şeydir; ayrıca ana cümledeki «have been abandoned» ile aynı düzlemde, bitmiş bir edilgen yapı gerekir: has been neglected. (A), (B) ve (E) etken biçimlerdir ve danışmanın birilerini ihmal ettiğini söyler; bu anlamsızdır. (D) ise çekimli fiil olmadığı için «Where» ile açılan yan cümleyi yüklemsiz bırakır.",
+      "passageID": "yds-practice-passage-cloze-1"
+    }
+  ]
+}

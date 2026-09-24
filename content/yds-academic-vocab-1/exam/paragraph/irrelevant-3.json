@@ -1,0 +1,149 @@
+{
+  "id": "yds-exam-irrelevant-3",
+  "estimatedDurationMinutes": 9,
+  "title": "Konu Dışı Cümle 3",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-exam-card-irrelevant-3",
+      "type": "practiceSet",
+      "headword": "Irrelevant Sentence 3",
+      "frequencyRank": 3042,
+      "baseDifficulty": 0.6,
+      "definition": "Paragrafın bütünlüğünü bozan cümleyi bulmaya dayanan sekiz soru.",
+      "exampleSentences": [],
+      "translationTR": "Konu Dışı Cümle 3",
+      "collocations": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-exam-irrelevant-3-q01",
+      "kind": "irrelevantSentence",
+      "order": 0,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) When a bank lends money, it charges interest on the loan. (II) The rate reflects the risk that the borrower may not repay. (III) A river bank can be strengthened with stones to prevent erosion. (IV) Borrowers with a poor credit history therefore pay higher rates. (V) Competition between lenders can push rates down.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf bankanın kredi faizini anlatıyor. (III) nehir kıyısının taşla güçlendirilmesinden söz eder; «bank» sözcüğünü paylaşsa da konuyla ilgisizdir. Diğer dört cümle faizin belirleyicilerini anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-3-q02",
+      "kind": "irrelevantSentence",
+      "order": 1,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Gardeners often store their tools in a wooden shed. (II) A leaf captures sunlight and uses it to produce sugar. (III) Its green colour comes from a pigment called chlorophyll. (IV) In autumn the pigment breaks down, revealing yellow and orange colours. (V) Trees then shed their leaves to save energy through the winter.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Paragraf yaprağın işlevi ve sonbahardaki değişimi üzerine. (I) bahçıvanların alet kulübesinden söz eder; «shed» sözcüğünü paylaşan (V) ile bağı yalnızca sözcüktür. (II)-(V) yaprağın işlevini ve mevsimsel değişimini anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-3-q03",
+      "kind": "irrelevantSentence",
+      "order": 2,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Memory training techniques often rely on visual images. (II) A learner may imagine walking through a familiar house and placing each item to be remembered in a different room. (III) Later, walking through the same rooms in the mind brings each item back in order. (IV) The house itself was sold at auction for a record price. (V) Competitors in memory championships use this method to recall long sequences of cards.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Paragraf bellek sarayı tekniğini anlatıyor. (IV) evin müzayedede satılmasından söz eder; «house» sözcüğünü paylaşsa da tekniğin açıklamasına katkı yapmaz. Diğer dört cümle tekniği ve kullanımını anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-3-q04",
+      "kind": "irrelevantSentence",
+      "order": 3,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) The exchange rate tells us how much of one currency is needed to buy another. (II) Students often exchange notes before exams. (III) When a country's exports become more popular, demand for its currency rises. (IV) A stronger currency makes imported goods cheaper. (V) Exporters, however, may find that their products become more expensive abroad.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Paragraf döviz kurunun ithalat ve ihracata etkisini anlatıyor. (II) öğrencilerin not paylaşmasından söz eder; «exchange» sözcüğünü paylaşsa da kurla ilgisizdir. (I), (III), (IV) ve (V) kur ve ticaret zincirini oluşturur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-3-q05",
+      "kind": "irrelevantSentence",
+      "order": 4,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) Artificial lighting in cities makes it difficult to see the stars. (II) Astronomers therefore build observatories far from urban areas. (III) Bright streetlights also confuse birds, which navigate by the night sky. (IV) Some towns now use shielded lamps that direct light downward. (V) A light meal in the evening is thought to help people sleep well.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf ışık kirliliğini ve çözümlerini anlatıyor. (V) akşam yemeğinin hafifliğinden söz eder; «light» sözcüğünü paylaşsa da kirlilikle ilgisizdir. (I)-(IV) kirliliğin etkilerini ve önlemlerini sayar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-3-q06",
+      "kind": "irrelevantSentence",
+      "order": 5,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) A court must decide whether the evidence presented is reliable. (II) Witnesses swear to tell the truth before giving their accounts. (III) The tennis court at the club is resurfaced every spring. (IV) The judge may exclude testimony that was obtained unfairly. (V) The jury then weighs the remaining evidence before reaching a verdict.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Paragraf mahkemede delil değerlendirmesini anlatıyor. (III) tenis kortunun yenilenmesinden söz eder; «court» sözcüğünü paylaşsa da yargılama sürecinin dışındadır. Diğer dört cümle süreci adım adım verir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-3-q07",
+      "kind": "irrelevantSentence",
+      "order": 6,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) The rise in oil prices last year worried many consumers. (II) Yeast is a living organism that feeds on sugar. (III) When mixed into dough, it releases gas that makes the bread rise. (IV) Bakers let the dough rest for hours so that the yeast has time to work. (V) The heat of the oven then kills the yeast and fixes the shape of the loaf.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Paragraf mayanın ekmeği kabartmasını anlatıyor. (I) petrol fiyatlarındaki artıştan söz eder; «rise» sözcüğünü paylaşsa da ekmek yapımıyla ilgisizdir. (II)-(V) mayanın rolünü adım adım anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-exam-irrelevant-3-q08",
+      "kind": "irrelevantSentence",
+      "order": 7,
+      "prompt": "Which numbered sentence does not fit the paragraph? (I) A stock exchange allows investors to buy and sell shares in companies. (II) Prices rise when many people wish to buy and fall when many wish to sell. (III) Investors watch company announcements closely for news that may move prices. (IV) Sudden falls can spread quickly when investors panic. (V) The cook added a spoonful of stock to the soup.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Paragraf borsanın işleyişini anlatıyor. (V) çorbaya konan et suyundan söz eder; «stock» sözcüğünü paylaşsa da borsayla ilgisizdir. (I)-(IV) alım satım, fiyat hareketleri ve panik etkisini anlatır.",
+      "passageID": null
+    }
+  ]
+}

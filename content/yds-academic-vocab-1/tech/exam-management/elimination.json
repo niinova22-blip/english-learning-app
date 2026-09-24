@@ -1,0 +1,118 @@
+{
+  "id": "yds-tech-elimination",
+  "estimatedDurationMinutes": 7,
+  "title": "Sınav Yönetimi: Eleme ve Tahmin",
+  "skill": "reading",
+  "items": [
+    {
+      "id": "yds-tech-card-elimination",
+      "type": "grammarPoint",
+      "headword": "Exam Management: Elimination and Guessing",
+      "frequencyRank": 4011,
+      "baseDifficulty": 0.5,
+      "definition": "Şıkları eleyerek ve bilinçli tahminle cevaba yaklaşma tekniği.",
+      "exampleSentences": [],
+      "translationTR": "Sınav Yönetimi: Eleme ve Tahmin",
+      "collocations": [],
+      "explanationTR": "Emin olmadığın bir soruda bile şansını artırabilirsin. Yöntem, doğruyu aramak yerine yanlışları gerekçeyle elemektir.\n\n• Gerekçeli ele: bir şıkkı yalnızca «bana yanlış geldi» diye değil, adlandırabileceğin bir nedenle ele (zaman uyumsuzluğu, yanlış edat, metinle çelişki, anlam kayması). Nedenini söyleyemiyorsan şık henüz elenmemiştir.\n\n• Son ikiyi karşılaştır: iki şık kaldığında ikisini de soru kökünde dene ve farkın nerede olduğunu bul. Genellikle tek bir sözcük ya da ayrıntı ayırır.\n\n• Ele, sonra tahmin et: şıklardan birkaçını elemeden rastgele işaretlemek yerine, önce elenebilenleri ele. Kalan şıklar arasından seçmek şansını yükseltir. Değerlendirme kuralını ÖSYM kılavuzundan oku ve tahmin kararını ona göre ver.\n\n• Cevabı sebepsiz değiştirme: ilk seçimini yalnızca somut bir hata bulursan değiştir; «acaba» duygusu yeterli sebep değildir.\n\nEn sık düşülen tuzak: iyi görünen ilk şıkkı okuyup diğerlerini hiç incelememek.\n\nÖrnek: «The report was ---- by the committee.» sorusunda (A) prepared, (B) prepare, (C) preparing. Yalın «prepare» ve etken anlamlı «preparing» biçimleri «was ... by» edilgen kalıbına uymadığı için elenir."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-tech-elimination-q01",
+      "kind": "strategy",
+      "order": 0,
+      "prompt": "Bir soruda üç şıkkı gerekçeyle eledin ve iki şık kaldı. Doğru sonraki adım hangisidir?",
+      "options": [
+        "Yazımı daha kısa olan şıkkı seçip hızlıca ilerlemek",
+        "İki şıkkı da soru kökünde deneyip aradaki farkı bulmak",
+        "İki şıkkı da yanlış sayıp soruyu tamamen boş bırakmak",
+        "Şıkların sırasına bakıp alfabetik olarak birini seçmek",
+        "Elediğin şıkları bir daha kontrol etmeden işaretlemek"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Son iki şıkkı köke karşı denemek, aradaki farkı ortaya çıkarır: (B). (A) şıkkın uzunluğu içerikle ilgili değildir. (C) çözebileceğin bir soruyu boşa harcar. (D) şıkların sırası anlamla ilgili bir ipucu vermez. (E) zaten elediğin şıklar kalan ikisini ayırmaya yardım etmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q02",
+      "kind": "strategy",
+      "order": 1,
+      "prompt": "«The new policy was widely ---- by the public.» boşluğuna hangi şık girer?",
+      "options": [
+        "welcome",
+        "welcoming",
+        "welcomed",
+        "welcomes",
+        "to welcome"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«was widely ---- by» edilgen yapıdır ve past participle ister: (C). (A) yalın biçimdir; «by the public» eylemi yapanı gösterdiği için edilgen çatı gerekir. (E) mastardır, «was» ile edilgen kurmaz. (B) «-ing» biçimi olup etken anlam taşır. (D) üçüncü tekil kişi biçimidir, «was» ile yan yana gelemez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q03",
+      "kind": "strategy",
+      "order": 2,
+      "prompt": "Bir arkadaşın cevabını işaretledikten sonra «acaba yanlış mı yaptım?» diye şüpheleniyor, ama somut bir hata görmüyor. Ne önerirsin?",
+      "options": [
+        "Somut bir gerekçe bulamıyorsa ilk seçimini değiştirmemesini",
+        "Her zaman ilk seçimi değiştirmesini, çünkü ilk fikir genellikle yanlıştır",
+        "Bütün cevaplarını silip baştan yeniden işaretlemesini",
+        "Emin olamadığı soruların cevaplarını sonunda topluca değiştirmesini",
+        "Kalan sürede aynı soruyu tekrar tekrar okuyup şüphesini büyütmesini"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Şüphe tek başına sebep değildir; somut bir hata bulmadan değiştirmek çoğu zaman doğru cevabı bozar: (A). (B) kurala dayanmayan genel bir inançtır. (C) doğru işaretlenmiş cevapları da riske atar ve süreyi tüketir. (D) gerekçesiz toplu değişiklik, hatayı çoğaltır. (E) aynı soruya dönüp durmak yeni bilgi getirmez, yalnızca kaygıyı artırır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q04",
+      "kind": "strategy",
+      "order": 3,
+      "prompt": "«She insisted ---- the meeting be postponed.» boşluğuna hangi şık girer?",
+      "options": [
+        "which",
+        "on",
+        "to",
+        "that",
+        "what"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«insist that + clause» kalıbında «that» yan cümleyi bağlar: (D). (A) «which» bu yapıda kendi başına yan cümle kurmaz. (B) «on» ile «insist on doing» gelir, ama arkasından bir cümle gelmez. (C) «insist to do» diye bir kalıp yoktur, mastar burada uymaz. (E) soru sözcüğüdür.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q05",
+      "kind": "strategy",
+      "order": 4,
+      "prompt": "Emin olmadığın bir soruda tahmin etmeyi düşünüyorsun. En mantıklı yaklaşım hangisidir?",
+      "options": [
+        "Hiçbir şıkkı incelemeden rastgele birini işaretlemek",
+        "Bütün sorularda hep aynı harfi işaretleyip ilerlemek",
+        "Kendi favori harfini seçip hiç düşünmemek",
+        "Soruyu yanıtlamadan geçip cevap kâğıdını boş bırakmak",
+        "Önce gerekçeyle elenebilenleri eleyip kalanlardan seçmek"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Şık sayısı azaldıkça doğru seçme şansın yükselir; bunun için önce gerekçeyle elemek gerekir: (E). (A) elindeki hiçbir bilgiyi kullanmaz. (B) ve (C) sorunun içeriğine bakmayan sabit alışkanlıklardır. (D) elemeyle kazandığın şansı kullanmadan soruyu bırakmaktır; tahmin edip etmeme kararını verirken değerlendirme kuralını ÖSYM kılavuzundan oku.",
+      "passageID": null
+    },
+    {
+      "id": "yds-tech-elimination-q06",
+      "kind": "strategy",
+      "order": 5,
+      "prompt": "«The new programme aims to reduce waste, save energy and ---- emissions.» boşluğuna hangi şık girer? Paralel yapıyı bozan şıkları gerekçeyle ele.",
+      "options": [
+        "cut",
+        "cutting",
+        "cuts",
+        "to have cut",
+        "having cut"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«to reduce ..., save ... and ----» bir mastar dizisidir; ilk «to» dizinin tamamına yettiği için son öğe de yalın biçimde gelir: (A). (B) -ing biçimi, dizideki yalın fiillerle paralel değildir. (C) üçüncü tekil kişi biçimi dizideki yalın fiillerle uyuşmaz. (D) mastarın geçmiş biçimi, dizide gereksiz bir zaman kayması yaratır. (E) -ing ile birlikte geçmiş anlamı katarak paralelliği bozar.",
+      "passageID": null
+    }
+  ]
+}

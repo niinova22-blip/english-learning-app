@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-modals-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Kipler: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-modals-2",
+      "type": "grammarPoint",
+      "headword": "Modals (Traps)",
+      "frequencyRank": 2002,
+      "baseDifficulty": 0.6,
+      "definition": "Geçmişe dönük kip yapılarının (perfect modals) sık sınanan tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "Kipler: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Geçmişe dönük kip yapıları (modal + have + V3) YDS'nin en sevdiği tuzaklardır. Anlam, kipin kendisinden çok arkasındaki kalıba bağlıdır.\n\n• must have V3 = geçmişe yönelik KESİN TAHMİN; had to V1 = geçmişteki ZORUNLULUK. The figures are identical, so the assistant must have entered the data twice (tahmin) ≠ The delegates left early because they had to catch the last train (zorunluluk). En sık düşülen tuzak budur.\n\n• can't have V3 = «olmuş olamaz» (kesin olumsuz tahmin). couldn't V1 ise geçmişteki yeteneksizliktir.\n\n• should have V3 / ought to have V3 = yapılması gerekirdi ama yapılmadı (pişmanlık, eleştiri). shouldn't have V3 = yapılmamalıydı ama yapıldı.\n\n• needn't have V3 = yapıldı ama GEREKSİZDİ. didn't need to V1 ise yalnızca gerek olmadığını söyler; eylemin yapılıp yapılmadığı belirsizdir. We rushed, but the train was late; we needn't have hurried.\n\n• may / might have V3 = geçmişte olmuş olabilir. could have V3 = olabilirdi ama olmadı (gerçekleşmemiş olasılık).\n\n• Kip + edilgen: must be reviewed, cannot be explained, should have been reported.\n\n• be supposed to = beklenti/plan (The terminal is supposed to open next month). would rather + V1 = tercih (yalın fiil): Investors would rather keep their money in bonds than gamble.\n\nÖrnek: The board should have rejected such a risky loan."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-modals-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "The figures in the two tables are identical down to the last decimal, so the assistant ---- the same data set twice by mistake.",
+      "options": [
+        "might not have entered",
+        "must have entered",
+        "should have entered",
+        "need not have entered",
+        "would have entered"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Elde kesin bir kanıt var (rakamlar son haneye kadar aynı), yani geçmişe yönelik KESİN TAHMİN gerekir: must have V3. (C) should have entered «girmeliydi ama girmedi» demek, oysa veri girilmiş. (D) need not have entered «gereksiz yere girmiş» anlamına gelir; cümlede gereksizlik değil hata var. (A) olumsuz ihtimal, (E) ise gerçekleşmemiş bir durumu anlatır; ikisi de kanıtla çelişir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "The delegates left the meeting early because they ---- the last train back to the capital.",
+      "options": [
+        "must have caught",
+        "may have caught",
+        "should have caught",
+        "had to catch",
+        "would have caught"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Because» ile geçmişteki bir ZORUNLULUK anlatılıyor; geçmiş zorunluluğu had to + V1 verir. (A) must have caught bir TAHMİN bildirir, neden bildirmez. (B) may have caught olasılıktır. (C) should have caught «yakalamalıydı ama yakalamadı» demektir. (E) would have caught gerçekleşmemiş bir koşullu durum anlatır; delegeler toplantıyı gerçekten erken terk etmiştir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "The security footage shows the safe was already empty at noon, so the night guard ---- the money; he only started his shift at six.",
+      "options": [
+        "can't have stolen",
+        "mustn't have stolen",
+        "needn't have stolen",
+        "shouldn't steal",
+        "wouldn't steal"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Kanıt (kasa öğlende boş, nöbetçi altıda başlamış) geçmişe yönelik KESİN OLUMSUZ tahmin verir: can't have V3. (B) mustn't have stolen böyle bir tahmin anlamı taşımaz. (C) needn't have stolen «gereksiz yere çalmış» demektir, oysa sorun gereklilik değil. (D) ve (E) geçmişe değil genel/gelecek zamana ait yapılardır ve olayı açıklamaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The bridge collapsed even though the inspectors had noticed cracks two years earlier; they ---- the authorities immediately.",
+      "options": [
+        "must have informed",
+        "needn't have informed",
+        "should have informed",
+        "ought to inform",
+        "might inform"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Köprü çöktü ve çatlaklar iki yıl önce fark edilmişti; yani yapılması gereken şey yapılmadı: should have V3 (yerine getirilmeyen yükümlülük). (A) must have informed olmuş olduğuna dair tahmindir; oysa çöküş bildirilmediğini düşündürür. (B) needn't have informed «gereksizdi» der, oysa bildirmek gerekliydi. (D) ought to inform şimdi ya da gelecek için yükümlülüktür; geçmişte yapılmayan eylem için ought to have V3 gerekir. (E) might inform da geçmişe dönük değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "We rushed to the station, but the train was delayed by an hour, so we ----.",
+      "options": [
+        "mustn't have hurried",
+        "can't have hurried",
+        "might not have hurried",
+        "shouldn't hurry",
+        "needn't have hurried"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "Acele ETTİK ama tren gecikti; yani yapılan eylem GEREKSİZDİ: needn't have V3. (A) mustn't have V3 geçerli bir kalıp değildir. (B) can't have hurried ve (C) might not have hurried acele edilmediğini varsayar, oysa cümle «rushed» diyerek acele edildiğini söylüyor. (D) shouldn't hurry geçmişe yönelik değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "The financial statements ---- before they are submitted to the regulator; otherwise the firm risks a penalty.",
+      "options": [
+        "must review",
+        "must be reviewed",
+        "must have reviewed",
+        "must be reviewing",
+        "had to be reviewed"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Özne (the financial statements) eylemi yapan değil, üzerinde işlem yapılandır; kip + edilgen gerekir: must be reviewed. (A) ve (C) etkendir, «financial statements» gözden geçiremez. (D) must be reviewing sürerlik bildirir ve yine etkendir. (E) had to be reviewed edilgendir ama geçmiş zorunluluğu anlatır; «are submitted» ve «the firm risks» genel/gelecek bir kuralı gösterdiği için must gerekir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "The company had the funds and the expertise, so it ---- the entire market, but it chose a cautious strategy instead.",
+      "options": [
+        "must have dominated",
+        "can't have dominated",
+        "should dominate",
+        "could have dominated",
+        "needn't have dominated"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Şirketin imkânı vardı ama yapmadı: gerçekleşmemiş olasılık could have V3 ile ifade edilir. (A) must have dominated tahmin verir, oysa cümlenin devamı (chose a cautious strategy) pazara hâkim olunmadığını söylüyor. (B) can't have dominated bu imkânı reddeder, oysa fon ve uzmanlık vardı. (C) should dominate geçmişe dönük değildir. (E) needn't have dominated «gereksiz yere hâkim olmuş» demektir; oysa şirket pazara hâkim olmamıştır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The new terminal ---- open next month, but delays make that date unlikely.",
+      "options": [
+        "is supposed to",
+        "had better",
+        "can't",
+        "needn't",
+        "would rather"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "Planlanan ya da beklenen bir olay be supposed to ile ifade edilir; «but delays make that date unlikely» beklentinin gerçekleşmeme olasılığını gösterir. (B) had better bir uyarı/öneridir, terminalin planlanan açılış tarihini anlatmaz. (C) can't imkânsızlık, (D) needn't gereksizlik bildirir; ikisi de «beklenen tarih» anlamı vermez. (E) would rather bir tercih bildirir, plan bildirmez.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "The cause of the outage is still unknown: it ---- a software fault, and engineers have not yet ruled that possibility out.",
+      "options": [
+        "must have been",
+        "can't have been",
+        "should have been",
+        "needn't have been",
+        "might have been"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "might have been = geçmişte olmuş olabilir; neden bilinmediği ve ihtimal elenmediği için kesin olmayan bir tahmin gerekir. (A) must have been kesinlik bildirir ve nedenin bilinmemesiyle çelişir. (B) can't have been ihtimali reddeder, oysa mühendisler onu henüz elememiştir. (C) should have been ve (D) needn't have been beklenti ya da gereksizlik anlatır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-modals-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "The board ---- such a risky loan; the bank's collapse was entirely foreseeable.",
+      "options": [
+        "may not have approved",
+        "needn't have approved",
+        "shouldn't have approved",
+        "can't have approved",
+        "mustn't approve"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "Çöküş öngörülebilirdi; yani kurul yanlış bir karar verdi ve eleştiri söz konusudur: shouldn't have V3. (A) may not have approved kredinin onaylanmama olasılığını söyler, oysa çöküş krediyle ilişkilendiriliyor. (B) needn't have approved «gereksizdi ama zararsızdı» demektir; burada zarar var. (D) can't have approved onaylandığını inkâr eder. (E) mustn't approve geçmişe ait değildir.",
+      "passageID": null
+    }
+  ]
+}

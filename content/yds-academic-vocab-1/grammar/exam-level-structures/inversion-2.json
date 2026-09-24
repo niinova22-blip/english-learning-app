@@ -1,0 +1,182 @@
+{
+  "id": "yds-grammar-inversion-2",
+  "estimatedDurationMinutes": 10,
+  "title": "Devrik Yapı ve Vurgu: Tuzaklar",
+  "skill": "grammar",
+  "items": [
+    {
+      "id": "yds-grammar-card-inversion-2",
+      "type": "grammarPoint",
+      "headword": "Inversion & Emphasis (Traps)",
+      "frequencyRank": 2019,
+      "baseDifficulty": 0.6,
+      "definition": "Koşul devriği, so/such yapıları, yer zarfı devriği ve vurgu tuzakları.",
+      "exampleSentences": [],
+      "translationTR": "Devrik Yapı ve Vurgu: Tuzaklar",
+      "collocations": [],
+      "explanationTR": "Bu derste devrik ve vurgulu yapıların ileri biçimleri ve klasik tuzakları sınanır.\n\n• Koşul devriği (if düşer): Should any delay occur, ... (= If any delay should occur). Were the scheme to fail, ... Had the regulator intervened, ... Yalnızca bu üç yapı devrik koşul kurar.\n\n• So + sıfat + be + özne + that: So rapid was the decline that producers suspended output. Such + be + özne + that: Such was the scale of the losses that the firm was rescued.\n\n• Yankı cümleleri: The committee has rejected it, and so has the board. Neither did the second study. Yardımcı fiil, önceki cümlenin yardımcı fiiline uyar.\n\n• Yer zarfı + geçişsiz fiil devriği: In the corner stood a dusty box. Among the findings was a surprising anomaly.\n\n• Vurgulu (cleft) cümle: It was the funding cut that forced the lab to close. What the committee needed was a clearer timetable.\n\n• Vurgu do / does / did + yalın fiil: The chairman rarely comments, but he did speak yesterday.\n\nEn sık düşülen tuzak: olumsuz ya da kısıtlayıcı OLMAYAN bir zarfla başlayan cümleyi devrik yapmak. Recently, In 2019, Yesterday gibi zarflar normal sıra alır: Recently the government has introduced new measures.\n\nÖrnek: Should any further delay occur, the contract will be terminated."
+    }
+  ],
+  "questions": [
+    {
+      "id": "yds-grammar-inversion-2-q01",
+      "kind": "grammar",
+      "order": 0,
+      "prompt": "---- any further delay occur, the contract will be terminated.",
+      "options": [
+        "Would",
+        "Should",
+        "Might",
+        "Had",
+        "Did"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "«Should + özne + V1» if'siz devrik koşul kurar: Should any further delay occur (= If any delay should occur). (A) Would ve (C) Might bu yapıyı kurmaz. (D) Had, past perfect (V3) ister ve «occur» ile birleşmez. (E) Did soru yapısıdır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q02",
+      "kind": "grammar",
+      "order": 1,
+      "prompt": "---- the scheme to fail, the government would have to find an alternative source of funding.",
+      "options": [
+        "Was",
+        "Had",
+        "Should",
+        "Were",
+        "Would"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "«Were + özne + to V1» if'siz devrik koşul kurar: Were the scheme to fail. (A) Was devrik koşulda kullanılmaz. (B) Had V3 ister. (C) Should + to V1 birleşmez. (E) Would bu yapıyı kurmaz.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q03",
+      "kind": "grammar",
+      "order": 2,
+      "prompt": "So rapid ---- the decline in oil prices that several producers were forced to suspend output.",
+      "options": [
+        "was",
+        "did",
+        "were",
+        "it was",
+        "being"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«So + sıfat + be + özne + that» kalıbında be fiili özneden önce gelir ve özne tekildir (the decline): was. (B) did bu kalıpta kullanılmaz. (C) were çoğul özneye uyar. (D) it was kalıbı bozar. (E) being çekimli fiil değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q04",
+      "kind": "grammar",
+      "order": 3,
+      "prompt": "The committee has rejected the proposal, and so ---- the board.",
+      "options": [
+        "does",
+        "is",
+        "have",
+        "did",
+        "has"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«So + yardımcı fiil + özne» yankı cümlesinde yardımcı fiil önceki cümleye uyar: has rejected → so has the board. (A) does ve (D) did farklı bir zaman kurar. (B) is ve (C) have uyumsuzdur.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q05",
+      "kind": "grammar",
+      "order": 4,
+      "prompt": "The first study found no link between the two variables, and neither ---- the second.",
+      "options": [
+        "does",
+        "was",
+        "did",
+        "has",
+        "is"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Found» past simple'dır; yankı cümlesinde did kullanılır: neither did the second. (A) does şimdiki zamandır. (B) was ve (E) is farklı bir fiile bağlanır. (D) has present perfect'e aittir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q06",
+      "kind": "grammar",
+      "order": 5,
+      "prompt": "In the corner of the archive ---- a dusty box containing the original letters.",
+      "options": [
+        "it stood",
+        "stood",
+        "stand",
+        "was stood",
+        "standing"
+      ],
+      "correctIndex": 1,
+      "explanationTR": "Yer zarfı + geçişsiz fiil devriği: In the corner stood a dusty box (fiil özneden önce). (A) it stood fazladan özne ekler. (C) stand tekil özneyle (a dusty box) uyumsuzdur. (D) was stood geçişsiz fiili edilgen yapar. (E) standing çekimli fiil değildir.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q07",
+      "kind": "grammar",
+      "order": 6,
+      "prompt": "It was the sudden cut in funding ---- forced the laboratory to close.",
+      "options": [
+        "what",
+        "who",
+        "whom",
+        "that",
+        "whose"
+      ],
+      "correctIndex": 3,
+      "explanationTR": "Vurgulu cümlede (cleft) vurgulanan öğeden sonra that gelir: It was the sudden cut ... that forced. (A) what kalıba uymaz. (B) who ve (C) whom kişiler için kullanılır. (E) whose ardından ad ister.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q08",
+      "kind": "grammar",
+      "order": 7,
+      "prompt": "The chairman rarely comments on policy, but he ---- speak passionately at yesterday's hearing.",
+      "options": [
+        "did",
+        "does",
+        "do",
+        "has",
+        "was"
+      ],
+      "correctIndex": 0,
+      "explanationTR": "«Yesterday's» geçmişi gösterir ve vurgu için did + yalın fiil kullanılır: did speak. (B) does ve (C) do şimdiki zamandır. (D) has speak ve (E) was speak kalıbı bozar.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q09",
+      "kind": "grammar",
+      "order": 8,
+      "prompt": "Recently ---- a series of measures to reduce waste in the public sector.",
+      "options": [
+        "has the government introduced",
+        "did the government introduce",
+        "introduced the government",
+        "was introduced the government",
+        "the government has introduced"
+      ],
+      "correctIndex": 4,
+      "explanationTR": "«Recently» olumsuz ya da kısıtlayıcı bir zarf DEĞİLDİR; cümle normal sırayla kurulur: the government has introduced. (A) has the government introduced ve (B) did the government introduce gereksiz devrik yapıdır. (C) introduced the government ve (D) was introduced the government öznesiz ya da bozuk kalıptır.",
+      "passageID": null
+    },
+    {
+      "id": "yds-grammar-inversion-2-q10",
+      "kind": "grammar",
+      "order": 9,
+      "prompt": "Such ---- the scale of the losses that the firm had to be rescued by the state.",
+      "options": [
+        "did",
+        "were",
+        "was",
+        "it was",
+        "being"
+      ],
+      "correctIndex": 2,
+      "explanationTR": "«Such + be + özne + that» kalıbında be fiili özneden önce gelir: Such was the scale of the losses that ... (A) did bu kalıpta kullanılmaz. (B) were çoğul özneye uyar. (D) it was kalıbı bozar. (E) being çekimli fiil değildir.",
+      "passageID": null
+    }
+  ]
+}

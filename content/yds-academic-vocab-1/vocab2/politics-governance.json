@@ -1,0 +1,1189 @@
+{
+  "id": "yds-vocab2-unit-politics-governance",
+  "theme": "Politics & Governance",
+  "order": 22,
+  "lessons": [
+    {
+      "id": "yds-vocab2-lesson-politics-governance-1",
+      "order": 0,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-government",
+          "type": "vocabulary",
+          "headword": "government",
+          "frequencyRank": 460,
+          "baseDifficulty": 0.21,
+          "definition": "Bir ülkeyi ya da bölgeyi yasalar çıkararak, kamu hizmetlerini düzenleyerek ve politika belirleyerek yöneten resmi kurumlar bütünü.",
+          "exampleSentences": [
+            "The government announced new tax reforms yesterday afternoon.",
+            "Local governments are responsible for schools, roads, and rubbish collection.",
+            "Many citizens criticised the government's slow response to the flooding."
+          ],
+          "translationTR": "hükümet",
+          "collocations": [
+            "form a government",
+            "government policy",
+            "central government"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-election",
+          "type": "vocabulary",
+          "headword": "election",
+          "frequencyRank": 461,
+          "baseDifficulty": 0.22,
+          "definition": "Vatandaşların oy kullanarak temsilcilerini veya devlet başkanını belirlediği, belirli aralıklarla tekrarlanan resmi süreç.",
+          "exampleSentences": [
+            "The presidential election is scheduled for early November.",
+            "Turnout in the last election was unusually low.",
+            "She lost the election by a narrow margin of votes."
+          ],
+          "translationTR": "seçim",
+          "collocations": [
+            "hold an election",
+            "election campaign",
+            "win an election"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-vote",
+          "type": "vocabulary",
+          "headword": "vote",
+          "frequencyRank": 462,
+          "baseDifficulty": 0.23,
+          "definition": "Bir seçimde ya da karar alma sürecinde, sunulan seçenekler arasından resmi olarak tercih belirtme eylemi.",
+          "exampleSentences": [
+            "Every citizen over eighteen has the right to vote.",
+            "Parliament will vote on the new bill next week.",
+            "The committee's vote was split evenly between the two proposals."
+          ],
+          "translationTR": "oy, oy vermek",
+          "collocations": [
+            "cast a vote",
+            "vote in favour",
+            "popular vote"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-parliament",
+          "type": "vocabulary",
+          "headword": "parliament",
+          "frequencyRank": 463,
+          "baseDifficulty": 0.24,
+          "definition": "Halk tarafından seçilen temsilcilerden oluşan ve yasa yapma yetkisini elinde bulunduran kurul.",
+          "exampleSentences": [
+            "The bill was debated in parliament for several hours.",
+            "Members of parliament voted to reject the proposal.",
+            "Parliament reconvenes after the summer recess."
+          ],
+          "translationTR": "parlamento, meclis",
+          "collocations": [
+            "dissolve parliament",
+            "member of parliament",
+            "act of parliament"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-president",
+          "type": "vocabulary",
+          "headword": "president",
+          "frequencyRank": 464,
+          "baseDifficulty": 0.25,
+          "definition": "Bir devletin ya da kurumun en üst düzeyde temsil ve karar verme yetkisini elinde tutan seçilmiş veya atanmış kişi.",
+          "exampleSentences": [
+            "The president addressed the nation on live television.",
+            "She was elected president for a second term.",
+            "The company's president resigned after the scandal."
+          ],
+          "translationTR": "cumhurbaşkanı, başkan",
+          "collocations": [
+            "elect a president",
+            "president's term",
+            "vice president"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-minister",
+          "type": "vocabulary",
+          "headword": "minister",
+          "frequencyRank": 465,
+          "baseDifficulty": 0.26,
+          "definition": "Hükümette belirli bir alanı, örneğin eğitimi ya da savunmayı, yöneten ve o alandaki politikalardan sorumlu tutulan üst düzey hükümet üyesi.",
+          "exampleSentences": [
+            "The finance minister presented the new budget on Tuesday.",
+            "She was appointed minister of health last spring.",
+            "Ministers are expected to answer questions in parliament."
+          ],
+          "translationTR": "bakan",
+          "collocations": [
+            "foreign minister",
+            "prime minister",
+            "appoint a minister"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-party",
+          "type": "vocabulary",
+          "headword": "party",
+          "frequencyRank": 466,
+          "baseDifficulty": 0.27,
+          "definition": "Ortak siyasi görüşleri paylaşan ve seçimlerde aday göstererek iktidara gelmeyi amaçlayan örgütlü topluluk (gündelik dildeki 'davet, eğlence' anlamıyla karıştırılmamalı).",
+          "exampleSentences": [
+            "The opposition party gained several seats in the election.",
+            "He has been a loyal member of the party for twenty years.",
+            "The two main parties disagreed sharply over immigration policy."
+          ],
+          "translationTR": "parti (siyasi)",
+          "collocations": [
+            "political party",
+            "party leader",
+            "join a party"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-campaign",
+          "type": "vocabulary",
+          "headword": "campaign",
+          "frequencyRank": 467,
+          "baseDifficulty": 0.28,
+          "definition": "Belirli bir seçimi kazanmak ya da bir amacı desteklemek için düzenlenen, önceden planlanmış eylem ve etkinlikler dizisi.",
+          "exampleSentences": [
+            "The candidate launched her campaign with a rally in the capital.",
+            "The campaign focused heavily on economic issues.",
+            "Volunteers knocked on doors as part of the campaign."
+          ],
+          "translationTR": "kampanya",
+          "collocations": [
+            "election campaign",
+            "run a campaign",
+            "campaign strategy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-citizen",
+          "type": "vocabulary",
+          "headword": "citizen",
+          "frequencyRank": 468,
+          "baseDifficulty": 0.29,
+          "definition": "Bir devletin yasal olarak tanıdığı ve buna karşılık haklar ile yükümlülükler taşıyan kişi.",
+          "exampleSentences": [
+            "Every citizen is required to pay taxes on their income.",
+            "She became a citizen after living in the country for ten years.",
+            "Citizens gathered outside city hall to protest the decision."
+          ],
+          "translationTR": "vatandaş",
+          "collocations": [
+            "ordinary citizen",
+            "citizen's rights",
+            "senior citizen"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-democracy",
+          "type": "vocabulary",
+          "headword": "democracy",
+          "frequencyRank": 469,
+          "baseDifficulty": 0.3,
+          "definition": "Yönetme yetkisinin halktan geldiği ve bu yetkinin genellikle serbest seçimler yoluyla temsilcilere devredildiği yönetim biçimi.",
+          "exampleSentences": [
+            "The country transitioned to democracy after decades of military rule.",
+            "Free elections are considered a cornerstone of democracy.",
+            "Critics argued that the new law weakened the nation's democracy."
+          ],
+          "translationTR": "demokrasi",
+          "collocations": [
+            "parliamentary democracy",
+            "threat to democracy",
+            "restore democracy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-politics-governance-2",
+      "order": 1,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-candidate",
+          "type": "vocabulary",
+          "headword": "candidate",
+          "frequencyRank": 470,
+          "baseDifficulty": 0.31,
+          "definition": "Bir seçimde göreve gelmek üzere adını ortaya koyan ve seçmenlerden destek isteyen kişi.",
+          "exampleSentences": [
+            "Three candidates are running for mayor this year.",
+            "The candidate promised to reduce unemployment if elected.",
+            "Voters compared the candidates' policies before deciding."
+          ],
+          "translationTR": "aday",
+          "collocations": [
+            "presidential candidate",
+            "leading candidate",
+            "nominate a candidate"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-coalition",
+          "type": "vocabulary",
+          "headword": "coalition",
+          "frequencyRank": 471,
+          "baseDifficulty": 0.32,
+          "definition": "Ortak bir hedefe ulaşmak amacıyla, genellikle tek başına çoğunluğu sağlayamayan partilerin geçici olarak bir araya gelerek kurduğu ittifak.",
+          "exampleSentences": [
+            "No single party won a majority, so a coalition was formed.",
+            "The coalition collapsed after disagreements over the budget.",
+            "Three smaller parties joined the coalition government."
+          ],
+          "translationTR": "koalisyon",
+          "collocations": [
+            "form a coalition",
+            "coalition government",
+            "coalition partner"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-opposition",
+          "type": "vocabulary",
+          "headword": "opposition",
+          "frequencyRank": 472,
+          "baseDifficulty": 0.33,
+          "definition": "Parlamentoda iktidardaki hükümetin politikalarını eleştiren ve alternatif sunan parti ya da partiler grubu.",
+          "exampleSentences": [
+            "The opposition accused the government of mishandling the crisis.",
+            "Leaders of the opposition demanded an urgent debate.",
+            "The bill faced fierce opposition from several parties."
+          ],
+          "translationTR": "muhalefet",
+          "collocations": [
+            "leader of the opposition",
+            "face opposition",
+            "opposition party"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-majority",
+          "type": "vocabulary",
+          "headword": "majority",
+          "frequencyRank": 473,
+          "baseDifficulty": 0.34,
+          "definition": "Bir oylamada ya da meclis grubunda, toplamın yarısından fazlasını oluşturan kesim.",
+          "exampleSentences": [
+            "The party won a comfortable majority in parliament.",
+            "A two-thirds majority is required to amend the constitution.",
+            "The proposal passed by a narrow majority."
+          ],
+          "translationTR": "çoğunluk",
+          "collocations": [
+            "absolute majority",
+            "win a majority",
+            "vast majority"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-minority",
+          "type": "vocabulary",
+          "headword": "minority",
+          "frequencyRank": 474,
+          "baseDifficulty": 0.35,
+          "definition": "Bir grup içinde toplamın yarısından azını oluşturan ve genellikle karar alma sürecinde daha az söz sahibi olan kesim.",
+          "exampleSentences": [
+            "Since the coalition split, the party has governed as a minority without full control of parliament.",
+            "Ethnic minorities were granted greater representation under the new law.",
+            "Only a small minority of MPs supported the amendment."
+          ],
+          "translationTR": "azınlık",
+          "collocations": [
+            "minority government",
+            "ethnic minority",
+            "represent a minority"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-referendum",
+          "type": "vocabulary",
+          "headword": "referendum",
+          "frequencyRank": 475,
+          "baseDifficulty": 0.36,
+          "definition": "Belirli bir konuda kanun yapmak yerine kararı doğrudan halkın oyuna sunma yöntemi.",
+          "exampleSentences": [
+            "The government called a referendum on the new constitution.",
+            "Voters rejected the proposal in the referendum.",
+            "A referendum was held to decide whether the country should join the union."
+          ],
+          "translationTR": "referandum, halkoylaması",
+          "collocations": [
+            "hold a referendum",
+            "referendum result",
+            "call a referendum"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ballot",
+          "type": "vocabulary",
+          "headword": "ballot",
+          "frequencyRank": 476,
+          "baseDifficulty": 0.37,
+          "definition": "Bir seçimde her seçmenin kimliğini gizli tutarak tercihini üzerine işaretlediği resmi kâğıt.",
+          "exampleSentences": [
+            "Each voter received a ballot listing all the candidates.",
+            "The union held a secret ballot before deciding to strike.",
+            "Ballots were counted late into the night."
+          ],
+          "translationTR": "oy pusulası",
+          "collocations": [
+            "secret ballot",
+            "cast a ballot",
+            "ballot paper"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-mandate",
+          "type": "vocabulary",
+          "headword": "mandate",
+          "frequencyRank": 477,
+          "baseDifficulty": 0.38,
+          "definition": "Seçmenlerin, belirli politikaları uygulaması için bir siyasetçiye ya da hükümete seçim yoluyla tanıdığı meşruiyet (hukuktaki 'zorunlu kılma' anlamından ayrı olarak burada halktan gelen yetki kastedilir).",
+          "exampleSentences": [
+            "The president claimed a strong mandate after winning by a wide margin.",
+            "Without a clear mandate, the coalition struggled to pass reforms.",
+            "Voters gave the new government a mandate to cut taxes."
+          ],
+          "translationTR": "siyasi yetki, halk yetkisi",
+          "collocations": [
+            "clear mandate",
+            "electoral mandate",
+            "seek a mandate"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-sanction",
+          "type": "vocabulary",
+          "headword": "sanction",
+          "frequencyRank": 478,
+          "baseDifficulty": 0.39,
+          "definition": "Bir devleti ya da grubu uluslararası kurallara uymaya zorlamak amacıyla ekonomik ilişkilerine getirilen resmi engel (aynı sözcük 'resmi onay' anlamına da gelebilir, ancak diplomaside ceza anlamı geçerlidir).",
+          "exampleSentences": [
+            "The United Nations imposed sanctions on the regime after the invasion.",
+            "Trade sanctions caused severe shortages in the country.",
+            "Officials debated whether to lift the sanctions."
+          ],
+          "translationTR": "yaptırım, ceza niteliğinde kısıtlama",
+          "collocations": [
+            "impose sanctions",
+            "economic sanctions",
+            "lift sanctions"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-diplomacy",
+          "type": "vocabulary",
+          "headword": "diplomacy",
+          "frequencyRank": 479,
+          "baseDifficulty": 0.4,
+          "definition": "Devletler arasındaki ilişkilerin, çatışmadan kaçınarak müzakere ve karşılıklı anlaşma yoluyla yürütülmesi sanatı.",
+          "exampleSentences": [
+            "Diplomacy prevented the dispute from escalating into war.",
+            "The ambassador was praised for her skilful diplomacy.",
+            "Years of quiet diplomacy led to the peace agreement."
+          ],
+          "translationTR": "diplomasi",
+          "collocations": [
+            "quiet diplomacy",
+            "diplomacy fails",
+            "practise diplomacy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-politics-governance-3",
+      "order": 2,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-bureaucracy",
+          "type": "vocabulary",
+          "headword": "bureaucracy",
+          "frequencyRank": 480,
+          "baseDifficulty": 0.41,
+          "definition": "Bir devlet ya da kurumun işlerini, kesin kurallara ve resmi prosedürlere bağlı memurlar aracılığıyla yürüttüğü sistem.",
+          "exampleSentences": [
+            "Starting a business here involves navigating a lot of bureaucracy.",
+            "Excessive bureaucracy slowed down the approval process.",
+            "The reform aimed to cut bureaucracy and speed up decisions."
+          ],
+          "translationTR": "bürokrasi",
+          "collocations": [
+            "cut bureaucracy",
+            "government bureaucracy",
+            "bogged down in bureaucracy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-federal",
+          "type": "vocabulary",
+          "headword": "federal",
+          "frequencyRank": 481,
+          "baseDifficulty": 0.42,
+          "definition": "Yönetim yetkisinin merkezi hükümet ile eyalet ya da bölgesel yönetimler arasında anayasal olarak paylaşıldığı sisteme ait.",
+          "exampleSentences": [
+            "Education policy varies from state to state because the federal government leaves it to the states.",
+            "The federal government provides funding for interstate highways.",
+            "Each state has its own laws within the federal system."
+          ],
+          "translationTR": "federal",
+          "collocations": [
+            "federal government",
+            "federal law",
+            "federal system"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-sovereignty",
+          "type": "vocabulary",
+          "headword": "sovereignty",
+          "frequencyRank": 482,
+          "baseDifficulty": 0.43,
+          "definition": "Bir devletin kendi topraklarında dış müdahale olmaksızın bağımsız karar alma ve yönetme yetkisi.",
+          "exampleSentences": [
+            "The treaty was criticised for undermining national sovereignty.",
+            "The country fought to preserve its sovereignty during the occupation.",
+            "Questions of sovereignty dominated the independence debate."
+          ],
+          "translationTR": "egemenlik",
+          "collocations": [
+            "national sovereignty",
+            "threaten sovereignty",
+            "assert sovereignty"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-republic",
+          "type": "vocabulary",
+          "headword": "republic",
+          "frequencyRank": 483,
+          "baseDifficulty": 0.44,
+          "definition": "Devlet başkanının halk tarafından ya da halkın seçtiği temsilciler aracılığıyla belirlendiği, kalıtsal monarşiye dayanmayan yönetim biçimi.",
+          "exampleSentences": [
+            "The country became a republic after the monarchy was abolished.",
+            "The republic's constitution guarantees freedom of speech.",
+            "Citizens of the republic elect their leader every five years."
+          ],
+          "translationTR": "cumhuriyet",
+          "collocations": [
+            "parliamentary republic",
+            "declare a republic",
+            "founding of the republic"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-autocracy",
+          "type": "vocabulary",
+          "headword": "autocracy",
+          "frequencyRank": 484,
+          "baseDifficulty": 0.45,
+          "definition": "Devleti yönetme gücünün, herhangi bir denetim ya da paylaşım olmaksızın tek bir kişinin elinde toplandığı sistem.",
+          "exampleSentences": [
+            "Under autocracy, elections either disappear or become meaningless.",
+            "The revolution ended decades of autocracy in the region.",
+            "Critics warned that the reforms were pushing the country towards autocracy."
+          ],
+          "translationTR": "otokrasi",
+          "collocations": [
+            "slide into autocracy",
+            "under autocracy",
+            "resist autocracy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dictatorship",
+          "type": "vocabulary",
+          "headword": "dictatorship",
+          "frequencyRank": 485,
+          "baseDifficulty": 0.46,
+          "definition": "Tüm siyasi gücün, muhalefete ya da denetime izin vermeksizin tek bir lider veya küçük bir grup tarafından zorla elde tutulduğu yönetim biçimi.",
+          "exampleSentences": [
+            "The military coup established a dictatorship that lasted twenty years.",
+            "Opposition newspapers were banned under the dictatorship.",
+            "The country finally emerged from dictatorship in the 1990s."
+          ],
+          "translationTR": "diktatörlük",
+          "collocations": [
+            "military dictatorship",
+            "overthrow a dictatorship",
+            "live under dictatorship"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-corruption",
+          "type": "vocabulary",
+          "headword": "corruption",
+          "frequencyRank": 486,
+          "baseDifficulty": 0.47,
+          "definition": "Kamu görevinin, kişisel çıkar sağlamak amacıyla rüşvet ya da usulsüzlük yoluyla kötüye kullanılması.",
+          "exampleSentences": [
+            "The minister resigned amid allegations of corruption.",
+            "Corruption within the police force undermined public trust.",
+            "The new law aims to fight corruption in public contracts."
+          ],
+          "translationTR": "yolsuzluk",
+          "collocations": [
+            "fight corruption",
+            "widespread corruption",
+            "accuse of corruption"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-lobby",
+          "type": "vocabulary",
+          "headword": "lobby",
+          "frequencyRank": 487,
+          "baseDifficulty": 0.48,
+          "definition": "Belirli bir çıkarı temsil eden bir grubun, karar alıcıları belirli bir yönde etkilemeye çalışması (siyasi baskı faaliyeti; 'bina girişi, fuaye' anlamı burada geçerli değildir).",
+          "exampleSentences": [
+            "The tobacco lobby spent millions opposing the new regulations.",
+            "Environmental groups lobbied hard for stricter emissions laws.",
+            "She used to lobby on behalf of small businesses."
+          ],
+          "translationTR": "lobi yapmak, baskı grubu",
+          "collocations": [
+            "lobby for change",
+            "powerful lobby",
+            "lobby group"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-veto",
+          "type": "vocabulary",
+          "headword": "veto",
+          "frequencyRank": 488,
+          "baseDifficulty": 0.49,
+          "definition": "Yetkili bir kişi ya da organın, kabul edilmiş bir kararı ya da yasayı resmi olarak reddetme yetkisi.",
+          "exampleSentences": [
+            "The president threatened to veto the bill if it reached his desk.",
+            "Any permanent member can veto a Security Council resolution.",
+            "The mayor's veto blocked the controversial development plan."
+          ],
+          "translationTR": "veto (hakkı); veto etmek",
+          "collocations": [
+            "exercise a veto",
+            "veto power",
+            "veto a bill"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-amendment",
+          "type": "vocabulary",
+          "headword": "amendment",
+          "frequencyRank": 489,
+          "baseDifficulty": 0.5,
+          "definition": "Bir yasada, anlaşmada ya da anayasada, önceden belirlenmiş resmi bir prosedür izlenerek yapılan güncelleme ya da ekleme.",
+          "exampleSentences": [
+            "The amendment was approved by a two-thirds majority.",
+            "Lawmakers proposed an amendment to strengthen data protection.",
+            "The constitution has been through several amendments since independence."
+          ],
+          "translationTR": "değişiklik önergesi, anayasa veya yasa değişikliği",
+          "collocations": [
+            "propose an amendment",
+            "constitutional amendment",
+            "pass an amendment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-politics-governance-4",
+      "order": 3,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-pluralism",
+          "type": "vocabulary",
+          "headword": "pluralism",
+          "frequencyRank": 490,
+          "baseDifficulty": 0.51,
+          "definition": "Farklı siyasi, dini ya da kültürel grupların bir arada var olup toplumun yönetimine katılabildiği düzen.",
+          "exampleSentences": [
+            "Political pluralism allows several parties to compete freely.",
+            "The constitution was designed to protect religious pluralism.",
+            "Critics argued that the reforms threatened media pluralism."
+          ],
+          "translationTR": "çoğulculuk",
+          "collocations": [
+            "political pluralism",
+            "protect pluralism",
+            "cultural pluralism"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-incumbent",
+          "type": "vocabulary",
+          "headword": "incumbent",
+          "frequencyRank": 491,
+          "baseDifficulty": 0.52,
+          "definition": "Bir seçim döneminde hâlihazırda o makamı elinde bulunduran ve yeniden seçilmeye çalışan kişi.",
+          "exampleSentences": [
+            "The incumbent won re-election despite a difficult campaign.",
+            "Challengers often struggle to unseat a popular incumbent.",
+            "As the incumbent, she had the advantage of name recognition."
+          ],
+          "translationTR": "mevcut görevde bulunan kişi",
+          "collocations": [
+            "incumbent president",
+            "unseat the incumbent",
+            "incumbent government"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-electorate",
+          "type": "vocabulary",
+          "headword": "electorate",
+          "frequencyRank": 492,
+          "baseDifficulty": 0.53,
+          "definition": "Bir seçimde oy kullanma hakkına sahip olan kişilerin tamamı.",
+          "exampleSentences": [
+            "The electorate rejected the proposed tax increase.",
+            "Politicians must appeal to a diverse electorate.",
+            "Only sixty percent of the electorate turned out to vote."
+          ],
+          "translationTR": "seçmen kitlesi",
+          "collocations": [
+            "appeal to the electorate",
+            "wider electorate",
+            "electorate's decision"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-delegate",
+          "type": "vocabulary",
+          "headword": "delegate",
+          "frequencyRank": 493,
+          "baseDifficulty": 0.54,
+          "definition": "Bir grup ya da bölge adına, konferans veya oylama gibi resmi ortamlarda karar alma yetkisiyle hareket eden kişi.",
+          "exampleSentences": [
+            "Delegates from every region gathered for the party conference.",
+            "Each country sends a delegate to the summit.",
+            "The party's delegates will vote on the leadership candidates next month."
+          ],
+          "translationTR": "delege, temsilci",
+          "collocations": [
+            "conference delegate",
+            "elect a delegate",
+            "party delegate"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-ambassador",
+          "type": "vocabulary",
+          "headword": "ambassador",
+          "frequencyRank": 494,
+          "baseDifficulty": 0.55,
+          "definition": "Bir devletin başka bir ülkede resmi temsilcisi olarak görev yapan üst düzey diplomat.",
+          "exampleSentences": [
+            "The ambassador presented her credentials to the president.",
+            "He served as ambassador to France for six years.",
+            "The ambassador was recalled after the diplomatic dispute."
+          ],
+          "translationTR": "büyükelçi",
+          "collocations": [
+            "appoint an ambassador",
+            "ambassador to",
+            "recall an ambassador"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-embassy",
+          "type": "vocabulary",
+          "headword": "embassy",
+          "frequencyRank": 495,
+          "baseDifficulty": 0.56,
+          "definition": "Bir devletin başka bir ülkedeki resmi temsilciliğinin bulunduğu bina ve kurum.",
+          "exampleSentences": [
+            "Citizens abroad can request help from their embassy.",
+            "Protesters gathered outside the embassy gates.",
+            "The embassy issued a warning about travel to the region."
+          ],
+          "translationTR": "büyükelçilik",
+          "collocations": [
+            "foreign embassy",
+            "embassy staff",
+            "storm the embassy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-protocol",
+          "type": "vocabulary",
+          "headword": "protocol",
+          "frequencyRank": 496,
+          "baseDifficulty": 0.57,
+          "definition": "Resmi törenlerde ve diplomatik ilişkilerde uyulması beklenen, önceden belirlenmiş davranış ve nezaket kuralları.",
+          "exampleSentences": [
+            "Diplomatic protocol required the guests to be seated by rank.",
+            "Breaking protocol at the summit caused an awkward incident.",
+            "The ceremony followed strict royal protocol."
+          ],
+          "translationTR": "protokol (diplomatik kurallar dizisi); bilişimde 'iletişim kuralları' anlamına da gelebilir",
+          "collocations": [
+            "diplomatic protocol",
+            "breach of protocol",
+            "follow protocol"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-alliance",
+          "type": "vocabulary",
+          "headword": "alliance",
+          "frequencyRank": 497,
+          "baseDifficulty": 0.58,
+          "definition": "İki ya da daha fazla devlet ya da grubun ortak bir amaç veya tehdide karşı resmi olarak birleşmesiyle oluşan işbirliği.",
+          "exampleSentences": [
+            "The two countries formed a military alliance after the war.",
+            "The alliance collapsed once the common threat disappeared.",
+            "Smaller parties entered an alliance to challenge the ruling party."
+          ],
+          "translationTR": "ittifak",
+          "collocations": [
+            "military alliance",
+            "form an alliance",
+            "break an alliance"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-summit",
+          "type": "vocabulary",
+          "headword": "summit",
+          "frequencyRank": 498,
+          "baseDifficulty": 0.59,
+          "definition": "Devlet ya da hükümet başkanlarının önemli konuları görüşmek üzere bir araya geldiği üst düzey toplantı.",
+          "exampleSentences": [
+            "World leaders gathered for the climate summit in the capital.",
+            "The two presidents held a summit to discuss trade relations.",
+            "Little progress was made at the summit despite lengthy talks."
+          ],
+          "translationTR": "zirve",
+          "collocations": [
+            "hold a summit",
+            "summit meeting",
+            "climate summit"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-constituency",
+          "type": "vocabulary",
+          "headword": "constituency",
+          "frequencyRank": 499,
+          "baseDifficulty": 0.6,
+          "definition": "Bir milletvekilinin parlamentoda temsil ettiği, sınırları önceden çizilmiş coğrafi bölge.",
+          "exampleSentences": [
+            "The MP visited her constituency every weekend.",
+            "Boundary changes altered the size of several constituencies.",
+            "He has represented the same constituency for fifteen years."
+          ],
+          "translationTR": "seçim bölgesi",
+          "collocations": [
+            "represent a constituency",
+            "local constituency",
+            "safe constituency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-politics-governance-5",
+      "order": 4,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-austerity",
+          "type": "vocabulary",
+          "headword": "austerity",
+          "frequencyRank": 500,
+          "baseDifficulty": 0.61,
+          "definition": "Kamu harcamalarının ve borcun azaltılması amacıyla hükümetin uyguladığı sert tasarruf politikası.",
+          "exampleSentences": [
+            "The government introduced austerity measures to reduce the deficit.",
+            "Years of austerity led to cuts in public services.",
+            "Protesters marched against the new austerity budget."
+          ],
+          "translationTR": "kemer sıkma politikası",
+          "collocations": [
+            "austerity measures",
+            "impose austerity",
+            "era of austerity"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-subsidy",
+          "type": "vocabulary",
+          "headword": "subsidy",
+          "frequencyRank": 501,
+          "baseDifficulty": 0.62,
+          "definition": "Bir sektörün ya da malın üretim maliyetini karşılayarak fiyatını düşük tutmak veya üreticinin ayakta kalmasını sağlamak için hükümetin yaptığı karşılıksız ödeme.",
+          "exampleSentences": [
+            "Farmers rely on government subsidies to stay profitable.",
+            "The subsidy for renewable energy was cut last year.",
+            "Critics argued the subsidy distorted fair competition."
+          ],
+          "translationTR": "sübvansiyon, devlet desteği",
+          "collocations": [
+            "government subsidy",
+            "cut a subsidy",
+            "provide a subsidy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-tariff",
+          "type": "vocabulary",
+          "headword": "tariff",
+          "frequencyRank": 502,
+          "baseDifficulty": 0.63,
+          "definition": "İthal edilen mallara, yerli üretimi korumak ya da gelir sağlamak amacıyla uygulanan vergi.",
+          "exampleSentences": [
+            "The government raised tariffs on imported steel.",
+            "High tariffs made foreign cars more expensive.",
+            "The two countries agreed to lower tariffs on agricultural goods."
+          ],
+          "translationTR": "gümrük vergisi, tarife",
+          "collocations": [
+            "impose a tariff",
+            "trade tariff",
+            "tariff barrier"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-embargo",
+          "type": "vocabulary",
+          "headword": "embargo",
+          "frequencyRank": 503,
+          "baseDifficulty": 0.64,
+          "definition": "Bir devletle ticareti veya belirli malların ülkeye giriş çıkışını tamamen yasaklayan resmi kısıtlama.",
+          "exampleSentences": [
+            "The United Nations placed an arms embargo on the country.",
+            "The trade embargo devastated the local economy.",
+            "Officials debated lifting the decades-old embargo."
+          ],
+          "translationTR": "ambargo",
+          "collocations": [
+            "arms embargo",
+            "impose an embargo",
+            "lift an embargo"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-deficit",
+          "type": "vocabulary",
+          "headword": "deficit",
+          "frequencyRank": 504,
+          "baseDifficulty": 0.65,
+          "definition": "Bir hükümetin belirli bir dönemde harcamalarının gelirlerini aşması sonucu ortaya çıkan mali fark.",
+          "exampleSentences": [
+            "The budget deficit widened after the tax cuts.",
+            "The government promised to reduce the deficit within five years.",
+            "Rising spending pushed the deficit to a record high."
+          ],
+          "translationTR": "açık, bütçe açığı",
+          "collocations": [
+            "budget deficit",
+            "reduce the deficit",
+            "run a deficit"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-surplus",
+          "type": "vocabulary",
+          "headword": "surplus",
+          "frequencyRank": 505,
+          "baseDifficulty": 0.66,
+          "definition": "Bir hükümetin gelirlerinin harcamalarını aştığı durumda ortaya çıkan mali birikim.",
+          "exampleSentences": [
+            "The country recorded its first budget surplus in a decade.",
+            "The surplus was used to pay down national debt.",
+            "A trade surplus meant the country exported more than it imported."
+          ],
+          "translationTR": "fazla, bütçe fazlası",
+          "collocations": [
+            "budget surplus",
+            "trade surplus",
+            "record a surplus"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-welfare",
+          "type": "vocabulary",
+          "headword": "welfare",
+          "frequencyRank": 506,
+          "baseDifficulty": 0.67,
+          "definition": "Devletin, ihtiyaç sahibi vatandaşların temel yaşam koşullarını desteklemek amacıyla sunduğu destek ve hizmetler bütünü.",
+          "exampleSentences": [
+            "The welfare system provides support for the unemployed.",
+            "Cuts to welfare spending sparked public outrage.",
+            "She relies on welfare benefits while looking for work."
+          ],
+          "translationTR": "sosyal refah, sosyal yardım",
+          "collocations": [
+            "welfare system",
+            "welfare benefits",
+            "child welfare"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-taxation",
+          "type": "vocabulary",
+          "headword": "taxation",
+          "frequencyRank": 507,
+          "baseDifficulty": 0.68,
+          "definition": "Devletin, kamu harcamalarını finanse etmek amacıyla vatandaşlardan ve işletmelerden zorunlu olarak gelir toplama sistemi.",
+          "exampleSentences": [
+            "The new government promised fairer taxation for low earners.",
+            "Heavy taxation discouraged foreign investment.",
+            "Reforming taxation was one of the president's key pledges."
+          ],
+          "translationTR": "vergilendirme",
+          "collocations": [
+            "progressive taxation",
+            "system of taxation",
+            "fair taxation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-fiscal",
+          "type": "vocabulary",
+          "headword": "fiscal",
+          "frequencyRank": 508,
+          "baseDifficulty": 0.69,
+          "definition": "Devletin vergi toplama ve harcama politikalarıyla ilgili olan.",
+          "exampleSentences": [
+            "The government tightened fiscal policy to control inflation.",
+            "Analysts warned about the country's worsening fiscal position.",
+            "The fiscal year begins in April."
+          ],
+          "translationTR": "mali",
+          "collocations": [
+            "fiscal policy",
+            "fiscal year",
+            "fiscal deficit"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-allocate",
+          "type": "vocabulary",
+          "headword": "allocate",
+          "frequencyRank": 509,
+          "baseDifficulty": 0.7,
+          "definition": "Sınırlı kaynakları, belirli bir amaç veya birim için resmi olarak ayırmak.",
+          "exampleSentences": [
+            "The budget allocates more funding to public healthcare.",
+            "Resources were allocated unevenly across the regions.",
+            "The council must decide how to allocate the remaining funds."
+          ],
+          "translationTR": "tahsis etmek",
+          "collocations": [
+            "allocate resources",
+            "allocate funds",
+            "allocate a budget"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yds-vocab2-lesson-politics-governance-6",
+      "order": 5,
+      "estimatedDurationMinutes": 5,
+      "items": [
+        {
+          "id": "yds-vocab2-item-partisan",
+          "type": "vocabulary",
+          "headword": "partisan",
+          "frequencyRank": 510,
+          "baseDifficulty": 0.71,
+          "definition": "Belirli bir parti ya da grubun çıkarlarını, nesnellikten uzaklaşarak sürekli ve koşulsuz biçimde savunmaya dayanan, taraflı.",
+          "exampleSentences": [
+            "The debate quickly became partisan rather than factual.",
+            "Partisan politics made compromise almost impossible.",
+            "She was accused of making a partisan decision as speaker."
+          ],
+          "translationTR": "taraf tutan, tek taraflı",
+          "collocations": [
+            "partisan politics",
+            "highly partisan",
+            "partisan divide"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-populism",
+          "type": "vocabulary",
+          "headword": "populism",
+          "frequencyRank": 511,
+          "baseDifficulty": 0.72,
+          "definition": "Sıradan halkın çıkarlarını seçkinlere karşı savunduğunu iddia ederek destek toplayan, genellikle basit çözümler vaat eden siyasi yaklaşım.",
+          "exampleSentences": [
+            "Critics warned that the campaign relied heavily on populism.",
+            "Rising populism has reshaped politics across the continent.",
+            "The party's populism appealed to voters angry with the establishment."
+          ],
+          "translationTR": "popülizm",
+          "collocations": [
+            "rise of populism",
+            "populism appeals",
+            "wave of populism"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-jurisdiction",
+          "type": "vocabulary",
+          "headword": "jurisdiction",
+          "frequencyRank": 512,
+          "baseDifficulty": 0.73,
+          "definition": "Bir mahkemenin ya da resmi makamın karar verme ve uygulama gücünün geçerli olduğu sınır ya da alan.",
+          "exampleSentences": [
+            "The case falls outside the court's jurisdiction.",
+            "Local police have no jurisdiction over federal crimes.",
+            "The dispute raised questions about international jurisdiction."
+          ],
+          "translationTR": "yargı yetkisi",
+          "collocations": [
+            "fall within jurisdiction",
+            "legal jurisdiction",
+            "outside jurisdiction"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-accountability",
+          "type": "vocabulary",
+          "headword": "accountability",
+          "frequencyRank": 513,
+          "baseDifficulty": 0.74,
+          "definition": "Yetkili kişi ya da kurumların, aldıkları kararlardan sorumlu tutulup bunları açıklamak zorunda olması.",
+          "exampleSentences": [
+            "The report called for greater accountability among public officials.",
+            "Voters demanded accountability after the spending scandal.",
+            "The new law strengthens accountability within government agencies."
+          ],
+          "translationTR": "hesap verebilirlik",
+          "collocations": [
+            "demand accountability",
+            "lack of accountability",
+            "public accountability"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-transparency",
+          "type": "vocabulary",
+          "headword": "transparency",
+          "frequencyRank": 514,
+          "baseDifficulty": 0.75,
+          "definition": "Bir kurumun kararlarını ve işlemlerini kamuoyunun denetleyebileceği şekilde açık ve erişilebilir tutması.",
+          "exampleSentences": [
+            "The organisation was praised for its transparency in handling funds.",
+            "Campaigners called for greater transparency in political donations.",
+            "A lack of transparency fuelled public distrust in the council."
+          ],
+          "translationTR": "şeffaflık",
+          "collocations": [
+            "lack of transparency",
+            "greater transparency",
+            "ensure transparency"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-impartial",
+          "type": "vocabulary",
+          "headword": "impartial",
+          "frequencyRank": 515,
+          "baseDifficulty": 0.76,
+          "definition": "Herhangi bir tarafı kayırmadan, adil ve önyargısız biçimde karar veren ya da davranan.",
+          "exampleSentences": [
+            "Judges are expected to remain impartial at all times.",
+            "The referendum required an impartial body to count the votes.",
+            "She gave an impartial account of the negotiations."
+          ],
+          "translationTR": "tarafsız",
+          "collocations": [
+            "remain impartial",
+            "impartial judge",
+            "impartial observer"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-coercion",
+          "type": "vocabulary",
+          "headword": "coercion",
+          "frequencyRank": 516,
+          "baseDifficulty": 0.77,
+          "definition": "Bir kişiyi ya da grubu, isteği dışında bir şeyi yapmaya tehdit veya güç kullanarak yöneltme eylemi.",
+          "exampleSentences": [
+            "The confession was obtained through coercion, not free will.",
+            "The regime relied on coercion rather than persuasion to maintain control.",
+            "Voters should never face coercion at the ballot box."
+          ],
+          "translationTR": "zorlama, baskı",
+          "collocations": [
+            "use coercion",
+            "under coercion",
+            "coercion and intimidation"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-dissent",
+          "type": "vocabulary",
+          "headword": "dissent",
+          "frequencyRank": 517,
+          "baseDifficulty": 0.78,
+          "definition": "Resmi bir görüş ya da karara karşı açıkça farklı bir düşünce ifade etme eylemi.",
+          "exampleSentences": [
+            "The government showed little tolerance for public dissent.",
+            "Several MPs voiced dissent over the new policy.",
+            "Political dissent was harshly punished under the old regime."
+          ],
+          "translationTR": "muhalefet, karşı çıkma",
+          "collocations": [
+            "voice dissent",
+            "crush dissent",
+            "political dissent"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-autonomy",
+          "type": "vocabulary",
+          "headword": "autonomy",
+          "frequencyRank": 518,
+          "baseDifficulty": 0.79,
+          "definition": "Bir bölge ya da kurumun, merkezi otoriteden bağımsız olarak kendi işlerini yönetebilme yetkisi.",
+          "exampleSentences": [
+            "The region was granted greater autonomy after years of negotiation.",
+            "Universities value their academic autonomy from government control.",
+            "The peace deal gave the province a degree of autonomy."
+          ],
+          "translationTR": "özerklik",
+          "collocations": [
+            "grant autonomy",
+            "regional autonomy",
+            "degree of autonomy"
+          ]
+        },
+        {
+          "id": "yds-vocab2-item-intervene",
+          "type": "vocabulary",
+          "headword": "intervene",
+          "frequencyRank": 519,
+          "baseDifficulty": 0.8,
+          "definition": "Bir devletin ya da otoritenin, devam eden bir çatışmaya veya sürece kendi isteğiyle dahil olarak yönünü değiştirmeye çalışması.",
+          "exampleSentences": [
+            "The United Nations intervened to stop the fighting.",
+            "The central bank intervened to stabilise the currency.",
+            "Neighbouring countries were reluctant to intervene in the civil war."
+          ],
+          "translationTR": "müdahale etmek",
+          "collocations": [
+            "intervene militarily",
+            "intervene directly",
+            "refuse to intervene"
+          ]
+        }
+      ]
+    }
+  ]
+}

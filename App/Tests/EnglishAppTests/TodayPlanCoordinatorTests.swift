@@ -29,6 +29,10 @@ final class TodayPlanCoordinatorTests: XCTestCase {
         TodayPlanCoordinator(context: context, userID: userID, accessProvider: FixedAccessProvider(level: level), now: now, calendar: calendar)
     }
 
+    func premiumCoordinator(_ context: ModelContext, level: PackageAccessLevel = .preview) -> TodayPlanCoordinator {
+        TodayPlanCoordinator(context: context, userID: userID, accessProvider: FixedAccessProvider(level: level), now: now, calendar: calendar, isPremium: true)
+    }
+
     func test_ensureProfile_createsDefaultForFirstPackage_once() throws {
         let context = try makeContext()
         let profile = try XCTUnwrap(coordinator(context).ensureProfile())
@@ -160,5 +164,138 @@ final class TodayPlanCoordinatorTests: XCTestCase {
 
         let input = try XCTUnwrap(coordinator(context).buildPlanInput())
         XCTAssertEqual(input.dueNowCount, 0)
+    }
+
+    func makeRealContentContext() throws -> ModelContext {
+        let container = try ModelContainer(for: AppModelContainer.schema, configurations: [ModelConfiguration(schema: AppModelContainer.schema, isStoredInMemoryOnly: true)])
+        let context = ModelContext(container)
+        AppModelContainer.seedRealContentIfNeeded(in: context)
+        return context
+    }
+
+    /// A due practice card must produce a practiceReview task and must NOT be
+    /// counted as a due vocabulary word.
+    func test_duePracticeCard_becomesAPracticeReviewTask_andIsNotCountedAsAVocabularyReview() throws {
+        let context = try makeRealContentContext()
+        _ = try coordinator(context).ensureProfile()
+        let past = now.addingTimeInterval(-3600)
+        context.insert(UserItemState(
+            userID: userID, itemID: "yds-practice-card-tenses", stability: 1, difficulty: 5,
+            dueDate: past, reps: 1, lapses: 0, lastReviewedAt: past
+        ))
+        try context.save()
+
+        let input = try XCTUnwrap(coordinator(context).buildPlanInput())
+        XCTAssertEqual(input.dueNowCount, 0, "a due grammar topic must not inflate the vocabulary review task")
+        XCTAssertEqual(input.duePracticeCards.map(\.itemID), ["yds-practice-card-tenses"])
+        XCTAssertEqual(input.duePracticeCards.first?.skill, .grammar)
+        XCTAssertEqual(input.duePracticeCards.first?.lessonID, "yds-practice-lesson-tenses")
+        XCTAssertEqual(input.duePracticeCards.first?.title, "Zamanlar (Tenses)")
+        XCTAssertFalse(input.duePracticeCards.first?.isDone ?? true)
+
+        let plan = try XCTUnwrap(coordinator(context).buildPlan())
+        XCTAssertTrue(plan.tasks.contains { if case .practiceReview(let id, _, _, _, _, _) = $0 { return id == "yds-practice-card-tenses" } else { return false } })
+    }
+
+    func test_bugun_schedulesAPracticeLessonOnceGrammarIsBehindItsWeeklyTarget() throws {
+        let context = try makeRealContentContext()
+        _ = try coordinator(context).ensureProfile()
+
+        let plan = try XCTUnwrap(coordinator(context).buildPlan())
+        let actions = plan.tasks.map(PlanTaskAction.action(for:))
+        XCTAssertTrue(
+            actions.contains { if case .startPractice = $0 { return true } else { return false } },
+            "with grammar and reading weighted at 30/35, the first plan must include a practice lesson"
+        )
+        XCTAssertFalse(
+            actions.contains { if case .comingSoon = $0 { return true } else { return false } },
+            "no shipped lesson may still route to 'coming soon'"
+        )
+    }
+
+    func test_practiceCards_areNotCountedAsWordsSeen() throws {
+        let context = try makeRealContentContext()
+        _ = try coordinator(context).ensureProfile()
+        let past = now.addingTimeInterval(-3600)
+        context.insert(UserItemState(userID: userID, itemID: "yds-practice-card-tenses", stability: 1, difficulty: 5, dueDate: past, reps: 1, lapses: 0, lastReviewedAt: past))
+        context.insert(UserItemState(userID: userID, itemID: "yds-vocab1-item-economy", stability: 1, difficulty: 5, dueDate: past, reps: 1, lapses: 0, lastReviewedAt: past))
+        try context.save()
+
+        XCTAssertEqual(try coordinator(context).stats().wordsSeen, 1)
+    }
+
+    func test_aPracticeCardReviewedToday_marksTheTaskDone() throws {
+        let context = try makeRealContentContext()
+        _ = try coordinator(context).ensureProfile()
+        let past = now.addingTimeInterval(-3600)
+        context.insert(UserItemState(userID: userID, itemID: "yds-practice-card-tenses", stability: 1, difficulty: 5, dueDate: past, reps: 1, lapses: 0, lastReviewedAt: past))
+        context.insert(ReviewLog(userID: userID, itemID: "yds-practice-card-tenses", rating: .good, reviewedAt: past, reactionTimeMs: 0))
+        try context.save()
+
+        let input = try XCTUnwrap(coordinator(context).buildPlanInput())
+        XCTAssertEqual(input.reviewedTodayCount, 0, "a practice review must not count as a vocabulary review")
+        XCTAssertTrue(input.duePracticeCards.first?.isDone ?? false)
+    }
+
+    func test_planInput_nonPremium_hasNoCoachDirective() throws {
+        let context = try makeContext()
+        let profile = try XCTUnwrap(coordinator(context).ensureProfile())
+        profile.examDate = calendar.date(byAdding: .day, value: 5, to: now)
+        try context.save()
+        XCTAssertNil(try XCTUnwrap(coordinator(context).buildPlanInput()).coach)
+    }
+
+    func test_planInput_premium_finalWeek_isReviewOnly_andPlanHasNoLessons() throws {
+        let context = try makeContext()
+        let profile = try XCTUnwrap(premiumCoordinator(context).ensureProfile())
+        profile.examDate = calendar.date(byAdding: .day, value: 5, to: now)
+        try context.save()
+        let input = try XCTUnwrap(premiumCoordinator(context).buildPlanInput())
+        XCTAssertEqual(input.coach, CoachDirective(extraLessonMinutes: 0, reviewOnly: true))
+        let plan = try XCTUnwrap(premiumCoordinator(context).buildPlan())
+        XCTAssertFalse(plan.tasks.contains { if case .lesson = $0 { return true } else { return false } })
+    }
+
+    func test_coachBriefing_freePace_countsLockedLessons_andLastWeek() throws {
+        let context = try makeContext()
+        let profile = try XCTUnwrap(premiumCoordinator(context).ensureProfile())
+        profile.createdAt = calendar.date(byAdding: .day, value: -10, to: now)!
+        let twoDaysAgo = calendar.date(byAdding: .day, value: -2, to: now)!
+        let progress = LessonProgress(userID: userID, lessonID: "lesson-u0-l0", startedAt: twoDaysAgo)
+        progress.completedAt = twoDaysAgo
+        context.insert(progress)
+        context.insert(ReviewLog(userID: userID, itemID: "item-u0-l1-i0", rating: .good, reviewedAt: twoDaysAgo))
+        context.insert(ReviewLog(userID: userID, itemID: "item-u0-l1-i1", rating: .good, reviewedAt: calendar.date(byAdding: .day, value: -3, to: now)!))
+        try context.save()
+
+        let briefing = try XCTUnwrap(premiumCoordinator(context, level: .preview).buildCoachBriefing())
+        XCTAssertEqual(briefing.plan.mode, .freePace)
+        XCTAssertNil(briefing.plan.daysToExam)
+        XCTAssertEqual(briefing.plan.lockedLessonCount, 2)
+        XCTAssertEqual(briefing.plan.remainingMinutes, 8)
+        XCTAssertEqual(briefing.plan.completedShare, 0.5, accuracy: 1e-9)
+        XCTAssertEqual(briefing.weekLessonsCompleted, 1)
+        XCTAssertEqual(briefing.weekDaysStudied, 2)
+        XCTAssertEqual(briefing.weekMinutes, 9) // 8 lesson minutes + 2 reviews * 0.4, rounded
+    }
+
+    func test_coachBriefing_isNil_withoutContent() throws {
+        XCTAssertNil(try premiumCoordinator(try makeContext(seed: false)).buildCoachBriefing())
+    }
+
+    func test_coachBriefing_ignoresOrphanedProgressRows() throws {
+        let context = try makeContext()
+        _ = try XCTUnwrap(premiumCoordinator(context).ensureProfile())
+        let twoDaysAgo = calendar.date(byAdding: .day, value: -2, to: now)!
+        context.insert(ReviewLog(userID: userID, itemID: "gone-item", rating: .good, reviewedAt: twoDaysAgo))
+        let progress = LessonProgress(userID: userID, lessonID: "gone-lesson", startedAt: twoDaysAgo)
+        progress.completedAt = twoDaysAgo
+        context.insert(progress)
+        try context.save()
+
+        let briefing = try XCTUnwrap(premiumCoordinator(context).buildCoachBriefing())
+        XCTAssertEqual(briefing.weekDaysStudied, 0)
+        XCTAssertEqual(briefing.weekLessonsCompleted, 0)
+        XCTAssertEqual(briefing.weekMinutes, 0)
     }
 }
