@@ -32,10 +32,16 @@ struct CoachCardView: View {
                     Text(locked).font(.caption).foregroundStyle(Theme.secondaryInk)
                 }
                 if case .unreachable = plan.status {
-                    HStack {
-                        Button("Günlük süreyi artır", action: onOpenSettings)
-                        Spacer()
-                        Button("Sınav tarihini değiştir", action: onOpenSettings)
+                    ViewThatFits(in: .horizontal) {
+                        HStack {
+                            Button("Günlük süreyi artır", action: onOpenSettings)
+                            Spacer()
+                            Button("Sınav tarihini değiştir", action: onOpenSettings)
+                        }
+                        VStack(alignment: .leading) {
+                            Button("Günlük süreyi artır", action: onOpenSettings)
+                            Button("Sınav tarihini değiştir", action: onOpenSettings)
+                        }
                     }
                     .font(.footnote.weight(.semibold)).foregroundStyle(Theme.primary)
                 } else if CoachMessageTemplates.needsExamDateInvite(plan) {
