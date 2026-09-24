@@ -6,10 +6,12 @@ import Foundation
 public struct CoachRequest: Sendable, Equatable {
     public let facts: [String]
     public let draft: String
+    public let learnerLanguage: LearnerLanguage
 
-    public init(facts: [String], draft: String) {
+    public init(facts: [String], draft: String, learnerLanguage: LearnerLanguage = .turkish) {
         self.facts = facts
         self.draft = draft
+        self.learnerLanguage = learnerLanguage
     }
 }
 
@@ -18,19 +20,42 @@ public enum CoachPromptBuilder {
     public static let systemInstructions =
         "Sen, YDS'ye hazırlanan bir öğrencinin sıcak ve kısa konuşan çalışma koçusun. Her zaman Türkçe yaz ve öğrenciye \"sen\" diye hitap et. Yalnızca sana verilen bilgileri kullan; yeni sayı, tarih ya da yüzde uydurma. 2-4 kısa cümle yaz; liste ya da başlık kullanma."
 
+    public static func systemInstructions(for language: LearnerLanguage) -> String {
+        switch language {
+        case .turkish:
+            return systemInstructions
+        case .english:
+            return "You are a warm, brief study coach for an English learner. Always write in English and address the learner as \"you\". Use only the information you are given; never invent numbers, dates or percentages. Write 2-4 short sentences; no lists or headings."
+        }
+    }
+
     public static func build(for request: CoachRequest) -> [ChatPromptMessage] {
         let facts = request.facts.map { "- \($0)" }.joined(separator: "\n")
-        let user = """
-        Öğrencinin durumu:
-        \(facts)
+        let user: String
+        switch request.learnerLanguage {
+        case .turkish:
+            user = """
+            Öğrencinin durumu:
+            \(facts)
 
-        Taslak not:
-        \(request.draft)
+            Taslak not:
+            \(request.draft)
 
-        Bu taslağı aynı bilgileri koruyarak, daha kişisel ve cesaret verici bir dille yeniden yaz.
-        """
+            Bu taslağı aynı bilgileri koruyarak, daha kişisel ve cesaret verici bir dille yeniden yaz.
+            """
+        case .english:
+            user = """
+            The learner's situation:
+            \(facts)
+
+            Draft note:
+            \(request.draft)
+
+            Rewrite this draft in a more personal and encouraging way, keeping the same information.
+            """
+        }
         return [
-            ChatPromptMessage(role: .system, text: systemInstructions),
+            ChatPromptMessage(role: .system, text: systemInstructions(for: request.learnerLanguage)),
             ChatPromptMessage(role: .user, text: user)
         ]
     }
