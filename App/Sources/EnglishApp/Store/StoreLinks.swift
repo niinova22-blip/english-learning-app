@@ -6,8 +6,7 @@ enum StoreLinks {
     /// requirement for auto-renewing subscriptions.
     static let termsOfUse = URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")
 
-    /// Set to the published privacy policy URL before the first App Store
-    /// submission (docs/store-setup.md step 6). The paywall hides the link
-    /// while this is nil.
-    static let privacyPolicy: URL? = nil
+    /// Published from the public niinova22-blip/lexpath repo (GitHub Pages),
+    /// kept separate so it stays online after this repo goes private.
+    static let privacyPolicy = URL(string: "https://niinova22-blip.github.io/lexpath/privacy.html")
 }

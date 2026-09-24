@@ -20,11 +20,13 @@ adımlar App Store Connect'te elle yapılır. CI gerçek StoreKit'i çalıştır
 4. Her ürüne Türkçe görünen ad ve açıklama gir, fiyat belirle, "Aile Paylaşımı"
    kapalı kalsın.
 5. Her ürün için inceleme ekran görüntüsü olarak paywall sayfasının görüntüsünü ekle.
-6. **Gizlilik politikası** ve **kullanım şartları** URL'lerini hazırla.
-   `App/Sources/EnglishApp/Store/StoreLinks.swift` içindeki `privacyPolicy` değerini
-   yayımlanan gizlilik politikası adresiyle doldur (abonelik uygulamaları bu
-   bağlantı olmadan reddedilir). Kullanım şartları için Apple'ın standart EULA'sı
-   kullanılır.
+6. **Gizlilik politikası** ve **kullanım şartları** — HAZIR. Gizlilik politikası
+   https://niinova22-blip.github.io/lexpath/privacy.html adresinde (ayrı public
+   `niinova22-blip/lexpath` reposu, GitHub Pages) ve `StoreLinks.privacyPolicy`'de
+   tanımlı. App Store Connect'te "Gizlilik Politikası URL'si" alanına bu adresi,
+   "Destek URL'si" alanına https://niinova22-blip.github.io/lexpath/ adresini gir.
+   Uygulama Gizliliği bölümünde "Veri toplanmıyor" seçilir. Kullanım şartları için
+   Apple'ın standart EULA'sı kullanılır.
 7. **Sandbox test hesabı** oluştur (Kullanıcılar ve Erişim → Sandbox).
 
 ## 2. Yerel geliştirme (Xcode)
