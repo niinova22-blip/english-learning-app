@@ -45,6 +45,29 @@ final class ContentImporterTests: XCTestCase {
         """.data(using: .utf8)!
     }
 
+    func test_importPackage_readsOptionalAudienceAndSummary() throws {
+        let base = String(decoding: packageJSON(), as: UTF8.self)
+        let withMeta = base.replacingOccurrences(of: #""version": 1,"#, with: #""audience": "tr", "summary": "Short line.", "version": 1,"#)
+        XCTAssertNotEqual(base, withMeta)
+        let package = try ContentImporter.importPackage(from: Data(withMeta.utf8), into: makeInMemoryContext())
+        XCTAssertEqual(package.audience, "tr")
+        XCTAssertEqual(package.summary, "Short line.")
+    }
+
+    func test_importPackage_withoutAudienceOrSummary_leavesThemNil() throws {
+        let package = try ContentImporter.importPackage(from: packageJSON(), into: makeInMemoryContext())
+        XCTAssertNil(package.audience)
+        XCTAssertNil(package.summary)
+    }
+
+    func test_learningGoal_isExam() {
+        XCTAssertTrue(LearningGoal.yds.isExam)
+        XCTAssertTrue(LearningGoal.toefl.isExam)
+        XCTAssertFalse(LearningGoal.business.isExam)
+        XCTAssertFalse(LearningGoal.conversational.isExam)
+        XCTAssertFalse(LearningGoal.custom.isExam)
+    }
+
     func test_importPackage_validJSON_buildsFullHierarchyWithWiredRelationships() throws {
         let json = """
         {
