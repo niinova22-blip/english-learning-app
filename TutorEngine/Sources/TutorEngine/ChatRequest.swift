@@ -23,9 +23,11 @@ public struct ChatTurn: Sendable, Equatable {
 /// App target) — this type makes no assumption about length.
 public struct ChatRequest: Sendable, Equatable {
     public let history: [ChatTurn]
+    public let learnerLanguage: LearnerLanguage
 
-    public init(history: [ChatTurn]) {
+    public init(history: [ChatTurn], learnerLanguage: LearnerLanguage = .turkish) {
         self.history = history
+        self.learnerLanguage = learnerLanguage
     }
 }
 
@@ -58,8 +60,17 @@ public enum ChatPromptBuilder {
     public static let systemInstructions =
         "You are a concise, encouraging English tutor helping a Turkish-speaking learner. Continue the conversation naturally, staying focused on English language learning."
 
+    public static func systemInstructions(for language: LearnerLanguage) -> String {
+        switch language {
+        case .turkish:
+            return systemInstructions
+        case .english:
+            return "You are a concise, encouraging English tutor helping an English learner. Continue the conversation naturally, staying focused on English language learning."
+        }
+    }
+
     public static func build(for request: ChatRequest) -> [ChatPromptMessage] {
-        var messages = [ChatPromptMessage(role: .system, text: systemInstructions)]
+        var messages = [ChatPromptMessage(role: .system, text: systemInstructions(for: request.learnerLanguage))]
         for turn in request.history {
             switch turn.role {
             case .user:

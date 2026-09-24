@@ -23,19 +23,22 @@ public struct TutorRequest: Sendable, Equatable {
     public let exampleSentences: [String]
     public let translationTR: String
     public let ask: TutorAsk
+    public let learnerLanguage: LearnerLanguage
 
     public init(
         headword: String,
         definition: String,
         exampleSentences: [String],
         translationTR: String,
-        ask: TutorAsk
+        ask: TutorAsk,
+        learnerLanguage: LearnerLanguage = .turkish
     ) {
         self.headword = headword
         self.definition = definition
         self.exampleSentences = exampleSentences
         self.translationTR = translationTR
         self.ask = ask
+        self.learnerLanguage = learnerLanguage
     }
 }
 
@@ -65,11 +68,13 @@ public struct QuestionTutorRequest: Sendable, Equatable {
     public let ask: TutorAsk
     /// Body of the reading passage the question belongs to, if any.
     public let passage: String?
+    public let learnerLanguage: LearnerLanguage
 
     public init(
         prompt: String, options: [String], correctIndex: Int,
         selectedIndex: Int?, explanationTR: String, ask: TutorAsk,
-        passage: String? = nil
+        passage: String? = nil,
+        learnerLanguage: LearnerLanguage = .turkish
     ) {
         self.passage = passage
         self.prompt = prompt
@@ -78,5 +83,6 @@ public struct QuestionTutorRequest: Sendable, Equatable {
         self.selectedIndex = selectedIndex
         self.explanationTR = explanationTR
         self.ask = ask
+        self.learnerLanguage = learnerLanguage
     }
 }
