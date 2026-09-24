@@ -17,7 +17,7 @@ struct RootTabView: View {
     }
 
     /// Onboarding needs a package to pick; with none installed, fall through to
-    /// the tabs so Profil (storage warning, reset) stays reachable.
+    /// the tabs so Profile (storage warning, reset) stays reachable.
     static func shouldShowOnboarding(hasCompletedOnboarding: Bool, hasInstalledPackage: Bool) -> Bool {
         !hasCompletedOnboarding && hasInstalledPackage
     }
@@ -26,15 +26,15 @@ struct RootTabView: View {
         if !Self.shouldShowOnboarding(hasCompletedOnboarding: hasCompletedOnboarding, hasInstalledPackage: !packages.isEmpty) {
             TabView {
                 TodayPlanView()
-                    .tabItem { Label("Bugün", systemImage: "sun.max") }
+                    .tabItem { Label("Today", systemImage: "sun.max") }
                 CoursePathView()
-                    .tabItem { Label("Ders Yolu", systemImage: "map") }
+                    .tabItem { Label("Course", systemImage: "map") }
                 if appState.isTutorAvailable {
                     TutorTabView()
                         .tabItem { Label("Tutor", systemImage: "bubble.left.and.bubble.right") }
                 }
                 ProfileView()
-                    .tabItem { Label("Profil", systemImage: "person.crop.circle") }
+                    .tabItem { Label("Profile", systemImage: "person.crop.circle") }
             }
             .tint(Theme.primary)
         } else {
