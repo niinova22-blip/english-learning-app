@@ -8,13 +8,13 @@ struct LevelTestResultView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Tahmini seviyen").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("Your estimated level").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Text(outcome.cefrLevel.rawValue)
                 .font(.system(size: 56, weight: .bold, design: .serif))
                 .foregroundStyle(Theme.primary)
-            Text("Kelime bilgisi: %\(Int((outcome.vocabularyScore * 100).rounded()))")
+            Text("Vocabulary: %\(Int((outcome.vocabularyScore * 100).rounded()))")
                 .font(.subheadline).foregroundStyle(Theme.secondaryInk)
-            Text("Bu, sadece bu paketin kelime listesine göre kaba bir tahmindir.")
+            Text("This is just a rough estimate based on this package's word list.")
                 .font(.caption).foregroundStyle(Theme.secondaryInk)
             Spacer(minLength: 0)
             Button(buttonTitle, action: onContinue).buttonStyle(PrimaryButtonStyle())

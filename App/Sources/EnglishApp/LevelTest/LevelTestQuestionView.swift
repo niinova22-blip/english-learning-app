@@ -8,10 +8,10 @@ struct LevelTestQuestionView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Soru \(questionNumber)/\(LevelTestEngine.questionCount)")
+            Text("Question \(questionNumber)/\(LevelTestEngine.questionCount)")
                 .font(.caption.weight(.semibold)).foregroundStyle(Theme.secondaryInk)
             Text(question.headword).font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
-            Text("Türkçe anlamı hangisi?").font(.subheadline).foregroundStyle(Theme.secondaryInk)
+            Text("Which is the Turkish meaning?").font(.subheadline).foregroundStyle(Theme.secondaryInk)
             ForEach(Array(question.choices.enumerated()), id: \.offset) { index, choice in
                 Button {
                     onAnswer(index)

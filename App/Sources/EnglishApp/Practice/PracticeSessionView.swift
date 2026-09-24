@@ -20,14 +20,14 @@ struct PracticeSessionView: View {
     var body: some View {
         Group {
             if let loadError {
-                ContentUnavailableView("Oturum açılamadı", systemImage: "exclamationmark.triangle", description: Text(loadError))
+                ContentUnavailableView("Couldn't open session", systemImage: "exclamationmark.triangle", description: Text(loadError))
                     .overlay(alignment: .bottom) {
-                        Button("Plana dön", action: onClose).buttonStyle(PrimaryButtonStyle()).padding()
+                        Button("Back to plan", action: onClose).buttonStyle(PrimaryButtonStyle()).padding()
                     }
             } else if let viewModel {
                 content(viewModel)
             } else {
-                ProgressView().accessibilityLabel("Yükleniyor")
+                ProgressView().accessibilityLabel("Loading")
             }
         }
         .background(Theme.paper.ignoresSafeArea())
@@ -64,12 +64,12 @@ struct PracticeSessionView: View {
             ProgressView()
         case .unavailable:
             ContentUnavailableView(
-                "Bu ders henüz hazır değil",
+                "This lesson isn't ready yet",
                 systemImage: "questionmark.folder",
-                description: Text("İçerik güncellendiğinde burada görünecek.")
+                description: Text("It'll show up here once the content is updated.")
             )
             .overlay(alignment: .bottom) {
-                Button("Plana dön", action: onClose).buttonStyle(PrimaryButtonStyle()).padding()
+                Button("Back to plan", action: onClose).buttonStyle(PrimaryButtonStyle()).padding()
             }
         case .summary:
             PracticeSummaryView(title: vm.lessonTitle, summary: vm.summary(), onDone: onClose)
@@ -126,7 +126,7 @@ struct PracticeSessionView: View {
                         .frame(minWidth: 44, minHeight: 44)
                         .contentShape(Rectangle())
                 }
-                .accessibilityLabel("Kapat")
+                .accessibilityLabel("Close")
                 ProgressBar(progress: vm.progress)
                 Text(vm.progressText).font(.footnote.monospacedDigit()).foregroundStyle(Theme.secondaryInk)
             }
@@ -145,17 +145,17 @@ struct PracticeSessionView: View {
 
     private func saveErrorRow(_ vm: PracticeSessionViewModel, message: String) -> some View {
         VStack(alignment: .leading, spacing: 8) {
-            Label("Kaydedilemedi", systemImage: "exclamationmark.triangle.fill")
+            Label("Couldn't save", systemImage: "exclamationmark.triangle.fill")
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(Theme.danger)
             Text(message)
                 .font(.footnote)
                 .foregroundStyle(Theme.ink)
             HStack(spacing: 16) {
-                Button("Tekrar dene") { vm.retrySave() }
+                Button("Try again") { vm.retrySave() }
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(Theme.primary)
-                Button("Kapat") { vm.clearSaveError() }
+                Button("Close") { vm.clearSaveError() }
                     .font(.subheadline)
                     .foregroundStyle(Theme.secondaryInk)
             }
