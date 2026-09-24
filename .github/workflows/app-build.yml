@@ -48,4 +48,9 @@ jobs:
             -project EnglishApp.xcodeproj \
             -scheme EnglishApp \
             -destination 'platform=iOS Simulator,name=iPhone 17' \
-            CODE_SIGNING_ALLOWED=NO
+            -derivedDataPath "$RUNNER_TEMP/dd" \n            CODE_SIGNING_ALLOWED=NO
+      - name: Check Turkish translations
+        # Every string the compiler extracted must have a "tr" value in
+        # Localizable.xcstrings (see scripts/check-localization.py).
+        working-directory: ${{ github.workspace }}
+        run: python3 scripts/check-localization.py "$RUNNER_TEMP/dd"
