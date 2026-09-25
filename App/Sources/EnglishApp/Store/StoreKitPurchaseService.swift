@@ -7,12 +7,21 @@ import StoreKit
 struct StoreKitPurchaseService: PurchaseService {
     func products(for ids: [String]) async throws -> [StoreProduct] {
         let products = try await Product.products(for: ids)
-        return products.map {
-            StoreProduct(
-                id: $0.id, displayName: $0.displayName, displayPrice: $0.displayPrice,
-                kind: PremiumProducts.kind(forProductID: $0.id)
+        var result: [StoreProduct] = []
+        for product in products {
+            var item = StoreProduct(
+                id: product.id, displayName: product.displayName, displayPrice: product.displayPrice,
+                kind: PremiumProducts.kind(forProductID: product.id)
             )
+            item.price = product.price
+            item.priceFormat = product.priceFormatStyle
+            if let subscription = product.subscription, let offer = subscription.introductoryOffer, offer.paymentMode == .freeTrial {
+                item.trialDays = Self.days(in: offer.period)
+                item.isTrialEligible = await subscription.isEligibleForIntroOffer
+            }
+            result.append(item)
         }
+        return result
     }
 
     func purchase(productID: String) async throws -> PurchaseOutcome {
@@ -39,7 +48,9 @@ struct StoreKitPurchaseService: PurchaseService {
         var result: [StoreEntitlement] = []
         for await verification in Transaction.currentEntitlements {
             if case .verified(let transaction) = verification, Self.isActive(transaction) {
-                result.append(StoreEntitlement(productID: transaction.productID, isActive: true))
+                result.append(StoreEntitlement(
+                    productID: transaction.productID, isActive: true, trialEndsAt: await Self.trialEnd(of: transaction)
+                ))
             }
         }
         return result
@@ -50,9 +61,11 @@ struct StoreKitPurchaseService: PurchaseService {
             let task = Task {
                 for await verification in Transaction.updates {
                     if case .verified(let transaction) = verification {
-                        continuation.yield(
-                            StoreEntitlement(productID: transaction.productID, isActive: Self.isActive(transaction))
-                        )
+                        let isActive = Self.isActive(transaction)
+                        continuation.yield(StoreEntitlement(
+                            productID: transaction.productID, isActive: isActive,
+                            trialEndsAt: isActive ? await Self.trialEnd(of: transaction) : nil
+                        ))
                         await transaction.finish()
                     }
                 }
@@ -64,6 +77,33 @@ struct StoreKitPurchaseService: PurchaseService {
 
     func restore() async throws {
         try await AppStore.sync()
+    }
+
+    /// The first charge date of a subscription still in its free trial that
+    /// will renew; nil otherwise (a trial the learner cancelled will not charge).
+    private static func trialEnd(of transaction: Transaction) async -> Date? {
+        let isIntroductory: Bool
+        if #available(iOS 17.2, *) {
+            isIntroductory = transaction.offer?.type == .introductory
+        } else {
+            isIntroductory = transaction.offerType == .introductory
+        }
+        guard isIntroductory, let expiration = transaction.expirationDate else { return nil }
+        if let status = await transaction.subscriptionStatus,
+           case .verified(let renewal) = status.renewalInfo, !renewal.willAutoRenew {
+            return nil
+        }
+        return expiration
+    }
+
+    private static func days(in period: Product.SubscriptionPeriod) -> Int {
+        switch period.unit {
+        case .day: return period.value
+        case .week: return period.value * 7
+        case .month: return period.value * 30
+        case .year: return period.value * 365
+        @unknown default: return period.value
+        }
     }
 
     /// Revoked (refunded) and expired transactions are not entitlements.

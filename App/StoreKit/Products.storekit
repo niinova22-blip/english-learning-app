@@ -3,7 +3,7 @@
   "nonRenewingSubscriptions" : [],
   "products" : [
     {
-      "displayPrice" : "299.99",
+      "displayPrice" : "12.99",
       "familyShareable" : false,
       "internalID" : "6740000001",
       "localizations" : [
@@ -11,6 +11,11 @@
           "description" : "YDS paketinin tüm üniteleri ve dersleri.",
           "displayName" : "YDS Paketi",
           "locale" : "tr"
+        },
+        {
+          "description" : "Every unit and lesson of the YDS package.",
+          "displayName" : "YDS Prep",
+          "locale" : "en_US"
         }
       ],
       "productID" : "com.niinova22.englishapp.package.yds",
@@ -18,7 +23,7 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "299.99",
+      "displayPrice" : "9.99",
       "familyShareable" : false,
       "internalID" : "6740000004",
       "localizations" : [
@@ -33,7 +38,7 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "299.99",
+      "displayPrice" : "9.99",
       "familyShareable" : false,
       "internalID" : "6740000005",
       "localizations" : [
@@ -58,16 +63,26 @@
         {
           "adHocOffers" : [],
           "codeOffers" : [],
-          "displayPrice" : "49.99",
+          "displayPrice" : "6.99",
           "familyShareable" : false,
           "groupNumber" : 1,
           "internalID" : "6740000002",
-          "introductoryOffer" : null,
+          "introductoryOffer" : {
+            "internalID" : "6740000102",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
           "localizations" : [
             {
               "description" : "Öğretmene Sor ve sohbet, aylık.",
               "displayName" : "AI Premium (aylık)",
               "locale" : "tr"
+            },
+            {
+              "description" : "Personal study coach and AI tutor, billed monthly.",
+              "displayName" : "AI Premium (monthly)",
+              "locale" : "en_US"
             }
           ],
           "productID" : "com.niinova22.englishapp.premium.monthly",
@@ -80,16 +95,26 @@
         {
           "adHocOffers" : [],
           "codeOffers" : [],
-          "displayPrice" : "399.99",
+          "displayPrice" : "39.99",
           "familyShareable" : false,
           "groupNumber" : 1,
           "internalID" : "6740000003",
-          "introductoryOffer" : null,
+          "introductoryOffer" : {
+            "internalID" : "6740000103",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
           "localizations" : [
             {
               "description" : "Öğretmene Sor ve sohbet, yıllık.",
               "displayName" : "AI Premium (yıllık)",
               "locale" : "tr"
+            },
+            {
+              "description" : "Personal study coach and AI tutor, billed yearly.",
+              "displayName" : "AI Premium (yearly)",
+              "locale" : "en_US"
             }
           ],
           "productID" : "com.niinova22.englishapp.premium.yearly",

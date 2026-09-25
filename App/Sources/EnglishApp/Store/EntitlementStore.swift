@@ -9,6 +9,9 @@ final class EntitlementStore {
     static let cacheKey = "store.activeProductIDs"
 
     private(set) var activeProductIDs: Set<String>
+    /// End of a running free trial (see `StoreEntitlement.trialEndsAt`).
+    var trialEndsAt: Date? { trialEnds.values.max() }
+    private var trialEnds: [String: Date] = [:]
 
     @ObservationIgnored let snapshot: EntitlementSnapshot
     /// Called after every change of the active set (AppState bumps `dataGeneration`).
@@ -48,11 +51,13 @@ final class EntitlementStore {
     }
 
     func refresh() async {
-        let entitlements = await service.currentEntitlements()
-        setActive(Set(entitlements.filter(\.isActive).map(\.productID)))
+        let entitlements = await service.currentEntitlements().filter(\.isActive)
+        trialEnds = Dictionary(entitlements.compactMap { e in e.trialEndsAt.map { (e.productID, $0) } }, uniquingKeysWith: max)
+        setActive(Set(entitlements.map(\.productID)))
     }
 
     func apply(_ update: StoreEntitlement) {
+        trialEnds[update.productID] = update.isActive ? update.trialEndsAt : nil
         var next = activeProductIDs
         if update.isActive {
             next.insert(update.productID)

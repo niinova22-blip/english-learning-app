@@ -7,6 +7,14 @@ struct StoreProduct: Equatable, Sendable {
     let displayName: String
     let displayPrice: String
     let kind: Kind
+    /// Numeric price, for savings and per-month texts.
+    var price: Decimal = 0
+    /// Length of the free introductory offer; nil when there is none.
+    var trialDays: Int? = nil
+    /// StoreKit allows one introductory offer per subscription group.
+    var isTrialEligible: Bool = false
+    /// Formats other amounts in the product's currency.
+    var priceFormat: Decimal.FormatStyle.Currency? = nil
 }
 
 enum PurchaseOutcome: Equatable, Sendable {
@@ -19,6 +27,9 @@ struct StoreEntitlement: Equatable, Sendable {
     let productID: String
     /// False after revocation, refund or expiry.
     let isActive: Bool
+    /// When the free trial of this subscription ends and the first charge
+    /// happens; nil for paid periods, packages, or when auto-renew is off.
+    var trialEndsAt: Date? = nil
 }
 
 enum StoreError: Error, Equatable {
