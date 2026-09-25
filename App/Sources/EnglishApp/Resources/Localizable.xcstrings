@@ -1,6 +1,159 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%@ ahead" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ öndesin"
+          }
+        }
+      }
+    },
+    "%@ behind" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ geridesin"
+          }
+        }
+      }
+    },
+    "%@ left until your exam, and the remaining lessons need %@ a day, which is %@ more than your daily time. You can increase your daily time or rethink your exam date." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınavına %1$@ kaldı ve kalan dersler için günde %2$@ gerekiyor; bu, günlük sürenden %3$@ fazla. Günlük süreni artırabilir ya da sınav tarihini gözden geçirebilirsin."
+          }
+        }
+      }
+    },
+    "%@ left until your exam. No new lessons this week: focus on reviews and the topics you found hard." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınavına %@ kaldı. Bu hafta yeni ders yok: tekrarlara ve zorlandığın konulara odaklan."
+          }
+        }
+      }
+    },
+    "%@ left until your target date, and the remaining lessons need %@ a day, which is %@ more than your daily time. You can increase your daily time or rethink your target date." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarihine %1$@ kaldı ve kalan dersler için günde %2$@ gerekiyor; bu, günlük sürenden %3$@ fazla. Günlük süreni artırabilir ya da hedef tarihini gözden geçirebilirsin."
+          }
+        }
+      }
+    },
+    "%@ left until your target date. No new lessons this week: focus on reviews and the topics you found hard." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarihine %@ kaldı. Bu hafta yeni ders yok: tekrarlara ve zorlandığın konulara odaklan."
+          }
+        }
+      }
+    },
+    "%lld days" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld gün"
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld lessons in this package are locked; your plan updates when you unlock them." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paketin %lld dersi kilitli; açtığında programın güncellenir."
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lesson in this package is locked; your plan updates when you unlock it."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lessons in this package are locked; your plan updates when you unlock them."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld minutes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dakika"
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld minute"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld minutes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld%%" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -12,6 +165,17 @@
         }
       }
     },
+    "A personal plan built around your date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınav tarihine göre kişisel program"
+          }
+        }
+      }
+    },
     "A quick level check" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -19,6 +183,83 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kısa bir seviye kontrolü"
+          }
+        }
+      }
+    },
+    "AI Coach" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Koç"
+          }
+        }
+      }
+    },
+    "AI Coach, locked. A personal plan built around your date. Tap to upgrade to AI Premium." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Koç, kilitli. Sınav tarihine göre kişisel program. AI Premium'a geçmek için dokun."
+          }
+        }
+      }
+    },
+    "Add a target date and I'll build your plan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarih ekle, programını kurayım"
+          }
+        }
+      }
+    },
+    "Add a target date and I'll build your plan around it." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarih eklersen programını ona göre kurarım."
+          }
+        }
+      }
+    },
+    "Add your exam date and I'll build your plan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınav tarihini ekle, programını kurayım"
+          }
+        }
+      }
+    },
+    "Add your exam date and I'll build your plan around it." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınav tarihini eklersen programını ona göre kurarım."
+          }
+        }
+      }
+    },
+    "All done" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapsam tamam"
           }
         }
       }
@@ -52,6 +293,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plana dön"
+          }
+        }
+      }
+    },
+    "Change exam date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınav tarihini değiştir"
+          }
+        }
+      }
+    },
+    "Change target date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarihini değiştir"
           }
         }
       }
@@ -177,6 +440,50 @@
         }
       }
     },
+    "Date passed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarih geçti"
+          }
+        }
+      }
+    },
+    "Days studied in the last 7 days: %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son 7 günde çalışılan gün: %lld"
+          }
+        }
+      }
+    },
+    "Days until the exam: %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınava kalan gün: %lld"
+          }
+        }
+      }
+    },
+    "Days until the target date: %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarihe kalan gün: %lld"
+          }
+        }
+      }
+    },
     "Do you have an exam date?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -195,6 +502,61 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sınav tarihi"
+          }
+        }
+      }
+    },
+    "Exam in %@ · progress %@ · reviews only" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınava %1$@ · ilerleme %2$@ · sadece tekrar"
+          }
+        }
+      }
+    },
+    "Exam in %@ · progress %@ · ~%lld min of new lessons a day" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınava %1$@ · ilerleme %2$@ · günde ~%3$lld dk yeni ders"
+          }
+        }
+      }
+    },
+    "Final week: review" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son hafta: tekrar"
+          }
+        }
+      }
+    },
+    "Get a personal note from your coach" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koçtan kişisel not al"
+          }
+        }
+      }
+    },
+    "Getting started" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlangıç"
           }
         }
       }
@@ -276,6 +638,17 @@
         }
       }
     },
+    "Increase daily time" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlük süreyi artır"
+          }
+        }
+      }
+    },
     "It'll show up here once the content is updated." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -283,6 +656,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "İçerik güncellendiğinde burada görünecek."
+          }
+        }
+      }
+    },
+    "Lessons finished in the last 7 days: %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son 7 günde biten ders: %lld"
           }
         }
       }
@@ -309,6 +693,17 @@
         }
       }
     },
+    "New lesson time needed per day: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlük gereken yeni ders süresi: %@"
+          }
+        }
+      }
+    },
     "Next" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -327,6 +722,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Henüz yüklü bir ders paketi yok. Uygulamayı yeniden başlatmayı dene; olmazsa Profil sekmesinden yerel verileri sıfırlayabilirsin."
+          }
+        }
+      }
+    },
+    "On track" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yoldasın"
           }
         }
       }
@@ -364,6 +770,17 @@
         }
       }
     },
+    "Pace too low" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo yetmiyor"
+          }
+        }
+      }
+    },
     "Profile" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -375,6 +792,39 @@
         }
       }
     },
+    "Progress %@ · unlocked lessons done" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlerleme %@ · açık dersler bitti"
+          }
+        }
+      }
+    },
+    "Progress %@ · ~%lld min of new lessons a day" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlerleme %1$@ · günde ~%2$lld dk yeni ders"
+          }
+        }
+      }
+    },
+    "Progress: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlerleme: %@"
+          }
+        }
+      }
+    },
     "Question %lld/%lld" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -382,6 +832,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soru %lld/%lld"
+          }
+        }
+      }
+    },
+    "Remaining lesson time: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalan ders süresi: %@"
           }
         }
       }
@@ -404,6 +865,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Metni göster: %@"
+          }
+        }
+      }
+    },
+    "Skill most needed this week: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu hafta en çok ihtiyaç duyulan beceri: %@"
           }
         }
       }
@@ -441,6 +913,28 @@
         }
       }
     },
+    "Status: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durum: %@"
+          }
+        }
+      }
+    },
+    "Streak: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seri: %@"
+          }
+        }
+      }
+    },
     "TOPIC REVIEW · %@" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -448,6 +942,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "KONU TEKRARI · %@"
+          }
+        }
+      }
+    },
+    "Target in %@ · progress %@ · reviews only" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedefe %1$@ · ilerleme %2$@ · sadece tekrar"
+          }
+        }
+      }
+    },
+    "Target in %@ · progress %@ · ~%lld min of new lessons a day" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedefe %1$@ · ilerleme %2$@ · günde ~%3$lld dk yeni ders"
           }
         }
       }
@@ -529,6 +1045,17 @@
         }
       }
     },
+    "We'll move at your own pace, with about %@ of new lessons a day. Let's start with your first lesson." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kendi temponla, günde yaklaşık %@ yeni dersle ilerleyeceğiz. İlk dersinle başlayalım."
+          }
+        }
+      }
+    },
     "We'll review this topic again in %@" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -551,6 +1078,83 @@
         }
       }
     },
+    "You're %@ ahead of plan. Great work! Keep this pace and you'll reach your goal early." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Planın %@ önündesin, harika gidiyorsun! Bu tempoyu korursan hedefine erken ulaşırsın."
+          }
+        }
+      }
+    },
+    "You're %@ behind plan. Finish today's plan and you'll start closing the gap." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plana göre %@ gerisindesin. Bugünkü planını bitirirsen açığı kapatmaya başlarsın."
+          }
+        }
+      }
+    },
+    "You're %@ behind plan. I've added a few extra lessons to today's plan; keep this up for a few days and you'll catch up." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plana göre %@ gerisindesin. Bugünkü plana birkaç ek ders koydum; birkaç gün böyle devam edersen yetişirsin."
+          }
+        }
+      }
+    },
+    "You're making steady progress at your own pace. Keep going with about %@ of new lessons a day." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kendi temponda düzenli ilerliyorsun. Günde yaklaşık %@ yeni dersle devam."
+          }
+        }
+      }
+    },
+    "You've finished every unlocked lesson. Now it's time to strengthen what you know with reviews." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Açık olan bütün dersleri bitirdin. Şimdi tekrarlarla bildiklerini sağlamlaştırma zamanı."
+          }
+        }
+      }
+    },
+    "Your coach" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koçun"
+          }
+        }
+      }
+    },
+    "Your coach is writing..." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koçun yazıyor..."
+          }
+        }
+      }
+    },
     "Your estimated level" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -562,6 +1166,39 @@
         }
       }
     },
+    "Your exam date seems to have passed. Add a new date and I'll build your plan around it; until then, we'll keep going at your own pace." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınav tarihin geçmiş görünüyor. Yeni bir tarih eklersen programını ona göre kurarım; o zamana kadar kendi temponla devam ediyoruz."
+          }
+        }
+      }
+    },
+    "Your exam is %@ away and you're on track. Keep going with about %@ of new lessons a day." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınavına %1$@ var ve planındasın. Günde yaklaşık %2$@ yeni dersle devam."
+          }
+        }
+      }
+    },
+    "Your exam is %@ away. About %@ a day covers the remaining %lld minutes of lessons. Let's start with your first lesson." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınavına %1$@ var. Kalan %3$lld dakikalık ders için günde yaklaşık %2$@ yeterli. İlk dersinle başlayalım."
+          }
+        }
+      }
+    },
     "Your study plan is built around the goal you choose." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -569,6 +1206,39 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Çalışma planın seçtiğin hedefe göre kurulur."
+          }
+        }
+      }
+    },
+    "Your target date is %@ away and you're on track. Keep going with about %@ of new lessons a day." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarihine %1$@ var ve planındasın. Günde yaklaşık %2$@ yeni dersle devam."
+          }
+        }
+      }
+    },
+    "Your target date is %@ away. About %@ a day covers the remaining %lld minutes of lessons. Let's start with your first lesson." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarihine %1$@ var. Kalan %3$lld dakikalık ders için günde yaklaşık %2$@ yeterli. İlk dersinle başlayalım."
+          }
+        }
+      }
+    },
+    "Your target date seems to have passed. Add a new date and I'll build your plan around it; until then, we'll keep going at your own pace." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef tarihin geçmiş görünüyor. Yeni bir tarih eklersen programını ona göre kurarım; o zamana kadar kendi temponla devam ediyoruz."
           }
         }
       }

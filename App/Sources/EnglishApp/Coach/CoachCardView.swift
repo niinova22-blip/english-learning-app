@@ -13,7 +13,7 @@ struct CoachCardView: View {
         PaperCard {
             VStack(alignment: .leading, spacing: 10) {
                 HStack {
-                    Label("Koçun", systemImage: "figure.run.circle")
+                    Label("Your coach", systemImage: "figure.run.circle")
                         .font(.caption.weight(.bold)).foregroundStyle(Theme.primary)
                     Spacer()
                     Text(CoachMessageTemplates.badge(for: plan.status))
@@ -25,7 +25,7 @@ struct CoachCardView: View {
                 Text(viewModel.text)
                     .font(.subheadline).foregroundStyle(Theme.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                Text(CoachMessageTemplates.progressLine(for: plan))
+                Text(CoachMessageTemplates.progressLine(for: plan, isExam: briefing.isExamGoal))
                     .font(.footnote.monospacedDigit()).foregroundStyle(Theme.secondaryInk)
                 ProgressBar(progress: plan.completedShare)
                 if let locked = CoachMessageTemplates.lockedLine(for: plan) {
@@ -34,18 +34,18 @@ struct CoachCardView: View {
                 if case .unreachable = plan.status {
                     ViewThatFits(in: .horizontal) {
                         HStack {
-                            Button("Günlük süreyi artır", action: onOpenSettings)
+                            Button("Increase daily time", action: onOpenSettings)
                             Spacer()
-                            Button("Sınav tarihini değiştir", action: onOpenSettings)
+                            Button(changeDateTitle, action: onOpenSettings)
                         }
                         VStack(alignment: .leading) {
-                            Button("Günlük süreyi artır", action: onOpenSettings)
-                            Button("Sınav tarihini değiştir", action: onOpenSettings)
+                            Button("Increase daily time", action: onOpenSettings)
+                            Button(changeDateTitle, action: onOpenSettings)
                         }
                     }
                     .font(.footnote.weight(.semibold)).foregroundStyle(Theme.primary)
                 } else if CoachMessageTemplates.needsExamDateInvite(plan) {
-                    Button(plan.status == .examPassed ? "Sınav tarihini değiştir" : "Sınav tarihini ekle, programını kurayım", action: onOpenSettings)
+                    Button(plan.status == .examPassed ? changeDateTitle : addDateTitle, action: onOpenSettings)
                         .font(.footnote.weight(.semibold)).foregroundStyle(Theme.primary)
                 }
                 if canAskModel && viewModel.source == .template {
@@ -53,9 +53,9 @@ struct CoachCardView: View {
                         Task { await viewModel.requestPersonalNote() }
                     } label: {
                         if viewModel.isGenerating {
-                            HStack(spacing: 6) { ProgressView(); Text("Koçun yazıyor...") }
+                            HStack(spacing: 6) { ProgressView(); Text("Your coach is writing...") }
                         } else {
-                            Label("Koçtan kişisel not al", systemImage: "sparkles")
+                            Label("Get a personal note from your coach", systemImage: "sparkles")
                         }
                     }
                     .font(.footnote.weight(.semibold)).foregroundStyle(Theme.primary)
@@ -64,6 +64,16 @@ struct CoachCardView: View {
             }
         }
         .accessibilityElement(children: .contain)
+    }
+
+    private var changeDateTitle: String {
+        briefing.isExamGoal ? String(localized: "Change exam date") : String(localized: "Change target date")
+    }
+
+    private var addDateTitle: String {
+        briefing.isExamGoal
+            ? String(localized: "Add your exam date and I'll build your plan")
+            : String(localized: "Add a target date and I'll build your plan")
     }
 }
 
@@ -76,8 +86,8 @@ struct CoachTeaserCard: View {
                 HStack(spacing: 10) {
                     Image(systemName: "lock.fill").foregroundStyle(Theme.secondaryInk)
                     VStack(alignment: .leading, spacing: 2) {
-                        Text("AI Koç").font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
-                        Text("Sınav tarihine göre kişisel program").font(.caption).foregroundStyle(Theme.secondaryInk)
+                        Text("AI Coach").font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
+                        Text("A personal plan built around your date").font(.caption).foregroundStyle(Theme.secondaryInk)
                     }
                     Spacer()
                     Image(systemName: "chevron.right").font(.caption).foregroundStyle(Theme.secondaryInk)
@@ -85,6 +95,6 @@ struct CoachTeaserCard: View {
             }
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("AI Koç, kilitli. Sınav tarihine göre kişisel program. AI Premium'a geçmek için dokun.")
+        .accessibilityLabel("AI Coach, locked. A personal plan built around your date. Tap to upgrade to AI Premium.")
     }
 }

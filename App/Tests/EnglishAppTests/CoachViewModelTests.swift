@@ -101,8 +101,8 @@ final class CoachViewModelTests: XCTestCase {
         vm.show(briefing(.behind(days: 3)), day: day, coachAddedLessons: false)
         let withoutLessons = vm.text
 
-        XCTAssertEqual(withLessons, "Plana göre 3 gün gerisindesin. Bugünkü plana birkaç ek ders koydum; birkaç gün böyle devam edersen yetişirsin.")
-        XCTAssertEqual(withoutLessons, "Plana göre 3 gün gerisindesin. Bugünkü planını bitirirsen açığı kapatmaya başlarsın.")
+        XCTAssertEqual(withLessons, "You're 3 days behind plan. I've added a few extra lessons to today's plan; keep this up for a few days and you'll catch up.")
+        XCTAssertEqual(withoutLessons, "You're 3 days behind plan. Finish today's plan and you'll start closing the gap.")
         XCTAssertNotEqual(withLessons, withoutLessons)
     }
 

@@ -97,12 +97,15 @@ public struct CoachBriefing: Sendable, Equatable {
     public let weekMinutes: Int
     public let weekLessonsCompleted: Int
     public let streak: Int
+    /// Exam goals (YDS, TOEFL) talk about an exam date; others a target date.
+    public let isExamGoal: Bool
 
-    public init(plan: CoachPlan, weekDaysStudied: Int, weekMinutes: Int, weekLessonsCompleted: Int, streak: Int) {
+    public init(plan: CoachPlan, weekDaysStudied: Int, weekMinutes: Int, weekLessonsCompleted: Int, streak: Int, isExamGoal: Bool = true) {
         self.plan = plan
         self.weekDaysStudied = weekDaysStudied
         self.weekMinutes = weekMinutes
         self.weekLessonsCompleted = weekLessonsCompleted
         self.streak = streak
+        self.isExamGoal = isExamGoal
     }
 }

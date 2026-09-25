@@ -167,7 +167,8 @@ struct TodayPlanCoordinator {
             weekDaysStudied: studiedDays.count,
             weekMinutes: Int(snapshot.pastWeekSkillMinutes.values.reduce(0, +).rounded()),
             weekLessonsCompleted: weekCompletions.count,
-            streak: try streak()
+            streak: try streak(),
+            isExamGoal: snapshot.package.goal.isExam
         )
     }
 
