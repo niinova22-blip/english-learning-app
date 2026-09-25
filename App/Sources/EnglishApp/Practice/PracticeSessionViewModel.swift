@@ -118,7 +118,7 @@ final class PracticeSessionViewModel {
             step = .unavailable
             return
         }
-        lessonTitle = lesson.title
+        lessonTitle = lesson.displayTitle
         skill = lesson.skill
         if let storedPassage = lesson.passage {
             passage = PassageVM(title: storedPassage.title, body: storedPassage.body)

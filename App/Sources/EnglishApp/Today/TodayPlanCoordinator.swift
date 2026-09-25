@@ -78,7 +78,7 @@ struct TodayPlanCoordinator {
         let completion = try completionDates()
         let planLessons = lessons.map { lesson in
             PlanLesson(
-                id: lesson.id, title: lesson.title, skill: lesson.skill,
+                id: lesson.id, title: lesson.displayTitle, skill: lesson.skill,
                 estimatedMinutes: lesson.estimatedDurationMinutes,
                 isAccessible: accessible.contains(lesson.id),
                 completedAt: completion[lesson.id]
@@ -195,7 +195,7 @@ struct TodayPlanCoordinator {
             wordsSeen: wordsSeen,
             completedLessons: completed,
             totalLessons: lessonIDs.count,
-            packageName: package?.name,
+            packageName: package?.displayName,
             accessLevel: package.map { accessProvider.accessLevel(forPackageID: $0.id) },
             dailyMinutes: profile?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes
         )
@@ -216,7 +216,7 @@ struct TodayPlanCoordinator {
         var index: [String: (lessonID: String, title: String, skill: Skill)] = [:]
         for item in try context.fetch(FetchDescriptor<LearningItem>()) where !item.type.isVocabularyCard {
             guard let lesson = item.lesson else { continue }
-            index[item.id] = (lesson.id, lesson.title, Skill.forItem(type: item.type, lessonSkill: lesson.skill))
+            index[item.id] = (lesson.id, lesson.displayTitle, Skill.forItem(type: item.type, lessonSkill: lesson.skill))
         }
         return index
     }

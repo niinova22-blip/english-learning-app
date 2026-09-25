@@ -23,15 +23,19 @@ final class OnboardingViewModel {
     private let userID: String
     private let clock: () -> Date
 
-    init(context: ModelContext, userID: String, language: AppLanguage = .current, clock: @escaping () -> Date = Date.init) {
+    init(
+        context: ModelContext, userID: String, language: AppLanguage = .current,
+        ownedPackageIDs: Set<String> = [], clock: @escaping () -> Date = Date.init
+    ) {
         self.context = context
         self.userID = userID
         self.clock = clock
-        loadGoalOptions(language: language)
+        loadGoalOptions(language: language, ownedPackageIDs: ownedPackageIDs)
     }
 
-    private func loadGoalOptions(language: AppLanguage) {
-        let packages = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
+    private func loadGoalOptions(language: AppLanguage, ownedPackageIDs: Set<String>) {
+        let all = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
+        let packages = PackageOrdering.visible(all, language: language, activeID: nil, ownedIDs: ownedPackageIDs)
         goalOptions = PackageOrdering.sorted(packages, for: language).map { PackageOption($0, language: language) }
         selectedPackageID = goalOptions.first?.id
     }

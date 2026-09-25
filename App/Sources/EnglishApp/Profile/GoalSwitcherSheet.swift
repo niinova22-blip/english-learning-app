@@ -18,10 +18,13 @@ final class GoalSwitcherViewModel {
     init(context: ModelContext, userID: String, accessProvider: any PackageAccessProvider, language: AppLanguage = .current) {
         self.context = context
         self.userID = userID
-        let packages = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
+        let all = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
+        let owned = Set(all.filter { accessProvider.accessLevel(forPackageID: $0.id) == .owned }.map(\.id))
+        let active = try? profile()?.activePackageID
+        let packages = PackageOrdering.visible(all, language: language, activeID: active, ownedIDs: owned)
         options = PackageOrdering.sorted(packages, for: language).map { PackageOption($0, language: language) }
-        ownedPackageIDs = Set(packages.filter { accessProvider.accessLevel(forPackageID: $0.id) == .owned }.map(\.id))
-        activePackageID = try? profile()?.activePackageID
+        ownedPackageIDs = owned
+        activePackageID = active
     }
 
     /// Makes `packageID` the active goal. Returns true when the goal changed.

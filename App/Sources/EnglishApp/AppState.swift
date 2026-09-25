@@ -38,7 +38,7 @@ final class AppState {
     func registerPackageProducts(from context: ModelContext) {
         let packages = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
         entitlements.snapshot.registerPackages(packages.compactMap { package in
-            package.storeProductID.map { PackageProduct(packageID: package.id, productID: $0, name: package.name) }
+            package.storeProductID.map { PackageProduct(packageID: package.id, productID: $0, name: package.displayName) }
         })
     }
 

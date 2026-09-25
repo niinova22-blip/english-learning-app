@@ -60,12 +60,12 @@ final class CoursePathViewModel {
             let lessons = unit.lessons.sorted { $0.order < $1.order }
             let tasks: [PlanTask] = lessons.map { lesson in
                 if accessible.contains(lesson.id) {
-                    return .lesson(id: lesson.id, title: lesson.title, skill: lesson.skill, minutes: Double(lesson.estimatedDurationMinutes), isDone: completion[lesson.id] != nil)
+                    return .lesson(id: lesson.id, title: lesson.displayTitle, skill: lesson.skill, minutes: Double(lesson.estimatedDurationMinutes), isDone: completion[lesson.id] != nil)
                 } else {
-                    return .locked(id: lesson.id, title: lesson.title)
+                    return .locked(id: lesson.id, title: lesson.displayTitle)
                 }
             }
-            return CoursePathSection(unitID: unit.id, theme: unit.theme, tasks: tasks)
+            return CoursePathSection(unitID: unit.id, theme: unit.displayTheme, tasks: tasks)
         }
     }
 }

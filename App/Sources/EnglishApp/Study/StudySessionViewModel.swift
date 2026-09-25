@@ -77,7 +77,7 @@ final class StudySessionViewModel {
                 isFinished = true
                 return
             }
-            lessonTitle = lesson.title
+            lessonTitle = lesson.displayTitle
             let ordered = lesson.items.sorted { ($0.frequencyRank, $0.id) < ($1.frequencyRank, $1.id) }
             lessonItemIDs = ordered.map(\.id)
             let seen = try seenItemIDs()

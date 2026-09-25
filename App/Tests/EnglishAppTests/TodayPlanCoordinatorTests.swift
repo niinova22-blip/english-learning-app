@@ -190,7 +190,7 @@ final class TodayPlanCoordinatorTests: XCTestCase {
         XCTAssertEqual(input.duePracticeCards.map(\.itemID), ["yds-practice-card-tenses"])
         XCTAssertEqual(input.duePracticeCards.first?.skill, .grammar)
         XCTAssertEqual(input.duePracticeCards.first?.lessonID, "yds-practice-lesson-tenses")
-        XCTAssertEqual(input.duePracticeCards.first?.title, "Zamanlar (Tenses)")
+        XCTAssertEqual(input.duePracticeCards.first?.title, "Tenses")
         XCTAssertFalse(input.duePracticeCards.first?.isDone ?? true)
 
         let plan = try XCTUnwrap(coordinator(context).buildPlan())

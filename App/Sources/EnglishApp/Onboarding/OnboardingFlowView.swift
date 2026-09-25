@@ -30,7 +30,9 @@ struct OnboardingFlowView: View {
         }
         .onAppear {
             if viewModel == nil {
-                viewModel = OnboardingViewModel(context: context, userID: UserIdentity.current)
+                let packages = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
+                let owned = Set(packages.filter { appState.accessProvider.accessLevel(forPackageID: $0.id) == .owned }.map(\.id))
+                viewModel = OnboardingViewModel(context: context, userID: UserIdentity.current, ownedPackageIDs: owned)
             }
         }
         .onChange(of: viewModel?.isOnboardingComplete) { _, isComplete in

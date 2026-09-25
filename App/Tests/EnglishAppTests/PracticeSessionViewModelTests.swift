@@ -38,7 +38,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
 
         guard case .explanation(let text) = vm.step else { return XCTFail("expected .explanation, got \(vm.step)") }
         XCTAssertTrue(text.contains("Past perfect"))
-        XCTAssertEqual(vm.lessonTitle, "Zamanlar (Tenses)")
+        XCTAssertEqual(vm.lessonTitle, "Tenses")
         XCTAssertEqual(vm.skill, .grammar)
 
         vm.beginQuestions()
@@ -167,7 +167,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
         try vm.start()
 
         XCTAssertEqual(vm.questions.count, 8, "sentence completion is a grammar lesson: 8 of its 15")
-        XCTAssertEqual(vm.lessonTitle, "Cümle Tamamlama")
+        XCTAssertEqual(vm.lessonTitle, "Sentence completion")
         XCTAssertEqual(vm.contextLine, "TOPIC REVIEW · CÜMLE TAMAMLAMA")
         answerAll(vm, correctCount: 5)
         XCTAssertEqual(try context.fetch(FetchDescriptor<ReviewLog>()).first?.itemID, "yds-practice-card-sentence-1")
@@ -350,6 +350,6 @@ final class PracticeSessionViewModelTests: XCTestCase {
         // The CI simulator runs in English, so AppLanguage.current is
         // .english and the title uppercases with en_US (plain "I", no
         // Turkish dotted "İ").
-        XCTAssertEqual(vm.contextLine, "NEW LESSON · OKUMA: KARBON FIYATLANDIRMASI")
+        XCTAssertEqual(vm.contextLine, "NEW LESSON · READING: CARBON PRICING")
     }
 }

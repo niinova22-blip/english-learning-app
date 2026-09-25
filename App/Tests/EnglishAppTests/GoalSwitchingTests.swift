@@ -18,6 +18,21 @@ final class PackageOrderingTests: XCTestCase {
         XCTAssertEqual(sorted, ["business", "everyday", "yds"])
     }
 
+    func test_visible_hidesTurkishPackagesOnEnglishUI_unlessActiveOrOwned() {
+        let all = [yds, business, everyday]
+        XCTAssertEqual(PackageOrdering.visible(all, language: .english, activeID: nil, ownedIDs: []).map(\.id), ["business", "everyday"])
+        XCTAssertEqual(PackageOrdering.visible(all, language: .english, activeID: "yds", ownedIDs: []).map(\.id), ["yds", "business", "everyday"])
+        XCTAssertEqual(PackageOrdering.visible(all, language: .english, activeID: nil, ownedIDs: ["yds"]).map(\.id), ["yds", "business", "everyday"])
+        XCTAssertEqual(PackageOrdering.visible(all, language: .turkish, activeID: nil, ownedIDs: []).map(\.id), ["yds", "business", "everyday"])
+    }
+
+    func test_localizedNames_followTheUILanguage() {
+        let pkg = ContentPackage(id: "b", name: "Business English", goal: .business, levelLower: "B1", levelUpper: "C1")
+        pkg.nameTR = "İş İngilizcesi"
+        XCTAssertEqual(PackageOption(pkg, language: .turkish).name, "İş İngilizcesi")
+        XCTAssertEqual(PackageOption(pkg, language: .english).name, "Business English")
+    }
+
     func test_turkishSpeakersNote_onlyOnEnglishUIForTurkishPackages() {
         XCTAssertTrue(PackageOrdering.showsTurkishSpeakersNote(yds, language: .english))
         XCTAssertFalse(PackageOrdering.showsTurkishSpeakersNote(yds, language: .turkish))
@@ -76,6 +91,16 @@ final class GoalSwitcherViewModelTests: XCTestCase {
     }
 
     @MainActor
+    func test_englishUI_hidesYDSWhenNeitherActiveNorOwned() throws {
+        let context = try makeContext()
+        let profile = try XCTUnwrap(context.fetch(FetchDescriptor<LearnerProfile>()).first)
+        profile.activePackageID = "business"
+        try context.save()
+        let vm = GoalSwitcherViewModel(context: context, userID: userID, accessProvider: FixedAccessProvider(level: .preview), language: .english)
+        XCTAssertEqual(vm.options.map(\.id), ["business"])
+    }
+
+    @MainActor
     func test_select_sameOrUnknownPackage_changesNothing() throws {
         let context = try makeContext()
         let vm = GoalSwitcherViewModel(context: context, userID: userID, accessProvider: FixedAccessProvider(level: .preview))
@@ -95,11 +120,17 @@ final class OnboardingPackagePickerTests: XCTestCase {
         try context.save()
 
         let vm = OnboardingViewModel(context: context, userID: "u", language: .english)
-        XCTAssertEqual(vm.goalOptions.map(\.id), ["everyday", "yds"])
+        XCTAssertEqual(vm.goalOptions.map(\.id), ["everyday"], "YDS is written for Turkish speakers: hidden on English UI")
         XCTAssertEqual(vm.selectedPackageID, "everyday")
         XCTAssertFalse(vm.selectedGoalIsExam)
-        vm.selectedPackageID = "yds"
-        XCTAssertTrue(vm.selectedGoalIsExam)
+
+        let owner = OnboardingViewModel(context: context, userID: "u", language: .english, ownedPackageIDs: ["yds"])
+        XCTAssertEqual(owner.goalOptions.map(\.id), ["everyday", "yds"], "a bought package stays visible")
+        owner.selectedPackageID = "yds"
+        XCTAssertTrue(owner.selectedGoalIsExam)
+
+        let turkish = OnboardingViewModel(context: context, userID: "u", language: .turkish)
+        XCTAssertEqual(turkish.goalOptions.map(\.id), ["yds", "everyday"])
     }
 
     func test_dateWording_followsTheGoal() {

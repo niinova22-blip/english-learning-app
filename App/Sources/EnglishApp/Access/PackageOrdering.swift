@@ -9,9 +9,20 @@ enum PackageOrdering {
         packages.sorted { lhs, rhs in
             let (l, r) = (rank(lhs, language), rank(rhs, language))
             if l != r { return l < r }
-            if lhs.name != rhs.name { return lhs.name.localizedStandardCompare(rhs.name) == .orderedAscending }
+            let (ln, rn) = (lhs.name(for: language.code), rhs.name(for: language.code))
+            if ln != rn { return ln.localizedStandardCompare(rn) == .orderedAscending }
             return lhs.id < rhs.id
         }
+    }
+
+    /// Packages to offer: on English UI, packages written for Turkish speakers
+    /// are hidden unless they are the active goal or already owned (a learner
+    /// who switched the phone to English keeps their package).
+    static func visible(
+        _ packages: [ContentPackage], language: AppLanguage, activeID: String?, ownedIDs: Set<String>
+    ) -> [ContentPackage] {
+        guard language != .turkish else { return packages }
+        return packages.filter { $0.audience != "tr" || $0.id == activeID || ownedIDs.contains($0.id) }
     }
 
     /// True when an English-UI learner should be told the package is taught
@@ -42,10 +53,10 @@ struct PackageOption: Identifiable, Equatable {
 
     init(_ package: ContentPackage, language: AppLanguage) {
         id = package.id
-        name = package.name
+        name = package.name(for: language.code)
         levelLower = package.levelLower
         levelUpper = package.levelUpper
-        summary = package.summary
+        summary = package.summary(for: language.code)
         isForTurkishSpeakers = PackageOrdering.showsTurkishSpeakersNote(package, language: language)
         isExam = package.goal.isExam
     }
