@@ -12,7 +12,7 @@ extension ContentPackage {
     var displaySummary: String? { summary(for: AppLanguage.current.code) }
 }
 
-extension Unit {
+extension LearningEngine.Unit {
     var displayTheme: String { theme(for: AppLanguage.current.code) }
 }
 
