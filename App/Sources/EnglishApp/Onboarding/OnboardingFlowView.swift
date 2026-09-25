@@ -99,6 +99,7 @@ private struct GoalSelectionStep: View {
             }
             Spacer(minLength: 0)
             Button("Continue") { viewModel.advance() }
+                .accessibilityIdentifier("onboarding-continue")
                 .buttonStyle(PrimaryButtonStyle())
                 .disabled(viewModel.selectedPackageID == nil)
         }
@@ -131,6 +132,7 @@ private struct ExamDateStep: View {
                     viewModel.examDate = hasExamDate ? date : nil
                     viewModel.advance()
                 }
+                .accessibilityIdentifier("onboarding-continue")
                 .buttonStyle(PrimaryButtonStyle())
                 .frame(maxWidth: 200)
             }
@@ -156,7 +158,7 @@ private struct DailyDurationStep: View {
             HStack {
                 Button("Back") { viewModel.goBack() }.buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
                 Spacer()
-                Button("Continue") { viewModel.advance() }.buttonStyle(PrimaryButtonStyle()).frame(maxWidth: 200)
+                Button("Continue") { viewModel.advance() }.accessibilityIdentifier("onboarding-continue").buttonStyle(PrimaryButtonStyle()).frame(maxWidth: 200)
             }
         }
     }
@@ -173,6 +175,7 @@ private struct LevelTestIntroStep: View {
             Spacer(minLength: 0)
             Button("Start") { viewModel.startLevelTest() }.buttonStyle(PrimaryButtonStyle())
             Button("Skip") { viewModel.skipLevelTest() }
+                .accessibilityIdentifier("onboarding-skip-test")
                 .buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
                 .frame(maxWidth: .infinity)
         }

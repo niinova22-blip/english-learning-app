@@ -110,6 +110,7 @@ struct PlanTaskRow: View {
             )
         }
         .buttonStyle(PressableButtonStyle())
+        .accessibilityIdentifier("plan-task")
         .disabled(isDone)
     }
 }

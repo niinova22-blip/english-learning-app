@@ -42,5 +42,6 @@ struct PackageOptionRow: View {
         }
         .buttonStyle(PressableButtonStyle())
         .accessibilityAddTraits(isSelected ? .isSelected : [])
+        .accessibilityIdentifier("package-\(option.id)")
     }
 }

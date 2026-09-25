@@ -12,7 +12,7 @@ enum AppModelContainer {
     static private(set) var containerCreationError: String?
 
     static func make() -> ModelContainer {
-        let configuration = ModelConfiguration(schema: schema)
+        let configuration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: ScreenshotMode.isOn)
         do {
             return try ModelContainer(for: schema, configurations: [configuration])
         } catch {

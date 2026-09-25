@@ -85,7 +85,7 @@ struct GoalSwitcherSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Close") { dismiss() }
+                    Button("Close") { dismiss() }.accessibilityIdentifier("goal-switcher-close")
                 }
             }
         }

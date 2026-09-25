@@ -111,7 +111,7 @@ struct StudySessionView: View {
                     }
                 }
             } else {
-                Button("Show answer") { vm.reveal() }.buttonStyle(PrimaryButtonStyle())
+                Button("Show answer") { vm.reveal() }.buttonStyle(PrimaryButtonStyle()).accessibilityIdentifier("study-reveal")
             }
         }
         .padding()

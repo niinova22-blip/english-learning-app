@@ -52,3 +52,37 @@ targets:
       base:
         GENERATE_INFOPLIST_FILE: YES
         SWIFT_VERSION: "5.10"
+  EnglishAppUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: UITests
+    dependencies:
+      - target: EnglishApp
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.10"
+        TEST_TARGET_NAME: EnglishApp
+schemes:
+  EnglishApp:
+    build:
+      targets:
+        EnglishApp: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - EnglishAppTests
+    archive:
+      config: Release
+  Screenshots:
+    build:
+      targets:
+        EnglishApp: all
+    test:
+      config: Debug
+      targets:
+        - EnglishAppUITests

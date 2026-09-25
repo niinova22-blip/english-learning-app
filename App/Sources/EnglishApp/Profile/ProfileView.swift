@@ -49,7 +49,7 @@ struct ProfileView: View {
                     }
                     HStack(spacing: 20) {
                         Button("Edit") { showStudySettings = true }
-                        Button("Change goal") { showGoalSwitcher = true }
+                        Button("Change goal") { showGoalSwitcher = true }.accessibilityIdentifier("profile-change-goal")
                     }
                     .buttonStyle(.plain).foregroundStyle(Theme.primary)
                 }

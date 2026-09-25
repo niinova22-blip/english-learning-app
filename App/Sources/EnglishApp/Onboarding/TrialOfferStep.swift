@@ -30,7 +30,7 @@ struct ReminderStep: View {
             HStack {
                 Button("Back") { viewModel.goBack() }.buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
                 Spacer()
-                Button("Not now") { viewModel.advance() }.buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
+                Button("Not now") { viewModel.advance() }.accessibilityIdentifier("onboarding-reminder-skip").buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
             }
         }
     }
@@ -75,8 +75,10 @@ struct TrialOfferStep: View {
                 .font(.footnote).foregroundStyle(Theme.secondaryInk)
             Spacer(minLength: 0)
             Button(String(localized: "Try free for \(days) days")) { showPaywall = true }
+                .accessibilityIdentifier("trial-try")
                 .buttonStyle(PrimaryButtonStyle())
             Button("Not now") { viewModel.finishTrialOffer() }
+                .accessibilityIdentifier("trial-not-now")
                 .buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
                 .frame(maxWidth: .infinity)
         }

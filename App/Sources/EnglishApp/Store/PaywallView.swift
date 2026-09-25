@@ -21,7 +21,7 @@ struct PaywallView: View {
             .background(Theme.paper.ignoresSafeArea())
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Close") { dismiss() }.foregroundStyle(Theme.secondaryInk)
+                    Button("Close") { dismiss() }.foregroundStyle(Theme.secondaryInk).accessibilityIdentifier("paywall-close")
                 }
             }
         }

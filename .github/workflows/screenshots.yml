@@ -1,0 +1,59 @@
+name: Screenshots
+
+# Captures the main screens (Turkish, English, Turkish dark) in the iOS
+# Simulator using App/UITests/ScreenshotTests.swift. Runs only for commits
+# on release-prep whose message contains "[screenshots]"; the PNGs are
+# uploaded as the "screenshots" artifact.
+on:
+  push:
+    branches: ["release-prep"]
+
+jobs:
+  screenshots:
+    if: contains(github.event.head_commit.message, '[screenshots]')
+    runs-on: macos-latest
+    env:
+      SWIFTPM_MIRROR_CONFIG: ${{ github.workspace }}/ci/swiftpm-mirrors.json
+    defaults:
+      run:
+        working-directory: App
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache tutor model
+        uses: actions/cache@v4
+        with:
+          path: App/Sources/EnglishApp/Resources/TutorModel
+          key: tutor-model-${{ hashFiles('scripts/fetch-tutor-model.sh') }}
+      - name: Fetch tutor model
+        working-directory: ${{ github.workspace }}
+        run: bash scripts/fetch-tutor-model.sh
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate Xcode project
+        run: xcodegen generate
+      - name: Boot simulator with a clean status bar
+        run: |
+          xcrun simctl boot "iPhone 17" || true
+          xcrun simctl bootstatus "iPhone 17" -b
+          xcrun simctl status_bar "iPhone 17" override --time 9:41 --batteryState charged --batteryLevel 100 --cellularBars 4 --wifiBars 3
+      - name: Capture screenshots
+        env:
+          TEST_RUNNER_SCREENSHOT_DIR: ${{ runner.temp }}/screenshots
+        run: |
+          mkdir -p "$TEST_RUNNER_SCREENSHOT_DIR"
+          xcodebuild test \
+            -project EnglishApp.xcodeproj \
+            -scheme Screenshots \
+            -destination 'platform=iOS Simulator,name=iPhone 17' \
+            -derivedDataPath "$RUNNER_TEMP/dd" \
+            -resultBundlePath "$RUNNER_TEMP/Screenshots.xcresult" \
+            CODE_SIGNING_ALLOWED=NO || echo "some steps failed; uploading what was captured"
+          ls -la "$TEST_RUNNER_SCREENSHOT_DIR"
+      - name: Upload screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: ${{ runner.temp }}/screenshots
+          if-no-files-found: warn
