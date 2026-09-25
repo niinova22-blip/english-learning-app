@@ -8,6 +8,9 @@ import TutorEngine
 final class AppState {
     private(set) var dataGeneration = 0
     private(set) var tutorEngine: (any TutorEngine)?
+    /// Length of the AI Premium free trial this learner can still start; nil
+    /// when there is none, it was used, or eligibility is unknown.
+    private(set) var trialOfferDays: Int?
 
     @ObservationIgnored let entitlements: EntitlementStore
     @ObservationIgnored let accessProvider: any PackageAccessProvider
@@ -28,6 +31,16 @@ final class AppState {
         premiumProvider = premium
         #endif
         store.onChange = { [weak self] in self?.bumpDataGeneration() }
+    }
+
+    func loadTrialOffer() async {
+        guard let products = try? await entitlements.products(for: [PremiumProducts.yearly]),
+              let yearly = products.first(where: { $0.id == PremiumProducts.yearly }),
+              PlanPricing.showsTrial(yearly) else {
+            trialOfferDays = nil
+            return
+        }
+        trialOfferDays = yearly.trialDays
     }
 
     func bumpDataGeneration() {

@@ -93,4 +93,24 @@ final class AppStateStoreTests: XCTestCase {
         XCTAssertTrue(state.premiumProvider.isPremium)
     }
     #endif
+
+    func test_trialOffer_isKnownOnlyWhenTheYearlyPlanHasAnEligibleTrial() async {
+        var yearly = StoreProduct.yearly
+        yearly.trialDays = 7
+        yearly.isTrialEligible = true
+        let eligible = AppState(service: FakePurchaseService(products: [yearly]), defaults: makeDefaults())
+        await eligible.loadTrialOffer()
+        XCTAssertEqual(eligible.trialOfferDays, 7)
+
+        yearly.isTrialEligible = false
+        let used = AppState(service: FakePurchaseService(products: [yearly]), defaults: makeDefaults())
+        await used.loadTrialOffer()
+        XCTAssertNil(used.trialOfferDays)
+
+        let failing = FakePurchaseService(products: [])
+        failing.productsError = StoreTestError.boom
+        let offline = AppState(service: failing, defaults: makeDefaults())
+        await offline.loadTrialOffer()
+        XCTAssertNil(offline.trialOfferDays, "unknown eligibility never promises a trial")
+    }
 }

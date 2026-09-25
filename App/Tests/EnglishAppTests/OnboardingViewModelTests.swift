@@ -140,11 +140,13 @@ final class OnboardingViewModelTests: XCTestCase {
     func test_skip_withTrialOffer_savesTheProfileButFinishesOnlyAfterTheOffer() throws {
         let context = try makeContext(richContent: true)
         let vm = OnboardingViewModel(context: context, userID: userID, clock: { self.now })
-        vm.offersTrial = true
+        vm.trialDays = 14
         for _ in 0..<4 { vm.advance() }
         vm.skipLevelTest()
 
         XCTAssertEqual(vm.step, .trialOffer)
+        XCTAssertTrue(vm.offersTrial)
+        XCTAssertEqual(vm.trialDays, 14, "the step shows the store's trial length, not a fixed 7")
         XCTAssertFalse(vm.isOnboardingComplete)
         let profile = try XCTUnwrap(context.fetch(FetchDescriptor<LearnerProfile>()).first, "saved before the offer, so a cancelled purchase loses nothing")
         XCTAssertNil(profile.onboardingCompletedAt, "the app switches to the tabs only after the offer")
@@ -159,7 +161,7 @@ final class OnboardingViewModelTests: XCTestCase {
     func test_levelTestResult_withTrialOffer_goesToTheOffer() throws {
         let context = try makeContext(richContent: true)
         let vm = OnboardingViewModel(context: context, userID: userID, clock: { self.now })
-        vm.offersTrial = true
+        vm.trialDays = 14
         for _ in 0..<4 { vm.advance() }
         vm.startLevelTest()
         while let question = vm.levelTestViewModel?.currentQuestion {

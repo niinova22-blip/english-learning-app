@@ -1,10 +1,12 @@
 import SwiftUI
+import StoreKit
 import SwiftData
 import LearningEngine
 
 struct TodayPlanView: View {
     @Environment(\.modelContext) private var context
     @Environment(AppState.self) private var appState
+    @Environment(\.requestReview) private var requestReview
     @Environment(\.scenePhase) private var scenePhase
 
     private struct ActiveSession: Identifiable {
@@ -38,19 +40,20 @@ struct TodayPlanView: View {
             .toolbar(.hidden, for: .navigationBar)
         }
         .onAppear(perform: refresh)
+        .task { if !appState.premiumProvider.isPremium { await appState.loadTrialOffer() } }
         .onChange(of: scenePhase) { _, phase in if phase == .active { refresh() } }
         .onChange(of: appState.dataGeneration) { _, _ in refresh() }
-        .fullScreenCover(item: $activeSession) { session in
+        .fullScreenCover(item: $activeSession, onDismiss: {
+            SessionEnd.finish(appState: appState, context: context, requestReview: requestReview)
+        }) { session in
             switch session.kind {
             case .study(let mode):
                 StudySessionView(mode: mode) {
                     activeSession = nil
-                    refresh()
                 }
             case .practice(let mode):
                 PracticeSessionView(mode: mode) {
                     activeSession = nil
-                    refresh()
                 }
             }
         }
@@ -137,6 +140,7 @@ struct TodayPlanView: View {
                       TeaserPolicy.shouldShow(lastDismissed: teaserDismissedAt > 0 ? Date(timeIntervalSince1970: teaserDismissedAt) : nil, now: Date()) {
                 CoachTeaserCard(
                     briefing: coachBriefing,
+                    trialDays: appState.trialOfferDays,
                     onUpgrade: { paywall = .premium },
                     onDismiss: { withAnimation { teaserDismissedAt = Date().timeIntervalSince1970 } }
                 )

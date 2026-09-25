@@ -52,19 +52,20 @@ final class EntitlementStore {
 
     func refresh() async {
         let entitlements = await service.currentEntitlements().filter(\.isActive)
-        trialEnds = Dictionary(entitlements.compactMap { e in e.trialEndsAt.map { (e.productID, $0) } }, uniquingKeysWith: max)
-        setActive(Set(entitlements.map(\.productID)))
+        let ends = Dictionary(entitlements.compactMap { e in e.trialEndsAt.map { (e.productID, $0) } }, uniquingKeysWith: max)
+        update(active: Set(entitlements.map(\.productID)), trialEnds: ends)
     }
 
     func apply(_ update: StoreEntitlement) {
-        trialEnds[update.productID] = update.isActive ? update.trialEndsAt : nil
+        var ends = trialEnds
+        ends[update.productID] = update.isActive ? update.trialEndsAt : nil
         var next = activeProductIDs
         if update.isActive {
             next.insert(update.productID)
         } else {
             next.remove(update.productID)
         }
-        setActive(next)
+        self.update(active: next, trialEnds: ends)
     }
 
     func products(for ids: [String]) async throws -> [StoreProduct] {
@@ -84,11 +85,19 @@ final class EntitlementStore {
         await refresh()
     }
 
-    private func setActive(_ ids: Set<String>) {
-        guard ids != activeProductIDs else { return }
-        activeProductIDs = ids
-        snapshot.replaceActiveProductIDs(ids)
-        defaults.set(ids.sorted(), forKey: Self.cacheKey)
+    /// Applies a new state and notifies once if anything changed, including
+    /// only the trial end date (the trial-ending reminder depends on it; it is
+    /// not cached, so a cold start learns it here with the same products).
+    private func update(active ids: Set<String>, trialEnds ends: [String: Date]) {
+        let productsChanged = ids != activeProductIDs
+        let trialChanged = ends != trialEnds
+        guard productsChanged || trialChanged else { return }
+        trialEnds = ends
+        if productsChanged {
+            activeProductIDs = ids
+            snapshot.replaceActiveProductIDs(ids)
+            defaults.set(ids.sorted(), forKey: Self.cacheKey)
+        }
         onChange?()
     }
 }

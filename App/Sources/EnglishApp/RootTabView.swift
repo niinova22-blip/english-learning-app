@@ -25,9 +25,12 @@ struct RootTabView: View {
     @Environment(\.modelContext) private var context
 
     /// Keeps the daily reminder and the trial-ending reminder current: on
-    /// launch and whenever data changes (lesson done, purchase, settings).
+    /// launch and whenever data changes (a session closes, a purchase, settings).
     private func rescheduleReminders() async {
-        let coordinator = TodayPlanCoordinator(context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider)
+        let coordinator = TodayPlanCoordinator(
+            context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider,
+            isPremium: appState.premiumProvider.isPremium
+        )
         let todayComplete = (try? coordinator.buildPlan())?.isComplete ?? false
         await appState.reminders.reschedule(todayComplete: todayComplete, trialEndsAt: appState.entitlements.trialEndsAt)
     }

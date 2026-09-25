@@ -50,4 +50,17 @@ final class TrialEntitlementTests: XCTestCase {
         await store.refresh()
         XCTAssertNil(store.trialEndsAt)
     }
+
+    func test_trialEndLearnedAfterAColdStart_notifiesEvenWithTheSameProducts() async {
+        let defaults = UserDefaults(suiteName: "trial-cold-\(UUID().uuidString)")!
+        defaults.set([PremiumProducts.yearly], forKey: EntitlementStore.cacheKey)
+        let end = Date(timeIntervalSince1970: 2_000_000_000)
+        let fake = FakePurchaseService(entitlements: [StoreEntitlement(productID: PremiumProducts.yearly, isActive: true, trialEndsAt: end)])
+        let store = EntitlementStore(service: fake, defaults: defaults)
+        var changes = 0
+        store.onChange = { changes += 1 }
+        await store.refresh()
+        XCTAssertEqual(store.trialEndsAt, end)
+        XCTAssertEqual(changes, 1, "the reminder scheduler must hear about the trial end")
+    }
 }

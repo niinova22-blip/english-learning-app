@@ -44,8 +44,8 @@ struct OnboardingFlowView: View {
     /// The offer step appears only for learners who can still start a trial.
     private func checkTrialEligibility() async {
         guard let viewModel, !appState.premiumProvider.isPremium else { return }
-        let products = (try? await appState.entitlements.products(for: [PremiumProducts.yearly])) ?? []
-        viewModel.offersTrial = products.contains(where: PlanPricing.showsTrial)
+        await appState.loadTrialOffer()
+        viewModel.trialDays = appState.trialOfferDays
     }
 
     @ViewBuilder

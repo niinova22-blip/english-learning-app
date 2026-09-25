@@ -21,7 +21,13 @@ final class GoalSwitcherViewModel {
         let all = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
         let owned = Set(all.filter { accessProvider.accessLevel(forPackageID: $0.id) == .owned }.map(\.id))
         let active = try? profile()?.activePackageID
-        let packages = PackageOrdering.visible(all, language: language, activeID: active, ownedIDs: owned)
+        let userIDValue = userID
+        let startedLessons = Set(((try? context.fetch(FetchDescriptor<LessonProgress>(predicate: #Predicate { $0.userID == userIDValue }))) ?? []).map(\.lessonID))
+        let started = Set(all.filter { package in
+            package.units.contains { unit in unit.lessons.contains { startedLessons.contains($0.id) } }
+        }.map(\.id))
+        // A package with progress counts like an owned one: switching away must not strand it.
+        let packages = PackageOrdering.visible(all, language: language, activeID: active, ownedIDs: owned.union(started))
         options = PackageOrdering.sorted(packages, for: language).map { PackageOption($0, language: language) }
         ownedPackageIDs = owned
         activePackageID = active

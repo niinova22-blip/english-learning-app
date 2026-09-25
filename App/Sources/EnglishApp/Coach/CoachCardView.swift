@@ -81,6 +81,8 @@ struct CoachCardView: View {
 /// progress line, the message blurred, and a way to start the trial.
 struct CoachTeaserCard: View {
     let briefing: CoachBriefing
+    /// Only a learner who can still start a trial is promised one.
+    let trialDays: Int?
     let onUpgrade: () -> Void
     let onDismiss: () -> Void
 
@@ -107,7 +109,7 @@ struct CoachTeaserCard: View {
                     .lineLimit(3)
                     .blur(radius: 5)
                     .accessibilityHidden(true)
-                Button("Try free for 7 days", action: onUpgrade)
+                Button(trialDays.map { String(localized: "Try free for \($0) days") } ?? String(localized: "See AI Premium"), action: onUpgrade)
                     .buttonStyle(PrimaryButtonStyle())
             }
         }

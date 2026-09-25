@@ -17,9 +17,10 @@ final class OnboardingViewModel {
     var dailyMinutes: Int = LearnerProfile.defaultDailyMinutes
     private(set) var levelTestViewModel: LevelTestViewModel?
     private(set) var isOnboardingComplete = false
-    /// Set by the view once it knows the learner can start an AI Premium
-    /// trial; adds the offer step after the level test.
-    var offersTrial = false
+    /// Length of the AI Premium trial this learner can still start, set by the
+    /// view once known; adds the offer step after the level test.
+    var trialDays: Int?
+    var offersTrial: Bool { trialDays != nil }
     private(set) var loadError: String?
 
     private let context: ModelContext

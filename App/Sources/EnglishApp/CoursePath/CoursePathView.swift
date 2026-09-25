@@ -1,10 +1,12 @@
 import SwiftUI
+import StoreKit
 import SwiftData
 import LearningEngine
 
 struct CoursePathView: View {
     @Environment(\.modelContext) private var context
     @Environment(AppState.self) private var appState
+    @Environment(\.requestReview) private var requestReview
 
     private struct ActiveSession: Identifiable {
         enum Kind {
@@ -28,17 +30,17 @@ struct CoursePathView: View {
         }
         .onAppear(perform: refresh)
         .onChange(of: appState.dataGeneration) { _, _ in refresh() }
-        .fullScreenCover(item: $activeSession) { session in
+        .fullScreenCover(item: $activeSession, onDismiss: {
+            SessionEnd.finish(appState: appState, context: context, requestReview: requestReview)
+        }) { session in
             switch session.kind {
             case .study(let lessonID):
                 StudySessionView(mode: .lesson(id: lessonID)) {
                     activeSession = nil
-                    refresh()
                 }
             case .practice(let lessonID):
                 PracticeSessionView(mode: .lesson(id: lessonID)) {
                     activeSession = nil
-                    refresh()
                 }
             }
         }

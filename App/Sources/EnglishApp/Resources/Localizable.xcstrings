@@ -1424,13 +1424,31 @@
         }
       }
     },
-    "Free for 7 days. We'll remind you the day before it ends; cancel anytime." : {
+    "Free for %lld days. We'll remind you the day before it ends; cancel anytime." : {
       "extractionState" : "manual",
       "localizations" : {
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "7 gün ücretsiz. Bitmeden bir gün önce hatırlatırız; istediğin zaman iptal edebilirsin."
+            "value" : "%lld gün ücretsiz. Bitmeden bir gün önce hatırlatırız; istediğin zaman iptal edebilirsin."
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Free for %lld day. We'll remind you before it ends; cancel anytime."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Free for %lld days. We'll remind you the day before it ends; cancel anytime."
+                }
+              }
+            }
           }
         }
       }
@@ -2480,6 +2498,17 @@
         }
       }
     },
+    "See AI Premium" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Premium'u incele"
+          }
+        }
+      }
+    },
     "Send" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2945,17 +2974,6 @@
                 }
               }
             }
-          }
-        }
-      }
-    },
-    "Try free for 7 days" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "7 gün ücretsiz dene"
           }
         }
       }

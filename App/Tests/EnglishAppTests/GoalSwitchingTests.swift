@@ -91,6 +91,21 @@ final class GoalSwitcherViewModelTests: XCTestCase {
     }
 
     @MainActor
+    func test_englishUI_keepsAPackageTheLearnerHasProgressIn() throws {
+        let context = try makeContext()
+        let ydsUnit = LearningEngine.Unit(id: "yds-unit", theme: "t", order: 0)
+        let ydsLesson = Lesson(id: "yds-lesson", order: 0, estimatedDurationMinutes: 5)
+        ydsUnit.lessons = [ydsLesson]
+        let yds = try XCTUnwrap(context.fetch(FetchDescriptor<ContentPackage>()).first { $0.id == "yds" })
+        yds.units = [ydsUnit]
+        let profile = try XCTUnwrap(context.fetch(FetchDescriptor<LearnerProfile>()).first)
+        profile.activePackageID = "business"
+        try context.save()
+        let vm = GoalSwitcherViewModel(context: context, userID: userID, accessProvider: FixedAccessProvider(level: .preview), language: .english)
+        XCTAssertEqual(Set(vm.options.map(\.id)), ["business", "yds"], "switching away must not strand YDS progress")
+    }
+
+    @MainActor
     func test_englishUI_hidesYDSWhenNeitherActiveNorOwned() throws {
         let context = try makeContext()
         let profile = try XCTUnwrap(context.fetch(FetchDescriptor<LearnerProfile>()).first)

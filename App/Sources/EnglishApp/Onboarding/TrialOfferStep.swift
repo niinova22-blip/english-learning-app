@@ -42,6 +42,8 @@ struct TrialOfferStep: View {
     @Environment(AppState.self) private var appState
     @State private var showPaywall = false
 
+    private var days: Int { viewModel.trialDays ?? 7 }
+
     private var daysLeft: Int? {
         guard let date = viewModel.examDate else { return nil }
         let days = Calendar.current.dateComponents([.day], from: Calendar.current.startOfDay(for: Date()), to: Calendar.current.startOfDay(for: date)).day ?? 0
@@ -69,10 +71,10 @@ struct TrialOfferStep: View {
                     highlight("lock.shield.fill", String(localized: "Runs on your phone, works offline"))
                 }
             }
-            Text("Free for 7 days. We'll remind you the day before it ends; cancel anytime.")
+            Text("Free for \(days) days. We'll remind you the day before it ends; cancel anytime.")
                 .font(.footnote).foregroundStyle(Theme.secondaryInk)
             Spacer(minLength: 0)
-            Button("Try free for 7 days") { showPaywall = true }
+            Button(String(localized: "Try free for \(days) days")) { showPaywall = true }
                 .buttonStyle(PrimaryButtonStyle())
             Button("Not now") { viewModel.finishTrialOffer() }
                 .buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
