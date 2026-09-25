@@ -105,10 +105,10 @@ final class PracticeSessionViewModel {
     var progressText: String { "\(min(currentIndex + 1, questions.count))/\(questions.count)" }
 
     var contextLine: String {
-        let title = lessonTitle.uppercased(with: Locale(identifier: "tr_TR"))
+        let title = lessonTitle.uppercased(with: AppLanguage.current.locale)
         switch mode {
-        case .lesson: return "YENİ DERS · \(title)"
-        case .review: return "KONU TEKRARI · \(title)"
+        case .lesson: return String(localized: "NEW LESSON · \(title)")
+        case .review: return String(localized: "TOPIC REVIEW · \(title)")
         }
     }
 
@@ -169,7 +169,7 @@ final class PracticeSessionViewModel {
         step = explanation.isEmpty ? .question : .explanation(explanation)
     }
 
-    /// "Sorulara geç" on the explanation card.
+    /// "Go to questions" on the explanation card.
     func beginQuestions() {
         guard case .explanation = step else { return }
         step = .question
@@ -199,7 +199,7 @@ final class PracticeSessionViewModel {
         selectedIndex = index
     }
 
-    /// "Sonraki" on the feedback card.
+    /// "Next" on the feedback card.
     func next() {
         guard step == .question, isAnswered else { return }
         if currentIndex + 1 < questions.count {
@@ -318,5 +318,5 @@ final class PracticeSessionViewModel {
 
 /// Stand-in failure used by the test seam; never thrown in production.
 struct PracticeSaveError: LocalizedError {
-    var errorDescription: String? { "Kaydedilemedi. Tekrar dene." }
+    var errorDescription: String? { String(localized: "Couldn't save. Try again.") }
 }

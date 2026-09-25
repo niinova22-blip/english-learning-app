@@ -3,8 +3,8 @@ import SwiftUI
 import LearningEngine
 
 /// Steps 2-5: optional pinned passage, prompt, A-E options, and — once an
-/// option is tapped — the feedback card with the Turkish explanation, the
-/// optional "Öğretmene Sor" button and "Sonraki".
+/// option is tapped — the feedback card with the explanation, the
+/// optional "Ask the tutor" button and "Next".
 struct PracticeQuestionView: View {
     let question: PracticeSessionViewModel.QuestionVM
     let passage: PracticeSessionViewModel.PassageVM?
@@ -45,14 +45,16 @@ struct PracticeQuestionView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
             if isAnswered {
-                Button("Sonraki", action: onNext).buttonStyle(PrimaryButtonStyle())
+                Button("Next", action: onNext).buttonStyle(PrimaryButtonStyle())
             }
         }
         .animation(reduceMotion ? nil : .easeInOut(duration: 0.2), value: selectedIndex)
         .onChange(of: selectedIndex) { _, newValue in
             guard let newValue else { return }
-            let verdict = newValue == question.correctIndex ? "Doğru" : "Yanlış"
-            AccessibilityNotification.Announcement("\(verdict). \(question.explanationTR)").post()
+            let announcement = newValue == question.correctIndex
+                ? String(localized: "Correct. \(question.explanationTR)")
+                : String(localized: "Incorrect. \(question.explanationTR)")
+            AccessibilityNotification.Announcement(announcement).post()
         }
     }
 
@@ -76,7 +78,7 @@ struct PracticeQuestionView: View {
                     .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(isPassageExpanded ? "Metni gizle: \(passage.title)" : "Metni göster: \(passage.title)")
+                .accessibilityLabel(isPassageExpanded ? "Hide passage: \(passage.title)" : "Show passage: \(passage.title)")
                 if isPassageExpanded {
                     // Own scroll view with a capped height, so the options stay
                     // reachable even with a long passage or large Dynamic Type.
@@ -149,7 +151,7 @@ struct PracticeQuestionView: View {
         PaperCard {
             VStack(alignment: .leading, spacing: 10) {
                 Label(
-                    wasCorrect ? "Doğru" : "Yanlış",
+                    wasCorrect ? "Correct" : "Incorrect",
                     systemImage: wasCorrect ? "checkmark.circle.fill" : "xmark.circle.fill"
                 )
                 .font(.subheadline.weight(.semibold))
@@ -165,7 +167,7 @@ struct PracticeQuestionView: View {
                             } else {
                                 Image(systemName: "bubble.left.and.text.bubble.right")
                             }
-                            Text("Öğretmene Sor")
+                            Text("Ask the tutor")
                         }
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(Theme.primary)

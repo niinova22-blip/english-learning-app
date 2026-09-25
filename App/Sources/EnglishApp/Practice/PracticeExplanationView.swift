@@ -2,7 +2,7 @@
 import SwiftUI
 import LearningEngine
 
-/// Step 1 of a grammar lesson: the Turkish rule card, then "Sorulara geç".
+/// Step 1 of a grammar lesson: the rule card, then "Go to questions".
 struct PracticeExplanationView: View {
     let title: String
     let skill: Skill
@@ -26,7 +26,7 @@ struct PracticeExplanationView: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
-            Button("Sorulara geç", action: onContinue)
+            Button("Go to questions", action: onContinue)
                 .buttonStyle(PrimaryButtonStyle())
         }
     }
