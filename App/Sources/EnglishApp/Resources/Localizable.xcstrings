@@ -1,6 +1,17 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "\"Explain it more simply\" on any word card" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her kelime kartında \"daha basit anlat\""
+          }
+        }
+      }
+    },
     "%@ ahead" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -336,6 +347,28 @@
         }
       }
     },
+    "A daily plan built around your exam or target date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınav ya da hedef tarihine göre günlük program"
+          }
+        }
+      }
+    },
+    "A personal note from your coach" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koçundan sana özel bir not"
+          }
+        }
+      }
+    },
     "A personal plan built around your date" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -501,6 +534,28 @@
         }
       }
     },
+    "Ask anything about English, in your language" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İngilizceyle ilgili her şeyi kendi dilinde sor"
+          }
+        }
+      }
+    },
+    "Ask anything about the word" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelimeyle ilgili her şeyi sorabilirsin"
+          }
+        }
+      }
+    },
     "Ask something about this question..." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -541,17 +596,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öğretmene sor"
-          }
-        }
-      }
-    },
-    "Ask the tutor: clear answers to your questions in your language" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Öğretmene Sor: sorunun cevabını Türkçe açıklar"
           }
         }
       }
@@ -600,6 +644,17 @@
         }
       }
     },
+    "Best value · save %lld%%" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En avantajlı · %%%lld tasarruf"
+          }
+        }
+      }
+    },
     "Buy · %@" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -644,17 +699,6 @@
         }
       }
     },
-    "Cancel anytime" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "İstediğin zaman iptal edebilirsin"
-          }
-        }
-      }
-    },
     "Cards" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -695,17 +739,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hedef tarihini değiştir"
-          }
-        }
-      }
-    },
-    "Chat freely with the tutor" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Öğretmenle serbest sohbet"
           }
         }
       }
@@ -1025,6 +1058,17 @@
         }
       }
     },
+    "Day %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld. gün"
+          }
+        }
+      }
+    },
     "Day streak" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1190,6 +1234,17 @@
         }
       }
     },
+    "Falls behind? It adds catch-up lessons to get you back on track" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geride mi kaldın? Seni yeniden plana oturtmak için ek dersler ekler"
+          }
+        }
+      }
+    },
     "Final week: review" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1197,6 +1252,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Son hafta: tekrar"
+          }
+        }
+      }
+    },
+    "Final week: switches to review only, no new material" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son hafta: yeni konu yok, yalnızca tekrar"
+          }
+        }
+      }
+    },
+    "Focuses on the skill you need most" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En çok ihtiyaç duyduğun beceriye odaklanır"
           }
         }
       }
@@ -1219,6 +1296,61 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bilemedim"
+          }
+        }
+      }
+    },
+    "Free chat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serbest sohbet"
+          }
+        }
+      }
+    },
+    "Free for %lld days, then %@ a month. Cancel anytime." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld gün ücretsiz, sonra aylık %2$@. İstediğin zaman iptal edebilirsin."
+          }
+        }
+      }
+    },
+    "Free for %lld days, then %@ a year. Cancel anytime." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld gün ücretsiz, sonra yıllık %2$@. İstediğin zaman iptal edebilirsin."
+          }
+        }
+      }
+    },
+    "Fresh example sentences on demand" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İstediğin zaman yeni örnek cümleler"
+          }
+        }
+      }
+    },
+    "Full access to your coach and tutor." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koçuna ve öğretmenine tam erişim."
           }
         }
       }
@@ -1340,6 +1472,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Benzer kelimelerden farkı ne?"
+          }
+        }
+      }
+    },
+    "How it differs from similar words" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benzer kelimelerden farkı"
           }
         }
       }
@@ -1582,6 +1725,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aboneliği yönet"
+          }
+        }
+      }
+    },
+    "Monthly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aylık"
           }
         }
       }
@@ -1938,6 +2092,17 @@
         }
       }
     },
+    "Question explainer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soru açıklayıcı"
+          }
+        }
+      }
+    },
     "REVIEW" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2044,6 +2209,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekrar tamamlandı"
+          }
+        }
+      }
+    },
+    "Runs entirely on your device: works offline, and nothing you ask leaves your phone." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamamen cihazında çalışır: internetsiz de çalışır ve sorduğun hiçbir şey telefonundan çıkmaz."
           }
         }
       }
@@ -2213,13 +2389,13 @@
         }
       }
     },
-    "Study coach: a personal plan built around your exam or target date" : {
+    "Study coach" : {
       "extractionState" : "manual",
       "localizations" : {
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Çalışma koçu: sınav ya da hedef tarihine göre kişisel program"
+            "value" : "Çalışma koçu"
           }
         }
       }
@@ -2330,6 +2506,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bugünlük hepsi bu"
+          }
+        }
+      }
+    },
+    "The first unit stays free, so you can try before you buy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk ünite ücretsiz; satın almadan önce deneyebilirsin"
           }
         }
       }
@@ -2488,6 +2675,35 @@
         }
       }
     },
+    "Try free for %lld days" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld gün ücretsiz dene"
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Try free for %lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Try free for %lld days"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "Try to recall the meaning" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2642,6 +2858,17 @@
         }
       }
     },
+    "We remind you that your trial ends tomorrow." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denemenin yarın bittiğini sana hatırlatırız."
+          }
+        }
+      }
+    },
     "We'll move at your own pace, with about %@ of new lessons a day. Let's start with your first lesson." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2675,6 +2902,17 @@
         }
       }
     },
+    "Weekly summary and your estimated finish date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haftalık özet ve tahmini bitiş tarihin"
+          }
+        }
+      }
+    },
     "Which is the Turkish meaning?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2693,6 +2931,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diğer şıklar neden yanlış?"
+          }
+        }
+      }
+    },
+    "Why each of the other options doesn't fit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diğer şıkların neden uymadığı"
           }
         }
       }
@@ -2719,6 +2968,17 @@
         }
       }
     },
+    "Why your answer was wrong" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevabının neden yanlış olduğu"
+          }
+        }
+      }
+    },
     "Word review" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2730,6 +2990,17 @@
         }
       }
     },
+    "Word tutor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelime öğretmeni"
+          }
+        }
+      }
+    },
     "Writing" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2737,6 +3008,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yazma"
+          }
+        }
+      }
+    },
+    "Yearly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yıllık"
           }
         }
       }
@@ -2884,6 +3166,17 @@
         }
       }
     },
+    "Your personal coach and tutor, right on your phone" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kişisel koçun ve öğretmenin, telefonunda"
+          }
+        }
+      }
+    },
     "Your purchases were updated." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2913,6 +3206,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Çalışma planın, ders yolun ve koçun seçtiğin hedefe göre şekillenir. Her paketteki ilerlemen korunur."
+          }
+        }
+      }
+    },
+    "Your subscription starts. Cancel before then and you pay nothing." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aboneliğin başlar. Öncesinde iptal edersen hiçbir şey ödemezsin."
           }
         }
       }
@@ -3005,6 +3309,17 @@
         }
       }
     },
+    "questions" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "soru"
+          }
+        }
+      }
+    },
     "score" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3027,6 +3342,17 @@
         }
       }
     },
+    "units" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ünite"
+          }
+        }
+      }
+    },
     "words" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3034,6 +3360,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "kelime"
+          }
+        }
+      }
+    },
+    "≈ %@ / month" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "≈ ayda %@"
           }
         }
       }

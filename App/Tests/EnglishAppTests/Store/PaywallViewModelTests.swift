@@ -1,5 +1,7 @@
 import XCTest
+import SwiftData
 @testable import EnglishApp
+import LearningEngine
 
 @MainActor
 final class PaywallViewModelTests: XCTestCase {
@@ -31,11 +33,11 @@ final class PaywallViewModelTests: XCTestCase {
         XCTAssertEqual(vm.title, "YDS: Academic Vocabulary I")
     }
 
-    func test_load_premiumMode_listsMonthlyThenYearly_andPreselectsYearly() async {
+    func test_load_premiumMode_listsYearlyThenMonthly_andPreselectsYearly() async {
         let vm = PaywallViewModel(mode: .premium, store: makeStore(FakePurchaseService(products: [.yearly, .monthly, .yds])))
         await vm.load()
         XCTAssertEqual(vm.state, .ready)
-        XCTAssertEqual(vm.products.map(\.id), [PremiumProducts.monthly, PremiumProducts.yearly])
+        XCTAssertEqual(vm.products.map(\.id), [PremiumProducts.yearly, PremiumProducts.monthly])
         XCTAssertEqual(vm.selectedProductID, PremiumProducts.yearly)
         XCTAssertEqual(vm.title, "AI Premium")
     }
@@ -157,4 +159,57 @@ final class PaywallViewModelTests: XCTestCase {
         let premiumVM = PaywallViewModel(mode: .premium, store: store)
         XCTAssertFalse(premiumVM.isAlreadyOwned)
     }
+
+    // MARK: Trial and pricing texts
+
+    private func priced(_ product: StoreProduct, _ price: String, trial: Bool, eligible: Bool) -> StoreProduct {
+        var p = product
+        p.price = Decimal(string: price)!
+        p.priceFormat = .currency(code: "USD").locale(Locale(identifier: "en_US"))
+        p.trialDays = trial ? 7 : nil
+        p.isTrialEligible = eligible
+        return p
+    }
+
+    func test_eligibleLearner_seesTheTrialCTA_timeline_andTerms() async {
+        let yearly = priced(.yearly, "39.99", trial: true, eligible: true)
+        let monthly = priced(.monthly, "6.99", trial: true, eligible: true)
+        let vm = PaywallViewModel(mode: .premium, store: makeStore(FakePurchaseService(products: [yearly, monthly])))
+        await vm.load()
+        XCTAssertTrue(vm.showsTrialTimeline)
+        XCTAssertEqual(vm.ctaTitle, "Try free for 7 days")
+        XCTAssertEqual(vm.trialTerms, "Free for 7 days, then ₺399,99 a year. Cancel anytime.")
+        XCTAssertEqual(vm.savingsPercent, 52)
+        XCTAssertEqual(vm.perMonthText(for: yearly), "≈ $3.33 / month")
+        XCTAssertNil(vm.perMonthText(for: monthly))
+    }
+
+    func test_learnerWhoUsedTheTrial_seesThePlainPrice() async {
+        let yearly = priced(.yearly, "39.99", trial: true, eligible: false)
+        let vm = PaywallViewModel(mode: .premium, store: makeStore(FakePurchaseService(products: [yearly])))
+        await vm.load()
+        XCTAssertFalse(vm.showsTrialTimeline)
+        XCTAssertNil(vm.trialTerms)
+        XCTAssertEqual(vm.ctaTitle, "Subscribe · ₺399,99")
+        XCTAssertNil(vm.savingsPercent, "no monthly price to compare with")
+    }
+
+    func test_packageMode_ctaIsAOneTimeBuy() async {
+        let vm = PaywallViewModel(mode: packageMode, store: makeStore(FakePurchaseService(products: [.yds])))
+        await vm.load()
+        XCTAssertEqual(vm.ctaTitle, "Buy · ₺299,99")
+        XCTAssertFalse(vm.showsTrialTimeline)
+    }
 }
+
+final class PackageStatsTests: XCTestCase {
+    @MainActor
+    func test_countsUnitsLessonsAndQuestions() throws {
+        let container = try ModelContainer(for: AppModelContainer.schema, configurations: [ModelConfiguration(schema: AppModelContainer.schema, isStoredInMemoryOnly: true)])
+        let context = ModelContext(container)
+        _ = try ContentSeeder.seed(bundledData: TestPackageJSON.make(), into: context)
+        let package = try XCTUnwrap(context.fetch(FetchDescriptor<ContentPackage>()).first)
+        XCTAssertEqual(PackageStats(package), PackageStats(units: 2, lessons: 4, questions: 0))
+    }
+}
+
