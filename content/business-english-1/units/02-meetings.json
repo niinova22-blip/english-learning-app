@@ -1,0 +1,676 @@
+{
+  "id": "biz-unit-02-meetings",
+  "theme": "Meetings",
+  "order": 1,
+  "lessons": [
+    {
+      "id": "biz-u02-vocab-1",
+      "order": 0,
+      "estimatedDurationMinutes": 6,
+      "title": "Meetings I",
+      "skill": "vocabulary",
+      "items": [
+        {
+          "id": "biz-item-agenda",
+          "type": "vocabulary",
+          "headword": "agenda",
+          "frequencyRank": 4200,
+          "baseDifficulty": 0.45,
+          "definition": "a plan that shows the topics to be covered during a meeting",
+          "exampleSentences": [
+            "The manager sent the agenda to all attendees an hour before the meeting.",
+            "We didn't have time to cover the last item on the agenda."
+          ],
+          "translationTR": "",
+          "collocations": ["set the agenda", "stick to the agenda", "a full agenda"]
+        },
+        {
+          "id": "biz-item-minutes",
+          "type": "vocabulary",
+          "headword": "minutes",
+          "frequencyRank": 3800,
+          "baseDifficulty": 0.4,
+          "definition": "the official written record of what was discussed and decided at a meeting",
+          "exampleSentences": [
+            "Could you take the minutes for today's meeting?",
+            "The minutes were emailed to everyone who couldn't attend."
+          ],
+          "translationTR": "",
+          "collocations": ["take minutes", "approve the minutes", "read the minutes"]
+        },
+        {
+          "id": "biz-item-chair",
+          "type": "vocabulary",
+          "headword": "chair",
+          "frequencyRank": 5200,
+          "baseDifficulty": 0.5,
+          "definition": "to lead and control a meeting or discussion",
+          "exampleSentences": [
+            "She has chaired the weekly meeting for over a year.",
+            "Who is going to chair tomorrow's discussion?"
+          ],
+          "translationTR": "",
+          "collocations": ["chair a meeting", "chair a session", "asked to chair"]
+        },
+        {
+          "id": "biz-item-postpone",
+          "type": "vocabulary",
+          "headword": "postpone",
+          "frequencyRank": 4600,
+          "baseDifficulty": 0.45,
+          "definition": "to delay something and arrange for it to happen at a later time",
+          "exampleSentences": [
+            "We had to postpone the meeting because two directors were traveling.",
+            "The launch meeting was postponed until next quarter."
+          ],
+          "translationTR": "",
+          "collocations": ["postpone a meeting", "postpone until further notice", "repeatedly postponed"]
+        },
+        {
+          "id": "biz-item-consensus",
+          "type": "vocabulary",
+          "headword": "consensus",
+          "frequencyRank": 6500,
+          "baseDifficulty": 0.55,
+          "definition": "general agreement among a group of people",
+          "exampleSentences": [
+            "After a long discussion, the team finally reached a consensus.",
+            "It's hard to build consensus when opinions are so different."
+          ],
+          "translationTR": "",
+          "collocations": ["reach a consensus", "build consensus", "a general consensus"]
+        },
+        {
+          "id": "biz-item-action-item",
+          "type": "vocabulary",
+          "headword": "action item",
+          "frequencyRank": 9000,
+          "baseDifficulty": 0.5,
+          "definition": "a task that someone agrees to complete after a meeting",
+          "exampleSentences": [
+            "Each action item was assigned to a specific team member.",
+            "We reviewed the action items from last week's meeting."
+          ],
+          "translationTR": "",
+          "collocations": ["assign an action item", "a list of action items", "follow up on action items"]
+        },
+        {
+          "id": "biz-item-attendee",
+          "type": "vocabulary",
+          "headword": "attendee",
+          "frequencyRank": 7000,
+          "baseDifficulty": 0.45,
+          "definition": "a person who is present at a meeting or event",
+          "exampleSentences": [
+            "There were twenty attendees at the quarterly review.",
+            "Each attendee received a printed copy of the agenda."
+          ],
+          "translationTR": "",
+          "collocations": ["a meeting attendee", "welcome the attendees", "the number of attendees"]
+        },
+        {
+          "id": "biz-item-adjourn",
+          "type": "vocabulary",
+          "headword": "adjourn",
+          "frequencyRank": 8500,
+          "baseDifficulty": 0.55,
+          "definition": "to stop a meeting for a period of time or end it completely",
+          "exampleSentences": [
+            "The chair adjourned the meeting until two o'clock.",
+            "We adjourned early because everyone had covered their points."
+          ],
+          "translationTR": "",
+          "collocations": ["adjourn the meeting", "adjourn until", "formally adjourn"]
+        },
+        {
+          "id": "biz-item-brainstorm",
+          "type": "vocabulary",
+          "headword": "brainstorm",
+          "frequencyRank": 5800,
+          "baseDifficulty": 0.45,
+          "definition": "to think of as many ideas as possible in a short time, usually in a group",
+          "exampleSentences": [
+            "The team brainstormed ideas for the new product name.",
+            "Let's brainstorm for ten minutes before we choose a solution."
+          ],
+          "translationTR": "",
+          "collocations": ["brainstorm ideas", "a brainstorming session", "brainstorm solutions"]
+        },
+        {
+          "id": "biz-item-follow-up",
+          "type": "vocabulary",
+          "headword": "follow up",
+          "frequencyRank": 4000,
+          "baseDifficulty": 0.4,
+          "definition": "to take further action about something after an earlier discussion or event",
+          "exampleSentences": [
+            "I'll follow up with the design team after the meeting.",
+            "She followed up on his request by sending an email."
+          ],
+          "translationTR": "",
+          "collocations": ["follow up on", "a quick follow-up", "follow up with someone"]
+        }
+      ]
+    },
+    {
+      "id": "biz-u02-vocab-2",
+      "order": 1,
+      "estimatedDurationMinutes": 6,
+      "title": "Meetings II",
+      "skill": "vocabulary",
+      "items": [
+        {
+          "id": "biz-item-reschedule",
+          "type": "vocabulary",
+          "headword": "reschedule",
+          "frequencyRank": 6000,
+          "baseDifficulty": 0.45,
+          "definition": "to arrange for something to happen at a different time than originally planned",
+          "exampleSentences": [
+            "We had to reschedule the call because of a technical problem.",
+            "Can we reschedule Thursday's meeting to Friday morning?"
+          ],
+          "translationTR": "",
+          "collocations": ["reschedule a meeting", "reschedule for later", "reschedule at short notice"]
+        },
+        {
+          "id": "biz-item-conference-call",
+          "type": "vocabulary",
+          "headword": "conference call",
+          "frequencyRank": 7500,
+          "baseDifficulty": 0.4,
+          "definition": "a phone or video call in which three or more people in different places take part",
+          "exampleSentences": [
+            "We have a conference call with the Singapore office every Monday.",
+            "Several people joined the conference call late because of a technical problem."
+          ],
+          "translationTR": "",
+          "collocations": ["set up a conference call", "join a conference call", "on a conference call"]
+        },
+        {
+          "id": "biz-item-participant",
+          "type": "vocabulary",
+          "headword": "participant",
+          "frequencyRank": 3500,
+          "baseDifficulty": 0.4,
+          "definition": "a person who takes part in an activity or event, such as a meeting or discussion",
+          "exampleSentences": [
+            "Every participant was asked to share one idea.",
+            "The workshop had participants from five different departments."
+          ],
+          "translationTR": "",
+          "collocations": ["an active participant", "workshop participants", "invite participants"]
+        },
+        {
+          "id": "biz-item-facilitator",
+          "type": "vocabulary",
+          "headword": "facilitator",
+          "frequencyRank": 8000,
+          "baseDifficulty": 0.55,
+          "definition": "a person whose job is to help a meeting or discussion run smoothly",
+          "exampleSentences": [
+            "The facilitator kept the discussion focused on the main topic.",
+            "As facilitator, she made sure everyone had a chance to speak."
+          ],
+          "translationTR": "",
+          "collocations": ["act as facilitator", "an experienced facilitator", "the role of facilitator"]
+        },
+        {
+          "id": "biz-item-bring-up",
+          "type": "vocabulary",
+          "headword": "bring up",
+          "frequencyRank": 3200,
+          "baseDifficulty": 0.4,
+          "definition": "to introduce a subject or start talking about it in a discussion",
+          "exampleSentences": [
+            "He brings up an important issue at every meeting.",
+            "Feel free to bring up any concerns during the discussion."
+          ],
+          "translationTR": "",
+          "collocations": ["bring up an issue", "bring up a topic", "bring up a concern"]
+        },
+        {
+          "id": "biz-item-interrupt",
+          "type": "vocabulary",
+          "headword": "interrupt",
+          "frequencyRank": 3000,
+          "baseDifficulty": 0.4,
+          "definition": "to say or do something that stops someone while they are speaking",
+          "exampleSentences": [
+            "Please don't interrupt while others are speaking.",
+            "She interrupted the presentation to ask a quick question."
+          ],
+          "translationTR": "",
+          "collocations": ["interrupt someone", "interrupt a discussion", "sorry to interrupt"]
+        },
+        {
+          "id": "biz-item-digress",
+          "type": "vocabulary",
+          "headword": "digress",
+          "frequencyRank": 9500,
+          "baseDifficulty": 0.6,
+          "definition": "to move away from the main topic and start talking about something else",
+          "exampleSentences": [
+            "The speaker began to digress into stories about his last job.",
+            "Sorry, I'm digressing — let's get back to the main point."
+          ],
+          "translationTR": "",
+          "collocations": ["digress from the topic", "tend to digress", "digress slightly"]
+        },
+        {
+          "id": "biz-item-wrap-up",
+          "type": "vocabulary",
+          "headword": "wrap up",
+          "frequencyRank": 4500,
+          "baseDifficulty": 0.4,
+          "definition": "to finish or bring an activity to an end",
+          "exampleSentences": [
+            "Let's wrap up the meeting with a quick summary.",
+            "We wrapped up early because everyone had said what they needed to."
+          ],
+          "translationTR": "",
+          "collocations": ["wrap up a meeting", "wrap up quickly", "time to wrap up"]
+        },
+        {
+          "id": "biz-item-vote",
+          "type": "vocabulary",
+          "headword": "vote",
+          "frequencyRank": 1500,
+          "baseDifficulty": 0.35,
+          "definition": "to show your choice or opinion formally, for example by raising your hand, so that a group can make a decision",
+          "exampleSentences": [
+            "The board will vote on the proposal at the end of the meeting.",
+            "Most of the team voted in favor of moving the launch to May."
+          ],
+          "translationTR": "",
+          "collocations": ["vote on a proposal", "vote in favor of", "vote against", "take a vote"]
+        },
+        {
+          "id": "biz-item-viewpoint",
+          "type": "vocabulary",
+          "headword": "viewpoint",
+          "frequencyRank": 5000,
+          "baseDifficulty": 0.45,
+          "definition": "a particular way of thinking about a situation, based on someone's own experience or opinion",
+          "exampleSentences": [
+            "Everyone was invited to share their viewpoint on the new policy.",
+            "The two managers had very different viewpoints on the proposal."
+          ],
+          "translationTR": "",
+          "collocations": ["share a viewpoint", "a different viewpoint", "from another viewpoint"]
+        }
+      ]
+    },
+    {
+      "id": "biz-u02-vocab-3",
+      "order": 2,
+      "estimatedDurationMinutes": 6,
+      "title": "Meetings III",
+      "skill": "vocabulary",
+      "items": [
+        {
+          "id": "biz-item-proposal",
+          "type": "vocabulary",
+          "headword": "proposal",
+          "frequencyRank": 3000,
+          "baseDifficulty": 0.4,
+          "definition": "a suggestion or plan that is put forward for people to consider",
+          "exampleSentences": [
+            "The committee will vote on the proposal next week.",
+            "She presented a detailed proposal for the new schedule."
+          ],
+          "translationTR": "",
+          "collocations": ["submit a proposal", "reject a proposal", "a detailed proposal"]
+        },
+        {
+          "id": "biz-item-objection",
+          "type": "vocabulary",
+          "headword": "objection",
+          "frequencyRank": 5500,
+          "baseDifficulty": 0.5,
+          "definition": "a statement expressing disagreement or opposition to a plan or suggestion",
+          "exampleSentences": [
+            "No one raised any objections to the new schedule.",
+            "He voiced his objection during the discussion."
+          ],
+          "translationTR": "",
+          "collocations": ["raise an objection", "have no objection", "voice an objection"]
+        },
+        {
+          "id": "biz-item-unanimous",
+          "type": "vocabulary",
+          "headword": "unanimous",
+          "frequencyRank": 7500,
+          "baseDifficulty": 0.55,
+          "definition": "agreed by everyone in a group, with no one disagreeing",
+          "exampleSentences": [
+            "The vote was unanimous, so the plan was approved immediately.",
+            "The team reached a unanimous decision after a short discussion."
+          ],
+          "translationTR": "",
+          "collocations": ["a unanimous decision", "unanimous agreement", "unanimous vote"]
+        },
+        {
+          "id": "biz-item-majority",
+          "type": "vocabulary",
+          "headword": "majority",
+          "frequencyRank": 2500,
+          "baseDifficulty": 0.4,
+          "definition": "more than half of the people or votes in a group",
+          "exampleSentences": [
+            "The majority voted in favor of the new proposal.",
+            "A small majority preferred the second option."
+          ],
+          "translationTR": "",
+          "collocations": ["a clear majority", "the majority of attendees", "win a majority"]
+        },
+        {
+          "id": "biz-item-briefing",
+          "type": "vocabulary",
+          "headword": "briefing",
+          "frequencyRank": 6000,
+          "baseDifficulty": 0.45,
+          "definition": "a short meeting in which people are given information or instructions",
+          "exampleSentences": [
+            "The manager gave a short briefing before the site visit.",
+            "Attend the morning briefing so you know the day's priorities."
+          ],
+          "translationTR": "",
+          "collocations": ["a morning briefing", "a security briefing", "hold a briefing"]
+        },
+        {
+          "id": "biz-item-kickoff-meeting",
+          "type": "vocabulary",
+          "headword": "kickoff meeting",
+          "frequencyRank": 9500,
+          "baseDifficulty": 0.5,
+          "definition": "the first meeting held at the start of a new project, used to plan and set expectations",
+          "exampleSentences": [
+            "The team held a kickoff meeting to agree on roles and goals.",
+            "During the kickoff meeting, everyone reviewed the project timeline."
+          ],
+          "translationTR": "",
+          "collocations": ["hold a kickoff meeting", "attend the kickoff meeting", "a project kickoff meeting"]
+        },
+        {
+          "id": "biz-item-touch-base",
+          "type": "vocabulary",
+          "headword": "touch base",
+          "frequencyRank": 8000,
+          "baseDifficulty": 0.45,
+          "definition": "to make contact with someone briefly to share information or check on progress",
+          "exampleSentences": [
+            "Let's touch base again on Friday to see how things are going.",
+            "I wanted to touch base before tomorrow's call."
+          ],
+          "translationTR": "",
+          "collocations": ["touch base with someone", "touch base regularly", "quickly touch base"]
+        },
+        {
+          "id": "biz-item-circle-back",
+          "type": "vocabulary",
+          "headword": "circle back",
+          "frequencyRank": 8500,
+          "baseDifficulty": 0.45,
+          "definition": "to return to a topic or person later, often after dealing with something else first",
+          "exampleSentences": [
+            "Let's circle back to the staffing question after the break.",
+            "I'll circle back with you once I have more information."
+          ],
+          "translationTR": "",
+          "collocations": ["circle back to something", "circle back later", "circle back with someone"]
+        },
+        {
+          "id": "biz-item-sidebar",
+          "type": "vocabulary",
+          "headword": "sidebar",
+          "frequencyRank": 9000,
+          "baseDifficulty": 0.5,
+          "definition": "a private conversation between a few people that happens separately during a larger meeting",
+          "exampleSentences": [
+            "They had a quick sidebar about the timeline before the vote.",
+            "Let's continue this sidebar after the meeting and get back to the group now."
+          ],
+          "translationTR": "",
+          "collocations": ["have a sidebar", "a quick sidebar", "a private sidebar conversation"]
+        },
+        {
+          "id": "biz-item-rsvp",
+          "type": "vocabulary",
+          "headword": "RSVP",
+          "frequencyRank": 7000,
+          "baseDifficulty": 0.4,
+          "definition": "to reply to an invitation to say whether you will attend",
+          "exampleSentences": [
+            "Please RSVP by Friday so we can plan the room size.",
+            "Only half of the attendees RSVPed in time."
+          ],
+          "translationTR": "",
+          "collocations": ["RSVP by a date", "kindly RSVP", "RSVP to an invitation"]
+        }
+      ]
+    },
+    {
+      "id": "biz-u02-grammar",
+      "order": 3,
+      "estimatedDurationMinutes": 8,
+      "title": "Grammar: Modals for suggestions and opinions",
+      "skill": "grammar",
+      "items": [
+        {
+          "id": "biz-item-grammar-modals-suggestions-opinions",
+          "type": "grammarPoint",
+          "headword": "modals for suggestions and opinions",
+          "frequencyRank": 1002,
+          "baseDifficulty": 0.4,
+          "definition": "using modal verbs to suggest actions and share opinions politely",
+          "exampleSentences": [],
+          "translationTR": "",
+          "collocations": [],
+          "explanationTR": "Use modal verbs to make suggestions and share opinions politely in a meeting.\n• 'Should' + base verb gives an opinion or a mild suggestion: 'We should postpone the vote.' Never add 'to' after should.\n• 'Ought to' + base verb works the same way: 'You ought to mention that concern.' 'Ought' always needs 'to' before the verb.\n• 'How about' and 'What about' are followed by the -ing form: 'How about delaying the decision?'\n• 'Why don't we' is followed by the base verb: 'Why don't we take a short break?'\n• 'Let's' + base verb makes a direct suggestion: 'Let's wrap up this item.'\n• To give an opinion about something in the past that didn't happen, use 'should have' + past participle: 'We should have rescheduled sooner.'\n• The negative of should is formed by adding 'not' right after it: 'You shouldn't interrupt the speaker.'\n\nSofter modals like 'could' and 'might' often sound more polite than 'should' when your opinion is different from someone else's, since they present an idea as one option rather than a strong recommendation."
+        }
+      ],
+      "questions": [
+        {
+          "id": "biz-u02-grammar-q01",
+          "order": 0,
+          "kind": "grammar",
+          "prompt": "We should ---- the vote until everyone has spoken.",
+          "options": ["postpone", "postponing", "postponed", "to postpone", "postpones"],
+          "correctIndex": 0,
+          "explanationTR": "After the modal 'should', the verb stays in its base form: postpone. Forms like postponing, postponed, to postpone and postpones cannot follow a modal verb directly."
+        },
+        {
+          "id": "biz-u02-grammar-q02",
+          "order": 1,
+          "kind": "grammar",
+          "prompt": "You ought ---- mention that concern during the meeting.",
+          "options": ["for", "to", "that", "at", "on"],
+          "correctIndex": 1,
+          "explanationTR": "'Ought' is always followed by 'to' before the base verb: ought to mention. None of the other words are used after 'ought'."
+        },
+        {
+          "id": "biz-u02-grammar-q03",
+          "order": 2,
+          "kind": "grammar",
+          "prompt": "How about ---- the decision until we have more information?",
+          "options": ["delay", "delayed", "delaying", "delays", "to delay"],
+          "correctIndex": 2,
+          "explanationTR": "'How about' is followed by the -ing form of the verb: delaying. 'Delay', 'delayed', 'delays' and 'to delay' cannot follow 'how about'."
+        },
+        {
+          "id": "biz-u02-grammar-q04",
+          "order": 3,
+          "kind": "grammar",
+          "prompt": "Why don't we ---- a quick vote on the proposal?",
+          "options": ["taking", "took", "to take", "take", "takes"],
+          "correctIndex": 3,
+          "explanationTR": "After 'why don't we', the verb takes its base form: take. 'Taking', 'took', 'to take' and 'takes' are not correct in this structure."
+        },
+        {
+          "id": "biz-u02-grammar-q05",
+          "order": 4,
+          "kind": "grammar",
+          "prompt": "We could ---- the meeting to next week if nobody objects.",
+          "options": ["moving", "moved", "to move", "moves", "move"],
+          "correctIndex": 4,
+          "explanationTR": "After the modal 'could', the verb stays in its base form: move. 'Moving', 'moved', 'to move' and 'moves' cannot follow a modal verb directly."
+        },
+        {
+          "id": "biz-u02-grammar-q06",
+          "order": 5,
+          "kind": "grammar",
+          "prompt": "Looking back, we ---- postponed the meeting when half the team was traveling.",
+          "options": ["should have", "should", "should had", "should has", "must have to"],
+          "correctIndex": 0,
+          "explanationTR": "To give an opinion about a past action that didn't happen, we use 'should have' + past participle: should have postponed. 'Should' alone, 'should had', 'should has' and 'must have to' are not correct forms."
+        },
+        {
+          "id": "biz-u02-grammar-q07",
+          "order": 6,
+          "kind": "grammar",
+          "prompt": "You ---- interrupt the speaker; wait until she finishes her point.",
+          "options": ["don't should", "shouldn't", "not should", "shouldn't to", "aren't should"],
+          "correctIndex": 1,
+          "explanationTR": "The negative of 'should' is formed by adding 'not' directly after it: shouldn't. 'Don't should', 'not should', 'shouldn't to' and 'aren't should' are not grammatical negative forms."
+        },
+        {
+          "id": "biz-u02-grammar-q08",
+          "order": 7,
+          "kind": "grammar",
+          "prompt": "---- wrap up this item and move on to the next one.",
+          "options": ["Let", "Lets", "Let's", "Let us to", "Letting"],
+          "correctIndex": 2,
+          "explanationTR": "The standard suggestion form is 'Let's' + base verb: Let's wrap up. 'Let' alone is missing 'us', 'Lets' is not a suggestion form, 'Let us to' wrongly adds 'to', and 'Letting' is a gerund, not a suggestion."
+        }
+      ]
+    },
+    {
+      "id": "biz-u02-practice",
+      "order": 4,
+      "estimatedDurationMinutes": 8,
+      "title": "Dialogues: In a meeting",
+      "skill": "reading",
+      "items": [
+        {
+          "id": "biz-item-meeting-dialogues",
+          "type": "practiceSet",
+          "headword": "In a meeting",
+          "frequencyRank": 1102,
+          "baseDifficulty": 0.45,
+          "definition": "Seven short dialogues from business meetings, each missing one line",
+          "exampleSentences": [],
+          "translationTR": "",
+          "collocations": []
+        }
+      ],
+      "questions": [
+        {
+          "id": "biz-u02-practice-q01",
+          "order": 0,
+          "kind": "dialogueCompletion",
+          "prompt": "A: We're already ten minutes over. Should we cut the discussion short?\nB: ----\nA: Good idea, let's do that.",
+          "options": [
+            "Why don't we wrap up and finish the rest by email?",
+            "I already sent the minutes to everyone yesterday afternoon.",
+            "The agenda has twelve items on it today.",
+            "He was the meeting facilitator last week.",
+            "Let's brainstorm for another hour instead."
+          ],
+          "correctIndex": 0,
+          "explanationTR": "Only this reply directly answers the suggestion to cut the discussion short, and A's response 'Good idea, let's do that' confirms it. The other replies mention unrelated meeting details or suggest doing the opposite of shortening the discussion."
+        },
+        {
+          "id": "biz-u02-practice-q02",
+          "order": 1,
+          "kind": "dialogueCompletion",
+          "prompt": "A: Sorry I'm late — did I miss much?\nB: ----\nA: No problem, thanks for the recap.",
+          "options": [
+            "The kickoff meeting is scheduled for next Monday.",
+            "Not really, we just reviewed the agenda and assigned two action items.",
+            "You should RSVP before Friday.",
+            "Let's touch base again after lunch.",
+            "We need to reschedule the whole meeting."
+          ],
+          "correctIndex": 1,
+          "explanationTR": "A thanks B for 'the recap', so B's line must be a short summary of what happened so far, which only this option provides. The other replies are unrelated statements about a different meeting, an invitation or a suggestion, not a recap."
+        },
+        {
+          "id": "biz-u02-practice-q03",
+          "order": 2,
+          "kind": "dialogueCompletion",
+          "prompt": "A: I'd like to bring up something before we finish.\nB: Sure, go ahead.\nA: ----",
+          "options": [
+            "The minutes from last week are ready.",
+            "Thanks for attending today.",
+            "I think we should reconsider the schedule for the product launch.",
+            "Let's adjourn the meeting now.",
+            "Nice weather today, isn't it?"
+          ],
+          "correctIndex": 2,
+          "explanationTR": "A said they wanted to bring up something, so A's next line should introduce that topic, which only this option does. The other lines either close the meeting, state an unrelated fact, or make small talk instead of raising the point A mentioned."
+        },
+        {
+          "id": "biz-u02-practice-q04",
+          "order": 3,
+          "kind": "dialogueCompletion",
+          "prompt": "A: What's your honest opinion about the new proposal?\nB: ----\nA: That's a fair point. Let's discuss it further.",
+          "options": [
+            "The meeting starts at nine sharp.",
+            "I already confirmed my attendance.",
+            "She is the facilitator for today's session.",
+            "In my opinion, we should test it with a smaller group first.",
+            "Don't forget to RSVP by tomorrow."
+          ],
+          "correctIndex": 3,
+          "explanationTR": "A asks for an opinion about the proposal, and A's next line calls it 'a fair point', so B must actually give an opinion, which only this option does. The other replies are factual statements about timing or attendance, not an opinion on the proposal."
+        },
+        {
+          "id": "biz-u02-practice-q05",
+          "order": 4,
+          "kind": "dialogueCompletion",
+          "prompt": "A: We can't agree on a solution. What should we do?\nB: ----\nA: Good idea. Let's try that.",
+          "options": [
+            "The minutes are already finished.",
+            "He confirmed his attendance this morning.",
+            "The agenda only has three items left.",
+            "The room is already reserved until noon.",
+            "Why don't we take a short break and come back with fresh ideas?"
+          ],
+          "correctIndex": 4,
+          "explanationTR": "A asks what the group should do about the disagreement, and only this reply offers an actual suggestion, matching A's response 'Good idea, let's try that'. The other options are unrelated facts, not suggestions."
+        },
+        {
+          "id": "biz-u02-practice-q06",
+          "order": 5,
+          "kind": "dialogueCompletion",
+          "prompt": "A: Can we circle back to the staffing question later?\nB: ----\nA: Perfect, thanks.",
+          "options": [
+            "Of course, let's revisit it after the break.",
+            "The agenda was sent this morning.",
+            "I already took the minutes.",
+            "She's a great facilitator.",
+            "We reached a unanimous decision."
+          ],
+          "correctIndex": 0,
+          "explanationTR": "A asks to return to a topic later, and only this reply agrees to that request, which matches A's grateful response 'Perfect, thanks'. The other options are unrelated statements that do not respond to the request to circle back."
+        },
+        {
+          "id": "biz-u02-practice-q07",
+          "order": 6,
+          "kind": "dialogueCompletion",
+          "prompt": "A: Before we close, does anyone have an objection to the plan?\nB: ----\nA: Great, then it's settled.",
+          "options": [
+            "I'll send the recap by email.",
+            "No objection from me — I think it sounds reasonable.",
+            "The kickoff meeting went well.",
+            "Let's schedule a briefing for tomorrow.",
+            "I couldn't attend the last session."
+          ],
+          "correctIndex": 1,
+          "explanationTR": "A directly asks whether anyone objects to the plan, and A's response 'Great, then it's settled' shows the answer confirmed agreement, which only this option does. The other replies are unrelated statements that do not address the question about objections."
+        }
+      ]
+    }
+  ]
+}

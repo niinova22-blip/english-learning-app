@@ -1,0 +1,646 @@
+{
+  "id": "biz-unit-01-workplace",
+  "theme": "At work: roles and routines",
+  "order": 0,
+  "lessons": [
+    {
+      "id": "biz-u01-vocab-1",
+      "order": 0,
+      "estimatedDurationMinutes": 6,
+      "title": "Workplace I",
+      "skill": "vocabulary",
+      "items": [
+        {
+          "id": "biz-item-colleague",
+          "type": "vocabulary",
+          "headword": "colleague",
+          "frequencyRank": 3500,
+          "baseDifficulty": 0.4,
+          "definition": "a person you work with, especially in the same company or office",
+          "exampleSentences": [
+            "I asked a colleague to check my email before I sent it.",
+            "She often has lunch with her colleagues from the marketing team."
+          ],
+          "translationTR": "",
+          "collocations": ["a close colleague", "a former colleague", "a colleague of mine"]
+        },
+        {
+          "id": "biz-item-supervisor",
+          "type": "vocabulary",
+          "headword": "supervisor",
+          "frequencyRank": 5500,
+          "baseDifficulty": 0.45,
+          "definition": "a person whose job is to check the work of other employees and make sure it is done correctly",
+          "exampleSentences": [
+            "My supervisor reviewed my work and gave me some helpful feedback.",
+            "New employees report directly to their supervisor during the first month."
+          ],
+          "translationTR": "",
+          "collocations": ["report to a supervisor", "a shift supervisor", "an assistant supervisor"]
+        },
+        {
+          "id": "biz-item-employer",
+          "type": "vocabulary",
+          "headword": "employer",
+          "frequencyRank": 3000,
+          "baseDifficulty": 0.35,
+          "definition": "a person or company that pays people to work for them",
+          "exampleSentences": [
+            "Her employer offers flexible working hours to all staff.",
+            "Employers often check references before hiring someone."
+          ],
+          "translationTR": "",
+          "collocations": ["a former employer", "a major employer", "a good employer"]
+        },
+        {
+          "id": "biz-item-employee",
+          "type": "vocabulary",
+          "headword": "employee",
+          "frequencyRank": 2800,
+          "baseDifficulty": 0.35,
+          "definition": "a person who is paid to work for a company or another person",
+          "exampleSentences": [
+            "The company has more than two hundred employees worldwide.",
+            "New employees receive training during their first week."
+          ],
+          "translationTR": "",
+          "collocations": ["a full-time employee", "employee benefits", "a loyal employee"]
+        },
+        {
+          "id": "biz-item-department",
+          "type": "vocabulary",
+          "headword": "department",
+          "frequencyRank": 2200,
+          "baseDifficulty": 0.3,
+          "definition": "a separate section of a company or organization that deals with one particular kind of work",
+          "exampleSentences": [
+            "She transferred from the sales department to the finance department.",
+            "Each department has its own supervisor and weekly goals."
+          ],
+          "translationTR": "",
+          "collocations": ["the sales department", "head of department", "work in a department"]
+        },
+        {
+          "id": "biz-item-headquarters",
+          "type": "vocabulary",
+          "headword": "headquarters",
+          "frequencyRank": 6000,
+          "baseDifficulty": 0.5,
+          "definition": "the main office of a company, where its most senior managers work",
+          "exampleSentences": [
+            "The company's headquarters is located in a modern building downtown.",
+            "All major decisions are made at headquarters, not in the branches."
+          ],
+          "translationTR": "",
+          "collocations": ["company headquarters", "move headquarters", "based at headquarters"]
+        },
+        {
+          "id": "biz-item-intern",
+          "type": "vocabulary",
+          "headword": "intern",
+          "frequencyRank": 7000,
+          "baseDifficulty": 0.45,
+          "definition": "a student or young person who works for a company for a short time, often without pay, to gain experience",
+          "exampleSentences": [
+            "She worked as a summer intern at a marketing agency.",
+            "The company hires several interns every year to help with research."
+          ],
+          "translationTR": "",
+          "collocations": ["a summer intern", "hire an intern", "an unpaid intern"]
+        },
+        {
+          "id": "biz-item-freelancer",
+          "type": "vocabulary",
+          "headword": "freelancer",
+          "frequencyRank": 8000,
+          "baseDifficulty": 0.5,
+          "definition": "a person who is not employed by one company but sells their work or services to different clients",
+          "exampleSentences": [
+            "As a freelancer, he can choose which projects to accept.",
+            "Many freelancers work from home or from shared offices."
+          ],
+          "translationTR": "",
+          "collocations": ["work as a freelancer", "hire a freelancer", "a full-time freelancer"]
+        },
+        {
+          "id": "biz-item-receptionist",
+          "type": "vocabulary",
+          "headword": "receptionist",
+          "frequencyRank": 6500,
+          "baseDifficulty": 0.4,
+          "definition": "a person whose job is to welcome visitors and answer the phone in an office or hotel",
+          "exampleSentences": [
+            "The receptionist asked me to sign in before the meeting.",
+            "Please call the receptionist if you arrive after five o'clock."
+          ],
+          "translationTR": "",
+          "collocations": ["the front desk receptionist", "ask the receptionist", "a friendly receptionist"]
+        },
+        {
+          "id": "biz-item-human-resources",
+          "type": "vocabulary",
+          "headword": "human resources",
+          "frequencyRank": 9000,
+          "baseDifficulty": 0.5,
+          "definition": "the department in a company that deals with hiring, training and the well-being of staff",
+          "exampleSentences": [
+            "You should contact human resources about your vacation days.",
+            "Human resources is interviewing candidates for the new position."
+          ],
+          "translationTR": "",
+          "collocations": ["the human resources department", "contact human resources", "a human resources manager"]
+        }
+      ]
+    },
+    {
+      "id": "biz-u01-vocab-2",
+      "order": 1,
+      "estimatedDurationMinutes": 6,
+      "title": "Workplace II",
+      "skill": "vocabulary",
+      "items": [
+        {
+          "id": "biz-item-shift",
+          "type": "vocabulary",
+          "headword": "shift",
+          "frequencyRank": 2500,
+          "baseDifficulty": 0.35,
+          "definition": "a fixed period of time during which a group of workers is on duty",
+          "exampleSentences": [
+            "She works the night shift three times a week.",
+            "Can you swap shifts with me on Friday?"
+          ],
+          "translationTR": "",
+          "collocations": ["work a shift", "night shift", "swap shifts"]
+        },
+        {
+          "id": "biz-item-overtime",
+          "type": "vocabulary",
+          "headword": "overtime",
+          "frequencyRank": 5000,
+          "baseDifficulty": 0.4,
+          "definition": "extra time that someone works beyond their normal working hours, often for extra pay",
+          "exampleSentences": [
+            "He worked overtime to finish the project before the weekend.",
+            "The factory pays double for overtime on Sundays."
+          ],
+          "translationTR": "",
+          "collocations": ["work overtime", "paid overtime", "do overtime"]
+        },
+        {
+          "id": "biz-item-punctual",
+          "type": "vocabulary",
+          "headword": "punctual",
+          "frequencyRank": 6500,
+          "baseDifficulty": 0.45,
+          "definition": "arriving or doing something at the agreed or expected time, not late",
+          "exampleSentences": [
+            "Employees are expected to be punctual for every shift.",
+            "She is always punctual, so I was surprised when she arrived late today."
+          ],
+          "translationTR": "",
+          "collocations": ["always punctual", "a punctual employee", "punctual for work"]
+        },
+        {
+          "id": "biz-item-commute",
+          "type": "vocabulary",
+          "headword": "commute",
+          "frequencyRank": 4500,
+          "baseDifficulty": 0.4,
+          "definition": "to travel regularly between your home and your place of work; also the journey itself",
+          "exampleSentences": [
+            "He commutes to the office by train every day.",
+            "Her commute takes almost an hour each way."
+          ],
+          "translationTR": "",
+          "collocations": ["a long commute", "commute to work", "commute by car"]
+        },
+        {
+          "id": "biz-item-workload",
+          "type": "vocabulary",
+          "headword": "workload",
+          "frequencyRank": 7500,
+          "baseDifficulty": 0.45,
+          "definition": "the amount of work that a person or organization has to do",
+          "exampleSentences": [
+            "Her workload increases a lot at the end of each quarter.",
+            "The manager reduced my workload after I complained about the stress."
+          ],
+          "translationTR": "",
+          "collocations": ["a heavy workload", "manage your workload", "reduce the workload"]
+        },
+        {
+          "id": "biz-item-multitask",
+          "type": "vocabulary",
+          "headword": "multitask",
+          "frequencyRank": 8000,
+          "baseDifficulty": 0.45,
+          "definition": "to do more than one task at the same time",
+          "exampleSentences": [
+            "Good receptionists know how to multitask during busy hours.",
+            "It is hard to multitask when you are answering calls and writing emails."
+          ],
+          "translationTR": "",
+          "collocations": ["multitask effectively", "able to multitask", "multitask under pressure"]
+        },
+        {
+          "id": "biz-item-workstation",
+          "type": "vocabulary",
+          "headword": "workstation",
+          "frequencyRank": 8500,
+          "baseDifficulty": 0.4,
+          "definition": "the desk and equipment, such as a computer, where a person does their work",
+          "exampleSentences": [
+            "Each employee has a personal workstation with two monitors.",
+            "IT set up a new workstation for the intern this morning."
+          ],
+          "translationTR": "",
+          "collocations": ["a personal workstation", "set up a workstation", "share a workstation"]
+        },
+        {
+          "id": "biz-item-break-room",
+          "type": "vocabulary",
+          "headword": "break room",
+          "frequencyRank": 9500,
+          "baseDifficulty": 0.4,
+          "definition": "a room in a workplace where employees can rest, eat or drink during their free time",
+          "exampleSentences": [
+            "We usually eat lunch together in the break room.",
+            "There is a coffee machine in the break room on the third floor."
+          ],
+          "translationTR": "",
+          "collocations": ["eat in the break room", "the office break room", "relax in the break room"]
+        },
+        {
+          "id": "biz-item-probation",
+          "type": "vocabulary",
+          "headword": "probation",
+          "frequencyRank": 7000,
+          "baseDifficulty": 0.5,
+          "definition": "a period of time at the start of a job when an employer checks whether a new employee is suitable",
+          "exampleSentences": [
+            "New hires are usually on probation for the first three months.",
+            "She passed her probation and became a permanent employee."
+          ],
+          "translationTR": "",
+          "collocations": ["on probation", "a probation period", "pass probation"]
+        },
+        {
+          "id": "biz-item-onboarding",
+          "type": "vocabulary",
+          "headword": "onboarding",
+          "frequencyRank": 9000,
+          "baseDifficulty": 0.5,
+          "definition": "the process of helping a new employee learn about a company and settle into their job",
+          "exampleSentences": [
+            "The onboarding process includes training sessions and a tour of the office.",
+            "Good onboarding helps new employees feel confident in their new role."
+          ],
+          "translationTR": "",
+          "collocations": ["the onboarding process", "onboarding training", "complete onboarding"]
+        }
+      ]
+    },
+    {
+      "id": "biz-u01-vocab-3",
+      "order": 2,
+      "estimatedDurationMinutes": 6,
+      "title": "Workplace III",
+      "skill": "vocabulary",
+      "items": [
+        {
+          "id": "biz-item-responsibility",
+          "type": "vocabulary",
+          "headword": "responsibility",
+          "frequencyRank": 2000,
+          "baseDifficulty": 0.35,
+          "definition": "a duty or task that you are expected to deal with as part of your job",
+          "exampleSentences": [
+            "Answering customer emails is one of my main responsibilities.",
+            "He took on more responsibility after his promotion."
+          ],
+          "translationTR": "",
+          "collocations": ["take responsibility", "job responsibilities", "share the responsibility"]
+        },
+        {
+          "id": "biz-item-report-to",
+          "type": "vocabulary",
+          "headword": "report to",
+          "frequencyRank": 4500,
+          "baseDifficulty": 0.45,
+          "definition": "to have a particular person as your manager, who checks your work and tells you what to do",
+          "exampleSentences": [
+            "In my new role, I report to the head of marketing.",
+            "All three team leaders reported to the operations director."
+          ],
+          "translationTR": "",
+          "collocations": ["report directly to", "report to a manager", "report to the CEO"]
+        },
+        {
+          "id": "biz-item-sick-leave",
+          "type": "vocabulary",
+          "headword": "sick leave",
+          "frequencyRank": 7000,
+          "baseDifficulty": 0.4,
+          "definition": "time away from work because you are ill, usually with pay",
+          "exampleSentences": [
+            "She was on sick leave for two weeks after her operation.",
+            "Full-time employees get ten days of paid sick leave a year."
+          ],
+          "translationTR": "",
+          "collocations": ["on sick leave", "take sick leave", "paid sick leave"]
+        },
+        {
+          "id": "biz-item-performance-review",
+          "type": "vocabulary",
+          "headword": "performance review",
+          "frequencyRank": 8500,
+          "baseDifficulty": 0.5,
+          "definition": "a formal meeting where a manager discusses how well an employee has been doing their job",
+          "exampleSentences": [
+            "During my performance review, my supervisor praised my teamwork.",
+            "The company holds performance reviews twice a year."
+          ],
+          "translationTR": "",
+          "collocations": ["an annual performance review", "prepare for a performance review", "during a performance review"]
+        },
+        {
+          "id": "biz-item-teamwork",
+          "type": "vocabulary",
+          "headword": "teamwork",
+          "frequencyRank": 4000,
+          "baseDifficulty": 0.35,
+          "definition": "the combined effort of a group of people working together toward a shared goal",
+          "exampleSentences": [
+            "The project succeeded because of good teamwork between departments.",
+            "Teamwork is one of the values the company looks for when hiring."
+          ],
+          "translationTR": "",
+          "collocations": ["good teamwork", "encourage teamwork", "teamwork and communication"]
+        },
+        {
+          "id": "biz-item-efficient",
+          "type": "vocabulary",
+          "headword": "efficient",
+          "frequencyRank": 3000,
+          "baseDifficulty": 0.35,
+          "definition": "able to do a task well without wasting time or effort",
+          "exampleSentences": [
+            "The new scheduling system makes the whole department more efficient.",
+            "She is an efficient worker who always finishes tasks early."
+          ],
+          "translationTR": "",
+          "collocations": ["highly efficient", "an efficient system", "work efficiently"]
+        },
+        {
+          "id": "biz-item-career",
+          "type": "vocabulary",
+          "headword": "career",
+          "frequencyRank": 1800,
+          "baseDifficulty": 0.3,
+          "definition": "the series of jobs that a person has in a particular area of work over a long period of time",
+          "exampleSentences": [
+            "She started her career as a receptionist and is now a department manager.",
+            "He wants to build a career in human resources."
+          ],
+          "translationTR": "",
+          "collocations": ["build a career", "a successful career", "change careers"]
+        },
+        {
+          "id": "biz-item-job-title",
+          "type": "vocabulary",
+          "headword": "job title",
+          "frequencyRank": 7500,
+          "baseDifficulty": 0.4,
+          "definition": "the name that describes a person's position or role at work",
+          "exampleSentences": [
+            "Her job title changed to senior analyst after the promotion.",
+            "The business card shows his name, company and job title."
+          ],
+          "translationTR": "",
+          "collocations": ["an official job title", "change your job title", "list your job title"]
+        },
+        {
+          "id": "biz-item-branch",
+          "type": "vocabulary",
+          "headword": "branch",
+          "frequencyRank": 2500,
+          "baseDifficulty": 0.35,
+          "definition": "a local office or shop that is part of a larger company or organization",
+          "exampleSentences": [
+            "The bank opened a new branch in the city center last year.",
+            "She transferred from headquarters to the branch in Chicago."
+          ],
+          "translationTR": "",
+          "collocations": ["open a branch", "a local branch", "the branch manager"]
+        },
+        {
+          "id": "biz-item-flexible-hours",
+          "type": "vocabulary",
+          "headword": "flexible hours",
+          "frequencyRank": 8500,
+          "baseDifficulty": 0.45,
+          "definition": "a work schedule that lets employees choose or adjust when they start and finish work",
+          "exampleSentences": [
+            "The company offers flexible hours so parents can manage childcare.",
+            "Thanks to flexible hours, he starts work early and leaves by three."
+          ],
+          "translationTR": "",
+          "collocations": ["offer flexible hours", "work flexible hours", "flexible hours and remote work"]
+        }
+      ]
+    },
+    {
+      "id": "biz-u01-grammar",
+      "order": 3,
+      "estimatedDurationMinutes": 8,
+      "title": "Grammar: Present simple vs present continuous",
+      "skill": "grammar",
+      "items": [
+        {
+          "id": "biz-item-grammar-present-simple-continuous",
+          "type": "grammarPoint",
+          "headword": "present simple vs present continuous",
+          "frequencyRank": 1001,
+          "baseDifficulty": 0.4,
+          "definition": "choosing between routines and actions happening right now",
+          "exampleSentences": [],
+          "translationTR": "",
+          "collocations": [],
+          "explanationTR": "Use the present simple for routines, facts and permanent situations at work: things that happen regularly or that are generally true.\n• Form: base verb, adding -s/-es for he/she/it: 'The department opens at nine.' / 'She manages a small team.'\n• Common time words: usually, every day, on Mondays, often, always.\n\nUse the present continuous for actions happening right now, or temporary situations around the present moment.\n• Form: am/is/are + verb-ing: 'He is finishing some paperwork at the moment.' / 'We are hiring three new interns this month.'\n• Common time words: now, at the moment, currently, this week, these days.\n\nCompare:\n• 'She works in the finance department.' (a fact about her job)\n• 'She is working from home this week.' (a temporary situation)\n• 'The team meets every Monday.' (a routine)\n• 'The team is meeting right now.' (happening at this moment)\n\nSome verbs, such as know, believe and want, are rarely used in the continuous form, even when they describe something true right now."
+        }
+      ],
+      "questions": [
+        {
+          "id": "biz-u01-grammar-q01",
+          "order": 0,
+          "kind": "grammar",
+          "prompt": "Our department ---- reports every Friday afternoon.",
+          "options": ["submits", "submit", "is submitting", "are submitting", "has submitted"],
+          "correctIndex": 0,
+          "explanationTR": "The routine described by 'every Friday afternoon' calls for the present simple, and 'department' takes the -s form: submits. 'Is submitting' would describe a single action happening right now, not a weekly routine."
+        },
+        {
+          "id": "biz-u01-grammar-q02",
+          "order": 1,
+          "kind": "grammar",
+          "prompt": "Right now, the new intern ---- the filing system.",
+          "options": ["learns", "learn", "is learning", "are learning", "has learned"],
+          "correctIndex": 2,
+          "explanationTR": "'Right now' points to an action in progress at this exact moment, so the present continuous is needed: is learning. 'Learns' would describe a routine rather than something happening now."
+        },
+        {
+          "id": "biz-u01-grammar-q03",
+          "order": 2,
+          "kind": "grammar",
+          "prompt": "My supervisor usually ---- our progress on Monday mornings.",
+          "options": ["is checking", "check", "are checking", "checking", "checks"],
+          "correctIndex": 4,
+          "explanationTR": "'Usually' and 'on Monday mornings' describe a routine, so the present simple fits, and 'supervisor' needs the -s form: checks. 'Is checking' would wrongly suggest a single action happening now."
+        },
+        {
+          "id": "biz-u01-grammar-q04",
+          "order": 3,
+          "kind": "grammar",
+          "prompt": "Look! The new receptionist ---- everyone at the front desk.",
+          "options": ["greets", "is greeting", "greet", "has greeted", "greeted"],
+          "correctIndex": 1,
+          "explanationTR": "'Look!' shows the action is happening at this exact moment, so the present continuous is correct: is greeting. 'Greets' would describe a general habit rather than what we can see now."
+        },
+        {
+          "id": "biz-u01-grammar-q05",
+          "order": 4,
+          "kind": "grammar",
+          "prompt": "The HR department ---- interviews every Tuesday and Thursday.",
+          "options": ["hold", "is holding", "are holding", "holds", "holding"],
+          "correctIndex": 3,
+          "explanationTR": "The fixed schedule 'every Tuesday and Thursday' is a routine, so the present simple with the -s form is correct: holds. 'Is holding' would wrongly suggest one ongoing action, and 'hold' does not agree with the singular subject 'department'."
+        },
+        {
+          "id": "biz-u01-grammar-q06",
+          "order": 5,
+          "kind": "grammar",
+          "prompt": "I can't talk now — I ---- some paperwork for my supervisor.",
+          "options": ["am preparing", "prepare", "prepares", "has prepared", "prepared"],
+          "correctIndex": 0,
+          "explanationTR": "'Now' shows the action is happening at the moment of speaking, so the present continuous with 'I am' fits: am preparing. 'Prepare' would describe a habit instead of what is happening right now."
+        },
+        {
+          "id": "biz-u01-grammar-q07",
+          "order": 6,
+          "kind": "grammar",
+          "prompt": "This month, the company ---- more freelancers than usual because of the busy season.",
+          "options": ["hires", "hire", "is hiring", "to hire", "hiring"],
+          "correctIndex": 2,
+          "explanationTR": "'This month' describes a temporary situation around now, so the present continuous is correct: is hiring. 'Hires' would describe a permanent habit rather than a change limited to this month, and 'hiring' alone is missing the verb 'is'."
+        },
+        {
+          "id": "biz-u01-grammar-q08",
+          "order": 7,
+          "kind": "grammar",
+          "prompt": "This month, while the office is closed for repairs, most employees ---- from home.",
+          "options": ["works", "are working", "work", "is working", "working"],
+          "correctIndex": 1,
+          "explanationTR": "'This month' and the office being closed describe a temporary situation, so the present continuous with the plural subject is correct: are working. 'Work' would present working from home as a permanent arrangement, and 'is working' does not agree with 'employees'."
+        }
+      ]
+    },
+    {
+      "id": "biz-u01-practice",
+      "order": 4,
+      "estimatedDurationMinutes": 8,
+      "title": "Reading: A company profile",
+      "skill": "reading",
+      "items": [
+        {
+          "id": "biz-item-company-profile",
+          "type": "practiceSet",
+          "headword": "A company profile",
+          "frequencyRank": 1101,
+          "baseDifficulty": 0.45,
+          "definition": "A short article about a technology company and seven questions",
+          "exampleSentences": [],
+          "translationTR": "",
+          "collocations": []
+        }
+      ],
+      "passage": {
+        "id": "biz-u01-practice-passage",
+        "title": "A Day at Bright Path Solutions",
+        "body": "Bright Path Solutions is a technology company with its headquarters in Toronto and branches in three other cities. The company has about four hundred employees, and its human resources department hires new staff every month, including interns and freelancers who help during busy periods.\n\nMost employees work a standard eight-hour shift, but the sales department often works overtime near the end of each quarter. Many people arrange flexible hours so they can start earlier and avoid a long commute during rush hour. Managers say that punctual employees who arrive on time set a good example for the rest of the team.\n\nNew hires spend their first three months on probation, during which the onboarding program introduces them to their supervisor, their colleagues and the tools they will need at their workstation. Employees are also encouraged to visit the break room, where people from different departments often meet and share ideas over coffee.\n\nTeamwork is central to the company culture. Rather than working alone, employees are taught to delegate parts of a big project so that the workload is shared fairly. A receptionist welcomes visitors at the front desk, and each employee has a clear job title that describes their main responsibility.\n\nTwice a year, every employee has a performance review with their supervisor to discuss recent achievements and plans for the future. Hard-working, efficient staff members are often considered for promotion within their department. Many employees say that Bright Path Solutions has helped them build a long and satisfying career, and new interns often stay on as full members of the team once their probation ends."
+      },
+      "questions": [
+        {
+          "id": "biz-u01-practice-q01",
+          "order": 0,
+          "kind": "reading",
+          "passageID": "biz-u01-practice-passage",
+          "prompt": "According to the passage, where is Bright Path Solutions' headquarters located?",
+          "options": ["Toronto", "Vancouver", "Montreal", "Ottawa", "Calgary"],
+          "correctIndex": 0,
+          "explanationTR": "The passage states that Bright Path Solutions has its headquarters in Toronto and branches in three other cities. The other cities are never mentioned by name in the text."
+        },
+        {
+          "id": "biz-u01-practice-q02",
+          "order": 1,
+          "kind": "reading",
+          "passageID": "biz-u01-practice-passage",
+          "prompt": "In the passage, the onboarding program mainly involves ----.",
+          "options": ["extra overtime pay", "introducing new employees to the company", "a formal meeting to review an employee's performance", "approved time off from work", "a shared break room for staff"],
+          "correctIndex": 1,
+          "explanationTR": "The passage describes the onboarding program introducing new hires to their supervisor, colleagues and workstation, which matches introducing new employees to the company. Overtime pay, a performance review, time off and the break room are separate ideas mentioned elsewhere in the passage."
+        },
+        {
+          "id": "biz-u01-practice-q03",
+          "order": 2,
+          "kind": "reading",
+          "passageID": "biz-u01-practice-passage",
+          "prompt": "How long is the probation period for new hires at Bright Path Solutions?",
+          "options": ["one month", "six months", "three months", "eighteen months", "two weeks"],
+          "correctIndex": 2,
+          "explanationTR": "The passage says new hires spend their first three months on probation. None of the other time periods are mentioned in the text."
+        },
+        {
+          "id": "biz-u01-practice-q04",
+          "order": 3,
+          "kind": "reading",
+          "passageID": "biz-u01-practice-passage",
+          "prompt": "Why do many employees arrange flexible hours?",
+          "options": ["to earn extra overtime pay", "to spend more time in the break room", "to qualify for a faster promotion", "to avoid a long commute", "to reduce their workload"],
+          "correctIndex": 3,
+          "explanationTR": "The passage says employees arrange flexible hours so they can start earlier and avoid a long commute during rush hour. Overtime pay, the break room, promotion and workload are mentioned elsewhere in the passage but not as the reason for flexible hours."
+        },
+        {
+          "id": "biz-u01-practice-q05",
+          "order": 4,
+          "kind": "reading",
+          "passageID": "biz-u01-practice-passage",
+          "prompt": "Who welcomes visitors at the front desk?",
+          "options": ["a supervisor", "an intern", "a freelancer", "a department head", "a receptionist"],
+          "correctIndex": 4,
+          "explanationTR": "The passage clearly states that a receptionist welcomes visitors at the front desk. The other roles appear in the passage but are not connected to greeting visitors."
+        },
+        {
+          "id": "biz-u01-practice-q06",
+          "order": 5,
+          "kind": "reading",
+          "passageID": "biz-u01-practice-passage",
+          "prompt": "How often does each employee have a performance review?",
+          "options": ["twice a year", "once a month", "once a year", "every quarter", "once a week"],
+          "correctIndex": 0,
+          "explanationTR": "The passage states that every employee has a performance review with their supervisor twice a year. None of the other frequencies are supported by the text."
+        },
+        {
+          "id": "biz-u01-practice-q07",
+          "order": 6,
+          "kind": "reading",
+          "passageID": "biz-u01-practice-passage",
+          "prompt": "According to the passage, how does the company make sure the workload is shared fairly on a big project?",
+          "options": ["by hiring more freelancers", "by encouraging employees to delegate tasks", "by asking employees to work overtime", "by shortening the onboarding program", "by giving every employee a formal performance review each year"],
+          "correctIndex": 1,
+          "explanationTR": "The passage says employees are taught to delegate parts of a big project so the workload is shared fairly. Freelancers, overtime, onboarding and performance reviews are mentioned elsewhere but are not the method described for sharing workload."
+        }
+      ]
+    }
+  ]
+}
