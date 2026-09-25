@@ -381,14 +381,15 @@ final class RealContentSeedingTests: XCTestCase {
         AppModelContainer.seedRealContentIfNeeded(in: context)
 
         let packages = try context.fetch(FetchDescriptor<ContentPackage>())
-        XCTAssertEqual(packages.count, 1)
-        let allItems = packages.flatMap { $0.units.flatMap { $0.lessons.flatMap { $0.items } } }
+        XCTAssertEqual(packages.count, BundledPackages.resourceNames.count)
+        let yds = try XCTUnwrap(packages.first { $0.id == "yds-academic-vocab-1" })
+        let allItems = yds.units.flatMap { $0.lessons.flatMap { $0.items } }
         XCTAssertEqual(allItems.count, 688)
 
         // Calling again must not duplicate content.
         AppModelContainer.seedRealContentIfNeeded(in: context)
         let packagesAfterSecondCall = try context.fetch(FetchDescriptor<ContentPackage>())
-        XCTAssertEqual(packagesAfterSecondCall.count, 1)
+        XCTAssertEqual(packagesAfterSecondCall.count, BundledPackages.resourceNames.count)
     }
 
     /// Structure gate for the Slice 7d vocabulary units, read from the shipped app resource.

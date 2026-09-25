@@ -73,6 +73,9 @@ final class CoursePathViewModelTests: XCTestCase {
         let container = try ModelContainer(for: AppModelContainer.schema, configurations: [ModelConfiguration(schema: AppModelContainer.schema, isStoredInMemoryOnly: true)])
         let context = ModelContext(container)
         AppModelContainer.seedRealContentIfNeeded(in: context)
+        // Several packages are bundled; these tests are about the YDS path.
+        context.insert(LearnerProfile(userID: "u", activePackageID: "yds-academic-vocab-1", createdAt: Date()))
+        try context.save()
         return context
     }
 

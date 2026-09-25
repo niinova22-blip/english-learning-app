@@ -34,7 +34,8 @@ struct TodayPlanCoordinator {
     /// at an installed package. Nil only when no package is installed.
     @discardableResult
     func ensureProfile() throws -> LearnerProfile? {
-        let packages = try context.fetch(FetchDescriptor<ContentPackage>(sortBy: [SortDescriptor(\.id)]))
+        // Fallback when onboarding has not picked one: the package offered first.
+        let packages = PackageOrdering.sorted(try context.fetch(FetchDescriptor<ContentPackage>()), for: AppLanguage.current)
         guard let firstPackage = packages.first else { return nil }
         let userIDValue = userID
         let existing = try context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userIDValue })).first
