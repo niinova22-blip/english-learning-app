@@ -4,7 +4,7 @@ import SwiftData
 import LearningEngine
 
 enum OnboardingStep: Equatable {
-    case goalSelection, examDate, dailyDuration, levelTestIntro, levelTest, levelTestResult, done
+    case goalSelection, examDate, dailyDuration, reminder, levelTestIntro, levelTest, levelTestResult, trialOffer, done
 }
 
 @MainActor
@@ -17,6 +17,9 @@ final class OnboardingViewModel {
     var dailyMinutes: Int = LearnerProfile.defaultDailyMinutes
     private(set) var levelTestViewModel: LevelTestViewModel?
     private(set) var isOnboardingComplete = false
+    /// Set by the view once it knows the learner can start an AI Premium
+    /// trial; adds the offer step after the level test.
+    var offersTrial = false
     private(set) var loadError: String?
 
     private let context: ModelContext
@@ -54,19 +57,21 @@ final class OnboardingViewModel {
             guard !hasNoPackages else { return }
             step = .examDate
         case .examDate: step = .dailyDuration
-        case .dailyDuration:
+        case .dailyDuration: step = .reminder
+        case .reminder:
             prepareLevelTest()
             step = .levelTestIntro
-        case .levelTestIntro, .levelTest, .levelTestResult, .done: break
+        case .levelTestIntro, .levelTest, .levelTestResult, .trialOffer, .done: break
         }
     }
 
     func goBack() {
         switch step {
-        case .goalSelection, .done: break
+        case .goalSelection, .trialOffer, .done: break
         case .examDate: step = .goalSelection
         case .dailyDuration: step = .examDate
-        case .levelTestIntro: step = .dailyDuration
+        case .reminder: step = .dailyDuration
+        case .levelTestIntro: step = .reminder
         case .levelTest: step = .levelTestIntro
         case .levelTestResult: step = .levelTestIntro
         }
@@ -75,7 +80,7 @@ final class OnboardingViewModel {
     /// Fraction complete across the 5 user-visible stops (levelTest itself
     /// counts as still "on" levelTestIntro for progress display purposes).
     var progressFraction: Double {
-        let order: [OnboardingStep] = [.goalSelection, .examDate, .dailyDuration, .levelTestIntro, .levelTestResult]
+        let order: [OnboardingStep] = [.goalSelection, .examDate, .dailyDuration, .reminder, .levelTestIntro, .levelTestResult]
         let effective = step == .levelTest ? .levelTestIntro : step
         guard let index = order.firstIndex(of: effective) else { return 1 }
         return Double(index + 1) / Double(order.count)
@@ -126,12 +131,33 @@ final class OnboardingViewModel {
             if let selectedPackageID { profile.activePackageID = selectedPackageID }
             profile.dailyMinutes = dailyMinutes
             profile.examDate = examDate
-            profile.onboardingCompletedAt = clock()
             profile.hasSkippedLevelTest = skippedLevelTest
+            // With the trial offer still to show, completion waits: the root
+            // view switches to the tabs as soon as this date is set.
+            if !offersTrial { profile.onboardingCompletedAt = clock() }
 
             if let outcome {
                 try LevelTestResultStore.save(outcome, in: context, userID: userID, now: clock())
             } else {
+                try context.save()
+            }
+            if offersTrial {
+                step = .trialOffer
+            } else {
+                step = .done
+                isOnboardingComplete = true
+            }
+        } catch {
+            loadError = error.localizedDescription
+        }
+    }
+
+    /// Leaves the trial offer (trial started or "Not now") and enters the app.
+    func finishTrialOffer() {
+        let userIDValue = userID
+        do {
+            if let profile = try context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userIDValue })).first {
+                profile.onboardingCompletedAt = clock()
                 try context.save()
             }
             step = .done

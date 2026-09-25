@@ -27,6 +27,8 @@ final class OnboardingViewModelTests: XCTestCase {
         vm.advance()
         XCTAssertEqual(vm.step, .dailyDuration)
         vm.advance()
+        XCTAssertEqual(vm.step, .reminder)
+        vm.advance()
         XCTAssertEqual(vm.step, .levelTestIntro)
     }
 
@@ -56,6 +58,7 @@ final class OnboardingViewModelTests: XCTestCase {
         vm.dailyMinutes = 25
         vm.advance() // examDate
         vm.advance() // dailyDuration
+        vm.advance() // reminder
         vm.advance() // levelTestIntro — prepares levelTestViewModel
         vm.startLevelTest()
         XCTAssertEqual(vm.step, .done)
@@ -75,6 +78,7 @@ final class OnboardingViewModelTests: XCTestCase {
         vm.advance()
         vm.advance()
         vm.advance()
+        vm.advance()
         vm.skipLevelTest()
 
         XCTAssertEqual(vm.step, .done)
@@ -90,6 +94,7 @@ final class OnboardingViewModelTests: XCTestCase {
     func test_completingLevelTest_persistsProfileAndResult() throws {
         let context = try makeContext(richContent: true)
         let vm = OnboardingViewModel(context: context, userID: userID, clock: { self.now })
+        vm.advance()
         vm.advance()
         vm.advance()
         vm.advance()
@@ -128,4 +133,59 @@ final class OnboardingViewModelTests: XCTestCase {
         XCTAssertFalse(RootTabView.shouldShowOnboarding(hasCompletedOnboarding: false, hasInstalledPackage: false))
         XCTAssertFalse(RootTabView.shouldShowOnboarding(hasCompletedOnboarding: true, hasInstalledPackage: true))
     }
+
+    // MARK: Trial offer
+
+    @MainActor
+    func test_skip_withTrialOffer_savesTheProfileButFinishesOnlyAfterTheOffer() throws {
+        let context = try makeContext(richContent: true)
+        let vm = OnboardingViewModel(context: context, userID: userID, clock: { self.now })
+        vm.offersTrial = true
+        for _ in 0..<4 { vm.advance() }
+        vm.skipLevelTest()
+
+        XCTAssertEqual(vm.step, .trialOffer)
+        XCTAssertFalse(vm.isOnboardingComplete)
+        let profile = try XCTUnwrap(context.fetch(FetchDescriptor<LearnerProfile>()).first, "saved before the offer, so a cancelled purchase loses nothing")
+        XCTAssertNil(profile.onboardingCompletedAt, "the app switches to the tabs only after the offer")
+
+        vm.finishTrialOffer()
+        XCTAssertEqual(vm.step, .done)
+        XCTAssertTrue(vm.isOnboardingComplete)
+        XCTAssertEqual(profile.onboardingCompletedAt, now)
+    }
+
+    @MainActor
+    func test_levelTestResult_withTrialOffer_goesToTheOffer() throws {
+        let context = try makeContext(richContent: true)
+        let vm = OnboardingViewModel(context: context, userID: userID, clock: { self.now })
+        vm.offersTrial = true
+        for _ in 0..<4 { vm.advance() }
+        vm.startLevelTest()
+        while let question = vm.levelTestViewModel?.currentQuestion {
+            vm.answerLevelTestQuestion(selectedIndex: question.correctIndex)
+        }
+        vm.finishFromResult()
+        XCTAssertEqual(vm.step, .trialOffer)
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<LevelTestResult>()), 1)
+    }
+
+    @MainActor
+    func test_goBack_fromLevelTestIntro_returnsToTheReminderStep() throws {
+        let vm = OnboardingViewModel(context: try makeContext(), userID: userID, clock: { self.now })
+        for _ in 0..<4 { vm.advance() }
+        XCTAssertEqual(vm.step, .levelTestIntro)
+        vm.goBack()
+        XCTAssertEqual(vm.step, .reminder)
+    }
 }
+
+final class TeaserPolicyTests: XCTestCase {
+    func test_teaser_hiddenForSevenDaysAfterDismissal() {
+        let now = Date(timeIntervalSince1970: 1_800_000_000)
+        XCTAssertTrue(TeaserPolicy.shouldShow(lastDismissed: nil, now: now))
+        XCTAssertFalse(TeaserPolicy.shouldShow(lastDismissed: now.addingTimeInterval(-6 * 86_400), now: now))
+        XCTAssertTrue(TeaserPolicy.shouldShow(lastDismissed: now.addingTimeInterval(-7 * 86_400), now: now))
+    }
+}
+

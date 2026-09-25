@@ -24,6 +24,7 @@ struct TodayPlanView: View {
     @State private var infoMessage: (title: String, body: String)?
     @State private var lockedLesson: LockedLesson?
     @State private var coachBriefing: CoachBriefing?
+    @AppStorage(TeaserPolicy.dismissedKey) private var teaserDismissedAt: Double = 0
     @State private var coachViewModel: CoachViewModel?
     @State private var showStudySettings = false
     @State private var paywall: PaywallMode?
@@ -132,8 +133,13 @@ struct TodayPlanView: View {
                     canAskModel: appState.tutorAccess == .allowed,
                     onOpenSettings: { showStudySettings = true }
                 )
-            } else if !appState.premiumProvider.isPremium {
-                CoachTeaserCard { paywall = .premium }
+            } else if !appState.premiumProvider.isPremium,
+                      TeaserPolicy.shouldShow(lastDismissed: teaserDismissedAt > 0 ? Date(timeIntervalSince1970: teaserDismissedAt) : nil, now: Date()) {
+                CoachTeaserCard(
+                    briefing: coachBriefing,
+                    onUpgrade: { paywall = .premium },
+                    onDismiss: { withAnimation { teaserDismissedAt = Date().timeIntervalSince1970 } }
+                )
             }
         }
     }

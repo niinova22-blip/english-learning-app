@@ -169,6 +169,64 @@
         }
       }
     },
+    "%lld days to your exam. Let your coach plan every one of them." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınavına %lld gün var. Her birini koçun planlasın."
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld day to your exam. Let your coach plan it."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days to your exam. Let your coach plan every one of them."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld days to your target. Let your coach plan every one of them." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedefine %lld gün var. Her birini koçun planlasın."
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld day to your target. Let your coach plan it."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days to your target. Let your coach plan every one of them."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld lessons in this package are locked; your plan updates when you unlock them." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -354,6 +412,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sınav ya da hedef tarihine göre günlük program"
+          }
+        }
+      }
+    },
+    "A daily plan that adapts when you fall behind" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geride kalınca kendini ayarlayan günlük program"
           }
         }
       }
@@ -585,6 +654,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öğretmene Sor"
+          }
+        }
+      }
+    },
+    "Ask the tutor about any word or question" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her kelimeyi ve soruyu öğretmene sor"
           }
         }
       }
@@ -1344,6 +1424,17 @@
         }
       }
     },
+    "Free for 7 days. We'll remind you the day before it ends; cancel anytime." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 gün ücretsiz. Bitmeden bir gün önce hatırlatırız; istediğin zaman iptal edebilirsin."
+          }
+        }
+      }
+    },
     "Fresh example sentences on demand" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1461,6 +1552,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zorlandım"
+          }
+        }
+      }
+    },
+    "Hide for a week" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir hafta gizle"
           }
         }
       }
@@ -1648,6 +1750,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Son 7 günde biten ders: %lld"
+          }
+        }
+      }
+    },
+    "Let your coach plan every study day for you." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her çalışma gününü koçun senin için planlasın."
           }
         }
       }
@@ -1883,6 +1996,17 @@
         }
       }
     },
+    "Not now" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi değil"
+          }
+        }
+      }
+    },
     "Notifications are turned off for Lexpath. You can allow them in Settings." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2022,6 +2146,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kâğıt kart"
+          }
+        }
+      }
+    },
+    "People who study at the same time every day keep their streak far longer. We'll skip the reminder on days you've already finished your plan." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her gün aynı saatte çalışanlar serilerini çok daha uzun sürdürür. Planını bitirdiğin günlerde hatırlatma göndermeyiz."
           }
         }
       }
@@ -2191,6 +2326,28 @@
         }
       }
     },
+    "Remind me" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hatırlat"
+          }
+        }
+      }
+    },
+    "Reminder time" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hatırlatma saati"
+          }
+        }
+      }
+    },
     "Reset" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2275,6 +2432,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tamamen cihazında çalışır: internetsiz de çalışır ve sorduğun hiçbir şey telefonundan çıkmaz."
+          }
+        }
+      }
+    },
+    "Runs on your phone, works offline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telefonunda çalışır, internetsiz de çalışır"
           }
         }
       }
@@ -2781,6 +2949,17 @@
         }
       }
     },
+    "Try free for 7 days" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 gün ücretsiz dene"
+          }
+        }
+      }
+    },
     "Try to recall the meaning" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2931,6 +3110,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Onay bekleniyor. Satın alım onaylanınca otomatik açılacak."
+          }
+        }
+      }
+    },
+    "Want a daily reminder?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlük hatırlatıcı ister misin?"
           }
         }
       }

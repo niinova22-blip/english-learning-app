@@ -35,9 +35,17 @@ struct OnboardingFlowView: View {
                 viewModel = OnboardingViewModel(context: context, userID: UserIdentity.current, ownedPackageIDs: owned)
             }
         }
+        .task(id: viewModel == nil) { await checkTrialEligibility() }
         .onChange(of: viewModel?.isOnboardingComplete) { _, isComplete in
             if isComplete == true { appState.bumpDataGeneration() }
         }
+    }
+
+    /// The offer step appears only for learners who can still start a trial.
+    private func checkTrialEligibility() async {
+        guard let viewModel, !appState.premiumProvider.isPremium else { return }
+        let products = (try? await appState.entitlements.products(for: [PremiumProducts.yearly])) ?? []
+        viewModel.offersTrial = products.contains(where: PlanPricing.showsTrial)
     }
 
     @ViewBuilder
@@ -49,6 +57,8 @@ struct OnboardingFlowView: View {
             ExamDateStep(viewModel: viewModel)
         case .dailyDuration:
             DailyDurationStep(viewModel: viewModel)
+        case .reminder:
+            ReminderStep(viewModel: viewModel)
         case .levelTestIntro:
             LevelTestIntroStep(viewModel: viewModel)
         case .levelTest:
@@ -63,6 +73,8 @@ struct OnboardingFlowView: View {
                     viewModel.finishFromResult()
                 }
             }
+        case .trialOffer:
+            TrialOfferStep(viewModel: viewModel)
         case .done:
             EmptyView()
         }

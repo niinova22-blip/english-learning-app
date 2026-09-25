@@ -77,24 +77,50 @@ struct CoachCardView: View {
     }
 }
 
+/// Free users see what their coach would say: the real status badge and
+/// progress line, the message blurred, and a way to start the trial.
 struct CoachTeaserCard: View {
+    let briefing: CoachBriefing
     let onUpgrade: () -> Void
+    let onDismiss: () -> Void
 
     var body: some View {
-        Button(action: onUpgrade) {
-            PaperCard {
-                HStack(spacing: 10) {
-                    Image(systemName: "lock.fill").foregroundStyle(Theme.secondaryInk)
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("AI Coach").font(.subheadline.weight(.semibold)).foregroundStyle(Theme.ink)
-                        Text("A personal plan built around your date").font(.caption).foregroundStyle(Theme.secondaryInk)
-                    }
+        PaperCard {
+            VStack(alignment: .leading, spacing: 10) {
+                HStack {
+                    Label("AI Coach", systemImage: "sparkles")
+                        .font(.subheadline.weight(.semibold)).foregroundStyle(Theme.primary)
+                    Text(CoachMessageTemplates.badge(for: briefing.plan.status))
+                        .font(.caption.weight(.semibold)).foregroundStyle(Theme.accent)
+                        .padding(.horizontal, 8).padding(.vertical, 3)
+                        .background(Theme.accent.opacity(0.14), in: Capsule())
                     Spacer()
-                    Image(systemName: "chevron.right").font(.caption).foregroundStyle(Theme.secondaryInk)
+                    Button(action: onDismiss) {
+                        Image(systemName: "xmark").font(.caption.weight(.bold)).foregroundStyle(Theme.secondaryInk)
+                    }
+                    .accessibilityLabel("Hide for a week")
                 }
+                Text(CoachMessageTemplates.progressLine(for: briefing.plan, isExam: briefing.isExamGoal))
+                    .font(.caption).foregroundStyle(Theme.secondaryInk)
+                Text(CoachMessageTemplates.message(for: briefing))
+                    .font(.subheadline).foregroundStyle(Theme.ink)
+                    .lineLimit(3)
+                    .blur(radius: 5)
+                    .accessibilityHidden(true)
+                Button("Try free for 7 days", action: onUpgrade)
+                    .buttonStyle(PrimaryButtonStyle())
             }
         }
-        .buttonStyle(PressableButtonStyle())
-        .accessibilityLabel("AI Coach, locked. A personal plan built around your date. Tap to upgrade to AI Premium.")
+    }
+}
+
+/// How long a dismissed coach teaser stays hidden.
+enum TeaserPolicy {
+    static let dismissedKey = "coach.teaser.dismissedAt"
+    static let quietDays: Double = 7
+
+    static func shouldShow(lastDismissed: Date?, now: Date) -> Bool {
+        guard let lastDismissed else { return true }
+        return now.timeIntervalSince(lastDismissed) >= quietDays * 86_400
     }
 }
