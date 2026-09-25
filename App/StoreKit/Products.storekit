@@ -16,6 +16,36 @@
       "productID" : "com.niinova22.englishapp.package.yds",
       "referenceName" : "YDS Paketi",
       "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "299.99",
+      "familyShareable" : false,
+      "internalID" : "6740000004",
+      "localizations" : [
+        {
+          "description" : "Every unit and lesson of the Business English package.",
+          "displayName" : "Business English",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.niinova22.englishapp.package.business",
+      "referenceName" : "Business English",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "299.99",
+      "familyShareable" : false,
+      "internalID" : "6740000005",
+      "localizations" : [
+        {
+          "description" : "Every unit and lesson of the Everyday English package.",
+          "displayName" : "Everyday English",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.niinova22.englishapp.package.everyday",
+      "referenceName" : "Everyday English",
+      "type" : "NonConsumable"
     }
   ],
   "settings" : {},

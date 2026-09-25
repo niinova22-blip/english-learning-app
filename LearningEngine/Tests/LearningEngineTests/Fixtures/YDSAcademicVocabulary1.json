@@ -5,7 +5,9 @@
   "storeProductID": "com.niinova22.englishapp.package.yds",
   "levelLower": "B2",
   "levelUpper": "C1",
-  "version": 8,
+  "version": 9,
+  "audience": "tr",
+  "summary": "YDS'ye hazırlık: akademik kelimeler, gramer, okuma ve sınav soru tipleri.",
   "skillWeights": {
     "vocabulary": 35,
     "grammar": 30,

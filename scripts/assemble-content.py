@@ -322,7 +322,7 @@ OUTPUT_PATHS = [
 # 8: Slice 7d adds the study-technique and second vocabulary units (orders
 # 13-23). Bumping this makes installed apps re-import the package; every
 # existing id is unchanged, so FSRS history survives the reseed.
-PACKAGE_VERSION = 8
+PACKAGE_VERSION = 9
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.
@@ -860,6 +860,8 @@ def assemble():
         "levelLower": "B2",
         "levelUpper": "C1",
         "version": PACKAGE_VERSION,
+        "audience": "tr",
+        "summary": "YDS'ye hazırlık: akademik kelimeler, gramer, okuma ve sınav soru tipleri.",
         "skillWeights": SKILL_WEIGHTS,
         "units": [enrich_lessons(u) for u in units],
     }

@@ -41,16 +41,12 @@ enum AppModelContainer {
         try? context.save()
     }
 
-    static func seedRealContentIfNeeded(in context: ModelContext) {
-        guard let url = Bundle.main.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
-            assertionFailure("YDSAcademicVocabulary1.json missing from app bundle")
-            containerCreationError = "YDSAcademicVocabulary1.json missing from app bundle"
-            return
-        }
-        do {
-            _ = try ContentSeeder.seed(bundledData: Data(contentsOf: url), into: context)
-        } catch {
-            containerCreationError = "Failed to seed content: \(error.localizedDescription)"
+    /// Seeds every bundled package independently: a missing or broken file
+    /// never blocks the others. The first failure is recorded for Profile.
+    static func seedRealContentIfNeeded(in context: ModelContext, bundle: Bundle = .main) {
+        for failure in BundledPackages.seedAll(from: bundle, into: context) {
+            assertionFailure(failure)
+            if containerCreationError == nil { containerCreationError = failure }
         }
     }
 }

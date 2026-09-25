@@ -22,6 +22,28 @@ final class RealContentSeedingTests: XCTestCase {
         return ModelContext(container)
     }
 
+    func test_allBundledPackages_seedSideBySide() throws {
+        let context = try makeInMemoryContext()
+        XCTAssertEqual(BundledPackages.seedAll(from: .main, into: context), [])
+        let packages = try context.fetch(FetchDescriptor<ContentPackage>())
+        XCTAssertEqual(Set(packages.map(\.id)), ["yds-academic-vocab-1", "business-english-1", "everyday-english-1"])
+        let business = try XCTUnwrap(packages.first { $0.id == "business-english-1" })
+        XCTAssertEqual(business.goal, .business)
+        XCTAssertNil(business.audience)
+        XCTAssertEqual(business.storeProductID, "com.niinova22.englishapp.package.business")
+        let words = business.units.flatMap { $0.lessons.flatMap(\.items) }.filter { $0.type == .vocabulary }
+        XCTAssertEqual(words.count, 240)
+        XCTAssertTrue(words.allSatisfy { $0.content?.translationTR == "" })
+    }
+
+    func test_seedAll_missingResource_isReportedAndDoesNotBlockTheOthers() throws {
+        let context = try makeInMemoryContext()
+        let failures = BundledPackages.seedAll(names: ["DoesNotExist", "EverydayEnglish1"], from: .main, into: context)
+        XCTAssertEqual(failures.count, 1)
+        XCTAssertTrue(failures[0].contains("DoesNotExist"))
+        XCTAssertEqual(try context.fetch(FetchDescriptor<ContentPackage>()).map(\.id), ["everyday-english-1"])
+    }
+
     func test_bundledYDSAcademicVocabularyJSON_resolvesFromAppBundle_andImportsEveryItem() throws {
         guard let url = Bundle.main.url(forResource: "YDSAcademicVocabulary1", withExtension: "json") else {
             XCTFail("YDSAcademicVocabulary1.json not found in the app bundle — check App/project.yml's resources: entry")
@@ -43,7 +65,8 @@ final class RealContentSeedingTests: XCTestCase {
         let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
         XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
 
-        XCTAssertEqual(package.version, 8)
+        XCTAssertEqual(package.version, 9)
+        XCTAssertEqual(package.audience, "tr")
         XCTAssertEqual(package.storeProductID, "com.niinova22.englishapp.package.yds")
         XCTAssertEqual(package.skillWeights.activeSkills, [.vocabulary, .grammar, .reading])
         XCTAssertEqual(package.skillWeights.share(of: .pronunciation), 0)

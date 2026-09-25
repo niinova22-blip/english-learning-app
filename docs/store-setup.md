@@ -12,6 +12,8 @@ adımlar App Store Connect'te elle yapılır. CI gerçek StoreKit'i çalıştır
    | Ürün | Tür | Ürün kimliği |
    |---|---|---|
    | YDS Paketi | Tüketilmeyen (Non-Consumable) | `com.niinova22.englishapp.package.yds` |
+   | Business English | Tüketilmeyen (Non-Consumable) | `com.niinova22.englishapp.package.business` |
+   | Everyday English | Tüketilmeyen (Non-Consumable) | `com.niinova22.englishapp.package.everyday` |
    | AI Premium aylık | Otomatik yenilenen abonelik | `com.niinova22.englishapp.premium.monthly` |
    | AI Premium yıllık | Otomatik yenilenen abonelik | `com.niinova22.englishapp.premium.yearly` |
 
