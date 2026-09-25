@@ -21,6 +21,8 @@ import os
 import re
 import sys
 
+from titles_lib import TitlesError, apply_titles
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES_DIR = os.path.join(ROOT, "App", "Sources", "EnglishApp", "Resources")
 HEADER_KEYS = ["id", "name", "goal", "storeProductID", "levelLower", "levelUpper",
@@ -208,6 +210,10 @@ def assemble(package_id):
         units.append(unit)
     doc = {k: header[k] for k in HEADER_KEYS if k in header}
     doc["units"] = units
+    try:
+        doc = apply_titles(doc, os.path.join(ROOT, "content", package_id, "titles.json"))
+    except TitlesError as e:
+        fail(package_id, str(e))
     return header["resource"], doc
 
 

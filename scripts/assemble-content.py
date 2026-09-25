@@ -33,6 +33,8 @@ import json
 import os
 import re
 
+from titles_lib import apply_titles
+
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 BATCH_DIR = os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "batches")
@@ -322,7 +324,7 @@ OUTPUT_PATHS = [
 # 8: Slice 7d adds the study-technique and second vocabulary units (orders
 # 13-23). Bumping this makes installed apps re-import the package; every
 # existing id is unchanged, so FSRS history survives the reseed.
-PACKAGE_VERSION = 9
+PACKAGE_VERSION = 10
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.
@@ -866,7 +868,8 @@ def assemble():
         "units": [enrich_lessons(u) for u in units],
     }
     validate_content(package)
-    return package
+    # 10: bilingual interface titles (content/yds-academic-vocab-1/titles.json).
+    return apply_titles(package, os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "titles.json"))
 
 
 def write_output(package, path):

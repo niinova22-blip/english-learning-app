@@ -65,7 +65,9 @@ final class RealContentSeedingTests: XCTestCase {
         let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
         XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
 
-        XCTAssertEqual(package.version, 9)
+        XCTAssertEqual(package.version, 10)
+        XCTAssertEqual(package.name(for: "en"), "YDS Prep")
+        XCTAssertEqual(package.name(for: "tr"), "YDS Hazırlık")
         XCTAssertEqual(package.audience, "tr")
         XCTAssertEqual(package.storeProductID, "com.niinova22.englishapp.package.yds")
         XCTAssertEqual(package.skillWeights.activeSkills, [.vocabulary, .grammar, .reading])

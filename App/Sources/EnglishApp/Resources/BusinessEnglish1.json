@@ -1,12 +1,20 @@
 {
   "id": "business-english-1",
   "name": "Business English",
+  "nameLocalized": {
+    "en": "Business English",
+    "tr": "İş İngilizcesi"
+  },
   "goal": "business",
   "storeProductID": "com.niinova22.englishapp.package.business",
   "levelLower": "B1",
   "levelUpper": "C1",
-  "version": 1,
+  "version": 2,
   "summary": "Vocabulary, grammar and reading for meetings, emails, presentations and negotiations.",
+  "summaryLocalized": {
+    "en": "Vocabulary, grammar and reading for meetings, emails, presentations and negotiations.",
+    "tr": "Toplantılar, e-postalar, sunumlar ve pazarlıklar için kelime, gramer ve okuma."
+  },
   "skillWeights": {
     "vocabulary": 40,
     "grammar": 25,
@@ -209,7 +217,11 @@
                 "a human resources manager"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Workplace I",
+            "tr": "İş yeri I"
+          }
         },
         {
           "id": "biz-u01-vocab-2",
@@ -398,7 +410,11 @@
                 "complete onboarding"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Workplace II",
+            "tr": "İş yeri II"
+          }
         },
         {
           "id": "biz-u01-vocab-3",
@@ -587,7 +603,11 @@
                 "flexible hours and remote work"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Workplace III",
+            "tr": "İş yeri III"
+          }
         },
         {
           "id": "biz-u01-grammar",
@@ -730,7 +750,11 @@
               "correctIndex": 1,
               "explanationTR": "'This month' and the office being closed describe a temporary situation, so the present continuous with the plural subject is correct: are working. 'Work' would present working from home as a permanent arrangement, and 'is working' does not agree with 'employees'."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Present simple vs present continuous",
+            "tr": "Gramer: Geniş zaman ve şimdiki zaman"
+          }
         },
         {
           "id": "biz-u01-practice",
@@ -869,9 +893,17 @@
               "correctIndex": 1,
               "explanationTR": "The passage says employees are taught to delegate parts of a big project so the workload is shared fairly. Freelancers, overtime, onboarding and performance reviews are mentioned elsewhere but are not the method described for sharing workload."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Reading: A company profile",
+            "tr": "Okuma: Bir şirket profili"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "At work: roles and routines",
+        "tr": "İş yerinde: görevler ve rutinler"
+      }
     },
     {
       "id": "biz-unit-02-meetings",
@@ -1065,7 +1097,11 @@
                 "follow up with someone"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Meetings I",
+            "tr": "Toplantılar I"
+          }
         },
         {
           "id": "biz-u02-vocab-2",
@@ -1255,7 +1291,11 @@
                 "from another viewpoint"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Meetings II",
+            "tr": "Toplantılar II"
+          }
         },
         {
           "id": "biz-u02-vocab-3",
@@ -1444,7 +1484,11 @@
                 "RSVP to an invitation"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Meetings III",
+            "tr": "Toplantılar III"
+          }
         },
         {
           "id": "biz-u02-grammar",
@@ -1587,7 +1631,11 @@
               "correctIndex": 2,
               "explanationTR": "The standard suggestion form is 'Let's' + base verb: Let's wrap up. 'Let' alone is missing 'us', 'Lets' is not a suggestion form, 'Let us to' wrongly adds 'to', and 'Letting' is a gerund, not a suggestion."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Modals for suggestions and opinions",
+            "tr": "Gramer: Öneri ve görüş bildiren kipler"
+          }
         },
         {
           "id": "biz-u02-practice",
@@ -1714,9 +1762,17 @@
               "correctIndex": 1,
               "explanationTR": "A directly asks whether anyone objects to the plan, and A's response 'Great, then it's settled' shows the answer confirmed agreement, which only this option does. The other replies are unrelated statements that do not address the question about objections."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Dialogues: In a meeting",
+            "tr": "Diyaloglar: Toplantıda"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Meetings",
+        "tr": "Toplantılar"
+      }
     },
     {
       "id": "biz-unit-03-emails",
@@ -1910,7 +1966,11 @@
                 "start a new thread"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Emails I",
+            "tr": "E-postalar I"
+          }
         },
         {
           "id": "biz-u03-vocab-2",
@@ -2099,7 +2159,11 @@
                 "courteous and professional"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Emails II",
+            "tr": "E-postalar II"
+          }
         },
         {
           "id": "biz-u03-vocab-3",
@@ -2288,7 +2352,11 @@
                 "escalate to a manager"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Emails III",
+            "tr": "E-postalar III"
+          }
         },
         {
           "id": "biz-u03-grammar",
@@ -2431,7 +2499,11 @@
               "correctIndex": 3,
               "explanationTR": "'If' alone correctly introduces the indirect question in statement order. The other options add an extra auxiliary ('did', 'does') or an unnecessary connector ('that'), which is not allowed in an indirect question."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Polite requests and indirect questions",
+            "tr": "Gramer: Kibar ricalar ve dolaylı sorular"
+          }
         },
         {
           "id": "biz-u03-practice",
@@ -2573,9 +2645,17 @@
               "correctIndex": 3,
               "explanationTR": "After 'let me', a verb must be in its base form, so 'clarify' is correct. 'Clarifying' and 'clarified' are wrong verb forms in this position, 'clarity' is a noun, and 'clarifies' is a third-person form."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Email gaps: Everyday business emails",
+            "tr": "Boşluk doldurma: Günlük iş e-postaları"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Emails and correspondence",
+        "tr": "E-postalar ve yazışmalar"
+      }
     },
     {
       "id": "biz-unit-04-presentations",
@@ -2769,7 +2849,11 @@
                 "rehearse out loud"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Presentations I",
+            "tr": "Sunumlar I"
+          }
         },
         {
           "id": "biz-u04-vocab-2",
@@ -2958,7 +3042,11 @@
                 "rely on visual aids"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Presentations II",
+            "tr": "Sunumlar II"
+          }
         },
         {
           "id": "biz-u04-vocab-3",
@@ -3147,7 +3235,11 @@
                 "recap at the end"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Presentations III",
+            "tr": "Sunumlar III"
+          }
         },
         {
           "id": "biz-u04-grammar",
@@ -3290,7 +3382,11 @@
               "correctIndex": 3,
               "explanationTR": "'Confident' is a longer adjective, so its superlative is 'the most confident', not '-est'. 'More confident' is a comparative, wrong for comparing everyone on the team, and 'confidentest' is not a real word."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Comparatives and superlatives for trends",
+            "tr": "Gramer: Eğilimleri anlatırken karşılaştırmalar"
+          }
         },
         {
           "id": "biz-u04-practice",
@@ -3445,9 +3541,17 @@
               "correctIndex": 3,
               "explanationTR": "The speaker explains she will be brief because the audience is 'waiting for the question and answer session at the end,' and she wants to leave enough time for it."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Reading: A presentation script",
+            "tr": "Okuma: Bir sunum metni"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Presentations",
+        "tr": "Sunumlar"
+      }
     },
     {
       "id": "biz-unit-05-negotiation",
@@ -3651,7 +3755,11 @@
                 "ask for a discount"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Negotiation and Sales I",
+            "tr": "Pazarlık ve satış I"
+          }
         },
         {
           "id": "biz-u05-vocab-2",
@@ -3851,7 +3959,11 @@
                 "completely non-negotiable"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Negotiation and Sales II",
+            "tr": "Pazarlık ve satış II"
+          }
         },
         {
           "id": "biz-u05-vocab-3",
@@ -4050,7 +4162,11 @@
                 "continue to hold firm"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Negotiation and Sales III",
+            "tr": "Pazarlık ve satış III"
+          }
         },
         {
           "id": "biz-u05-grammar",
@@ -4193,7 +4309,11 @@
               "correctIndex": 4,
               "explanationTR": "'Would seriously consider' shows this is a second conditional, so the if-clause needs the past simple 'improved'; the present form 'improve' belongs to the first conditional, and 'have improved' does not fit the would-clause."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: First and second conditionals",
+            "tr": "Gramer: Birinci ve ikinci tip koşul cümleleri"
+          }
         },
         {
           "id": "biz-u05-practice",
@@ -4320,9 +4440,17 @@
               "correctIndex": 2,
               "explanationTR": "Sofia's enthusiastic reply about signing 'this afternoon' fits only an answer that also agrees to close today; the other options involve delay or withdrawal, which would contradict her response."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Dialogues: Negotiating a deal",
+            "tr": "Diyaloglar: Anlaşma pazarlığı"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Negotiation and sales",
+        "tr": "Pazarlık ve satış"
+      }
     },
     {
       "id": "biz-unit-06-finance",
@@ -4526,7 +4654,11 @@
                 "the previous quarter"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Finance and Performance I",
+            "tr": "Finans ve performans I"
+          }
         },
         {
           "id": "biz-u06-vocab-2",
@@ -4725,7 +4857,11 @@
                 "cut overhead costs"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Finance and Performance II",
+            "tr": "Finans ve performans II"
+          }
         },
         {
           "id": "biz-u06-vocab-3",
@@ -4924,7 +5060,11 @@
                 "a tax write-off"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Finance and Performance III",
+            "tr": "Finans ve performans III"
+          }
         },
         {
           "id": "biz-u06-grammar",
@@ -5067,7 +5207,11 @@
               "correctIndex": 2,
               "explanationTR": "'Over the past six months' plus 'are still rising' shows an unfinished period connected to now, which needs the present perfect 'have risen'; the simple past 'rose' would suggest the rise is already over."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Present perfect vs past simple for results",
+            "tr": "Gramer: Sonuçları anlatırken present perfect ve past simple"
+          }
         },
         {
           "id": "biz-u06-practice",
@@ -5206,9 +5350,17 @@
             "id": "biz-u06-practice-passage",
             "title": "Quarterly Report: Solara Bikes, Q2",
             "body": "Solara Bikes has published its results for the second quarter of the fiscal year. Revenue reached eighteen million dollars, an increase of nine percent year-on-year. Much of this growth came from strong demand in the electric bicycle line, which now makes up almost half of total turnover.\n\nDespite the rise in revenue, net income fell slightly compared to the same quarter last year. Overhead costs, especially shipping and warehouse rent, increased faster than expected, and the company had to write off a batch of damaged inventory. Expenses for the quarter reached eleven million dollars, leaving a smaller profit margin than shareholders had hoped for.\n\nThe balance sheet remains healthy. Total assets grew to sixty million dollars, while liabilities stayed roughly the same, so shareholder equity improved. Cash flow was also positive: the finance team collected outstanding invoices more quickly, which helped the company avoid a cash shortage during a slow month.\n\nLooking ahead, management issued a cautious forecast for the third quarter. They expect the new factory to break even within a year, and they do not plan to raise the dividend until earnings recover fully. An external audit is scheduled for next month to confirm the figures in this report before they are shared with investors.\n\nOverall, the quarter showed healthy growth in sales but a small decline in net income. The board believes the company is still on track to meet its full-year targets, as long as overhead costs are brought under control before the next fiscal year begins."
+          },
+          "titleLocalized": {
+            "en": "Reading: A quarterly report",
+            "tr": "Okuma: Bir çeyrek dönem raporu"
           }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Finance and performance",
+        "tr": "Finans ve performans"
+      }
     },
     {
       "id": "biz-unit-07-marketing",
@@ -5415,7 +5567,11 @@
                 "brand loyalty"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Marketing and Customers I",
+            "tr": "Pazarlama ve müşteriler I"
+          }
         },
         {
           "id": "biz-u07-vocab-2",
@@ -5615,7 +5771,11 @@
                 "sponsorship deal"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Marketing and Customers II",
+            "tr": "Pazarlama ve müşteriler II"
+          }
         },
         {
           "id": "biz-u07-vocab-3",
@@ -5814,7 +5974,11 @@
                 "thorough market research"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Marketing and Customers III",
+            "tr": "Pazarlama ve müşteriler III"
+          }
         },
         {
           "id": "biz-u07-grammar",
@@ -5957,7 +6121,11 @@
               "correctIndex": 0,
               "explanationTR": "Here \"an outside agency\" is the subject performing the action, so the active \"created\" is correct; using a passive form would incorrectly turn the agency into the receiver of the action."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: The passive in reports",
+            "tr": "Gramer: Raporlarda edilgen yapı"
+          }
         },
         {
           "id": "biz-u07-practice",
@@ -6099,9 +6267,17 @@
               "correctIndex": 4,
               "explanationTR": "Customer loyalty is the ongoing support of a brand, which fits a rewards card aimed at repeat purchases; feedback is comments about a product, not the ongoing relationship a loyalty card targets."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Gaps: A marketing article",
+            "tr": "Boşluk doldurma: Bir pazarlama makalesi"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Marketing and customers",
+        "tr": "Pazarlama ve müşteriler"
+      }
     },
     {
       "id": "biz-unit-08-projects",
@@ -6309,7 +6485,11 @@
                 "remove a bottleneck"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Projects and Careers I",
+            "tr": "Projeler ve kariyer I"
+          }
         },
         {
           "id": "biz-u08-vocab-2",
@@ -6508,7 +6688,11 @@
                 "get back on track"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Projects and Careers II",
+            "tr": "Projeler ve kariyer II"
+          }
         },
         {
           "id": "biz-u08-vocab-3",
@@ -6708,7 +6892,11 @@
                 "freelance project"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Projects and Careers III",
+            "tr": "Projeler ve kariyer III"
+          }
         },
         {
           "id": "biz-u08-grammar",
@@ -6851,7 +7039,11 @@
               "correctIndex": 0,
               "explanationTR": "An action in progress during a specific future period (\"between 2 and 4 p.m. tomorrow\") uses the future continuous (will be running); \"will have run\" would mean the workshop is already over by then, and the other options refer to the past."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Future forms for plans and deadlines",
+            "tr": "Gramer: Plan ve son tarihler için gelecek zaman yapıları"
+          }
         },
         {
           "id": "biz-u08-practice",
@@ -6990,9 +7182,17 @@
               "correctIndex": 1,
               "explanationTR": "The update says that Farah, Dana's mentor, believes \"Dana's growing skill set made her the obvious choice\"; Dana joined only last year as an intern, and workloads, reports and stakeholders are mentioned in other contexts."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Reading: A project update",
+            "tr": "Okuma: Bir proje güncellemesi"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Projects and careers",
+        "tr": "Projeler ve kariyer"
+      }
     }
   ]
 }

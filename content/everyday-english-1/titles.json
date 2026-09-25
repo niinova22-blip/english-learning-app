@@ -1,0 +1,61 @@
+{
+  "package": {
+    "name": {"en": "Everyday English", "tr": "Günlük İngilizce"},
+    "summary": {
+      "en": "Words, grammar and short reads for everyday life: home, food, travel, health and people.",
+      "tr": "Günlük hayat için kelime, gramer ve kısa okumalar: ev, yemek, seyahat, sağlık ve insanlar."
+    }
+  },
+  "units": {
+    "day-unit-01-daily-life": {"en": "Daily life and routines", "tr": "Günlük hayat ve rutinler"},
+    "day-unit-02-food": {"en": "Food and eating out", "tr": "Yemek ve dışarıda yemek"},
+    "day-unit-03-shopping": {"en": "Shopping and money", "tr": "Alışveriş ve para"},
+    "day-unit-04-travel": {"en": "Travel and directions", "tr": "Seyahat ve yol tarifi"},
+    "day-unit-05-home": {"en": "Home and neighborhood", "tr": "Ev ve mahalle"},
+    "day-unit-06-health": {"en": "Health and the body", "tr": "Sağlık ve vücut"},
+    "day-unit-07-people": {"en": "People and relationships", "tr": "İnsanlar ve ilişkiler"},
+    "day-unit-08-free-time": {"en": "Free time and feelings", "tr": "Boş zaman ve duygular"}
+  },
+  "lessons": {
+    "day-u01-vocab-1": {"en": "Daily Life I", "tr": "Günlük hayat I"},
+    "day-u01-vocab-2": {"en": "Daily Life II", "tr": "Günlük hayat II"},
+    "day-u01-vocab-3": {"en": "Daily Life III", "tr": "Günlük hayat III"},
+    "day-u01-grammar": {"en": "Grammar: Present simple with adverbs of frequency", "tr": "Gramer: Sıklık zarflarıyla geniş zaman"},
+    "day-u01-practice": {"en": "Dialogues: A normal day", "tr": "Diyaloglar: Sıradan bir gün"},
+    "day-u02-vocab-1": {"en": "Food I", "tr": "Yemek I"},
+    "day-u02-vocab-2": {"en": "Food II", "tr": "Yemek II"},
+    "day-u02-vocab-3": {"en": "Food III", "tr": "Yemek III"},
+    "day-u02-grammar": {"en": "Grammar: Countable and uncountable nouns: some, any, much, many", "tr": "Gramer: Sayılabilen ve sayılamayan isimler: some, any, much, many"},
+    "day-u02-practice": {"en": "Dialogues: At a restaurant", "tr": "Diyaloglar: Restoranda"},
+    "day-u03-vocab-1": {"en": "Shopping I", "tr": "Alışveriş I"},
+    "day-u03-vocab-2": {"en": "Shopping II", "tr": "Alışveriş II"},
+    "day-u03-vocab-3": {"en": "Shopping III", "tr": "Alışveriş III"},
+    "day-u03-grammar": {"en": "Grammar: Comparatives and superlatives", "tr": "Gramer: Karşılaştırma ve üstünlük yapıları"},
+    "day-u03-practice": {"en": "Reading: Smart shopping tips", "tr": "Okuma: Akıllı alışveriş ipuçları"},
+    "day-u04-vocab-1": {"en": "Travel I", "tr": "Seyahat I"},
+    "day-u04-vocab-2": {"en": "Travel II", "tr": "Seyahat II"},
+    "day-u04-vocab-3": {"en": "Travel III", "tr": "Seyahat III"},
+    "day-u04-grammar": {"en": "Grammar: Past simple: regular and irregular verbs", "tr": "Gramer: Geçmiş zaman: düzenli ve düzensiz fiiller"},
+    "day-u04-practice": {"en": "Dialogues: Asking for directions", "tr": "Diyaloglar: Yol sormak"},
+    "day-u05-vocab-1": {"en": "Home I", "tr": "Ev I"},
+    "day-u05-vocab-2": {"en": "Home II", "tr": "Ev II"},
+    "day-u05-vocab-3": {"en": "Home III", "tr": "Ev III"},
+    "day-u05-grammar": {"en": "Grammar: There is/are and prepositions of place", "tr": "Gramer: There is/are ve yer edatları"},
+    "day-u05-practice": {"en": "Gaps: A message to a neighbor", "tr": "Boşluk doldurma: Komşuya bir mesaj"},
+    "day-u06-vocab-1": {"en": "Health I", "tr": "Sağlık I"},
+    "day-u06-vocab-2": {"en": "Health II", "tr": "Sağlık II"},
+    "day-u06-vocab-3": {"en": "Health III", "tr": "Sağlık III"},
+    "day-u06-grammar": {"en": "Grammar: Should, must and have to", "tr": "Gramer: Should, must ve have to"},
+    "day-u06-practice": {"en": "Dialogues: At the doctor's", "tr": "Diyaloglar: Doktorda"},
+    "day-u07-vocab-1": {"en": "People I", "tr": "İnsanlar I"},
+    "day-u07-vocab-2": {"en": "People II", "tr": "İnsanlar II"},
+    "day-u07-vocab-3": {"en": "People III", "tr": "İnsanlar III"},
+    "day-u07-grammar": {"en": "Grammar: Future plans", "tr": "Gramer: Gelecek planları"},
+    "day-u07-practice": {"en": "Reading: An email from a friend", "tr": "Okuma: Bir arkadaştan e-posta"},
+    "day-u08-vocab-1": {"en": "Free Time I", "tr": "Boş zaman I"},
+    "day-u08-vocab-2": {"en": "Free Time II", "tr": "Boş zaman II"},
+    "day-u08-vocab-3": {"en": "Free Time III", "tr": "Boş zaman III"},
+    "day-u08-grammar": {"en": "Grammar: Present perfect for experiences", "tr": "Gramer: Deneyimleri anlatırken present perfect"},
+    "day-u08-practice": {"en": "Reading: A hobby that changed my life", "tr": "Okuma: Hayatımı değiştiren bir hobi"}
+  }
+}

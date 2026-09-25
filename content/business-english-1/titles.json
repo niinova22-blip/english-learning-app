@@ -1,0 +1,61 @@
+{
+  "package": {
+    "name": {"en": "Business English", "tr": "İş İngilizcesi"},
+    "summary": {
+      "en": "Vocabulary, grammar and reading for meetings, emails, presentations and negotiations.",
+      "tr": "Toplantılar, e-postalar, sunumlar ve pazarlıklar için kelime, gramer ve okuma."
+    }
+  },
+  "units": {
+    "biz-unit-01-workplace": {"en": "At work: roles and routines", "tr": "İş yerinde: görevler ve rutinler"},
+    "biz-unit-02-meetings": {"en": "Meetings", "tr": "Toplantılar"},
+    "biz-unit-03-emails": {"en": "Emails and correspondence", "tr": "E-postalar ve yazışmalar"},
+    "biz-unit-04-presentations": {"en": "Presentations", "tr": "Sunumlar"},
+    "biz-unit-05-negotiation": {"en": "Negotiation and sales", "tr": "Pazarlık ve satış"},
+    "biz-unit-06-finance": {"en": "Finance and performance", "tr": "Finans ve performans"},
+    "biz-unit-07-marketing": {"en": "Marketing and customers", "tr": "Pazarlama ve müşteriler"},
+    "biz-unit-08-projects": {"en": "Projects and careers", "tr": "Projeler ve kariyer"}
+  },
+  "lessons": {
+    "biz-u01-vocab-1": {"en": "Workplace I", "tr": "İş yeri I"},
+    "biz-u01-vocab-2": {"en": "Workplace II", "tr": "İş yeri II"},
+    "biz-u01-vocab-3": {"en": "Workplace III", "tr": "İş yeri III"},
+    "biz-u01-grammar": {"en": "Grammar: Present simple vs present continuous", "tr": "Gramer: Geniş zaman ve şimdiki zaman"},
+    "biz-u01-practice": {"en": "Reading: A company profile", "tr": "Okuma: Bir şirket profili"},
+    "biz-u02-vocab-1": {"en": "Meetings I", "tr": "Toplantılar I"},
+    "biz-u02-vocab-2": {"en": "Meetings II", "tr": "Toplantılar II"},
+    "biz-u02-vocab-3": {"en": "Meetings III", "tr": "Toplantılar III"},
+    "biz-u02-grammar": {"en": "Grammar: Modals for suggestions and opinions", "tr": "Gramer: Öneri ve görüş bildiren kipler"},
+    "biz-u02-practice": {"en": "Dialogues: In a meeting", "tr": "Diyaloglar: Toplantıda"},
+    "biz-u03-vocab-1": {"en": "Emails I", "tr": "E-postalar I"},
+    "biz-u03-vocab-2": {"en": "Emails II", "tr": "E-postalar II"},
+    "biz-u03-vocab-3": {"en": "Emails III", "tr": "E-postalar III"},
+    "biz-u03-grammar": {"en": "Grammar: Polite requests and indirect questions", "tr": "Gramer: Kibar ricalar ve dolaylı sorular"},
+    "biz-u03-practice": {"en": "Email gaps: Everyday business emails", "tr": "Boşluk doldurma: Günlük iş e-postaları"},
+    "biz-u04-vocab-1": {"en": "Presentations I", "tr": "Sunumlar I"},
+    "biz-u04-vocab-2": {"en": "Presentations II", "tr": "Sunumlar II"},
+    "biz-u04-vocab-3": {"en": "Presentations III", "tr": "Sunumlar III"},
+    "biz-u04-grammar": {"en": "Grammar: Comparatives and superlatives for trends", "tr": "Gramer: Eğilimleri anlatırken karşılaştırmalar"},
+    "biz-u04-practice": {"en": "Reading: A presentation script", "tr": "Okuma: Bir sunum metni"},
+    "biz-u05-vocab-1": {"en": "Negotiation and Sales I", "tr": "Pazarlık ve satış I"},
+    "biz-u05-vocab-2": {"en": "Negotiation and Sales II", "tr": "Pazarlık ve satış II"},
+    "biz-u05-vocab-3": {"en": "Negotiation and Sales III", "tr": "Pazarlık ve satış III"},
+    "biz-u05-grammar": {"en": "Grammar: First and second conditionals", "tr": "Gramer: Birinci ve ikinci tip koşul cümleleri"},
+    "biz-u05-practice": {"en": "Dialogues: Negotiating a deal", "tr": "Diyaloglar: Anlaşma pazarlığı"},
+    "biz-u06-vocab-1": {"en": "Finance and Performance I", "tr": "Finans ve performans I"},
+    "biz-u06-vocab-2": {"en": "Finance and Performance II", "tr": "Finans ve performans II"},
+    "biz-u06-vocab-3": {"en": "Finance and Performance III", "tr": "Finans ve performans III"},
+    "biz-u06-grammar": {"en": "Grammar: Present perfect vs past simple for results", "tr": "Gramer: Sonuçları anlatırken present perfect ve past simple"},
+    "biz-u06-practice": {"en": "Reading: A quarterly report", "tr": "Okuma: Bir çeyrek dönem raporu"},
+    "biz-u07-vocab-1": {"en": "Marketing and Customers I", "tr": "Pazarlama ve müşteriler I"},
+    "biz-u07-vocab-2": {"en": "Marketing and Customers II", "tr": "Pazarlama ve müşteriler II"},
+    "biz-u07-vocab-3": {"en": "Marketing and Customers III", "tr": "Pazarlama ve müşteriler III"},
+    "biz-u07-grammar": {"en": "Grammar: The passive in reports", "tr": "Gramer: Raporlarda edilgen yapı"},
+    "biz-u07-practice": {"en": "Gaps: A marketing article", "tr": "Boşluk doldurma: Bir pazarlama makalesi"},
+    "biz-u08-vocab-1": {"en": "Projects and Careers I", "tr": "Projeler ve kariyer I"},
+    "biz-u08-vocab-2": {"en": "Projects and Careers II", "tr": "Projeler ve kariyer II"},
+    "biz-u08-vocab-3": {"en": "Projects and Careers III", "tr": "Projeler ve kariyer III"},
+    "biz-u08-grammar": {"en": "Grammar: Future forms for plans and deadlines", "tr": "Gramer: Plan ve son tarihler için gelecek zaman yapıları"},
+    "biz-u08-practice": {"en": "Reading: A project update", "tr": "Okuma: Bir proje güncellemesi"}
+  }
+}

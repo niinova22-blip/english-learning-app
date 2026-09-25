@@ -1,0 +1,704 @@
+{
+  "package": {
+    "name": {
+      "en": "YDS Prep",
+      "tr": "YDS Hazırlık"
+    },
+    "summary": {
+      "en": "YDS exam prep for Turkish speakers: academic vocabulary, grammar, reading and exam question types.",
+      "tr": "YDS'ye hazırlık: akademik kelimeler, gramer, okuma ve sınav soru tipleri."
+    }
+  },
+  "units": {
+    "yds-vocab1-unit-business-economics": {
+      "en": "Business & Economics",
+      "tr": "İş ve ekonomi"
+    },
+    "yds-vocab1-unit-science-research": {
+      "en": "Science & Research Methods",
+      "tr": "Bilim ve araştırma yöntemleri"
+    },
+    "yds-vocab1-unit-law-policy-society": {
+      "en": "Law, Policy & Society",
+      "tr": "Hukuk, politika ve toplum"
+    },
+    "yds-vocab1-unit-academic-writing": {
+      "en": "Academic Writing & Communication",
+      "tr": "Akademik yazım ve iletişim"
+    },
+    "yds-grammar-unit-verbs-and-tenses": {
+      "en": "Verbs and tenses",
+      "tr": "Fiil ve zaman"
+    },
+    "yds-grammar-unit-sentence-structures": {
+      "en": "Sentence structures",
+      "tr": "Cümle yapıları"
+    },
+    "yds-grammar-unit-verbals-and-linkers": {
+      "en": "Verbals and linkers",
+      "tr": "Fiilimsiler ve bağlantılar"
+    },
+    "yds-grammar-unit-exam-level-structures": {
+      "en": "Exam-level structures",
+      "tr": "Sınav düzeyi yapılar"
+    },
+    "yds-grammar-unit-word-level-grammar": {
+      "en": "Word-level grammar",
+      "tr": "Kelime düzeyinde gramer"
+    },
+    "yds-exam-unit-reading": {
+      "en": "Reading comprehension",
+      "tr": "Okuma anlama"
+    },
+    "yds-exam-unit-cloze-sentence": {
+      "en": "Cloze and sentence completion",
+      "tr": "Cloze ve cümle tamamlama"
+    },
+    "yds-exam-unit-paragraph": {
+      "en": "Paragraph questions",
+      "tr": "Paragraf soruları"
+    },
+    "yds-exam-unit-translation-restatement": {
+      "en": "Translation and restatement",
+      "tr": "Çeviri ve yeniden ifade"
+    },
+    "yds-tech-unit-question-strategies": {
+      "en": "Strategies for exam question types",
+      "tr": "Sınav soru tipi stratejileri"
+    },
+    "yds-tech-unit-exam-management": {
+      "en": "Exam management and timing",
+      "tr": "Sınav yönetimi ve zaman"
+    },
+    "yds-tech-unit-vocabulary-skills": {
+      "en": "Vocabulary learning techniques",
+      "tr": "Kelime öğrenme teknikleri"
+    },
+    "yds-vocab2-unit-health-medicine": {
+      "en": "Health & Medicine",
+      "tr": "Sağlık ve tıp"
+    },
+    "yds-vocab2-unit-environment-energy": {
+      "en": "Environment & Energy",
+      "tr": "Çevre ve enerji"
+    },
+    "yds-vocab2-unit-technology-innovation": {
+      "en": "Technology & Innovation",
+      "tr": "Teknoloji ve inovasyon"
+    },
+    "yds-vocab2-unit-education-learning": {
+      "en": "Education & Learning",
+      "tr": "Eğitim ve öğrenme"
+    },
+    "yds-vocab2-unit-history-culture": {
+      "en": "History & Culture",
+      "tr": "Tarih ve kültür"
+    },
+    "yds-vocab2-unit-psychology-behaviour": {
+      "en": "Psychology & Behaviour",
+      "tr": "Psikoloji ve davranış"
+    },
+    "yds-vocab2-unit-politics-governance": {
+      "en": "Politics & Governance",
+      "tr": "Siyaset ve yönetim"
+    },
+    "yds-vocab2-unit-media-communication": {
+      "en": "Media & Communication",
+      "tr": "Medya ve iletişim"
+    }
+  },
+  "lessons": {
+    "yds-vocab1-lesson-business-1": {
+      "en": "Business & Economics · 1",
+      "tr": "İş ve ekonomi · 1"
+    },
+    "yds-vocab1-lesson-business-2": {
+      "en": "Business & Economics · 2",
+      "tr": "İş ve ekonomi · 2"
+    },
+    "yds-vocab1-lesson-business-3": {
+      "en": "Business & Economics · 3",
+      "tr": "İş ve ekonomi · 3"
+    },
+    "yds-practice-lesson-tenses": {
+      "en": "Tenses",
+      "tr": "Zamanlar (Tenses)"
+    },
+    "yds-practice-lesson-conditionals": {
+      "en": "Conditionals",
+      "tr": "Koşul Cümleleri (Conditionals)"
+    },
+    "yds-practice-lesson-reading-1": {
+      "en": "Reading: Carbon pricing",
+      "tr": "Okuma: Karbon Fiyatlandırması"
+    },
+    "yds-practice-lesson-reading-2": {
+      "en": "Reading: The digital economy",
+      "tr": "Okuma: Dijital Ekonomi"
+    },
+    "yds-practice-lesson-cloze-1": {
+      "en": "Cloze test: Urbanisation",
+      "tr": "Cloze Test: Kentleşme"
+    },
+    "yds-practice-lesson-sentence-1": {
+      "en": "Sentence completion",
+      "tr": "Cümle Tamamlama"
+    },
+    "yds-practice-lesson-translation-1": {
+      "en": "Translation: English to Turkish",
+      "tr": "Çeviri: İngilizce-Türkçe"
+    },
+    "yds-vocab1-lesson-science-1": {
+      "en": "Science & Research Methods · 1",
+      "tr": "Bilim ve araştırma yöntemleri · 1"
+    },
+    "yds-vocab1-lesson-science-2": {
+      "en": "Science & Research Methods · 2",
+      "tr": "Bilim ve araştırma yöntemleri · 2"
+    },
+    "yds-vocab1-lesson-science-3": {
+      "en": "Science & Research Methods · 3",
+      "tr": "Bilim ve araştırma yöntemleri · 3"
+    },
+    "yds-vocab1-lesson-law-1": {
+      "en": "Law, Policy & Society · 1",
+      "tr": "Hukuk, politika ve toplum · 1"
+    },
+    "yds-vocab1-lesson-law-2": {
+      "en": "Law, Policy & Society · 2",
+      "tr": "Hukuk, politika ve toplum · 2"
+    },
+    "yds-vocab1-lesson-law-3": {
+      "en": "Law, Policy & Society · 3",
+      "tr": "Hukuk, politika ve toplum · 3"
+    },
+    "yds-vocab1-lesson-writing-1": {
+      "en": "Academic Writing & Communication · 1",
+      "tr": "Akademik yazım ve iletişim · 1"
+    },
+    "yds-vocab1-lesson-writing-2": {
+      "en": "Academic Writing & Communication · 2",
+      "tr": "Akademik yazım ve iletişim · 2"
+    },
+    "yds-vocab1-lesson-writing-3": {
+      "en": "Academic Writing & Communication · 3",
+      "tr": "Akademik yazım ve iletişim · 3"
+    },
+    "yds-grammar-tenses-2": {
+      "en": "Tenses: Traps",
+      "tr": "Zamanlar: Tuzaklar"
+    },
+    "yds-grammar-modals-1": {
+      "en": "Modals",
+      "tr": "Kipler (Modals)"
+    },
+    "yds-grammar-modals-2": {
+      "en": "Modals: Traps",
+      "tr": "Kipler: Tuzaklar"
+    },
+    "yds-grammar-passive-voice-1": {
+      "en": "Passive voice",
+      "tr": "Edilgen Yapı (Passive Voice)"
+    },
+    "yds-grammar-passive-voice-2": {
+      "en": "Passive voice: Traps",
+      "tr": "Edilgen Yapı: Tuzaklar"
+    },
+    "yds-grammar-conditionals-2": {
+      "en": "Conditionals: Traps",
+      "tr": "Koşul Cümleleri: Tuzaklar"
+    },
+    "yds-grammar-relative-clauses-1": {
+      "en": "Relative clauses",
+      "tr": "Sıfat Cümlecikleri (Relative Clauses)"
+    },
+    "yds-grammar-relative-clauses-2": {
+      "en": "Relative clauses: Traps",
+      "tr": "Sıfat Cümlecikleri: Tuzaklar"
+    },
+    "yds-grammar-noun-clauses-1": {
+      "en": "Noun clauses",
+      "tr": "İsim Cümlecikleri (Noun Clauses)"
+    },
+    "yds-grammar-noun-clauses-2": {
+      "en": "Noun clauses: Traps",
+      "tr": "İsim Cümlecikleri: Tuzaklar"
+    },
+    "yds-grammar-reported-speech-1": {
+      "en": "Reported speech",
+      "tr": "Dolaylı Anlatım (Reported Speech)"
+    },
+    "yds-grammar-reported-speech-2": {
+      "en": "Reported speech: Traps",
+      "tr": "Dolaylı Anlatım: Tuzaklar"
+    },
+    "yds-grammar-gerunds-infinitives-1": {
+      "en": "Gerunds and infinitives",
+      "tr": "İsim-Fiiller ve Mastarlar (Gerunds & Infinitives)"
+    },
+    "yds-grammar-gerunds-infinitives-2": {
+      "en": "Gerunds and infinitives: Traps",
+      "tr": "İsim-Fiiller ve Mastarlar: Tuzaklar"
+    },
+    "yds-grammar-participle-clauses-1": {
+      "en": "Participle clauses",
+      "tr": "Ortaç Cümlecikleri (Participle Clauses)"
+    },
+    "yds-grammar-participle-clauses-2": {
+      "en": "Participle clauses: Traps",
+      "tr": "Ortaç Cümlecikleri: Tuzaklar"
+    },
+    "yds-grammar-conjunctions-linkers-1": {
+      "en": "Conjunctions and linkers",
+      "tr": "Bağlaçlar ve Bağlayıcılar (Conjunctions & Linkers)"
+    },
+    "yds-grammar-conjunctions-linkers-2": {
+      "en": "Conjunctions and linkers: Traps",
+      "tr": "Bağlaçlar ve Bağlayıcılar: Tuzaklar"
+    },
+    "yds-grammar-inversion-1": {
+      "en": "Inversion and emphasis",
+      "tr": "Devrik Yapı ve Vurgu (Inversion & Emphasis)"
+    },
+    "yds-grammar-inversion-2": {
+      "en": "Inversion and emphasis: Traps",
+      "tr": "Devrik Yapı ve Vurgu: Tuzaklar"
+    },
+    "yds-grammar-subjunctive-1": {
+      "en": "The subjunctive",
+      "tr": "İstek Kipi (Subjunctive)"
+    },
+    "yds-grammar-subjunctive-2": {
+      "en": "The subjunctive: Traps",
+      "tr": "İstek Kipi: Tuzaklar"
+    },
+    "yds-grammar-prepositions-1": {
+      "en": "Prepositions",
+      "tr": "Edatlar (Prepositions)"
+    },
+    "yds-grammar-prepositions-2": {
+      "en": "Prepositions: Traps",
+      "tr": "Edatlar: Tuzaklar"
+    },
+    "yds-grammar-comparatives-1": {
+      "en": "Comparatives",
+      "tr": "Karşılaştırma Yapıları (Comparatives)"
+    },
+    "yds-grammar-comparatives-2": {
+      "en": "Comparatives: Traps",
+      "tr": "Karşılaştırma Yapıları: Tuzaklar"
+    },
+    "yds-grammar-determiners-1": {
+      "en": "Determiners and quantifiers",
+      "tr": "Belirteçler ve Niceleyiciler (Determiners & Quantifiers)"
+    },
+    "yds-grammar-determiners-2": {
+      "en": "Determiners and quantifiers: Traps",
+      "tr": "Belirteçler ve Niceleyiciler: Tuzaklar"
+    },
+    "yds-grammar-articles-1": {
+      "en": "Articles",
+      "tr": "Tanımlıklar (Articles)"
+    },
+    "yds-grammar-articles-2": {
+      "en": "Articles: Traps",
+      "tr": "Tanımlıklar: Tuzaklar"
+    },
+    "yds-exam-reading-1": {
+      "en": "Reading: Sleep and memory",
+      "tr": "Okuma: Uyku ve Bellek"
+    },
+    "yds-exam-reading-2": {
+      "en": "Reading: The economics of remote work",
+      "tr": "Okuma: Uzaktan Çalışmanın Ekonomisi"
+    },
+    "yds-exam-reading-3": {
+      "en": "Reading: Antibiotic resistance",
+      "tr": "Okuma: Antibiyotik Direnci"
+    },
+    "yds-exam-reading-4": {
+      "en": "Reading: Urban heat islands",
+      "tr": "Okuma: Kentsel Isı Adaları"
+    },
+    "yds-exam-reading-5": {
+      "en": "Reading: The printing press and literacy",
+      "tr": "Okuma: Matbaa ve Okuryazarlık"
+    },
+    "yds-exam-reading-6": {
+      "en": "Reading: Algorithmic hiring",
+      "tr": "Okuma: Algoritmik İşe Alım"
+    },
+    "yds-exam-reading-7": {
+      "en": "Reading: Energy storage",
+      "tr": "Okuma: Enerji Depolama"
+    },
+    "yds-exam-reading-8": {
+      "en": "Reading: Language learning in adults",
+      "tr": "Okuma: Yetişkinlerde Dil Öğrenimi"
+    },
+    "yds-exam-cloze-1": {
+      "en": "Cloze test: Microfinance",
+      "tr": "Cloze Test: Mikrofinans"
+    },
+    "yds-exam-cloze-2": {
+      "en": "Cloze test: Bilingual education",
+      "tr": "Cloze Test: Çift Dilli Eğitim"
+    },
+    "yds-exam-cloze-3": {
+      "en": "Cloze test: Ocean plastics",
+      "tr": "Cloze Test: Okyanus Plastikleri"
+    },
+    "yds-exam-cloze-4": {
+      "en": "Cloze test: The ethics of gene editing",
+      "tr": "Cloze Test: Gen Düzenleme Etiği"
+    },
+    "yds-exam-sentence-1": {
+      "en": "Sentence completion 1: Cause and effect",
+      "tr": "Cümle Tamamlama 1: Neden ve Sonuç"
+    },
+    "yds-exam-sentence-2": {
+      "en": "Sentence completion 2: Condition and contrast",
+      "tr": "Cümle Tamamlama 2: Koşul ve Karşıtlık"
+    },
+    "yds-exam-sentence-3": {
+      "en": "Sentence completion 3: Time and purpose",
+      "tr": "Cümle Tamamlama 3: Zaman ve Amaç"
+    },
+    "yds-exam-sentence-4": {
+      "en": "Sentence completion 4: Fine distinctions",
+      "tr": "Cümle Tamamlama 4: İnce Ayrımlar"
+    },
+    "yds-exam-paragraph-1": {
+      "en": "Paragraph completion 1: Topic sentence",
+      "tr": "Paragraf Tamamlama 1: Konu Cümlesi"
+    },
+    "yds-exam-paragraph-2": {
+      "en": "Paragraph completion 2: Transition sentence",
+      "tr": "Paragraf Tamamlama 2: Geçiş Cümlesi"
+    },
+    "yds-exam-paragraph-3": {
+      "en": "Paragraph completion 3: Concluding sentence",
+      "tr": "Paragraf Tamamlama 3: Sonuç Cümlesi"
+    },
+    "yds-exam-irrelevant-1": {
+      "en": "Irrelevant sentence 1",
+      "tr": "Konu Dışı Cümle 1"
+    },
+    "yds-exam-irrelevant-2": {
+      "en": "Irrelevant sentence 2",
+      "tr": "Konu Dışı Cümle 2"
+    },
+    "yds-exam-irrelevant-3": {
+      "en": "Irrelevant sentence 3",
+      "tr": "Konu Dışı Cümle 3"
+    },
+    "yds-exam-dialogue-1": {
+      "en": "Dialogue completion 1",
+      "tr": "Diyalog Tamamlama 1"
+    },
+    "yds-exam-dialogue-2": {
+      "en": "Dialogue completion 2",
+      "tr": "Diyalog Tamamlama 2"
+    },
+    "yds-exam-translation-en-tr-1": {
+      "en": "Translation: English to Turkish 1",
+      "tr": "Çeviri: İngilizce-Türkçe 1"
+    },
+    "yds-exam-translation-en-tr-2": {
+      "en": "Translation: English to Turkish 2",
+      "tr": "Çeviri: İngilizce-Türkçe 2"
+    },
+    "yds-exam-translation-en-tr-3": {
+      "en": "Translation: English to Turkish 3",
+      "tr": "Çeviri: İngilizce-Türkçe 3"
+    },
+    "yds-exam-translation-tr-en-1": {
+      "en": "Translation: Turkish to English 1",
+      "tr": "Çeviri: Türkçe-İngilizce 1"
+    },
+    "yds-exam-translation-tr-en-2": {
+      "en": "Translation: Turkish to English 2",
+      "tr": "Çeviri: Türkçe-İngilizce 2"
+    },
+    "yds-exam-translation-tr-en-3": {
+      "en": "Translation: Turkish to English 3",
+      "tr": "Çeviri: Türkçe-İngilizce 3"
+    },
+    "yds-exam-restatement-1": {
+      "en": "Restatement 1",
+      "tr": "Yeniden İfade 1"
+    },
+    "yds-exam-restatement-2": {
+      "en": "Restatement 2",
+      "tr": "Yeniden İfade 2"
+    },
+    "yds-exam-restatement-3": {
+      "en": "Restatement 3",
+      "tr": "Yeniden İfade 3"
+    },
+    "yds-tech-reading": {
+      "en": "Strategy: Reading questions",
+      "tr": "Strateji: Okuma Soruları"
+    },
+    "yds-tech-cloze": {
+      "en": "Strategy: Cloze tests",
+      "tr": "Strateji: Cloze Testi"
+    },
+    "yds-tech-sentence": {
+      "en": "Strategy: Sentence completion",
+      "tr": "Strateji: Cümle Tamamlama"
+    },
+    "yds-tech-translation": {
+      "en": "Strategy: Translation questions",
+      "tr": "Strateji: Çeviri Soruları"
+    },
+    "yds-tech-paragraph": {
+      "en": "Strategy: Paragraph completion",
+      "tr": "Strateji: Paragraf Tamamlama"
+    },
+    "yds-tech-irrelevant": {
+      "en": "Strategy: Irrelevant sentence",
+      "tr": "Strateji: Konu Dışı Cümle"
+    },
+    "yds-tech-dialogue": {
+      "en": "Strategy: Dialogue completion",
+      "tr": "Strateji: Diyalog Tamamlama"
+    },
+    "yds-tech-restatement": {
+      "en": "Strategy: Restatement",
+      "tr": "Strateji: Yeniden İfade"
+    },
+    "yds-tech-vocabulary-questions": {
+      "en": "Strategy: Vocabulary questions",
+      "tr": "Strateji: Kelime Soruları"
+    },
+    "yds-tech-grammar-questions": {
+      "en": "Strategy: Grammar questions",
+      "tr": "Strateji: Gramer Soruları"
+    },
+    "yds-tech-time-allocation": {
+      "en": "Exam management: Timing",
+      "tr": "Sınav Yönetimi: Zaman Payı"
+    },
+    "yds-tech-elimination": {
+      "en": "Exam management: Elimination and guessing",
+      "tr": "Sınav Yönetimi: Eleme ve Tahmin"
+    },
+    "yds-tech-exam-day": {
+      "en": "Exam management: Exam day",
+      "tr": "Sınav Yönetimi: Sınav Günü"
+    },
+    "yds-tech-prefixes": {
+      "en": "Word skills: Prefixes",
+      "tr": "Kelime Tekniği: Ön Ekler"
+    },
+    "yds-tech-suffixes": {
+      "en": "Word skills: Suffixes",
+      "tr": "Kelime Tekniği: Son Ekler"
+    },
+    "yds-tech-context-clues": {
+      "en": "Word skills: Meaning from context",
+      "tr": "Kelime Tekniği: Bağlamdan Anlam"
+    },
+    "yds-tech-synonyms-collocations": {
+      "en": "Word skills: Synonyms and collocations",
+      "tr": "Kelime Tekniği: Eş Anlam ve Eşdizimlilik"
+    },
+    "yds-tech-memorisation": {
+      "en": "Word skills: Memorising and reviewing",
+      "tr": "Kelime Tekniği: Ezberleme ve Tekrar"
+    },
+    "yds-vocab2-lesson-health-medicine-1": {
+      "en": "Health & Medicine · 1",
+      "tr": "Sağlık ve tıp · 1"
+    },
+    "yds-vocab2-lesson-health-medicine-2": {
+      "en": "Health & Medicine · 2",
+      "tr": "Sağlık ve tıp · 2"
+    },
+    "yds-vocab2-lesson-health-medicine-3": {
+      "en": "Health & Medicine · 3",
+      "tr": "Sağlık ve tıp · 3"
+    },
+    "yds-vocab2-lesson-health-medicine-4": {
+      "en": "Health & Medicine · 4",
+      "tr": "Sağlık ve tıp · 4"
+    },
+    "yds-vocab2-lesson-health-medicine-5": {
+      "en": "Health & Medicine · 5",
+      "tr": "Sağlık ve tıp · 5"
+    },
+    "yds-vocab2-lesson-health-medicine-6": {
+      "en": "Health & Medicine · 6",
+      "tr": "Sağlık ve tıp · 6"
+    },
+    "yds-vocab2-lesson-environment-energy-1": {
+      "en": "Environment & Energy · 1",
+      "tr": "Çevre ve enerji · 1"
+    },
+    "yds-vocab2-lesson-environment-energy-2": {
+      "en": "Environment & Energy · 2",
+      "tr": "Çevre ve enerji · 2"
+    },
+    "yds-vocab2-lesson-environment-energy-3": {
+      "en": "Environment & Energy · 3",
+      "tr": "Çevre ve enerji · 3"
+    },
+    "yds-vocab2-lesson-environment-energy-4": {
+      "en": "Environment & Energy · 4",
+      "tr": "Çevre ve enerji · 4"
+    },
+    "yds-vocab2-lesson-environment-energy-5": {
+      "en": "Environment & Energy · 5",
+      "tr": "Çevre ve enerji · 5"
+    },
+    "yds-vocab2-lesson-environment-energy-6": {
+      "en": "Environment & Energy · 6",
+      "tr": "Çevre ve enerji · 6"
+    },
+    "yds-vocab2-lesson-technology-innovation-1": {
+      "en": "Technology & Innovation · 1",
+      "tr": "Teknoloji ve inovasyon · 1"
+    },
+    "yds-vocab2-lesson-technology-innovation-2": {
+      "en": "Technology & Innovation · 2",
+      "tr": "Teknoloji ve inovasyon · 2"
+    },
+    "yds-vocab2-lesson-technology-innovation-3": {
+      "en": "Technology & Innovation · 3",
+      "tr": "Teknoloji ve inovasyon · 3"
+    },
+    "yds-vocab2-lesson-technology-innovation-4": {
+      "en": "Technology & Innovation · 4",
+      "tr": "Teknoloji ve inovasyon · 4"
+    },
+    "yds-vocab2-lesson-technology-innovation-5": {
+      "en": "Technology & Innovation · 5",
+      "tr": "Teknoloji ve inovasyon · 5"
+    },
+    "yds-vocab2-lesson-technology-innovation-6": {
+      "en": "Technology & Innovation · 6",
+      "tr": "Teknoloji ve inovasyon · 6"
+    },
+    "yds-vocab2-lesson-education-learning-1": {
+      "en": "Education & Learning · 1",
+      "tr": "Eğitim ve öğrenme · 1"
+    },
+    "yds-vocab2-lesson-education-learning-2": {
+      "en": "Education & Learning · 2",
+      "tr": "Eğitim ve öğrenme · 2"
+    },
+    "yds-vocab2-lesson-education-learning-3": {
+      "en": "Education & Learning · 3",
+      "tr": "Eğitim ve öğrenme · 3"
+    },
+    "yds-vocab2-lesson-education-learning-4": {
+      "en": "Education & Learning · 4",
+      "tr": "Eğitim ve öğrenme · 4"
+    },
+    "yds-vocab2-lesson-education-learning-5": {
+      "en": "Education & Learning · 5",
+      "tr": "Eğitim ve öğrenme · 5"
+    },
+    "yds-vocab2-lesson-education-learning-6": {
+      "en": "Education & Learning · 6",
+      "tr": "Eğitim ve öğrenme · 6"
+    },
+    "yds-vocab2-lesson-history-culture-1": {
+      "en": "History & Culture · 1",
+      "tr": "Tarih ve kültür · 1"
+    },
+    "yds-vocab2-lesson-history-culture-2": {
+      "en": "History & Culture · 2",
+      "tr": "Tarih ve kültür · 2"
+    },
+    "yds-vocab2-lesson-history-culture-3": {
+      "en": "History & Culture · 3",
+      "tr": "Tarih ve kültür · 3"
+    },
+    "yds-vocab2-lesson-history-culture-4": {
+      "en": "History & Culture · 4",
+      "tr": "Tarih ve kültür · 4"
+    },
+    "yds-vocab2-lesson-history-culture-5": {
+      "en": "History & Culture · 5",
+      "tr": "Tarih ve kültür · 5"
+    },
+    "yds-vocab2-lesson-history-culture-6": {
+      "en": "History & Culture · 6",
+      "tr": "Tarih ve kültür · 6"
+    },
+    "yds-vocab2-lesson-psychology-behaviour-1": {
+      "en": "Psychology & Behaviour · 1",
+      "tr": "Psikoloji ve davranış · 1"
+    },
+    "yds-vocab2-lesson-psychology-behaviour-2": {
+      "en": "Psychology & Behaviour · 2",
+      "tr": "Psikoloji ve davranış · 2"
+    },
+    "yds-vocab2-lesson-psychology-behaviour-3": {
+      "en": "Psychology & Behaviour · 3",
+      "tr": "Psikoloji ve davranış · 3"
+    },
+    "yds-vocab2-lesson-psychology-behaviour-4": {
+      "en": "Psychology & Behaviour · 4",
+      "tr": "Psikoloji ve davranış · 4"
+    },
+    "yds-vocab2-lesson-psychology-behaviour-5": {
+      "en": "Psychology & Behaviour · 5",
+      "tr": "Psikoloji ve davranış · 5"
+    },
+    "yds-vocab2-lesson-psychology-behaviour-6": {
+      "en": "Psychology & Behaviour · 6",
+      "tr": "Psikoloji ve davranış · 6"
+    },
+    "yds-vocab2-lesson-politics-governance-1": {
+      "en": "Politics & Governance · 1",
+      "tr": "Siyaset ve yönetim · 1"
+    },
+    "yds-vocab2-lesson-politics-governance-2": {
+      "en": "Politics & Governance · 2",
+      "tr": "Siyaset ve yönetim · 2"
+    },
+    "yds-vocab2-lesson-politics-governance-3": {
+      "en": "Politics & Governance · 3",
+      "tr": "Siyaset ve yönetim · 3"
+    },
+    "yds-vocab2-lesson-politics-governance-4": {
+      "en": "Politics & Governance · 4",
+      "tr": "Siyaset ve yönetim · 4"
+    },
+    "yds-vocab2-lesson-politics-governance-5": {
+      "en": "Politics & Governance · 5",
+      "tr": "Siyaset ve yönetim · 5"
+    },
+    "yds-vocab2-lesson-politics-governance-6": {
+      "en": "Politics & Governance · 6",
+      "tr": "Siyaset ve yönetim · 6"
+    },
+    "yds-vocab2-lesson-media-communication-1": {
+      "en": "Media & Communication · 1",
+      "tr": "Medya ve iletişim · 1"
+    },
+    "yds-vocab2-lesson-media-communication-2": {
+      "en": "Media & Communication · 2",
+      "tr": "Medya ve iletişim · 2"
+    },
+    "yds-vocab2-lesson-media-communication-3": {
+      "en": "Media & Communication · 3",
+      "tr": "Medya ve iletişim · 3"
+    },
+    "yds-vocab2-lesson-media-communication-4": {
+      "en": "Media & Communication · 4",
+      "tr": "Medya ve iletişim · 4"
+    },
+    "yds-vocab2-lesson-media-communication-5": {
+      "en": "Media & Communication · 5",
+      "tr": "Medya ve iletişim · 5"
+    },
+    "yds-vocab2-lesson-media-communication-6": {
+      "en": "Media & Communication · 6",
+      "tr": "Medya ve iletişim · 6"
+    }
+  }
+}

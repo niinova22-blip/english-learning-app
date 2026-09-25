@@ -1,12 +1,20 @@
 {
   "id": "everyday-english-1",
   "name": "Everyday English",
+  "nameLocalized": {
+    "en": "Everyday English",
+    "tr": "Günlük İngilizce"
+  },
   "goal": "conversational",
   "storeProductID": "com.niinova22.englishapp.package.everyday",
   "levelLower": "A2",
   "levelUpper": "B1",
-  "version": 1,
+  "version": 2,
   "summary": "Words, grammar and short reads for everyday life: home, food, travel, health and people.",
+  "summaryLocalized": {
+    "en": "Words, grammar and short reads for everyday life: home, food, travel, health and people.",
+    "tr": "Günlük hayat için kelime, gramer ve kısa okumalar: ev, yemek, seyahat, sağlık ve insanlar."
+  },
   "skillWeights": {
     "vocabulary": 40,
     "grammar": 35,
@@ -219,7 +227,11 @@
                 "a daily commute"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Daily Life I",
+            "tr": "Günlük hayat I"
+          }
         },
         {
           "id": "day-u01-vocab-2",
@@ -418,7 +430,11 @@
                 "past your bedtime"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Daily Life II",
+            "tr": "Günlük hayat II"
+          }
         },
         {
           "id": "day-u01-vocab-3",
@@ -617,7 +633,11 @@
                 "never again"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Daily Life III",
+            "tr": "Günlük hayat III"
+          }
         },
         {
           "id": "day-u01-grammar",
@@ -760,7 +780,11 @@
               "correctIndex": 1,
               "explanationTR": "\"Always\" goes directly before the main verb (\"they always watch\"); no extra auxiliary like \"does\" or \"is\" is needed in this affirmative present simple sentence."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Present simple with adverbs of frequency",
+            "tr": "Gramer: Sıklık zarflarıyla geniş zaman"
+          }
         },
         {
           "id": "day-u01-practice",
@@ -902,9 +926,17 @@
               "correctIndex": 1,
               "explanationTR": "This option explains why the person is \"always in a rush\" by describing a very short morning routine, which directly matches A's remark."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Dialogues: A normal day",
+            "tr": "Diyaloglar: Sıradan bir gün"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Daily life and routines",
+        "tr": "Günlük hayat ve rutinler"
+      }
     },
     {
       "id": "day-unit-02-food",
@@ -1108,7 +1140,11 @@
                 "too sweet"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Food I",
+            "tr": "Yemek I"
+          }
         },
         {
           "id": "day-u02-vocab-2",
@@ -1307,7 +1343,11 @@
                 "a quiet table for two"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Food II",
+            "tr": "Yemek II"
+          }
         },
         {
           "id": "day-u02-vocab-3",
@@ -1506,7 +1546,11 @@
                 "not a crumb left"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Food III",
+            "tr": "Yemek III"
+          }
         },
         {
           "id": "day-u02-grammar",
@@ -1649,7 +1693,11 @@
               "correctIndex": 4,
               "explanationTR": "\"Bread\" is uncountable, so we say \"some bread\" (or \"a loaf of bread\"), not \"a bread\" or \"two breads\"; \"many\" and \"a few\" go only with countable plural nouns."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Countable and uncountable nouns: some, any, much, many",
+            "tr": "Gramer: Sayılabilen ve sayılamayan isimler: some, any, much, many"
+          }
         },
         {
           "id": "day-u02-practice",
@@ -1791,9 +1839,17 @@
               "correctIndex": 1,
               "explanationTR": "This option gives a wait time, which matches A's reply, \"we'll wait\"; the other options don't explain why the customers would need to wait."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Dialogues: At a restaurant",
+            "tr": "Diyaloglar: Restoranda"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Food and eating out",
+        "tr": "Yemek ve dışarıda yemek"
+      }
     },
     {
       "id": "day-unit-03-shopping",
@@ -1983,7 +2039,11 @@
                 "cash or card"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Shopping I",
+            "tr": "Alışveriş I"
+          }
         },
         {
           "id": "day-u03-vocab-2",
@@ -2165,7 +2225,11 @@
                 "stay within budget"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Shopping II",
+            "tr": "Alışveriş II"
+          }
         },
         {
           "id": "day-u03-vocab-3",
@@ -2345,7 +2409,11 @@
                 "compare products"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Shopping III",
+            "tr": "Alışveriş III"
+          }
         },
         {
           "id": "day-u03-grammar",
@@ -2488,7 +2556,11 @@
               "correctIndex": 2,
               "explanationTR": "Easy ends in a consonant plus y, so the comparative form changes y to i and adds -er: easier. \"Easyer\" is a spelling mistake, and \"more easy\" is not correct for a short adjective."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Comparatives and superlatives",
+            "tr": "Gramer: Karşılaştırma ve üstünlük yapıları"
+          }
         },
         {
           "id": "day-u03-practice",
@@ -2627,9 +2699,17 @@
               "correctIndex": 1,
               "explanationTR": "The text gives several simple tips, like making a list and comparing prices, that together help you shop smart and save money. The other options are too extreme and not what the text says."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Reading: Smart shopping tips",
+            "tr": "Okuma: Akıllı alışveriş ipuçları"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Shopping and money",
+        "tr": "Alışveriş ve para"
+      }
     },
     {
       "id": "day-unit-04-travel",
@@ -2820,7 +2900,11 @@
                 "a heavy suitcase"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Travel I",
+            "tr": "Seyahat I"
+          }
         },
         {
           "id": "day-u04-vocab-2",
@@ -3004,7 +3088,11 @@
                 "an exchange rate"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Travel II",
+            "tr": "Seyahat II"
+          }
         },
         {
           "id": "day-u04-vocab-3",
@@ -3186,7 +3274,11 @@
                 "somewhere nearby"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Travel III",
+            "tr": "Seyahat III"
+          }
         },
         {
           "id": "day-u04-grammar",
@@ -3329,7 +3421,11 @@
               "correctIndex": 4,
               "explanationTR": "Stay is a regular verb, so its past simple form simply adds -ed: stayed. \"Staied\" is a spelling mistake, since the y stays after a vowel."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Past simple: regular and irregular verbs",
+            "tr": "Gramer: Geçmiş zaman: düzenli ve düzensiz fiiller"
+          }
         },
         {
           "id": "day-u04-practice",
@@ -3456,9 +3552,17 @@
               "correctIndex": 1,
               "explanationTR": "A decides to walk after hearing the reply, so B must have said how far the hotel is and that it's walkable. The other replies talk about the hotel or taxis but don't answer how far it is."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Dialogues: Asking for directions",
+            "tr": "Diyaloglar: Yol sormak"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Travel and directions",
+        "tr": "Seyahat ve yol tarifi"
+      }
     },
     {
       "id": "day-unit-05-home",
@@ -3652,7 +3756,11 @@
                 "the backyard"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Home I",
+            "tr": "Ev I"
+          }
         },
         {
           "id": "day-u05-vocab-2",
@@ -3841,7 +3949,11 @@
                 "get something fixed"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Home II",
+            "tr": "Ev II"
+          }
         },
         {
           "id": "day-u05-vocab-3",
@@ -4031,7 +4143,11 @@
                 "in the neighborhood"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Home III",
+            "tr": "Ev III"
+          }
         },
         {
           "id": "day-u05-grammar",
@@ -4174,7 +4290,11 @@
               "correctIndex": 2,
               "explanationTR": "'Parking spaces' is plural, and this is a question, so 'Are there' is correct; 'Is there' would need a singular noun, and 'There is/are' are not questions."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: There is/are and prepositions of place",
+            "tr": "Gramer: There is/are ve yer edatları"
+          }
         },
         {
           "id": "day-u05-practice",
@@ -4301,9 +4421,17 @@
               "correctIndex": 1,
               "explanationTR": "'Broken' means not working, which explains why people should use the stairs instead; 'fixed' would mean it works fine."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Gaps: A message to a neighbor",
+            "tr": "Boşluk doldurma: Komşuya bir mesaj"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Home and neighborhood",
+        "tr": "Ev ve mahalle"
+      }
     },
     {
       "id": "day-unit-06-health",
@@ -4497,7 +4625,11 @@
                 "sneeze into your elbow"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Health I",
+            "tr": "Sağlık I"
+          }
         },
         {
           "id": "day-u06-vocab-2",
@@ -4686,7 +4818,11 @@
                 "low blood pressure"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Health II",
+            "tr": "Sağlık II"
+          }
         },
         {
           "id": "day-u06-vocab-3",
@@ -4875,7 +5011,11 @@
                 "a sports injury"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Health III",
+            "tr": "Sağlık III"
+          }
         },
         {
           "id": "day-u06-grammar",
@@ -5018,7 +5158,11 @@
               "correctIndex": 3,
               "explanationTR": "'Have to' shows a necessity that comes from an outside situation, here the allergy; 'don't have to' would mean the opposite, that it isn't necessary."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Should, must and have to",
+            "tr": "Gramer: Should, must ve have to"
+          }
         },
         {
           "id": "day-u06-practice",
@@ -5145,9 +5289,17 @@
               "correctIndex": 1,
               "explanationTR": "The receptionist's reply about 'through that door on the right' answers a question about which room to go to."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Dialogues: At the doctor's",
+            "tr": "Diyaloglar: Doktorda"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Health and the body",
+        "tr": "Sağlık ve vücut"
+      }
     },
     {
       "id": "day-unit-07-people",
@@ -5334,7 +5486,11 @@
                 "a single person"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "People I",
+            "tr": "İnsanlar I"
+          }
         },
         {
           "id": "day-u07-vocab-2",
@@ -5514,7 +5670,11 @@
                 "a reliable colleague"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "People II",
+            "tr": "İnsanlar II"
+          }
         },
         {
           "id": "day-u07-vocab-3",
@@ -5693,7 +5853,11 @@
                 "support your family"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "People III",
+            "tr": "İnsanlar III"
+          }
         },
         {
           "id": "day-u07-grammar",
@@ -5836,7 +6000,11 @@
               "correctIndex": 2,
               "explanationTR": "The negative present continuous \"isn't inviting\" needs the -ing form; the other options do not fit correctly after \"isn't\"."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Future plans",
+            "tr": "Gramer: Gelecek planları"
+          }
         },
         {
           "id": "day-u07-practice",
@@ -5975,9 +6143,17 @@
               "correctIndex": 1,
               "explanationTR": "Elena asks, \"Are you still single, or is there someone new in your life?\"; the other questions are not asked in the email."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Reading: An email from a friend",
+            "tr": "Okuma: Bir arkadaştan e-posta"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "People and relationships",
+        "tr": "İnsanlar ve ilişkiler"
+      }
     },
     {
       "id": "day-unit-08-free-time",
@@ -6167,7 +6343,11 @@
                 "enjoy collecting"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Free Time I",
+            "tr": "Boş zaman I"
+          }
         },
         {
           "id": "day-u08-vocab-2",
@@ -6348,7 +6528,11 @@
                 "a calm voice"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Free Time II",
+            "tr": "Boş zaman II"
+          }
         },
         {
           "id": "day-u08-vocab-3",
@@ -6529,7 +6713,11 @@
                 "have a talent for something"
               ]
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Free Time III",
+            "tr": "Boş zaman III"
+          }
         },
         {
           "id": "day-u08-grammar",
@@ -6672,7 +6860,11 @@
               "correctIndex": 1,
               "explanationTR": "\"Been\" is the past participle we use for visits and experiences (\"has been to\"); \"went\" is the past simple and can't follow \"has\", and \"go\", \"being\" and \"was\" are not past participles."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Grammar: Present perfect for experiences",
+            "tr": "Gramer: Deneyimleri anlatırken present perfect"
+          }
         },
         {
           "id": "day-u08-practice",
@@ -6811,9 +7003,17 @@
               "correctIndex": 1,
               "explanationTR": "The passage's final lines encourage trying something new because it might reveal a hidden talent, showing that new experiences can change your life; the other statements contradict the passage's positive message."
             }
-          ]
+          ],
+          "titleLocalized": {
+            "en": "Reading: A hobby that changed my life",
+            "tr": "Okuma: Hayatımı değiştiren bir hobi"
+          }
         }
-      ]
+      ],
+      "themeLocalized": {
+        "en": "Free time and feelings",
+        "tr": "Boş zaman ve duygular"
+      }
     }
   ]
 }
