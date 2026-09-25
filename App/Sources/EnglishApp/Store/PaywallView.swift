@@ -35,7 +35,7 @@ struct PaywallView: View {
     @ViewBuilder
     private func content(_ vm: PaywallViewModel) -> some View {
         VStack(alignment: .leading, spacing: 18) {
-            Text(vm.title).font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text(vm.title).font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
 
             PaperCard {
                 VStack(alignment: .leading, spacing: 10) {

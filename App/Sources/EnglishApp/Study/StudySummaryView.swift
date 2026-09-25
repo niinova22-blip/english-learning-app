@@ -13,7 +13,8 @@ struct StudySummaryView: View {
                 .foregroundStyle(Theme.primary)
                 .frame(width: 76, height: 76)
                 .background(Theme.primary.opacity(0.15), in: Circle())
-            Text(summary.title).font(.serifTitle(.title)).foregroundStyle(Theme.ink)
+                .overlay(CelebrationView())
+            Text(summary.title).font(.appTitle(.title)).foregroundStyle(Theme.ink)
             if let subtitle = summary.subtitle {
                 Text(subtitle).font(.subheadline).foregroundStyle(Theme.secondaryInk)
             }

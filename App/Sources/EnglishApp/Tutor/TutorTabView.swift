@@ -49,7 +49,7 @@ struct TutorTabView: View {
         VStack(spacing: 14) {
             Image(systemName: "lock.fill").font(.largeTitle).foregroundStyle(Theme.accent)
             Text("The tutor unlocks with AI Premium")
-                .font(.serifTitle(.title3)).foregroundStyle(Theme.ink)
+                .font(.appTitle(.title3)).foregroundStyle(Theme.ink)
             Text("Get clear answers in your language and chat with the tutor.")
                 .font(.subheadline).foregroundStyle(Theme.secondaryInk)
                 .multilineTextAlignment(.center)

@@ -10,7 +10,7 @@ struct LevelTestQuestionView: View {
         VStack(alignment: .leading, spacing: 16) {
             Text("Question \(questionNumber)/\(LevelTestEngine.questionCount)")
                 .font(.caption.weight(.semibold)).foregroundStyle(Theme.secondaryInk)
-            Text(question.headword).font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text(question.headword).font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Text("Which is the Turkish meaning?").font(.subheadline).foregroundStyle(Theme.secondaryInk)
             ForEach(Array(question.choices.enumerated()), id: \.offset) { index, choice in
                 Button {
@@ -23,7 +23,7 @@ struct LevelTestQuestionView: View {
                         .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(Theme.border, lineWidth: 1))
                         .foregroundStyle(Theme.ink)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(PressableButtonStyle())
             }
         }
     }

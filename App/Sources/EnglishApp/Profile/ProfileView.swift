@@ -35,7 +35,7 @@ struct ProfileView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                Text("Profile").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+                Text("Profile").font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
 
                 section("MY GOAL") {
                     row("Active package", stats?.packageName ?? "—", tint: Theme.primary)

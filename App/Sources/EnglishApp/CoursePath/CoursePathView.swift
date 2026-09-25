@@ -53,7 +53,7 @@ struct CoursePathView: View {
     @ViewBuilder
     private var content: some View {
         VStack(alignment: .leading, spacing: 18) {
-            Text("Course").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("Course").font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
             if let viewModel, !viewModel.sections.isEmpty {
                 ForEach(viewModel.sections, id: \.unitID) { section in
                     VStack(alignment: .leading, spacing: 8) {

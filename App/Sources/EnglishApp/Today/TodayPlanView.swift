@@ -86,7 +86,7 @@ struct TodayPlanView: View {
                 Spacer()
                 StreakBadge(days: stats?.streak ?? 0)
             }
-            Text("Today's plan").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("Today's plan").font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
             coachSection
 
             let actionable = plan.tasks.filter { if case .locked = $0 { return false } else { return true } }

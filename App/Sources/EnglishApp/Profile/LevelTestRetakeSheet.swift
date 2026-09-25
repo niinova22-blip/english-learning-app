@@ -58,7 +58,7 @@ struct LevelTestRetakeSheet: View {
                 }
             } else if viewModel.isReady {
                 VStack(alignment: .leading, spacing: 16) {
-                    Text("Retake your level test").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+                    Text("Retake your level test").font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
                     Text("In 5-8 minutes, get a rough level estimate based on your vocabulary.")
                         .font(.subheadline).foregroundStyle(Theme.secondaryInk)
                     Spacer(minLength: 0)

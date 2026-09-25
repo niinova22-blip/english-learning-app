@@ -8,7 +8,7 @@ struct LevelTestResultView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Your estimated level").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("Your estimated level").font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Text(outcome.cefrLevel.rawValue)
                 .font(.system(size: 56, weight: .bold, design: .serif))
                 .foregroundStyle(Theme.primary)

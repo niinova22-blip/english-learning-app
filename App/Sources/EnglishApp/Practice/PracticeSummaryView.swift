@@ -17,8 +17,9 @@ struct PracticeSummaryView: View {
                         .foregroundStyle(Theme.primary)
                         .frame(width: badgeSize, height: badgeSize)
                         .background(Theme.primary.opacity(0.15), in: Circle())
+                        .overlay(CelebrationView())
                         .accessibilityHidden(true)
-                    Text("Session complete").font(.serifTitle(.title)).foregroundStyle(Theme.ink)
+                    Text("Session complete").font(.appTitle(.title)).foregroundStyle(Theme.ink)
                     Text(title).font(.subheadline).foregroundStyle(Theme.secondaryInk)
                     HStack(spacing: 8) {
                         StatTile(value: "\(summary.correctCount)/\(summary.total)", label: String(localized: "correct"))

@@ -94,7 +94,7 @@ struct CoachTeaserCard: View {
                 }
             }
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableButtonStyle())
         .accessibilityLabel("AI Coach, locked. A personal plan built around your date. Tap to upgrade to AI Premium.")
     }
 }

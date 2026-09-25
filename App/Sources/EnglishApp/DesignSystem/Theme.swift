@@ -1,16 +1,25 @@
 import SwiftUI
 import UIKit
 
-/// Color roles for the "academic and focused" direction. Every role has a
-/// light and a dark value; views only ever use these roles.
+/// Color roles for the native-iOS direction: system grouped backgrounds and
+/// label colors, with the brand petrol and orange tuned for WCAG AA text
+/// contrast in both modes. Views only ever use these roles.
 enum Theme {
-    static let paper = dynamic(light: 0xFBF8F2, dark: 0x151A1C)
-    static let surface = dynamic(light: 0xFFFFFF, dark: 0x1E2527)
-    static let border = dynamic(light: 0xE7E1D6, dark: 0x2E3739)
-    static let ink = dynamic(light: 0x1F2A2E, dark: 0xEEF2F1)
-    static let secondaryInk = dynamic(light: 0x6B7280, dark: 0x9CA3AF)
-    static let primary = dynamic(light: 0x0F766E, dark: 0x2DD4BF)
-    static let accent = dynamic(light: 0xEA580C, dark: 0xFB923C)
+    /// Brand values, kept as numbers so tests can check their contrast.
+    enum Palette {
+        static let primaryLight: UInt32 = 0x0D7A70
+        static let primaryDark: UInt32 = 0x2DD4BF
+        static let accentLight: UInt32 = 0xC94D0A
+        static let accentDark: UInt32 = 0xFB923C
+    }
+
+    static let paper = Color(UIColor.systemGroupedBackground)
+    static let surface = Color(UIColor.secondarySystemGroupedBackground)
+    static let border = Color(UIColor.separator)
+    static let ink = Color(UIColor.label)
+    static let secondaryInk = Color(UIColor.secondaryLabel)
+    static let primary = dynamic(light: Palette.primaryLight, dark: Palette.primaryDark)
+    static let accent = dynamic(light: Palette.accentLight, dark: Palette.accentDark)
     static let danger = dynamic(light: 0xB91C1C, dark: 0xF87171)
     static let reading = fixed(0x3B82F6)
     static let listening = fixed(0x7C3AED)
@@ -39,8 +48,18 @@ enum Theme {
 }
 
 extension Font {
-    /// Serif (New York) title that still scales with Dynamic Type.
-    static func serifTitle(_ style: Font.TextStyle = .title) -> Font {
+    /// Bold SF Pro title that scales with Dynamic Type.
+    static func appTitle(_ style: Font.TextStyle = .title) -> Font {
+        .system(style, design: .default).weight(.bold)
+    }
+
+    /// SF Rounded for numbers: stats, streaks, prices, progress.
+    static func number(_ style: Font.TextStyle = .title3) -> Font {
+        .system(style, design: .rounded).weight(.semibold)
+    }
+
+    /// The one serif left: the word on the study card.
+    static func headword(_ style: Font.TextStyle = .largeTitle) -> Font {
         .system(style, design: .serif).weight(.bold)
     }
 }

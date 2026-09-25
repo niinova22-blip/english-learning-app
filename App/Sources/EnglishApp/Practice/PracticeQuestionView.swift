@@ -77,7 +77,7 @@ struct PracticeQuestionView: View {
                     .frame(minHeight: 44)
                     .contentShape(Rectangle())
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(PressableButtonStyle())
                 .accessibilityLabel(isPassageExpanded ? "Hide passage: \(passage.title)" : "Show passage: \(passage.title)")
                 if isPassageExpanded {
                     // Own scroll view with a capped height, so the options stay
@@ -122,7 +122,7 @@ struct PracticeQuestionView: View {
                     .stroke(state == .idle ? Theme.border : tint(for: state), lineWidth: state == .idle ? 1 : 1.5)
             )
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableButtonStyle())
         .allowsHitTesting(!isAnswered)
         .accessibilityLabel(PracticeOptionText.accessibilityLabel(index: index, text: option, state: state))
     }
@@ -175,7 +175,7 @@ struct PracticeQuestionView: View {
                         .padding(.vertical, 8)
                         .background(Theme.primary.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressableButtonStyle())
                     .disabled(isLoadingTutor)
                 }
             }

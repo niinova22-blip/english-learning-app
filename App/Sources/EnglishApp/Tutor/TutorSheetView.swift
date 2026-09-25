@@ -61,7 +61,7 @@ struct TutorSheetView: View {
                 .padding(.vertical, 8)
                 .background(Theme.primary.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableButtonStyle())
     }
 
     private var freeTextField: some View {

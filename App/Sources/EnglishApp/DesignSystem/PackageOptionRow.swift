@@ -36,10 +36,11 @@ struct PackageOptionRow: View {
             }
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(isSelected ? Theme.primary : Theme.border, lineWidth: isSelected ? 1.5 : 1))
+            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Theme.primary, lineWidth: isSelected ? 2 : 0))
+            .cardShadow()
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableButtonStyle())
         .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 }

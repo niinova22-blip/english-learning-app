@@ -141,6 +141,10 @@ struct PracticeSessionView: View {
         }
         .padding()
         .sensoryFeedback(.selection, trigger: vm.currentIndex)
+        .sensoryFeedback(trigger: vm.selectedIndex) { _, picked in
+            guard let picked, let correct = vm.current?.correctIndex else { return nil }
+            return picked == correct ? .success : .error
+        }
     }
 
     private func saveErrorRow(_ vm: PracticeSessionViewModel, message: String) -> some View {

@@ -28,7 +28,7 @@ struct StudyCardView: View {
         VStack(spacing: 12) {
             SkillBadge(skill: card.skill)
             Text(card.headword)
-                .font(.serifTitle(.largeTitle))
+                .font(.headword(.largeTitle))
                 .foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.center)
             Text("Try to recall the meaning")
@@ -45,7 +45,7 @@ struct StudyCardView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 10) {
                 HStack(alignment: .firstTextBaseline) {
-                    Text(card.headword).font(.serifTitle(.title)).foregroundStyle(Theme.ink)
+                    Text(card.headword).font(.headword(.title)).foregroundStyle(Theme.ink)
                     Spacer()
                     if showsTutorButton {
                         Button(action: onTutor) {
@@ -89,7 +89,7 @@ struct StudyCardView: View {
     private var cardBackground: some View {
         RoundedRectangle(cornerRadius: 20, style: .continuous)
             .fill(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Theme.border, lineWidth: 1))
+            .cardShadow()
     }
 }
 

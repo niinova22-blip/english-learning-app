@@ -112,8 +112,7 @@ struct TutorChatView: View {
             TextField("Ask your tutor...", text: $draftText)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 10)
-                .background(Theme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
-                .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(Theme.border, lineWidth: 1))
+                .appGlass(in: Capsule())
             Button {
                 let text = draftText
                 draftText = ""

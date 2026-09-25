@@ -109,7 +109,7 @@ struct PlanTaskRow: View {
                             style: StrokeStyle(lineWidth: isHighlighted && !isDone ? 1.5 : 1, dash: isLocked ? [5] : []))
             )
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableButtonStyle())
         .disabled(isDone)
     }
 }

@@ -8,22 +8,25 @@ struct PaperCard<Content: View>: View {
         content
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(Theme.border, lineWidth: 1))
+            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .cardShadow()
     }
 }
 
 struct PrimaryButtonStyle: ButtonStyle {
     @Environment(\.isEnabled) private var isEnabled
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.headline)
             .foregroundStyle(.white)
             .frame(maxWidth: .infinity)
-            .padding(.vertical, 14)
-            .background(Theme.primary.opacity(isEnabled ? 1 : 0.4), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
-            .opacity(configuration.isPressed ? 0.85 : 1)
+            .padding(.vertical, 15)
+            .background(Theme.primary.opacity(isEnabled ? 1 : 0.4), in: Capsule())
+            .scaleEffect(Motion.pressScale(isPressed: configuration.isPressed, reduceMotion: reduceMotion))
+            .animation(Motion.spring(reduceMotion: reduceMotion), value: configuration.isPressed)
+            .sensoryFeedback(.impact(weight: .light), trigger: configuration.isPressed) { _, pressed in pressed }
     }
 }
 
@@ -36,19 +39,21 @@ struct SkillBadge: View {
             .foregroundStyle(skill.color)
             .padding(.horizontal, 8)
             .padding(.vertical, 3)
-            .background(skill.color.opacity(0.14), in: RoundedRectangle(cornerRadius: 6))
+            .background(skill.color.opacity(0.14), in: Capsule())
     }
 }
 
 struct ProgressBar: View {
     let progress: Double
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         GeometryReader { proxy in
             ZStack(alignment: .leading) {
-                Capsule().fill(Theme.border)
+                Capsule().fill(Theme.primary.opacity(0.15))
                 Capsule().fill(Theme.primary)
                     .frame(width: proxy.size.width * min(max(progress, 0), 1))
+                    .animation(Motion.spring(reduceMotion: reduceMotion), value: progress)
             }
         }
         .frame(height: 6)
@@ -72,10 +77,9 @@ struct RatingButton: View {
             .frame(maxWidth: .infinity)
             .padding(.vertical, 9)
             .foregroundStyle(rating == .good ? Color.white : rating.tint)
-            .background(rating == .good ? rating.tint : rating.tint.opacity(0.10), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous).stroke(rating.tint.opacity(rating == .good ? 0 : 0.35), lineWidth: 1))
+            .background(rating == .good ? rating.tint : rating.tint.opacity(0.12), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableButtonStyle())
         .accessibilityLabel("\(rating.label), next review \(intervalText)")
     }
 }
@@ -84,8 +88,12 @@ struct StreakBadge: View {
     let days: Int
 
     var body: some View {
-        Label("\(days) days", systemImage: "flame.fill")
-            .font(.subheadline.weight(.bold))
+        Label {
+            Text("\(days) days").contentTransition(.numericText(value: Double(days)))
+        } icon: {
+            Image(systemName: "flame.fill").symbolEffect(.bounce, value: days)
+        }
+            .font(.number(.subheadline))
             .foregroundStyle(Theme.accent)
             .accessibilityLabel("\(days)-day streak")
     }
@@ -98,13 +106,13 @@ struct StatTile: View {
 
     var body: some View {
         VStack(spacing: 2) {
-            Text(value).font(.title3.weight(.bold)).foregroundStyle(tint)
+            Text(value).font(.number(.title2)).foregroundStyle(tint).contentTransition(.numericText())
             Text(label).font(.caption).foregroundStyle(Theme.secondaryInk)
         }
         .frame(maxWidth: .infinity)
-        .padding(.vertical, 10)
-        .background(Theme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(Theme.border, lineWidth: 1))
+        .padding(.vertical, 12)
+        .background(Theme.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .cardShadow()
     }
 }
 
@@ -120,7 +128,7 @@ private struct ComponentsPreview: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                Text("hypothesis").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+                Text("hypothesis").font(.headword()).foregroundStyle(Theme.ink)
                 HStack { SkillBadge(skill: .vocabulary); SkillBadge(skill: .grammar); SkillBadge(skill: .reading) }
                 ProgressBar(progress: 0.3)
                 PaperCard { Text("Paper card").foregroundStyle(Theme.ink) }

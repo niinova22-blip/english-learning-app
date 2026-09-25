@@ -74,7 +74,7 @@ private struct GoalSelectionStep: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Choose your goal").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("Choose your goal").font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Text("Your study plan is built around the goal you choose.").font(.subheadline).foregroundStyle(Theme.secondaryInk)
             if viewModel.hasNoPackages {
                 Text("No lesson package is loaded yet. Try restarting the app; if that doesn't help, you can reset local data from the Profile tab.")
@@ -105,7 +105,7 @@ private struct ExamDateStep: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             let wording = DateWording(isExam: viewModel.selectedGoalIsExam)
-            Text(wording.question).font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text(wording.question).font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Toggle(wording.toggle, isOn: $hasExamDate).tint(Theme.primary)
             if hasExamDate {
                 DatePicker(wording.title, selection: $date, in: tomorrow..., displayedComponents: .date)
@@ -135,7 +135,7 @@ private struct DailyDurationStep: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("How much will you study each day?").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("How much will you study each day?").font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Stepper("Daily \(viewModel.dailyMinutes) min", value: Binding(
                 get: { viewModel.dailyMinutes },
                 set: { viewModel.dailyMinutes = $0 }
@@ -155,7 +155,7 @@ private struct LevelTestIntroStep: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("A quick level check").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("A quick level check").font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
             Text("In 5-8 minutes, we'll estimate your level based on the words you know. You can skip it if you'd like.")
                 .font(.subheadline).foregroundStyle(Theme.secondaryInk)
             Spacer(minLength: 0)

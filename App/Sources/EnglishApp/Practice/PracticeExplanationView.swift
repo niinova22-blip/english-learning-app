@@ -15,7 +15,7 @@ struct PracticeExplanationView: View {
                 VStack(alignment: .leading, spacing: 14) {
                     SkillBadge(skill: skill)
                     Text(title)
-                        .font(.serifTitle(.title))
+                        .font(.appTitle(.title))
                         .foregroundStyle(Theme.ink)
                     PaperCard {
                         Text(explanation)

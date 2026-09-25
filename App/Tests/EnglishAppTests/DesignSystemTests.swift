@@ -36,4 +36,32 @@ final class DesignSystemTests: XCTestCase {
         XCTAssertEqual(PlanTaskText.minutes(8), 8)
         XCTAssertEqual(PlanTaskText.minutes(21.2), 22)
     }
+
+    // MARK: Native look
+
+    private func contrast(_ a: UInt32, _ b: UInt32) -> Double {
+        func luminance(_ hex: UInt32) -> Double {
+            let c = Theme.rgb(hex)
+            let lin = [c.r, c.g, c.b].map { $0 <= 0.03928 ? $0 / 12.92 : pow(($0 + 0.055) / 1.055, 2.4) }
+            return 0.2126 * lin[0] + 0.7152 * lin[1] + 0.0722 * lin[2]
+        }
+        let (l1, l2) = (luminance(a), luminance(b))
+        return (max(l1, l2) + 0.05) / (min(l1, l2) + 0.05)
+    }
+
+    func test_brandColors_meetAATextContrastOnCards() {
+        // Cards are white in light mode and #1C1C1E in dark mode.
+        XCTAssertGreaterThanOrEqual(contrast(Theme.Palette.primaryLight, 0xFFFFFF), 4.5)
+        XCTAssertGreaterThanOrEqual(contrast(Theme.Palette.accentLight, 0xFFFFFF), 4.5)
+        XCTAssertGreaterThanOrEqual(contrast(Theme.Palette.primaryDark, 0x1C1C1E), 4.5)
+        XCTAssertGreaterThanOrEqual(contrast(Theme.Palette.accentDark, 0x1C1C1E), 4.5)
+    }
+
+    func test_reduceMotion_disablesPressScaleAndSprings() {
+        XCTAssertEqual(Motion.pressScale(isPressed: true, reduceMotion: false), 0.97)
+        XCTAssertEqual(Motion.pressScale(isPressed: true, reduceMotion: true), 1)
+        XCTAssertEqual(Motion.pressScale(isPressed: false, reduceMotion: false), 1)
+        XCTAssertNil(Motion.spring(reduceMotion: true))
+        XCTAssertNotNil(Motion.spring(reduceMotion: false))
+    }
 }

@@ -31,7 +31,7 @@ struct LockedLessonSheet: View {
         VStack(spacing: 14) {
             Image(systemName: "lock.fill").font(.largeTitle).foregroundStyle(Theme.accent)
             Text("This lesson is in the full version of the package")
-                .font(.serifTitle(.title3)).foregroundStyle(Theme.ink)
+                .font(.appTitle(.title3)).foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.center)
             Text(lessonTitle).font(.subheadline).foregroundStyle(Theme.secondaryInk)
                 .multilineTextAlignment(.center)
