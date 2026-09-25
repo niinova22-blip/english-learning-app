@@ -44,7 +44,7 @@ struct CoursePathView: View {
         }
         .lockedLessonPrompts($lockedLesson)
         .alert(infoMessage?.title ?? "", isPresented: Binding(get: { infoMessage != nil }, set: { if !$0 { infoMessage = nil } })) {
-            Button("Tamam", role: .cancel) { infoMessage = nil }
+            Button("OK", role: .cancel) { infoMessage = nil }
         } message: {
             Text(infoMessage?.body ?? "")
         }
@@ -53,11 +53,11 @@ struct CoursePathView: View {
     @ViewBuilder
     private var content: some View {
         VStack(alignment: .leading, spacing: 18) {
-            Text("Ders Yolu").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("Course").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
             if let viewModel, !viewModel.sections.isEmpty {
                 ForEach(viewModel.sections, id: \.unitID) { section in
                     VStack(alignment: .leading, spacing: 8) {
-                        Text(section.theme.uppercased(with: Locale(identifier: "tr_TR")))
+                        Text(section.theme.uppercased(with: AppLanguage.current.locale))
                             .font(.caption.weight(.bold)).tracking(1.2).foregroundStyle(Theme.secondaryInk)
                         ForEach(Array(section.tasks.enumerated()), id: \.offset) { _, task in
                             PlanTaskRow(task: task, isHighlighted: false) { handle(task) }
@@ -65,7 +65,7 @@ struct CoursePathView: View {
                     }
                 }
             } else if viewModel != nil {
-                ContentUnavailableView("İçerik yüklenemedi", systemImage: "map")
+                ContentUnavailableView("Content couldn't load", systemImage: "map")
             } else {
                 ProgressView().frame(maxWidth: .infinity, minHeight: 300)
             }
@@ -78,9 +78,9 @@ struct CoursePathView: View {
             activeSession = ActiveSession(kind: .study(lessonID: id))
         case .startPractice(let lessonID):
             activeSession = ActiveSession(kind: .practice(lessonID: lessonID))
-        case .comingSoon(let title): infoMessage = ("Bu ders türü yakında", title)
+        case .comingSoon(let title): infoMessage = (String(localized: "This lesson type is coming soon"), title)
         case .locked(let title): lockedLesson = LockedLesson(title: title)
-        // Ders Yolu never shows review tasks, so these cannot occur here.
+        // Course never shows review tasks, so these cannot occur here.
         case .startReview, .startPracticeReview, .none: break
         }
     }

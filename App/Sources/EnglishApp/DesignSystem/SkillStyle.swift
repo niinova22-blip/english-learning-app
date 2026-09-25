@@ -4,13 +4,13 @@ import LearningEngine
 extension Skill {
     var displayName: String {
         switch self {
-        case .vocabulary: return "Kelime"
-        case .grammar: return "Gramer"
-        case .reading: return "Okuma"
-        case .listening: return "Dinleme"
-        case .writing: return "Yazma"
-        case .speaking: return "Konuşma"
-        case .pronunciation: return "Telaffuz"
+        case .vocabulary: return String(localized: "Vocabulary")
+        case .grammar: return String(localized: "Grammar")
+        case .reading: return String(localized: "Reading")
+        case .listening: return String(localized: "Listening")
+        case .writing: return String(localized: "Writing")
+        case .speaking: return String(localized: "Speaking")
+        case .pronunciation: return String(localized: "Pronunciation")
         }
     }
 
@@ -30,10 +30,10 @@ extension Skill {
 extension FSRSRating {
     var label: String {
         switch self {
-        case .again: return "Bilemedim"
-        case .hard: return "Zorlandım"
-        case .good: return "Bildim"
-        case .easy: return "Çok kolay"
+        case .again: return String(localized: "Forgot")
+        case .hard: return String(localized: "Hard")
+        case .good: return String(localized: "Knew it")
+        case .easy: return String(localized: "Easy")
         }
     }
 

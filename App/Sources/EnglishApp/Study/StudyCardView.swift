@@ -31,7 +31,7 @@ struct StudyCardView: View {
                 .font(.serifTitle(.largeTitle))
                 .foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.center)
-            Text("Anlamını hatırlamaya çalış")
+            Text("Try to recall the meaning")
                 .font(.footnote)
                 .foregroundStyle(Theme.secondaryInk)
                 .padding(.top, 16)
@@ -56,13 +56,13 @@ struct StudyCardView: View {
                             }
                         }
                         .disabled(isLoadingTutor)
-                        .accessibilityLabel("Öğretmene sor")
+                        .accessibilityLabel("Ask the tutor about this word")
                     }
                 }
                 Text(card.translationTR).font(.headline).foregroundStyle(Theme.primary)
                 Text(card.definition).font(.body).foregroundStyle(Theme.ink)
                 if let example = card.exampleSentence {
-                    sectionLabel("ÖRNEK")
+                    sectionLabel(String(localized: "EXAMPLE"))
                     Text("\u{201C}\(example)\u{201D}")
                         .font(.callout.italic())
                         .foregroundStyle(Theme.ink)
@@ -70,7 +70,7 @@ struct StudyCardView: View {
                         .overlay(alignment: .leading) { Rectangle().fill(Theme.accent).frame(width: 2) }
                 }
                 if !card.collocations.isEmpty {
-                    sectionLabel("BİRLİKTE KULLANIM")
+                    sectionLabel(String(localized: "COLLOCATIONS"))
                     FlowChips(items: card.collocations)
                 }
             }

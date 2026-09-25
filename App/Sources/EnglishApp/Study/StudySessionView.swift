@@ -21,7 +21,7 @@ struct StudySessionView: View {
     var body: some View {
         Group {
             if let loadError {
-                ContentUnavailableView("Oturum açılamadı", systemImage: "exclamationmark.triangle", description: Text(loadError))
+                ContentUnavailableView("Session couldn't open", systemImage: "exclamationmark.triangle", description: Text(loadError))
             } else if let viewModel {
                 if viewModel.isFinished {
                     StudySummaryView(summary: viewModel.summary(), streak: streak, onDone: onClose)
@@ -59,7 +59,7 @@ struct StudySessionView: View {
                 Button(action: onClose) {
                     Image(systemName: "xmark").font(.headline).foregroundStyle(Theme.secondaryInk)
                 }
-                .accessibilityLabel("Kapat")
+                .accessibilityLabel("Close")
                 ProgressBar(progress: vm.progress)
                 Text(vm.progressText).font(.footnote.monospacedDigit()).foregroundStyle(Theme.secondaryInk)
             }
@@ -93,7 +93,7 @@ struct StudySessionView: View {
 
             if vm.isRevealed {
                 if !ratingHintShown {
-                    Text("Kelimeyi ne kadar iyi bildiğini seç. Uygulama bir sonraki tekrar zamanını buna göre ayarlar.")
+                    Text("Choose how well you knew the word. The app sets the next review time based on that.")
                         .font(.footnote)
                         .foregroundStyle(Color.white)
                         .padding(10)
@@ -111,17 +111,17 @@ struct StudySessionView: View {
                     }
                 }
             } else {
-                Button("Cevabı göster") { vm.reveal() }.buttonStyle(PrimaryButtonStyle())
+                Button("Show answer") { vm.reveal() }.buttonStyle(PrimaryButtonStyle())
             }
         }
         .padding()
         .sensoryFeedback(.selection, trigger: vm.currentIndex)
         .alert(
-            "Puan kaydedilemedi",
+            "Couldn't save your rating",
             isPresented: Binding(get: { vm.saveError != nil }, set: { if !$0 { vm.clearSaveError() } }),
             presenting: vm.saveError
         ) { _ in
-            Button("Tamam", role: .cancel) { vm.clearSaveError() }
+            Button("OK", role: .cancel) { vm.clearSaveError() }
         } message: { message in
             Text(message)
         }

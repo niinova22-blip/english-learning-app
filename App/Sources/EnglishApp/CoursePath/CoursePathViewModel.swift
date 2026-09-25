@@ -11,7 +11,7 @@ struct CoursePathSection: Equatable {
 
 /// Shows the whole course path (every unit/lesson of the active package),
 /// as opposed to TodayPlanCoordinator's "what to do today". Reuses
-/// PlanTask/PlanTaskAction/PlanTaskRow exactly as Bugün does — no new study
+/// PlanTask/PlanTaskAction/PlanTaskRow exactly as Today does — no new study
 /// flow.
 @MainActor
 @Observable

@@ -21,6 +21,18 @@ final class LocalizationTests: XCTestCase {
         XCTAssertEqual(Bundle.main.localizedString(forKey: "Today", value: nil, table: nil), "Today")
     }
 
+    func test_turkishTableResolvesPluralKey() throws {
+        let tr = try turkishBundle()
+        let format = tr.localizedString(forKey: "%lld days", value: nil, table: nil)
+        XCTAssertEqual(String(format: format, 3), "3 gün")
+    }
+
+    func test_englishPluralRules_selectOneAndOther() {
+        let format = Bundle.main.localizedString(forKey: "%lld days", value: nil, table: nil)
+        XCTAssertEqual(String.localizedStringWithFormat(format, 1), "1 day")
+        XCTAssertEqual(String.localizedStringWithFormat(format, 5), "5 days")
+    }
+
     func test_appLanguageResolution() {
         XCTAssertEqual(AppLanguage.resolve(preferredLocalization: "tr"), .turkish)
         XCTAssertEqual(AppLanguage.resolve(preferredLocalization: "tr-TR"), .turkish)
