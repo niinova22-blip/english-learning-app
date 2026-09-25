@@ -1,6 +1,17 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%lld%%" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%%%lld"
+          }
+        }
+      }
+    },
     "A quick level check" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -496,13 +507,13 @@
         }
       }
     },
-    "Vocabulary: %%%lld" : {
+    "Vocabulary: %@" : {
       "extractionState" : "manual",
       "localizations" : {
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kelime bilgisi: %%%lld"
+            "value" : "Kelime bilgisi: %@"
           }
         }
       }

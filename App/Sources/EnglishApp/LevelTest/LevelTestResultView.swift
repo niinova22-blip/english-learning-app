@@ -12,7 +12,7 @@ struct LevelTestResultView: View {
             Text(outcome.cefrLevel.rawValue)
                 .font(.system(size: 56, weight: .bold, design: .serif))
                 .foregroundStyle(Theme.primary)
-            Text("Vocabulary: %\(Int((outcome.vocabularyScore * 100).rounded()))")
+            Text("Vocabulary: \(PercentText.format(share: outcome.vocabularyScore))")
                 .font(.subheadline).foregroundStyle(Theme.secondaryInk)
             Text("This is just a rough estimate based on this package's word list.")
                 .font(.caption).foregroundStyle(Theme.secondaryInk)

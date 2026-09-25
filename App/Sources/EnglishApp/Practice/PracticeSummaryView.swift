@@ -22,7 +22,7 @@ struct PracticeSummaryView: View {
                     Text(title).font(.subheadline).foregroundStyle(Theme.secondaryInk)
                     HStack(spacing: 8) {
                         StatTile(value: "\(summary.correctCount)/\(summary.total)", label: String(localized: "correct"))
-                        StatTile(value: "%\(summary.percent)", label: String(localized: "score"), tint: Theme.primary)
+                        StatTile(value: PercentText.format(summary.percent), label: String(localized: "score"), tint: Theme.primary)
                     }
                     .padding(.top, 8)
                     if !summary.missedPrompts.isEmpty {
