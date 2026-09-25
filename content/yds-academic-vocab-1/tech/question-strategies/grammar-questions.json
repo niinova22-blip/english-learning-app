@@ -102,16 +102,16 @@
       "id": "yds-tech-grammar-questions-q06",
       "kind": "strategy",
       "order": 5,
-      "prompt": "The results were ---- better than we had expected.",
+      "prompt": "The lecture was so ---- that half of the students fell asleep.",
       "options": [
-        "considerably",
-        "considerable",
-        "consider",
-        "consideration",
-        "considering"
+        "bored",
+        "boring",
+        "bore",
+        "boredom",
+        "boringly"
       ],
-      "correctIndex": 0,
-      "explanationTR": "Boşluk, karşılaştırma sıfatı «better»ı niteler; sıfatı niteleyen sözcük zarf olmalıdır: (A). (B) sıfattır ve başka bir sıfatı niteleyemez. (C) fiildir. (D) isimdir; bu konumda beklenmez. (E) -ing biçimi olup cümlede anlamlı bir görev üstlenmez.",
+      "correctIndex": 1,
+      "explanationTR": "Boşluk, «so ... that» yapısında konuyu (the lecture) niteleyen bir sıfat ister; bir şeyin başkalarında yarattığı etki -ing sıfatıyla anlatılır: (B). (A) -ed sıfatı kişinin kendi hissini anlatır; ders sıkılmaz. (C) fiil ya da isimdir. (D) isimdir, «so» ile kullanılmaz. (E) zarftır ve «was» fiilinden sonra sıfat gerekir.",
       "passageID": null
     }
   ]

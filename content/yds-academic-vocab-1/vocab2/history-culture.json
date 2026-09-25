@@ -916,16 +916,16 @@
           "headword": "sovereign",
           "frequencyRank": 386,
           "baseDifficulty": 0.67,
-          "definition": "Bir ülke üzerinde en yüksek yönetim yetkisine sahip hükümdar.",
+          "definition": "İsim olarak bir ülkede en yüksek yönetim yetkisine sahip hükümdar; sıfat olarak başka bir devletin denetimine bağlı olmadan kendi kendini yöneten.",
           "exampleSentences": [
             "The treaty recognised the prince as the region's rightful sovereign.",
-            "The sovereign's word was law throughout the kingdom.",
+            "Each member remains a sovereign state with its own laws.",
             "Nobles swore loyalty to their sovereign at his coronation."
           ],
-          "translationTR": "hükümdar, egemen (isim: hükümdar; sıfat: egemen)",
+          "translationTR": "hükümdar; egemen, bağımsız",
           "collocations": [
+            "sovereign state",
             "the reigning sovereign",
-            "sovereign's authority",
             "loyal to the sovereign"
           ]
         },

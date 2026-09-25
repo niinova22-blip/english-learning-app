@@ -662,17 +662,17 @@
           "headword": "delegate",
           "frequencyRank": 493,
           "baseDifficulty": 0.54,
-          "definition": "Bir grup ya da bölge adına, konferans veya oylama gibi resmi ortamlarda karar alma yetkisiyle hareket eden kişi.",
+          "definition": "İsim olarak bir grup adına resmi toplantılarda karar yetkisiyle hareket eden kişi; fiil olarak bir görevi ya da yetkiyi başkasına bırakmak.",
           "exampleSentences": [
             "Delegates from every region gathered for the party conference.",
-            "Each country sends a delegate to the summit.",
-            "The party's delegates will vote on the leadership candidates next month."
+            "Good managers delegate routine tasks to their teams.",
+            "Each country sends a delegate to the summit."
           ],
-          "translationTR": "delege, temsilci",
+          "translationTR": "delege, temsilci; (yetki, görev) devretmek",
           "collocations": [
             "conference delegate",
-            "elect a delegate",
-            "party delegate"
+            "delegate authority",
+            "delegate tasks"
           ]
         },
         {
@@ -1027,7 +1027,7 @@
           "translationTR": "popülizm",
           "collocations": [
             "rise of populism",
-            "populism appeals",
+            "right-wing populism",
             "wave of populism"
           ]
         },

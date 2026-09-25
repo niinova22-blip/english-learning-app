@@ -15075,16 +15075,16 @@
               "id": "yds-tech-grammar-questions-q06",
               "kind": "strategy",
               "order": 5,
-              "prompt": "The results were ---- better than we had expected.",
+              "prompt": "The lecture was so ---- that half of the students fell asleep.",
               "options": [
-                "considerably",
-                "considerable",
-                "consider",
-                "consideration",
-                "considering"
+                "bored",
+                "boring",
+                "bore",
+                "boredom",
+                "boringly"
               ],
-              "correctIndex": 0,
-              "explanationTR": "Boşluk, karşılaştırma sıfatı «better»ı niteler; sıfatı niteleyen sözcük zarf olmalıdır: (A). (B) sıfattır ve başka bir sıfatı niteleyemez. (C) fiildir. (D) isimdir; bu konumda beklenmez. (E) -ing biçimi olup cümlede anlamlı bir görev üstlenmez.",
+              "correctIndex": 1,
+              "explanationTR": "Boşluk, «so ... that» yapısında konuyu (the lecture) niteleyen bir sıfat ister; bir şeyin başkalarında yarattığı etki -ing sıfatıyla anlatılır: (B). (A) -ed sıfatı kişinin kendi hissini anlatır; ders sıkılmaz. (C) fiil ya da isimdir. (D) isimdir, «so» ile kullanılmaz. (E) zarftır ve «was» fiilinden sonra sıfat gerekir.",
               "passageID": null
             }
           ],
@@ -17978,8 +17978,8 @@
               "definition": "Yakılarak ısı veya enerji üretmek amacıyla kullanılan madde.",
               "exampleSentences": [
                 "Rising fuel prices have pushed up the cost of transport across the country.",
-                "The car runs on a mixture of petrol and biofuel.",
-                "Countries are looking for alternatives to fuel their economies without fossil sources."
+                "Aircraft fuel accounts for a large share of an airline's costs.",
+                "The plant burns household waste as fuel for its boilers."
               ],
               "translationTR": "yakıt",
               "collocations": [
@@ -19572,13 +19572,13 @@
               "headword": "redundant",
               "frequencyRank": 261,
               "baseDifficulty": 0.62,
-              "definition": "Artık gerekli olmayan, fazlalık oluşturan veya işlevini yitirmiş.",
+              "definition": "Artık gerekli olmayan ya da işlevini yitirmiş; bir çalışan için, işi ortadan kalktığı için işten çıkarılmış.",
               "exampleSentences": [
                 "The upgrade made several older components redundant.",
-                "Engineers removed the redundant code to simplify the programme.",
-                "The old warehouse system became redundant once the new database was installed."
+                "Hundreds of workers were made redundant when the factory closed.",
+                "Engineers removed the redundant code to simplify the programme."
               ],
-              "translationTR": "gereksiz, işlevini yitirmiş",
+              "translationTR": "gereksiz, fazlalık; (çalışan) işten çıkarılmış",
               "collocations": [
                 "make redundant",
                 "redundant system",
@@ -22125,16 +22125,16 @@
               "headword": "sovereign",
               "frequencyRank": 386,
               "baseDifficulty": 0.67,
-              "definition": "Bir ülke üzerinde en yüksek yönetim yetkisine sahip hükümdar.",
+              "definition": "İsim olarak bir ülkede en yüksek yönetim yetkisine sahip hükümdar; sıfat olarak başka bir devletin denetimine bağlı olmadan kendi kendini yöneten.",
               "exampleSentences": [
                 "The treaty recognised the prince as the region's rightful sovereign.",
-                "The sovereign's word was law throughout the kingdom.",
+                "Each member remains a sovereign state with its own laws.",
                 "Nobles swore loyalty to their sovereign at his coronation."
               ],
-              "translationTR": "hükümdar, egemen (isim: hükümdar; sıfat: egemen)",
+              "translationTR": "hükümdar; egemen, bağımsız",
               "collocations": [
+                "sovereign state",
                 "the reigning sovereign",
-                "sovereign's authority",
                 "loyal to the sovereign"
               ]
             },
@@ -24323,17 +24323,17 @@
               "headword": "delegate",
               "frequencyRank": 493,
               "baseDifficulty": 0.54,
-              "definition": "Bir grup ya da bölge adına, konferans veya oylama gibi resmi ortamlarda karar alma yetkisiyle hareket eden kişi.",
+              "definition": "İsim olarak bir grup adına resmi toplantılarda karar yetkisiyle hareket eden kişi; fiil olarak bir görevi ya da yetkiyi başkasına bırakmak.",
               "exampleSentences": [
                 "Delegates from every region gathered for the party conference.",
-                "Each country sends a delegate to the summit.",
-                "The party's delegates will vote on the leadership candidates next month."
+                "Good managers delegate routine tasks to their teams.",
+                "Each country sends a delegate to the summit."
               ],
-              "translationTR": "delege, temsilci",
+              "translationTR": "delege, temsilci; (yetki, görev) devretmek",
               "collocations": [
                 "conference delegate",
-                "elect a delegate",
-                "party delegate"
+                "delegate authority",
+                "delegate tasks"
               ]
             },
             {
@@ -24700,7 +24700,7 @@
               "translationTR": "popülizm",
               "collocations": [
                 "rise of populism",
-                "populism appeals",
+                "right-wing populism",
                 "wave of populism"
               ]
             },
@@ -25165,17 +25165,17 @@
               "headword": "circulation",
               "frequencyRank": 534,
               "baseDifficulty": 0.35,
-              "definition": "Bir gazete ya da derginin belirli bir dönemde satılan ya da dağıtılan toplam nüsha sayısı.",
+              "definition": "Bir gazete ya da derginin belirli bir dönemde dağıtılan toplam nüsha sayısı; ayrıca kanın ya da paranın bir sistem içinde dolaşması.",
               "exampleSentences": [
                 "The newspaper's circulation has fallen sharply since 2010.",
                 "The magazine boosted circulation with a free gift offer.",
-                "Daily circulation figures are published every quarter."
+                "Regular exercise improves blood circulation."
               ],
               "translationTR": "tiraj, dolaşım",
               "collocations": [
                 "daily circulation",
                 "boost circulation",
-                "circulation figures"
+                "blood circulation"
               ]
             },
             {
@@ -25736,13 +25736,13 @@
               "headword": "sponsor",
               "frequencyRank": 562,
               "baseDifficulty": 0.63,
-              "definition": "Bir etkinliği, programı ya da kişiyi, genellikle karşılığında tanıtım elde ederek mali olarak destekleyen kurum ya da kişi.",
+              "definition": "Bir etkinliği, programı ya da kişiyi genellikle tanıtım karşılığında maddi olarak destekleyen kurum ya da kişi; fiil olarak bu desteği vermek.",
               "exampleSentences": [
                 "A major airline sponsors the annual film festival.",
                 "The team's shirts display their main sponsor's logo.",
                 "Without a sponsor, the documentary might never have been made."
               ],
-              "translationTR": "sponsor",
+              "translationTR": "sponsor; sponsor olmak, maddi destek vermek",
               "collocations": [
                 "main sponsor",
                 "corporate sponsor",
@@ -25755,7 +25755,7 @@
               "headword": "viral",
               "frequencyRank": 563,
               "baseDifficulty": 0.64,
-              "definition": "Bir içeriğin, internet üzerinden kısa sürede ve geniş çapta paylaşılarak yaygınlaşması durumu.",
+              "definition": "İnternette kısa sürede ve çok geniş bir kitle tarafından paylaşılarak yayılan (içerik).",
               "exampleSentences": [
                 "The video went viral within hours of being posted.",
                 "Her viral tweet was shared by thousands of people.",
@@ -26002,7 +26002,7 @@
                 "Students were asked to paraphrase the passage in their own words.",
                 "A brief paraphrase can be clearer than a long direct quotation."
               ],
-              "translationTR": "kendi sözcükleriyle yeniden anlatmak, açımlamak",
+              "translationTR": "kendi sözcükleriyle yeniden anlatmak; açımlama",
               "collocations": [
                 "paraphrase a quote",
                 "brief paraphrase",
@@ -26021,7 +26021,7 @@
                 "The speech relied on rhetorical devices rather than hard facts.",
                 "Her rhetorical skill made even dull statistics sound urgent."
               ],
-              "translationTR": "retorik nitelikte, ikna amaçlı",
+              "translationTR": "söz sanatına dayanan; (soru) cevap beklemeyen",
               "collocations": [
                 "rhetorical question",
                 "rhetorical device",
@@ -26034,7 +26034,7 @@
               "headword": "verbatim",
               "frequencyRank": 577,
               "baseDifficulty": 0.78,
-              "definition": "Bir konuşma ya da metnin, hiçbir değişiklik yapılmadan tam olarak söylendiği veya yazıldığı gibi aktarılması.",
+              "definition": "Hiçbir değişiklik yapılmadan, tam olarak söylendiği ya da yazıldığı biçimde (aktarılan).",
               "exampleSentences": [
                 "The transcript recorded the interview verbatim.",
                 "She quoted the minister verbatim in her article.",
@@ -26053,7 +26053,7 @@
               "headword": "lucid",
               "frequencyRank": 578,
               "baseDifficulty": 0.79,
-              "definition": "Karmaşık bir konuyu bile okuyucunun hiç zorlanmadan takip edebileceği kadar düzenli ve net bir anlatım biçimi.",
+              "definition": "Karmaşık bir konuyu bile kolayca izlenebilir kılan, düzenli ve net (anlatım); bir kişi için ise zihnen berrak ve tutarlı.",
               "exampleSentences": [
                 "Her lucid explanation made the complex policy easy to follow.",
                 "The report was praised for its lucid style, free of jargon.",

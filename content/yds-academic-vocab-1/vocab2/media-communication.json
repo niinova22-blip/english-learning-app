@@ -287,17 +287,17 @@
           "headword": "circulation",
           "frequencyRank": 534,
           "baseDifficulty": 0.35,
-          "definition": "Bir gazete ya da derginin belirli bir dönemde satılan ya da dağıtılan toplam nüsha sayısı.",
+          "definition": "Bir gazete ya da derginin belirli bir dönemde dağıtılan toplam nüsha sayısı; ayrıca kanın ya da paranın bir sistem içinde dolaşması.",
           "exampleSentences": [
             "The newspaper's circulation has fallen sharply since 2010.",
             "The magazine boosted circulation with a free gift offer.",
-            "Daily circulation figures are published every quarter."
+            "Regular exercise improves blood circulation."
           ],
           "translationTR": "tiraj, dolaşım",
           "collocations": [
             "daily circulation",
             "boost circulation",
-            "circulation figures"
+            "blood circulation"
           ]
         },
         {
@@ -840,13 +840,13 @@
           "headword": "sponsor",
           "frequencyRank": 562,
           "baseDifficulty": 0.63,
-          "definition": "Bir etkinliği, programı ya da kişiyi, genellikle karşılığında tanıtım elde ederek mali olarak destekleyen kurum ya da kişi.",
+          "definition": "Bir etkinliği, programı ya da kişiyi genellikle tanıtım karşılığında maddi olarak destekleyen kurum ya da kişi; fiil olarak bu desteği vermek.",
           "exampleSentences": [
             "A major airline sponsors the annual film festival.",
             "The team's shirts display their main sponsor's logo.",
             "Without a sponsor, the documentary might never have been made."
           ],
-          "translationTR": "sponsor",
+          "translationTR": "sponsor; sponsor olmak, maddi destek vermek",
           "collocations": [
             "main sponsor",
             "corporate sponsor",
@@ -859,7 +859,7 @@
           "headword": "viral",
           "frequencyRank": 563,
           "baseDifficulty": 0.64,
-          "definition": "Bir içeriğin, internet üzerinden kısa sürede ve geniş çapta paylaşılarak yaygınlaşması durumu.",
+          "definition": "İnternette kısa sürede ve çok geniş bir kitle tarafından paylaşılarak yayılan (içerik).",
           "exampleSentences": [
             "The video went viral within hours of being posted.",
             "Her viral tweet was shared by thousands of people.",
@@ -1100,7 +1100,7 @@
             "Students were asked to paraphrase the passage in their own words.",
             "A brief paraphrase can be clearer than a long direct quotation."
           ],
-          "translationTR": "kendi sözcükleriyle yeniden anlatmak, açımlamak",
+          "translationTR": "kendi sözcükleriyle yeniden anlatmak; açımlama",
           "collocations": [
             "paraphrase a quote",
             "brief paraphrase",
@@ -1119,7 +1119,7 @@
             "The speech relied on rhetorical devices rather than hard facts.",
             "Her rhetorical skill made even dull statistics sound urgent."
           ],
-          "translationTR": "retorik nitelikte, ikna amaçlı",
+          "translationTR": "söz sanatına dayanan; (soru) cevap beklemeyen",
           "collocations": [
             "rhetorical question",
             "rhetorical device",
@@ -1132,7 +1132,7 @@
           "headword": "verbatim",
           "frequencyRank": 577,
           "baseDifficulty": 0.78,
-          "definition": "Bir konuşma ya da metnin, hiçbir değişiklik yapılmadan tam olarak söylendiği veya yazıldığı gibi aktarılması.",
+          "definition": "Hiçbir değişiklik yapılmadan, tam olarak söylendiği ya da yazıldığı biçimde (aktarılan).",
           "exampleSentences": [
             "The transcript recorded the interview verbatim.",
             "She quoted the minister verbatim in her article.",
@@ -1151,7 +1151,7 @@
           "headword": "lucid",
           "frequencyRank": 578,
           "baseDifficulty": 0.79,
-          "definition": "Karmaşık bir konuyu bile okuyucunun hiç zorlanmadan takip edebileceği kadar düzenli ve net bir anlatım biçimi.",
+          "definition": "Karmaşık bir konuyu bile kolayca izlenebilir kılan, düzenli ve net (anlatım); bir kişi için ise zihnen berrak ve tutarlı.",
           "exampleSentences": [
             "Her lucid explanation made the complex policy easy to follow.",
             "The report was praised for its lucid style, free of jargon.",

@@ -821,13 +821,13 @@
           "headword": "redundant",
           "frequencyRank": 261,
           "baseDifficulty": 0.62,
-          "definition": "Artık gerekli olmayan, fazlalık oluşturan veya işlevini yitirmiş.",
+          "definition": "Artık gerekli olmayan ya da işlevini yitirmiş; bir çalışan için, işi ortadan kalktığı için işten çıkarılmış.",
           "exampleSentences": [
             "The upgrade made several older components redundant.",
-            "Engineers removed the redundant code to simplify the programme.",
-            "The old warehouse system became redundant once the new database was installed."
+            "Hundreds of workers were made redundant when the factory closed.",
+            "Engineers removed the redundant code to simplify the programme."
           ],
-          "translationTR": "gereksiz, işlevini yitirmiş",
+          "translationTR": "gereksiz, fazlalık; (çalışan) işten çıkarılmış",
           "collocations": [
             "make redundant",
             "redundant system",
