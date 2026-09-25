@@ -84,3 +84,28 @@ final class GoalSwitcherViewModelTests: XCTestCase {
         XCTAssertEqual(try context.fetch(FetchDescriptor<LearnerProfile>()).first?.activePackageID, "yds")
     }
 }
+
+final class OnboardingPackagePickerTests: XCTestCase {
+    @MainActor
+    func test_englishUI_offersPackagesForEveryoneFirst_andUsesTargetWording() throws {
+        let container = try ModelContainer(for: AppModelContainer.schema, configurations: [ModelConfiguration(schema: AppModelContainer.schema, isStoredInMemoryOnly: true)])
+        let context = ModelContext(container)
+        context.insert(ContentPackage(id: "yds", name: "YDS Academic", goal: .yds, levelLower: "B2", levelUpper: "C1", audience: "tr"))
+        context.insert(ContentPackage(id: "everyday", name: "Everyday English", goal: .conversational, levelLower: "A2", levelUpper: "B1"))
+        try context.save()
+
+        let vm = OnboardingViewModel(context: context, userID: "u", language: .english)
+        XCTAssertEqual(vm.goalOptions.map(\.id), ["everyday", "yds"])
+        XCTAssertEqual(vm.selectedPackageID, "everyday")
+        XCTAssertFalse(vm.selectedGoalIsExam)
+        vm.selectedPackageID = "yds"
+        XCTAssertTrue(vm.selectedGoalIsExam)
+    }
+
+    func test_dateWording_followsTheGoal() {
+        XCTAssertEqual(DateWording(isExam: true).title, "Exam date")
+        XCTAssertEqual(DateWording(isExam: false).title, "Target date")
+        XCTAssertEqual(DateWording(isExam: false).question, "Do you have a target date?")
+    }
+}
+

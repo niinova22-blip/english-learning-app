@@ -24,6 +24,9 @@ public struct TutorRequest: Sendable, Equatable {
     public let translationTR: String
     public let ask: TutorAsk
     public let learnerLanguage: LearnerLanguage
+    /// Completes "a learner who is ..." (e.g. "improving their business
+    /// English"); nil keeps the YDS wording. See `TutorOpening`.
+    public let goalDescription: String?
 
     public init(
         headword: String,
@@ -31,8 +34,10 @@ public struct TutorRequest: Sendable, Equatable {
         exampleSentences: [String],
         translationTR: String,
         ask: TutorAsk,
-        learnerLanguage: LearnerLanguage = .turkish
+        learnerLanguage: LearnerLanguage = .turkish,
+        goalDescription: String? = nil
     ) {
+        self.goalDescription = goalDescription
         self.headword = headword
         self.definition = definition
         self.exampleSentences = exampleSentences
@@ -69,13 +74,17 @@ public struct QuestionTutorRequest: Sendable, Equatable {
     /// Body of the reading passage the question belongs to, if any.
     public let passage: String?
     public let learnerLanguage: LearnerLanguage
+    /// See `TutorRequest.goalDescription`.
+    public let goalDescription: String?
 
     public init(
         prompt: String, options: [String], correctIndex: Int,
         selectedIndex: Int?, explanationTR: String, ask: TutorAsk,
         passage: String? = nil,
-        learnerLanguage: LearnerLanguage = .turkish
+        learnerLanguage: LearnerLanguage = .turkish,
+        goalDescription: String? = nil
     ) {
+        self.goalDescription = goalDescription
         self.passage = passage
         self.prompt = prompt
         self.options = options

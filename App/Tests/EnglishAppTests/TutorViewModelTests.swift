@@ -1,6 +1,7 @@
 import XCTest
 import TutorEngine
 @testable import EnglishApp
+import LearningEngine
 
 private final class FakeTutorEngine: TutorEngine {
     var stubbedResponse = "stub response"
@@ -105,5 +106,29 @@ final class TutorViewModelTests: XCTestCase {
 
         XCTAssertNil(engine.lastRequest)
         XCTAssertEqual(viewModel.state, .idle)
+    }
+
+    func test_requests_carryLanguageAndGoal() async {
+        let engine = FakeTutorEngine()
+        let card = TutorViewModel(engine: engine, context: context, learnerLanguage: .english, goalDescription: "improving their business English")
+        await card.ask(.anotherExample)
+        XCTAssertEqual(engine.lastRequest?.learnerLanguage, .english)
+        XCTAssertEqual(engine.lastRequest?.goalDescription, "improving their business English")
+
+        let question = TutorViewModel(
+            engine: engine,
+            context: .question(prompt: "Q", options: ["a", "b"], correctIndex: 0, selectedIndex: 1, explanationTR: "E"),
+            learnerLanguage: .turkish, goalDescription: nil
+        )
+        await question.ask(.simplerExplanation)
+        XCTAssertEqual(engine.lastQuestionRequest?.learnerLanguage, .turkish)
+        XCTAssertNil(engine.lastQuestionRequest?.goalDescription)
+    }
+
+    func test_tutorGoal_describesNonYDSGoalsOnly() {
+        XCTAssertNil(TutorGoal.description(for: .yds))
+        XCTAssertNil(TutorGoal.description(for: nil))
+        XCTAssertEqual(TutorGoal.description(for: .business), "improving their business English")
+        XCTAssertEqual(TutorGoal.description(for: .conversational), "improving their everyday English")
     }
 }

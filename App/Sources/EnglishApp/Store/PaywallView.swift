@@ -156,9 +156,9 @@ struct PaywallView: View {
             ]
         case .premium:
             return [
-                String(localized: "Ask the tutor: explains the answer to your question in Turkish"),
+                String(localized: "Ask the tutor: clear answers to your questions in your language"),
                 String(localized: "Chat freely with the tutor"),
-                String(localized: "Study coach: a personal plan based on your exam date"),
+                String(localized: "Study coach: a personal plan built around your exam or target date"),
                 String(localized: "Cancel anytime"),
             ]
         }

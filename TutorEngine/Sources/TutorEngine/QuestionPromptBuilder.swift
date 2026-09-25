@@ -24,13 +24,7 @@ public enum QuestionPromptBuilder {
             .map { labelled(request.options, $0) }
             .joined(separator: "\n")
 
-        let opening: String
-        switch request.learnerLanguage {
-        case .turkish:
-            opening = "You are a concise, encouraging English tutor helping a Turkish-speaking learner preparing for the YDS exam."
-        case .english:
-            opening = "You are a concise, encouraging English tutor helping an English learner."
-        }
+        let opening = TutorOpening.line(for: request.learnerLanguage, goalDescription: request.goalDescription)
 
         var prompt = """
         \(opening)
@@ -49,14 +43,15 @@ public enum QuestionPromptBuilder {
             prompt += "The learner has not answered yet.\n"
         }
 
-        switch request.learnerLanguage {
-        case .turkish:
+        // Only YDS explanations are written in Turkish; other packages' are English.
+        switch (request.learnerLanguage, request.goalDescription) {
+        case (.turkish, nil):
             prompt += """
             The explanation the app already showed (in Turkish): \(request.explanationTR)
 
 
             """
-        case .english:
+        default:
             prompt += """
             The explanation the app already showed (it may be in another language): \(request.explanationTR)
 

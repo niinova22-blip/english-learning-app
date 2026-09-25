@@ -102,10 +102,11 @@ private struct ExamDateStep: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Do you have an exam date?").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
-            Toggle("I have an exam date", isOn: $hasExamDate).tint(Theme.primary)
+            let wording = DateWording(isExam: viewModel.selectedGoalIsExam)
+            Text(wording.question).font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Toggle(wording.toggle, isOn: $hasExamDate).tint(Theme.primary)
             if hasExamDate {
-                DatePicker("Exam date", selection: $date, in: tomorrow..., displayedComponents: .date)
+                DatePicker(wording.title, selection: $date, in: tomorrow..., displayedComponents: .date)
                     .datePickerStyle(.graphical)
             }
             Spacer(minLength: 0)

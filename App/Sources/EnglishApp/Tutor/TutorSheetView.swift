@@ -8,13 +8,13 @@ struct TutorSheetView: View {
     @State private var learnerWasCorrect = false
     @Environment(\.dismiss) private var dismiss
 
-    init(engine: any TutorEngine, context: TutorViewModel.TutorContext) {
-        _viewModel = State(initialValue: TutorViewModel(engine: engine, context: context))
+    init(engine: any TutorEngine, context: TutorViewModel.TutorContext, goalDescription: String? = nil) {
+        _viewModel = State(initialValue: TutorViewModel(engine: engine, context: context, goalDescription: goalDescription))
         _isQuestionContext = State(initialValue: false)
     }
 
-    init(engine: any TutorEngine, questionContext: TutorViewModel.Context) {
-        _viewModel = State(initialValue: TutorViewModel(engine: engine, context: questionContext))
+    init(engine: any TutorEngine, questionContext: TutorViewModel.Context, goalDescription: String? = nil) {
+        _viewModel = State(initialValue: TutorViewModel(engine: engine, context: questionContext, goalDescription: goalDescription))
         _isQuestionContext = State(initialValue: true)
         if case .question(_, _, let correctIndex, let selectedIndex, _, _) = questionContext {
             _learnerWasCorrect = State(initialValue: selectedIndex == correctIndex)

@@ -27,15 +27,25 @@ final class TutorViewModel {
     private let engine: any TutorEngine
     private let context: Context
     private let timeoutNanoseconds: UInt64
+    private let learnerLanguage: LearnerLanguage
+    private let goalDescription: String?
 
-    convenience init(engine: any TutorEngine, context: TutorContext, timeoutSeconds: UInt64 = 30) {
-        self.init(engine: engine, context: .card(context), timeoutSeconds: timeoutSeconds)
+    convenience init(
+        engine: any TutorEngine, context: TutorContext, timeoutSeconds: UInt64 = 30,
+        learnerLanguage: LearnerLanguage = AppLanguage.current.learnerLanguage, goalDescription: String? = nil
+    ) {
+        self.init(engine: engine, context: .card(context), timeoutSeconds: timeoutSeconds, learnerLanguage: learnerLanguage, goalDescription: goalDescription)
     }
 
-    init(engine: any TutorEngine, context: Context, timeoutSeconds: UInt64 = 30) {
+    init(
+        engine: any TutorEngine, context: Context, timeoutSeconds: UInt64 = 30,
+        learnerLanguage: LearnerLanguage = AppLanguage.current.learnerLanguage, goalDescription: String? = nil
+    ) {
         self.engine = engine
         self.context = context
         self.timeoutNanoseconds = timeoutSeconds * 1_000_000_000
+        self.learnerLanguage = learnerLanguage
+        self.goalDescription = goalDescription
     }
 
     func ask(_ quickAction: QuickAction) async {
@@ -56,14 +66,15 @@ final class TutorViewModel {
             case .card(let card):
                 let request = TutorRequest(
                     headword: card.headword, definition: card.definition,
-                    exampleSentences: card.exampleSentences, translationTR: card.translationTR, ask: ask
+                    exampleSentences: card.exampleSentences, translationTR: card.translationTR, ask: ask,
+                    learnerLanguage: learnerLanguage, goalDescription: goalDescription
                 )
                 response = try await withTutorTimeout(nanoseconds: timeoutNanoseconds) { try await self.engine.respond(to: request) }
             case .question(let prompt, let options, let correctIndex, let selectedIndex, let explanationTR, let passage):
                 let request = QuestionTutorRequest(
                     prompt: prompt, options: options, correctIndex: correctIndex,
                     selectedIndex: selectedIndex, explanationTR: explanationTR, ask: ask,
-                    passage: passage
+                    passage: passage, learnerLanguage: learnerLanguage, goalDescription: goalDescription
                 )
                 response = try await withTutorTimeout(nanoseconds: timeoutNanoseconds) { try await self.engine.respond(to: request) }
             }

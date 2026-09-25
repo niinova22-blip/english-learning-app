@@ -38,6 +38,7 @@ struct PackageOption: Identifiable, Equatable {
     let levelUpper: String
     let summary: String?
     let isForTurkishSpeakers: Bool
+    let isExam: Bool
 
     init(_ package: ContentPackage, language: AppLanguage) {
         id = package.id
@@ -46,5 +47,6 @@ struct PackageOption: Identifiable, Equatable {
         levelUpper = package.levelUpper
         summary = package.summary
         isForTurkishSpeakers = PackageOrdering.showsTurkishSpeakersNote(package, language: language)
+        isExam = package.goal.isExam
     }
 }

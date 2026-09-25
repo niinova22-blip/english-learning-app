@@ -5,23 +5,25 @@ import Foundation
 /// happens here, with no model-loading code involved.
 public enum PromptBuilder {
     public static func build(for request: TutorRequest) -> String {
+        let opening = TutorOpening.line(for: request.learnerLanguage, goalDescription: request.goalDescription)
         var prompt: String
         switch request.learnerLanguage {
         case .turkish:
+            // English-medium packages have no translation: omit the line.
+            let translationLine = request.translationTR.isEmpty ? "" : "Turkish translation: \(request.translationTR)\n"
             prompt = """
-            You are a concise, encouraging English tutor helping a Turkish-speaking learner preparing for the YDS exam.
+            \(opening)
             The learner is currently studying this word:
 
             Word: \(request.headword)
             Definition: \(request.definition)
             Example sentences: \(request.exampleSentences.joined(separator: " / "))
-            Turkish translation: \(request.translationTR)
-
+            \(translationLine)
 
             """
         case .english:
             prompt = """
-            You are a concise, encouraging English tutor helping an English learner.
+            \(opening)
             The learner is currently studying this word:
 
             Word: \(request.headword)

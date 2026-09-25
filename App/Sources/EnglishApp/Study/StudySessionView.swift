@@ -84,7 +84,7 @@ struct StudySessionView: View {
                             headword: card.headword, definition: card.definition,
                             exampleSentences: card.exampleSentence.map { [$0] } ?? [],
                             translationTR: card.translationTR
-                        ))
+                        ), goalDescription: TutorGoal.activeDescription(in: context))
                     }
                 }
             }

@@ -40,7 +40,7 @@ struct PracticeSessionView: View {
                     prompt: question.prompt, options: question.options,
                     correctIndex: question.correctIndex, selectedIndex: vm.selectedIndex,
                     explanationTR: question.explanationTR, passage: vm.passage?.body
-                ))
+                ), goalDescription: TutorGoal.activeDescription(in: context))
             }
         }
         .task { start() }

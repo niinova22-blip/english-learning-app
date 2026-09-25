@@ -23,9 +23,12 @@ final class ChatViewModel {
     /// silently dropped instead of landing in the new, unrelated session.
     private var conversationEpoch = 0
 
-    init(engine: any TutorEngine, historyCap: Int = 20) {
+    private let learnerLanguage: LearnerLanguage
+
+    init(engine: any TutorEngine, historyCap: Int = 20, learnerLanguage: LearnerLanguage = AppLanguage.current.learnerLanguage) {
         self.engine = engine
         self.historyCap = historyCap
+        self.learnerLanguage = learnerLanguage
     }
 
     func send(_ text: String) async {
@@ -82,7 +85,7 @@ final class ChatViewModel {
 
     private func requestResponse(epoch: Int) async {
         do {
-            let reply = try await engine.respond(to: ChatRequest(history: historyToSend()))
+            let reply = try await engine.respond(to: ChatRequest(history: historyToSend(), learnerLanguage: learnerLanguage))
             guard epoch == conversationEpoch else { return }
             messages.append(DisplayMessage(id: UUID(), turn: ChatTurn(role: .assistant, text: reply)))
             isLoading = false

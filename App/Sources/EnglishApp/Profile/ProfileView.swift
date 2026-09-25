@@ -20,6 +20,7 @@ struct ProfileView: View {
     @State private var stats: LearnerStats?
     @State private var levelTestSnapshot: LevelTestSnapshot?
     @State private var examDate: Date?
+    @State private var isExamGoal = true
     @State private var coachBriefing: CoachBriefing?
     @State private var showStudySettings = false
     @State private var showGoalSwitcher = false
@@ -44,7 +45,7 @@ struct ProfileView: View {
                     row("Daily time", String(localized: "\(stats?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes) min"))
                     if let examDate {
                         Divider()
-                        row("Exam date", examDate.formatted(.dateTime.day().month(.wide).year().locale(AppLanguage.current.locale)))
+                        row(LocalizedStringKey(DateWording(isExam: isExamGoal).title), examDate.formatted(.dateTime.day().month(.wide).year().locale(AppLanguage.current.locale)))
                     }
                     HStack(spacing: 20) {
                         Button("Edit") { showStudySettings = true }
@@ -224,6 +225,7 @@ struct ProfileView: View {
         let profile = try? context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userID })).first
         hasSkippedLevelTest = profile?.hasSkippedLevelTest ?? false
         examDate = profile?.examDate
+        isExamGoal = (try? TodayPlanCoordinator(context: context, userID: userID, accessProvider: appState.accessProvider).activePackage())?.goal.isExam ?? true
     }
 
     private func resetAllData() {

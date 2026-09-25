@@ -50,7 +50,7 @@ struct TutorTabView: View {
             Image(systemName: "lock.fill").font(.largeTitle).foregroundStyle(Theme.accent)
             Text("The tutor unlocks with AI Premium")
                 .font(.serifTitle(.title3)).foregroundStyle(Theme.ink)
-            Text("Get your questions explained in Turkish and chat with the tutor.")
+            Text("Get clear answers in your language and chat with the tutor.")
                 .font(.subheadline).foregroundStyle(Theme.secondaryInk)
                 .multilineTextAlignment(.center)
             Button("Upgrade to AI Premium") { showPaywall = true }

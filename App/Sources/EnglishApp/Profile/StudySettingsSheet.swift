@@ -30,6 +30,15 @@ enum StudySettings {
     }
 }
 
+/// "Exam date" for exam goals (YDS, TOEFL), "target date" for the rest.
+struct DateWording {
+    let isExam: Bool
+
+    var title: String { isExam ? String(localized: "Exam date") : String(localized: "Target date") }
+    var toggle: String { isExam ? String(localized: "I have an exam date") : String(localized: "I have a target date") }
+    var question: String { isExam ? String(localized: "Do you have an exam date?") : String(localized: "Do you have a target date?") }
+}
+
 struct StudySettingsSheet: View {
     @Environment(\.modelContext) private var context
     @Environment(\.dismiss) private var dismiss
@@ -38,6 +47,7 @@ struct StudySettingsSheet: View {
     @State private var hasExamDate = false
     @State private var examDate = Date()
     @State private var saveError: String?
+    @State private var isExamGoal = true
 
     private var tomorrow: Date {
         Calendar.current.date(byAdding: .day, value: 1, to: Calendar.current.startOfDay(for: Date()))!
@@ -49,10 +59,11 @@ struct StudySettingsSheet: View {
                 Section("Daily time") {
                     Stepper("Daily \(dailyMinutes) minutes", value: $dailyMinutes, in: StudySettings.dailyMinutesRange, step: StudySettings.dailyMinutesStep)
                 }
-                Section("Exam date") {
-                    Toggle("I have an exam date", isOn: $hasExamDate).tint(Theme.primary)
+                let wording = DateWording(isExam: isExamGoal)
+                Section(wording.title) {
+                    Toggle(wording.toggle, isOn: $hasExamDate).tint(Theme.primary)
                     if hasExamDate {
-                        DatePicker("Exam date", selection: $examDate, in: tomorrow..., displayedComponents: .date)
+                        DatePicker(wording.title, selection: $examDate, in: tomorrow..., displayedComponents: .date)
                     }
                 }
                 if let saveError {
@@ -75,6 +86,8 @@ struct StudySettingsSheet: View {
         dailyMinutes = profile.dailyMinutes
         hasExamDate = profile.examDate != nil
         examDate = StudySettings.suggestedExamDate(stored: profile.examDate, now: Date())
+        let packageID = profile.activePackageID
+        isExamGoal = (try? context.fetch(FetchDescriptor<ContentPackage>(predicate: #Predicate { $0.id == packageID })).first)?.goal.isExam ?? true
     }
 
     private func save() {

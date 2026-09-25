@@ -36,6 +36,11 @@ final class OnboardingViewModel {
         selectedPackageID = goalOptions.first?.id
     }
 
+    /// Exam goals ask for an exam date; the others for a target date.
+    var selectedGoalIsExam: Bool {
+        goalOptions.first { $0.id == selectedPackageID }?.isExam ?? true
+    }
+
     /// True when no content package is installed, so there is nothing to pick.
     var hasNoPackages: Bool { goalOptions.isEmpty }
 
