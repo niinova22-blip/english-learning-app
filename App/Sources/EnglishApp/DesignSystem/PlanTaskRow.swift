@@ -4,9 +4,13 @@ import LearningEngine
 enum PlanTaskText {
     static func minutes(_ value: Double) -> Int { Int(value.rounded(.up)) }
 
+    private static func minutesText(_ value: Double) -> String {
+        String(localized: "\(minutes(value)) min")
+    }
+
     static func title(_ task: PlanTask) -> String {
         switch task {
-        case .review: return "Kelime tekrarı"
+        case .review: return String(localized: "Word review")
         case .lesson(_, let title, _, _, _),
              .practiceReview(_, _, let title, _, _, _),
              .locked(_, let title): return title
@@ -16,13 +20,15 @@ enum PlanTaskText {
     static func subtitle(_ task: PlanTask) -> String {
         switch task {
         case .review(let count, let minutes, let isDone):
-            return isDone ? "\(count) kart · bitti" : "\(count) kart · \(self.minutes(minutes)) dk"
+            let cards = String(localized: "\(count) cards")
+            return isDone ? String(localized: "\(cards) · done") : String(localized: "\(cards) · \(minutesText(minutes))")
         case .lesson(_, _, let skill, let minutes, let isDone):
-            return isDone ? "\(skill.displayName) · bitti" : "Yeni ders · \(skill.displayName) · \(self.minutes(minutes)) dk"
+            return isDone ? String(localized: "\(skill.displayName) · done") : String(localized: "New lesson · \(skill.displayName) · \(minutesText(minutes))")
         case .practiceReview(_, _, _, let skill, let minutes, let isDone):
-            return isDone ? "\(skill.displayName) tekrarı · bitti" : "Konu tekrarı · \(skill.displayName) · \(self.minutes(minutes)) dk"
+            let skillReview = String(localized: "\(skill.displayName) review")
+            return isDone ? String(localized: "\(skillReview) · done") : String(localized: "Topic review · \(skill.displayName) · \(minutesText(minutes))")
         case .locked:
-            return "Paketi aç"
+            return String(localized: "Unlock package")
         }
     }
 }
@@ -81,14 +87,14 @@ struct PlanTaskRow: View {
                         .font(.caption)
                         .foregroundStyle(isLocked ? Theme.accent : Theme.secondaryInk)
                     if isCoachAdded {
-                        Text("Koç ekledi")
+                        Text("Coach added")
                             .font(.caption2.weight(.semibold))
                             .foregroundStyle(Theme.accent)
                     }
                 }
                 Spacer(minLength: 8)
                 if isHighlighted && !isDone && !isLocked {
-                    Text("Başla")
+                    Text("Start")
                         .font(.caption.weight(.semibold))
                         .foregroundStyle(.white)
                         .padding(.horizontal, 10).padding(.vertical, 6)

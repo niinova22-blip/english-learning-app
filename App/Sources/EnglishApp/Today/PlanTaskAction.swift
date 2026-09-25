@@ -15,7 +15,7 @@ enum PlanTaskAction: Equatable {
     case none
 
     /// Skills that have shipped practice content. Everything else still shows
-    /// "Bu ders türü yakında".
+    /// "This lesson type is coming soon".
     static let skillsWithPracticeContent: Set<Skill> = [.grammar, .reading]
 
     static func action(for task: PlanTask) -> PlanTaskAction {

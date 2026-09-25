@@ -31,7 +31,7 @@ final class StudySessionViewModelTests: XCTestCase {
 
         XCTAssertEqual(vm.cards.map(\.id), ["item-u0-l0-i0", "item-u0-l0-i1"])
         XCTAssertEqual(vm.progressText, "1/2")
-        XCTAssertEqual(vm.contextLine, "YENİ DERS · UNİT 0 · 1")
+        XCTAssertEqual(vm.contextLine, "NEW LESSON · UNIT 0 · 1")
         XCTAssertNotNil(try progressRow(context, "lesson-u0-l0"))
         XCTAssertNil(try progressRow(context, "lesson-u0-l0")?.completedAt)
     }
@@ -52,7 +52,7 @@ final class StudySessionViewModelTests: XCTestCase {
         XCTAssertTrue(vm.isFinished)
         XCTAssertEqual(try progressRow(context, "lesson-u0-l0")?.completedAt, clockNow)
         XCTAssertEqual(try context.fetchCount(FetchDescriptor<UserItemState>()), 2)
-        XCTAssertEqual(vm.summary(), .init(title: "Ders tamamlandı", subtitle: "Unit 0 · 1", cardCount: 2, knownShare: 0.5, needsReview: ["word001"]))
+        XCTAssertEqual(vm.summary(), .init(title: "Lesson complete", subtitle: "Unit 0 · 1", cardCount: 2, knownShare: 0.5, needsReview: ["word001"]))
     }
 
     func test_reenteringALesson_resumesAtFirstUnratedItem() throws {
@@ -97,9 +97,9 @@ final class StudySessionViewModelTests: XCTestCase {
         let vm = makeVM(.review(cardCount: 10), context)
         try vm.start()
         XCTAssertEqual(vm.cards.map(\.id), ["item-u1-l0-i0"])
-        XCTAssertEqual(vm.contextLine, "TEKRAR")
+        XCTAssertEqual(vm.contextLine, "REVIEW")
         vm.rate(.good)
-        XCTAssertEqual(vm.summary().title, "Tekrar tamamlandı")
+        XCTAssertEqual(vm.summary().title, "Review complete")
         XCTAssertNil(vm.summary().subtitle)
     }
 
@@ -109,7 +109,7 @@ final class StudySessionViewModelTests: XCTestCase {
         try vm.start()
         let texts = vm.intervalTexts()
         XCTAssertEqual(Set(texts.keys), Set([FSRSRating.again, .hard, .good, .easy]))
-        XCTAssertEqual(texts[.again], "1 gün")
+        XCTAssertEqual(texts[.again], "1 day")
     }
 
     func test_intervalFormatter() {
@@ -117,10 +117,10 @@ final class StudySessionViewModelTests: XCTestCase {
         calendar.timeZone = TimeZone(identifier: "Europe/Istanbul")!
         let now = calendar.date(from: DateComponents(year: 2026, month: 9, day: 14, hour: 22))!
         func plus(_ days: Int) -> Date { calendar.date(byAdding: .day, value: days, to: now)! }
-        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: now, calendar: calendar), "1 gün")
-        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: plus(1), calendar: calendar), "1 gün")
-        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: plus(25), calendar: calendar), "25 gün")
-        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: plus(60), calendar: calendar), "2 ay")
-        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: plus(400), calendar: calendar), "1 yıl")
+        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: now, calendar: calendar), "1 day")
+        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: plus(1), calendar: calendar), "1 day")
+        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: plus(25), calendar: calendar), "25 days")
+        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: plus(60), calendar: calendar), "2 months")
+        XCTAssertEqual(RatingIntervalFormatter.text(from: now, to: plus(400), calendar: calendar), "1 year")
     }
 }

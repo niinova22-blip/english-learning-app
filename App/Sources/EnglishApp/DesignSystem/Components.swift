@@ -76,7 +76,7 @@ struct RatingButton: View {
             .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous).stroke(rating.tint.opacity(rating == .good ? 0 : 0.35), lineWidth: 1))
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("\(rating.label), sonraki tekrar \(intervalText)")
+        .accessibilityLabel("\(rating.label), next review \(intervalText)")
     }
 }
 
@@ -84,10 +84,10 @@ struct StreakBadge: View {
     let days: Int
 
     var body: some View {
-        Label("\(days) gün", systemImage: "flame.fill")
+        Label("\(days) days", systemImage: "flame.fill")
             .font(.subheadline.weight(.bold))
             .foregroundStyle(Theme.accent)
-            .accessibilityLabel("\(days) günlük seri")
+            .accessibilityLabel("\(days)-day streak")
     }
 }
 
@@ -123,7 +123,7 @@ private struct ComponentsPreview: View {
                 Text("hypothesis").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
                 HStack { SkillBadge(skill: .vocabulary); SkillBadge(skill: .grammar); SkillBadge(skill: .reading) }
                 ProgressBar(progress: 0.3)
-                PaperCard { Text("Kâğıt kart").foregroundStyle(Theme.ink) }
+                PaperCard { Text("Paper card").foregroundStyle(Theme.ink) }
                 HStack(spacing: 6) {
                     RatingButton(rating: .again, intervalText: "1 gün") {}
                     RatingButton(rating: .hard, intervalText: "1 gün") {}
@@ -132,7 +132,7 @@ private struct ComponentsPreview: View {
                 }
                 HStack { StatTile(value: "10", label: "kelime"); StatTile(value: "%80", label: "bildim", tint: Theme.primary); StatTile(value: "12", label: "gün seri", tint: Theme.accent) }
                 StreakBadge(days: 12)
-                Button("Başla") {}.buttonStyle(PrimaryButtonStyle())
+                Button("Start") {}.buttonStyle(PrimaryButtonStyle())
             }
             .padding()
         }

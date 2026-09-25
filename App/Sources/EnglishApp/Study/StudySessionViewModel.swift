@@ -61,8 +61,8 @@ final class StudySessionViewModel {
 
     var contextLine: String {
         switch mode {
-        case .review: return "TEKRAR"
-        case .lesson: return "YENİ DERS · \((lessonTitle ?? "").uppercased(with: Locale(identifier: "tr_TR")))"
+        case .review: return String(localized: "REVIEW")
+        case .lesson: return String(localized: "NEW LESSON · \((lessonTitle ?? "").uppercased(with: AppLanguage.current.locale))")
         }
     }
 
@@ -138,7 +138,7 @@ final class StudySessionViewModel {
         let isLesson: Bool
         if case .lesson = mode { isLesson = true } else { isLesson = false }
         return Summary(
-            title: isLesson ? "Ders tamamlandı" : "Tekrar tamamlandı",
+            title: isLesson ? String(localized: "Lesson complete") : String(localized: "Review complete"),
             subtitle: isLesson ? lessonTitle : nil,
             cardCount: ratings.count,
             knownShare: ratings.isEmpty ? 0 : Double(known) / Double(ratings.count),

@@ -18,21 +18,21 @@ struct StudySummaryView: View {
                 Text(subtitle).font(.subheadline).foregroundStyle(Theme.secondaryInk)
             }
             HStack(spacing: 8) {
-                StatTile(value: "\(summary.cardCount)", label: "kart")
-                StatTile(value: "%\(Int((summary.knownShare * 100).rounded()))", label: "bildim", tint: Theme.primary)
-                StatTile(value: "\(streak)", label: "gün seri", tint: Theme.accent)
+                StatTile(value: "\(summary.cardCount)", label: String(localized: "Cards"))
+                StatTile(value: "%\(Int((summary.knownShare * 100).rounded()))", label: String(localized: "Accuracy"), tint: Theme.primary)
+                StatTile(value: "\(streak)", label: String(localized: "Day streak"), tint: Theme.accent)
             }
             .padding(.top, 8)
             if !summary.needsReview.isEmpty {
                 PaperCard {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("TEKRAR ETMEN GEREKENLER").font(.caption2.weight(.semibold)).tracking(1).foregroundStyle(Theme.secondaryInk)
+                        Text("WORDS TO REVIEW").font(.caption2.weight(.semibold)).tracking(1).foregroundStyle(Theme.secondaryInk)
                         Text(summary.needsReview.joined(separator: " · ")).font(.subheadline).foregroundStyle(Theme.ink)
                     }
                 }
             }
             Spacer()
-            Button("Plana dön", action: onDone).buttonStyle(PrimaryButtonStyle())
+            Button("Back to plan", action: onDone).buttonStyle(PrimaryButtonStyle())
         }
         .padding()
         .background(Theme.paper.ignoresSafeArea())

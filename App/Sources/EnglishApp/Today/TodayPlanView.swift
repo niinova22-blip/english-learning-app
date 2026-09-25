@@ -55,7 +55,7 @@ struct TodayPlanView: View {
         }
         .lockedLessonPrompts($lockedLesson)
         .alert(infoMessage?.title ?? "", isPresented: Binding(get: { infoMessage != nil }, set: { if !$0 { infoMessage = nil } })) {
-            Button("Tamam", role: .cancel) { infoMessage = nil }
+            Button("OK", role: .cancel) { infoMessage = nil }
         } message: {
             Text(infoMessage?.body ?? "")
         }
@@ -69,9 +69,9 @@ struct TodayPlanView: View {
         case .loading:
             ProgressView().frame(maxWidth: .infinity, minHeight: 300)
         case .noContent:
-            ContentUnavailableView("İçerik yüklenemedi", systemImage: "books.vertical", description: Text("Profil sekmesindeki depolama uyarısına bak."))
+            ContentUnavailableView("Content couldn't load", systemImage: "books.vertical", description: Text("Check the storage warning on the Profile tab."))
         case .failed(let message):
-            ContentUnavailableView("Plan hazırlanamadı", systemImage: "exclamationmark.triangle", description: Text(message))
+            ContentUnavailableView("Plan couldn't be prepared", systemImage: "exclamationmark.triangle", description: Text(message))
         case .ready(let plan):
             planContent(plan)
         }
@@ -81,22 +81,22 @@ struct TodayPlanView: View {
     private func planContent(_ plan: DailyPlan) -> some View {
         VStack(alignment: .leading, spacing: 14) {
             HStack {
-                Text((stats?.packageName ?? "").uppercased(with: Locale(identifier: "tr_TR")))
+                Text((stats?.packageName ?? "").uppercased(with: AppLanguage.current.locale))
                     .font(.caption.weight(.bold)).tracking(1.2).foregroundStyle(Theme.primary)
                 Spacer()
                 StreakBadge(days: stats?.streak ?? 0)
             }
-            Text("Bugünün planı").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("Today's plan").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
             coachSection
 
             let actionable = plan.tasks.filter { if case .locked = $0 { return false } else { return true } }
             if plan.tasks.isEmpty || plan.isComplete {
                 PaperCard {
-                    Label("Bugünlük hepsi bu", systemImage: "checkmark.seal.fill")
+                    Label("That's everything for today", systemImage: "checkmark.seal.fill")
                         .font(.headline).foregroundStyle(Theme.primary)
                 }
             } else {
-                Text("\(actionable.count) görev · yaklaşık \(PlanTaskText.minutes(plan.totalMinutes)) dk")
+                Text("\(tasksText(actionable.count)) · \(aboutMinutesText(PlanTaskText.minutes(plan.totalMinutes)))")
                     .font(.subheadline).foregroundStyle(Theme.secondaryInk)
             }
 
@@ -106,13 +106,13 @@ struct TodayPlanView: View {
             }
 
             if !plan.weeklyBalance.isEmpty {
-                Text("Bu hafta beceri dengesi").font(.footnote.weight(.semibold)).foregroundStyle(Theme.secondaryInk).padding(.top, 8)
+                Text("Weekly skill balance").font(.footnote.weight(.semibold)).foregroundStyle(Theme.secondaryInk).padding(.top, 8)
                 ForEach(plan.weeklyBalance, id: \.skill) { balance in
                     VStack(alignment: .leading, spacing: 4) {
                         HStack {
                             Text(balance.skill.displayName).font(.footnote).foregroundStyle(Theme.ink)
                             Spacer()
-                            Text("hedef %\(percent(balance.targetShare)) · %\(percent(balance.actualShare))")
+                            Text("target %\(percent(balance.targetShare)) · %\(percent(balance.actualShare))")
                                 .font(.footnote.monospacedDigit()).foregroundStyle(Theme.secondaryInk)
                         }
                         ProgressBar(progress: balance.targetShare > 0 ? balance.actualShare / balance.targetShare : 0)
@@ -149,6 +149,10 @@ struct TodayPlanView: View {
 
     private func percent(_ share: Double) -> Int { Int((share * 100).rounded()) }
 
+    private func tasksText(_ count: Int) -> String { String(localized: "\(count) tasks") }
+
+    private func aboutMinutesText(_ minutes: Int) -> String { String(localized: "about \(minutes) min") }
+
     private func handle(_ task: PlanTask) {
         switch PlanTaskAction.action(for: task) {
         case .startReview(let count):
@@ -159,7 +163,7 @@ struct TodayPlanView: View {
             activeSession = ActiveSession(kind: .practice(.lesson(id: lessonID)))
         case .startPracticeReview(let itemID, let lessonID):
             activeSession = ActiveSession(kind: .practice(.review(lessonID: lessonID, itemID: itemID)))
-        case .comingSoon(let title): infoMessage = ("Bu ders türü yakında", title)
+        case .comingSoon(let title): infoMessage = (String(localized: "This lesson type is coming soon"), title)
         case .locked(let title): lockedLesson = LockedLesson(title: title)
         case .none: break
         }
