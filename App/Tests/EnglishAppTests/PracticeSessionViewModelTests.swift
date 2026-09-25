@@ -168,7 +168,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
 
         XCTAssertEqual(vm.questions.count, 8, "sentence completion is a grammar lesson: 8 of its 15")
         XCTAssertEqual(vm.lessonTitle, "Sentence completion")
-        XCTAssertEqual(vm.contextLine, "TOPIC REVIEW · CÜMLE TAMAMLAMA")
+        XCTAssertEqual(vm.contextLine, "TOPIC REVIEW · SENTENCE COMPLETION")
         answerAll(vm, correctCount: 5)
         XCTAssertEqual(try context.fetch(FetchDescriptor<ReviewLog>()).first?.itemID, "yds-practice-card-sentence-1")
     }
