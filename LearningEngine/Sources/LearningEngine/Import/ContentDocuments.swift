@@ -42,6 +42,8 @@ public struct LessonDocument: Decodable {
     public let items: [LearningItemDocument]
     public let passage: PassageDocument?
     public let questions: [QuestionDocument]?
+    /// Optional interface-language titles; `title` is the fallback.
+    public let titleLocalized: LocalizedTextDocument?
 }
 
 public struct UnitDocument: Decodable {
@@ -49,6 +51,7 @@ public struct UnitDocument: Decodable {
     public let theme: String
     public let order: Int
     public let lessons: [LessonDocument]
+    public let themeLocalized: LocalizedTextDocument?
 }
 
 public struct ContentPackageDocument: Decodable {
@@ -64,6 +67,8 @@ public struct ContentPackageDocument: Decodable {
     public let audience: String?
     /// Optional one-line description for the package picker.
     public let summary: String?
+    public let nameLocalized: LocalizedTextDocument?
+    public let summaryLocalized: LocalizedTextDocument?
     /// Keyed by `Skill` raw value; validated and converted by `ContentImporter`.
     public let skillWeights: [String: Double]
     public let units: [UnitDocument]

@@ -29,6 +29,11 @@ public final class ContentPackage {
     public var audience: String?
     /// One sentence for the package picker, in the package's medium language.
     public var summary: String?
+    /// Interface-language names and summaries; see `name(for:)`.
+    public var nameEN: String? = nil
+    public var nameTR: String? = nil
+    public var summaryEN: String? = nil
+    public var summaryTR: String? = nil
     public var weightVocabulary: Double = 1
     public var weightGrammar: Double = 0
     public var weightReading: Double = 0

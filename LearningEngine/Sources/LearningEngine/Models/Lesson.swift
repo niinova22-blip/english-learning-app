@@ -7,6 +7,9 @@ public final class Lesson {
     public var order: Int
     public var estimatedDurationMinutes: Int
     public var title: String = ""
+    /// Interface-language titles; see `title(for:)`.
+    public var titleEN: String? = nil
+    public var titleTR: String? = nil
     public var skill: Skill = Skill.vocabulary
     public var unit: Unit?
     @Relationship(deleteRule: .cascade, inverse: \LearningItem.lesson)

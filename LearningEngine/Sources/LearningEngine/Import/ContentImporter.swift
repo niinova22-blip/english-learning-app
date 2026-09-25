@@ -83,11 +83,17 @@ public enum ContentImporter {
             storeProductID: document.storeProductID,
             audience: document.audience, summary: document.summary
         )
+        package.nameEN = document.nameLocalized?.en
+        package.nameTR = document.nameLocalized?.tr
+        package.summaryEN = document.summaryLocalized?.en
+        package.summaryTR = document.summaryLocalized?.tr
 
         var seenQuestionIDs = Set<String>()
         var units: [Unit] = []
         for unitDoc in document.units {
             let unit = Unit(id: unitDoc.id, theme: unitDoc.theme, order: unitDoc.order)
+            unit.themeEN = unitDoc.themeLocalized?.en
+            unit.themeTR = unitDoc.themeLocalized?.tr
             var lessons: [Lesson] = []
             for lessonDoc in unitDoc.lessons {
                 let lesson = Lesson(
@@ -95,6 +101,8 @@ public enum ContentImporter {
                     estimatedDurationMinutes: lessonDoc.estimatedDurationMinutes,
                     title: lessonDoc.title, skill: Skill(rawValue: lessonDoc.skill)!
                 )
+                lesson.titleEN = lessonDoc.titleLocalized?.en
+                lesson.titleTR = lessonDoc.titleLocalized?.tr
                 var items: [LearningItem] = []
                 for itemDoc in lessonDoc.items {
                     guard let type = LearningItemType(rawValue: itemDoc.type) else {

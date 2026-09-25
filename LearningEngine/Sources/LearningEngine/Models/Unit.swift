@@ -5,6 +5,9 @@ import SwiftData
 public final class Unit {
     @Attribute(.unique) public var id: String
     public var theme: String
+    /// Interface-language themes; see `theme(for:)`.
+    public var themeEN: String? = nil
+    public var themeTR: String? = nil
     public var order: Int
     public var package: ContentPackage?
     @Relationship(deleteRule: .cascade, inverse: \Lesson.unit)
