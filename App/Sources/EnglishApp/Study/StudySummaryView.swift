@@ -1,9 +1,11 @@
 import SwiftUI
+import StoreKit
 
 struct StudySummaryView: View {
     let summary: StudySessionViewModel.Summary
     let streak: Int
     let onDone: () -> Void
+    @Environment(\.requestReview) private var requestReview
 
     var body: some View {
         VStack(spacing: 14) {
@@ -33,7 +35,11 @@ struct StudySummaryView: View {
                 }
             }
             Spacer()
-            Button("Back to plan", action: onDone).buttonStyle(PrimaryButtonStyle())
+            Button("Back to plan") {
+                if ReviewPromptPolicy.consume(streak: streak) != nil { requestReview() }
+                onDone()
+            }
+            .buttonStyle(PrimaryButtonStyle())
         }
         .padding()
         .background(Theme.paper.ignoresSafeArea())
