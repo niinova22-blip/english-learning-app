@@ -13,6 +13,7 @@ final class AppState {
     @ObservationIgnored let accessProvider: any PackageAccessProvider
     @ObservationIgnored let premiumProvider: any PremiumAccessProvider
     @ObservationIgnored let coachNoteCache = CoachNoteCache()
+    @ObservationIgnored let reminders = ReminderScheduler()
 
     init(service: any PurchaseService = StoreKitPurchaseService(), defaults: UserDefaults = .standard) {
         let store = EntitlementStore(service: service, defaults: defaults)

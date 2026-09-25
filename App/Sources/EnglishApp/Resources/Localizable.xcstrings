@@ -1036,6 +1036,17 @@
         }
       }
     },
+    "Daily study reminder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlük çalışma hatırlatıcısı"
+          }
+        }
+      }
+    },
     "Daily time" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1586,6 +1597,17 @@
         }
       }
     },
+    "Keep your coach and tutor, or cancel anytime in Settings > Apple ID > Subscriptions." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koçunu ve öğretmenini koru ya da istediğin zaman Ayarlar > Apple Kimliği > Abonelikler'den iptal et."
+          }
+        }
+      }
+    },
     "Knew it" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1861,6 +1883,17 @@
         }
       }
     },
+    "Notifications are turned off for Lexpath. You can allow them in Settings." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lexpath için bildirimler kapalı. Ayarlar'dan izin verebilirsin."
+          }
+        }
+      }
+    },
     "OK" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1901,6 +1934,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tek seferlik ödeme, abonelik yok"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarları aç"
           }
         }
       }
@@ -2099,6 +2143,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soru açıklayıcı"
+          }
+        }
+      }
+    },
+    "REMINDERS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HATIRLATICILAR"
           }
         }
       }
@@ -2627,6 +2682,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bu satın alım zaten hesabında açık."
+          }
+        }
+      }
+    },
+    "Time" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat"
+          }
+        }
+      }
+    },
+    "Time for today's English" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugünkü İngilizce zamanı"
           }
         }
       }
@@ -3166,6 +3243,17 @@
         }
       }
     },
+    "Your free trial ends tomorrow" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ücretsiz denemen yarın bitiyor"
+          }
+        }
+      }
+    },
     "Your personal coach and tutor, right on your phone" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3173,6 +3261,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kişisel koçun ve öğretmenin, telefonunda"
+          }
+        }
+      }
+    },
+    "Your plan is ready. A few minutes keep your streak going." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Planın hazır. Birkaç dakika serini sürdürmeye yeter."
           }
         }
       }

@@ -22,6 +22,16 @@ struct RootTabView: View {
         !hasCompletedOnboarding && hasInstalledPackage
     }
 
+    @Environment(\.modelContext) private var context
+
+    /// Keeps the daily reminder and the trial-ending reminder current: on
+    /// launch and whenever data changes (lesson done, purchase, settings).
+    private func rescheduleReminders() async {
+        let coordinator = TodayPlanCoordinator(context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider)
+        let todayComplete = (try? coordinator.buildPlan())?.isComplete ?? false
+        await appState.reminders.reschedule(todayComplete: todayComplete, trialEndsAt: appState.entitlements.trialEndsAt)
+    }
+
     var body: some View {
         if !Self.shouldShowOnboarding(hasCompletedOnboarding: hasCompletedOnboarding, hasInstalledPackage: !packages.isEmpty) {
             TabView {
@@ -37,6 +47,7 @@ struct RootTabView: View {
                     .tabItem { Label("Profile", systemImage: "person.crop.circle") }
             }
             .tint(Theme.primary)
+            .task(id: appState.dataGeneration) { await rescheduleReminders() }
         } else {
             OnboardingFlowView()
         }

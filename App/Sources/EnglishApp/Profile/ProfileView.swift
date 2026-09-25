@@ -54,6 +54,10 @@ struct ProfileView: View {
                     .buttonStyle(.plain).foregroundStyle(Theme.primary)
                 }
 
+                section("REMINDERS") {
+                    ReminderSettingsRow()
+                }
+
                 if appState.premiumProvider.isPremium, let coachBriefing {
                     section("COACH") {
                         row("Last 7 days", "\(String(localized: "\(coachBriefing.weekDaysStudied) days")) · \(String(localized: "\(coachBriefing.weekMinutes) min"))")
