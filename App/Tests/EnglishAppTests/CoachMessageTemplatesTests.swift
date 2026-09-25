@@ -114,7 +114,7 @@ final class CoachMessageTemplatesTests: XCTestCase {
             "Son 7 günde çalışılan gün: 4",
             "Son 7 günde biten ders: 3",
             "Seri: 2 gün",
-            "Bu hafta en çok ihtiyaç duyulan beceri: Gramer"
+            "Bu hafta en çok ihtiyaç duyulan beceri: Grammar"
         ])
         let request = CoachMessageTemplates.request(for: b)
         XCTAssertEqual(request.draft, CoachMessageTemplates.message(for: b))
