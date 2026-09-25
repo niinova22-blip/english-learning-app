@@ -89,21 +89,21 @@ final class CoachMessageTemplatesTests: XCTestCase {
     }
 
     func test_badges() {
-        XCTAssertEqual(CoachMessageTemplates.badge(for: .onTrack, language: tr), \"Yoldasın")
-        XCTAssertEqual(CoachMessageTemplates.badge(for: .behind(days: 3), language: tr), \"3 gün geridesin")
-        XCTAssertEqual(CoachMessageTemplates.badge(for: .ahead(days: 2), language: tr), \"2 gün öndesin")
-        XCTAssertEqual(CoachMessageTemplates.badge(for: .finalWeek, language: tr), \"Son hafta: tekrar")
-        XCTAssertEqual(CoachMessageTemplates.badge(for: .scopeComplete, language: tr), \"Kapsam tamam")
-        XCTAssertEqual(CoachMessageTemplates.badge(for: .unreachable(shortfallMinutesPerDay: 5), language: tr), \"Tempo yetmiyor")
-        XCTAssertEqual(CoachMessageTemplates.badge(for: .examPassed, language: tr), \"Tarih geçti")
-        XCTAssertEqual(CoachMessageTemplates.badge(for: .noData, language: tr), \"Başlangıç")
+        XCTAssertEqual(CoachMessageTemplates.badge(for: .onTrack, language: tr), "Yoldasın")
+        XCTAssertEqual(CoachMessageTemplates.badge(for: .behind(days: 3), language: tr), "3 gün geridesin")
+        XCTAssertEqual(CoachMessageTemplates.badge(for: .ahead(days: 2), language: tr), "2 gün öndesin")
+        XCTAssertEqual(CoachMessageTemplates.badge(for: .finalWeek, language: tr), "Son hafta: tekrar")
+        XCTAssertEqual(CoachMessageTemplates.badge(for: .scopeComplete, language: tr), "Kapsam tamam")
+        XCTAssertEqual(CoachMessageTemplates.badge(for: .unreachable(shortfallMinutesPerDay: 5), language: tr), "Tempo yetmiyor")
+        XCTAssertEqual(CoachMessageTemplates.badge(for: .examPassed, language: tr), "Tarih geçti")
+        XCTAssertEqual(CoachMessageTemplates.badge(for: .noData, language: tr), "Başlangıç")
     }
 
     func test_progressAndLockedLines() {
-        XCTAssertEqual(CoachMessageTemplates.progressLine(for: plan(.onTrack), language: tr), \"Sınava 40 gün · ilerleme %38 · günde ~4 dk yeni ders")
-        XCTAssertEqual(CoachMessageTemplates.progressLine(for: plan(.onTrack, mode: .freePace, daysToExam: nil, pace: 10), language: tr), \"İlerleme %38 · günde ~10 dk yeni ders")
-        XCTAssertEqual(CoachMessageTemplates.progressLine(for: plan(.finalWeek, daysToExam: 5, pace: 0), language: tr), \"Sınava 5 gün · ilerleme %38 · sadece tekrar")
-        XCTAssertEqual(CoachMessageTemplates.progressLine(for: plan(.scopeComplete, share: 1), language: tr), \"İlerleme %100 · açık dersler bitti")
+        XCTAssertEqual(CoachMessageTemplates.progressLine(for: plan(.onTrack), language: tr), "Sınava 40 gün · ilerleme %38 · günde ~4 dk yeni ders")
+        XCTAssertEqual(CoachMessageTemplates.progressLine(for: plan(.onTrack, mode: .freePace, daysToExam: nil, pace: 10), language: tr), "İlerleme %38 · günde ~10 dk yeni ders")
+        XCTAssertEqual(CoachMessageTemplates.progressLine(for: plan(.finalWeek, daysToExam: 5, pace: 0), language: tr), "Sınava 5 gün · ilerleme %38 · sadece tekrar")
+        XCTAssertEqual(CoachMessageTemplates.progressLine(for: plan(.scopeComplete, share: 1), language: tr), "İlerleme %100 · açık dersler bitti")
         XCTAssertEqual(CoachMessageTemplates.lockedLine(for: plan(.onTrack, locked: 99), language: tr), "Paketin 99 dersi kilitli; açtığında programın güncellenir.")
         XCTAssertNil(CoachMessageTemplates.lockedLine(for: plan(.onTrack)))
     }
