@@ -32,11 +32,11 @@ struct TutorSheetView: View {
                 .padding()
             }
             .background(Theme.paper.ignoresSafeArea())
-            .navigationTitle("Öğretmene sor")
+            .navigationTitle("Ask your tutor")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Kapat") { dismiss() }.tint(Theme.primary)
+                    Button("Close") { dismiss() }.tint(Theme.primary)
                 }
             }
         }
@@ -44,13 +44,13 @@ struct TutorSheetView: View {
 
     private var quickActionButtons: some View {
         VStack(alignment: .leading, spacing: 8) {
-            quickAction(isQuestionContext ? "Neden bu cevap?" : "Daha basit anlat") { await viewModel.ask(.simplerExplanation) }
-            quickAction(isQuestionContext ? "Benzer bir örnek ver" : "Başka bir örnek ver") { await viewModel.ask(.anotherExample) }
-            quickAction(isQuestionContext ? (learnerWasCorrect ? "Diğer şıklar neden yanlış?" : "Benim cevabım neden yanlış?") : "Benzer kelimelerden farkı ne?") { await viewModel.ask(.compareToSimilarWords) }
+            quickAction(isQuestionContext ? "Why this answer?" : "Explain it more simply") { await viewModel.ask(.simplerExplanation) }
+            quickAction(isQuestionContext ? "Give a similar example" : "Give another example") { await viewModel.ask(.anotherExample) }
+            quickAction(isQuestionContext ? (learnerWasCorrect ? "Why are the other options wrong?" : "Why is my answer wrong?") : "How is it different from similar words?") { await viewModel.ask(.compareToSimilarWords) }
         }
     }
 
-    private func quickAction(_ title: String, _ action: @escaping () async -> Void) -> some View {
+    private func quickAction(_ title: LocalizedStringKey, _ action: @escaping () async -> Void) -> some View {
         Button {
             Task { await action() }
         } label: {
@@ -66,12 +66,12 @@ struct TutorSheetView: View {
 
     private var freeTextField: some View {
         HStack(spacing: 8) {
-            TextField(isQuestionContext ? "Bu soru hakkında bir şey sor..." : "Bu kelime hakkında bir şey sor...", text: $freeTextQuestion)
+            TextField(isQuestionContext ? "Ask something about this question..." : "Ask something about this word...", text: $freeTextQuestion)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 10)
                 .background(Theme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                 .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(Theme.border, lineWidth: 1))
-            Button("Sor") {
+            Button("Ask") {
                 let question = freeTextQuestion
                 freeTextQuestion = ""
                 Task { await viewModel.ask(freeText: question) }
@@ -94,7 +94,7 @@ struct TutorSheetView: View {
                 Text(text).font(.body).foregroundStyle(Theme.ink)
             }
         case .failure(let message):
-            Text("Yanıt alınamadı: \(message)")
+            Text("Could not get a response: \(message)")
                 .font(.subheadline)
                 .foregroundStyle(Theme.danger)
         }

@@ -16,10 +16,10 @@ struct TutorChatView: View {
                 inputBar
             }
             .background(Theme.paper.ignoresSafeArea())
-            .navigationTitle("Öğretmen")
+            .navigationTitle("Tutor")
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
-                    Button("Yeni sohbet") { viewModel.startNewChat() }
+                    Button("New chat") { viewModel.startNewChat() }
                         .tint(Theme.primary)
                 }
             }
@@ -33,7 +33,7 @@ struct TutorChatView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
                     if viewModel.messages.isEmpty {
-                        Text("İngilizce ile ilgili her şeyi sorabilirsin.")
+                        Text("You can ask anything about English.")
                             .font(.subheadline)
                             .foregroundStyle(Theme.secondaryInk)
                             .frame(maxWidth: .infinity)
@@ -95,11 +95,11 @@ struct TutorChatView: View {
                         .stroke(isUser ? Color.clear : Theme.border, lineWidth: 1)
                 )
             if message.failed {
-                Label("Yanıt yok", systemImage: "exclamationmark.circle")
+                Label("No reply", systemImage: "exclamationmark.circle")
                     .font(.caption)
                     .foregroundStyle(Theme.danger)
                 if message.id == viewModel.messages.last?.id, !viewModel.isLoading {
-                    Button("Tekrar dene") { Task { await viewModel.retryLastMessage() } }
+                    Button("Try again") { Task { await viewModel.retryLastMessage() } }
                         .font(.caption.weight(.semibold))
                         .tint(Theme.primary)
                 }
@@ -109,7 +109,7 @@ struct TutorChatView: View {
 
     private var inputBar: some View {
         HStack(spacing: 8) {
-            TextField("Öğretmenine sor...", text: $draftText)
+            TextField("Ask your tutor...", text: $draftText)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 10)
                 .background(Theme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
@@ -127,7 +127,7 @@ struct TutorChatView: View {
             }
             .disabled(draftText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || viewModel.isLoading)
             .opacity(draftText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || viewModel.isLoading ? 0.4 : 1)
-            .accessibilityLabel("Gönder")
+            .accessibilityLabel("Send")
         }
         .padding()
         .background(Theme.paper)

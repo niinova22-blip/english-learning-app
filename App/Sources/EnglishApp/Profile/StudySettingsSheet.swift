@@ -46,24 +46,24 @@ struct StudySettingsSheet: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("Günlük süre") {
-                    Stepper("Günlük \(dailyMinutes) dakika", value: $dailyMinutes, in: StudySettings.dailyMinutesRange, step: StudySettings.dailyMinutesStep)
+                Section("Daily time") {
+                    Stepper("Daily \(dailyMinutes) minutes", value: $dailyMinutes, in: StudySettings.dailyMinutesRange, step: StudySettings.dailyMinutesStep)
                 }
-                Section("Sınav tarihi") {
-                    Toggle("Bir sınav tarihim var", isOn: $hasExamDate).tint(Theme.primary)
+                Section("Exam date") {
+                    Toggle("I have an exam date", isOn: $hasExamDate).tint(Theme.primary)
                     if hasExamDate {
-                        DatePicker("Sınav tarihi", selection: $examDate, in: tomorrow..., displayedComponents: .date)
+                        DatePicker("Exam date", selection: $examDate, in: tomorrow..., displayedComponents: .date)
                     }
                 }
                 if let saveError {
                     Text(saveError).font(.footnote).foregroundStyle(Theme.danger)
                 }
             }
-            .navigationTitle("Çalışma ayarları")
+            .navigationTitle("Study settings")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .cancellationAction) { Button("Vazgeç") { dismiss() } }
-                ToolbarItem(placement: .confirmationAction) { Button("Kaydet", action: save) }
+                ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }
+                ToolbarItem(placement: .confirmationAction) { Button("Save", action: save) }
             }
         }
         .onAppear(perform: load)
@@ -83,7 +83,7 @@ struct StudySettingsSheet: View {
             appState.bumpDataGeneration()
             dismiss()
         } catch {
-            saveError = "Ayarlar kaydedilemedi. Lütfen tekrar dene."
+            saveError = String(localized: "Could not save settings. Please try again.")
         }
     }
 }

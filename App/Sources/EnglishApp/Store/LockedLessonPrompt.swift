@@ -30,15 +30,15 @@ struct LockedLessonSheet: View {
     var body: some View {
         VStack(spacing: 14) {
             Image(systemName: "lock.fill").font(.largeTitle).foregroundStyle(Theme.accent)
-            Text("Bu ders paketin tam sürümünde")
+            Text("This lesson is in the full version of the package")
                 .font(.serifTitle(.title3)).foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.center)
             Text(lessonTitle).font(.subheadline).foregroundStyle(Theme.secondaryInk)
                 .multilineTextAlignment(.center)
             if canPurchase {
-                Button("Paketi aç", action: onUnlock).buttonStyle(PrimaryButtonStyle())
+                Button("Unlock package", action: onUnlock).buttonStyle(PrimaryButtonStyle())
             }
-            Button("Kapat", action: onClose).foregroundStyle(Theme.secondaryInk)
+            Button("Close", action: onClose).foregroundStyle(Theme.secondaryInk)
         }
         .padding(24)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -46,7 +46,7 @@ struct LockedLessonSheet: View {
     }
 }
 
-/// Presents the locked-lesson sheet and, on "Paketi aç", the package paywall.
+/// Presents the locked-lesson sheet and, on "Unlock package", the package paywall.
 /// The paywall opens from the first sheet's `onDismiss` so the two sheets never
 /// change in the same frame.
 struct LockedLessonPresenter: ViewModifier {

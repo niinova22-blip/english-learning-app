@@ -95,7 +95,7 @@ final class PaywallViewModel {
             case .cancelled: state = .ready
             }
         } catch {
-            state = .failed("Satın alma tamamlanamadı. Bir süre sonra tekrar dene.")
+            state = .failed(String(localized: "The purchase could not be completed. Try again in a bit."))
         }
     }
 
@@ -108,11 +108,11 @@ final class PaywallViewModel {
             if isAlreadyOwned {
                 state = .succeeded
             } else {
-                notice = "Bu hesapta geri yüklenecek bir satın alım bulunamadı."
+                notice = String(localized: "No purchase to restore was found on this account.")
                 state = .ready
             }
         } catch {
-            state = .failed("Satın alımlar geri yüklenemedi. Bir süre sonra tekrar dene.")
+            state = .failed(String(localized: "Purchases could not be restored. Try again in a bit."))
         }
     }
 

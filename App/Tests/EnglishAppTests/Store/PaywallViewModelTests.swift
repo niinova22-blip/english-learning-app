@@ -92,7 +92,7 @@ final class PaywallViewModelTests: XCTestCase {
         let vm = PaywallViewModel(mode: packageMode, store: makeStore(fake))
         await vm.load()
         await vm.purchase()
-        XCTAssertEqual(vm.state, .failed("Satın alma tamamlanamadı. Bir süre sonra tekrar dene."))
+        XCTAssertEqual(vm.state, .failed("The purchase could not be completed. Try again in a bit."))
 
         await vm.purchase()   // second attempt uses the default outcome: purchased
         XCTAssertEqual(vm.state, .succeeded)
@@ -123,7 +123,7 @@ final class PaywallViewModelTests: XCTestCase {
         await vm.load()
         await vm.restore()
         XCTAssertEqual(vm.state, .ready)
-        XCTAssertEqual(vm.notice, "Bu hesapta geri yüklenecek bir satın alım bulunamadı.")
+        XCTAssertEqual(vm.notice, "No purchase to restore was found on this account.")
     }
 
     func test_restore_findingThePackage_succeeds() async {
@@ -142,7 +142,7 @@ final class PaywallViewModelTests: XCTestCase {
         let vm = PaywallViewModel(mode: packageMode, store: makeStore(fake))
         await vm.load()
         await vm.restore()
-        XCTAssertEqual(vm.state, .failed("Satın alımlar geri yüklenemedi. Bir süre sonra tekrar dene."))
+        XCTAssertEqual(vm.state, .failed("Purchases could not be restored. Try again in a bit."))
     }
 
     func test_isAlreadyOwned_reflectsTheStore() async {

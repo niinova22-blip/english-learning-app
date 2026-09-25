@@ -22,16 +22,16 @@ struct TutorTabView: View {
             } else if let engine = appState.tutorEngine {
                 TutorChatView(engine: engine)
             } else if isLoading {
-                ProgressView("Öğretmen yükleniyor...")
+                ProgressView("Loading the tutor...")
                     .tint(Theme.primary)
                     .foregroundStyle(Theme.secondaryInk)
             } else {
                 VStack(spacing: 12) {
                     if loadFailed {
-                        Text("Öğretmen yüklenemedi.")
+                        Text("Could not load the tutor.")
                             .foregroundStyle(Theme.secondaryInk)
                     }
-                    Button("Öğretmeni yükle") { Task { await load() } }
+                    Button("Load the tutor") { Task { await load() } }
                         .buttonStyle(PrimaryButtonStyle())
                         .frame(maxWidth: 240)
                 }
@@ -48,12 +48,12 @@ struct TutorTabView: View {
     private var lockedState: some View {
         VStack(spacing: 14) {
             Image(systemName: "lock.fill").font(.largeTitle).foregroundStyle(Theme.accent)
-            Text("Öğretmen AI Premium ile açılır")
+            Text("The tutor unlocks with AI Premium")
                 .font(.serifTitle(.title3)).foregroundStyle(Theme.ink)
-            Text("Sorularını Türkçe açıklatabilir ve öğretmenle sohbet edebilirsin.")
+            Text("Get your questions explained in Turkish and chat with the tutor.")
                 .font(.subheadline).foregroundStyle(Theme.secondaryInk)
                 .multilineTextAlignment(.center)
-            Button("AI Premium'a geç") { showPaywall = true }
+            Button("Upgrade to AI Premium") { showPaywall = true }
                 .buttonStyle(PrimaryButtonStyle())
                 .frame(maxWidth: 260)
         }
