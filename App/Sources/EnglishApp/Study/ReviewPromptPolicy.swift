@@ -1,6 +1,7 @@
 import Foundation
 import SwiftData
 import StoreKit
+import SwiftUI
 
 /// When to show Apple's rating prompt: on the day the streak reaches 7, 30
 /// or 100 days, once per milestone (Apple itself caps it at 3 a year).
