@@ -10,15 +10,8 @@ enum OnboardingStep: Equatable {
 @MainActor
 @Observable
 final class OnboardingViewModel {
-    struct GoalOption: Identifiable, Equatable {
-        let id: String
-        let name: String
-        let levelLower: String
-        let levelUpper: String
-    }
-
     private(set) var step: OnboardingStep = .goalSelection
-    private(set) var goalOptions: [GoalOption] = []
+    private(set) var goalOptions: [PackageOption] = []
     var selectedPackageID: String?
     var examDate: Date?
     var dailyMinutes: Int = LearnerProfile.defaultDailyMinutes
@@ -30,16 +23,16 @@ final class OnboardingViewModel {
     private let userID: String
     private let clock: () -> Date
 
-    init(context: ModelContext, userID: String, clock: @escaping () -> Date = Date.init) {
+    init(context: ModelContext, userID: String, language: AppLanguage = .current, clock: @escaping () -> Date = Date.init) {
         self.context = context
         self.userID = userID
         self.clock = clock
-        loadGoalOptions()
+        loadGoalOptions(language: language)
     }
 
-    private func loadGoalOptions() {
-        let packages = (try? context.fetch(FetchDescriptor<ContentPackage>(sortBy: [SortDescriptor(\.id)]))) ?? []
-        goalOptions = packages.map { GoalOption(id: $0.id, name: $0.name, levelLower: $0.levelLower, levelUpper: $0.levelUpper) }
+    private func loadGoalOptions(language: AppLanguage) {
+        let packages = (try? context.fetch(FetchDescriptor<ContentPackage>())) ?? []
+        goalOptions = PackageOrdering.sorted(packages, for: language).map { PackageOption($0, language: language) }
         selectedPackageID = goalOptions.first?.id
     }
 

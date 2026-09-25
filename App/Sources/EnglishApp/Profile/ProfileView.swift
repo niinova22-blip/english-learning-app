@@ -22,6 +22,7 @@ struct ProfileView: View {
     @State private var examDate: Date?
     @State private var coachBriefing: CoachBriefing?
     @State private var showStudySettings = false
+    @State private var showGoalSwitcher = false
     @State private var hasSkippedLevelTest = false
     @State private var showLevelTestSheet = false
     @State private var showResetConfirmation = false
@@ -45,8 +46,11 @@ struct ProfileView: View {
                         Divider()
                         row("Exam date", examDate.formatted(.dateTime.day().month(.wide).year().locale(AppLanguage.current.locale)))
                     }
-                    Button("Edit") { showStudySettings = true }
-                        .buttonStyle(.plain).foregroundStyle(Theme.primary)
+                    HStack(spacing: 20) {
+                        Button("Edit") { showStudySettings = true }
+                        Button("Change goal") { showGoalSwitcher = true }
+                    }
+                    .buttonStyle(.plain).foregroundStyle(Theme.primary)
                 }
 
                 if appState.premiumProvider.isPremium, let coachBriefing {
@@ -151,6 +155,7 @@ struct ProfileView: View {
             PaywallView(mode: mode, store: appState.entitlements)
         }
         .sheet(isPresented: $showStudySettings) { StudySettingsSheet() }
+        .sheet(isPresented: $showGoalSwitcher) { GoalSwitcherSheet() }
         .sheet(isPresented: $showLevelTestSheet) {
             if let packageID = try? TodayPlanCoordinator(context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider).activePackage()?.id {
                 LevelTestRetakeSheet(packageID: packageID) { _ in

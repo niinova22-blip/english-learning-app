@@ -79,24 +79,9 @@ private struct GoalSelectionStep: View {
                     .font(.subheadline).foregroundStyle(Theme.danger)
             }
             ForEach(viewModel.goalOptions) { option in
-                Button {
+                PackageOptionRow(option: option, isSelected: viewModel.selectedPackageID == option.id) {
                     viewModel.selectedPackageID = option.id
-                } label: {
-                    HStack {
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(option.name).font(.headline).foregroundStyle(Theme.ink)
-                            Text("\(option.levelLower)–\(option.levelUpper)").font(.caption).foregroundStyle(Theme.secondaryInk)
-                        }
-                        Spacer()
-                        if viewModel.selectedPackageID == option.id {
-                            Image(systemName: "checkmark.circle.fill").foregroundStyle(Theme.primary)
-                        }
-                    }
-                    .padding()
-                    .background(Theme.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-                    .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(viewModel.selectedPackageID == option.id ? Theme.primary : Theme.border, lineWidth: viewModel.selectedPackageID == option.id ? 1.5 : 1))
                 }
-                .buttonStyle(.plain)
             }
             Spacer(minLength: 0)
             Button("Continue") { viewModel.advance() }

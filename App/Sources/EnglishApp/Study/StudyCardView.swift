@@ -59,7 +59,9 @@ struct StudyCardView: View {
                         .accessibilityLabel("Ask the tutor about this word")
                     }
                 }
-                Text(card.translationTR).font(.headline).foregroundStyle(Theme.primary)
+                if !card.translationTR.isEmpty {
+                    Text(card.translationTR).font(.headline).foregroundStyle(Theme.primary)
+                }
                 Text(card.definition).font(.body).foregroundStyle(Theme.ink)
                 if let example = card.exampleSentence {
                     sectionLabel(String(localized: "EXAMPLE"))

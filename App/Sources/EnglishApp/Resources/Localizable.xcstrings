@@ -666,6 +666,17 @@
         }
       }
     },
+    "Change goal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedefi değiştir"
+          }
+        }
+      }
+    },
     "Change target date" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1164,6 +1175,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Son hafta: tekrar"
+          }
+        }
+      }
+    },
+    "For Turkish speakers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Türkçe konuşanlar için"
           }
         }
       }
@@ -2836,6 +2858,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Çalışma planın seçtiğin hedefe göre kurulur."
+          }
+        }
+      }
+    },
+    "Your study plan, course and coach follow the goal you choose. Progress in each package is kept." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çalışma planın, ders yolun ve koçun seçtiğin hedefe göre şekillenir. Her paketteki ilerlemen korunur."
           }
         }
       }
