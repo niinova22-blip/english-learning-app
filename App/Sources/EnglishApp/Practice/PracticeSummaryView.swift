@@ -18,17 +18,17 @@ struct PracticeSummaryView: View {
                         .frame(width: badgeSize, height: badgeSize)
                         .background(Theme.primary.opacity(0.15), in: Circle())
                         .accessibilityHidden(true)
-                    Text("Oturum tamamlandı").font(.serifTitle(.title)).foregroundStyle(Theme.ink)
+                    Text("Session complete").font(.serifTitle(.title)).foregroundStyle(Theme.ink)
                     Text(title).font(.subheadline).foregroundStyle(Theme.secondaryInk)
                     HStack(spacing: 8) {
-                        StatTile(value: "\(summary.correctCount)/\(summary.total)", label: "doğru")
-                        StatTile(value: "%\(summary.percent)", label: "başarı", tint: Theme.primary)
+                        StatTile(value: "\(summary.correctCount)/\(summary.total)", label: String(localized: "correct"))
+                        StatTile(value: PercentText.format(summary.percent), label: String(localized: "score"), tint: Theme.primary)
                     }
                     .padding(.top, 8)
                     if !summary.missedPrompts.isEmpty {
                         PaperCard {
                             VStack(alignment: .leading, spacing: 6) {
-                                Text("YANLIŞ YAPTIKLARIN")
+                                Text("WHAT YOU MISSED")
                                     .font(.caption2.weight(.semibold)).tracking(1)
                                     .foregroundStyle(Theme.secondaryInk)
                                 ForEach(Array(summary.missedPrompts.enumerated()), id: \.offset) { _, prompt in
@@ -41,14 +41,14 @@ struct PracticeSummaryView: View {
                         }
                     }
                     if let nextReviewText = summary.nextReviewText {
-                        Text("Bu konuyu \(nextReviewText) sonra tekrar edeceğiz")
+                        Text("We'll review this topic again in \(nextReviewText)")
                             .font(.footnote)
                             .foregroundStyle(Theme.secondaryInk)
                     }
                 }
                 .frame(maxWidth: .infinity)
             }
-            Button("Plana dön", action: onDone).buttonStyle(PrimaryButtonStyle())
+            Button("Back to plan", action: onDone).buttonStyle(PrimaryButtonStyle())
         }
         .padding()
         .background(Theme.paper.ignoresSafeArea())

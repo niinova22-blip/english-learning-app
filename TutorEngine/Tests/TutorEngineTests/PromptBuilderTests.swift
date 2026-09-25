@@ -40,4 +40,22 @@ final class PromptBuilderTests: XCTestCase {
         let prompt = PromptBuilder.build(for: makeRequest(ask: .freeText("Can I use this in a sentence about my own salary?")))
         XCTAssertTrue(prompt.contains("Can I use this in a sentence about my own salary?"))
     }
+
+    func test_build_english_usesEnglishLearnerOpening_omitsTranslation_andAsksForEnglish() {
+        let request = TutorRequest(
+            headword: "economy",
+            definition: "the system of production, trade, and management of money in a country or region",
+            exampleSentences: ["The country's economy grew by three percent last year."],
+            translationTR: "ekonomi",
+            ask: .quickAction(.simplerExplanation),
+            learnerLanguage: .english
+        )
+        let prompt = PromptBuilder.build(for: request)
+
+        XCTAssertTrue(prompt.contains("You are a concise, encouraging English tutor helping an English learner."))
+        XCTAssertTrue(prompt.hasSuffix("Answer in English."))
+        XCTAssertFalse(prompt.contains("Turkish"))
+        XCTAssertFalse(prompt.contains("YDS"))
+        XCTAssertFalse(prompt.contains("ekonomi"))
+    }
 }

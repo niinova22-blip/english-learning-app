@@ -5,17 +5,32 @@ import Foundation
 /// happens here, with no model-loading code involved.
 public enum PromptBuilder {
     public static func build(for request: TutorRequest) -> String {
-        var prompt = """
-        You are a concise, encouraging English tutor helping a Turkish-speaking learner preparing for the YDS exam.
-        The learner is currently studying this word:
+        var prompt: String
+        switch request.learnerLanguage {
+        case .turkish:
+            prompt = """
+            You are a concise, encouraging English tutor helping a Turkish-speaking learner preparing for the YDS exam.
+            The learner is currently studying this word:
 
-        Word: \(request.headword)
-        Definition: \(request.definition)
-        Example sentences: \(request.exampleSentences.joined(separator: " / "))
-        Turkish translation: \(request.translationTR)
+            Word: \(request.headword)
+            Definition: \(request.definition)
+            Example sentences: \(request.exampleSentences.joined(separator: " / "))
+            Turkish translation: \(request.translationTR)
 
 
-        """
+            """
+        case .english:
+            prompt = """
+            You are a concise, encouraging English tutor helping an English learner.
+            The learner is currently studying this word:
+
+            Word: \(request.headword)
+            Definition: \(request.definition)
+            Example sentences: \(request.exampleSentences.joined(separator: " / "))
+
+
+            """
+        }
 
         switch request.ask {
         case .quickAction(.simplerExplanation):
@@ -26,6 +41,10 @@ public enum PromptBuilder {
             prompt += "Briefly explain how \"\(request.headword)\" differs in meaning or usage from one or two words learners commonly confuse it with. Keep it to 2-3 short sentences."
         case .freeText(let question):
             prompt += "The learner asks: \"\(question)\". Answer clearly and briefly, staying focused on the word \"\(request.headword)\" and its usage."
+        }
+
+        if request.learnerLanguage == .english {
+            prompt += "\nAnswer in English."
         }
 
         return prompt

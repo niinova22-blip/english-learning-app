@@ -6,7 +6,7 @@ import LearningEngine
 final class LevelTestViewModelTests: XCTestCase {
     func makeCandidates(count: Int = 15) -> [LevelTestCandidate] {
         (0..<count).map { i in
-            LevelTestCandidate(itemID: "item-\(i)", headword: "word\(i)", translationTR: "anlam\(i)", baseDifficulty: 0.15 + Double(i) * (0.45 / Double(count - 1)))
+            LevelTestCandidate(itemID: "item-\(i)", headword: "word\(i)", meaning: "anlam\(i)", baseDifficulty: 0.15 + Double(i) * (0.45 / Double(count - 1)))
         }
     }
 

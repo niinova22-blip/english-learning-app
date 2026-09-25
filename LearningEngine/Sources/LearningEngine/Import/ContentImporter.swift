@@ -80,7 +80,8 @@ public enum ContentImporter {
             id: document.id, name: document.name, goal: goal,
             levelLower: document.levelLower, levelUpper: document.levelUpper,
             version: document.version, skillWeights: weights,
-            storeProductID: document.storeProductID
+            storeProductID: document.storeProductID,
+            audience: document.audience, summary: document.summary
         )
 
         var seenQuestionIDs = Set<String>()

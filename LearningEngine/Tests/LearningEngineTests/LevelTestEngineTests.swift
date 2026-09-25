@@ -14,7 +14,7 @@ final class LevelTestEngineTests: XCTestCase {
     func makeCandidates(count: Int = 30) -> [LevelTestCandidate] {
         (0..<count).map { i in
             LevelTestCandidate(
-                itemID: "item-\(i)", headword: "word\(i)", translationTR: "anlam\(i)",
+                itemID: "item-\(i)", headword: "word\(i)", meaning: "anlam\(i)",
                 baseDifficulty: 0.15 + Double(i) * (0.45 / Double(count - 1))
             )
         }
@@ -59,7 +59,7 @@ final class LevelTestEngineTests: XCTestCase {
         while let question = engine.currentQuestion {
             XCTAssertEqual(question.choices.count, 4)
             let expected = try! XCTUnwrap(candidatesByID[question.itemID])
-            XCTAssertEqual(question.choices[question.correctIndex], expected.translationTR)
+            XCTAssertEqual(question.choices[question.correctIndex], expected.meaning)
             engine.answer(selectedIndex: question.correctIndex, using: &rng)
         }
     }

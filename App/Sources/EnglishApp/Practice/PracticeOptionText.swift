@@ -30,13 +30,16 @@ enum PracticeOptionText {
         return .dimmed
     }
 
-    /// VoiceOver label, e.g. "A şıkkı: had already restructured, doğru cevap".
+    /// VoiceOver label, e.g. "Option A: had already restructured, correct answer".
     static func accessibilityLabel(index: Int, text: String, state: PracticeOptionState) -> String {
-        let base = "\(letter(index)) şıkkı: \(text)"
+        let letter = letter(index)
         switch state {
-        case .idle, .dimmed: return base
-        case .correct: return "\(base), doğru cevap"
-        case .wrongPick: return "\(base), senin cevabın, yanlış"
+        case .idle, .dimmed:
+            return String(localized: "Option \(letter): \(text)")
+        case .correct:
+            return String(localized: "Option \(letter): \(text), correct answer")
+        case .wrongPick:
+            return String(localized: "Option \(letter): \(text), your answer, incorrect")
         }
     }
 

@@ -14,7 +14,7 @@ enum LevelTestCandidateFetcher {
             .filter { $0.type == .vocabulary && $0.lesson?.unit?.package?.id == packageID }
             .compactMap { item -> LevelTestCandidate? in
                 guard let content = item.content else { return nil }
-                return LevelTestCandidate(itemID: item.id, headword: content.headword, translationTR: content.translationTR, baseDifficulty: item.baseDifficulty)
+                return LevelTestCandidate(itemID: item.id, headword: content.headword, meaning: content.translationTR.isEmpty ? content.definition : content.translationTR, baseDifficulty: item.baseDifficulty)
             }
     }
 }

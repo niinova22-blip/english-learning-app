@@ -12,25 +12,25 @@ final class PracticeOptionTextTests: XCTestCase {
         XCTAssertEqual(PracticeOptionText.letter(-1), "0")
     }
 
-    func test_unansweredOption_readsAsPlainShikki() {
+    func test_unansweredOption_readsAsPlainOption() {
         XCTAssertEqual(
             PracticeOptionText.accessibilityLabel(index: 0, text: "had already restructured", state: .idle),
-            "A şıkkı: had already restructured"
+            "Option A: had already restructured"
         )
     }
 
     func test_correctAndWrongOptions_announceTheirStateInWords_notJustColour() {
         XCTAssertEqual(
             PracticeOptionText.accessibilityLabel(index: 1, text: "because", state: .correct),
-            "B şıkkı: because, doğru cevap"
+            "Option B: because, correct answer"
         )
         XCTAssertEqual(
             PracticeOptionText.accessibilityLabel(index: 2, text: "unless", state: .wrongPick),
-            "C şıkkı: unless, senin cevabın, yanlış"
+            "Option C: unless, your answer, incorrect"
         )
         XCTAssertEqual(
             PracticeOptionText.accessibilityLabel(index: 3, text: "therefore", state: .dimmed),
-            "D şıkkı: therefore"
+            "Option D: therefore"
         )
     }
 

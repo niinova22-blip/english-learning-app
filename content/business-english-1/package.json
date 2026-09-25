@@ -1,0 +1,13 @@
+{
+  "id": "business-english-1",
+  "idPrefix": "biz-",
+  "resource": "BusinessEnglish1",
+  "name": "Business English",
+  "goal": "business",
+  "storeProductID": "com.niinova22.englishapp.package.business",
+  "levelLower": "B1",
+  "levelUpper": "C1",
+  "version": 1,
+  "summary": "Vocabulary, grammar and reading for meetings, emails, presentations and negotiations.",
+  "skillWeights": {"vocabulary": 40, "grammar": 25, "reading": 35, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0}
+}
