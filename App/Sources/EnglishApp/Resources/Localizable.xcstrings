@@ -391,6 +391,17 @@
         }
       }
     },
+    "Access" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erişim"
+          }
+        }
+      }
+    },
     "Accuracy" : {
       "extractionState" : "manual",
       "localizations" : {
