@@ -112,7 +112,7 @@ struct TodayPlanView: View {
                         HStack {
                             Text(balance.skill.displayName).font(.footnote).foregroundStyle(Theme.ink)
                             Spacer()
-                            Text("target %\(percent(balance.targetShare)) · %\(percent(balance.actualShare))")
+                            Text("target \(PercentText.format(share: balance.targetShare)) · \(PercentText.format(share: balance.actualShare))")
                                 .font(.footnote.monospacedDigit()).foregroundStyle(Theme.secondaryInk)
                         }
                         ProgressBar(progress: balance.targetShare > 0 ? balance.actualShare / balance.targetShare : 0)
@@ -146,8 +146,6 @@ struct TodayPlanView: View {
         if case .lesson(let id, _, _, _, _) = task { return plan.coachAddedLessonIDs.contains(id) }
         return false
     }
-
-    private func percent(_ share: Double) -> Int { Int((share * 100).rounded()) }
 
     private func tasksText(_ count: Int) -> String { String(localized: "\(count) tasks") }
 

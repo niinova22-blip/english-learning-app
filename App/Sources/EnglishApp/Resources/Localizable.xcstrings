@@ -1257,13 +1257,13 @@
         }
       }
     },
-    "target %%%lld · %%%lld" : {
+    "target %@ · %@" : {
       "extractionState" : "manual",
       "localizations" : {
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "hedef %%%lld · %%%lld"
+            "value" : "hedef %@ · %@"
           }
         }
       }

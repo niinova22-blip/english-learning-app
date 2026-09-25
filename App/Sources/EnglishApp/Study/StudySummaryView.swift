@@ -19,7 +19,7 @@ struct StudySummaryView: View {
             }
             HStack(spacing: 8) {
                 StatTile(value: "\(summary.cardCount)", label: String(localized: "Cards"))
-                StatTile(value: "%\(Int((summary.knownShare * 100).rounded()))", label: String(localized: "Accuracy"), tint: Theme.primary)
+                StatTile(value: PercentText.format(share: summary.knownShare), label: String(localized: "Accuracy"), tint: Theme.primary)
                 StatTile(value: "\(streak)", label: String(localized: "Day streak"), tint: Theme.accent)
             }
             .padding(.top, 8)

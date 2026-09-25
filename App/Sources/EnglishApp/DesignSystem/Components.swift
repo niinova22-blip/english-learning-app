@@ -53,7 +53,7 @@ struct ProgressBar: View {
         }
         .frame(height: 6)
         .accessibilityElement()
-        .accessibilityValue("%\(Int((min(max(progress, 0), 1) * 100).rounded()))")
+        .accessibilityValue(PercentText.format(Int((min(max(progress, 0), 1) * 100).rounded())))
     }
 }
 
@@ -130,7 +130,7 @@ private struct ComponentsPreview: View {
                     RatingButton(rating: .good, intervalText: "3 gün") {}
                     RatingButton(rating: .easy, intervalText: "9 gün") {}
                 }
-                HStack { StatTile(value: "10", label: "kelime"); StatTile(value: "%80", label: "bildim", tint: Theme.primary); StatTile(value: "12", label: "gün seri", tint: Theme.accent) }
+                HStack { StatTile(value: "10", label: "kelime"); StatTile(value: PercentText.format(80), label: "bildim", tint: Theme.primary); StatTile(value: "12", label: "gün seri", tint: Theme.accent) }
                 StreakBadge(days: 12)
                 Button("Start") {}.buttonStyle(PrimaryButtonStyle())
             }
