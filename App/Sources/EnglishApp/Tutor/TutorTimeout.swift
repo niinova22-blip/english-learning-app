@@ -10,7 +10,7 @@ import Foundation
 /// (e.g. `MLXTutorEngine` today) the spinner can in practice outlive
 /// this bound. Known, deliberately deferred limitation — not fixed here.
 struct TutorTimeoutError: LocalizedError {
-    var errorDescription: String? { "Öğretmen yanıt vermekte çok gecikti. Lütfen tekrar dene." }
+    var errorDescription: String? { String(localized: "The tutor took too long to respond. Please try again.") }
 }
 
 /// Runs `work`, throwing `TutorTimeoutError` if it has not finished after

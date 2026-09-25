@@ -33,75 +33,75 @@ struct ProfileView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                Text("Profil").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+                Text("Profile").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
 
-                section("HEDEFİM") {
-                    row("Aktif paket", stats?.packageName ?? "—", tint: Theme.primary)
+                section("MY GOAL") {
+                    row("Active package", stats?.packageName ?? "—", tint: Theme.primary)
                     Divider()
-                    row("Erişim", stats?.accessLevel == .owned ? "Tam sürüm" : "Önizleme", tint: Theme.accent)
+                    row("Access", stats?.accessLevel == .owned ? String(localized: "Full version") : String(localized: "Preview"), tint: Theme.accent)
                     Divider()
-                    row("Günlük süre", "\(stats?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes) dk")
+                    row("Daily time", String(localized: "\(stats?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes) min"))
                     if let examDate {
                         Divider()
-                        row("Sınav tarihi", examDate.formatted(.dateTime.day().month(.wide).year().locale(Locale(identifier: "tr_TR"))))
+                        row("Exam date", examDate.formatted(.dateTime.day().month(.wide).year().locale(AppLanguage.current.locale)))
                     }
-                    Button("Düzenle") { showStudySettings = true }
+                    Button("Edit") { showStudySettings = true }
                         .buttonStyle(.plain).foregroundStyle(Theme.primary)
                 }
 
                 if appState.premiumProvider.isPremium, let coachBriefing {
-                    section("KOÇ") {
-                        row("Son 7 gün", "\(coachBriefing.weekDaysStudied) gün · \(coachBriefing.weekMinutes) dk")
+                    section("COACH") {
+                        row("Last 7 days", "\(String(localized: "\(coachBriefing.weekDaysStudied) days")) · \(String(localized: "\(coachBriefing.weekMinutes) min"))")
                         Divider()
-                        row("Biten ders (7 gün)", "\(coachBriefing.weekLessonsCompleted)")
+                        row("Completed lessons (7 days)", "\(coachBriefing.weekLessonsCompleted)")
                         if let skill = coachBriefing.plan.weakestSkill {
                             Divider()
-                            row("En çok ihtiyaç", skill.displayName, tint: Theme.accent)
+                            row("Needs the most work", skill.displayName, tint: Theme.accent)
                         }
                         if let finish = coachBriefing.plan.targetFinishDay, coachBriefing.plan.status != .scopeComplete, coachBriefing.plan.status != .finalWeek {
                             Divider()
-                            row("Hedef bitiş", finish.formatted(.dateTime.day().month(.wide).year().locale(Locale(identifier: "tr_TR"))), tint: Theme.primary)
+                            row("Target finish", finish.formatted(.dateTime.day().month(.wide).year().locale(AppLanguage.current.locale)), tint: Theme.primary)
                         }
                     }
                 }
 
-                section("SEVİYEM") {
+                section("MY LEVEL") {
                     if let levelTestSnapshot {
-                        row("Tahmini seviye", levelTestSnapshot.level.rawValue, tint: Theme.primary)
+                        row("Estimated level", levelTestSnapshot.level.rawValue, tint: Theme.primary)
                         Divider()
-                        row("Kelime bilgisi", "%\(Int((levelTestSnapshot.score * 100).rounded()))")
-                        Text("Bu, sadece bu paketin kelime listesine göre kaba bir tahmindir.")
+                        row("Vocabulary knowledge", PercentText.format(share: levelTestSnapshot.score))
+                        Text("This is only a rough estimate based on this package's word list.")
                             .font(.caption).foregroundStyle(Theme.secondaryInk)
                     } else {
-                        Text(hasSkippedLevelTest ? "Seviye testini atladın." : "Henüz bir seviye tahmini yok.")
+                        Text(hasSkippedLevelTest ? "You skipped the level test." : "No level estimate yet.")
                             .font(.subheadline).foregroundStyle(Theme.secondaryInk)
                     }
-                    Button(levelTestSnapshot == nil ? "Seviye testini şimdi yap" : "Yeniden test et") {
+                    Button(levelTestSnapshot == nil ? "Take the level test now" : "Retake the test") {
                         showLevelTestSheet = true
                     }
                     .buttonStyle(.plain).foregroundStyle(Theme.primary)
                 }
 
-                section("SATIN ALIMLAR") {
+                section("PURCHASES") {
                     // Registers observation so the rows update after a purchase.
                     let _ = appState.dataGeneration
-                    row("Paket", stats?.accessLevel == .owned ? "Tam sürüm" : "Önizleme", tint: Theme.accent)
+                    row("Package", stats?.accessLevel == .owned ? String(localized: "Full version") : String(localized: "Preview"), tint: Theme.accent)
                     if stats?.accessLevel != .owned,
                        let target = PaywallTarget.activePackage(context: context, appState: appState) {
-                        Button("Paketi aç") { paywall = target }
+                        Button("Unlock package") { paywall = target }
                             .buttonStyle(.plain).foregroundStyle(Theme.primary)
                     }
                     Divider()
-                    row("AI Premium", appState.premiumProvider.isPremium ? "Aktif" : "Kapalı", tint: Theme.accent)
+                    row("AI Premium", appState.premiumProvider.isPremium ? String(localized: "Active") : String(localized: "Off"), tint: Theme.accent)
                     if !appState.premiumProvider.isPremium {
-                        Button("AI Premium'a geç") { paywall = .premium }
+                        Button("Upgrade to AI Premium") { paywall = .premium }
                             .buttonStyle(.plain).foregroundStyle(Theme.primary)
                     } else {
-                        Button("Aboneliği yönet") { Task { await showManageSubscriptions() } }
+                        Button("Manage subscription") { Task { await showManageSubscriptions() } }
                             .buttonStyle(.plain).foregroundStyle(Theme.primary)
                     }
                     Divider()
-                    Button(isRestoring ? "Geri yükleniyor..." : "Satın alımları geri yükle") {
+                    Button(isRestoring ? "Restoring..." : "Restore purchases") {
                         Task { await restorePurchases() }
                     }
                     .buttonStyle(.plain).foregroundStyle(Theme.primary)
@@ -111,34 +111,34 @@ struct ProfileView: View {
                     }
                 }
 
-                section("İSTATİSTİK") {
+                section("STATS") {
                     HStack(spacing: 8) {
-                        StatTile(value: "\(stats?.streak ?? 0)", label: "gün seri", tint: Theme.accent)
-                        StatTile(value: "\(stats?.wordsSeen ?? 0)", label: "kelime")
-                        StatTile(value: "\(stats?.completedLessons ?? 0)/\(stats?.totalLessons ?? 0)", label: "ders")
+                        StatTile(value: "\(stats?.streak ?? 0)", label: String(localized: "day streak"), tint: Theme.accent)
+                        StatTile(value: "\(stats?.wordsSeen ?? 0)", label: String(localized: "words"))
+                        StatTile(value: "\(stats?.completedLessons ?? 0)/\(stats?.totalLessons ?? 0)", label: String(localized: "lessons"))
                     }
                 }
 
                 if let storageError = AppModelContainer.containerCreationError {
-                    section("DEPOLAMA UYARISI") {
-                        Text("Yerel depolama açılamadı ya da içerik yüklenemedi. İlerlemen bu oturumdan sonra kaydedilmeyebilir.")
+                    section("STORAGE WARNING") {
+                        Text("Local storage could not be opened, or content could not be loaded. Your progress may not be saved after this session.")
                             .font(.subheadline).foregroundStyle(Theme.danger)
                         Text(storageError).font(.caption).foregroundStyle(Theme.secondaryInk)
                     }
                 }
 
-                section("GELİŞTİRİCİ") {
+                section("DEVELOPER") {
                     #if DEBUG
-                    Toggle("Tüm paketleri aç", isOn: $unlockAll)
+                    Toggle("Unlock all packages", isOn: $unlockAll)
                         .tint(Theme.primary)
                         .onChange(of: unlockAll) { _, _ in appState.bumpDataGeneration() }
                     Divider()
                     #endif
-                    Button("Yerel verileri sıfırla", role: .destructive) { showResetConfirmation = true }
+                    Button("Reset local data", role: .destructive) { showResetConfirmation = true }
                         .foregroundStyle(Theme.danger)
                 }
 
-                Text("Sürüm \(appVersion) · Motor \(learningEngineVersion)")
+                Text("Version \(appVersion) · Engine \(learningEngineVersion)")
                     .font(.caption).foregroundStyle(Theme.secondaryInk)
                     .frame(maxWidth: .infinity)
             }
@@ -158,16 +158,16 @@ struct ProfileView: View {
                 }
             }
         }
-        .alert("Tüm yerel veriler silinsin mi?", isPresented: $showResetConfirmation) {
-            Button("Vazgeç", role: .cancel) {}
-            Button("Sıfırla", role: .destructive, action: resetAllData)
+        .alert("Delete all local data?", isPresented: $showResetConfirmation) {
+            Button("Cancel", role: .cancel) {}
+            Button("Reset", role: .destructive, action: resetAllData)
         }
         .alert(
-            "Veriler sıfırlanamadı",
+            "Could not reset data",
             isPresented: Binding(get: { resetError != nil }, set: { if !$0 { resetError = nil } }),
             presenting: resetError
         ) { _ in
-            Button("Tamam", role: .cancel) { resetError = nil }
+            Button("OK", role: .cancel) { resetError = nil }
         } message: { Text($0) }
     }
 
@@ -177,14 +177,14 @@ struct ProfileView: View {
         return "\(short) (\(build))"
     }
 
-    private func section<Content: View>(_ title: String, @ViewBuilder content: () -> Content) -> some View {
+    private func section<Content: View>(_ title: LocalizedStringKey, @ViewBuilder content: () -> Content) -> some View {
         VStack(alignment: .leading, spacing: 6) {
             Text(title).font(.caption2.weight(.semibold)).tracking(1).foregroundStyle(Theme.secondaryInk)
             PaperCard { VStack(alignment: .leading, spacing: 10) { content() } }
         }
     }
 
-    private func row(_ label: String, _ value: String, tint: Color = Theme.secondaryInk) -> some View {
+    private func row(_ label: LocalizedStringKey, _ value: String, tint: Color = Theme.secondaryInk) -> some View {
         HStack {
             Text(label).foregroundStyle(Theme.ink)
             Spacer()
@@ -198,9 +198,9 @@ struct ProfileView: View {
         restoreMessage = nil
         do {
             try await appState.entitlements.restore()
-            restoreMessage = "Satın alımların güncellendi."
+            restoreMessage = String(localized: "Your purchases were updated.")
         } catch {
-            restoreMessage = "Satın alımlar geri yüklenemedi. Bir süre sonra tekrar dene."
+            restoreMessage = String(localized: "Purchases could not be restored. Try again in a bit.")
         }
         isRestoring = false
     }

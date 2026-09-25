@@ -18,7 +18,7 @@ struct PaywallView: View {
             .background(Theme.paper.ignoresSafeArea())
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Kapat") { dismiss() }.foregroundStyle(Theme.secondaryInk)
+                    Button("Close") { dismiss() }.foregroundStyle(Theme.secondaryInk)
                 }
             }
         }
@@ -49,7 +49,7 @@ struct PaywallView: View {
             }
 
             if vm.isAlreadyOwned {
-                Text("Bu satın alım zaten hesabında açık.")
+                Text("This purchase is already active on your account.")
                     .font(.subheadline).foregroundStyle(Theme.primary)
             } else {
                 purchaseSection(vm)
@@ -61,15 +61,15 @@ struct PaywallView: View {
     private func purchaseSection(_ vm: PaywallViewModel) -> some View {
         switch vm.state {
         case .loadingProducts:
-            ProgressView("Fiyatlar yükleniyor...").frame(maxWidth: .infinity)
+            ProgressView("Loading prices...").frame(maxWidth: .infinity)
         case .loadFailed:
             VStack(spacing: 10) {
-                Text("Fiyatlar yüklenemedi.").foregroundStyle(Theme.secondaryInk)
-                Button("Tekrar dene") { Task { await vm.load() } }
+                Text("Could not load prices.").foregroundStyle(Theme.secondaryInk)
+                Button("Try again") { Task { await vm.load() } }
                     .buttonStyle(PrimaryButtonStyle())
             }
         case .pending:
-            Text("Onay bekleniyor. Satın alım onaylanınca otomatik açılacak.")
+            Text("Waiting for approval. It will unlock automatically once the purchase is approved.")
                 .font(.subheadline).foregroundStyle(Theme.secondaryInk)
         case .ready, .purchasing, .succeeded, .failed:
             readyControls(vm)
@@ -120,7 +120,7 @@ struct PaywallView: View {
             .buttonStyle(PrimaryButtonStyle())
             .disabled(isBusy || vm.selectedProduct == nil)
 
-            Button("Satın alımları geri yükle") { Task { await vm.restore() } }
+            Button("Restore purchases") { Task { await vm.restore() } }
                 .font(.subheadline).foregroundStyle(Theme.primary)
                 .frame(maxWidth: .infinity)
                 .disabled(isBusy)
@@ -131,16 +131,16 @@ struct PaywallView: View {
 
     private func purchaseTitle(_ vm: PaywallViewModel) -> String {
         let price = vm.selectedProduct?.displayPrice ?? ""
-        return mode == .premium ? "Abone ol · \(price)" : "Satın al · \(price)"
+        return mode == .premium ? String(localized: "Subscribe · \(price)") : String(localized: "Buy · \(price)")
     }
 
     private var disclosure: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text("Abonelik, dönem bitiminden en az 24 saat önce iptal edilmezse otomatik olarak yenilenir. Ödeme, satın alma onayında Apple ID hesabından alınır. Aboneliği Ayarlar > Apple ID > Abonelikler bölümünden yönetebilir ve iptal edebilirsin.")
+            Text("The subscription renews automatically unless cancelled at least 24 hours before the end of the period. Payment is charged to your Apple ID account at confirmation of purchase. You can manage and cancel the subscription from Settings > Apple ID > Subscriptions.")
                 .font(.caption).foregroundStyle(Theme.secondaryInk)
             HStack(spacing: 16) {
-                if let terms = StoreLinks.termsOfUse { Link("Kullanım şartları", destination: terms) }
-                if let privacy = StoreLinks.privacyPolicy { Link("Gizlilik politikası", destination: privacy) }
+                if let terms = StoreLinks.termsOfUse { Link("Terms of use", destination: terms) }
+                if let privacy = StoreLinks.privacyPolicy { Link("Privacy policy", destination: privacy) }
             }
             .font(.caption)
         }
@@ -150,16 +150,16 @@ struct PaywallView: View {
         switch mode {
         case .package:
             return [
-                "Paketin tüm üniteleri ve dersleri açılır",
-                "Kelime, gramer ve okuma çalışmaları",
-                "Tek seferlik ödeme, abonelik yok",
+                String(localized: "Unlocks all units and lessons in the package"),
+                String(localized: "Vocabulary, grammar and reading practice"),
+                String(localized: "One-time payment, no subscription"),
             ]
         case .premium:
             return [
-                "Öğretmene Sor: sorunun cevabını Türkçe açıklar",
-                "Öğretmenle serbest sohbet",
-                "Çalışma koçu: sınav tarihine göre kişisel program",
-                "İstediğin zaman iptal edebilirsin",
+                String(localized: "Ask the tutor: explains the answer to your question in Turkish"),
+                String(localized: "Chat freely with the tutor"),
+                String(localized: "Study coach: a personal plan based on your exam date"),
+                String(localized: "Cancel anytime"),
             ]
         }
     }

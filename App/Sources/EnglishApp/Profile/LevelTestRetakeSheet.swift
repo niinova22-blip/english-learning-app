@@ -23,7 +23,7 @@ struct LevelTestRetakeSheet: View {
             .background(Theme.paper.ignoresSafeArea())
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Vazgeç") { dismiss() }
+                    Button("Cancel") { dismiss() }
                 }
             }
         }
@@ -39,13 +39,13 @@ struct LevelTestRetakeSheet: View {
         if let viewModel {
             if let outcome = viewModel.outcome {
                 VStack(spacing: 12) {
-                    LevelTestResultView(outcome: outcome, buttonTitle: "Tamam") {
+                    LevelTestResultView(outcome: outcome, buttonTitle: String(localized: "OK")) {
                         do {
                             try LevelTestResultStore.save(outcome, in: context, userID: UserIdentity.current)
                             onFinished(outcome)
                             dismiss()
                         } catch {
-                            saveError = "Sonuç kaydedilemedi."
+                            saveError = String(localized: "Could not save the result.")
                         }
                     }
                     if let saveError {
@@ -58,14 +58,14 @@ struct LevelTestRetakeSheet: View {
                 }
             } else if viewModel.isReady {
                 VStack(alignment: .leading, spacing: 16) {
-                    Text("Seviyeni yeniden test et").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
-                    Text("5-8 dakikada kelime bilgine göre yaklaşık bir seviye tahmini üretir.")
+                    Text("Retake your level test").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+                    Text("In 5-8 minutes, get a rough level estimate based on your vocabulary.")
                         .font(.subheadline).foregroundStyle(Theme.secondaryInk)
                     Spacer(minLength: 0)
-                    Button("Başla") { viewModel.start() }.buttonStyle(PrimaryButtonStyle())
+                    Button("Start") { viewModel.start() }.buttonStyle(PrimaryButtonStyle())
                 }
             } else {
-                ContentUnavailableView("Yeterli kelime yok", systemImage: "exclamationmark.circle")
+                ContentUnavailableView("Not enough words", systemImage: "exclamationmark.circle")
             }
         } else {
             ProgressView().frame(maxWidth: .infinity, minHeight: 300)
