@@ -32,7 +32,7 @@ struct TutorSheetView: View {
                 .padding()
             }
             .background(Theme.paper.ignoresSafeArea())
-            .navigationTitle("Ask the tutor")
+            .navigationTitle("Ask your tutor")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {

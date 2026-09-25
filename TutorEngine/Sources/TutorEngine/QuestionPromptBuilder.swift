@@ -24,8 +24,16 @@ public enum QuestionPromptBuilder {
             .map { labelled(request.options, $0) }
             .joined(separator: "\n")
 
+        let opening: String
+        switch request.learnerLanguage {
+        case .turkish:
+            opening = "You are a concise, encouraging English tutor helping a Turkish-speaking learner preparing for the YDS exam."
+        case .english:
+            opening = "You are a concise, encouraging English tutor helping an English learner."
+        }
+
         var prompt = """
-        You are a concise, encouraging English tutor helping a Turkish-speaking learner preparing for the YDS exam.
+        \(opening)
         The learner is working on this multiple-choice question:
 
         \(passageBlock(request.passage))Question: \(request.prompt)
@@ -41,17 +49,31 @@ public enum QuestionPromptBuilder {
             prompt += "The learner has not answered yet.\n"
         }
 
-        prompt += """
-        The explanation the app already showed (in Turkish): \(request.explanationTR)
+        switch request.learnerLanguage {
+        case .turkish:
+            prompt += """
+            The explanation the app already showed (in Turkish): \(request.explanationTR)
 
 
-        """
+            """
+        case .english:
+            prompt += """
+            The explanation the app already showed (it may be in another language): \(request.explanationTR)
+
+
+            """
+        }
 
         switch request.ask {
         case .quickAction(.simplerExplanation):
             prompt += "Explain, in plain English and in 2-3 short sentences, why the correct answer is right. Do not contradict the explanation above."
         case .quickAction(.anotherExample):
-            prompt += "Write one new example sentence that uses the same grammar point or vocabulary as the correct answer, then translate it into Turkish."
+            switch request.learnerLanguage {
+            case .turkish:
+                prompt += "Write one new example sentence that uses the same grammar point or vocabulary as the correct answer, then translate it into Turkish."
+            case .english:
+                prompt += "Write one new example sentence that uses the same grammar point or vocabulary as the correct answer."
+            }
         case .quickAction(.compareToSimilarWords):
             if request.selectedIndex == request.correctIndex {
                 prompt += "The learner answered correctly. Explain briefly why each of the other options is wrong or less suitable here. Keep it to one short sentence per option."
@@ -60,6 +82,10 @@ public enum QuestionPromptBuilder {
             }
         case .freeText(let question):
             prompt += "The learner asks: \"\(question)\". Answer clearly and briefly, staying focused on this question and why its answer is what it is."
+        }
+
+        if request.learnerLanguage == .english {
+            prompt += "\nAnswer in English."
         }
 
         return prompt

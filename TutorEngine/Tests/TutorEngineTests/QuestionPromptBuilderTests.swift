@@ -95,4 +95,22 @@ final class QuestionPromptBuilderTests: XCTestCase {
     func test_promptIsDeterministic() {
         XCTAssertEqual(QuestionPromptBuilder.build(for: request), QuestionPromptBuilder.build(for: request))
     }
+
+    func test_english_usesEnglishLearnerOpening_labelsExplanation_dropsTranslateInstruction_andAsksForEnglish() {
+        let englishRequest = QuestionTutorRequest(
+            prompt: request.prompt, options: request.options, correctIndex: request.correctIndex,
+            selectedIndex: request.selectedIndex, explanationTR: request.explanationTR,
+            ask: .quickAction(.anotherExample),
+            learnerLanguage: .english
+        )
+        let prompt = QuestionPromptBuilder.build(for: englishRequest)
+
+        XCTAssertTrue(prompt.contains("You are a concise, encouraging English tutor helping an English learner."))
+        XCTAssertTrue(prompt.contains("The explanation the app already showed (it may be in another language): \(request.explanationTR)"))
+        XCTAssertTrue(prompt.contains("Write one new example sentence that uses the same grammar point or vocabulary as the correct answer."))
+        XCTAssertFalse(prompt.contains("then translate it into Turkish"))
+        XCTAssertFalse(prompt.contains("Turkish-speaking"))
+        XCTAssertFalse(prompt.contains("YDS"))
+        XCTAssertTrue(prompt.hasSuffix("Answer in English."))
+    }
 }

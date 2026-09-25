@@ -60,6 +60,10 @@ public struct ContentPackageDocument: Decodable {
     public let version: Int
     /// Optional App Store product id; absent for packages that are not sold.
     public let storeProductID: String?
+    /// Optional: "tr" for Turkish-medium packages; absent = everyone.
+    public let audience: String?
+    /// Optional one-line description for the package picker.
+    public let summary: String?
     /// Keyed by `Skill` raw value; validated and converted by `ContentImporter`.
     public let skillWeights: [String: Double]
     public let units: [UnitDocument]

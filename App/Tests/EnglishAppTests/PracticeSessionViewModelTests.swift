@@ -168,7 +168,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
 
         XCTAssertEqual(vm.questions.count, 8, "sentence completion is a grammar lesson: 8 of its 15")
         XCTAssertEqual(vm.lessonTitle, "Cümle Tamamlama")
-        XCTAssertEqual(vm.contextLine, "KONU TEKRARI · CÜMLE TAMAMLAMA")
+        XCTAssertEqual(vm.contextLine, "TOPIC REVIEW · CÜMLE TAMAMLAMA")
         answerAll(vm, correctCount: 5)
         XCTAssertEqual(try context.fetch(FetchDescriptor<ReviewLog>()).first?.itemID, "yds-practice-card-sentence-1")
     }
@@ -195,7 +195,7 @@ final class PracticeSessionViewModelTests: XCTestCase {
         let context = try makeContext()
         let vm = viewModel(context, mode: .lesson(id: "yds-practice-lesson-reading-1"))
         try vm.start()
-        // Answer everything; arm the failure only for the final "Sonraki" (the finish).
+        // Answer everything; arm the failure only for the final "Next" (the finish).
         for index in vm.questions.indices {
             let question = try XCTUnwrap(vm.current)
             vm.select(question.correctIndex)
@@ -343,12 +343,13 @@ final class PracticeSessionViewModelTests: XCTestCase {
         XCTAssertEqual(vm.questions.map(\.id), Array(ids.prefix(8)), "this user has no history: authored order")
     }
 
-    func test_contextLine_usesTurkishUppercasing_withADottedCapitalI() throws {
+    func test_contextLine_usesTheAppLanguageLocaleForUppercasing() throws {
         let context = try makeContext()
         let vm = viewModel(context, mode: .lesson(id: "yds-practice-lesson-reading-1"))
         try vm.start()
-        // tr_TR uppercases "i" to the dotted "İ": "Karbon Fiyatlandırması" has
-        // none, but the "Okuma:" prefix and the word "İngilizce" elsewhere do.
-        XCTAssertEqual(vm.contextLine, "YENİ DERS · OKUMA: KARBON FİYATLANDIRMASI")
+        // The CI simulator runs in English, so AppLanguage.current is
+        // .english and the title uppercases with en_US (plain "I", no
+        // Turkish dotted "İ").
+        XCTAssertEqual(vm.contextLine, "NEW LESSON · OKUMA: KARBON FIYATLANDIRMASI")
     }
 }

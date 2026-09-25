@@ -1,16 +1,18 @@
 import Foundation
 
 /// SwiftData-free snapshot of one vocabulary item, as fed to the level test.
+/// `meaning` is what the options show: the Turkish translation for
+/// Turkish-medium packages, the English definition for English-medium ones.
 public struct LevelTestCandidate: Sendable, Equatable {
     public let itemID: String
     public let headword: String
-    public let translationTR: String
+    public let meaning: String
     public let baseDifficulty: Double
 
-    public init(itemID: String, headword: String, translationTR: String, baseDifficulty: Double) {
+    public init(itemID: String, headword: String, meaning: String, baseDifficulty: Double) {
         self.itemID = itemID
         self.headword = headword
-        self.translationTR = translationTR
+        self.meaning = meaning
         self.baseDifficulty = baseDifficulty
     }
 }
@@ -126,9 +128,9 @@ public struct LevelTestEngine: Sendable {
         lastDifficultyServed = picked.baseDifficulty
 
         let distractors = remaining.shuffled(using: &rng).prefix(3)
-        var options = [picked.translationTR] + distractors.map(\.translationTR)
+        var options = [picked.meaning] + distractors.map(\.meaning)
         options.shuffle(using: &rng)
-        let correctIndex = options.firstIndex(of: picked.translationTR)!
+        let correctIndex = options.firstIndex(of: picked.meaning)!
 
         currentQuestion = LevelTestQuestion(
             itemID: picked.itemID, headword: picked.headword,

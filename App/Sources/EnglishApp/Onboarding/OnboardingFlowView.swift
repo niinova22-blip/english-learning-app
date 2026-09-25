@@ -16,7 +16,7 @@ struct OnboardingFlowView: View {
                             .padding(.horizontal).padding(.top, 12)
                         ScrollView { stepContent(viewModel).padding() }
                         if let loadError = viewModel.loadError {
-                            Text("Kaydedilemedi: \(loadError)")
+                            Text("Couldn't save: \(loadError)")
                                 .font(.footnote).foregroundStyle(Theme.danger)
                                 .padding(.horizontal).padding(.bottom, 8)
                         }
@@ -57,7 +57,7 @@ struct OnboardingFlowView: View {
             }
         case .levelTestResult:
             if let outcome = viewModel.levelTestViewModel?.outcome {
-                LevelTestResultView(outcome: outcome, buttonTitle: "Bugüne başla") {
+                LevelTestResultView(outcome: outcome, buttonTitle: String(localized: "Start today")) {
                     viewModel.finishFromResult()
                 }
             }
@@ -72,10 +72,10 @@ private struct GoalSelectionStep: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Hedefini seç").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
-            Text("Çalışma planın seçtiğin hedefe göre kurulur.").font(.subheadline).foregroundStyle(Theme.secondaryInk)
+            Text("Choose your goal").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("Your study plan is built around the goal you choose.").font(.subheadline).foregroundStyle(Theme.secondaryInk)
             if viewModel.hasNoPackages {
-                Text("Henüz yüklü bir ders paketi yok. Uygulamayı yeniden başlatmayı dene; olmazsa Profil sekmesinden yerel verileri sıfırlayabilirsin.")
+                Text("No lesson package is loaded yet. Try restarting the app; if that doesn't help, you can reset local data from the Profile tab.")
                     .font(.subheadline).foregroundStyle(Theme.danger)
             }
             ForEach(viewModel.goalOptions) { option in
@@ -99,7 +99,7 @@ private struct GoalSelectionStep: View {
                 .buttonStyle(.plain)
             }
             Spacer(minLength: 0)
-            Button("Devam et") { viewModel.advance() }
+            Button("Continue") { viewModel.advance() }
                 .buttonStyle(PrimaryButtonStyle())
                 .disabled(viewModel.selectedPackageID == nil)
         }
@@ -117,17 +117,17 @@ private struct ExamDateStep: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Sınav tarihin var mı?").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
-            Toggle("Bir sınav tarihim var", isOn: $hasExamDate).tint(Theme.primary)
+            Text("Do you have an exam date?").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Toggle("I have an exam date", isOn: $hasExamDate).tint(Theme.primary)
             if hasExamDate {
-                DatePicker("Sınav tarihi", selection: $date, in: tomorrow..., displayedComponents: .date)
+                DatePicker("Exam date", selection: $date, in: tomorrow..., displayedComponents: .date)
                     .datePickerStyle(.graphical)
             }
             Spacer(minLength: 0)
             HStack {
-                Button("Geri") { viewModel.goBack() }.buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
+                Button("Back") { viewModel.goBack() }.buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
                 Spacer()
-                Button("Devam et") {
+                Button("Continue") {
                     viewModel.examDate = hasExamDate ? date : nil
                     viewModel.advance()
                 }
@@ -147,16 +147,16 @@ private struct DailyDurationStep: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Günde ne kadar çalışacaksın?").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
-            Stepper("Günlük \(viewModel.dailyMinutes) dakika", value: Binding(
+            Text("How much will you study each day?").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Stepper("Daily \(viewModel.dailyMinutes) min", value: Binding(
                 get: { viewModel.dailyMinutes },
                 set: { viewModel.dailyMinutes = $0 }
             ), in: 10...60, step: 5)
             Spacer(minLength: 0)
             HStack {
-                Button("Geri") { viewModel.goBack() }.buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
+                Button("Back") { viewModel.goBack() }.buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
                 Spacer()
-                Button("Devam et") { viewModel.advance() }.buttonStyle(PrimaryButtonStyle()).frame(maxWidth: 200)
+                Button("Continue") { viewModel.advance() }.buttonStyle(PrimaryButtonStyle()).frame(maxWidth: 200)
             }
         }
     }
@@ -167,12 +167,12 @@ private struct LevelTestIntroStep: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Kısa bir seviye kontrolü").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
-            Text("5-8 dakikada, bildiğin kelimelere göre yaklaşık seviyeni tahmin ederiz. İstersen atlayabilirsin.")
+            Text("A quick level check").font(.serifTitle(.largeTitle)).foregroundStyle(Theme.ink)
+            Text("In 5-8 minutes, we'll estimate your level based on the words you know. You can skip it if you'd like.")
                 .font(.subheadline).foregroundStyle(Theme.secondaryInk)
             Spacer(minLength: 0)
-            Button("Başla") { viewModel.startLevelTest() }.buttonStyle(PrimaryButtonStyle())
-            Button("Atla") { viewModel.skipLevelTest() }
+            Button("Start") { viewModel.startLevelTest() }.buttonStyle(PrimaryButtonStyle())
+            Button("Skip") { viewModel.skipLevelTest() }
                 .buttonStyle(.plain).foregroundStyle(Theme.secondaryInk)
                 .frame(maxWidth: .infinity)
         }
