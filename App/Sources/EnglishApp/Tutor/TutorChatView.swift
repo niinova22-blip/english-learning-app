@@ -120,7 +120,7 @@ struct TutorChatView: View {
             } label: {
                 Image(systemName: "arrow.up")
                     .font(.headline)
-                    .foregroundStyle(.white)
+                    .foregroundStyle(Theme.onPrimary)
                     .frame(width: 40, height: 40)
                     .background(Theme.primary, in: Circle())
             }

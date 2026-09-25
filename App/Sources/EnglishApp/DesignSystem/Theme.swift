@@ -11,6 +11,10 @@ enum Theme {
         static let primaryDark: UInt32 = 0x2DD4BF
         static let accentLight: UInt32 = 0xC94D0A
         static let accentDark: UInt32 = 0xFB923C
+        /// Text on primary/accent fills: white on the deep light-mode tones,
+        /// near-black on the bright dark-mode tones.
+        static let onPrimaryDark: UInt32 = 0x042F2E
+        static let onAccentDark: UInt32 = 0x431407
     }
 
     static let paper = Color(UIColor.systemGroupedBackground)
@@ -21,6 +25,8 @@ enum Theme {
     static let primary = dynamic(light: Palette.primaryLight, dark: Palette.primaryDark)
     static let accent = dynamic(light: Palette.accentLight, dark: Palette.accentDark)
     static let danger = dynamic(light: 0xB91C1C, dark: 0xF87171)
+    static let onPrimary = dynamic(light: 0xFFFFFF, dark: Palette.onPrimaryDark)
+    static let onAccent = dynamic(light: 0xFFFFFF, dark: Palette.onAccentDark)
     static let reading = fixed(0x3B82F6)
     static let listening = fixed(0x7C3AED)
     static let writing = fixed(0x0891B2)

@@ -57,6 +57,13 @@ final class DesignSystemTests: XCTestCase {
         XCTAssertGreaterThanOrEqual(contrast(Theme.Palette.accentDark, 0x1C1C1E), 4.5)
     }
 
+    func test_textOnBrandFills_meetsAAContrast_inBothModes() {
+        XCTAssertGreaterThanOrEqual(contrast(0xFFFFFF, Theme.Palette.primaryLight), 4.5)
+        XCTAssertGreaterThanOrEqual(contrast(Theme.Palette.onPrimaryDark, Theme.Palette.primaryDark), 4.5)
+        XCTAssertGreaterThanOrEqual(contrast(0xFFFFFF, Theme.Palette.accentLight), 4.5)
+        XCTAssertGreaterThanOrEqual(contrast(Theme.Palette.onAccentDark, Theme.Palette.accentDark), 4.5)
+    }
+
     func test_reduceMotion_disablesPressScaleAndSprings() {
         XCTAssertEqual(Motion.pressScale(isPressed: true, reduceMotion: false), 0.97)
         XCTAssertEqual(Motion.pressScale(isPressed: true, reduceMotion: true), 1)

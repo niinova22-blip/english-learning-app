@@ -96,7 +96,7 @@ struct PlanTaskRow: View {
                 if isHighlighted && !isDone && !isLocked {
                     Text("Start")
                         .font(.caption.weight(.semibold))
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Theme.onPrimary)
                         .padding(.horizontal, 10).padding(.vertical, 6)
                         .background(Theme.primary, in: RoundedRectangle(cornerRadius: 8))
                 }

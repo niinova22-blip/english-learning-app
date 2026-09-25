@@ -20,7 +20,7 @@ struct PrimaryButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.headline)
-            .foregroundStyle(.white)
+            .foregroundStyle(Theme.onPrimary)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 15)
             .background(Theme.primary.opacity(isEnabled ? 1 : 0.4), in: Capsule())
@@ -72,11 +72,11 @@ struct RatingButton: View {
             VStack(spacing: 2) {
                 Text(rating.label).font(.subheadline.weight(.semibold))
                 Text(intervalText).font(.caption2)
-                    .foregroundStyle(rating == .good ? Color.white.opacity(0.85) : Theme.secondaryInk)
+                    .foregroundStyle(rating == .good ? Theme.onPrimary.opacity(0.85) : Theme.secondaryInk)
             }
             .frame(maxWidth: .infinity)
             .padding(.vertical, 9)
-            .foregroundStyle(rating == .good ? Color.white : rating.tint)
+            .foregroundStyle(rating == .good ? Theme.onPrimary : rating.tint)
             .background(rating == .good ? rating.tint : rating.tint.opacity(0.12), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
         }
         .buttonStyle(PressableButtonStyle())

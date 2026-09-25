@@ -106,7 +106,7 @@ struct PaywallView: View {
             Button {
                 Task { await vm.purchase() }
             } label: {
-                if isBusy { ProgressView().tint(.white) } else { Text(vm.ctaTitle) }
+                if isBusy { ProgressView().tint(Theme.onPrimary) } else { Text(vm.ctaTitle) }
             }
             .buttonStyle(PrimaryButtonStyle())
             .disabled(isBusy || vm.selectedProduct == nil)
@@ -253,7 +253,7 @@ private struct PlanCard: View {
                             .font(.headline).foregroundStyle(Theme.ink)
                         if let savingsPercent {
                             Text("Best value · save \(savingsPercent)%")
-                                .font(.caption.weight(.bold)).foregroundStyle(.white)
+                                .font(.caption.weight(.bold)).foregroundStyle(Theme.onAccent)
                                 .padding(.horizontal, 8).padding(.vertical, 3)
                                 .background(Theme.accent, in: Capsule())
                         }
