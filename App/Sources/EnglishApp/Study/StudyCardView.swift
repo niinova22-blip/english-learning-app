@@ -56,7 +56,7 @@ struct StudyCardView: View {
                             }
                         }
                         .disabled(isLoadingTutor)
-                        .accessibilityLabel("Ask the tutor")
+                        .accessibilityLabel("Ask the tutor about this word")
                     }
                 }
                 Text(card.translationTR).font(.headline).foregroundStyle(Theme.primary)

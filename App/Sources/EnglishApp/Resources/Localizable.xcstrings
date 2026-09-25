@@ -212,7 +212,7 @@
         }
       }
     },
-    "Ask the tutor" : {
+    "Ask the tutor about this word" : {
       "extractionState" : "manual",
       "localizations" : {
         "tr" : {
