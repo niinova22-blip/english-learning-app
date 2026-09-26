@@ -32,6 +32,7 @@ of platform (important since this is routinely run on Windows).
 import json
 import os
 import re
+import sys
 
 from overlay_lib import apply_overlays, check_titles_domain
 from titles_lib import apply_titles
@@ -892,6 +893,9 @@ def write_output(package, path):
 
 def main():
     package = assemble()
+    if "--lint" in sys.argv:
+        print("yds-academic-vocab-1: OK")
+        return
     for path in OUTPUT_PATHS:
         write_output(package, path)
         print(f"Wrote {os.path.relpath(path, REPO_ROOT)}")

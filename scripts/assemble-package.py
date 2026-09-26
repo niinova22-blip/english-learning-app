@@ -10,6 +10,7 @@ Usage:
   assemble-package.py <package-id>            validate + write the app resource
   assemble-package.py <package-id> --check    validate only, fail if the
                                               committed resource differs
+  assemble-package.py <package-id> --lint     validate only (content authors)
   assemble-package.py --unit <file> <package-id>   validate one unit file
   assemble-package.py --all [--check]         every content/*/package.json
 
@@ -263,6 +264,9 @@ def main(argv):
             with open(yds, encoding="utf-8") as f:
                 docs.append(json.load(f))
             check_cross_package_titles(docs)
+        elif len(argv) == 3 and argv[2] == "--lint":
+            assemble(argv[1])
+            print(f"{argv[1]}: OK")
         elif len(argv) in (2, 3):
             run(argv[1], len(argv) == 3 and argv[2] == "--check")
         else:
