@@ -27,6 +27,8 @@ final class PracticeSessionViewModel {
     enum Step: Equatable {
         case loading
         case explanation(String)
+        /// Step-by-step lesson cards; preferred over `.explanation`.
+        case cards(LessonCards)
         case question
         case summary
         /// The lesson is gone, or has no questions to serve.
@@ -38,12 +40,16 @@ final class PracticeSessionViewModel {
         let prompt: String
         let options: [String]
         let correctIndex: Int
+        /// The package's own explanation (English in English-medium packages).
         let explanationTR: String
+        let explanationEN: String?
+        let explanationTRText: String?
     }
 
     struct PassageVM: Equatable {
         let title: String
         let body: String
+        let bodyTR: String?
     }
 
     struct Summary: Equatable {
@@ -64,6 +70,9 @@ final class PracticeSessionViewModel {
     private(set) var lessonTitle = ""
     private(set) var skill: Skill = .grammar
     private(set) var passage: PassageVM?
+    /// The answer explanation's "Show English" state; every question opens
+    /// in the default language again.
+    var explanationShowsEnglish = false
 
     /// Test seam: makes the next `context.save()` throw, so the save-failure
     /// path can be exercised without a broken store.
@@ -121,7 +130,7 @@ final class PracticeSessionViewModel {
         lessonTitle = lesson.displayTitle
         skill = lesson.skill
         if let storedPassage = lesson.passage {
-            passage = PassageVM(title: storedPassage.title, body: storedPassage.body)
+            passage = PassageVM(title: storedPassage.title, body: storedPassage.body, bodyTR: storedPassage.bodyTR)
         }
 
         let card = lesson.items.first { !$0.type.isVocabularyCard }
@@ -149,7 +158,8 @@ final class PracticeSessionViewModel {
             guard let question = byID[id] else { return nil }
             return QuestionVM(
                 id: question.id, prompt: question.prompt, options: question.options,
-                correctIndex: question.correctIndex, explanationTR: question.explanationTR
+                correctIndex: question.correctIndex, explanationTR: question.explanationTR,
+                explanationEN: question.explanationEN, explanationTRText: question.explanationTRText
             )
         }
         guard !questions.isEmpty else {
@@ -166,13 +176,19 @@ final class PracticeSessionViewModel {
         currentIndex = 0
         selectedIndex = nil
         let explanation = card?.content?.explanationTR?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
-        step = explanation.isEmpty ? .question : .explanation(explanation)
+        if let cards = card?.content?.lessonCards {
+            step = .cards(cards)
+        } else {
+            step = explanation.isEmpty ? .question : .explanation(explanation)
+        }
     }
 
-    /// "Go to questions" on the explanation card.
+    /// "Go to questions" on the explanation or the last lesson card.
     func beginQuestions() {
-        guard case .explanation = step else { return }
-        step = .question
+        switch step {
+        case .explanation, .cards: step = .question
+        default: return
+        }
     }
 
     /// Commits an answer. Every answer is persisted immediately, so quitting
@@ -205,6 +221,7 @@ final class PracticeSessionViewModel {
         if currentIndex + 1 < questions.count {
             currentIndex += 1
             selectedIndex = nil
+            explanationShowsEnglish = false
             return
         }
         finish()

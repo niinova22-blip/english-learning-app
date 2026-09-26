@@ -352,4 +352,58 @@ final class PracticeSessionViewModelTests: XCTestCase {
         // Turkish dotted "İ").
         XCTAssertEqual(vm.contextLine, "NEW LESSON · READING: CARBON PRICING")
     }
+
+    func test_lessonWithCards_startsOnTheCards_thenGoesToQuestions() throws {
+        let context = try makeContext()
+        let vm = viewModel(context, mode: .lesson(id: "day-u01-grammar"))
+        try vm.start()
+
+        guard case .cards(let cards) = vm.step else { return XCTFail("expected .cards, got \(vm.step)") }
+        XCTAssertEqual(cards.topics.first?.examples.count, 3)
+        vm.beginQuestions()
+        XCTAssertEqual(vm.step, .question)
+    }
+
+    func test_grammarLessonWithoutCards_fallsBackToTheOldExplanation() throws {
+        let context = try makeContext()
+        let lessonID = "day-u01-grammar"
+        let lesson = try XCTUnwrap(context.fetch(FetchDescriptor<Lesson>(predicate: #Predicate { $0.id == lessonID })).first)
+        lesson.items.first?.content?.lessonCardsJSON = nil
+        try context.save()
+
+        let vm = viewModel(context, mode: .lesson(id: lessonID))
+        try vm.start()
+        guard case .explanation(let text) = vm.step else { return XCTFail("expected .explanation, got \(vm.step)") }
+        XCTAssertTrue(text.contains("adverbs of frequency"))
+    }
+
+    func test_questionAndPassage_carryBothExplanationLanguages() throws {
+        let context = try makeContext()
+        let question = try XCTUnwrap(context.fetch(FetchDescriptor<Question>()).first { $0.lesson?.id == "yds-practice-lesson-reading-1" })
+        question.explanationEN = "English why"
+        question.explanationTRText = "Türkçe neden"
+        question.passage?.bodyTR = "Türkçe metin"
+        try context.save()
+        let vm = PracticeSessionViewModel(mode: .lesson(id: "yds-practice-lesson-reading-1"), context: context, userID: userID, clock: { self.now }, seed: 7)
+        try vm.start()
+
+        let served = try XCTUnwrap(vm.questions.first { $0.id == question.id })
+        XCTAssertEqual(served.explanationEN, "English why")
+        XCTAssertEqual(served.explanationTRText, "Türkçe neden")
+        XCTAssertEqual(vm.passage?.bodyTR, "Türkçe metin")
+    }
+
+    func test_explanationToggle_resetsForEveryQuestion() throws {
+        let context = try makeContext()
+        let vm = viewModel(context, mode: .lesson(id: "yds-practice-lesson-reading-1"))
+        try vm.start()
+        let question = try XCTUnwrap(vm.current)
+        vm.select(question.correctIndex)
+        vm.explanationShowsEnglish = true
+
+        vm.next()
+
+        XCTAssertEqual(vm.currentIndex, 1)
+        XCTAssertFalse(vm.explanationShowsEnglish)
+    }
 }

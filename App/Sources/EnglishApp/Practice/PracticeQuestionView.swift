@@ -10,6 +10,8 @@ struct PracticeQuestionView: View {
     let passage: PracticeSessionViewModel.PassageVM?
     let selectedIndex: Int?
     let skill: Skill
+    @Binding var explanationShowsEnglish: Bool
+    var language: AppLanguage = .current
     let showsTutorButton: Bool
     let isLoadingTutor: Bool
     let onSelect: (Int) -> Void
@@ -17,12 +19,27 @@ struct PracticeQuestionView: View {
     let onTutor: () -> Void
 
     @State private var isPassageExpanded = true
+    @State private var passageShowsTurkish = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     /// Cap for the expanded passage; scales with Dynamic Type.
     @ScaledMetric(relativeTo: .body) private var passageMaxHeight: CGFloat = 220
 
     private var isAnswered: Bool { selectedIndex != nil }
+
+    private var explanation: String {
+        BilingualPick.text(
+            en: question.explanationEN, tr: question.explanationTRText, base: question.explanationTR,
+            language: language, showEnglish: explanationShowsEnglish
+        )
+    }
+
+    /// Passages open in English; Turkish UI can switch to the translation.
+    private func passageText(_ passage: PracticeSessionViewModel.PassageVM) -> String {
+        guard passageShowsTurkish, language == .turkish,
+              let translation = passage.bodyTR, !translation.isEmpty else { return passage.body }
+        return translation
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -52,8 +69,8 @@ struct PracticeQuestionView: View {
         .onChange(of: selectedIndex) { _, newValue in
             guard let newValue else { return }
             let announcement = newValue == question.correctIndex
-                ? String(localized: "Correct. \(question.explanationTR)")
-                : String(localized: "Incorrect. \(question.explanationTR)")
+                ? String(localized: "Correct. \(explanation)")
+                : String(localized: "Incorrect. \(explanation)")
             AccessibilityNotification.Announcement(announcement).post()
         }
     }
@@ -83,13 +100,25 @@ struct PracticeQuestionView: View {
                     // Own scroll view with a capped height, so the options stay
                     // reachable even with a long passage or large Dynamic Type.
                     ScrollView {
-                        Text(passage.body)
+                        Text(passageText(passage))
                             .font(.callout)
                             .foregroundStyle(Theme.ink)
                             .textSelection(.enabled)
                             .frame(maxWidth: .infinity, alignment: .leading)
                     }
                     .frame(maxHeight: passageMaxHeight)
+                    if language == .turkish, let translation = passage.bodyTR, !translation.isEmpty {
+                        Button {
+                            passageShowsTurkish.toggle()
+                        } label: {
+                            Label(passageShowsTurkish ? "Show the English text" : "Show in Turkish", systemImage: "character.bubble")
+                                .font(.footnote.weight(.semibold))
+                                .foregroundStyle(Theme.primary)
+                                .frame(minHeight: 44)
+                                .contentShape(Rectangle())
+                        }
+                        .buttonStyle(PressableButtonStyle())
+                    }
                 }
             }
         }
@@ -156,9 +185,12 @@ struct PracticeQuestionView: View {
                 )
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(wasCorrect ? Theme.primary : Theme.danger)
-                Text(question.explanationTR)
+                Text(explanation)
                     .font(.subheadline)
                     .foregroundStyle(Theme.ink)
+                if BilingualPick.offersToggle(en: question.explanationEN, tr: question.explanationTRText, language: language) {
+                    LanguageToggleButton(showsEnglish: explanationShowsEnglish) { explanationShowsEnglish.toggle() }
+                }
                 if showsTutorButton {
                     Button(action: onTutor) {
                         HStack(spacing: 6) {

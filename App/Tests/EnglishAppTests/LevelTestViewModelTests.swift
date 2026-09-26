@@ -77,4 +77,22 @@ final class LevelTestViewModelTests: XCTestCase {
         XCTAssertEqual(candidates.count, 8) // TestPackageJSON: 2 units × 2 lessons × 2 items
         XCTAssertTrue(candidates.allSatisfy { $0.itemID.hasPrefix("item-") })
     }
+
+    func test_candidateFetcher_usesTurkishMeaningsOnlyOnTheTurkishUI() throws {
+        let context = try makeContext()
+        _ = try ContentSeeder.seed(bundledData: TestPackageJSON.make(), into: context)
+        let items = try context.fetch(FetchDescriptor<LearningItem>()).filter { $0.type == .vocabulary }
+        for item in items {
+            item.content?.translationTR = "anlam"
+            item.content?.definition = "a meaning"
+        }
+        items.first?.content?.translationTR = ""
+        try context.save()
+
+        let english = LevelTestCandidateFetcher.fetch(packageID: "pkg", in: context, language: .english)
+        XCTAssertTrue(english.allSatisfy { $0.meaning == "a meaning" }, "English UI never shows Turkish")
+        let turkish = LevelTestCandidateFetcher.fetch(packageID: "pkg", in: context, language: .turkish)
+        XCTAssertEqual(turkish.filter { $0.meaning == "anlam" }.count, items.count - 1)
+        XCTAssertEqual(turkish.filter { $0.meaning == "a meaning" }.count, 1, "missing translation falls back to the definition")
+    }
 }

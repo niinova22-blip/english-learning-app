@@ -6,15 +6,16 @@ import LearningEngine
 /// Reads the active package's vocabulary items as level-test candidates.
 /// Non-vocabulary items (grammarPoint/phrase/collocation) never appear —
 /// the level test is vocabulary-only; practice questions are graded in the
-/// practice session, not here.
+/// practice session, not here. Options are Turkish meanings on the Turkish
+/// UI (definition when a word has none) and English definitions otherwise.
 enum LevelTestCandidateFetcher {
-    static func fetch(packageID: String, in context: ModelContext) -> [LevelTestCandidate] {
+    static func fetch(packageID: String, in context: ModelContext, language: AppLanguage = .current) -> [LevelTestCandidate] {
         let items = (try? context.fetch(FetchDescriptor<LearningItem>())) ?? []
         return items
             .filter { $0.type == .vocabulary && $0.lesson?.unit?.package?.id == packageID }
             .compactMap { item -> LevelTestCandidate? in
                 guard let content = item.content else { return nil }
-                return LevelTestCandidate(itemID: item.id, headword: content.headword, meaning: content.translationTR.isEmpty ? content.definition : content.translationTR, baseDifficulty: item.baseDifficulty)
+                return LevelTestCandidate(itemID: item.id, headword: content.headword, meaning: language == .turkish && !content.translationTR.isEmpty ? content.translationTR : content.definition, baseDifficulty: item.baseDifficulty)
             }
     }
 }

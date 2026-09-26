@@ -8,6 +8,7 @@ struct StudyCardView: View {
     let isRevealed: Bool
     let showsTutorButton: Bool
     let isLoadingTutor: Bool
+    var language: AppLanguage = .current
     let onTutor: () -> Void
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
@@ -59,7 +60,7 @@ struct StudyCardView: View {
                         .accessibilityLabel("Ask the tutor about this word")
                     }
                 }
-                if !card.translationTR.isEmpty {
+                if language == .turkish, !card.translationTR.isEmpty {
                     Text(card.translationTR).font(.headline).foregroundStyle(Theme.primary)
                 }
                 Text(card.definition).font(.body).foregroundStyle(Theme.ink)

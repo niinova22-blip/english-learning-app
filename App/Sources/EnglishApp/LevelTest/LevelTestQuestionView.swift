@@ -4,6 +4,7 @@ import LearningEngine
 struct LevelTestQuestionView: View {
     let question: LevelTestQuestion
     let questionNumber: Int
+    var language: AppLanguage = .current
     let onAnswer: (Int) -> Void
 
     var body: some View {
@@ -11,7 +12,7 @@ struct LevelTestQuestionView: View {
             Text("Question \(questionNumber)/\(LevelTestEngine.questionCount)")
                 .font(.caption.weight(.semibold)).foregroundStyle(Theme.secondaryInk)
             Text(question.headword).font(.appTitle(.largeTitle)).foregroundStyle(Theme.ink)
-            Text("Which is the Turkish meaning?").font(.subheadline).foregroundStyle(Theme.secondaryInk)
+            Text(language == .turkish ? "Which is the Turkish meaning?" : "Which meaning is right?").font(.subheadline).foregroundStyle(Theme.secondaryInk)
             ForEach(Array(question.choices.enumerated()), id: \.offset) { index, choice in
                 Button {
                     onAnswer(index)

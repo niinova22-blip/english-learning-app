@@ -39,7 +39,10 @@ struct PracticeSessionView: View {
                 TutorSheetView(engine: engine, questionContext: .question(
                     prompt: question.prompt, options: question.options,
                     correctIndex: question.correctIndex, selectedIndex: vm.selectedIndex,
-                    explanationTR: question.explanationTR, passage: vm.passage?.body
+                    explanationTR: BilingualPick.text(
+                        en: question.explanationEN, tr: question.explanationTRText, base: question.explanationTR,
+                        language: .current, showEnglish: false
+                    ), passage: vm.passage?.body
                 ), goalDescription: TutorGoal.activeDescription(in: context))
             }
         }
@@ -80,12 +83,23 @@ struct PracticeSessionView: View {
                     onContinue: { vm.beginQuestions() }
                 )
             }
+        case .cards(let cards):
+            session(vm) {
+                LessonCardsView(
+                    title: vm.lessonTitle, skill: vm.skill, cards: cards,
+                    onContinue: { vm.beginQuestions() }
+                )
+            }
         case .question:
             session(vm) {
                 if let question = vm.current {
                     PracticeQuestionView(
                         question: question, passage: vm.passage, selectedIndex: vm.selectedIndex,
                         skill: vm.skill,
+                        explanationShowsEnglish: Binding(
+                            get: { vm.explanationShowsEnglish },
+                            set: { vm.explanationShowsEnglish = $0 }
+                        ),
                         showsTutorButton: appState.isTutorAvailable,
                         isLoadingTutor: isLoadingTutor,
                         onSelect: { vm.select($0) }, onNext: { vm.next() },

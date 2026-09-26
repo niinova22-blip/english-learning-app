@@ -768,6 +768,17 @@
         }
       }
     },
+    "COMMON MISTAKE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIK YAPILAN HATA"
+          }
+        }
+      }
+    },
     "Cancel" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1248,6 +1259,17 @@
         }
       }
     },
+    "EXAMPLES" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ÖRNEKLER"
+          }
+        }
+      }
+    },
     "Easy" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1310,6 +1332,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sınava %1$@ · ilerleme %2$@ · günde ~%3$lld dk yeni ders"
+          }
+        }
+      }
+    },
+    "Exam tip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınav ipucu"
           }
         }
       }
@@ -2124,6 +2157,17 @@
         }
       }
     },
+    "PATTERN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KALIP"
+          }
+        }
+      }
+    },
     "PURCHASES" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2274,6 +2318,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Satın alımlar geri yüklenemedi. Bir süre sonra tekrar dene."
+          }
+        }
+      }
+    },
+    "QUICK CHECK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KISA KONTROL"
           }
         }
       }
@@ -2443,6 +2498,17 @@
         }
       }
     },
+    "Right: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğru: %@"
+          }
+        }
+      }
+    },
     "Runs entirely on your device: works offline, and nothing you ask leaves your phone." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2542,6 +2608,28 @@
         }
       }
     },
+    "Show English" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İngilizcesini göster"
+          }
+        }
+      }
+    },
+    "Show Turkish" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Türkçesini göster"
+          }
+        }
+      }
+    },
     "Show answer" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2553,6 +2641,17 @@
         }
       }
     },
+    "Show in Turkish" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Türkçesini göster"
+          }
+        }
+      }
+    },
     "Show passage: %@" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2560,6 +2659,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Metni göster: %@"
+          }
+        }
+      }
+    },
+    "Show the English text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İngilizce metni göster"
           }
         }
       }
@@ -3209,6 +3319,17 @@
         }
       }
     },
+    "Which meaning is right?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğru anlam hangisi?"
+          }
+        }
+      }
+    },
     "Why are the other options wrong?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3293,6 +3414,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yazma"
+          }
+        }
+      }
+    },
+    "Wrong: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yanlış: %@"
           }
         }
       }
