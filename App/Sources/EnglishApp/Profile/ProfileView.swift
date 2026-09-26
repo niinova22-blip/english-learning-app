@@ -31,6 +31,8 @@ struct ProfileView: View {
     @State private var paywall: PaywallMode?
     @State private var restoreMessage: String?
     @State private var isRestoring = false
+    @State private var introPackage: ContentPackage?
+    @State private var introDailyMinutes = LearnerProfile.defaultDailyMinutes
 
     var body: some View {
         ScrollView {
@@ -52,6 +54,8 @@ struct ProfileView: View {
                         Button("Change goal") { showGoalSwitcher = true }.accessibilityIdentifier("profile-change-goal")
                     }
                     .buttonStyle(.plain).foregroundStyle(Theme.primary)
+                    Button("Show package intro again", action: openPackageIntro)
+                        .buttonStyle(.plain).foregroundStyle(Theme.primary)
                 }
 
                 section("REMINDERS") {
@@ -161,6 +165,9 @@ struct ProfileView: View {
         }
         .sheet(isPresented: $showStudySettings) { StudySettingsSheet() }
         .sheet(isPresented: $showGoalSwitcher) { GoalSwitcherSheet() }
+        .sheet(item: $introPackage) { package in
+            PackageIntroView(package: package, dailyMinutes: introDailyMinutes) { introPackage = nil }
+        }
         .sheet(isPresented: $showLevelTestSheet) {
             if let packageID = try? TodayPlanCoordinator(context: context, userID: UserIdentity.current, accessProvider: appState.accessProvider).activePackage()?.id {
                 LevelTestRetakeSheet(packageID: packageID) { _ in
@@ -230,6 +237,13 @@ struct ProfileView: View {
         hasSkippedLevelTest = profile?.hasSkippedLevelTest ?? false
         examDate = profile?.examDate
         isExamGoal = (try? TodayPlanCoordinator(context: context, userID: userID, accessProvider: appState.accessProvider).activePackage())?.goal.isExam ?? true
+    }
+
+    private func openPackageIntro() {
+        let userID = UserIdentity.current
+        let profile = try? context.fetch(FetchDescriptor<LearnerProfile>(predicate: #Predicate { $0.userID == userID })).first
+        introDailyMinutes = profile?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes
+        introPackage = try? TodayPlanCoordinator(context: context, userID: userID, accessProvider: appState.accessProvider).activePackage()
     }
 
     private func resetAllData() {

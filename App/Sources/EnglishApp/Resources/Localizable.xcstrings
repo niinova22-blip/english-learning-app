@@ -354,6 +354,46 @@
         }
       }
     },
+    "%lld units · %lld lessons" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld ünite · %2$lld ders"
+          }
+        }
+      }
+    },
+    "%lld weeks" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hafta"
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld week"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld weeks"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld years" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -489,6 +529,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "AI Premium"
+          }
+        }
+      }
+    },
+    "About %lld min per lesson" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ders başına yaklaşık %lld dk"
           }
         }
       }
@@ -698,6 +749,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öğretmenine sor..."
+          }
+        }
+      }
+    },
+    "At %lld min a day: about %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günde %1$lld dk ile yaklaşık %2$@"
           }
         }
       }
@@ -1358,6 +1420,17 @@
         }
       }
     },
+    "Falling behind? The coach adds catch-up lessons." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geride mi kaldın? Koç telafi dersleri ekler."
+          }
+        }
+      }
+    },
     "Falls behind? It adds catch-up lessons to get you back on track" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1662,6 +1735,17 @@
         }
       }
     },
+    "How you'll progress" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nasıl ilerleyeceksin"
+          }
+        }
+      }
+    },
     "I have a target date" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1702,6 +1786,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "5-8 dakikada, bildiğin kelimelere göre yaklaşık seviyeni tahmin ederiz. İstersen atlayabilirsin."
+          }
+        }
+      }
+    },
+    "In the final week you only review." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son hafta sadece tekrar yaparsın."
           }
         }
       }
@@ -1812,6 +1907,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Her çalışma gününü koçun senin için planlasın."
+          }
+        }
+      }
+    },
+    "Let's start" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlayalım"
+          }
+        }
+      }
+    },
+    "Level %@–%@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seviye %1$@–%2$@"
           }
         }
       }
@@ -2043,6 +2160,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeterli kelime yok"
+          }
+        }
+      }
+    },
+    "Not in this package: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu pakette yok: %@"
           }
         }
       }
@@ -2498,6 +2626,17 @@
         }
       }
     },
+    "Reviews come first: each word comes back just before you would forget it." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce tekrarlar: her kelime, tam unutmak üzereyken karşına tekrar çıkar."
+          }
+        }
+      }
+    },
     "Right: %@" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2652,6 +2791,17 @@
         }
       }
     },
+    "Show package intro again" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paket tanıtımını yeniden göster"
+          }
+        }
+      }
+    },
     "Show passage: %@" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2691,7 +2841,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Atla"
+            "value" : "Geç"
           }
         }
       }
@@ -2872,6 +3022,17 @@
         }
       }
     },
+    "The first unit is free." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk ünite ücretsiz."
+          }
+        }
+      }
+    },
     "The first unit stays free, so you can try before you buy" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2905,6 +3066,17 @@
         }
       }
     },
+    "The tutor explains any word or question." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğretmen her kelimeyi ve soruyu açıklar."
+          }
+        }
+      }
+    },
     "The tutor took too long to respond. Please try again." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2923,6 +3095,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öğretmen AI Premium ile açılır"
+          }
+        }
+      }
+    },
+    "Then new lessons, in order." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonra sırayla yeni dersler."
           }
         }
       }
@@ -3110,6 +3293,17 @@
         }
       }
     },
+    "Units open in order on the Course tab." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üniteler Ders Yolu sekmesinde sırayla açılır."
+          }
+        }
+      }
+    },
     "Unlock all packages" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3216,6 +3410,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "YANLIŞ YAPTIKLARIN"
+          }
+        }
+      }
+    },
+    "WHAT YOU STUDY" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NE ÇALIŞACAKSIN"
           }
         }
       }
@@ -3385,6 +3590,17 @@
         }
       }
     },
+    "With AI Premium" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Premium ile"
+          }
+        }
+      }
+    },
     "Word review" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3535,6 +3751,39 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koçun yazıyor..."
+          }
+        }
+      }
+    },
+    "Your coach plans your study around your exam date." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koçun, çalışmanı sınav tarihine göre planlar."
+          }
+        }
+      }
+    },
+    "Your coach plans your study around your target date." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koçun, çalışmanı hedef tarihine göre planlar."
+          }
+        }
+      }
+    },
+    "Your daily plan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlük planın"
           }
         }
       }

@@ -72,6 +72,16 @@ final class ScreenshotTests: XCTestCase {
             tap(app.buttons["trial-not-now"])
         }
 
+        // One-time package intro (4 pages)
+        if app.buttons["package-intro-next"].waitForExistence(timeout: 15) {
+            for page in 1...3 {
+                shot("08-paket-tanitim-\(page)", prefix)
+                app.buttons["package-intro-next"].tap()
+            }
+            shot("08-paket-tanitim-4", prefix)
+            tap(app.buttons["package-intro-done"])
+        }
+
         // Today
         XCTAssertTrue(app.tabBars.firstMatch.waitForExistence(timeout: 20))
         shot("09-bugun", prefix)

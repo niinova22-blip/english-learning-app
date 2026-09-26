@@ -23,6 +23,16 @@ struct RootTabView: View {
     }
 
     @Environment(\.modelContext) private var context
+    /// The active package's one-time intro, once onboarding is done.
+    @State private var introPackage: ContentPackage?
+
+    private func showIntroIfNeeded() {
+        guard introPackage == nil,
+              let id = PackageIntroStore.packageToIntroduce(
+                activePackageID: profiles.first?.activePackageID, onboardingDone: hasCompletedOnboarding
+              ) else { return }
+        introPackage = packages.first { $0.id == id }
+    }
 
     /// Keeps the daily reminder and the trial-ending reminder current: on
     /// launch and whenever data changes (a session closes, a purchase, settings).
@@ -51,6 +61,13 @@ struct RootTabView: View {
             }
             .tint(Theme.primary)
             .task(id: appState.dataGeneration) { await rescheduleReminders() }
+            .task(id: profiles.first?.activePackageID) { showIntroIfNeeded() }
+            .sheet(item: $introPackage) { package in
+                PackageIntroView(package: package, dailyMinutes: profiles.first?.dailyMinutes ?? LearnerProfile.defaultDailyMinutes) {
+                    introPackage = nil
+                }
+                .onAppear { PackageIntroStore.markSeen(package.id) }
+            }
         } else {
             OnboardingFlowView()
         }
