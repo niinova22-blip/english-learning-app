@@ -8,6 +8,8 @@ public final class Passage {
     @Attribute(.unique) public var id: String
     public var title: String = ""
     public var body: String = ""
+    /// Turkish translation of `body`, when authored.
+    public var bodyTR: String? = nil
     public var lesson: Lesson?
     @Relationship(deleteRule: .nullify, inverse: \Question.passage)
     public var questions: [Question] = []

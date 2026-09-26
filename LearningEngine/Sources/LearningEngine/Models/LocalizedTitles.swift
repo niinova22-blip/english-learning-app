@@ -2,9 +2,14 @@ import Foundation
 
 /// A title written in both interface languages, as it appears in package JSON
 /// (`{"en": "...", "tr": "..."}`). Either side may be missing.
-public struct LocalizedTextDocument: Decodable, Sendable, Equatable {
+public struct LocalizedTextDocument: Codable, Sendable, Equatable {
     public let en: String?
     public let tr: String?
+
+    public init(en: String?, tr: String?) {
+        self.en = en
+        self.tr = tr
+    }
 }
 
 /// Picks the interface-language version of a content title, falling back to

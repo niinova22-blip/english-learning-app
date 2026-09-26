@@ -16,6 +16,9 @@ public final class Question {
     public var options: [String] = []
     public var correctIndex: Int = 0
     public var explanationTR: String = ""
+    /// Interface-language explanations; see `explanation(for:)`.
+    public var explanationEN: String? = nil
+    public var explanationTRText: String? = nil
     public var kind: QuestionKind = QuestionKind.grammar
     public var order: Int = 0
     public var lesson: Lesson?

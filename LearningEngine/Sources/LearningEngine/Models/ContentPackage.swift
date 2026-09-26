@@ -34,6 +34,9 @@ public final class ContentPackage {
     public var nameTR: String? = nil
     public var summaryEN: String? = nil
     public var summaryTR: String? = nil
+    /// One-time package intro paragraph; see `intro(for:)`.
+    public var introEN: String? = nil
+    public var introTR: String? = nil
     public var weightVocabulary: Double = 1
     public var weightGrammar: Double = 0
     public var weightReading: Double = 0

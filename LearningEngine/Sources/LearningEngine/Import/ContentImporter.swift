@@ -87,6 +87,8 @@ public enum ContentImporter {
         package.nameTR = document.nameLocalized?.tr
         package.summaryEN = document.summaryLocalized?.en
         package.summaryTR = document.summaryLocalized?.tr
+        package.introEN = document.introLocalized?.en
+        package.introTR = document.introLocalized?.tr
 
         var seenQuestionIDs = Set<String>()
         var units: [Unit] = []
@@ -118,6 +120,10 @@ public enum ContentImporter {
                         collocations: itemDoc.collocations,
                         explanationTR: itemDoc.explanationTR
                     )
+                    if let cards = itemDoc.lessonCards,
+                       let encoded = try? JSONEncoder().encode(cards) {
+                        content.lessonCardsJSON = String(data: encoded, encoding: .utf8)
+                    }
                     item.content = content
                     content.item = item
                     item.lesson = lesson
@@ -145,6 +151,7 @@ public enum ContentImporter {
                 var passage: Passage?
                 if let passageDoc = lessonDoc.passage {
                     let built = Passage(id: passageDoc.id, title: passageDoc.title, body: passageDoc.body)
+                    built.bodyTR = passageDoc.bodyTR
                     built.lesson = lesson
                     lesson.passage = built
                     passage = built
@@ -172,6 +179,8 @@ public enum ContentImporter {
                         correctIndex: questionDoc.correctIndex, explanationTR: questionDoc.explanationTR,
                         kind: kind, order: questionDoc.order
                     )
+                    question.explanationEN = questionDoc.explanationLocalized?.en
+                    question.explanationTRText = questionDoc.explanationLocalized?.tr
                     if let passageID = questionDoc.passageID {
                         guard let passage, passage.id == passageID else {
                             throw ContentImportError.missingPassage(questionDoc.id, passageID)

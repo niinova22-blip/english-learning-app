@@ -15,6 +15,8 @@ public final class ItemContent {
     /// Turkish topic explanation for a grammar topic card (rule, examples,
     /// common traps). Nil for vocabulary items.
     public var explanationTR: String? = nil
+    /// `LessonCards` encoded as JSON; see `lessonCards`. Nil = no cards.
+    public var lessonCardsJSON: String? = nil
     public var item: LearningItem?
 
     public init(

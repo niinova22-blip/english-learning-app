@@ -12,12 +12,15 @@ public struct LearningItemDocument: Decodable {
     public let collocations: [String]
     /// Grammar topic explanation (Turkish). Absent for vocabulary items.
     public let explanationTR: String?
+    /// Step-by-step cards for a grammar topic; absent = old explanation only.
+    public let lessonCards: LessonCards?
 }
 
 public struct PassageDocument: Decodable {
     public let id: String
     public let title: String
     public let body: String
+    public let bodyTR: String?
 }
 
 public struct QuestionDocument: Decodable {
@@ -31,6 +34,8 @@ public struct QuestionDocument: Decodable {
     /// Set on reading and cloze questions; must match the owning lesson's
     /// passage id.
     public let passageID: String?
+    /// Optional interface-language explanations; `explanationTR` is the fallback.
+    public let explanationLocalized: LocalizedTextDocument?
 }
 
 public struct LessonDocument: Decodable {
@@ -69,6 +74,8 @@ public struct ContentPackageDocument: Decodable {
     public let summary: String?
     public let nameLocalized: LocalizedTextDocument?
     public let summaryLocalized: LocalizedTextDocument?
+    /// One-time package intro paragraph.
+    public let introLocalized: LocalizedTextDocument?
     /// Keyed by `Skill` raw value; validated and converted by `ContentImporter`.
     public let skillWeights: [String: Double]
     public let units: [UnitDocument]
