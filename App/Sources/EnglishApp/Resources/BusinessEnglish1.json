@@ -9,7 +9,7 @@
   "storeProductID": "com.niinova22.englishapp.package.business",
   "levelLower": "B1",
   "levelUpper": "C1",
-  "version": 2,
+  "version": 3,
   "summary": "Vocabulary, grammar and reading for meetings, emails, presentations and negotiations.",
   "summaryLocalized": {
     "en": "Vocabulary, grammar and reading for meetings, emails, presentations and negotiations.",
@@ -23,6 +23,10 @@
     "writing": 0,
     "speaking": 0,
     "pronunciation": 0
+  },
+  "introLocalized": {
+    "en": "Business English teaches the words, grammar patterns and short texts you need for meetings, emails, presentations and negotiations. There is no listening or speaking in this package yet, so your plan focuses on vocabulary, grammar and reading.",
+    "tr": "İş İngilizcesi; toplantı, e-posta, sunum ve pazarlık için gereken kelimeleri, gramer kalıplarını ve kısa metinleri öğretir. Bu pakette henüz dinleme ve konuşma yok; bu yüzden planın kelime, gramer ve okumaya odaklanır."
   },
   "units": [
     {

@@ -24,6 +24,7 @@ jobs:
       - name: Verify content assembly is up to date
         working-directory: ${{ github.workspace }}
         run: |
+          python3 scripts/test_overlays.py
           python3 scripts/assemble-content.py
           git diff --exit-code -- \
             App/Sources/EnglishApp/Resources/YDSAcademicVocabulary1.json \

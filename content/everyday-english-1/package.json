@@ -7,7 +7,7 @@
   "storeProductID": "com.niinova22.englishapp.package.everyday",
   "levelLower": "A2",
   "levelUpper": "B1",
-  "version": 2,
+  "version": 3,
   "summary": "Words, grammar and short reads for everyday life: home, food, travel, health and people.",
   "skillWeights": {"vocabulary": 40, "grammar": 35, "reading": 25, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0}
 }

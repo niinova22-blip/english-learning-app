@@ -7,7 +7,7 @@
   "storeProductID": "com.niinova22.englishapp.package.business",
   "levelLower": "B1",
   "levelUpper": "C1",
-  "version": 2,
+  "version": 3,
   "summary": "Vocabulary, grammar and reading for meetings, emails, presentations and negotiations.",
   "skillWeights": {"vocabulary": 40, "grammar": 25, "reading": 35, "listening": 0, "writing": 0, "speaking": 0, "pronunciation": 0}
 }

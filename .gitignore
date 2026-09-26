@@ -1,3 +1,4 @@
 .worktrees/
 App/Sources/EnglishApp/Resources/TutorModel/
 .superpowers/
+__pycache__/

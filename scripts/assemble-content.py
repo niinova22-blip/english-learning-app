@@ -33,6 +33,7 @@ import json
 import os
 import re
 
+from overlay_lib import apply_overlays, check_titles_domain
 from titles_lib import apply_titles
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -324,7 +325,7 @@ OUTPUT_PATHS = [
 # 8: Slice 7d adds the study-technique and second vocabulary units (orders
 # 13-23). Bumping this makes installed apps re-import the package; every
 # existing id is unchanged, so FSRS history survives the reseed.
-PACKAGE_VERSION = 10
+PACKAGE_VERSION = 11
 
 # Skill weights for the YDS goal. YDS has no listening, speaking, writing or
 # pronunciation section, so those are 0 and the planner never schedules them.
@@ -869,7 +870,13 @@ def assemble():
     }
     validate_content(package)
     # 10: bilingual interface titles (content/yds-academic-vocab-1/titles.json).
-    return apply_titles(package, os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "titles.json"))
+    package = apply_titles(package, os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "titles.json"))
+    # 11: beginner lesson cards (content/yds-academic-vocab-1/lessons/) and the
+    # package intro; YDS-specific unit names.
+    package = apply_overlays(package, os.path.join(REPO_ROOT, "content", "yds-academic-vocab-1", "lessons"),
+                             allow_exam_tip=True)
+    check_titles_domain(package)
+    return package
 
 
 def write_output(package, path):

@@ -6,6 +6,10 @@
       "tr": "Günlük hayat için kelime, gramer ve kısa okumalar: ev, yemek, seyahat, sağlık ve insanlar."
     }
   },
+  "intro": {
+    "en": "Everyday English covers daily life: routines, food, shopping, travel, home, health and people. You learn useful words, the grammar behind simple sentences and short texts to read. There is no listening or speaking in this package yet.",
+    "tr": "Günlük İngilizce; rutinler, yemek, alışveriş, seyahat, ev, sağlık ve insanlar gibi gündelik konuları kapsar. Kullanışlı kelimeleri, basit cümlelerin arkasındaki grameri ve kısa okuma metinlerini öğrenirsin. Bu pakette henüz dinleme ve konuşma yok."
+  },
   "units": {
     "day-unit-01-daily-life": {"en": "Daily life and routines", "tr": "Günlük hayat ve rutinler"},
     "day-unit-02-food": {"en": "Food and eating out", "tr": "Yemek ve dışarıda yemek"},

@@ -3,6 +3,7 @@
 content/<package-id>/titles.json holds the English and Turkish versions of
 the package name and summary and of every unit theme and lesson title:
   {"package": {"name": {"en","tr"}, "summary": {"en","tr"}},
+   "intro": {"en","tr"},   (optional: the one-time package intro paragraph)
    "units": {"<unit id>": {"en","tr"}}, "lessons": {"<lesson id>": {"en","tr"}}}
 The app shows the one matching its interface language (learning content stays
 in the package's own language). Every id must be covered, in both languages.
@@ -51,6 +52,8 @@ def apply_titles(doc, titles_path):
             out["summaryLocalized"] = _pair("package summary", titles.get("package", {}).get("summary"))
     if "summary" not in doc and "summary" in titles.get("package", {}):
         raise TitlesError(f"{titles_path}: summary given but the package has none")
+    if "intro" in titles:
+        out["introLocalized"] = _pair("package intro", titles["intro"])
     out["units"] = []
     for unit in doc["units"]:
         if unit["id"] not in units:

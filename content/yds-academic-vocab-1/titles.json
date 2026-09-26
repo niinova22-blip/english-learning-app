@@ -9,116 +9,120 @@
       "tr": "YDS'ye hazırlık: akademik kelimeler, gramer, okuma ve sınav soru tipleri."
     }
   },
+  "intro": {
+    "en": "YDS tests vocabulary, grammar, reading and translation; there is no listening or speaking. So your plan focuses on these four skills and practises every exam question type one by one.",
+    "tr": "YDS'de kelime, gramer, okuma ve çeviri soruları var; dinleme ve konuşma yok. Bu yüzden planın bu dört beceriye odaklanır ve sınav soru tiplerini tek tek çalıştırır."
+  },
   "units": {
     "yds-vocab1-unit-business-economics": {
-      "en": "Business & Economics",
-      "tr": "İş ve ekonomi"
+      "en": "Academic words: Economy",
+      "tr": "Akademik kelimeler: Ekonomi"
     },
     "yds-vocab1-unit-science-research": {
-      "en": "Science & Research Methods",
-      "tr": "Bilim ve araştırma yöntemleri"
+      "en": "Academic words: Science and research",
+      "tr": "Akademik kelimeler: Bilim ve araştırma"
     },
     "yds-vocab1-unit-law-policy-society": {
-      "en": "Law, Policy & Society",
-      "tr": "Hukuk, politika ve toplum"
+      "en": "Academic words: Law and society",
+      "tr": "Akademik kelimeler: Hukuk ve toplum"
     },
     "yds-vocab1-unit-academic-writing": {
-      "en": "Academic Writing & Communication",
-      "tr": "Akademik yazım ve iletişim"
+      "en": "Academic words: Academic writing",
+      "tr": "Akademik kelimeler: Akademik yazım"
     },
     "yds-grammar-unit-verbs-and-tenses": {
-      "en": "Verbs and tenses",
-      "tr": "Fiil ve zaman"
+      "en": "YDS grammar: Verbs and tenses",
+      "tr": "YDS Gramer: Fiil ve zaman"
     },
     "yds-grammar-unit-sentence-structures": {
-      "en": "Sentence structures",
-      "tr": "Cümle yapıları"
+      "en": "YDS grammar: Sentence structures",
+      "tr": "YDS Gramer: Cümle yapıları"
     },
     "yds-grammar-unit-verbals-and-linkers": {
-      "en": "Verbals and linkers",
-      "tr": "Fiilimsiler ve bağlantılar"
+      "en": "YDS grammar: Verbals and linkers",
+      "tr": "YDS Gramer: Fiilimsiler ve bağlantılar"
     },
     "yds-grammar-unit-exam-level-structures": {
-      "en": "Exam-level structures",
-      "tr": "Sınav düzeyi yapılar"
+      "en": "YDS grammar: Exam-level structures",
+      "tr": "YDS Gramer: Sınav düzeyi yapılar"
     },
     "yds-grammar-unit-word-level-grammar": {
-      "en": "Word-level grammar",
-      "tr": "Kelime düzeyinde gramer"
+      "en": "YDS grammar: Word-level grammar",
+      "tr": "YDS Gramer: Kelime düzeyinde gramer"
     },
     "yds-exam-unit-reading": {
-      "en": "Reading comprehension",
-      "tr": "Okuma anlama"
+      "en": "YDS question types: Reading comprehension",
+      "tr": "YDS Soru tipleri: Okuma anlama"
     },
     "yds-exam-unit-cloze-sentence": {
-      "en": "Cloze and sentence completion",
-      "tr": "Cloze ve cümle tamamlama"
+      "en": "YDS question types: Cloze and sentence completion",
+      "tr": "YDS Soru tipleri: Cloze ve cümle tamamlama"
     },
     "yds-exam-unit-paragraph": {
-      "en": "Paragraph questions",
-      "tr": "Paragraf soruları"
+      "en": "YDS question types: Paragraph questions",
+      "tr": "YDS Soru tipleri: Paragraf soruları"
     },
     "yds-exam-unit-translation-restatement": {
-      "en": "Translation and restatement",
-      "tr": "Çeviri ve yeniden ifade"
+      "en": "YDS question types: Translation and restatement",
+      "tr": "YDS Soru tipleri: Çeviri ve yeniden ifade"
     },
     "yds-tech-unit-question-strategies": {
-      "en": "Strategies for exam question types",
-      "tr": "Sınav soru tipi stratejileri"
+      "en": "YDS techniques: Strategies for exam question types",
+      "tr": "YDS Teknikleri: Sınav soru tipi stratejileri"
     },
     "yds-tech-unit-exam-management": {
-      "en": "Exam management and timing",
-      "tr": "Sınav yönetimi ve zaman"
+      "en": "YDS techniques: Exam management and timing",
+      "tr": "YDS Teknikleri: Sınav yönetimi ve zaman"
     },
     "yds-tech-unit-vocabulary-skills": {
-      "en": "Vocabulary learning techniques",
-      "tr": "Kelime öğrenme teknikleri"
+      "en": "YDS techniques: Vocabulary learning techniques",
+      "tr": "YDS Teknikleri: Kelime öğrenme teknikleri"
     },
     "yds-vocab2-unit-health-medicine": {
-      "en": "Health & Medicine",
-      "tr": "Sağlık ve tıp"
+      "en": "Academic words: Health and medicine",
+      "tr": "Akademik kelimeler: Sağlık ve tıp"
     },
     "yds-vocab2-unit-environment-energy": {
-      "en": "Environment & Energy",
-      "tr": "Çevre ve enerji"
+      "en": "Academic words: Environment and energy",
+      "tr": "Akademik kelimeler: Çevre ve enerji"
     },
     "yds-vocab2-unit-technology-innovation": {
-      "en": "Technology & Innovation",
-      "tr": "Teknoloji ve inovasyon"
+      "en": "Academic words: Technology",
+      "tr": "Akademik kelimeler: Teknoloji"
     },
     "yds-vocab2-unit-education-learning": {
-      "en": "Education & Learning",
-      "tr": "Eğitim ve öğrenme"
+      "en": "Academic words: Education",
+      "tr": "Akademik kelimeler: Eğitim"
     },
     "yds-vocab2-unit-history-culture": {
-      "en": "History & Culture",
-      "tr": "Tarih ve kültür"
+      "en": "Academic words: History and culture",
+      "tr": "Akademik kelimeler: Tarih ve kültür"
     },
     "yds-vocab2-unit-psychology-behaviour": {
-      "en": "Psychology & Behaviour",
-      "tr": "Psikoloji ve davranış"
+      "en": "Academic words: Psychology",
+      "tr": "Akademik kelimeler: Psikoloji"
     },
     "yds-vocab2-unit-politics-governance": {
-      "en": "Politics & Governance",
-      "tr": "Siyaset ve yönetim"
+      "en": "Academic words: Politics and government",
+      "tr": "Akademik kelimeler: Siyaset ve yönetim"
     },
     "yds-vocab2-unit-media-communication": {
-      "en": "Media & Communication",
-      "tr": "Medya ve iletişim"
+      "en": "Academic words: Media and communication",
+      "tr": "Akademik kelimeler: Medya ve iletişim"
     }
   },
   "lessons": {
     "yds-vocab1-lesson-business-1": {
-      "en": "Business & Economics · 1",
-      "tr": "İş ve ekonomi · 1"
+      "en": "Academic words: Economy · 1",
+      "tr": "Akademik kelimeler: Ekonomi · 1"
     },
     "yds-vocab1-lesson-business-2": {
-      "en": "Business & Economics · 2",
-      "tr": "İş ve ekonomi · 2"
+      "en": "Academic words: Economy · 2",
+      "tr": "Akademik kelimeler: Ekonomi · 2"
     },
     "yds-vocab1-lesson-business-3": {
-      "en": "Business & Economics · 3",
-      "tr": "İş ve ekonomi · 3"
+      "en": "Academic words: Economy · 3",
+      "tr": "Akademik kelimeler: Ekonomi · 3"
     },
     "yds-practice-lesson-tenses": {
       "en": "Tenses",
@@ -149,40 +153,40 @@
       "tr": "Çeviri: İngilizce-Türkçe"
     },
     "yds-vocab1-lesson-science-1": {
-      "en": "Science & Research Methods · 1",
-      "tr": "Bilim ve araştırma yöntemleri · 1"
+      "en": "Academic words: Science and research · 1",
+      "tr": "Akademik kelimeler: Bilim ve araştırma · 1"
     },
     "yds-vocab1-lesson-science-2": {
-      "en": "Science & Research Methods · 2",
-      "tr": "Bilim ve araştırma yöntemleri · 2"
+      "en": "Academic words: Science and research · 2",
+      "tr": "Akademik kelimeler: Bilim ve araştırma · 2"
     },
     "yds-vocab1-lesson-science-3": {
-      "en": "Science & Research Methods · 3",
-      "tr": "Bilim ve araştırma yöntemleri · 3"
+      "en": "Academic words: Science and research · 3",
+      "tr": "Akademik kelimeler: Bilim ve araştırma · 3"
     },
     "yds-vocab1-lesson-law-1": {
-      "en": "Law, Policy & Society · 1",
-      "tr": "Hukuk, politika ve toplum · 1"
+      "en": "Academic words: Law and society · 1",
+      "tr": "Akademik kelimeler: Hukuk ve toplum · 1"
     },
     "yds-vocab1-lesson-law-2": {
-      "en": "Law, Policy & Society · 2",
-      "tr": "Hukuk, politika ve toplum · 2"
+      "en": "Academic words: Law and society · 2",
+      "tr": "Akademik kelimeler: Hukuk ve toplum · 2"
     },
     "yds-vocab1-lesson-law-3": {
-      "en": "Law, Policy & Society · 3",
-      "tr": "Hukuk, politika ve toplum · 3"
+      "en": "Academic words: Law and society · 3",
+      "tr": "Akademik kelimeler: Hukuk ve toplum · 3"
     },
     "yds-vocab1-lesson-writing-1": {
-      "en": "Academic Writing & Communication · 1",
-      "tr": "Akademik yazım ve iletişim · 1"
+      "en": "Academic words: Academic writing · 1",
+      "tr": "Akademik kelimeler: Akademik yazım · 1"
     },
     "yds-vocab1-lesson-writing-2": {
-      "en": "Academic Writing & Communication · 2",
-      "tr": "Akademik yazım ve iletişim · 2"
+      "en": "Academic words: Academic writing · 2",
+      "tr": "Akademik kelimeler: Akademik yazım · 2"
     },
     "yds-vocab1-lesson-writing-3": {
-      "en": "Academic Writing & Communication · 3",
-      "tr": "Akademik yazım ve iletişim · 3"
+      "en": "Academic words: Academic writing · 3",
+      "tr": "Akademik kelimeler: Akademik yazım · 3"
     },
     "yds-grammar-tenses-2": {
       "en": "Tenses: Traps",
@@ -509,196 +513,196 @@
       "tr": "Kelime Tekniği: Ezberleme ve Tekrar"
     },
     "yds-vocab2-lesson-health-medicine-1": {
-      "en": "Health & Medicine · 1",
-      "tr": "Sağlık ve tıp · 1"
+      "en": "Academic words: Health and medicine · 1",
+      "tr": "Akademik kelimeler: Sağlık ve tıp · 1"
     },
     "yds-vocab2-lesson-health-medicine-2": {
-      "en": "Health & Medicine · 2",
-      "tr": "Sağlık ve tıp · 2"
+      "en": "Academic words: Health and medicine · 2",
+      "tr": "Akademik kelimeler: Sağlık ve tıp · 2"
     },
     "yds-vocab2-lesson-health-medicine-3": {
-      "en": "Health & Medicine · 3",
-      "tr": "Sağlık ve tıp · 3"
+      "en": "Academic words: Health and medicine · 3",
+      "tr": "Akademik kelimeler: Sağlık ve tıp · 3"
     },
     "yds-vocab2-lesson-health-medicine-4": {
-      "en": "Health & Medicine · 4",
-      "tr": "Sağlık ve tıp · 4"
+      "en": "Academic words: Health and medicine · 4",
+      "tr": "Akademik kelimeler: Sağlık ve tıp · 4"
     },
     "yds-vocab2-lesson-health-medicine-5": {
-      "en": "Health & Medicine · 5",
-      "tr": "Sağlık ve tıp · 5"
+      "en": "Academic words: Health and medicine · 5",
+      "tr": "Akademik kelimeler: Sağlık ve tıp · 5"
     },
     "yds-vocab2-lesson-health-medicine-6": {
-      "en": "Health & Medicine · 6",
-      "tr": "Sağlık ve tıp · 6"
+      "en": "Academic words: Health and medicine · 6",
+      "tr": "Akademik kelimeler: Sağlık ve tıp · 6"
     },
     "yds-vocab2-lesson-environment-energy-1": {
-      "en": "Environment & Energy · 1",
-      "tr": "Çevre ve enerji · 1"
+      "en": "Academic words: Environment and energy · 1",
+      "tr": "Akademik kelimeler: Çevre ve enerji · 1"
     },
     "yds-vocab2-lesson-environment-energy-2": {
-      "en": "Environment & Energy · 2",
-      "tr": "Çevre ve enerji · 2"
+      "en": "Academic words: Environment and energy · 2",
+      "tr": "Akademik kelimeler: Çevre ve enerji · 2"
     },
     "yds-vocab2-lesson-environment-energy-3": {
-      "en": "Environment & Energy · 3",
-      "tr": "Çevre ve enerji · 3"
+      "en": "Academic words: Environment and energy · 3",
+      "tr": "Akademik kelimeler: Çevre ve enerji · 3"
     },
     "yds-vocab2-lesson-environment-energy-4": {
-      "en": "Environment & Energy · 4",
-      "tr": "Çevre ve enerji · 4"
+      "en": "Academic words: Environment and energy · 4",
+      "tr": "Akademik kelimeler: Çevre ve enerji · 4"
     },
     "yds-vocab2-lesson-environment-energy-5": {
-      "en": "Environment & Energy · 5",
-      "tr": "Çevre ve enerji · 5"
+      "en": "Academic words: Environment and energy · 5",
+      "tr": "Akademik kelimeler: Çevre ve enerji · 5"
     },
     "yds-vocab2-lesson-environment-energy-6": {
-      "en": "Environment & Energy · 6",
-      "tr": "Çevre ve enerji · 6"
+      "en": "Academic words: Environment and energy · 6",
+      "tr": "Akademik kelimeler: Çevre ve enerji · 6"
     },
     "yds-vocab2-lesson-technology-innovation-1": {
-      "en": "Technology & Innovation · 1",
-      "tr": "Teknoloji ve inovasyon · 1"
+      "en": "Academic words: Technology · 1",
+      "tr": "Akademik kelimeler: Teknoloji · 1"
     },
     "yds-vocab2-lesson-technology-innovation-2": {
-      "en": "Technology & Innovation · 2",
-      "tr": "Teknoloji ve inovasyon · 2"
+      "en": "Academic words: Technology · 2",
+      "tr": "Akademik kelimeler: Teknoloji · 2"
     },
     "yds-vocab2-lesson-technology-innovation-3": {
-      "en": "Technology & Innovation · 3",
-      "tr": "Teknoloji ve inovasyon · 3"
+      "en": "Academic words: Technology · 3",
+      "tr": "Akademik kelimeler: Teknoloji · 3"
     },
     "yds-vocab2-lesson-technology-innovation-4": {
-      "en": "Technology & Innovation · 4",
-      "tr": "Teknoloji ve inovasyon · 4"
+      "en": "Academic words: Technology · 4",
+      "tr": "Akademik kelimeler: Teknoloji · 4"
     },
     "yds-vocab2-lesson-technology-innovation-5": {
-      "en": "Technology & Innovation · 5",
-      "tr": "Teknoloji ve inovasyon · 5"
+      "en": "Academic words: Technology · 5",
+      "tr": "Akademik kelimeler: Teknoloji · 5"
     },
     "yds-vocab2-lesson-technology-innovation-6": {
-      "en": "Technology & Innovation · 6",
-      "tr": "Teknoloji ve inovasyon · 6"
+      "en": "Academic words: Technology · 6",
+      "tr": "Akademik kelimeler: Teknoloji · 6"
     },
     "yds-vocab2-lesson-education-learning-1": {
-      "en": "Education & Learning · 1",
-      "tr": "Eğitim ve öğrenme · 1"
+      "en": "Academic words: Education · 1",
+      "tr": "Akademik kelimeler: Eğitim · 1"
     },
     "yds-vocab2-lesson-education-learning-2": {
-      "en": "Education & Learning · 2",
-      "tr": "Eğitim ve öğrenme · 2"
+      "en": "Academic words: Education · 2",
+      "tr": "Akademik kelimeler: Eğitim · 2"
     },
     "yds-vocab2-lesson-education-learning-3": {
-      "en": "Education & Learning · 3",
-      "tr": "Eğitim ve öğrenme · 3"
+      "en": "Academic words: Education · 3",
+      "tr": "Akademik kelimeler: Eğitim · 3"
     },
     "yds-vocab2-lesson-education-learning-4": {
-      "en": "Education & Learning · 4",
-      "tr": "Eğitim ve öğrenme · 4"
+      "en": "Academic words: Education · 4",
+      "tr": "Akademik kelimeler: Eğitim · 4"
     },
     "yds-vocab2-lesson-education-learning-5": {
-      "en": "Education & Learning · 5",
-      "tr": "Eğitim ve öğrenme · 5"
+      "en": "Academic words: Education · 5",
+      "tr": "Akademik kelimeler: Eğitim · 5"
     },
     "yds-vocab2-lesson-education-learning-6": {
-      "en": "Education & Learning · 6",
-      "tr": "Eğitim ve öğrenme · 6"
+      "en": "Academic words: Education · 6",
+      "tr": "Akademik kelimeler: Eğitim · 6"
     },
     "yds-vocab2-lesson-history-culture-1": {
-      "en": "History & Culture · 1",
-      "tr": "Tarih ve kültür · 1"
+      "en": "Academic words: History and culture · 1",
+      "tr": "Akademik kelimeler: Tarih ve kültür · 1"
     },
     "yds-vocab2-lesson-history-culture-2": {
-      "en": "History & Culture · 2",
-      "tr": "Tarih ve kültür · 2"
+      "en": "Academic words: History and culture · 2",
+      "tr": "Akademik kelimeler: Tarih ve kültür · 2"
     },
     "yds-vocab2-lesson-history-culture-3": {
-      "en": "History & Culture · 3",
-      "tr": "Tarih ve kültür · 3"
+      "en": "Academic words: History and culture · 3",
+      "tr": "Akademik kelimeler: Tarih ve kültür · 3"
     },
     "yds-vocab2-lesson-history-culture-4": {
-      "en": "History & Culture · 4",
-      "tr": "Tarih ve kültür · 4"
+      "en": "Academic words: History and culture · 4",
+      "tr": "Akademik kelimeler: Tarih ve kültür · 4"
     },
     "yds-vocab2-lesson-history-culture-5": {
-      "en": "History & Culture · 5",
-      "tr": "Tarih ve kültür · 5"
+      "en": "Academic words: History and culture · 5",
+      "tr": "Akademik kelimeler: Tarih ve kültür · 5"
     },
     "yds-vocab2-lesson-history-culture-6": {
-      "en": "History & Culture · 6",
-      "tr": "Tarih ve kültür · 6"
+      "en": "Academic words: History and culture · 6",
+      "tr": "Akademik kelimeler: Tarih ve kültür · 6"
     },
     "yds-vocab2-lesson-psychology-behaviour-1": {
-      "en": "Psychology & Behaviour · 1",
-      "tr": "Psikoloji ve davranış · 1"
+      "en": "Academic words: Psychology · 1",
+      "tr": "Akademik kelimeler: Psikoloji · 1"
     },
     "yds-vocab2-lesson-psychology-behaviour-2": {
-      "en": "Psychology & Behaviour · 2",
-      "tr": "Psikoloji ve davranış · 2"
+      "en": "Academic words: Psychology · 2",
+      "tr": "Akademik kelimeler: Psikoloji · 2"
     },
     "yds-vocab2-lesson-psychology-behaviour-3": {
-      "en": "Psychology & Behaviour · 3",
-      "tr": "Psikoloji ve davranış · 3"
+      "en": "Academic words: Psychology · 3",
+      "tr": "Akademik kelimeler: Psikoloji · 3"
     },
     "yds-vocab2-lesson-psychology-behaviour-4": {
-      "en": "Psychology & Behaviour · 4",
-      "tr": "Psikoloji ve davranış · 4"
+      "en": "Academic words: Psychology · 4",
+      "tr": "Akademik kelimeler: Psikoloji · 4"
     },
     "yds-vocab2-lesson-psychology-behaviour-5": {
-      "en": "Psychology & Behaviour · 5",
-      "tr": "Psikoloji ve davranış · 5"
+      "en": "Academic words: Psychology · 5",
+      "tr": "Akademik kelimeler: Psikoloji · 5"
     },
     "yds-vocab2-lesson-psychology-behaviour-6": {
-      "en": "Psychology & Behaviour · 6",
-      "tr": "Psikoloji ve davranış · 6"
+      "en": "Academic words: Psychology · 6",
+      "tr": "Akademik kelimeler: Psikoloji · 6"
     },
     "yds-vocab2-lesson-politics-governance-1": {
-      "en": "Politics & Governance · 1",
-      "tr": "Siyaset ve yönetim · 1"
+      "en": "Academic words: Politics and government · 1",
+      "tr": "Akademik kelimeler: Siyaset ve yönetim · 1"
     },
     "yds-vocab2-lesson-politics-governance-2": {
-      "en": "Politics & Governance · 2",
-      "tr": "Siyaset ve yönetim · 2"
+      "en": "Academic words: Politics and government · 2",
+      "tr": "Akademik kelimeler: Siyaset ve yönetim · 2"
     },
     "yds-vocab2-lesson-politics-governance-3": {
-      "en": "Politics & Governance · 3",
-      "tr": "Siyaset ve yönetim · 3"
+      "en": "Academic words: Politics and government · 3",
+      "tr": "Akademik kelimeler: Siyaset ve yönetim · 3"
     },
     "yds-vocab2-lesson-politics-governance-4": {
-      "en": "Politics & Governance · 4",
-      "tr": "Siyaset ve yönetim · 4"
+      "en": "Academic words: Politics and government · 4",
+      "tr": "Akademik kelimeler: Siyaset ve yönetim · 4"
     },
     "yds-vocab2-lesson-politics-governance-5": {
-      "en": "Politics & Governance · 5",
-      "tr": "Siyaset ve yönetim · 5"
+      "en": "Academic words: Politics and government · 5",
+      "tr": "Akademik kelimeler: Siyaset ve yönetim · 5"
     },
     "yds-vocab2-lesson-politics-governance-6": {
-      "en": "Politics & Governance · 6",
-      "tr": "Siyaset ve yönetim · 6"
+      "en": "Academic words: Politics and government · 6",
+      "tr": "Akademik kelimeler: Siyaset ve yönetim · 6"
     },
     "yds-vocab2-lesson-media-communication-1": {
-      "en": "Media & Communication · 1",
-      "tr": "Medya ve iletişim · 1"
+      "en": "Academic words: Media and communication · 1",
+      "tr": "Akademik kelimeler: Medya ve iletişim · 1"
     },
     "yds-vocab2-lesson-media-communication-2": {
-      "en": "Media & Communication · 2",
-      "tr": "Medya ve iletişim · 2"
+      "en": "Academic words: Media and communication · 2",
+      "tr": "Akademik kelimeler: Medya ve iletişim · 2"
     },
     "yds-vocab2-lesson-media-communication-3": {
-      "en": "Media & Communication · 3",
-      "tr": "Medya ve iletişim · 3"
+      "en": "Academic words: Media and communication · 3",
+      "tr": "Akademik kelimeler: Medya ve iletişim · 3"
     },
     "yds-vocab2-lesson-media-communication-4": {
-      "en": "Media & Communication · 4",
-      "tr": "Medya ve iletişim · 4"
+      "en": "Academic words: Media and communication · 4",
+      "tr": "Akademik kelimeler: Medya ve iletişim · 4"
     },
     "yds-vocab2-lesson-media-communication-5": {
-      "en": "Media & Communication · 5",
-      "tr": "Medya ve iletişim · 5"
+      "en": "Academic words: Media and communication · 5",
+      "tr": "Akademik kelimeler: Medya ve iletişim · 5"
     },
     "yds-vocab2-lesson-media-communication-6": {
-      "en": "Media & Communication · 6",
-      "tr": "Medya ve iletişim · 6"
+      "en": "Academic words: Media and communication · 6",
+      "tr": "Akademik kelimeler: Medya ve iletişim · 6"
     }
   }
 }

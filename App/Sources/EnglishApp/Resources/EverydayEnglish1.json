@@ -9,7 +9,7 @@
   "storeProductID": "com.niinova22.englishapp.package.everyday",
   "levelLower": "A2",
   "levelUpper": "B1",
-  "version": 2,
+  "version": 3,
   "summary": "Words, grammar and short reads for everyday life: home, food, travel, health and people.",
   "summaryLocalized": {
     "en": "Words, grammar and short reads for everyday life: home, food, travel, health and people.",
@@ -23,6 +23,10 @@
     "writing": 0,
     "speaking": 0,
     "pronunciation": 0
+  },
+  "introLocalized": {
+    "en": "Everyday English covers daily life: routines, food, shopping, travel, home, health and people. You learn useful words, the grammar behind simple sentences and short texts to read. There is no listening or speaking in this package yet.",
+    "tr": "Günlük İngilizce; rutinler, yemek, alışveriş, seyahat, ev, sağlık ve insanlar gibi gündelik konuları kapsar. Kullanışlı kelimeleri, basit cümlelerin arkasındaki grameri ve kısa okuma metinlerini öğrenirsin. Bu pakette henüz dinleme ve konuşma yok."
   },
   "units": [
     {
@@ -656,7 +660,134 @@
               "exampleSentences": [],
               "translationTR": "",
               "collocations": [],
-              "explanationTR": "We use the present simple to talk about habits, routines, and things that are generally true. Adverbs of frequency tell us how often something happens.\n\nCommon adverbs of frequency, from 100% to 0%:\n• always\n• usually\n• often\n• sometimes\n• rarely / hardly ever\n• never\n\nWord order:\n• Before the main verb: She usually wakes up at seven.\n• After the verb 'be': He is always on time.\n• 'Sometimes' and 'usually' can also start a sentence: Sometimes I skip breakfast.\n\nQuestions with frequency:\n• How often do you check your email? — I check it every hour.\n\nDon't forget the regular present simple rules: add -s or -es for he/she/it (she watches, he brushes his teeth), and use don't/doesn't for negatives and do/does for questions. For example: Does she usually cook dinner? No, she doesn't usually cook on weekdays."
+              "explanationTR": "We use the present simple to talk about habits, routines, and things that are generally true. Adverbs of frequency tell us how often something happens.\n\nCommon adverbs of frequency, from 100% to 0%:\n• always\n• usually\n• often\n• sometimes\n• rarely / hardly ever\n• never\n\nWord order:\n• Before the main verb: She usually wakes up at seven.\n• After the verb 'be': He is always on time.\n• 'Sometimes' and 'usually' can also start a sentence: Sometimes I skip breakfast.\n\nQuestions with frequency:\n• How often do you check your email? — I check it every hour.\n\nDon't forget the regular present simple rules: add -s or -es for he/she/it (she watches, he brushes his teeth), and use don't/doesn't for negatives and do/does for questions. For example: Does she usually cook dinner? No, she doesn't usually cook on weekdays.",
+              "lessonCards": {
+                "topics": [
+                  {
+                    "title": {
+                      "en": "Present simple for habits",
+                      "tr": "Alışkanlıklar için geniş zaman"
+                    },
+                    "purpose": {
+                      "en": "Use it for things you do regularly, like your daily routine.",
+                      "tr": "Düzenli yaptığın şeyler için kullanılır; Türkçedeki \"-r\" (gelirim, içerim) gibi."
+                    },
+                    "pattern": [
+                      {
+                        "text": "I / you / we / they",
+                        "role": "subject"
+                      },
+                      {
+                        "text": "verb",
+                        "role": "verb"
+                      },
+                      {
+                        "text": "he / she / it",
+                        "role": "subject"
+                      },
+                      {
+                        "text": "verb + s",
+                        "role": "verb"
+                      }
+                    ],
+                    "patternNote": {
+                      "en": "Add -s only after he, she and it.",
+                      "tr": "-s eki sadece he, she ve it'ten sonra gelir."
+                    },
+                    "examples": [
+                      {
+                        "en": "I drink coffee every morning.",
+                        "tr": "Her sabah kahve içerim.",
+                        "highlight": "drink"
+                      },
+                      {
+                        "en": "She works in a bank.",
+                        "tr": "Bir bankada çalışır.",
+                        "highlight": "works"
+                      },
+                      {
+                        "en": "We usually walk to school.",
+                        "tr": "Genellikle okula yürürüz.",
+                        "highlight": "walk"
+                      }
+                    ],
+                    "mistake": {
+                      "wrong": "He work every day.",
+                      "right": "He works every day.",
+                      "note": {
+                        "en": "He, she, it: add -s.",
+                        "tr": "He, she, it varsa fiile -s ekle."
+                      }
+                    }
+                  },
+                  {
+                    "title": {
+                      "en": "How often: always, usually, never",
+                      "tr": "Ne sıklıkla: always, usually, never"
+                    },
+                    "purpose": {
+                      "en": "Words like always and never say how often you do something.",
+                      "tr": "Always (her zaman), usually (genellikle), never (asla) gibi kelimeler bir şeyi ne sıklıkla yaptığını söyler."
+                    },
+                    "pattern": [
+                      {
+                        "text": "subject",
+                        "role": "subject"
+                      },
+                      {
+                        "text": "always / usually / never",
+                        "role": "other"
+                      },
+                      {
+                        "text": "verb",
+                        "role": "verb"
+                      }
+                    ],
+                    "patternNote": {
+                      "en": "With am, is and are, the word goes after the verb: She is always late.",
+                      "tr": "am, is, are ile bu kelime fiilden sonra gelir: She is always late."
+                    },
+                    "examples": [
+                      {
+                        "en": "I always have breakfast at home.",
+                        "tr": "Kahvaltıyı hep evde yaparım.",
+                        "highlight": "always"
+                      },
+                      {
+                        "en": "He never watches TV at night.",
+                        "tr": "Geceleri asla televizyon izlemez.",
+                        "highlight": "never"
+                      },
+                      {
+                        "en": "They are usually tired on Mondays.",
+                        "tr": "Pazartesileri genellikle yorgun olurlar.",
+                        "highlight": "usually"
+                      }
+                    ],
+                    "mistake": {
+                      "wrong": "I go always to work by bus.",
+                      "right": "I always go to work by bus.",
+                      "note": {
+                        "en": "Put always before the main verb.",
+                        "tr": "Always, asıl fiilin önüne gelir."
+                      }
+                    }
+                  }
+                ],
+                "check": {
+                  "prompt": "My sister ---- tea every evening.",
+                  "options": [
+                    "drink",
+                    "drinks",
+                    "drinking"
+                  ],
+                  "correctIndex": 1,
+                  "explanation": {
+                    "en": "\"My sister\" is she, so the verb takes -s: drinks.",
+                    "tr": "\"My sister\" = she; bu yüzden fiile -s gelir: drinks."
+                  }
+                }
+              }
             }
           ],
           "questions": [

@@ -6,6 +6,10 @@
       "tr": "Toplantılar, e-postalar, sunumlar ve pazarlıklar için kelime, gramer ve okuma."
     }
   },
+  "intro": {
+    "en": "Business English teaches the words, grammar patterns and short texts you need for meetings, emails, presentations and negotiations. There is no listening or speaking in this package yet, so your plan focuses on vocabulary, grammar and reading.",
+    "tr": "İş İngilizcesi; toplantı, e-posta, sunum ve pazarlık için gereken kelimeleri, gramer kalıplarını ve kısa metinleri öğretir. Bu pakette henüz dinleme ve konuşma yok; bu yüzden planın kelime, gramer ve okumaya odaklanır."
+  },
   "units": {
     "biz-unit-01-workplace": {"en": "At work: roles and routines", "tr": "İş yerinde: görevler ve rutinler"},
     "biz-unit-02-meetings": {"en": "Meetings", "tr": "Toplantılar"},

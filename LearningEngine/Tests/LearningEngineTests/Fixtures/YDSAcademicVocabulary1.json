@@ -9,7 +9,7 @@
   "storeProductID": "com.niinova22.englishapp.package.yds",
   "levelLower": "B2",
   "levelUpper": "C1",
-  "version": 10,
+  "version": 11,
   "audience": "tr",
   "summary": "YDS'ye hazırlık: akademik kelimeler, gramer, okuma ve sınav soru tipleri.",
   "summaryLocalized": {
@@ -24,6 +24,10 @@
     "writing": 0,
     "speaking": 0,
     "pronunciation": 0
+  },
+  "introLocalized": {
+    "en": "YDS tests vocabulary, grammar, reading and translation; there is no listening or speaking. So your plan focuses on these four skills and practises every exam question type one by one.",
+    "tr": "YDS'de kelime, gramer, okuma ve çeviri soruları var; dinleme ve konuşma yok. Bu yüzden planın bu dört beceriye odaklanır ve sınav soru tiplerini tek tek çalıştırır."
   },
   "units": [
     {
@@ -230,8 +234,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Business & Economics · 1",
-            "tr": "İş ve ekonomi · 1"
+            "en": "Academic words: Economy · 1",
+            "tr": "Akademik kelimeler: Ekonomi · 1"
           }
         },
         {
@@ -433,8 +437,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Business & Economics · 2",
-            "tr": "İş ve ekonomi · 2"
+            "en": "Academic words: Economy · 2",
+            "tr": "Akademik kelimeler: Ekonomi · 2"
           }
         },
         {
@@ -634,8 +638,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Business & Economics · 3",
-            "tr": "İş ve ekonomi · 3"
+            "en": "Academic words: Economy · 3",
+            "tr": "Akademik kelimeler: Ekonomi · 3"
           }
         },
         {
@@ -1847,8 +1851,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Business & Economics",
-        "tr": "İş ve ekonomi"
+        "en": "Academic words: Economy",
+        "tr": "Akademik kelimeler: Ekonomi"
       }
     },
     {
@@ -2055,8 +2059,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Science & Research Methods · 1",
-            "tr": "Bilim ve araştırma yöntemleri · 1"
+            "en": "Academic words: Science and research · 1",
+            "tr": "Akademik kelimeler: Bilim ve araştırma · 1"
           }
         },
         {
@@ -2258,8 +2262,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Science & Research Methods · 2",
-            "tr": "Bilim ve araştırma yöntemleri · 2"
+            "en": "Academic words: Science and research · 2",
+            "tr": "Akademik kelimeler: Bilim ve araştırma · 2"
           }
         },
         {
@@ -2461,14 +2465,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Science & Research Methods · 3",
-            "tr": "Bilim ve araştırma yöntemleri · 3"
+            "en": "Academic words: Science and research · 3",
+            "tr": "Akademik kelimeler: Bilim ve araştırma · 3"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Science & Research Methods",
-        "tr": "Bilim ve araştırma yöntemleri"
+        "en": "Academic words: Science and research",
+        "tr": "Akademik kelimeler: Bilim ve araştırma"
       }
     },
     {
@@ -2675,8 +2679,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Law, Policy & Society · 1",
-            "tr": "Hukuk, politika ve toplum · 1"
+            "en": "Academic words: Law and society · 1",
+            "tr": "Akademik kelimeler: Hukuk ve toplum · 1"
           }
         },
         {
@@ -2878,8 +2882,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Law, Policy & Society · 2",
-            "tr": "Hukuk, politika ve toplum · 2"
+            "en": "Academic words: Law and society · 2",
+            "tr": "Akademik kelimeler: Hukuk ve toplum · 2"
           }
         },
         {
@@ -3081,14 +3085,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Law, Policy & Society · 3",
-            "tr": "Hukuk, politika ve toplum · 3"
+            "en": "Academic words: Law and society · 3",
+            "tr": "Akademik kelimeler: Hukuk ve toplum · 3"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Law, Policy & Society",
-        "tr": "Hukuk, politika ve toplum"
+        "en": "Academic words: Law and society",
+        "tr": "Akademik kelimeler: Hukuk ve toplum"
       }
     },
     {
@@ -3295,8 +3299,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Academic Writing & Communication · 1",
-            "tr": "Akademik yazım ve iletişim · 1"
+            "en": "Academic words: Academic writing · 1",
+            "tr": "Akademik kelimeler: Akademik yazım · 1"
           }
         },
         {
@@ -3498,8 +3502,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Academic Writing & Communication · 2",
-            "tr": "Akademik yazım ve iletişim · 2"
+            "en": "Academic words: Academic writing · 2",
+            "tr": "Akademik kelimeler: Akademik yazım · 2"
           }
         },
         {
@@ -3701,14 +3705,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Academic Writing & Communication · 3",
-            "tr": "Akademik yazım ve iletişim · 3"
+            "en": "Academic words: Academic writing · 3",
+            "tr": "Akademik kelimeler: Akademik yazım · 3"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Academic Writing & Communication",
-        "tr": "Akademik yazım ve iletişim"
+        "en": "Academic words: Academic writing",
+        "tr": "Akademik kelimeler: Akademik yazım"
       }
     },
     {
@@ -4589,8 +4593,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Verbs and tenses",
-        "tr": "Fiil ve zaman"
+        "en": "YDS grammar: Verbs and tenses",
+        "tr": "YDS Gramer: Fiil ve zaman"
       }
     },
     {
@@ -5813,8 +5817,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Sentence structures",
-        "tr": "Cümle yapıları"
+        "en": "YDS grammar: Sentence structures",
+        "tr": "YDS Gramer: Cümle yapıları"
       }
     },
     {
@@ -6850,8 +6854,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Verbals and linkers",
-        "tr": "Fiilimsiler ve bağlantılar"
+        "en": "YDS grammar: Verbals and linkers",
+        "tr": "YDS Gramer: Fiilimsiler ve bağlantılar"
       }
     },
     {
@@ -7545,8 +7549,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Exam-level structures",
-        "tr": "Sınav düzeyi yapılar"
+        "en": "YDS grammar: Exam-level structures",
+        "tr": "YDS Gramer: Sınav düzeyi yapılar"
       }
     },
     {
@@ -8924,8 +8928,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Word-level grammar",
-        "tr": "Kelime düzeyinde gramer"
+        "en": "YDS grammar: Word-level grammar",
+        "tr": "YDS Gramer: Kelime düzeyinde gramer"
       }
     },
     {
@@ -9823,8 +9827,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Reading comprehension",
-        "tr": "Okuma anlama"
+        "en": "YDS question types: Reading comprehension",
+        "tr": "YDS Soru tipleri: Okuma anlama"
       }
     },
     {
@@ -11214,8 +11218,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Cloze and sentence completion",
-        "tr": "Cloze ve cümle tamamlama"
+        "en": "YDS question types: Cloze and sentence completion",
+        "tr": "YDS Soru tipleri: Cloze ve cümle tamamlama"
       }
     },
     {
@@ -12457,8 +12461,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Paragraph questions",
-        "tr": "Paragraf soruları"
+        "en": "YDS question types: Paragraph questions",
+        "tr": "YDS Soru tipleri: Paragraf soruları"
       }
     },
     {
@@ -13854,8 +13858,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Translation and restatement",
-        "tr": "Çeviri ve yeniden ifade"
+        "en": "YDS question types: Translation and restatement",
+        "tr": "YDS Soru tipleri: Çeviri ve yeniden ifade"
       }
     },
     {
@@ -15095,8 +15099,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Strategies for exam question types",
-        "tr": "Sınav soru tipi stratejileri"
+        "en": "YDS techniques: Strategies for exam question types",
+        "tr": "YDS Teknikleri: Sınav soru tipi stratejileri"
       }
     },
     {
@@ -15475,8 +15479,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Exam management and timing",
-        "tr": "Sınav yönetimi ve zaman"
+        "en": "YDS techniques: Exam management and timing",
+        "tr": "YDS Teknikleri: Sınav yönetimi ve zaman"
       }
     },
     {
@@ -16261,8 +16265,8 @@
         }
       ],
       "themeLocalized": {
-        "en": "Vocabulary learning techniques",
-        "tr": "Kelime öğrenme teknikleri"
+        "en": "YDS techniques: Vocabulary learning techniques",
+        "tr": "YDS Teknikleri: Kelime öğrenme teknikleri"
       }
     },
     {
@@ -16469,8 +16473,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Health & Medicine · 1",
-            "tr": "Sağlık ve tıp · 1"
+            "en": "Academic words: Health and medicine · 1",
+            "tr": "Akademik kelimeler: Sağlık ve tıp · 1"
           }
         },
         {
@@ -16672,8 +16676,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Health & Medicine · 2",
-            "tr": "Sağlık ve tıp · 2"
+            "en": "Academic words: Health and medicine · 2",
+            "tr": "Akademik kelimeler: Sağlık ve tıp · 2"
           }
         },
         {
@@ -16875,8 +16879,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Health & Medicine · 3",
-            "tr": "Sağlık ve tıp · 3"
+            "en": "Academic words: Health and medicine · 3",
+            "tr": "Akademik kelimeler: Sağlık ve tıp · 3"
           }
         },
         {
@@ -17078,8 +17082,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Health & Medicine · 4",
-            "tr": "Sağlık ve tıp · 4"
+            "en": "Academic words: Health and medicine · 4",
+            "tr": "Akademik kelimeler: Sağlık ve tıp · 4"
           }
         },
         {
@@ -17281,8 +17285,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Health & Medicine · 5",
-            "tr": "Sağlık ve tıp · 5"
+            "en": "Academic words: Health and medicine · 5",
+            "tr": "Akademik kelimeler: Sağlık ve tıp · 5"
           }
         },
         {
@@ -17484,14 +17488,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Health & Medicine · 6",
-            "tr": "Sağlık ve tıp · 6"
+            "en": "Academic words: Health and medicine · 6",
+            "tr": "Akademik kelimeler: Sağlık ve tıp · 6"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Health & Medicine",
-        "tr": "Sağlık ve tıp"
+        "en": "Academic words: Health and medicine",
+        "tr": "Akademik kelimeler: Sağlık ve tıp"
       }
     },
     {
@@ -17698,8 +17702,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Environment & Energy · 1",
-            "tr": "Çevre ve enerji · 1"
+            "en": "Academic words: Environment and energy · 1",
+            "tr": "Akademik kelimeler: Çevre ve enerji · 1"
           }
         },
         {
@@ -17901,8 +17905,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Environment & Energy · 2",
-            "tr": "Çevre ve enerji · 2"
+            "en": "Academic words: Environment and energy · 2",
+            "tr": "Akademik kelimeler: Çevre ve enerji · 2"
           }
         },
         {
@@ -18104,8 +18108,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Environment & Energy · 3",
-            "tr": "Çevre ve enerji · 3"
+            "en": "Academic words: Environment and energy · 3",
+            "tr": "Akademik kelimeler: Çevre ve enerji · 3"
           }
         },
         {
@@ -18307,8 +18311,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Environment & Energy · 4",
-            "tr": "Çevre ve enerji · 4"
+            "en": "Academic words: Environment and energy · 4",
+            "tr": "Akademik kelimeler: Çevre ve enerji · 4"
           }
         },
         {
@@ -18510,8 +18514,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Environment & Energy · 5",
-            "tr": "Çevre ve enerji · 5"
+            "en": "Academic words: Environment and energy · 5",
+            "tr": "Akademik kelimeler: Çevre ve enerji · 5"
           }
         },
         {
@@ -18713,14 +18717,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Environment & Energy · 6",
-            "tr": "Çevre ve enerji · 6"
+            "en": "Academic words: Environment and energy · 6",
+            "tr": "Akademik kelimeler: Çevre ve enerji · 6"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Environment & Energy",
-        "tr": "Çevre ve enerji"
+        "en": "Academic words: Environment and energy",
+        "tr": "Akademik kelimeler: Çevre ve enerji"
       }
     },
     {
@@ -18927,8 +18931,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Technology & Innovation · 1",
-            "tr": "Teknoloji ve inovasyon · 1"
+            "en": "Academic words: Technology · 1",
+            "tr": "Akademik kelimeler: Teknoloji · 1"
           }
         },
         {
@@ -19130,8 +19134,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Technology & Innovation · 2",
-            "tr": "Teknoloji ve inovasyon · 2"
+            "en": "Academic words: Technology · 2",
+            "tr": "Akademik kelimeler: Teknoloji · 2"
           }
         },
         {
@@ -19333,8 +19337,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Technology & Innovation · 3",
-            "tr": "Teknoloji ve inovasyon · 3"
+            "en": "Academic words: Technology · 3",
+            "tr": "Akademik kelimeler: Teknoloji · 3"
           }
         },
         {
@@ -19536,8 +19540,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Technology & Innovation · 4",
-            "tr": "Teknoloji ve inovasyon · 4"
+            "en": "Academic words: Technology · 4",
+            "tr": "Akademik kelimeler: Teknoloji · 4"
           }
         },
         {
@@ -19739,8 +19743,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Technology & Innovation · 5",
-            "tr": "Teknoloji ve inovasyon · 5"
+            "en": "Academic words: Technology · 5",
+            "tr": "Akademik kelimeler: Teknoloji · 5"
           }
         },
         {
@@ -19942,14 +19946,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Technology & Innovation · 6",
-            "tr": "Teknoloji ve inovasyon · 6"
+            "en": "Academic words: Technology · 6",
+            "tr": "Akademik kelimeler: Teknoloji · 6"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Technology & Innovation",
-        "tr": "Teknoloji ve inovasyon"
+        "en": "Academic words: Technology",
+        "tr": "Akademik kelimeler: Teknoloji"
       }
     },
     {
@@ -20156,8 +20160,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Education & Learning · 1",
-            "tr": "Eğitim ve öğrenme · 1"
+            "en": "Academic words: Education · 1",
+            "tr": "Akademik kelimeler: Eğitim · 1"
           }
         },
         {
@@ -20359,8 +20363,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Education & Learning · 2",
-            "tr": "Eğitim ve öğrenme · 2"
+            "en": "Academic words: Education · 2",
+            "tr": "Akademik kelimeler: Eğitim · 2"
           }
         },
         {
@@ -20562,8 +20566,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Education & Learning · 3",
-            "tr": "Eğitim ve öğrenme · 3"
+            "en": "Academic words: Education · 3",
+            "tr": "Akademik kelimeler: Eğitim · 3"
           }
         },
         {
@@ -20765,8 +20769,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Education & Learning · 4",
-            "tr": "Eğitim ve öğrenme · 4"
+            "en": "Academic words: Education · 4",
+            "tr": "Akademik kelimeler: Eğitim · 4"
           }
         },
         {
@@ -20968,8 +20972,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Education & Learning · 5",
-            "tr": "Eğitim ve öğrenme · 5"
+            "en": "Academic words: Education · 5",
+            "tr": "Akademik kelimeler: Eğitim · 5"
           }
         },
         {
@@ -21171,14 +21175,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Education & Learning · 6",
-            "tr": "Eğitim ve öğrenme · 6"
+            "en": "Academic words: Education · 6",
+            "tr": "Akademik kelimeler: Eğitim · 6"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Education & Learning",
-        "tr": "Eğitim ve öğrenme"
+        "en": "Academic words: Education",
+        "tr": "Akademik kelimeler: Eğitim"
       }
     },
     {
@@ -21385,8 +21389,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "History & Culture · 1",
-            "tr": "Tarih ve kültür · 1"
+            "en": "Academic words: History and culture · 1",
+            "tr": "Akademik kelimeler: Tarih ve kültür · 1"
           }
         },
         {
@@ -21588,8 +21592,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "History & Culture · 2",
-            "tr": "Tarih ve kültür · 2"
+            "en": "Academic words: History and culture · 2",
+            "tr": "Akademik kelimeler: Tarih ve kültür · 2"
           }
         },
         {
@@ -21791,8 +21795,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "History & Culture · 3",
-            "tr": "Tarih ve kültür · 3"
+            "en": "Academic words: History and culture · 3",
+            "tr": "Akademik kelimeler: Tarih ve kültür · 3"
           }
         },
         {
@@ -21994,8 +21998,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "History & Culture · 4",
-            "tr": "Tarih ve kültür · 4"
+            "en": "Academic words: History and culture · 4",
+            "tr": "Akademik kelimeler: Tarih ve kültür · 4"
           }
         },
         {
@@ -22197,8 +22201,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "History & Culture · 5",
-            "tr": "Tarih ve kültür · 5"
+            "en": "Academic words: History and culture · 5",
+            "tr": "Akademik kelimeler: Tarih ve kültür · 5"
           }
         },
         {
@@ -22400,14 +22404,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "History & Culture · 6",
-            "tr": "Tarih ve kültür · 6"
+            "en": "Academic words: History and culture · 6",
+            "tr": "Akademik kelimeler: Tarih ve kültür · 6"
           }
         }
       ],
       "themeLocalized": {
-        "en": "History & Culture",
-        "tr": "Tarih ve kültür"
+        "en": "Academic words: History and culture",
+        "tr": "Akademik kelimeler: Tarih ve kültür"
       }
     },
     {
@@ -22614,8 +22618,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Psychology & Behaviour · 1",
-            "tr": "Psikoloji ve davranış · 1"
+            "en": "Academic words: Psychology · 1",
+            "tr": "Akademik kelimeler: Psikoloji · 1"
           }
         },
         {
@@ -22817,8 +22821,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Psychology & Behaviour · 2",
-            "tr": "Psikoloji ve davranış · 2"
+            "en": "Academic words: Psychology · 2",
+            "tr": "Akademik kelimeler: Psikoloji · 2"
           }
         },
         {
@@ -23020,8 +23024,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Psychology & Behaviour · 3",
-            "tr": "Psikoloji ve davranış · 3"
+            "en": "Academic words: Psychology · 3",
+            "tr": "Akademik kelimeler: Psikoloji · 3"
           }
         },
         {
@@ -23223,8 +23227,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Psychology & Behaviour · 4",
-            "tr": "Psikoloji ve davranış · 4"
+            "en": "Academic words: Psychology · 4",
+            "tr": "Akademik kelimeler: Psikoloji · 4"
           }
         },
         {
@@ -23426,8 +23430,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Psychology & Behaviour · 5",
-            "tr": "Psikoloji ve davranış · 5"
+            "en": "Academic words: Psychology · 5",
+            "tr": "Akademik kelimeler: Psikoloji · 5"
           }
         },
         {
@@ -23629,14 +23633,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Psychology & Behaviour · 6",
-            "tr": "Psikoloji ve davranış · 6"
+            "en": "Academic words: Psychology · 6",
+            "tr": "Akademik kelimeler: Psikoloji · 6"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Psychology & Behaviour",
-        "tr": "Psikoloji ve davranış"
+        "en": "Academic words: Psychology",
+        "tr": "Akademik kelimeler: Psikoloji"
       }
     },
     {
@@ -23843,8 +23847,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Politics & Governance · 1",
-            "tr": "Siyaset ve yönetim · 1"
+            "en": "Academic words: Politics and government · 1",
+            "tr": "Akademik kelimeler: Siyaset ve yönetim · 1"
           }
         },
         {
@@ -24046,8 +24050,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Politics & Governance · 2",
-            "tr": "Siyaset ve yönetim · 2"
+            "en": "Academic words: Politics and government · 2",
+            "tr": "Akademik kelimeler: Siyaset ve yönetim · 2"
           }
         },
         {
@@ -24249,8 +24253,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Politics & Governance · 3",
-            "tr": "Siyaset ve yönetim · 3"
+            "en": "Academic words: Politics and government · 3",
+            "tr": "Akademik kelimeler: Siyaset ve yönetim · 3"
           }
         },
         {
@@ -24452,8 +24456,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Politics & Governance · 4",
-            "tr": "Siyaset ve yönetim · 4"
+            "en": "Academic words: Politics and government · 4",
+            "tr": "Akademik kelimeler: Siyaset ve yönetim · 4"
           }
         },
         {
@@ -24655,8 +24659,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Politics & Governance · 5",
-            "tr": "Siyaset ve yönetim · 5"
+            "en": "Academic words: Politics and government · 5",
+            "tr": "Akademik kelimeler: Siyaset ve yönetim · 5"
           }
         },
         {
@@ -24858,14 +24862,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Politics & Governance · 6",
-            "tr": "Siyaset ve yönetim · 6"
+            "en": "Academic words: Politics and government · 6",
+            "tr": "Akademik kelimeler: Siyaset ve yönetim · 6"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Politics & Governance",
-        "tr": "Siyaset ve yönetim"
+        "en": "Academic words: Politics and government",
+        "tr": "Akademik kelimeler: Siyaset ve yönetim"
       }
     },
     {
@@ -25072,8 +25076,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Media & Communication · 1",
-            "tr": "Medya ve iletişim · 1"
+            "en": "Academic words: Media and communication · 1",
+            "tr": "Akademik kelimeler: Medya ve iletişim · 1"
           }
         },
         {
@@ -25275,8 +25279,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Media & Communication · 2",
-            "tr": "Medya ve iletişim · 2"
+            "en": "Academic words: Media and communication · 2",
+            "tr": "Akademik kelimeler: Medya ve iletişim · 2"
           }
         },
         {
@@ -25478,8 +25482,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Media & Communication · 3",
-            "tr": "Medya ve iletişim · 3"
+            "en": "Academic words: Media and communication · 3",
+            "tr": "Akademik kelimeler: Medya ve iletişim · 3"
           }
         },
         {
@@ -25681,8 +25685,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Media & Communication · 4",
-            "tr": "Medya ve iletişim · 4"
+            "en": "Academic words: Media and communication · 4",
+            "tr": "Akademik kelimeler: Medya ve iletişim · 4"
           }
         },
         {
@@ -25884,8 +25888,8 @@
             }
           ],
           "titleLocalized": {
-            "en": "Media & Communication · 5",
-            "tr": "Medya ve iletişim · 5"
+            "en": "Academic words: Media and communication · 5",
+            "tr": "Akademik kelimeler: Medya ve iletişim · 5"
           }
         },
         {
@@ -26087,14 +26091,14 @@
             }
           ],
           "titleLocalized": {
-            "en": "Media & Communication · 6",
-            "tr": "Medya ve iletişim · 6"
+            "en": "Academic words: Media and communication · 6",
+            "tr": "Akademik kelimeler: Medya ve iletişim · 6"
           }
         }
       ],
       "themeLocalized": {
-        "en": "Media & Communication",
-        "tr": "Medya ve iletişim"
+        "en": "Academic words: Media and communication",
+        "tr": "Akademik kelimeler: Medya ve iletişim"
       }
     }
   ]

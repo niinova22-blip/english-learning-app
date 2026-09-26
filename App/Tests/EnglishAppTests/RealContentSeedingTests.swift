@@ -34,6 +34,11 @@ final class RealContentSeedingTests: XCTestCase {
         let words = business.units.flatMap { $0.lessons.flatMap(\.items) }.filter { $0.type == .vocabulary }
         XCTAssertEqual(words.count, 240)
         XCTAssertTrue(words.allSatisfy { $0.content?.translationTR == "" })
+        let everyday = try XCTUnwrap(packages.first { $0.id == "everyday-english-1" })
+        let grammar = everyday.units.flatMap(\.lessons).first { $0.id == "day-u01-grammar" }
+        let cards = try XCTUnwrap(grammar?.items.first?.content?.lessonCards)
+        XCTAssertEqual(cards.topics.first?.examples.count, 3)
+        XCTAssertEqual(cards.check.options.count, 3)
     }
 
     func test_seedAll_missingResource_isReportedAndDoesNotBlockTheOthers() throws {
@@ -65,7 +70,7 @@ final class RealContentSeedingTests: XCTestCase {
         let economyItem = allItems.first { $0.id == "yds-vocab1-item-economy" }
         XCTAssertEqual(economyItem?.content?.translationTR, "ekonomi")
 
-        XCTAssertEqual(package.version, 10)
+        XCTAssertEqual(package.version, 11)
         XCTAssertEqual(package.name(for: "en"), "YDS Prep")
         XCTAssertEqual(package.name(for: "tr"), "YDS Hazırlık")
         XCTAssertEqual(package.audience, "tr")
@@ -75,6 +80,9 @@ final class RealContentSeedingTests: XCTestCase {
         let scienceUnit = package.units.first { $0.id == "yds-vocab1-unit-science-research" }
         let secondLesson = scienceUnit?.lessons.first { $0.order == 1 }
         XCTAssertEqual(secondLesson?.title, "Science & Research Methods · 2")
+        XCTAssertEqual(secondLesson?.title(for: "tr"), "Akademik kelimeler: Bilim ve araştırma · 2")
+        XCTAssertEqual(scienceUnit?.theme(for: "en"), "Academic words: Science and research")
+        XCTAssertNotNil(package.intro(for: "tr"))
 
         XCTAssertEqual(package.units.flatMap(\.lessons).flatMap(\.questions).count, 701)
         XCTAssertEqual(package.units.flatMap(\.lessons).compactMap(\.passage).count, 15)

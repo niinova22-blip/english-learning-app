@@ -21,6 +21,7 @@ import os
 import re
 import sys
 
+from overlay_lib import OverlayError, apply_overlays, check_cross_package_titles, check_titles_domain
 from titles_lib import TitlesError, apply_titles
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -214,6 +215,11 @@ def assemble(package_id):
         doc = apply_titles(doc, os.path.join(ROOT, "content", package_id, "titles.json"))
     except TitlesError as e:
         fail(package_id, str(e))
+    try:
+        doc = apply_overlays(doc, os.path.join(ROOT, "content", package_id, "lessons"))
+        check_titles_domain(doc)
+    except OverlayError as e:
+        fail(package_id, str(e))
     return header["resource"], doc
 
 
@@ -223,15 +229,20 @@ def render(doc):
 
 def run(package_id, check):
     resource, doc = assemble(package_id)
+    _write(resource, doc, check)
+    return doc
+
+
+def _write(resource, doc, check):
     out = os.path.join(RES_DIR, resource + ".json")
     text = render(doc)
     words = sum(len(l["items"]) for u in doc["units"] for l in u["lessons"] if l["skill"] == "vocabulary")
     qs = sum(len(l.get("questions") or []) for u in doc["units"] for l in u["lessons"])
-    print(f"{package_id}: {len(doc['units'])} units, {words} words, {qs} questions -> {resource}.json")
+    print(f"{doc['id']}: {len(doc['units'])} units, {words} words, {qs} questions -> {resource}.json")
     if check:
         current = open(out, encoding="utf-8").read() if os.path.exists(out) else ""
         if current != text:
-            sys.exit(f"{out} is stale: run scripts/assemble-package.py {package_id}")
+            sys.exit(f"{out} is stale: run scripts/assemble-package.py {doc['id']}")
     else:
         with open(out, "w", encoding="utf-8", newline="\n") as f:
             f.write(text)
@@ -245,13 +256,18 @@ def main(argv):
                 check_unit(json.load(f), header["idPrefix"], set())
             print(f"{argv[2]}: OK")
         elif len(argv) >= 2 and argv[1] == "--all":
-            for p in sorted(glob.glob(os.path.join(ROOT, "content", "*", "package.json"))):
-                run(os.path.basename(os.path.dirname(p)), "--check" in argv)
+            docs = [run(os.path.basename(os.path.dirname(p)), "--check" in argv)
+                    for p in sorted(glob.glob(os.path.join(ROOT, "content", "*", "package.json")))]
+            # The YDS package has its own assembler; compare against its output.
+            yds = os.path.join(RES_DIR, "YDSAcademicVocabulary1.json")
+            with open(yds, encoding="utf-8") as f:
+                docs.append(json.load(f))
+            check_cross_package_titles(docs)
         elif len(argv) in (2, 3):
             run(argv[1], len(argv) == 3 and argv[2] == "--check")
         else:
             sys.exit(__doc__)
-    except LintError as e:
+    except (LintError, OverlayError) as e:
         sys.exit(f"LINT: {e}")
 
 
